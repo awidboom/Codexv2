@@ -1,0 +1,314 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\data\\permit_evaluations\\2026\\2026-708208-Phillips 66 Company__fid203581_nsr_708208_eval_1626-pdf.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 6
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "Emission\nRate\n(ton/yr)\nBenzene  71-43-2  7.2E-06 2.6E-02 6.3E-01 2.3E+02  0.115\nEthylbenzene  100-41-4 2.0E-06 9.9E-03 2.4E-01 8.7E+01  0.044\nToluene  108-88-3  1.9E-04 8.2E-01 2.0E+01  7.2E+03  3.590\nTPH -Gasoline   -- 6.4E-04 5.0E+00  1.2E+02  4.4E+04  22.103",
+        "Emission\nRate\n(ton/yr)\nBenzene  71-43-2  98.5%  4.0E-04 9.5E-03 3.5E+00  0.002\nEthylbenzene  100-41-4 98.5%  1.5E-04 3.6E-03 1.3E+00  0.001\nToluene  108-88-3  98.5%  1.2E-02 3.0E-01 1.1E+02  0.054\nTPH -Gasoline   -- 98.5%  7.6E-02 1.8E+00  6.6E+02  0.332",
+        "Trigger Level\n(lb/yr)  Exceeds Chronic\nTrigger Level?\nBenzene  71-43-2  3.5E+00  2.9E+00  Yes\nEthylbenzene  100-41-4 1.3E+00  3.3E+01  No\nToluene  108-88-3  1.1E+02  1.6E+04  No\nMTBE  1634 -04-4 2.0E-02 1.6E+02  No"
+      ]
+    },
+    "application_number_detected": "708208",
+    "application_number_from_filename": null
+  },
+  "application_number": "708208",
+  "plant": {
+    "name": "Phillips 66 Company",
+    "plant_id": 203581,
+    "address": "Millbrae, CA 94030"
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Soil Vapor Extraction (SVE) System  (two blowers in parallel)"
+    },
+    {
+      "id": "A-1",
+      "description": "Electric Catalytic Oxidizer"
+    }
+  ],
+  "background": {
+    "text": "Background\nound  \nAtlas on behalf of Phillips 66 Company has applied for an Authority to Construct  for the following  \nequipment : \n \nS-1 Soil Vapor Extraction (SVE) System  (two blowers in parallel)   \nBlower 1 - Make: Busch Mink Model: 1322 AV rotary 212 SCFM  \nBlower 2 - Make: Busch Mink Model: 1502  BP rotary  342 SCFM  \nMaximum : 300 CFM , Abated by: A -1, Electric Catalytic Oxidizer  \n \nA-1       Electric Catalytic Oxidizer  \n             Make: Solleco , Model: SRCO -250E CAT , 300 SCFM  \n \nThe applicant  has proposed  the installation of  the Soil Vapor Extraction (SVE)  system to remediate the soil \nunderneath the 76 Service Station No. 3676 at 5 El Camino Real in Millbrae . This is not within an  \nOverburdened Community (OBC) as defined in Regulation 2-1 -413 \n \nPhillips 66 Company has been directed by the San Mateo County Groundwater Protection Program \n(SMCGPP) to repair and restart the SVE to  complete remediation of soil and groundwater impacted by a \nformer leaking underground gasoline storage  tank at the subject site.  \n \nGHD Services Inc. last operated this SVE remediation system  under a Permit to Operate (PTO)  for Facility \nNo. 24445. In the fourth quarter of 2020, the equipment shut down due to mechanical issues and could not \nbe repaired. GHD terminated the facility . Therefore, Atlas applied for  a new P TO through Application No. \n708208.  \n \nThe system includes two  Busch Mink vacuum blowers in parallel , with a maximum outflow capacity of \n212 and 234 SCFM, respectively. However, the system's maximum outflow capacity will be limited to 300 \nSCFM  as agreed upon by the applicant . The emissions will be abated by an Electric Catalytic Oxidizer (A-\n1). The catalytic oxidation system can destroy  98.5% of VOCs  by weight . A-1 is powered by electricity \nand does not need  fuel to operate; combustion secondary emissions are not expected .  \n \nThe soil data used to calculate the VOC emissions below  is from the BC Laboratories analytical report \nperformed in the last quarter of 2020, provided by the applicant .  \n \nProcedures are outlined in the conditions found below.  The applicant will be required to provide written \nnotification at the start of the operation.  The applicant will be required to stay below the acute and chronic \ntrigger levels of Regulation 2 -5.  \n \n \n \n \n \n \n Application No. 708208   Plant No. 203581  \n2 \n Emission Calculations  \n \nMain  Emissions : SSD System -  VOCs  \nInitial s oil vapor data will be used to estimate precursor organic compound (POC), non- precursor organic \ncompound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the equipment can \noperate 24 hours a day, 365 days a year.  The following are assumptions used to estimate emissions.  \n• Operating conditions: Pressure = 1 Atm; Inlet Temperature = 21 oC; 1 mole occupies 24.15 Liters \n(or 386.8 ft3/lb-mol)  \n• Toxic Air Contaminants (TAC) emissions will be based on soil vapor data submitted with this \napplication  summarized in Table 1 of the submittal package.  \n• The organic influent flow rate of 300 scfm . \n• The system will be abated by an Electric Catalytic Oxidizer (A-1)  with an efficiency of 98.5% by \nweight . \n \nTable 1. SVE  System Unabated Emissions  for S -1 \nPollutant  CAS #  Unabated Emissions  \nInlet  Conc. \n(ug/m3)  Hourly \nEmission \nRate \n(lb/hr)  Daily \nEmission \nRate \n(lb/day)  Annual \nEmission \nRate \n(lb/yr)  Annual \nEmission \nRate \n(ton/yr)  \nBenzene  71-43-2  7.2E-06 2.6E-02 6.3E-01 2.3E+02  0.115  \nEthylbenzene  100-41-4 2.0E-06 9.9E-03 2.4E-01 8.7E+01  0.044  \nToluene  108-88-3  1.9E-04 8.2E-01 2.0E+01  7.2E+03  3.590  \nTPH -Gasoline   -- 6.4E-04 5.0E+00  1.2E+02  4.4E+04  22.103  \n       \n \nTable 2. SVE  System Abated Emissions for S -1 \nPollutant  CAS #  Abated Emissions  \nAbatement \nEfficiency \n(%) Hourly \nEmission \nRate \n(lb/hr)  Daily \nEmission \nRate \n(lb/day)  Annual \nEmission \nRate \n(lb/yr)  Annual \nEmission \nRate \n(ton/yr)  \nBenzene  71-43-2  98.5%  4.0E-04 9.5E-03 3.5E+00  0.002  \nEthylbenzene  100-41-4 98.5%  1.5E-04 3.6E-03 1.3E+00  0.001  \nToluene  108-88-3  98.5%  1.2E-02 3.0E-01 1.1E+02  0.054  \nTPH -Gasoline   -- 98.5%  7.6E-02 1.8E+00  6.6E+02  0.332  \n       \nNotes:  \n1. Influent  data for all compounds  was obtained from Samples in Table 1 of the application files . \nThis data w ill be used as the pre abatement  concentration.  \n2. Emissions will be abated by an electrical catalytic oxidizer, A -1. \n3. It is assumed that equipment will operate 24 hours a day, 365 days a year.  \n4. Benzene, Ethylbenzene and Toluene emissions were removed from the total TPH-Gasoline \nemissions to avoid duplicating them.  \n \nTable 3 summarizes organic compound emissions based on the data in Table 2,  considering an abatement \nefficiency of 9 8.5%. \n \n \n Application No. 708208   Plant No. 203581  \n3 \n Table 3.  Organic Emissions Review for S -1 – Based on TO -15 Analysis Results  \nPollutant  Effluent \nVolumetric \nConcentration  \n(ppmv)1 Hourly \nEmission \nRate \n(lb/hr)  Daily \nEmission \nRate \n(lb/day)  Annual \nEmission \nRate \n(lb/yr)  Annual \nEmission \nRate \n(ton/yr)  \nPOC  119 0.09 2.1 776 0.388 \nNPOC  0 0 0 0 0.000  \nTotal VOC  119 0.09 2.1 776 0.388 \nNotes:  \n1. POC and NPOC emissions are based on Table 2. Effluent volumetric concentrations are measured \nas methane.  \n5. TPH -Gasoline emissions are considered POC.  Benzene, Ethylbenzene and Toluene emissions \nwere removed from the total TPH -Gasoline emissions to avoid duplicating them.  \n2. Annual emissions will be rounded up and used as a limit in the permit conditions as follows: POC \n776 lb/yr . \n \nSecondary Emissions : Electric Catalytic Oxidizer  \nThe catalytic oxidizer is electrically powered, so no combustion -related products are expected. \nAdditionally, although catalytic oxidation of Chlorinated Volatile Organic Compounds (CVOCs) can \ngenerate secondary emissions, none are anticipated in this case  because no chlorinated compounds were \ndetected."
+  },
+  "emission_calculations": {
+    "text": ""
+  },
+  "cumulative_increase": {
+    "text": "Cumulative Increase\nse  \n \nTable 4.  Cumulative Increase  \nPollutant  Current Permitted \nEmissions, Post \n4/5/1991  \n(ton/yr)  Application New \nEmissions Increase  \n(ton/yr) New Cumulative \nIncrease  \n(ton/yr) \nPOC  0.000  0.388 0.388"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "Health Risk Assessment (HRA)\nA)  \nAt the given rates in Tables 5 and 6, the emissions exceed the chronic t rigger levels in Regulation 2 -5, Table \n2-5-1. Consequently,  the project is subject to a Health Risk Assessment (HRA).  \n \nThe site is a former gasoline dispensing facility (GDF); therefore, the soil is expected to be contaminated \nwith MTBE (Methyl tert-butyl ether ) in addition to the compounds listed in Table 1 and 2. MTBE was not \ndetected by the BS Laboratories sampling and analytical report. To be conservative to perform the Health \nRisk Assessment (HRA), 50%  of the detection limit was assumed  to calculate the emissions of the non-\ndetected compounds that are expected to be found in the former GDF. This assumption is based on the \nBAAQMD TAC Emission Factor Guidelines Document, Chapter 3.3 Source-Specific TAC Emission \nFactors. The detection limit was taken from the laboratory analysis report performed by BC Laboratories \nprovided by the applicant.  \n \n \nTable 5.  Project Acute Emissions Review - Regulation 2 -5 \nPollutant  CAS #  Hourly  \nEmission Rate  \n(lb/hr)  Acute  \nTrigger Level  \n(lb/hr)  Exceeds Acute \nTrigger Level?  \nBenzene  71-43-2  4.0E-04 1.2E-02 No \n Application No. 708208   Plant No. 203581  \n4 \n Table 5.  Project Acute Emissions Review - Regulation 2 -5 \nPollutant  CAS #  Hourly  \nEmission Rate  \n(lb/hr)  Acute  \nTrigger Level  \n(lb/hr)  Exceeds Acute \nTrigger Level?  \nEthylbenzene  100-41-4 1.5E-04 N/A No \nToluene  108-88-3  1.2E-02 2.2E+00  No \nMTBE  1634 -04-4 2.3E-06 N/A No \n \nTable 6.  Project Chronic Emissions Review - Regulation 2 -5 \nPollutant  CAS #  Annual  \nEmission Rate  \n(lb/yr)  Chronic  \nTrigger Level  \n(lb/yr)  Exceeds Chronic \nTrigger Level?  \nBenzene  71-43-2  3.5E+00  2.9E+00  Yes \nEthylbenzene  100-41-4 1.3E+00  3.3E+01  No \nToluene  108-88-3  1.1E+02  1.6E+04  No \nMTBE  1634 -04-4 2.0E-02 1.6E+02  No"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\nT)  \nIn accordance with Regulation 2-2 -301, Best Available Control Technology ( BACT ) is triggered for any \nnew or modified source with the potential to emit 10 pounds or more per highest day of POC, NPOC, \nnitrogen oxides (NO x), carbon monoxide (CO), sulfur dioxides (SO 2), particulate matter less than 10 \nmicrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). \n \nNPOC and POC emissions are expected to be below 10 lb/day for S -1.  Therefore, BACT is not required.  \n \nReasonably Achievable Control Technology (RACT)  \nIn accordance with Regulation 2-2 -102, Reasonably Achievable Control Technology (RACT) is required \nto control secondary emissions from abatement devices.  The electric catalytic oxidizer is not a source of \nsecondary emissions; t herefore , it does not require RACT.  \n \nCalifornia Environmental Quality Act ( CEQA)  \nThis project is classified as ministerial under the Air District Regulation 2 -1-311, because t he engineering \nreview for this project requires only the application of standard emission factors and established formulas \nas specified in Chapter 9.2 of the Air District’s Permit Handbook .  This project does not trigger BACT or \nTBACT and is not subject to the health risk assessment requirements of Regulation 2, Rule 5.  This review \nfollows objective procedures and applies standard permit conditions ; and therefore , the review of this \nproject is not discretionary as defined by CEQA.   Since this project is ministerial, it is not subject to CEQA \nreview requirement of Regulation 2- 1-310, and no further CEQA analysis is required.  \n \n Application No. 708208   Plant No. 203581  \n5 \n Compliance  \nThe equipment will be  operated within 1000 feet of the Mills High School, located at 400 Murchison Dr  \nMillbrae, CA 94030 . Therefore,  the project is  subject to the public notice  requirement of the California \nHealth & Safety Code and Regulation 2- 1-412.  \n \nPursuant to Regulation 8- 47-301, any soil vapor extraction operation that emits benzene, vinyl chloride, \ntetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a control device that  \nreduces emissions to the atmosphere by at least 90 percent by weight. The facility has proposed installing  \nan electric catalytic oxidizer  to reduce emissions with an efficiency of 98 .5% by weight . \n \nThe facility is required to keep the pertinent records per the conditions  below pursuant to Regulation 8-47-\n501. \n \nPrevention of Significant Deterioration ( PSD), New Source Performance Standards ( NSPS), and National \nEmission Standards for Hazardous Air Pollutants ( NESHAPS ) are not triggered."
+  },
+  "offsets": {
+    "narrative": "Offsets\nts  \nPursuant to Regulation 2- 2-302, offsets must be provided for any new or modified source at a facility that \nemits, or is permitted to emit, more than 10 tons per year of precursor organic compounds (POCs) or \nnitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2-2 -303 offsets must be provided for any new \nor modified source at a major facility with a cumulative increase that exceeds 1.0 ton per year of PM 10, \nPM 2.5, or sulfur dioxide (SO 2). \n \nThe facility is not expected to have a PTE greater than 10 tons per year of POC . Therefore, the requirements \nof Regulations 2-2 -302 and 2-2 -303 do not apply.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          2.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act ( CEQA)  \nThis project is classified as ministerial under the Air District Regulation 2 -1-311, because t he engineering \nreview for this project requires only the application of standard emission factors and established formulas \nas specified in Chapter 9.2 of the Air District’s Permit Handbook .  This project does not trigger BACT or \nTBACT and is not subject to the health risk assessment requirements of Regulation 2, Rule 5.  This review \nfollows objective procedures and applies standard permit conditions ; and therefore , the review of this \nproject is not discretionary as defined by CEQA.   Since this project is ministerial, it is not subject to CEQA \nreview requirement of Regulation 2- 1-310, and no further CEQA analysis is required.  \n \n Application No. 708208   Plant No. 203581  \n5"
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Compliance  \nThe equipment will be  operated within 1000 feet of the Mills High School, located at 400 Murchison Dr  \nMillbrae, CA 94030 . Therefore,  the project is  subject to the public notice  requirement of the California \nHealth & Safety Code and Regulation 2- 1-412.  \n \nPursuant to Regulation 8- 47-301, any soil vapor extraction operation that emits benzene, vinyl chloride, \ntetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a control device that  \nreduces emissions to the atmosphere by at least 90 percent by weight. The facility has proposed installing  \nan electric catalytic oxidizer  to reduce emissions with an efficiency of 98 .5% by weight . \n \nThe facility is required to keep the pertinent records per the conditions  below pursuant to Regulation 8-47-\n501. \n \nPrevention of Significant Deterioration ( PSD), New Source Performance Standards ( NSPS), and National \nEmission Standards for Hazardous Air Pollutants ( NESHAPS ) are not triggered."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "Permit Conditions\nns  \n \nPermit Condition #100809  for S-1 \n \n1. The influent vapor flow rate shall not exceed 300  scfm  from  the blower of S -1.  \n[Basis: Cumulative Increase, Regulation 2 -5].  \n \n2. Except for benzene, i n no event shall the total toxic air contaminant (TAC) emissions to the \natmosphere from S -1 exceed the trigger levels listed in District Regulation 2 -5, Table 2 -5-1.  [Basis: \nRegulations 8 -47-301 and 8-47-302 and Toxics].   \n \n3. In no event shall the benzene emissions to the atmosphere from S-1 exceed 3.5 pounds in  any  \nconsecutive 12-month period.   [Basis: Regulations 8 -47-301 and 8-47- 302 and Toxics].  \n \n4. The owner/operator shall not emit from S -1 more than 776  pounds of precursor organic compounds \n(POC) and non-precursor organic compounds (NPOC) in any consecutive  12-month period.  [Basis: \nCumulative Increase]  \n \n5. The owner/operator shall abate the precursor organic compound (POC)/non -precursor organic \ncompound (NPOC) emissions from S -1 with the Electric Catalytic Oxidizer (A -1) during all periods \nof operation maintaining a minimum operating temperature of 600 degrees Fahrenheit.  The Air \nDistrict may adjust this minimum temperature, if source test data demonstrates that an alternative \ntemperature is necessary for or capable of maintaining compliance with Part 2 of these conditions.  \n[Basis: Cumulative Increase;  Regu lations 8 -47-301 and 8-47- 302 and Regulation 2-5 ] \n \n6. The total organics (sum of POC and NPOC)  abatement efficiency of A-1 shall be maintained at a \nminimum of 9 8.5% by weight or a maximum outlet total organics (sum of POC and NPOC)   \nconcentration of 10  ppmv (measured as methane)  \n[Basis: Regulations 8 -47-301 and 8-47- 302 and Regulation 2-5].  \n \n7. To determine compliance with the temperature requirement in these permit conditions, the \nowner/operator shall equip A -1 with a temperature measuring device capable of continuously \nmeasuring and recording the temperature in A -1. The owner/operator shall col lect and maintain the \ntemperature data from the temperature recorder in a file which shall be available for District \n Application No. 708208   Plant No. 203581  \n6 \n inspection for a period of at least 2 years following the date on which such data is recorded. [Basis: \nRegulation 1- 523] \n \n8. Upon initial start-up, the owner/operator shall take air samples from S -1 for laboratory analysis \nusing EPA Method TO -15.  The air samples shall be taken at the following locations:   \n \na. At the inlet to the catalytic  oxidizer  \nb. At the outlet of the catalytic  oxidizer, prior to venting to the atmosphere  [Basis: Regulation \n2-1-403]  \n  \n9. The owner/operator shall use the results from the laboratory report to calculate the following:   \na. Organics (POC and NPOC) emissions to demonstrate compliance with Part 3 .  \nb. Organics (POC and NPOC) abatement efficiency or outlet Organics (POC and NPOC) \nconcentration of the SVE system (S -1) to demonstrate compliance with Part 5 .   \nc. TAC emissions emitted to the atmosphere, using the maximum permitted flow rate of the  \nSVE system (S -1).  \nThe owner/operator shall submit the laboratory report, abatement efficiency, outlet POC \nconcentration, and calculated POC, NPOC, TAC emissions within 21 days of the initial startup, to \ndemonstrate compliance with Parts 1 through 7 of this condition.    [Bas is: Regulation 2 -1-403, \nRegulation 2- 5].  \n \n10. The owner/operator shall maintain the following information for each month of operation:   \n  \na. Hours and time of operation.   \nb. Each emission test, analysis, or monitoring results logged in for the day of operation they \nwere taken.   \nc. Total throughput of soil vapor from source S -1 in standard cubic feet . \n  \nSuch records shall be retained and made available for inspection by the District for two (2) years \nfollowing the date the data is recorded.   [Basis: Recordkeeping]   \n  \n11. The owner/operator shall report any noncompliance with these conditions to the Compliance and \nEnforcement Division at the time that it is first discovered.  The owner/operator shall detail the \ncorrective action taken and include the data showing the exceed ance as well as the time of \noccurrence in the submittal.   [Basis: Regulation 2 -1-403]   \n  \n12. The owner/operator shall maintain a file containing all measurements, records and other data that \nare required to be collected pursuant to the various provisions of this condition.   All measurements, \nrecords and data required to be maintained by the operat or shall be retained for at least two (2) \nyears following the date the data is recorded.   [Basis: Regulation 1 -523]  \n  \n13. Upon final completion of the remediation project, the operator shall notify the Engineering Division \nwithin two weeks of decommissioning the operation.   [Basis: Regulation 2 -1-403]   \n \nEnd of Conditions  \n \n \n Application No. 708208   Plant No. 203581  \n7 \n Recommendation   \nThe Air District has reviewed the material contained in the permit application for the proposed project and \nhas made a preliminary determination that the project is expected to comply with all applicable \nrequirements of Air District, state, and federal air  quality -related regulations. The preliminary \nrecommendation is to issue an Authority to Construct for the equipment listed below. However, the \nproposed source will be located within 1000 ft of a K -12 school , which triggers the public notification \nrequirem ents of Regulation 2-1 -412. After the comments are received from the public and reviewed, the \nAir District will make a final determination on the permit. \n \nI recommend that the Air District initiate a public notice and consider any comments received prior to \ntaking any final action on issuance of an Authority to Construct and/or a Permit to Operate for the following \nequipment:    \n   \nS-1 Soil Vapor Extraction (SVE) System (two blowers in parallel)  \nBlower 1 - Make: Busch Mink Model: 1322 AV rotary 212 CFM  \nBlower 2 - Make: Busch Mink Model: 1502  BP rotary  342 CFM  \nMaximum: 300 CFM, Abated by: A -1, Electric Catalytic Oxidizer  \n \nA-1       Electric Catalytic Oxidizer  \n             Make: Solleco, Model: SRCO -250E CAT, 300 CFM  \nPermit Condition No. 100809  \n \nBy Isis Virrueta,  \nAir Quality  Engineer II \nNovember  2025"
+  },
+  "permit_conditions": {
+    "condition_number": 100809,
+    "items": [
+      {
+        "num": 1,
+        "text": "The influent vapor flow rate shall not exceed 300  scfm  from  the blower of S -1.  \n[",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 2 -5]."
+        ]
+      },
+      {
+        "num": 2,
+        "text": "Except for benzene, i n no event shall the total toxic air contaminant (TAC) emissions to the \natmosphere from S -1 exceed the trigger levels listed in District Regulation 2 -5, Table 2 -5-1.  [",
+        "basis": [
+          "Regulations 8 -47-301 and 8-47-302 and Toxics]."
+        ]
+      },
+      {
+        "num": 3,
+        "text": "In no event shall the benzene emissions to the atmosphere from S-1 exceed 3.5 pounds in  any  \nconsecutive 12-month period.   [",
+        "basis": [
+          "Regulations 8 -47-301 and 8-47- 302 and Toxics]."
+        ]
+      },
+      {
+        "num": 4,
+        "text": "The owner/operator shall not emit from S -1 more than 776  pounds of precursor organic compounds \n(POC) and non-precursor organic compounds (NPOC) in any consecutive  12-month period.  [",
+        "basis": [
+          "Cumulative Increase]"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "The owner/operator shall abate the precursor organic compound (POC)/non -precursor organic \ncompound (NPOC) emissions from S -1 with the Electric Catalytic Oxidizer (A -1) during all periods \nof operation maintaining a minimum operating temperature of 600 degrees Fahrenheit.  The Air \nDistrict may adjust this minimum temperature, if source test data demonstrates that an alternative \ntemperature is necessary for or capable of maintaining compliance with Part 2 of these conditions.  \n[",
+        "basis": [
+          "Cumulative Increase",
+          "Regu lations 8 -47-301 and 8-47- 302 and Regulation 2-5 ]"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "The total organics (sum of POC and NPOC)  abatement efficiency of A-1 shall be maintained at a \nminimum of 9 8.5% by weight or a maximum outlet total organics (sum of POC and NPOC)   \nconcentration of 10  ppmv (measured as methane)  \n[",
+        "basis": [
+          "Regulations 8 -47-301 and 8-47- 302 and Regulation 2-5]."
+        ]
+      },
+      {
+        "num": 7,
+        "text": "To determine compliance with the temperature requirement in these permit conditions, the \nowner/operator shall equip A -1 with a temperature measuring device capable of continuously \nmeasuring and recording the temperature in A -1. The owner/operator shall col lect and maintain the \ntemperature data from the temperature recorder in a file which shall be available for District \n Application No. 708208   Plant No. 203581  \n6 \n inspection for a period of at least 2 years following the date on which such data is recorded. [",
+        "basis": [
+          "Regulation 1- 523]"
+        ]
+      },
+      {
+        "num": 8,
+        "text": "Upon initial start-up, the owner/operator shall take air samples from S -1 for laboratory analysis \nusing EPA Method TO -15.  The air samples shall be taken at the following locations:   \n \na. At the inlet to the catalytic  oxidizer  \nb. At the outlet of the catalytic  oxidizer, prior to venting to the atmosphere  [",
+        "basis": [
+          "Regulation \n2-1-403]"
+        ]
+      },
+      {
+        "num": 9,
+        "text": "The owner/operator shall use the results from the laboratory report to calculate the following:   \na. Organics (POC and NPOC) emissions to demonstrate compliance with Part 3 .  \nb. Organics (POC and NPOC) abatement efficiency or outlet Organics (POC and NPOC) \nconcentration of the SVE system (S -1) to demonstrate compliance with Part 5 .   \nc. TAC emissions emitted to the atmosphere, using the maximum permitted flow rate of the  \nSVE system (S -1).  \nThe owner/operator shall submit the laboratory report, abatement efficiency, outlet POC \nconcentration, and calculated POC, NPOC, TAC emissions within 21 days of the initial startup, to \ndemonstrate compliance with Parts 1 through 7 of this condition.    [Bas is: Regulation 2 -1-403, \nRegulation 2- 5].",
+        "basis": []
+      },
+      {
+        "num": 10,
+        "text": "The owner/operator shall maintain the following information for each month of operation:   \n  \na. Hours and time of operation.   \nb. Each emission test, analysis, or monitoring results logged in for the day of operation they \nwere taken.   \nc. Total throughput of soil vapor from source S -1 in standard cubic feet . \n  \nSuch records shall be retained and made available for inspection by the District for two (2) years \nfollowing the date the data is recorded.   [",
+        "basis": [
+          "Recordkeeping]"
+        ]
+      },
+      {
+        "num": 11,
+        "text": "The owner/operator shall report any noncompliance with these conditions to the Compliance and \nEnforcement Division at the time that it is first discovered.  The owner/operator shall detail the \ncorrective action taken and include the data showing the exceed ance as well as the time of \noccurrence in the submittal.   [",
+        "basis": [
+          "Regulation 2 -1-403]"
+        ]
+      },
+      {
+        "num": 12,
+        "text": "The owner/operator shall maintain a file containing all measurements, records and other data that \nare required to be collected pursuant to the various provisions of this condition.   All measurements, \nrecords and data required to be maintained by the operat or shall be retained for at least two (2) \nyears following the date the data is recorded.   [",
+        "basis": [
+          "Regulation 1 -523]"
+        ]
+      },
+      {
+        "num": 13,
+        "text": "Upon final completion of the remediation project, the operator shall notify the Engineering Division \nwithin two weeks of decommissioning the operation.   [",
+        "basis": [
+          "Regulation 2 -1-403]   \n \nEnd of Conditions  \n \n \n Application No. 708208   Plant No. 203581  \n7 \n Recommendation   \nThe Air District has reviewed the material contained in the permit application for the proposed project and \nhas made a preliminary determination that the project is expected to comply with all applicable \nrequirements of Air District",
+          "state",
+          "and federal air  quality -related regulations. The preliminary \nrecommendation is to issue an Authority to Construct for the equipment listed below. However",
+          "the \nproposed source will be located within 1000 ft of a K -12 school",
+          "which triggers the public notification \nrequirem ents of Regulation 2-1 -412. After the comments are received from the public and reviewed",
+          "the \nAir District will make a final determination on the permit. \n \nI recommend that the Air District initiate a public notice and consider any comments received prior to \ntaking any final action on issuance of an Authority to Construct and/or a Permit to Operate for the following \nequipment:    \n   \nS-1 Soil Vapor Extraction (SVE) System (two blowers in parallel)  \nBlower 1 - Make: Busch Mink Model: 1322 AV rotary 212 CFM  \nBlower 2 - Make: Busch Mink Model: 1502  BP rotary  342 CFM  \nMaximum: 300 CFM",
+          "Abated by: A -1",
+          "Electric Catalytic Oxidizer  \n \nA-1       Electric Catalytic Oxidizer  \n             Make: Solleco",
+          "Model: SRCO -250E CAT",
+          "300 CFM  \nPermit Condition No. 100809  \n \nBy Isis Virrueta",
+          "Air Quality  Engineer II \nNovember  2025"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation   \nThe Air District has reviewed the material contained in the permit application for the proposed project and \nhas made a preliminary determination that the project is expected to comply with all applicable \nrequirements of Air District, state, and federal air  quality -related regulations. The preliminary \nrecommendation is to issue an Authority to Construct for the equipment listed below. However, the \nproposed source will be located within 1000 ft of a K -12 school , which triggers the public notification \nrequirem ents of Regulation 2-1 -412. After the comments are received from the public and reviewed, the \nAir District will make a final determination on the permit. \n \nI recommend that the Air District initiate a public notice and consider any comments received prior to \ntaking any final action on issuance of an Authority to Construct and/or a Permit to Operate for the following \nequipment:    \n   \nS-1 Soil Vapor Extraction (SVE) System (two blowers in parallel)  \nBlower 1 - Make: Busch Mink Model: 1322 AV rotary 212 CFM  \nBlower 2 - Make: Busch Mink Model: 1502  BP rotary  342 CFM  \nMaximum: 300 CFM, Abated by: A -1, Electric Catalytic Oxidizer  \n \nA-1       Electric Catalytic Oxidizer  \n             Make: Solleco, Model: SRCO -250E CAT, 300 CFM  \nPermit Condition No. 100809  \n \nBy Isis Virrueta,  \nAir Quality  Engineer II \nNovember  2025"
+  },
+  "raw_sections": {
+    "preamble": "DRAFT- Engineering Evaluation   \nPhillips 66 Company  \n5 El Camino Real, Millbrae, CA 94030 \nPlant No. 203581  \nApplication No. 708208",
+    "blocks": [
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nound  \nAtlas on behalf of Phillips 66 Company has applied for an Authority to Construct  for the following  \nequipment : \n \nS-1 Soil Vapor Extraction (SVE) System  (two blowers in parallel)   \nBlower 1 - Make: Busch Mink Model: 1322 AV rotary 212 SCFM  \nBlower 2 - Make: Busch Mink Model: 1502  BP rotary  342 SCFM  \nMaximum : 300 CFM , Abated by: A -1, Electric Catalytic Oxidizer  \n \nA-1       Electric Catalytic Oxidizer  \n             Make: Solleco , Model: SRCO -250E CAT , 300 SCFM  \n \nThe applicant  has proposed  the installation of  the Soil Vapor Extraction (SVE)  system to remediate the soil \nunderneath the 76 Service Station No. 3676 at 5 El Camino Real in Millbrae . This is not within an  \nOverburdened Community (OBC) as defined in Regulation 2-1 -413 \n \nPhillips 66 Company has been directed by the San Mateo County Groundwater Protection Program \n(SMCGPP) to repair and restart the SVE to  complete remediation of soil and groundwater impacted by a \nformer leaking underground gasoline storage  tank at the subject site.  \n \nGHD Services Inc. last operated this SVE remediation system  under a Permit to Operate (PTO)  for Facility \nNo. 24445. In the fourth quarter of 2020, the equipment shut down due to mechanical issues and could not \nbe repaired. GHD terminated the facility . Therefore, Atlas applied for  a new P TO through Application No. \n708208.  \n \nThe system includes two  Busch Mink vacuum blowers in parallel , with a maximum outflow capacity of \n212 and 234 SCFM, respectively. However, the system's maximum outflow capacity will be limited to 300 \nSCFM  as agreed upon by the applicant . The emissions will be abated by an Electric Catalytic Oxidizer (A-\n1). The catalytic oxidation system can destroy  98.5% of VOCs  by weight . A-1 is powered by electricity \nand does not need  fuel to operate; combustion secondary emissions are not expected .  \n \nThe soil data used to calculate the VOC emissions below  is from the BC Laboratories analytical report \nperformed in the last quarter of 2020, provided by the applicant .  \n \nProcedures are outlined in the conditions found below.  The applicant will be required to provide written \nnotification at the start of the operation.  The applicant will be required to stay below the acute and chronic \ntrigger levels of Regulation 2 -5.  \n \n \n \n \n \n \n Application No. 708208   Plant No. 203581  \n2 \n Emission Calculations  \n \nMain  Emissions : SSD System -  VOCs  \nInitial s oil vapor data will be used to estimate precursor organic compound (POC), non- precursor organic \ncompound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the equipment can \noperate 24 hours a day, 365 days a year.  The following are assumptions used to estimate emissions.  \n• Operating conditions: Pressure = 1 Atm; Inlet Temperature = 21 oC; 1 mole occupies 24.15 Liters \n(or 386.8 ft3/lb-mol)  \n• Toxic Air Contaminants (TAC) emissions will be based on soil vapor data submitted with this \napplication  summarized in Table 1 of the submittal package.  \n• The organic influent flow rate of 300 scfm . \n• The system will be abated by an Electric Catalytic Oxidizer (A-1)  with an efficiency of 98.5% by \nweight . \n \nTable 1. SVE  System Unabated Emissions  for S -1 \nPollutant  CAS #  Unabated Emissions  \nInlet  Conc. \n(ug/m3)  Hourly \nEmission \nRate \n(lb/hr)  Daily \nEmission \nRate \n(lb/day)  Annual \nEmission \nRate \n(lb/yr)  Annual \nEmission \nRate \n(ton/yr)  \nBenzene  71-43-2  7.2E-06 2.6E-02 6.3E-01 2.3E+02  0.115  \nEthylbenzene  100-41-4 2.0E-06 9.9E-03 2.4E-01 8.7E+01  0.044  \nToluene  108-88-3  1.9E-04 8.2E-01 2.0E+01  7.2E+03  3.590  \nTPH -Gasoline   -- 6.4E-04 5.0E+00  1.2E+02  4.4E+04  22.103  \n       \n \nTable 2. SVE  System Abated Emissions for S -1 \nPollutant  CAS #  Abated Emissions  \nAbatement \nEfficiency \n(%) Hourly \nEmission \nRate \n(lb/hr)  Daily \nEmission \nRate \n(lb/day)  Annual \nEmission \nRate \n(lb/yr)  Annual \nEmission \nRate \n(ton/yr)  \nBenzene  71-43-2  98.5%  4.0E-04 9.5E-03 3.5E+00  0.002  \nEthylbenzene  100-41-4 98.5%  1.5E-04 3.6E-03 1.3E+00  0.001  \nToluene  108-88-3  98.5%  1.2E-02 3.0E-01 1.1E+02  0.054  \nTPH -Gasoline   -- 98.5%  7.6E-02 1.8E+00  6.6E+02  0.332  \n       \nNotes:  \n1. Influent  data for all compounds  was obtained from Samples in Table 1 of the application files . \nThis data w ill be used as the pre abatement  concentration.  \n2. Emissions will be abated by an electrical catalytic oxidizer, A -1. \n3. It is assumed that equipment will operate 24 hours a day, 365 days a year.  \n4. Benzene, Ethylbenzene and Toluene emissions were removed from the total TPH-Gasoline \nemissions to avoid duplicating them.  \n \nTable 3 summarizes organic compound emissions based on the data in Table 2,  considering an abatement \nefficiency of 9 8.5%. \n \n \n Application No. 708208   Plant No. 203581  \n3 \n Table 3.  Organic Emissions Review for S -1 – Based on TO -15 Analysis Results  \nPollutant  Effluent \nVolumetric \nConcentration  \n(ppmv)1 Hourly \nEmission \nRate \n(lb/hr)  Daily \nEmission \nRate \n(lb/day)  Annual \nEmission \nRate \n(lb/yr)  Annual \nEmission \nRate \n(ton/yr)  \nPOC  119 0.09 2.1 776 0.388 \nNPOC  0 0 0 0 0.000  \nTotal VOC  119 0.09 2.1 776 0.388 \nNotes:  \n1. POC and NPOC emissions are based on Table 2. Effluent volumetric concentrations are measured \nas methane.  \n5. TPH -Gasoline emissions are considered POC.  Benzene, Ethylbenzene and Toluene emissions \nwere removed from the total TPH -Gasoline emissions to avoid duplicating them.  \n2. Annual emissions will be rounded up and used as a limit in the permit conditions as follows: POC \n776 lb/yr . \n \nSecondary Emissions : Electric Catalytic Oxidizer  \nThe catalytic oxidizer is electrically powered, so no combustion -related products are expected. \nAdditionally, although catalytic oxidation of Chlorinated Volatile Organic Compounds (CVOCs) can \ngenerate secondary emissions, none are anticipated in this case  because no chlorinated compounds were \ndetected."
+      },
+      {
+        "heading": "Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Cumulative Increase\nse  \n \nTable 4.  Cumulative Increase  \nPollutant  Current Permitted \nEmissions, Post \n4/5/1991  \n(ton/yr)  Application New \nEmissions Increase  \n(ton/yr) New Cumulative \nIncrease  \n(ton/yr) \nPOC  0.000  0.388 0.388"
+      },
+      {
+        "heading": "Health Risk Assessment (HRA)",
+        "alias": "TOXICS",
+        "text": "Health Risk Assessment (HRA)\nA)  \nAt the given rates in Tables 5 and 6, the emissions exceed the chronic t rigger levels in Regulation 2 -5, Table \n2-5-1. Consequently,  the project is subject to a Health Risk Assessment (HRA).  \n \nThe site is a former gasoline dispensing facility (GDF); therefore, the soil is expected to be contaminated \nwith MTBE (Methyl tert-butyl ether ) in addition to the compounds listed in Table 1 and 2. MTBE was not \ndetected by the BS Laboratories sampling and analytical report. To be conservative to perform the Health \nRisk Assessment (HRA), 50%  of the detection limit was assumed  to calculate the emissions of the non-\ndetected compounds that are expected to be found in the former GDF. This assumption is based on the \nBAAQMD TAC Emission Factor Guidelines Document, Chapter 3.3 Source-Specific TAC Emission \nFactors. The detection limit was taken from the laboratory analysis report performed by BC Laboratories \nprovided by the applicant.  \n \n \nTable 5.  Project Acute Emissions Review - Regulation 2 -5 \nPollutant  CAS #  Hourly  \nEmission Rate  \n(lb/hr)  Acute  \nTrigger Level  \n(lb/hr)  Exceeds Acute \nTrigger Level?  \nBenzene  71-43-2  4.0E-04 1.2E-02 No \n Application No. 708208   Plant No. 203581  \n4 \n Table 5.  Project Acute Emissions Review - Regulation 2 -5 \nPollutant  CAS #  Hourly  \nEmission Rate  \n(lb/hr)  Acute  \nTrigger Level  \n(lb/hr)  Exceeds Acute \nTrigger Level?  \nEthylbenzene  100-41-4 1.5E-04 N/A No \nToluene  108-88-3  1.2E-02 2.2E+00  No \nMTBE  1634 -04-4 2.3E-06 N/A No \n \nTable 6.  Project Chronic Emissions Review - Regulation 2 -5 \nPollutant  CAS #  Annual  \nEmission Rate  \n(lb/yr)  Chronic  \nTrigger Level  \n(lb/yr)  Exceeds Chronic \nTrigger Level?  \nBenzene  71-43-2  3.5E+00  2.9E+00  Yes \nEthylbenzene  100-41-4 1.3E+00  3.3E+01  No \nToluene  108-88-3  1.1E+02  1.6E+04  No \nMTBE  1634 -04-4 2.0E-02 1.6E+02  No"
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nts  \nPursuant to Regulation 2- 2-302, offsets must be provided for any new or modified source at a facility that \nemits, or is permitted to emit, more than 10 tons per year of precursor organic compounds (POCs) or \nnitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2-2 -303 offsets must be provided for any new \nor modified source at a major facility with a cumulative increase that exceeds 1.0 ton per year of PM 10, \nPM 2.5, or sulfur dioxide (SO 2). \n \nThe facility is not expected to have a PTE greater than 10 tons per year of POC . Therefore, the requirements \nof Regulations 2-2 -302 and 2-2 -303 do not apply."
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\nT)  \nIn accordance with Regulation 2-2 -301, Best Available Control Technology ( BACT ) is triggered for any \nnew or modified source with the potential to emit 10 pounds or more per highest day of POC, NPOC, \nnitrogen oxides (NO x), carbon monoxide (CO), sulfur dioxides (SO 2), particulate matter less than 10 \nmicrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). \n \nNPOC and POC emissions are expected to be below 10 lb/day for S -1.  Therefore, BACT is not required.  \n \nReasonably Achievable Control Technology (RACT)  \nIn accordance with Regulation 2-2 -102, Reasonably Achievable Control Technology (RACT) is required \nto control secondary emissions from abatement devices.  The electric catalytic oxidizer is not a source of \nsecondary emissions; t herefore , it does not require RACT.  \n \nCalifornia Environmental Quality Act ( CEQA)  \nThis project is classified as ministerial under the Air District Regulation 2 -1-311, because t he engineering \nreview for this project requires only the application of standard emission factors and established formulas \nas specified in Chapter 9.2 of the Air District’s Permit Handbook .  This project does not trigger BACT or \nTBACT and is not subject to the health risk assessment requirements of Regulation 2, Rule 5.  This review \nfollows objective procedures and applies standard permit conditions ; and therefore , the review of this \nproject is not discretionary as defined by CEQA.   Since this project is ministerial, it is not subject to CEQA \nreview requirement of Regulation 2- 1-310, and no further CEQA analysis is required.  \n \n Application No. 708208   Plant No. 203581  \n5 \n Compliance  \nThe equipment will be  operated within 1000 feet of the Mills High School, located at 400 Murchison Dr  \nMillbrae, CA 94030 . Therefore,  the project is  subject to the public notice  requirement of the California \nHealth & Safety Code and Regulation 2- 1-412.  \n \nPursuant to Regulation 8- 47-301, any soil vapor extraction operation that emits benzene, vinyl chloride, \ntetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a control device that  \nreduces emissions to the atmosphere by at least 90 percent by weight. The facility has proposed installing  \nan electric catalytic oxidizer  to reduce emissions with an efficiency of 98 .5% by weight . \n \nThe facility is required to keep the pertinent records per the conditions  below pursuant to Regulation 8-47-\n501. \n \nPrevention of Significant Deterioration ( PSD), New Source Performance Standards ( NSPS), and National \nEmission Standards for Hazardous Air Pollutants ( NESHAPS ) are not triggered."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nns  \n \nPermit Condition #100809  for S-1 \n \n1. The influent vapor flow rate shall not exceed 300  scfm  from  the blower of S -1.  \n[Basis: Cumulative Increase, Regulation 2 -5].  \n \n2. Except for benzene, i n no event shall the total toxic air contaminant (TAC) emissions to the \natmosphere from S -1 exceed the trigger levels listed in District Regulation 2 -5, Table 2 -5-1.  [Basis: \nRegulations 8 -47-301 and 8-47-302 and Toxics].   \n \n3. In no event shall the benzene emissions to the atmosphere from S-1 exceed 3.5 pounds in  any  \nconsecutive 12-month period.   [Basis: Regulations 8 -47-301 and 8-47- 302 and Toxics].  \n \n4. The owner/operator shall not emit from S -1 more than 776  pounds of precursor organic compounds \n(POC) and non-precursor organic compounds (NPOC) in any consecutive  12-month period.  [Basis: \nCumulative Increase]  \n \n5. The owner/operator shall abate the precursor organic compound (POC)/non -precursor organic \ncompound (NPOC) emissions from S -1 with the Electric Catalytic Oxidizer (A -1) during all periods \nof operation maintaining a minimum operating temperature of 600 degrees Fahrenheit.  The Air \nDistrict may adjust this minimum temperature, if source test data demonstrates that an alternative \ntemperature is necessary for or capable of maintaining compliance with Part 2 of these conditions.  \n[Basis: Cumulative Increase;  Regu lations 8 -47-301 and 8-47- 302 and Regulation 2-5 ] \n \n6. The total organics (sum of POC and NPOC)  abatement efficiency of A-1 shall be maintained at a \nminimum of 9 8.5% by weight or a maximum outlet total organics (sum of POC and NPOC)   \nconcentration of 10  ppmv (measured as methane)  \n[Basis: Regulations 8 -47-301 and 8-47- 302 and Regulation 2-5].  \n \n7. To determine compliance with the temperature requirement in these permit conditions, the \nowner/operator shall equip A -1 with a temperature measuring device capable of continuously \nmeasuring and recording the temperature in A -1. The owner/operator shall col lect and maintain the \ntemperature data from the temperature recorder in a file which shall be available for District \n Application No. 708208   Plant No. 203581  \n6 \n inspection for a period of at least 2 years following the date on which such data is recorded. [Basis: \nRegulation 1- 523] \n \n8. Upon initial start-up, the owner/operator shall take air samples from S -1 for laboratory analysis \nusing EPA Method TO -15.  The air samples shall be taken at the following locations:   \n \na. At the inlet to the catalytic  oxidizer  \nb. At the outlet of the catalytic  oxidizer, prior to venting to the atmosphere  [Basis: Regulation \n2-1-403]  \n  \n9. The owner/operator shall use the results from the laboratory report to calculate the following:   \na. Organics (POC and NPOC) emissions to demonstrate compliance with Part 3 .  \nb. Organics (POC and NPOC) abatement efficiency or outlet Organics (POC and NPOC) \nconcentration of the SVE system (S -1) to demonstrate compliance with Part 5 .   \nc. TAC emissions emitted to the atmosphere, using the maximum permitted flow rate of the  \nSVE system (S -1).  \nThe owner/operator shall submit the laboratory report, abatement efficiency, outlet POC \nconcentration, and calculated POC, NPOC, TAC emissions within 21 days of the initial startup, to \ndemonstrate compliance with Parts 1 through 7 of this condition.    [Bas is: Regulation 2 -1-403, \nRegulation 2- 5].  \n \n10. The owner/operator shall maintain the following information for each month of operation:   \n  \na. Hours and time of operation.   \nb. Each emission test, analysis, or monitoring results logged in for the day of operation they \nwere taken.   \nc. Total throughput of soil vapor from source S -1 in standard cubic feet . \n  \nSuch records shall be retained and made available for inspection by the District for two (2) years \nfollowing the date the data is recorded.   [Basis: Recordkeeping]   \n  \n11. The owner/operator shall report any noncompliance with these conditions to the Compliance and \nEnforcement Division at the time that it is first discovered.  The owner/operator shall detail the \ncorrective action taken and include the data showing the exceed ance as well as the time of \noccurrence in the submittal.   [Basis: Regulation 2 -1-403]   \n  \n12. The owner/operator shall maintain a file containing all measurements, records and other data that \nare required to be collected pursuant to the various provisions of this condition.   All measurements, \nrecords and data required to be maintained by the operat or shall be retained for at least two (2) \nyears following the date the data is recorded.   [Basis: Regulation 1 -523]  \n  \n13. Upon final completion of the remediation project, the operator shall notify the Engineering Division \nwithin two weeks of decommissioning the operation.   [Basis: Regulation 2 -1-403]   \n \nEnd of Conditions  \n \n \n Application No. 708208   Plant No. 203581  \n7 \n Recommendation   \nThe Air District has reviewed the material contained in the permit application for the proposed project and \nhas made a preliminary determination that the project is expected to comply with all applicable \nrequirements of Air District, state, and federal air  quality -related regulations. The preliminary \nrecommendation is to issue an Authority to Construct for the equipment listed below. However, the \nproposed source will be located within 1000 ft of a K -12 school , which triggers the public notification \nrequirem ents of Regulation 2-1 -412. After the comments are received from the public and reviewed, the \nAir District will make a final determination on the permit. \n \nI recommend that the Air District initiate a public notice and consider any comments received prior to \ntaking any final action on issuance of an Authority to Construct and/or a Permit to Operate for the following \nequipment:    \n   \nS-1 Soil Vapor Extraction (SVE) System (two blowers in parallel)  \nBlower 1 - Make: Busch Mink Model: 1322 AV rotary 212 CFM  \nBlower 2 - Make: Busch Mink Model: 1502  BP rotary  342 CFM  \nMaximum: 300 CFM, Abated by: A -1, Electric Catalytic Oxidizer  \n \nA-1       Electric Catalytic Oxidizer  \n             Make: Solleco, Model: SRCO -250E CAT, 300 CFM  \nPermit Condition No. 100809  \n \nBy Isis Virrueta,  \nAir Quality  Engineer II \nNovember  2025"
+      }
+    ],
+    "unmapped_blocks": []
+  }
+}

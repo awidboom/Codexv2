@@ -1,0 +1,1061 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\split_evals\\application_31305.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 13
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "(lbs/year)  Acute\nTrigger?  Chronic\nTrigger?\nSulfuric Acid  2.8E-05 1.2E-03 1.0E+01  2.6E-01 3.9E+01  No No\nPAH  1.1E-06 4.6E-05 4.1E-01 None  3.3E-03 No Yes\nAmmonia  1.4E-04 6.0E-03 5.3E+01  7.1E+00  7.7E+03  No No\n1,4-Dichlorobenzene(p)  1.2E-06 5.0E-05 4.4E-01 None  7.2E+00  No No\nAcetaldehyde  5.2E-05 2.2E-03 1.9E+01  1.0E+00  2.9E+01  No No",
+        "Arsenic  8.4E-07 3.5E-05 3.1E-01 4.4E-04 1.6E-03 No Yes\nBenzene  4.8E-05 2.0E-03 1.8E+01  6.0E-02 2.9E+00  No Yes\nBeryllium  1.5E-08 6.2E-07 5.4E-03 None  3.4E-02 No No\nCadmium  6.0E-07 2.5E-05 2.2E-01 None  1.9E-02 No Yes\nChromium (hexavalent)  1.3E-06 5.4E-05 4.7E-01 None  5.1E-04 No Yes\nCopper  5.7E-06 2.4E-04 2.1E+00  2.2E-01 None  No No\nCyanide  2.7E-06 1.1E-04 9.9E-01 7.5E-01 3.5E+02  No No\nEthyl benzene  1.8E-05 7.5E-04 6.6E+00  None  3.3E+01  No No\nFormaldehyde  9.9E-05 4.2E-03 3.7E+01  1.2E-01 1.4E+01  No Yes\nHexane  1.8E-03 7.6E-02 6.7E+02  None  2.7E+05  No No\nHydrochloric acid  8.1E-04 3.4E-02 3.0E+02  4.6E+00  3.5E+02  No No\nHydrogen sulfide  8.1E-05 3.4E-03 3.0E+01  9.3E-02 3.9E+02  No No\nLead  2.5E-06 1.0E-04 9.2E-01 None  2.9E-01 No Yes\nManganese  4.6E-06 2.0E-04 1.7E+00  None  3.5E+00  No No",
+        "Lead  2.5E-06 1.0E-04 9.2E-01 None  2.9E-01 No Yes\nManganese  4.6E-06 2.0E-04 1.7E+00  None  3.5E+00  No No\nMercury  2.4E-07 1.0E-05 8.9E-02 1.3E-03 2.1E-01 No No\nNaphthalene  4.7E-07 2.0E-05 1.8E-01 None  2.4E+00  No No\nNickel  5.0E-06 2.1E-04 1.8E+00  3.1E-05 3.1E-01 Yes Yes\nPhenol  4.6E-06 2.0E-04 1.7E+00  1.3E+01  7.7E+03  No No\nPropylene  2.1E-06 8.7E-05 7.6E-01 None  1.2E+05  No No\nSelenium  5.0E-06 2.1E-04 1.8E+00  None  8.0E+00  No No\nToluene  8.4E-05 3.5E-03 3.1E+01  8.2E+01  1.2E+04  No No\nVanadium  2.3E-06 9.7E-05 8.5E-01 3.6E-02 None  No No\nXylenes  4.2E-05 1.8E-03 1.5E+01  4.9E+01  2.7E+04  No No",
+        "Pollutant  Emission\nFactor  Units  Emission Factor Reference\nSulfuric Acid  2.8E-05 lbs/MMBtu  Eng. Estimate . SO 2 ->  SO 3 ->  H2SO 4\nPAH  1.1E-06 lbs/MMBtu  CATEF;  Sumproduct of PAHxPEF, excl. naphthalene\nAmmonia  1.4E-04 lbs/MMBtu  CATEF;  Mean Emission Factor\n1,4-Dichlorobenzene(p)  1.2E-06 lbs/MMBtu  AP-42, 1.4\nAcetaldehyde  5.2E-05 lbs/MMBtu  CATEF; Mean Emission Factor\nArsenic  8.4E-07 lbs/MMBtu  CATEF; Mean Emission Factor\nBenzene  4.8E-05 lbs/MMBtu  CATEF; Mean Emission Factor\nBeryllium  1.5E-08 lbs/MMBtu  CATEF; 1/2 Min Emission Factor\nCadmium  6.0E-07 lbs/MMBtu  CATEF; Mean Emission Factor\nChromium (hexavalent)  1.3E-06 lbs/MMBtu  CATEF; Mean Emission Factor\nCopper  5.7E-06 lbs/MMBtu  CATEF; Mean Emission Factor\nCyanide  2.7E-06 lbs/MMBtu  CATEF; 1/2 Min Emission Factor\nEthyl benzene  1.8E-05 lbs/MMBtu  CATEF; Mean Emission Factor\nFormaldehyde  9.9E-05 lbs/MMBtu  CATEF; Mean Emission Factor\nHexane  1.8E-03 lbs/MMBtu  EPA EEPPR Table 4 -3\nHydrochloric acid  8.1E-04 lbs/MMBtu  CATEF; Mean Emission Factor from Subcategory 1\nHydrogen sulfide  8.1E-05 lbs/MMBtu  CATEF; 1/2 Min Emission Factor\nLead  2.5E-06 lbs/MMBtu  CATEF; Mean Emission Factor\nManganese  4.6E-06 lbs/MMBtu  CATEF; Mean Emission Factor\nMercury  2.4E-07 lbs/MMBtu  CATEF; Mean Emission Factor\nNaphthalene  4.7E-07 lbs/MMBtu  CATEF; Mean Emission Factor\nNickel  5.0E-06 lbs/MMBtu  CATEF; Mean Emission Factor\nPhenol  4.6E-06 lbs/MMBtu  CATEF; Mean Emission Factor\nPropylene  2.1E-06 lbs/MMBtu  CATEF; 1/2 Min Emission Factor\nSelenium  5.0E-06 lbs/MMBtu  CATEF;  Mean Emission Factor\nToluene  8.4E-05 lbs/MMBtu  CATEF;  Mean Emission Factor\nVanadium  2.3E-06 lbs/MMBtu  EPA EEPPR Table 4 -3\nXylenes  4.2E-05 lbs/MMBtu  CATEF;  Mean Emission Factor"
+      ]
+    },
+    "application_number_detected": "22751",
+    "application_number_from_filename": "31305"
+  },
+  "application_number": "31305",
+  "plant": {
+    "name": "Tesoro Refining & Marketing Company LLC",
+    "plant_id": 14628,
+    "address": "Martinez, CA 94553"
+  },
+  "evaluation_date": "October 28, 2003",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "A-1584",
+      "description": "Trailer Mounted Combustor, 42.3 MMBtu/h our, John Zink, PECS Unit"
+    },
+    {
+      "id": "S-126",
+      "description": "LPG Truck Loading Rack (Exempt)"
+    },
+    {
+      "id": "S-127",
+      "description": "LPG Tank Car Loading Rack (Exempt)"
+    },
+    {
+      "id": "S-134",
+      "description": "Tank A -134, Recovered Oil,"
+    },
+    {
+      "id": "S-137",
+      "description": "Tank A -137, Fuel Oil #2, Waste Oil, Gasoline"
+    },
+    {
+      "id": "S-323",
+      "description": "Tank A -323, Fuel Oil, Jet ‘A’, Gasoline, Alkylate Gasoline Blending Components"
+    },
+    {
+      "id": "S-327",
+      "description": "Tank A -327, Caustic Waste"
+    },
+    {
+      "id": "S-432",
+      "description": "Tank A -432, Ethyl Alcohol, Distillate Oil, Gasoline, Naphtha"
+    },
+    {
+      "id": "S-532",
+      "description": "Oil Water Separator"
+    },
+    {
+      "id": "S-603",
+      "description": "Tank A -603, Organic Liquid – other/not Spec; #50 Unit Desalter Break Tank,"
+    },
+    {
+      "id": "S-613",
+      "description": "Tank A -613, Vapor Storage Tank"
+    },
+    {
+      "id": "S-656",
+      "description": "Tank A -846, Foul Water Stripper Charge Tank, Refinery Sour Waste Water"
+    },
+    {
+      "id": "S-658",
+      "description": "Tank A -847, Foul Water Stripper Charge Tank, Refinery Sour Waste Water"
+    },
+    {
+      "id": "S-699",
+      "description": "Tank A -690, Crude Oil"
+    },
+    {
+      "id": "S-714",
+      "description": "Tank A -714, Organic  Liquid – other/not Spec, Hydrocarbon Alkylation Spent Acid"
+    },
+    {
+      "id": "S-819",
+      "description": "API Oil -Water, Separator/Dissolved Nitrogen Flotation System , Abated by A -39 Thermal"
+    },
+    {
+      "id": "S-1025",
+      "description": "Bulk Plant; Bottom Loading Facilities"
+    },
+    {
+      "id": "S-1484",
+      "description": "Oil Water Separator; Pressure Vessel, 50 Unit Desalter Brine"
+    },
+    {
+      "id": "S-1496",
+      "description": "Tank A -876, Heavy reformate with pentanes, straight run heavy naphtha"
+    },
+    {
+      "id": "S-1554",
+      "description": "Tank A -943, High Sulfur Vacuum Gas Oil (HSVGO), Vacuum Gas Oil (VGO)"
+    },
+    {
+      "id": "S-1560",
+      "description": "Avon Wharf Berth No. 1A Marine Bulk Plant"
+    },
+    {
+      "id": "A-14",
+      "description": "vapor recovery system when refinery process heaters are out of service. A- 1584 will be assigned"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd  \n \nTesoro Refining & Marketing Company LLC , a wholly -owned  subsidiary of Marathon Petroleum \nCorporation  (collectively, “ Marathon ”), has applied  for an Authority to Construct/ Permit to Operate for the  \nfollowing  equipment : \n \nA-1584 Trailer Mounted Combustor, 42.3 MMBtu/h our, John Zink, PECS Unit  \n abating the following sources connected to  A-14 Vapor Recovery:  \nS-126 LPG Truck Loading Rack (Exempt)  \nS-127 LPG Tank Car Loading Rack (Exempt)  \nS-134 Tank A -134, Recovered Oil,  \nS-137 Tank A -137, Fuel Oil #2, Waste Oil, Gasoline  \nS-323 Tank A -323, Fuel Oil, Jet ‘A’, Gasoline, Alkylate Gasoline Blending Components  \nS-327 Tank A -327, Caustic Waste  \nS-432 Tank A -432, Ethyl Alcohol, Distillate Oil, Gasoline, Naphtha  \nS-532 Oil Water Separator  \nS-603 Tank A -603, Organic Liquid – other/not Spec; #50 Unit Desalter Break Tank,  \nS-613 Tank A -613, Vapor Storage Tank  \nS-656 Tank A -846, Foul Water Stripper Charge Tank, Refinery Sour Waste Water  \nS-658 Tank A -847, Foul Water Stripper Charge Tank, Refinery Sour Waste Water  \nS-699 Tank A -690, Crude Oil  \nS-714 Tank A -714, Organic  Liquid – other/not Spec, Hydrocarbon Alkylation Spent Acid \nS-819 API Oil -Water, Separator/Dissolved Nitrogen Flotation System , Abated by A -39 Thermal \n Oxidizer (A -14 Vapory Recovery as backup)  \nS-1025 Bulk Plant; Bottom Loading Facilities  \nS-1484 Oil Water Separator; Pressure Vessel, 50 Unit Desalter Brine \nS-1496 Tank A -876, Heavy reformate with pentanes, straight run heavy naphtha  \nS-1554 Tank A -943, High Sulfur Vacuum Gas Oil (HSVGO), Vacuum Gas Oil (VGO)  \nS-1560 Avon Wharf Berth No. 1A Marine Bulk Plant  \n Due to a rapid and significant decline in demand for transportation fuels following the onset of the COVID‐\n19 pandemic, Marathon  idled the Martinez refinery in April 2020. In August 2020, Marathon  announced its \nintent to convert the Martinez refinery to rene wable  fuels production. On September 30, 2020, Marathon  \nsubmitted to the Air District an application for an authority to construct that would authorize the alterations necessary to accomplish the conversion of the facility to renewable fuels production. While the Martinez \nrefinery is idled and is not currently processing crude oil to manufacture transportation fuels, certain \npermitted operations continue and have continued since petroleum refining operations were idled in April 2020. Specifically, the refin ery continues to conduct permitted activities, including loading and unloading \nof product, vapor recovery, wastewater treatment and flaring.  \n Finished petroleum products are received via ship through the Avon Wharf Berth 1A (S‐1560). Gasoline \nand diesel fuel are stored in various existing storage tanks. These products are loaded into trucks via the \nTruck Loading Rack (S‐1025). One of the compressors at No. 1 Gas Plant Vapor Recovery is operational to provide vacuum for the Vapor Recovery tanks and gasoline loading rack. The Waste Water System (S‐819, \nS‐830, S‐831, S‐842, and S‐1026) has remained online to eliminate toxics and pollutants prior to \ndischarging into Suisun Bay. Vapor recovery gases are captured by No. 1 Gas Plant and then sent to the \nflare system, normally sent to refinery process heaters (S-908, S -909, and S -912) to combust the recovered \n \ngas. Four flares East Air (S‐854), Emergency Flare (S‐992), West Air (S‐1012), the Coker Flare (S‐1517) \nare operational at this  time.  \n \nOn May 26, 2021, the Air District issued Notice of Violation Nos. A58276, A25275, A58274, A58273, \nA58272, and A56448 for continuous flaring  during refinery idling.  \n \nOn July 14, 2021, the Air District authorized the use of Envent’s Portable Thermal Oxidizer (Plant #16338, \nA-23, Permitted under Application No. 22751) at Marathon for the purpose of controlling vapors as \noutlined in Figure 1. Permit Condition #24839, Part 5, has a throughput limit of 249,000 therms  \n(24,500,000 cubic feet) of natural gas during any consecutive 12 -month period. \n \nMarathon is estimating that the throughput limit will be reached by November 5, 2021. As such, Marathon \nis proposing to obtain a permanent permit to operate Envent’s portable thermal oxidizer  connected to the \nA-14 vapor recovery system when refinery process heaters are out of service. A- 1584 will be assigned \nunder Plant #14628 for this thermal oxidizer.  \n In addition, gasoline bulk terminal emission limit for S -1025 in Permit Condition # 21849 , Part 11, will be \nupdated from 0.08 to 0.04 lbs per 1000 gallons to reflect current RACT standards  of Regulation 8 -33. S-\n1025 has not been modified and is not considered as a new source; therefore, it will remain as an alter source including changing or replacing the abatement device.  \n \nFigure 1 – Vapor Recovery Process Flow Diagram Using Envent’s Thermal Oxidizer \n \nEmis sions Calculation  \nPrimary Emissions (Process) : \nAs shown, in Table 1 , A-1584 is required to have a minimum control efficiency of 99.5% to comply with \nexisting permit conditions.  Per Application No. 22751, A -1584 was able to meet a hydrogen destruction \nefficiency of 99.9%. It is expected that A -1584 will meet the minimum control efficiency of 99.5% and \nPermit Condition #27543, Part 9  has been imposed to demonstrate compliance. Bec ause A -1584 is able to \nachieve the minimum control efficiency, there is no increase in process emissions from the sources abated by A- 1584.  \n  \n \n\n \nTable 1 – Minimum Control Efficiency for Sources abated by A -1584 \nS-# Control Efficiency (%)  Reference  \n126 None  n/a \n127 None  n/a \n134 95.0%  Permit Condition 21053, Part 6  \n137 95.0%  Permit Condition 21053, Part 6  \n323 99.5%  Permit Condition 21053, Part 3  \n327 95.0%  Regulation 8 , Rule 5 \n432 95.0%  Permit Condition 21053, Part 6  \n532 98.0%  Permit Condition 20099, Part 4  \n603 95.0%  Permit Condition 21053, Part 6  \n613 None  Part of S -1025 \n656 95.0%  Permit Condition 10696, Part 1  \n658 95.0%  Permit Condition 10696, Part 1  \n699 95.0%  Regulation 8 , Rule 5 \n714 98.0%  Permit Condition 8538, Part 2  \n819 95.0%  Regulation 8 , Rule 8 \n1025 None  Permit Condition 21849, Part 11  \nRegulation 8 , Rule 33; 0.04 lbs/ 1000 gallons loaded  \n1484 95.0%  Regulation 8 , Rule 8 \n1496 99.5%  Permit Condition 21100, Part 2  \n1554 99.5%  Permit Condition 25025, Part 3  \n1560  98.5%  Permit Condition 26406, Part 4  \n \nSecondary Emissions (Combustion of Refinery Fuel Ga s/Natural Ga s at A-1584):  \nTable 2 – Daily and Annual Secondary Emissions at A- 1584 \n Emission Factor  \n(lbs/MMBtu)  Daily Emissions \n(lbs/day)  Annual Emissions \n(lbs/year)  Annual Emissions \n(tons/year)  \nNO x 0.1 101.5  37,055 18.527 \nCO 0.074  75.1 27,421 13.710  \nSO 2 0.034  34.5 12,585 6.292  \nPM 10 0.0096  9.8 3,570 1.785  \nPM 2.5 0.0096  9.8 3,570 1.785  \nPOC  0.007  7.1 2,583 1.292  \n \nBasis:  \n• Maximum firing rate at 42.3 MMBtu/h our \n• Operating Schedule: 24 hours/day, 365 days/year  \n• NOx and CO emission factors are from vendor estimates and comply with thermal oxidizer RACT \nlevels of 0.2 lbs/MMBtu and 0.8 lbs/MMBtu for NOx and CO, respectively. (Air District Policy \ndated April 13, 1999).  \n• SO 2 emission factor is based on 162 ppm of H sS determined daily on a 365 successive calendar \nday rolling average basis ( 40 CFR  Subpart J). It is assumed that all H sS will be converted to SO 2.  \n• SO 2 lb/MMBtu = Total S ppm x MW SO 2 lb/lb-mol / MVC scf/lb -mol / HHV Btu/scf  \nSO 2 lb/MMBtu = 162 ppm x 64.01 lb/lb-mol / 387 scf/lb -mol / 789  Btu/scf  \n \n• Higher Heating Value ( HHV ) of refinery fuel gas is assumed to be 789  Btu/scf based on 1-year \naverage during refinery idling (August 2020 – July 2021) . Natural gas will be used as a \nsupplemental fuel with a HHV of 1020 Btu/scf, but it is more conservative to use a lower HHV.  \n• PM 10, PM 2.5, and POC emission factors are from EPA AP -42, Table 1.4 -2. \n \nTotal emissions from combustion of refinery fuel gas /natural gas  are not expected to increase as a result of \nthis project. During normal operation, recovered gasses are combusted at S -908, S -909, and S -912 with \nmaximum firing rates of 220 MMBtu/h our, 145 MMBtu/h our, and 135 MMBtu/hou r, respectively. A -1584 \nhas a maximum firing rate of 42.3 MMBtu/hour; therefore, the emissions from A -1584 should be no greater \nthan S -908, S -909, or S -912.  \n Total Emissions at A -1584 Outlet:  \nBecause the proposed activity  involves one abatement device abating multiple sources, i .e., one emission \npoint, there is a desire to quantify the potential to emit or a combined emission limit at the thermal oxidizer \noutlet fo r the purpose of source test ing/compliance demonstration.  \nTable 3 – Total Daily and Annual POC  Emissions at A-1584 Outlet by Source  \nSource \nNo. Max Daily"
+  },
+  "emission_calculations": {
+    "text": "Emissions\n(lbs/day)  AnnualEmissions\n(lbs/year)  References/Notes  \n126 0.0 0 Vapors are routed back to storage tanks; therefore, it is conservative \nto assume no emissions from this source for the purpose of \nestablishing a combined emission limit.  127 0.0 0 \n134 17.0 6,214 Application No. 7768  \n137 1.4 500 Application No. 12475  \n323 5.3 1,923 Application No. 10667  \n327 0.0 0 Emissions from this source is negligible; therefore, it is conservative \nto assume no emissions from this source for the purpose of \nestablishing a combined emission limit.  \n432 29.1 10,634 AP-42 Tanks Calculation  \n532 57.7 21,045 Application No. 6201  \n603 0.0 0 This tank has been reported as emptied and cleaned in 2020; \ntherefore, it is conservative to assume no emissions from this source \nfor the purpose of establishing a combined emission limit.  \n613 0.0 0 This is a bladder tank for truck loading rack and emission are part of \nS-1025; it is conservative to assume no emiss ions from this source \nfor the purpose of establishing a combined emission limit.  \n656 0.0 15 AP-42 Tanks Calculation  \n658 0.0 15 AP-42 Tanks Calculation  \n699 0.1 29 AP-42 Tanks Calculation  \n714 10.8 3,926 Application 16050 \n819 0.0 8 TOXCHEM  Wastewater Model  \n1025 108.3  31,273 Based on throughput limits (Permit Condition #21849, Part 9) and \nemission factor of 0.04 lbs/Mgal (Regulation 8, Rule 33).  \n1484 1.4 501 Application No. 4579 \n1496 24.3 8,869 Application No. 9728 \n1554 1.1 386 Application No. 22823 \n1560 513.0  40,000 Application No. 27990 \nA-1584  5.4 1,982.6  Table 2  \nTotal  774.8  127,320  \n \n \nThe total POC emissions in Table 3 are tabulated based on the potential to emit of each source. To ensure \nthe proposed thermal oxidizer is sized to handle the expected inlet gas flowrate  and that the total emissions \ncalculated in Table 3 are adequate for the thermal oxidizer, the following shows the emissions calculation \nbased on the thermal oxidizer maximum firing rate of 42.3 MMBtu/hour.  \n \n𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸  𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅  �𝑙𝑙𝑙𝑙𝐸𝐸\nℎ𝑟𝑟�=42.3 × 106𝐵𝐵𝑅𝑅𝐵𝐵\nℎ𝑟𝑟÷789𝐵𝐵𝑅𝑅𝐵𝐵\n𝐸𝐸𝑠𝑠𝑠𝑠×  20.23𝑙𝑙𝑙𝑙𝐸𝐸\n𝑙𝑙𝑙𝑙−𝐸𝐸𝐸𝐸𝑙𝑙÷387𝐸𝐸𝑠𝑠𝑠𝑠\n𝑙𝑙𝑙𝑙−𝐸𝐸𝐸𝐸𝑙𝑙×(100−99.5)\n100 \n \nBasis:  \n• Thermal  Oxidizer Max Firing Rate – 42.3 MMBtu/h our \n• Heating Input – 789 Btu/scf (August 2020 – July 2021) \n• Molecular Weight  of Fuel Gas – 20.23 lbs/lb -mole  \n• Molar Volume – 387 ft3/lb-mole  \n• Minimum control efficiency – 99.5% (Table 1)  \n \nAs shown in Table 4, the maximum emissions based on the thermal oxidizer maximum firing rate is lower than the total emissions from each source. Therefore, lower emission limits will be imposed in Permit \nCondition # 27543, Part 3. Although the total maximum emissions from each sour ce are greater  than what \nthe thermal oxidizer is capable of burning, sources are not expected to operate at full capacity and at the same time .  \n \nTable 4 – Total Daily and Annual POC Emissions at A- 1584 Outlet \n Max DailyEmissions\n(lbs/day)  AnnualEmissions\n(lbs/year)  \nMax Firing Rate  336.3  122,7 50 \nSum of PTE by Source  774.8  127,320Emissions\n(lbs/hour) AnnualEmissions\n(lbs/year) Acute  \nTrigger \nLevel \n(lbs/h our) Chronic  \nTrigger \nLevel \n(lbs/year)  Acute  \nTrigger?  Chronic  \nTrigger?  \nSulfuric Acid  2.8E-05 1.2E-03 1.0E+01  2.6E-01 3.9E+01  No No \nPAH  1.1E-06 4.6E-05 4.1E-01 None  3.3E-03 No Yes \nAmmonia  1.4E-04 6.0E-03 5.3E+01  7.1E+00  7.7E+03  No No \n1,4-Dichlorobenzene(p)  1.2E-06 5.0E-05 4.4E-01 None  7.2E+00  No No \nAcetaldehyde  5.2E-05 2.2E-03 1.9E+01  1.0E+00  2.9E+01  No No \nArsenic  8.4E-07 3.5E-05 3.1E-01 4.4E-04 1.6E-03 No Yes \nBenzene  4.8E-05 2.0E-03 1.8E+01  6.0E-02 2.9E+00  No Yes \nBeryllium  1.5E-08 6.2E-07 5.4E-03 None  3.4E-02 No No \nCadmium  6.0E-07 2.5E-05 2.2E-01 None  1.9E-02 No Yes \nChromium (hexavalent)  1.3E-06 5.4E-05 4.7E-01 None  5.1E-04 No Yes \nCopper  5.7E-06 2.4E-04 2.1E+00  2.2E-01 None  No No \nCyanide  2.7E-06 1.1E-04 9.9E-01 7.5E-01 3.5E+02  No No \nEthyl benzene  1.8E-05 7.5E-04 6.6E+00  None  3.3E+01  No No \nFormaldehyde  9.9E-05 4.2E-03 3.7E+01  1.2E-01 1.4E+01  No Yes \nHexane  1.8E-03 7.6E-02 6.7E+02  None  2.7E+05  No No \nHydrochloric acid  8.1E-04 3.4E-02 3.0E+02  4.6E+00  3.5E+02  No No \nHydrogen sulfide  8.1E-05 3.4E-03 3.0E+01  9.3E-02 3.9E+02  No No \nLead  2.5E-06 1.0E-04 9.2E-01 None  2.9E-01 No Yes \nManganese  4.6E-06 2.0E-04 1.7E+00  None  3.5E+00  No No \nMercury  2.4E-07 1.0E-05 8.9E-02 1.3E-03 2.1E-01 No No \nNaphthalene  4.7E-07 2.0E-05 1.8E-01 None  2.4E+00  No No \nNickel  5.0E-06 2.1E-04 1.8E+00  3.1E-05 3.1E-01 Yes Yes \nPhenol  4.6E-06 2.0E-04 1.7E+00  1.3E+01  7.7E+03  No No \nPropylene  2.1E-06 8.7E-05 7.6E-01 None  1.2E+05  No No \nSelenium  5.0E-06 2.1E-04 1.8E+00  None  8.0E+00  No No \nToluene  8.4E-05 3.5E-03 3.1E+01  8.2E+01  1.2E+04  No No \nVanadium  2.3E-06 9.7E-05 8.5E-01 3.6E-02 None  No No \nXylenes  4.2E-05 1.8E-03 1.5E+01  4.9E+01  2.7E+04  No No \nNote(s):  \n1. See Appendix A for details."
+  },
+  "cumulative_increase": {
+    "text": "Cumulative Increase\nse  \nThis project does not result in an emission increase; therefore, cumulative increase in not applicable.  \n \nToxic Screening Analysis  \nA Health Risk Assessment (HRA) is required when the emissions of toxic air contaminants (TACs) are at \nor exceed the trigger levels outlined in Regulation 2, Rule 5, Table 2 -5-1. \n \nAs shown in Table 5, emissions of TACs from the combustion of refinery fuel gas at A -1584 exceed one or \nmore trigger levels outlined in Regulation 2, Rule 5, Table 2 -5-1. Although A -1584 will only operate in \nlieu of S -908, S -909, and S -912, the Air District does not allow netting out of HRA requirements. \nTherefore, an HRA is required.  \n \nBase d on the TAC emission rates, this project passed the HRA conducted on October 28, 2021 by the Air \nDistrict’s Permitting  & Toxics Section. Results from the HRA indicate that the maximum cancer risk is \n0.35 in a million, the maximum chronic hazard index is 0 .0035, and the acute hazard index is 0.0031. This \ncomplies with the Regulation 2 -5-302 project risk requirements. The TBACT requirement of Regulation 2 -\n5-301 is not triggered for this application.  \n \n  \n \n \nTable 5. Toxic Air Contaminant Emissions  at A-1584 \nPollutant  Emission \nFactor1 \n(lbs/MMBtu)  Hourly"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emissions\n(lbs/day)  AnnualEmissions\n(lbs/year)  References/Notes  \n126 0.0 0 Vapors are routed back to storage tanks; therefore, it is conservative \nto assume no emissions from this source for the purpose of \nestablishing a combined emission limit.  127 0.0 0 \n134 17.0 6,214 Application No. 7768  \n137 1.4 500 Application No. 12475  \n323 5.3 1,923 Application No. 10667  \n327 0.0 0 Emissions from this source is negligible; therefore, it is conservative \nto assume no emissions from this source for the purpose of \nestablishing a combined emission limit.  \n432 29.1 10,634 AP-42 Tanks Calculation  \n532 57.7 21,045 Application No. 6201  \n603 0.0 0 This tank has been reported as emptied and cleaned in 2020; \ntherefore, it is conservative to assume no emissions from this source \nfor the purpose of establishing a combined emission limit.  \n613 0.0 0 This is a bladder tank for truck loading rack and emission are part of \nS-1025; it is conservative to assume no emiss ions from this source \nfor the purpose of establishing a combined emission limit.  \n656 0.0 15 AP-42 Tanks Calculation  \n658 0.0 15 AP-42 Tanks Calculation  \n699 0.1 29 AP-42 Tanks Calculation  \n714 10.8 3,926 Application 16050 \n819 0.0 8 TOXCHEM  Wastewater Model  \n1025 108.3  31,273 Based on throughput limits (Permit Condition #21849, Part 9) and \nemission factor of 0.04 lbs/Mgal (Regulation 8, Rule 33).  \n1484 1.4 501 Application No. 4579 \n1496 24.3 8,869 Application No. 9728 \n1554 1.1 386 Application No. 22823 \n1560 513.0  40,000 Application No. 27990 \nA-1584  5.4 1,982.6  Table 2  \nTotal  774.8  127,320  \n \n \nThe total POC emissions in Table 3 are tabulated based on the potential to emit of each source. To ensure \nthe proposed thermal oxidizer is sized to handle the expected inlet gas flowrate  and that the total emissions \ncalculated in Table 3 are adequate for the thermal oxidizer, the following shows the emissions calculation \nbased on the thermal oxidizer maximum firing rate of 42.3 MMBtu/hour.  \n \n𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸  𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅  �𝑙𝑙𝑙𝑙𝐸𝐸\nℎ𝑟𝑟�=42.3 × 106𝐵𝐵𝑅𝑅𝐵𝐵\nℎ𝑟𝑟÷789𝐵𝐵𝑅𝑅𝐵𝐵\n𝐸𝐸𝑠𝑠𝑠𝑠×  20.23𝑙𝑙𝑙𝑙𝐸𝐸\n𝑙𝑙𝑙𝑙−𝐸𝐸𝐸𝐸𝑙𝑙÷387𝐸𝐸𝑠𝑠𝑠𝑠\n𝑙𝑙𝑙𝑙−𝐸𝐸𝐸𝐸𝑙𝑙×(100−99.5)\n100 \n \nBasis:  \n• Thermal  Oxidizer Max Firing Rate – 42.3 MMBtu/h our \n• Heating Input – 789 Btu/scf (August 2020 – July 2021) \n• Molecular Weight  of Fuel Gas – 20.23 lbs/lb -mole  \n• Molar Volume – 387 ft3/lb-mole  \n• Minimum control efficiency – 99.5% (Table 1)  \n \nAs shown in Table 4, the maximum emissions based on the thermal oxidizer maximum firing rate is lower than the total emissions from each source. Therefore, lower emission limits will be imposed in Permit \nCondition # 27543, Part 3. Although the total maximum emissions from each sour ce are greater  than what \nthe thermal oxidizer is capable of burning, sources are not expected to operate at full capacity and at the same time .  \n \nTable 4 – Total Daily and Annual POC Emissions at A- 1584 Outlet \n Max DailyEmissions\n(lbs/day)  AnnualEmissions\n(lbs/year)  \nMax Firing Rate  336.3  122,7 50 \nSum of PTE by Source  774.8  127,320Emissions\n(lbs/hour) AnnualEmissions\n(lbs/year) Acute  \nTrigger \nLevel \n(lbs/h our) Chronic  \nTrigger \nLevel \n(lbs/year)  Acute  \nTrigger?  Chronic  \nTrigger?  \nSulfuric Acid  2.8E-05 1.2E-03 1.0E+01  2.6E-01 3.9E+01  No No \nPAH  1.1E-06 4.6E-05 4.1E-01 None  3.3E-03 No Yes \nAmmonia  1.4E-04 6.0E-03 5.3E+01  7.1E+00  7.7E+03  No No \n1,4-Dichlorobenzene(p)  1.2E-06 5.0E-05 4.4E-01 None  7.2E+00  No No \nAcetaldehyde  5.2E-05 2.2E-03 1.9E+01  1.0E+00  2.9E+01  No No \nArsenic  8.4E-07 3.5E-05 3.1E-01 4.4E-04 1.6E-03 No Yes \nBenzene  4.8E-05 2.0E-03 1.8E+01  6.0E-02 2.9E+00  No Yes \nBeryllium  1.5E-08 6.2E-07 5.4E-03 None  3.4E-02 No No \nCadmium  6.0E-07 2.5E-05 2.2E-01 None  1.9E-02 No Yes \nChromium (hexavalent)  1.3E-06 5.4E-05 4.7E-01 None  5.1E-04 No Yes \nCopper  5.7E-06 2.4E-04 2.1E+00  2.2E-01 None  No No \nCyanide  2.7E-06 1.1E-04 9.9E-01 7.5E-01 3.5E+02  No No \nEthyl benzene  1.8E-05 7.5E-04 6.6E+00  None  3.3E+01  No No \nFormaldehyde  9.9E-05 4.2E-03 3.7E+01  1.2E-01 1.4E+01  No Yes \nHexane  1.8E-03 7.6E-02 6.7E+02  None  2.7E+05  No No \nHydrochloric acid  8.1E-04 3.4E-02 3.0E+02  4.6E+00  3.5E+02  No No \nHydrogen sulfide  8.1E-05 3.4E-03 3.0E+01  9.3E-02 3.9E+02  No No \nLead  2.5E-06 1.0E-04 9.2E-01 None  2.9E-01 No Yes \nManganese  4.6E-06 2.0E-04 1.7E+00  None  3.5E+00  No No \nMercury  2.4E-07 1.0E-05 8.9E-02 1.3E-03 2.1E-01 No No \nNaphthalene  4.7E-07 2.0E-05 1.8E-01 None  2.4E+00  No No \nNickel  5.0E-06 2.1E-04 1.8E+00  3.1E-05 3.1E-01 Yes Yes \nPhenol  4.6E-06 2.0E-04 1.7E+00  1.3E+01  7.7E+03  No No \nPropylene  2.1E-06 8.7E-05 7.6E-01 None  1.2E+05  No No \nSelenium  5.0E-06 2.1E-04 1.8E+00  None  8.0E+00  No No \nToluene  8.4E-05 3.5E-03 3.1E+01  8.2E+01  1.2E+04  No No \nVanadium  2.3E-06 9.7E-05 8.5E-01 3.6E-02 None  No No \nXylenes  4.2E-05 1.8E-03 1.5E+01  4.9E+01  2.7E+04  No No \nNote(s):  \n1. See Appendix A for details.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "A-1584": {
+        "narrative": "A-1584  5.4 1,982.6  Table 2",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-126": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-127": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-134": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-137": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-323": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-327": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-432": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-532": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-603": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-613": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-656": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-658": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-699": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-714": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-819": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1025": {
+        "narrative": "S-1025; it is conservative to assume no emiss ions from this source",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1484": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1496": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1554": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1560": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-14": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": ""
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\nT)  \nPer Regulation 2 -2-301, BACT is triggered for any new or modified source with the potential to emit 10 \npounds or more per highest day of POC, NPOC, NOx, CO, SO 2, PM 10 or PM 2.5. \n \nAs described in the emissions calculation section, there is no increase in emissions, therefore, BACT is not \ntriggered.  \n As shown in Table 2, A -1584 has a potential to emit one or more criteria pollutant in an amount of 10.0 or \nmore pounds on any day; however, A- 1584 is exempt from BACT requirements per Regulation 2 -2-102. \nAs shown below, A- 1584 is being used to control  odors from sources , to comply with BACT requirements \nfor sources subject to BACT, and to comply with Air District Rules.  Best Available Retrofit Control \n \nTechnology (BARCT)  is defined in Section 40406 of the  California Health and Safety Code as an emission \nlimitation that  is based on the maximum degree of reduction achievable, taking into account  environmental, \nenergy, and economic impacts by each class or category of source. During the rule development process, \nAir District staff proposes an emission level to t he Board based on a level that can be achieved by means of \na technology or best practices, or other means which considers environmental benefits (emissions reductions) and impact (CEQA analyses); energy (also evaluated under CEQA); and economic impacts (cost, cost effectiveness, incremental cost effectiveness, and socioeconomic impacts ), all of which the \nBoard considers when adopting a proposed rule or amendments to a rule.  Therefore, all Air District Rules \nare considered BARCT Rules. In addition, Air District Rules referenced below have a rule stringency of \nBARCT on the California Air Resources Board website. As such, A -1584 is an abatement device used to \ncomply with BACT and BARCT requirements and meets the exemption requirements per Regulation 2 -2-\n102. \n \nTable 6. BACT and BARCT Applicability  \nS-# BACT \nApplicability  BARCT Rule \nApplicability  Reference(s)/Note(s)  \n126 No No Odor Management  \n127 No No Odor Management  \n134 Yes Yes Regulation 8, Rule 5  \nApplication No. 7768  \n137 Yes Yes Regulation 8, Rule 5  \nApplication No. 12475  \n323 No Yes Regulation 8, Rule 5  \nApplication No. 25142  \n327 No No Odor Management  \n432 No Yes Regulation 8, Rule 5  \nApplication No. 2253  \n532 Yes Yes Regulation 8, Rule 8  \nApplication 6201  \n603 No Yes Regulation 8, Rule 5  \n613 No Yes Regulation 8, Rule 33  \nApplication No. 10668  \n656 No Yes Regulation 8, Rule 5  \n658 No Yes Regulation 8, Rule 5  \n699 No Yes Regulation 8, Rule 5  \nRegulation 8, Rule 8  \n714 Yes Yes Regulation 8, Rule 5  \nApplication No. 16050  \n819 No Yes Regulation 8, Rule 8  \nApplication No. 8592  \n1025  No Yes Regulation 8, Rule 33  \nApplication No. 10668  \n1484  No Yes Regulation 8, Rule 8  \nApplication No. 4579  \n1496  No Yes Regulation 8, Rule 5  \nApplication No. 8002  \n1554  No Yes Regulation 8, Rule 5  \nApplication No. 22823  \n1560  Yes Yes Regulation 8, Rule 44  \nApplication No. 27990  \n \nInstead, A -1584 is required to meet Reasonably Available Control Technology (RACT) for control of \nemissions of such pollutants.  \n \n \nA-1584 complies with RACT levels of 0.2 lbs/MMBtu and 0.8 lbs/MMBtu for NOx and CO, respectively. \n(Air District Policy dated April 13, 1999)."
+  },
+  "offsets": {
+    "narrative": "Offsets\nts  \nThis project does not result in an emission increase; therefore, offsets are not required per Regulation 2 -2-\n303. \n \nStatement of C ompliance  \n \nAir District Regulations  \nThe owner/operator of abatement device A-1584  and abated sources  is expected to continue to comply with \nthe following Air District Regulations : \n   Regulation 8, Rule 5, “Storage of Organic Liquids”  \n Regulation 8, Rule 6, “Terminals and Bulk Plants”  \n Regulation 8, Rule 8, “Wastewater  (Oil Water) Separators”  \n Regulation 8, Rule 33, “Gasoline Bulk Terminals and Gasoline Delivery Vehicles”  \n Regulation 8, Rule 44, “Marine Vessel Loading Terminals”   \n \nStorage tanks S-134, S-137, S-323, S-432, S-603, S-656, S-658, S-699, S-714, S-1496 , and S- 1554  are \nsubject to an abatement efficiency of at least 95% per Regulation 8 -5-306. A- 1584 is expected to achieve a \nminimum control efficiency of 99.5%; therefore, storage tanks are expected to continue to comply with Regulation 8, Rule 5.  \n \nLPG Loading racks S-126 and S-127 are exempt from Regulation 8, Rule 6 per Regulation 8 -6-117 and \nwill continue to meet exemption requirements.  \n Wastewater collection equipment S -532, S-699, S-819, and S-1484 are subject to a combined collection \nand destruction efficiency of at least 95% per Regulation 8 -8-301.3.  A-1584 is expected to achieve a \nminimum control efficiency of 99.5%; therefore, these sources are expected to continue to comply with \nRegulation 8, Rule 8. \n Gasoline loading rack S-1025 and bladder tank S -613 are subject to 0.04 lbs per 1000 gallons loaded per \nRegulation 8 -33-301. The owner/operator will be required to obtain a CARB certification to demonstrate \ncompliance and is expected to continue to comply with Regulation 8, Rule 33.  \n  \nMarine loading S-1560  is subject to 2 lbs per 1000 barrels loaded or reduce emissions by at least 95% by \nweight per Regulation 8 -44-304.1. A-1584 is expected to achieve a minimum control efficiency of 99.5%; \ntherefore, S-1560  is expected to continue to comply with Regulation 8, Rule 44. \n  California Environmental Quality Act (CEQA)  \nThis project is ministerial under the District Regulation 2 -1-311 (Permit Handbook Chapter 3.1 – Bulk \nLoading Facilities, Chapter 3.3 – Oil-Water Separators, and Chapter 4.0 – Organic Liquid Storage Tank), \nand is therefore not subject to CEQA review.  \n \nFinding of Exemption: The Air District has determined that this permit action for Abatement \nDevice 1584 is exempt from CEQA because the Air Distr ict’s approval was “ministerial” and \ntherefore exempt from CEQA under CEQA § 21080(b)(1). The Air District has determined that the permit action for Abatement Device 1584 is also categorically exempt from CEQA per CEQA Guidelines §§ 15061(b)(3), the “Common Sense” exemption, and 15308, “Action to Protect the \nEnvironment” and Air District Regulation 2-1- 312.2, “Permit applications to install air pollution \ncontrol or abatement equipment.”  \n \nBasis for Exemption: The Air District’s regulatory requirements that g overned the approval of \nthis project involved objective numerical standards outlined in the Air District’s Permit Handbook \nChapters 3.1 (Bulk Loading Facilities), 3.3 (Oil -Water Separators), and 4.0 (Organic Liquid \n \nStorage Tank), which did not allow for or  require any subjective judgment or discretion to interpret \nor apply; and the Air District was legally compelled to approve the project where it complied with \nsuch standards. Also, the Air District’s permit action is exempt because it permits an air pollut ion \ncontrol or abatement equipment designed to reduce air pollution emissions. In addition, the \napplicant has included in its permit application CEQA- related information (CEQA Appendix H) \nthat demonstrates with certainty that the project has no potential f or resulting in any additional or \ndifferent environmental impacts beyond what is already entailed in the applicant’s existing use of the source.  \n \nSchool Notification  \nThis project is over 1,000 feet from the nearest K- 12 school, and is therefore not subject  to the public \nnotification requirements.  \n \nNational Emissions Standards for Hazardous Air Pollutants  (NESHAP) \nNESHAP is not triggered.  \n New Source Performance Standards (NSPS)  \nNSPS is not triggered.  \n Prevention of Significant Deterioration (PSD)  \nThis application is not part of a PSD project as defined in Regulation 2 -2.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "CO",
+          99.5,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": []
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "Permit Conditions\nns  \n \nPermit Condition # 27543  for A -1584   \nS-126 LPG Truck Loading Rack (Exempt)  \nS-127 LPG Tank Car Loading Rack (Exempt)  \nS-134 Tank A -134, Recovered Oil,  \nS-137 Tank A-137, Fuel Oil #2, Waste Oil, Gasoline  \nS-323 Tank A -323, Fuel Oil, Jet ‘A’, Gasoline, Alkylate Gasoline Blending Components  \nS-327 Tank A -327, Caustic Waste  \nS-432 Tank A -432, Ethyl Alcohol, Distillate Oil, Gasoline, Naphtha  \nS-532 Oil Water Separator  \nS-603 Tank A -603, Organic Liquid – other/not Spec; #50 Unit Desalter Break Tank,  \nS-613 Tank A -613, Vapor Storage Tank  \nS-656 Tank A -846, Foul Water Stripper Charge Tank, Refinery Sour Waste Water \nS-658 Tank A -847, Foul Water Stripper Charge Tank, Refinery Sour Wa ste Water  \nS-699 Tank A -690, Crude Oil  \nS-714 Tank A -714, Organic Liquid – other/not Spec, Hydrocarbon Alkylation Spent Acid  \nS-819 API Oil -Water, Separator/Dissolved Nitrogen Flotation System, Abated by A -39 Thermal \n Oxidizer (A -14 Vapory Recovery as backup)  \nS-1025 Bulk Plant; Bottom Loading Facilities  \nS-1484 Oil Water Separator; Pressure Vessel, 50 Unit Desalter Brine  \nS-1496 Tank A -876, Heavy reformate with pentanes, straight run heavy naphtha  \nS-1554 Tank A -943, High Sulfur Vacuum Gas Oil (HSVGO), Vacuum Gas Oil (VGO)  \nS-1560 Avon Wharf Berth No. 1A Marine Bulk Plant  \nA-1584  – Trailer Mounted Combustor, 42.3 MMBtu/h our, John Zink, PECS Unit \n Application 31305  (November 2021)  \n \n1. The owner/operator shall abate emissions from Source s S-126, S-127, S-134, S-137, S-323, S-327, S-\n432, S-532, S-603, S-613, S-656, S-658, S-699, S-714, S-819, S-1025, S-1484, S-1496, S-1554 , S-1560  via \nA-14 Vapor Recovery with Abatement De vice A -1584 , Thermal Oxidizer during all periods of operation  \nwhen S -909, S -908, and S-912 are all out of service . The owner/operator shall only operate A -1584 when \nS-909, S -908, and S -912 are all out of service. The owner/operator of A -1584 shall not exceed a s tack gas  \nflow rate of 55,000 scfm. \n \n(Basis: Regulation 2 -2-208 Cumulative Increase ) \n \n2. The owner/operator shall operate  A-1584  Thermal Oxidizer such that the VOC destruction efficiency \nshall  be maintained at a minimum of 99.5% by weight.  \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n \n3. The owner/operator of A -1584  shall not exceed the following limits measured at the outlet:  \na. Nitrogen oxides (NOx) – 0.10 lbs/MMBtu \nb. Carbon monoxide (CO) – 0.074 lbs/MMBtu \nc. Precursor Organic Compound (POC) – 336.3 lbs/day  \nd. Precursor Organic Compound (POC) – 122,750 lbs/year  \n(Basis: Regula tion 2 -2-208 Cumulative Increase)  \n 4. The owner/operator shall operate A -1584  to be at least 1400 degrees F. The Air District may adjust this \nminimum temperature, if source test data demonstrates that an alternate temperature is necessary for or \ncapable of maintaining compliance with Part 2 above.  \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n \n5. To determine complian ce with the temperature requirement in these permit conditions, the \nowner/operator shall equip A -1584  with a temperature measuring device capable of continuously \nmeasuring and recording the temperature in A -1584 . The owner/operator shall install, and maint ain in \naccordance with manufacturer’s recommendations, a temperature measuring device that meets the \nfollowing criteria: the minimum and maximum measurable temperatures with the device are 32 degrees F \nand 2,300 degrees F, respectively, and the minimum acc uracy of the device over this temperature range \nshall be 1.0 percent of full -scale.  \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n \n6. The owner/operator shall report any non- compliance with Part 4 of this condition to the Director of the \nCompliance & En forcement Division at the time that it is discovered. The submittal shall detail the \ncorrective action taken and shall include the data showing the exceedance as well at the time of occurrence. \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n 7. The temper ature limit in Part 4 shall not apply during an “Allowable Temperature Excursion”, provided \nthat the temperature controller setpoint complies with the temperature limit. An Allowable Temperature \nExcursion is one of the following:  \na. A temperature excursion n ot exceeding 20 degrees F; or  \nb. A temperature excursion for a period or periods which when combined are less than or equal to 15 minutes in any hour; or  \nc. A temperature excursion for a period or periods which when combined are more than 15 minutes in any hou r, provided that all three of the following criteria are met.  \ni. the excursion does not exceed 50 degrees F;  \nii. the duration of the excursion does not exceed 24 hours; and  \niii. the total number of such excursions does not exceed 12 per calendar year (or any \nconsecutive 12 -month period).  \nTwo or more excursions greater than 15 minutes in duration occurring during the same 24 -hour period shall \nbe counted as one excursion toward the 12- excursion limit.  \n(Basis: Regulation 2 -1- 403)  \n \n8. For each Allowable Temperature Excursion that exceeds 20 degrees F and 15 minutes in duration, the \nPermit Holder shall keep sufficient records to demonstrate that they meet the qualifying criteria described \nabove. Records shall be retained for a minimum of five (or two years) years from  the date of entry, and \nshall be made available to the Air District upon request. Records shall include at least the following \ninformation:  \na. Temperature controller setpoint;  \nb. Starting date and time, and duration of each Allowable Temperature Excursion;  \nc. Measured temperature during each Allowable Temperature Excursion;  \n \nd. Number of Allowable Temperature Excursions per month, and total number for the current \ncalendar year; and  \ne. All strip charts or other temperature records.  \n(Basis: Regulation 2 -1-403) \n \n9. Not later than 60 days from the startup of A -1584 , the owner/operator shall conduct Air District -\napproved source tests to determine initial compliance with the limits in Parts 2, 3, and 4 for VOC \ndestruction efficiency, emission limits,  and temperature, respectively. The owner/operator shall submit the \nsource test results to the Air District staff no later than 60 days after the source test.  \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n \n10. The owner/operator shall obtain approval for all source test procedures from the Air District’s Source \nTest Section prior to conducting any tests. The owner/operator shall comply with all applicable testing \nrequirements as specified in Volume IV of the District’s Manual of Procedures. The owner/operator shall \nnotify the District’s Source Test Section, in writing, of the source test protocols and projecte d test dates at \nleast 7 days prior to testing.  \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n \n11. The owner/operator shall not use A -1584 for tank degassing activities . \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n \nPermit Condition # 21849  for S-1025 \nApplication #10668 (October 29, 2004): Loading Rack Modernization Project \nApplication #13493 (October, 2005): Modification of emission limit from S -1025 to the RACT and \nRegulation 8 -33-301 level of 0.08 lb POC per 1000 gallon of material loaded.  \nAdm inistratively Changed by Application 18861 (June  2009) Removed completed parts and parts \nredundant  with District Regulations  \nApplication 17928/17458 (2008) Remove Demolished and OO S Sources  \nApplication 21023 (January 2010): increase ethanol  throughput of S -1504 from 400,000 bbl/yr to \n1,200,000  bbl/yr.  Administratively changed by Application 23981 (April  2012): Updated Part 11 to remove  \n5 year source test link to  Title V renewal, removed S -913 from source test requirement  (no longer on 40# \nfuel gas system, a nd increased time allowed for submitting source test report to 60 days.  \nAdministratively Changed by Application 24362 (June 2012)  \nRemoved S -913 from the source test requirements of Part 11 since no longer fired with 40# fuel gas.                    \nApplica tion # 31305  (November 2021 ):  Part 11 - Updated emission limit to 0.04 lb POC per 1000 gallon of \nmaterial loaded  per Regulation 8 -33-301 and added A -1584 to source test requirement.  \n  \nS-613 Vapor Recovery Tank A -613: Fixed Roof Tank, Capacity 420K Gallons, Storing: Organic Vapor  \nS-696 Tank A -696; Internal Floating Roof Tank, Capacity 630K Gallons, Storing: Gasoline  \nS-1025 Bulk Terminal Bottom Loading Facilities:  Gasoline, Naphtha, Kerosene, Diesel, Fuel Oil, Ethanol  \nS-1504 Bulk Terminal Unloading Ra ck: Ethyl Alcohol      \n     \nFugitive Components  \n1. Completed. (Final Fugitive Count submitted 6/9/05 and offsets were adjusted.)  \n2. Completed. (Final Fugitive Count submitted 6/9/05 and offsets were adjusted.)  \n3. Deleted. (Valve Design Requirements Completed and Leak Limits redundant with Regulation 8 -18-\n302) \n4. Deleted. (Connector Design Requirements Completed and Leak Limits redundant with Regulation 8-\n18-304) \n5. Deleted. (Pump Design Requirements Completed and Leak Limits redundant with Regulation 8 -18-\n303) \n6. Deleted. (Pressure Relief Valve Design Requirements Completed and redundant with Regulation 8 -\n28302. All PRDs vent to the refinery fuel gas system or an abatement device with >=98% efficiency.)  \n7. Deleted. (Completed. All fugitive components have been ad ded to the refinery fugitive monitoring and \nrepair program)                                                \n \n \nS-1025 Bulk Plant Bottom Loading Facilities: Gasoline,  Naphtha, Kerosene, Diesel, Fuel Oil, Ethanol  \n8. The owner/operator of S -1025 shall apply for the  proper  certification from the California Air \nResources Board (CARB) for the A -14 Vapor Recovery System prior to startup. (basis: Regulation 8 -\n33-301, 302)  \n9. The owner/operator of S -1025 Bulk Plant Loading  Facilities shall not exceed the following \nthroughput s. 64,457 barrels (2,707,194 gallons) per day 18,615,000  barrels (781,830,000 gallons) per \nany 12 month consecutive period (basis: toxic risk screen)  \n10. The owner/operator of S -1025 shall not transfer any  material other than gasoline, naphtha, kerosene, \ndiese l, fuel oil, or ethanol.  (basis: toxic risk screen)  \n11. To ensure that the S -1025 Bulk Plant Unloading Rack does  not exceed an emission factor greater than \n0.04 lb POC  per 1000 gallons of material loaded, the owner/operator  shall:  \na. not operate S -1025 unless vented to S -613 Vapor  Recovery Tank and A -14 Vapor Recovery \nSystem.  \nb. install a sample line from each of the  pressure -vacuum valves located at the loading racks,  which \nis easily accessible by District personnel to determine any valve leakage.  \nc. install and maintain a pressure switch at the knockout pot, V- 61, located at the interface of the          \nvapor outlet of the S -1025 Loading Rack and the  inlet to the A -14 Vapor Recovery and S -613 \nVapor  Recovery Tank Systems. The pressure switch shall be set at 1 8 inches of water column as \nmeasured at the cargo tank/vapor coupler interface located the furthest from the knockout pot, V -\n61. If the pressure exceeds 18 inches, a high pressure alarm will shutdown loading rack operations.  \nd. conduct District approved sourc e tests to determine POC destruction efficiency at the following \nsources every 5 years (initial compliance has been  demonstrated in a source test for AN 6201 by \nTIAX on  October 28, 2003).                              \n \nS-908 No. 8 Furnace @ No. 3 Crude Unit  \nS-909 No. 9 Furnace @ No. 1 Feed Prep.  \nS-912 No. 12 Furnace @ No. 1 Feed Prep.  \nA-1584 Trailer Mounted Combustor, 42.3 MMBtu/hr, John Zink, PECS Unit  \n   \nFor each source, the owner/operator must measure th e following:  \n       the fuel feed rate in pounds/hr  \n       the POC emission rate at the stack  \n       the flue gas flow rate in SCFM at the stack  \n       the oxygen content of the stack flue gas  \n       the stack temperature  \n       the destruction efficiency of POC as mea sured across  \n       the combustion device  \nThe owner/operator shall submit individual copies of the  results of the source tests (along with related \ncalculations and process data) to the District's Engineering Division, Enforcement Division, and Source \nTest Section within 60 days of the source test.  \n(basis: Cumulative Increase, Toxic Risk Screen, Regulation 8 -33-301, Regulation 1- 238, BACT)         \n \n12. To determine compliance with the parts 8- 11, the owner/operator shall maintain the following records \nand provi de all of the data necessary to evaluate compliance with the above conditions, including, but \nnot necessarily limited to, the following information:  \n      a.  California Air Resources Board certification of A -14. \n      b.  On a daily basis, type and quanti ty of product loaded.  \n      c.  The throughput of material shall be added and recorded in the log for each month and for each  \n          rolling consecutive 12 month period.  \n      d.  The time, date, duration, and reason for each  instance that S -1025 is not abated by S -613 or A -14. \nThese records shall be kept on site for at least 5 years. All records shall be recorded in a District  approved \nlog and made available for inspection by District staff upon request. These recordkeeping  requirements \nshall not replac e the recordkeeping requirements contained in any applicable District Regulations.   \n(basis: Cumulative Increase, Toxic Risk Screen, Offsets, Regulation 1 -441, Regulation 1 -238)     \n \nS-1504 Bulk Plant Unloading Rack: Ethanol  \n \n13. The owner/operator of S- 1504 Bulk Plant Unloading Rack shall not exceed the following throughput:  \n       1,200,000 barrels per any 12 month consecutive period  \n(basis: cumulative increase, offsets, toxic risk screen)  \n14. The owner/operator of S -1504 shall not trans fer any  material other than fuel grade ethanol.  \n(basis: cumulative increase, offsets, toxic risk screen)  \n \n15. To determine compliance with parts 13 and 14, the owner/operator shall maintain the following \nrecords and provide all of the data necessary to evaluate compliance with the above conditions, \nincluding, but not necessarily limited to, the following information:  \na. On a daily basis amount of ethanol transferred.  \nb. The throughput of material shall be added and recorded in the log for each month and for ea ch          \nrolling consecutive 12 month period.  \nThese records shall be kept on site for at least 5  years. All records shall be recorded in a District      \napproved log and made available for inspection by District staff upon request. These recordkeeping \nrequirements shall not replace the recordkeeping  requirements contained in any applicable District  \nRegulations.  \n(basis: Cumulative Increase, Toxic Risk  Screen, Offsets, Regulation 1 -441, Regulation 1 -238, Regulation \n8-6-501) \n \nEnd of Conditions"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator shall abate emissions from Source s S-126, S-127, S-134, S-137, S-323, S-327, S-\n432, S-532, S-603, S-613, S-656, S-658, S-699, S-714, S-819, S-1025, S-1484, S-1496, S-1554 , S-1560  via \nA-14 Vapor Recovery with Abatement De vice A -1584 , Thermal Oxidizer during all periods of operation  \nwhen S -909, S -908, and S-912 are all out of service . The owner/operator shall only operate A -1584 when \nS-909, S -908, and S -912 are all out of service. The owner/operator of A -1584 shall not exceed a s tack gas  \nflow rate of 55,000 scfm. \n \n(",
+        "basis": [
+          "Regulation 2 -2-208 Cumulative Increase )"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall operate  A-1584  Thermal Oxidizer such that the VOC destruction efficiency \nshall  be maintained at a minimum of 99.5% by weight.  \n(",
+        "basis": [
+          "Regulation 2 -2-208 Cumulative Increase)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator of A -1584  shall not exceed the following limits measured at the outlet:  \na. Nitrogen oxides (NOx) – 0.10 lbs/MMBtu \nb. Carbon monoxide (CO) – 0.074 lbs/MMBtu \nc. Precursor Organic Compound (POC) – 336.3 lbs/day  \nd. Precursor Organic Compound (POC) – 122,750 lbs/year  \n(",
+        "basis": [
+          "Regula tion 2 -2-208 Cumulative Increase)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "The owner/operator shall operate A -1584  to be at least 1400 degrees F. The Air District may adjust this \nminimum temperature, if source test data demonstrates that an alternate temperature is necessary for or \ncapable of maintaining compliance with Part 2 above.  \n(",
+        "basis": [
+          "Regulation 2 -2-208 Cumulative Increase)"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "To determine complian ce with the temperature requirement in these permit conditions, the \nowner/operator shall equip A -1584  with a temperature measuring device capable of continuously \nmeasuring and recording the temperature in A -1584 . The owner/operator shall install, and maint ain in \naccordance with manufacturer’s recommendations, a temperature measuring device that meets the \nfollowing criteria: the minimum and maximum measurable temperatures with the device are 32 degrees F \nand 2,300 degrees F, respectively, and the minimum acc uracy of the device over this temperature range \nshall be 1.0 percent of full -scale.  \n(",
+        "basis": [
+          "Regulation 2 -2-208 Cumulative Increase)"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "The owner/operator shall report any non- compliance with Part 4 of this condition to the Director of the \nCompliance & En forcement Division at the time that it is discovered. The submittal shall detail the \ncorrective action taken and shall include the data showing the exceedance as well at the time of occurrence. \n(",
+        "basis": [
+          "Regulation 2 -2-208 Cumulative Increase)"
+        ]
+      },
+      {
+        "num": 7,
+        "text": "The temper ature limit in Part 4 shall not apply during an “Allowable Temperature Excursion”, provided \nthat the temperature controller setpoint complies with the temperature limit. An Allowable Temperature \nExcursion is one of the following:  \na. A temperature excursion n ot exceeding 20 degrees F; or  \nb. A temperature excursion for a period or periods which when combined are less than or equal to 15 minutes in any hour; or  \nc. A temperature excursion for a period or periods which when combined are more than 15 minutes in any hou r, provided that all three of the following criteria are met.  \ni. the excursion does not exceed 50 degrees F;  \nii. the duration of the excursion does not exceed 24 hours; and  \niii. the total number of such excursions does not exceed 12 per calendar year (or any \nconsecutive 12 -month period).  \nTwo or more excursions greater than 15 minutes in duration occurring during the same 24 -hour period shall \nbe counted as one excursion toward the 12- excursion limit.  \n(",
+        "basis": [
+          "Regulation 2 -1- 403)"
+        ]
+      },
+      {
+        "num": 8,
+        "text": "For each Allowable Temperature Excursion that exceeds 20 degrees F and 15 minutes in duration, the \nPermit Holder shall keep sufficient records to demonstrate that they meet the qualifying criteria described \nabove. Records shall be retained for a minimum of five (or two years) years from  the date of entry, and \nshall be made available to the Air District upon request. Records shall include at least the following \ninformation:  \na. Temperature controller setpoint;  \nb. Starting date and time, and duration of each Allowable Temperature Excursion;  \nc. Measured temperature during each Allowable Temperature Excursion;  \n \nd. Number of Allowable Temperature Excursions per month, and total number for the current \ncalendar year; and  \ne. All strip charts or other temperature records.  \n(",
+        "basis": [
+          "Regulation 2 -1-403)"
+        ]
+      },
+      {
+        "num": 9,
+        "text": "Not later than 60 days from the startup of A -1584 , the owner/operator shall conduct Air District -\napproved source tests to determine initial compliance with the limits in Parts 2, 3, and 4 for VOC \ndestruction efficiency, emission limits,  and temperature, respectively. The owner/operator shall submit the \nsource test results to the Air District staff no later than 60 days after the source test.  \n(",
+        "basis": [
+          "Regulation 2 -2-208 Cumulative Increase)"
+        ]
+      },
+      {
+        "num": 10,
+        "text": "The owner/operator shall obtain approval for all source test procedures from the Air District’s Source \nTest Section prior to conducting any tests. The owner/operator shall comply with all applicable testing \nrequirements as specified in Volume IV of the District’s Manual of Procedures. The owner/operator shall \nnotify the District’s Source Test Section, in writing, of the source test protocols and projecte d test dates at \nleast 7 days prior to testing.  \n(",
+        "basis": [
+          "Regulation 2 -2-208 Cumulative Increase)"
+        ]
+      },
+      {
+        "num": 11,
+        "text": "The owner/operator shall not use A -1584 for tank degassing activities . \n(",
+        "basis": [
+          "Regulation 2 -2-208 Cumulative Increase)  \n \nPermit Condition # 21849  for S-1025 \nApplication #10668 (October 29",
+          "2004): Loading Rack Modernization Project \nApplication #13493 (October",
+          "2005): Modification of emission limit from S -1025 to the RACT and \nRegulation 8 -33-301 level of 0.08 lb POC per 1000 gallon of material loaded.  \nAdm inistratively Changed by Application 18861 (June  2009) Removed completed parts and parts \nredundant  with District Regulations  \nApplication 17928/17458 (2008) Remove Demolished and OO S Sources  \nApplication 21023 (January 2010): increase ethanol  throughput of S -1504 from 400",
+          "000 bbl/yr to \n1",
+          "200",
+          "000  bbl/yr.  Administratively changed by Application 23981 (April  2012): Updated Part 11 to remove  \n5 year source test link to  Title V renewal",
+          "removed S -913 from source test requirement  (no longer on 40# \nfuel gas system",
+          "a nd increased time allowed for submitting source test report to 60 days.  \nAdministratively Changed by Application 24362 (June 2012)  \nRemoved S -913 from the source test requirements of Part 11 since no longer fired with 40# fuel gas.                    \nApplica tion # 31305  (November 2021 ):  Part 11 - Updated emission limit to 0.04 lb POC per 1000 gallon of \nmaterial loaded  per Regulation 8 -33-301 and added A -1584 to source test requirement.  \n  \nS-613 Vapor Recovery Tank A -613: Fixed Roof Tank",
+          "Capacity 420K Gallons",
+          "Storing: Organic Vapor  \nS-696 Tank A -696",
+          "Internal Floating Roof Tank",
+          "Capacity 630K Gallons",
+          "Storing: Gasoline  \nS-1025 Bulk Terminal Bottom Loading Facilities:  Gasoline",
+          "Naphtha",
+          "Kerosene",
+          "Diesel",
+          "Fuel Oil",
+          "Ethanol  \nS-1504 Bulk Terminal Unloading Ra ck: Ethyl Alcohol      \n     \nFugitive Components"
+        ]
+      },
+      {
+        "num": 1,
+        "text": "Completed. (Final Fugitive Count submitted 6/9/05 and offsets were adjusted.)",
+        "basis": []
+      },
+      {
+        "num": 2,
+        "text": "Completed. (Final Fugitive Count submitted 6/9/05 and offsets were adjusted.)",
+        "basis": []
+      },
+      {
+        "num": 3,
+        "text": "Deleted. (Valve Design Requirements Completed and Leak Limits redundant with Regulation 8 -18-\n302)",
+        "basis": []
+      },
+      {
+        "num": 4,
+        "text": "Deleted. (Connector Design Requirements Completed and Leak Limits redundant with Regulation 8-\n18-304)",
+        "basis": []
+      },
+      {
+        "num": 5,
+        "text": "Deleted. (Pump Design Requirements Completed and Leak Limits redundant with Regulation 8 -18-\n303)",
+        "basis": []
+      },
+      {
+        "num": 6,
+        "text": "Deleted. (Pressure Relief Valve Design Requirements Completed and redundant with Regulation 8 -",
+        "basis": []
+      },
+      {
+        "num": 28302,
+        "text": "All PRDs vent to the refinery fuel gas system or an abatement device with >=98% efficiency.)",
+        "basis": []
+      },
+      {
+        "num": 7,
+        "text": "Deleted. (Completed. All fugitive components have been ad ded to the refinery fugitive monitoring and \nrepair program)                                                \n \n \nS-1025 Bulk Plant Bottom Loading Facilities: Gasoline,  Naphtha, Kerosene, Diesel, Fuel Oil, Ethanol",
+        "basis": []
+      },
+      {
+        "num": 8,
+        "text": "The owner/operator of S -1025 shall apply for the  proper  certification from the California Air \nResources Board (CARB) for the A -14 Vapor Recovery System prior to startup. (",
+        "basis": [
+          "Regulation 8 -\n33-301",
+          "302)"
+        ]
+      },
+      {
+        "num": 9,
+        "text": "The owner/operator of S -1025 Bulk Plant Loading  Facilities shall not exceed the following \nthroughput s. 64,457 barrels (2,707,194 gallons) per day 18,615,000  barrels (781,830,000 gallons) per \nany 12 month consecutive period (",
+        "basis": [
+          "toxic risk screen)"
+        ]
+      },
+      {
+        "num": 10,
+        "text": "The owner/operator of S -1025 shall not transfer any  material other than gasoline, naphtha, kerosene, \ndiese l, fuel oil, or ethanol.  (",
+        "basis": [
+          "toxic risk screen)"
+        ]
+      },
+      {
+        "num": 11,
+        "text": "To ensure that the S -1025 Bulk Plant Unloading Rack does  not exceed an emission factor greater than",
+        "basis": []
+      },
+      {
+        "num": 0,
+        "text": "04 lb POC  per 1000 gallons of material loaded, the owner/operator  shall:  \na. not operate S -1025 unless vented to S -613 Vapor  Recovery Tank and A -14 Vapor Recovery \nSystem.  \nb. install a sample line from each of the  pressure -vacuum valves located at the loading racks,  which \nis easily accessible by District personnel to determine any valve leakage.  \nc. install and maintain a pressure switch at the knockout pot, V- 61, located at the interface of the          \nvapor outlet of the S -1025 Loading Rack and the  inlet to the A -14 Vapor Recovery and S -613 \nVapor  Recovery Tank Systems. The pressure switch shall be set at 1 8 inches of water column as \nmeasured at the cargo tank/vapor coupler interface located the furthest from the knockout pot, V -",
+        "basis": []
+      },
+      {
+        "num": 61,
+        "text": "If the pressure exceeds 18 inches, a high pressure alarm will shutdown loading rack operations.  \nd. conduct District approved sourc e tests to determine POC destruction efficiency at the following \nsources every 5 years (initial compliance has been  demonstrated in a source test for AN 6201 by \nTIAX on  October 28, 2003).                              \n \nS-908 No. 8 Furnace @ No. 3 Crude Unit  \nS-909 No. 9 Furnace @ No. 1 Feed Prep.  \nS-912 No. 12 Furnace @ No. 1 Feed Prep.  \nA-1584 Trailer Mounted Combustor, 42.3 MMBtu/hr, John Zink, PECS Unit  \n   \nFor each source, the owner/operator must measure th e following:  \n       the fuel feed rate in pounds/hr  \n       the POC emission rate at the stack  \n       the flue gas flow rate in SCFM at the stack  \n       the oxygen content of the stack flue gas  \n       the stack temperature  \n       the destruction efficiency of POC as mea sured across  \n       the combustion device  \nThe owner/operator shall submit individual copies of the  results of the source tests (along with related \ncalculations and process data) to the District's Engineering Division, Enforcement Division, and Source \nTest Section within 60 days of the source test.  \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Toxic Risk Screen",
+          "Regulation 8 -33-301",
+          "Regulation 1- 238",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 12,
+        "text": "To determine compliance with the parts 8- 11, the owner/operator shall maintain the following records \nand provi de all of the data necessary to evaluate compliance with the above conditions, including, but \nnot necessarily limited to, the following information:  \n      a.  California Air Resources Board certification of A -14. \n      b.  On a daily basis, type and quanti ty of product loaded.  \n      c.  The throughput of material shall be added and recorded in the log for each month and for each  \n          rolling consecutive 12 month period.  \n      d.  The time, date, duration, and reason for each  instance that S -1025 is not abated by S -613 or A -14. \nThese records shall be kept on site for at least 5 years. All records shall be recorded in a District  approved \nlog and made available for inspection by District staff upon request. These recordkeeping  requirements \nshall not replac e the recordkeeping requirements contained in any applicable District Regulations.   \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Toxic Risk Screen",
+          "Offsets",
+          "Regulation 1 -441",
+          "Regulation 1 -238)     \n \nS-1504 Bulk Plant Unloading Rack: Ethanol"
+        ]
+      },
+      {
+        "num": 13,
+        "text": "The owner/operator of S- 1504 Bulk Plant Unloading Rack shall not exceed the following throughput:  \n       1,200,000 barrels per any 12 month consecutive period  \n(",
+        "basis": [
+          "cumulative increase",
+          "offsets",
+          "toxic risk screen)"
+        ]
+      },
+      {
+        "num": 14,
+        "text": "The owner/operator of S -1504 shall not trans fer any  material other than fuel grade ethanol.  \n(",
+        "basis": [
+          "cumulative increase",
+          "offsets",
+          "toxic risk screen)"
+        ]
+      },
+      {
+        "num": 15,
+        "text": "To determine compliance with parts 13 and 14, the owner/operator shall maintain the following \nrecords and provide all of the data necessary to evaluate compliance with the above conditions, \nincluding, but not necessarily limited to, the following information:  \na. On a daily basis amount of ethanol transferred.  \nb. The throughput of material shall be added and recorded in the log for each month and for ea ch          \nrolling consecutive 12 month period.  \nThese records shall be kept on site for at least 5  years. All records shall be recorded in a District      \napproved log and made available for inspection by District staff upon request. These recordkeeping \nrequirements shall not replace the recordkeeping  requirements contained in any applicable District  \nRegulations.  \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Toxic Risk  Screen",
+          "Offsets",
+          "Regulation 1 -441",
+          "Regulation 1 -238",
+          "Regulation \n8-6-501) \n \nEnd of Conditions"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\non  \n I recommend that the Air District issue an  Authority to Construct for the following equipment: \n A-1584 Trailer Mounted Combustor, 42.3 MMBtu/h our, John Zink, PECS Unit  \n \n \n  \nPrepared by:  Danny Nip, Air Quality Engineer  II \nDate:  11/04/2021 \n \nAppendix A – Emission Factors for Combustion of Refinery Fuel Gas  \nTable A-1 – Emission Factors for Combustion of Refinery Fuel Gas  \nPollutant  Emission \nFactor  Units  Emission Factor Reference  \nSulfuric Acid  2.8E-05 lbs/MMBtu  Eng. Estimate . SO 2 ->  SO 3 ->  H2SO 4 \nPAH  1.1E-06 lbs/MMBtu  CATEF;  Sumproduct of PAHxPEF, excl. naphthalene  \nAmmonia  1.4E-04 lbs/MMBtu  CATEF;  Mean Emission Factor  \n1,4-Dichlorobenzene(p)  1.2E-06 lbs/MMBtu  AP-42, 1.4  \nAcetaldehyde  5.2E-05 lbs/MMBtu  CATEF; Mean Emission Factor  \nArsenic  8.4E-07 lbs/MMBtu  CATEF; Mean Emission Factor  \nBenzene  4.8E-05 lbs/MMBtu  CATEF; Mean Emission Factor  \nBeryllium  1.5E-08 lbs/MMBtu  CATEF; 1/2 Min Emission Factor  \nCadmium  6.0E-07 lbs/MMBtu  CATEF; Mean Emission Factor  \nChromium (hexavalent)  1.3E-06 lbs/MMBtu  CATEF; Mean Emission Factor  \nCopper  5.7E-06 lbs/MMBtu  CATEF; Mean Emission Factor  \nCyanide  2.7E-06 lbs/MMBtu  CATEF; 1/2 Min Emission Factor  \nEthyl benzene  1.8E-05 lbs/MMBtu  CATEF; Mean Emission Factor  \nFormaldehyde  9.9E-05 lbs/MMBtu  CATEF; Mean Emission Factor  \nHexane  1.8E-03 lbs/MMBtu  EPA EEPPR Table 4 -3 \nHydrochloric acid  8.1E-04 lbs/MMBtu  CATEF; Mean Emission Factor from Subcategory 1  \nHydrogen sulfide  8.1E-05 lbs/MMBtu  CATEF; 1/2 Min Emission Factor  \nLead  2.5E-06 lbs/MMBtu  CATEF; Mean Emission Factor  \nManganese  4.6E-06 lbs/MMBtu  CATEF; Mean Emission Factor  \nMercury  2.4E-07 lbs/MMBtu  CATEF; Mean Emission Factor  \nNaphthalene  4.7E-07 lbs/MMBtu  CATEF; Mean Emission Factor  \nNickel  5.0E-06 lbs/MMBtu  CATEF; Mean Emission Factor  \nPhenol  4.6E-06 lbs/MMBtu  CATEF; Mean Emission Factor  \nPropylene  2.1E-06 lbs/MMBtu  CATEF; 1/2 Min Emission Factor  \nSelenium  5.0E-06 lbs/MMBtu  CATEF;  Mean Emission Factor  \nToluene  8.4E-05 lbs/MMBtu  CATEF;  Mean Emission Factor  \nVanadium  2.3E-06 lbs/MMBtu  EPA EEPPR Table 4 -3 \nXylenes  4.2E-05 lbs/MMBtu  CATEF;  Mean Emission Factor"
+  },
+  "raw_sections": {
+    "preamble": "",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nON  \n \nTesoro Refining & Marketing Company LLC  \n150 Solano Way, Martinez, CA 94553  \nPlant  No. 14628 \nApplication No. 31305 \n \nBackground  \n \nTesoro Refining & Marketing Company LLC , a wholly -owned  subsidiary of Marathon Petroleum \nCorporation  (collectively, “ Marathon ”), has applied  for an Authority to Construct/ Permit to Operate for the  \nfollowing  equipment : \n \nA-1584 Trailer Mounted Combustor, 42.3 MMBtu/h our, John Zink, PECS Unit  \n abating the following sources connected to  A-14 Vapor Recovery:  \nS-126 LPG Truck Loading Rack (Exempt)  \nS-127 LPG Tank Car Loading Rack (Exempt)  \nS-134 Tank A -134, Recovered Oil,  \nS-137 Tank A -137, Fuel Oil #2, Waste Oil, Gasoline  \nS-323 Tank A -323, Fuel Oil, Jet ‘A’, Gasoline, Alkylate Gasoline Blending Components  \nS-327 Tank A -327, Caustic Waste  \nS-432 Tank A -432, Ethyl Alcohol, Distillate Oil, Gasoline, Naphtha  \nS-532 Oil Water Separator  \nS-603 Tank A -603, Organic Liquid – other/not Spec; #50 Unit Desalter Break Tank,  \nS-613 Tank A -613, Vapor Storage Tank  \nS-656 Tank A -846, Foul Water Stripper Charge Tank, Refinery Sour Waste Water  \nS-658 Tank A -847, Foul Water Stripper Charge Tank, Refinery Sour Waste Water  \nS-699 Tank A -690, Crude Oil  \nS-714 Tank A -714, Organic  Liquid – other/not Spec, Hydrocarbon Alkylation Spent Acid \nS-819 API Oil -Water, Separator/Dissolved Nitrogen Flotation System , Abated by A -39 Thermal \n Oxidizer (A -14 Vapory Recovery as backup)  \nS-1025 Bulk Plant; Bottom Loading Facilities  \nS-1484 Oil Water Separator; Pressure Vessel, 50 Unit Desalter Brine \nS-1496 Tank A -876, Heavy reformate with pentanes, straight run heavy naphtha  \nS-1554 Tank A -943, High Sulfur Vacuum Gas Oil (HSVGO), Vacuum Gas Oil (VGO)  \nS-1560 Avon Wharf Berth No. 1A Marine Bulk Plant  \n Due to a rapid and significant decline in demand for transportation fuels following the onset of the COVID‐\n19 pandemic, Marathon  idled the Martinez refinery in April 2020. In August 2020, Marathon  announced its \nintent to convert the Martinez refinery to rene wable  fuels production. On September 30, 2020, Marathon  \nsubmitted to the Air District an application for an authority to construct that would authorize the alterations necessary to accomplish the conversion of the facility to renewable fuels production. While the Martinez \nrefinery is idled and is not currently processing crude oil to manufacture transportation fuels, certain \npermitted operations continue and have continued since petroleum refining operations were idled in April 2020. Specifically, the refin ery continues to conduct permitted activities, including loading and unloading \nof product, vapor recovery, wastewater treatment and flaring.  \n Finished petroleum products are received via ship through the Avon Wharf Berth 1A (S‐1560). Gasoline \nand diesel fuel are stored in various existing storage tanks. These products are loaded into trucks via the \nTruck Loading Rack (S‐1025). One of the compressors at No. 1 Gas Plant Vapor Recovery is operational to provide vacuum for the Vapor Recovery tanks and gasoline loading rack. The Waste Water System (S‐819, \nS‐830, S‐831, S‐842, and S‐1026) has remained online to eliminate toxics and pollutants prior to \ndischarging into Suisun Bay. Vapor recovery gases are captured by No. 1 Gas Plant and then sent to the \nflare system, normally sent to refinery process heaters (S-908, S -909, and S -912) to combust the recovered \n \ngas. Four flares East Air (S‐854), Emergency Flare (S‐992), West Air (S‐1012), the Coker Flare (S‐1517) \nare operational at this  time.  \n \nOn May 26, 2021, the Air District issued Notice of Violation Nos. A58276, A25275, A58274, A58273, \nA58272, and A56448 for continuous flaring  during refinery idling.  \n \nOn July 14, 2021, the Air District authorized the use of Envent’s Portable Thermal Oxidizer (Plant #16338, \nA-23, Permitted under Application No. 22751) at Marathon for the purpose of controlling vapors as \noutlined in Figure 1. Permit Condition #24839, Part 5, has a throughput limit of 249,000 therms  \n(24,500,000 cubic feet) of natural gas during any consecutive 12 -month period. \n \nMarathon is estimating that the throughput limit will be reached by November 5, 2021. As such, Marathon \nis proposing to obtain a permanent permit to operate Envent’s portable thermal oxidizer  connected to the \nA-14 vapor recovery system when refinery process heaters are out of service. A- 1584 will be assigned \nunder Plant #14628 for this thermal oxidizer.  \n In addition, gasoline bulk terminal emission limit for S -1025 in Permit Condition # 21849 , Part 11, will be \nupdated from 0.08 to 0.04 lbs per 1000 gallons to reflect current RACT standards  of Regulation 8 -33. S-\n1025 has not been modified and is not considered as a new source; therefore, it will remain as an alter source including changing or replacing the abatement device.  \n \nFigure 1 – Vapor Recovery Process Flow Diagram Using Envent’s Thermal Oxidizer \n \nEmis sions Calculation  \nPrimary Emissions (Process) : \nAs shown, in Table 1 , A-1584 is required to have a minimum control efficiency of 99.5% to comply with \nexisting permit conditions.  Per Application No. 22751, A -1584 was able to meet a hydrogen destruction \nefficiency of 99.9%. It is expected that A -1584 will meet the minimum control efficiency of 99.5% and \nPermit Condition #27543, Part 9  has been imposed to demonstrate compliance. Bec ause A -1584 is able to \nachieve the minimum control efficiency, there is no increase in process emissions from the sources abated by A- 1584.  \n  \n \n\n \nTable 1 – Minimum Control Efficiency for Sources abated by A -1584 \nS-# Control Efficiency (%)  Reference  \n126 None  n/a \n127 None  n/a \n134 95.0%  Permit Condition 21053, Part 6  \n137 95.0%  Permit Condition 21053, Part 6  \n323 99.5%  Permit Condition 21053, Part 3  \n327 95.0%  Regulation 8 , Rule 5 \n432 95.0%  Permit Condition 21053, Part 6  \n532 98.0%  Permit Condition 20099, Part 4  \n603 95.0%  Permit Condition 21053, Part 6  \n613 None  Part of S -1025 \n656 95.0%  Permit Condition 10696, Part 1  \n658 95.0%  Permit Condition 10696, Part 1  \n699 95.0%  Regulation 8 , Rule 5 \n714 98.0%  Permit Condition 8538, Part 2  \n819 95.0%  Regulation 8 , Rule 8 \n1025 None  Permit Condition 21849, Part 11  \nRegulation 8 , Rule 33; 0.04 lbs/ 1000 gallons loaded  \n1484 95.0%  Regulation 8 , Rule 8 \n1496 99.5%  Permit Condition 21100, Part 2  \n1554 99.5%  Permit Condition 25025, Part 3  \n1560  98.5%  Permit Condition 26406, Part 4  \n \nSecondary Emissions (Combustion of Refinery Fuel Ga s/Natural Ga s at A-1584):  \nTable 2 – Daily and Annual Secondary Emissions at A- 1584 \n Emission Factor  \n(lbs/MMBtu)  Daily Emissions \n(lbs/day)  Annual Emissions \n(lbs/year)  Annual Emissions \n(tons/year)  \nNO x 0.1 101.5  37,055 18.527"
+      },
+      {
+        "heading": "CO 0.074  75.1 27,421 13.710",
+        "alias": null,
+        "text": "CO 0.074  75.1 27,421 13.710"
+      },
+      {
+        "heading": "SO 2 0.034  34.5 12,585 6.292",
+        "alias": null,
+        "text": "SO 2 0.034  34.5 12,585 6.292"
+      },
+      {
+        "heading": "PM 10 0.0096  9.8 3,570 1.785",
+        "alias": null,
+        "text": "PM 10 0.0096  9.8 3,570 1.785"
+      },
+      {
+        "heading": "PM 2.5 0.0096  9.8 3,570 1.785",
+        "alias": null,
+        "text": "PM 2.5 0.0096  9.8 3,570 1.785"
+      },
+      {
+        "heading": "POC  0.007  7.1 2,583 1.292",
+        "alias": null,
+        "text": "POC  0.007  7.1 2,583 1.292"
+      },
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd  \n \nTesoro Refining & Marketing Company LLC , a wholly -owned  subsidiary of Marathon Petroleum \nCorporation  (collectively, “ Marathon ”), has applied  for an Authority to Construct/ Permit to Operate for the  \nfollowing  equipment : \n \nA-1584 Trailer Mounted Combustor, 42.3 MMBtu/h our, John Zink, PECS Unit  \n abating the following sources connected to  A-14 Vapor Recovery:  \nS-126 LPG Truck Loading Rack (Exempt)  \nS-127 LPG Tank Car Loading Rack (Exempt)  \nS-134 Tank A -134, Recovered Oil,  \nS-137 Tank A -137, Fuel Oil #2, Waste Oil, Gasoline  \nS-323 Tank A -323, Fuel Oil, Jet ‘A’, Gasoline, Alkylate Gasoline Blending Components  \nS-327 Tank A -327, Caustic Waste  \nS-432 Tank A -432, Ethyl Alcohol, Distillate Oil, Gasoline, Naphtha  \nS-532 Oil Water Separator  \nS-603 Tank A -603, Organic Liquid – other/not Spec; #50 Unit Desalter Break Tank,  \nS-613 Tank A -613, Vapor Storage Tank  \nS-656 Tank A -846, Foul Water Stripper Charge Tank, Refinery Sour Waste Water  \nS-658 Tank A -847, Foul Water Stripper Charge Tank, Refinery Sour Waste Water  \nS-699 Tank A -690, Crude Oil  \nS-714 Tank A -714, Organic  Liquid – other/not Spec, Hydrocarbon Alkylation Spent Acid \nS-819 API Oil -Water, Separator/Dissolved Nitrogen Flotation System , Abated by A -39 Thermal \n Oxidizer (A -14 Vapory Recovery as backup)  \nS-1025 Bulk Plant; Bottom Loading Facilities  \nS-1484 Oil Water Separator; Pressure Vessel, 50 Unit Desalter Brine \nS-1496 Tank A -876, Heavy reformate with pentanes, straight run heavy naphtha  \nS-1554 Tank A -943, High Sulfur Vacuum Gas Oil (HSVGO), Vacuum Gas Oil (VGO)  \nS-1560 Avon Wharf Berth No. 1A Marine Bulk Plant  \n Due to a rapid and significant decline in demand for transportation fuels following the onset of the COVID‐\n19 pandemic, Marathon  idled the Martinez refinery in April 2020. In August 2020, Marathon  announced its \nintent to convert the Martinez refinery to rene wable  fuels production. On September 30, 2020, Marathon  \nsubmitted to the Air District an application for an authority to construct that would authorize the alterations necessary to accomplish the conversion of the facility to renewable fuels production. While the Martinez \nrefinery is idled and is not currently processing crude oil to manufacture transportation fuels, certain \npermitted operations continue and have continued since petroleum refining operations were idled in April 2020. Specifically, the refin ery continues to conduct permitted activities, including loading and unloading \nof product, vapor recovery, wastewater treatment and flaring.  \n Finished petroleum products are received via ship through the Avon Wharf Berth 1A (S‐1560). Gasoline \nand diesel fuel are stored in various existing storage tanks. These products are loaded into trucks via the \nTruck Loading Rack (S‐1025). One of the compressors at No. 1 Gas Plant Vapor Recovery is operational to provide vacuum for the Vapor Recovery tanks and gasoline loading rack. The Waste Water System (S‐819, \nS‐830, S‐831, S‐842, and S‐1026) has remained online to eliminate toxics and pollutants prior to \ndischarging into Suisun Bay. Vapor recovery gases are captured by No. 1 Gas Plant and then sent to the \nflare system, normally sent to refinery process heaters (S-908, S -909, and S -912) to combust the recovered \n \ngas. Four flares East Air (S‐854), Emergency Flare (S‐992), West Air (S‐1012), the Coker Flare (S‐1517) \nare operational at this  time.  \n \nOn May 26, 2021, the Air District issued Notice of Violation Nos. A58276, A25275, A58274, A58273, \nA58272, and A56448 for continuous flaring  during refinery idling.  \n \nOn July 14, 2021, the Air District authorized the use of Envent’s Portable Thermal Oxidizer (Plant #16338, \nA-23, Permitted under Application No. 22751) at Marathon for the purpose of controlling vapors as \noutlined in Figure 1. Permit Condition #24839, Part 5, has a throughput limit of 249,000 therms  \n(24,500,000 cubic feet) of natural gas during any consecutive 12 -month period. \n \nMarathon is estimating that the throughput limit will be reached by November 5, 2021. As such, Marathon \nis proposing to obtain a permanent permit to operate Envent’s portable thermal oxidizer  connected to the \nA-14 vapor recovery system when refinery process heaters are out of service. A- 1584 will be assigned \nunder Plant #14628 for this thermal oxidizer.  \n In addition, gasoline bulk terminal emission limit for S -1025 in Permit Condition # 21849 , Part 11, will be \nupdated from 0.08 to 0.04 lbs per 1000 gallons to reflect current RACT standards  of Regulation 8 -33. S-\n1025 has not been modified and is not considered as a new source; therefore, it will remain as an alter source including changing or replacing the abatement device.  \n \nFigure 1 – Vapor Recovery Process Flow Diagram Using Envent’s Thermal Oxidizer \n \nEmis sions Calculation  \nPrimary Emissions (Process) : \nAs shown, in Table 1 , A-1584 is required to have a minimum control efficiency of 99.5% to comply with \nexisting permit conditions.  Per Application No. 22751, A -1584 was able to meet a hydrogen destruction \nefficiency of 99.9%. It is expected that A -1584 will meet the minimum control efficiency of 99.5% and \nPermit Condition #27543, Part 9  has been imposed to demonstrate compliance. Bec ause A -1584 is able to \nachieve the minimum control efficiency, there is no increase in process emissions from the sources abated by A- 1584.  \n  \n \n\n \nTable 1 – Minimum Control Efficiency for Sources abated by A -1584 \nS-# Control Efficiency (%)  Reference  \n126 None  n/a \n127 None  n/a \n134 95.0%  Permit Condition 21053, Part 6  \n137 95.0%  Permit Condition 21053, Part 6  \n323 99.5%  Permit Condition 21053, Part 3  \n327 95.0%  Regulation 8 , Rule 5 \n432 95.0%  Permit Condition 21053, Part 6  \n532 98.0%  Permit Condition 20099, Part 4  \n603 95.0%  Permit Condition 21053, Part 6  \n613 None  Part of S -1025 \n656 95.0%  Permit Condition 10696, Part 1  \n658 95.0%  Permit Condition 10696, Part 1  \n699 95.0%  Regulation 8 , Rule 5 \n714 98.0%  Permit Condition 8538, Part 2  \n819 95.0%  Regulation 8 , Rule 8 \n1025 None  Permit Condition 21849, Part 11  \nRegulation 8 , Rule 33; 0.04 lbs/ 1000 gallons loaded  \n1484 95.0%  Regulation 8 , Rule 8 \n1496 99.5%  Permit Condition 21100, Part 2  \n1554 99.5%  Permit Condition 25025, Part 3  \n1560  98.5%  Permit Condition 26406, Part 4  \n \nSecondary Emissions (Combustion of Refinery Fuel Ga s/Natural Ga s at A-1584):  \nTable 2 – Daily and Annual Secondary Emissions at A- 1584 \n Emission Factor  \n(lbs/MMBtu)  Daily Emissions \n(lbs/day)  Annual Emissions \n(lbs/year)  Annual Emissions \n(tons/year)  \nNO x 0.1 101.5  37,055 18.527 \nCO 0.074  75.1 27,421 13.710  \nSO 2 0.034  34.5 12,585 6.292  \nPM 10 0.0096  9.8 3,570 1.785  \nPM 2.5 0.0096  9.8 3,570 1.785  \nPOC  0.007  7.1 2,583 1.292  \n \nBasis:  \n• Maximum firing rate at 42.3 MMBtu/h our \n• Operating Schedule: 24 hours/day, 365 days/year  \n• NOx and CO emission factors are from vendor estimates and comply with thermal oxidizer RACT \nlevels of 0.2 lbs/MMBtu and 0.8 lbs/MMBtu for NOx and CO, respectively. (Air District Policy \ndated April 13, 1999).  \n• SO 2 emission factor is based on 162 ppm of H sS determined daily on a 365 successive calendar \nday rolling average basis ( 40 CFR  Subpart J). It is assumed that all H sS will be converted to SO 2.  \n• SO 2 lb/MMBtu = Total S ppm x MW SO 2 lb/lb-mol / MVC scf/lb -mol / HHV Btu/scf  \nSO 2 lb/MMBtu = 162 ppm x 64.01 lb/lb-mol / 387 scf/lb -mol / 789  Btu/scf  \n \n• Higher Heating Value ( HHV ) of refinery fuel gas is assumed to be 789  Btu/scf based on 1-year \naverage during refinery idling (August 2020 – July 2021) . Natural gas will be used as a \nsupplemental fuel with a HHV of 1020 Btu/scf, but it is more conservative to use a lower HHV.  \n• PM 10, PM 2.5, and POC emission factors are from EPA AP -42, Table 1.4 -2. \n \nTotal emissions from combustion of refinery fuel gas /natural gas  are not expected to increase as a result of \nthis project. During normal operation, recovered gasses are combusted at S -908, S -909, and S -912 with \nmaximum firing rates of 220 MMBtu/h our, 145 MMBtu/h our, and 135 MMBtu/hou r, respectively. A -1584 \nhas a maximum firing rate of 42.3 MMBtu/hour; therefore, the emissions from A -1584 should be no greater \nthan S -908, S -909, or S -912.  \n Total Emissions at A -1584 Outlet:  \nBecause the proposed activity  involves one abatement device abating multiple sources, i .e., one emission \npoint, there is a desire to quantify the potential to emit or a combined emission limit at the thermal oxidizer \noutlet fo r the purpose of source test ing/compliance demonstration.  \nTable 3 – Total Daily and Annual POC  Emissions at A-1584 Outlet by Source  \nSource \nNo. Max Daily"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lbs/day)  Annual"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lbs/year)  References/Notes  \n126 0.0 0 Vapors are routed back to storage tanks; therefore, it is conservative \nto assume no emissions from this source for the purpose of \nestablishing a combined emission limit.  127 0.0 0 \n134 17.0 6,214 Application No. 7768  \n137 1.4 500 Application No. 12475  \n323 5.3 1,923 Application No. 10667  \n327 0.0 0 Emissions from this source is negligible; therefore, it is conservative \nto assume no emissions from this source for the purpose of \nestablishing a combined emission limit.  \n432 29.1 10,634 AP-42 Tanks Calculation  \n532 57.7 21,045 Application No. 6201  \n603 0.0 0 This tank has been reported as emptied and cleaned in 2020; \ntherefore, it is conservative to assume no emissions from this source \nfor the purpose of establishing a combined emission limit.  \n613 0.0 0 This is a bladder tank for truck loading rack and emission are part of \nS-1025; it is conservative to assume no emiss ions from this source \nfor the purpose of establishing a combined emission limit.  \n656 0.0 15 AP-42 Tanks Calculation  \n658 0.0 15 AP-42 Tanks Calculation  \n699 0.1 29 AP-42 Tanks Calculation  \n714 10.8 3,926 Application 16050 \n819 0.0 8 TOXCHEM  Wastewater Model  \n1025 108.3  31,273 Based on throughput limits (Permit Condition #21849, Part 9) and \nemission factor of 0.04 lbs/Mgal (Regulation 8, Rule 33).  \n1484 1.4 501 Application No. 4579 \n1496 24.3 8,869 Application No. 9728 \n1554 1.1 386 Application No. 22823 \n1560 513.0  40,000 Application No. 27990 \nA-1584  5.4 1,982.6  Table 2  \nTotal  774.8  127,320  \n \n \nThe total POC emissions in Table 3 are tabulated based on the potential to emit of each source. To ensure \nthe proposed thermal oxidizer is sized to handle the expected inlet gas flowrate  and that the total emissions \ncalculated in Table 3 are adequate for the thermal oxidizer, the following shows the emissions calculation \nbased on the thermal oxidizer maximum firing rate of 42.3 MMBtu/hour.  \n \n𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸  𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅  �𝑙𝑙𝑙𝑙𝐸𝐸\nℎ𝑟𝑟�=42.3 × 106𝐵𝐵𝑅𝑅𝐵𝐵\nℎ𝑟𝑟÷789𝐵𝐵𝑅𝑅𝐵𝐵\n𝐸𝐸𝑠𝑠𝑠𝑠×  20.23𝑙𝑙𝑙𝑙𝐸𝐸\n𝑙𝑙𝑙𝑙−𝐸𝐸𝐸𝐸𝑙𝑙÷387𝐸𝐸𝑠𝑠𝑠𝑠\n𝑙𝑙𝑙𝑙−𝐸𝐸𝐸𝐸𝑙𝑙×(100−99.5)\n100 \n \nBasis:  \n• Thermal  Oxidizer Max Firing Rate – 42.3 MMBtu/h our \n• Heating Input – 789 Btu/scf (August 2020 – July 2021) \n• Molecular Weight  of Fuel Gas – 20.23 lbs/lb -mole  \n• Molar Volume – 387 ft3/lb-mole  \n• Minimum control efficiency – 99.5% (Table 1)  \n \nAs shown in Table 4, the maximum emissions based on the thermal oxidizer maximum firing rate is lower than the total emissions from each source. Therefore, lower emission limits will be imposed in Permit \nCondition # 27543, Part 3. Although the total maximum emissions from each sour ce are greater  than what \nthe thermal oxidizer is capable of burning, sources are not expected to operate at full capacity and at the same time .  \n \nTable 4 – Total Daily and Annual POC Emissions at A- 1584 Outlet \n Max Daily"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lbs/day)  Annual"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lbs/year)  \nMax Firing Rate  336.3  122,7 50 \nSum of PTE by Source  774.8  127,320"
+      },
+      {
+        "heading": "Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Cumulative Increase\nse  \nThis project does not result in an emission increase; therefore, cumulative increase in not applicable.  \n \nToxic Screening Analysis  \nA Health Risk Assessment (HRA) is required when the emissions of toxic air contaminants (TACs) are at \nor exceed the trigger levels outlined in Regulation 2, Rule 5, Table 2 -5-1. \n \nAs shown in Table 5, emissions of TACs from the combustion of refinery fuel gas at A -1584 exceed one or \nmore trigger levels outlined in Regulation 2, Rule 5, Table 2 -5-1. Although A -1584 will only operate in \nlieu of S -908, S -909, and S -912, the Air District does not allow netting out of HRA requirements. \nTherefore, an HRA is required.  \n \nBase d on the TAC emission rates, this project passed the HRA conducted on October 28, 2021 by the Air \nDistrict’s Permitting  & Toxics Section. Results from the HRA indicate that the maximum cancer risk is \n0.35 in a million, the maximum chronic hazard index is 0 .0035, and the acute hazard index is 0.0031. This \ncomplies with the Regulation 2 -5-302 project risk requirements. The TBACT requirement of Regulation 2 -\n5-301 is not triggered for this application.  \n \n  \n \n \nTable 5. Toxic Air Contaminant Emissions  at A-1584 \nPollutant  Emission \nFactor1 \n(lbs/MMBtu)  Hourly"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lbs/hour) Annual"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lbs/year) Acute  \nTrigger \nLevel \n(lbs/h our) Chronic  \nTrigger \nLevel \n(lbs/year)  Acute  \nTrigger?  Chronic  \nTrigger?  \nSulfuric Acid  2.8E-05 1.2E-03 1.0E+01  2.6E-01 3.9E+01  No No \nPAH  1.1E-06 4.6E-05 4.1E-01 None  3.3E-03 No Yes \nAmmonia  1.4E-04 6.0E-03 5.3E+01  7.1E+00  7.7E+03  No No \n1,4-Dichlorobenzene(p)  1.2E-06 5.0E-05 4.4E-01 None  7.2E+00  No No \nAcetaldehyde  5.2E-05 2.2E-03 1.9E+01  1.0E+00  2.9E+01  No No \nArsenic  8.4E-07 3.5E-05 3.1E-01 4.4E-04 1.6E-03 No Yes \nBenzene  4.8E-05 2.0E-03 1.8E+01  6.0E-02 2.9E+00  No Yes \nBeryllium  1.5E-08 6.2E-07 5.4E-03 None  3.4E-02 No No \nCadmium  6.0E-07 2.5E-05 2.2E-01 None  1.9E-02 No Yes \nChromium (hexavalent)  1.3E-06 5.4E-05 4.7E-01 None  5.1E-04 No Yes \nCopper  5.7E-06 2.4E-04 2.1E+00  2.2E-01 None  No No \nCyanide  2.7E-06 1.1E-04 9.9E-01 7.5E-01 3.5E+02  No No \nEthyl benzene  1.8E-05 7.5E-04 6.6E+00  None  3.3E+01  No No \nFormaldehyde  9.9E-05 4.2E-03 3.7E+01  1.2E-01 1.4E+01  No Yes \nHexane  1.8E-03 7.6E-02 6.7E+02  None  2.7E+05  No No \nHydrochloric acid  8.1E-04 3.4E-02 3.0E+02  4.6E+00  3.5E+02  No No \nHydrogen sulfide  8.1E-05 3.4E-03 3.0E+01  9.3E-02 3.9E+02  No No \nLead  2.5E-06 1.0E-04 9.2E-01 None  2.9E-01 No Yes \nManganese  4.6E-06 2.0E-04 1.7E+00  None  3.5E+00  No No \nMercury  2.4E-07 1.0E-05 8.9E-02 1.3E-03 2.1E-01 No No \nNaphthalene  4.7E-07 2.0E-05 1.8E-01 None  2.4E+00  No No \nNickel  5.0E-06 2.1E-04 1.8E+00  3.1E-05 3.1E-01 Yes Yes \nPhenol  4.6E-06 2.0E-04 1.7E+00  1.3E+01  7.7E+03  No No \nPropylene  2.1E-06 8.7E-05 7.6E-01 None  1.2E+05  No No \nSelenium  5.0E-06 2.1E-04 1.8E+00  None  8.0E+00  No No \nToluene  8.4E-05 3.5E-03 3.1E+01  8.2E+01  1.2E+04  No No \nVanadium  2.3E-06 9.7E-05 8.5E-01 3.6E-02 None  No No \nXylenes  4.2E-05 1.8E-03 1.5E+01  4.9E+01  2.7E+04  No No \nNote(s):  \n1. See Appendix A for details."
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\nT)  \nPer Regulation 2 -2-301, BACT is triggered for any new or modified source with the potential to emit 10 \npounds or more per highest day of POC, NPOC, NOx, CO, SO 2, PM 10 or PM 2.5. \n \nAs described in the emissions calculation section, there is no increase in emissions, therefore, BACT is not \ntriggered.  \n As shown in Table 2, A -1584 has a potential to emit one or more criteria pollutant in an amount of 10.0 or \nmore pounds on any day; however, A- 1584 is exempt from BACT requirements per Regulation 2 -2-102. \nAs shown below, A- 1584 is being used to control  odors from sources , to comply with BACT requirements \nfor sources subject to BACT, and to comply with Air District Rules.  Best Available Retrofit Control \n \nTechnology (BARCT)  is defined in Section 40406 of the  California Health and Safety Code as an emission \nlimitation that  is based on the maximum degree of reduction achievable, taking into account  environmental, \nenergy, and economic impacts by each class or category of source. During the rule development process, \nAir District staff proposes an emission level to t he Board based on a level that can be achieved by means of \na technology or best practices, or other means which considers environmental benefits (emissions reductions) and impact (CEQA analyses); energy (also evaluated under CEQA); and economic impacts (cost, cost effectiveness, incremental cost effectiveness, and socioeconomic impacts ), all of which the \nBoard considers when adopting a proposed rule or amendments to a rule.  Therefore, all Air District Rules \nare considered BARCT Rules. In addition, Air District Rules referenced below have a rule stringency of \nBARCT on the California Air Resources Board website. As such, A -1584 is an abatement device used to \ncomply with BACT and BARCT requirements and meets the exemption requirements per Regulation 2 -2-\n102. \n \nTable 6. BACT and BARCT Applicability  \nS-# BACT \nApplicability  BARCT Rule \nApplicability  Reference(s)/Note(s)  \n126 No No Odor Management  \n127 No No Odor Management  \n134 Yes Yes Regulation 8, Rule 5  \nApplication No. 7768  \n137 Yes Yes Regulation 8, Rule 5  \nApplication No. 12475  \n323 No Yes Regulation 8, Rule 5  \nApplication No. 25142  \n327 No No Odor Management  \n432 No Yes Regulation 8, Rule 5  \nApplication No. 2253  \n532 Yes Yes Regulation 8, Rule 8  \nApplication 6201  \n603 No Yes Regulation 8, Rule 5  \n613 No Yes Regulation 8, Rule 33  \nApplication No. 10668  \n656 No Yes Regulation 8, Rule 5  \n658 No Yes Regulation 8, Rule 5  \n699 No Yes Regulation 8, Rule 5  \nRegulation 8, Rule 8  \n714 Yes Yes Regulation 8, Rule 5  \nApplication No. 16050  \n819 No Yes Regulation 8, Rule 8  \nApplication No. 8592  \n1025  No Yes Regulation 8, Rule 33  \nApplication No. 10668  \n1484  No Yes Regulation 8, Rule 8  \nApplication No. 4579  \n1496  No Yes Regulation 8, Rule 5  \nApplication No. 8002  \n1554  No Yes Regulation 8, Rule 5  \nApplication No. 22823  \n1560  Yes Yes Regulation 8, Rule 44  \nApplication No. 27990  \n \nInstead, A -1584 is required to meet Reasonably Available Control Technology (RACT) for control of \nemissions of such pollutants.  \n \n \nA-1584 complies with RACT levels of 0.2 lbs/MMBtu and 0.8 lbs/MMBtu for NOx and CO, respectively. \n(Air District Policy dated April 13, 1999)."
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nts  \nThis project does not result in an emission increase; therefore, offsets are not required per Regulation 2 -2-\n303. \n \nStatement of C ompliance  \n \nAir District Regulations  \nThe owner/operator of abatement device A-1584  and abated sources  is expected to continue to comply with \nthe following Air District Regulations : \n   Regulation 8, Rule 5, “Storage of Organic Liquids”  \n Regulation 8, Rule 6, “Terminals and Bulk Plants”  \n Regulation 8, Rule 8, “Wastewater  (Oil Water) Separators”  \n Regulation 8, Rule 33, “Gasoline Bulk Terminals and Gasoline Delivery Vehicles”  \n Regulation 8, Rule 44, “Marine Vessel Loading Terminals”   \n \nStorage tanks S-134, S-137, S-323, S-432, S-603, S-656, S-658, S-699, S-714, S-1496 , and S- 1554  are \nsubject to an abatement efficiency of at least 95% per Regulation 8 -5-306. A- 1584 is expected to achieve a \nminimum control efficiency of 99.5%; therefore, storage tanks are expected to continue to comply with Regulation 8, Rule 5.  \n \nLPG Loading racks S-126 and S-127 are exempt from Regulation 8, Rule 6 per Regulation 8 -6-117 and \nwill continue to meet exemption requirements.  \n Wastewater collection equipment S -532, S-699, S-819, and S-1484 are subject to a combined collection \nand destruction efficiency of at least 95% per Regulation 8 -8-301.3.  A-1584 is expected to achieve a \nminimum control efficiency of 99.5%; therefore, these sources are expected to continue to comply with \nRegulation 8, Rule 8. \n Gasoline loading rack S-1025 and bladder tank S -613 are subject to 0.04 lbs per 1000 gallons loaded per \nRegulation 8 -33-301. The owner/operator will be required to obtain a CARB certification to demonstrate \ncompliance and is expected to continue to comply with Regulation 8, Rule 33.  \n  \nMarine loading S-1560  is subject to 2 lbs per 1000 barrels loaded or reduce emissions by at least 95% by \nweight per Regulation 8 -44-304.1. A-1584 is expected to achieve a minimum control efficiency of 99.5%; \ntherefore, S-1560  is expected to continue to comply with Regulation 8, Rule 44. \n  California Environmental Quality Act (CEQA)  \nThis project is ministerial under the District Regulation 2 -1-311 (Permit Handbook Chapter 3.1 – Bulk \nLoading Facilities, Chapter 3.3 – Oil-Water Separators, and Chapter 4.0 – Organic Liquid Storage Tank), \nand is therefore not subject to CEQA review.  \n \nFinding of Exemption: The Air District has determined that this permit action for Abatement \nDevice 1584 is exempt from CEQA because the Air Distr ict’s approval was “ministerial” and \ntherefore exempt from CEQA under CEQA § 21080(b)(1). The Air District has determined that the permit action for Abatement Device 1584 is also categorically exempt from CEQA per CEQA Guidelines §§ 15061(b)(3), the “Common Sense” exemption, and 15308, “Action to Protect the \nEnvironment” and Air District Regulation 2-1- 312.2, “Permit applications to install air pollution \ncontrol or abatement equipment.”  \n \nBasis for Exemption: The Air District’s regulatory requirements that g overned the approval of \nthis project involved objective numerical standards outlined in the Air District’s Permit Handbook \nChapters 3.1 (Bulk Loading Facilities), 3.3 (Oil -Water Separators), and 4.0 (Organic Liquid \n \nStorage Tank), which did not allow for or  require any subjective judgment or discretion to interpret \nor apply; and the Air District was legally compelled to approve the project where it complied with \nsuch standards. Also, the Air District’s permit action is exempt because it permits an air pollut ion \ncontrol or abatement equipment designed to reduce air pollution emissions. In addition, the \napplicant has included in its permit application CEQA- related information (CEQA Appendix H) \nthat demonstrates with certainty that the project has no potential f or resulting in any additional or \ndifferent environmental impacts beyond what is already entailed in the applicant’s existing use of the source.  \n \nSchool Notification  \nThis project is over 1,000 feet from the nearest K- 12 school, and is therefore not subject  to the public \nnotification requirements.  \n \nNational Emissions Standards for Hazardous Air Pollutants  (NESHAP) \nNESHAP is not triggered.  \n New Source Performance Standards (NSPS)  \nNSPS is not triggered.  \n Prevention of Significant Deterioration (PSD)  \nThis application is not part of a PSD project as defined in Regulation 2 -2."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nns  \n \nPermit Condition # 27543  for A -1584   \nS-126 LPG Truck Loading Rack (Exempt)  \nS-127 LPG Tank Car Loading Rack (Exempt)  \nS-134 Tank A -134, Recovered Oil,  \nS-137 Tank A-137, Fuel Oil #2, Waste Oil, Gasoline  \nS-323 Tank A -323, Fuel Oil, Jet ‘A’, Gasoline, Alkylate Gasoline Blending Components  \nS-327 Tank A -327, Caustic Waste  \nS-432 Tank A -432, Ethyl Alcohol, Distillate Oil, Gasoline, Naphtha  \nS-532 Oil Water Separator  \nS-603 Tank A -603, Organic Liquid – other/not Spec; #50 Unit Desalter Break Tank,  \nS-613 Tank A -613, Vapor Storage Tank  \nS-656 Tank A -846, Foul Water Stripper Charge Tank, Refinery Sour Waste Water \nS-658 Tank A -847, Foul Water Stripper Charge Tank, Refinery Sour Wa ste Water  \nS-699 Tank A -690, Crude Oil  \nS-714 Tank A -714, Organic Liquid – other/not Spec, Hydrocarbon Alkylation Spent Acid  \nS-819 API Oil -Water, Separator/Dissolved Nitrogen Flotation System, Abated by A -39 Thermal \n Oxidizer (A -14 Vapory Recovery as backup)  \nS-1025 Bulk Plant; Bottom Loading Facilities  \nS-1484 Oil Water Separator; Pressure Vessel, 50 Unit Desalter Brine  \nS-1496 Tank A -876, Heavy reformate with pentanes, straight run heavy naphtha  \nS-1554 Tank A -943, High Sulfur Vacuum Gas Oil (HSVGO), Vacuum Gas Oil (VGO)  \nS-1560 Avon Wharf Berth No. 1A Marine Bulk Plant  \nA-1584  – Trailer Mounted Combustor, 42.3 MMBtu/h our, John Zink, PECS Unit \n Application 31305  (November 2021)  \n \n1. The owner/operator shall abate emissions from Source s S-126, S-127, S-134, S-137, S-323, S-327, S-\n432, S-532, S-603, S-613, S-656, S-658, S-699, S-714, S-819, S-1025, S-1484, S-1496, S-1554 , S-1560  via \nA-14 Vapor Recovery with Abatement De vice A -1584 , Thermal Oxidizer during all periods of operation  \nwhen S -909, S -908, and S-912 are all out of service . The owner/operator shall only operate A -1584 when \nS-909, S -908, and S -912 are all out of service. The owner/operator of A -1584 shall not exceed a s tack gas  \nflow rate of 55,000 scfm. \n \n(Basis: Regulation 2 -2-208 Cumulative Increase ) \n \n2. The owner/operator shall operate  A-1584  Thermal Oxidizer such that the VOC destruction efficiency \nshall  be maintained at a minimum of 99.5% by weight.  \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n \n3. The owner/operator of A -1584  shall not exceed the following limits measured at the outlet:  \na. Nitrogen oxides (NOx) – 0.10 lbs/MMBtu \nb. Carbon monoxide (CO) – 0.074 lbs/MMBtu \nc. Precursor Organic Compound (POC) – 336.3 lbs/day  \nd. Precursor Organic Compound (POC) – 122,750 lbs/year  \n(Basis: Regula tion 2 -2-208 Cumulative Increase)  \n 4. The owner/operator shall operate A -1584  to be at least 1400 degrees F. The Air District may adjust this \nminimum temperature, if source test data demonstrates that an alternate temperature is necessary for or \ncapable of maintaining compliance with Part 2 above.  \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n \n5. To determine complian ce with the temperature requirement in these permit conditions, the \nowner/operator shall equip A -1584  with a temperature measuring device capable of continuously \nmeasuring and recording the temperature in A -1584 . The owner/operator shall install, and maint ain in \naccordance with manufacturer’s recommendations, a temperature measuring device that meets the \nfollowing criteria: the minimum and maximum measurable temperatures with the device are 32 degrees F \nand 2,300 degrees F, respectively, and the minimum acc uracy of the device over this temperature range \nshall be 1.0 percent of full -scale.  \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n \n6. The owner/operator shall report any non- compliance with Part 4 of this condition to the Director of the \nCompliance & En forcement Division at the time that it is discovered. The submittal shall detail the \ncorrective action taken and shall include the data showing the exceedance as well at the time of occurrence. \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n 7. The temper ature limit in Part 4 shall not apply during an “Allowable Temperature Excursion”, provided \nthat the temperature controller setpoint complies with the temperature limit. An Allowable Temperature \nExcursion is one of the following:  \na. A temperature excursion n ot exceeding 20 degrees F; or  \nb. A temperature excursion for a period or periods which when combined are less than or equal to 15 minutes in any hour; or  \nc. A temperature excursion for a period or periods which when combined are more than 15 minutes in any hou r, provided that all three of the following criteria are met.  \ni. the excursion does not exceed 50 degrees F;  \nii. the duration of the excursion does not exceed 24 hours; and  \niii. the total number of such excursions does not exceed 12 per calendar year (or any \nconsecutive 12 -month period).  \nTwo or more excursions greater than 15 minutes in duration occurring during the same 24 -hour period shall \nbe counted as one excursion toward the 12- excursion limit.  \n(Basis: Regulation 2 -1- 403)  \n \n8. For each Allowable Temperature Excursion that exceeds 20 degrees F and 15 minutes in duration, the \nPermit Holder shall keep sufficient records to demonstrate that they meet the qualifying criteria described \nabove. Records shall be retained for a minimum of five (or two years) years from  the date of entry, and \nshall be made available to the Air District upon request. Records shall include at least the following \ninformation:  \na. Temperature controller setpoint;  \nb. Starting date and time, and duration of each Allowable Temperature Excursion;  \nc. Measured temperature during each Allowable Temperature Excursion;  \n \nd. Number of Allowable Temperature Excursions per month, and total number for the current \ncalendar year; and  \ne. All strip charts or other temperature records.  \n(Basis: Regulation 2 -1-403) \n \n9. Not later than 60 days from the startup of A -1584 , the owner/operator shall conduct Air District -\napproved source tests to determine initial compliance with the limits in Parts 2, 3, and 4 for VOC \ndestruction efficiency, emission limits,  and temperature, respectively. The owner/operator shall submit the \nsource test results to the Air District staff no later than 60 days after the source test.  \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n \n10. The owner/operator shall obtain approval for all source test procedures from the Air District’s Source \nTest Section prior to conducting any tests. The owner/operator shall comply with all applicable testing \nrequirements as specified in Volume IV of the District’s Manual of Procedures. The owner/operator shall \nnotify the District’s Source Test Section, in writing, of the source test protocols and projecte d test dates at \nleast 7 days prior to testing.  \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n \n11. The owner/operator shall not use A -1584 for tank degassing activities . \n(Basis: Regulation 2 -2-208 Cumulative Increase)  \n \nPermit Condition # 21849  for S-1025 \nApplication #10668 (October 29, 2004): Loading Rack Modernization Project \nApplication #13493 (October, 2005): Modification of emission limit from S -1025 to the RACT and \nRegulation 8 -33-301 level of 0.08 lb POC per 1000 gallon of material loaded.  \nAdm inistratively Changed by Application 18861 (June  2009) Removed completed parts and parts \nredundant  with District Regulations  \nApplication 17928/17458 (2008) Remove Demolished and OO S Sources  \nApplication 21023 (January 2010): increase ethanol  throughput of S -1504 from 400,000 bbl/yr to \n1,200,000  bbl/yr.  Administratively changed by Application 23981 (April  2012): Updated Part 11 to remove  \n5 year source test link to  Title V renewal, removed S -913 from source test requirement  (no longer on 40# \nfuel gas system, a nd increased time allowed for submitting source test report to 60 days.  \nAdministratively Changed by Application 24362 (June 2012)  \nRemoved S -913 from the source test requirements of Part 11 since no longer fired with 40# fuel gas.                    \nApplica tion # 31305  (November 2021 ):  Part 11 - Updated emission limit to 0.04 lb POC per 1000 gallon of \nmaterial loaded  per Regulation 8 -33-301 and added A -1584 to source test requirement.  \n  \nS-613 Vapor Recovery Tank A -613: Fixed Roof Tank, Capacity 420K Gallons, Storing: Organic Vapor  \nS-696 Tank A -696; Internal Floating Roof Tank, Capacity 630K Gallons, Storing: Gasoline  \nS-1025 Bulk Terminal Bottom Loading Facilities:  Gasoline, Naphtha, Kerosene, Diesel, Fuel Oil, Ethanol  \nS-1504 Bulk Terminal Unloading Ra ck: Ethyl Alcohol      \n     \nFugitive Components  \n1. Completed. (Final Fugitive Count submitted 6/9/05 and offsets were adjusted.)  \n2. Completed. (Final Fugitive Count submitted 6/9/05 and offsets were adjusted.)  \n3. Deleted. (Valve Design Requirements Completed and Leak Limits redundant with Regulation 8 -18-\n302) \n4. Deleted. (Connector Design Requirements Completed and Leak Limits redundant with Regulation 8-\n18-304) \n5. Deleted. (Pump Design Requirements Completed and Leak Limits redundant with Regulation 8 -18-\n303) \n6. Deleted. (Pressure Relief Valve Design Requirements Completed and redundant with Regulation 8 -\n28302. All PRDs vent to the refinery fuel gas system or an abatement device with >=98% efficiency.)  \n7. Deleted. (Completed. All fugitive components have been ad ded to the refinery fugitive monitoring and \nrepair program)                                                \n \n \nS-1025 Bulk Plant Bottom Loading Facilities: Gasoline,  Naphtha, Kerosene, Diesel, Fuel Oil, Ethanol  \n8. The owner/operator of S -1025 shall apply for the  proper  certification from the California Air \nResources Board (CARB) for the A -14 Vapor Recovery System prior to startup. (basis: Regulation 8 -\n33-301, 302)  \n9. The owner/operator of S -1025 Bulk Plant Loading  Facilities shall not exceed the following \nthroughput s. 64,457 barrels (2,707,194 gallons) per day 18,615,000  barrels (781,830,000 gallons) per \nany 12 month consecutive period (basis: toxic risk screen)  \n10. The owner/operator of S -1025 shall not transfer any  material other than gasoline, naphtha, kerosene, \ndiese l, fuel oil, or ethanol.  (basis: toxic risk screen)  \n11. To ensure that the S -1025 Bulk Plant Unloading Rack does  not exceed an emission factor greater than \n0.04 lb POC  per 1000 gallons of material loaded, the owner/operator  shall:  \na. not operate S -1025 unless vented to S -613 Vapor  Recovery Tank and A -14 Vapor Recovery \nSystem.  \nb. install a sample line from each of the  pressure -vacuum valves located at the loading racks,  which \nis easily accessible by District personnel to determine any valve leakage.  \nc. install and maintain a pressure switch at the knockout pot, V- 61, located at the interface of the          \nvapor outlet of the S -1025 Loading Rack and the  inlet to the A -14 Vapor Recovery and S -613 \nVapor  Recovery Tank Systems. The pressure switch shall be set at 1 8 inches of water column as \nmeasured at the cargo tank/vapor coupler interface located the furthest from the knockout pot, V -\n61. If the pressure exceeds 18 inches, a high pressure alarm will shutdown loading rack operations.  \nd. conduct District approved sourc e tests to determine POC destruction efficiency at the following \nsources every 5 years (initial compliance has been  demonstrated in a source test for AN 6201 by \nTIAX on  October 28, 2003).                              \n \nS-908 No. 8 Furnace @ No. 3 Crude Unit  \nS-909 No. 9 Furnace @ No. 1 Feed Prep.  \nS-912 No. 12 Furnace @ No. 1 Feed Prep.  \nA-1584 Trailer Mounted Combustor, 42.3 MMBtu/hr, John Zink, PECS Unit  \n   \nFor each source, the owner/operator must measure th e following:  \n       the fuel feed rate in pounds/hr  \n       the POC emission rate at the stack  \n       the flue gas flow rate in SCFM at the stack  \n       the oxygen content of the stack flue gas  \n       the stack temperature  \n       the destruction efficiency of POC as mea sured across  \n       the combustion device  \nThe owner/operator shall submit individual copies of the  results of the source tests (along with related \ncalculations and process data) to the District's Engineering Division, Enforcement Division, and Source \nTest Section within 60 days of the source test.  \n(basis: Cumulative Increase, Toxic Risk Screen, Regulation 8 -33-301, Regulation 1- 238, BACT)         \n \n12. To determine compliance with the parts 8- 11, the owner/operator shall maintain the following records \nand provi de all of the data necessary to evaluate compliance with the above conditions, including, but \nnot necessarily limited to, the following information:  \n      a.  California Air Resources Board certification of A -14. \n      b.  On a daily basis, type and quanti ty of product loaded.  \n      c.  The throughput of material shall be added and recorded in the log for each month and for each  \n          rolling consecutive 12 month period.  \n      d.  The time, date, duration, and reason for each  instance that S -1025 is not abated by S -613 or A -14. \nThese records shall be kept on site for at least 5 years. All records shall be recorded in a District  approved \nlog and made available for inspection by District staff upon request. These recordkeeping  requirements \nshall not replac e the recordkeeping requirements contained in any applicable District Regulations.   \n(basis: Cumulative Increase, Toxic Risk Screen, Offsets, Regulation 1 -441, Regulation 1 -238)     \n \nS-1504 Bulk Plant Unloading Rack: Ethanol  \n \n13. The owner/operator of S- 1504 Bulk Plant Unloading Rack shall not exceed the following throughput:  \n       1,200,000 barrels per any 12 month consecutive period  \n(basis: cumulative increase, offsets, toxic risk screen)  \n14. The owner/operator of S -1504 shall not trans fer any  material other than fuel grade ethanol.  \n(basis: cumulative increase, offsets, toxic risk screen)  \n \n15. To determine compliance with parts 13 and 14, the owner/operator shall maintain the following \nrecords and provide all of the data necessary to evaluate compliance with the above conditions, \nincluding, but not necessarily limited to, the following information:  \na. On a daily basis amount of ethanol transferred.  \nb. The throughput of material shall be added and recorded in the log for each month and for ea ch          \nrolling consecutive 12 month period.  \nThese records shall be kept on site for at least 5  years. All records shall be recorded in a District      \napproved log and made available for inspection by District staff upon request. These recordkeeping \nrequirements shall not replace the recordkeeping  requirements contained in any applicable District  \nRegulations.  \n(basis: Cumulative Increase, Toxic Risk  Screen, Offsets, Regulation 1 -441, Regulation 1 -238, Regulation \n8-6-501) \n \nEnd of Conditions"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\non  \n I recommend that the Air District issue an  Authority to Construct for the following equipment: \n A-1584 Trailer Mounted Combustor, 42.3 MMBtu/h our, John Zink, PECS Unit  \n \n \n  \nPrepared by:  Danny Nip, Air Quality Engineer  II \nDate:  11/04/2021 \n \nAppendix A – Emission Factors for Combustion of Refinery Fuel Gas  \nTable A-1 – Emission Factors for Combustion of Refinery Fuel Gas  \nPollutant  Emission \nFactor  Units  Emission Factor Reference  \nSulfuric Acid  2.8E-05 lbs/MMBtu  Eng. Estimate . SO 2 ->  SO 3 ->  H2SO 4 \nPAH  1.1E-06 lbs/MMBtu  CATEF;  Sumproduct of PAHxPEF, excl. naphthalene  \nAmmonia  1.4E-04 lbs/MMBtu  CATEF;  Mean Emission Factor  \n1,4-Dichlorobenzene(p)  1.2E-06 lbs/MMBtu  AP-42, 1.4  \nAcetaldehyde  5.2E-05 lbs/MMBtu  CATEF; Mean Emission Factor  \nArsenic  8.4E-07 lbs/MMBtu  CATEF; Mean Emission Factor  \nBenzene  4.8E-05 lbs/MMBtu  CATEF; Mean Emission Factor  \nBeryllium  1.5E-08 lbs/MMBtu  CATEF; 1/2 Min Emission Factor  \nCadmium  6.0E-07 lbs/MMBtu  CATEF; Mean Emission Factor  \nChromium (hexavalent)  1.3E-06 lbs/MMBtu  CATEF; Mean Emission Factor  \nCopper  5.7E-06 lbs/MMBtu  CATEF; Mean Emission Factor  \nCyanide  2.7E-06 lbs/MMBtu  CATEF; 1/2 Min Emission Factor  \nEthyl benzene  1.8E-05 lbs/MMBtu  CATEF; Mean Emission Factor  \nFormaldehyde  9.9E-05 lbs/MMBtu  CATEF; Mean Emission Factor  \nHexane  1.8E-03 lbs/MMBtu  EPA EEPPR Table 4 -3 \nHydrochloric acid  8.1E-04 lbs/MMBtu  CATEF; Mean Emission Factor from Subcategory 1  \nHydrogen sulfide  8.1E-05 lbs/MMBtu  CATEF; 1/2 Min Emission Factor  \nLead  2.5E-06 lbs/MMBtu  CATEF; Mean Emission Factor  \nManganese  4.6E-06 lbs/MMBtu  CATEF; Mean Emission Factor  \nMercury  2.4E-07 lbs/MMBtu  CATEF; Mean Emission Factor  \nNaphthalene  4.7E-07 lbs/MMBtu  CATEF; Mean Emission Factor  \nNickel  5.0E-06 lbs/MMBtu  CATEF; Mean Emission Factor  \nPhenol  4.6E-06 lbs/MMBtu  CATEF; Mean Emission Factor  \nPropylene  2.1E-06 lbs/MMBtu  CATEF; 1/2 Min Emission Factor  \nSelenium  5.0E-06 lbs/MMBtu  CATEF;  Mean Emission Factor  \nToluene  8.4E-05 lbs/MMBtu  CATEF;  Mean Emission Factor  \nVanadium  2.3E-06 lbs/MMBtu  EPA EEPPR Table 4 -3 \nXylenes  4.2E-05 lbs/MMBtu  CATEF;  Mean Emission Factor"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nON  \n \nTesoro Refining & Marketing Company LLC  \n150 Solano Way, Martinez, CA 94553  \nPlant  No. 14628 \nApplication No. 31305 \n \nBackground  \n \nTesoro Refining & Marketing Company LLC , a wholly -owned  subsidiary of Marathon Petroleum \nCorporation  (collectively, “ Marathon ”), has applied  for an Authority to Construct/ Permit to Operate for the  \nfollowing  equipment : \n \nA-1584 Trailer Mounted Combustor, 42.3 MMBtu/h our, John Zink, PECS Unit  \n abating the following sources connected to  A-14 Vapor Recovery:  \nS-126 LPG Truck Loading Rack (Exempt)  \nS-127 LPG Tank Car Loading Rack (Exempt)  \nS-134 Tank A -134, Recovered Oil,  \nS-137 Tank A -137, Fuel Oil #2, Waste Oil, Gasoline  \nS-323 Tank A -323, Fuel Oil, Jet ‘A’, Gasoline, Alkylate Gasoline Blending Components  \nS-327 Tank A -327, Caustic Waste  \nS-432 Tank A -432, Ethyl Alcohol, Distillate Oil, Gasoline, Naphtha  \nS-532 Oil Water Separator  \nS-603 Tank A -603, Organic Liquid – other/not Spec; #50 Unit Desalter Break Tank,  \nS-613 Tank A -613, Vapor Storage Tank  \nS-656 Tank A -846, Foul Water Stripper Charge Tank, Refinery Sour Waste Water  \nS-658 Tank A -847, Foul Water Stripper Charge Tank, Refinery Sour Waste Water  \nS-699 Tank A -690, Crude Oil  \nS-714 Tank A -714, Organic  Liquid – other/not Spec, Hydrocarbon Alkylation Spent Acid \nS-819 API Oil -Water, Separator/Dissolved Nitrogen Flotation System , Abated by A -39 Thermal \n Oxidizer (A -14 Vapory Recovery as backup)  \nS-1025 Bulk Plant; Bottom Loading Facilities  \nS-1484 Oil Water Separator; Pressure Vessel, 50 Unit Desalter Brine \nS-1496 Tank A -876, Heavy reformate with pentanes, straight run heavy naphtha  \nS-1554 Tank A -943, High Sulfur Vacuum Gas Oil (HSVGO), Vacuum Gas Oil (VGO)  \nS-1560 Avon Wharf Berth No. 1A Marine Bulk Plant  \n Due to a rapid and significant decline in demand for transportation fuels following the onset of the COVID‐\n19 pandemic, Marathon  idled the Martinez refinery in April 2020. In August 2020, Marathon  announced its \nintent to convert the Martinez refinery to rene wable  fuels production. On September 30, 2020, Marathon  \nsubmitted to the Air District an application for an authority to construct that would authorize the alterations necessary to accomplish the conversion of the facility to renewable fuels production. While the Martinez \nrefinery is idled and is not currently processing crude oil to manufacture transportation fuels, certain \npermitted operations continue and have continued since petroleum refining operations were idled in April 2020. Specifically, the refin ery continues to conduct permitted activities, including loading and unloading \nof product, vapor recovery, wastewater treatment and flaring.  \n Finished petroleum products are received via ship through the Avon Wharf Berth 1A (S‐1560). Gasoline \nand diesel fuel are stored in various existing storage tanks. These products are loaded into trucks via the \nTruck Loading Rack (S‐1025). One of the compressors at No. 1 Gas Plant Vapor Recovery is operational to provide vacuum for the Vapor Recovery tanks and gasoline loading rack. The Waste Water System (S‐819, \nS‐830, S‐831, S‐842, and S‐1026) has remained online to eliminate toxics and pollutants prior to \ndischarging into Suisun Bay. Vapor recovery gases are captured by No. 1 Gas Plant and then sent to the \nflare system, normally sent to refinery process heaters (S-908, S -909, and S -912) to combust the recovered \n \ngas. Four flares East Air (S‐854), Emergency Flare (S‐992), West Air (S‐1012), the Coker Flare (S‐1517) \nare operational at this  time.  \n \nOn May 26, 2021, the Air District issued Notice of Violation Nos. A58276, A25275, A58274, A58273, \nA58272, and A56448 for continuous flaring  during refinery idling.  \n \nOn July 14, 2021, the Air District authorized the use of Envent’s Portable Thermal Oxidizer (Plant #16338, \nA-23, Permitted under Application No. 22751) at Marathon for the purpose of controlling vapors as \noutlined in Figure 1. Permit Condition #24839, Part 5, has a throughput limit of 249,000 therms  \n(24,500,000 cubic feet) of natural gas during any consecutive 12 -month period. \n \nMarathon is estimating that the throughput limit will be reached by November 5, 2021. As such, Marathon \nis proposing to obtain a permanent permit to operate Envent’s portable thermal oxidizer  connected to the \nA-14 vapor recovery system when refinery process heaters are out of service. A- 1584 will be assigned \nunder Plant #14628 for this thermal oxidizer.  \n In addition, gasoline bulk terminal emission limit for S -1025 in Permit Condition # 21849 , Part 11, will be \nupdated from 0.08 to 0.04 lbs per 1000 gallons to reflect current RACT standards  of Regulation 8 -33. S-\n1025 has not been modified and is not considered as a new source; therefore, it will remain as an alter source including changing or replacing the abatement device.  \n \nFigure 1 – Vapor Recovery Process Flow Diagram Using Envent’s Thermal Oxidizer \n \nEmis sions Calculation  \nPrimary Emissions (Process) : \nAs shown, in Table 1 , A-1584 is required to have a minimum control efficiency of 99.5% to comply with \nexisting permit conditions.  Per Application No. 22751, A -1584 was able to meet a hydrogen destruction \nefficiency of 99.9%. It is expected that A -1584 will meet the minimum control efficiency of 99.5% and \nPermit Condition #27543, Part 9  has been imposed to demonstrate compliance. Bec ause A -1584 is able to \nachieve the minimum control efficiency, there is no increase in process emissions from the sources abated by A- 1584.  \n  \n \n\n \nTable 1 – Minimum Control Efficiency for Sources abated by A -1584 \nS-# Control Efficiency (%)  Reference  \n126 None  n/a \n127 None  n/a \n134 95.0%  Permit Condition 21053, Part 6  \n137 95.0%  Permit Condition 21053, Part 6  \n323 99.5%  Permit Condition 21053, Part 3  \n327 95.0%  Regulation 8 , Rule 5 \n432 95.0%  Permit Condition 21053, Part 6  \n532 98.0%  Permit Condition 20099, Part 4  \n603 95.0%  Permit Condition 21053, Part 6  \n613 None  Part of S -1025 \n656 95.0%  Permit Condition 10696, Part 1  \n658 95.0%  Permit Condition 10696, Part 1  \n699 95.0%  Regulation 8 , Rule 5 \n714 98.0%  Permit Condition 8538, Part 2  \n819 95.0%  Regulation 8 , Rule 8 \n1025 None  Permit Condition 21849, Part 11  \nRegulation 8 , Rule 33; 0.04 lbs/ 1000 gallons loaded  \n1484 95.0%  Regulation 8 , Rule 8 \n1496 99.5%  Permit Condition 21100, Part 2  \n1554 99.5%  Permit Condition 25025, Part 3  \n1560  98.5%  Permit Condition 26406, Part 4  \n \nSecondary Emissions (Combustion of Refinery Fuel Ga s/Natural Ga s at A-1584):  \nTable 2 – Daily and Annual Secondary Emissions at A- 1584 \n Emission Factor  \n(lbs/MMBtu)  Daily Emissions \n(lbs/day)  Annual Emissions \n(lbs/year)  Annual Emissions \n(tons/year)  \nNO x 0.1 101.5  37,055 18.527"
+      },
+      {
+        "heading": "CO 0.074  75.1 27,421 13.710",
+        "alias": null,
+        "text": "CO 0.074  75.1 27,421 13.710"
+      },
+      {
+        "heading": "SO 2 0.034  34.5 12,585 6.292",
+        "alias": null,
+        "text": "SO 2 0.034  34.5 12,585 6.292"
+      },
+      {
+        "heading": "PM 10 0.0096  9.8 3,570 1.785",
+        "alias": null,
+        "text": "PM 10 0.0096  9.8 3,570 1.785"
+      },
+      {
+        "heading": "PM 2.5 0.0096  9.8 3,570 1.785",
+        "alias": null,
+        "text": "PM 2.5 0.0096  9.8 3,570 1.785"
+      },
+      {
+        "heading": "POC  0.007  7.1 2,583 1.292",
+        "alias": null,
+        "text": "POC  0.007  7.1 2,583 1.292"
+      }
+    ]
+  }
+}

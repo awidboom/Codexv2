@@ -1,0 +1,262 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\split_evals_2011_04\\application_20679.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 1
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "20679",
+    "application_number_from_filename": "20679"
+  },
+  "application_number": "20679",
+  "plant": {
+    "name": "Tesoro - Golden Eagle Refinery",
+    "plant_id": 14628,
+    "address": "Martinez, CA 94553"
+  },
+  "evaluation_date": "April 8, 2011",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1510",
+      "description": "Delayed Coker"
+    },
+    {
+      "id": "S-1511",
+      "description": "and S -1512 would require more throughputs, but will not exceed their NSR"
+    }
+  ],
+  "background": {
+    "text": "I. BACKGROUND\nND  \n \n In 2006, via Application 14141, Tesoro applied for and was granted a conditional \nAuthority  to Construct for the following equipment:  \n  \nS-1510  Delayed Coker  \n \nThe unit was built and started up in 2008.  A Permit to Operate was granted 6/2/2009.  \nThe unit is subject to a throughput limit in Condition 23129, Part 3:  \n \n3.  The owner/operator of S -1510 delayed coker shall not process more than \n53,200 barrels per day (12 midnight to 12 midnight), and 17,447,000 barrels in \nany consecutive 12 -month period. (basis: Cumulative increase)  \n \nThis application is for a change in conditions to increase the through put limits for S -\n1510:  \n \nCurrent Limit  Proposed Limit  \n53,200 barrels per \nday 55,000 barrels per day  \n17,447,000 barrels \nper consecutive 12 -\nmonths  20,075,000 barrels per \nconsecutive 12 -months  \n \nThis throughput increase will be accomplished with the current process unit.  There will \nbe no changes or modifications performed on the delayed coker unit.  The Coker Heaters \nS-1511 and S -1512 would require more throughputs, but will not exceed their NSR \nthroughput limits specified in Condition 23129.  There could be  impacts on upstream or \ndownstream units, but all would be within current permitted limits.I. BACKGROUND\nND  \n \n In 2006, via Application 14141, Tesoro applied for and was granted a conditional \nAuthority  to Construct for the following equipment:  \n  \nS-1510  Delayed Coker  \n \nThe unit was built and started up in 2008.  A Permit to Operate was granted 6/2/2009.  \nThe unit is subject to a throughput limit in Condition 23129, Part 3:  \n \n3.  The owner/operator of S -1510 delayed coker shall not process more than \n53,200 barrels per day (12 midnight to 12 midnight), and 17,447,000 barrels in \nany consecutive 12 -month period. (basis: Cumulative increase)  \n \nThis application is for a change in conditions to increase the through put limits for S -\n1510:  \n \nCurrent Limit  Proposed Limit  \n53,200 barrels per \nday 55,000 barrels per day  \n17,447,000 barrels \nper consecutive 12 -\nmonths  20,075,000 barrels per \nconsecutive 12 -months  \n \nThis throughput increase will be accomplished with the current process unit.  There will \nbe no changes or modifications performed on the delayed coker unit.  The Coker Heaters \nS-1511 and S -1512 would require more throughputs, but will not exceed their NSR \nthroughput limits specified in Condition 23129.  There could be  impacts on upstream or \ndownstream units, but all would be within current permitted limits."
+  },
+  "emission_calculations": {
+    "text": "II. EMISSION CALCULATIONS\nNS  \n  \nThere are no emission changes associated with this application.II. EMISSION CALCULATIONS\nNS  \n  \nThere are no emission changes associated with this application.   \n \nIII. PLANT CUMULATIVE INCREASE SINCE 4/5/1991  \n  \nThere is no Cumulati ve Increase associated with this application."
+  },
+  "cumulative_increase": {
+    "text": "III. PLANT CUMULATIVE INCREASE SINCE 4/5/1991\n91  \n  \nThere is no Cumulati ve Increase associated with this application."
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "II. EMISSION CALCULATIONS\nNS  \n  \nThere are no emission changes associated with this application.II. EMISSION CALCULATIONS\nNS  \n  \nThere are no emission changes associated with this application.   \n \nIII. PLANT CUMULATIVE INCREASE SINCE 4/5/1991  \n  \nThere is no Cumulati ve Increase associated with this application.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1510": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1511": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": ""
+  },
+  "BACT": {
+    "text": ""
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "IV. STATEMENT OF COMPLIANCE\nCE  \nTesoro Refining and Marketing Company   Application #20679  \nPlant # 14628   Page 648 of 1354  \n    \n 648  \n There are no changes in compliance for S -1510 Delayed Coker.  S -1510 is subject to and \nexpected to be in compliance with Regulation 6, Rule 1, and all of the requirements in \nPermit Condition 23129.  \n \nThis application for a change in conditions, is exempt  CEQA per Regulation 2 -1-312.1, \nand therefore is not subject to CEQA review.  \n \n2-1-312.1 Applications to modify permit conditions for existing or permitted \nsources or facilities th at do not involve any increases in emissions or \nphysical modifications.  \n \n This project is over 1,000 ft from the nearest public school and is therefore not subject to \nthe public notification requirements of Regulation 2 -1-412. \n \nPSD, NSPS, NESHAPS, BACT, To xics and Offsets are not applicable.IV. STATEMENT OF COMPLIANCE\nCE  \nTesoro Refining and Marketing Company   Application #20679  \nPlant # 14628   Page 648 of 1354  \n    \n 648  \n There are no changes in compliance for S -1510 Delayed Coker.  S -1510 is subject to and \nexpected to be in compliance with Regulation 6, Rule 1, and all of the requirements in \nPermit Condition 23129.  \n \nThis application for a change in conditions, is exempt  CEQA per Regulation 2 -1-312.1, \nand therefore is not subject to CEQA review.  \n \n2-1-312.1 Applications to modify permit conditions for existing or permitted \nsources or facilities th at do not involve any increases in emissions or \nphysical modifications.  \n \n This project is over 1,000 ft from the nearest public school and is therefore not subject to \nthe public notification requirements of Regulation 2 -1-412. \n \nPSD, NSPS, NESHAPS, BACT, To xics and Offsets are not applicable."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "V. CONDITIONS\nIONS  \n \nCondition # 23129 will be revised as indicated below (only part 3 is shown).            \n \n3.  The owner/operator of S -1510 delayed coker shall not process more than \n53,200 55,000  barrels per day (12 midni ght to 12 midnight), and \n17,447,000 20,075,000  barrels in any consecutive 12 -month period. (basis: \nCumulative increase)V. CONDITIONS\nIONS  \n \nCondition # 23129 will be revised as indicated below (only part 3 is shown).            \n \n3.  The owner/operator of S -1510 delayed coker shall not process more than \n53,200 55,000  barrels per day (12 midni ght to 12 midnight), and \n17,447,000 20,075,000  barrels in any consecutive 12 -month period. (basis: \nCumulative increase)"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 3,
+        "text": "The owner/operator of S -1510 delayed coker shall not process more than \n53,200 55,000  barrels per day (12 midni ght to 12 midnight), and \n17,447,000 20,075,000  barrels in any consecutive 12 -month period. (",
+        "basis": [
+          "Cumulative increase)V. CONDITIONS\nIONS  \n \nCondition # 23129 will be revised as indicated below (only part 3 is shown)."
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator of S -1510 delayed coker shall not process more than \n53,200 55,000  barrels per day (12 midni ght to 12 midnight), and \n17,447,000 20,075,000  barrels in any consecutive 12 -month period. (",
+        "basis": [
+          "Cumulative increase)"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "VI. RECOMMENDATIONVI. RECOMMENDATION\nON  \n \nIt is recommended that a change in conditions be granted to Tesoro Refining & Marketing \nCompany for the following eq uipment:  \n \nS-1510  Delayed Coker  \n \n \n \n \n \n _________________________    __________________________  \n Arthur Valla      2Jul09  \n Senior Air Quality Engineer"
+  },
+  "raw_sections": {
+    "preamble": "April 8, 2011  647 Application 20679, De layed Coker Throughput Change",
+    "blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nPORT"
+      },
+      {
+        "heading": "TESORO - GOLDEN EAGLE REFINRY",
+        "alias": null,
+        "text": "TESORO - GOLDEN EAGLE REFINRY\nApplication #20679 - Plant #14628  \n \n150 Solano Way  \nMartinez, CA 94553"
+      },
+      {
+        "heading": "I. BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "I. BACKGROUND\nND  \n \n In 2006, via Application 14141, Tesoro applied for and was granted a conditional \nAuthority  to Construct for the following equipment:  \n  \nS-1510  Delayed Coker  \n \nThe unit was built and started up in 2008.  A Permit to Operate was granted 6/2/2009.  \nThe unit is subject to a throughput limit in Condition 23129, Part 3:  \n \n3.  The owner/operator of S -1510 delayed coker shall not process more than \n53,200 barrels per day (12 midnight to 12 midnight), and 17,447,000 barrels in \nany consecutive 12 -month period. (basis: Cumulative increase)  \n \nThis application is for a change in conditions to increase the through put limits for S -\n1510:  \n \nCurrent Limit  Proposed Limit  \n53,200 barrels per \nday 55,000 barrels per day  \n17,447,000 barrels \nper consecutive 12 -\nmonths  20,075,000 barrels per \nconsecutive 12 -months  \n \nThis throughput increase will be accomplished with the current process unit.  There will \nbe no changes or modifications performed on the delayed coker unit.  The Coker Heaters \nS-1511 and S -1512 would require more throughputs, but will not exceed their NSR \nthroughput limits specified in Condition 23129.  There could be  impacts on upstream or \ndownstream units, but all would be within current permitted limits."
+      },
+      {
+        "heading": "II. EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "II. EMISSION CALCULATIONS\nNS  \n  \nThere are no emission changes associated with this application."
+      },
+      {
+        "heading": "III. PLANT CUMULATIVE INCREASE SINCE 4/5/1991",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "III. PLANT CUMULATIVE INCREASE SINCE 4/5/1991\n91  \n  \nThere is no Cumulati ve Increase associated with this application."
+      },
+      {
+        "heading": "IV. STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "IV. STATEMENT OF COMPLIANCE\nCE  \nTesoro Refining and Marketing Company   Application #20679  \nPlant # 14628   Page 648 of 1354  \n    \n 648  \n There are no changes in compliance for S -1510 Delayed Coker.  S -1510 is subject to and \nexpected to be in compliance with Regulation 6, Rule 1, and all of the requirements in \nPermit Condition 23129.  \n \nThis application for a change in conditions, is exempt  CEQA per Regulation 2 -1-312.1, \nand therefore is not subject to CEQA review.  \n \n2-1-312.1 Applications to modify permit conditions for existing or permitted \nsources or facilities th at do not involve any increases in emissions or \nphysical modifications.  \n \n This project is over 1,000 ft from the nearest public school and is therefore not subject to \nthe public notification requirements of Regulation 2 -1-412. \n \nPSD, NSPS, NESHAPS, BACT, To xics and Offsets are not applicable."
+      },
+      {
+        "heading": "V. CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "V. CONDITIONS\nIONS  \n \nCondition # 23129 will be revised as indicated below (only part 3 is shown).            \n \n3.  The owner/operator of S -1510 delayed coker shall not process more than \n53,200 55,000  barrels per day (12 midni ght to 12 midnight), and \n17,447,000 20,075,000  barrels in any consecutive 12 -month period. (basis: \nCumulative increase)"
+      },
+      {
+        "heading": "VI. RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "VI. RECOMMENDATION"
+      },
+      {
+        "heading": "I. BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "I. BACKGROUND\nND  \n \n In 2006, via Application 14141, Tesoro applied for and was granted a conditional \nAuthority  to Construct for the following equipment:  \n  \nS-1510  Delayed Coker  \n \nThe unit was built and started up in 2008.  A Permit to Operate was granted 6/2/2009.  \nThe unit is subject to a throughput limit in Condition 23129, Part 3:  \n \n3.  The owner/operator of S -1510 delayed coker shall not process more than \n53,200 barrels per day (12 midnight to 12 midnight), and 17,447,000 barrels in \nany consecutive 12 -month period. (basis: Cumulative increase)  \n \nThis application is for a change in conditions to increase the through put limits for S -\n1510:  \n \nCurrent Limit  Proposed Limit  \n53,200 barrels per \nday 55,000 barrels per day  \n17,447,000 barrels \nper consecutive 12 -\nmonths  20,075,000 barrels per \nconsecutive 12 -months  \n \nThis throughput increase will be accomplished with the current process unit.  There will \nbe no changes or modifications performed on the delayed coker unit.  The Coker Heaters \nS-1511 and S -1512 would require more throughputs, but will not exceed their NSR \nthroughput limits specified in Condition 23129.  There could be  impacts on upstream or \ndownstream units, but all would be within current permitted limits."
+      },
+      {
+        "heading": "II. EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "II. EMISSION CALCULATIONS\nNS  \n  \nThere are no emission changes associated with this application.   \n \nIII. PLANT CUMULATIVE INCREASE SINCE 4/5/1991  \n  \nThere is no Cumulati ve Increase associated with this application."
+      },
+      {
+        "heading": "IV. STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "IV. STATEMENT OF COMPLIANCE\nCE  \nTesoro Refining and Marketing Company   Application #20679  \nPlant # 14628   Page 648 of 1354  \n    \n 648  \n There are no changes in compliance for S -1510 Delayed Coker.  S -1510 is subject to and \nexpected to be in compliance with Regulation 6, Rule 1, and all of the requirements in \nPermit Condition 23129.  \n \nThis application for a change in conditions, is exempt  CEQA per Regulation 2 -1-312.1, \nand therefore is not subject to CEQA review.  \n \n2-1-312.1 Applications to modify permit conditions for existing or permitted \nsources or facilities th at do not involve any increases in emissions or \nphysical modifications.  \n \n This project is over 1,000 ft from the nearest public school and is therefore not subject to \nthe public notification requirements of Regulation 2 -1-412. \n \nPSD, NSPS, NESHAPS, BACT, To xics and Offsets are not applicable."
+      },
+      {
+        "heading": "V. CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "V. CONDITIONS\nIONS  \n \nCondition # 23129 will be revised as indicated below (only part 3 is shown).            \n \n3.  The owner/operator of S -1510 delayed coker shall not process more than \n53,200 55,000  barrels per day (12 midni ght to 12 midnight), and \n17,447,000 20,075,000  barrels in any consecutive 12 -month period. (basis: \nCumulative increase)"
+      },
+      {
+        "heading": "VI. RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "VI. RECOMMENDATION\nON  \n \nIt is recommended that a change in conditions be granted to Tesoro Refining & Marketing \nCompany for the following eq uipment:  \n \nS-1510  Delayed Coker  \n \n \n \n \n \n _________________________    __________________________  \n Arthur Valla      2Jul09  \n Senior Air Quality Engineer"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nPORT"
+      },
+      {
+        "heading": "TESORO - GOLDEN EAGLE REFINRY",
+        "alias": null,
+        "text": "TESORO - GOLDEN EAGLE REFINRY\nApplication #20679 - Plant #14628  \n \n150 Solano Way  \nMartinez, CA 94553"
+      }
+    ]
+  }
+}

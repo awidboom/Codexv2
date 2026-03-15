@@ -1,0 +1,209 @@
+---
+rule_number: Regulation 1, Rule 2
+title: Notice to Comply
+source_url: https://www.baaqmd.gov/~/media/dotgov/files/rules/reg-1-rule-2-notice-to-comply/documents/rg0102.pdf?rev=5ae84d918c10428a9bdef03d805e3262&sc_lang=en
+local_pdf: C:\Users\aaw\Codex\BAAD Engr Evals\baaqmd_rules\pdfs\rule-regulation-1-rule-2.pdf
+rule_page_url: https://www.baaqmd.gov/en/rules-and-compliance/rules/reg-1-rule-2-notice-to-comply
+version_status: Adopted
+adopted: 1999-02-03T00:00:00
+amended: 0001-01-01T00:00:00
+source_json: C:/Users/aaw/Codex/BAAD Engr Evals/baaqmd_rules/json/rule-regulation-1-rule-2.json
+---
+
+# Notice to Comply
+
+## Description
+
+Establishes guidelines for implementing and conducting a Notice to Comply element within the Enforcement program. Adopted 2/3/1999
+
+## Contact
+
+415.749.4999 compliance@baaqmd.gov
+
+## Sections
+
+### 100 GENERAL
+
+### 101 Description
+
+### 102 Applicable Requirements
+
+### 103 Reinspection
+
+### 104 Enforcement of Federal Laws
+
+### 200 DEFINITIONS
+
+### 201 Chronic Violation
+
+### 202 De Minimus Increase in Emissions
+
+### 203 Information
+
+### 204 Minor Violation
+
+### 205 Notice to Comply
+
+### 206 Procedural Requirement
+
+### 207 Recalcitrant Violator
+
+### 300 STANDARDS
+
+### 301 Minor Violations
+
+### 302 Immediate Correction of Minor Violations
+
+### 303 Testing
+
+### 304 Failure to Comply
+
+### 400 ADMINISTRATIVE REQUIREMENTS
+
+### 401 Appeals
+
+### 402 Citing Notice to Comply
+
+### 403 Penalty for Failure to Comply
+
+### 404 Additional Penalties
+
+### 405 Failure to Respond
+
+### 500 MONITORING AND RECORDS (Not Included)
+
+### 600 MANUAL OF PROCEDURES
+
+### 601 Enforcement Policy and Procedure
+
+1-2-2REGULATION 1 GENERAL PROVISIONS AND DEFINITIONS NOTICE TO COMPLY
+
+### 100 GENERAL
+
+### 101 Description
+
+The purpose of this Rule is to establish guidelines for implementing and conducting a Notice to Comply element within the Enforcement program.
+
+### 102 Applicable Requirements
+
+This rule applies to any person subject to state requirements, district rules or regulations, administrative or procedural plans or permit conditions, or requests for information or records by a district.
+
+### 103 Reinspection
+
+Nothing in this rule shall be construed as preventing the reinspection of a site or facility to ensure compliance or to ensure that minor violations cited in a Notice to Comply have been corrected.
+
+### 104 Enforcement of Federal Laws
+
+The issuance of a Notice to Comply for a violation of District or state law will not interfere with the District‘s and/or EPA’s ability to enforce all federal requirements or laws.
+
+### 200 DEFINITIONS
+
+### 201 Chronic Violation
+
+A violation which has been preceeded by at least (1) one Notice to Comply or Notice of Violation of the same or similar nature at the same source or facility or same place of equipment within the prior three (3) years, unless a higher number is specified in the District’s Notice to Comply Policies and Procedures.
+
+Notices of Violation which have been cancelled, rejected or dismissed by the District shall not be considered nor shall Notices to Comply which have been successfully appealed.
+
+### 202 De Minimus Increase in Emissions
+
+An air pollutant emission amount or level as specified in the District’s Policies and Procedures for Notices to Comply.
+
+### 203 Information
+
+Data, records, photographs, maintenance records, analyses, plans, or specifications which will disclose the nature, extent, quantity, or degree of air contaminants which are, or may be, discharged by the source for which a permit was issued or applied or which is subject to state or federal requirements, district rules or regulations, administrative or procedural plan or permit conditions, or requests for information or records by a district.
+
+### 204 Minor Violation
+
+The failure of any person to comply with applicable state requirements, district rules or regulations, administrative or procedural plan or permit conditions, or requests for information or records by the APCO which meets the following criteria:
+
+#### 204.1
+
+Does not result in an increase of emissions of air contaminants greater than a de minimus amount;
+
+#### 204.2
+
+Does not endanger the health, safety, or welfare of any person or persons;
+
+#### 204.3
+
+Does not endanger the environment;
+
+#### 204.4
+
+Does not cause or contribute to a violation of any State or National Ambient Air Quality Standard;
+
+#### 204.5
+
+Does not preclude or hinder the district’s ability to determine compliance with other applicable state or federal requirements, district rules and regulations, administrative or procedural plans or permit conditions, or requests for information or records.
+
+### 205 Notice to C omply
+
+A written method of alleging a minor violation that meets the requirements of Health and Safety Code Section 39151.
+
+### 206 Procedural Requirements
+
+A provision of a rule or regulation that establishes a manner, method, or course of action, but does not specify, limit, or otherwise address direct air contaminant emissions.
+
+### 207 Recalcitrant Violator
+
+A person which has been cited for chronic violations or has engaged in a pattern of neglect or disregard with respect to the requirements of district rules and regulations, permit conditions, or other applicable provisions of state or federal law or regulations, as evidenced within the prior three (3) years by at least two (2) Notices to Comply and/or Notices of Violation of the same or different District, state or federal rules, regulations or requirements, unless a higher number is specified in the District’s Notice to Comply Policies and Procedures.
+
+### 300 STANDARDS
+
+### 301 Minor Violations
+
+Except as otherwise provided in Section 1-2-304, a Notice to Comply shall be the only means by which the APCO shall cite a minor violation.
+
+The APCO shall not take any other enforcement action specified in this division to enforce the minor violation against a person or facility who has received a Notice to Comply if the person or facility is in compliance with this section.
+
+#### 301.1
+
+Notwithstanding Section 1-2-204, no violation of an applicable state or federal requirement, district rule or regulation, administrative or procedural plan or permit condition, or request for information or records shall be considered a minor violation if:
+
+1.1The violation involves failure to comply with the emission standards in the applicable rule or regulation, that results in an emission above a de minimus level as established by the APCO. Such violations include requirements for control equipment, emissions rates, concentration limits, product material limitations, and other rule provisions directly associated with emissions; or 1.2The violation is knowing, willful, or intentional; or 1.3The violation enables the violator to benefit economically from noncompliance, either by realizing reduced costs or by gaining a competitive advantage; or 1.4The violation is chronic; or 1.5The violation is committed by a recalcitrant violator; or 1.6The violation results in a nuisance.
+
+### 302 Immediate Correction of Minor Violations
+
+A Notice to Comply shall not be issued for any minor violation that is corrected immediately in the presence of the inspector. Immediate compliance in that manner may be noted in the inspection report or other district documents, but the person or facility shall not be subject to any further action by the district’s representative or an authorized or designated officer. Corrected minor violations may be used to show a pattern of disregard or neglect by a recalcitrant violator.
+
+### 303 Testing
+
+If testing is required by the state board or district or an authorized or designated officer to determine compliance, and the testing cannot be conducted during the course of the inspection, the APCO shall have a reasonable period of time to conduct the required testing.
+
+#### 303.1
+
+If, after the test results are available, the APCO determines that the issuance of a Notice to Comply is warranted, the APCO shall immediately notify the person or facility owner or operator in writing. If off-site testing is required pursuant to Section 1-2-305, a copy of the Notice to Comply may be mailed to the person or owner or operator of the facility.
+
+### 304 Failure to Comply
+
+Not withstanding any other provisions of Section 1-2-301, if a person or facility fails to comply with a Notice to Comply within the prescribed period, or if the APCO determines that the circumstances surrounding a particular minor violation are such that immediate enforcement is warranted to prevent harm to the public health or safety or to the environment, the APCO may take any needed enforcement action authorized by law.
+
+### 400 ADMINISTRATI VE REQUIREMENTS
+
+### 401 Appeals
+
+Any person who is issued a Notice to Comply may appeal the issuance by filing a written appeal with the APCO within fifteen (15) days of receipt of the Notice.
+
+The appeal shall state the grounds and basis for the appeal and include any evidence as to why the Notice to Comply should not have been issued. The APCO shall grant or deny the appeal within fifteen (15) days. The APCO decision shall be final.
+
+### 402 Citing Notice to Comply
+
+A single Notice to Comply shall be issued for all minor violations cited at any one facility during each day and the Notice to Comply shall separately list each cited minor violation and the manner in which each minor violation may be brought into compliance.
+
+### 403 Penalty for Failure to Comply
+
+Any person or facility who fails to comply by the date specified on the Notice to Comply shall be subject to further enforcement action pursuant to the Health and Safety Code, Section 42400, et seq., or any other applicable law.
+
+### 404 Additional Penalties
+
+Notwithstanding any other provision of Section 1-2-301, if the APCO determines that the circumstances surrounding a particular minor violation are such that the assessment of a penalty pursuant to this rule is warranted or required by federal law, in addition to issuance of a Notice to Comply, the district shall assess a penalty in accordance with Division 26 of the Health and Safety Code, Section 42400, et seq., if the APCO makes written findings that set forth the basis for the determination of the district.
+
+### 405 Failure to Respond
+
+Any person who receives a Notice to Comply pursuant to this section shall have the period specified in the Notice to Comply from the date of receipt of the Notice to Comply in which to achieve compliance with the requirement cited on the Notice to Comply. Within five (5) working days of achieving compliance, the person who received the Notice to Comply shall sign and return it to the APCO, stating that the person has complied with the Notice to Comply. The return shall also include a written statement describing when and how compliance was achieved. Failure to respond or a false statement that compliance has been achieved is a violation subject to further legal action pursuant to Health and Safety Code, section 42400, et seg.
+
+### 600 MANUAL OF PR OCEDURES
+
+### 601 Enforcement Policy and Procedure
+
+The APCO shall publish an Enforcement Policy and Procedure to implement this rule. The Enforcement Policy and Procedure shall contain descriptions of de minimus levels of emissions.

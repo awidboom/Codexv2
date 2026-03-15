@@ -1,0 +1,1323 @@
+---
+rule_number: Regulation 2, Rule 6
+title: Amended Regulation 2, Rule 6: Permits – Major Facility Review
+source_url: https://www.baaqmd.gov/~/media/dotgov/files/rules/regulation-2-rule-6/documents/20171206_fr_0206-pdf.pdf?rev=4d3b3601364f48a2823f887b4a019d85&sc_lang=en
+local_pdf: C:\Users\aaw\Codex\BAAD Engr Evals\baaqmd_rules\pdfs\rule-regulation-2-rule-6.pdf
+rule_page_url: https://www.baaqmd.gov/en/rules-and-compliance/rules/reg-2-rule-6-major-facility-review
+version_status: Adopted
+adopted: 1993-11-02T00:00:00
+amended: 2017-12-06T00:00:00
+source_json: C:/Users/aaw/Codex/BAAD Engr Evals/baaqmd_rules/json/rule-regulation-2-rule-6.json
+---
+
+# Amended Regulation 2, Rule 6: Permits – Major Facility Review
+
+## Description
+
+Establishes procedures for large facilities to obtain Title V permits.
+
+## Contact
+
+Engineering 415.749.4990 permits@baaqmd.gov
+
+## Sections
+
+### 100 GENERAL
+
+### 101 Description
+
+The purpose of this rule is to implement the operating permit requirements of Title V of the federal Clean Air Act as amended in 1990. This rule shall apply to major facilities, Phase II acid rain facilities, subject solid waste incinerator facilities and any facility in a source category designated by the Administrator of the EPA in a rulemaking as requiring a Title V permit. This rule also provides a means by which facilities may avoid the Title V or other requirements by limiting their potential to emit. This rule shall not alter any other requirements of applicable federal, state, or District orders, rules or regulations, except for monitoring, recordkeeping, and reporting requirements that are subsumed using the permit shield. (Amended 10/20/99, 5/2/01)
+
+### 110 Exemption, Asbestos
+
+Any demolition or renovation of an asbestos -containing source that requires a permit solely because it is sub ject to Regulation 11, Rule 2, Asbestos Demolition, Renovation, and Manufacturing, is exempt from this regulation.
+
+### 111 Exemption, Wood Heaters
+
+Any wood heater that requires a permit solely because it is subject to Regulation 10, Subpart AAA, is exemp t from this regulation.
+
+### 112 Exemption, Motor Vehicles
+
+Engines used to propel motor vehicles, as defined in the California Vehicle Code, are exempt from this regulation.
+
+### 113 Exemption, Registered Portable Engines
+
+**History**
+
+- Adopted 10/20/99; Amended 4/16/03
+
+Portable internal combustion eng ines, except gas turbines, that are registered in accordance with Health and Safety Code Section 41753 are exempt from this regulation.
+
+### 114 Exemption, Non -Road Engines
+
+Engines as defined by 40 CFR Part 89 are exemp t from this regulation. (Adopted 10/20/99)
+
+### 200 DEFINITIONS
+
+### 201 Administrative Permit Amendment
+
+**History**
+
+- Amended 10/20/99, 4/16/03
+
+A non -substantive amendment to a major facility review permit. The following amendments are administrative amendments:
+
+changes in recordkeeping forma t that are not relaxations of applicable requirements, the correction of typographical errors, changes in permit format that are not alterations of applicable requirements, changes in source descriptions that are not alterations of applicable requirements, changes in the descriptions of applicable requirements that add detail but do not affect substantive requirements, deletion of requirements containing sunset dates that have passed, the identification of administrative changes at a facility (such as a rep lacement of the facility's responsible official or a change in ownership or operational control of the facility which involves no physical or operational changes to the facility), the deletion of sources, the approval of a District rule into the SIP, the i mposition of more frequent emission monitoring requirements, and changes to applicable requirements and related monitoring that are not federally enforceable.
+
+### 202 Applicable Requirements
+
+**History**
+
+- Amended 10/20/99, 5/2/01
+
+Air quality requirements with which a facility must comply pursuant to the District's regulations, codes of California statutory law, and the federal Clean Air Act, including all applicable requirements as defined in 40 CFR 70.2.
+
+### 203 Clean Air Act
+
+The federa l Clean Air Act, as amended in 1990, including the implementing regulations.
+
+### 204 Designated Facility
+
+Any facility, other than a major facility, phase II acid rain facility, or subject solid waste incinerator facility, as defined by this rule, that fa lls within a source category designated as subject to the requirements of Title V of the federal Clean Air Act by the EPA Administrator in a rulemaking. (Amended 10/20/99)
+
+### 205 Early Reduction Demonstration
+
+A 90% reduction in hazardous air pollutants or a 95% reduction in particulate hazardous air pollutants achieved pursuant to Section 112(i)(5) of the federal Clean Air Act.
+
+### 206 Facility
+
+**History**
+
+- Amended 10/20/99, 5/2/01, 12/19/2012
+
+As defined in Section 2 -1-213.
+
+### 207 Federally Enforceable
+
+**History**
+
+- Amended 10/20/99, 5/2/01 12/19/2012
+
+As defi ned in Section 2 -1-214.
+
+### 208 Fossil Fuel
+
+Natural gas, petroleum, and coal, or any form of solid, liquid, or gaseous fuel derived from such materials for the purpose of creating useful heat.
+
+### 209 Fugitive Emiss ions
+
+All emissions from unintended openings in process equipment, emissions occurring from miscellaneous activities relating to the operation of a facility, and emissions that could not reasonably pass through a stack, chimney, vent, or other functionall y equivalent opening.
+
+### 210 Hazardous Air Pollutant
+
+Any pollutant that is listed pursuant to Section 112(b) of the Clean Air Act.
+
+### 211 Independent Power -Production Facility
+
+A facility that generates electricity and fulfills the following condition s:
+
+#### 211.1
+
+The facility must be nonrecourse project -financed as defined in 10 CFR 715;
+
+#### 211.2
+
+The facility must sell 80 percent or more of its electrical output at wholesale;
+
+#### 211.3
+
+Direct public utility ownership of the equipment must not exceed 50 percent;
+
+and
+
+#### 211.4
+
+Deleted 5/2/01
+
+#### 211.5
+
+The facility must be required to hold allowances under Title IV of the Clean Air Act. (Amended 5/2/01)
+
+### 212 Major Facility
+
+**History**
+
+- Amended 10/20/99, 12/19/201 2
+
+For the purposes of Regulation 2, Rule 6, a major facility is either of the following:
+
+#### 212.1
+
+Major Facility (Regulated Air Pollutants): A facility that has the potential to emit 100 tons per year or more of any regulated air pollutant, as defined in Section 2 -6-222. For fugitive emissions of regulated air pollutants, only the fugitive emissions from facility categories listed in 40 CFR 70.2 "Definitions Major source (2)" shall be included in determining whether the facility is a major facility. Once any facility is determined to be a major facility, all fugitive emissions from the facility shall b e included in calculating the facility's emissions.
+
+#### 212.2
+
+Major Facility (Hazardous Air Pollutants): A facility that has the potential to emit 10 tons per year or more of a single hazardous air pollutant, 25 tons per year or more of a combination of hazar dous air pollutants, or such lesser quantity as the EPA Administrator may establish by rule. All fugitive emissions of hazardous air pollutants are included in determining a facility's potential to emit. For radionuclides, the definition of a major facil ity shall be specified by the EPA Administrator by rule.
+
+### 213 Major Facility Review (MFR)
+
+Plantwide review of sources, emissions, and regulatory requirements at facilities including, but not limited to, major facilities, phase II acid rain facilities, subject solid waste incinerator facilities, and desig nated facilities, which are potentially subject to the permitting requirements of Regulation 2, Rule 6, and of Title V of the Clean Air Act.
+
+### 214 Major Facility Review Permit
+
+An operating permit issued to a major facility, phase II acid rain facility, subject solid waste incinerator facility, or designated facility, pursuant to the requirements of this rule.
+
+### 215 Minor Permit Revision
+
+Any revision to a federally enforceable condition in a major facility review permit that:
+
+#### 215.1
+
+is not a significa nt permit revision; and
+
+#### 215.2
+
+is not an administrative permit amendment.
+
+#### 215.3
+
+Deleted 10/20/99 (Amended 10/20/99)
+
+### 216 Operating Scenarios
+
+All modes of facility operation to be permitted, including normal operating conditions, start -up, and shutdown. This shall include all planned or reasonably foreseeable process, feed, and product changes. Operating scenarios must meet all applicable requirements.
+
+### 217 Phase II Acid Rain Facility
+
+A facility that includes fossil -fueled combustion equipment tha t is used to generate electricity for sale, or is otherwise subject to 40 CFR 72, except for the following equipment:
+
+#### 217.1
+
+A fossil -fueled combustion device built before November 15, 1990, and that did not, as of November 15, 1990, and does not currently, serve a generator with a nameplate capacity of greater than 25 MW;
+
+#### 217.2
+
+A cogeneration facility with a fossil -fueled combustion device that sells less than 219, 000 MW -hrs annually or less than one -third of its potential electric output capacity to any ut ility power distribution system;
+
+#### 217.3
+
+A solid waste incinerator that burns fossil fuels for less than 20 percent (on a BTU basis) of the total energy input during any calendar year; or
+
+#### 217.4
+
+A qualifying facility or an independent power production facilit y that meets both of the following conditions:
+
+##### 4.1
+
+Possession as of November 15, 1990 of qualifying power purchase commitments to sell at least 15 percent of its total planned net output capacity; and
+
+##### 4.2
+
+The net output capacity of the equipment cannot exc eed 130 percent of the planned net output capacity.
+
+#### 217.5
+
+Simple combustion turbines that commenced operation before November 15, 1990;
+
+#### 217.6
+
+A fossil -fueled combustion device that, during 1985, and as of November 15, 1990, and currently, does not serve a generator that produced or produces electricity for sale; and
+
+#### 217.7
+
+A fossil -fueled combustion device that commenced commercial operation on or after November 15, 1990, and serves a generator with a capacity not greater than 25 MW, burns fuel with a sulfur content that is less than 0.05 percent, and that complies with the requirements of 40 CFR 72.7.
+
+#### 217.8
+
+A fossil -fueled combustion device that supplies only incidental electricity for sale and that complies with the requirements of 40 CFR 72.14.
+
+#### 217.9
+
+A fossil -fueled combustion device that is permanently retired and that complies with the requirements of 40 CFR 72.8. (Amended 5/2/01)
+
+### 218 Potential to Emit
+
+As defined in Section 2 -1-217. (Amended 10/20/99, 4/16/03)
+
+### 219 Preconstruction Permit or Review
+
+**History**
+
+- Amended 10/20/99
+
+A review of construction plans prior to construction, including:
+
+#### 219.1
+
+District evaluation of an application for an authority to construct issued pursuant to District Regulation 2, Rule 1;
+
+#### 219.2
+
+District evaluation of an application for an authority to constr uct issued pursuant to District Regulation 2, Rule 2;
+
+#### 219.3
+
+A preconstruction review to determine the ability of a proposed source or source modification to comply with applicable New Source Performance Standards pursuant to District Regulation 10;
+
+#### 219.4
+
+A preconstruction review conducted prior to a significant modification to a major facility review permit for a physical or operational change that would be prohibited by an existing federally enforceable condition;
+
+#### 219.5
+
+A preconstruction review conducted prior to a physical or operational change to a synthetic minor facility that would increase the facility's potential to emit to above the threshold for a major facility. Such review must be associated with an application for a major facility review permi t for said facility.
+
+### 220 Qualifying Facility
+
+One of two types of power -generating facilities pursuant to Title 16, Section 796, of the United States Code:
+
+#### 220.1
+
+A cogeneration facility that is not owned by a public utility and is c ertified by the Federal Energy Regulatory Commission as a qualifying facility; or
+
+#### 220.2
+
+A power production facility that is not owned by a public utility, has an output capacity not greater than 80 MW, uses biomass, waste, renewable resources, geothermal r esources, solar energy, wind energy, or any combination of the above as its primary energy source, and is certified by the Federal Energy Regulatory Commission as a qualifying facility.
+
+### 221 Qualifying Power Purchase Agreement
+
+As defined in 40 CFR 72. 2.
+
+### 222 Regulated Air Pollutant
+
+**History**
+
+- Amended 10/20/99, 5/2/01, 12/19/12
+
+For the purposes of Major Facility Review under Regulation 2, Rule 6, the following a re regulated air pollutants:
+
+#### 222.1
+
+Nitrogen oxides and volatile organic compounds;
+
+#### 222.2
+
+Any pollutant for which a national ambient ai r quality standard has been promulgated;
+
+#### 222.3
+
+Any Class I or Class II ozone depleting substance subject to a standard promulgated under Title VI of the Clean Air Act;
+
+#### 222.4
+
+Any pollutant that is subject to any standard promulgated under Section 111 of the Clean Air Act; and
+
+#### 222.5
+
+Any pollutant that is subject to any standard or requirement promulgated under Section 112 of the Clean Air Act including sections 112(g), (j), and (r).
+
+Total suspended particulate and greenhouse gases are not regulated air pollutant s for purposes of major facility review under this Rule.
+
+### 223 Respon sible Official
+
+The responsible official will vary depending upon the type of facility, and shall be designated as follows:
+
+#### 223.1
+
+Corporation: The responsible official shall be a president, secretary, treasurer, or vice president in charge of a principal business function or shall otherwise be a duly authorized representative if:
+
+##### 1.1
+
+the representative is responsible for the overall operation of the facility, and
+
+##### 1.2
+
+either the duly authorized representative is responsible for the operation of facilities that employ more than 250 persons or that have gross annual sales or expenditures exceeding $25 million in 1980 dollars or the APCO has approved a petition from the original responsible official to allow the duly authorized representative to be the respons ible official.
+
+#### 223.2
+
+Partnership or Sole Proprietorship: general partner or proprietor.
+
+##### 2.1
+
+Partnership of Corporations: The responsible official shall be the responsible official of any of the partner corporations.
+
+#### 223.3
+
+Municipality, State, Federal, or Other Public Agency: The principal executive officer or ranking elected official.
+
+#### 223.4
+
+Phase II Acid Rain Facilities: The designated representative pursuant to 40 CFR 72.20 through 72.25.
+
+### 224 Schedule of Compliance
+
+**History**
+
+- Amended 4/16/03
+
+Shall have the meaning given to it in 40 C.F.R. Part 70.
+
+### 225 Severability Clause
+
+A statement in a permit issued under this rule that, in the case of a challenge to any part of the permit by EPA, the facility's owner or operator, or any other person, the remaining parts of the permit will remain valid.
+
+### 226 Significant Permit Revision
+
+Any revision to a federally enforceable condition contained in a major facility review permit that can be defined as follows:
+
+#### 226.1
+
+The incorporation of a change considered a maj or modification under 40 CFR Parts 51 (NSR) or 52 (PSD);
+
+#### 226.2
+
+The incorporation of a change considered a modification under 40 CFR Parts 60 (NSPS), 61 (NESHAPS), or Section 112 of the Clean Air Act (HAP);
+
+#### 226.3
+
+Any significant change or relaxation of any applicable monitoring, reporting or recordkeeping condition;
+
+#### 226.4
+
+The establishment of or change to a permit term or condition allowing a facility to avoid an applicable requirement, including:
+
+##### 4.1
+
+a federally enforceable emission limit assumed in order t o avoid classification as a modification under any provision of Title I of the federal Clean Air Act, or
+
+##### 4.2
+
+an alternative hazardous air pollutant emission limit pursuant to Section 112(i)(5) of the Clean Air Act;
+
+#### 226.5
+
+The establishment of or change to a case -by-case determination of any emission limit or other standard;
+
+#### 226.6
+
+The establishment of or change to a facility -specific determination for ambient impacts, visibility analysis, or increment analysis on portable sources; or
+
+#### 226.7
+
+The incorporation o f any requirement promulgated by the U. S. EPA under the authority of the Clean Air Act provided that three or more years remain on the permit term. (Amended 10/20/99)
+
+### 227 Simple Combustion Turbine
+
+Rotary engine driven by a gas under pressure that is created by the combustion of any fuel, including combined cycle engines, and excluding engines with auxiliary firing.
+
+### 228 Source
+
+Any article, machine, equipment, operation, contrivance or related groupings of such that may produce and/or emit any re gulated air pollutant or hazardous air pollutant.
+
+### 229 Subject Solid Waste Incinerator Facility
+
+Any source that burns solid waste material (except hazardous waste as defined by RCRA) from commercial, industrial, or general public sources in a category for which a New Source Performance Standard (NSPS) has been adopted after November 15, 1990. (Amended 10/20/99)
+
+### 230 Synthetic Minor Facility
+
+A facility which, by imposition of enforceable permit conditions, has its potential to emit limited to below the threshold levels for a major facility as defined by Section 2 -6-212 and is not otherwise required to apply for a major facility review permit under Regulation 2, Rule 6. (Amended 10/20/99)
+
+### 231 Synthetic Minor Operating Permit
+
+A District operatin g permit that has been modified to include conditions imposing enforceable permit conditions on a facility or source. A synthetic minor operating permit is subject to all the provisions of District Regulations 1, 2, and 3, including, but not limited to, pe rmitting, compliance, and fee requirements. (Amended 10/20/99)
+
+### 232 Synthetic Minor Operating Permit Revision
+
+A revision to a term or condition of a synthetic minor operating permit that establishes a synthetic minor limit or that specifies the monit oring or recordkeeping requirements necessary to verify ongoing compliance with a synthetic minor limit. (Adopted 2/1/95, Amended 10/20/99)
+
+### 233 Permit Shield
+
+**History**
+
+- Adopted 2/1/95; Amended 10/20/99, 5/2/01
+
+One of the following:
+
+#### 233.1
+
+Non-applicable Requirements: A provision in a major facility re view permit that identifies and justifies specific federally enforceable regulations and standards which the APCO has confirmed are not applicable to a source or group of sources. Enforcement actions and litigation may not be initiated against the source or group of sources covered by the shield based on those identified regulatory and statutory provisions.
+
+#### 233.2
+
+Subsumed Requirements: A provision in a major facility review permit that identifies and justifies specific federally enforceable applicable req uirements for monitoring, recordkeeping and/or reporting which are subsumed because other applicable requirements for monitoring, recordkeeping, and reporting in the permit will assure compliance with all emission limits. Enforcement actions and litigatio n may not be initiated against the source or group of sources covered by the shield based on those identified applicable requirements.
+
+### 234 Deleted 10/20/99
+
+### 235 Actual Emissions
+
+The emissions of regulate d or hazardous air pollutants from a facility for any 12 -month period. The basis for determining actual emissions shall be, as appropriate: throughputs of process materials; throughputs of materials stored;
+
+usage of materials; data provided in manufacture r’s product specifications, material volatile organic compound (VOC) content reports or laboratory analyses; valid continuous emission monitoring data; source test data; other information required by this rule and applicable District, State or Federal regu lations; or information requested in writing by the APCO. The effect of abatement devices shall be 2-6-9 considered. All calculations of actual emissions shall use District approved methods, including emission factors and assumptions. (Adopted 10/20/99)
+
+### 236 Modified Source or Facility (for Section 2 -6-309)
+
+As defined in Regulation 2-1234. (Adopted 10/20/99; Amended 5/2/01)
+
+### 237 Potential to Emit Demonstration
+
+An analysis showing that a facility does not have a potential to emit at or above the thres holds for a major facility as defined in Section 2-6-212. (Adopted 10/20/99)
+
+### 238 Process Statement
+
+**History**
+
+- Adopted 10/2 0/99
+
+A report on permitted sources from an owner or operator of a facility containing one or more of the following, as requested by the APCO:
+
+throughputs o f process materials; throughputs of materials stored; usage of materials; fuel usage; any available continuous emissions monitoring data; hours of operation; and any other information required by this rule or requested in writing by the APCO.
+
+### 239 Significant Source
+
+**History**
+
+- Adopted 10/20/99
+
+A source that has a potential to emit of more than 2 tons per year of any regulated air pollutant or more than 400 pounds per year of any hazardous air pollutant.
+
+### 240 State Implementation Plan (SIP)
+
+A state plan to attain or maintain the National Ambient Air Quality Standards pursuant to Section 110 of the Clean Air Act that has been approved by EPA. (Adopted 10/20/99)
+
+### 241 12-month Period
+
+**History**
+
+- Adopted 10/20/99
+
+A period of twelve consecutive months determined on a rolling basis with a new 12 -month period beginning on the first day of each calendar month.
+
+### 242 Affected State
+
+State whose air quality may be affected by a facil ity and that is contiguous to the State of California or a state that is within 50 miles of a permitted source within the District. (Adopted 10/20/99; Amended 5/2/01)
+
+### 243 Final Action
+
+**History**
+
+- Adopted 5/2/01
+
+The issuance, denial, revocation or revision of a permit.
+
+### 244 CFR
+
+Code of Federal Regulations. (Adopted 5/2/01)
+
+### 245 Maximum Achievable Control Technology (MACT)
+
+A limit on emissions of hazardous air pollutants that reflects the maximum degree of reduction in emissions that the APCO determ ines is achievable, taking into consideration the cost of achieving such emission reduction and any non -air-quality health and environmental impacts and energy requirements. A determination of what constitutes Maximum Achievable Control Technology shall b e made on a case -by-case basis in accordance with the provisions of Section 112(j) of the Clean Air Act.
+
+### 300 STANDARDS
+
+### 301 Major Facility Review Requirement
+
+**History**
+
+- Amended 12/19/2012
+
+Any major facility as defined in Section 2 -6212 shall undergo major facility review in accordance with the requirements of this rule.
+
+### 302 Major Facility Review Requirements for Phase II Acid Rain Facilities
+
+Any Phase II acid rain facility shall undergo major facility review in accordance with the requirements of this rule, even if such facility is not classified as a major facility under Section 2 -6-212; and shall comply with the requirements of Sections 405, 406, 408, 409, 411, and 412 of the Clean Air Act. (Amended 10/20/99)
+
+### 303 Major Facility Review Requir ements for Subject Solid Waste Incinerator
+
+**History**
+
+- Amended 10/20/99; 12/19 /12
+
+Facilities: Any subject solid waste incinerator facility shall undergo major facility review in accordance with the requirements of this rule, even if such facility is not classified as a major facility under Sec tion 2 -6-212. Major facility review permits issued under this Section for such facilities, including new, modified and existing facilities, shall include all applicable New Source Performance Standards.
+
+### 304 Major Facilit y Review Requirement for Designated Facilities
+
+**History**
+
+- Amended 10/20 /99
+
+Any designated facility shall undergo major facility review in accordance with the requirements of this rule, even if such facility is not classified as a major facility under Section 2 -6-212.
+
+### 305 Operational Flexibility
+
+A facility may make a change to the facility or operation without requiring a major facility review permit revision in accordance with the procedures and restrictions set forth in Section 2 -6-417 if the change is not a modification pursuant to Title I of the Clean Air Act and does not exceed any emissions allowable under federally enforceable provisions of the permit. Such change shall in no way affect the obligation of the permittee to comply with any applicable requ irement including the requirement to obtain an Authority to Construct under Rule 2 -1. This provision shall not apply to the phase II acid rain portion of any facility subject to this Rule. (Amended 2/1/95)
+
+### 306 Emissions Trading
+
+The APCO shall allow emissions trading within a facility that has a major facility review permit in accordance with the procedures and restrictions set forth in Section 2 -6-418. This provision shall not apply to the phase II acid rain portion of any facility subject to this R ule. (Adopted 5/2/01)
+
+### 307 Non-compliance, Major Facility Review
+
+Any facility subject to the requirements of this regulation that is not in compliance with any federally enforceable permit condition, any federally enforceable applicable requirement se t forth in its major facility review permit, or the requirement to apply for a major facility review permit is in violation of the Clean Air Act and shall be subject to enforcement action, permit termination, permit revocation and reissuance, and/or denial of a permit renewal.
+
+Moreover, a facility subject to major facility review which has not submitted a timely and complete permit application by the deadlines set forth in Section 2 -6-404 shall not operate. (Amended 2/1/95, 10/20/99)
+
+### 308 Major Facility Review and Other District Permitting Requirements
+
+Submittal of a complete application or an administrative permit amendment request in accordance with this rule shall in no way affect, and shall not constitute compliance with, the requirements for autho rities to construct and permits to operate as set forth in Regulation 2, Rules 1 and 2.
+
+### 309 Prohibited Modifications
+
+A person shall not modify any source or operation covered by a major facility review permit issued under this rule unless such modification is either: (1) included in an operating scenario addressed in the permit;
+
+(2) authorized under this rule; or (3) permitted by the APCO pursuant to an application for a revision to the permit. (Amended 10/20/99)
+
+### 310 Synthetic Minor Operating Pe rmit Requirement
+
+**History**
+
+- Amended 10/20/99
+
+Any major facility which elects to accept enforceable permit conditions such that the facility becomes a synthetic minor facility, and is not otherwise subject to major facility review, shall apply for a synthetic minor operating permit. Any facility that files false information with the District in order to obtain a synthetic minor operating permit is in violation of the Clean Air Act and District Regulations and shall be subject to enforcement action. A synthetic minor facility is not subject to the obligations of a major facility unless facility fails to comply with the synthetic minor limits or it becomes a designated facility.
+
+### 311 Non-compliance, Synthetic Minor Facilities
+
+Any facility subject to the require ments of a synthetic minor operating permit that is not in compliance with any permit condition set forth in its synthetic minor operating permit shall be subject to enforcement action, permit termination, permit revocation and reissuance, and/or denial of a permit renewal. (Amended 2/1/95, 10/20/99, 5/2/01)
+
+### 312 Major Facility Review, Smaller Facilities
+
+**History**
+
+- Adopted 10/20/99; Amended 5/2/01
+
+Any facility with actual emissions as defined by Section 2 -6-235 that exceed any threshold below shall apply for a major facility review permit unless the facility demonstrates that its potential to emit is below the major facility thresholds defined in Section 2 -6-212, or the facility has applied for and received a synthetic minor permit.
+
+#### 312.1
+
+25 tons per year of any regulated air pollutant, excluding fugitive emissions per Section 2 -6-212;
+
+#### 312.2
+
+2.5 tons of any hazardous air pollutant per year including all fugitive emissions of the hazardous air pollutant; or
+
+#### 312.3
+
+6.25 tons of all hazardous air pollutants per year including all fugitive emissions of hazardous air pollutants.
+
+For the purpose of this Section, “actual emissions” shall be the maximum emissions for any consecutive 12 -month period end ing on or after July 24, 1995.
+
+### 313 Denial, Failure to Comply
+
+The APCO shall deny a major facility review permit after providing written notification to the applicant, if the facility, or any source therein, is in violation of any applicable requirement and the facility cannot obtain a compliance schedule in accordance with the Health and Safety Code. (Adopted 5/2/01)
+
+### 314 Revocation
+
+The APCO may request the Hearing Board to hold a hearing to determine whether a major facility permit should be revoked if it is found that the holder of the permit is violating any provision in the permit or any applicable requirement. (Adopted 5/2/01)
+
+### 315 Case -by-Case MACT Requirement
+
+The APCO shall require Maximum Achievable Control Technology to limit emissions of hazardous air pollutants i n any major facility review permit issued for a facility that meets the following criteria:
+
+#### 315.1
+
+the facility has the potential to emit 10 tons per year or more of any single hazardous air pollutant, or 25 tons per year or more of any combination of hazardous air pollutant; and
+
+#### 315.2
+
+the facility is in a category or subcategory of sources listed by EPA under Section 112(c) of the Clean Air Act; and
+
+#### 315.3
+
+EPA has not promulgated a National Emission Standard for Hazardous Air Pollutants for the category or subcategory of sources by the deadline established under Section 112(e) of the Clean Air Act.
+
+### 400 ADMINISTRATI VE REQUIREMENTS
+
+### 401 Deleted 10/20/ 99
+
+### 402 Fees
+
+Any facility subject to the requirements of this rule shall pay any applicable fees specified in District Regulation 3, Fees, including Schedule P.
+
+### 403 Application for Major Facility Review Permit, Permit Renewal, or Permit
+
+Revision: The responsible official for any major facility, phase II acid rain facility, subject solid waste incinerator facility, or designated facility shall apply for a major facility review permit, permit renewal, or permit revision in accordance with all the requirements of this rule. (Amended 2/1/95)
+
+### 404 Timely Application for a Major Facility Review Permit
+
+**History**
+
+- Amended 2/1/95; 10/20/99
+
+The responsible official for a facility subject to the requirements of Section 403 of Regulation 2, Rule 6, shall submit an application for a major fa cility review permit to the APCO and to EPA in a timely manner as described below:
+
+#### 404.1
+
+The initial application for a major facility review permit shall be submitted by the applicant within 12 months after the facility becomes subject to Regulation 2, Rul e 6.
+
+#### 404.2
+
+An application for a five -year renewal of the terms and conditions of a major facility review permit shall be submitted by the applicant at least 6 months but no earlier than 12 months prior to the date on which the five -year period for the vali dity of the terms and conditions of the permit expires.
+
+#### 404.3
+
+An application for a significant permit revision shall be submitted by the applicant prior to commencing an operation associated with a significant permit revision. Where an existing federally enforceable major facility review permit condition would prohibit such change in operation, the responsible official must request preconstruction review and obtain a major facility review permit revision before commencing the change.
+
+#### 404.4
+
+An application f or a minor permit revision shall be submitted by the applicant prior to commencing any operation associated with the minor permit revision.
+
+#### 404.5
+
+A phase II acid rain facility shall apply for a major facility review permit in accordance with the deadlines in Section 404.1 of this rule.
+
+#### 404.6
+
+Any major facility subject to Section 112(j) of the federal Clean Air Act must submit an application for a major facility review permit no later than 18 months after the date the U. S. Environmental Protection Agency fa ils to 2-6-12 promulgate any emission standard listed pursuant to Clean Air Act Section 112(c)(1) according to the schedule promulgated under Clean Air Act Section 112(e).
+
+#### 404.7
+
+Deleted 10/20/99
+
+#### 404.8
+
+Deleted 12 /19/2012
+
+### 405 Comp lete Application for a Major Facility Review Permit
+
+**History**
+
+- Amended 4/5/95, 10/20/99, 5/2/01
+
+All applications for an initial major facility review permit, for a significant revision to an existing major facility review permit, and for a five -year renewal of the terms and conditions of a major facility review permit shall contain the following information in addition to the information required by Regulation 2 -1-202:
+
+#### 405.1
+
+All relevant BAAQMD permit application forms;
+
+#### 405.2
+
+A description of the facility's processes and products (by Standard Indus trial Classification Code) including any associated with an operating scenario identified by the facility;
+
+#### 405.3
+
+A statement certifying that any fee required by District Regulation 3 has been paid;
+
+#### 405.4
+
+Identification and description of:
+
+##### 4.1
+
+each permitte d source at the facility
+
+##### 4.2
+
+each source or other activity that is exempt from the requirement to obtain a permit or excluded from District rules or regulations under Regulation 2, Rule 1, and a citation of the section of the rule under which it is exempte d or excluded;
+
+#### 405.5
+
+A list, including citation and description, of all applicable requirements for each source;
+
+#### 405.6
+
+A calculation and summary of annual emissions (including fugitive emissions)
+
+of regulated air pollutants and hazardous air pollutant s from each source or emission -producing activity if the source or activity is a significant source of an air pollutant as defined by Section 2 -6-239. Emission calculations and summaries for pollutants emitted below the significance thresholds are n ot required for such sources or activities that have emissions of other pollutants above these thresholds. The above emission calculations shall also be submitted for any alternate operating scenarios that are submitted with the application;
+
+#### 405.7
+
+A descri ption of the compliance status of the facility with respect to all applicable requirements;
+
+#### 405.8
+
+A compliance statement as follows:
+
+##### 8.1
+
+A statement that the facility will continue to comply with all applicable requirements with which it is currently in co mpliance;
+
+##### 8.2
+
+A statement that the facility will meet all applicable requirements on a timely basis as requirements become effective during the permit term and a narrative of how the facility will achieve compliance with all applicable requirements if the facility is not currently doing so; and
+
+##### 8.3
+
+A copy of any schedule of compliance applicable to the facility's operations regarding air quality which has been issued by the District's Hearing Board, the California Air Resources Board, or any court of compe tent jurisdiction;
+
+#### 405.9
+
+A compliance certification by a responsible official of the facility that the application forms and all accompanying reports and other required compliance certifications are true, accurate, and complete based on information and bel ief formed after reasonable inquiry; and
+
+#### 405.10
+
+All information required by Volume II of the District's Manual of Procedures.
+
+An application may reference, rather than explicitly list, certain pre -existing information and be considered initially complete. The type of information that may be referenced includes District -issued rules, regulations, permits and published protocols; pollutant emission inventories and supporting calculations; emission monitoring reports, compliance reports and source tests; ann ual emissions statements; process and abatement equipment lists and descriptions; current operating and pre -construction permit terms; and permit application materials 2-6-13 previously submitted. However, the Summary Forms and the Certification of Compliance mu st be completed in full. Any applicant who fails to submit any relevant facts or who has submitted incorrect information in a permit application shall submit the supplementary facts or corrected information upon becoming aware of such failure or incorrect submittal. In addition, the applicant must provide additional information as necessary to address any requirements that become applicable.
+
+Applications for significant permit revisions shall include the above information only for those sources that will be modified. A copy of all applications and subsequent documents pertaining to the application s shall be sent to EPA by the applicant.
+
+### 406 Application for a Minor Permit Revision
+
+**History**
+
+- Amended 10/20/99
+
+An application for a minor permi t revision to a major facility review permit shall contain:
+
+#### 406.1
+
+A description of the proposed change, the emissions resulting from the proposed change, and any new applicable requirements that will apply if the change occurs;
+
+#### 406.2
+
+A draft permit includi ng the proposed change;
+
+#### 406.3
+
+A request by the responsible official that the minor revision procedures be used;
+
+#### 406.4
+
+A certification by the responsible official that the proposed change is a minor revision as defined in Section 2 -6-215; and
+
+#### 406.5
+
+All docu ments or information required by Section 2 -6-405 as they pertain to sources affected by the minor revision.
+
+A facility that has submitted an application for a minor revision may proceed with the revision if the facility complies with the proposed permit t erms and conditions. If the facility fails to comply with the proposed terms during the time that the application is being processed, the existing permit terms and conditions may be enforced against it.
+
+### 407 Application Shield
+
+A facility shall not be subject to enforcement action for not possessing a major facility review permit if the facility fulfills the following three conditions:
+
+#### 407.1
+
+The facility has filed with the APCO a complete and timely application for an initial major f acility review permit or for a five -year renewal of an existing major facility review permit;
+
+#### 407.2
+
+The APCO has not acted on the application; and
+
+#### 407.3
+
+The facility has honored all requests from the APCO for further information relating to the application by the date specified in writing of the request.
+
+If the facility has not submitted a timely and complete application, the period of non compliance shall be the period between the submittal deadline and the actual submittal. (Amended 10/20/99)
+
+### 408 Com pleteness Determination
+
+**History**
+
+- Amended 10/20/99
+
+The APCO shall determine whether a major facility review permit application is complete as follows:
+
+#### 408.1
+
+Application for an initial permit, for a five -year renewal or for a significant permit revision: The APCO shall determine c ompleteness no later than 60 calendar days following receipt of the application. Unless the APCO requests additional information or otherwise notifies the applicant of incompleteness within 60 days of receipt of the application, the application shall be d eemed complete as of the date of receipt.
+
+#### 408.2
+
+An application for a minor permit revision: The APCO shall determine completeness within 30 days of receipt of the application. Unless the APCO requests additional information or otherwise notifies the appl icant of incompleteness within 30 days of receipt of the application, the application shall be deemed complete as of the date of receipt. The APCO will determine whether the revision qualifies as a minor revision during the 30 day period.
+
+#### 408.3
+
+After an a pplication is deemed complete, the APCO may request in writing additional information necessary to evaluate or take final action on the permit. The facility shall have until the date specified in writing to respond to these requests. The APCO may declare a major facility review permit 2-6-14 application incomplete if a facility fails to respond to a request for additional information.
+
+### 409 Permit Content
+
+A major facility review permit shall contain the following information and provisions:
+
+#### 409.1
+
+A listing of all applicable requirements including emission limitations, permit conditions and operational or throughput standards or limits that apply to the facility, and a reference to the origin of each such r equirement;
+
+#### 409.2
+
+Testing, monitori ng, reporting and recordkeeping requirements:
+
+##### 2.1
+
+All applicable requirements for monitoring, recordkeeping and reporting, including applicable test methods and analysis procedures;
+
+##### 2.2
+
+Additional requirements for testing, monitoring, reporting and recordk eeping sufficient to assure compliance with the applicable requirements. Where the applicable requirement does not require periodic monitoring or testing, the permit shall contain periodic monitoring sufficient to yield reliable data from the relevant tim e periods that is representative of the source's compliance with the permit;
+
+#### 409.3
+
+A restatement of the requirement of District Regulation 1 -440 that the facility's owner or operator must provide the APCO with reasonable access to the premises of the facil ity;
+
+#### 409.4
+
+A restatement of the requirement of District Regulation 1 -441 and of Section
+
+### 501 that the facility's owner or operator must provide the information,
+
+**History**
+
+- Amended 2/1/95, 10/20/99, 5/2/01
+
+records, and reports requested or specified by the APCO;
+
+#### 409.5
+
+A severability clause to ensu re the continued validity of permit requirements in the event of a challenge to any portion of the permit;
+
+#### 409.6
+
+The duration of the major facility review permit, not to exceed five years;
+
+#### 409.7
+
+A statement that: (a) the owner or operator of the facility m ust comply with all permit conditions and limitations set forth in the major facility review permit;
+
+##### (b)
+
+an application for a change in the permit by the owner or operator of the facility does not revoke or limit the applicability of any permit condition i n the permit; (c) the major facility review permit does not convey a property right or exclusive privilege; and (d) the facility must keep a record in a contemporaneous log when the facility changes any aspect of its operations from one permitted scenario to another;
+
+#### 409.8
+
+Provisions specifying the conditions under which the permit may be reopened for cause and modified, revoked, reissued, or terminated, prior to the end of the term;
+
+#### 409.9
+
+Deleted 5/2/01.
+
+#### 409.10
+
+A schedule of compliance containing the follo wing elements:
+
+#### 10.1
+
+A statement that the facility shall continue to comply with all applicable requirements with which it is currently in compliance;
+
+#### 10.2
+
+A statement that the facility shall meet all applicable requirements on a timely basis as requireme nts become effective during the permit term; and
+
+#### 10.3
+
+If the facility is out of compliance with an applicable requirement at the time of issuance, revision, or reopening, the schedule of compliance shall contain a plan by which the facility will achieve compliance. The plan shall contain deadlines for each item in the plan. The schedule of compliance shall also contain a requirement for submission of progress reports by the facility at least every six months. The progress reports shall contain the dates by which each item in the plan was achieved and an explanation of why any dates in the schedule of compliance were not or will not be met, and any preventive or corrective measures adopted.
+
+#### 409.11
+
+Terms and conditions for reasonably anticipated operating s cenarios;
+
+#### 409.12
+
+Terms and conditions for any approved permit shield;
+
+#### 409.13
+
+A provision for payment of fees required by Regulation 3;
+
+#### 409.14
+
+An identification of those terms and conditions of the permit which are not federally enforceable because they are not derived from any requirement of the Clean Air Act;
+
+#### 409.15
+
+For Phase II acid rain facilities, all acid rain provisions of a permit shall be contained in a separate and complete section of the permit. This section shall contain a permit condition prohi biting emissions exceeding the allowances that a facility holds under Title IV of the Clean Air Act;
+
+#### 409.16
+
+Any terms and conditions for emissions trading approved under Section 2 -6418;
+
+#### 409.17
+
+A requirement for annual compliance certifications, unless com pliance certifications are required more frequently than annually in an applicable requirement or by the APCO;
+
+#### 409.18
+
+A requirement for reports of all required monitoring at least once every six months,
+
+#### 409.19
+
+All requirements and provisions pertaining to major facility review permits as set forth in Volume II of the District's Manual of Procedures, and
+
+#### 409.20
+
+A certification requirement for all documents submitted pursuant to a major facility review permit. The certification shall state that based on informatio n and belief formed after reasonable inquiry, the statements and information in the document are true, accurate, and complete. The certifications shall be signed by a responsible official for the facility.
+
+### 410 Final Action for Initial Permit Issuance, Five -Year Renewal, Reopenings, and
+
+**History**
+
+- Amended 2/1/95, 10/20/99
+
+Revisions: The APCO shall take final action on each major facility review permit application as follows:
+
+#### 410.1
+
+The APCO shall take final action on an application for an initial permit, a significant permit revision, or a permit renewal within eighteen months after receipt of an application that has been deemed complete. No permit shall be issued until after all required EPA and public review. If a facility submits a timely and complet e application for renewal, all terms and conditions of the permit shall remain in effect until the renewal permit has been issued or denied.
+
+#### 410.2
+
+The APCO shall take action to issue or deny a minor permit revision within 90 days of receipt of the applicat ion or within 15 days after the end of the EPA Administrator's 45 -day review, whichever is later;
+
+#### 410.3
+
+After the APCO has reopened an existing permit for cause, pursuant to Section 2 -6-415, the APCO shall take final action to modify, revoke and reissue, o r terminate that permit within 12 months after the date on which the permit is formally reopened.
+
+#### 410.4
+
+The APCO shall take final action on an application containing an early reduction demonstration within nine months after the APCO determines that the app lication is complete.
+
+#### 410.5
+
+Submittal of applications for, and the permitting, revision, and reopenings of the acid rain portion of a major facility review permit shall occur in accordance with the deadlines set forth in Title IV of the Clean Air Act and the regulations promulgated thereunder.
+
+#### 410.6
+
+Notwithstanding the deadline set forth in subsection 410.1 above, for existing facilities that become subject to MFR on the date that the program receives EPA approval, the APCO shall take final action by July 1, 2001.
+
+### 411 Reports to EPA and Public Petitions for Major Facility Review Permits
+
+**History**
+
+- Amended 2/1/95, 10/20/ 99, 5/2/01
+
+For all initial applications, five -year renewals, and proposed minor and significant permit revisions pursuant to this Rule, the APCO shall s ubmit to EPA for review and comment each proposed permit and each final major facility review permit. The EPA review shall be subject to the following:
+
+#### 411.1
+
+EPA shall have 45 days from receipt of the proposed permit to review the proposed terms and cond itions and to object to them in writing.
+
+#### 411.2
+
+If EPA objects to the proposed terms and conditions of a permit within the specified 45 -day period, the APCO shall submit appropriate revisions that 2-6-16 address EPA's objections within 90 days after being notified of EPA's objection and issue the permit.
+
+#### 411.3
+
+If EPA does not object to the proposed terms and conditions of a major facility review permit within the specified 45 -day period, any person dissatisfied with the proposed terms and conditions may petition EP A to reconsider the matter within 60 days thereafter. Any such petition must be based on objections raised during the public comment period on the proposed permit, unless the petitioner demonstrates that it was impracticable to do so or that the grounds f or the objection arose after the close of the original public comment period. EPA may object to the proposed permit on the basis of such petition. This provision does not apply to minor revisions.
+
+##### 3.1
+
+If the APCO has not yet issued a proposed permit, the APCO shall make appropriate revisions prior to issuing the permit.
+
+##### 3.2
+
+If the APCO has issued the permit following the 45 -day EPA comment period but before receipt of an EPA objection based on public petition, the permit may be reopened for cause by the APCO in accordance with Section 2 -6-415, or by the EPA in accordance with 40 CFR 70.7(g). In such event, the requirements of the permit shall remain in effect while the EPA or the APCO determines whether to modify, terminate, or revoke and reissue the pe rmit.
+
+#### 411.4
+
+Deleted 10/20/99
+
+#### 411.5
+
+If the APCO schedules a public hearing after the proposed permit has been submitted to EPA, the APCO will withdraw the permit from EPA review, and resubmit the permit after the public hearing date.
+
+### 412 Public Participation, Major Facility Review Permit Issuance
+
+The APCO shall notify the public and affected states in advance of any proposed initial issuance, significant revision or five -year renewal of a major facility review permit, in accordance with the following procedures:
+
+#### 412.1
+
+The APCO shall publish a notice in a major newspaper in the area where the facility is located and send the notice to affected states and to persons on a mailing list of persons who have requested in writ ing to receive these notifications. The APCO may use other methods in addition to the two above if necessary to assure adequate notice to the affected public and states.
+
+#### 412.2
+
+The notice shall identify by name and address the facility, the permittee and the permitting authority. The notice shall include information about the operation to be permitted, any proposed change in emissions, a District source for further information, a brief description of the comment procedures, and a description of procedures to request a hearing.
+
+#### 412.3
+
+The notice shall provide at least 30 days for public comment.
+
+#### 412.4
+
+The APCO shall give notice of any public hearing at least 30 days prior to the hearing.
+
+#### 412.5
+
+The APCO shall keep a record of the commenting persons or states and the issues raised in all such comments for five years.
+
+#### 412.6
+
+Written notification of any decision by the APCO not to incorporate any recommendations for the proposed permit that an affected state submitted during the public comment period shall be sent to U.S. EPA and affected states. (Amended 10/20/99, 5/2/01)
+
+### 413 Administrative Permit Amendment Procedures
+
+**History**
+
+- Amended 10/20/99
+
+The APCO may make administrative permit amendments as follows:
+
+#### 413.1
+
+Regulations promulgated under Title IV of the Clean Air Act shall govern adminis trative permit amendments to the acid rain portion of any permit.
+
+#### 413.2
+
+The APCO shall take final action on a request for an administrative permit amendment no later than 60 days from the receipt of the request, provided that the APCO determines that the a mendment is covered under Section 2-6-201.
+
+#### 413.3
+
+The APCO may initiate an administrative permit amendment provided that the amendment is covered under Section 2 -6-201.
+
+#### 413.4
+
+The APCO shall submit a copy of the revised permit to EPA.
+
+#### 413.5
+
+The facility may implement the changes covered by the administrative permit amendment immediately upon submittal of a request.
+
+#### 413.6
+
+Any request for a change in ownership shall include a written agreement between the parties to the transaction which specifies the date of transfer of the permit including permit responsibility, coverage, and liability.
+
+### 414 Minor Permit Revision Procedures
+
+**History**
+
+- Amended 10/20/99, 5/2/01
+
+The APCO shall take action on applications for minor permit revisions as follows:
+
+#### 414.1
+
+The APCO shall notify EPA of the proposed minor permit revision within 5 working days of the APCO’s issuance or waiver of the authority to construct required under section 2 -1-301.
+
+#### 414.2
+
+The APCO shall act on the propose d minor revision within 15 days after the end of EPA's 45 -day review period or within 90 days of receipt of the application, whichever is later.
+
+#### 414.3
+
+If prior to taking action on a proposed minor revision the APCO determines that the proposed revision should be reviewed as a significant revision, the APCO shall revise the draft permit revision accordingly and shall submit this version to the EPA. In any such event, the provisions of Sections 2 -6-411 and 412 shall apply to all further consideration of the proposed revision.
+
+### 415 Reopening for Cause
+
+Proceedings to reopen and reissue a major facility review permit shall follow the same procedures that apply to the issuance of an initial major facility review permit and shall affect only those parts of the permit for which cause to reopen exists. Except in the case of an emergency, the APCO shall provide to the facility a notice of intent to reopen the permit at least 30 days in advance of the proposed reopening date. The APCO shall reopen and revise a major facility review permit un der the following circumstances:
+
+#### 415.1
+
+Additional requirements become applicable to a major facility having three or more years remaining before that facility's next scheduled major facility review. The APCO shall complete a reopening within 18 months aft er promulgation of the applicable requirement. (Reopening is not required if the effective date of the additional requirement is later than the date on which that facility's next scheduled major facility review is due);
+
+#### 415.2
+
+Additional requirements becom e applicable to Phase II acid rain facilities under the acid rain program. Upon approval by the EPA, excess emissions offset plans developed under this program shall be incorporated into the permit;
+
+#### 415.3
+
+The APCO determines that the permit contains a mat erial mistake or that inaccurate statements were made in establishing the emissions standards or other terms or conditions of the permit; or
+
+#### 415.4
+
+The APCO determines that the permit must be revised or revoked to assure compliance with the applicable requi rements.
+
+### 416 Term for Major Facility Review
+
+Once a major facility review permit is issued to a facility, except insofar as the permit must be reopened in accordance with Section 2-6-415, the terms and conditions of that permit shall remain valid f or a period of five years from the date of issuance unless the facility agrees to a shorter term.
+
+However, Phase II acid rain facilities shall not have permits that contain a shorter term. At the conclusion of every such term, the APCO must review the te rms and conditions of a major facility review permit in the same way as an application for an initial major facility review permit.
+
+#### 416.1
+
+The issuance of a revision to an existing major facility review permit at any time during the course of the term for w hich the terms and conditions of that permit are valid shall not affect or extend the renewal date.
+
+#### 416.2
+
+A facility subject to this rule shall continue to provide throughput update information as required by the District and to pay the annual fees require d by Regulation 3, including Schedule P. (Amended 10/20/99, 5/2/01)
+
+### 417 Operational Flexibility Procedures
+
+A facility shall give written notice to the APCO of any changes made to the facility, pursuant to Section 2 -6-305 - Operational Flexibility. T he notice shall be received by the APCO at least 30 days prior to the 2-6-18 change. The notice shall contain a description of the change, the date on which the change will occur, any change in emissions, and any permit term or condition that is no longer applic able as a result of the change. The facility and the District shall each attach such notice to its copy of the permit.
+
+### 418 Emissions Trading Procedures
+
+The responsible official for a facility may propose that an emissions trading provision be includ ed in its major facility review permit as follows:
+
+#### 418.1
+
+The responsible official shall submit an application pursuant to Regulation 2 1-301 to incorporate the trading provisions into the permits of the affected sources. The application must identify the District regulations that provide for the proposed trading provisions and demonstrate that the trading provisions comply with all applicable District regulations.
+
+#### 418.2
+
+The APCO shall approve the request if the provisions comply with all applicable Distric t regulations.
+
+#### 418.3
+
+The proposal shall include an emissions cap allowing for the trading of emissions increases and decreases, permit conditions, recordkeeping requirements and replicable procedures for determining compliance with applicable requirements;
+
+#### 418.4
+
+The proposed emissions trades shall be quantifiable and federally enforceable; and
+
+#### 418.5
+
+Once the emissions trading provisions have been incorporated into the permit, the facility shall notify the APCO in writing at least seven days prior to a trade. The notification shall state when the trade will occur, what change in emissions will result, and how the trade will comply with the emission trading provisions.
+
+#### 418.6
+
+The APCO shall incorporate the trading provisions in the initial MFR permit issuance, or, if the permit has been issued, shall incorporate the trading provisions into the permit MFR using the minor or significant permit revision procedures. (Adopted 5/2/01)
+
+### 419 Availability of Information
+
+The contents of permit applications, complian ce plans, emissions or compliance monitoring reports, and compliance certification reports shall be available to the public, subject to the restrictions of the District's Administrative Code, Section 11. The contents of the permit shall be available to t he public and shall not be subject to the above restrictions.
+
+### 420 Application for a Synthetic Minor Operating Permit
+
+A facility which seeks to become a synthetic minor facility shall apply for a synthetic minor operating permit in accordance with the requirements of this rule. If a synthetic minor facility plans a physical or operational change which would increase its potential to emit such that it would exceed any threshold for a major facility, the facility shall become subject to major facility r eview and shall apply for a major facility review permit prior to making the change. A facility may also elect to accept synthetic minor permit conditions to limit the potential to emit of a source or operation to avoid requirements other than Major Facil ity Review. (Amended 2/1/95, 10/20/99, 5/2/01)
+
+### 421 Timely Application for a Synthetic Minor Operating Permit
+
+An application for a synthetic minor operating permit or synthetic minor operating permit revision shall be submitted in a timely manner as d escribed below:
+
+#### 421.1
+
+A facility which elects to apply for a synthetic minor operating permit in order to avoid the requirement to obtain a major facility review permit shall apply for and receive a synthetic minor operating permit prior to the date by whi ch it would have to apply for a major facility review permit.
+
+#### 421.2
+
+Any facility not subject to the requirements of Regulation 2, Rule 6, may apply for a synthetic minor operating permit at any time, in accordance with Section 2 -6-422.
+
+#### 421.3
+
+A facility see king a synthetic minor operating permit revision (as defined by Section 2 -6-232) shall apply for the revision in accordance with Section 2 -6422 and receive approval prior to making the change at the facility.
+
+#### 421.4
+
+For a revision to a synthetic minor oper ating permit which will not change any condition of the permit that establishes a facility -wide emission limit or that specifies the monitoring and recordkeeping requirements necessary to verify 2-6-19 ongoing compliance with a facility -wide emission limit, an ap plication must be received by the APCO in accordance with the requirements of Regulation 2, Rule 2, New Source Review.
+
+#### 421.5
+
+For a physical or operational change to a synthetic minor facility which would increase the facility's potential to emit to a level above that of a major facility, the facility must undergo preconstruction review, apply for a major facility review permit in accordance with the requirements of this rule, and apply for a cancellation of the synthetic minor permit prior to commencing the change.
+
+Any increase in the emission limits shall be subject to the requirements of Regulation 2, Rules 1 and 2.
+
+#### 421.6
+
+Renewals of synthetic minor operating permits shall be made in accordance with the requirements of Regulation 3 -207.
+
+#### 421.7
+
+Deleted 10/2 0/99 (Amended 2/1/95, 10/20/99, 5/2/01)
+
+### 422 Complete Application for a Synthetic Minor Operating Permit
+
+An application for a synthetic minor operating permit or for a synthetic minor operating permit revision (as defined by Section 2 -6-232) shall con tain the following:
+
+#### 422.1
+
+All relevant BAAQMD permit application forms;
+
+#### 422.2
+
+A statement certifying payment of any fee required by District Regulation 3, including Schedule P;
+
+#### 422.3
+
+Identification and description of all existing sources at the facility, i ncluding sources that are exempt from permits under Regulation 2, Rule 1;
+
+#### 422.4
+
+A calculation (following the protocol set forth in the Manual of Procedures, Volume II, Part 3, subsection 2.2.2.c) of annual and monthly maximum emissions of regulated air pol lutants and hazardous air pollutants from the facility. All fugitive emissions of hazardous air pollutants shall be included.
+
+For fugitive emissions of regulated air pollutants, only those from facility categories listed in the Manual of Procedures, Volu me II, Part 3, Section 1 shall be included;
+
+#### 422.5
+
+Proposed permit conditions to limit facility -wide emissions to below the thresholds for a major facility; and
+
+#### 422.6
+
+Proposed permit conditions imposing monitoring, recordkeeping and reporting requirements s ufficient to determine ongoing compliance.
+
+Applications for a synthetic minor permit revision shall include the above information only for those sources that will be modified. Applications for a synthetic minor operating permit for the purpose of avoidin g a requirement other than major facility review shall include the above as they apply to the sources for which limits are proposed. (Amended 2/1/95, 10/20/99)
+
+### 423 District Procedures for Synthetic Minor Operating Permits
+
+**History**
+
+- Amended 2/1/95, 10/20/99, 5/2/01
+
+The APCO shall take action o n applications for synthetic minor operating permits and for synthetic minor operating permit revisions as follows:
+
+#### 423.1
+
+Completeness: The APCO shall determine if the application is complete within 30 days of receipt, or within a longer time period as ag reed upon by both the applicant and the APCO.
+
+#### 423.2
+
+Permit Content: The synthetic minor operating permit shall contain all information and provisions pertaining to synthetic minor operating permits as set forth in Volume II of the District's Manual of Pro cedures including:
+
+##### 2.1
+
+Quantifiable and practically enforceable permit conditions limiting the facility's potential to emit to no greater than 95 tons per year of any regulated air pollutant, 9 ton s per year of any single hazardous air pollutant, and 23 tons per year of any combination of hazardous air pollutants, or;
+
+##### 2.2
+
+Quantifiable and practically enforceable permit conditions limiting a source or operation’s potential to emit to no greater than 90 percent of the threshold for the requirement that is to be avoided, and;
+
+##### 2.3
+
+Permit conditions requiring monitoring, recordkeeping, and reporting sufficient to determine compliance with the emission limits set forth in subsection 423.2.1 or 423.2.2.
+
+#### 423.3
+
+Deleted 10/20/99
+
+#### 423.4
+
+Reports to EPA: The APCO shall provide to EPA a copy of each proposed and final synthetic minor operating permit.
+
+#### 423.5
+
+Final Action: The APCO shall take final action on synthetic minor operating permits as follows:
+
+##### 5.1
+
+Initia l Application and Cancellations: Within 180 days following the acceptance of the application as complete.
+
+##### 5.2
+
+Revisions: In accordance with the requirements of Regulation 2 -1-408;
+
+#### 423.6
+
+Revisions: The APCO shall ensure that revisions of synthetic minor permits comply with subsection 2 -6-423.2. Revisions of permit conditions shall also be in accordance with the requirements of Regulation 2, Rules 1 and 2.
+
+#### 423.7
+
+Cancellation of Synthetic Minor Permits: A facility may petition the APCO to cancel its synth etic minor operating permit because its potential to emit due to its physical or operational design has dropped below the major source threshold or because proposed modifications to the facility would increase the facility's potential to emit to a level ab ove that of a major facility. The facility must comply with the synthetic minor operating permit until the APCO cancels the permit. The permit that replaces the synthetic minor operating permit will contain any emission limits contained in the synthetic minor operating permit. Revisions of the permit conditions shall be in accordance with the requirements of Regulation 2, Rules 1 and 2.
+
+### 424 Applicability
+
+The APCO shall evaluate the applicability of this rule to ea ch facility as part of the District’s annual permit renewal process required by Health & Safety Code Section 42301(e). Within 30 days of a written request for a process statement or specific emission -related information by the APCO or EPA, a facility shal l submit the requested information. (Adopted 10/20/99)
+
+### 425 Facility List
+
+The APCO shall maintain a list of facilities that are subject to this rule together with the specific provisions applicable to each facility. The APCO shall also maintain a list of facilities that are not subject to this rule. The facility lists shall be available to the public. (Adopted 10/20/99)
+
+### 426 Compliance Certification Procedures
+
+All compliance certifications required in permit applications or by major facility revie w permits shall be prepared in accordance with the following procedures:
+
+#### 426.1
+
+A responsible official for the facility shall certify all compliance certifications.
+
+The certification shall state that the compliance certification is true, accurate, and complete ba sed on information and belief formed after reasonable inquiry.
+
+#### 426.2
+
+Effective May 2, 2002, all applicants for a major facility review permit shall submit a new certification of compliance on every anniversary of the application date if the permit has not been issued. (Adopted 5/2/01)
+
+### 427 Statement of Basis
+
+**History**
+
+- Adopted 4/16/03
+
+The APCO shall, in conjunction with the issuance of any major facility review permit, prepare a statement that, in conjunction with the permit itself, sets forth the legal and factual basis for the draft permit conditions. This statement shall explain the basis for the decisions made by the APCO in issuing the major facility review permit, including the APCO’s reasoning for imposition of additional monitoring requirements, and for the creation of a ny permit shield provisions. The statement of basis may, but need not, address requirements that are not applicable and for which no permit shield is provided. The statement of basis need not address the rationale underlying the establishment of any appl icable requirement.
+
+### 500 MONITORING A ND RECORDS
+
+### 501 Recordkeeping
+
+The APCO may require that the owner or operator of any facility subject to this rule keep any records that are relevant or necessary to enable the APCO to determin e emissions from the facility. The facility shall keep such records on site for five years from the date of entry and shall make the records available to the APCO upon request.
+
+### 502 Monitoring Reports, Major Facility Review Permit
+
+**History**
+
+- Amended 10/20/99, 5/2/01
+
+Every six months, t he facility shall prepare and submit to the District reports of any monitoring required by the major facility review permit. A responsible official shall certify that all such reports are true, accurate, and complete based on information and belief formed after reasonable inquiry. In addition to the reporting requirements set forth in Regulation 1, subsection 522.7 and Section 542, the facility shall promptly identify and report to the APCO all monitored excesses and any other deviations from the requirem ents of the permit.
+
+### 503 Monitoring
+
+The APCO may require that the owner or operator of any facility subject to this rule conduct any monitoring that is necessary to enable the facility and the APCO to determine emissions from the facility. The APCO may specify the format and frequency of reports for all monitoring. (Adopted 10/20/99, 5/2/01)
+
+### 600 MANUAL OF PR OCEDURES
+
+### 601 Major Facility Review Permit Procedures
+
+The specific procedures for application submittals, the engineering evaluation and the required permit content for major facility review permits are set forth in Volume II of the District's Manual of Procedures.
+
+### 602 Synthetic Minor Operating Permit Procedures
+
+The specific procedures for the engineering ev aluation and the required permit content for synthetic minor operating permits are set forth in Volume II of the District's Manual of Procedures.

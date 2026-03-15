@@ -1,0 +1,168 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\split_evals_2010_05\\application_20997.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 1
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "20997",
+    "application_number_from_filename": "20997"
+  },
+  "application_number": "20997",
+  "plant": {
+    "name": "Applicant Tesoro Refining and Marketing Co.",
+    "plant_id": 14628,
+    "address": ""
+  },
+  "evaluation_date": "September 11, 2009",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1552",
+      "description": "Portable Diesel Pump, 205 HP, CARB Registration 136794"
+    },
+    {
+      "id": "S-1499",
+      "description": "No. 1 Pump Station Spare Diesel Pump"
+    }
+  ],
+  "background": {
+    "text": "Draft May 24, 2010  647 Application 20977, Exemption for Portable Diesel Pump S-1552 \nEVALUATION REPORT for Exempt Source(s) \n \nApplicant  Tesoro Refining and Marketing Co. \n Plant Number 14628 Application Number 20997  \n1. Background:  \n \nThe Applicant has applied for a permit for exempt equipment as follows: \n \n S-1552 Portable Diesel Pump, 205 HP, CARB Registration 136794  \nSince this portable engine is registered with CARB, it is exempt from permitting pursuant \nto Regulation 2-1-105.3.3: \n \n2-1-105 Exemption, Registered Statewide Portable Equipment:  The following portable equipment is exempt \nfrom the requirements of Sections 2-1-301 and 302,  provided that the equipment complies with all \napplicable requirements of the Statewide Portable E quipment Registration Program (California Code of \nRegulations Title 13, Division 3, Chapter 3, Article 5). \n105.3 Spark ignition or diesel fir ed internal combustion engines used in conjunction with the following \ntypes of operations: 3.3 Pumps; \n \nIn addition, Tesoro removed the following source from service:  \nS-1499 No. 1 Pump Station Spare Diesel Pump \n Lastly, Standard Condition 22820 can be removed from the Tesoro permit since it only \napplies to S-1499. \n  \n2. Emission Calculations: \n \nThere is no chargeable cumulative increase  for the exempt equipment described in \nSection 1.    \n3. Statement of Compliance: \n The exempt equipment described in Section 1 is exempt from Sections 2-1-301 and 302, \nin accordance with the specific section of Regulation 2-1 cited in Section 1.    I certify:  \n• This exempt CARB Registered porta ble equipment is not subject to \nRegulation 2 Rule 5.  Hence, an Air T oxics Risk Screening is not required. \n• This exempt equipment has not received two or more public nuisance \nviolations, under Regulation 1-301 or S ection 41700 of the California Health \nand Safety Code, within any consecutive 180-day period. \n \nTesoro Refining and Marketi ng Company  Application #20997 \nPlant # 14628  Page 648 of 1334     \n 648 Because this application is ministerial (exe mpt source), the requirements of the California \nEnvironmental Quality Act (CEQA) are not triggered.  \n   \n4. Exemptions : \n \nI recommend that the letter of exemption be gr anted to Tesoro for the exempt equipment \ndescribed and listed in Section 1. \n Application Reviewed By: Arthur P. Valla, P.E.  Position: Senior Air Quality Engineer   Signature of Reviewer ___________________________________________________________________  September 11, 2009"
+  },
+  "emission_calculations": {
+    "text": ""
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1552": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1499": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": ""
+  },
+  "BACT": {
+    "text": ""
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": []
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": ""
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": []
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": ""
+  },
+  "raw_sections": {
+    "preamble": "Draft May 24, 2010  647 Application 20977, Exemption for Portable Diesel Pump S-1552 \nEVALUATION REPORT for Exempt Source(s) \n \nApplicant  Tesoro Refining and Marketing Co. \n Plant Number 14628 Application Number 20997  \n1. Background:  \n \nThe Applicant has applied for a permit for exempt equipment as follows: \n \n S-1552 Portable Diesel Pump, 205 HP, CARB Registration 136794  \nSince this portable engine is registered with CARB, it is exempt from permitting pursuant \nto Regulation 2-1-105.3.3: \n \n2-1-105 Exemption, Registered Statewide Portable Equipment:  The following portable equipment is exempt \nfrom the requirements of Sections 2-1-301 and 302,  provided that the equipment complies with all \napplicable requirements of the Statewide Portable E quipment Registration Program (California Code of \nRegulations Title 13, Division 3, Chapter 3, Article 5). \n105.3 Spark ignition or diesel fir ed internal combustion engines used in conjunction with the following \ntypes of operations: 3.3 Pumps; \n \nIn addition, Tesoro removed the following source from service:  \nS-1499 No. 1 Pump Station Spare Diesel Pump \n Lastly, Standard Condition 22820 can be removed from the Tesoro permit since it only \napplies to S-1499. \n  \n2. Emission Calculations: \n \nThere is no chargeable cumulative increase  for the exempt equipment described in \nSection 1.    \n3. Statement of Compliance: \n The exempt equipment described in Section 1 is exempt from Sections 2-1-301 and 302, \nin accordance with the specific section of Regulation 2-1 cited in Section 1.    I certify:  \n• This exempt CARB Registered porta ble equipment is not subject to \nRegulation 2 Rule 5.  Hence, an Air T oxics Risk Screening is not required. \n• This exempt equipment has not received two or more public nuisance \nviolations, under Regulation 1-301 or S ection 41700 of the California Health \nand Safety Code, within any consecutive 180-day period. \n \nTesoro Refining and Marketi ng Company  Application #20997 \nPlant # 14628  Page 648 of 1334     \n 648 Because this application is ministerial (exe mpt source), the requirements of the California \nEnvironmental Quality Act (CEQA) are not triggered.  \n   \n4. Exemptions : \n \nI recommend that the letter of exemption be gr anted to Tesoro for the exempt equipment \ndescribed and listed in Section 1. \n Application Reviewed By: Arthur P. Valla, P.E.  Position: Senior Air Quality Engineer   Signature of Reviewer ___________________________________________________________________  September 11, 2009",
+    "blocks": [],
+    "unmapped_blocks": []
+  }
+}

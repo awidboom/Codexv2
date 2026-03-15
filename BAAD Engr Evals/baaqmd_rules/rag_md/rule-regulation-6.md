@@ -1,0 +1,23 @@
+---
+rule_number: Regulation 6
+title: Regulation 6: Particulate Matter - Common Definitions and Test Methods (Adopted August 1, 2018)
+source_url: https://www.baaqmd.gov/~/media/dotgov/files/rules/archive-2018-regulation-6/bundled-documents/rg0600-pdf.pdf?rev=2168324cd7134fc490b5e1f30fc4392e&sc_lang=en
+local_pdf: C:\Users\aaw\Codex\BAAD Engr Evals\baaqmd_rules\pdfs\rule-regulation-6.pdf
+rule_page_url: https://www.baaqmd.gov/en/rules-and-compliance/rules/regulation-6-particulate-matter-common-definitions-and-test-methods?rule_version=2018 Adoption
+version_status: Adopted
+adopted: 2018-07-31T00:00:00
+amended: 0001-01-01T00:00:00
+source_json: C:/Users/aaw/Codex/BAAD Engr Evals/baaqmd_rules/json/rule-regulation-6.json
+---
+
+# Regulation 6: Particulate Matter - Common Definitions and Test Methods (Adopted August 1, 2018)
+
+## Description
+
+The purpose of the new set of rules and amendments under Regulation 6 is to reduce emissions of particulate matter from commercial and industrial sources.
+
+## Contact
+
+415.749.4999 compliance@baaqmd.gov
+
+## Sections

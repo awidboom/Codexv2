@@ -1,0 +1,718 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\split_evals_2015_11\\application_22169.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 6
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "Description  NOx (tons)  POC (tons)\nS-1550 Emissions  1.173  0.576\nS-1551 Emissions  1.173  0.576\nTotal Emissions     2.346     1.152\nAdjusted for Offset Ratio of 1.15  2.698  1.325",
+        "via Application 7642  -1.208  -0.101\nOffset Requirements  1.490  1.224\nOffset via Bank 968  -1.490  -1.224"
+      ]
+    },
+    "application_number_detected": "22169",
+    "application_number_from_filename": "22169"
+  },
+  "application_number": "22169",
+  "plant": {
+    "name": "Golden Eagle Refinery, 150 Solano Way, Martinez, Ca 94553",
+    "plant_id": 14628,
+    "address": "Martinez, CA 94553"
+  },
+  "evaluation_date": "September 16, 2010",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1553",
+      "description": "Backup Steam Boiler #3, 99 MM Btu/hr, Natural Gas Fired, Abated byBACKGROUND"
+    },
+    {
+      "id": "A-1553",
+      "description": "SCR"
+    },
+    {
+      "id": "S-1550",
+      "description": "Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+    },
+    {
+      "id": "A-1550",
+      "description": "SCR"
+    },
+    {
+      "id": "S-1551",
+      "description": "Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+    },
+    {
+      "id": "A-1551",
+      "description": "SCR"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nThe Tesoro Refining and Marketing Company (Tesoro) is applying for an Authority to Construct \nand/or Permit to Operate the following equipment:  \n \n S-1553  Backup Steam Boiler #3, 99 MM Btu/hr, Natural Gas Fired, Abated byBACKGROUND\nND  \n \nThe Tesoro Refining and Marketing Company (Tesoro) is applying for an Authority to Construct \nand/or Permit to Operate the following equipment:  \n \n S-1553  Backup Steam Boiler #3, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1553 SCR  \n \nThis is a third backup boiler.  The other two boilers were permitted via Application 20977:  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1550 SCR  \n S-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1551 SCR  \n \nThese Backup Boilers are needed to ensure adequate steam supply for the refinery when existing \nboilers S -901 and S -904 are removed from service for turnaround/maintenance.  The third \nboiler S -1553 will be a new source, but emissions will not change for all three boilers by \nkeeping the curre nt firing limits and time allowed for unabated operation in Condition \n24491 -4 and 24491 -6: \n \n4.  Except for a time period not to exceed 24 hours per boiler startup or shutdown, the \nowner/operator shall ensure that S -1550 , and S-1551 and S -1553 are only oper ated when \nabated by SCRs A -1550 , and A-1551  and A -1553 , respectively.  The total cumulative \nhours that S-1550  or S-1551 all three boilers  can be  is operated without SCR abatement \nshall not exceed 192 hours per consecutive 12 -month period.  (Basis: Cumulativ e \nIncrease, Offsets, Toxics)  \n \n6.  The owner/operator shall ensure that the total fuel fired in S -1550 , and S-1551  and S -1553  \nshall not exceed 4,277,000 therms in any 12 consecutive month period.  (Basis: \nCumulative Increase, Offsets, Toxics)  \n   \nBy using this permitting rationale, the application qualifies for the Accelerated Permitting \nProgram and the Temporary Permit to Operate was granted August 3, 2010.  \n \nIn addition, Tesoro has requested that Condition 24491 -3 be deleted.  The time limit can be an \noperating problem and emissions are effectively capped by conditions 24491 -4 and 24491 -\n6. \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  87 November 3 , 2015  3.  The owner/operator shall ensure each boiler S -1550 and S -1551 is not operated for more \nthan 2160 hours in any consecutive 12 -month period.   (Basis: Cumulative Incre ase, \nOffsets, Toxics)"
+  },
+  "emission_calculations": {
+    "text": "EMISSION CALCULATIONS\nIONS  \n \nEmission Factors  \n \nThe following emissions factors are used to calculate emissions from Backup Boiler S -1553, which are the same as \nBoilers S -1550 an S -1551.  \n \nNOx:   7 ppm @ 3% O2 when abated by SCR (BACT)  \n 30 ppm @ 3% O2 without SCR operation (192 hrs/yr per boiler)  \nCO: 50 ppm @ 3% O2 (BACT)  \nPM10  7.45E -3 lb/MMBtu  \nVOC  5.39E -3 lb/MMBtu (assume to be all POC)  \nSO2 5.88E -4 lb/MMBtu  \nEmission factors for PM10, POC, and SO2 are from Chapter 1, Table 1.4 -2 of the EPA Do cument AP -42, \nCompilation of Air Pollutant Emission Factors (lb/106scf / 1020).  \n \nExhaust flow:  (8710 dscf/MMBtu)*(20.95/(20.95 -3))=10165.7 dscf/MMBtu at 3% O2  \n \nAt atmospheric pressure and low temperatures, the ideal gas law will provide the necessary calc ulation accuracy:  \nn = PV/RT = (1atm*10165.7 dscf/MMBtu) /((0.7302 atm -cf/lb-mol R)*(68 + 460 R))  \n= 26.367 lb -mol/MMBtu  \n \nNOx w/ SCR:  26.367 lb -mol/MMBtu(7 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.00849 lb/MMBtu  \nNOx w/o SCR:  26.367 lb -mol/MMBtu(30 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.0364 lb/MMBtu  \nCO:  26.367 lb -mol/MMBtu(50 lb -mol NOx/1E6 lb -mol)(28 lb CO/lb -mol CO)  \n= 0.0369 lb/MMBtu  \n \nAnnual Emissions:  \n \nEmissions from S -1553 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu /hr)(0.00849 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = 0.827 \ntons \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO   =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 tons  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2   =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nHowever, as e xplained above, the total annual fuel throughput for all three boilers will not change, so there will not \nbe any emissions increase (any emissions from S -1553 will cause a reduction in emissions from the other boilers S -\n1550 and S -1551).  \n \n \nCumulative Incre ase: \n \nThere is no cumulative increase in emissions.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  88 November 3 , 2015   \nMaximum Daily Emissions:  \n \nNOx (SCR)   =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(24 hrs) = 20.1 lb  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(24 hrs) = 86 lb  \nCO   =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(24 hrs) = 88 lb  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(24 hrs) = 17.7 lb  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(24 hrs) = 12.8 lb  \nSO2   =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(24 hrs) = 1.4 lb  \n \n \n \n \n \nToxic Risk S creening  \n \n \nThe following toxic emissions were calculated for each boiler.  \n \nTAC  Emission Factor \n(lb/mmscf)  Emission Factor \n(lb/MMBtu\n) Emissions \n(lb/hr)  Emissions \n(lb/yr)  \nBenzene  2.10E -03 2.1E-06 2.1E-04 4.5E-01 \nDichlorobenzene  6.00E -07 6.0E-10 5.9E-08 1.3E-04 \nFormaldehyde  7.50E -02 7.5E-05 7.4E-03 1.6E+01  \nHexane  1.80E00  1.8E-03 1.8E-01 3.8E+02  \nNaphthalene  6.10E -04 6.10E -07 6.0E-05 1.3E-01 \nToluene  3.40E -03 3.4E-06 3.4E-04 7.3E-01EMISSION CALCULATIONS\nIONS  \n \nEmission Factors  \n \nThe following emissions factors are used to calculate emissions from Backup Boiler S -1553, which are the same as \nBoilers S -1550 an S -1551.  \n \nNOx:   7 ppm @ 3% O2 when abated by SCR (BACT)  \n 30 ppm @ 3% O2 without SCR operation (192 hrs/yr per boiler)  \nCO: 50 ppm @ 3% O2 (BACT)  \nPM10  7.45E -3 lb/MMBtu  \nVOC  5.39E -3 lb/MMBtu (assume to be all POC)  \nSO2 5.88E -4 lb/MMBtu  \nEmission factors for PM10, POC, and SO2 are from Chapter 1, Table 1.4 -2 of the EPA Do cument AP -42, \nCompilation of Air Pollutant Emission Factors (lb/106scf / 1020).  \n \nExhaust flow:  (8710 dscf/MMBtu)*(20.95/(20.95 -3))=10165.7 dscf/MMBtu at 3% O2  \n \nAt atmospheric pressure and low temperatures, the ideal gas law will provide the necessary calc ulation accuracy:  \nn = PV/RT = (1atm*10165.7 dscf/MMBtu) /((0.7302 atm -cf/lb-mol R)*(68 + 460 R))  \n= 26.367 lb -mol/MMBtu  \n \nNOx w/ SCR:  26.367 lb -mol/MMBtu(7 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.00849 lb/MMBtu  \nNOx w/o SCR:  26.367 lb -mol/MMBtu(30 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.0364 lb/MMBtu  \nCO:  26.367 lb -mol/MMBtu(50 lb -mol NOx/1E6 lb -mol)(28 lb CO/lb -mol CO)  \n= 0.0369 lb/MMBtu  \n \nAnnual Emissions:  \n \nEmissions from S -1553 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu /hr)(0.00849 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = 0.827 \ntons \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO   =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 tons  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2   =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nHowever, as e xplained above, the total annual fuel throughput for all three boilers will not change, so there will not \nbe any emissions increase (any emissions from S -1553 will cause a reduction in emissions from the other boilers S -\n1550 and S -1551).  \n \n \nCumulative Incre ase: \n \nThere is no cumulative increase in emissions.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  88 November 3 , 2015   \nMaximum Daily Emissions:  \n \nNOx (SCR)   =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(24 hrs) = 20.1 lb  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(24 hrs) = 86 lb  \nCO   =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(24 hrs) = 88 lb  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(24 hrs) = 17.7 lb  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(24 hrs) = 12.8 lb  \nSO2   =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(24 hrs) = 1.4 lb  \n \n \n \n \n \nToxic Risk S creening  \n \n \nThe following toxic emissions were calculated for each boiler.  \n \nTAC  Emission Factor \n(lb/mmscf)  Emission Factor \n(lb/MMBtu\n) Emissions \n(lb/hr)  Emissions \n(lb/yr)  \nBenzene  2.10E -03 2.1E-06 2.1E-04 4.5E-01 \nDichlorobenzene  6.00E -07 6.0E-10 5.9E-08 1.3E-04 \nFormaldehyde  7.50E -02 7.5E-05 7.4E-03 1.6E+01  \nHexane  1.80E00  1.8E-03 1.8E-01 3.8E+02  \nNaphthalene  6.10E -04 6.10E -07 6.0E-05 1.3E-01 \nToluene  3.40E -03 3.4E-06 3.4E-04 7.3E-01 \nPAH  2.45E -05 2.45E -08 7.0E -06 \n 1.5E -02 \n \n \nHowever, since the toxic emissions are based on boiler firing duty, and the overall annual duty of \nthe three boilers will not change, the overall toxic emissions will not change, and a risk \nscreen is not required.  The risk screen conducted for the first two boilers showed the \nproject risk is considered acceptable with a Maximum Cancer Risk of 0.004 in a million, \nthe chronic hazard index of 0.00008 and the acute hazard index of 0.003."
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSION CALCULATIONS\nIONS  \n \nEmission Factors  \n \nThe following emissions factors are used to calculate emissions from Backup Boiler S -1553, which are the same as \nBoilers S -1550 an S -1551.  \n \nNOx:   7 ppm @ 3% O2 when abated by SCR (BACT)  \n 30 ppm @ 3% O2 without SCR operation (192 hrs/yr per boiler)  \nCO: 50 ppm @ 3% O2 (BACT)  \nPM10  7.45E -3 lb/MMBtu  \nVOC  5.39E -3 lb/MMBtu (assume to be all POC)  \nSO2 5.88E -4 lb/MMBtu  \nEmission factors for PM10, POC, and SO2 are from Chapter 1, Table 1.4 -2 of the EPA Do cument AP -42, \nCompilation of Air Pollutant Emission Factors (lb/106scf / 1020).  \n \nExhaust flow:  (8710 dscf/MMBtu)*(20.95/(20.95 -3))=10165.7 dscf/MMBtu at 3% O2  \n \nAt atmospheric pressure and low temperatures, the ideal gas law will provide the necessary calc ulation accuracy:  \nn = PV/RT = (1atm*10165.7 dscf/MMBtu) /((0.7302 atm -cf/lb-mol R)*(68 + 460 R))  \n= 26.367 lb -mol/MMBtu  \n \nNOx w/ SCR:  26.367 lb -mol/MMBtu(7 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.00849 lb/MMBtu  \nNOx w/o SCR:  26.367 lb -mol/MMBtu(30 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.0364 lb/MMBtu  \nCO:  26.367 lb -mol/MMBtu(50 lb -mol NOx/1E6 lb -mol)(28 lb CO/lb -mol CO)  \n= 0.0369 lb/MMBtu  \n \nAnnual Emissions:  \n \nEmissions from S -1553 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu /hr)(0.00849 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = 0.827 \ntons \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO   =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 tons  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2   =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nHowever, as e xplained above, the total annual fuel throughput for all three boilers will not change, so there will not \nbe any emissions increase (any emissions from S -1553 will cause a reduction in emissions from the other boilers S -\n1550 and S -1551).  \n \n \nCumulative Incre ase: \n \nThere is no cumulative increase in emissions.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  88 November 3 , 2015   \nMaximum Daily Emissions:  \n \nNOx (SCR)   =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(24 hrs) = 20.1 lb  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(24 hrs) = 86 lb  \nCO   =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(24 hrs) = 88 lb  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(24 hrs) = 17.7 lb  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(24 hrs) = 12.8 lb  \nSO2   =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(24 hrs) = 1.4 lb  \n \n \n \n \n \nToxic Risk S creening  \n \n \nThe following toxic emissions were calculated for each boiler.  \n \nTAC  Emission Factor \n(lb/mmscf)  Emission Factor \n(lb/MMBtu\n) Emissions \n(lb/hr)  Emissions \n(lb/yr)  \nBenzene  2.10E -03 2.1E-06 2.1E-04 4.5E-01 \nDichlorobenzene  6.00E -07 6.0E-10 5.9E-08 1.3E-04 \nFormaldehyde  7.50E -02 7.5E-05 7.4E-03 1.6E+01  \nHexane  1.80E00  1.8E-03 1.8E-01 3.8E+02  \nNaphthalene  6.10E -04 6.10E -07 6.0E-05 1.3E-01 \nToluene  3.40E -03 3.4E-06 3.4E-04 7.3E-01EMISSION CALCULATIONS\nIONS  \n \nEmission Factors  \n \nThe following emissions factors are used to calculate emissions from Backup Boiler S -1553, which are the same as \nBoilers S -1550 an S -1551.  \n \nNOx:   7 ppm @ 3% O2 when abated by SCR (BACT)  \n 30 ppm @ 3% O2 without SCR operation (192 hrs/yr per boiler)  \nCO: 50 ppm @ 3% O2 (BACT)  \nPM10  7.45E -3 lb/MMBtu  \nVOC  5.39E -3 lb/MMBtu (assume to be all POC)  \nSO2 5.88E -4 lb/MMBtu  \nEmission factors for PM10, POC, and SO2 are from Chapter 1, Table 1.4 -2 of the EPA Do cument AP -42, \nCompilation of Air Pollutant Emission Factors (lb/106scf / 1020).  \n \nExhaust flow:  (8710 dscf/MMBtu)*(20.95/(20.95 -3))=10165.7 dscf/MMBtu at 3% O2  \n \nAt atmospheric pressure and low temperatures, the ideal gas law will provide the necessary calc ulation accuracy:  \nn = PV/RT = (1atm*10165.7 dscf/MMBtu) /((0.7302 atm -cf/lb-mol R)*(68 + 460 R))  \n= 26.367 lb -mol/MMBtu  \n \nNOx w/ SCR:  26.367 lb -mol/MMBtu(7 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.00849 lb/MMBtu  \nNOx w/o SCR:  26.367 lb -mol/MMBtu(30 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.0364 lb/MMBtu  \nCO:  26.367 lb -mol/MMBtu(50 lb -mol NOx/1E6 lb -mol)(28 lb CO/lb -mol CO)  \n= 0.0369 lb/MMBtu  \n \nAnnual Emissions:  \n \nEmissions from S -1553 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu /hr)(0.00849 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = 0.827 \ntons \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO   =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 tons  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2   =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nHowever, as e xplained above, the total annual fuel throughput for all three boilers will not change, so there will not \nbe any emissions increase (any emissions from S -1553 will cause a reduction in emissions from the other boilers S -\n1550 and S -1551).  \n \n \nCumulative Incre ase: \n \nThere is no cumulative increase in emissions.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  88 November 3 , 2015   \nMaximum Daily Emissions:  \n \nNOx (SCR)   =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(24 hrs) = 20.1 lb  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(24 hrs) = 86 lb  \nCO   =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(24 hrs) = 88 lb  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(24 hrs) = 17.7 lb  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(24 hrs) = 12.8 lb  \nSO2   =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(24 hrs) = 1.4 lb  \n \n \n \n \n \nToxic Risk S creening  \n \n \nThe following toxic emissions were calculated for each boiler.  \n \nTAC  Emission Factor \n(lb/mmscf)  Emission Factor \n(lb/MMBtu\n) Emissions \n(lb/hr)  Emissions \n(lb/yr)  \nBenzene  2.10E -03 2.1E-06 2.1E-04 4.5E-01 \nDichlorobenzene  6.00E -07 6.0E-10 5.9E-08 1.3E-04 \nFormaldehyde  7.50E -02 7.5E-05 7.4E-03 1.6E+01  \nHexane  1.80E00  1.8E-03 1.8E-01 3.8E+02  \nNaphthalene  6.10E -04 6.10E -07 6.0E-05 1.3E-01 \nToluene  3.40E -03 3.4E-06 3.4E-04 7.3E-01 \nPAH  2.45E -05 2.45E -08 7.0E -06 \n 1.5E -02 \n \n \nHowever, since the toxic emissions are based on boiler firing duty, and the overall annual duty of \nthe three boilers will not change, the overall toxic emissions will not change, and a risk \nscreen is not required.  The risk screen conducted for the first two boilers showed the \nproject risk is considered acceptable with a Maximum Cancer Risk of 0.004 in a million, \nthe chronic hazard index of 0.00008 and the acute hazard index of 0.003.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1553": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1553": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1550": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1550": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1551": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1551": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": ""
+  },
+  "BACT": {
+    "text": "BEST AVAILABLE CONTROL TECHNOLOGY\nGY   \n \nIn accordance with Regulation 2, Rule 2, Section 301, BACT i s triggered for any new or \nmodified source with the potential to emit 10 pounds or more per highest day of POC, \nNPOC, NOx, CO, SO 2 or PM 10.  Emissions from S -1553 trigger BACT for the following \npollutants:  NOx, CO, PM10, and POC.   \n \nA BACT Determination f or these backup boilers was made in Application 20977. The Achieved \nin Practice BACT for these Backup Boilers was determined as follows:  \n \nNOx:  7 ppm @ 3% O2  \nCO: 50 ppm @ 3% O2  \nPOC emissions comply with BACT when Good Combustion Practices are followed.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  89 November 3 , 2015  PM10  emissions comply with BACT by the use of Natural Gas Fuel.BEST AVAILABLE CONTROL TECHNOLOGY\nGY   \n \nIn accordance with Regulation 2, Rule 2, Section 301, BACT i s triggered for any new or \nmodified source with the potential to emit 10 pounds or more per highest day of POC, \nNPOC, NOx, CO, SO 2 or PM 10.  Emissions from S -1553 trigger BACT for the following \npollutants:  NOx, CO, PM10, and POC.   \n \nA BACT Determination f or these backup boilers was made in Application 20977. The Achieved \nin Practice BACT for these Backup Boilers was determined as follows:  \n \nNOx:  7 ppm @ 3% O2  \nCO: 50 ppm @ 3% O2  \nPOC emissions comply with BACT when Good Combustion Practices are followed.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  89 November 3 , 2015  PM10  emissions comply with BACT by the use of Natural Gas Fuel."
+  },
+  "offsets": {
+    "narrative": "OFFSETS\nTS    \n \nThere are no increase in annual emissions due to this application, so Offsets are not required.  A summary of the \noffsets for Application 20977 follows:  \n \nDescription  NOx (tons)  POC (tons)  \nS-1550 Emissions  1.173  0.576  \nS-1551 Emissions  1.173  0.576  \nTotal Emissions     2.346     1.152  \nAdjusted for Offset Ratio of 1.15  2.698  1.325  \nReturn of S -1494 &  S-1495 credits when taken out of service \nvia Application 7642  -1.208  -0.101  \nOffset Requirements  1.490  1.224  \nOffset via Bank 968  -1.490  -1.224  \nThe total POC offsets from Bank 968 are 2.714 tons.OFFSETS\nTS    \n \nThere are no increase in annual emissions due to this application, so Offsets are not required.  A summary of the \noffsets for Application 20977 follows:  \n \nDescription  NOx (tons)  POC (tons)  \nS-1550 Emissions  1.173  0.576  \nS-1551 Emissions  1.173  0.576  \nTotal Emissions     2.346     1.152  \nAdjusted for Offset Ratio of 1.15  2.698  1.325  \nReturn of S -1494 &  S-1495 credits when taken out of service \nvia Application 7642  -1.208  -0.101  \nOffset Requirements  1.490  1.224  \nOffset via Bank 968  -1.490  -1.224  \nThe total POC offsets from Bank 968 are 2.714 tons.  \n \n \n \nNSPS    \n \nS-1553 is not Subject to  NSPS Subpart Ja because it is not a Fuel Gas Combustion Devices (natural gas is excluded \nfrom the definition of Fuel Gas in 40 CFR 60.101a unless it is commingled with refinery fuel gas).  \n \nS-1553 is not Subject to NSPS Subpart Db (Standards of Performance  for Industrial -Commercial -Institutional Steam \nGenerating Units) because the firing rate is less than 100 MMBtu/hr.  The Backup Boilers is subject to NSPS \nSubpart Dc because the boiler firing rate is greater than 10 MMBtu/hr and less than 100 MMBtu/hr.  Em ission \nStandards in Subpart Dc do not apply to S -1553 because the boiler is only fired on Natural Gas.  S -1553 is only \nsubject to the notification and recordkeeping requirements of 40 CFR 60.48c.  \n \nNESHAPs and MACT  \n \nS-1553 is not subject to NESHAPs and MACT  because they are fired exclusively on Natural Gas \nand are not used as a control device of any HAPs emissions.   \n \nPREVENTION OF SIGNIFICANT DETERIORATION (PSD)  \n \nThe Tesoro facility is an existing major stationary source.  To determine the applicability of PSD, 40 CFR \n52.21(b)(2)(i) requires a two -step evaluation.  The first step is to determine if the project will result in a significant \nemissions increase.  The second step it to determine if the project will result in a significant net emissions increase.  \nBoth steps need to result in emissions that exceed significance levels for PSD to apply.  \n \nThe emissions increases need to be determined and compared to the following significance levels \n[40CFR52.21(b)(23)(i)]:  \nCarbon monoxide: 100 tons per year (tpy)  \nNitrogen oxides: 40 tpy  \nSulfur dioxide: 40 tpy  \nParticulate matter: 25 tpy of particulate matter emissions  \nPM10: 15 tpy  \nPM2.5: 10 tpy of direct PM2.5emissions; 40 tpy of sulfur dioxide emissions; 40 tpy of nitrogen oxide \nemissions unless demonstrated not to be a PM2.5precursor under paragraph (b)(50) of this section  \nOzone: 40 tpy of volatile organic compounds or nitrogen oxides  \nSulfuric acid mist: 7 tpy  \nHydrogen sulfide (H2S): 10 tpy  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  90 November 3 , 2015  Total reduced sulfur (including H2S): 10 tpy  \nReduced sulfur compounds (includin g H2S): 10 tpy  \n \nThe ‘project’ for this application is to install backup boilers to provide process steam while the Main Boilers are \nshutdown.  The baseline actual emissions for steam production would decrease since the backup boilers, rated at 99 \nMMBtu/hr each, are operating while one of the main boilers are shutdown (S -901 @ 668MM Btu/hr and S -904 @ \n775 MM Btu/hr).  Even if all three backup boilers are fired a full rate, the 3x99 = 297 MMBtu/hr duty would be less \nthan half the duty on the shutdown boiler.  Consequently, the net emissions change would be a reduction.  Therefore, \nPSD does not apply.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          1550.0,
+          "10 : 15",
+          null
+        ],
+        [
+          "NOx",
+          1550.0,
+          "10 : 15",
+          null
+        ],
+        [
+          "PM10",
+          15.0,
+          "10 : 15",
+          null
+        ],
+        [
+          "PM2.5",
+          10.0,
+          "10 : 15",
+          null
+        ],
+        [
+          "CO",
+          1553.0,
+          "10 : 15",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "PREVENTION OF SIGNIFICANT DETERIORATION (PSD)\nD)  \n \nThe Tesoro facility is an existing major stationary source.  To determine the applicability of PSD, 40 CFR \n52.21(b)(2)(i) requires a two -step evaluation.  The first step is to determine if the project will result in a significant \nemissions increase.  The second step it to determine if the project will result in a significant net emissions increase.  \nBoth steps need to result in emissions that exceed significance levels for PSD to apply.  \n \nThe emissions increases need to be determined and compared to the following significance levels \n[40CFR52.21(b)(23)(i)]:  \nCarbon monoxide: 100 tons per year (tpy)  \nNitrogen oxides: 40 tpy  \nSulfur dioxide: 40 tpy  \nParticulate matter: 25 tpy of particulate matter emissions  \nPM10: 15 tpy  \nPM2.5: 10 tpy of direct PM2.5emissions; 40 tpy of sulfur dioxide emissions; 40 tpy of nitrogen oxide \nemissions unless demonstrated not to be a PM2.5precursor under paragraph (b)(50) of this section  \nOzone: 40 tpy of volatile organic compounds or nitrogen oxides  \nSulfuric acid mist: 7 tpy  \nHydrogen sulfide (H2S): 10 tpy  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  90 November 3 , 2015  Total reduced sulfur (including H2S): 10 tpy  \nReduced sulfur compounds (includin g H2S): 10 tpy  \n \nThe ‘project’ for this application is to install backup boilers to provide process steam while the Main Boilers are \nshutdown.  The baseline actual emissions for steam production would decrease since the backup boilers, rated at 99 \nMMBtu/hr each, are operating while one of the main boilers are shutdown (S -901 @ 668MM Btu/hr and S -904 @ \n775 MM Btu/hr).  Even if all three backup boilers are fired a full rate, the 3x99 = 297 MMBtu/hr duty would be less \nthan half the duty on the shutdown boiler.  Consequently, the net emissions change would be a reduction.  Therefore, \nPSD does not apply."
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nCE  \n \nThe owner/operator of S-1553 Backup Boiler shall comply with Regulation 6, Rule 1 (Particulate \nMatter General Requirements).  The owner/operator is expected to comply with Regulation \n6 since the unit is only fueled with natural gas.  Thus for any period aggregating more than \nthree minutes in any hour, there should be no visible emission as dark or darker than No. 1 \non the Ringlemann Chart (Regulation 6 -1-301) and no visible emission to exceed 20% \nopacity (Regulation 6 -1-302).   \n \nThe owner/operator of S -1553 Backup Boiler shall c omply with Reg. 9 -1-301 (Inorganic \nGaseous Pollutants:  Sulfur Dioxide for Limitations on Ground Level Concentrations).  \n \nThe owner/operator is not subject to Regulation 9 Rule 7:  Nitrogen Oxides and Carbon \nMonoxide from Industrial, Institutional, and Comm ercial Boilers, Steam Generators, and \nProcess Heaters as per Regulation 9 -7-110.3 since S -1553 will be operated at the Tesoro \nRefinery.   \n \nThe owner/operator is not subject to Regulation 9 Rule 10:  Nitrogen Oxides and Carbon \nMonoxide from Boilers, Steam G enerators, and Process Heaters in Petroleum Refineries \nbecause S -1553 is not a “Unit” as defined by Regulation 9 -10-220.  S -1553 did not have an \nAuthority to Construct or Permit to Operate prior to January 5, 2004.   \n \nThe owner/operator is subject to Regul ation 8, Rule 18.  The natural gas fuel lines and \ncomponents will be constructed in accordance with the requirements of the 8 -18 standards \nand added to the facility fugitive emissions monitoring program.  \n \nThe project is considered to be ministerial under t he District's CEQA regulation 2 -1-311 and therefore is not subject \nto CEQA review.   \n \nThe project is over 1000 feet from the nearest school and therefore not subject to the public notification \nrequirements of Reg. 2 -1-412. \n \nThe owner/operator of S -1553 Backup Boiler shall comply with BACT and NSPS.  \n \nOffsets, Toxics, PSD and NESHAPS do not apply.STATEMENT OF COMPLIANCE\nCE  \n \nThe owner/operator of S-1553 Backup Boiler shall comply with Regulation 6, Rule 1 (Particulate \nMatter General Requirements).  The owner/operator is expected to comply with Regulation \n6 since the unit is only fueled with natural gas.  Thus for any period aggregating more than \nthree minutes in any hour, there should be no visible emission as dark or darker than No. 1 \non the Ringlemann Chart (Regulation 6 -1-301) and no visible emission to exceed 20% \nopacity (Regulation 6 -1-302).   \n \nThe owner/operator of S -1553 Backup Boiler shall c omply with Reg. 9 -1-301 (Inorganic \nGaseous Pollutants:  Sulfur Dioxide for Limitations on Ground Level Concentrations).  \n \nThe owner/operator is not subject to Regulation 9 Rule 7:  Nitrogen Oxides and Carbon \nMonoxide from Industrial, Institutional, and Comm ercial Boilers, Steam Generators, and \nProcess Heaters as per Regulation 9 -7-110.3 since S -1553 will be operated at the Tesoro \nRefinery.   \n \nThe owner/operator is not subject to Regulation 9 Rule 10:  Nitrogen Oxides and Carbon \nMonoxide from Boilers, Steam G enerators, and Process Heaters in Petroleum Refineries \nbecause S -1553 is not a “Unit” as defined by Regulation 9 -10-220.  S -1553 did not have an \nAuthority to Construct or Permit to Operate prior to January 5, 2004.   \n \nThe owner/operator is subject to Regul ation 8, Rule 18.  The natural gas fuel lines and \ncomponents will be constructed in accordance with the requirements of the 8 -18 standards \nand added to the facility fugitive emissions monitoring program.  \n \nThe project is considered to be ministerial under t he District's CEQA regulation 2 -1-311 and therefore is not subject \nto CEQA review.   \n \nThe project is over 1000 feet from the nearest school and therefore not subject to the public notification \nrequirements of Reg. 2 -1-412. \n \nThe owner/operator of S -1553 Backup Boiler shall comply with BACT and NSPS.  \n \nOffsets, Toxics, PSD and NESHAPS do not apply."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS\nIONS   \n \nCondition 24491 will be revised as follows:  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  91 November 3 , 2015  Application 20977 (November 2009)  \nModified by Application 22169 (September 2010) .  Added S-1553 and deleted Part 3.  \n \nS-1550   Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1550 \nSCR  \nS-1551   Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1551 \nSCR  \nS-1553   Backup Steam Boiler #3, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1553 \nSCR  \n \n1. The owner/operator shall ensure that S -1550 , and S-1551 and S -1553 are fired \nexclusively on natural gas at a rate not to exceed 99 MMBtu/hr each.  (Basis: Cumulative \nIncrease, Offsets, Toxics, NSPS, BACT)  \n \n2. The owner/operator shall ensure that S -1550 , and S-1551 and S -1553 are on site at the \nrefinery for no more that 6 consecutive months per 12 consecutive month period.  The 6 -\nmonth period for each boiler begins upon the initial firing of the boiler.  (Basis:  BA CT) \n \n3. Deleted.  (Application 22169) The owner/operator shall ensure each boiler S -1550 and S -\n1551 is not operated for more than 2160 hours in any consecutive 12 -month period.   \n(Basis: Cumulative Increase, Offsets, Toxics)  \n \n4. Except for a time period not to ex ceed 24 hours per boiler startup or shutdown, the \nowner/operator shall ensure that S -1550 , and S-1551 and S -1553 are only operated when \nabated by SCRs A -1550 , and A-1551  and A -1553 , respectively.  The total cumulative \nhours that all three boilers can be S-1550 or S -1551 is  operated without SCR abatement \nshall not exceed 192 hours per consecutive 12 -month period.  (Basis: Cumulative \nIncrease, Offsets, Toxics)  \n \n5. The owner/operator shall ensure that S -1550 , and S-1551  and S1553  are not operated \nunless they are e ach equipped with a District approved, fuel flow meter that measures the \ntotal volume of fuel throughput to S -1550 , and S-1551 and S -1553 in units of standard \ncubic feet.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n6. The owner/operator shall ensure that the total fuel fired in S -1550 , and S-1551 and S -\n1553 shall not exceed 4,277,000 therms in any 12 consecutive month period.  (Basis: \nCumulative Increase, Offsets, Toxics)  \n \n7. Except for periods of startup and shutdown as allowed in Part 4, the owner operator shall \nnot operate S -1550 , or S-1551 or S-1553 unless NOx emissions are less than 7 ppmv, dry, \n@ 3% O2.  (Basis: Cumulative Increase, Offsets, BACT)  \n \n8. During for periods of startup and shutdown as allowed in Part 4, the owner operator shall \nnot operate S -1550, or S-1551  or S-1553  unless NOx emissions are less than 30 ppmv, \ndry, @ 3% O2.  (Basis: Cumulative Increase, Offsets)  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  92 November 3 , 2015  9. The owner operator shall not operate S -1550 , or S-1551 or S-1553 unless CO emissions \nare less than 50 ppmv, dry, @ 3% O2.  (Basis: Cumu lative Increase, Offsets, BACT)  \n \n10. Within 10 days of the first fire date, the owner/operator shall conduct a District approved \nsource test of each S -1550 ,  and S-1551  and S -1553 .  The District approved source test \nshall measure the emission rates of NOx, POC , SO2, and PM10, from S -1550 , and S-\n1551  and S -1553  while it is operated at not less than 80 MMBtu/hr.  The owner/operator \nshall ensure that within 45 days of the date of completion of the source testing, two \nidentical copies of the source tests results (e ach referencing permit application #20977 , \n#22168,  and plant #14628) are received by the District.  One copy shall be sent to Source \nTesting and the other shall be sent to the Engineering Division.  This District approved \nsource test shall be repeated with in 5 days of each subsequent boiler startup (or any \noperation without SCR abatement) during the 6 -month period of boiler operation.  (Basis: \nCumulative Increase, Offsets, BACT)  \n \n11. In a District approved log, the owner/operator shall record the manufacturer, make, \nmodel, and maximum rated firing rate of each boiler used as S -1550 , and S-1551  and S -\n1553 , and the following information for each calendar day that either S -1550 , or S-1551 , \nor S-1553  fires fuel.  The District approved log(s) shall be retained by the owner/operator \non site for at least 5 years from the date of the last entry and made available to District \nstaff upon request.  (Basis: Cumulative Increase, Offsets, Toxics, BACT)  \na. The date  and hours that each S -1550 , and S-1551  and S -1553  fire fuel.  \nb. The amount of fuel fired at each S -1550 , and S-1551  and S -1553 . \nc. The hours that each S -1550 , and S-1551  and S -1553  operate without abatement \nby a fully functioning SCR.  \nd. The amount of steam produced at each boiler S -1550 , and S-1551  and S -1553 .PERMIT CONDITIONS\nIONS   \n \nCondition 24491 will be revised as follows:  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  91 November 3 , 2015  Application 20977 (November 2009)  \nModified by Application 22169 (September 2010) .  Added S-1553 and deleted Part 3.  \n \nS-1550   Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1550 \nSCR  \nS-1551   Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1551 \nSCR  \nS-1553   Backup Steam Boiler #3, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1553 \nSCR  \n \n1. The owner/operator shall ensure that S -1550 , and S-1551 and S -1553 are fired \nexclusively on natural gas at a rate not to exceed 99 MMBtu/hr each.  (Basis: Cumulative \nIncrease, Offsets, Toxics, NSPS, BACT)  \n \n2. The owner/operator shall ensure that S -1550 , and S-1551 and S -1553 are on site at the \nrefinery for no more that 6 consecutive months per 12 consecutive month period.  The 6 -\nmonth period for each boiler begins upon the initial firing of the boiler.  (Basis:  BA CT) \n \n3. Deleted.  (Application 22169) The owner/operator shall ensure each boiler S -1550 and S -\n1551 is not operated for more than 2160 hours in any consecutive 12 -month period.   \n(Basis: Cumulative Increase, Offsets, Toxics)  \n \n4. Except for a time period not to ex ceed 24 hours per boiler startup or shutdown, the \nowner/operator shall ensure that S -1550 , and S-1551 and S -1553 are only operated when \nabated by SCRs A -1550 , and A-1551  and A -1553 , respectively.  The total cumulative \nhours that all three boilers can be S-1550 or S -1551 is  operated without SCR abatement \nshall not exceed 192 hours per consecutive 12 -month period.  (Basis: Cumulative \nIncrease, Offsets, Toxics)  \n \n5. The owner/operator shall ensure that S -1550 , and S-1551  and S1553  are not operated \nunless they are e ach equipped with a District approved, fuel flow meter that measures the \ntotal volume of fuel throughput to S -1550 , and S-1551 and S -1553 in units of standard \ncubic feet.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n6. The owner/operator shall ensure that the total fuel fired in S -1550 , and S-1551 and S -\n1553 shall not exceed 4,277,000 therms in any 12 consecutive month period.  (Basis: \nCumulative Increase, Offsets, Toxics)  \n \n7. Except for periods of startup and shutdown as allowed in Part 4, the owner operator shall \nnot operate S -1550 , or S-1551 or S-1553 unless NOx emissions are less than 7 ppmv, dry, \n@ 3% O2.  (Basis: Cumulative Increase, Offsets, BACT)  \n \n8. During for periods of startup and shutdown as allowed in Part 4, the owner operator shall \nnot operate S -1550, or S-1551  or S-1553  unless NOx emissions are less than 30 ppmv, \ndry, @ 3% O2.  (Basis: Cumulative Increase, Offsets)  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  92 November 3 , 2015  9. The owner operator shall not operate S -1550 , or S-1551 or S-1553 unless CO emissions \nare less than 50 ppmv, dry, @ 3% O2.  (Basis: Cumu lative Increase, Offsets, BACT)  \n \n10. Within 10 days of the first fire date, the owner/operator shall conduct a District approved \nsource test of each S -1550 ,  and S-1551  and S -1553 .  The District approved source test \nshall measure the emission rates of NOx, POC , SO2, and PM10, from S -1550 , and S-\n1551  and S -1553  while it is operated at not less than 80 MMBtu/hr.  The owner/operator \nshall ensure that within 45 days of the date of completion of the source testing, two \nidentical copies of the source tests results (e ach referencing permit application #20977 , \n#22168,  and plant #14628) are received by the District.  One copy shall be sent to Source \nTesting and the other shall be sent to the Engineering Division.  This District approved \nsource test shall be repeated with in 5 days of each subsequent boiler startup (or any \noperation without SCR abatement) during the 6 -month period of boiler operation.  (Basis: \nCumulative Increase, Offsets, BACT)  \n \n11. In a District approved log, the owner/operator shall record the manufacturer, make, \nmodel, and maximum rated firing rate of each boiler used as S -1550 , and S-1551  and S -\n1553 , and the following information for each calendar day that either S -1550 , or S-1551 , \nor S-1553  fires fuel.  The District approved log(s) shall be retained by the owner/operator \non site for at least 5 years from the date of the last entry and made available to District \nstaff upon request.  (Basis: Cumulative Increase, Offsets, Toxics, BACT)  \na. The date  and hours that each S -1550 , and S-1551  and S -1553  fire fuel.  \nb. The amount of fuel fired at each S -1550 , and S-1551  and S -1553 . \nc. The hours that each S -1550 , and S-1551  and S -1553  operate without abatement \nby a fully functioning SCR.  \nd. The amount of steam produced at each boiler S -1550 , and S-1551  and S -1553 ."
+  },
+  "permit_conditions": {
+    "condition_number": 24491,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator shall ensure that S -1550 , and S-1551 and S -1553 are fired \nexclusively on natural gas at a rate not to exceed 99 MMBtu/hr each.  (",
+        "basis": [
+          "Cumulative \nIncrease",
+          "Offsets",
+          "Toxics",
+          "NSPS",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall ensure that S -1550 , and S-1551 and S -1553 are on site at the \nrefinery for no more that 6 consecutive months per 12 consecutive month period.  The 6 -\nmonth period for each boiler begins upon the initial firing of the boiler.  (",
+        "basis": [
+          "BA CT)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "Deleted.  (Application 22169) The owner/operator shall ensure each boiler S -1550 and S -\n1551 is not operated for more than 2160 hours in any consecutive 12 -month period.   \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "Except for a time period not to ex ceed 24 hours per boiler startup or shutdown, the \nowner/operator shall ensure that S -1550 , and S-1551 and S -1553 are only operated when \nabated by SCRs A -1550 , and A-1551  and A -1553 , respectively.  The total cumulative \nhours that all three boilers can be S-1550 or S -1551 is  operated without SCR abatement \nshall not exceed 192 hours per consecutive 12 -month period.  (",
+        "basis": [
+          "Cumulative \nIncrease",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "The owner/operator shall ensure that S -1550 , and S-1551  and S1553  are not operated \nunless they are e ach equipped with a District approved, fuel flow meter that measures the \ntotal volume of fuel throughput to S -1550 , and S-1551 and S -1553 in units of standard \ncubic feet.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "The owner/operator shall ensure that the total fuel fired in S -1550 , and S-1551 and S -\n1553 shall not exceed 4,277,000 therms in any 12 consecutive month period.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 7,
+        "text": "Except for periods of startup and shutdown as allowed in Part 4, the owner operator shall \nnot operate S -1550 , or S-1551 or S-1553 unless NOx emissions are less than 7 ppmv, dry, \n@ 3% O2.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 8,
+        "text": "During for periods of startup and shutdown as allowed in Part 4, the owner operator shall \nnot operate S -1550, or S-1551  or S-1553  unless NOx emissions are less than 30 ppmv, \ndry, @ 3% O2.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759",
+          "Tesoro Refining & Marke ting Company",
+          "LLC",
+          "Golden Eagle Refinery",
+          "150 Solano Way",
+          "Martinez",
+          "CA  94553  \n    \nProposed Rev 5 Statement of Basis  92 November 3",
+          "2015  9. The owner operator shall not operate S -1550",
+          "or S-1551 or S-1553 unless CO emissions \nare less than 50 ppmv",
+          "dry",
+          "@ 3% O2.  (Basis: Cumu lative Increase",
+          "Offsets",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 10,
+        "text": "Within 10 days of the first fire date, the owner/operator shall conduct a District approved \nsource test of each S -1550 ,  and S-1551  and S -1553 .  The District approved source test \nshall measure the emission rates of NOx, POC , SO2, and PM10, from S -1550 , and S-\n1551  and S -1553  while it is operated at not less than 80 MMBtu/hr.  The owner/operator \nshall ensure that within 45 days of the date of completion of the source testing, two \nidentical copies of the source tests results (e ach referencing permit application #20977 , \n#22168,  and plant #14628) are received by the District.  One copy shall be sent to Source \nTesting and the other shall be sent to the Engineering Division.  This District approved \nsource test shall be repeated with in 5 days of each subsequent boiler startup (or any \noperation without SCR abatement) during the 6 -month period of boiler operation.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 11,
+        "text": "In a District approved log, the owner/operator shall record the manufacturer, make, \nmodel, and maximum rated firing rate of each boiler used as S -1550 , and S-1551  and S -\n1553 , and the following information for each calendar day that either S -1550 , or S-1551 , \nor S-1553  fires fuel.  The District approved log(s) shall be retained by the owner/operator \non site for at least 5 years from the date of the last entry and made available to District \nstaff upon request.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics",
+          "BACT)  \na. The date  and hours that each S -1550",
+          "and S-1551  and S -1553  fire fuel.  \nb. The amount of fuel fired at each S -1550",
+          "and S-1551  and S -1553 . \nc. The hours that each S -1550",
+          "and S-1551  and S -1553  operate without abatement \nby a fully functioning SCR.  \nd. The amount of steam produced at each boiler S -1550",
+          "and S-1551  and S -1553 .PERMIT CONDITIONS\nIONS   \n \nCondition 24491 will be revised as follows:  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759",
+          "Tesoro Refining & Marke ting Company",
+          "LLC",
+          "Golden Eagle Refinery",
+          "150 Solano Way",
+          "Martinez",
+          "CA  94553  \n    \nProposed Rev 5 Statement of Basis  91 November 3",
+          "2015  Application 20977 (November 2009)  \nModified by Application 22169 (September 2010) .  Added S-1553 and deleted Part 3.  \n \nS-1550   Backup Steam Boiler #1",
+          "99 MM Btu/hr",
+          "Natural Gas Fired",
+          "Abated by A -1550 \nSCR  \nS-1551   Backup Steam Boiler #2",
+          "99 MM Btu/hr",
+          "Natural Gas Fired",
+          "Abated by A -1551 \nSCR  \nS-1553   Backup Steam Boiler #3",
+          "99 MM Btu/hr",
+          "Natural Gas Fired",
+          "Abated by A -1553 \nSCR"
+        ]
+      },
+      {
+        "num": 1,
+        "text": "The owner/operator shall ensure that S -1550 , and S-1551 and S -1553 are fired \nexclusively on natural gas at a rate not to exceed 99 MMBtu/hr each.  (",
+        "basis": [
+          "Cumulative \nIncrease",
+          "Offsets",
+          "Toxics",
+          "NSPS",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall ensure that S -1550 , and S-1551 and S -1553 are on site at the \nrefinery for no more that 6 consecutive months per 12 consecutive month period.  The 6 -\nmonth period for each boiler begins upon the initial firing of the boiler.  (",
+        "basis": [
+          "BA CT)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "Deleted.  (Application 22169) The owner/operator shall ensure each boiler S -1550 and S -\n1551 is not operated for more than 2160 hours in any consecutive 12 -month period.   \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "Except for a time period not to ex ceed 24 hours per boiler startup or shutdown, the \nowner/operator shall ensure that S -1550 , and S-1551 and S -1553 are only operated when \nabated by SCRs A -1550 , and A-1551  and A -1553 , respectively.  The total cumulative \nhours that all three boilers can be S-1550 or S -1551 is  operated without SCR abatement \nshall not exceed 192 hours per consecutive 12 -month period.  (",
+        "basis": [
+          "Cumulative \nIncrease",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "The owner/operator shall ensure that S -1550 , and S-1551  and S1553  are not operated \nunless they are e ach equipped with a District approved, fuel flow meter that measures the \ntotal volume of fuel throughput to S -1550 , and S-1551 and S -1553 in units of standard \ncubic feet.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "The owner/operator shall ensure that the total fuel fired in S -1550 , and S-1551 and S -\n1553 shall not exceed 4,277,000 therms in any 12 consecutive month period.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 7,
+        "text": "Except for periods of startup and shutdown as allowed in Part 4, the owner operator shall \nnot operate S -1550 , or S-1551 or S-1553 unless NOx emissions are less than 7 ppmv, dry, \n@ 3% O2.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 8,
+        "text": "During for periods of startup and shutdown as allowed in Part 4, the owner operator shall \nnot operate S -1550, or S-1551  or S-1553  unless NOx emissions are less than 30 ppmv, \ndry, @ 3% O2.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759",
+          "Tesoro Refining & Marke ting Company",
+          "LLC",
+          "Golden Eagle Refinery",
+          "150 Solano Way",
+          "Martinez",
+          "CA  94553  \n    \nProposed Rev 5 Statement of Basis  92 November 3",
+          "2015  9. The owner operator shall not operate S -1550",
+          "or S-1551 or S-1553 unless CO emissions \nare less than 50 ppmv",
+          "dry",
+          "@ 3% O2.  (Basis: Cumu lative Increase",
+          "Offsets",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 10,
+        "text": "Within 10 days of the first fire date, the owner/operator shall conduct a District approved \nsource test of each S -1550 ,  and S-1551  and S -1553 .  The District approved source test \nshall measure the emission rates of NOx, POC , SO2, and PM10, from S -1550 , and S-\n1551  and S -1553  while it is operated at not less than 80 MMBtu/hr.  The owner/operator \nshall ensure that within 45 days of the date of completion of the source testing, two \nidentical copies of the source tests results (e ach referencing permit application #20977 , \n#22168,  and plant #14628) are received by the District.  One copy shall be sent to Source \nTesting and the other shall be sent to the Engineering Division.  This District approved \nsource test shall be repeated with in 5 days of each subsequent boiler startup (or any \noperation without SCR abatement) during the 6 -month period of boiler operation.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 11,
+        "text": "In a District approved log, the owner/operator shall record the manufacturer, make, \nmodel, and maximum rated firing rate of each boiler used as S -1550 , and S-1551  and S -\n1553 , and the following information for each calendar day that either S -1550 , or S-1551 , \nor S-1553  fires fuel.  The District approved log(s) shall be retained by the owner/operator \non site for at least 5 years from the date of the last entry and made available to District \nstaff upon request.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics",
+          "BACT)  \na. The date  and hours that each S -1550",
+          "and S-1551  and S -1553  fire fuel.  \nb. The amount of fuel fired at each S -1550",
+          "and S-1551  and S -1553 . \nc. The hours that each S -1550",
+          "and S-1551  and S -1553  operate without abatement \nby a fully functioning SCR.  \nd. The amount of steam produced at each boiler S -1550",
+          "and S-1551  and S -1553 ."
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nTION  \nWaive an Authority to Construct and grant a Permit to Operate to Tesoro Refining and Marketing Company for the \nfollowing source:  \n \n S-1553  Backup Steam Boiler #3, 99 MM Btu/hr, Natural Gas Fired, Abated byRECOMMENDATION\nTION  \nWaive an Authority to Construct and grant a Permit to Operate to Tesoro Refining and Marketing Company for the \nfollowing source:  \n \n S-1553  Backup Steam Boiler #3, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1553 SCR  \n \nEXEMPTIONS  \nnone  \n \n \n \nBy:  \n Arthur P Valla  \n Senior Air Quality Engineer  \nSeptember 16, 2010"
+  },
+  "raw_sections": {
+    "preamble": "Permit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  86 November 3 , 2015  Application 22169, S -1553 Backup Boiler",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nTION  \nTesoro Refining and Marketing Company"
+      },
+      {
+        "heading": "PLANT NO. 14628",
+        "alias": null,
+        "text": "PLANT NO. 14628"
+      },
+      {
+        "heading": "APPLICATION NO.  22169",
+        "alias": null,
+        "text": "APPLICATION NO.  22169"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nThe Tesoro Refining and Marketing Company (Tesoro) is applying for an Authority to Construct \nand/or Permit to Operate the following equipment:  \n \n S-1553  Backup Steam Boiler #3, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+      },
+      {
+        "heading": "A-1553 SCR",
+        "alias": null,
+        "text": "A-1553 SCR\nThis is a third backup boiler.  The other two boilers were permitted via Application 20977:  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+      },
+      {
+        "heading": "A-1550 SCR",
+        "alias": null,
+        "text": "A-1550 SCR\nS-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+      },
+      {
+        "heading": "A-1551 SCR",
+        "alias": null,
+        "text": "A-1551 SCR\nThese Backup Boilers are needed to ensure adequate steam supply for the refinery when existing \nboilers S -901 and S -904 are removed from service for turnaround/maintenance.  The third \nboiler S -1553 will be a new source, but emissions will not change for all three boilers by \nkeeping the curre nt firing limits and time allowed for unabated operation in Condition \n24491 -4 and 24491 -6: \n \n4.  Except for a time period not to exceed 24 hours per boiler startup or shutdown, the \nowner/operator shall ensure that S -1550 , and S-1551 and S -1553 are only oper ated when \nabated by SCRs A -1550 , and A-1551  and A -1553 , respectively.  The total cumulative \nhours that S-1550  or S-1551 all three boilers  can be  is operated without SCR abatement \nshall not exceed 192 hours per consecutive 12 -month period.  (Basis: Cumulativ e \nIncrease, Offsets, Toxics)  \n \n6.  The owner/operator shall ensure that the total fuel fired in S -1550 , and S-1551  and S -1553  \nshall not exceed 4,277,000 therms in any 12 consecutive month period.  (Basis: \nCumulative Increase, Offsets, Toxics)  \n   \nBy using this permitting rationale, the application qualifies for the Accelerated Permitting \nProgram and the Temporary Permit to Operate was granted August 3, 2010.  \n \nIn addition, Tesoro has requested that Condition 24491 -3 be deleted.  The time limit can be an \noperating problem and emissions are effectively capped by conditions 24491 -4 and 24491 -\n6. \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  87 November 3 , 2015  3.  The owner/operator shall ensure each boiler S -1550 and S -1551 is not operated for more \nthan 2160 hours in any consecutive 12 -month period.   (Basis: Cumulative Incre ase, \nOffsets, Toxics)"
+      },
+      {
+        "heading": "EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSION CALCULATIONS\nIONS  \n \nEmission Factors  \n \nThe following emissions factors are used to calculate emissions from Backup Boiler S -1553, which are the same as \nBoilers S -1550 an S -1551.  \n \nNOx:   7 ppm @ 3% O2 when abated by SCR (BACT)  \n 30 ppm @ 3% O2 without SCR operation (192 hrs/yr per boiler)  \nCO: 50 ppm @ 3% O2 (BACT)  \nPM10  7.45E -3 lb/MMBtu  \nVOC  5.39E -3 lb/MMBtu (assume to be all POC)  \nSO2 5.88E -4 lb/MMBtu  \nEmission factors for PM10, POC, and SO2 are from Chapter 1, Table 1.4 -2 of the EPA Do cument AP -42, \nCompilation of Air Pollutant Emission Factors (lb/106scf / 1020).  \n \nExhaust flow:  (8710 dscf/MMBtu)*(20.95/(20.95 -3))=10165.7 dscf/MMBtu at 3% O2  \n \nAt atmospheric pressure and low temperatures, the ideal gas law will provide the necessary calc ulation accuracy:  \nn = PV/RT = (1atm*10165.7 dscf/MMBtu) /((0.7302 atm -cf/lb-mol R)*(68 + 460 R))  \n= 26.367 lb -mol/MMBtu  \n \nNOx w/ SCR:  26.367 lb -mol/MMBtu(7 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.00849 lb/MMBtu  \nNOx w/o SCR:  26.367 lb -mol/MMBtu(30 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.0364 lb/MMBtu  \nCO:  26.367 lb -mol/MMBtu(50 lb -mol NOx/1E6 lb -mol)(28 lb CO/lb -mol CO)  \n= 0.0369 lb/MMBtu  \n \nAnnual Emissions:  \n \nEmissions from S -1553 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu /hr)(0.00849 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = 0.827 \ntons \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO   =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 tons  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2   =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nHowever, as e xplained above, the total annual fuel throughput for all three boilers will not change, so there will not \nbe any emissions increase (any emissions from S -1553 will cause a reduction in emissions from the other boilers S -\n1550 and S -1551).  \n \n \nCumulative Incre ase: \n \nThere is no cumulative increase in emissions.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  88 November 3 , 2015   \nMaximum Daily Emissions:  \n \nNOx (SCR)   =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(24 hrs) = 20.1 lb  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(24 hrs) = 86 lb  \nCO   =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(24 hrs) = 88 lb  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(24 hrs) = 17.7 lb  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(24 hrs) = 12.8 lb  \nSO2   =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(24 hrs) = 1.4 lb  \n \n \n \n \n \nToxic Risk S creening  \n \n \nThe following toxic emissions were calculated for each boiler.  \n \nTAC  Emission Factor \n(lb/mmscf)  Emission Factor \n(lb/MMBtu\n) Emissions \n(lb/hr)  Emissions \n(lb/yr)  \nBenzene  2.10E -03 2.1E-06 2.1E-04 4.5E-01 \nDichlorobenzene  6.00E -07 6.0E-10 5.9E-08 1.3E-04 \nFormaldehyde  7.50E -02 7.5E-05 7.4E-03 1.6E+01  \nHexane  1.80E00  1.8E-03 1.8E-01 3.8E+02  \nNaphthalene  6.10E -04 6.10E -07 6.0E-05 1.3E-01 \nToluene  3.40E -03 3.4E-06 3.4E-04 7.3E-01"
+      },
+      {
+        "heading": "PAH  2.45E -05 2.45E -08 7.0E -06",
+        "alias": null,
+        "text": "PAH  2.45E -05 2.45E -08 7.0E -06\n1.5E -02 \n \n \nHowever, since the toxic emissions are based on boiler firing duty, and the overall annual duty of \nthe three boilers will not change, the overall toxic emissions will not change, and a risk \nscreen is not required.  The risk screen conducted for the first two boilers showed the \nproject risk is considered acceptable with a Maximum Cancer Risk of 0.004 in a million, \nthe chronic hazard index of 0.00008 and the acute hazard index of 0.003."
+      },
+      {
+        "heading": "BEST AVAILABLE CONTROL TECHNOLOGY",
+        "alias": "BACT",
+        "text": "BEST AVAILABLE CONTROL TECHNOLOGY\nGY   \n \nIn accordance with Regulation 2, Rule 2, Section 301, BACT i s triggered for any new or \nmodified source with the potential to emit 10 pounds or more per highest day of POC, \nNPOC, NOx, CO, SO 2 or PM 10.  Emissions from S -1553 trigger BACT for the following \npollutants:  NOx, CO, PM10, and POC.   \n \nA BACT Determination f or these backup boilers was made in Application 20977. The Achieved \nin Practice BACT for these Backup Boilers was determined as follows:  \n \nNOx:  7 ppm @ 3% O2  \nCO: 50 ppm @ 3% O2  \nPOC emissions comply with BACT when Good Combustion Practices are followed.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  89 November 3 , 2015  PM10  emissions comply with BACT by the use of Natural Gas Fuel."
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nTS    \n \nThere are no increase in annual emissions due to this application, so Offsets are not required.  A summary of the \noffsets for Application 20977 follows:  \n \nDescription  NOx (tons)  POC (tons)  \nS-1550 Emissions  1.173  0.576  \nS-1551 Emissions  1.173  0.576  \nTotal Emissions     2.346     1.152  \nAdjusted for Offset Ratio of 1.15  2.698  1.325  \nReturn of S -1494 &  S-1495 credits when taken out of service \nvia Application 7642  -1.208  -0.101  \nOffset Requirements  1.490  1.224  \nOffset via Bank 968  -1.490  -1.224  \nThe total POC offsets from Bank 968 are 2.714 tons."
+      },
+      {
+        "heading": "NSPS",
+        "alias": null,
+        "text": "NSPS\nNSPS    \n \nS-1553 is not Subject to  NSPS Subpart Ja because it is not a Fuel Gas Combustion Devices (natural gas is excluded \nfrom the definition of Fuel Gas in 40 CFR 60.101a unless it is commingled with refinery fuel gas).  \n \nS-1553 is not Subject to NSPS Subpart Db (Standards of Performance  for Industrial -Commercial -Institutional Steam \nGenerating Units) because the firing rate is less than 100 MMBtu/hr.  The Backup Boilers is subject to NSPS \nSubpart Dc because the boiler firing rate is greater than 10 MMBtu/hr and less than 100 MMBtu/hr.  Em ission \nStandards in Subpart Dc do not apply to S -1553 because the boiler is only fired on Natural Gas.  S -1553 is only \nsubject to the notification and recordkeeping requirements of 40 CFR 60.48c.  \n \nNESHAPs and MACT  \n \nS-1553 is not subject to NESHAPs and MACT  because they are fired exclusively on Natural Gas \nand are not used as a control device of any HAPs emissions."
+      },
+      {
+        "heading": "PREVENTION OF SIGNIFICANT DETERIORATION (PSD)",
+        "alias": "PSD",
+        "text": "PREVENTION OF SIGNIFICANT DETERIORATION (PSD)\nD)  \n \nThe Tesoro facility is an existing major stationary source.  To determine the applicability of PSD, 40 CFR \n52.21(b)(2)(i) requires a two -step evaluation.  The first step is to determine if the project will result in a significant \nemissions increase.  The second step it to determine if the project will result in a significant net emissions increase.  \nBoth steps need to result in emissions that exceed significance levels for PSD to apply.  \n \nThe emissions increases need to be determined and compared to the following significance levels \n[40CFR52.21(b)(23)(i)]:  \nCarbon monoxide: 100 tons per year (tpy)  \nNitrogen oxides: 40 tpy  \nSulfur dioxide: 40 tpy  \nParticulate matter: 25 tpy of particulate matter emissions  \nPM10: 15 tpy  \nPM2.5: 10 tpy of direct PM2.5emissions; 40 tpy of sulfur dioxide emissions; 40 tpy of nitrogen oxide \nemissions unless demonstrated not to be a PM2.5precursor under paragraph (b)(50) of this section  \nOzone: 40 tpy of volatile organic compounds or nitrogen oxides  \nSulfuric acid mist: 7 tpy  \nHydrogen sulfide (H2S): 10 tpy  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  90 November 3 , 2015  Total reduced sulfur (including H2S): 10 tpy  \nReduced sulfur compounds (includin g H2S): 10 tpy  \n \nThe ‘project’ for this application is to install backup boilers to provide process steam while the Main Boilers are \nshutdown.  The baseline actual emissions for steam production would decrease since the backup boilers, rated at 99 \nMMBtu/hr each, are operating while one of the main boilers are shutdown (S -901 @ 668MM Btu/hr and S -904 @ \n775 MM Btu/hr).  Even if all three backup boilers are fired a full rate, the 3x99 = 297 MMBtu/hr duty would be less \nthan half the duty on the shutdown boiler.  Consequently, the net emissions change would be a reduction.  Therefore, \nPSD does not apply."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE  \n \nThe owner/operator of S-1553 Backup Boiler shall comply with Regulation 6, Rule 1 (Particulate \nMatter General Requirements).  The owner/operator is expected to comply with Regulation \n6 since the unit is only fueled with natural gas.  Thus for any period aggregating more than \nthree minutes in any hour, there should be no visible emission as dark or darker than No. 1 \non the Ringlemann Chart (Regulation 6 -1-301) and no visible emission to exceed 20% \nopacity (Regulation 6 -1-302).   \n \nThe owner/operator of S -1553 Backup Boiler shall c omply with Reg. 9 -1-301 (Inorganic \nGaseous Pollutants:  Sulfur Dioxide for Limitations on Ground Level Concentrations).  \n \nThe owner/operator is not subject to Regulation 9 Rule 7:  Nitrogen Oxides and Carbon \nMonoxide from Industrial, Institutional, and Comm ercial Boilers, Steam Generators, and \nProcess Heaters as per Regulation 9 -7-110.3 since S -1553 will be operated at the Tesoro \nRefinery.   \n \nThe owner/operator is not subject to Regulation 9 Rule 10:  Nitrogen Oxides and Carbon \nMonoxide from Boilers, Steam G enerators, and Process Heaters in Petroleum Refineries \nbecause S -1553 is not a “Unit” as defined by Regulation 9 -10-220.  S -1553 did not have an \nAuthority to Construct or Permit to Operate prior to January 5, 2004.   \n \nThe owner/operator is subject to Regul ation 8, Rule 18.  The natural gas fuel lines and \ncomponents will be constructed in accordance with the requirements of the 8 -18 standards \nand added to the facility fugitive emissions monitoring program.  \n \nThe project is considered to be ministerial under t he District's CEQA regulation 2 -1-311 and therefore is not subject \nto CEQA review.   \n \nThe project is over 1000 feet from the nearest school and therefore not subject to the public notification \nrequirements of Reg. 2 -1-412. \n \nThe owner/operator of S -1553 Backup Boiler shall comply with BACT and NSPS.  \n \nOffsets, Toxics, PSD and NESHAPS do not apply."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nIONS   \n \nCondition 24491 will be revised as follows:  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  91 November 3 , 2015  Application 20977 (November 2009)  \nModified by Application 22169 (September 2010) .  Added S-1553 and deleted Part 3.  \n \nS-1550   Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1550 \nSCR  \nS-1551   Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1551 \nSCR  \nS-1553   Backup Steam Boiler #3, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1553 \nSCR  \n \n1. The owner/operator shall ensure that S -1550 , and S-1551 and S -1553 are fired \nexclusively on natural gas at a rate not to exceed 99 MMBtu/hr each.  (Basis: Cumulative \nIncrease, Offsets, Toxics, NSPS, BACT)  \n \n2. The owner/operator shall ensure that S -1550 , and S-1551 and S -1553 are on site at the \nrefinery for no more that 6 consecutive months per 12 consecutive month period.  The 6 -\nmonth period for each boiler begins upon the initial firing of the boiler.  (Basis:  BA CT) \n \n3. Deleted.  (Application 22169) The owner/operator shall ensure each boiler S -1550 and S -\n1551 is not operated for more than 2160 hours in any consecutive 12 -month period.   \n(Basis: Cumulative Increase, Offsets, Toxics)  \n \n4. Except for a time period not to ex ceed 24 hours per boiler startup or shutdown, the \nowner/operator shall ensure that S -1550 , and S-1551 and S -1553 are only operated when \nabated by SCRs A -1550 , and A-1551  and A -1553 , respectively.  The total cumulative \nhours that all three boilers can be S-1550 or S -1551 is  operated without SCR abatement \nshall not exceed 192 hours per consecutive 12 -month period.  (Basis: Cumulative \nIncrease, Offsets, Toxics)  \n \n5. The owner/operator shall ensure that S -1550 , and S-1551  and S1553  are not operated \nunless they are e ach equipped with a District approved, fuel flow meter that measures the \ntotal volume of fuel throughput to S -1550 , and S-1551 and S -1553 in units of standard \ncubic feet.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n6. The owner/operator shall ensure that the total fuel fired in S -1550 , and S-1551 and S -\n1553 shall not exceed 4,277,000 therms in any 12 consecutive month period.  (Basis: \nCumulative Increase, Offsets, Toxics)  \n \n7. Except for periods of startup and shutdown as allowed in Part 4, the owner operator shall \nnot operate S -1550 , or S-1551 or S-1553 unless NOx emissions are less than 7 ppmv, dry, \n@ 3% O2.  (Basis: Cumulative Increase, Offsets, BACT)  \n \n8. During for periods of startup and shutdown as allowed in Part 4, the owner operator shall \nnot operate S -1550, or S-1551  or S-1553  unless NOx emissions are less than 30 ppmv, \ndry, @ 3% O2.  (Basis: Cumulative Increase, Offsets)  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  92 November 3 , 2015  9. The owner operator shall not operate S -1550 , or S-1551 or S-1553 unless CO emissions \nare less than 50 ppmv, dry, @ 3% O2.  (Basis: Cumu lative Increase, Offsets, BACT)  \n \n10. Within 10 days of the first fire date, the owner/operator shall conduct a District approved \nsource test of each S -1550 ,  and S-1551  and S -1553 .  The District approved source test \nshall measure the emission rates of NOx, POC , SO2, and PM10, from S -1550 , and S-\n1551  and S -1553  while it is operated at not less than 80 MMBtu/hr.  The owner/operator \nshall ensure that within 45 days of the date of completion of the source testing, two \nidentical copies of the source tests results (e ach referencing permit application #20977 , \n#22168,  and plant #14628) are received by the District.  One copy shall be sent to Source \nTesting and the other shall be sent to the Engineering Division.  This District approved \nsource test shall be repeated with in 5 days of each subsequent boiler startup (or any \noperation without SCR abatement) during the 6 -month period of boiler operation.  (Basis: \nCumulative Increase, Offsets, BACT)  \n \n11. In a District approved log, the owner/operator shall record the manufacturer, make, \nmodel, and maximum rated firing rate of each boiler used as S -1550 , and S-1551  and S -\n1553 , and the following information for each calendar day that either S -1550 , or S-1551 , \nor S-1553  fires fuel.  The District approved log(s) shall be retained by the owner/operator \non site for at least 5 years from the date of the last entry and made available to District \nstaff upon request.  (Basis: Cumulative Increase, Offsets, Toxics, BACT)  \na. The date  and hours that each S -1550 , and S-1551  and S -1553  fire fuel.  \nb. The amount of fuel fired at each S -1550 , and S-1551  and S -1553 . \nc. The hours that each S -1550 , and S-1551  and S -1553  operate without abatement \nby a fully functioning SCR.  \nd. The amount of steam produced at each boiler S -1550 , and S-1551  and S -1553 ."
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nTION  \nWaive an Authority to Construct and grant a Permit to Operate to Tesoro Refining and Marketing Company for the \nfollowing source:  \n \n S-1553  Backup Steam Boiler #3, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+      },
+      {
+        "heading": "A-1553 SCR",
+        "alias": null,
+        "text": "A-1553 SCR"
+      },
+      {
+        "heading": "EXEMPTIONS",
+        "alias": null,
+        "text": "EXEMPTIONS"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND  \n \nThe Tesoro Refining and Marketing Company (Tesoro) is applying for an Authority to Construct \nand/or Permit to Operate the following equipment:  \n \n S-1553  Backup Steam Boiler #3, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1553 SCR  \n \nThis is a third backup boiler.  The other two boilers were permitted via Application 20977:  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1550 SCR  \n S-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1551 SCR  \n \nThese Backup Boilers are needed to ensure adequate steam supply for the refinery when existing \nboilers S -901 and S -904 are removed from service for turnaround/maintenance.  The third \nboiler S -1553 will be a new source, but emissions will not change for all three boilers by \nkeeping the curre nt firing limits and time allowed for unabated operation in Condition \n24491 -4 and 24491 -6: \n \n4.  Except for a time period not to exceed 24 hours per boiler startup or shutdown, the \nowner/operator shall ensure that S -1550 , and S-1551 and S -1553 are only oper ated when \nabated by SCRs A -1550 , and A-1551  and A -1553 , respectively.  The total cumulative \nhours that S-1550  or S-1551 all three boilers  can be  is operated without SCR abatement \nshall not exceed 192 hours per consecutive 12 -month period.  (Basis: Cumulativ e \nIncrease, Offsets, Toxics)  \n \n6.  The owner/operator shall ensure that the total fuel fired in S -1550 , and S-1551  and S -1553  \nshall not exceed 4,277,000 therms in any 12 consecutive month period.  (Basis: \nCumulative Increase, Offsets, Toxics)  \n   \nBy using this permitting rationale, the application qualifies for the Accelerated Permitting \nProgram and the Temporary Permit to Operate was granted August 3, 2010.  \n \nIn addition, Tesoro has requested that Condition 24491 -3 be deleted.  The time limit can be an \noperating problem and emissions are effectively capped by conditions 24491 -4 and 24491 -\n6. \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  87 November 3 , 2015  3.  The owner/operator shall ensure each boiler S -1550 and S -1551 is not operated for more \nthan 2160 hours in any consecutive 12 -month period.   (Basis: Cumulative Incre ase, \nOffsets, Toxics)"
+      },
+      {
+        "heading": "EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSION CALCULATIONS\nIONS  \n \nEmission Factors  \n \nThe following emissions factors are used to calculate emissions from Backup Boiler S -1553, which are the same as \nBoilers S -1550 an S -1551.  \n \nNOx:   7 ppm @ 3% O2 when abated by SCR (BACT)  \n 30 ppm @ 3% O2 without SCR operation (192 hrs/yr per boiler)  \nCO: 50 ppm @ 3% O2 (BACT)  \nPM10  7.45E -3 lb/MMBtu  \nVOC  5.39E -3 lb/MMBtu (assume to be all POC)  \nSO2 5.88E -4 lb/MMBtu  \nEmission factors for PM10, POC, and SO2 are from Chapter 1, Table 1.4 -2 of the EPA Do cument AP -42, \nCompilation of Air Pollutant Emission Factors (lb/106scf / 1020).  \n \nExhaust flow:  (8710 dscf/MMBtu)*(20.95/(20.95 -3))=10165.7 dscf/MMBtu at 3% O2  \n \nAt atmospheric pressure and low temperatures, the ideal gas law will provide the necessary calc ulation accuracy:  \nn = PV/RT = (1atm*10165.7 dscf/MMBtu) /((0.7302 atm -cf/lb-mol R)*(68 + 460 R))  \n= 26.367 lb -mol/MMBtu  \n \nNOx w/ SCR:  26.367 lb -mol/MMBtu(7 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.00849 lb/MMBtu  \nNOx w/o SCR:  26.367 lb -mol/MMBtu(30 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.0364 lb/MMBtu  \nCO:  26.367 lb -mol/MMBtu(50 lb -mol NOx/1E6 lb -mol)(28 lb CO/lb -mol CO)  \n= 0.0369 lb/MMBtu  \n \nAnnual Emissions:  \n \nEmissions from S -1553 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu /hr)(0.00849 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = 0.827 \ntons \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO   =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 tons  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2   =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nHowever, as e xplained above, the total annual fuel throughput for all three boilers will not change, so there will not \nbe any emissions increase (any emissions from S -1553 will cause a reduction in emissions from the other boilers S -\n1550 and S -1551).  \n \n \nCumulative Incre ase: \n \nThere is no cumulative increase in emissions.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  88 November 3 , 2015   \nMaximum Daily Emissions:  \n \nNOx (SCR)   =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(24 hrs) = 20.1 lb  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(24 hrs) = 86 lb  \nCO   =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(24 hrs) = 88 lb  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(24 hrs) = 17.7 lb  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(24 hrs) = 12.8 lb  \nSO2   =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(24 hrs) = 1.4 lb  \n \n \n \n \n \nToxic Risk S creening  \n \n \nThe following toxic emissions were calculated for each boiler.  \n \nTAC  Emission Factor \n(lb/mmscf)  Emission Factor \n(lb/MMBtu\n) Emissions \n(lb/hr)  Emissions \n(lb/yr)  \nBenzene  2.10E -03 2.1E-06 2.1E-04 4.5E-01 \nDichlorobenzene  6.00E -07 6.0E-10 5.9E-08 1.3E-04 \nFormaldehyde  7.50E -02 7.5E-05 7.4E-03 1.6E+01  \nHexane  1.80E00  1.8E-03 1.8E-01 3.8E+02  \nNaphthalene  6.10E -04 6.10E -07 6.0E-05 1.3E-01 \nToluene  3.40E -03 3.4E-06 3.4E-04 7.3E-01 \nPAH  2.45E -05 2.45E -08 7.0E -06 \n 1.5E -02 \n \n \nHowever, since the toxic emissions are based on boiler firing duty, and the overall annual duty of \nthe three boilers will not change, the overall toxic emissions will not change, and a risk \nscreen is not required.  The risk screen conducted for the first two boilers showed the \nproject risk is considered acceptable with a Maximum Cancer Risk of 0.004 in a million, \nthe chronic hazard index of 0.00008 and the acute hazard index of 0.003."
+      },
+      {
+        "heading": "BEST AVAILABLE CONTROL TECHNOLOGY",
+        "alias": "BACT",
+        "text": "BEST AVAILABLE CONTROL TECHNOLOGY\nGY   \n \nIn accordance with Regulation 2, Rule 2, Section 301, BACT i s triggered for any new or \nmodified source with the potential to emit 10 pounds or more per highest day of POC, \nNPOC, NOx, CO, SO 2 or PM 10.  Emissions from S -1553 trigger BACT for the following \npollutants:  NOx, CO, PM10, and POC.   \n \nA BACT Determination f or these backup boilers was made in Application 20977. The Achieved \nin Practice BACT for these Backup Boilers was determined as follows:  \n \nNOx:  7 ppm @ 3% O2  \nCO: 50 ppm @ 3% O2  \nPOC emissions comply with BACT when Good Combustion Practices are followed.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  89 November 3 , 2015  PM10  emissions comply with BACT by the use of Natural Gas Fuel."
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nTS    \n \nThere are no increase in annual emissions due to this application, so Offsets are not required.  A summary of the \noffsets for Application 20977 follows:  \n \nDescription  NOx (tons)  POC (tons)  \nS-1550 Emissions  1.173  0.576  \nS-1551 Emissions  1.173  0.576  \nTotal Emissions     2.346     1.152  \nAdjusted for Offset Ratio of 1.15  2.698  1.325  \nReturn of S -1494 &  S-1495 credits when taken out of service \nvia Application 7642  -1.208  -0.101  \nOffset Requirements  1.490  1.224  \nOffset via Bank 968  -1.490  -1.224  \nThe total POC offsets from Bank 968 are 2.714 tons.  \n \n \n \nNSPS    \n \nS-1553 is not Subject to  NSPS Subpart Ja because it is not a Fuel Gas Combustion Devices (natural gas is excluded \nfrom the definition of Fuel Gas in 40 CFR 60.101a unless it is commingled with refinery fuel gas).  \n \nS-1553 is not Subject to NSPS Subpart Db (Standards of Performance  for Industrial -Commercial -Institutional Steam \nGenerating Units) because the firing rate is less than 100 MMBtu/hr.  The Backup Boilers is subject to NSPS \nSubpart Dc because the boiler firing rate is greater than 10 MMBtu/hr and less than 100 MMBtu/hr.  Em ission \nStandards in Subpart Dc do not apply to S -1553 because the boiler is only fired on Natural Gas.  S -1553 is only \nsubject to the notification and recordkeeping requirements of 40 CFR 60.48c.  \n \nNESHAPs and MACT  \n \nS-1553 is not subject to NESHAPs and MACT  because they are fired exclusively on Natural Gas \nand are not used as a control device of any HAPs emissions.   \n \nPREVENTION OF SIGNIFICANT DETERIORATION (PSD)  \n \nThe Tesoro facility is an existing major stationary source.  To determine the applicability of PSD, 40 CFR \n52.21(b)(2)(i) requires a two -step evaluation.  The first step is to determine if the project will result in a significant \nemissions increase.  The second step it to determine if the project will result in a significant net emissions increase.  \nBoth steps need to result in emissions that exceed significance levels for PSD to apply.  \n \nThe emissions increases need to be determined and compared to the following significance levels \n[40CFR52.21(b)(23)(i)]:  \nCarbon monoxide: 100 tons per year (tpy)  \nNitrogen oxides: 40 tpy  \nSulfur dioxide: 40 tpy  \nParticulate matter: 25 tpy of particulate matter emissions  \nPM10: 15 tpy  \nPM2.5: 10 tpy of direct PM2.5emissions; 40 tpy of sulfur dioxide emissions; 40 tpy of nitrogen oxide \nemissions unless demonstrated not to be a PM2.5precursor under paragraph (b)(50) of this section  \nOzone: 40 tpy of volatile organic compounds or nitrogen oxides  \nSulfuric acid mist: 7 tpy  \nHydrogen sulfide (H2S): 10 tpy  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  90 November 3 , 2015  Total reduced sulfur (including H2S): 10 tpy  \nReduced sulfur compounds (includin g H2S): 10 tpy  \n \nThe ‘project’ for this application is to install backup boilers to provide process steam while the Main Boilers are \nshutdown.  The baseline actual emissions for steam production would decrease since the backup boilers, rated at 99 \nMMBtu/hr each, are operating while one of the main boilers are shutdown (S -901 @ 668MM Btu/hr and S -904 @ \n775 MM Btu/hr).  Even if all three backup boilers are fired a full rate, the 3x99 = 297 MMBtu/hr duty would be less \nthan half the duty on the shutdown boiler.  Consequently, the net emissions change would be a reduction.  Therefore, \nPSD does not apply."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE  \n \nThe owner/operator of S-1553 Backup Boiler shall comply with Regulation 6, Rule 1 (Particulate \nMatter General Requirements).  The owner/operator is expected to comply with Regulation \n6 since the unit is only fueled with natural gas.  Thus for any period aggregating more than \nthree minutes in any hour, there should be no visible emission as dark or darker than No. 1 \non the Ringlemann Chart (Regulation 6 -1-301) and no visible emission to exceed 20% \nopacity (Regulation 6 -1-302).   \n \nThe owner/operator of S -1553 Backup Boiler shall c omply with Reg. 9 -1-301 (Inorganic \nGaseous Pollutants:  Sulfur Dioxide for Limitations on Ground Level Concentrations).  \n \nThe owner/operator is not subject to Regulation 9 Rule 7:  Nitrogen Oxides and Carbon \nMonoxide from Industrial, Institutional, and Comm ercial Boilers, Steam Generators, and \nProcess Heaters as per Regulation 9 -7-110.3 since S -1553 will be operated at the Tesoro \nRefinery.   \n \nThe owner/operator is not subject to Regulation 9 Rule 10:  Nitrogen Oxides and Carbon \nMonoxide from Boilers, Steam G enerators, and Process Heaters in Petroleum Refineries \nbecause S -1553 is not a “Unit” as defined by Regulation 9 -10-220.  S -1553 did not have an \nAuthority to Construct or Permit to Operate prior to January 5, 2004.   \n \nThe owner/operator is subject to Regul ation 8, Rule 18.  The natural gas fuel lines and \ncomponents will be constructed in accordance with the requirements of the 8 -18 standards \nand added to the facility fugitive emissions monitoring program.  \n \nThe project is considered to be ministerial under t he District's CEQA regulation 2 -1-311 and therefore is not subject \nto CEQA review.   \n \nThe project is over 1000 feet from the nearest school and therefore not subject to the public notification \nrequirements of Reg. 2 -1-412. \n \nThe owner/operator of S -1553 Backup Boiler shall comply with BACT and NSPS.  \n \nOffsets, Toxics, PSD and NESHAPS do not apply."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nIONS   \n \nCondition 24491 will be revised as follows:  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  91 November 3 , 2015  Application 20977 (November 2009)  \nModified by Application 22169 (September 2010) .  Added S-1553 and deleted Part 3.  \n \nS-1550   Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1550 \nSCR  \nS-1551   Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1551 \nSCR  \nS-1553   Backup Steam Boiler #3, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1553 \nSCR  \n \n1. The owner/operator shall ensure that S -1550 , and S-1551 and S -1553 are fired \nexclusively on natural gas at a rate not to exceed 99 MMBtu/hr each.  (Basis: Cumulative \nIncrease, Offsets, Toxics, NSPS, BACT)  \n \n2. The owner/operator shall ensure that S -1550 , and S-1551 and S -1553 are on site at the \nrefinery for no more that 6 consecutive months per 12 consecutive month period.  The 6 -\nmonth period for each boiler begins upon the initial firing of the boiler.  (Basis:  BA CT) \n \n3. Deleted.  (Application 22169) The owner/operator shall ensure each boiler S -1550 and S -\n1551 is not operated for more than 2160 hours in any consecutive 12 -month period.   \n(Basis: Cumulative Increase, Offsets, Toxics)  \n \n4. Except for a time period not to ex ceed 24 hours per boiler startup or shutdown, the \nowner/operator shall ensure that S -1550 , and S-1551 and S -1553 are only operated when \nabated by SCRs A -1550 , and A-1551  and A -1553 , respectively.  The total cumulative \nhours that all three boilers can be S-1550 or S -1551 is  operated without SCR abatement \nshall not exceed 192 hours per consecutive 12 -month period.  (Basis: Cumulative \nIncrease, Offsets, Toxics)  \n \n5. The owner/operator shall ensure that S -1550 , and S-1551  and S1553  are not operated \nunless they are e ach equipped with a District approved, fuel flow meter that measures the \ntotal volume of fuel throughput to S -1550 , and S-1551 and S -1553 in units of standard \ncubic feet.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n6. The owner/operator shall ensure that the total fuel fired in S -1550 , and S-1551 and S -\n1553 shall not exceed 4,277,000 therms in any 12 consecutive month period.  (Basis: \nCumulative Increase, Offsets, Toxics)  \n \n7. Except for periods of startup and shutdown as allowed in Part 4, the owner operator shall \nnot operate S -1550 , or S-1551 or S-1553 unless NOx emissions are less than 7 ppmv, dry, \n@ 3% O2.  (Basis: Cumulative Increase, Offsets, BACT)  \n \n8. During for periods of startup and shutdown as allowed in Part 4, the owner operator shall \nnot operate S -1550, or S-1551  or S-1553  unless NOx emissions are less than 30 ppmv, \ndry, @ 3% O2.  (Basis: Cumulative Increase, Offsets)  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  92 November 3 , 2015  9. The owner operator shall not operate S -1550 , or S-1551 or S-1553 unless CO emissions \nare less than 50 ppmv, dry, @ 3% O2.  (Basis: Cumu lative Increase, Offsets, BACT)  \n \n10. Within 10 days of the first fire date, the owner/operator shall conduct a District approved \nsource test of each S -1550 ,  and S-1551  and S -1553 .  The District approved source test \nshall measure the emission rates of NOx, POC , SO2, and PM10, from S -1550 , and S-\n1551  and S -1553  while it is operated at not less than 80 MMBtu/hr.  The owner/operator \nshall ensure that within 45 days of the date of completion of the source testing, two \nidentical copies of the source tests results (e ach referencing permit application #20977 , \n#22168,  and plant #14628) are received by the District.  One copy shall be sent to Source \nTesting and the other shall be sent to the Engineering Division.  This District approved \nsource test shall be repeated with in 5 days of each subsequent boiler startup (or any \noperation without SCR abatement) during the 6 -month period of boiler operation.  (Basis: \nCumulative Increase, Offsets, BACT)  \n \n11. In a District approved log, the owner/operator shall record the manufacturer, make, \nmodel, and maximum rated firing rate of each boiler used as S -1550 , and S-1551  and S -\n1553 , and the following information for each calendar day that either S -1550 , or S-1551 , \nor S-1553  fires fuel.  The District approved log(s) shall be retained by the owner/operator \non site for at least 5 years from the date of the last entry and made available to District \nstaff upon request.  (Basis: Cumulative Increase, Offsets, Toxics, BACT)  \na. The date  and hours that each S -1550 , and S-1551  and S -1553  fire fuel.  \nb. The amount of fuel fired at each S -1550 , and S-1551  and S -1553 . \nc. The hours that each S -1550 , and S-1551  and S -1553  operate without abatement \nby a fully functioning SCR.  \nd. The amount of steam produced at each boiler S -1550 , and S-1551  and S -1553 ."
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nTION  \nWaive an Authority to Construct and grant a Permit to Operate to Tesoro Refining and Marketing Company for the \nfollowing source:  \n \n S-1553  Backup Steam Boiler #3, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1553 SCR  \n \nEXEMPTIONS  \nnone  \n \n \n \nBy:  \n Arthur P Valla  \n Senior Air Quality Engineer  \nSeptember 16, 2010"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nTION  \nTesoro Refining and Marketing Company"
+      },
+      {
+        "heading": "PLANT NO. 14628",
+        "alias": null,
+        "text": "PLANT NO. 14628"
+      },
+      {
+        "heading": "APPLICATION NO.  22169",
+        "alias": null,
+        "text": "APPLICATION NO.  22169"
+      },
+      {
+        "heading": "A-1553 SCR",
+        "alias": null,
+        "text": "A-1553 SCR\nThis is a third backup boiler.  The other two boilers were permitted via Application 20977:  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+      },
+      {
+        "heading": "A-1550 SCR",
+        "alias": null,
+        "text": "A-1550 SCR\nS-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+      },
+      {
+        "heading": "A-1551 SCR",
+        "alias": null,
+        "text": "A-1551 SCR\nThese Backup Boilers are needed to ensure adequate steam supply for the refinery when existing \nboilers S -901 and S -904 are removed from service for turnaround/maintenance.  The third \nboiler S -1553 will be a new source, but emissions will not change for all three boilers by \nkeeping the curre nt firing limits and time allowed for unabated operation in Condition \n24491 -4 and 24491 -6: \n \n4.  Except for a time period not to exceed 24 hours per boiler startup or shutdown, the \nowner/operator shall ensure that S -1550 , and S-1551 and S -1553 are only oper ated when \nabated by SCRs A -1550 , and A-1551  and A -1553 , respectively.  The total cumulative \nhours that S-1550  or S-1551 all three boilers  can be  is operated without SCR abatement \nshall not exceed 192 hours per consecutive 12 -month period.  (Basis: Cumulativ e \nIncrease, Offsets, Toxics)  \n \n6.  The owner/operator shall ensure that the total fuel fired in S -1550 , and S-1551  and S -1553  \nshall not exceed 4,277,000 therms in any 12 consecutive month period.  (Basis: \nCumulative Increase, Offsets, Toxics)  \n   \nBy using this permitting rationale, the application qualifies for the Accelerated Permitting \nProgram and the Temporary Permit to Operate was granted August 3, 2010.  \n \nIn addition, Tesoro has requested that Condition 24491 -3 be deleted.  The time limit can be an \noperating problem and emissions are effectively capped by conditions 24491 -4 and 24491 -\n6. \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  87 November 3 , 2015  3.  The owner/operator shall ensure each boiler S -1550 and S -1551 is not operated for more \nthan 2160 hours in any consecutive 12 -month period.   (Basis: Cumulative Incre ase, \nOffsets, Toxics)"
+      },
+      {
+        "heading": "PAH  2.45E -05 2.45E -08 7.0E -06",
+        "alias": null,
+        "text": "PAH  2.45E -05 2.45E -08 7.0E -06\n1.5E -02 \n \n \nHowever, since the toxic emissions are based on boiler firing duty, and the overall annual duty of \nthe three boilers will not change, the overall toxic emissions will not change, and a risk \nscreen is not required.  The risk screen conducted for the first two boilers showed the \nproject risk is considered acceptable with a Maximum Cancer Risk of 0.004 in a million, \nthe chronic hazard index of 0.00008 and the acute hazard index of 0.003."
+      },
+      {
+        "heading": "NSPS",
+        "alias": null,
+        "text": "NSPS\nNSPS    \n \nS-1553 is not Subject to  NSPS Subpart Ja because it is not a Fuel Gas Combustion Devices (natural gas is excluded \nfrom the definition of Fuel Gas in 40 CFR 60.101a unless it is commingled with refinery fuel gas).  \n \nS-1553 is not Subject to NSPS Subpart Db (Standards of Performance  for Industrial -Commercial -Institutional Steam \nGenerating Units) because the firing rate is less than 100 MMBtu/hr.  The Backup Boilers is subject to NSPS \nSubpart Dc because the boiler firing rate is greater than 10 MMBtu/hr and less than 100 MMBtu/hr.  Em ission \nStandards in Subpart Dc do not apply to S -1553 because the boiler is only fired on Natural Gas.  S -1553 is only \nsubject to the notification and recordkeeping requirements of 40 CFR 60.48c.  \n \nNESHAPs and MACT  \n \nS-1553 is not subject to NESHAPs and MACT  because they are fired exclusively on Natural Gas \nand are not used as a control device of any HAPs emissions."
+      },
+      {
+        "heading": "A-1553 SCR",
+        "alias": null,
+        "text": "A-1553 SCR"
+      },
+      {
+        "heading": "EXEMPTIONS",
+        "alias": null,
+        "text": "EXEMPTIONS"
+      }
+    ]
+  }
+}

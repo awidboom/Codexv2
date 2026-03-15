@@ -1,0 +1,766 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\split_evals\\application_27990.pdf",
+    "evaluation_page_range": {
+      "start_page": 52,
+      "end_page": 59
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "Light Liquid  1.56E -04 25 0 4   29  0.109\nHeavy Liquid  1.56E -04 12 0 0   12  0.045\nFlanges/\nConnectors Gas/Vapor  2.58E -04 0 56 0   56  0.347\nLight Liquid  2.58E -04 31 0 14   45  0.279\nHeavy Liquid  2.58E -04 9 0 0    9  0.056\nPSV's  Gas/Vapor  1.04E -03 0 1 0    1  0.025\nLight Liquid  1.04E -03 2 0 3    5  0.124\nHeavy Liquid  1.04E -03 3 0 0    3  0.075\nPumps Light Liquid  5.33E- 03 6 0 2    8  1.024\nHeavy Liquid  5.33E- 03 0 0 0    0 0",
+        "Composition  Composition of\nLiquid Gasoline\nTAC Concentrations\nToluene  30%    30%\nEthylbenzene  5.0%    5.0%\nXylene  30%  2%  30%\nBenzene  1.3%    1.3%\nNaphthalene  5% 1%  5%",
+        "Total POC   1.103   0.175   0.435   0.432   2.146   0.0894   783\nToluene   0.331   -     -    0.130   0.461  0.019 2  168.12\nEthylbenzene   0.05 5   -     -    0.022   0.077  0.003 2  28.02\nXylene   0.331   0.00 4   -    0.130   0.464  0.0193  169.40\nBenzene   0.01 4   -     -    0.006   0.02 0  0.000 8  7.29\nNaphthalene   0.05 5   0.002   -    0.022   0.079  0.003 3  28.66\nTesoro Refining and Marketing Company  June 12, 2020  Application #29278",
+        "Slop\nTank  Fugitives  Total\nGasoline  Diesel\nDiesel PM  3433    4.39 7.60 7.60   3453\nToluene   687     56.95   168.12  912\nEthylbenzene   38.0      3.15  28.02  69\nXylene (Total)   190 3720     15.73   169.40  4095\nBenzene   104     8.67  7.29  120\nNaphthalene   0.720  47.1     0.06   28.66  77\nn-Hexane   98.40      8.16  4.20  111\nPropylene          79.41  79",
+        "Slop\nTank  Fugitives  Total\nGasoline  Diesel\nToluene   0.0938      0.3850  0.019 2 0.498 0\nXylene (Total)   0.02589  0.900     0.1060  0.0193 1.051 2\nBenzene   0.01426      0.0586  0.000 8 0.073 6",
+        "Total Emissions for New\nSources  189.191  34.633  32.730 4.167  9.372\nTotal Contemporaneous\nEmissions Reductions  42.121  8.361  3.467  1.023  1.876\nProject Offset Totals  147.070  26.272  29.2 63 3.144  7.496\nOffset Ratio  1.15:1.0  NA 1.15:1.0  1.0:1.0  1.0:1.0\nRequired Offsets  169.130    33.6 52 3.144  7.496\nBank 915  8.063     3.525",
+        "Remaining Credits, tons\nPollutant  NO X CO POC  PM 10 SO 2\nBank 915  0.000  2.938  0.000  0.000  0.000\nBank 968  0.000  0.000  0.000  0.000  0.000\nBank 1144  75.788  19.912  0.000  8.454  2893.006\nBank 1568  0.000  0.000  0.451 0.000  0.000\nBank 1572  0.000  0.000  0.000  0.000  0.000\nBank 1571  0.000  0.000  0.000  0.000  0.000\nBank 1570  0.000  0.000  0.000  0.000  0.000\nBank 1569  0.000  0.000  0.000  0.000  0.000",
+        "all measurements of type of material and quantity of material loaded and unloaded over Avon Wharf Berth 1A.  This information shall be kept available for District inspection for a period of at least 5 years following  the date on which\nsuch measurements, records or data are made or recorded. (basis: Recordkeeping)    12. Deleted.  S -100 was permanently decommissioned and  the permits for S -\n100, S -108, S -1508  and S -1509  have been surrendered ."
+      ]
+    },
+    "application_number_detected": "29278",
+    "application_number_from_filename": "27990"
+  },
+  "application_number": "27990",
+  "plant": {
+    "name": "Tesoro Refining and Marketing Company June 12, 2020 Application #29278",
+    "plant_id": 14628,
+    "address": ""
+  },
+  "evaluation_date": "June 12, 2020",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1560",
+      "description": "Avon Wharf Berth 1A, abated by"
+    },
+    {
+      "id": "A-1560",
+      "description": "Vapor Recovery System for Avon Wharf Berth 1A"
+    },
+    {
+      "id": "S-1561",
+      "description": "Emergency Diesel Generator, Caterpillar Model C9, 398 Bhp"
+    },
+    {
+      "id": "S-1562",
+      "description": "East Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp"
+    },
+    {
+      "id": "S-1563",
+      "description": "West Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp"
+    },
+    {
+      "id": "S-1564",
+      "description": "Recovered Oil Fixed Roof Tank A -938, 3800 gallons"
+    },
+    {
+      "id": "S-100",
+      "description": "Avon Wharf Loading Berth 1 (to be decommissioned)"
+    },
+    {
+      "id": "S-108",
+      "description": "Avon Wharf Berth 5 (to be demolished)"
+    },
+    {
+      "id": "S-1469",
+      "description": "Avon Wharf Firewater Pump Engine, 400 HP (to be demolished)"
+    },
+    {
+      "id": "S-1508",
+      "description": "Avon Berth 1 Recovered Oil Tank (to be decommissioned)"
+    },
+    {
+      "id": "S-1509",
+      "description": "Avon Berth 5 Recovered Oil Tank (to be demolished)"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nThe Tesoro Refining & Marketing Company LLC.  (Tesoro) has started up the Avon Wharf \nMOTEMS Project, including the following equipment:  \n \nS-1560  Avon Wharf Berth 1A, abated by  \nA-1560  Vapor Recovery System for Avon Wharf Berth 1A  \nS-1561  Emergency Diesel Generator, Caterpillar Model C9, 398 Bhp  \nS-1562  East Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp  \nS-1563  West Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp  \nS-1564  Recovered Oil Fixed Roof Tank A -938, 3800 gallons  \n \nTesoro has provided the final fugitive component counts for this project.  This addendum \nupdates the project fugitive emissions and the project cumulative increase.  POC Emission Offsets will be reduced slightly, from 33.669 tons to 33.652 tons.  \n This Project also includes removing the following equipment from the Permit to Operate:  \n \nS-100 Avon Wharf Loading Berth 1 (to be decommissioned)  \nS-108 Avon Wharf Berth 5 (to be demolished)  \nS-1469  Avon Wharf Firewater Pump Engine, 400 HP (to be demolished)  \nS-1508  Avon Berth 1 Recovered Oil Tank (to be decommissioned) \nS-1509  Avon Berth 5 Recovered Oil Tank (to be demolished)  \n This addendum only includes the sections of the 1/9/2017 final engineering evaluation that are \nchanged by the final fugitive component counts.BACKGROUND\nND \n \nThe Tesoro Refining & Marketing Company LLC.  (Tesoro) has started up the Avon Wharf \nMOTEMS Project, including the following equipment:  \n \nS-1560  Avon Wharf Berth 1A, abated by  \nA-1560  Vapor Recovery System for Avon Wharf Berth 1A  \nS-1561  Emergency Diesel Generator, Caterpillar Model C9, 398 Bhp  \nS-1562  East Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp  \nS-1563  West Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp  \nS-1564  Recovered Oil Fixed Roof Tank A -938, 3800 gallons  \n \nTesoro has provided the final fugitive component counts for this project.  This addendum \nupdates the project fugitive emissions and the project cumulative increase.  POC Emission Offsets will be reduced slightly, from 33.669 tons to 33.652 tons.  \n This Project also includes removing the following equipment from the Permit to Operate:  \n \nS-100 Avon Wharf Loading Berth 1 (to be decommissioned)  \nS-108 Avon Wharf Berth 5 (to be demolished)  \nS-1469  Avon Wharf Firewater Pump Engine, 400 HP (to be demolished)  \nS-1508  Avon Berth 1 Recovered Oil Tank (to be decommissioned) \nS-1509  Avon Berth 5 Recovered Oil Tank (to be demolished)  \n This addendum only includes the sections of the 1/9/2017 final engineering evaluation that are \nchanged by the final fugitive component counts."
+  },
+  "emission_calculations": {
+    "text": "EMISSION CALCULATIONS\nNS  \n \nOnly the project fugitive emission calculations are changed by this addendum.  \n \nE.  Project Fugitive Emissions  \n \nTotal final  fugitive components for the project have been provided by Tesoro on May 4, 2017, and are summarized \nin the following table, showing the changes fr om the original estimated component counts.  \n \n \nComponent \nType Service Type Potential \nEmission Factor  \n(lb/hour/source)  S-1560 \nBerth \n1A A-1560 \nVapor \nRecovery  S-1564 \nSlop \nTank  Total \nCompo -\nnents  Emissions \nlb/day  \nValves  Gas/Vapor  1.56E -04 0 17 0   17  0.064  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 54 of 60 \n    \nComponent \nType Service Type Potential \nEmission Factor  \n(lb/hour/source)  S-1560 \nBerth \n1A A-1560 \nVapor \nRecovery  S-1564 \nSlop \nTank  Total \nCompo -\nnents  Emissions \nlb/day  \nLight Liquid  1.56E -04 25 0 4   29  0.109  \nHeavy Liquid  1.56E -04 12 0 0   12  0.045  \nFlanges/ \nConnectors Gas/Vapor  2.58E -04 0 56 0   56  0.347  \nLight Liquid  2.58E -04 31 0 14   45  0.279  \nHeavy Liquid  2.58E -04 9 0 0    9  0.056  \nPSV's  Gas/Vapor  1.04E -03 0 1 0    1  0.025  \nLight Liquid  1.04E -03 2 0 3    5  0.124  \nHeavy Liquid  1.04E -03 3 0 0    3  0.075  \nPumps Light Liquid  5.33E- 03 6 0 2    8  1.024  \nHeavy Liquid  5.33E- 03 0 0 0    0 0 \nTotal Fugitive Emissions Lbs/Day  2.146  \nLbs/Year  783 \nTons/Year  0.392EMISSION CALCULATIONS\nNS  \n \nOnly the project fugitive emission calculations are changed by this addendum.  \n \nE.  Project Fugitive Emissions  \n \nTotal final  fugitive components for the project have been provided by Tesoro on May 4, 2017, and are summarized \nin the following table, showing the changes fr om the original estimated component counts.  \n \n \nComponent \nType Service Type Potential \nEmission Factor  \n(lb/hour/source)  S-1560 \nBerth \n1A A-1560 \nVapor \nRecovery  S-1564 \nSlop \nTank  Total \nCompo -\nnents  Emissions \nlb/day  \nValves  Gas/Vapor  1.56E -04 0 17 0   17  0.064  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 54 of 60 \n    \nComponent \nType Service Type Potential \nEmission Factor  \n(lb/hour/source)  S-1560 \nBerth \n1A A-1560 \nVapor \nRecovery  S-1564 \nSlop \nTank  Total \nCompo -\nnents  Emissions \nlb/day  \nLight Liquid  1.56E -04 25 0 4   29  0.109  \nHeavy Liquid  1.56E -04 12 0 0   12  0.045  \nFlanges/ \nConnectors Gas/Vapor  2.58E -04 0 56 0   56  0.347  \nLight Liquid  2.58E -04 31 0 14   45  0.279  \nHeavy Liquid  2.58E -04 9 0 0    9  0.056  \nPSV's  Gas/Vapor  1.04E -03 0 1 0    1  0.025  \nLight Liquid  1.04E -03 2 0 3    5  0.124  \nHeavy Liquid  1.04E -03 3 0 0    3  0.075  \nPumps Light Liquid  5.33E- 03 6 0 2    8  1.024  \nHeavy Liquid  5.33E- 03 0 0 0    0 0 \nTotal Fugitive Emissions Lbs/Day  2.146  \nLbs/Year  783 \nTons/Year  0.392 \n \n \nTOTAL PROJECT CUMULATIVE INCREASE  \n \nThe following table summarized the final cumulative increase for this project.  \n \nAvon MOTEMS Project Cumulative Increase, Tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nEmissions for New Sources  \nS-1560 Marine Cargo \nCarrier  188.8245  34.425  10.743  4.157  9.372  \nS-1560 Material \nLoading    20.000    \nS-1561 Diesel \nGenerator  0.056  0.022  0.004  0.002  0 \nS-1562 Diesel \nFirewater Pump  0.155  0.093  0.004  0.004  0 \nS-1563 Diesel \nFirewater Pump  0.155  0.093  0.004  0.004  0 \nS-1564 Recovered Oil \nTank    1.583    \nFugitive Emissions    0.392   \nTotal Emissions for \nNew Sources  189.191  34.633  32.730 4.167  9.372  \nContemporaneous Emissions Reductions  \nS-100 Berth 1 Cargo \nCarrier Emissions  42.121  8.361  2.490  1.023  1.876  \nS-100 Berth 1 \nLoading Operations    0.893    \nS-100 Berth 1 Vapor \nRecovery System    0.084    \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 55 of 60 \n    \nAvon MOTEMS Project Cumulative Increase, Tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nEmissions for New Sources  \nTotal \nContemporaneousEmissions\nReductions  42.121  8.361  3.467  1.023  1.876  \nTotal Cumulative Increase  \nProject Totals  147.070  26.272  29.2 63 3.144  7.496  \n \n \nEMISSIONS OF TOXIC AIR CONTAMINENTS (TACs)  \n \nOnly the fugitive TAC emissions have changed in this addendum.  \n F. Fugitive TAC Emissions  \n \nTotal fugitive POC emissions were calculated in Part E of the Emission Calculations section above.  Fugitive TAC emissions are estimating using the approach summarized in the following table.  \n \nDevice  S-1560  A-1560  S-1564  \nService  Light Liquid  Heavy Liquid  Gas/Vapor  Light Liquid  \nCalculation \nApproach  Composition of \nLiquid Gasoline  Composition of \nLiquid Diesel  Enrichment Gas \nComposition  Composition of \nLiquid Gasoline  \nTAC Concentrations  \nToluene  30%    30%  \nEthylbenzene  5.0%    5.0%  \nXylene  30%  2%  30%  \nBenzene  1.3%    1.3%  \nNaphthalene  5% 1%  5% \nHexane, n - 0.75%    0.75%  \nPropylene    50%   \n Applying the TAC concentrations above to the total final fugitive POC emissions results in the fugitive TAC \nemissions summarized in the following table.  \n \nDevice  S-1560  A-1560  S-1564  \nTotal Emissions  Service  Light Liquid  Heavy \nLiquid  Gas/Vapor  Light Liquid  \nPollutant  lbs/day  lbs/day  lbs/day  lbs/day  lbs/day  Lbs/hr  Lb/year  \nTotal POC   1.103   0.175   0.435   0.432   2.146   0.0894   783  \nToluene   0.331   -     -    0.130   0.461  0.019 2  168.12  \nEthylbenzene   0.05 5   -     -    0.022   0.077  0.003 2  28.02  \nXylene   0.331   0.00 4   -    0.130   0.464  0.0193  169.40  \nBenzene   0.01 4   -     -    0.006   0.02 0  0.000 8  7.29  \nNaphthalene   0.05 5   0.002   -    0.022   0.079  0.003 3  28.66  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 56 of 60 \n    \nDevice  S-1560  A-1560  S-1564  \nTotal Emissions  Service  Light Liquid  Heavy \nLiquid  Gas/Vapor  Light Liquid  \nPollutant  lbs/day  lbs/day  lbs/day  lbs/day  lbs/day  Lbs/hr  Lb/year  \nHexane, n -  0.00 8   -     -    0.003   0.01 1  0.0005   4.20  \nPropylene   -     -     0.218   -     0.218  0.009 1  79.41  \n \n G. Total Project TAC Emissions  \n \nThe total project annual TAC emissions are summarized in the following table.  \n  \nTotal Project TAC Emissions, lbs/year  \nTAC S-1560 \nMarine \nCargo \nCarrier  S-1560 Loading \nOperations  S-1561 \nGenera -\ntor S-1562 \nEast \nPump S-1563 \nWest \nPump S-1564 \nSlop \nTank  Fugitives  Total \nGasoline  Diesel  \nDiesel PM  3433    4.39 7.60 7.60   3453  \nToluene   687     56.95   168.12  912 \nEthylbenzene   38.0      3.15  28.02  69 \nXylene (Total)   190 3720     15.73   169.40  4095 \nBenzene   104     8.67  7.29  120 \nNaphthalene   0.720  47.1     0.06   28.66  77 \nn-Hexane   98.40      8.16  4.20  111 \nPropylene          79.41  79 \n  \nThe total project hourly TAC emissions are summarized in the following table.  Only TACs with acute toxic triggers \nare included.  \n \nTotal Project TAC Emissions, lbs/hour  \nTAC S-1560 \nMarine \nCargo \nCarrier  S-1560 Loading \nOperations  S-1561 \nGenera -\ntor S-1562 \nEast \nPump S-1563 \nWest \nPump S-1564 \nSlop \nTank  Fugitives  Total \nGasoline  Diesel  \nToluene   0.0938      0.3850  0.019 2 0.498 0 \nXylene (Total)   0.02589  0.900     0.1060  0.0193 1.051 2 \nBenzene   0.01426      0.0586  0.000 8 0.073 6 \n \n \nHEALTH RISK ASSESSMENT  \n All of  the toxic emissions go down slightly due to the final fugitive component count.  Therefore, a revised risk \nscreen is not required."
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSION CALCULATIONS\nNS  \n \nOnly the project fugitive emission calculations are changed by this addendum.  \n \nE.  Project Fugitive Emissions  \n \nTotal final  fugitive components for the project have been provided by Tesoro on May 4, 2017, and are summarized \nin the following table, showing the changes fr om the original estimated component counts.  \n \n \nComponent \nType Service Type Potential \nEmission Factor  \n(lb/hour/source)  S-1560 \nBerth \n1A A-1560 \nVapor \nRecovery  S-1564 \nSlop \nTank  Total \nCompo -\nnents  Emissions \nlb/day  \nValves  Gas/Vapor  1.56E -04 0 17 0   17  0.064  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 54 of 60 \n    \nComponent \nType Service Type Potential \nEmission Factor  \n(lb/hour/source)  S-1560 \nBerth \n1A A-1560 \nVapor \nRecovery  S-1564 \nSlop \nTank  Total \nCompo -\nnents  Emissions \nlb/day  \nLight Liquid  1.56E -04 25 0 4   29  0.109  \nHeavy Liquid  1.56E -04 12 0 0   12  0.045  \nFlanges/ \nConnectors Gas/Vapor  2.58E -04 0 56 0   56  0.347  \nLight Liquid  2.58E -04 31 0 14   45  0.279  \nHeavy Liquid  2.58E -04 9 0 0    9  0.056  \nPSV's  Gas/Vapor  1.04E -03 0 1 0    1  0.025  \nLight Liquid  1.04E -03 2 0 3    5  0.124  \nHeavy Liquid  1.04E -03 3 0 0    3  0.075  \nPumps Light Liquid  5.33E- 03 6 0 2    8  1.024  \nHeavy Liquid  5.33E- 03 0 0 0    0 0 \nTotal Fugitive Emissions Lbs/Day  2.146  \nLbs/Year  783 \nTons/Year  0.392EMISSION CALCULATIONS\nNS  \n \nOnly the project fugitive emission calculations are changed by this addendum.  \n \nE.  Project Fugitive Emissions  \n \nTotal final  fugitive components for the project have been provided by Tesoro on May 4, 2017, and are summarized \nin the following table, showing the changes fr om the original estimated component counts.  \n \n \nComponent \nType Service Type Potential \nEmission Factor  \n(lb/hour/source)  S-1560 \nBerth \n1A A-1560 \nVapor \nRecovery  S-1564 \nSlop \nTank  Total \nCompo -\nnents  Emissions \nlb/day  \nValves  Gas/Vapor  1.56E -04 0 17 0   17  0.064  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 54 of 60 \n    \nComponent \nType Service Type Potential \nEmission Factor  \n(lb/hour/source)  S-1560 \nBerth \n1A A-1560 \nVapor \nRecovery  S-1564 \nSlop \nTank  Total \nCompo -\nnents  Emissions \nlb/day  \nLight Liquid  1.56E -04 25 0 4   29  0.109  \nHeavy Liquid  1.56E -04 12 0 0   12  0.045  \nFlanges/ \nConnectors Gas/Vapor  2.58E -04 0 56 0   56  0.347  \nLight Liquid  2.58E -04 31 0 14   45  0.279  \nHeavy Liquid  2.58E -04 9 0 0    9  0.056  \nPSV's  Gas/Vapor  1.04E -03 0 1 0    1  0.025  \nLight Liquid  1.04E -03 2 0 3    5  0.124  \nHeavy Liquid  1.04E -03 3 0 0    3  0.075  \nPumps Light Liquid  5.33E- 03 6 0 2    8  1.024  \nHeavy Liquid  5.33E- 03 0 0 0    0 0 \nTotal Fugitive Emissions Lbs/Day  2.146  \nLbs/Year  783 \nTons/Year  0.392 \n \n \nTOTAL PROJECT CUMULATIVE INCREASE  \n \nThe following table summarized the final cumulative increase for this project.  \n \nAvon MOTEMS Project Cumulative Increase, Tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nEmissions for New Sources  \nS-1560 Marine Cargo \nCarrier  188.8245  34.425  10.743  4.157  9.372  \nS-1560 Material \nLoading    20.000    \nS-1561 Diesel \nGenerator  0.056  0.022  0.004  0.002  0 \nS-1562 Diesel \nFirewater Pump  0.155  0.093  0.004  0.004  0 \nS-1563 Diesel \nFirewater Pump  0.155  0.093  0.004  0.004  0 \nS-1564 Recovered Oil \nTank    1.583    \nFugitive Emissions    0.392   \nTotal Emissions for \nNew Sources  189.191  34.633  32.730 4.167  9.372  \nContemporaneous Emissions Reductions  \nS-100 Berth 1 Cargo \nCarrier Emissions  42.121  8.361  2.490  1.023  1.876  \nS-100 Berth 1 \nLoading Operations    0.893    \nS-100 Berth 1 Vapor \nRecovery System    0.084    \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 55 of 60 \n    \nAvon MOTEMS Project Cumulative Increase, Tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nEmissions for New Sources  \nTotal \nContemporaneousEmissions\nReductions  42.121  8.361  3.467  1.023  1.876  \nTotal Cumulative Increase  \nProject Totals  147.070  26.272  29.2 63 3.144  7.496  \n \n \nEMISSIONS OF TOXIC AIR CONTAMINENTS (TACs)  \n \nOnly the fugitive TAC emissions have changed in this addendum.  \n F. Fugitive TAC Emissions  \n \nTotal fugitive POC emissions were calculated in Part E of the Emission Calculations section above.  Fugitive TAC emissions are estimating using the approach summarized in the following table.  \n \nDevice  S-1560  A-1560  S-1564  \nService  Light Liquid  Heavy Liquid  Gas/Vapor  Light Liquid  \nCalculation \nApproach  Composition of \nLiquid Gasoline  Composition of \nLiquid Diesel  Enrichment Gas \nComposition  Composition of \nLiquid Gasoline  \nTAC Concentrations  \nToluene  30%    30%  \nEthylbenzene  5.0%    5.0%  \nXylene  30%  2%  30%  \nBenzene  1.3%    1.3%  \nNaphthalene  5% 1%  5% \nHexane, n - 0.75%    0.75%  \nPropylene    50%   \n Applying the TAC concentrations above to the total final fugitive POC emissions results in the fugitive TAC \nemissions summarized in the following table.  \n \nDevice  S-1560  A-1560  S-1564  \nTotal Emissions  Service  Light Liquid  Heavy \nLiquid  Gas/Vapor  Light Liquid  \nPollutant  lbs/day  lbs/day  lbs/day  lbs/day  lbs/day  Lbs/hr  Lb/year  \nTotal POC   1.103   0.175   0.435   0.432   2.146   0.0894   783  \nToluene   0.331   -     -    0.130   0.461  0.019 2  168.12  \nEthylbenzene   0.05 5   -     -    0.022   0.077  0.003 2  28.02  \nXylene   0.331   0.00 4   -    0.130   0.464  0.0193  169.40  \nBenzene   0.01 4   -     -    0.006   0.02 0  0.000 8  7.29  \nNaphthalene   0.05 5   0.002   -    0.022   0.079  0.003 3  28.66  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 56 of 60 \n    \nDevice  S-1560  A-1560  S-1564  \nTotal Emissions  Service  Light Liquid  Heavy \nLiquid  Gas/Vapor  Light Liquid  \nPollutant  lbs/day  lbs/day  lbs/day  lbs/day  lbs/day  Lbs/hr  Lb/year  \nHexane, n -  0.00 8   -     -    0.003   0.01 1  0.0005   4.20  \nPropylene   -     -     0.218   -     0.218  0.009 1  79.41  \n \n G. Total Project TAC Emissions  \n \nThe total project annual TAC emissions are summarized in the following table.  \n  \nTotal Project TAC Emissions, lbs/year  \nTAC S-1560 \nMarine \nCargo \nCarrier  S-1560 Loading \nOperations  S-1561 \nGenera -\ntor S-1562 \nEast \nPump S-1563 \nWest \nPump S-1564 \nSlop \nTank  Fugitives  Total \nGasoline  Diesel  \nDiesel PM  3433    4.39 7.60 7.60   3453  \nToluene   687     56.95   168.12  912 \nEthylbenzene   38.0      3.15  28.02  69 \nXylene (Total)   190 3720     15.73   169.40  4095 \nBenzene   104     8.67  7.29  120 \nNaphthalene   0.720  47.1     0.06   28.66  77 \nn-Hexane   98.40      8.16  4.20  111 \nPropylene          79.41  79 \n  \nThe total project hourly TAC emissions are summarized in the following table.  Only TACs with acute toxic triggers \nare included.  \n \nTotal Project TAC Emissions, lbs/hour  \nTAC S-1560 \nMarine \nCargo \nCarrier  S-1560 Loading \nOperations  S-1561 \nGenera -\ntor S-1562 \nEast \nPump S-1563 \nWest \nPump S-1564 \nSlop \nTank  Fugitives  Total \nGasoline  Diesel  \nToluene   0.0938      0.3850  0.019 2 0.498 0 \nXylene (Total)   0.02589  0.900     0.1060  0.0193 1.051 2 \nBenzene   0.01426      0.0586  0.000 8 0.073 6 \n \n \nHEALTH RISK ASSESSMENT  \n All of  the toxic emissions go down slightly due to the final fugitive component count.  Therefore, a revised risk \nscreen is not required.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": [
+          [
+            "Valves",
+            "Light liquid",
+            1
+          ],
+          [
+            "Pumps",
+            "Light liquid",
+            5
+          ],
+          [
+            "Connectors/Flanges",
+            "Light liquid",
+            2
+          ]
+        ]
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": 783.0
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1560": {
+        "narrative": "(lb/hour/source)  S-1560\nCarrier  S-1560 Loading\nDevice  S-1560  A-1560  S-1564\nS-1560 Marine Cargo\nS-1560 Material\nTAC S-1560",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1560": {
+        "narrative": "1A A-1560\nDevice  S-1560  A-1560  S-1564",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1561": {
+        "narrative": "Operations  S-1561\nS-1561 Diesel",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1562": {
+        "narrative": "S-1562 Diesel\ntor S-1562",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1563": {
+        "narrative": "Pump S-1563\nS-1563 Diesel",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1564": {
+        "narrative": "Device  S-1560  A-1560  S-1564\nPump S-1564\nRecovery  S-1564\nS-1564 Recovered Oil",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-100": {
+        "narrative": "S-100 Berth 1\nS-100 Berth 1 Cargo\nS-100 Berth 1 Vapor",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-108": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1469": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1508": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1509": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": ""
+  },
+  "BACT": {
+    "text": ""
+  },
+  "offsets": {
+    "narrative": "OFFSETS\nS   \n \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 57 of 60 \n    \nOffsets are required per Regulation 2 -2-302 because Tesoro emits more than 35 tpy of POC and 35 tpy of NOx \nemissions.   Regulation 2 -2-302 requires that offsets for POC and NOx be provided at a ratio of 1.15 to 1.0.  \nRegulation 2 -2-303 requires that a Major Facility must pay offsets for PM10 and SO2 in excess of 1.0 ton per year \nfor new or modified sources.  Regulation 2 -2-303 requires that offsets for PM10 and SO2 be provided at a ratio of \n1.0 to 1.0.  \n \nThe total project cumulative increase,  and the offse t requirements, are summarized in the following table.  \n \nTotal Cumulative Increase, tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nTotal Emissions for New \nSources  189.191  34.633  32.730 4.167  9.372  \nTotal Contemporaneous \nEmissions Reductions  42.121  8.361  3.467  1.023  1.876  \nProject Offset Totals  147.070  26.272  29.2 63 3.144  7.496  \nOffset Ratio  1.15:1.0  NA 1.15:1.0  1.0:1.0  1.0:1.0  \nRequired Offsets  169.130    33.6 52 3.144  7.496  \nBank 915  8.063     3.525  \nBank 968    7.983    \nBank 1144  161.067      3.144  3.971  \nBank 1568    18.096   \nBank 1572    5.049    \nBank 1571      0.100      \nBank 1570    1.175    \nBank 1569    1.249    \n After the required offsets are surrendered, the banking certificates will have the following credits remaining.  \n \nRemaining Credits, tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nBank 915  0.000  2.938  0.000  0.000  0.000  \nBank 968  0.000  0.000  0.000  0.000  0.000  \nBank 1144  75.788  19.912  0.000  8.454  2893.006  \nBank 1568  0.000  0.000  0.451 0.000  0.000  \nBank 1572  0.000  0.000  0.000  0.000  0.000  \nBank 1571  0.000  0.000  0.000  0.000  0.000  \nBank 1570  0.000  0.000  0.000  0.000  0.000  \nBank 1569  0.000  0.000  0.000  0.000  0.000OFFSETS\nS   \n \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 57 of 60 \n    \nOffsets are required per Regulation 2 -2-302 because Tesoro emits more than 35 tpy of POC and 35 tpy of NOx \nemissions.   Regulation 2 -2-302 requires that offsets for POC and NOx be provided at a ratio of 1.15 to 1.0.  \nRegulation 2 -2-303 requires that a Major Facility must pay offsets for PM10 and SO2 in excess of 1.0 ton per year \nfor new or modified sources.  Regulation 2 -2-303 requires that offsets for PM10 and SO2 be provided at a ratio of \n1.0 to 1.0.  \n \nThe total project cumulative increase,  and the offse t requirements, are summarized in the following table.  \n \nTotal Cumulative Increase, tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nTotal Emissions for New \nSources  189.191  34.633  32.730 4.167  9.372  \nTotal Contemporaneous \nEmissions Reductions  42.121  8.361  3.467  1.023  1.876  \nProject Offset Totals  147.070  26.272  29.2 63 3.144  7.496  \nOffset Ratio  1.15:1.0  NA 1.15:1.0  1.0:1.0  1.0:1.0  \nRequired Offsets  169.130    33.6 52 3.144  7.496  \nBank 915  8.063     3.525  \nBank 968    7.983    \nBank 1144  161.067      3.144  3.971  \nBank 1568    18.096   \nBank 1572    5.049    \nBank 1571      0.100      \nBank 1570    1.175    \nBank 1569    1.249    \n After the required offsets are surrendered, the banking certificates will have the following credits remaining.  \n \nRemaining Credits, tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nBank 915  0.000  2.938  0.000  0.000  0.000  \nBank 968  0.000  0.000  0.000  0.000  0.000  \nBank 1144  75.788  19.912  0.000  8.454  2893.006  \nBank 1568  0.000  0.000  0.451 0.000  0.000  \nBank 1572  0.000  0.000  0.000  0.000  0.000  \nBank 1571  0.000  0.000  0.000  0.000  0.000  \nBank 1570  0.000  0.000  0.000  0.000  0.000  \nBank 1569  0.000  0.000  0.000  0.000  0.000",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          35.0,
+          "1.15 : 1.0",
+          null
+        ],
+        [
+          "NOx",
+          2.0,
+          "1.15 : 1.0",
+          null
+        ],
+        [
+          "SO2",
+          1.0,
+          "1.15 : 1.0",
+          null
+        ],
+        [
+          "PM10",
+          2.0,
+          "1.15 : 1.0",
+          null
+        ],
+        [
+          "CO",
+          12.0,
+          "1.15 : 1.0",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": []
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS\nONS  \n \nNew Permit Condition 26406 will be revised as follows:  \n \n \nCondition 26406  \n \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 58 of 60 \n    \nApplication 27790, January 2017.  \nAvon Wharf MOTEMS Project  \nS-1560 Avon Wharf Berth 1A, abated by  \nA-1560 Avon Wharf Berth 1A Marine Vapor Recovery System \n 1. The owner/operator shall not operate S- 1560 Berth 1A unless the total \nproduct transferred at S -1560 does not exceed 30,000,000 barrels in any \nconsecutive 12 -month period.  The owner/operator shall not transfer any Crude \nOil at S- 1560 Berth 1A.  (basis: Cumulative Increase, Offsets)  \n 2. Emissions for Cargo Carrier (Barges and Tankers) calls to S- 1560 Be rth 1A \nshall not exceed the following fully offset limits:  \nNOx:  188.825 tons/year  \nCO: 34.425 tons/year  \nPOC:  10.743 tons/year  \nPM10:  4.157 tons/year  \nSO2:  9.372 tons/year  \n(basis: Cumulative Increase, Offsets)  \n 3. The owner/operator of S -1560 shall demonstr ate compliance with the \nthroughput limit in Part 1 by recording the monthly volumes of material loaded and unloaded at S -1560.  Monthly throughput shall be totaled on a consecutive \n12-month basis.  The owner/operator shall demonstrate compliance with the \nemission limits in Part 2 by showing annual loading and unloading throughput, \non a calendar year basis, is less than 30,000,000 barrels per year.  (basis: \nCumulative Increase, Offsets)  \n \n4. The owner/operator shall operate S -1560 only when POC emissions from  \nproduct loading operations do not exceed the fully offset limit of 20.00 tons/year.  The owner/operator shall record the quantity of each material loaded onto vessels at S -1560 and perform the emission calculations required to \ndemonstrate compliance using  the following emission factors (pounds per 1000 \ngallons loaded) and assuming a destruction efficiency of 98.5% for controlled loading.   \n Gasoline/Components loaded onto Tanker  1.8 \n Gasoline/Components loaded onto Barge  3.4 \n Diesel loaded onto Tanker    0.005 \n Diesel loaded onto Barge    0.012  \n Residual Oil loaded onto Tanker   0.00004  \n Residual Oil loaded onto Barge   0.00009  \n(basis: Cumulative Increase, Offsets)  \n 5.  The owner/operator may only use a different methodology and/or \ndifferent assumptions to demonstrate compliance with Part 4 when approved in advance by the District.  (basis: Cumulative Increase, Offsets)  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 59 of 60 \n    \n \n6. The owner/operator of S -1560 Berth 1A shall not  load any regulated \nmaterials, including gasoline, gasoline blending stocks, aviation gas, or JP -4 \nunless the entire loading operation is abated with A -1560 Marine Vapor \nRecovery System.  (basis: Cumulative Increase, Offsets)  7. The owner/operator shall install and maintain a Pressure \nRecorder/Controller in the vapor recovery system to provide a permanent record of pressure during the loading of vessels. These records shall be maintained for a minimum of 5 years. (basis: Cumulative Increase)  \n \n8. Not less f requently than every six months, the owner/operator shall \nconduct tests to assess leakage from all relief valves that vent to atmosphere in \nthe marine vapor recovery system.  The owner/operator shall ensure that the \ntesting and record keeping are done in c ompliance with Regulation 8, Rule 18.  \n(basis: Cumulative Increase, Regulation 8 -18) \n 9. Deleted.  Tesoro provided the final fugitive component counts 5/4/2017.   \nThe total permitted fully offset fugitive POC emissions for the Avon Wharf MOTEMS project are 783  lbs/year.  (basis: Cumulative Increase, Offsets)  \n 10. Deleted.  Offsets were a djusted according to the final fugitive component \ncount.   \n \n11. The Owner/Operator shall maintain a District -approved record containing \nall measurements of type of material and quantity of material loaded and unloaded over Avon Wharf Berth 1A.  This information shall be kept available for District inspection for a period of at least 5 years following  the date on which \nsuch measurements, records or data are made or recorded. (basis: Recordkeeping)    12. Deleted.  S -100 was permanently decommissioned and  the permits for S -\n100, S -108, S -1508  and S -1509  have been surrendered .PERMIT CONDITIONS\nONS  \n \nNew Permit Condition 26406 will be revised as follows:  \n \n \nCondition 26406  \n \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 58 of 60 \n    \nApplication 27790, January 2017.  \nAvon Wharf MOTEMS Project  \nS-1560 Avon Wharf Berth 1A, abated by  \nA-1560 Avon Wharf Berth 1A Marine Vapor Recovery System \n 1. The owner/operator shall not operate S- 1560 Berth 1A unless the total \nproduct transferred at S -1560 does not exceed 30,000,000 barrels in any \nconsecutive 12 -month period.  The owner/operator shall not transfer any Crude \nOil at S- 1560 Berth 1A.  (basis: Cumulative Increase, Offsets)  \n 2. Emissions for Cargo Carrier (Barges and Tankers) calls to S- 1560 Be rth 1A \nshall not exceed the following fully offset limits:  \nNOx:  188.825 tons/year  \nCO: 34.425 tons/year  \nPOC:  10.743 tons/year  \nPM10:  4.157 tons/year  \nSO2:  9.372 tons/year  \n(basis: Cumulative Increase, Offsets)  \n 3. The owner/operator of S -1560 shall demonstr ate compliance with the \nthroughput limit in Part 1 by recording the monthly volumes of material loaded and unloaded at S -1560.  Monthly throughput shall be totaled on a consecutive \n12-month basis.  The owner/operator shall demonstrate compliance with the \nemission limits in Part 2 by showing annual loading and unloading throughput, \non a calendar year basis, is less than 30,000,000 barrels per year.  (basis: \nCumulative Increase, Offsets)  \n \n4. The owner/operator shall operate S -1560 only when POC emissions from  \nproduct loading operations do not exceed the fully offset limit of 20.00 tons/year.  The owner/operator shall record the quantity of each material loaded onto vessels at S -1560 and perform the emission calculations required to \ndemonstrate compliance using  the following emission factors (pounds per 1000 \ngallons loaded) and assuming a destruction efficiency of 98.5% for controlled loading.   \n Gasoline/Components loaded onto Tanker  1.8 \n Gasoline/Components loaded onto Barge  3.4 \n Diesel loaded onto Tanker    0.005 \n Diesel loaded onto Barge    0.012  \n Residual Oil loaded onto Tanker   0.00004  \n Residual Oil loaded onto Barge   0.00009  \n(basis: Cumulative Increase, Offsets)  \n 5.  The owner/operator may only use a different methodology and/or \ndifferent assumptions to demonstrate compliance with Part 4 when approved in advance by the District.  (basis: Cumulative Increase, Offsets)  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 59 of 60 \n    \n \n6. The owner/operator of S -1560 Berth 1A shall not  load any regulated \nmaterials, including gasoline, gasoline blending stocks, aviation gas, or JP -4 \nunless the entire loading operation is abated with A -1560 Marine Vapor \nRecovery System.  (basis: Cumulative Increase, Offsets)  7. The owner/operator shall install and maintain a Pressure \nRecorder/Controller in the vapor recovery system to provide a permanent record of pressure during the loading of vessels. These records shall be maintained for a minimum of 5 years. (basis: Cumulative Increase)  \n \n8. Not less f requently than every six months, the owner/operator shall \nconduct tests to assess leakage from all relief valves that vent to atmosphere in \nthe marine vapor recovery system.  The owner/operator shall ensure that the \ntesting and record keeping are done in c ompliance with Regulation 8, Rule 18.  \n(basis: Cumulative Increase, Regulation 8 -18) \n 9. Deleted.  Tesoro provided the final fugitive component counts 5/4/2017.   \nThe total permitted fully offset fugitive POC emissions for the Avon Wharf MOTEMS project are 783  lbs/year.  (basis: Cumulative Increase, Offsets)  \n 10. Deleted.  Offsets were a djusted according to the final fugitive component \ncount.   \n \n11. The Owner/Operator shall maintain a District -approved record containing \nall measurements of type of material and quantity of material loaded and unloaded over Avon Wharf Berth 1A.  This information shall be kept available for District inspection for a period of at least 5 years following  the date on which \nsuch measurements, records or data are made or recorded. (basis: Recordkeeping)    12. Deleted.  S -100 was permanently decommissioned and  the permits for S -\n100, S -108, S -1508  and S -1509  have been surrendered ."
+  },
+  "permit_conditions": {
+    "condition_number": 26406,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator shall not operate S- 1560 Berth 1A unless the total \nproduct transferred at S -1560 does not exceed 30,000,000 barrels in any \nconsecutive 12 -month period.  The owner/operator shall not transfer any Crude \nOil at S- 1560 Berth 1A.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "Emissions for Cargo Carrier (Barges and Tankers) calls to S- 1560 Be rth 1A \nshall not exceed the following fully offset limits:  \nNOx:  188.825 tons/year  \nCO: 34.425 tons/year  \nPOC:  10.743 tons/year  \nPM10:  4.157 tons/year  \nSO2:  9.372 tons/year  \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator of S -1560 shall demonstr ate compliance with the \nthroughput limit in Part 1 by recording the monthly volumes of material loaded and unloaded at S -1560.  Monthly throughput shall be totaled on a consecutive \n12-month basis.  The owner/operator shall demonstrate compliance with the \nemission limits in Part 2 by showing annual loading and unloading throughput, \non a calendar year basis, is less than 30,000,000 barrels per year.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "The owner/operator shall operate S -1560 only when POC emissions from  \nproduct loading operations do not exceed the fully offset limit of 20.00 tons/year.  The owner/operator shall record the quantity of each material loaded onto vessels at S -1560 and perform the emission calculations required to \ndemonstrate compliance using  the following emission factors (pounds per 1000 \ngallons loaded) and assuming a destruction efficiency of 98.5% for controlled loading.   \n Gasoline/Components loaded onto Tanker  1.8 \n Gasoline/Components loaded onto Barge  3.4 \n Diesel loaded onto Tanker    0.005 \n Diesel loaded onto Barge    0.012  \n Residual Oil loaded onto Tanker   0.00004  \n Residual Oil loaded onto Barge   0.00009  \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "The owner/operator may only use a different methodology and/or \ndifferent assumptions to demonstrate compliance with Part 4 when approved in advance by the District.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)  \nTesoro Refining and Marketing Company  June 12",
+          "2020  Application #29278  \nPlant # 14628   Page 59 of 60"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "The owner/operator of S -1560 Berth 1A shall not  load any regulated \nmaterials, including gasoline, gasoline blending stocks, aviation gas, or JP -4 \nunless the entire loading operation is abated with A -1560 Marine Vapor \nRecovery System.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)  7. The owner/operator shall install and maintain a Pressure \nRecorder/Controller in the vapor recovery system to provide a permanent record of pressure during the loading of vessels. These records shall be maintained for a minimum of 5 years. (basis: Cumulative Increase)"
+        ]
+      },
+      {
+        "num": 8,
+        "text": "Not less f requently than every six months, the owner/operator shall \nconduct tests to assess leakage from all relief valves that vent to atmosphere in \nthe marine vapor recovery system.  The owner/operator shall ensure that the \ntesting and record keeping are done in c ompliance with Regulation 8, Rule 18.  \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 8 -18)"
+        ]
+      },
+      {
+        "num": 9,
+        "text": "Deleted.  Tesoro provided the final fugitive component counts 5/4/2017.   \nThe total permitted fully offset fugitive POC emissions for the Avon Wharf MOTEMS project are 783  lbs/year.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)"
+        ]
+      },
+      {
+        "num": 10,
+        "text": "Deleted.  Offsets were a djusted according to the final fugitive component \ncount.",
+        "basis": []
+      },
+      {
+        "num": 11,
+        "text": "The Owner/Operator shall maintain a District -approved record containing \nall measurements of type of material and quantity of material loaded and unloaded over Avon Wharf Berth 1A.  This information shall be kept available for District inspection for a period of at least 5 years following  the date on which \nsuch measurements, records or data are made or recorded. (",
+        "basis": [
+          "Recordkeeping)    12. Deleted.  S -100 was permanently decommissioned and  the permits for S -\n100",
+          "S -108",
+          "S -1508  and S -1509  have been surrendered .PERMIT CONDITIONS\nONS  \n \nNew Permit Condition 26406 will be revised as follows:  \n \n \nCondition 26406  \n \nTesoro Refining and Marketing Company  June 12",
+          "2020  Application #29278  \nPlant # 14628   Page 58 of 60 \n    \nApplication 27790",
+          "January 2017.  \nAvon Wharf MOTEMS Project  \nS-1560 Avon Wharf Berth 1A",
+          "abated by  \nA-1560 Avon Wharf Berth 1A Marine Vapor Recovery System"
+        ]
+      },
+      {
+        "num": 1,
+        "text": "The owner/operator shall not operate S- 1560 Berth 1A unless the total \nproduct transferred at S -1560 does not exceed 30,000,000 barrels in any \nconsecutive 12 -month period.  The owner/operator shall not transfer any Crude \nOil at S- 1560 Berth 1A.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "Emissions for Cargo Carrier (Barges and Tankers) calls to S- 1560 Be rth 1A \nshall not exceed the following fully offset limits:  \nNOx:  188.825 tons/year  \nCO: 34.425 tons/year  \nPOC:  10.743 tons/year  \nPM10:  4.157 tons/year  \nSO2:  9.372 tons/year  \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator of S -1560 shall demonstr ate compliance with the \nthroughput limit in Part 1 by recording the monthly volumes of material loaded and unloaded at S -1560.  Monthly throughput shall be totaled on a consecutive \n12-month basis.  The owner/operator shall demonstrate compliance with the \nemission limits in Part 2 by showing annual loading and unloading throughput, \non a calendar year basis, is less than 30,000,000 barrels per year.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "The owner/operator shall operate S -1560 only when POC emissions from  \nproduct loading operations do not exceed the fully offset limit of 20.00 tons/year.  The owner/operator shall record the quantity of each material loaded onto vessels at S -1560 and perform the emission calculations required to \ndemonstrate compliance using  the following emission factors (pounds per 1000 \ngallons loaded) and assuming a destruction efficiency of 98.5% for controlled loading.   \n Gasoline/Components loaded onto Tanker  1.8 \n Gasoline/Components loaded onto Barge  3.4 \n Diesel loaded onto Tanker    0.005 \n Diesel loaded onto Barge    0.012  \n Residual Oil loaded onto Tanker   0.00004  \n Residual Oil loaded onto Barge   0.00009  \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "The owner/operator may only use a different methodology and/or \ndifferent assumptions to demonstrate compliance with Part 4 when approved in advance by the District.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)  \nTesoro Refining and Marketing Company  June 12",
+          "2020  Application #29278  \nPlant # 14628   Page 59 of 60"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "The owner/operator of S -1560 Berth 1A shall not  load any regulated \nmaterials, including gasoline, gasoline blending stocks, aviation gas, or JP -4 \nunless the entire loading operation is abated with A -1560 Marine Vapor \nRecovery System.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)  7. The owner/operator shall install and maintain a Pressure \nRecorder/Controller in the vapor recovery system to provide a permanent record of pressure during the loading of vessels. These records shall be maintained for a minimum of 5 years. (basis: Cumulative Increase)"
+        ]
+      },
+      {
+        "num": 8,
+        "text": "Not less f requently than every six months, the owner/operator shall \nconduct tests to assess leakage from all relief valves that vent to atmosphere in \nthe marine vapor recovery system.  The owner/operator shall ensure that the \ntesting and record keeping are done in c ompliance with Regulation 8, Rule 18.  \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 8 -18)"
+        ]
+      },
+      {
+        "num": 9,
+        "text": "Deleted.  Tesoro provided the final fugitive component counts 5/4/2017.   \nThe total permitted fully offset fugitive POC emissions for the Avon Wharf MOTEMS project are 783  lbs/year.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)"
+        ]
+      },
+      {
+        "num": 10,
+        "text": "Deleted.  Offsets were a djusted according to the final fugitive component \ncount.",
+        "basis": []
+      },
+      {
+        "num": 11,
+        "text": "The Owner/Operator shall maintain a District -approved record containing \nall measurements of type of material and quantity of material loaded and unloaded over Avon Wharf Berth 1A.  This information shall be kept available for District inspection for a period of at least 5 years following  the date on which \nsuch measurements, records or data are made or recorded. (",
+        "basis": [
+          "Recordkeeping)    12. Deleted.  S -100 was permanently decommissioned and  the permits for S -\n100",
+          "S -108",
+          "S -1508  and S -1509  have been surrendered ."
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATIONRECOMMENDATION\nTION  \n \nIt is recommended that a Permit to Operate be granted  to Tesoro Refining & Marketing Company LLC for the \nfollowing sources:  \n \nS-1560  Avon Wharf Berth 1A, abated by  \nA-1560  Vapor Recovery System for Avon Wharf Berth 1A  \nS-1561  Emergency Diesel Generator, Caterpillar Model C9, 398 Bhp  \nS-1562  East Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp  \nS-1563  West Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp  \nS-1564  Recovered Oil Fixed Roof Tank A -938, 3800 gallons  \n \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 60 of 60 \n    \n \nBy:  \n Arthur P Valla  \n Senior Air Quality Engineer  \n6/15/17"
+  },
+  "raw_sections": {
+    "preamble": "Tesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 53 of 60 \n    \n \nApplication 27990 Addendum, Avon Wharf MOTEMS Project",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION  ADDENDUM",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION  ADDENDUM\nTesoro Refining & Marketing Company LLC"
+      },
+      {
+        "heading": "PLANT NO. 14628",
+        "alias": null,
+        "text": "PLANT NO. 14628"
+      },
+      {
+        "heading": "APPLICATION NO. 27990",
+        "alias": null,
+        "text": "APPLICATION NO. 27990"
+      },
+      {
+        "heading": "AVON WHARF MOTEMS PROJECT",
+        "alias": null,
+        "text": "AVON WHARF MOTEMS PROJECT"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nThe Tesoro Refining & Marketing Company LLC.  (Tesoro) has started up the Avon Wharf \nMOTEMS Project, including the following equipment:  \n \nS-1560  Avon Wharf Berth 1A, abated by  \nA-1560  Vapor Recovery System for Avon Wharf Berth 1A  \nS-1561  Emergency Diesel Generator, Caterpillar Model C9, 398 Bhp  \nS-1562  East Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp  \nS-1563  West Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp  \nS-1564  Recovered Oil Fixed Roof Tank A -938, 3800 gallons  \n \nTesoro has provided the final fugitive component counts for this project.  This addendum \nupdates the project fugitive emissions and the project cumulative increase.  POC Emission Offsets will be reduced slightly, from 33.669 tons to 33.652 tons.  \n This Project also includes removing the following equipment from the Permit to Operate:  \n \nS-100 Avon Wharf Loading Berth 1 (to be decommissioned)  \nS-108 Avon Wharf Berth 5 (to be demolished)  \nS-1469  Avon Wharf Firewater Pump Engine, 400 HP (to be demolished)  \nS-1508  Avon Berth 1 Recovered Oil Tank (to be decommissioned) \nS-1509  Avon Berth 5 Recovered Oil Tank (to be demolished)  \n This addendum only includes the sections of the 1/9/2017 final engineering evaluation that are \nchanged by the final fugitive component counts."
+      },
+      {
+        "heading": "EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSION CALCULATIONS\nNS  \n \nOnly the project fugitive emission calculations are changed by this addendum.  \n \nE.  Project Fugitive Emissions  \n \nTotal final  fugitive components for the project have been provided by Tesoro on May 4, 2017, and are summarized \nin the following table, showing the changes fr om the original estimated component counts.  \n \n \nComponent \nType Service Type Potential \nEmission Factor  \n(lb/hour/source)  S-1560 \nBerth \n1A A-1560 \nVapor \nRecovery  S-1564 \nSlop \nTank  Total \nCompo -\nnents  Emissions \nlb/day  \nValves  Gas/Vapor  1.56E -04 0 17 0   17  0.064  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 54 of 60 \n    \nComponent \nType Service Type Potential \nEmission Factor  \n(lb/hour/source)  S-1560 \nBerth \n1A A-1560 \nVapor \nRecovery  S-1564 \nSlop \nTank  Total \nCompo -\nnents  Emissions \nlb/day  \nLight Liquid  1.56E -04 25 0 4   29  0.109  \nHeavy Liquid  1.56E -04 12 0 0   12  0.045  \nFlanges/ \nConnectors Gas/Vapor  2.58E -04 0 56 0   56  0.347  \nLight Liquid  2.58E -04 31 0 14   45  0.279  \nHeavy Liquid  2.58E -04 9 0 0    9  0.056  \nPSV's  Gas/Vapor  1.04E -03 0 1 0    1  0.025  \nLight Liquid  1.04E -03 2 0 3    5  0.124  \nHeavy Liquid  1.04E -03 3 0 0    3  0.075  \nPumps Light Liquid  5.33E- 03 6 0 2    8  1.024  \nHeavy Liquid  5.33E- 03 0 0 0    0 0 \nTotal Fugitive Emissions Lbs/Day  2.146  \nLbs/Year  783 \nTons/Year  0.392"
+      },
+      {
+        "heading": "TOTAL PROJECT CUMULATIVE INCREASE",
+        "alias": null,
+        "text": "TOTAL PROJECT CUMULATIVE INCREASE\nEASE  \n \nThe following table summarized the final cumulative increase for this project.  \n \nAvon MOTEMS Project Cumulative Increase, Tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nEmissions for New Sources  \nS-1560 Marine Cargo \nCarrier  188.8245  34.425  10.743  4.157  9.372  \nS-1560 Material \nLoading    20.000    \nS-1561 Diesel \nGenerator  0.056  0.022  0.004  0.002  0 \nS-1562 Diesel \nFirewater Pump  0.155  0.093  0.004  0.004  0 \nS-1563 Diesel \nFirewater Pump  0.155  0.093  0.004  0.004  0 \nS-1564 Recovered Oil \nTank    1.583    \nFugitive Emissions    0.392   \nTotal Emissions for \nNew Sources  189.191  34.633  32.730 4.167  9.372  \nContemporaneous Emissions Reductions  \nS-100 Berth 1 Cargo \nCarrier Emissions  42.121  8.361  2.490  1.023  1.876  \nS-100 Berth 1 \nLoading Operations    0.893    \nS-100 Berth 1 Vapor \nRecovery System    0.084    \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 55 of 60 \n    \nAvon MOTEMS Project Cumulative Increase, Tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nEmissions for New Sources  \nTotal \nContemporaneous \nEmissions \nReductions  42.121  8.361  3.467  1.023  1.876  \nTotal Cumulative Increase  \nProject Totals  147.070  26.272  29.2 63 3.144  7.496  \n \n \nEMISSIONS OF TOXIC AIR CONTAMINENTS (TACs)  \n \nOnly the fugitive TAC emissions have changed in this addendum.  \n F. Fugitive TAC Emissions  \n \nTotal fugitive POC emissions were calculated in Part E of the Emission Calculations section above.  Fugitive TAC emissions are estimating using the approach summarized in the following table.  \n \nDevice  S-1560  A-1560  S-1564  \nService  Light Liquid  Heavy Liquid  Gas/Vapor  Light Liquid  \nCalculation \nApproach  Composition of \nLiquid Gasoline  Composition of \nLiquid Diesel  Enrichment Gas \nComposition  Composition of \nLiquid Gasoline  \nTAC Concentrations  \nToluene  30%    30%  \nEthylbenzene  5.0%    5.0%  \nXylene  30%  2%  30%  \nBenzene  1.3%    1.3%  \nNaphthalene  5% 1%  5% \nHexane, n - 0.75%    0.75%  \nPropylene    50%   \n Applying the TAC concentrations above to the total final fugitive POC emissions results in the fugitive TAC \nemissions summarized in the following table.  \n \nDevice  S-1560  A-1560  S-1564  \nTotal Emissions  Service  Light Liquid  Heavy \nLiquid  Gas/Vapor  Light Liquid  \nPollutant  lbs/day  lbs/day  lbs/day  lbs/day  lbs/day  Lbs/hr  Lb/year  \nTotal POC   1.103   0.175   0.435   0.432   2.146   0.0894   783  \nToluene   0.331   -     -    0.130   0.461  0.019 2  168.12  \nEthylbenzene   0.05 5   -     -    0.022   0.077  0.003 2  28.02  \nXylene   0.331   0.00 4   -    0.130   0.464  0.0193  169.40  \nBenzene   0.01 4   -     -    0.006   0.02 0  0.000 8  7.29  \nNaphthalene   0.05 5   0.002   -    0.022   0.079  0.003 3  28.66  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 56 of 60 \n    \nDevice  S-1560  A-1560  S-1564  \nTotal Emissions  Service  Light Liquid  Heavy \nLiquid  Gas/Vapor  Light Liquid  \nPollutant  lbs/day  lbs/day  lbs/day  lbs/day  lbs/day  Lbs/hr  Lb/year  \nHexane, n -  0.00 8   -     -    0.003   0.01 1  0.0005   4.20  \nPropylene   -     -     0.218   -     0.218  0.009 1  79.41  \n \n G. Total Project TAC Emissions  \n \nThe total project annual TAC emissions are summarized in the following table.  \n  \nTotal Project TAC Emissions, lbs/year"
+      },
+      {
+        "heading": "TAC S-1560",
+        "alias": null,
+        "text": "TAC S-1560\nMarine \nCargo \nCarrier  S-1560 Loading \nOperations  S-1561 \nGenera -\ntor S-1562 \nEast \nPump S-1563 \nWest \nPump S-1564 \nSlop \nTank  Fugitives  Total \nGasoline  Diesel  \nDiesel PM  3433    4.39 7.60 7.60   3453  \nToluene   687     56.95   168.12  912 \nEthylbenzene   38.0      3.15  28.02  69 \nXylene (Total)   190 3720     15.73   169.40  4095 \nBenzene   104     8.67  7.29  120 \nNaphthalene   0.720  47.1     0.06   28.66  77 \nn-Hexane   98.40      8.16  4.20  111 \nPropylene          79.41  79 \n  \nThe total project hourly TAC emissions are summarized in the following table.  Only TACs with acute toxic triggers \nare included.  \n \nTotal Project TAC Emissions, lbs/hour"
+      },
+      {
+        "heading": "TAC S-1560",
+        "alias": null,
+        "text": "TAC S-1560\nMarine \nCargo \nCarrier  S-1560 Loading \nOperations  S-1561 \nGenera -\ntor S-1562 \nEast \nPump S-1563 \nWest \nPump S-1564 \nSlop \nTank  Fugitives  Total \nGasoline  Diesel  \nToluene   0.0938      0.3850  0.019 2 0.498 0 \nXylene (Total)   0.02589  0.900     0.1060  0.0193 1.051 2 \nBenzene   0.01426      0.0586  0.000 8 0.073 6"
+      },
+      {
+        "heading": "HEALTH RISK ASSESSMENT",
+        "alias": null,
+        "text": "HEALTH RISK ASSESSMENT\nMENT  \n All of  the toxic emissions go down slightly due to the final fugitive component count.  Therefore, a revised risk \nscreen is not required."
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nS   \n \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 57 of 60 \n    \nOffsets are required per Regulation 2 -2-302 because Tesoro emits more than 35 tpy of POC and 35 tpy of NOx \nemissions.   Regulation 2 -2-302 requires that offsets for POC and NOx be provided at a ratio of 1.15 to 1.0.  \nRegulation 2 -2-303 requires that a Major Facility must pay offsets for PM10 and SO2 in excess of 1.0 ton per year \nfor new or modified sources.  Regulation 2 -2-303 requires that offsets for PM10 and SO2 be provided at a ratio of \n1.0 to 1.0.  \n \nThe total project cumulative increase,  and the offse t requirements, are summarized in the following table.  \n \nTotal Cumulative Increase, tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nTotal Emissions for New \nSources  189.191  34.633  32.730 4.167  9.372  \nTotal Contemporaneous \nEmissions Reductions  42.121  8.361  3.467  1.023  1.876  \nProject Offset Totals  147.070  26.272  29.2 63 3.144  7.496  \nOffset Ratio  1.15:1.0  NA 1.15:1.0  1.0:1.0  1.0:1.0  \nRequired Offsets  169.130    33.6 52 3.144  7.496  \nBank 915  8.063     3.525  \nBank 968    7.983    \nBank 1144  161.067      3.144  3.971  \nBank 1568    18.096   \nBank 1572    5.049    \nBank 1571      0.100      \nBank 1570    1.175    \nBank 1569    1.249    \n After the required offsets are surrendered, the banking certificates will have the following credits remaining.  \n \nRemaining Credits, tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nBank 915  0.000  2.938  0.000  0.000  0.000  \nBank 968  0.000  0.000  0.000  0.000  0.000  \nBank 1144  75.788  19.912  0.000  8.454  2893.006  \nBank 1568  0.000  0.000  0.451 0.000  0.000  \nBank 1572  0.000  0.000  0.000  0.000  0.000  \nBank 1571  0.000  0.000  0.000  0.000  0.000  \nBank 1570  0.000  0.000  0.000  0.000  0.000  \nBank 1569  0.000  0.000  0.000  0.000  0.000"
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nONS  \n \nNew Permit Condition 26406 will be revised as follows:  \n \n \nCondition 26406  \n \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 58 of 60 \n    \nApplication 27790, January 2017.  \nAvon Wharf MOTEMS Project  \nS-1560 Avon Wharf Berth 1A, abated by  \nA-1560 Avon Wharf Berth 1A Marine Vapor Recovery System \n 1. The owner/operator shall not operate S- 1560 Berth 1A unless the total \nproduct transferred at S -1560 does not exceed 30,000,000 barrels in any \nconsecutive 12 -month period.  The owner/operator shall not transfer any Crude \nOil at S- 1560 Berth 1A.  (basis: Cumulative Increase, Offsets)  \n 2. Emissions for Cargo Carrier (Barges and Tankers) calls to S- 1560 Be rth 1A \nshall not exceed the following fully offset limits:  \nNOx:  188.825 tons/year  \nCO: 34.425 tons/year  \nPOC:  10.743 tons/year  \nPM10:  4.157 tons/year  \nSO2:  9.372 tons/year  \n(basis: Cumulative Increase, Offsets)  \n 3. The owner/operator of S -1560 shall demonstr ate compliance with the \nthroughput limit in Part 1 by recording the monthly volumes of material loaded and unloaded at S -1560.  Monthly throughput shall be totaled on a consecutive \n12-month basis.  The owner/operator shall demonstrate compliance with the \nemission limits in Part 2 by showing annual loading and unloading throughput, \non a calendar year basis, is less than 30,000,000 barrels per year.  (basis: \nCumulative Increase, Offsets)  \n \n4. The owner/operator shall operate S -1560 only when POC emissions from  \nproduct loading operations do not exceed the fully offset limit of 20.00 tons/year.  The owner/operator shall record the quantity of each material loaded onto vessels at S -1560 and perform the emission calculations required to \ndemonstrate compliance using  the following emission factors (pounds per 1000 \ngallons loaded) and assuming a destruction efficiency of 98.5% for controlled loading.   \n Gasoline/Components loaded onto Tanker  1.8 \n Gasoline/Components loaded onto Barge  3.4 \n Diesel loaded onto Tanker    0.005 \n Diesel loaded onto Barge    0.012  \n Residual Oil loaded onto Tanker   0.00004  \n Residual Oil loaded onto Barge   0.00009  \n(basis: Cumulative Increase, Offsets)  \n 5.  The owner/operator may only use a different methodology and/or \ndifferent assumptions to demonstrate compliance with Part 4 when approved in advance by the District.  (basis: Cumulative Increase, Offsets)  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 59 of 60 \n    \n \n6. The owner/operator of S -1560 Berth 1A shall not  load any regulated \nmaterials, including gasoline, gasoline blending stocks, aviation gas, or JP -4 \nunless the entire loading operation is abated with A -1560 Marine Vapor \nRecovery System.  (basis: Cumulative Increase, Offsets)  7. The owner/operator shall install and maintain a Pressure \nRecorder/Controller in the vapor recovery system to provide a permanent record of pressure during the loading of vessels. These records shall be maintained for a minimum of 5 years. (basis: Cumulative Increase)  \n \n8. Not less f requently than every six months, the owner/operator shall \nconduct tests to assess leakage from all relief valves that vent to atmosphere in \nthe marine vapor recovery system.  The owner/operator shall ensure that the \ntesting and record keeping are done in c ompliance with Regulation 8, Rule 18.  \n(basis: Cumulative Increase, Regulation 8 -18) \n 9. Deleted.  Tesoro provided the final fugitive component counts 5/4/2017.   \nThe total permitted fully offset fugitive POC emissions for the Avon Wharf MOTEMS project are 783  lbs/year.  (basis: Cumulative Increase, Offsets)  \n 10. Deleted.  Offsets were a djusted according to the final fugitive component \ncount.   \n \n11. The Owner/Operator shall maintain a District -approved record containing \nall measurements of type of material and quantity of material loaded and unloaded over Avon Wharf Berth 1A.  This information shall be kept available for District inspection for a period of at least 5 years following  the date on which \nsuch measurements, records or data are made or recorded. (basis: Recordkeeping)    12. Deleted.  S -100 was permanently decommissioned and  the permits for S -\n100, S -108, S -1508  and S -1509  have been surrendered ."
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND \n \nThe Tesoro Refining & Marketing Company LLC.  (Tesoro) has started up the Avon Wharf \nMOTEMS Project, including the following equipment:  \n \nS-1560  Avon Wharf Berth 1A, abated by  \nA-1560  Vapor Recovery System for Avon Wharf Berth 1A  \nS-1561  Emergency Diesel Generator, Caterpillar Model C9, 398 Bhp  \nS-1562  East Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp  \nS-1563  West Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp  \nS-1564  Recovered Oil Fixed Roof Tank A -938, 3800 gallons  \n \nTesoro has provided the final fugitive component counts for this project.  This addendum \nupdates the project fugitive emissions and the project cumulative increase.  POC Emission Offsets will be reduced slightly, from 33.669 tons to 33.652 tons.  \n This Project also includes removing the following equipment from the Permit to Operate:  \n \nS-100 Avon Wharf Loading Berth 1 (to be decommissioned)  \nS-108 Avon Wharf Berth 5 (to be demolished)  \nS-1469  Avon Wharf Firewater Pump Engine, 400 HP (to be demolished)  \nS-1508  Avon Berth 1 Recovered Oil Tank (to be decommissioned) \nS-1509  Avon Berth 5 Recovered Oil Tank (to be demolished)  \n This addendum only includes the sections of the 1/9/2017 final engineering evaluation that are \nchanged by the final fugitive component counts."
+      },
+      {
+        "heading": "EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSION CALCULATIONS\nNS  \n \nOnly the project fugitive emission calculations are changed by this addendum.  \n \nE.  Project Fugitive Emissions  \n \nTotal final  fugitive components for the project have been provided by Tesoro on May 4, 2017, and are summarized \nin the following table, showing the changes fr om the original estimated component counts.  \n \n \nComponent \nType Service Type Potential \nEmission Factor  \n(lb/hour/source)  S-1560 \nBerth \n1A A-1560 \nVapor \nRecovery  S-1564 \nSlop \nTank  Total \nCompo -\nnents  Emissions \nlb/day  \nValves  Gas/Vapor  1.56E -04 0 17 0   17  0.064  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 54 of 60 \n    \nComponent \nType Service Type Potential \nEmission Factor  \n(lb/hour/source)  S-1560 \nBerth \n1A A-1560 \nVapor \nRecovery  S-1564 \nSlop \nTank  Total \nCompo -\nnents  Emissions \nlb/day  \nLight Liquid  1.56E -04 25 0 4   29  0.109  \nHeavy Liquid  1.56E -04 12 0 0   12  0.045  \nFlanges/ \nConnectors Gas/Vapor  2.58E -04 0 56 0   56  0.347  \nLight Liquid  2.58E -04 31 0 14   45  0.279  \nHeavy Liquid  2.58E -04 9 0 0    9  0.056  \nPSV's  Gas/Vapor  1.04E -03 0 1 0    1  0.025  \nLight Liquid  1.04E -03 2 0 3    5  0.124  \nHeavy Liquid  1.04E -03 3 0 0    3  0.075  \nPumps Light Liquid  5.33E- 03 6 0 2    8  1.024  \nHeavy Liquid  5.33E- 03 0 0 0    0 0 \nTotal Fugitive Emissions Lbs/Day  2.146  \nLbs/Year  783 \nTons/Year  0.392 \n \n \nTOTAL PROJECT CUMULATIVE INCREASE  \n \nThe following table summarized the final cumulative increase for this project.  \n \nAvon MOTEMS Project Cumulative Increase, Tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nEmissions for New Sources  \nS-1560 Marine Cargo \nCarrier  188.8245  34.425  10.743  4.157  9.372  \nS-1560 Material \nLoading    20.000    \nS-1561 Diesel \nGenerator  0.056  0.022  0.004  0.002  0 \nS-1562 Diesel \nFirewater Pump  0.155  0.093  0.004  0.004  0 \nS-1563 Diesel \nFirewater Pump  0.155  0.093  0.004  0.004  0 \nS-1564 Recovered Oil \nTank    1.583    \nFugitive Emissions    0.392   \nTotal Emissions for \nNew Sources  189.191  34.633  32.730 4.167  9.372  \nContemporaneous Emissions Reductions  \nS-100 Berth 1 Cargo \nCarrier Emissions  42.121  8.361  2.490  1.023  1.876  \nS-100 Berth 1 \nLoading Operations    0.893    \nS-100 Berth 1 Vapor \nRecovery System    0.084    \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 55 of 60 \n    \nAvon MOTEMS Project Cumulative Increase, Tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nEmissions for New Sources  \nTotal \nContemporaneous"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\nReductions  42.121  8.361  3.467  1.023  1.876  \nTotal Cumulative Increase  \nProject Totals  147.070  26.272  29.2 63 3.144  7.496  \n \n \nEMISSIONS OF TOXIC AIR CONTAMINENTS (TACs)  \n \nOnly the fugitive TAC emissions have changed in this addendum.  \n F. Fugitive TAC Emissions  \n \nTotal fugitive POC emissions were calculated in Part E of the Emission Calculations section above.  Fugitive TAC emissions are estimating using the approach summarized in the following table.  \n \nDevice  S-1560  A-1560  S-1564  \nService  Light Liquid  Heavy Liquid  Gas/Vapor  Light Liquid  \nCalculation \nApproach  Composition of \nLiquid Gasoline  Composition of \nLiquid Diesel  Enrichment Gas \nComposition  Composition of \nLiquid Gasoline  \nTAC Concentrations  \nToluene  30%    30%  \nEthylbenzene  5.0%    5.0%  \nXylene  30%  2%  30%  \nBenzene  1.3%    1.3%  \nNaphthalene  5% 1%  5% \nHexane, n - 0.75%    0.75%  \nPropylene    50%   \n Applying the TAC concentrations above to the total final fugitive POC emissions results in the fugitive TAC \nemissions summarized in the following table.  \n \nDevice  S-1560  A-1560  S-1564  \nTotal Emissions  Service  Light Liquid  Heavy \nLiquid  Gas/Vapor  Light Liquid  \nPollutant  lbs/day  lbs/day  lbs/day  lbs/day  lbs/day  Lbs/hr  Lb/year  \nTotal POC   1.103   0.175   0.435   0.432   2.146   0.0894   783  \nToluene   0.331   -     -    0.130   0.461  0.019 2  168.12  \nEthylbenzene   0.05 5   -     -    0.022   0.077  0.003 2  28.02  \nXylene   0.331   0.00 4   -    0.130   0.464  0.0193  169.40  \nBenzene   0.01 4   -     -    0.006   0.02 0  0.000 8  7.29  \nNaphthalene   0.05 5   0.002   -    0.022   0.079  0.003 3  28.66  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 56 of 60 \n    \nDevice  S-1560  A-1560  S-1564  \nTotal Emissions  Service  Light Liquid  Heavy \nLiquid  Gas/Vapor  Light Liquid  \nPollutant  lbs/day  lbs/day  lbs/day  lbs/day  lbs/day  Lbs/hr  Lb/year  \nHexane, n -  0.00 8   -     -    0.003   0.01 1  0.0005   4.20  \nPropylene   -     -     0.218   -     0.218  0.009 1  79.41  \n \n G. Total Project TAC Emissions  \n \nThe total project annual TAC emissions are summarized in the following table.  \n  \nTotal Project TAC Emissions, lbs/year  \nTAC S-1560 \nMarine \nCargo \nCarrier  S-1560 Loading \nOperations  S-1561 \nGenera -\ntor S-1562 \nEast \nPump S-1563 \nWest \nPump S-1564 \nSlop \nTank  Fugitives  Total \nGasoline  Diesel  \nDiesel PM  3433    4.39 7.60 7.60   3453  \nToluene   687     56.95   168.12  912 \nEthylbenzene   38.0      3.15  28.02  69 \nXylene (Total)   190 3720     15.73   169.40  4095 \nBenzene   104     8.67  7.29  120 \nNaphthalene   0.720  47.1     0.06   28.66  77 \nn-Hexane   98.40      8.16  4.20  111 \nPropylene          79.41  79 \n  \nThe total project hourly TAC emissions are summarized in the following table.  Only TACs with acute toxic triggers \nare included.  \n \nTotal Project TAC Emissions, lbs/hour  \nTAC S-1560 \nMarine \nCargo \nCarrier  S-1560 Loading \nOperations  S-1561 \nGenera -\ntor S-1562 \nEast \nPump S-1563 \nWest \nPump S-1564 \nSlop \nTank  Fugitives  Total \nGasoline  Diesel  \nToluene   0.0938      0.3850  0.019 2 0.498 0 \nXylene (Total)   0.02589  0.900     0.1060  0.0193 1.051 2 \nBenzene   0.01426      0.0586  0.000 8 0.073 6 \n \n \nHEALTH RISK ASSESSMENT  \n All of  the toxic emissions go down slightly due to the final fugitive component count.  Therefore, a revised risk \nscreen is not required."
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nS   \n \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 57 of 60 \n    \nOffsets are required per Regulation 2 -2-302 because Tesoro emits more than 35 tpy of POC and 35 tpy of NOx \nemissions.   Regulation 2 -2-302 requires that offsets for POC and NOx be provided at a ratio of 1.15 to 1.0.  \nRegulation 2 -2-303 requires that a Major Facility must pay offsets for PM10 and SO2 in excess of 1.0 ton per year \nfor new or modified sources.  Regulation 2 -2-303 requires that offsets for PM10 and SO2 be provided at a ratio of \n1.0 to 1.0.  \n \nThe total project cumulative increase,  and the offse t requirements, are summarized in the following table.  \n \nTotal Cumulative Increase, tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nTotal Emissions for New \nSources  189.191  34.633  32.730 4.167  9.372  \nTotal Contemporaneous \nEmissions Reductions  42.121  8.361  3.467  1.023  1.876  \nProject Offset Totals  147.070  26.272  29.2 63 3.144  7.496  \nOffset Ratio  1.15:1.0  NA 1.15:1.0  1.0:1.0  1.0:1.0  \nRequired Offsets  169.130    33.6 52 3.144  7.496  \nBank 915  8.063     3.525  \nBank 968    7.983    \nBank 1144  161.067      3.144  3.971  \nBank 1568    18.096   \nBank 1572    5.049    \nBank 1571      0.100      \nBank 1570    1.175    \nBank 1569    1.249    \n After the required offsets are surrendered, the banking certificates will have the following credits remaining.  \n \nRemaining Credits, tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nBank 915  0.000  2.938  0.000  0.000  0.000  \nBank 968  0.000  0.000  0.000  0.000  0.000  \nBank 1144  75.788  19.912  0.000  8.454  2893.006  \nBank 1568  0.000  0.000  0.451 0.000  0.000  \nBank 1572  0.000  0.000  0.000  0.000  0.000  \nBank 1571  0.000  0.000  0.000  0.000  0.000  \nBank 1570  0.000  0.000  0.000  0.000  0.000  \nBank 1569  0.000  0.000  0.000  0.000  0.000"
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nONS  \n \nNew Permit Condition 26406 will be revised as follows:  \n \n \nCondition 26406  \n \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 58 of 60 \n    \nApplication 27790, January 2017.  \nAvon Wharf MOTEMS Project  \nS-1560 Avon Wharf Berth 1A, abated by  \nA-1560 Avon Wharf Berth 1A Marine Vapor Recovery System \n 1. The owner/operator shall not operate S- 1560 Berth 1A unless the total \nproduct transferred at S -1560 does not exceed 30,000,000 barrels in any \nconsecutive 12 -month period.  The owner/operator shall not transfer any Crude \nOil at S- 1560 Berth 1A.  (basis: Cumulative Increase, Offsets)  \n 2. Emissions for Cargo Carrier (Barges and Tankers) calls to S- 1560 Be rth 1A \nshall not exceed the following fully offset limits:  \nNOx:  188.825 tons/year  \nCO: 34.425 tons/year  \nPOC:  10.743 tons/year  \nPM10:  4.157 tons/year  \nSO2:  9.372 tons/year  \n(basis: Cumulative Increase, Offsets)  \n 3. The owner/operator of S -1560 shall demonstr ate compliance with the \nthroughput limit in Part 1 by recording the monthly volumes of material loaded and unloaded at S -1560.  Monthly throughput shall be totaled on a consecutive \n12-month basis.  The owner/operator shall demonstrate compliance with the \nemission limits in Part 2 by showing annual loading and unloading throughput, \non a calendar year basis, is less than 30,000,000 barrels per year.  (basis: \nCumulative Increase, Offsets)  \n \n4. The owner/operator shall operate S -1560 only when POC emissions from  \nproduct loading operations do not exceed the fully offset limit of 20.00 tons/year.  The owner/operator shall record the quantity of each material loaded onto vessels at S -1560 and perform the emission calculations required to \ndemonstrate compliance using  the following emission factors (pounds per 1000 \ngallons loaded) and assuming a destruction efficiency of 98.5% for controlled loading.   \n Gasoline/Components loaded onto Tanker  1.8 \n Gasoline/Components loaded onto Barge  3.4 \n Diesel loaded onto Tanker    0.005 \n Diesel loaded onto Barge    0.012  \n Residual Oil loaded onto Tanker   0.00004  \n Residual Oil loaded onto Barge   0.00009  \n(basis: Cumulative Increase, Offsets)  \n 5.  The owner/operator may only use a different methodology and/or \ndifferent assumptions to demonstrate compliance with Part 4 when approved in advance by the District.  (basis: Cumulative Increase, Offsets)  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 59 of 60 \n    \n \n6. The owner/operator of S -1560 Berth 1A shall not  load any regulated \nmaterials, including gasoline, gasoline blending stocks, aviation gas, or JP -4 \nunless the entire loading operation is abated with A -1560 Marine Vapor \nRecovery System.  (basis: Cumulative Increase, Offsets)  7. The owner/operator shall install and maintain a Pressure \nRecorder/Controller in the vapor recovery system to provide a permanent record of pressure during the loading of vessels. These records shall be maintained for a minimum of 5 years. (basis: Cumulative Increase)  \n \n8. Not less f requently than every six months, the owner/operator shall \nconduct tests to assess leakage from all relief valves that vent to atmosphere in \nthe marine vapor recovery system.  The owner/operator shall ensure that the \ntesting and record keeping are done in c ompliance with Regulation 8, Rule 18.  \n(basis: Cumulative Increase, Regulation 8 -18) \n 9. Deleted.  Tesoro provided the final fugitive component counts 5/4/2017.   \nThe total permitted fully offset fugitive POC emissions for the Avon Wharf MOTEMS project are 783  lbs/year.  (basis: Cumulative Increase, Offsets)  \n 10. Deleted.  Offsets were a djusted according to the final fugitive component \ncount.   \n \n11. The Owner/Operator shall maintain a District -approved record containing \nall measurements of type of material and quantity of material loaded and unloaded over Avon Wharf Berth 1A.  This information shall be kept available for District inspection for a period of at least 5 years following  the date on which \nsuch measurements, records or data are made or recorded. (basis: Recordkeeping)    12. Deleted.  S -100 was permanently decommissioned and  the permits for S -\n100, S -108, S -1508  and S -1509  have been surrendered ."
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nTION  \n \nIt is recommended that a Permit to Operate be granted  to Tesoro Refining & Marketing Company LLC for the \nfollowing sources:  \n \nS-1560  Avon Wharf Berth 1A, abated by  \nA-1560  Vapor Recovery System for Avon Wharf Berth 1A  \nS-1561  Emergency Diesel Generator, Caterpillar Model C9, 398 Bhp  \nS-1562  East Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp  \nS-1563  West Avon Wharf Emergency Diesel Firewater Pump, Caterpillar Model C18, 700 Bhp  \nS-1564  Recovered Oil Fixed Roof Tank A -938, 3800 gallons  \n \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 60 of 60 \n    \n \nBy:  \n Arthur P Valla  \n Senior Air Quality Engineer  \n6/15/17"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION  ADDENDUM",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION  ADDENDUM\nTesoro Refining & Marketing Company LLC"
+      },
+      {
+        "heading": "PLANT NO. 14628",
+        "alias": null,
+        "text": "PLANT NO. 14628"
+      },
+      {
+        "heading": "APPLICATION NO. 27990",
+        "alias": null,
+        "text": "APPLICATION NO. 27990"
+      },
+      {
+        "heading": "AVON WHARF MOTEMS PROJECT",
+        "alias": null,
+        "text": "AVON WHARF MOTEMS PROJECT"
+      },
+      {
+        "heading": "TOTAL PROJECT CUMULATIVE INCREASE",
+        "alias": null,
+        "text": "TOTAL PROJECT CUMULATIVE INCREASE\nEASE  \n \nThe following table summarized the final cumulative increase for this project.  \n \nAvon MOTEMS Project Cumulative Increase, Tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nEmissions for New Sources  \nS-1560 Marine Cargo \nCarrier  188.8245  34.425  10.743  4.157  9.372  \nS-1560 Material \nLoading    20.000    \nS-1561 Diesel \nGenerator  0.056  0.022  0.004  0.002  0 \nS-1562 Diesel \nFirewater Pump  0.155  0.093  0.004  0.004  0 \nS-1563 Diesel \nFirewater Pump  0.155  0.093  0.004  0.004  0 \nS-1564 Recovered Oil \nTank    1.583    \nFugitive Emissions    0.392   \nTotal Emissions for \nNew Sources  189.191  34.633  32.730 4.167  9.372  \nContemporaneous Emissions Reductions  \nS-100 Berth 1 Cargo \nCarrier Emissions  42.121  8.361  2.490  1.023  1.876  \nS-100 Berth 1 \nLoading Operations    0.893    \nS-100 Berth 1 Vapor \nRecovery System    0.084    \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 55 of 60 \n    \nAvon MOTEMS Project Cumulative Increase, Tons  \nPollutant  NO X CO POC  PM 10 SO 2 \nEmissions for New Sources  \nTotal \nContemporaneous \nEmissions \nReductions  42.121  8.361  3.467  1.023  1.876  \nTotal Cumulative Increase  \nProject Totals  147.070  26.272  29.2 63 3.144  7.496  \n \n \nEMISSIONS OF TOXIC AIR CONTAMINENTS (TACs)  \n \nOnly the fugitive TAC emissions have changed in this addendum.  \n F. Fugitive TAC Emissions  \n \nTotal fugitive POC emissions were calculated in Part E of the Emission Calculations section above.  Fugitive TAC emissions are estimating using the approach summarized in the following table.  \n \nDevice  S-1560  A-1560  S-1564  \nService  Light Liquid  Heavy Liquid  Gas/Vapor  Light Liquid  \nCalculation \nApproach  Composition of \nLiquid Gasoline  Composition of \nLiquid Diesel  Enrichment Gas \nComposition  Composition of \nLiquid Gasoline  \nTAC Concentrations  \nToluene  30%    30%  \nEthylbenzene  5.0%    5.0%  \nXylene  30%  2%  30%  \nBenzene  1.3%    1.3%  \nNaphthalene  5% 1%  5% \nHexane, n - 0.75%    0.75%  \nPropylene    50%   \n Applying the TAC concentrations above to the total final fugitive POC emissions results in the fugitive TAC \nemissions summarized in the following table.  \n \nDevice  S-1560  A-1560  S-1564  \nTotal Emissions  Service  Light Liquid  Heavy \nLiquid  Gas/Vapor  Light Liquid  \nPollutant  lbs/day  lbs/day  lbs/day  lbs/day  lbs/day  Lbs/hr  Lb/year  \nTotal POC   1.103   0.175   0.435   0.432   2.146   0.0894   783  \nToluene   0.331   -     -    0.130   0.461  0.019 2  168.12  \nEthylbenzene   0.05 5   -     -    0.022   0.077  0.003 2  28.02  \nXylene   0.331   0.00 4   -    0.130   0.464  0.0193  169.40  \nBenzene   0.01 4   -     -    0.006   0.02 0  0.000 8  7.29  \nNaphthalene   0.05 5   0.002   -    0.022   0.079  0.003 3  28.66  \nTesoro Refining and Marketing Company  June 12, 2020  Application #29278  \nPlant # 14628   Page 56 of 60 \n    \nDevice  S-1560  A-1560  S-1564  \nTotal Emissions  Service  Light Liquid  Heavy \nLiquid  Gas/Vapor  Light Liquid  \nPollutant  lbs/day  lbs/day  lbs/day  lbs/day  lbs/day  Lbs/hr  Lb/year  \nHexane, n -  0.00 8   -     -    0.003   0.01 1  0.0005   4.20  \nPropylene   -     -     0.218   -     0.218  0.009 1  79.41  \n \n G. Total Project TAC Emissions  \n \nThe total project annual TAC emissions are summarized in the following table.  \n  \nTotal Project TAC Emissions, lbs/year"
+      },
+      {
+        "heading": "TAC S-1560",
+        "alias": null,
+        "text": "TAC S-1560\nMarine \nCargo \nCarrier  S-1560 Loading \nOperations  S-1561 \nGenera -\ntor S-1562 \nEast \nPump S-1563 \nWest \nPump S-1564 \nSlop \nTank  Fugitives  Total \nGasoline  Diesel  \nDiesel PM  3433    4.39 7.60 7.60   3453  \nToluene   687     56.95   168.12  912 \nEthylbenzene   38.0      3.15  28.02  69 \nXylene (Total)   190 3720     15.73   169.40  4095 \nBenzene   104     8.67  7.29  120 \nNaphthalene   0.720  47.1     0.06   28.66  77 \nn-Hexane   98.40      8.16  4.20  111 \nPropylene          79.41  79 \n  \nThe total project hourly TAC emissions are summarized in the following table.  Only TACs with acute toxic triggers \nare included.  \n \nTotal Project TAC Emissions, lbs/hour"
+      },
+      {
+        "heading": "TAC S-1560",
+        "alias": null,
+        "text": "TAC S-1560\nMarine \nCargo \nCarrier  S-1560 Loading \nOperations  S-1561 \nGenera -\ntor S-1562 \nEast \nPump S-1563 \nWest \nPump S-1564 \nSlop \nTank  Fugitives  Total \nGasoline  Diesel  \nToluene   0.0938      0.3850  0.019 2 0.498 0 \nXylene (Total)   0.02589  0.900     0.1060  0.0193 1.051 2 \nBenzene   0.01426      0.0586  0.000 8 0.073 6"
+      },
+      {
+        "heading": "HEALTH RISK ASSESSMENT",
+        "alias": null,
+        "text": "HEALTH RISK ASSESSMENT\nMENT  \n All of  the toxic emissions go down slightly due to the final fugitive component count.  Therefore, a revised risk \nscreen is not required."
+      }
+    ]
+  }
+}

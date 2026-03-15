@@ -1,0 +1,332 @@
+{
+  "schema_version": "v1.1-barr-custom",
+  "application_number": "29401",
+  "plant": {
+    "name": "Tesoro Refining & Marketing Company LLC (Martinez Refinery)",
+    "plant_id": "14628"
+  },
+  "evaluation_date": "2019-10-10",
+  "permit_date": "2019-11-06",
+  "project_title": "FCCU Bio-Crude Feed Project",
+  "equipment": [
+    {
+      "id": "S-802",
+      "description": "Fluid Catalytic Cracking Unit (FCCU), receiving a new Bio-Crude feed stream"
+    },
+    {
+      "id": "S-709",
+      "description": "External Floating Roof Tank, 4,746,000 gallons, storage for FCCU feedstock"
+    },
+    {
+      "id": "S-1584",
+      "description": "Track 4 Truck Unloading Terminal for Bio-Crude deliveries"
+    }
+  ],
+  "background": {
+    "text": "This Tesoro proposed project will replace \"conventional\" feed to the Tesoro fluid catalytic cracking unit (FCCU) with a new “Bio-Crude” feed stream that is derived from processed municipal solid waste. This proposed FCCU feedstock will be delivered to the refinery via truck and will be unloaded at a new Track 4 Truck Unloading Terminal, S-1584. From S-1584 the feed will be transferred to a new storage tank S-709. The stored feed will then be pumped to the existing FCCU feed lines and preheat exchangers for final heating prior to being injected into the FCCU reactor. The process flow diagram for the bio-crude feed project is provided in Appendix A of this evaluation report."
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Project fugitive components are integrated refinery-wide under the LDAR program. Predicted counts and a permitted fugitive cap are established; offsets must be trued up if actual counts differ.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": [
+          [
+            "Valves",
+            "Light liquid",
+            23
+          ],
+          [
+            "Pumps",
+            "Light liquid",
+            1
+          ],
+          [
+            "Pressure Relief Valves (PRVs)",
+            "Light liquid",
+            0
+          ],
+          [
+            "Connectors/Flanges",
+            "Light liquid",
+            69
+          ]
+        ]
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": 0.641,
+          "tpy": 0.117
+        }
+      }
+    },
+    "by_equipment": {
+      "S-802": {
+        "narrative": "FCCU receives the Bio-Crude feed via S-709; project-related emissions increases are limited to associated fugitives (see common_fugitives).",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Project-level values attributed to fugitives.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              0.063,
+              1.52,
+              554.13,
+              0.28
+            ]
+          ]
+        }
+      },
+      "S-709": {
+        "narrative": "Storage of new FCCU feedstock with conditions limiting POC and allowing alternate liquids under constraints.",
+        "tables": [
+          {
+            "title": "S-709 Emission/Operating Limits",
+            "columns": [
+              "Parameter",
+              "Limit/Requirement"
+            ],
+            "rows": [
+              [
+                "POC (any rolling 12 months)",
+                "≤ 5,302 lb"
+              ],
+              [
+                "NPOC (any rolling 12 months)",
+                "0 lb"
+              ],
+              [
+                "True vapor pressure of stored material",
+                "≤ 2.99 psia"
+              ]
+            ]
+          }
+        ],
+        "cumulative_increase_table": {
+          "note": "Project-level values attributed to fugitives.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              0.063,
+              1.52,
+              554.13,
+              0.28
+            ]
+          ]
+        }
+      },
+      "S-1584": {
+        "narrative": "Truck unloading only (no loading). Daily and 12-month throughput limits apply to Bio-Crude deliveries.",
+        "tables": [
+          {
+            "title": "S-1584 Material Throughput Limits",
+            "columns": [
+              "Material",
+              "Daily Limit (gal)",
+              "12-Month Limit (gal)"
+            ],
+            "rows": [
+              [
+                "Bio-Crude",
+                67200,
+                12264000
+              ]
+            ]
+          }
+        ],
+        "cumulative_increase_table": {
+          "note": "Project-level values attributed to fugitives.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              0.063,
+              1.52,
+              554.13,
+              0.28
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "narrative": "Project emissions do not exceed Regulation 2-5 risk screening trigger levels; therefore, a Health Risk Assessment is not required."
+  },
+  "offsets": {
+    "narrative": "Offsets for POC apply at 1.15:1 if the project’s net POC increase is subject to Reg 2-2-302. Final offset requirements are trued up based on actual fugitive counts.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          0.28,
+          "1.15 : 1",
+          0.322
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "PSD does not apply; the project does not constitute a major modification at a major stationary source."
+  },
+  "CEQA": {
+    "narrative": "Ministerial action exempt from CEQA; the evaluation applies objective, fixed standards and qualifies under the District’s ministerial provisions. A Notice of Exemption was filed."
+  },
+  "Statement_of_Compliance": {
+    "FCCU": {
+      "findings": [
+        "Project components covered under facility LDAR program.",
+        "Title V references updated to include new permit Condition 27082 for S-802."
+      ]
+    },
+    "StorageTank": {
+      "findings": [
+        "Operate S-709 within POC and TVP limits; alternate liquids only under stated constraints.",
+        "Title V references updated to include Condition 27082 for S-709."
+      ]
+    },
+    "TruckUnloadingTerminal": {
+      "findings": [
+        "S-1584 limited to unloading service; apply sweeping/road-dust controls; abide by daily/annual throughput limits."
+      ]
+    }
+  },
+  "permit_conditions": {
+    "condition_number": 27082,
+    "items": [
+      {
+        "num": 1,
+        "text": "S-802 total petroleum throughput ≤ 75,000 bbl/day.",
+        "basis": [
+          "Cumulative Increase",
+          "Toxics",
+          "Offsets"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "Allow ≤ 800 bbl/day of non-petroleum Bio-Crude at S-802 within Part 1 limit.",
+        "basis": [
+          "Cumulative Increase",
+          "Toxics",
+          "Offsets"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "S-709 12-mo limits: Bio-Crude 12,264,000 gal; LSVGO 36,792,000 gal; ≤ 37% Bio-Crude by volume; TVP ≤ 2.99 psia.",
+        "basis": [
+          "Cumulative Increase",
+          "Toxics",
+          "Offsets"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "Alternate liquids at S-709 allowed if: POC ≤ 5,302 lb/yr; NPOC = 0 lb/yr; TVP ≤ 2.99 psia; no toxics above Reg 2-5 triggers.",
+        "basis": [
+          "Cumulative Increase",
+          "BACT Avoidance",
+          "Toxics"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "S-1584 not used for loading; extend sweeping per Cond. 23129, Part 48 to all roads to/from S-1584.",
+        "basis": [
+          "Offsets",
+          "Dust Control"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "S-1584 unloading limits: ≤ 67,200 gal/day and ≤ 12,264,000 gal/12-mo.",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics"
+        ]
+      },
+      {
+        "num": 7,
+        "text": "Within 30 days after startup: submit final fugitive component counts. Permitted POC fugitives: 0.641 lb/day and 0.117 tpy (23 valves, 1 pump, 0 PRVs, 69 connectors/flanges; light liquid).",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics"
+        ]
+      },
+      {
+        "num": 8,
+        "text": "If actual fugitive counts increase, adjust cumulative emissions and supply offsets at 1.15:1 within 14 days; if lower, excess offsets credited back.",
+        "basis": [
+          "Offsets"
+        ]
+      },
+      {
+        "num": 9,
+        "text": "Integrate all project fugitive components into facility LDAR program.",
+        "basis": [
+          "Reg 8-18"
+        ]
+      },
+      {
+        "num": 10,
+        "text": "Recordkeeping: daily unloaded/stored/processed; event-level transfers to S-709; monthly lab analyses (composition & TVP); 12-month rolling totals; retain ≥ 5 years.",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "Update the Title V permit to reference new permit Condition 27082 and reflect project sources and limits.",
+    "revisions": [
+      "Add or update Condition 27082 references in applicable sections.",
+      "Include S-1584 as a permitted source and incorporate associated recordkeeping.",
+      "Update S-709 limits and alternative-liquid allowance language consistent with Condition 27082.",
+      "Align facility-wide LDAR inventory and monitoring with project fugitive components."
+    ],
+    "affected_sources": [
+      "S-802",
+      "S-709",
+      "S-1584"
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+---
+rule_number: Regulation 11, Rule 17
+title: Regulation 11, Rule 17: Limited Use Stationary Compression Ignition (Diesel) Engines in Agricultural Use
+source_url: https://www.baaqmd.gov/~/media/dotgov/files/rules/regulation-11-rule-17--limited-use-stationary-compression-ignition-diesel-engines-in-agricultural-us/documents/rg1117.pdf?rev=a7655641edef4d689967fd3fc2ac9417&sc_lang=en
+local_pdf: C:\Users\aaw\Codex\BAAD Engr Evals\baaqmd_rules\pdfs\rule-regulation-11-rule-17.pdf
+rule_page_url: https://www.baaqmd.gov/en/rules-and-compliance/rules/regulation-11-rule-17--limited-use-stationary-compression-ignition-diesel-engines-in-agricultural-us
+version_status: Adopted
+adopted: 2011-05-18T00:00:00
+amended: 0001-01-01T00:00:00
+source_json: C:/Users/aaw/Codex/BAAD Engr Evals/baaqmd_rules/json/rule-regulation-11-rule-17.json
+---
+
+# Regulation 11, Rule 17: Limited Use Stationary Compression Ignition (Diesel) Engines in Agricultural Use
+
+## Description
+
+The purpose of this rule is to reduce public exposure to air toxics from stationary compression ignition (diesel) engines used in agricultural operations within the District.
+
+## Contact
+
+N/A
+
+## Sections
+
+### 100 GENERAL
+
+### 101 Description
+
+The purpose of this rule is to reduce public exposure to air toxics from stationary compression ignition (diesel) engi nes used in agricultural operations within the District. This rule is adopted pursuant to Section 39666 of the California Health and Safety Code, to implement the provisions of the Airborne Toxic Control Measure
+
+#### (ATCM)
+
+for Stationary Compression Igniti on Engines adopted by the California Air Resources Board (Sections 93115 through 93115.15, Title 17, of the California Code of Regulations) that apply to stationary diesel engines used in agricultural operations, effective October 18, 2007. In addition, this rule provides an exemption for very lowuse stationary agricultural diesel engines, and an alternate compliance schedule for low-use stationary agricultural diesel engines.
+
+### 102 Applicability
+
+This rule applies to any person who owns or operates any stationary compression ignition (diesel) engine used in agricultural operations with greater than 50 brake horsepower within the District.
+
+### 103 Exemption, Very Low-Use St ationary Agricultural Diesel Engines
+
+A stationary diesel engine used in agricultural operat ions that operates less than 20 hours per registration renewal period, and is located more than 1000 feet from residential areas, schools, and health facilities is ex empt from the emissions standards in the ATCM, Section 93115.8 (b).
+
+#### 103.1
+
+In order to qualify for this exemption, any person operating an engine located 1000 feet or less from a residential area, school or health facility must conduct a Health Risk Screening A nalysis (HRSA) in accordance with Regulation 2, Rule 5, Section 603 or provide the information necessary for the APCO to conduct an HRSA for that engine to demonstrate that the cancer risk from the engine, at the loca tion of the residential area, school or health facility, is less than 10 in a million and PM
+
+##### 2.5
+
+ground level concentration is less than 0.3 µg/m3, and that the cumulative cancer risk from all sources within 1000 feet is less than 100 in a million and cumulative PM 2.5 ground level concentration is less than 0.8 µg/m3. The Health Risk Screening Analysis results must be appr oved by the APCO in writing for this exemption to be valid.
+
+### 104 Limited Exemption, Low-Use St ationary Agricultural Diesel Engines
+
+The owner or operator of a stationary diesel engine used in agricultural operations may apply for an Alternate Compliance Plan schedule, as provided in Section 11-17-402, if the engine complies with the provisions of Section 11-17-302. If the Alternate Compliance Plan is approved, the engine is exempt from the emissions standards in the ATCM, Section 93115.8 (b) until the alternate compliance date specified in Section 11-17-302.
+
+### 200 DEFINITIONS
+
+### 201 Agricultural Diesel Engine Registration Program
+
+The registration program established by the District for agricultura l diesel engines as required by the ATCM, Section 93115.8 (c).
+
+### 202 Agricultural Operation
+
+For the purposes of this regulation, and to be consistent with Title 17, California Code of Regulati ons, Section 93115 et. seq., an agricultural operation is the growing and ha rvesting of crops, or the raising of fowl, animals or bees as a gainful occupation.
+
+### 203 Certified Engine
+
+A compression ignition (diesel) engine that is certified to meet the Tier 1, Tier 2, Tier 3, or Tier 4 Off-R oad Compression Ignition Certification Standards as specified in Title 13, California Code of Regulations, section 2423. Any engine not certified to meet these standards is defined as a Tier 0 engine.
+
+### 204 Extreme Frost Season
+
+Any Frost Protection Season when more than 100 hours of frost protection have been required, and the County Agricultural Commissioner declares an “Extreme Frost Season” as specified in Section 11-17-404.
+
+### 205 Frost Protection Season
+
+October 1st – May 15th of each year.
+
+### 206 Health Facility
+
+Any facility that is operated for the diagnosis, care, prevention, and treatment of human illness including conval escence and rehabilitation, and including care during and after pregnancy, as defined in Section 1250 of California Health and Safety Code.
+
+### 207 Registered Ag ricultural Equipment
+
+Diesel engines registered with the District under the Agricultural Diesel Engine Registration Program.
+
+### 208 Registration Renewal Period
+
+The one year period from the date of initial registration or the date of registration r enewal in the Agricultural Diesel Engine Registration Program.
+
+### 209 Residential Area
+
+Three or more permanent residences located anywhere outside of the agricultural facility’s property.
+
+### 210 School or School Grounds
+
+Any public or private school used for the purpose of the education of more than twelve (12) st udents. School or school grounds include any buildings or structures, playground, athlet ic field or other areas of school property but do not include unimproved or closed school properties.
+
+### 211 Stationary Agricultural Diesel Engine
+
+Any compression ignition (diesel) engine used in an agricultural operation that is designed to stay in one location, or remains in one location. An engine is stationary if it meets any of the three requirements set in ATCM 93115.4 (a) (72) (A), (B), or (C).
+
+### 300 STANDARDS
+
+### 301 Compliance Requirements
+
+Stationary agricultural diesel engines shall comply with all applicable requirements of the Airborne Toxic Control Measure (ATCM) for Stationary Compression Ignition Engines adopted by the California Air Resources Board (Section 93115 through 93115.15, Title 17, of the California Code of Regulations), effective October 18, 2007.
+
+### 302 Requirements – Alternate Compliance Plan
+
+Stationary agricultural diesel engines approved for an Alternate Compliance Plan shall meet the following requirements: 302.1 The engine must be used exclusively for an agricultural operation.
+
+#### 302.2
+
+The engine must be equipped with a non-resettable hour meter.
+
+#### 302.3
+
+The engine must be registered in th e District’s Agricultural Diesel Engine Registration Program.
+
+#### 302.4
+
+The engine must be located more th an 1000 feet from a residential area, school or health facility; or if any engi ne is located 1000 feet or less from a residential area, school or health facilit y the owner/operator must conduct a Health Risk Screening Analysis (HRS A) in accordance with Regulation 2, Rule 5, Section 603 or provide the information necessary for the APCO to conduct an HRSA for that engine to demonstrate that the cancer risk from the engine, at the location of the residenti al area, school or health facility, is less than 10 in a million and PM
+
+##### 2.5
+
+ground level concentration is less than 0.3 µg/m3, and that the cumulative cancer risk from all sources within 1000 feet is less than 100 in a million and cumulative PM 2.5 ground level concentration is less than 0.8 µg/m3.
+
+#### 302.5
+
+Engine use must average 100 hours or less per registration renewal period over any consecutive three registra tion renewal periods, and must not exceed 150 hours in any registration renewal period.
+
+#### 302.6
+
+Total use hours during each registration renewal period shall be reported as part of annual Agricultural Diesel Engine Registration renewal.
+
+#### 302.7
+
+Tier 0 engines shall be removed from service no later than December 31, 2020.
+
+#### 302.8
+
+Tier 1 engines shall be removed from service no later than December 31, 2020.
+
+#### 302.9
+
+Tier 2 engines shall be removed from service no later than December 31, 2025.
+
+#### 302.10
+
+Each Tier 0, Tier 1, or Tier 2 engi ne shall be replaced with an electric motor, certified Tier 4 engine or an engine meet ing Tier 4 emission standards, or the highest tier (lowest emissions) engine av ailable for purchase at the time of replacement.
+
+### 303 Additional Engine Use Allowed During Extreme Frost Seasons – Alternate
+
+Compliance Plan: An agricultural diesel engine may be used an additional 100 hours beyond engine use allowed in 11-17-3 02.5 during a registration renewal period when the County Agricultural Commissioner declares an Extreme Frost Season that meets the requirements in Section 11-17-404. If an Extreme Frost Season is declared in the county, one hundred (100) hours shall be excluded from an engine’s total use hours during the applicable regi stration renewal period (before averaging).
+
+### 400 ADMINISTRATIVE REQUIREMENTS
+
+### 401 Agricultural Diesel Engi ne Registration Program
+
+The owner or operator of a stationary agricultural diesel engine mu st register the engine in the District’s Agricultural Diesel Engine Registration Program, and renew registration annually.
+
+Any person registering a stationary agricultu ral diesel engine shall pay fees required as set forth in Regulation 3.
+
+### 402 Requirements for Alternate Compliance Plan Approval
+
+The APCO may grant an Alternate Compliance Plan for owners and oper ators of stationary agricultural diesel engines that meet the following conditions: 402.1 All requests for an Alternate Compliance Plan must be submitted to the District through the District’s Agricult ural Diesel Engine Registration Program after July 1, 2011, and by December 31, 2011. An application for an Alternate Compliance Plan will be accepted after December 31, 2011 only if it is for an engine previously exempt and later disqualified from the exemption in 11-17-103, as provided in 11-17-403.
+
+#### 402.2
+
+Each owner or operator must ce rtify that the engine meets all the requirements set forth in 11-17-302.
+
+#### 402.3
+
+Request for Alternate Compliance Plan must be approved in writing by the APCO.
+
+### 403 Disqualification from Exempti on or Alternate Compliance Plan Status
+
+A n y owner or operator of a stationary agricultural diesel engine that no longer qualifies for an exemption in Section 11-17-103 or 11-17 -104, or for the Alternate Compliance Plan in 11-17-302 must take the following actions: 403.1 Notify the APCO within five (5) days immediately after they become aware that the exemption or qualification for the Alternate Compliance Plan no longer applies.
+
+#### 403.2
+
+Apply for the Alternate Compliance Program as provided in Section 11-17402 within thirty (30) days of the date of notification to the APCO; or replace the existing engine with an electric moto r, a certified Tier 4 engine or an engine meeting Tier 4 emissions standards, or the highest tier (lowest emissions) engine available for purchase at the time of replacement within six (6) months of the date of notificatio n to the APCO of loss of the exemption or loss of qualification for the Alternate Compliance Plan.
+
+### 404 Declaration of Extreme Frost Season
+
+Any County Agricultural Commissioner within the jurisdiction of the District ma y declare an Extreme Frost Season if the hours needed for frost protection in that County exceed 100 hours during any Frost Protection Season.
+
+#### 404.1
+
+This declaration must be submitted to the District in writing no later than June 30 th following the end of the Frost Protection Season for the applicable season.
+
+#### 404.2
+
+The declaration must contain appropr iate meteorological documentation to support the declaration.
+
+### 500 MONITORING AND RECORDS
+
+### 501 Recordkeeping
+
+The owner or operator of a stationary agricultural diesel engine must comply with the recordkeeping, repor ting, and monitoring requirements in the ATCM as specified in the ATCM, Section 93115.10.
+
+### 502 Reporting of Stationary Agricultural Diesel Engine Use
+
+The owner or operator of a stationary agricultural diesel engine qualif ying for the exemption (Section 103), or Limited Exemption - Alternate Complianc e Plan (Section 104) shall keep a monthly log of usage that records the total hours of operation. Records shall be retained onsite for a minimum of 36 months, and made immediately available to District staff upon request. The owner or operator shall report for each renewal period total hours used as part of each engine’s annual renewal in the Exemption / Alternate Compliance Plan segment of the Agricultural Diesel Engine Registration Program.

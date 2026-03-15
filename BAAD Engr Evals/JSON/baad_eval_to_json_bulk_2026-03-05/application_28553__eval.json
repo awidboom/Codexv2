@@ -1,0 +1,531 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\split_evals\\application_28553.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 9
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "S-1572  50 2772  128.4  18.1  NOx  4.56  657 1368  0.6841\nPOC  0.24  34.6  72.0  0.0360\nCO 2.6 375 780 0.3901\nPM 10 0.15  21.6  45 0.0225\nPM 2.5 0.15  21.6  45 0.0225\nSO21 0.00175  0.011  0.525  0.0003",
+        "This Application\n(TPY)  Cumulative Emissions\n(TPY)\nNOx  0.000  0.6841  0.6841\nPOC  0.000  0.0360  0.036 0\nCO 64.727  0.3901  65.1171\nPM 10 0.832  0.0225  0.8545\nPM 2.5 0.000  0.0225  0.0225\nSO2 0.000  0.0003  0.0003",
+        "Ratio  Offsets\nRequired\n(tpy)\nSO2 0.0 0.0003  0.000  1.0 0.000\nNOx  0.0 0.6841     0.6841  1.15  0.786\nCO 64.727  0.3901    65.1171  N/A\nPOC  0.0 0.0360     0.0360  1.15  0.041\nPM-2.5 0.0 0.0225     0.0225  1.0 0.023\nPM-10 0.832  0.0225     0.8545  1.0 0.855"
+      ]
+    },
+    "application_number_detected": "28553",
+    "application_number_from_filename": "28553"
+  },
+  "application_number": "28553",
+  "plant": {
+    "name": "Tesoro Refining & Marketing Company LLC",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": "December 31, 2008",
+  "permit_date": null,
+  "project_title": "4Gas Emergency Generator",
+  "equipment": [
+    {
+      "id": "S-1572",
+      "description": "Emergency Standby Diesel Generator Set"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nND  \n \nTesoro Refinery has applied to obtain an Authority to Construct (AC) and/or a Permit to Operate \n(PO) for the following equipment:  \n \nS-1572  Emergency Standby Diesel Generator Set  \n2010 Caterpillar, Model: 3516C  \n2722 bhp, 18.1 MMBtu/hr  \nModel Year 2010, EPA Ti er 2 Engine  \n \nThe Emergency Diesel Engine Generator Set (S1572) will be located at the No 4 Gas Plant in \nTesoro and is equipped with the best available control technology (BACT) for minimizing the \nrelease of air borne criteria pollutants and harmful air toxins due to fu el combustion.  The criteria \npollutants are nitrogen oxides (NOx), carbon monoxide (CO), precursor organic compounds (POC) from unburned diesel fuel, sulfur dioxide (SO2) and particulate matter (PM10).   \n S-1572 is CARB Certified (Executive Order U -R-001-0401) and meets the Environmental \nProtection Agency and California Air Resources Board (EPA/CARB) Tier 2 Off -road standard.  The \nengine will burn commercially available California low sulfur diesel fuel.  The sulfur content of the diesel fuel will not excee d 0.0015% by weight.  \n The engine is subject to attached condition no. 23811.BACKGROUND\nND  \n \nTesoro Refinery has applied to obtain an Authority to Construct (AC) and/or a Permit to Operate \n(PO) for the following equipment:  \n \nS-1572  Emergency Standby Diesel Generator Set  \n2010 Caterpillar, Model: 3516C  \n2722 bhp, 18.1 MMBtu/hr  \nModel Year 2010, EPA Ti er 2 Engine  \n \nThe Emergency Diesel Engine Generator Set (S1572) will be located at the No 4 Gas Plant in \nTesoro and is equipped with the best available control technology (BACT) for minimizing the \nrelease of air borne criteria pollutants and harmful air toxins due to fu el combustion.  The criteria \npollutants are nitrogen oxides (NOx), carbon monoxide (CO), precursor organic compounds (POC) from unburned diesel fuel, sulfur dioxide (SO2) and particulate matter (PM10).   \n S-1572 is CARB Certified (Executive Order U -R-001-0401) and meets the Environmental \nProtection Agency and California Air Resources Board (EPA/CARB) Tier 2 Off -road standard.  The \nengine will burn commercially available California low sulfur diesel fuel.  The sulfur content of the diesel fuel will not excee d 0.0015% by weight.  \n The engine is subject to attached condition no. 23811."
+  },
+  "emission_calculations": {
+    "text": "EMISSIONS\nIONS  \n \nBasis:   \n- 2722 hp output rating.  \n- 50 hr/yr operation for testing and maintenance.  \n- 128.4 gallons/hr max fuel use rate.  \n- NMHC + NOx, CO, and PM 10 emission factors are CARB- certified emission levels \n(for EPA engine family name of ACPXL78.1T2X)  \n- SO2 emissions are quantified based on the full conversion of 0.0015 wt% (~ 15 \nppm) sulfur in the ULS diesel fuel.  The SO 2 emission factor was derived from EPA \nAP-42, Table 3.4- 1. \n \nAnnual Average Emissions : \nAnnual emissions are calculated based on the number of hours per year of operation for testing \nand maintenance.  See Table 1.  PM 2.5 emissions are assumed to be the same as PM 10 emissions.  \n \nDaily Emissions:  \nDaily emissions are calculated to establish whether a source triggers the requirement for BACT \n(10 lb/highest day total source emissions for any class of pollutants).  24 -hr/day of operation will \nbe assumed since no dail y limits are imposed on intermittent and unexpected operations.  See \nTable 1.  \n \n \n \nTable 1. Annual and Daily Emissions from CARB/EPA Certified Data  \nSource  Operating \nHours \n(hr/yr)  Max \nRated \nOutput \n(bhp)  Fuel \nUse \nRate \n(gal/hr)  Calculated \nMMBtu/hr  Pollutant  E.F. \n(g/bhp-\nhr) Max \nDaily \nEmissions \n(lb/day)  Annual \nEmissions \n(lb/yr)  Annual \nEmissions \n(TPY)  \nS-1572  50 2772  128.4  18.1  NOx  4.56  657 1368  0.6841EMISSIONS\nIONS  \n \nBasis:   \n- 2722 hp output rating.  \n- 50 hr/yr operation for testing and maintenance.  \n- 128.4 gallons/hr max fuel use rate.  \n- NMHC + NOx, CO, and PM 10 emission factors are CARB- certified emission levels \n(for EPA engine family name of ACPXL78.1T2X)  \n- SO2 emissions are quantified based on the full conversion of 0.0015 wt% (~ 15 \nppm) sulfur in the ULS diesel fuel.  The SO 2 emission factor was derived from EPA \nAP-42, Table 3.4- 1. \n \nAnnual Average Emissions : \nAnnual emissions are calculated based on the number of hours per year of operation for testing \nand maintenance.  See Table 1.  PM 2.5 emissions are assumed to be the same as PM 10 emissions.  \n \nDaily Emissions:  \nDaily emissions are calculated to establish whether a source triggers the requirement for BACT \n(10 lb/highest day total source emissions for any class of pollutants).  24 -hr/day of operation will \nbe assumed since no dail y limits are imposed on intermittent and unexpected operations.  See \nTable 1.  \n \n \n \nTable 1. Annual and Daily Emissions from CARB/EPA Certified Data  \nSource  Operating \nHours \n(hr/yr)  Max \nRated \nOutput \n(bhp)  Fuel \nUse \nRate \n(gal/hr)  Calculated \nMMBtu/hr  Pollutant  E.F. \n(g/bhp-\nhr) Max \nDailyEmissions\n(lb/day)  AnnualEmissions\n(lb/yr)  AnnualEmissions\n(TPY)  \nS-1572  50 2772  128.4  18.1  NOx  4.56  657 1368  0.6841  \nPOC  0.24  34.6  72.0  0.0360  \nCO 2.6 375 780 0.3901  \nPM 10 0.15  21.6  45 0.0225  \nPM 2.5 0.15  21.6  45 0.0225  \nSO21 0.00175  0.011  0.525  0.0003  \n1Notes:  SO 2 emission factor from AP -42 Table 3.4 -1, SO 2 (15 ppm) E.F. is 0.001515 lb SO 2/MMBtu = 0.00175 gm/HP -hr.Emissions\n(lb/yr)  TAC \nTrigger \nLevel \n(lb/yr)  \n28553  1572  (None)  (None)  2722  0.15  50 45 0.26  \n S-1572 meets Best Available Control Technology for toxics (TBACT) since the diesel particulate \nemissions are less than 0.15 g/bhp -hr.  For a project with engines that meet the TBACT \nrequirement, it must also pass the toxic risk screening level of less than  ten in a million.  Estimates \nof residential risk assume exposure to annual average toxic air contaminant concentrations occur \n24 hours per day, 350 days per year, for a 30 years.  Risk estimates for offsite workers assume \nexposure occurs 8 hours per day, 250 days per year, for 25 years.    \n Based on 50 hours per year of operation, the emergency generator set passed the Health Risk Screening Analysis (HRSA) conducted on June 30, 2017 by the District's Toxics Section.  The source poses no significant toxic risk, since the increased cancer risk to the maximally exposed receptor (Resident) is 0.21 in a million.  The hazard index for a resident is 5.8 E -5.  The increased cancer \nrisk to workers is 0.075 in a million and the hazard index is 5.8 E -5.  The source is not located near \nstudents.  Thus, in accordance with Regulation 2 -5, this source is in compliance with the TBACT \nand project risk requirements.Emissions\n(tpy)  ProjectEmissions\n(tpy)  Total"
+  },
+  "cumulative_increase": {
+    "text": "PLANT CUMULATIVE INCREASE\nE  \n \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result at Plant \n14628 from the operation of S -1572.  \n \nTable 2. Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing \nEmissions, Post \n4/5/91 (TPY)  New Increase with \nThis Application \n(TPY)  Cumulative Emissions \n(TPY)  \nNOx  0.000  0.6841  0.6841PLANT CUMULATIVE INCREASE\nE  \n \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result at Plant \n14628 from the operation of S -1572.  \n \nTable 2. Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing \nEmissions, Post \n4/5/91 (TPY)  New Increase with \nThis Application \n(TPY)  Cumulative Emissions \n(TPY)  \nNOx  0.000  0.6841  0.6841  \nPOC  0.000  0.0360  0.036 0 \nCO 64.727  0.3901  65.1171  \nPM 10 0.832  0.0225  0.8545  \nPM 2.5 0.000  0.0225  0.0225  \nSO2 0.000  0.0003  0.0003"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSIONS\nIONS  \n \nBasis:   \n- 2722 hp output rating.  \n- 50 hr/yr operation for testing and maintenance.  \n- 128.4 gallons/hr max fuel use rate.  \n- NMHC + NOx, CO, and PM 10 emission factors are CARB- certified emission levels \n(for EPA engine family name of ACPXL78.1T2X)  \n- SO2 emissions are quantified based on the full conversion of 0.0015 wt% (~ 15 \nppm) sulfur in the ULS diesel fuel.  The SO 2 emission factor was derived from EPA \nAP-42, Table 3.4- 1. \n \nAnnual Average Emissions : \nAnnual emissions are calculated based on the number of hours per year of operation for testing \nand maintenance.  See Table 1.  PM 2.5 emissions are assumed to be the same as PM 10 emissions.  \n \nDaily Emissions:  \nDaily emissions are calculated to establish whether a source triggers the requirement for BACT \n(10 lb/highest day total source emissions for any class of pollutants).  24 -hr/day of operation will \nbe assumed since no dail y limits are imposed on intermittent and unexpected operations.  See \nTable 1.  \n \n \n \nTable 1. Annual and Daily Emissions from CARB/EPA Certified Data  \nSource  Operating \nHours \n(hr/yr)  Max \nRated \nOutput \n(bhp)  Fuel \nUse \nRate \n(gal/hr)  Calculated \nMMBtu/hr  Pollutant  E.F. \n(g/bhp-\nhr) Max \nDaily \nEmissions \n(lb/day)  Annual \nEmissions \n(lb/yr)  Annual \nEmissions \n(TPY)  \nS-1572  50 2772  128.4  18.1  NOx  4.56  657 1368  0.6841EMISSIONS\nIONS  \n \nBasis:   \n- 2722 hp output rating.  \n- 50 hr/yr operation for testing and maintenance.  \n- 128.4 gallons/hr max fuel use rate.  \n- NMHC + NOx, CO, and PM 10 emission factors are CARB- certified emission levels \n(for EPA engine family name of ACPXL78.1T2X)  \n- SO2 emissions are quantified based on the full conversion of 0.0015 wt% (~ 15 \nppm) sulfur in the ULS diesel fuel.  The SO 2 emission factor was derived from EPA \nAP-42, Table 3.4- 1. \n \nAnnual Average Emissions : \nAnnual emissions are calculated based on the number of hours per year of operation for testing \nand maintenance.  See Table 1.  PM 2.5 emissions are assumed to be the same as PM 10 emissions.  \n \nDaily Emissions:  \nDaily emissions are calculated to establish whether a source triggers the requirement for BACT \n(10 lb/highest day total source emissions for any class of pollutants).  24 -hr/day of operation will \nbe assumed since no dail y limits are imposed on intermittent and unexpected operations.  See \nTable 1.  \n \n \n \nTable 1. Annual and Daily Emissions from CARB/EPA Certified Data  \nSource  Operating \nHours \n(hr/yr)  Max \nRated \nOutput \n(bhp)  Fuel \nUse \nRate \n(gal/hr)  Calculated \nMMBtu/hr  Pollutant  E.F. \n(g/bhp-\nhr) Max \nDailyEmissions\n(lb/day)  AnnualEmissions\n(lb/yr)  AnnualEmissions\n(TPY)  \nS-1572  50 2772  128.4  18.1  NOx  4.56  657 1368  0.6841  \nPOC  0.24  34.6  72.0  0.0360  \nCO 2.6 375 780 0.3901  \nPM 10 0.15  21.6  45 0.0225  \nPM 2.5 0.15  21.6  45 0.0225  \nSO21 0.00175  0.011  0.525  0.0003  \n1Notes:  SO 2 emission factor from AP -42 Table 3.4 -1, SO 2 (15 ppm) E.F. is 0.001515 lb SO 2/MMBtu = 0.00175 gm/HP -hr.Emissions\n(lb/yr)  TAC \nTrigger \nLevel \n(lb/yr)  \n28553  1572  (None)  (None)  2722  0.15  50 45 0.26  \n S-1572 meets Best Available Control Technology for toxics (TBACT) since the diesel particulate \nemissions are less than 0.15 g/bhp -hr.  For a project with engines that meet the TBACT \nrequirement, it must also pass the toxic risk screening level of less than  ten in a million.  Estimates \nof residential risk assume exposure to annual average toxic air contaminant concentrations occur \n24 hours per day, 350 days per year, for a 30 years.  Risk estimates for offsite workers assume \nexposure occurs 8 hours per day, 250 days per year, for 25 years.    \n Based on 50 hours per year of operation, the emergency generator set passed the Health Risk Screening Analysis (HRSA) conducted on June 30, 2017 by the District's Toxics Section.  The source poses no significant toxic risk, since the increased cancer risk to the maximally exposed receptor (Resident) is 0.21 in a million.  The hazard index for a resident is 5.8 E -5.  The increased cancer \nrisk to workers is 0.075 in a million and the hazard index is 5.8 E -5.  The source is not located near \nstudents.  Thus, in accordance with Regulation 2 -5, this source is in compliance with the TBACT \nand project risk requirements.Emissions\n(tpy)  ProjectEmissions\n(tpy)  Total",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1572": {
+        "narrative": "S-1572  50 2772  128.4  18.1  NOx  4.56  657 1368  0.6841\nS-1572  50 2772  128.4  18.1  NOx  4.56  657 1368  0.6841EMISSIONS\nS-1572 meets Best Available Control Technology for toxics (TBACT) since the diesel particulate",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "TOXIC RISK SCREENING ANALYSIS\nThis application required a Toxics Risk Screening Analysis because the diesel particulate emissions from the operation of S -5633 are greater than the toxic trigger level.  Regulation 2 -5 requires that \nthe cumulative impacts from all related projects permit ted within the last two years be included \nin the risk screening analysis.  Table 3 tabulates the project associated with this permit \napplication.  There were no related projects within the last two years.  \n \n \n   \nTable 3. Diesel Exhaust Particulate Matter Em issions  \nApplicati\non No.  Sourc\ne No.  A/C \nIssuance \nDate  P/O \nIssuance \nDate  Max. \nRated \nOutp\nut \n(bhp)  PM10 \nEF \n(g/bhp\n-hr) Annual \nOperatin\ng Hours \n(hrs/yr)  Diesel \nExhaust \nParticulat\ne \nEmissions \n(lb/yr)  TAC \nTrigger \nLevel \n(lb/yr)  \n28553  1572  (None)  (None)  2722  0.15  50 45 0.26  \n S-1572 meets Best Available Control Technology for toxics (TBACT) since the diesel particulate \nemissions are less than 0.15 g/bhp -hr.  For a project with engines that meet the TBACT \nrequirement, it must also pass the toxic risk screening level of less than  ten in a million.  Estimates \nof residential risk assume exposure to annual average toxic air contaminant concentrations occur \n24 hours per day, 350 days per year, for a 30 years.  Risk estimates for offsite workers assume \nexposure occurs 8 hours per day, 250 days per year, for 25 years.    \n Based on 50 hours per year of operation, the emergency generator set passed the Health Risk Screening Analysis (HRSA) conducted on June 30, 2017 by the District's Toxics Section.  The source poses no significant toxic risk, since the increased cancer risk to the maximally exposed receptor (Resident) is 0.21 in a million.  The hazard index for a resident is 5.8 E -5.  The increased cancer \nrisk to workers is 0.075 in a million and the hazard index is 5.8 E -5.  The source is not located near \nstudents.  Thus, in accordance with Regulation 2 -5, this source is in compliance with the TBACT \nand project risk requirements.TOXIC RISK SCREENING ANALYSIS\nIS  \n \nThis application required a Toxics Risk Screening Analysis because the diesel particulate emissions from the operation of S -5633 are greater than the toxic trigger level.  Regulation 2 -5 requires that \nthe cumulative impacts from all related projects permit ted within the last two years be included \nin the risk screening analysis.  Table 3 tabulates the project associated with this permit \napplication.  There were no related projects within the last two years.  \n \n \n   \nTable 3. Diesel Exhaust Particulate Matter Em issions  \nApplicati\non No.  Sourc\ne No.  A/C \nIssuance \nDate  P/O \nIssuance \nDate  Max. \nRated \nOutp\nut \n(bhp)  PM10 \nEF \n(g/bhp\n-hr) Annual \nOperatin\ng Hours \n(hrs/yr)  Diesel \nExhaust \nParticulat\ne"
+  },
+  "BACT": {
+    "text": "BACT\nCT  \n \nIn accordance with Regulation 2 -2-301, BACT is triggered for any new or modified source with \nthe potential to emit 10 pounds or more per highest day of POC, NPOC, NOx, CO, SO 2, PM 2.5 orBACT\nCT  \n \nIn accordance with Regulation 2 -2-301, BACT is triggered for any new or modified source with \nthe potential to emit 10 pounds or more per highest day of POC, NPOC, NOx, CO, SO 2, PM 2.5 or \nPM 10. \n \nBACT is triggered for POC, NOx, CO, PM 2.5 or PM 10 since the maximum daily emissions of each of \nthese pollutants exceed 10 lb /day per source.  BACT for this source is presented in the current \nBAAQMD BACT/TBACT Workbook for IC Engine –  Compression Ignition: Stationary Emergency, \nnon- Agricultural, non -direct drive fire pump, > 50 bhp, Document #96.1.3, Revision 7 dated \n12/22/2010.   For POC, NOx and CO, BACT(2) is the CARB ATCM standard for the respective \npollutant at applicable horsepower rating.  For PM 2.5 or PM 10, BACT(2) is an emission ratenot to \nexceed 0.15 g/bhp -hr.   \n \nS-1572  satisfies the current BACT(2) standards for POC, N Ox and CO (4.8 g/bhp -hr of NOx+NMHC, \nwhen NOx and POC is 4.56 g/bhp- hr and 0.24 g/bhp- hr, respectively, and 2.6 g/bhp -hr of CO).  \nThe more restrictive BACT(1) standards are not applicable to this engine because it will be limited \nto operation as an emergen cy standby engine."
+  },
+  "offsets": {
+    "narrative": "OFFSETS\nTS  \n \nPer Regulation 2 -2-302, before an Authority to Construct or a Permit to Operate is issued for a \nnew source at a facility with potential to emit 35 tons per year or more, on a pollutant specific \nbasis, of POC or NOx, emission of fsets shall be provided, for the emissions from the new source \nand any pre -existing cumulative increase, minus any onsite contemporaneous emission \nreductions, at a 1.15 to 1.0 ratio.   \n Per Regulation 2 -2-303, before an Authority to Construct or a Permit to Operate is issued for a \nnew source at a facility with potential to emit 100 tons per year or more, on a pollutant specific \nbasis, of SO\n2, PM 2.5 or PM 10, emission offsets shall be provided, for the emissions from the new \nsource and any pre -existing cumula tive increase, minus any onsite contemporaneous emission \nreductions, at a 1.0 to 1.0 ratio.  \n \nA summary of the offsets for this application follows:  \n \nPollutant  Current \nEmissions \n(tpy)  Project \nEmissions \n(tpy)  Total \nCumulative \nIncrease \n(tpy)  Offset \nRatio  Offsets \nRequired \n(tpy)OFFSETS\nTS  \n \nPer Regulation 2 -2-302, before an Authority to Construct or a Permit to Operate is issued for a \nnew source at a facility with potential to emit 35 tons per year or more, on a pollutant specific \nbasis, of POC or NOx, emission of fsets shall be provided, for the emissions from the new source \nand any pre -existing cumulative increase, minus any onsite contemporaneous emission \nreductions, at a 1.15 to 1.0 ratio.   \n Per Regulation 2 -2-303, before an Authority to Construct or a Permit to Operate is issued for a \nnew source at a facility with potential to emit 100 tons per year or more, on a pollutant specific \nbasis, of SO\n2, PM 2.5 or PM 10, emission offsets shall be provided, for the emissions from the new \nsource and any pre -existing cumula tive increase, minus any onsite contemporaneous emission \nreductions, at a 1.0 to 1.0 ratio.  \n \nA summary of the offsets for this application follows:  \n \nPollutant  CurrentOffsets\nRequired  0.000  0.041  0.786  0.023  0.832  \nBank 1568   0.041     \nBank 1144  0.000   0.786   0 \nRemaining \nCumulative \nIncrease  0.000  0.000  0.000  0.023  0.832  \n \nNSPS  \n \nThe engine is subject to 40 CFR 60, Subpart IIII, Standards of Performance for Stationary Compression Ignition Internal Combustion Engines because it was manufactured after April 1, \n2006, as required by Section 60.4200(a)(2)(i). \n S-1572 engine has a total displacement of 78.1 liters and has 6 cylinders.  Therefore, each cylinder \nhas a volume of less than 30 liters.  The engine is a 2010 model year engine and is no fire pump.  Section 60.4205(b) requires t hese engines to comply with the emission standards in Section \n60.4202, which refers to 40CFR89.112 and 40CFR89.113 for all pollutants.  \nFor engines greater than 600 hp, these standards are:  \nNMHC+NOx:  4.77 g/hp -hr  \nCO: 2.61 g/hp- hr  \nPM: 0.15 g/hp -hr  \n According to the CARB certification for EPA engine family name of ACPXL78.1T2X, the engine will \ncomply with the standards.  \n \nSections 60.4206 and 60.4211(a) require that the owner/operator operate and maintain the engine according to the manufacturer's written instructions or procedures developed by the owner or operator that are approved by the engine manufacturer, over the entire life of the engine.  The owner/operator is expected to comply with this requirement.  \n \nSection 60.4207(b) requires that the owner/operator must use fuel that complies with 40 CFR 80.510(b).  This means that the fuel must have a sulfur content of 15 par ts per million (ppm) \nmaximum, and the same cetane index or aromatic content as above.  The owner/operator is expected to comply with this requirement because CARB diesel is required to be used in California.  \n Section 60.4209(a) requires a non -resettable hour meter.  This requirement is included in the \nTesoro standard permit conditions (23811).   The engine will comply with the requirements of Section 60.4211(c) because it has been certified in accordance with 40 CFR Part 89.   The engine will comply with the requirement in Section 60.4211(e) to run for less than 100 hours per year for maintenance checks and readiness testing, and the prohibition of running for any \nreason other than emergency operation, maintenance, and testing because it is limited by permi t \ncondition to 50 hours per year for reliability testing and otherwise may only operate for \nemergencies.  \n \nThe owner/operator is not required to perform tests in accordance with Section 60.4212 or \n60.4213.  \n Section 60.4214(b) states that owner/operators do not have to submit an initial notification to EPA for emergency engines.   Because the engine does not have a diesel particulate filter, the owner/operator is not subject to \nSection 60.4214(c).  \n \nThe owner/operator is required to comply with certain sections of 40 CFR 60, Subpart A, General \nProvisions.  The owner/operator is expected to comply with this requirement.  \n \nNESHAP  \n \nThis engine is subject to the emission or operating limitations in 40 CFR 63, Subpart ZZZZ, National \nEmission Standards for Hazardous Air Pollutants for Stationary Reciprocating Internal \nCombustion Engines, per 40 CFR 63.6590(a)(2)(i), because it is a new engine, over 500 bhp, located at a major source, constructed after 12/19/2002.  However, S- 1572 is subject to limited \nrequir ements.  Per 40 CFR 63.6590(b)(1)(i), S -1572 does not have to meet the requirements of \n40 CFR 63, Subpart ZZZZ or Subpart A, except for the initial notification requirements of 63.6645(f).  \nCARB Stationary Diesel Engine ATCM \n \nThe State Office of Administrative Law approved the Airborne Toxic Control Measure (ATCM) on November 8, 2004.  The latest amendment of this ATCM is effective May 19, 2011.  State law requires the local Air Districts to implement and enforce the requirements of the ATCM.  Effective January 1, 2005, there is a prohibition on the operation of new diesel emergency standby engines \ngreater than 50 bhp unless the following operating requirements and emission standards of 93115.6(a)(3)(A)(1) are met:  \n \na. meet the applicable emission standards for all pollutants for the same model year and maximum horsepower rating as specified in Table 1 Emission Standards for New Stationary Emergency Standby Diesel -Fueled CI Engines, in effect on the date of \nacquisition or submittal, as defined in se ction 93115.4, and  \n \nb. after December 31, 2008, be certified to the new nonroad compression- ignition (CI) \nengine emission standards for all pollutants for 2007 and later model year engines as \nspecified in 40 CFR, PART 60, Subpart IIII -Standards of Performanc e for Stationary \nCompression Ignition Internal Combustion Engines (2006); and \nc. not operate more than 50 hours per year for maintenance and testing purposes, except as provided in 93115.6(a)(3)(A)2. This subsection does not limit engine operation for \nemergen cy use and for emission testing to show compliance with 93115.6(a)(3).  \n \nEmergency standby diesel engine S -1572 meets (1) the emission standards for all pollutants set \nin Table 1 Emission Standards for New Stationary Emergency Standby Diesel- Fueled CI Engin es, \n(2) is subject to and in compliance with the EPA Tier 2 off- road CI engine standards, and (3) will \noperate for no more than 50 hours per year for maintenance and reliability testing per engine.  \nTherefore, the diesel engine is in compliance with the above ATCM requirements.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "NOx",
+          4.77,
+          "N/A",
+          null
+        ],
+        [
+          "CO",
+          1.15,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nCE  \n \nSource S- 1572 is subject to and expected to be in compliance with the requirements of District \nRegulation 1 -301 (Public Nuisance), Regulation 6 -1 (Particulate Matter General Requirements), \nRegulation 9 -1 (Su lfur Dioxide) and Regulation 9 -8 (NOx and CO from Stationary Internal \nCombustion Engines).   \n \nFrom Regulation 1 -301, no person shall discharge from any source whatsoever such quantities of \nair contaminants or other material which cause injury, detriment, n uisance or annoyance to any \nconsiderable number of persons or the public; or which endangers the comfort, repose, health or safety of any such persons or the public, or which causes, or has a natural tendency to cause, \ninjury or damage to business or prope rty.  For purposes of this section, three or more violation \nnotices validly issued in a 30 day period to a facility for public nuisance shall give rise to a \nrebuttable presumption that the violations resulted from negligent conduct.  \n \n\nS-1572 is subject to t he limitations of Regulation 6 -1-303 ( Ringelmann No 2 Limitation).  \nRegulation 6 -1-303 states that a person shall not emit for a period or periods aggregating more \nthan three minutes in any hour, a visible emission that is as dark or darker than No. 2 on the \nRingelmann Chart, or of such opacity as to obscure an observer’s view to an equivalent or greater \ndegree, nor shall said emission, as perceived by an opacity sensing device in good working order, \nwhere such device is required by District Regulations, be  equal to or greater than 40% opacity.  \nThis low PM 10 emitting engine is not expected to produce visible emissions or fallout in violation \nof this regulation, and it will be assumed to be in compliance with Regulation 6 pending a regular inspection.  \n S-1572 is also subject to the SO\n2 limitations of Regulation 9 -1-301 ( Limitations on Ground Level \nConcentrations of Sulfur Dioxide ), Regulation 9 -1-302 ( Limitations Sulfur Dioxide Emissions) and \n9-1-304 ( Burning of Solid and Liquid Sulfur Dioxide Fuel ).  From Re gulation 9 -1-301, the ground \nlevel concentrations of SO 2 will not exceed 0.5 ppm continuously for 3 consecutive minutes or \n0.25 ppm averaged over 60 consecutive minutes, or 0.05 ppm averaged over 24 hours. Per Regulation 9 -1-302, a person shall not emit fr om any source a gas stream containing sulfur \ndioxide in excess of 300 ppm (dry).  And Regulation 9 -1-304, states that a person shall not burn \nany liquid fuel having sulfur content in excess of 0.5% by weight.  Compliance with Regulation 9 -\n1 is very likely since diesel fuel with a 0.0015% by weight sulfur is mandated for use in California.  \n \nFrom Regulation 9 -8 (NOx and CO from Stationary Internal Combustion Engines), Section 110.5 \n(Emergency Standby Engines), S -1572 is exempt from the requirements of 9 -8-304 (Emission \nLimits – Compression- Ignited Engines), 9 -8-501 ( Initial Demonstration of Compliance ) and 9 -8-\n503 ( Quarterly Demonstration of Compliance ).  However, it is subject to the monitoring and \nrecord keeping procedures described in Regulation 9 -8-530 ( Emergency Standby Engines, \nMonitoring and Recordkeeping).  The requirements of this Regulation are included in the permit conditions below.  \n S-1572 is also subject to and expected to comply with Regulation 9 -8-330 ( Emergency Standby \nEngines, Hours of Operat ion) since non- emergency hours of operation will be limited in the \npermit conditions to 50 hours per year.  \n \nThis application is considered to be  ministerial under the District's Regulation 2 -1-311 and \ntherefore is not subject to CEQA review.  The engineering review for this project requires only \nthe application of standard permit conditions and standard emission factors in accordance with \nPermit H andbook Chapter 2.3.1.  \n PSD is not triggered.  \n This facility is located greater than 1,000 feet from the nearest school and therefore is not subject to the public notification requirements of Regulation 2 -1-412.STATEMENT OF COMPLIANCE\nCE  \n \nSource S- 1572 is subject to and expected to be in compliance with the requirements of District \nRegulation 1 -301 (Public Nuisance), Regulation 6 -1 (Particulate Matter General Requirements), \nRegulation 9 -1 (Su lfur Dioxide) and Regulation 9 -8 (NOx and CO from Stationary Internal \nCombustion Engines).   \n \nFrom Regulation 1 -301, no person shall discharge from any source whatsoever such quantities of \nair contaminants or other material which cause injury, detriment, n uisance or annoyance to any \nconsiderable number of persons or the public; or which endangers the comfort, repose, health or safety of any such persons or the public, or which causes, or has a natural tendency to cause, \ninjury or damage to business or prope rty.  For purposes of this section, three or more violation \nnotices validly issued in a 30 day period to a facility for public nuisance shall give rise to a \nrebuttable presumption that the violations resulted from negligent conduct.  \n \n\nS-1572 is subject to t he limitations of Regulation 6 -1-303 ( Ringelmann No 2 Limitation).  \nRegulation 6 -1-303 states that a person shall not emit for a period or periods aggregating more \nthan three minutes in any hour, a visible emission that is as dark or darker than No. 2 on the \nRingelmann Chart, or of such opacity as to obscure an observer’s view to an equivalent or greater \ndegree, nor shall said emission, as perceived by an opacity sensing device in good working order, \nwhere such device is required by District Regulations, be  equal to or greater than 40% opacity.  \nThis low PM 10 emitting engine is not expected to produce visible emissions or fallout in violation \nof this regulation, and it will be assumed to be in compliance with Regulation 6 pending a regular inspection.  \n S-1572 is also subject to the SO\n2 limitations of Regulation 9 -1-301 ( Limitations on Ground Level \nConcentrations of Sulfur Dioxide ), Regulation 9 -1-302 ( Limitations Sulfur Dioxide Emissions) and \n9-1-304 ( Burning of Solid and Liquid Sulfur Dioxide Fuel ).  From Re gulation 9 -1-301, the ground \nlevel concentrations of SO 2 will not exceed 0.5 ppm continuously for 3 consecutive minutes or \n0.25 ppm averaged over 60 consecutive minutes, or 0.05 ppm averaged over 24 hours. Per Regulation 9 -1-302, a person shall not emit fr om any source a gas stream containing sulfur \ndioxide in excess of 300 ppm (dry).  And Regulation 9 -1-304, states that a person shall not burn \nany liquid fuel having sulfur content in excess of 0.5% by weight.  Compliance with Regulation 9 -\n1 is very likely since diesel fuel with a 0.0015% by weight sulfur is mandated for use in California.  \n \nFrom Regulation 9 -8 (NOx and CO from Stationary Internal Combustion Engines), Section 110.5 \n(Emergency Standby Engines), S -1572 is exempt from the requirements of 9 -8-304 (Emission \nLimits – Compression- Ignited Engines), 9 -8-501 ( Initial Demonstration of Compliance ) and 9 -8-\n503 ( Quarterly Demonstration of Compliance ).  However, it is subject to the monitoring and \nrecord keeping procedures described in Regulation 9 -8-530 ( Emergency Standby Engines, \nMonitoring and Recordkeeping).  The requirements of this Regulation are included in the permit conditions below.  \n S-1572 is also subject to and expected to comply with Regulation 9 -8-330 ( Emergency Standby \nEngines, Hours of Operat ion) since non- emergency hours of operation will be limited in the \npermit conditions to 50 hours per year.  \n \nThis application is considered to be  ministerial under the District's Regulation 2 -1-311 and \ntherefore is not subject to CEQA review.  The engineering review for this project requires only \nthe application of standard permit conditions and standard emission factors in accordance with \nPermit H andbook Chapter 2.3.1.  \n PSD is not triggered.  \n This facility is located greater than 1,000 feet from the nearest school and therefore is not subject to the public notification requirements of Regulation 2 -1-412."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONSPERMIT CONDITIONS\nNS  \n \nTesoro Condition 23811 will be revised as follows:  \n \n            COND#  23811   --------------------------------------  \n \n     Application 14917, September 2006  \n     Modified by Application 16495, November 2007  \n     Modified by Application 19330, February 2009  \n     Modified by Application 21713, May 2010  \n     Modified by Application 22152, October 2010  \n     Modified by Application 25942, February 2014 Added S -1557  \n     Modified by Application 27990, January 2017, Added S -1561  \n     Modified by Application 28553, Septe mber  2017, Added S -1572  \n     Plant 14628 (B2758) Emergency Diesel Engines S -1518, S -1519  \n     Plant 14628 (B2758) Emergency Diesel Engine S -1522, S -1557  \n     Plant 14629 (B2759) Emergency Diesel Engine S -57 \n     Plant 14629 (B2759) Emergency Diesel Engine S -58 \n     Plant 21200 (E1200) Emergency Diesel Engine S -56 \n     Plant 14628 (B2758) Avon Wharf Berth 1A Emergency Generator  \n     Diesel Engine S -1561                                        \n     Plant 14628 (B2758) No 4 Gas Plant Emergency Generator  \n     Diesel Engine S -1572                                        \n       1.  Operating for reliability -related activities is limited  \n         to 50 hours per year per engine. [Basis: \"Stationary  \n         Diesel Engine ATCM\", CA Code of Regulations, Title 17,  \n         Section 93115.6(b)(3)(A)2b and 93115.6(a)(3)(A)1c]      \n \n     2.  The owner or operator shall operate each emergency  \n         standby engine only for the following purposes: to  \n         mitigate emergency conditions, for emission testing to  \n         demonstrate compliance with a District, state or Federal  \n         emission limit, or for reliability -related activities  \n         (maintenance and other testing, but excluding emission \n         testing). Operating hours while mitigating emergency  \n         conditions or while emission testing to show compliance  \n         with District, state or Federal emission limits is not  \n         limited. [Basis: Regulation 9 -8-330, \"Stationary Diesel  \n         Engine ATCM\", CA Code of Regulations, Title 17, Section  \n         93115.4(29)]                                            \n \n     3.  The owner/operator shall operate each emergency standby  \n         engine only when a non- resettable totalizing meter (with  \n         a minimum display capability of 9,999 hours) that  \n         measures the hours of operation for the engine is  \n         installed, operated and properly maintained. [Basis:  \n     Regulation 9 -8-530, \"Stationary Diesel Engine ATCM\", CA Code  \n     of Regulations, Title 17, Section 93115.10(d)(1)]           \n \n     4.  Records: The owner/operator shall maintain the following  \n         monthly records in a District -approved log for at  least  \n         60 months from the date of entry. Log entries shall be  \n         retained on- site, either at a central location or at the  \n         engine's location, and made immediately available to the  \n         District staff upon request.  \n         a.  Ho urs of operation for reliability -related  \n             activities (maintenance and testing).  \n         b.  Hours of operation for emission testing to show  \n             compliance with emission limits.  \n         c.  Hours of operation (emergency).  \n         d.  For each emergency, the nature of the emergency  \n             condition.  \n         e.  Fuel usage for each engine(s)                            [Basis: Regulation 9 -8-530, Regulation 2 -6-501, and  \n     \"Stationary Diesel Engine ATCM\", CA Code of Regulations,  \n     Title 17, Section 93115.10(f) ]  RECOMMENDATION  \n \nI recommend that Tesoro Refinery be issued an Authority to Construct for the following \nequipment:  \nS-1572  Emergency Standby Diesel Generator Set  \n2010 Caterpillar, Model: 3516C  \n2722 bhp, 18.1 MMBtu/hr  \nModel Year 2010, EPA Tier 2 Engine  \n \n \n \nPrepared by:  ______________________________  Date:  _____________________  \nArt Valla, Senior Air Quality Engineer      9/1/17"
+  },
+  "permit_conditions": {
+    "condition_number": 23811,
+    "items": [
+      {
+        "num": 1,
+        "text": "Operating for reliability -related activities is limited  \n         to 50 hours per year per engine. [",
+        "basis": [
+          "\"Stationary  \n         Diesel Engine ATCM\"",
+          "CA Code of Regulations",
+          "Title 17",
+          "Section 93115.6(b)(3)(A)2b and 93115.6(a)(3)(A)1c]"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner or operator shall operate each emergency  \n         standby engine only for the following purposes: to  \n         mitigate emergency conditions, for emission testing to  \n         demonstrate compliance with a District, state or Federal  \n         emission limit, or for reliability -related activities  \n         (maintenance and other testing, but excluding emission \n         testing). Operating hours while mitigating emergency  \n         conditions or while emission testing to show compliance  \n         with District, state or Federal emission limits is not  \n         limited. [",
+        "basis": [
+          "Regulation 9 -8-330",
+          "\"Stationary Diesel  \n         Engine ATCM\"",
+          "CA Code of Regulations",
+          "Title 17",
+          "Section"
+        ]
+      },
+      {
+        "num": 93115,
+        "text": "4(29)]",
+        "basis": []
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator shall operate each emergency standby  \n         engine only when a non- resettable totalizing meter (with  \n         a minimum display capability of 9,999 hours) that  \n         measures the hours of operation for the engine is  \n         installed, operated and properly maintained. [",
+        "basis": [
+          "Regulation 9 -8-530",
+          "\"Stationary Diesel Engine ATCM\"",
+          "CA Code  \n     of Regulations",
+          "Title 17",
+          "Section 93115.10(d)(1)]"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "Records: The owner/operator shall maintain the following  \n         monthly records in a District -approved log for at  least  \n         60 months from the date of entry. Log entries shall be  \n         retained on- site, either at a central location or at the  \n         engine's location, and made immediately available to the  \n         District staff upon request.  \n         a.  Ho urs of operation for reliability -related  \n             activities (maintenance and testing).  \n         b.  Hours of operation for emission testing to show  \n             compliance with emission limits.  \n         c.  Hours of operation (emergency).  \n         d.  For each emergency, the nature of the emergency  \n             condition.  \n         e.  Fuel usage for each engine(s)                            [",
+        "basis": [
+          "Regulation 9 -8-530",
+          "Regulation 2 -6-501",
+          "and  \n     \"Stationary Diesel Engine ATCM\"",
+          "CA Code of Regulations",
+          "Title 17",
+          "Section 93115.10(f) ]  RECOMMENDATION  \n \nI recommend that Tesoro Refinery be issued an Authority to Construct for the following \nequipment:  \nS-1572  Emergency Standby Diesel Generator Set  \n2010 Caterpillar",
+          "Model: 3516C  \n2722 bhp",
+          "18.1 MMBtu/hr  \nModel Year 2010",
+          "EPA Tier 2 Engine  \n \n \n \nPrepared by:  ______________________________  Date:  _____________________  \nArt Valla",
+          "Senior Air Quality Engineer      9/1/17"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": ""
+  },
+  "raw_sections": {
+    "preamble": "Application 28553, 4Gas Emergency Generator",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nON  \nTesoro Refining & Marketing Company LLC  \nPlant: 14628 \nApplication: 28553"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND  \n \nTesoro Refinery has applied to obtain an Authority to Construct (AC) and/or a Permit to Operate \n(PO) for the following equipment:  \n \nS-1572  Emergency Standby Diesel Generator Set  \n2010 Caterpillar, Model: 3516C  \n2722 bhp, 18.1 MMBtu/hr  \nModel Year 2010, EPA Ti er 2 Engine  \n \nThe Emergency Diesel Engine Generator Set (S1572) will be located at the No 4 Gas Plant in \nTesoro and is equipped with the best available control technology (BACT) for minimizing the \nrelease of air borne criteria pollutants and harmful air toxins due to fu el combustion.  The criteria \npollutants are nitrogen oxides (NOx), carbon monoxide (CO), precursor organic compounds (POC) from unburned diesel fuel, sulfur dioxide (SO2) and particulate matter (PM10).   \n S-1572 is CARB Certified (Executive Order U -R-001-0401) and meets the Environmental \nProtection Agency and California Air Resources Board (EPA/CARB) Tier 2 Off -road standard.  The \nengine will burn commercially available California low sulfur diesel fuel.  The sulfur content of the diesel fuel will not excee d 0.0015% by weight.  \n The engine is subject to attached condition no. 23811."
+      },
+      {
+        "heading": "EMISSIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSIONS\nIONS  \n \nBasis:   \n- 2722 hp output rating.  \n- 50 hr/yr operation for testing and maintenance.  \n- 128.4 gallons/hr max fuel use rate.  \n- NMHC + NOx, CO, and PM 10 emission factors are CARB- certified emission levels \n(for EPA engine family name of ACPXL78.1T2X)  \n- SO2 emissions are quantified based on the full conversion of 0.0015 wt% (~ 15 \nppm) sulfur in the ULS diesel fuel.  The SO 2 emission factor was derived from EPA \nAP-42, Table 3.4- 1. \n \nAnnual Average Emissions : \nAnnual emissions are calculated based on the number of hours per year of operation for testing \nand maintenance.  See Table 1.  PM 2.5 emissions are assumed to be the same as PM 10 emissions.  \n \nDaily Emissions:  \nDaily emissions are calculated to establish whether a source triggers the requirement for BACT \n(10 lb/highest day total source emissions for any class of pollutants).  24 -hr/day of operation will \nbe assumed since no dail y limits are imposed on intermittent and unexpected operations.  See \nTable 1.  \n \n \n \nTable 1. Annual and Daily Emissions from CARB/EPA Certified Data  \nSource  Operating \nHours \n(hr/yr)  Max \nRated \nOutput \n(bhp)  Fuel \nUse \nRate \n(gal/hr)  Calculated \nMMBtu/hr  Pollutant  E.F. \n(g/bhp-\nhr) Max \nDaily \nEmissions \n(lb/day)  Annual \nEmissions \n(lb/yr)  Annual \nEmissions \n(TPY)  \nS-1572  50 2772  128.4  18.1  NOx  4.56  657 1368  0.6841"
+      },
+      {
+        "heading": "POC  0.24  34.6  72.0  0.0360",
+        "alias": null,
+        "text": "POC  0.24  34.6  72.0  0.0360"
+      },
+      {
+        "heading": "CO 2.6 375 780 0.3901",
+        "alias": null,
+        "text": "CO 2.6 375 780 0.3901"
+      },
+      {
+        "heading": "PM 10 0.15  21.6  45 0.0225",
+        "alias": null,
+        "text": "PM 10 0.15  21.6  45 0.0225"
+      },
+      {
+        "heading": "PM 2.5 0.15  21.6  45 0.0225",
+        "alias": null,
+        "text": "PM 2.5 0.15  21.6  45 0.0225"
+      },
+      {
+        "heading": "SO21 0.00175  0.011  0.525  0.0003",
+        "alias": null,
+        "text": "SO21 0.00175  0.011  0.525  0.0003\n1Notes:  SO 2 emission factor from AP -42 Table 3.4 -1, SO 2 (15 ppm) E.F. is 0.001515 lb SO 2/MMBtu = 0.00175 gm/HP -hr."
+      },
+      {
+        "heading": "PLANT CUMULATIVE INCREASE",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "PLANT CUMULATIVE INCREASE\nE  \n \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result at Plant \n14628 from the operation of S -1572.  \n \nTable 2. Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing \nEmissions, Post \n4/5/91 (TPY)  New Increase with \nThis Application \n(TPY)  Cumulative Emissions \n(TPY)  \nNOx  0.000  0.6841  0.6841"
+      },
+      {
+        "heading": "POC  0.000  0.0360  0.036 0",
+        "alias": null,
+        "text": "POC  0.000  0.0360  0.036 0"
+      },
+      {
+        "heading": "CO 64.727  0.3901  65.1171",
+        "alias": null,
+        "text": "CO 64.727  0.3901  65.1171"
+      },
+      {
+        "heading": "PM 10 0.832  0.0225  0.8545",
+        "alias": null,
+        "text": "PM 10 0.832  0.0225  0.8545"
+      },
+      {
+        "heading": "PM 2.5 0.000  0.0225  0.0225",
+        "alias": null,
+        "text": "PM 2.5 0.000  0.0225  0.0225"
+      },
+      {
+        "heading": "SO2 0.000  0.0003  0.0003",
+        "alias": null,
+        "text": "SO2 0.000  0.0003  0.0003"
+      },
+      {
+        "heading": "TOXIC RISK SCREENING ANALYSIS",
+        "alias": "TOXICS",
+        "text": "TOXIC RISK SCREENING ANALYSIS\nThis application required a Toxics Risk Screening Analysis because the diesel particulate emissions from the operation of S -5633 are greater than the toxic trigger level.  Regulation 2 -5 requires that \nthe cumulative impacts from all related projects permit ted within the last two years be included \nin the risk screening analysis.  Table 3 tabulates the project associated with this permit \napplication.  There were no related projects within the last two years.  \n \n \n   \nTable 3. Diesel Exhaust Particulate Matter Em issions  \nApplicati\non No.  Sourc\ne No.  A/C \nIssuance \nDate  P/O \nIssuance \nDate  Max. \nRated \nOutp\nut \n(bhp)  PM10 \nEF \n(g/bhp\n-hr) Annual \nOperatin\ng Hours \n(hrs/yr)  Diesel \nExhaust \nParticulat\ne \nEmissions \n(lb/yr)  TAC \nTrigger \nLevel \n(lb/yr)  \n28553  1572  (None)  (None)  2722  0.15  50 45 0.26  \n S-1572 meets Best Available Control Technology for toxics (TBACT) since the diesel particulate \nemissions are less than 0.15 g/bhp -hr.  For a project with engines that meet the TBACT \nrequirement, it must also pass the toxic risk screening level of less than  ten in a million.  Estimates \nof residential risk assume exposure to annual average toxic air contaminant concentrations occur \n24 hours per day, 350 days per year, for a 30 years.  Risk estimates for offsite workers assume \nexposure occurs 8 hours per day, 250 days per year, for 25 years.    \n Based on 50 hours per year of operation, the emergency generator set passed the Health Risk Screening Analysis (HRSA) conducted on June 30, 2017 by the District's Toxics Section.  The source poses no significant toxic risk, since the increased cancer risk to the maximally exposed receptor (Resident) is 0.21 in a million.  The hazard index for a resident is 5.8 E -5.  The increased cancer \nrisk to workers is 0.075 in a million and the hazard index is 5.8 E -5.  The source is not located near \nstudents.  Thus, in accordance with Regulation 2 -5, this source is in compliance with the TBACT \nand project risk requirements."
+      },
+      {
+        "heading": "BACT",
+        "alias": "BACT",
+        "text": "BACT\nCT  \n \nIn accordance with Regulation 2 -2-301, BACT is triggered for any new or modified source with \nthe potential to emit 10 pounds or more per highest day of POC, NPOC, NOx, CO, SO 2, PM 2.5 or"
+      },
+      {
+        "heading": "PM 10.",
+        "alias": null,
+        "text": "PM 10.\nBACT is triggered for POC, NOx, CO, PM 2.5 or PM 10 since the maximum daily emissions of each of \nthese pollutants exceed 10 lb /day per source.  BACT for this source is presented in the current \nBAAQMD BACT/TBACT Workbook for IC Engine –  Compression Ignition: Stationary Emergency, \nnon- Agricultural, non -direct drive fire pump, > 50 bhp, Document #96.1.3, Revision 7 dated \n12/22/2010.   For POC, NOx and CO, BACT(2) is the CARB ATCM standard for the respective \npollutant at applicable horsepower rating.  For PM 2.5 or PM 10, BACT(2) is an emission ratenot to \nexceed 0.15 g/bhp -hr.   \n \nS-1572  satisfies the current BACT(2) standards for POC, N Ox and CO (4.8 g/bhp -hr of NOx+NMHC, \nwhen NOx and POC is 4.56 g/bhp- hr and 0.24 g/bhp- hr, respectively, and 2.6 g/bhp -hr of CO).  \nThe more restrictive BACT(1) standards are not applicable to this engine because it will be limited \nto operation as an emergen cy standby engine."
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nTS  \n \nPer Regulation 2 -2-302, before an Authority to Construct or a Permit to Operate is issued for a \nnew source at a facility with potential to emit 35 tons per year or more, on a pollutant specific \nbasis, of POC or NOx, emission of fsets shall be provided, for the emissions from the new source \nand any pre -existing cumulative increase, minus any onsite contemporaneous emission \nreductions, at a 1.15 to 1.0 ratio.   \n Per Regulation 2 -2-303, before an Authority to Construct or a Permit to Operate is issued for a \nnew source at a facility with potential to emit 100 tons per year or more, on a pollutant specific \nbasis, of SO\n2, PM 2.5 or PM 10, emission offsets shall be provided, for the emissions from the new \nsource and any pre -existing cumula tive increase, minus any onsite contemporaneous emission \nreductions, at a 1.0 to 1.0 ratio.  \n \nA summary of the offsets for this application follows:  \n \nPollutant  Current \nEmissions \n(tpy)  Project \nEmissions \n(tpy)  Total \nCumulative \nIncrease \n(tpy)  Offset \nRatio  Offsets \nRequired \n(tpy)"
+      },
+      {
+        "heading": "SO2 0.0 0.0003  0.000  1.0 0.000",
+        "alias": null,
+        "text": "SO2 0.0 0.0003  0.000  1.0 0.000\nNOx  0.0 0.6841     0.6841  1.15  0.786"
+      },
+      {
+        "heading": "CO 64.727  0.3901    65.1171  N/A",
+        "alias": null,
+        "text": "CO 64.727  0.3901    65.1171  N/A"
+      },
+      {
+        "heading": "POC  0.0 0.0360     0.0360  1.15  0.041",
+        "alias": null,
+        "text": "POC  0.0 0.0360     0.0360  1.15  0.041"
+      },
+      {
+        "heading": "PM-2.5 0.0 0.0225     0.0225  1.0 0.023",
+        "alias": null,
+        "text": "PM-2.5 0.0 0.0225     0.0225  1.0 0.023"
+      },
+      {
+        "heading": "PM-10 0.832  0.0225     0.8545  1.0 0.855",
+        "alias": null,
+        "text": "PM-10 0.832  0.0225     0.8545  1.0 0.855\nThe offsets for PM- 2.5 also offset PM -10.  Therefore, if offsets were provided today, the \nrequired PM -10 offsets are 0.855 –  0.023 = 0.832 tons. \n Per Regulation 2 -2-303, Tesoro has elected to defer the offsets for PM2.5 and PM10 since the \ncumulative increase for these pollutants do not exceed 1 ton.  Offsets will be provided per the following table:  \n \nTons/yr  SO2 POC  NOx  PM 2.5 PM 10 \nOffsets \nRequired  0.000  0.041  0.786  0.023  0.832  \nBank 1568   0.041     \nBank 1144  0.000   0.786   0 \nRemaining \nCumulative \nIncrease  0.000  0.000  0.000  0.023  0.832"
+      },
+      {
+        "heading": "NSPS",
+        "alias": null,
+        "text": "NSPS\nPS  \n \nThe engine is subject to 40 CFR 60, Subpart IIII, Standards of Performance for Stationary Compression Ignition Internal Combustion Engines because it was manufactured after April 1, \n2006, as required by Section 60.4200(a)(2)(i). \n S-1572 engine has a total displacement of 78.1 liters and has 6 cylinders.  Therefore, each cylinder \nhas a volume of less than 30 liters.  The engine is a 2010 model year engine and is no fire pump.  Section 60.4205(b) requires t hese engines to comply with the emission standards in Section \n60.4202, which refers to 40CFR89.112 and 40CFR89.113 for all pollutants.  \nFor engines greater than 600 hp, these standards are:  \nNMHC+NOx:  4.77 g/hp -hr  \nCO: 2.61 g/hp- hr  \nPM: 0.15 g/hp -hr  \n According to the CARB certification for EPA engine family name of ACPXL78.1T2X, the engine will \ncomply with the standards.  \n \nSections 60.4206 and 60.4211(a) require that the owner/operator operate and maintain the engine according to the manufacturer's written instructions or procedures developed by the owner or operator that are approved by the engine manufacturer, over the entire life of the engine.  The owner/operator is expected to comply with this requirement.  \n \nSection 60.4207(b) requires that the owner/operator must use fuel that complies with 40 CFR 80.510(b).  This means that the fuel must have a sulfur content of 15 par ts per million (ppm) \nmaximum, and the same cetane index or aromatic content as above.  The owner/operator is expected to comply with this requirement because CARB diesel is required to be used in California.  \n Section 60.4209(a) requires a non -resettable hour meter.  This requirement is included in the \nTesoro standard permit conditions (23811).   The engine will comply with the requirements of Section 60.4211(c) because it has been certified in accordance with 40 CFR Part 89.   The engine will comply with the requirement in Section 60.4211(e) to run for less than 100 hours per year for maintenance checks and readiness testing, and the prohibition of running for any \nreason other than emergency operation, maintenance, and testing because it is limited by permi t \ncondition to 50 hours per year for reliability testing and otherwise may only operate for \nemergencies.  \n \nThe owner/operator is not required to perform tests in accordance with Section 60.4212 or \n60.4213.  \n Section 60.4214(b) states that owner/operators do not have to submit an initial notification to EPA for emergency engines.   Because the engine does not have a diesel particulate filter, the owner/operator is not subject to \nSection 60.4214(c).  \n \nThe owner/operator is required to comply with certain sections of 40 CFR 60, Subpart A, General \nProvisions.  The owner/operator is expected to comply with this requirement."
+      },
+      {
+        "heading": "NESHAP",
+        "alias": null,
+        "text": "NESHAP\nAP  \n \nThis engine is subject to the emission or operating limitations in 40 CFR 63, Subpart ZZZZ, National \nEmission Standards for Hazardous Air Pollutants for Stationary Reciprocating Internal \nCombustion Engines, per 40 CFR 63.6590(a)(2)(i), because it is a new engine, over 500 bhp, located at a major source, constructed after 12/19/2002.  However, S- 1572 is subject to limited \nrequir ements.  Per 40 CFR 63.6590(b)(1)(i), S -1572 does not have to meet the requirements of \n40 CFR 63, Subpart ZZZZ or Subpart A, except for the initial notification requirements of 63.6645(f).  \nCARB Stationary Diesel Engine ATCM \n \nThe State Office of Administrative Law approved the Airborne Toxic Control Measure (ATCM) on November 8, 2004.  The latest amendment of this ATCM is effective May 19, 2011.  State law requires the local Air Districts to implement and enforce the requirements of the ATCM.  Effective January 1, 2005, there is a prohibition on the operation of new diesel emergency standby engines \ngreater than 50 bhp unless the following operating requirements and emission standards of 93115.6(a)(3)(A)(1) are met:  \n \na. meet the applicable emission standards for all pollutants for the same model year and maximum horsepower rating as specified in Table 1 Emission Standards for New Stationary Emergency Standby Diesel -Fueled CI Engines, in effect on the date of \nacquisition or submittal, as defined in se ction 93115.4, and  \n \nb. after December 31, 2008, be certified to the new nonroad compression- ignition (CI) \nengine emission standards for all pollutants for 2007 and later model year engines as \nspecified in 40 CFR, PART 60, Subpart IIII -Standards of Performanc e for Stationary \nCompression Ignition Internal Combustion Engines (2006); and \nc. not operate more than 50 hours per year for maintenance and testing purposes, except as provided in 93115.6(a)(3)(A)2. This subsection does not limit engine operation for \nemergen cy use and for emission testing to show compliance with 93115.6(a)(3).  \n \nEmergency standby diesel engine S -1572 meets (1) the emission standards for all pollutants set \nin Table 1 Emission Standards for New Stationary Emergency Standby Diesel- Fueled CI Engin es, \n(2) is subject to and in compliance with the EPA Tier 2 off- road CI engine standards, and (3) will \noperate for no more than 50 hours per year for maintenance and reliability testing per engine.  \nTherefore, the diesel engine is in compliance with the above ATCM requirements."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE  \n \nSource S- 1572 is subject to and expected to be in compliance with the requirements of District \nRegulation 1 -301 (Public Nuisance), Regulation 6 -1 (Particulate Matter General Requirements), \nRegulation 9 -1 (Su lfur Dioxide) and Regulation 9 -8 (NOx and CO from Stationary Internal \nCombustion Engines).   \n \nFrom Regulation 1 -301, no person shall discharge from any source whatsoever such quantities of \nair contaminants or other material which cause injury, detriment, n uisance or annoyance to any \nconsiderable number of persons or the public; or which endangers the comfort, repose, health or safety of any such persons or the public, or which causes, or has a natural tendency to cause, \ninjury or damage to business or prope rty.  For purposes of this section, three or more violation \nnotices validly issued in a 30 day period to a facility for public nuisance shall give rise to a \nrebuttable presumption that the violations resulted from negligent conduct.  \n \n\nS-1572 is subject to t he limitations of Regulation 6 -1-303 ( Ringelmann No 2 Limitation).  \nRegulation 6 -1-303 states that a person shall not emit for a period or periods aggregating more \nthan three minutes in any hour, a visible emission that is as dark or darker than No. 2 on the \nRingelmann Chart, or of such opacity as to obscure an observer’s view to an equivalent or greater \ndegree, nor shall said emission, as perceived by an opacity sensing device in good working order, \nwhere such device is required by District Regulations, be  equal to or greater than 40% opacity.  \nThis low PM 10 emitting engine is not expected to produce visible emissions or fallout in violation \nof this regulation, and it will be assumed to be in compliance with Regulation 6 pending a regular inspection.  \n S-1572 is also subject to the SO\n2 limitations of Regulation 9 -1-301 ( Limitations on Ground Level \nConcentrations of Sulfur Dioxide ), Regulation 9 -1-302 ( Limitations Sulfur Dioxide Emissions) and \n9-1-304 ( Burning of Solid and Liquid Sulfur Dioxide Fuel ).  From Re gulation 9 -1-301, the ground \nlevel concentrations of SO 2 will not exceed 0.5 ppm continuously for 3 consecutive minutes or \n0.25 ppm averaged over 60 consecutive minutes, or 0.05 ppm averaged over 24 hours. Per Regulation 9 -1-302, a person shall not emit fr om any source a gas stream containing sulfur \ndioxide in excess of 300 ppm (dry).  And Regulation 9 -1-304, states that a person shall not burn \nany liquid fuel having sulfur content in excess of 0.5% by weight.  Compliance with Regulation 9 -\n1 is very likely since diesel fuel with a 0.0015% by weight sulfur is mandated for use in California.  \n \nFrom Regulation 9 -8 (NOx and CO from Stationary Internal Combustion Engines), Section 110.5 \n(Emergency Standby Engines), S -1572 is exempt from the requirements of 9 -8-304 (Emission \nLimits – Compression- Ignited Engines), 9 -8-501 ( Initial Demonstration of Compliance ) and 9 -8-\n503 ( Quarterly Demonstration of Compliance ).  However, it is subject to the monitoring and \nrecord keeping procedures described in Regulation 9 -8-530 ( Emergency Standby Engines, \nMonitoring and Recordkeeping).  The requirements of this Regulation are included in the permit conditions below.  \n S-1572 is also subject to and expected to comply with Regulation 9 -8-330 ( Emergency Standby \nEngines, Hours of Operat ion) since non- emergency hours of operation will be limited in the \npermit conditions to 50 hours per year.  \n \nThis application is considered to be  ministerial under the District's Regulation 2 -1-311 and \ntherefore is not subject to CEQA review.  The engineering review for this project requires only \nthe application of standard permit conditions and standard emission factors in accordance with \nPermit H andbook Chapter 2.3.1.  \n PSD is not triggered.  \n This facility is located greater than 1,000 feet from the nearest school and therefore is not subject to the public notification requirements of Regulation 2 -1-412."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND  \n \nTesoro Refinery has applied to obtain an Authority to Construct (AC) and/or a Permit to Operate \n(PO) for the following equipment:  \n \nS-1572  Emergency Standby Diesel Generator Set  \n2010 Caterpillar, Model: 3516C  \n2722 bhp, 18.1 MMBtu/hr  \nModel Year 2010, EPA Ti er 2 Engine  \n \nThe Emergency Diesel Engine Generator Set (S1572) will be located at the No 4 Gas Plant in \nTesoro and is equipped with the best available control technology (BACT) for minimizing the \nrelease of air borne criteria pollutants and harmful air toxins due to fu el combustion.  The criteria \npollutants are nitrogen oxides (NOx), carbon monoxide (CO), precursor organic compounds (POC) from unburned diesel fuel, sulfur dioxide (SO2) and particulate matter (PM10).   \n S-1572 is CARB Certified (Executive Order U -R-001-0401) and meets the Environmental \nProtection Agency and California Air Resources Board (EPA/CARB) Tier 2 Off -road standard.  The \nengine will burn commercially available California low sulfur diesel fuel.  The sulfur content of the diesel fuel will not excee d 0.0015% by weight.  \n The engine is subject to attached condition no. 23811."
+      },
+      {
+        "heading": "EMISSIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSIONS\nIONS  \n \nBasis:   \n- 2722 hp output rating.  \n- 50 hr/yr operation for testing and maintenance.  \n- 128.4 gallons/hr max fuel use rate.  \n- NMHC + NOx, CO, and PM 10 emission factors are CARB- certified emission levels \n(for EPA engine family name of ACPXL78.1T2X)  \n- SO2 emissions are quantified based on the full conversion of 0.0015 wt% (~ 15 \nppm) sulfur in the ULS diesel fuel.  The SO 2 emission factor was derived from EPA \nAP-42, Table 3.4- 1. \n \nAnnual Average Emissions : \nAnnual emissions are calculated based on the number of hours per year of operation for testing \nand maintenance.  See Table 1.  PM 2.5 emissions are assumed to be the same as PM 10 emissions.  \n \nDaily Emissions:  \nDaily emissions are calculated to establish whether a source triggers the requirement for BACT \n(10 lb/highest day total source emissions for any class of pollutants).  24 -hr/day of operation will \nbe assumed since no dail y limits are imposed on intermittent and unexpected operations.  See \nTable 1.  \n \n \n \nTable 1. Annual and Daily Emissions from CARB/EPA Certified Data  \nSource  Operating \nHours \n(hr/yr)  Max \nRated \nOutput \n(bhp)  Fuel \nUse \nRate \n(gal/hr)  Calculated \nMMBtu/hr  Pollutant  E.F. \n(g/bhp-\nhr) Max \nDaily"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lb/day)  Annual"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lb/yr)  Annual"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(TPY)  \nS-1572  50 2772  128.4  18.1  NOx  4.56  657 1368  0.6841  \nPOC  0.24  34.6  72.0  0.0360  \nCO 2.6 375 780 0.3901  \nPM 10 0.15  21.6  45 0.0225  \nPM 2.5 0.15  21.6  45 0.0225  \nSO21 0.00175  0.011  0.525  0.0003  \n1Notes:  SO 2 emission factor from AP -42 Table 3.4 -1, SO 2 (15 ppm) E.F. is 0.001515 lb SO 2/MMBtu = 0.00175 gm/HP -hr."
+      },
+      {
+        "heading": "PLANT CUMULATIVE INCREASE",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "PLANT CUMULATIVE INCREASE\nE  \n \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result at Plant \n14628 from the operation of S -1572.  \n \nTable 2. Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing \nEmissions, Post \n4/5/91 (TPY)  New Increase with \nThis Application \n(TPY)  Cumulative Emissions \n(TPY)  \nNOx  0.000  0.6841  0.6841  \nPOC  0.000  0.0360  0.036 0 \nCO 64.727  0.3901  65.1171  \nPM 10 0.832  0.0225  0.8545  \nPM 2.5 0.000  0.0225  0.0225  \nSO2 0.000  0.0003  0.0003"
+      },
+      {
+        "heading": "TOXIC RISK SCREENING ANALYSIS",
+        "alias": "TOXICS",
+        "text": "TOXIC RISK SCREENING ANALYSIS\nIS  \n \nThis application required a Toxics Risk Screening Analysis because the diesel particulate emissions from the operation of S -5633 are greater than the toxic trigger level.  Regulation 2 -5 requires that \nthe cumulative impacts from all related projects permit ted within the last two years be included \nin the risk screening analysis.  Table 3 tabulates the project associated with this permit \napplication.  There were no related projects within the last two years.  \n \n \n   \nTable 3. Diesel Exhaust Particulate Matter Em issions  \nApplicati\non No.  Sourc\ne No.  A/C \nIssuance \nDate  P/O \nIssuance \nDate  Max. \nRated \nOutp\nut \n(bhp)  PM10 \nEF \n(g/bhp\n-hr) Annual \nOperatin\ng Hours \n(hrs/yr)  Diesel \nExhaust \nParticulat\ne"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lb/yr)  TAC \nTrigger \nLevel \n(lb/yr)  \n28553  1572  (None)  (None)  2722  0.15  50 45 0.26  \n S-1572 meets Best Available Control Technology for toxics (TBACT) since the diesel particulate \nemissions are less than 0.15 g/bhp -hr.  For a project with engines that meet the TBACT \nrequirement, it must also pass the toxic risk screening level of less than  ten in a million.  Estimates \nof residential risk assume exposure to annual average toxic air contaminant concentrations occur \n24 hours per day, 350 days per year, for a 30 years.  Risk estimates for offsite workers assume \nexposure occurs 8 hours per day, 250 days per year, for 25 years.    \n Based on 50 hours per year of operation, the emergency generator set passed the Health Risk Screening Analysis (HRSA) conducted on June 30, 2017 by the District's Toxics Section.  The source poses no significant toxic risk, since the increased cancer risk to the maximally exposed receptor (Resident) is 0.21 in a million.  The hazard index for a resident is 5.8 E -5.  The increased cancer \nrisk to workers is 0.075 in a million and the hazard index is 5.8 E -5.  The source is not located near \nstudents.  Thus, in accordance with Regulation 2 -5, this source is in compliance with the TBACT \nand project risk requirements."
+      },
+      {
+        "heading": "BACT",
+        "alias": "BACT",
+        "text": "BACT\nCT  \n \nIn accordance with Regulation 2 -2-301, BACT is triggered for any new or modified source with \nthe potential to emit 10 pounds or more per highest day of POC, NPOC, NOx, CO, SO 2, PM 2.5 or \nPM 10. \n \nBACT is triggered for POC, NOx, CO, PM 2.5 or PM 10 since the maximum daily emissions of each of \nthese pollutants exceed 10 lb /day per source.  BACT for this source is presented in the current \nBAAQMD BACT/TBACT Workbook for IC Engine –  Compression Ignition: Stationary Emergency, \nnon- Agricultural, non -direct drive fire pump, > 50 bhp, Document #96.1.3, Revision 7 dated \n12/22/2010.   For POC, NOx and CO, BACT(2) is the CARB ATCM standard for the respective \npollutant at applicable horsepower rating.  For PM 2.5 or PM 10, BACT(2) is an emission ratenot to \nexceed 0.15 g/bhp -hr.   \n \nS-1572  satisfies the current BACT(2) standards for POC, N Ox and CO (4.8 g/bhp -hr of NOx+NMHC, \nwhen NOx and POC is 4.56 g/bhp- hr and 0.24 g/bhp- hr, respectively, and 2.6 g/bhp -hr of CO).  \nThe more restrictive BACT(1) standards are not applicable to this engine because it will be limited \nto operation as an emergen cy standby engine."
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nTS  \n \nPer Regulation 2 -2-302, before an Authority to Construct or a Permit to Operate is issued for a \nnew source at a facility with potential to emit 35 tons per year or more, on a pollutant specific \nbasis, of POC or NOx, emission of fsets shall be provided, for the emissions from the new source \nand any pre -existing cumulative increase, minus any onsite contemporaneous emission \nreductions, at a 1.15 to 1.0 ratio.   \n Per Regulation 2 -2-303, before an Authority to Construct or a Permit to Operate is issued for a \nnew source at a facility with potential to emit 100 tons per year or more, on a pollutant specific \nbasis, of SO\n2, PM 2.5 or PM 10, emission offsets shall be provided, for the emissions from the new \nsource and any pre -existing cumula tive increase, minus any onsite contemporaneous emission \nreductions, at a 1.0 to 1.0 ratio.  \n \nA summary of the offsets for this application follows:  \n \nPollutant  Current"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(tpy)  Project"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(tpy)  Total"
+      },
+      {
+        "heading": "Cumulative \nIncrease",
+        "alias": null,
+        "text": "Cumulative \nIncrease\n(tpy)  Offset \nRatio  Offsets \nRequired \n(tpy)  \nSO2 0.0 0.0003  0.000  1.0 0.000  \nNOx  0.0 0.6841     0.6841  1.15  0.786  \nCO 64.727  0.3901    65.1171  N/A  \nPOC  0.0 0.0360     0.0360  1.15  0.041  \nPM-2.5 0.0 0.0225     0.0225  1.0 0.023  \nPM-10 0.832  0.0225     0.8545  1.0 0.855  \n The offsets for PM- 2.5 also offset PM -10.  Therefore, if offsets were provided today, the \nrequired PM -10 offsets are 0.855 –  0.023 = 0.832 tons. \n Per Regulation 2 -2-303, Tesoro has elected to defer the offsets for PM2.5 and PM10 since the \ncumulative increase for these pollutants do not exceed 1 ton.  Offsets will be provided per the following table:  \n \nTons/yr  SO2 POC  NOx  PM 2.5 PM 10"
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nRequired  0.000  0.041  0.786  0.023  0.832  \nBank 1568   0.041     \nBank 1144  0.000   0.786   0 \nRemaining \nCumulative \nIncrease  0.000  0.000  0.000  0.023  0.832  \n \nNSPS  \n \nThe engine is subject to 40 CFR 60, Subpart IIII, Standards of Performance for Stationary Compression Ignition Internal Combustion Engines because it was manufactured after April 1, \n2006, as required by Section 60.4200(a)(2)(i). \n S-1572 engine has a total displacement of 78.1 liters and has 6 cylinders.  Therefore, each cylinder \nhas a volume of less than 30 liters.  The engine is a 2010 model year engine and is no fire pump.  Section 60.4205(b) requires t hese engines to comply with the emission standards in Section \n60.4202, which refers to 40CFR89.112 and 40CFR89.113 for all pollutants.  \nFor engines greater than 600 hp, these standards are:  \nNMHC+NOx:  4.77 g/hp -hr  \nCO: 2.61 g/hp- hr  \nPM: 0.15 g/hp -hr  \n According to the CARB certification for EPA engine family name of ACPXL78.1T2X, the engine will \ncomply with the standards.  \n \nSections 60.4206 and 60.4211(a) require that the owner/operator operate and maintain the engine according to the manufacturer's written instructions or procedures developed by the owner or operator that are approved by the engine manufacturer, over the entire life of the engine.  The owner/operator is expected to comply with this requirement.  \n \nSection 60.4207(b) requires that the owner/operator must use fuel that complies with 40 CFR 80.510(b).  This means that the fuel must have a sulfur content of 15 par ts per million (ppm) \nmaximum, and the same cetane index or aromatic content as above.  The owner/operator is expected to comply with this requirement because CARB diesel is required to be used in California.  \n Section 60.4209(a) requires a non -resettable hour meter.  This requirement is included in the \nTesoro standard permit conditions (23811).   The engine will comply with the requirements of Section 60.4211(c) because it has been certified in accordance with 40 CFR Part 89.   The engine will comply with the requirement in Section 60.4211(e) to run for less than 100 hours per year for maintenance checks and readiness testing, and the prohibition of running for any \nreason other than emergency operation, maintenance, and testing because it is limited by permi t \ncondition to 50 hours per year for reliability testing and otherwise may only operate for \nemergencies.  \n \nThe owner/operator is not required to perform tests in accordance with Section 60.4212 or \n60.4213.  \n Section 60.4214(b) states that owner/operators do not have to submit an initial notification to EPA for emergency engines.   Because the engine does not have a diesel particulate filter, the owner/operator is not subject to \nSection 60.4214(c).  \n \nThe owner/operator is required to comply with certain sections of 40 CFR 60, Subpart A, General \nProvisions.  The owner/operator is expected to comply with this requirement.  \n \nNESHAP  \n \nThis engine is subject to the emission or operating limitations in 40 CFR 63, Subpart ZZZZ, National \nEmission Standards for Hazardous Air Pollutants for Stationary Reciprocating Internal \nCombustion Engines, per 40 CFR 63.6590(a)(2)(i), because it is a new engine, over 500 bhp, located at a major source, constructed after 12/19/2002.  However, S- 1572 is subject to limited \nrequir ements.  Per 40 CFR 63.6590(b)(1)(i), S -1572 does not have to meet the requirements of \n40 CFR 63, Subpart ZZZZ or Subpart A, except for the initial notification requirements of 63.6645(f).  \nCARB Stationary Diesel Engine ATCM \n \nThe State Office of Administrative Law approved the Airborne Toxic Control Measure (ATCM) on November 8, 2004.  The latest amendment of this ATCM is effective May 19, 2011.  State law requires the local Air Districts to implement and enforce the requirements of the ATCM.  Effective January 1, 2005, there is a prohibition on the operation of new diesel emergency standby engines \ngreater than 50 bhp unless the following operating requirements and emission standards of 93115.6(a)(3)(A)(1) are met:  \n \na. meet the applicable emission standards for all pollutants for the same model year and maximum horsepower rating as specified in Table 1 Emission Standards for New Stationary Emergency Standby Diesel -Fueled CI Engines, in effect on the date of \nacquisition or submittal, as defined in se ction 93115.4, and  \n \nb. after December 31, 2008, be certified to the new nonroad compression- ignition (CI) \nengine emission standards for all pollutants for 2007 and later model year engines as \nspecified in 40 CFR, PART 60, Subpart IIII -Standards of Performanc e for Stationary \nCompression Ignition Internal Combustion Engines (2006); and \nc. not operate more than 50 hours per year for maintenance and testing purposes, except as provided in 93115.6(a)(3)(A)2. This subsection does not limit engine operation for \nemergen cy use and for emission testing to show compliance with 93115.6(a)(3).  \n \nEmergency standby diesel engine S -1572 meets (1) the emission standards for all pollutants set \nin Table 1 Emission Standards for New Stationary Emergency Standby Diesel- Fueled CI Engin es, \n(2) is subject to and in compliance with the EPA Tier 2 off- road CI engine standards, and (3) will \noperate for no more than 50 hours per year for maintenance and reliability testing per engine.  \nTherefore, the diesel engine is in compliance with the above ATCM requirements."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE  \n \nSource S- 1572 is subject to and expected to be in compliance with the requirements of District \nRegulation 1 -301 (Public Nuisance), Regulation 6 -1 (Particulate Matter General Requirements), \nRegulation 9 -1 (Su lfur Dioxide) and Regulation 9 -8 (NOx and CO from Stationary Internal \nCombustion Engines).   \n \nFrom Regulation 1 -301, no person shall discharge from any source whatsoever such quantities of \nair contaminants or other material which cause injury, detriment, n uisance or annoyance to any \nconsiderable number of persons or the public; or which endangers the comfort, repose, health or safety of any such persons or the public, or which causes, or has a natural tendency to cause, \ninjury or damage to business or prope rty.  For purposes of this section, three or more violation \nnotices validly issued in a 30 day period to a facility for public nuisance shall give rise to a \nrebuttable presumption that the violations resulted from negligent conduct.  \n \n\nS-1572 is subject to t he limitations of Regulation 6 -1-303 ( Ringelmann No 2 Limitation).  \nRegulation 6 -1-303 states that a person shall not emit for a period or periods aggregating more \nthan three minutes in any hour, a visible emission that is as dark or darker than No. 2 on the \nRingelmann Chart, or of such opacity as to obscure an observer’s view to an equivalent or greater \ndegree, nor shall said emission, as perceived by an opacity sensing device in good working order, \nwhere such device is required by District Regulations, be  equal to or greater than 40% opacity.  \nThis low PM 10 emitting engine is not expected to produce visible emissions or fallout in violation \nof this regulation, and it will be assumed to be in compliance with Regulation 6 pending a regular inspection.  \n S-1572 is also subject to the SO\n2 limitations of Regulation 9 -1-301 ( Limitations on Ground Level \nConcentrations of Sulfur Dioxide ), Regulation 9 -1-302 ( Limitations Sulfur Dioxide Emissions) and \n9-1-304 ( Burning of Solid and Liquid Sulfur Dioxide Fuel ).  From Re gulation 9 -1-301, the ground \nlevel concentrations of SO 2 will not exceed 0.5 ppm continuously for 3 consecutive minutes or \n0.25 ppm averaged over 60 consecutive minutes, or 0.05 ppm averaged over 24 hours. Per Regulation 9 -1-302, a person shall not emit fr om any source a gas stream containing sulfur \ndioxide in excess of 300 ppm (dry).  And Regulation 9 -1-304, states that a person shall not burn \nany liquid fuel having sulfur content in excess of 0.5% by weight.  Compliance with Regulation 9 -\n1 is very likely since diesel fuel with a 0.0015% by weight sulfur is mandated for use in California.  \n \nFrom Regulation 9 -8 (NOx and CO from Stationary Internal Combustion Engines), Section 110.5 \n(Emergency Standby Engines), S -1572 is exempt from the requirements of 9 -8-304 (Emission \nLimits – Compression- Ignited Engines), 9 -8-501 ( Initial Demonstration of Compliance ) and 9 -8-\n503 ( Quarterly Demonstration of Compliance ).  However, it is subject to the monitoring and \nrecord keeping procedures described in Regulation 9 -8-530 ( Emergency Standby Engines, \nMonitoring and Recordkeeping).  The requirements of this Regulation are included in the permit conditions below.  \n S-1572 is also subject to and expected to comply with Regulation 9 -8-330 ( Emergency Standby \nEngines, Hours of Operat ion) since non- emergency hours of operation will be limited in the \npermit conditions to 50 hours per year.  \n \nThis application is considered to be  ministerial under the District's Regulation 2 -1-311 and \ntherefore is not subject to CEQA review.  The engineering review for this project requires only \nthe application of standard permit conditions and standard emission factors in accordance with \nPermit H andbook Chapter 2.3.1.  \n PSD is not triggered.  \n This facility is located greater than 1,000 feet from the nearest school and therefore is not subject to the public notification requirements of Regulation 2 -1-412."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nNS  \n \nTesoro Condition 23811 will be revised as follows:  \n \n            COND#  23811   --------------------------------------  \n \n     Application 14917, September 2006  \n     Modified by Application 16495, November 2007  \n     Modified by Application 19330, February 2009  \n     Modified by Application 21713, May 2010  \n     Modified by Application 22152, October 2010  \n     Modified by Application 25942, February 2014 Added S -1557  \n     Modified by Application 27990, January 2017, Added S -1561  \n     Modified by Application 28553, Septe mber  2017, Added S -1572  \n     Plant 14628 (B2758) Emergency Diesel Engines S -1518, S -1519  \n     Plant 14628 (B2758) Emergency Diesel Engine S -1522, S -1557  \n     Plant 14629 (B2759) Emergency Diesel Engine S -57 \n     Plant 14629 (B2759) Emergency Diesel Engine S -58 \n     Plant 21200 (E1200) Emergency Diesel Engine S -56 \n     Plant 14628 (B2758) Avon Wharf Berth 1A Emergency Generator  \n     Diesel Engine S -1561                                        \n     Plant 14628 (B2758) No 4 Gas Plant Emergency Generator  \n     Diesel Engine S -1572                                        \n       1.  Operating for reliability -related activities is limited  \n         to 50 hours per year per engine. [Basis: \"Stationary  \n         Diesel Engine ATCM\", CA Code of Regulations, Title 17,  \n         Section 93115.6(b)(3)(A)2b and 93115.6(a)(3)(A)1c]      \n \n     2.  The owner or operator shall operate each emergency  \n         standby engine only for the following purposes: to  \n         mitigate emergency conditions, for emission testing to  \n         demonstrate compliance with a District, state or Federal  \n         emission limit, or for reliability -related activities  \n         (maintenance and other testing, but excluding emission \n         testing). Operating hours while mitigating emergency  \n         conditions or while emission testing to show compliance  \n         with District, state or Federal emission limits is not  \n         limited. [Basis: Regulation 9 -8-330, \"Stationary Diesel  \n         Engine ATCM\", CA Code of Regulations, Title 17, Section  \n         93115.4(29)]                                            \n \n     3.  The owner/operator shall operate each emergency standby  \n         engine only when a non- resettable totalizing meter (with  \n         a minimum display capability of 9,999 hours) that  \n         measures the hours of operation for the engine is  \n         installed, operated and properly maintained. [Basis:  \n     Regulation 9 -8-530, \"Stationary Diesel Engine ATCM\", CA Code  \n     of Regulations, Title 17, Section 93115.10(d)(1)]           \n \n     4.  Records: The owner/operator shall maintain the following  \n         monthly records in a District -approved log for at  least  \n         60 months from the date of entry. Log entries shall be  \n         retained on- site, either at a central location or at the  \n         engine's location, and made immediately available to the  \n         District staff upon request.  \n         a.  Ho urs of operation for reliability -related  \n             activities (maintenance and testing).  \n         b.  Hours of operation for emission testing to show  \n             compliance with emission limits.  \n         c.  Hours of operation (emergency).  \n         d.  For each emergency, the nature of the emergency  \n             condition.  \n         e.  Fuel usage for each engine(s)                            [Basis: Regulation 9 -8-530, Regulation 2 -6-501, and  \n     \"Stationary Diesel Engine ATCM\", CA Code of Regulations,  \n     Title 17, Section 93115.10(f) ]  RECOMMENDATION  \n \nI recommend that Tesoro Refinery be issued an Authority to Construct for the following \nequipment:  \nS-1572  Emergency Standby Diesel Generator Set  \n2010 Caterpillar, Model: 3516C  \n2722 bhp, 18.1 MMBtu/hr  \nModel Year 2010, EPA Tier 2 Engine  \n \n \n \nPrepared by:  ______________________________  Date:  _____________________  \nArt Valla, Senior Air Quality Engineer      9/1/17"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nON  \nTesoro Refining & Marketing Company LLC  \nPlant: 14628 \nApplication: 28553"
+      },
+      {
+        "heading": "POC  0.24  34.6  72.0  0.0360",
+        "alias": null,
+        "text": "POC  0.24  34.6  72.0  0.0360"
+      },
+      {
+        "heading": "CO 2.6 375 780 0.3901",
+        "alias": null,
+        "text": "CO 2.6 375 780 0.3901"
+      },
+      {
+        "heading": "PM 10 0.15  21.6  45 0.0225",
+        "alias": null,
+        "text": "PM 10 0.15  21.6  45 0.0225"
+      },
+      {
+        "heading": "PM 2.5 0.15  21.6  45 0.0225",
+        "alias": null,
+        "text": "PM 2.5 0.15  21.6  45 0.0225"
+      },
+      {
+        "heading": "SO21 0.00175  0.011  0.525  0.0003",
+        "alias": null,
+        "text": "SO21 0.00175  0.011  0.525  0.0003\n1Notes:  SO 2 emission factor from AP -42 Table 3.4 -1, SO 2 (15 ppm) E.F. is 0.001515 lb SO 2/MMBtu = 0.00175 gm/HP -hr."
+      },
+      {
+        "heading": "POC  0.000  0.0360  0.036 0",
+        "alias": null,
+        "text": "POC  0.000  0.0360  0.036 0"
+      },
+      {
+        "heading": "CO 64.727  0.3901  65.1171",
+        "alias": null,
+        "text": "CO 64.727  0.3901  65.1171"
+      },
+      {
+        "heading": "PM 10 0.832  0.0225  0.8545",
+        "alias": null,
+        "text": "PM 10 0.832  0.0225  0.8545"
+      },
+      {
+        "heading": "PM 2.5 0.000  0.0225  0.0225",
+        "alias": null,
+        "text": "PM 2.5 0.000  0.0225  0.0225"
+      },
+      {
+        "heading": "SO2 0.000  0.0003  0.0003",
+        "alias": null,
+        "text": "SO2 0.000  0.0003  0.0003"
+      },
+      {
+        "heading": "PM 10.",
+        "alias": null,
+        "text": "PM 10.\nBACT is triggered for POC, NOx, CO, PM 2.5 or PM 10 since the maximum daily emissions of each of \nthese pollutants exceed 10 lb /day per source.  BACT for this source is presented in the current \nBAAQMD BACT/TBACT Workbook for IC Engine –  Compression Ignition: Stationary Emergency, \nnon- Agricultural, non -direct drive fire pump, > 50 bhp, Document #96.1.3, Revision 7 dated \n12/22/2010.   For POC, NOx and CO, BACT(2) is the CARB ATCM standard for the respective \npollutant at applicable horsepower rating.  For PM 2.5 or PM 10, BACT(2) is an emission ratenot to \nexceed 0.15 g/bhp -hr.   \n \nS-1572  satisfies the current BACT(2) standards for POC, N Ox and CO (4.8 g/bhp -hr of NOx+NMHC, \nwhen NOx and POC is 4.56 g/bhp- hr and 0.24 g/bhp- hr, respectively, and 2.6 g/bhp -hr of CO).  \nThe more restrictive BACT(1) standards are not applicable to this engine because it will be limited \nto operation as an emergen cy standby engine."
+      },
+      {
+        "heading": "SO2 0.0 0.0003  0.000  1.0 0.000",
+        "alias": null,
+        "text": "SO2 0.0 0.0003  0.000  1.0 0.000\nNOx  0.0 0.6841     0.6841  1.15  0.786"
+      },
+      {
+        "heading": "CO 64.727  0.3901    65.1171  N/A",
+        "alias": null,
+        "text": "CO 64.727  0.3901    65.1171  N/A"
+      },
+      {
+        "heading": "POC  0.0 0.0360     0.0360  1.15  0.041",
+        "alias": null,
+        "text": "POC  0.0 0.0360     0.0360  1.15  0.041"
+      },
+      {
+        "heading": "PM-2.5 0.0 0.0225     0.0225  1.0 0.023",
+        "alias": null,
+        "text": "PM-2.5 0.0 0.0225     0.0225  1.0 0.023"
+      },
+      {
+        "heading": "PM-10 0.832  0.0225     0.8545  1.0 0.855",
+        "alias": null,
+        "text": "PM-10 0.832  0.0225     0.8545  1.0 0.855\nThe offsets for PM- 2.5 also offset PM -10.  Therefore, if offsets were provided today, the \nrequired PM -10 offsets are 0.855 –  0.023 = 0.832 tons. \n Per Regulation 2 -2-303, Tesoro has elected to defer the offsets for PM2.5 and PM10 since the \ncumulative increase for these pollutants do not exceed 1 ton.  Offsets will be provided per the following table:  \n \nTons/yr  SO2 POC  NOx  PM 2.5 PM 10 \nOffsets \nRequired  0.000  0.041  0.786  0.023  0.832  \nBank 1568   0.041     \nBank 1144  0.000   0.786   0 \nRemaining \nCumulative \nIncrease  0.000  0.000  0.000  0.023  0.832"
+      },
+      {
+        "heading": "NSPS",
+        "alias": null,
+        "text": "NSPS\nPS  \n \nThe engine is subject to 40 CFR 60, Subpart IIII, Standards of Performance for Stationary Compression Ignition Internal Combustion Engines because it was manufactured after April 1, \n2006, as required by Section 60.4200(a)(2)(i). \n S-1572 engine has a total displacement of 78.1 liters and has 6 cylinders.  Therefore, each cylinder \nhas a volume of less than 30 liters.  The engine is a 2010 model year engine and is no fire pump.  Section 60.4205(b) requires t hese engines to comply with the emission standards in Section \n60.4202, which refers to 40CFR89.112 and 40CFR89.113 for all pollutants.  \nFor engines greater than 600 hp, these standards are:  \nNMHC+NOx:  4.77 g/hp -hr  \nCO: 2.61 g/hp- hr  \nPM: 0.15 g/hp -hr  \n According to the CARB certification for EPA engine family name of ACPXL78.1T2X, the engine will \ncomply with the standards.  \n \nSections 60.4206 and 60.4211(a) require that the owner/operator operate and maintain the engine according to the manufacturer's written instructions or procedures developed by the owner or operator that are approved by the engine manufacturer, over the entire life of the engine.  The owner/operator is expected to comply with this requirement.  \n \nSection 60.4207(b) requires that the owner/operator must use fuel that complies with 40 CFR 80.510(b).  This means that the fuel must have a sulfur content of 15 par ts per million (ppm) \nmaximum, and the same cetane index or aromatic content as above.  The owner/operator is expected to comply with this requirement because CARB diesel is required to be used in California.  \n Section 60.4209(a) requires a non -resettable hour meter.  This requirement is included in the \nTesoro standard permit conditions (23811).   The engine will comply with the requirements of Section 60.4211(c) because it has been certified in accordance with 40 CFR Part 89.   The engine will comply with the requirement in Section 60.4211(e) to run for less than 100 hours per year for maintenance checks and readiness testing, and the prohibition of running for any \nreason other than emergency operation, maintenance, and testing because it is limited by permi t \ncondition to 50 hours per year for reliability testing and otherwise may only operate for \nemergencies.  \n \nThe owner/operator is not required to perform tests in accordance with Section 60.4212 or \n60.4213.  \n Section 60.4214(b) states that owner/operators do not have to submit an initial notification to EPA for emergency engines.   Because the engine does not have a diesel particulate filter, the owner/operator is not subject to \nSection 60.4214(c).  \n \nThe owner/operator is required to comply with certain sections of 40 CFR 60, Subpart A, General \nProvisions.  The owner/operator is expected to comply with this requirement."
+      },
+      {
+        "heading": "NESHAP",
+        "alias": null,
+        "text": "NESHAP\nAP  \n \nThis engine is subject to the emission or operating limitations in 40 CFR 63, Subpart ZZZZ, National \nEmission Standards for Hazardous Air Pollutants for Stationary Reciprocating Internal \nCombustion Engines, per 40 CFR 63.6590(a)(2)(i), because it is a new engine, over 500 bhp, located at a major source, constructed after 12/19/2002.  However, S- 1572 is subject to limited \nrequir ements.  Per 40 CFR 63.6590(b)(1)(i), S -1572 does not have to meet the requirements of \n40 CFR 63, Subpart ZZZZ or Subpart A, except for the initial notification requirements of 63.6645(f).  \nCARB Stationary Diesel Engine ATCM \n \nThe State Office of Administrative Law approved the Airborne Toxic Control Measure (ATCM) on November 8, 2004.  The latest amendment of this ATCM is effective May 19, 2011.  State law requires the local Air Districts to implement and enforce the requirements of the ATCM.  Effective January 1, 2005, there is a prohibition on the operation of new diesel emergency standby engines \ngreater than 50 bhp unless the following operating requirements and emission standards of 93115.6(a)(3)(A)(1) are met:  \n \na. meet the applicable emission standards for all pollutants for the same model year and maximum horsepower rating as specified in Table 1 Emission Standards for New Stationary Emergency Standby Diesel -Fueled CI Engines, in effect on the date of \nacquisition or submittal, as defined in se ction 93115.4, and  \n \nb. after December 31, 2008, be certified to the new nonroad compression- ignition (CI) \nengine emission standards for all pollutants for 2007 and later model year engines as \nspecified in 40 CFR, PART 60, Subpart IIII -Standards of Performanc e for Stationary \nCompression Ignition Internal Combustion Engines (2006); and \nc. not operate more than 50 hours per year for maintenance and testing purposes, except as provided in 93115.6(a)(3)(A)2. This subsection does not limit engine operation for \nemergen cy use and for emission testing to show compliance with 93115.6(a)(3).  \n \nEmergency standby diesel engine S -1572 meets (1) the emission standards for all pollutants set \nin Table 1 Emission Standards for New Stationary Emergency Standby Diesel- Fueled CI Engin es, \n(2) is subject to and in compliance with the EPA Tier 2 off- road CI engine standards, and (3) will \noperate for no more than 50 hours per year for maintenance and reliability testing per engine.  \nTherefore, the diesel engine is in compliance with the above ATCM requirements."
+      },
+      {
+        "heading": "Cumulative \nIncrease",
+        "alias": null,
+        "text": "Cumulative \nIncrease\n(tpy)  Offset \nRatio  Offsets \nRequired \n(tpy)  \nSO2 0.0 0.0003  0.000  1.0 0.000  \nNOx  0.0 0.6841     0.6841  1.15  0.786  \nCO 64.727  0.3901    65.1171  N/A  \nPOC  0.0 0.0360     0.0360  1.15  0.041  \nPM-2.5 0.0 0.0225     0.0225  1.0 0.023  \nPM-10 0.832  0.0225     0.8545  1.0 0.855  \n The offsets for PM- 2.5 also offset PM -10.  Therefore, if offsets were provided today, the \nrequired PM -10 offsets are 0.855 –  0.023 = 0.832 tons. \n Per Regulation 2 -2-303, Tesoro has elected to defer the offsets for PM2.5 and PM10 since the \ncumulative increase for these pollutants do not exceed 1 ton.  Offsets will be provided per the following table:  \n \nTons/yr  SO2 POC  NOx  PM 2.5 PM 10"
+      }
+    ]
+  }
+}

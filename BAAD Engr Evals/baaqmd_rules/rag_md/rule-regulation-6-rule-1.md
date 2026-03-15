@@ -1,0 +1,499 @@
+---
+rule_number: Regulation 6, Rule 1
+title: Regulation 6, Rule 1: General Requirements (Amendments Adopted August 1, 2018)
+source_url: https://www.baaqmd.gov/~/media/dotgov/files/rules/archive-2018-regulation-6-rule-1/documents/rg0601-pdf.pdf?rev=57b56e4a39be4995b3d021c8dd7c941c&sc_lang=en
+local_pdf: C:\Users\aaw\Codex\BAAD Engr Evals\baaqmd_rules\pdfs\rule-regulation-6-rule-1.pdf
+rule_page_url: https://www.baaqmd.gov/en/rules-and-compliance/rules/reg-6-rule-1-general-requirements?rule_version=2018 Amendment
+version_status: Adopted
+adopted: 0001-01-01T00:00:00
+amended: 2018-07-31T00:00:00
+source_json: C:/Users/aaw/Codex/BAAD Engr Evals/baaqmd_rules/json/rule-regulation-6-rule-1.json
+---
+
+# Regulation 6, Rule 1: General Requirements (Amendments Adopted August 1, 2018)
+
+## Description
+
+Limits the quantity of particulate matter in the atmosphere by controlling emission rates, concentration, visible emissions and opacity. Renamed and Renumbered 12/5/2007
+
+## Contact
+
+415.749.4999 compliance@baaqmd.gov
+
+## Sections
+
+### 110 Exemptions for Activities Subject to Other Rules and Regulations
+
+**History**
+
+- Adopted 7/11/90, 12/19/90, Amended 8/1/18
+
+#### 110.1
+
+Temporary Sandblasting Operations: The provisions of this rule shall not apply to Temporary Sandblasting operations. Such operations are subject to the provisions of Regulation 12, Rule 4.
+
+#### 110.2
+
+Open Outdoor Fires: The provisions of this rule shall not apply to emissions arising from open outdoor fires. Such open outdoor fires are subject to the provisions of Regulation 5.
+
+#### 110.3
+
+Wood Burning Devices: The provisions of this rule shall not apply to sources subject to the provisions of Regulation 6, Rule 3.
+
+#### 110.4
+
+Metal Recycling and Shredding Operations: The provisions of this rule shall not apply to sources subject to the provisions of Regulation 6, Rule 4.
+
+### 111 Limited Exemption, Blasting Operations
+
+**History**
+
+- Adopted 8/1/18
+
+Blasting operations that are conducted by certified blasters who have met the blasting ordinances and requirements for licensing and permitting by the State of California Department of Industrial Relations Division of Occupational Safety and Health or other applicable local permitting authority are not subject to Sections 6-1-307 and 6-1-506.
+
+### 112 Limited Exemption, Portland Cement Manufacturing
+
+**History**
+
+- Adopted 8/1/18
+
+Sections 6-1-307, 310 and 311 shall not apply to particulate emissions from sources subject to the provisions of Regulation 9, Rule 13.
+
+### 113 Limited Exemption, Total Suspended Particulate (TSP) Concentration and
+
+**History**
+
+- Adopted 8/1/18
+
+Weight Limitations: Sections 6-1-310.2, 311.2 and 504 shall not apply to particulate matter emissions from the following sources:
+
+#### 113.1
+
+Commercial cooking equipment subject to the provisions of Regulation 6, Rule 2.
+
+#### 113.2
+
+Salt processing operations whose TSP emissions are greater than 99 weight percent salt.
+
+### 114 Limited Exemption, Total Suspended Particulate (TSP) Emission Limits for Fuel
+
+**History**
+
+- Adopted 8/1/18
+
+Combustion: Sections 6-1-310.2 and 311.2 shall not apply to particulate matter emissions from the following sources:
+
+#### 114.1
+
+Gas-, liquid- and solid-fuel fired indirect heat exchangers, including furnaces, heaters, boilers, gas turbines and supplemental fuel-fired heat recovery steam generators, but excluding Carbon Monoxide Boilers downstream of Petroleum Refinery Fluid Catalytic Cracking Unit regenerators.
+
+#### 114.2
+
+Gas-fuel fired control devices that control only gaseous emissions.
+
+#### 114.3
+
+Section 6-1-504 shall not apply to gas-fuel fired indirect heat exchangers or gas-fuel fired control devices that control only gaseous emissions. Liquid- and solid-fuel fired indirect heat exchangers shall remain subject to Section 6-1504.
+
+### 115 Limited Exemption, Total Suspended Particulate (TSP) Concentration Limitation
+
+**History**
+
+- Adopted 8/1/18
+
+Section 6-1-310.2 shall not apply to particulate emissions from a sewage treatment plant solid waste incinerator abated by a wet scrubber with an Air District Permit to Operate until July 1, 2025.
+
+### 116 Limited Exemption, Total Suspended Particulate (TSP) Limits
+
+**History**
+
+- Adopted 8/1/18
+
+Section 6-1-310.2 and 311.2 shall not apply to particulate emissions from a carbon monoxide boiler abated by a water scrubber with an Air District Permit to Operate.
+
+### 117 Limited Exemption, Total Suspended Particulate (TSP) Limits
+
+**History**
+
+- Adopted 8/1/18
+
+Section 6-1-310.2 and 6-1-311.2 shall not apply to particulate emissions from a petroleum coke calcining unit abated by a baghouse with an Air District Permit to Operate until January 1, 2022.
+
+### 200 DEFINITIONS
+
+### 201 Active Operations
+
+**History**
+
+- Adopted 8/1/18
+
+As defined in Regulation 6-201, any activity with the potential to create particulate emissions from any source or fugitive dust emissions.
+
+### 202 Bulk Material
+
+**History**
+
+- Adopted 8/1/18
+
+As defined in Regulation 6-202, any unpackaged sand, soil, gravel, aggregate, solid construction material, solid industrial chemical or other unpackaged solids less than 2 inches in length or diameter.
+
+### 203 Bulk Material Site
+
+**History**
+
+- Adopted 8/1/18
+
+As defined in Regulation 6-203, any site with one or more stockpiles of bulk material greater than 5 feet high or with a footprint greater than 100 square feet.
+
+### 204 Exhaust Gas Volume
+
+**History**
+
+- Renumbered and Amended 8/1/18
+
+The volume of gases discharged from an operation or an emission point, corrected to standard conditions (as defined in Regulation 1-228), excluding water vapor or steam.
+
+### 205 Particle
+
+**History**
+
+- Adopted 8/1/18
+
+A minute quantity of solid matter or liquid droplet.
+
+### 206 Process Weight
+
+**History**
+
+- Renumbered and Amended 8/1/18
+
+The total weight of all material introduced into an operation, including solid fuels and process air, but excluding (i) liquids and gases used solely as fuels, (ii)
+
+air that is not consumed as a reactant or is not critical to the process, (iii) air that is used only for dilution, and (iv) combustion air.
+
+### 207 Process Weight Rate and Exhaust Gas Rate
+
+**History**
+
+- Renumbered and Amended 8/1/18
+
+A rate established as follows:
+
+#### 207.1
+
+For continuous or long-run, steady-state operations, the total process weight or exhaust gas volume for the entire period of continuous operation or for a typical portion thereof, divided by the number of hours of such period or portions thereof.
+
+#### 207.2
+
+For cyclical or batch operations, the total process weight or exhaust gas volume for a period that covers a complete operation or an integer number of cycles, divided by the hours of actual process operation during such period.
+
+Where the nature of any process or operation or the design of any equipment is such as to permit more than one interpretation of this section, that interpretation which results in the minimum value for allowable emission shall apply.
+
+### 208 Regulated Bulk Material Site
+
+**History**
+
+- Adopted 8/1/18
+
+A bulk material site that (i) produces, handles, loads, unloads, stores or uses more than 10 tons per year of bulk materials; and (ii) is subject to an authority to construct and/or permit to operate for bulk material storage and
+
+### 209 Stockpile
+
+**History**
+
+- Adopted 8/1/18
+
+As defined in Regulation 6-208, an open or unenclosed storage pile of bulk material, external to any barn, pit or silo.
+
+### 210 Workday
+
+**History**
+
+- Adopted 8/1/18
+
+As defined in Regulation 6-210, any period, typically 8 – 12-hour shifts, when active operations occur on the site.
+
+### 300 STANDARDS
+
+### 301 Ringelmann No. 1 Limitation
+
+**History**
+
+- Amended 7/11/90, 8/1/18
+
+Except as provided in Sections 6-1-303, 304 and 306, a person shall not emit from any source for a period or aggregate periods of more than three minutes in any hour, a visible emission that is as dark or darker than No. 1 on the Ringelmann Chart, or of such opacity as to obscure an observer's view to an equivalent or greater degree.
+
+### 302 Opacity Limitation
+
+**History**
+
+- Amended 7/11/90, 8/1/18
+
+Except as provided in Sections 6-1-303, 304 and 306, a person shall not emit from any source for a period or aggregate periods of more than three minutes in any hour an emission equal to or greater than 20% opacity.
+
+### 303 Ringelmann No. 2 Limitation
+
+**History**
+
+- Amended 1/5/83, 7/11/90, 8/1/18
+
+A person shall not emit for a period or aggregate periods of more than three minutes in any hour, a visible emission that is as dark or darker than No. 2 on the Ringelmann Chart, or of such opacity as to obscure an observer's view to an equivalent or greater degree, or be equal to or greater than 40 percent opacity, from the following sources:
+
+#### 303.1
+
+Internal combustion engines of less than 25 liters (1500 in3) displacement;
+
+#### 303.2
+
+Engines used solely as a standby source of motive power;
+
+#### 303.3
+
+Laboratory equipment used exclusively for chemical or physical analyses or experimentation;
+
+#### 303.4
+
+Portable brazing, soldering or welding equipment.
+
+### 304 Tube Cleaning
+
+**History**
+
+- Amended 8/1/18
+
+During tube cleaning, and except for three minutes in any hour, a person shall not emit from any heat transfer operation using fuel at a rate of not less than 148 GJ (140 million BTU) per hour, a visible emission as dark or darker than No.
+
+2 on the Ringelmann Chart, or of such opacity as to obscure an observer's view to an equivalent or greater degree, or equal to or greater than 40 percent opacity. The aggregate duration of such emissions in any 24-hour period shall not exceed 6.0 minutes per 1055 GJ (one billion BTU) gross heating value of fuel burned during such 24-hour period.
+
+### 305 Visible Particles
+
+**History**
+
+- Amended 8/1/18
+
+No person shall emit particles from any operation in sufficient number to cause annoyance to any other person where the particles are large enough to be visible as individual particles at the emission point, or of such size and nature as to be visible individually as incandescent particles. This Section shall only apply if such particles fall on real property other than the property of the person responsible for the emission.
+
+### 306 Piledriving Hammers
+
+**History**
+
+- Adopted July 11, 1990, Amended 8/1/18
+
+No person shall emit visible emissions from a piledriving hammer that exceeds the following standards for a period or aggregate periods of more than four minutes during the driving of a single pile:
+
+#### 306.1
+
+For piledriving hammers other than those specified in Section 306.2, any visible emission that is as dark or darker than No. 1 on the Ringelmann Chart, or of such opacity as to obscure an observer's view to an equivalent or greater degree;
+
+#### 306.2
+
+For piledriving hammers utilizing kerosene, smoke suppressing fuel additives and synthetic lubricating oil, and for which fuel usage records are kept as required by Section 6-1-503, any visible emission that is as dark or darker than No. 2 on the Ringelmann Chart or of such opacity as to obscure an observer's view to an equivalent or greater degree.
+
+### 307 Prohibition of Visible Emissions Within and From Regulated Bulk Material Sites
+
+**History**
+
+- Adopted 8/1/18
+
+#### 307.1
+
+Effectve July 1, 2019, the owner/operator of a Regulated Bulk Material Site shall not cause or allow a fugitive dust visible emission from: active operations at the site, a bulk material stockpile, or a bulk material spill that:
+
+##### a.
+
+Exceeds (i) 5 feet long, 5 feet wide, or 5 feet high, and (ii) 10 percent opacity as determined by EPA Method 203B (or half as dark in shade as that designated as Number 1 on the Ringelmann Chart), for a period or aggregate periods of more than 3 minutes in any 60-minute period; or
+
+##### b.
+
+Travels or carries beyond the site property line.
+
+#### 307.2
+
+Effective July 1, 2019, the owner/operator of a Regulated Bulk Material Site shall clean up any bulk material spill of more than 12 inches high or more than 25 square feet by the end of the workday, unless the spill is adequately wetted, covered, or is protected by a wind screen with no more than 50 percent porosity that is (i) equal to or higher than the height of the spill; and (ii) placed upwind of the spill at a distance no greater than the height of the wind screen.
+
+Cleanup activities shall not cause fugitive dust visible emissions that exceed 20 percent opacity as determined by EPA Method 203B (or as dark in shade as that designated as Number 1 on the Ringelmann Chart), for a period or aggregate periods of more than 3 minutes in any 60-minute period.
+
+### 310 Total Suspended Particulate (TSP) Concentration Limits
+
+**History**
+
+- Amended 8/1/18
+
+#### 310.1
+
+No person shall emit TSP from any source in excess of 343 mg per dscm (0.15 gr per dscf) of exhaust gas volume.
+
+#### 310.2
+
+Effective July 1, 2020, Table 6-1-310.2 emission limits shall apply to any source with a Potential To Emit TSP (as defined in Regulation 2-1-217) greater than 1, 000 kg per year. No applicable source shall emit TSP at a concentration in excess of the limit indicated for the source’s Exhaust Gas Rate in Table 61-310.2:
+
+Table 6-1-310.2: Exhaust Gas Rate vs. Allowable TSP Concentrations Exhaust Gas Rate TSP Concentration Limit dscm/min dscf/min mg/dscm gr/dscf 50 or less 1, 766 or less 343 0.150 >50 – 75 >1, 766 - 2, 649 298 0.130 >75 – 100 >2, 649 - 3, 531 268 0.117 >100 – 150 >3, 531 - 5, 297 230 0.101 >150 – 200 >5, 297 - 7, 063 207 0.0903 >200 – 300 >7, 063 - 10, 594 178 0.0776 >300 – 400 >10, 594 - 14, 126 159 0.0697 >400 – 500 >14, 126 - 17, 657 147 0.0641 >500 – 750 >17, 657 - 26, 486 126 0.0551 >750 - 1, 000 >26, 486 - 35, 315 113 0.0495 >1, 000 - 1, 500 >35, 315 - 52, 972 97.3 0.0425 >1, 500 - 2, 000 >52, 972 - 70, 629 87.3 0.0382 >2, 000 - 3, 000 >70, 629 - 105, 944 75.1 0.0328 >3, 000 - 4, 000 >105, 944 - 141, 259 67.4 0.0295 >4, 000 - 5, 000 >141, 259 - 176, 573 62.0 0.0271 >5, 000 - 7, 500 >176, 573 - 264, 860 53.3 0.0233 >7, 500 - 10, 000 >264, 860 - 353, 147 47.8 0.0209 >10, 000 - 15, 000 >353, 147 - 529, 720 41.1 0.0180 >15, 000 - 20, 000 >529, 720 - 706, 293 36.9 0.0161 >20, 000 - 30, 000 >706, 293 - 1, 059, 440 31.7 0.0139 6-1-7 Exhaust Gas Rate TSP Concentration Limit >30, 000 - 40, 000 >1, 059, 440 - 1, 412, 587 28.5 0.0124 >40, 000 - 50, 000 >1, 412, 587 - 1, 765, 733 26.2 0.0115 >50, 000 - 70, 000 >1, 765, 733 - 2, 472, 027 23.1 0.0101 >70, 000 >2, 472, 027 23.0 0.0100
+
+#### 310.3
+
+For the purposes of Section 6-1-310, the measured concentration of TSP in the exhaust shall be corrected to standard conditions (as defined in Regulation 1-228) and (i) 12 percent carbon dioxide (CO 2) by volume, minus water vapor, for incineration or salvage operations and gas-fired pathological waste incinerators; or (ii) 6 percent oxygen (O 2) by volume, minus water vapor, for heat transfer operations. In the case of an incineration or salvage operation, the concentration shall be corrected as if no auxiliary fuel had been used and any CO 2 produced from combustion of liquid or gaseous fuel shall be excluded from the correction to 12 percent CO 2.
+
+### 311 Total Suspended Particulate (TSP) Weight Limits
+
+**History**
+
+- Amended 8/1/18
+
+#### 311.1
+
+No person shall emit TSP from any source at a rate in excess of the limit indicated for the source’s Process Weight Rate in Table 6-1-311.1. This section shall not apply to gas-, liquid- or solid-fuel fired indirect heat exchangers.
+
+Table 6-1-311.1: Process Weight Rate vs. Allowable TSP Emission Limits Process Weight Rate TSP Emission Limit kg/hour lb/hour kg/hour lb/hour 250 or less 551 or less 0.81 1.78 >250 - 300 >551 - 661 0.91 2.02 >300 - 400 >661 - 882 1.11 2.45 >400 -500 >882 - 1, 102 1.29 2.84 >500 - 600 >1, 102 - 1, 323 1.45 3.21 >600 - 700 >1, 323 - 1, 543 1.61 3.56 >700 – 800 >1, 543 – 1, 764 1.76 3.89 >800 – 900 >1, 764 – 1, 984 1.91 4.21 >900 – 1, 000 >1, 984 – 2, 205 2.05 4.52 >1, 000 - 1, 200 >2, 205 – 2, 646 2.31 5.11 >1, 200 - 1, 400 >2, 646 – 3, 086 2.56 5.66 >1, 400 - 1, 600 >3, 086 – 3, 257 2.80 6.19 >1, 600 - 1, 800 >3, 257 – 3, 968 3.03 6.70 >1, 800 – 2, 000 >3, 968 – 4, 409 3.26 7.19 >2, 000 – 2, 500 >4, 409 – 5, 512 3.78 8.35 >2, 500 –3, 000 >5, 512 – 6, 614 4.27 9.43 >3, 000 – 3, 500 >6, 614 – 7, 716 4.74 10.5 >3, 500 – 4, 000 >7, 716 – 8, 818 5.18 11.4 >4, 000 - 4, 500 >8, 818 – 9, 921 5.61 12.4 >4, 500 - 5, 000 >9, 921 - 11, 023 6.02 13.3 >5, 000 – 6, 000 >11, 023 - 13, 228 6.80 15.0 >6, 000 - 7, 000 >13, 228 - 15, 432 7.54 16.6 >7, 000 -8, 000 >15, 432 – 17, 637 8.24 18.2 6-1-8 Process Weight Rate TSP Emission Limit >8, 000 – 9, 000 >17, 637 – 19, 842 8.92 19.7 >9, 000 - 10, 000 >19, 842 – 22, 046 9.57 21.1 >10, 000 – 12, 000 >22, 046 - 26, 455 10.8 23.9 >12, 000 - 14, 000 >26, 455 - 30, 865 12.0 26.5 >14, 000 - 16, 000 >30, 865 - 35, 274 13.1 29.0 >16, 000 - 18, 000 >35, 274 – 39, 683 14.2 31.3 >18000 - 20, 000 >39, 683 - 44, 092 15.2 33.6 >20, 000 - 22, 000 >44, 092 – 48, 502 16.2 35.9 >22, 000 - 24, 000 >48, 502 – 52, 911 17.2 38.0 >24, 000 - 25, 000 >52, 911 – 55, 116 17.7 39.1 >25, 000 >55, 116 18.1 40.0
+
+#### 311.2
+
+Effective July 1, 2020, Table 6-1-311.2 emission limits shall apply to any source with a Potential to Emit TSP (as defined in Regulation 2-1-217) greater than 1, 000 kg per year. No applicable source shall emit TSP at a rate in excess of the limit indicated for the source’s Process Weight Rate in Table 6-1-311.2:
+
+Table 6-1-311.2: Process Weight Rate vs. Allowable TSP Emission Limits Process Weight Rate TSP Emission Limit kg/hour lb/hour kg/hour lb/hour 100 or less 220 or less 0.45 0.99 >100 - 150 >220 - 331 0.59 1.29 >150 - 200 >331 - 441 0.70 1.55 >200 - 300 >441 - 661 0.90 1.98 >300 - 400 >661 - 882 1.06 2.34 >400 -500 >882 - 1, 102 1.21 2.67 >500 - 750 >1, 102 - 1, 653 1.52 3.34 >750 – 1, 000 >1, 653 - 2, 205 1.78 3.92 >1, 000 – 1, 500 >2, 205 - 3, 307 2.21 4.86 >1, 500 - 2, 000 >3, 307 - 4, 409 2.56 5.65 >2, 000 - 3, 000 >4, 409 - 6, 614 3.15 6.95 >3, 000 - 4, 000 >6, 614 - 8, 818 3.64 8.02 >4, 000 - 5, 000 >8, 818 - 11, 023 4.06 8.95 >5, 000 - 7, 500 >11, 023 - 16, 535 4.96 10.9 >7, 500 - 10, 000 >16, 535 - 22, 046 5.44 12.0 >10, 000 - 15, 000 >22, 046 - 33, 069 6.00 13.2 >15000 - 20, 000 >33, 069 - 44, 092 6.40 14.1 >20, 000 - 30, 000 >44, 092 - 66, 139 7.04 15.5 >30, 000 - 40, 000 >66, 139 - 88, 185 7.53 16.6 >40, 000 - 50, 000 >88, 185 - 110, 231 7.93 17.5 >50, 000 - 75, 000 >110, 231 - 165, 347 8.71 19.2 >75, 000 - 100, 000 >165, 347 - 220, 462 9.33 20.6 >100, 000 - 150, 000 >220, 462 - 330, 693 10.3 22.6 >150, 000 - 200, 000 >330, 693 - 440, 925 11.0 24.2 >200, 000 - 300, 000 >440, 925 - 661, 387 12.1 26.6 6-1-9 >300, 000 - 400, 000 >661, 387 - 881, 849 12.9 28.5 >400, 000 >881, 849 13.6 30.0
+
+### 320 Sulfuric Acid Manufacturing Plants
+
+**History**
+
+- Amended 8/1/18
+
+A person shall not emit from any operation manufacturing sulfuric acid using as a principal raw material any sulfur-containing material, any emission having a concentration of SO 3 or H2SO4, or both, converted to and quantified as 100% H 2SO4, exceeding 92 mg per dscm (0.04 gr/dscf) of exhaust gas volume.
+
+### 330 Sulfur Recovery Units
+
+**History**
+
+- Amended 8/1/18
+
+A person shall not emit from any operation manufacturing sulfur, using as a principal raw material any sulfur-containing material, any emission having a concentration of SO 3 or H2SO4, or both, converted to and quantified as 100% H2SO4, exceeding 183 mg per dscm (0.08 gr/dscf) of exhaust gas volume.
+
+### 400 ADMINISTRATIVE REQUIREMENTS
+
+### 401 Appearance of Emissions
+
+**History**
+
+- Amended 8/1/18
+
+Persons subject to this Rule are subject to and shall comply with the requirements of Regulation 6-102.
+
+### 402 Alternate Source Test Frequency
+
+**History**
+
+- Adopted 8/1/18
+
+The APCO may authorize a person to reduce the frequency of source tests required in Section 6-1-504 or 505 if at least three (3)
+
+consecutive prior source test results indicate compliance with the applicable standard.
+
+To apply for such authorization, a person subject to Section 6-1-504 or 505 must submit a request in writing to the Director of Compliance and Enforcement and Manager of Source Test indicating (i) the name of the person requesting the reduction,
+
+#### (ii)
+
+the site number of the site for which the reduction is sought, (iii) the source number of the source for which the reduction is sought, (iv) the pollutant for which the reduction is sought; and (iv) the results of prior source tests demonstrating compliance with the regulatory standard involved. The APCO shall approve or deny the reduction in frequency of source tests under this provision within 180 days of receipt of the written request.
+
+### 500 MONITORING AND RECORDS
+
+### 501 Sampling Facilities and Instruments Required
+
+**History**
+
+- Amended 8/1/18
+
+As described in Regulation 6-501, persons subject to this Rule are subject to, and shall provide sampling facilities and install instruments as required by, the provisions of Regulation 1.
+
+### 502 Data, Records and Reporting
+
+**History**
+
+- Amended 8/1/18
+
+As described in Regulation 6-502, persons monitoring emissions in accordance with the requirements of Regulation 1 shall keep records, report emission excesses and provide summaries of data collected as required by Regulation 1.
+
+### 503 Records
+
+**History**
+
+- Adopted 7/11/90, Amended 8/1/18
+
+In order to be eligible for the Ringelmann No. 2 limitation set forth in Section 6-1-306.2, the person responsible for the operation of a pile-driving hammer must maintain and have available for inspection records that establish the use of kerosene, smoke suppressing fuel additives and synthetic lubricating oil.
+
+### 504 Demonstration of Total Suspended Particles (TSP) Compliance
+
+**History**
+
+- Adopted 8/1/18
+
+Effective July 1, 2019, the owner/operator of a source with a District permit to operate and with a Potential To Emit TSP (as defined in Regulation 2-1-217) of greater than 2, 000 kg per year shall conduct source testing to demonstrate compliance with Section 6-1-310 and 311 according to the testing frequencies listed in Table 6-1-504, unless the owner/operator receives written approval from the APCO for a different testing frequency, as described in Section 6-1-402. Inactive permitted sources are not required to conduct compliance source testing until they become active by operating more than 90 days in a calendar year and must conduct a source test within six months 6-1-10 of becoming active. Source tests required under this section shall be conducted in accordance with Section 6-1-602.1.
+
+Table 6-1-504: Required Compliance Test Frequencies Potential to Emit TSP (kg/year) Compliance Test Frequency Minimum Time Between Tests Maximum Time Between Tests > 16, 000 Annually 9 months 15 months > 8, 000 – 16, 000 Biennially 18 months 30 months > 2, 000 – 8, 000 Every five years 48 months 72 months
+
+### 505 Demonstration of SO 3 and Sulfuric Acid Mist Compliance
+
+**History**
+
+- Adopted 8/1/18
+
+Effective July 1, 2019, the owner/operator of a source with a District permit to operate and with a Potential to Emit SO 3 and H 2SO4 (as defined in Regulation 2-1-217), converted to and quantified as 100 percent H 2SO4, greater than 2, 000 kg per year shall conduct source testing to demonstrate compliance with Section 6-1-320 or 330 according to the testing frequencies listed in Table 6-1-505, unless the owner/operator receives written approval from the APCO for a different testing frequency, as described in Section 6-1402. Inactive permitted sources are not required to conduct compliance source testing until they become active by operating more than 90 days in a calendar year and must conduct a source test within six months of becoming active. Source tests required under this section shall be conducted in accordance with Section 6-1-602.2.
+
+Table 6-1-505: Required Compliance Test Frequencies Potential to Emit SO3 and H 2SO4 (kg/year) Compliance Test Frequency Minimum Time Between Tests Maximum Time Between Tests > 16, 000 Annually 9 months 15 months > 8, 000 – 16, 000 Biennially 18 months 30 months > 2, 000 – 8, 000 Every five years 48 months 72 months
+
+### 506 Monitoring and Recordkeeping at Regulated Bulk Material Sites
+
+**History**
+
+- Adopted 8/1/18
+
+The owner/operator of any Regulated Bulk Material Site shall monitor sources and operations at the site subject to the requirements in Section 6-1-307 as follows:
+
+#### 506.1
+
+Monitor the nature and extent of any fugitive dust visible emissions from each source or operation, using simple observation of the source or operation with the sun or light positioned behind the observer, at times when the potential for fugitive dust visible emissions is at its highest due to wind conditions and/or work activities, or as otherwise specified by the APCO, according to the following frequencies:
+
+##### a.
+
+For any source or operation with the potential to generate fugitive dust located within 1000 feet of the site property line on a workday when the wind is blowing from the source toward the property line, at least twice during each such workday;
+
+##### b.
+
+For all sources and operations with the potential to generate fugitive dust, at least once during each workday.
+
+##### c.
+
+Monitoring of petroleum coke, calcined coke, or coal operations are required during daylight hours only.
+
+#### 506.2
+
+Document the sources and operations monitored each workday when active material handling and storage operations occur.
+
+#### 506.3
+
+Maintain records required by Section 6-1-506.2 for two years, in electronic, paper hard copy or log book format, and make these records available to the APCO upon request.
+
+### 600 MANUAL OF PROCEDURES
+
+### 601 Applicability of Test Methods
+
+**History**
+
+- Adopted 8/1/18
+
+The common test methods cited in Regulation 6 shall apply to this Rule, including the methods cited in Regulation 6-601: Assessment of Visible Emissions, and Regulation 6-602: Assessment of Opacity.
+
+### 602 Methods for Determining Compliance
+
+**History**
+
+- Adopted 8/1/18
+
+Compliance testing required by Sections 61-504 and 505 shall be based on the following test methods:
+
+#### 602.1
+
+Total Suspended Particulate: Source tests to determine compliance with TSP emissions limits shall be conducted in accordance with EPA Method 5, or an alternate method as described in Regulation 6-603. Source tests are not required if sources cannot be modified to comply with source test requirements and testing is not physically possible (e.g., for sources without a defined stack).
+
+#### 602.2
+
+SO 3 and Sulfuric Acid Mist: Source tests to determine compliance with SO 3 and H 2SO4 emission limits shall be conducted in accordance with EPA Method 8 or an EPA and APCO approved alternative. Source tests are not required if sources cannot be modified to comply with source test requirements and testing is not physically possible (e.g., for sources without a defined stack).

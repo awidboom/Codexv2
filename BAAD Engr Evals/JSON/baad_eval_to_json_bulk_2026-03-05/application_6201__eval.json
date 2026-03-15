@@ -1,0 +1,204 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\split_evals_2006_07_rev2\\application_6201.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 2
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "6201",
+    "application_number_from_filename": "6201"
+  },
+  "application_number": "6201",
+  "plant": {
+    "name": "Permit Evaluation and Statement of Basis: Site B5728 & B5729, Tesoro Refining and Marketing Company, Avon",
+    "plant_id": 14628,
+    "address": "Martinez, CA 94553"
+  },
+  "evaluation_date": "December 21, 2004",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-532",
+      "description": "Oil Water Separator; Tank 532, modified to op erate as an Oil Water Separator; Volume: 630K"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nThis addendum to Application #6201 is to  modify the conditions originally wr itten for the Authority to Construct \nand/or Permit to Operate the following equipment: \n \nS-532 Oil Water Separator; Tank 532, modified to op erate as an Oil Water Separator; Volume: 630K \nGallons, Capacity 286 BPH abated by A-14 Vapor Recovery \n \nCondition #20099 requires source testing for POC destruction efficiency of the process heaters used to burn the vapors collected by the A-14 Vapor Recovery System or 40 pound fuel gas line.  The heaters to be tested are S-908, S-909, S-912, S-913, S-916, S-917, and S-991.  Heaters S-916 and S-917 have since been repiped to burn fuel gas from the 100 pound fuel gas line instead of the 40 pound fuel gas line  (Application #6820, April 2003).  During source testing, Condition #2009 also requires the owner/operator to measure the heater firebox temperatures and oxygen content of the stack flue gases in order to estab lish parametric monitoring for POC destruction efficiency \nthrough the heaters.  Tesoro does not have thermocouple or temperature measuring devices in the heater fireboxes.  Tesoro is unable to measure the firebox temperatures at the process heaters.  The heater temperatures are controlled \nby controlling the process fluid temperatures at desired the setpoints as opposed to keeping the firebox temperatures at a desired setpoint.  Process heaters are very efficient at burning hydrocarbons in the vapor stream.  AP-42 Chapter 5.1 Petroleum Refining, states that “venting into blowdown systems or fuel gas systems, and incineration in furnaces or waste heat boilers….are gene rally greater than 99% efficient in th e control of hydrocarbon emissions..”.  \nTesoro has completed source testing at heaters S-908, S-909, S-912, and S-913 and has demonstrated a 99.9% POC destruction efficiency for the A-14 Vapor Recovery Syst em and process heaters.  Because of the absence of \nthermocouples in the heater fireboxes, and due to the establishment of high POC abatement efficiency of process heaters in the literature and by experience, the owner/operator will source test the POC destruction efficiency of the process heaters every five years, in the prior to the Title V renewal, in lieu of parametric monitoring (temperature in the fireboxes and oxygen content of the stack fuel gas).BACKGROUND\nOUND \n \nThis addendum to Application #6201 is to  modify the conditions originally wr itten for the Authority to Construct \nand/or Permit to Operate the following equipment: \n \nS-532 Oil Water Separator; Tank 532, modified to op erate as an Oil Water Separator; Volume: 630K \nGallons, Capacity 286 BPH abated by A-14 Vapor Recovery \n \nCondition #20099 requires source testing for POC destruction efficiency of the process heaters used to burn the vapors collected by the A-14 Vapor Recovery System or 40 pound fuel gas line.  The heaters to be tested are S-908, S-909, S-912, S-913, S-916, S-917, and S-991.  Heaters S-916 and S-917 have since been repiped to burn fuel gas from the 100 pound fuel gas line instead of the 40 pound fuel gas line  (Application #6820, April 2003).  During source testing, Condition #2009 also requires the owner/operator to measure the heater firebox temperatures and oxygen content of the stack flue gases in order to estab lish parametric monitoring for POC destruction efficiency \nthrough the heaters.  Tesoro does not have thermocouple or temperature measuring devices in the heater fireboxes.  Tesoro is unable to measure the firebox temperatures at the process heaters.  The heater temperatures are controlled \nby controlling the process fluid temperatures at desired the setpoints as opposed to keeping the firebox temperatures at a desired setpoint.  Process heaters are very efficient at burning hydrocarbons in the vapor stream.  AP-42 Chapter 5.1 Petroleum Refining, states that “venting into blowdown systems or fuel gas systems, and incineration in furnaces or waste heat boilers….are gene rally greater than 99% efficient in th e control of hydrocarbon emissions..”.  \nTesoro has completed source testing at heaters S-908, S-909, S-912, and S-913 and has demonstrated a 99.9% POC destruction efficiency for the A-14 Vapor Recovery Syst em and process heaters.  Because of the absence of \nthermocouples in the heater fireboxes, and due to the establishment of high POC abatement efficiency of process heaters in the literature and by experience, the owner/operator will source test the POC destruction efficiency of the process heaters every five years, in the prior to the Title V renewal, in lieu of parametric monitoring (temperature in the fireboxes and oxygen content of the stack fuel gas)."
+  },
+  "emission_calculations": {
+    "text": ""
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-532": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": ""
+  },
+  "BACT": {
+    "text": ""
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": []
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONSPERMIT CONDITIONS\nChanges and updates to the permit condition are in strikeout and underline format. \n COND#  20099   -------------------------------------- Application 6201 (November 2002), Conditi on updated after Start-up (December 2004). \n S-532   Oil Water Separator; Tank 532, modified to opera te as an Oil Water Separator; Volume: 630K Gallons, \nCapacity: 286 BPH abated by A-14 Vapor Recovery System                           1)   Permittee/Owner/Operator shall ensure that the total throughput of all VOC/petroleum materials to S-532 does not exceed 2,505,360 barrels during any 12 consecutive month period.  (basis: cumulative increase, toxics, BACT, \noffsets)                                                     2)   Permittee/Owner/Operator shall ensure that S-532 is of  welded construction and that S-532 meaning as set forth \nin Regulation 8, Rule 8.  (basis: Regulation 8-8, cumulative increase, t oxics, offsets, BACT)                            \n 3)   Notwithstanding any provision of District regulations allowing for the malfunction of A-14 due to a valid breakdown at No. 1 Gas Plant vapor r ecovery compressor(s), Permittee/Owner/O perator shall ensure that S-532  \n(excluding the pressure vacuum relief valve vent), including the pressure vent at S-532, is abated by A-14 at all \n  \nPermit Evaluation and Statement of Basis:  Site B5728 & B5729, Tesoro Refining and Marketing Company, Avon \nRefinery 150 Solano Way and 1750 Marina Vista Way, Martinez, CA  94553 \n \n \n 60 times that S-532 is operated and at all times that S-532 contains VOC/petroleum materials.  (basis: BACT, \nRegulation 8-8, cumulative increase, toxi cs, offsets)                                  \n 4)   Permittee/Owner/Operator shall ensure that VOC/POC emissions from S-532 that are ducted to A-14 are abated with a destruction efficiency of at least 98 percent, by weight, as measured across the combustion device(s) burning (the vapors from the) 40 Pound Fuel Gas system. (basis: BACT)                                                5)   Not more than 120 days after the start-up of S-532 pursuant to Authority to Construct #6201, Permittee/Owner/Operator shall conduct a District a pproved source test at each of the following sources:                                          \n                  S-908 No.  8 Furnace @ No. 3 Crude Unit                  S-909 No.  9 Furnace @ No. 1 Feed Prep.                  S-912 No. 12 Furnace @ No. 1 Feed Prep.                  S-913 No. 13 Furnace @ No. 2 Feed Prep.                 to measure for each source each of the follow                ing:                                                                        - the fuel feed rate in pounds/hr                - the POC emission rate at the stack                - the flue gas flow rate in SCFM at the stack \n               - the oxy gen content of the stack flue gas \n               - the destru ction efficiency of POC/VOC as mea- \n                 sured across the Furnace/combustion device                 Permittee/Owner/Operator shall ensure that two copies of the results of the source testing along with related calculations and relevant process data are received by the District's Permit Se rvices Division not more than 35 days \nfollowing the date of the source test.                                  5A)  Not more than 5 days after S-991 undergoes its first start-up subsequent to the first maintenance turnaround at \nthe FCCU after December 31, 2002, Permittee/Owner/Operator sh all ensure that a District  approved source test is \nconducted at S-991 FCCU Preheat Furnace to measure each of the following:                                           \n                - the fuel feed rate in pounds/hr                - the POC emission rate at the stack                - the flue gas flow rate in SCFM at the stack \n               - the oxy gen content of the stack flue gas \n               - the destru ction efficiency of POC/VOC as mea- \n                 sured across the Furnace/combustion device                 Permittee/Owner/Operator shall ensure that two copies of the results of the source testing along with related calculations and relevant process data are received by the District's Permit Se rvices Division not more than 35 days \nfollowing the date of the source test. (basis: BACT)  6)  To determine compliance with part 4, the owner/opera tor shall conduct a District a pproved source test at each of \nthe following sources every 5 years in the year prior to the Title V Permit Renewal.  \n \nS-908 No. 8 Furnace @ No. 3 Crude Unit  \nS-909 No. 9 Furnace @ No. 1 Feed Prep.  \nS-912 No. 12 Furnace @ No. 1 Feed Prep.  \nS-913 No. 13 Furnace @ No. 2 Feed Prep.  \nS-991 FCCU Preheat Furnace  \n For each source, the owner/operator must measure the following:\n \n- the fuel feed rate in pounds/hr  \n  \nPermit Evaluation and Statement of Basis:  Site B5728 & B5729, Tesoro Refining and Marketing Company, Avon \nRefinery 150 Solano Way and 1750 Marina Vista Way, Martinez, CA  94553 \n \n \n 61 - the POC emission rate at the stack  \n- the flue gas flow rate in SCFM at the stack  \n- the oxygen content of the stack flue gas  \n- the stack temperature  \n- the destruction efficiency of POC as  measured across the combustion device  \n The owner/operator shall submit individual copies of the results of the source tests (along with related \ncalculations and process data) to the District’s Engineering Division, Enforcement Division, and Source Test \nDivision within 35 days of the source test.  \n(basis:  Cumulative Increase, Toxic Risk Screen, Offsets, Regulation 1-238)                                               \n 7 )   During periods of preventative maintenance on A-14 Vapor Recovery System  not to exceed 36 hours per \nrolling consecutive 12 month period, Permittee/Owner/Operator shall ensure that there is no liquid flow into S-532 and that under no circumstances shall the preventative maintenance begin prior to 6:00 PM PST. During the preventative maintenance on A-14 Vapor Recovery System S-532 does not need to be abated by A-14. (basis: BACT)                                                  8 ) On a monthly basis, in a District approved log, the Permittee/Owner/Operator shall record the throughput of liquid material throughput m onth and for each rolling 12 consecutive mont h period.  The Permittee/Owner/Operator \nshall ensure that the District approved log is retained on site  for not less than 5 years from date of last entry, and that \nit is made available to District staff upon request. (basis: cumulative increase, toxics, offsets)                9 )  On a monthly basis, in a District approved log, the Permittee/Owner/Operator shall record the time, date, duration, and reason for each instance during which S-532 is  not abated by A-14.  The Permittee/Owner/Operator \nshall ensure that the District approved log is retained on site  for not less than 5 years from date of last entry, and that \nit is made available to District staff upon request. (basis: cumulative increase, toxics, offsets)                  10 )  Upon start-up of S-532 pursuant to Authority to C onstruct #6201, Permittee/Owner/Ope rator shall ensure that \nS-46 Fixed Roof Tank, Capacity: 252K gal is not operated and is permanently ta ken out of service, additionally the \nPermit to Operate for S-46 shall become null and void.  (basis: offsets)    By: \n \n Pamela J. Leong  Air Quality Engineer II \nDecember 21, 2004"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": null,
+        "text": "PERMIT CONDITIONSPERMIT CONDITIONS\nChanges and updates to the permit condition are in strikeout and underline format. \n COND#  20099   -------------------------------------- Application 6201 (November 2002), Conditi on updated after Start-up (December 2004). \n S-532   Oil Water Separator; Tank 532, modified to opera te as an Oil Water Separator; Volume: 630K Gallons, \nCapacity: 286 BPH abated by A-14 Vapor Recovery System                           1)   Permittee/Owner/Operator shall ensure that the total throughput of all VOC/petroleum materials to S-532 does not exceed 2,505,360 barrels during any 12 consecutive month period.  (basis: cumulative increase, toxics, BACT, \noffsets)                                                     2)   Permittee/Owner/Operator shall ensure that S-532 is of  welded construction and that S-532 meaning as set forth \nin Regulation 8, Rule 8.  (basis: Regulation 8-8, cumulative increase, t oxics, offsets, BACT)                            \n 3)   Notwithstanding any provision of District regulations allowing for the malfunction of A-14 due to a valid breakdown at No. 1 Gas Plant vapor r ecovery compressor(s), Permittee/Owner/O perator shall ensure that S-532  \n(excluding the pressure vacuum relief valve vent), including the pressure vent at S-532, is abated by A-14 at all \n  \nPermit Evaluation and Statement of Basis:  Site B5728 & B5729, Tesoro Refining and Marketing Company, Avon \nRefinery 150 Solano Way and 1750 Marina Vista Way, Martinez, CA  94553 \n \n \n 60 times that S-532 is operated and at all times that S-532 contains VOC/petroleum materials.  (basis: BACT, \nRegulation 8-8, cumulative increase, toxi cs, offsets)                                  \n 4)   Permittee/Owner/Operator shall ensure that VOC/POC emissions from S-532 that are ducted to A-14 are abated with a destruction efficiency of at least 98 percent, by weight, as measured across the combustion device(s) burning (the vapors from the) 40 Pound Fuel Gas system. (basis: BACT)                                                5)   Not more than 120 days after the start-up of S-532 pursuant to Authority to Construct #6201, Permittee/Owner/Operator shall conduct a District a pproved source test at each of the following sources:                                          \n                  S-908 No.  8 Furnace @ No. 3 Crude Unit                  S-909 No.  9 Furnace @ No. 1 Feed Prep.                  S-912 No. 12 Furnace @ No. 1 Feed Prep.                  S-913 No. 13 Furnace @ No. 2 Feed Prep.                 to measure for each source each of the follow                ing:                                                                        - the fuel feed rate in pounds/hr                - the POC emission rate at the stack                - the flue gas flow rate in SCFM at the stack \n               - the oxy gen content of the stack flue gas \n               - the destru ction efficiency of POC/VOC as mea- \n                 sured across the Furnace/combustion device                 Permittee/Owner/Operator shall ensure that two copies of the results of the source testing along with related calculations and relevant process data are received by the District's Permit Se rvices Division not more than 35 days \nfollowing the date of the source test.                                  5A)  Not more than 5 days after S-991 undergoes its first start-up subsequent to the first maintenance turnaround at \nthe FCCU after December 31, 2002, Permittee/Owner/Operator sh all ensure that a District  approved source test is \nconducted at S-991 FCCU Preheat Furnace to measure each of the following:                                           \n                - the fuel feed rate in pounds/hr                - the POC emission rate at the stack                - the flue gas flow rate in SCFM at the stack \n               - the oxy gen content of the stack flue gas \n               - the destru ction efficiency of POC/VOC as mea- \n                 sured across the Furnace/combustion device                 Permittee/Owner/Operator shall ensure that two copies of the results of the source testing along with related calculations and relevant process data are received by the District's Permit Se rvices Division not more than 35 days \nfollowing the date of the source test. (basis: BACT)  6)  To determine compliance with part 4, the owner/opera tor shall conduct a District a pproved source test at each of \nthe following sources every 5 years in the year prior to the Title V Permit Renewal.  \n \nS-908 No. 8 Furnace @ No. 3 Crude Unit  \nS-909 No. 9 Furnace @ No. 1 Feed Prep.  \nS-912 No. 12 Furnace @ No. 1 Feed Prep.  \nS-913 No. 13 Furnace @ No. 2 Feed Prep.  \nS-991 FCCU Preheat Furnace  \n For each source, the owner/operator must measure the following:\n \n- the fuel feed rate in pounds/hr  \n  \nPermit Evaluation and Statement of Basis:  Site B5728 & B5729, Tesoro Refining and Marketing Company, Avon \nRefinery 150 Solano Way and 1750 Marina Vista Way, Martinez, CA  94553 \n \n \n 61 - the POC emission rate at the stack  \n- the flue gas flow rate in SCFM at the stack  \n- the oxygen content of the stack flue gas  \n- the stack temperature  \n- the destruction efficiency of POC as  measured across the combustion device  \n The owner/operator shall submit individual copies of the results of the source tests (along with related \ncalculations and process data) to the District’s Engineering Division, Enforcement Division, and Source Test \nDivision within 35 days of the source test.  \n(basis:  Cumulative Increase, Toxic Risk Screen, Offsets, Regulation 1-238)                                               \n 7 )   During periods of preventative maintenance on A-14 Vapor Recovery System  not to exceed 36 hours per \nrolling consecutive 12 month period, Permittee/Owner/Operator shall ensure that there is no liquid flow into S-532 and that under no circumstances shall the preventative maintenance begin prior to 6:00 PM PST. During the preventative maintenance on A-14 Vapor Recovery System S-532 does not need to be abated by A-14. (basis: BACT)                                                  8 ) On a monthly basis, in a District approved log, the Permittee/Owner/Operator shall record the throughput of liquid material throughput m onth and for each rolling 12 consecutive mont h period.  The Permittee/Owner/Operator \nshall ensure that the District approved log is retained on site  for not less than 5 years from date of last entry, and that \nit is made available to District staff upon request. (basis: cumulative increase, toxics, offsets)                9 )  On a monthly basis, in a District approved log, the Permittee/Owner/Operator shall record the time, date, duration, and reason for each instance during which S-532 is  not abated by A-14.  The Permittee/Owner/Operator \nshall ensure that the District approved log is retained on site  for not less than 5 years from date of last entry, and that \nit is made available to District staff upon request. (basis: cumulative increase, toxics, offsets)                  10 )  Upon start-up of S-532 pursuant to Authority to C onstruct #6201, Permittee/Owner/Ope rator shall ensure that \nS-46 Fixed Roof Tank, Capacity: 252K gal is not operated and is permanently ta ken out of service, additionally the \nPermit to Operate for S-46 shall become null and void.  (basis: offsets)    By: \n \n Pamela J. Leong  Air Quality Engineer II \nDecember 21, 2004",
+        "basis": [
+          "cumulative increase",
+          "toxics",
+          "BACT",
+          "offsets"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": ""
+  },
+  "raw_sections": {
+    "preamble": "Permit Evaluation and Statement of Basis:  Site B5728 & B5729, Tesoro Refining and Marketing Company, Avon \nRefinery 150 Solano Way and 1750 Marina Vista Way, Martinez, CA  94553 \n \n \n 59 ADDENDUM",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nTesoro Refining and Marketing Company"
+      },
+      {
+        "heading": "PLANT NO. 14628",
+        "alias": null,
+        "text": "PLANT NO. 14628"
+      },
+      {
+        "heading": "APPLICATION NO.  6201",
+        "alias": null,
+        "text": "APPLICATION NO.  6201"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nThis addendum to Application #6201 is to  modify the conditions originally wr itten for the Authority to Construct \nand/or Permit to Operate the following equipment: \n \nS-532 Oil Water Separator; Tank 532, modified to op erate as an Oil Water Separator; Volume: 630K \nGallons, Capacity 286 BPH abated by A-14 Vapor Recovery \n \nCondition #20099 requires source testing for POC destruction efficiency of the process heaters used to burn the vapors collected by the A-14 Vapor Recovery System or 40 pound fuel gas line.  The heaters to be tested are S-908, S-909, S-912, S-913, S-916, S-917, and S-991.  Heaters S-916 and S-917 have since been repiped to burn fuel gas from the 100 pound fuel gas line instead of the 40 pound fuel gas line  (Application #6820, April 2003).  During source testing, Condition #2009 also requires the owner/operator to measure the heater firebox temperatures and oxygen content of the stack flue gases in order to estab lish parametric monitoring for POC destruction efficiency \nthrough the heaters.  Tesoro does not have thermocouple or temperature measuring devices in the heater fireboxes.  Tesoro is unable to measure the firebox temperatures at the process heaters.  The heater temperatures are controlled \nby controlling the process fluid temperatures at desired the setpoints as opposed to keeping the firebox temperatures at a desired setpoint.  Process heaters are very efficient at burning hydrocarbons in the vapor stream.  AP-42 Chapter 5.1 Petroleum Refining, states that “venting into blowdown systems or fuel gas systems, and incineration in furnaces or waste heat boilers….are gene rally greater than 99% efficient in th e control of hydrocarbon emissions..”.  \nTesoro has completed source testing at heaters S-908, S-909, S-912, and S-913 and has demonstrated a 99.9% POC destruction efficiency for the A-14 Vapor Recovery Syst em and process heaters.  Because of the absence of \nthermocouples in the heater fireboxes, and due to the establishment of high POC abatement efficiency of process heaters in the literature and by experience, the owner/operator will source test the POC destruction efficiency of the process heaters every five years, in the prior to the Title V renewal, in lieu of parametric monitoring (temperature in the fireboxes and oxygen content of the stack fuel gas)."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nOUND \n \nThis addendum to Application #6201 is to  modify the conditions originally wr itten for the Authority to Construct \nand/or Permit to Operate the following equipment: \n \nS-532 Oil Water Separator; Tank 532, modified to op erate as an Oil Water Separator; Volume: 630K \nGallons, Capacity 286 BPH abated by A-14 Vapor Recovery \n \nCondition #20099 requires source testing for POC destruction efficiency of the process heaters used to burn the vapors collected by the A-14 Vapor Recovery System or 40 pound fuel gas line.  The heaters to be tested are S-908, S-909, S-912, S-913, S-916, S-917, and S-991.  Heaters S-916 and S-917 have since been repiped to burn fuel gas from the 100 pound fuel gas line instead of the 40 pound fuel gas line  (Application #6820, April 2003).  During source testing, Condition #2009 also requires the owner/operator to measure the heater firebox temperatures and oxygen content of the stack flue gases in order to estab lish parametric monitoring for POC destruction efficiency \nthrough the heaters.  Tesoro does not have thermocouple or temperature measuring devices in the heater fireboxes.  Tesoro is unable to measure the firebox temperatures at the process heaters.  The heater temperatures are controlled \nby controlling the process fluid temperatures at desired the setpoints as opposed to keeping the firebox temperatures at a desired setpoint.  Process heaters are very efficient at burning hydrocarbons in the vapor stream.  AP-42 Chapter 5.1 Petroleum Refining, states that “venting into blowdown systems or fuel gas systems, and incineration in furnaces or waste heat boilers….are gene rally greater than 99% efficient in th e control of hydrocarbon emissions..”.  \nTesoro has completed source testing at heaters S-908, S-909, S-912, and S-913 and has demonstrated a 99.9% POC destruction efficiency for the A-14 Vapor Recovery Syst em and process heaters.  Because of the absence of \nthermocouples in the heater fireboxes, and due to the establishment of high POC abatement efficiency of process heaters in the literature and by experience, the owner/operator will source test the POC destruction efficiency of the process heaters every five years, in the prior to the Title V renewal, in lieu of parametric monitoring (temperature in the fireboxes and oxygen content of the stack fuel gas)."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nChanges and updates to the permit condition are in strikeout and underline format. \n COND#  20099   -------------------------------------- Application 6201 (November 2002), Conditi on updated after Start-up (December 2004). \n S-532   Oil Water Separator; Tank 532, modified to opera te as an Oil Water Separator; Volume: 630K Gallons, \nCapacity: 286 BPH abated by A-14 Vapor Recovery System                           1)   Permittee/Owner/Operator shall ensure that the total throughput of all VOC/petroleum materials to S-532 does not exceed 2,505,360 barrels during any 12 consecutive month period.  (basis: cumulative increase, toxics, BACT, \noffsets)                                                     2)   Permittee/Owner/Operator shall ensure that S-532 is of  welded construction and that S-532 meaning as set forth \nin Regulation 8, Rule 8.  (basis: Regulation 8-8, cumulative increase, t oxics, offsets, BACT)                            \n 3)   Notwithstanding any provision of District regulations allowing for the malfunction of A-14 due to a valid breakdown at No. 1 Gas Plant vapor r ecovery compressor(s), Permittee/Owner/O perator shall ensure that S-532  \n(excluding the pressure vacuum relief valve vent), including the pressure vent at S-532, is abated by A-14 at all \n  \nPermit Evaluation and Statement of Basis:  Site B5728 & B5729, Tesoro Refining and Marketing Company, Avon \nRefinery 150 Solano Way and 1750 Marina Vista Way, Martinez, CA  94553 \n \n \n 60 times that S-532 is operated and at all times that S-532 contains VOC/petroleum materials.  (basis: BACT, \nRegulation 8-8, cumulative increase, toxi cs, offsets)                                  \n 4)   Permittee/Owner/Operator shall ensure that VOC/POC emissions from S-532 that are ducted to A-14 are abated with a destruction efficiency of at least 98 percent, by weight, as measured across the combustion device(s) burning (the vapors from the) 40 Pound Fuel Gas system. (basis: BACT)                                                5)   Not more than 120 days after the start-up of S-532 pursuant to Authority to Construct #6201, Permittee/Owner/Operator shall conduct a District a pproved source test at each of the following sources:                                          \n                  S-908 No.  8 Furnace @ No. 3 Crude Unit                  S-909 No.  9 Furnace @ No. 1 Feed Prep.                  S-912 No. 12 Furnace @ No. 1 Feed Prep.                  S-913 No. 13 Furnace @ No. 2 Feed Prep.                 to measure for each source each of the follow                ing:                                                                        - the fuel feed rate in pounds/hr                - the POC emission rate at the stack                - the flue gas flow rate in SCFM at the stack \n               - the oxy gen content of the stack flue gas \n               - the destru ction efficiency of POC/VOC as mea- \n                 sured across the Furnace/combustion device                 Permittee/Owner/Operator shall ensure that two copies of the results of the source testing along with related calculations and relevant process data are received by the District's Permit Se rvices Division not more than 35 days \nfollowing the date of the source test.                                  5A)  Not more than 5 days after S-991 undergoes its first start-up subsequent to the first maintenance turnaround at \nthe FCCU after December 31, 2002, Permittee/Owner/Operator sh all ensure that a District  approved source test is \nconducted at S-991 FCCU Preheat Furnace to measure each of the following:                                           \n                - the fuel feed rate in pounds/hr                - the POC emission rate at the stack                - the flue gas flow rate in SCFM at the stack \n               - the oxy gen content of the stack flue gas \n               - the destru ction efficiency of POC/VOC as mea- \n                 sured across the Furnace/combustion device                 Permittee/Owner/Operator shall ensure that two copies of the results of the source testing along with related calculations and relevant process data are received by the District's Permit Se rvices Division not more than 35 days \nfollowing the date of the source test. (basis: BACT)  6)  To determine compliance with part 4, the owner/opera tor shall conduct a District a pproved source test at each of \nthe following sources every 5 years in the year prior to the Title V Permit Renewal.  \n \nS-908 No. 8 Furnace @ No. 3 Crude Unit  \nS-909 No. 9 Furnace @ No. 1 Feed Prep.  \nS-912 No. 12 Furnace @ No. 1 Feed Prep.  \nS-913 No. 13 Furnace @ No. 2 Feed Prep.  \nS-991 FCCU Preheat Furnace  \n For each source, the owner/operator must measure the following:\n \n- the fuel feed rate in pounds/hr  \n  \nPermit Evaluation and Statement of Basis:  Site B5728 & B5729, Tesoro Refining and Marketing Company, Avon \nRefinery 150 Solano Way and 1750 Marina Vista Way, Martinez, CA  94553 \n \n \n 61 - the POC emission rate at the stack  \n- the flue gas flow rate in SCFM at the stack  \n- the oxygen content of the stack flue gas  \n- the stack temperature  \n- the destruction efficiency of POC as  measured across the combustion device  \n The owner/operator shall submit individual copies of the results of the source tests (along with related \ncalculations and process data) to the District’s Engineering Division, Enforcement Division, and Source Test \nDivision within 35 days of the source test.  \n(basis:  Cumulative Increase, Toxic Risk Screen, Offsets, Regulation 1-238)                                               \n 7 )   During periods of preventative maintenance on A-14 Vapor Recovery System  not to exceed 36 hours per \nrolling consecutive 12 month period, Permittee/Owner/Operator shall ensure that there is no liquid flow into S-532 and that under no circumstances shall the preventative maintenance begin prior to 6:00 PM PST. During the preventative maintenance on A-14 Vapor Recovery System S-532 does not need to be abated by A-14. (basis: BACT)                                                  8 ) On a monthly basis, in a District approved log, the Permittee/Owner/Operator shall record the throughput of liquid material throughput m onth and for each rolling 12 consecutive mont h period.  The Permittee/Owner/Operator \nshall ensure that the District approved log is retained on site  for not less than 5 years from date of last entry, and that \nit is made available to District staff upon request. (basis: cumulative increase, toxics, offsets)                9 )  On a monthly basis, in a District approved log, the Permittee/Owner/Operator shall record the time, date, duration, and reason for each instance during which S-532 is  not abated by A-14.  The Permittee/Owner/Operator \nshall ensure that the District approved log is retained on site  for not less than 5 years from date of last entry, and that \nit is made available to District staff upon request. (basis: cumulative increase, toxics, offsets)                  10 )  Upon start-up of S-532 pursuant to Authority to C onstruct #6201, Permittee/Owner/Ope rator shall ensure that \nS-46 Fixed Roof Tank, Capacity: 252K gal is not operated and is permanently ta ken out of service, additionally the \nPermit to Operate for S-46 shall become null and void.  (basis: offsets)    By: \n \n Pamela J. Leong  Air Quality Engineer II \nDecember 21, 2004"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nTesoro Refining and Marketing Company"
+      },
+      {
+        "heading": "PLANT NO. 14628",
+        "alias": null,
+        "text": "PLANT NO. 14628"
+      },
+      {
+        "heading": "APPLICATION NO.  6201",
+        "alias": null,
+        "text": "APPLICATION NO.  6201"
+      }
+    ]
+  }
+}

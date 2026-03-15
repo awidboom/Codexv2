@@ -1,0 +1,672 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\split_evals_2011_04\\application_20977.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 9
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "Description  NOx (tons)  POC (tons)\nS-1550 Emissions  1.173  0.576\nS-1551 Emissions  1.173  0.576\nTotal Emissions     2.346     1.152\nAdjusted for Offset Ratio of 1.15  2.698  1.325",
+        "Application 7642  -1.208  -0.101\nOffset Requirements  1.490  1.224\nOffset via Bank  968 -1.490  -1.224"
+      ]
+    },
+    "application_number_detected": "20977",
+    "application_number_from_filename": "20977"
+  },
+  "application_number": "20977",
+  "plant": {
+    "name": "Tesoro Refining and Marketing Company",
+    "plant_id": 14628,
+    "address": ""
+  },
+  "evaluation_date": "November 5, 2009",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1550",
+      "description": "Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated byBACKGROUND"
+    },
+    {
+      "id": "A-1550",
+      "description": "SCR"
+    },
+    {
+      "id": "S-1551",
+      "description": "Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+    },
+    {
+      "id": "A-1551",
+      "description": "SCR"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nThe Tesoro Refining a nd Marketing Company (Tesoro) is applying for an Authority to Construct \nand/or Permit to Operate the following equipment:  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated byBACKGROUND\nND  \n \nThe Tesoro Refining a nd Marketing Company (Tesoro) is applying for an Authority to Construct \nand/or Permit to Operate the following equipment:  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1550 SCR  \n S-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1551 SCR  \n \nThese Backup Boilers are needed to ensure adequate steam supply for the refinery when existing \nboilers S -901 and S -904 are removed from service for turnaround/maintenance.  A boiler \nmaintenance program is required a t Tesoro and previous applications (#7642 in 2003 and \n#15773 in 2007) have permitted similar backup boilers.  These previous applications have \npermitted the boilers, and then when the need was completed, the permits were surrendered.   \nThese previous applic ations were for Temporary Operations under Regulation 2 -1-302.3.   \n \nThis application is for a permanent permit to operate.  The permit will be structured to allow up \nto three months (90 days = 2160 hours) of operation over a 6 -month period each year.  The \npermit will also allow for up to 384 hours (192 hrs/boiler) of operation without SCR \nabatement to allow for startup and shutdown (48 hours per SU/SD event, 4 events per \nboiler, 2 boilers).  \n \nBACT and Offsets will apply to this application.  In the previous  applications for Temporary \nOperations BACT and Offsets were addressed differently.  2007 Application 15773 for S -\n1530 and S -1531 BACT did not apply and contemporary emissions reductions were \nallowed from the boilers being maintained, resulting in no offse ts required.  For 2003 \nApplication 7642, BACT applied and Application 14405 was an emission credit banking \napplication for back -up boilers S1494 and S -1495 when they were removed from service.  \nThis application was never completed.  Tesoro requested that A pplication 14405 be \ncancelled and that the emission credits be applied to this application.  To avoid the \nRegulation 2 -2-605 calculation and verification requirement for Contemporary Emissions \nReductions, offsets will apply to the total S -1550 and S -1551 b ackup boiler emissions."
+  },
+  "emission_calculations": {
+    "text": "EMISSION CALCULATIONS\nNS  \n \nEmission Factors  \n \nThe following emissions factors are used to calculate emissions from Backup Boilers S -1550 an S -1551.  \n \nNOx:   7 ppm @ 3% O2 when abated by SCR (BACT)  \n 30 ppm @ 3% O2 without SCR operation (1 92 hrs/yr per boiler)  \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 652 of 1354  \n    \n 652 CO: 50 ppm @ 3% O2 (BACT)  \nPM10  7.45E -3 lb/MMBtu  \nVOC  5.39E -3 lb/MMBtu (assume to be all POC)  \nSO2 5.88E -4 lb/MMBtu  \nEmission factors for PM10, POC, and SO2 are from Chapter 1, Table 1.4 -2 of the EPA Document AP -42, \nCompilation of Air Pol lutant Emission Factors (lb/106scf / 1020).  \n \nExhaust flow:  (8710 dscf/MMBtu)*(20.95/(20.95 -3))=10165.7 dscf/MMBtu at 3% O2  \n \nAt atmospheric pressure and low temperatures, the ideal gas law will provide the necessary calculation accuracy:  \nn = PV/RT = (1atm* 10165.7 dscf/MMBtu) /((0.7302 atm -cf/lb-mol R)*(68 + 460 R))  \n= 26.367 lb -mol/MMBtu  \n \nNOx w/ SCR:  26.367 lb -mol/MMBtu(7 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.00849 lb/MMBtu  \nNOx w/o SCR:  26.367 lb -mol/MMBtu(30 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.0364 lb/MMBtu  \nCO:  26.367 lb -mol/MMBtu(50 lb -mol NOx/1E6 lb -mol)(28 lb CO/lb -mol CO)  \n= 0.0369 lb/MMBtu  \n \nAnnual Emissions:  \n \nEmissions from S -1550 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = \n0.827 t ons \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 tons  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2 160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nEmissions from  S -1551 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu/hr)(0.0084 9 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = \n0.827 tons  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 to ns \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 653 of 1354  \n    \n 653  \nCumulative Increase:  \nNOx = 1564 lb + 1564 lb + 692 lb + 692 lb = 4512 lb = 2.256 tons  \nCO = 7891 lb + 7891 lb = 15782 lb = 7.891 tons  \nPM10 = 1593 lb + 1593 lb = 3186 lb = 1.593 tons  \nPOC = 1153 lb + 1153 lb = 2306 lb = 1.153 tons  \nSO2 = 126 lb + 126 lb = 252 lb = 0.126 tons  \n \n \nMax imum Daily Emissions:  \n \nNOx (SCR)    =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(24 hrs) = 20.1 lb  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(24 hrs) = 86 lb  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(24 hrs) = 88 lb  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MM Btu)(24 hrs) = 17.7 lb  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(24 hrs) = 12.8 lb  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(24 hrs) = 1.4 lb  \n \n \n \nToxic Risk Screening  \n \n \nThe following toxic emissions were calculated for each boiler.  \n \n \nTAC  Emission Fact or \n(lb/mmscf)  Emission Factor \n(lb/MMBtu\n) Emissions \n(lb/hr)  Emissions \n(lb/yr)  \nBenzene  2.10E -03 2.1E-06 2.1E-04 4.5E-01 \nDichlorobenzene  6.00E -07 6.0E-10 5.9E-08 1.3E-04 \nFormaldehyde  7.50E -02 7.5E-05 7.4E-03 1.6E+01  \nHexane  1.80E00  1.8E-03 1.8E-01 3.8E+02  \nNaphthalene  6.10E -04 6.10E -07 6.0E-05 1.3E-01 \nToluene  3.40E -03 3.4E-06 3.4E-04 7.3E-01EMISSION CALCULATIONS\nNS  \n \nEmission Factors  \n \nThe following emissions factors are used to calculate emissions from Backup Boilers S -1550 an S -1551.  \n \nNOx:   7 ppm @ 3% O2 when abated by SCR (BACT)  \n 30 ppm @ 3% O2 without SCR operation (1 92 hrs/yr per boiler)  \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 652 of 1354  \n    \n 652 CO: 50 ppm @ 3% O2 (BACT)  \nPM10  7.45E -3 lb/MMBtu  \nVOC  5.39E -3 lb/MMBtu (assume to be all POC)  \nSO2 5.88E -4 lb/MMBtu  \nEmission factors for PM10, POC, and SO2 are from Chapter 1, Table 1.4 -2 of the EPA Document AP -42, \nCompilation of Air Pol lutant Emission Factors (lb/106scf / 1020).  \n \nExhaust flow:  (8710 dscf/MMBtu)*(20.95/(20.95 -3))=10165.7 dscf/MMBtu at 3% O2  \n \nAt atmospheric pressure and low temperatures, the ideal gas law will provide the necessary calculation accuracy:  \nn = PV/RT = (1atm* 10165.7 dscf/MMBtu) /((0.7302 atm -cf/lb-mol R)*(68 + 460 R))  \n= 26.367 lb -mol/MMBtu  \n \nNOx w/ SCR:  26.367 lb -mol/MMBtu(7 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.00849 lb/MMBtu  \nNOx w/o SCR:  26.367 lb -mol/MMBtu(30 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.0364 lb/MMBtu  \nCO:  26.367 lb -mol/MMBtu(50 lb -mol NOx/1E6 lb -mol)(28 lb CO/lb -mol CO)  \n= 0.0369 lb/MMBtu  \n \nAnnual Emissions:  \n \nEmissions from S -1550 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = \n0.827 t ons \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 tons  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2 160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nEmissions from  S -1551 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu/hr)(0.0084 9 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = \n0.827 tons  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 to ns \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 653 of 1354  \n    \n 653  \nCumulative Increase:  \nNOx = 1564 lb + 1564 lb + 692 lb + 692 lb = 4512 lb = 2.256 tons  \nCO = 7891 lb + 7891 lb = 15782 lb = 7.891 tons  \nPM10 = 1593 lb + 1593 lb = 3186 lb = 1.593 tons  \nPOC = 1153 lb + 1153 lb = 2306 lb = 1.153 tons  \nSO2 = 126 lb + 126 lb = 252 lb = 0.126 tons  \n \n \nMax imum Daily Emissions:  \n \nNOx (SCR)    =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(24 hrs) = 20.1 lb  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(24 hrs) = 86 lb  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(24 hrs) = 88 lb  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MM Btu)(24 hrs) = 17.7 lb  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(24 hrs) = 12.8 lb  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(24 hrs) = 1.4 lb"
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSION CALCULATIONS\nNS  \n \nEmission Factors  \n \nThe following emissions factors are used to calculate emissions from Backup Boilers S -1550 an S -1551.  \n \nNOx:   7 ppm @ 3% O2 when abated by SCR (BACT)  \n 30 ppm @ 3% O2 without SCR operation (1 92 hrs/yr per boiler)  \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 652 of 1354  \n    \n 652 CO: 50 ppm @ 3% O2 (BACT)  \nPM10  7.45E -3 lb/MMBtu  \nVOC  5.39E -3 lb/MMBtu (assume to be all POC)  \nSO2 5.88E -4 lb/MMBtu  \nEmission factors for PM10, POC, and SO2 are from Chapter 1, Table 1.4 -2 of the EPA Document AP -42, \nCompilation of Air Pol lutant Emission Factors (lb/106scf / 1020).  \n \nExhaust flow:  (8710 dscf/MMBtu)*(20.95/(20.95 -3))=10165.7 dscf/MMBtu at 3% O2  \n \nAt atmospheric pressure and low temperatures, the ideal gas law will provide the necessary calculation accuracy:  \nn = PV/RT = (1atm* 10165.7 dscf/MMBtu) /((0.7302 atm -cf/lb-mol R)*(68 + 460 R))  \n= 26.367 lb -mol/MMBtu  \n \nNOx w/ SCR:  26.367 lb -mol/MMBtu(7 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.00849 lb/MMBtu  \nNOx w/o SCR:  26.367 lb -mol/MMBtu(30 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.0364 lb/MMBtu  \nCO:  26.367 lb -mol/MMBtu(50 lb -mol NOx/1E6 lb -mol)(28 lb CO/lb -mol CO)  \n= 0.0369 lb/MMBtu  \n \nAnnual Emissions:  \n \nEmissions from S -1550 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = \n0.827 t ons \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 tons  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2 160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nEmissions from  S -1551 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu/hr)(0.0084 9 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = \n0.827 tons  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 to ns \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 653 of 1354  \n    \n 653  \nCumulative Increase:  \nNOx = 1564 lb + 1564 lb + 692 lb + 692 lb = 4512 lb = 2.256 tons  \nCO = 7891 lb + 7891 lb = 15782 lb = 7.891 tons  \nPM10 = 1593 lb + 1593 lb = 3186 lb = 1.593 tons  \nPOC = 1153 lb + 1153 lb = 2306 lb = 1.153 tons  \nSO2 = 126 lb + 126 lb = 252 lb = 0.126 tons  \n \n \nMax imum Daily Emissions:  \n \nNOx (SCR)    =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(24 hrs) = 20.1 lb  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(24 hrs) = 86 lb  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(24 hrs) = 88 lb  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MM Btu)(24 hrs) = 17.7 lb  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(24 hrs) = 12.8 lb  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(24 hrs) = 1.4 lb  \n \n \n \nToxic Risk Screening  \n \n \nThe following toxic emissions were calculated for each boiler.  \n \n \nTAC  Emission Fact or \n(lb/mmscf)  Emission Factor \n(lb/MMBtu\n) Emissions \n(lb/hr)  Emissions \n(lb/yr)  \nBenzene  2.10E -03 2.1E-06 2.1E-04 4.5E-01 \nDichlorobenzene  6.00E -07 6.0E-10 5.9E-08 1.3E-04 \nFormaldehyde  7.50E -02 7.5E-05 7.4E-03 1.6E+01  \nHexane  1.80E00  1.8E-03 1.8E-01 3.8E+02  \nNaphthalene  6.10E -04 6.10E -07 6.0E-05 1.3E-01 \nToluene  3.40E -03 3.4E-06 3.4E-04 7.3E-01EMISSION CALCULATIONS\nNS  \n \nEmission Factors  \n \nThe following emissions factors are used to calculate emissions from Backup Boilers S -1550 an S -1551.  \n \nNOx:   7 ppm @ 3% O2 when abated by SCR (BACT)  \n 30 ppm @ 3% O2 without SCR operation (1 92 hrs/yr per boiler)  \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 652 of 1354  \n    \n 652 CO: 50 ppm @ 3% O2 (BACT)  \nPM10  7.45E -3 lb/MMBtu  \nVOC  5.39E -3 lb/MMBtu (assume to be all POC)  \nSO2 5.88E -4 lb/MMBtu  \nEmission factors for PM10, POC, and SO2 are from Chapter 1, Table 1.4 -2 of the EPA Document AP -42, \nCompilation of Air Pol lutant Emission Factors (lb/106scf / 1020).  \n \nExhaust flow:  (8710 dscf/MMBtu)*(20.95/(20.95 -3))=10165.7 dscf/MMBtu at 3% O2  \n \nAt atmospheric pressure and low temperatures, the ideal gas law will provide the necessary calculation accuracy:  \nn = PV/RT = (1atm* 10165.7 dscf/MMBtu) /((0.7302 atm -cf/lb-mol R)*(68 + 460 R))  \n= 26.367 lb -mol/MMBtu  \n \nNOx w/ SCR:  26.367 lb -mol/MMBtu(7 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.00849 lb/MMBtu  \nNOx w/o SCR:  26.367 lb -mol/MMBtu(30 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.0364 lb/MMBtu  \nCO:  26.367 lb -mol/MMBtu(50 lb -mol NOx/1E6 lb -mol)(28 lb CO/lb -mol CO)  \n= 0.0369 lb/MMBtu  \n \nAnnual Emissions:  \n \nEmissions from S -1550 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = \n0.827 t ons \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 tons  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2 160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nEmissions from  S -1551 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu/hr)(0.0084 9 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = \n0.827 tons  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 to ns \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 653 of 1354  \n    \n 653  \nCumulative Increase:  \nNOx = 1564 lb + 1564 lb + 692 lb + 692 lb = 4512 lb = 2.256 tons  \nCO = 7891 lb + 7891 lb = 15782 lb = 7.891 tons  \nPM10 = 1593 lb + 1593 lb = 3186 lb = 1.593 tons  \nPOC = 1153 lb + 1153 lb = 2306 lb = 1.153 tons  \nSO2 = 126 lb + 126 lb = 252 lb = 0.126 tons  \n \n \nMax imum Daily Emissions:  \n \nNOx (SCR)    =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(24 hrs) = 20.1 lb  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(24 hrs) = 86 lb  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(24 hrs) = 88 lb  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MM Btu)(24 hrs) = 17.7 lb  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(24 hrs) = 12.8 lb  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(24 hrs) = 1.4 lb",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1550": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1550": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1551": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1551": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "Toxic Risk Screening\neening  \n \n \nThe following toxic emissions were calculated for each boiler.  \n \n \nTAC  Emission Fact or \n(lb/mmscf)  Emission Factor \n(lb/MMBtu\n) Emissions \n(lb/hr)  Emissions \n(lb/yr)  \nBenzene  2.10E -03 2.1E-06 2.1E-04 4.5E-01 \nDichlorobenzene  6.00E -07 6.0E-10 5.9E-08 1.3E-04 \nFormaldehyde  7.50E -02 7.5E-05 7.4E-03 1.6E+01  \nHexane  1.80E00  1.8E-03 1.8E-01 3.8E+02  \nNaphthalene  6.10E -04 6.10E -07 6.0E-05 1.3E-01 \nToluene  3.40E -03 3.4E-06 3.4E-04 7.3E-01 \nPAH  2.45E -05 2.45E -08 7.0E -06 \n 1.5E -02 \n \n \nA risk screen is required for this application due to PAH emissions.  The risk screen was \nconducted and the results transm itted October 26, 2009.  The project risk is considered \nacceptable with a Maximum Cancer Risk of 0.004 in a million, the chronic hazard index of \n0.00008 and the acute hazard index of 0.003."
+  },
+  "BACT": {
+    "text": "BEST AVAILABLE CONTROL TECHNOLOGY\nGY   \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 654 of 1354  \n    \n 654 In accordance with Regulatio n 2, Rule 2, Section 301, BACT is triggered for any new or \nmodified source with the potential to emit 10 pounds or more per highest day of POC, \nNPOC, NOx, CO, SO 2 or PM 10.  Emissions from both S -1550 and S -1551 trigger BACT \nfor the following pollutants:  N Ox, CO, PM10, and POC.  There are two pages in the \nBACT Guideline that are pertinent to this application.  Documents 16.1 and 17.3.1 are \nshown below.  The 1994 version of Document 17.1.3 was applied to the 2003 permits for \nS-1494 and S -1495.  Document 16.1  was applied to the 2007 permits for S -1530 and S -\n1531.BEST AVAILABLE CONTROL TECHNOLOGY\nGY   \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 654 of 1354  \n    \n 654 In accordance with Regulatio n 2, Rule 2, Section 301, BACT is triggered for any new or \nmodified source with the potential to emit 10 pounds or more per highest day of POC, \nNPOC, NOx, CO, SO 2 or PM 10.  Emissions from both S -1550 and S -1551 trigger BACT \nfor the following pollutants:  N Ox, CO, PM10, and POC.  There are two pages in the \nBACT Guideline that are pertinent to this application.  Documents 16.1 and 17.3.1 are \nshown below.  The 1994 version of Document 17.1.3 was applied to the 2003 permits for \nS-1494 and S -1495.  Document 16.1  was applied to the 2007 permits for S -1530 and S -\n1531.  \n \n \nBAY AREA AIR QUALITY MANAGEMENT DISTRICT  \nBest Available Control Technology (BACT) Guideline  \nSource Category  \nSource:  Boiler, Rental  Revision:  1 \nDocument \n#: 16.1 \nClass: On-site < 6 consecutive mo nths from the date of initial \noperation  Date: 1/26/9\n9 \nDetermination  \nPOLLUTANT  BACT  \n1. Technologically Feasible/ Cost \nEffective  \n2. Achieved in Practice  TYPICAL TECHNOLOGY  \nPOC 1. n/d \n2. n/s 1. n/d \n2. Good Combustion Practicea \nNOx 1. n/d \n2. 25 ppmv @ 3% O 2 Dry, a,b,c 1. n/d  \n2. Low NO x Burners + Flue Gas \nRecirculationa \nSO 2 1. Natural Gas, or Treated Refinery \nGas Fuel w/ < 50 ppmv Hydrogen \nSulfide and <100 ppmv Total \nReduced Sulfur a,b \n2. Natural Gas, or Treated Refinery \nGas Fuel w/ <100 ppmv Total \nReduced S ulfur a,b 1. Fuel Selection a,b \n \n \n2. Fuel Selection a,b \nCO 1. n/d \n2. 100 ppmv @ 3% O 2 Dry a,b,d 1. n/d \n2. Good Combustion Practice a,b,d \nPM 10 1. n/d \n2. Natural Gas or Treated Refinery \nGas Fuel a,b 1.  n/d \n2.  Fuel Selection a,b \nNPOC  1. n/a \n2. n/a 1. n/a \n2. n/a \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 655 of 1354  \n    \n 655 References  \na. BAAQMD staff report  \nb. BACT is 25 ppmvd NO x @ 3% O 2 and 100 ppmvd CO @ 3 % O 2 regardless of fuel.   \nHowever, emergency backup fuel oil w/ < 0.05 wt. % sulfur may be permitted to emit up to \n60 NO x ppmvd @ 3% O 2 and 100 ppmvd CO @ 3 % O 2 during natural gas curtailment.  \nc. NO x  determination by BAAQMD Source Test method ST -13A (average of three 30 -minute \nsampling runs), or BAAQMD approved equivalent.  \nd. CO determination by BAAQMD Source Test Method ST -6 (average of three 30 minute \nsamplin g runs), or BAAQMD approved equivalent.  \n \n  \nBAY AREA AIR QUALITY MANAGEMENT DISTRICT  \nBest Available Control Technology (BACT) Guideline  \nSource Category  \nSource:  Boiler  Revision:  4 \nDocument #:  17.3.1  \nClass:  > 50 MM BTU/hour Heat Input  Date: 9/22/05  \nDetermination  \nPOLLUTANT  BACT  \n1. Technologically Feasible/ Cost \nEffective  \n2. Achieved in Practice  TYPICAL TECHNOLOGY  \nPOC 1. n/d \n2. n/s 1. n/d f \n2. Good Combustion Practice (GCP) a \nNOx 1.  7 ppmv @ 3% O 2, Dry b, c, d \n2. 9 ppmv @ 3% O 2, Dry a, c, d 1. Selecti ve Catalytic Reduction (SCR) \n+ Low NO x Burners (LNB) + Flue \nGas Recirculation (FGR) b, c, d \n2. Ultra Low NO x Burners (ULNB) + \nFGR a, c, d  \nSO 2 1. Natural Gas or Treated Refinery \nGas Fuel w/ <50 ppmv Hydrogen \nSulfide and <100 ppmv Total \nReduced Sulfur a, c \n2. Natural Gas or Treated Refinery \nGas Fuel w/ <100 ppmv Total \nReduced Sulfur a, c 1. Fuel Selection a, c \n \n \n2. Fuel Selection a, c \nCO 1. 10 ppmv @ 3% O 2 Dry f \n2. 50 ppmv @ 3% O 2 Dry a, c, e 1. Oxidation Catalyst f \n2. Good Combustion Practice in Con -\njunct ion with SCR System or Ultra \nLow NO x Burners and FGR a, c, e \nPM 10 1. n/d \n2. Natural Gas or Treated Refinery \nGas Fuel a, c 1. n/d \n2. Fuel Selection a, c \nNPOC  1. n/a 1. n/a \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 656 of 1354  \n    \n 656 2. n/a 2. n/a \nReferences  \na. BAAQMD  \nb. SCAQMD. Cost effectiveness evaluations shall  be based on emissions from firing \nprimary fuels but not emergency backup fuels.  \nc. BACT limits above apply  to all fuels except for emergency backup fuel oil used during \nnatural gas curtailment.  For emergency backup fuel oil, BACT(1) for NO x and CO \n(achie ved using LNB+ FGR+ SCR and GCP) is 25 ppmvd NO x @ 3% O 2; 100 ppmvd \nCO @ 3% O 2, and 5 ppmvd NH 3 @ 3% O 2; BACT(2) for NO x and CO (achieved using \nULNB+ FGR and GCP) is 40 ppmvd NO x @ 3% O 2 and 100 ppmvd CO @ 3% O 2; \nBACT(2) for SO 2 and PM 10 is the use of low sulfur fuel with < 0.05 wt. % S; and \nBACT(2) for POC is GCP.  \nd. NO x determination by Continuous Emission Monitor (3 -hour average), or BAAQMD \napproved equivalent.  \ne. CO determination by Continuous Emission Monitor (3 -hour average), or BAAQMD \napproved equiva lent. \nf. The BACT(1) CO limit does not apply to boilers smaller than 250 MM BTU/hour unless \nan oxidation catalyst is found to be cost effective or is necessary for TBACT or POC \nControl.  \n  \n \nThe ‗Rental Boiler‘ guideline does not apply because this applicat ion is for a permanent permit, \nnot one for a boiler that will be out of service within 6 months.  Each \nturnaround/maintenance events would be less that 6 months, so if one were to argue that for \neach maintenance event that requires these backup boilers, th e boilers would be on site less \nthan 6 months after the initial operation, it should be noted that this document 16.1 \nguideline is over 10 years old and a current BACT determination is necessary.   \n \nFor both documents, POC emissions comply with BACT when G ood Combustion Practices are \nfollowed, and PM10 emissions comply with BACT by the use of Natural Gas Fuel.   \n \nFor NOx and CO, a current BACT determination is required.  The following information is \ncompiled for the previous Tesoro applications for backup b oilers:  \n \nBackup Boiler  Application 7642 (2003)  Application 15773 (2007)  \nSource  Pollutan\nt Emission Limit  \n(Condition \n20683)  June 2003 \nSource \nTest Emission Limit  \n(Condition \n24340)  Feb/Mar 2007 \nSource \nTest \nS-\n1\n4\n9\n4 NOx  7 ppm @ 3% \nO2 2.4 ppm @ 3% \nO2  \nCO 50 pp m @ 3% \nO2 32 ppm @ 3% \nO2 \nS-\n1NOx  7 ppm @ 3% \nO2 3.0 ppm @ 3% \nO2 \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 657 of 1354  \n    \n 657 4\n9\n5 CO 50 ppm @ 3% \nO2 8.6 ppm @ 3% \nO2 \nS-\n1\n5\n3\n0 NOx   7 ppm @ 3% \nO2 4.5 ppm @ 3% \nO2 \nCO 100 ppm @ 3% \nO2 1.0 ppm @ 3% \nO2 \nS-\n1\n5\n3\n1 NOx  7 ppm @ 3% \nO2 4.4 ppm @ 3% \nO2 \nCO 100 ppm @ 3% \nO2 21 ppm @ 3% \nO2 \n \nBased on these data, Achieved in Practice BACT for these Backup Boilers is as follows:  \n \nNOx:  7 ppm @ 3% O2  \nCO: 50 ppm @ 3% O2  \n \nThe source tests show that the limits could be lower, but the limits above allow the necessary \noperating flexibility .  S-1550 and S -1551 are expected to comply with these BACT 2 limits."
+  },
+  "offsets": {
+    "narrative": "OFFSETS\nTS    \n \nOffsets are required as per Regulation 2 -2-302 because Tesoro emits more than 35 tpy of POC and 35 tpy of NOx \nemissions.   Regulation 2 -2-302 requires that offsets for POC an d NOx be provided at a ratio of 1.15 to 1.0.  \nRegulation 2 -2-303 requires that a Major Facility must pay offsets for PM10 and SO2 in excess of 1.0 ton per new or \nmodified source.  PM10 and SO2 emissions for S -1550 and S -1551 do not exceed 1.0 ton, so offse ts are only \nrequired for NOx and POC.  POC emission credits will be used to offset both POC and NOx emissions, as allowed \nby Regulation 2 -2-302.2.  In addition, Since S -1494 and S -1495 are no longer in service, emission offsets provided \nfor Application 764 2 will be credited for this application (not including the 15% ratio).  A summary of the offsets for \nthis application follows:  \n \nDescription  NOx (tons)  POC (tons)  \nS-1550 Emissions  1.173  0.576  \nS-1551 Emissions  1.173  0.576  \nTotal Emissions     2.346     1.152  \nAdjusted for Offset Ratio of 1.15  2.698  1.325  \nReturn of S -1494 & S -1495 credits when taken out of service via \nApplication 7642  -1.208  -0.101  \nOffset Requirements  1.490  1.224  \nOffset via Bank  968 -1.490  -1.224  \nThe total POC offsets from Bank 968 are 2.714 tons.OFFSETS\nTS    \n \nOffsets are required as per Regulation 2 -2-302 because Tesoro emits more than 35 tpy of POC and 35 tpy of NOx \nemissions.   Regulation 2 -2-302 requires that offsets for POC an d NOx be provided at a ratio of 1.15 to 1.0.  \nRegulation 2 -2-303 requires that a Major Facility must pay offsets for PM10 and SO2 in excess of 1.0 ton per new or \nmodified source.  PM10 and SO2 emissions for S -1550 and S -1551 do not exceed 1.0 ton, so offse ts are only \nrequired for NOx and POC.  POC emission credits will be used to offset both POC and NOx emissions, as allowed \nby Regulation 2 -2-302.2.  In addition, Since S -1494 and S -1495 are no longer in service, emission offsets provided \nfor Application 764 2 will be credited for this application (not including the 15% ratio).  A summary of the offsets for \nthis application follows:  \n \nDescription  NOx (tons)  POC (tons)  \nS-1550 Emissions  1.173  0.576  \nS-1551 Emissions  1.173  0.576  \nTotal Emissions     2.346     1.152  \nAdjusted for Offset Ratio of 1.15  2.698  1.325  \nReturn of S -1494 & S -1495 credits when taken out of service via \nApplication 7642  -1.208  -0.101  \nOffset Requirements  1.490  1.224  \nOffset via Bank  968 -1.490  -1.224  \nThe total POC offsets from Bank 968 are 2.714 tons.  \n \nNSPS    \n \nS-1550 and S -1551 are not Subject to NSPS Subpart Ja because they are not Fuel Gas \nCombustion Devices (natural gas is excluded from the definition of Fuel Gas in 40 CFR \n60.101 a unless it is commingled with refinery fuel gas).  \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 658 of 1354  \n    \n 658 S-1550 and S -1551 are not subject to NSPS Subpart Db (Standards of Performance for \nIndustrial -Commercial -Institutional Steam Generating Units) because the firing rate is less \nthan 100 MMBtu/hr.  The Backu p Boilers are subject to NSPS Subpart Dc because the \nboiler firing rate is greater than 10 MMBtu/hr and less than 100 MMBtu/hr.  Emission \nStandards in Subpart Dc do not apply to S -1550 and S -1551 because the boilers are only \nfired on Natural Gas.  S -1550 a nd S-151 are only subject to the notification and \nrecordkeeping requirements of 40 CFR 60.48c.  \n \nNESHAPs and MACT  \n \nS-1550 and S -1551 are not subject to NESHAPs and MACT because they are fired exclusively \non Natural Gas and are not used as a control device o f any HAPs emissions.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          35.0,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "SO2",
+          1.0,
+          "N/A",
+          null
+        ],
+        [
+          "PM10",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "CO",
+          20977.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nANCE  \n \nThe owner/operator of S -1550 and S -1551 Backup Boilers shall comply with Regulation 6, Rule \n1 (Particulate Matter General Requirements).  The owner/operator is expected to comply \nwith Regulation 6 since th e unit is only fueled with natural gas.  Thus for any period \naggregating more than three minutes in any hour, there should be no visible emission as \ndark or darker than No. 1 on the Ringlemann Chart (Regulation 6 -1-301) and no visible \nemission to exceed 20 % opacity (Regulation 6 -1-302).   \n \nThe owner/operator of S -1550 and S -1551 Backup Boilers shall comply with Reg. 9 -1-301 \n(Inorganic Gaseous Pollutants:  Sulfur Dioxide for Limitations on Ground Level \nConcentrations).  \n \nThe owner/operator is not subject to R egulation 9 Rule 7:  Nitrogen Oxides and Carbon \nMonoxide from Industrial, Institutional, and Commercial Boilers, Steam Generators, and \nProcess Heaters as per Regulation 9 -7-110.3 since S -1550 and S -1551 will be operated at \nthe Tesoro Refinery.   \n \nThe owner /operator is not subject to Regulation 9 Rule 10:  Nitrogen Oxides and Carbon \nMonoxide from Boilers, Steam Generators, and Process Heaters in Petroleum Refineries \nbecause neither S -1530 or S -1531 are a ―Unit‖ as defined by Regulation 9 -10-220.  Neither \nS-1530 nor S -1531 had an Authority to Construct or Permit to Operate prior to January 5, \n2004.   \n \nThe owner/operator is subject to Regulation 8, Rule 18.  The natural gas fuel lines and \ncomponents will be constructed in accordance with the requirements of the  8-18 standards \nand added to the facility fugitive emissions monitoring program.  \n \nThe project is considered to be ministerial under the District's CEQA regulation 2 -1-311 and \ntherefore is not subject to CEQA review.   \n \nThe project is over 1000 feet from th e nearest school and therefore not subject to the public \nnotification requirements of Reg. 2 -1-412. \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 659 of 1354  \n    \n 659  \nThe owner/operator of S -1550 and S -1551 Backup Boilers shall comply with BACT, Offsets \nNSPS and the Toxic Risk Management Policy.  \n \nPSD and NESHAPS do not a pply.STATEMENT OF COMPLIANCE\nANCE  \n \nThe owner/operator of S -1550 and S -1551 Backup Boilers shall comply with Regulation 6, Rule \n1 (Particulate Matter General Requirements).  The owner/operator is expected to comply \nwith Regulation 6 since th e unit is only fueled with natural gas.  Thus for any period \naggregating more than three minutes in any hour, there should be no visible emission as \ndark or darker than No. 1 on the Ringlemann Chart (Regulation 6 -1-301) and no visible \nemission to exceed 20 % opacity (Regulation 6 -1-302).   \n \nThe owner/operator of S -1550 and S -1551 Backup Boilers shall comply with Reg. 9 -1-301 \n(Inorganic Gaseous Pollutants:  Sulfur Dioxide for Limitations on Ground Level \nConcentrations).  \n \nThe owner/operator is not subject to R egulation 9 Rule 7:  Nitrogen Oxides and Carbon \nMonoxide from Industrial, Institutional, and Commercial Boilers, Steam Generators, and \nProcess Heaters as per Regulation 9 -7-110.3 since S -1550 and S -1551 will be operated at \nthe Tesoro Refinery.   \n \nThe owner /operator is not subject to Regulation 9 Rule 10:  Nitrogen Oxides and Carbon \nMonoxide from Boilers, Steam Generators, and Process Heaters in Petroleum Refineries \nbecause neither S -1530 or S -1531 are a ―Unit‖ as defined by Regulation 9 -10-220.  Neither \nS-1530 nor S -1531 had an Authority to Construct or Permit to Operate prior to January 5, \n2004.   \n \nThe owner/operator is subject to Regulation 8, Rule 18.  The natural gas fuel lines and \ncomponents will be constructed in accordance with the requirements of the  8-18 standards \nand added to the facility fugitive emissions monitoring program.  \n \nThe project is considered to be ministerial under the District's CEQA regulation 2 -1-311 and \ntherefore is not subject to CEQA review.   \n \nThe project is over 1000 feet from th e nearest school and therefore not subject to the public \nnotification requirements of Reg. 2 -1-412. \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 659 of 1354  \n    \n 659  \nThe owner/operator of S -1550 and S -1551 Backup Boilers shall comply with BACT, Offsets \nNSPS and the Toxic Risk Management Policy.  \n \nPSD and NESHAPS do not a pply."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS\nIONS   \nApplication 20977 (November 2009)  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1550 SCR  \n S-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1551 SCR  \n \n1. The owner/operator s hall ensure that S -1550 and S -1551 are fired exclusively on natural gas at a rate not to \nexceed 99 MMBtu/hr each.  (Basis: Cumulative Increase, Offsets, Toxics, NSPS, BACT)  \n \n2. The owner/operator shall ensure that S -1550 and S -1551 are on site at the refinery  for no more that 6 \nconsecutive months per 12 consecutive month period.  The 6 -month period for each boiler begins upon the \ninitial firing of the boiler.  (Basis:  BACT)  \n \n3. The owner/operator shall ensure each boiler S -1550 and S -1551 is not operated for mor e than 2160 hours in \nany consecutive 12 -month period.   (Basis: Cumulative Increase, Offsets, Toxics)  \n \n4. Except for a time period not to exceed 24 hours per boiler startup or shutdown, the owner/operator shall \nensure that S -1550 and S -1551 are only operated when abated by SCRs A -1550 and A -1551, respectively.  \nThe total hours that S -1550 or S -1551 is operated without SCR abatement shall not exceed 192 hours per \nconsecutive 12 -month period.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n5. The owner/operator sha ll ensure that S -1530 and S -1531 are not operated unless they are each equipped \nwith a District approved, fuel flow meter that measures the total volume of fuel throughput to S -1530 and S -\n1531 in units of standard cubic feet.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n6. The owner/operator shall ensure that the total fuel fired in S -1530 and S -1531 shall not exceed 4,277,000 \ntherms in any 12 consecutive month period.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n7. Except for periods of startup and shutdow n as allowed in Part 4, the owner operator shall not operate S -\n1550 or S -1551 unless NOx emissions are less than 7 ppmv, dry, @ 3% O2.  (Basis: Cumulative Increase, \nOffsets, BACT)  \n \n8. During for periods of startup and shutdown as allowed in Part 4, the owner operator shall not operate S -\n1550 or S -1551 unless NOx emissions are less than 30 ppmv, dry, @ 3% O2.  (Basis: Cumulative Increase, \nOffsets)  \n \n9. The owner operator shall not operate S -1550 or S -1551 unless CO emissions are less than 50 ppmv, dry, @ \n3% O2.  (B asis: Cumulative Increase, Offsets, BACT)  \n \n10. Within 10 days of the first fire date, the owner/operator shall conduct a District approved source test of each \nS-1550 and S -1551.  The District approved source test shall measure the emission rates of NOx, POC, S O2, \nand PM10, from S -1550 and S -1551 while it is operated at not less than 80 MMBtu/hr.  The owner/operator \nshall ensure that within 45 days of the date of completion of the source testing, two identical copies of the \nsource tests results (each referencing  permit application #20977 and plant #14628) are received by the \nDistrict.  One copy shall be sent to Source Testing and the other shall be sent to the Engineering Division.  \nThis District approved source test shall be repeated within 5 days of each subseq uent boiler startup (or any \noperation without SCR abatement) during the 6 -month period of boiler operation.  (Basis: Cumulative \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 660 of 1354  \n    \n 660 Increase, Offsets, BACT)  \n \n11. In a District approved log, the owner/operator shall record the manufacturer, make, model, and maximum  \nrated firing rate of each boiler used as S -1550 and S -1551, and the following information for each calendar \nday that either S -1550 or S -1551 fires fuel.  The District approved log(s) shall be retained by the \nowner/operator on site for at least 5 years fro m the date of the last entry and made available to District staff \nupon request.  (Basis: Cumulative Increase, Offsets, Toxics, BACT)  \na. The date and hours that each S -1550 and S -1551 fire fuel.  \nb. The amount of fuel fired at each S -1550 and S -1551.  \nc. The hours tha t each S -1550 and S -1551 operate without abatement by a fully functioning SCR.  \nd. The amount of steam produced at each boiler S -1550 and S -1551.PERMIT CONDITIONS\nIONS   \nApplication 20977 (November 2009)  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1550 SCR  \n S-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1551 SCR  \n \n1. The owner/operator s hall ensure that S -1550 and S -1551 are fired exclusively on natural gas at a rate not to \nexceed 99 MMBtu/hr each.  (Basis: Cumulative Increase, Offsets, Toxics, NSPS, BACT)  \n \n2. The owner/operator shall ensure that S -1550 and S -1551 are on site at the refinery  for no more that 6 \nconsecutive months per 12 consecutive month period.  The 6 -month period for each boiler begins upon the \ninitial firing of the boiler.  (Basis:  BACT)  \n \n3. The owner/operator shall ensure each boiler S -1550 and S -1551 is not operated for mor e than 2160 hours in \nany consecutive 12 -month period.   (Basis: Cumulative Increase, Offsets, Toxics)  \n \n4. Except for a time period not to exceed 24 hours per boiler startup or shutdown, the owner/operator shall \nensure that S -1550 and S -1551 are only operated when abated by SCRs A -1550 and A -1551, respectively.  \nThe total hours that S -1550 or S -1551 is operated without SCR abatement shall not exceed 192 hours per \nconsecutive 12 -month period.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n5. The owner/operator sha ll ensure that S -1530 and S -1531 are not operated unless they are each equipped \nwith a District approved, fuel flow meter that measures the total volume of fuel throughput to S -1530 and S -\n1531 in units of standard cubic feet.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n6. The owner/operator shall ensure that the total fuel fired in S -1530 and S -1531 shall not exceed 4,277,000 \ntherms in any 12 consecutive month period.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n7. Except for periods of startup and shutdow n as allowed in Part 4, the owner operator shall not operate S -\n1550 or S -1551 unless NOx emissions are less than 7 ppmv, dry, @ 3% O2.  (Basis: Cumulative Increase, \nOffsets, BACT)  \n \n8. During for periods of startup and shutdown as allowed in Part 4, the owner operator shall not operate S -\n1550 or S -1551 unless NOx emissions are less than 30 ppmv, dry, @ 3% O2.  (Basis: Cumulative Increase, \nOffsets)  \n \n9. The owner operator shall not operate S -1550 or S -1551 unless CO emissions are less than 50 ppmv, dry, @ \n3% O2.  (B asis: Cumulative Increase, Offsets, BACT)  \n \n10. Within 10 days of the first fire date, the owner/operator shall conduct a District approved source test of each \nS-1550 and S -1551.  The District approved source test shall measure the emission rates of NOx, POC, S O2, \nand PM10, from S -1550 and S -1551 while it is operated at not less than 80 MMBtu/hr.  The owner/operator \nshall ensure that within 45 days of the date of completion of the source testing, two identical copies of the \nsource tests results (each referencing  permit application #20977 and plant #14628) are received by the \nDistrict.  One copy shall be sent to Source Testing and the other shall be sent to the Engineering Division.  \nThis District approved source test shall be repeated within 5 days of each subseq uent boiler startup (or any \noperation without SCR abatement) during the 6 -month period of boiler operation.  (Basis: Cumulative \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 660 of 1354  \n    \n 660 Increase, Offsets, BACT)  \n \n11. In a District approved log, the owner/operator shall record the manufacturer, make, model, and maximum  \nrated firing rate of each boiler used as S -1550 and S -1551, and the following information for each calendar \nday that either S -1550 or S -1551 fires fuel.  The District approved log(s) shall be retained by the \nowner/operator on site for at least 5 years fro m the date of the last entry and made available to District staff \nupon request.  (Basis: Cumulative Increase, Offsets, Toxics, BACT)  \na. The date and hours that each S -1550 and S -1551 fire fuel.  \nb. The amount of fuel fired at each S -1550 and S -1551.  \nc. The hours tha t each S -1550 and S -1551 operate without abatement by a fully functioning SCR.  \nd. The amount of steam produced at each boiler S -1550 and S -1551."
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator s hall ensure that S -1550 and S -1551 are fired exclusively on natural gas at a rate not to \nexceed 99 MMBtu/hr each.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics",
+          "NSPS",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall ensure that S -1550 and S -1551 are on site at the refinery  for no more that 6 \nconsecutive months per 12 consecutive month period.  The 6 -month period for each boiler begins upon the \ninitial firing of the boiler.  (",
+        "basis": [
+          "BACT)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator shall ensure each boiler S -1550 and S -1551 is not operated for mor e than 2160 hours in \nany consecutive 12 -month period.   (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "Except for a time period not to exceed 24 hours per boiler startup or shutdown, the owner/operator shall \nensure that S -1550 and S -1551 are only operated when abated by SCRs A -1550 and A -1551, respectively.  \nThe total hours that S -1550 or S -1551 is operated without SCR abatement shall not exceed 192 hours per \nconsecutive 12 -month period.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "The owner/operator sha ll ensure that S -1530 and S -1531 are not operated unless they are each equipped \nwith a District approved, fuel flow meter that measures the total volume of fuel throughput to S -1530 and S -\n1531 in units of standard cubic feet.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "The owner/operator shall ensure that the total fuel fired in S -1530 and S -1531 shall not exceed 4,277,000 \ntherms in any 12 consecutive month period.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 7,
+        "text": "Except for periods of startup and shutdow n as allowed in Part 4, the owner operator shall not operate S -\n1550 or S -1551 unless NOx emissions are less than 7 ppmv, dry, @ 3% O2.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 8,
+        "text": "During for periods of startup and shutdown as allowed in Part 4, the owner operator shall not operate S -\n1550 or S -1551 unless NOx emissions are less than 30 ppmv, dry, @ 3% O2.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)"
+        ]
+      },
+      {
+        "num": 9,
+        "text": "The owner operator shall not operate S -1550 or S -1551 unless CO emissions are less than 50 ppmv, dry, @ \n3% O2.  (B asis: Cumulative Increase, Offsets, BACT)",
+        "basis": []
+      },
+      {
+        "num": 10,
+        "text": "Within 10 days of the first fire date, the owner/operator shall conduct a District approved source test of each \nS-1550 and S -1551.  The District approved source test shall measure the emission rates of NOx, POC, S O2, \nand PM10, from S -1550 and S -1551 while it is operated at not less than 80 MMBtu/hr.  The owner/operator \nshall ensure that within 45 days of the date of completion of the source testing, two identical copies of the \nsource tests results (each referencing  permit application #20977 and plant #14628) are received by the \nDistrict.  One copy shall be sent to Source Testing and the other shall be sent to the Engineering Division.  \nThis District approved source test shall be repeated within 5 days of each subseq uent boiler startup (or any \noperation without SCR abatement) during the 6 -month period of boiler operation.  (",
+        "basis": [
+          "Cumulative \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 660 of 1354  \n    \n 660 Increase",
+          "Offsets",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 11,
+        "text": "In a District approved log, the owner/operator shall record the manufacturer, make, model, and maximum  \nrated firing rate of each boiler used as S -1550 and S -1551, and the following information for each calendar \nday that either S -1550 or S -1551 fires fuel.  The District approved log(s) shall be retained by the \nowner/operator on site for at least 5 years fro m the date of the last entry and made available to District staff \nupon request.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics",
+          "BACT)  \na. The date and hours that each S -1550 and S -1551 fire fuel.  \nb. The amount of fuel fired at each S -1550 and S -1551.  \nc. The hours tha t each S -1550 and S -1551 operate without abatement by a fully functioning SCR.  \nd. The amount of steam produced at each boiler S -1550 and S -1551.PERMIT CONDITIONS\nIONS   \nApplication 20977 (November 2009)  \n \n S-1550  Backup Steam Boiler #1",
+          "99 MM Btu/hr",
+          "Natural Gas Fired",
+          "Abated by A -1550 SCR  \n S-1551  Backup Steam Boiler #2",
+          "99 MM Btu/hr",
+          "Natural Gas Fired",
+          "Abated by A -1551 SCR"
+        ]
+      },
+      {
+        "num": 1,
+        "text": "The owner/operator s hall ensure that S -1550 and S -1551 are fired exclusively on natural gas at a rate not to \nexceed 99 MMBtu/hr each.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics",
+          "NSPS",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall ensure that S -1550 and S -1551 are on site at the refinery  for no more that 6 \nconsecutive months per 12 consecutive month period.  The 6 -month period for each boiler begins upon the \ninitial firing of the boiler.  (",
+        "basis": [
+          "BACT)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator shall ensure each boiler S -1550 and S -1551 is not operated for mor e than 2160 hours in \nany consecutive 12 -month period.   (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "Except for a time period not to exceed 24 hours per boiler startup or shutdown, the owner/operator shall \nensure that S -1550 and S -1551 are only operated when abated by SCRs A -1550 and A -1551, respectively.  \nThe total hours that S -1550 or S -1551 is operated without SCR abatement shall not exceed 192 hours per \nconsecutive 12 -month period.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "The owner/operator sha ll ensure that S -1530 and S -1531 are not operated unless they are each equipped \nwith a District approved, fuel flow meter that measures the total volume of fuel throughput to S -1530 and S -\n1531 in units of standard cubic feet.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "The owner/operator shall ensure that the total fuel fired in S -1530 and S -1531 shall not exceed 4,277,000 \ntherms in any 12 consecutive month period.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics)"
+        ]
+      },
+      {
+        "num": 7,
+        "text": "Except for periods of startup and shutdow n as allowed in Part 4, the owner operator shall not operate S -\n1550 or S -1551 unless NOx emissions are less than 7 ppmv, dry, @ 3% O2.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 8,
+        "text": "During for periods of startup and shutdown as allowed in Part 4, the owner operator shall not operate S -\n1550 or S -1551 unless NOx emissions are less than 30 ppmv, dry, @ 3% O2.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets)"
+        ]
+      },
+      {
+        "num": 9,
+        "text": "The owner operator shall not operate S -1550 or S -1551 unless CO emissions are less than 50 ppmv, dry, @ \n3% O2.  (B asis: Cumulative Increase, Offsets, BACT)",
+        "basis": []
+      },
+      {
+        "num": 10,
+        "text": "Within 10 days of the first fire date, the owner/operator shall conduct a District approved source test of each \nS-1550 and S -1551.  The District approved source test shall measure the emission rates of NOx, POC, S O2, \nand PM10, from S -1550 and S -1551 while it is operated at not less than 80 MMBtu/hr.  The owner/operator \nshall ensure that within 45 days of the date of completion of the source testing, two identical copies of the \nsource tests results (each referencing  permit application #20977 and plant #14628) are received by the \nDistrict.  One copy shall be sent to Source Testing and the other shall be sent to the Engineering Division.  \nThis District approved source test shall be repeated within 5 days of each subseq uent boiler startup (or any \noperation without SCR abatement) during the 6 -month period of boiler operation.  (",
+        "basis": [
+          "Cumulative \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 660 of 1354  \n    \n 660 Increase",
+          "Offsets",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 11,
+        "text": "In a District approved log, the owner/operator shall record the manufacturer, make, model, and maximum  \nrated firing rate of each boiler used as S -1550 and S -1551, and the following information for each calendar \nday that either S -1550 or S -1551 fires fuel.  The District approved log(s) shall be retained by the \nowner/operator on site for at least 5 years fro m the date of the last entry and made available to District staff \nupon request.  (",
+        "basis": [
+          "Cumulative Increase",
+          "Offsets",
+          "Toxics",
+          "BACT)  \na. The date and hours that each S -1550 and S -1551 fire fuel.  \nb. The amount of fuel fired at each S -1550 and S -1551.  \nc. The hours tha t each S -1550 and S -1551 operate without abatement by a fully functioning SCR.  \nd. The amount of steam produced at each boiler S -1550 and S -1551."
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nDATION  \nWaive an Authority to Construct and grant a Permit to Operate to Tesoro Refining and Marketing C ompany for the \nfollowing sources:  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated byRECOMMENDATION\nDATION  \nWaive an Authority to Construct and grant a Permit to Operate to Tesoro Refining and Marketing C ompany for the \nfollowing sources:  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1550 SCR  \n S-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1551 SCR  \n \n \nEXEMPTIONS  \nnone  \n \n \n \nBy:  \n Arthur P Valla  \n Senio r Air Quality Engineer  \nNovember 5, 2009"
+  },
+  "raw_sections": {
+    "preamble": "April 8, 2011  651 Application 20977, Backup Steam Boilers S -1550 and S -1551",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nTesoro Refining and Marketing Company"
+      },
+      {
+        "heading": "PLANT NO. 14628",
+        "alias": null,
+        "text": "PLANT NO. 14628"
+      },
+      {
+        "heading": "APPLICATION NO.  20977",
+        "alias": null,
+        "text": "APPLICATION NO.  20977"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nThe Tesoro Refining a nd Marketing Company (Tesoro) is applying for an Authority to Construct \nand/or Permit to Operate the following equipment:  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+      },
+      {
+        "heading": "A-1550 SCR",
+        "alias": null,
+        "text": "A-1550 SCR\nS-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+      },
+      {
+        "heading": "A-1551 SCR",
+        "alias": null,
+        "text": "A-1551 SCR\nThese Backup Boilers are needed to ensure adequate steam supply for the refinery when existing \nboilers S -901 and S -904 are removed from service for turnaround/maintenance.  A boiler \nmaintenance program is required a t Tesoro and previous applications (#7642 in 2003 and \n#15773 in 2007) have permitted similar backup boilers.  These previous applications have \npermitted the boilers, and then when the need was completed, the permits were surrendered.   \nThese previous applic ations were for Temporary Operations under Regulation 2 -1-302.3.   \n \nThis application is for a permanent permit to operate.  The permit will be structured to allow up \nto three months (90 days = 2160 hours) of operation over a 6 -month period each year.  The \npermit will also allow for up to 384 hours (192 hrs/boiler) of operation without SCR \nabatement to allow for startup and shutdown (48 hours per SU/SD event, 4 events per \nboiler, 2 boilers).  \n \nBACT and Offsets will apply to this application.  In the previous  applications for Temporary \nOperations BACT and Offsets were addressed differently.  2007 Application 15773 for S -\n1530 and S -1531 BACT did not apply and contemporary emissions reductions were \nallowed from the boilers being maintained, resulting in no offse ts required.  For 2003 \nApplication 7642, BACT applied and Application 14405 was an emission credit banking \napplication for back -up boilers S1494 and S -1495 when they were removed from service.  \nThis application was never completed.  Tesoro requested that A pplication 14405 be \ncancelled and that the emission credits be applied to this application.  To avoid the \nRegulation 2 -2-605 calculation and verification requirement for Contemporary Emissions \nReductions, offsets will apply to the total S -1550 and S -1551 b ackup boiler emissions."
+      },
+      {
+        "heading": "EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSION CALCULATIONS\nNS  \n \nEmission Factors  \n \nThe following emissions factors are used to calculate emissions from Backup Boilers S -1550 an S -1551.  \n \nNOx:   7 ppm @ 3% O2 when abated by SCR (BACT)  \n 30 ppm @ 3% O2 without SCR operation (1 92 hrs/yr per boiler)  \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 652 of 1354  \n    \n 652 CO: 50 ppm @ 3% O2 (BACT)  \nPM10  7.45E -3 lb/MMBtu  \nVOC  5.39E -3 lb/MMBtu (assume to be all POC)  \nSO2 5.88E -4 lb/MMBtu  \nEmission factors for PM10, POC, and SO2 are from Chapter 1, Table 1.4 -2 of the EPA Document AP -42, \nCompilation of Air Pol lutant Emission Factors (lb/106scf / 1020).  \n \nExhaust flow:  (8710 dscf/MMBtu)*(20.95/(20.95 -3))=10165.7 dscf/MMBtu at 3% O2  \n \nAt atmospheric pressure and low temperatures, the ideal gas law will provide the necessary calculation accuracy:  \nn = PV/RT = (1atm* 10165.7 dscf/MMBtu) /((0.7302 atm -cf/lb-mol R)*(68 + 460 R))  \n= 26.367 lb -mol/MMBtu  \n \nNOx w/ SCR:  26.367 lb -mol/MMBtu(7 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.00849 lb/MMBtu  \nNOx w/o SCR:  26.367 lb -mol/MMBtu(30 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.0364 lb/MMBtu  \nCO:  26.367 lb -mol/MMBtu(50 lb -mol NOx/1E6 lb -mol)(28 lb CO/lb -mol CO)  \n= 0.0369 lb/MMBtu  \n \nAnnual Emissions:  \n \nEmissions from S -1550 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = \n0.827 t ons \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 tons  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2 160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nEmissions from  S -1551 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu/hr)(0.0084 9 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = \n0.827 tons  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 to ns \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 653 of 1354  \n    \n 653  \nCumulative Increase:  \nNOx = 1564 lb + 1564 lb + 692 lb + 692 lb = 4512 lb = 2.256 tons  \nCO = 7891 lb + 7891 lb = 15782 lb = 7.891 tons  \nPM10 = 1593 lb + 1593 lb = 3186 lb = 1.593 tons  \nPOC = 1153 lb + 1153 lb = 2306 lb = 1.153 tons  \nSO2 = 126 lb + 126 lb = 252 lb = 0.126 tons  \n \n \nMax imum Daily Emissions:  \n \nNOx (SCR)    =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(24 hrs) = 20.1 lb  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(24 hrs) = 86 lb  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(24 hrs) = 88 lb  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MM Btu)(24 hrs) = 17.7 lb  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(24 hrs) = 12.8 lb  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(24 hrs) = 1.4 lb  \n \n \n \nToxic Risk Screening  \n \n \nThe following toxic emissions were calculated for each boiler.  \n \n \nTAC  Emission Fact or \n(lb/mmscf)  Emission Factor \n(lb/MMBtu\n) Emissions \n(lb/hr)  Emissions \n(lb/yr)  \nBenzene  2.10E -03 2.1E-06 2.1E-04 4.5E-01 \nDichlorobenzene  6.00E -07 6.0E-10 5.9E-08 1.3E-04 \nFormaldehyde  7.50E -02 7.5E-05 7.4E-03 1.6E+01  \nHexane  1.80E00  1.8E-03 1.8E-01 3.8E+02  \nNaphthalene  6.10E -04 6.10E -07 6.0E-05 1.3E-01 \nToluene  3.40E -03 3.4E-06 3.4E-04 7.3E-01"
+      },
+      {
+        "heading": "PAH  2.45E -05 2.45E -08 7.0E -06",
+        "alias": null,
+        "text": "PAH  2.45E -05 2.45E -08 7.0E -06\n1.5E -02 \n \n \nA risk screen is required for this application due to PAH emissions.  The risk screen was \nconducted and the results transm itted October 26, 2009.  The project risk is considered \nacceptable with a Maximum Cancer Risk of 0.004 in a million, the chronic hazard index of \n0.00008 and the acute hazard index of 0.003."
+      },
+      {
+        "heading": "BEST AVAILABLE CONTROL TECHNOLOGY",
+        "alias": "BACT",
+        "text": "BEST AVAILABLE CONTROL TECHNOLOGY\nGY   \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 654 of 1354  \n    \n 654 In accordance with Regulatio n 2, Rule 2, Section 301, BACT is triggered for any new or \nmodified source with the potential to emit 10 pounds or more per highest day of POC, \nNPOC, NOx, CO, SO 2 or PM 10.  Emissions from both S -1550 and S -1551 trigger BACT \nfor the following pollutants:  N Ox, CO, PM10, and POC.  There are two pages in the \nBACT Guideline that are pertinent to this application.  Documents 16.1 and 17.3.1 are \nshown below.  The 1994 version of Document 17.1.3 was applied to the 2003 permits for \nS-1494 and S -1495.  Document 16.1  was applied to the 2007 permits for S -1530 and S -\n1531."
+      },
+      {
+        "heading": "BAY AREA AIR QUALITY MANAGEMENT DISTRICT",
+        "alias": null,
+        "text": "BAY AREA AIR QUALITY MANAGEMENT DISTRICT\nRICT  \nBest Available Control Technology (BACT) Guideline  \nSource Category  \nSource:  Boiler, Rental  Revision:  1 \nDocument \n#: 16.1 \nClass: On-site < 6 consecutive mo nths from the date of initial \noperation  Date: 1/26/9\n9 \nDetermination"
+      },
+      {
+        "heading": "POLLUTANT  BACT",
+        "alias": null,
+        "text": "POLLUTANT  BACT\n1. Technologically Feasible/ Cost \nEffective  \n2. Achieved in Practice  TYPICAL TECHNOLOGY  \nPOC 1. n/d \n2. n/s 1. n/d \n2. Good Combustion Practicea \nNOx 1. n/d \n2. 25 ppmv @ 3% O 2 Dry, a,b,c 1. n/d  \n2. Low NO x Burners + Flue Gas \nRecirculationa \nSO 2 1. Natural Gas, or Treated Refinery \nGas Fuel w/ < 50 ppmv Hydrogen \nSulfide and <100 ppmv Total \nReduced Sulfur a,b \n2. Natural Gas, or Treated Refinery \nGas Fuel w/ <100 ppmv Total \nReduced S ulfur a,b 1. Fuel Selection a,b \n \n \n2. Fuel Selection a,b \nCO 1. n/d \n2. 100 ppmv @ 3% O 2 Dry a,b,d 1. n/d \n2. Good Combustion Practice a,b,d \nPM 10 1. n/d \n2. Natural Gas or Treated Refinery \nGas Fuel a,b 1.  n/d \n2.  Fuel Selection a,b \nNPOC  1. n/a \n2. n/a 1. n/a \n2. n/a \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 655 of 1354  \n    \n 655 References  \na. BAAQMD staff report  \nb. BACT is 25 ppmvd NO x @ 3% O 2 and 100 ppmvd CO @ 3 % O 2 regardless of fuel.   \nHowever, emergency backup fuel oil w/ < 0.05 wt. % sulfur may be permitted to emit up to \n60 NO x ppmvd @ 3% O 2 and 100 ppmvd CO @ 3 % O 2 during natural gas curtailment.  \nc. NO x  determination by BAAQMD Source Test method ST -13A (average of three 30 -minute \nsampling runs), or BAAQMD approved equivalent.  \nd. CO determination by BAAQMD Source Test Method ST -6 (average of three 30 minute \nsamplin g runs), or BAAQMD approved equivalent."
+      },
+      {
+        "heading": "BAY AREA AIR QUALITY MANAGEMENT DISTRICT",
+        "alias": null,
+        "text": "BAY AREA AIR QUALITY MANAGEMENT DISTRICT\nTRICT  \nBest Available Control Technology (BACT) Guideline  \nSource Category  \nSource:  Boiler  Revision:  4 \nDocument #:  17.3.1  \nClass:  > 50 MM BTU/hour Heat Input  Date: 9/22/05  \nDetermination"
+      },
+      {
+        "heading": "POLLUTANT  BACT",
+        "alias": null,
+        "text": "POLLUTANT  BACT\n1. Technologically Feasible/ Cost \nEffective  \n2. Achieved in Practice  TYPICAL TECHNOLOGY  \nPOC 1. n/d \n2. n/s 1. n/d f \n2. Good Combustion Practice (GCP) a \nNOx 1.  7 ppmv @ 3% O 2, Dry b, c, d \n2. 9 ppmv @ 3% O 2, Dry a, c, d 1. Selecti ve Catalytic Reduction (SCR) \n+ Low NO x Burners (LNB) + Flue \nGas Recirculation (FGR) b, c, d \n2. Ultra Low NO x Burners (ULNB) + \nFGR a, c, d  \nSO 2 1. Natural Gas or Treated Refinery \nGas Fuel w/ <50 ppmv Hydrogen \nSulfide and <100 ppmv Total \nReduced Sulfur a, c \n2. Natural Gas or Treated Refinery \nGas Fuel w/ <100 ppmv Total \nReduced Sulfur a, c 1. Fuel Selection a, c \n \n \n2. Fuel Selection a, c \nCO 1. 10 ppmv @ 3% O 2 Dry f \n2. 50 ppmv @ 3% O 2 Dry a, c, e 1. Oxidation Catalyst f \n2. Good Combustion Practice in Con -\njunct ion with SCR System or Ultra \nLow NO x Burners and FGR a, c, e \nPM 10 1. n/d \n2. Natural Gas or Treated Refinery \nGas Fuel a, c 1. n/d \n2. Fuel Selection a, c \nNPOC  1. n/a 1. n/a \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 656 of 1354  \n    \n 656 2. n/a 2. n/a \nReferences  \na. BAAQMD  \nb. SCAQMD. Cost effectiveness evaluations shall  be based on emissions from firing \nprimary fuels but not emergency backup fuels.  \nc. BACT limits above apply  to all fuels except for emergency backup fuel oil used during \nnatural gas curtailment.  For emergency backup fuel oil, BACT(1) for NO x and CO \n(achie ved using LNB+ FGR+ SCR and GCP) is 25 ppmvd NO x @ 3% O 2; 100 ppmvd \nCO @ 3% O 2, and 5 ppmvd NH 3 @ 3% O 2; BACT(2) for NO x and CO (achieved using \nULNB+ FGR and GCP) is 40 ppmvd NO x @ 3% O 2 and 100 ppmvd CO @ 3% O 2; \nBACT(2) for SO 2 and PM 10 is the use of low sulfur fuel with < 0.05 wt. % S; and \nBACT(2) for POC is GCP.  \nd. NO x determination by Continuous Emission Monitor (3 -hour average), or BAAQMD \napproved equivalent.  \ne. CO determination by Continuous Emission Monitor (3 -hour average), or BAAQMD \napproved equiva lent. \nf. The BACT(1) CO limit does not apply to boilers smaller than 250 MM BTU/hour unless \nan oxidation catalyst is found to be cost effective or is necessary for TBACT or POC \nControl.  \n  \n \nThe ‗Rental Boiler‘ guideline does not apply because this applicat ion is for a permanent permit, \nnot one for a boiler that will be out of service within 6 months.  Each \nturnaround/maintenance events would be less that 6 months, so if one were to argue that for \neach maintenance event that requires these backup boilers, th e boilers would be on site less \nthan 6 months after the initial operation, it should be noted that this document 16.1 \nguideline is over 10 years old and a current BACT determination is necessary.   \n \nFor both documents, POC emissions comply with BACT when G ood Combustion Practices are \nfollowed, and PM10 emissions comply with BACT by the use of Natural Gas Fuel.   \n \nFor NOx and CO, a current BACT determination is required.  The following information is \ncompiled for the previous Tesoro applications for backup b oilers:  \n \nBackup Boiler  Application 7642 (2003)  Application 15773 (2007)  \nSource  Pollutan\nt Emission Limit  \n(Condition \n20683)  June 2003 \nSource \nTest Emission Limit  \n(Condition \n24340)  Feb/Mar 2007 \nSource \nTest \nS-\n1\n4\n9\n4 NOx  7 ppm @ 3% \nO2 2.4 ppm @ 3% \nO2  \nCO 50 pp m @ 3% \nO2 32 ppm @ 3% \nO2 \nS-\n1NOx  7 ppm @ 3% \nO2 3.0 ppm @ 3% \nO2 \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 657 of 1354  \n    \n 657 4\n9\n5 CO 50 ppm @ 3% \nO2 8.6 ppm @ 3% \nO2 \nS-\n1\n5\n3\n0 NOx   7 ppm @ 3% \nO2 4.5 ppm @ 3% \nO2 \nCO 100 ppm @ 3% \nO2 1.0 ppm @ 3% \nO2 \nS-\n1\n5\n3\n1 NOx  7 ppm @ 3% \nO2 4.4 ppm @ 3% \nO2 \nCO 100 ppm @ 3% \nO2 21 ppm @ 3% \nO2 \n \nBased on these data, Achieved in Practice BACT for these Backup Boilers is as follows:  \n \nNOx:  7 ppm @ 3% O2  \nCO: 50 ppm @ 3% O2  \n \nThe source tests show that the limits could be lower, but the limits above allow the necessary \noperating flexibility .  S-1550 and S -1551 are expected to comply with these BACT 2 limits."
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nTS    \n \nOffsets are required as per Regulation 2 -2-302 because Tesoro emits more than 35 tpy of POC and 35 tpy of NOx \nemissions.   Regulation 2 -2-302 requires that offsets for POC an d NOx be provided at a ratio of 1.15 to 1.0.  \nRegulation 2 -2-303 requires that a Major Facility must pay offsets for PM10 and SO2 in excess of 1.0 ton per new or \nmodified source.  PM10 and SO2 emissions for S -1550 and S -1551 do not exceed 1.0 ton, so offse ts are only \nrequired for NOx and POC.  POC emission credits will be used to offset both POC and NOx emissions, as allowed \nby Regulation 2 -2-302.2.  In addition, Since S -1494 and S -1495 are no longer in service, emission offsets provided \nfor Application 764 2 will be credited for this application (not including the 15% ratio).  A summary of the offsets for \nthis application follows:  \n \nDescription  NOx (tons)  POC (tons)  \nS-1550 Emissions  1.173  0.576  \nS-1551 Emissions  1.173  0.576  \nTotal Emissions     2.346     1.152  \nAdjusted for Offset Ratio of 1.15  2.698  1.325  \nReturn of S -1494 & S -1495 credits when taken out of service via \nApplication 7642  -1.208  -0.101  \nOffset Requirements  1.490  1.224  \nOffset via Bank  968 -1.490  -1.224  \nThe total POC offsets from Bank 968 are 2.714 tons."
+      },
+      {
+        "heading": "NSPS",
+        "alias": null,
+        "text": "NSPS\nPS    \n \nS-1550 and S -1551 are not Subject to NSPS Subpart Ja because they are not Fuel Gas \nCombustion Devices (natural gas is excluded from the definition of Fuel Gas in 40 CFR \n60.101 a unless it is commingled with refinery fuel gas).  \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 658 of 1354  \n    \n 658 S-1550 and S -1551 are not subject to NSPS Subpart Db (Standards of Performance for \nIndustrial -Commercial -Institutional Steam Generating Units) because the firing rate is less \nthan 100 MMBtu/hr.  The Backu p Boilers are subject to NSPS Subpart Dc because the \nboiler firing rate is greater than 10 MMBtu/hr and less than 100 MMBtu/hr.  Emission \nStandards in Subpart Dc do not apply to S -1550 and S -1551 because the boilers are only \nfired on Natural Gas.  S -1550 a nd S-151 are only subject to the notification and \nrecordkeeping requirements of 40 CFR 60.48c.  \n \nNESHAPs and MACT  \n \nS-1550 and S -1551 are not subject to NESHAPs and MACT because they are fired exclusively \non Natural Gas and are not used as a control device o f any HAPs emissions."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nANCE  \n \nThe owner/operator of S -1550 and S -1551 Backup Boilers shall comply with Regulation 6, Rule \n1 (Particulate Matter General Requirements).  The owner/operator is expected to comply \nwith Regulation 6 since th e unit is only fueled with natural gas.  Thus for any period \naggregating more than three minutes in any hour, there should be no visible emission as \ndark or darker than No. 1 on the Ringlemann Chart (Regulation 6 -1-301) and no visible \nemission to exceed 20 % opacity (Regulation 6 -1-302).   \n \nThe owner/operator of S -1550 and S -1551 Backup Boilers shall comply with Reg. 9 -1-301 \n(Inorganic Gaseous Pollutants:  Sulfur Dioxide for Limitations on Ground Level \nConcentrations).  \n \nThe owner/operator is not subject to R egulation 9 Rule 7:  Nitrogen Oxides and Carbon \nMonoxide from Industrial, Institutional, and Commercial Boilers, Steam Generators, and \nProcess Heaters as per Regulation 9 -7-110.3 since S -1550 and S -1551 will be operated at \nthe Tesoro Refinery.   \n \nThe owner /operator is not subject to Regulation 9 Rule 10:  Nitrogen Oxides and Carbon \nMonoxide from Boilers, Steam Generators, and Process Heaters in Petroleum Refineries \nbecause neither S -1530 or S -1531 are a ―Unit‖ as defined by Regulation 9 -10-220.  Neither \nS-1530 nor S -1531 had an Authority to Construct or Permit to Operate prior to January 5, \n2004.   \n \nThe owner/operator is subject to Regulation 8, Rule 18.  The natural gas fuel lines and \ncomponents will be constructed in accordance with the requirements of the  8-18 standards \nand added to the facility fugitive emissions monitoring program.  \n \nThe project is considered to be ministerial under the District's CEQA regulation 2 -1-311 and \ntherefore is not subject to CEQA review.   \n \nThe project is over 1000 feet from th e nearest school and therefore not subject to the public \nnotification requirements of Reg. 2 -1-412. \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 659 of 1354  \n    \n 659  \nThe owner/operator of S -1550 and S -1551 Backup Boilers shall comply with BACT, Offsets \nNSPS and the Toxic Risk Management Policy.  \n \nPSD and NESHAPS do not a pply."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nIONS   \nApplication 20977 (November 2009)  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1550 SCR  \n S-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1551 SCR  \n \n1. The owner/operator s hall ensure that S -1550 and S -1551 are fired exclusively on natural gas at a rate not to \nexceed 99 MMBtu/hr each.  (Basis: Cumulative Increase, Offsets, Toxics, NSPS, BACT)  \n \n2. The owner/operator shall ensure that S -1550 and S -1551 are on site at the refinery  for no more that 6 \nconsecutive months per 12 consecutive month period.  The 6 -month period for each boiler begins upon the \ninitial firing of the boiler.  (Basis:  BACT)  \n \n3. The owner/operator shall ensure each boiler S -1550 and S -1551 is not operated for mor e than 2160 hours in \nany consecutive 12 -month period.   (Basis: Cumulative Increase, Offsets, Toxics)  \n \n4. Except for a time period not to exceed 24 hours per boiler startup or shutdown, the owner/operator shall \nensure that S -1550 and S -1551 are only operated when abated by SCRs A -1550 and A -1551, respectively.  \nThe total hours that S -1550 or S -1551 is operated without SCR abatement shall not exceed 192 hours per \nconsecutive 12 -month period.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n5. The owner/operator sha ll ensure that S -1530 and S -1531 are not operated unless they are each equipped \nwith a District approved, fuel flow meter that measures the total volume of fuel throughput to S -1530 and S -\n1531 in units of standard cubic feet.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n6. The owner/operator shall ensure that the total fuel fired in S -1530 and S -1531 shall not exceed 4,277,000 \ntherms in any 12 consecutive month period.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n7. Except for periods of startup and shutdow n as allowed in Part 4, the owner operator shall not operate S -\n1550 or S -1551 unless NOx emissions are less than 7 ppmv, dry, @ 3% O2.  (Basis: Cumulative Increase, \nOffsets, BACT)  \n \n8. During for periods of startup and shutdown as allowed in Part 4, the owner operator shall not operate S -\n1550 or S -1551 unless NOx emissions are less than 30 ppmv, dry, @ 3% O2.  (Basis: Cumulative Increase, \nOffsets)  \n \n9. The owner operator shall not operate S -1550 or S -1551 unless CO emissions are less than 50 ppmv, dry, @ \n3% O2.  (B asis: Cumulative Increase, Offsets, BACT)  \n \n10. Within 10 days of the first fire date, the owner/operator shall conduct a District approved source test of each \nS-1550 and S -1551.  The District approved source test shall measure the emission rates of NOx, POC, S O2, \nand PM10, from S -1550 and S -1551 while it is operated at not less than 80 MMBtu/hr.  The owner/operator \nshall ensure that within 45 days of the date of completion of the source testing, two identical copies of the \nsource tests results (each referencing  permit application #20977 and plant #14628) are received by the \nDistrict.  One copy shall be sent to Source Testing and the other shall be sent to the Engineering Division.  \nThis District approved source test shall be repeated within 5 days of each subseq uent boiler startup (or any \noperation without SCR abatement) during the 6 -month period of boiler operation.  (Basis: Cumulative \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 660 of 1354  \n    \n 660 Increase, Offsets, BACT)  \n \n11. In a District approved log, the owner/operator shall record the manufacturer, make, model, and maximum  \nrated firing rate of each boiler used as S -1550 and S -1551, and the following information for each calendar \nday that either S -1550 or S -1551 fires fuel.  The District approved log(s) shall be retained by the \nowner/operator on site for at least 5 years fro m the date of the last entry and made available to District staff \nupon request.  (Basis: Cumulative Increase, Offsets, Toxics, BACT)  \na. The date and hours that each S -1550 and S -1551 fire fuel.  \nb. The amount of fuel fired at each S -1550 and S -1551.  \nc. The hours tha t each S -1550 and S -1551 operate without abatement by a fully functioning SCR.  \nd. The amount of steam produced at each boiler S -1550 and S -1551."
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nDATION  \nWaive an Authority to Construct and grant a Permit to Operate to Tesoro Refining and Marketing C ompany for the \nfollowing sources:  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+      },
+      {
+        "heading": "A-1550 SCR",
+        "alias": null,
+        "text": "A-1550 SCR\nS-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+      },
+      {
+        "heading": "A-1551 SCR",
+        "alias": null,
+        "text": "A-1551 SCR"
+      },
+      {
+        "heading": "EXEMPTIONS",
+        "alias": null,
+        "text": "EXEMPTIONS"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND  \n \nThe Tesoro Refining a nd Marketing Company (Tesoro) is applying for an Authority to Construct \nand/or Permit to Operate the following equipment:  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1550 SCR  \n S-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1551 SCR  \n \nThese Backup Boilers are needed to ensure adequate steam supply for the refinery when existing \nboilers S -901 and S -904 are removed from service for turnaround/maintenance.  A boiler \nmaintenance program is required a t Tesoro and previous applications (#7642 in 2003 and \n#15773 in 2007) have permitted similar backup boilers.  These previous applications have \npermitted the boilers, and then when the need was completed, the permits were surrendered.   \nThese previous applic ations were for Temporary Operations under Regulation 2 -1-302.3.   \n \nThis application is for a permanent permit to operate.  The permit will be structured to allow up \nto three months (90 days = 2160 hours) of operation over a 6 -month period each year.  The \npermit will also allow for up to 384 hours (192 hrs/boiler) of operation without SCR \nabatement to allow for startup and shutdown (48 hours per SU/SD event, 4 events per \nboiler, 2 boilers).  \n \nBACT and Offsets will apply to this application.  In the previous  applications for Temporary \nOperations BACT and Offsets were addressed differently.  2007 Application 15773 for S -\n1530 and S -1531 BACT did not apply and contemporary emissions reductions were \nallowed from the boilers being maintained, resulting in no offse ts required.  For 2003 \nApplication 7642, BACT applied and Application 14405 was an emission credit banking \napplication for back -up boilers S1494 and S -1495 when they were removed from service.  \nThis application was never completed.  Tesoro requested that A pplication 14405 be \ncancelled and that the emission credits be applied to this application.  To avoid the \nRegulation 2 -2-605 calculation and verification requirement for Contemporary Emissions \nReductions, offsets will apply to the total S -1550 and S -1551 b ackup boiler emissions."
+      },
+      {
+        "heading": "EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSION CALCULATIONS\nNS  \n \nEmission Factors  \n \nThe following emissions factors are used to calculate emissions from Backup Boilers S -1550 an S -1551.  \n \nNOx:   7 ppm @ 3% O2 when abated by SCR (BACT)  \n 30 ppm @ 3% O2 without SCR operation (1 92 hrs/yr per boiler)  \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 652 of 1354  \n    \n 652 CO: 50 ppm @ 3% O2 (BACT)  \nPM10  7.45E -3 lb/MMBtu  \nVOC  5.39E -3 lb/MMBtu (assume to be all POC)  \nSO2 5.88E -4 lb/MMBtu  \nEmission factors for PM10, POC, and SO2 are from Chapter 1, Table 1.4 -2 of the EPA Document AP -42, \nCompilation of Air Pol lutant Emission Factors (lb/106scf / 1020).  \n \nExhaust flow:  (8710 dscf/MMBtu)*(20.95/(20.95 -3))=10165.7 dscf/MMBtu at 3% O2  \n \nAt atmospheric pressure and low temperatures, the ideal gas law will provide the necessary calculation accuracy:  \nn = PV/RT = (1atm* 10165.7 dscf/MMBtu) /((0.7302 atm -cf/lb-mol R)*(68 + 460 R))  \n= 26.367 lb -mol/MMBtu  \n \nNOx w/ SCR:  26.367 lb -mol/MMBtu(7 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.00849 lb/MMBtu  \nNOx w/o SCR:  26.367 lb -mol/MMBtu(30 lb -mol NOx/1E6 lb -mol)(46 lb NOx/lb -mol NOx)  \n= 0.0364 lb/MMBtu  \nCO:  26.367 lb -mol/MMBtu(50 lb -mol NOx/1E6 lb -mol)(28 lb CO/lb -mol CO)  \n= 0.0369 lb/MMBtu  \n \nAnnual Emissions:  \n \nEmissions from S -1550 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = \n0.827 t ons \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 tons  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2 160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nEmissions from  S -1551 Backup Boiler:  \nNOx (SCR)    =(99 MMBtu/hr)(0.0084 9 lb NOx/MMBtu)(2160 -192 hrs) = 1654 lb = \n0.827 tons  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(192 hrs) = 692 lb = 0.346 tons  \nNOx (total)   = 1654 + 692 = 2346 lbs = 1.173 tons  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(2160 hrs) = 7891 lb = 3.945 to ns \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MMBtu)(2160 hrs) = 1593 lb = 0.797 tons  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(2160 hrs) = 1153 lb = 0.576 tons  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(2160 hrs) = 126 lb = 0.063 tons  \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 653 of 1354  \n    \n 653  \nCumulative Increase:  \nNOx = 1564 lb + 1564 lb + 692 lb + 692 lb = 4512 lb = 2.256 tons  \nCO = 7891 lb + 7891 lb = 15782 lb = 7.891 tons  \nPM10 = 1593 lb + 1593 lb = 3186 lb = 1.593 tons  \nPOC = 1153 lb + 1153 lb = 2306 lb = 1.153 tons  \nSO2 = 126 lb + 126 lb = 252 lb = 0.126 tons  \n \n \nMax imum Daily Emissions:  \n \nNOx (SCR)    =(99 MMBtu/hr)(0.00849 lb NOx/MMBtu)(24 hrs) = 20.1 lb  \nNOx (w/o SCR)   =(99 MMBtu/hr)(0.0364 lb NOx/MMBtu)(24 hrs) = 86 lb  \nCO    =(99 MMBtu/hr)(0.0369 lb CO/MMBtu)(24 hrs) = 88 lb  \nPM10    =(99 MMBtu/hr)(7.45E -3 lb PM10/MM Btu)(24 hrs) = 17.7 lb  \nPOC    =(99 MMBtu/hr)(5.39E -3 lb POC/MMBtu)(24 hrs) = 12.8 lb  \nSO2    =(99 MMBtu/hr)(5.88E -4 lb SO2/MMBtu)(24 hrs) = 1.4 lb"
+      },
+      {
+        "heading": "Toxic Risk Screening",
+        "alias": "TOXICS",
+        "text": "Toxic Risk Screening\neening  \n \n \nThe following toxic emissions were calculated for each boiler.  \n \n \nTAC  Emission Fact or \n(lb/mmscf)  Emission Factor \n(lb/MMBtu\n) Emissions \n(lb/hr)  Emissions \n(lb/yr)  \nBenzene  2.10E -03 2.1E-06 2.1E-04 4.5E-01 \nDichlorobenzene  6.00E -07 6.0E-10 5.9E-08 1.3E-04 \nFormaldehyde  7.50E -02 7.5E-05 7.4E-03 1.6E+01  \nHexane  1.80E00  1.8E-03 1.8E-01 3.8E+02  \nNaphthalene  6.10E -04 6.10E -07 6.0E-05 1.3E-01 \nToluene  3.40E -03 3.4E-06 3.4E-04 7.3E-01 \nPAH  2.45E -05 2.45E -08 7.0E -06 \n 1.5E -02 \n \n \nA risk screen is required for this application due to PAH emissions.  The risk screen was \nconducted and the results transm itted October 26, 2009.  The project risk is considered \nacceptable with a Maximum Cancer Risk of 0.004 in a million, the chronic hazard index of \n0.00008 and the acute hazard index of 0.003."
+      },
+      {
+        "heading": "BEST AVAILABLE CONTROL TECHNOLOGY",
+        "alias": "BACT",
+        "text": "BEST AVAILABLE CONTROL TECHNOLOGY\nGY   \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 654 of 1354  \n    \n 654 In accordance with Regulatio n 2, Rule 2, Section 301, BACT is triggered for any new or \nmodified source with the potential to emit 10 pounds or more per highest day of POC, \nNPOC, NOx, CO, SO 2 or PM 10.  Emissions from both S -1550 and S -1551 trigger BACT \nfor the following pollutants:  N Ox, CO, PM10, and POC.  There are two pages in the \nBACT Guideline that are pertinent to this application.  Documents 16.1 and 17.3.1 are \nshown below.  The 1994 version of Document 17.1.3 was applied to the 2003 permits for \nS-1494 and S -1495.  Document 16.1  was applied to the 2007 permits for S -1530 and S -\n1531.  \n \n \nBAY AREA AIR QUALITY MANAGEMENT DISTRICT  \nBest Available Control Technology (BACT) Guideline  \nSource Category  \nSource:  Boiler, Rental  Revision:  1 \nDocument \n#: 16.1 \nClass: On-site < 6 consecutive mo nths from the date of initial \noperation  Date: 1/26/9\n9 \nDetermination  \nPOLLUTANT  BACT  \n1. Technologically Feasible/ Cost \nEffective  \n2. Achieved in Practice  TYPICAL TECHNOLOGY  \nPOC 1. n/d \n2. n/s 1. n/d \n2. Good Combustion Practicea \nNOx 1. n/d \n2. 25 ppmv @ 3% O 2 Dry, a,b,c 1. n/d  \n2. Low NO x Burners + Flue Gas \nRecirculationa \nSO 2 1. Natural Gas, or Treated Refinery \nGas Fuel w/ < 50 ppmv Hydrogen \nSulfide and <100 ppmv Total \nReduced Sulfur a,b \n2. Natural Gas, or Treated Refinery \nGas Fuel w/ <100 ppmv Total \nReduced S ulfur a,b 1. Fuel Selection a,b \n \n \n2. Fuel Selection a,b \nCO 1. n/d \n2. 100 ppmv @ 3% O 2 Dry a,b,d 1. n/d \n2. Good Combustion Practice a,b,d \nPM 10 1. n/d \n2. Natural Gas or Treated Refinery \nGas Fuel a,b 1.  n/d \n2.  Fuel Selection a,b \nNPOC  1. n/a \n2. n/a 1. n/a \n2. n/a \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 655 of 1354  \n    \n 655 References  \na. BAAQMD staff report  \nb. BACT is 25 ppmvd NO x @ 3% O 2 and 100 ppmvd CO @ 3 % O 2 regardless of fuel.   \nHowever, emergency backup fuel oil w/ < 0.05 wt. % sulfur may be permitted to emit up to \n60 NO x ppmvd @ 3% O 2 and 100 ppmvd CO @ 3 % O 2 during natural gas curtailment.  \nc. NO x  determination by BAAQMD Source Test method ST -13A (average of three 30 -minute \nsampling runs), or BAAQMD approved equivalent.  \nd. CO determination by BAAQMD Source Test Method ST -6 (average of three 30 minute \nsamplin g runs), or BAAQMD approved equivalent.  \n \n  \nBAY AREA AIR QUALITY MANAGEMENT DISTRICT  \nBest Available Control Technology (BACT) Guideline  \nSource Category  \nSource:  Boiler  Revision:  4 \nDocument #:  17.3.1  \nClass:  > 50 MM BTU/hour Heat Input  Date: 9/22/05  \nDetermination  \nPOLLUTANT  BACT  \n1. Technologically Feasible/ Cost \nEffective  \n2. Achieved in Practice  TYPICAL TECHNOLOGY  \nPOC 1. n/d \n2. n/s 1. n/d f \n2. Good Combustion Practice (GCP) a \nNOx 1.  7 ppmv @ 3% O 2, Dry b, c, d \n2. 9 ppmv @ 3% O 2, Dry a, c, d 1. Selecti ve Catalytic Reduction (SCR) \n+ Low NO x Burners (LNB) + Flue \nGas Recirculation (FGR) b, c, d \n2. Ultra Low NO x Burners (ULNB) + \nFGR a, c, d  \nSO 2 1. Natural Gas or Treated Refinery \nGas Fuel w/ <50 ppmv Hydrogen \nSulfide and <100 ppmv Total \nReduced Sulfur a, c \n2. Natural Gas or Treated Refinery \nGas Fuel w/ <100 ppmv Total \nReduced Sulfur a, c 1. Fuel Selection a, c \n \n \n2. Fuel Selection a, c \nCO 1. 10 ppmv @ 3% O 2 Dry f \n2. 50 ppmv @ 3% O 2 Dry a, c, e 1. Oxidation Catalyst f \n2. Good Combustion Practice in Con -\njunct ion with SCR System or Ultra \nLow NO x Burners and FGR a, c, e \nPM 10 1. n/d \n2. Natural Gas or Treated Refinery \nGas Fuel a, c 1. n/d \n2. Fuel Selection a, c \nNPOC  1. n/a 1. n/a \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 656 of 1354  \n    \n 656 2. n/a 2. n/a \nReferences  \na. BAAQMD  \nb. SCAQMD. Cost effectiveness evaluations shall  be based on emissions from firing \nprimary fuels but not emergency backup fuels.  \nc. BACT limits above apply  to all fuels except for emergency backup fuel oil used during \nnatural gas curtailment.  For emergency backup fuel oil, BACT(1) for NO x and CO \n(achie ved using LNB+ FGR+ SCR and GCP) is 25 ppmvd NO x @ 3% O 2; 100 ppmvd \nCO @ 3% O 2, and 5 ppmvd NH 3 @ 3% O 2; BACT(2) for NO x and CO (achieved using \nULNB+ FGR and GCP) is 40 ppmvd NO x @ 3% O 2 and 100 ppmvd CO @ 3% O 2; \nBACT(2) for SO 2 and PM 10 is the use of low sulfur fuel with < 0.05 wt. % S; and \nBACT(2) for POC is GCP.  \nd. NO x determination by Continuous Emission Monitor (3 -hour average), or BAAQMD \napproved equivalent.  \ne. CO determination by Continuous Emission Monitor (3 -hour average), or BAAQMD \napproved equiva lent. \nf. The BACT(1) CO limit does not apply to boilers smaller than 250 MM BTU/hour unless \nan oxidation catalyst is found to be cost effective or is necessary for TBACT or POC \nControl.  \n  \n \nThe ‗Rental Boiler‘ guideline does not apply because this applicat ion is for a permanent permit, \nnot one for a boiler that will be out of service within 6 months.  Each \nturnaround/maintenance events would be less that 6 months, so if one were to argue that for \neach maintenance event that requires these backup boilers, th e boilers would be on site less \nthan 6 months after the initial operation, it should be noted that this document 16.1 \nguideline is over 10 years old and a current BACT determination is necessary.   \n \nFor both documents, POC emissions comply with BACT when G ood Combustion Practices are \nfollowed, and PM10 emissions comply with BACT by the use of Natural Gas Fuel.   \n \nFor NOx and CO, a current BACT determination is required.  The following information is \ncompiled for the previous Tesoro applications for backup b oilers:  \n \nBackup Boiler  Application 7642 (2003)  Application 15773 (2007)  \nSource  Pollutan\nt Emission Limit  \n(Condition \n20683)  June 2003 \nSource \nTest Emission Limit  \n(Condition \n24340)  Feb/Mar 2007 \nSource \nTest \nS-\n1\n4\n9\n4 NOx  7 ppm @ 3% \nO2 2.4 ppm @ 3% \nO2  \nCO 50 pp m @ 3% \nO2 32 ppm @ 3% \nO2 \nS-\n1NOx  7 ppm @ 3% \nO2 3.0 ppm @ 3% \nO2 \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 657 of 1354  \n    \n 657 4\n9\n5 CO 50 ppm @ 3% \nO2 8.6 ppm @ 3% \nO2 \nS-\n1\n5\n3\n0 NOx   7 ppm @ 3% \nO2 4.5 ppm @ 3% \nO2 \nCO 100 ppm @ 3% \nO2 1.0 ppm @ 3% \nO2 \nS-\n1\n5\n3\n1 NOx  7 ppm @ 3% \nO2 4.4 ppm @ 3% \nO2 \nCO 100 ppm @ 3% \nO2 21 ppm @ 3% \nO2 \n \nBased on these data, Achieved in Practice BACT for these Backup Boilers is as follows:  \n \nNOx:  7 ppm @ 3% O2  \nCO: 50 ppm @ 3% O2  \n \nThe source tests show that the limits could be lower, but the limits above allow the necessary \noperating flexibility .  S-1550 and S -1551 are expected to comply with these BACT 2 limits."
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nTS    \n \nOffsets are required as per Regulation 2 -2-302 because Tesoro emits more than 35 tpy of POC and 35 tpy of NOx \nemissions.   Regulation 2 -2-302 requires that offsets for POC an d NOx be provided at a ratio of 1.15 to 1.0.  \nRegulation 2 -2-303 requires that a Major Facility must pay offsets for PM10 and SO2 in excess of 1.0 ton per new or \nmodified source.  PM10 and SO2 emissions for S -1550 and S -1551 do not exceed 1.0 ton, so offse ts are only \nrequired for NOx and POC.  POC emission credits will be used to offset both POC and NOx emissions, as allowed \nby Regulation 2 -2-302.2.  In addition, Since S -1494 and S -1495 are no longer in service, emission offsets provided \nfor Application 764 2 will be credited for this application (not including the 15% ratio).  A summary of the offsets for \nthis application follows:  \n \nDescription  NOx (tons)  POC (tons)  \nS-1550 Emissions  1.173  0.576  \nS-1551 Emissions  1.173  0.576  \nTotal Emissions     2.346     1.152  \nAdjusted for Offset Ratio of 1.15  2.698  1.325  \nReturn of S -1494 & S -1495 credits when taken out of service via \nApplication 7642  -1.208  -0.101  \nOffset Requirements  1.490  1.224  \nOffset via Bank  968 -1.490  -1.224  \nThe total POC offsets from Bank 968 are 2.714 tons.  \n \nNSPS    \n \nS-1550 and S -1551 are not Subject to NSPS Subpart Ja because they are not Fuel Gas \nCombustion Devices (natural gas is excluded from the definition of Fuel Gas in 40 CFR \n60.101 a unless it is commingled with refinery fuel gas).  \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 658 of 1354  \n    \n 658 S-1550 and S -1551 are not subject to NSPS Subpart Db (Standards of Performance for \nIndustrial -Commercial -Institutional Steam Generating Units) because the firing rate is less \nthan 100 MMBtu/hr.  The Backu p Boilers are subject to NSPS Subpart Dc because the \nboiler firing rate is greater than 10 MMBtu/hr and less than 100 MMBtu/hr.  Emission \nStandards in Subpart Dc do not apply to S -1550 and S -1551 because the boilers are only \nfired on Natural Gas.  S -1550 a nd S-151 are only subject to the notification and \nrecordkeeping requirements of 40 CFR 60.48c.  \n \nNESHAPs and MACT  \n \nS-1550 and S -1551 are not subject to NESHAPs and MACT because they are fired exclusively \non Natural Gas and are not used as a control device o f any HAPs emissions."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nANCE  \n \nThe owner/operator of S -1550 and S -1551 Backup Boilers shall comply with Regulation 6, Rule \n1 (Particulate Matter General Requirements).  The owner/operator is expected to comply \nwith Regulation 6 since th e unit is only fueled with natural gas.  Thus for any period \naggregating more than three minutes in any hour, there should be no visible emission as \ndark or darker than No. 1 on the Ringlemann Chart (Regulation 6 -1-301) and no visible \nemission to exceed 20 % opacity (Regulation 6 -1-302).   \n \nThe owner/operator of S -1550 and S -1551 Backup Boilers shall comply with Reg. 9 -1-301 \n(Inorganic Gaseous Pollutants:  Sulfur Dioxide for Limitations on Ground Level \nConcentrations).  \n \nThe owner/operator is not subject to R egulation 9 Rule 7:  Nitrogen Oxides and Carbon \nMonoxide from Industrial, Institutional, and Commercial Boilers, Steam Generators, and \nProcess Heaters as per Regulation 9 -7-110.3 since S -1550 and S -1551 will be operated at \nthe Tesoro Refinery.   \n \nThe owner /operator is not subject to Regulation 9 Rule 10:  Nitrogen Oxides and Carbon \nMonoxide from Boilers, Steam Generators, and Process Heaters in Petroleum Refineries \nbecause neither S -1530 or S -1531 are a ―Unit‖ as defined by Regulation 9 -10-220.  Neither \nS-1530 nor S -1531 had an Authority to Construct or Permit to Operate prior to January 5, \n2004.   \n \nThe owner/operator is subject to Regulation 8, Rule 18.  The natural gas fuel lines and \ncomponents will be constructed in accordance with the requirements of the  8-18 standards \nand added to the facility fugitive emissions monitoring program.  \n \nThe project is considered to be ministerial under the District's CEQA regulation 2 -1-311 and \ntherefore is not subject to CEQA review.   \n \nThe project is over 1000 feet from th e nearest school and therefore not subject to the public \nnotification requirements of Reg. 2 -1-412. \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 659 of 1354  \n    \n 659  \nThe owner/operator of S -1550 and S -1551 Backup Boilers shall comply with BACT, Offsets \nNSPS and the Toxic Risk Management Policy.  \n \nPSD and NESHAPS do not a pply."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nIONS   \nApplication 20977 (November 2009)  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1550 SCR  \n S-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by A -1551 SCR  \n \n1. The owner/operator s hall ensure that S -1550 and S -1551 are fired exclusively on natural gas at a rate not to \nexceed 99 MMBtu/hr each.  (Basis: Cumulative Increase, Offsets, Toxics, NSPS, BACT)  \n \n2. The owner/operator shall ensure that S -1550 and S -1551 are on site at the refinery  for no more that 6 \nconsecutive months per 12 consecutive month period.  The 6 -month period for each boiler begins upon the \ninitial firing of the boiler.  (Basis:  BACT)  \n \n3. The owner/operator shall ensure each boiler S -1550 and S -1551 is not operated for mor e than 2160 hours in \nany consecutive 12 -month period.   (Basis: Cumulative Increase, Offsets, Toxics)  \n \n4. Except for a time period not to exceed 24 hours per boiler startup or shutdown, the owner/operator shall \nensure that S -1550 and S -1551 are only operated when abated by SCRs A -1550 and A -1551, respectively.  \nThe total hours that S -1550 or S -1551 is operated without SCR abatement shall not exceed 192 hours per \nconsecutive 12 -month period.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n5. The owner/operator sha ll ensure that S -1530 and S -1531 are not operated unless they are each equipped \nwith a District approved, fuel flow meter that measures the total volume of fuel throughput to S -1530 and S -\n1531 in units of standard cubic feet.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n6. The owner/operator shall ensure that the total fuel fired in S -1530 and S -1531 shall not exceed 4,277,000 \ntherms in any 12 consecutive month period.  (Basis: Cumulative Increase, Offsets, Toxics)  \n \n7. Except for periods of startup and shutdow n as allowed in Part 4, the owner operator shall not operate S -\n1550 or S -1551 unless NOx emissions are less than 7 ppmv, dry, @ 3% O2.  (Basis: Cumulative Increase, \nOffsets, BACT)  \n \n8. During for periods of startup and shutdown as allowed in Part 4, the owner operator shall not operate S -\n1550 or S -1551 unless NOx emissions are less than 30 ppmv, dry, @ 3% O2.  (Basis: Cumulative Increase, \nOffsets)  \n \n9. The owner operator shall not operate S -1550 or S -1551 unless CO emissions are less than 50 ppmv, dry, @ \n3% O2.  (B asis: Cumulative Increase, Offsets, BACT)  \n \n10. Within 10 days of the first fire date, the owner/operator shall conduct a District approved source test of each \nS-1550 and S -1551.  The District approved source test shall measure the emission rates of NOx, POC, S O2, \nand PM10, from S -1550 and S -1551 while it is operated at not less than 80 MMBtu/hr.  The owner/operator \nshall ensure that within 45 days of the date of completion of the source testing, two identical copies of the \nsource tests results (each referencing  permit application #20977 and plant #14628) are received by the \nDistrict.  One copy shall be sent to Source Testing and the other shall be sent to the Engineering Division.  \nThis District approved source test shall be repeated within 5 days of each subseq uent boiler startup (or any \noperation without SCR abatement) during the 6 -month period of boiler operation.  (Basis: Cumulative \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 660 of 1354  \n    \n 660 Increase, Offsets, BACT)  \n \n11. In a District approved log, the owner/operator shall record the manufacturer, make, model, and maximum  \nrated firing rate of each boiler used as S -1550 and S -1551, and the following information for each calendar \nday that either S -1550 or S -1551 fires fuel.  The District approved log(s) shall be retained by the \nowner/operator on site for at least 5 years fro m the date of the last entry and made available to District staff \nupon request.  (Basis: Cumulative Increase, Offsets, Toxics, BACT)  \na. The date and hours that each S -1550 and S -1551 fire fuel.  \nb. The amount of fuel fired at each S -1550 and S -1551.  \nc. The hours tha t each S -1550 and S -1551 operate without abatement by a fully functioning SCR.  \nd. The amount of steam produced at each boiler S -1550 and S -1551."
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nDATION  \nWaive an Authority to Construct and grant a Permit to Operate to Tesoro Refining and Marketing C ompany for the \nfollowing sources:  \n \n S-1550  Backup Steam Boiler #1, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1550 SCR  \n S-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by \nA-1551 SCR  \n \n \nEXEMPTIONS  \nnone  \n \n \n \nBy:  \n Arthur P Valla  \n Senio r Air Quality Engineer  \nNovember 5, 2009"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nTesoro Refining and Marketing Company"
+      },
+      {
+        "heading": "PLANT NO. 14628",
+        "alias": null,
+        "text": "PLANT NO. 14628"
+      },
+      {
+        "heading": "APPLICATION NO.  20977",
+        "alias": null,
+        "text": "APPLICATION NO.  20977"
+      },
+      {
+        "heading": "A-1550 SCR",
+        "alias": null,
+        "text": "A-1550 SCR\nS-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+      },
+      {
+        "heading": "A-1551 SCR",
+        "alias": null,
+        "text": "A-1551 SCR\nThese Backup Boilers are needed to ensure adequate steam supply for the refinery when existing \nboilers S -901 and S -904 are removed from service for turnaround/maintenance.  A boiler \nmaintenance program is required a t Tesoro and previous applications (#7642 in 2003 and \n#15773 in 2007) have permitted similar backup boilers.  These previous applications have \npermitted the boilers, and then when the need was completed, the permits were surrendered.   \nThese previous applic ations were for Temporary Operations under Regulation 2 -1-302.3.   \n \nThis application is for a permanent permit to operate.  The permit will be structured to allow up \nto three months (90 days = 2160 hours) of operation over a 6 -month period each year.  The \npermit will also allow for up to 384 hours (192 hrs/boiler) of operation without SCR \nabatement to allow for startup and shutdown (48 hours per SU/SD event, 4 events per \nboiler, 2 boilers).  \n \nBACT and Offsets will apply to this application.  In the previous  applications for Temporary \nOperations BACT and Offsets were addressed differently.  2007 Application 15773 for S -\n1530 and S -1531 BACT did not apply and contemporary emissions reductions were \nallowed from the boilers being maintained, resulting in no offse ts required.  For 2003 \nApplication 7642, BACT applied and Application 14405 was an emission credit banking \napplication for back -up boilers S1494 and S -1495 when they were removed from service.  \nThis application was never completed.  Tesoro requested that A pplication 14405 be \ncancelled and that the emission credits be applied to this application.  To avoid the \nRegulation 2 -2-605 calculation and verification requirement for Contemporary Emissions \nReductions, offsets will apply to the total S -1550 and S -1551 b ackup boiler emissions."
+      },
+      {
+        "heading": "PAH  2.45E -05 2.45E -08 7.0E -06",
+        "alias": null,
+        "text": "PAH  2.45E -05 2.45E -08 7.0E -06\n1.5E -02 \n \n \nA risk screen is required for this application due to PAH emissions.  The risk screen was \nconducted and the results transm itted October 26, 2009.  The project risk is considered \nacceptable with a Maximum Cancer Risk of 0.004 in a million, the chronic hazard index of \n0.00008 and the acute hazard index of 0.003."
+      },
+      {
+        "heading": "BAY AREA AIR QUALITY MANAGEMENT DISTRICT",
+        "alias": null,
+        "text": "BAY AREA AIR QUALITY MANAGEMENT DISTRICT\nRICT  \nBest Available Control Technology (BACT) Guideline  \nSource Category  \nSource:  Boiler, Rental  Revision:  1 \nDocument \n#: 16.1 \nClass: On-site < 6 consecutive mo nths from the date of initial \noperation  Date: 1/26/9\n9 \nDetermination"
+      },
+      {
+        "heading": "POLLUTANT  BACT",
+        "alias": null,
+        "text": "POLLUTANT  BACT\n1. Technologically Feasible/ Cost \nEffective  \n2. Achieved in Practice  TYPICAL TECHNOLOGY  \nPOC 1. n/d \n2. n/s 1. n/d \n2. Good Combustion Practicea \nNOx 1. n/d \n2. 25 ppmv @ 3% O 2 Dry, a,b,c 1. n/d  \n2. Low NO x Burners + Flue Gas \nRecirculationa \nSO 2 1. Natural Gas, or Treated Refinery \nGas Fuel w/ < 50 ppmv Hydrogen \nSulfide and <100 ppmv Total \nReduced Sulfur a,b \n2. Natural Gas, or Treated Refinery \nGas Fuel w/ <100 ppmv Total \nReduced S ulfur a,b 1. Fuel Selection a,b \n \n \n2. Fuel Selection a,b \nCO 1. n/d \n2. 100 ppmv @ 3% O 2 Dry a,b,d 1. n/d \n2. Good Combustion Practice a,b,d \nPM 10 1. n/d \n2. Natural Gas or Treated Refinery \nGas Fuel a,b 1.  n/d \n2.  Fuel Selection a,b \nNPOC  1. n/a \n2. n/a 1. n/a \n2. n/a \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 655 of 1354  \n    \n 655 References  \na. BAAQMD staff report  \nb. BACT is 25 ppmvd NO x @ 3% O 2 and 100 ppmvd CO @ 3 % O 2 regardless of fuel.   \nHowever, emergency backup fuel oil w/ < 0.05 wt. % sulfur may be permitted to emit up to \n60 NO x ppmvd @ 3% O 2 and 100 ppmvd CO @ 3 % O 2 during natural gas curtailment.  \nc. NO x  determination by BAAQMD Source Test method ST -13A (average of three 30 -minute \nsampling runs), or BAAQMD approved equivalent.  \nd. CO determination by BAAQMD Source Test Method ST -6 (average of three 30 minute \nsamplin g runs), or BAAQMD approved equivalent."
+      },
+      {
+        "heading": "BAY AREA AIR QUALITY MANAGEMENT DISTRICT",
+        "alias": null,
+        "text": "BAY AREA AIR QUALITY MANAGEMENT DISTRICT\nTRICT  \nBest Available Control Technology (BACT) Guideline  \nSource Category  \nSource:  Boiler  Revision:  4 \nDocument #:  17.3.1  \nClass:  > 50 MM BTU/hour Heat Input  Date: 9/22/05  \nDetermination"
+      },
+      {
+        "heading": "POLLUTANT  BACT",
+        "alias": null,
+        "text": "POLLUTANT  BACT\n1. Technologically Feasible/ Cost \nEffective  \n2. Achieved in Practice  TYPICAL TECHNOLOGY  \nPOC 1. n/d \n2. n/s 1. n/d f \n2. Good Combustion Practice (GCP) a \nNOx 1.  7 ppmv @ 3% O 2, Dry b, c, d \n2. 9 ppmv @ 3% O 2, Dry a, c, d 1. Selecti ve Catalytic Reduction (SCR) \n+ Low NO x Burners (LNB) + Flue \nGas Recirculation (FGR) b, c, d \n2. Ultra Low NO x Burners (ULNB) + \nFGR a, c, d  \nSO 2 1. Natural Gas or Treated Refinery \nGas Fuel w/ <50 ppmv Hydrogen \nSulfide and <100 ppmv Total \nReduced Sulfur a, c \n2. Natural Gas or Treated Refinery \nGas Fuel w/ <100 ppmv Total \nReduced Sulfur a, c 1. Fuel Selection a, c \n \n \n2. Fuel Selection a, c \nCO 1. 10 ppmv @ 3% O 2 Dry f \n2. 50 ppmv @ 3% O 2 Dry a, c, e 1. Oxidation Catalyst f \n2. Good Combustion Practice in Con -\njunct ion with SCR System or Ultra \nLow NO x Burners and FGR a, c, e \nPM 10 1. n/d \n2. Natural Gas or Treated Refinery \nGas Fuel a, c 1. n/d \n2. Fuel Selection a, c \nNPOC  1. n/a 1. n/a \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 656 of 1354  \n    \n 656 2. n/a 2. n/a \nReferences  \na. BAAQMD  \nb. SCAQMD. Cost effectiveness evaluations shall  be based on emissions from firing \nprimary fuels but not emergency backup fuels.  \nc. BACT limits above apply  to all fuels except for emergency backup fuel oil used during \nnatural gas curtailment.  For emergency backup fuel oil, BACT(1) for NO x and CO \n(achie ved using LNB+ FGR+ SCR and GCP) is 25 ppmvd NO x @ 3% O 2; 100 ppmvd \nCO @ 3% O 2, and 5 ppmvd NH 3 @ 3% O 2; BACT(2) for NO x and CO (achieved using \nULNB+ FGR and GCP) is 40 ppmvd NO x @ 3% O 2 and 100 ppmvd CO @ 3% O 2; \nBACT(2) for SO 2 and PM 10 is the use of low sulfur fuel with < 0.05 wt. % S; and \nBACT(2) for POC is GCP.  \nd. NO x determination by Continuous Emission Monitor (3 -hour average), or BAAQMD \napproved equivalent.  \ne. CO determination by Continuous Emission Monitor (3 -hour average), or BAAQMD \napproved equiva lent. \nf. The BACT(1) CO limit does not apply to boilers smaller than 250 MM BTU/hour unless \nan oxidation catalyst is found to be cost effective or is necessary for TBACT or POC \nControl.  \n  \n \nThe ‗Rental Boiler‘ guideline does not apply because this applicat ion is for a permanent permit, \nnot one for a boiler that will be out of service within 6 months.  Each \nturnaround/maintenance events would be less that 6 months, so if one were to argue that for \neach maintenance event that requires these backup boilers, th e boilers would be on site less \nthan 6 months after the initial operation, it should be noted that this document 16.1 \nguideline is over 10 years old and a current BACT determination is necessary.   \n \nFor both documents, POC emissions comply with BACT when G ood Combustion Practices are \nfollowed, and PM10 emissions comply with BACT by the use of Natural Gas Fuel.   \n \nFor NOx and CO, a current BACT determination is required.  The following information is \ncompiled for the previous Tesoro applications for backup b oilers:  \n \nBackup Boiler  Application 7642 (2003)  Application 15773 (2007)  \nSource  Pollutan\nt Emission Limit  \n(Condition \n20683)  June 2003 \nSource \nTest Emission Limit  \n(Condition \n24340)  Feb/Mar 2007 \nSource \nTest \nS-\n1\n4\n9\n4 NOx  7 ppm @ 3% \nO2 2.4 ppm @ 3% \nO2  \nCO 50 pp m @ 3% \nO2 32 ppm @ 3% \nO2 \nS-\n1NOx  7 ppm @ 3% \nO2 3.0 ppm @ 3% \nO2 \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 657 of 1354  \n    \n 657 4\n9\n5 CO 50 ppm @ 3% \nO2 8.6 ppm @ 3% \nO2 \nS-\n1\n5\n3\n0 NOx   7 ppm @ 3% \nO2 4.5 ppm @ 3% \nO2 \nCO 100 ppm @ 3% \nO2 1.0 ppm @ 3% \nO2 \nS-\n1\n5\n3\n1 NOx  7 ppm @ 3% \nO2 4.4 ppm @ 3% \nO2 \nCO 100 ppm @ 3% \nO2 21 ppm @ 3% \nO2 \n \nBased on these data, Achieved in Practice BACT for these Backup Boilers is as follows:  \n \nNOx:  7 ppm @ 3% O2  \nCO: 50 ppm @ 3% O2  \n \nThe source tests show that the limits could be lower, but the limits above allow the necessary \noperating flexibility .  S-1550 and S -1551 are expected to comply with these BACT 2 limits."
+      },
+      {
+        "heading": "NSPS",
+        "alias": null,
+        "text": "NSPS\nPS    \n \nS-1550 and S -1551 are not Subject to NSPS Subpart Ja because they are not Fuel Gas \nCombustion Devices (natural gas is excluded from the definition of Fuel Gas in 40 CFR \n60.101 a unless it is commingled with refinery fuel gas).  \n \nTesoro Refining and Marketing Company   Application #20977  \nPlant # 14628   Page 658 of 1354  \n    \n 658 S-1550 and S -1551 are not subject to NSPS Subpart Db (Standards of Performance for \nIndustrial -Commercial -Institutional Steam Generating Units) because the firing rate is less \nthan 100 MMBtu/hr.  The Backu p Boilers are subject to NSPS Subpart Dc because the \nboiler firing rate is greater than 10 MMBtu/hr and less than 100 MMBtu/hr.  Emission \nStandards in Subpart Dc do not apply to S -1550 and S -1551 because the boilers are only \nfired on Natural Gas.  S -1550 a nd S-151 are only subject to the notification and \nrecordkeeping requirements of 40 CFR 60.48c.  \n \nNESHAPs and MACT  \n \nS-1550 and S -1551 are not subject to NESHAPs and MACT because they are fired exclusively \non Natural Gas and are not used as a control device o f any HAPs emissions."
+      },
+      {
+        "heading": "A-1550 SCR",
+        "alias": null,
+        "text": "A-1550 SCR\nS-1551  Backup Steam Boiler #2, 99 MM Btu/hr, Natural Gas Fired, Abated by"
+      },
+      {
+        "heading": "A-1551 SCR",
+        "alias": null,
+        "text": "A-1551 SCR"
+      },
+      {
+        "heading": "EXEMPTIONS",
+        "alias": null,
+        "text": "EXEMPTIONS"
+      }
+    ]
+  }
+}

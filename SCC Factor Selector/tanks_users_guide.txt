@@ -1,0 +1,4472 @@
+USER'S GUIDE
+TO
+TANKS 5.2
+(released December 2025)
+
+Storage Tank Emissions Calculation Application
+Version 5.2
+
+December 2025
+
+U.S. Environmental Protection Agency
+Office of Clean Air Programs
+Natural Resources Division
+Emissions Data and Assessment Branch
+Research Triangle Park, NC 27711
+
+Table of Contents
+1.0
+Introduction ...................................................................................................................................... 5
+1.1
+Accessing TANKS 5.2 ................................................................................................................ 6
+1.2
+TANKS 5.2 Main Menu .............................................................................................................. 6
+2.0
+Tank Data ......................................................................................................................................... 7
+2.1
+Importing Tank Data ................................................................................................................... 8
+2.2
+Adding New Tanks ...................................................................................................................... 8
+2.2.1 Identification ........................................................................................................................... 9
+2.2.2 Tank Characteristics by Tank Type ........................................................................................ 9
+2.2.2.1
+Vertical Fixed Roof Tanks ............................................................................................. 9
+2.2.2.2
+Horizontal Fixed Roof Tanks ....................................................................................... 11
+2.2.2.3
+Internal Floating Roof Tanks........................................................................................ 12
+2.2.2.4
+External Floating Roof Tanks ...................................................................................... 15
+2.2.2.5
+Domed External Floating Roof Tanks .......................................................................... 17
+2.2.3 Contents................................................................................................................................. 19
+2.2.3.1
+Fixed Roof Tanks ......................................................................................................... 20
+Annual Input .............................................................................................................................. 20
+Monthly Input ............................................................................................................................ 21
+2.2.3.2
+Floating Roof Tanks ..................................................................................................... 23
+Annual Input .............................................................................................................................. 23
+Monthly Input ............................................................................................................................ 24
+2.3
+Editing Tank Data...................................................................................................................... 27
+2.4
+Exporting Tank Data ................................................................................................................. 27
+3.0
+Routine Losses Report ................................................................................................................... 29
+3.1
+Choosing Tanks and Emissions Type for the Routine Losses Report ....................................... 29
+3.2
+Generating the Routine Losses Excel Report ............................................................................ 30
+3.2.1 Routine Losses ...................................................................................................................... 30
+3.2.2 Floating Roof Tank Calcs ..................................................................................................... 31
+Annual Input .................................................................................................................................. 31
+Monthly input ................................................................................................................................ 32
+3.2.3 Fixed Roof Tank Calcs.......................................................................................................... 33
+Annual Input .................................................................................................................................. 33
+Monthly Input ................................................................................................................................ 34
+3.2.4 Tank Characteristics .............................................................................................................. 35
+3.2.5 Deck Fittings [only for floating roof tanks] .......................................................................... 37
+3.2.6 Met Data ................................................................................................................................ 37
+3.2.7 Tank Contents ....................................................................................................................... 37
+3.2.8 Custom Organic Liquids ....................................................................................................... 38
+3.2.9 Custom Petroleum Liquids .................................................................................................... 38
+3.2.10 Custom Mixtures ................................................................................................................... 38
+3.3 Generating the Routine Losses PDF Report ..................................................................................... 39
+4.0
+Non-Routine Losses Report ........................................................................................................... 40
+4.1
+Data Entry for Landing Losses .................................................................................................. 41
+4.1.1 Adding New Roof Landing Events ....................................................................................... 41
+4.1.2 Editing Roof Landing Events ................................................................................................ 42
+4.2
+Data Entry for Cleaning Losses ................................................................................................. 42
+4.2.1 Fixed Roof Tanks .................................................................................................................. 42
+4.2.2 Floating Roof Tanks .............................................................................................................. 44
+4.3
+Editing Roof Cleaning Events ................................................................................................... 45
+4.4
+Running the Non-Routine Losses Report .................................................................................. 45
+
+2
+
+4.5
+Contents of the Non-Routine Losses Report ............................................................................. 45
+4.5.1 Landing Emissions ................................................................................................................ 45
+4.5.2 Cleaning Emissions ............................................................................................................... 46
+5.0
+Customize ...................................................................................................................................... 48
+5.1
+Entering Custom Data ............................................................................................................... 48
+5.1.1 Custom Organic Liquids ....................................................................................................... 48
+5.1.2 Custom Petroleum Liquids .................................................................................................... 49
+5.1.3 Custom Mixtures ................................................................................................................... 49
+5.1.4 Custom Meteorological Data ................................................................................................ 49
+5.2
+Sources for Custom Data ........................................................................................................... 50
+5.2.1 Chemical Data ....................................................................................................................... 50
+5.2.2 Meteorological Data .............................................................................................................. 50
+6.0
+Typical Deck Fittings by Tank Type ............................................................................................. 51
+7.0
+Definitions ..................................................................................................................................... 53
+8.0
+Error Messages .............................................................................................................................. 65
+9.0
+Frequently Asked Questions (FAQs) ............................................................................................. 66
+Topic 1: Asphalt Binder Antoine Constants ........................................................................................... 66
+Topic 2: Custom Mixture with Organic Liquid and Petroleum Liquid .................................................. 66
+Topic 3: Routine Losses Report ............................................................................................................. 67
+Topic 4: Speciated Emissions ................................................................................................................. 67
+Topic 5: Working Loss Turnover Factor (KN)........................................................................................ 67
+10.0
+Meteorological Locations by State ................................................................................................ 69
+11.0
+Cities with Alternate Meteorological Data .................................................................................... 72
+
+3
+
+Abbreviations
+°C
+
+degrees Celsius
+
+°F
+
+degrees Fahrenheit
+
+°R
+
+degrees Rankine
+
+bbl
+
+barrels
+
+degrees R
+
+degrees Rankine
+
+ft
+
+feet
+
+ft/yr
+
+feet per year
+
+gal
+
+gallons
+
+gal/yr
+
+gallons per year
+
+in
+
+inches
+
+K
+
+Kelvin
+
+lb/lb-mole
+
+pound per pound mole
+
+mmHg
+
+millimeters mercury
+
+ppmv
+
+parts per million by volume
+
+psia
+
+pounds per square inch absolute
+
+psig
+
+pounds per square inch gauge
+
+R
+
+Rankine
+
+yr
+
+year
+
+4
+
+1.0
+
+Introduction
+
+The TANKS application is designed to estimate air emissions from organic liquids and
+petroleum distillates in storage tanks. The United States Environmental Protection Agency’s
+(EPA) Office of Air Quality Planning and Standards (OAQPS) develops and maintains emissions
+estimating tools to support Federal, state, and local agencies, consultants, and industry with
+estimating air emissions from various sources. This manual provides general use instructions for
+the TANKS 5.2 application. It is not intended to document how to estimate air emissions from
+storage tanks. Documentation of emission factors and calculations used to estimate air emissions
+can be found in “Compilation of Air Pollutant Emission Factors, Volume I: Stationary Point and
+Area Sources” (AP-42), Section 7.1, Organic Liquid Storage Tanks.
+TANKS 5.2 allows users to enter specific information about a storage tank (dimensions,
+construction, paint condition, etc.), the liquid contents (chemical components and liquid
+temperature), and the meteorological conditions and location of the tank (nearest city, ambient
+temperature, etc.) to generate an air emissions report. Report features include estimates of
+monthly, annual, or partial year emissions for each chemical or mixture of chemicals stored in
+the tank.
+Version 5.2 of TANKS, hereafter referred to as TANKS 5.2, represents an upgrade to TANKS
+5.0 and TANKS 5.1. It includes several new features and revisions to maintain consistency with
+the EPA emissions calculation methodologies and to respond to users’ comments.
+Please note that the emissions estimating equations that form the basis of the TANKS 5.2
+software program were developed by the American Petroleum Institute (API). API retains the
+copyright to these equations. API has granted permission for the nonexclusive, noncommercial
+distribution of this material to governmental and regulatory agencies. However, API reserves its
+rights regarding all commercial duplication and distribution of its material. Therefore, the
+TANKS application is available for public use, but the program cannot be sold without written
+permission from API and the EPA.
+Questions and comments can be sent at any time to: https://www.epa.gov/chief/forms/contactus-about-clearinghouse-inventories-and-emissions-factors.
+
+5
+
+1.1
+
+Accessing TANKS 5.2
+
+TANKS 5.2 is available here: https://www.tanks.app.cloud.gov
+More information about TANKS 5.2, including frequently asked questions (FAQs), is available
+here: https://www.epa.gov/air-emissions-factors-and-quantification/tanks-emissions-estimationsoftware-version-50
+AP-42 Chapter 7 is available here: https://www.epa.gov/air-emissions-factors-andquantification/ap-42-fifth-edition-volume-i-chapter-7-liquid-storage-0.
+
+1.2
+
+TANKS 5.2 Main Menu
+
+There are four pages on the TANKS 5.2 main menu.
+Tank Data. The page includes a description, links to references and resources (including this
+User’s Guide), a summary of tanks that you have created or imported, and the form to create a
+new tank. See Section 2 for more information.
+Routine Losses. The page is used to calculate routine losses for your tank or multiple tanks. See
+Section 3 for more information.
+Non-Routine Losses. The page is used to calculate roof landing losses for a floating roof tank or
+to calculate cleaning losses from any type of tank. See Section 4 for more information.
+Customize. The page is used to create custom chemicals that are not included in AP-42 Chapter
+7 or custom meteorological locations that are not included in AP-42 Chapter 7. See Section 5 for
+more information.
+Note that fields marked with a red asterisk (*) are required fields.
+See Section 7 for a list of Definitions used throughout this document and within TANKS 5.2.
+See Section 8 for a list of Error Messages and explanations.
+
+6
+
+2.0
+
+Tank Data
+
+The “Tank Data” page includes a description, links to references and resources, a summary of
+tanks that you have created or imported, and the form to create a new tank.
+Select “Tank Data,” as shown by the red oval in Figure 1:
+
+Figure 1. Screenshot of TANKS 5.2 “Tank Data” page
+
+7
+
+2.1
+
+Importing Tank Data
+
+If you have previously worked with tank data, saved the exported tank data file to your
+computer, and want to edit the data or generate emissions reports, select “Import Tank Data.”
+Open the appropriate folder and choose the file you want to import into TANKS 5.2.
+Once imported, those tanks will be listed underneath “Saved Tanks” (see green oval in Figure 1).
+Note that importing tank data replaces the entire tank data library and all custom data.
+See Section 2.4 for “Exporting Tank Data” to export data (or save) from TANKS 5.2 to your
+computer.
+TANKS 5.2 does not store your data within the application, all data is stored within your
+browser’s local storage. The data will remain within your browser until you clear your local
+storage. In order to save your data long term, you should export your tank data to your computer.
+
+2.2
+
+Adding New Tanks
+
+If you have no previously saved storage tanks or want to create a new set of tanks, tanks can be
+created using the form below the “New Tank Details” heading. First, choose the appropriate
+“Tank Type” underneath “New Tank Details” (see blue oval in Figure 1) from the following list:
+•
+•
+•
+•
+•
+
+Vertical Fixed Roof Tank
+Horizontal Fixed Roof Tank
+Internal Floating Roof Tank
+External Floating Roof Tank
+Domed Floating Roof Tank
+
+Then, click the “Enter Tank Type” button (see purple oval in Figure 1) to proceed with creating
+the selected type of tank.
+If you want to use custom data that are not included in AP-42 Chapter 7, such as custom organic
+liquids, custom petroleum liquids, custom mixtures, or custom meteorological data, see Section 5
+before you begin adding new tanks.
+Regardless of the tank type selected, there are three sections to complete: (1) Identification (e.g.,
+name and location); (2) Characteristics (e.g., shell height, shell diameter, roof characteristics,
+tank/shell color, and deck fittings); and (3) Contents (e.g., organic or petroleum liquids stored in
+your tank, sum of increases/decreases in liquid level, and throughput). The section headings can
+be expanded or collapsed by clicking on them (only one section will be expanded at a time). The
+input fields for the Identification and Contents sections are the same for all tank types, but the
+
+8
+
+input fields for the Characteristics section vary by tank type. Required input fields are indicated
+with a red asterisk.
+2.2.1
+
+Identification
+
+1) Tank Identification
+a) Tank ID
+b) Tank Description
+c) Tank City
+d) Tank State
+e) Company
+2) Meteorological Data
+a) Meteorological Location
+• Custom Locations [See Section 5 for guidance on adding custom meteorological data]
+• AP-42 Meteorological Locations [See Section 10 for the list of locations by state and see
+Section 11 for the cities where monthly wind speed data or solar insolation factors were not
+available]
+
+2.2.2
+
+Tank Characteristics by Tank Type
+
+Each tank type has slightly different characteristics. See Section 7 for a list of definitions used in
+this section and throughout the document and see page 4 for a list of abbreviations used. Note
+that the temperatures on the Tank Data page are in degrees Rankine (°R). To convert
+temperatures in degrees Fahrenheit (°F) to °R, add 459.67 to the temperature in °F.
+If you enter a zero into a numerical field and then want to change the value, a leading zero will
+remain. This leading zero disappears when the page is saved but can be removed by highlighting
+manually with the cursor and typing a new value.
+If you enter a zero into the “Vacuum Setting (psig)” field and then want to enter a negative
+value, use the down arrow to change the number to -0.001 and then edit to the appropriate value.
+
+2.2.2.1 Vertical Fixed Roof Tanks
+These tanks consist of shells with permanently affixed roofs; the tank axis is perpendicular to the
+foundation. Tanks can be cylindrical, rectangular, or square. The fixed roof may be domeshaped, cone-shaped, or flat. Vertical fixed roof tank shells are usually constructed of steel.
+The “Tank Bottom Type” for tanks can be “flat or nominally flat bottom” or “cone-shaped
+bottom.” According to Table 7.1-4 and Figure 7.1-20 of AP-42, Chapter 7, partial liquid heel
+
+9
+
+occurs on tanks with a cone-down bottom. The equations for partial liquid heel in Table 7.1-4
+will not work if the slope is zero, which is the case for a flat or nominally flat bottom tank.
+1) Tank Characteristics
+a) Tank Shape
+i) Cylinder
+ii) Rectangle
+iii) Square
+b) Shell Height (feet [ft])
+c) Shell Diameter (ft)
+d) Maximum Liquid Height (ft)
+e) Average Liquid Height (ft)
+f) Tank Bottom Type
+i) Flat or Nominally Flat Bottom
+o Liquid Heel Type
+1. Full Liquid Heel
+ Liquid Heel Height (ft)
+2. No Liquid Heel (also known as Drain Dry)
+ii) Cone-Shaped Bottom
+o Cone-Shaped Bottom Slope (ft/ft)
+ Liquid Heel Type
+1. Full Liquid Heel
+• Height of Liquid at the Tank Shell (ft)
+2. Partial Liquid Heel
+• Vertical Distance from the Bottom of the Shell Down to the Liquid Surface
+(ft)
+3. No Liquid Heel (also known as Drain Dry)
+g) Vapor Space Pressure at Normal Operating Conditions (pounds per square inch gauge [psig])
+h) Is Tank Insulated?
+i) Fully Insulated
+• Is Tank Heated?
+1. Heated
+a. Typical Maximum Liquid Bulk Temperature in Heating Cycle (degrees
+Rankine [°R])
+b. Typical Average Liquid Bulk Temperature in Heating Cycle (°R)
+c. Typical Minimum Liquid Bulk Temperature in Heating Cycle (°R)
+d. Number of Heating Cycles per Year
+2. Not Heated
+• Liquid Bulk Temperature (°R)
+ii) Partially Insulated
+• Liquid Bulk Temperature (°R)
+iii) Not Insulated
+• Liquid Bulk Temperature Calculation Method
+1. User Input
+
+10
+
+2)
+
+3)
+
+4)
+
+5)
+
+• Liquid Bulk Temperature (°R)
+2. AP-42 Calculation [using Equation 1-33 of AP-42 Chapter 7]
+Shell Characteristics
+a) Shell Color/Shade [see AP-42 Chapter 7; Table 7.1-6]
+b) Shell Condition
+i) Good
+ii) Average
+iii) Aged
+Roof Characteristics
+a) Roof Color/Shade [see AP-42 Chapter 7; Table 7.1-6]
+b) Roof Condition
+i) Good
+ii) Average
+iii) Aged
+c) Roof Type
+i) Cone
+• Tank Cone Roof Slope (ft/ft)
+ii) Dome
+• Tank Dome Roof Radius (ft)
+iii) Flat
+Breather Vent Settings
+a) Vacuum Setting (psig) [see note in Section 2.2.2]
+b) Pressure Setting (psig)
+Control Device Settings
+a) Is Tank Equipped with a Control Device?
+i) Control Device
+• Control Device Efficiency (%)
+ii) No Control Device
+
+2.2.2.2 Horizontal Fixed Roof Tanks
+These tanks are constructed for both above ground and underground storage with the axis
+parallel to the foundation. Horizontal fixed roof shells may be steel, steel with a fiberglass
+overlay, or fiberglass-reinforced polyester.
+1) Tank Characteristics
+a) Shell Length (ft)
+b) Shell Diameter (ft)
+c) Maximum Liquid Height (ft)
+d) Minimum Liquid Height (ft)
+e) Vapor Space Pressure at Normal Operating Conditions (psig)
+f) Is Tank Insulated or Underground?
+
+11
+
+i)
+
+Fully Insulated or Underground
+• Is Tank Heated?
+(a) Heated
+(i) Typical Maximum Liquid Bulk Temperature in Heating Cycle (°R)
+(ii) Typical Average Liquid Bulk Temperature in Heating Cycle (°R)
+(iii) Typical Minimum Liquid Bulk Temperature in Heating Cycle (°R)
+(iv) Number of Heating Cycles per Year
+(b) Not Heated
+• Liquid Bulk Temperature (°R)
+ii) Partially Insulated
+o Liquid Bulk Temperature (°R)
+iii) Not Insulated and Not Underground
+• Liquid Bulk Temperature Calculation Method
+(a) User Input
+o Liquid Bulk Temperature (°R)
+(b) AP-42 Calculation [using Equation 1-33 of AP-42 Chapter 7]
+2) Shell Characteristics (only if tank is “Partially Insulated” or “ Not Insulated and Not Underground”)
+a) Shell Color/Shade [see AP-42 Chapter 7; Table 7.1-6]
+b) Shell Condition
+i) Good
+ii) Average
+iii) Aged
+3) Breather Vent Settings
+a) Vacuum Setting (psig) [see note in Section 2.2.2]
+b) Pressure Setting (psig)
+4) Control Device Settings
+• Is Tank Equipped with a Control Device?
+i) Control Device
+• Control Device Efficiency (%)
+ii) No Control Device
+
+2.2.2.3 Internal Floating Roof Tanks
+This type of tank has both a permanent fixed roof and a floating deck. There are two basic types
+of internal floating roof tanks: tanks in which the fixed roof is supported by vertical columns
+within the tank, and tanks with a self-supporting fixed roof and no internal support columns.
+Under “Tank Construction and Rim Seal System,” you are required to enter the primary seal
+type. If no specific information is available, a welded tank with an average-fitting vapormounted primary seal can be used to represent the most common or typical construction and rimseal system in use for internal floating roof tanks.
+
+12
+
+Deck fittings are required for internal floating roof tanks. However, none of the individual Deck
+Fittings are marked as required fields; the combination of deck fittings used are unique for each
+internal floating roof tank. Please check your data to ensure that the correct information has been
+entered.
+For each deck fitting, choose the appropriate cover from the drop-down menu. The
+corresponding loss factors from AP-42 Chapter 7, Table 7.1-12 will be applied within TANKS
+5.2. For a list of typical deck fittings by tank type, see Section 6.
+1) Tank Characteristics
+a) Shell Diameter (ft)
+b) Shell Height (ft)
+c) Tank Bottom Type
+i) Flat or Nominally Flat Bottom
+• Liquid Heel Type
+(a) Full Liquid Heel
+o Liquid Heel Height (ft)
+(b) No Liquid Heel (also known as Drain Dry)
+ii) Cone-Shaped Bottom
+• Cone-Shaped Bottom Slope (ft/ft)
+o Liquid Heel Type
+(i) Full Liquid Heel
+ Height of Liquid at the Tank Shell (ft)
+(ii) Partial Liquid Heel
+ Vertical Distance from the Bottom of the Shell Down to the Liquid Surface
+(ft)
+(iii) No Liquid Heel (also known as Drain Dry)
+d) Internal Shell Condition
+i) Light Rust
+ii) Dense Rust
+iii) Gunite Lining
+e) External Shell Color/Shade [see AP-42 Chapter 7; Table 7.1-6]
+f) External Shell Condition
+i) Good
+ii) Average
+iii) Aged
+g) Roof Color/Shade [see AP-42 Chapter 7; Table 7.1-6]
+h) Roof Paint Condition
+i) Good
+ii) Average
+iii) Aged
+i) Liquid Bulk Temperature Calculation Method
+i) User Input
+• Liquid Bulk Temperature (°R)
+
+13
+
+ii) AP-42 Calculation [using Equation 1-33 of AP-42 Chapter 7]
+2) Tank Construction and Rim Seal System
+a) Tank Construction
+i) Riveted
+ii) Welded
+b) Self Supporting Roof?
+i) Yes
+ii) No
+(1) Number of Columns
+(2) Effective Column Diameter
+(a) 9 inch by 7 inch built-up column
+(b) 8 inch diameter pipe
+(c) Unknown
+c) Primary Seal
+i) Mechanical Shoe
+ii) Liquid-mounted
+iii) Vapor-mounted
+d) Secondary Seal
+i) Primary Only / None
+ii) Rim-mounted
+e) Seal Fit
+i) Average-fitting
+ii) Tight-fitting
+3) Deck Characteristics
+a) Deck Type
+i) Bolted
+(1) Deck Construction
+(a) Sheet
+o Deck Seam
+1. Sheet: 5 ft wide
+2. Sheet: 6 ft wide
+3. Sheet: 7 ft wide
+4. Custom
+• Sheet Width (ft)
+(b) Panel
+o Deck Seam
+1. Panel: 5 by 7.5 ft
+2. Panel: 5 by 12 ft
+3. Custom
+• Panel Length (ft)
+• Panel Width (ft)
+ii) Welded
+4) Deck Fittings and Count of Each Deck Fitting [see AP-42 Chapter 7, Table 7.1-12]
+
+14
+
+a)
+b)
+c)
+d)
+e)
+f)
+g)
+h)
+i)
+j)
+k)
+
+Access Hatch
+Fixed Roof Support Column Well
+Unslotted Guidepole and Well
+Slotted Guidepole/Sample well
+Gauge-float Well (Automatic Gauge)
+Gauge-hatch/Sample Port
+Vacuum Breaker
+Deck Drain
+Deck Leg
+Deck Leg or Hanger (No opening through deck)
+Rim Vent
+l) Ladder Well
+m) Ladder-slotted Guidepole Combination Well
+
+2.2.2.4 External Floating Roof Tanks
+This type of tank consists of a cylindrical steel shell equipped with a roof that floats on the
+surface of the stored liquid.
+Under “Tank Construction and Rim Seal System,” you are required to enter the primary seal
+type. If no specific information is available, a welded tank with an average-fitting mechanicalshoe primary seal can be used to represent the most common or typical construction and rim-seal
+system in use for external and domed external floating roof tanks.
+Deck fittings are required for external floating roof tanks. However, none of the individual Deck
+Fittings are marked as required fields; the combination of deck fittings used are unique for each
+external floating roof tank. Please check your data to ensure that the correct information has been
+entered.
+For each deck fitting, choose the appropriate cover from the drop-down menu. The
+corresponding loss factors from AP-42 Chapter 7, Table 7.1-12 will be applied within TANKS
+5.2. For a list of typical deck fittings by tank type, see Section 6.
+1) Tank Characteristics
+a) Shell Diameter (ft)
+b) Shell Height (ft)
+c) Tank Bottom Type
+i) Flat or Nominally Flat Bottom
+• Liquid Heel Type
+(a) Full Liquid Heel
+o Liquid Heel Height (ft)
+(b) No Liquid Heel (also known as Drain Dry)
+ii) Cone-Shaped Bottom
+• Cone-Shaped Bottom Slope (ft/ft)
+
+15
+
+Liquid Heel Type
+1. Full Liquid Heel
+ Height of Liquid at the Tank Shell (ft)
+2. Partial Liquid Heel
+ Vertical Distance from the Bottom of the Shell Down to the Liquid
+Surface (ft)
+3. No Liquid Heel (also known as Drain Dry)
+d) Internal Shell Condition
+i) Light Rust
+ii) Dense Rust
+iii) Gunite Lining
+e) External Shell Color/Shade [see AP-42 Chapter 7; Table 7.1-6]
+f) External Shell Condition
+i) Good
+ii) Average
+iii) Aged
+g) Roof Color/Shade [see AP-42 Chapter 7; Table 7.1-6]
+h) Roof Paint Condition
+i) Good
+ii) Average
+iii) Aged
+i) Liquid Bulk Temperature Calculation Method
+i) User Input
+• Liquid Bulk Temperature (°R)
+ii) AP-42 Calculation
+(1) Using Equation 2-11 of AP-42 Chapter 7 for double deck roofs or
+(2) Using Equation 2-8 of AP-42 Chapter 7 for pontoon deck roofs
+2) Tank Construction and Rim Seal System
+a) Tank Construction
+i) Riveted
+(1) Primary Seal
+o Mechanical Shoe
+(2) Secondary Seal
+(a) Primary Only / None
+(b) Weather shield
+(c) Rim-mounted
+(3) Seal Fit
+o Average-fitting
+ii) Welded
+(1) Primary Seal
+(a) Mechanical Shoe
+(b) Liquid-mounted
+(c) Vapor-mounted
+(2) Secondary Seal
+o
+
+16
+
+(a) None
+(b) Weather shield
+(c) Rim-mounted
+(3) Seal Fit
+(a) Average-fitting
+(b) Tight-fitting
+3) Deck Characteristics
+a) Deck Type
+• Welded
+b) Roof Type
+i) Double-deck
+ii) Pontoon
+4) Deck Fittings and Count of Each Deck Fitting [see AP-42 Chapter 7, Table 7.1-12]
+a) Access Hatch
+b) Unslotted Guidepole and Well
+c) Slotted Guidepole/Sample well
+d) Gauge-float Well (automatic gauge)
+e) Gauge-hatch/Sample Port
+f) Vacuum Breaker
+g) Deck Drain
+h) Deck Leg (Pontoon area of pontoon roofs)
+i) Deck Leg (Double-deck roofs and center area of pontoon roofs)
+j) Deck Leg or Hanger (No opening through deck)
+k) Rim Vent
+
+2.2.2.5 Domed External Floating Roof Tanks
+This type of tank is typically an external floating roof tank that has been retrofit with a domed
+fixed roof.
+Under “Tank Construction and Rim Seal System,” you are required to enter the primary seal
+type. If no specific information is available, a welded tank with an average-fitting mechanicalshoe primary seal can be used to represent the most common or typical construction and rim-seal
+system in use for external and domed external floating roof tanks.
+Deck fittings are required for domed external floating roof tanks. However, none of the
+individual Deck Fittings are marked as required fields; the combination of deck fittings used are
+unique for each domed external floating roof tank. Please check your data to ensure that the
+correct information has been entered.
+
+17
+
+For each deck fitting, choose the appropriate cover from the drop-down menu. The
+corresponding loss factors from AP-42 Chapter 7, Table 7.1-12 will be applied within TANKS
+5.2. For a list of typical deck fittings by tank type, see Section 6.
+1) Tank Characteristics
+a) Shell Diameter (ft)
+b) Shell Height (ft)
+c) Tank Bottom Type
+i) Flat or Nominally Flat Bottom
+• Liquid Heel Type
+(a) Full Liquid Heel
+o Liquid Heel Height (ft)
+(b) No Liquid Heel (also known as Drain Dry)
+ii) Cone-Shaped Bottom
+• Cone-Shaped Bottom Slope (ft/ft)
+o Liquid Heel Type
+(i) Full Liquid Heel
+ Height of Liquid at the Tank Shell (ft)
+(ii) Partial Liquid Heel
+ Vertical Distance from the Bottom of the Shell Down to the Liquid Surface
+(ft)
+(iii) No Liquid Heel (also known as Drain Dry)
+d) Internal Shell Condition
+i) Light Rust
+ii) Dense Rust
+iii) Gunite Lining
+e) External Shell Color/Shade [see AP-42 Chapter 7; Table 7.1-6]
+f) External Shell Condition
+i) Good
+ii) Average
+iii) Aged
+g) Roof Color/Shade [see AP-42 Chapter 7; Table 7.1-6]
+h) Roof Paint Condition
+i) Good
+ii) Average
+iii) Aged
+i) Liquid Bulk Temperature Calculation Method
+i) User Input
+(1) Liquid Bulk Temperature (°R)
+ii) AP-42 Calculation [using Equation 1-33 of AP-42 Chapter 7]
+2) Tank Construction and Rim Seal System
+• Tank Construction
+i) Riveted
+(1) Primary Seal
+
+18
+
+o Mechanical Shoe
+(2) Secondary Seal
+(a) Primary Only / None
+(b) Weather shield
+(c) Rim-mounted
+(3) Seal Fit
+o Average-fitting
+ii) Welded
+(1) Primary Seal
+(a) Mechanical Shoe
+(b) Liquid-mounted
+(c) Vapor-mounted
+(2) Secondary Seal
+(a) Primary Only / None
+(b) Weather shield
+(c) Rim-mounted
+(3) Seal Fit
+(a) Average-fitting
+(b) Tight-fitting
+3) Deck Characteristics
+a) Deck Type
+• Welded
+b) Roof Type
+i) Double-deck
+ii) Pontoon
+4) Deck Fittings and Count of Each Deck Fitting [see AP-42 Chapter 7, Table 7.1-12]
+a) Access Hatch
+b) Unslotted Guidepole and Well
+c) Slotted Guidepole/Sample well
+d) Gauge-float Well (automatic gauge)
+e) Gauge-hatch/Sample Port
+f) Vacuum Breaker
+g) Deck Drain
+h) Deck Leg (Pontoon area of pontoon roofs)
+i) Deck Leg (Double-deck roofs and center area of pontoon roofs)
+j) Deck Leg or Hanger (No opening through deck)
+k) Rim Vent
+
+2.2.3
+
+Contents
+
+This is for the entry of the tank contents. The information required varies by tank type and by
+input type (i.e., annual or monthly).
+
+19
+
+2.2.3.1 Fixed Roof Tanks
+Annual Input
+1) Enter Annual Values
+a) Chemical Category of Liquid
+i) AP-42 Organic Liquids [see Table 7.1-3 of AP-42 Chapter 7]
+• Sum of Increases in Liquid Level Method
+(a) User Input
+(i) Chemical Name
+(ii) Annual Sum of Increases in Liquid Level (ft per year [ft/yr])
+(b) AP-42 Calculation [using Equation 1-39 of AP-42 Chapter 7]
+(i) Chemical Name
+(ii) Annual Throughput (gallons per year [gal/yr])
+ii) Custom Organic Liquids [See Section 5 for guidance on adding custom organic liquids]
+• Sum of Increases in Liquid Level Method
+(a) User Input
+(i) Chemical Name
+(ii) Annual Sum of Increases in Liquid Level (ft/yr)
+(b) AP-42 Calculation [using Equation 1-39 of AP-42 Chapter 7]
+(c) Chemical Name
+(d) Annual Throughput (gal/yr)
+iii) AP-42 Petroleum Liquids [see Table 7.1-2 of AP-42 Chapter 7]
+• Sum of Increases in Liquid Level Method
+(1) User Input
+(a) Chemical Name
+(i) Annual Sum of Increases in Liquid Level (ft/yr)
+(b) AP-42 Calculation [using Equation 1-39 of AP-42 Chapter 7]
+(i) Chemical Name
+(ii) Annual Throughput (gal/yr)
+iv) Custom Petroleum Liquids [See Section 5 for guidance on adding custom petroleum liquids]
+• Sum of Increases in Liquid Level Method
+(a) User Input
+(i) Chemical Name
+(ii) Speciation Option
+1. None
+2. Partial Speciation
+ Components to Speciate
+3. Full Speciation
+(iii) Annual Sum of Increases in Liquid Level (ft/yr)
+(b) AP-42 Calculation [using Equation 1-39 of AP-42 Chapter 7]
+(i) Chemical Name
+(ii) Speciation Option
+1. None
+2. Partial Speciation
+
+20
+
+ Components to Speciate
+3. Full Speciation
+(iii) Annual Throughput (gal/yr)
+v) Custom Mixtures [See Section 5 for guidance on adding custom mixtures]
+• Sum of Increases in Liquid Level Method
+(a) User Input
+(i) Chemical Name
+(ii) Speciation Option
+1. None
+2. Partial Speciation
+ Components to Speciate
+3. Full Speciation
+(iii) Annual Sum of Increases in Liquid Level (ft/yr)
+(b) AP-42 Calculation [using Equation 1-39 of AP-42 Chapter 7]
+(i) Chemical Name
+(ii) Speciation Option
+1. None
+2. Partial Speciation
+• Components to Speciate
+3. Full Speciation
+(iii) Annual Throughput (gal/yr)
+b) Working Loss Turnover Factor (KN) Method
+i) Set to 1
+ii) AP-42 Calculation
+(1) for turnovers > 36, KN = (180 + N)/6N, where N is the number of turnovers per year
+(2) for turnovers ≤ 36, KN = 1
+
+Monthly Input
+2) Enter Monthly Values
+a) Chemical Category of Liquid
+i) AP-42 Organic Liquids [see Table 7.1-3 of AP-42 Chapter 7]
+• Sum of Increases in Liquid Level Method
+(a) User Input
+(i) Chemical Name by month
+(ii) Sum of Increases in Liquid Level (ft) by month
+(b) AP-42 Calculation [using Equation 1-39 of AP-42 Chapter 7 by month instead of
+annually]
+(i) Chemical Name by month
+(ii) Throughput (gal) by month
+ii) Custom Organic Liquids [See Section 5 for guidance on adding custom organic liquids]
+• Sum of Increases in Liquid Level Method
+(a) User Input
+
+21
+
+(i) Chemical Name by month
+(ii) Sum of Increases in Liquid Level (ft) by month
+(b) AP-42 Calculation [using Equation 1-39 of AP-42 Chapter 7 by month instead of
+annually]
+(i) Chemical Name by month
+(ii) Throughput (gal) by month
+iii) AP-42 Petroleum Liquids [see Table 7.1-2 of AP-42 Chapter 7]
+• Sum of Increases in Liquid Level Method
+(a) User Input
+(i) Chemical Name by month
+(ii) Sum of Increases in Liquid Level (ft) by month
+(b) AP-42 Calculation [using Equation 1-39 of AP-42 Chapter 7 by month instead of
+annually]
+(i) Chemical Name by month
+(ii) Throughput (gal) by month
+iv) Custom Petroleum Liquids [See Section 5 for guidance on adding custom petroleum liquids]
+• Sum of Increases in Liquid Level Method
+(a) User Input
+(i) Chemical Name by month
+(ii) Sum of Increases in Liquid Level (ft) by month
+(iii) Speciation
+1. None
+2. Partial Speciation
+ Chemicals to Speciate
+3. Full Speciation
+(b) AP-42 Calculation [using Equation 1-39 of AP-42 Chapter 7 by month instead of
+annually]
+(i) Chemical Name by month
+(ii) Throughput (gal) by month
+(iii) Speciation
+1. None
+2. Partial Speciation
+ Chemicals to Speciate
+3. Full Speciation
+v) Custom Mixtures [See Section 5 for guidance on adding custom mixtures]
+• Sum of Increases in Liquid Level Method
+(a) User Input
+(i) Chemical Name by month
+(ii) Sum of Increases in Liquid Level (ft) by month
+(iii) Speciation
+1. None
+2. Partial Speciation
+ Chemicals to Speciate
+3. Full Speciation
+
+22
+
+(b) AP-42 Calculation [using Equation 1-39 of AP-42 Chapter 7 for month instead of
+year]
+(i) Chemical Name by month
+(ii) Throughput (gal) by month
+(iii) Speciation
+1. None
+2. Partial Speciation
+ Chemicals to Speciate
+3. Full Speciation
+b) Working Loss Turnover Factor (KN) Method
+i) Set to 1
+ii) AP-42 Calculation
+(1) for turnovers > 36, KN = (180 + N)/6N, where N is the number of turnovers per year
+(2) for turnovers ≤ 36, KN = 1
+
+2.2.3.2 Floating Roof Tanks
+Annual Input
+1) Enter Annual Values
+a) Chemical Category of Liquid
+i) AP-42 Organic Liquids [see Table 7.1-3 of AP-42 Chapter 7]
+• Sum of Decreases in Liquid Level Method
+(a) User Input
+(i) Chemical Name
+(ii) Annual Sum of Decreases in Liquid Level (ft/yr)
+(b) AP-42 Calculation [using Equation 2-20 of AP-42 Chapter 7]
+(i) Chemical Name
+(ii) Annual Throughput (gal/yr)
+ii) Custom Organic Liquids [See Section 5 for guidance on adding custom organic liquids]
+• Sum of Decreases in Liquid Level Method
+(a) User Input
+(i) Chemical Name
+(ii) Annual Sum of Decreases in Liquid Level (ft/yr)
+(b) AP-42 Calculation [using Equation 2-20 of AP-42 Chapter 7]
+(i) Chemical Name
+(ii) Annual Throughput (gal/yr)
+iii) AP-42 Petroleum Liquids [see Table 7.1-2 of AP-42 Chapter 7]
+• Sum of Decreases in Liquid Level Method
+(a) User Input
+(i) Chemical Name
+(ii) Annual Sum of Decreases in Liquid Level (ft/yr)
+(b) AP-42 Calculation [using Equation 2-20 of AP-42 Chapter 7]
+(i) Chemical Name
+
+23
+
+(ii) Annual Throughput (gal/yr)
+iv) Custom Petroleum Liquids [See Section 5 for guidance on adding custom petroleum liquids]
+• Sum of Decreases in Liquid Level Method
+(a) User Input
+(i) Chemical Name
+(ii) Speciation Option
+1. None
+2. Partial Speciation
+ Components to Speciate
+3. Full Speciation
+4. Annual Sum of Decreases in Liquid Level (ft/yr)
+(b) AP-42 Calculation [using Equation 2-20 of AP-42 Chapter 7]
+(i) Chemical Name
+(ii) Speciation Option
+1. None
+2. Partial Speciation
+ Components to Speciate
+3. Full Speciation
+(iii) Annual Throughput (gal/yr)
+v) Custom Mixtures [See Section 5 for guidance on adding custom mixtures]
+• Sum of Decreases in Liquid Level Method
+(a) User Input
+(i) Chemical Name
+(ii) Speciation Option
+1. None
+2. Partial Speciation
+ Components to Speciate
+3. Full Speciation
+(iii) Annual Sum of Decreases in Liquid Level (ft/yr)
+(b) AP-42 Calculation [using Equation 2-20 of AP-42 Chapter 7]
+(i) Chemical Name
+(ii) Speciation Option
+1. None
+2. Partial Speciation
+ Components to Speciate
+3. Full Speciation
+(iii) Annual Throughput (gal/yr)
+
+Monthly Input
+2) Enter Monthly Values
+a) Chemical Category of Liquid
+i) AP-42 Organic Liquids [see Table 7.1-3 of AP-42 Chapter 7]
+• Sum of Decreases in Liquid Level Method
+
+24
+
+(a) User Input
+(i) Chemical Name by month
+(ii) Annual Sum of Decreases in Liquid Level (ft) by month
+(b) AP-42 Calculation [using Equation 2-20 of AP-42 Chapter 7 by month instead of
+annually]
+(i) Chemical Name by month
+(ii) Throughput (gal) by month
+ii) Custom Organic Liquids [See Section 5 for guidance on adding custom organic liquids]
+• Sum of Decreases in Liquid Level Method
+(a) User Input
+(i) Chemical Name by month
+(ii) Annual Sum of Decreases in Liquid Level (ft) by month
+(b) AP-42 Calculation [using Equation 2-20 of AP-42 Chapter 7 by month instead of
+annually]
+(i) Chemical Name by month
+(ii) Throughput (gal) by month
+iii) AP-42 Petroleum Liquids [see Table 7.1-2 of AP-42 Chapter 7]
+• Sum of Decreases in Liquid Level Method
+(a) User Input
+(i) Chemical Name by month
+(ii) Annual Sum of Decreases in Liquid Level (ft) by month
+(b) AP-42 Calculation [using Equation 2-20 of AP-42 Chapter 7 by month instead of
+annually]
+(i) Chemical Name by month
+(ii) Throughput (gal) by month
+iv) Custom Petroleum Liquids [See Section 5 for guidance on adding custom petroleum liquids]
+• Sum of Decreases in Liquid Level Method
+(a) User Input
+(i) Chemical Name by month
+(ii) Sum of Decreases in Liquid Level (ft) by month
+(iii) Speciation
+1. None
+2. Partial Speciation
+ Chemicals to Speciate
+3. Full Speciation
+(b) AP-42 Calculation [using Equation 2-20 of AP-42 Chapter 7 by month instead of
+annually]
+(i) Chemical Name by month
+(ii) Throughput (gal) by month
+(iii) Speciation
+1. None
+2. Partial Speciation
+ Chemicals to Speciate
+3. Full Speciation
+
+25
+
+v) Custom Mixtures [See Section 5 for guidance on adding custom mixtures]
+• Sum of Decreases in Liquid Level Method
+(a) User Input
+(i) Chemical Name by month
+(ii) Sum of Decreases in Liquid Level (ft) by month
+(iii) Speciation
+1. None
+2. Partial Speciation
+ Chemicals to Speciate
+3. Full Speciation
+(b) AP-42 Calculation [using Equation 2-20 of AP-42 Chapter 7 by month instead of
+annually]
+(i) Chemical Name by month
+(ii) Throughput (gal) by month
+(iii) Speciation
+1. None
+2. Partial Speciation
+ Chemicals to Speciate
+3. Full Speciation
+
+You can click “Save Tank” at any time during entry. If validation checks trigger, the errors will
+show on the screen. Note that you cannot “save” your tank until all validation errors are
+corrected.
+Once saved, your tank will be added to the list underneath the “Saved Tanks” heading (see green
+circle in Figure 1).
+
+26
+
+2.3
+
+Editing Tank Data
+
+Once you have entered the tank data, you can choose to Edit, Duplicate, or Delete each tank.
+Choosing Edit allows you to edit the tank. Choose the appropriate drop-down list, make changes
+and click “Save Tank” when you are finished. Because each tank type has different
+characteristics, you cannot change the tank type. If you attempt to change the Tank Type, it will
+create a new tank with that tank type.
+Choosing Duplicate will open a copy of the chosen tank. Then you can change the identification,
+characteristics, or contents. Clicking “Save Tank” adds a new tank to the list underneath the
+“Saved Tanks.” Because each tank type has different characteristics, you cannot change the tank
+type. If you attempt to change the Tank Type, it will create a new tank with that tank type.
+Choosing Delete will delete the tank. This cannot be undone.
+If you want to clear all tank data, choose “Clear Tank Data.” This cannot be undone.
+
+2.4
+
+Exporting Tank Data
+
+TANKS 5.2 will save your data locally within your browser. The data will remain within your
+browser until you clear your local storage. Do not clear your local storage until you have saved
+your tank data.
+To save your tank data and any custom data (see Section 5) long term, you should export the tank
+data for later use. Click “Export Tank Data” as shown by the green oval in Figure 2. Check the
+“Downloads” page of your web browser to find the file (named date_exported_tank_data.xlsx).
+The file contains your tank data in tab “TankData” and your custom data in tab “CustomInputs.”
+Open and save the Excel spreadsheet file to your computer, in a location of your choice. If you
+will have multiple Tank Data files with different companies/locations/clients, it is recommended
+that you save each file with a new name immediately after exporting to avoid confusion about
+the contents of each file.
+See Section 2.1 for “Importing Tank Data.”
+
+27
+
+Figure 2. Screenshot of TANKS 5.2 “Tank Data” Page: Export Tank Data
+
+28
+
+3.0
+
+Routine Losses Report
+
+To calculate routine losses, defined as working and standing losses, for your tank or multiple
+tanks, click on the “Routine Losses” tab as shown by the red oval in Figure 3.
+
+Figure 3. Screenshot of TANKS 5.2 “Routine Losses” Page
+
+3.1
+
+Choosing Tanks and Emissions Type for the Routine Losses Report
+
+You can choose all tanks by choosing “Select All” or choose individual tanks by clicking
+“Choose tank(s).” All tanks from the Tank Data tab will be shown. Tanks can be searched by
+tank ID and tank location (city, state).
+29
+
+If you choose tanks individually, either click outside of the tank selection window or click “Tab”
+to close the tank selection window. Then, choose “Yes” or “No” for “Calculate Annual
+Emissions?” and choose “Yes” or “No” for “Calculate Monthly Emissions?” Note that you will
+receive an Error message if you choose “No” for both.
+If monthly values were entered for a tank within Tank Data, annual emissions will be estimated
+as the sum of the emissions in each month.
+If annual values were entered for a tank within Tank Data, monthly emissions will be estimated
+assuming an equal throughput in each month.
+
+3.2
+
+Generating the Routine Losses Excel Report
+
+Click “Generate Routine Losses Report” to generate an .xlsx file named
+“date_exported_routine_losses.xlsx.” The report contains standing losses, working losses, and
+total losses in pounds per year for each tank. You can save the file to your computer at any
+location. TANKS 5.2 does not save this information.
+Data are exported into a file with multiple tabs: (1) Routine Losses; (2) Floating Roof Tank
+Calcs (if floating roof tanks are in the report); (3) Fixed Roof Tank Calcs (if fixed roof tanks are
+in the report); (4) Tank Characteristics; (5) Deck Fittings (if floating roof tanks are in the report);
+(6) Met Data; (7) Tank Contents; (8) Custom Organic Liquids; (9) Custom Petroleum Liquids;
+and (10) Custom Mixtures.
+When reviewing the exported data, note how the output data will appear in the .xlsx file:
+Input Type on
+Tank Data
+page
+
+Output type on
+Routine Losses page
+
+Output Data in Routine
+Losses tab
+
+Monthly
+
+Annual and Monthly
+
+Annual and Monthly
+
+Monthly
+
+Monthly
+
+Monthly
+
+Monthly
+
+Annual
+
+Annual
+
+Annual
+
+Annual and Monthly
+
+Annual and Monthly
+
+Annual
+
+Monthly
+
+Monthly
+
+Annual
+
+Annual
+
+Annual
+
+3.2.1
+•
+
+Routine Losses
+Tank ID
+30
+
+Output Data in Floating
+Roof Tank Calcs and/or
+Fixed Roof Tank Calcs
+tabs
+Annual and Monthly
+(Annual columns are blank)
+Annual and Monthly
+(Annual columns are blank)
+Annual and Monthly
+(Annual columns are blank)
+Annual and Monthly
+(Annual columns are blank)
+Annual and Monthly
+(Annual columns are blank)
+Annual
+
+•
+•
+•
+•
+•
+•
+•
+
+Tank Type
+Description
+City, State
+Company
+Meteorological Location
+Chemical Name
+Annual and monthly emissions, as applicable, by tank
+o Standing Losses
+o Rim Seal Losses
+o Deck Seam Losses
+o Deck Fitting losses
+o Working Losses
+o Total Losses
+
+3.2.2 Floating Roof Tank Calcs
+Annual Input
+ Tank ID
+ Tank Type
+ Description
+ City, State
+ Company
+ Chemical Name
+ Annual Rim Seal Losses (lb/yr)
+ Seal Factor A (lb-mole/ft-yr)
+ Seal Factor B (lb-mole/ft-yr (mph^n))
+ Annual Average Wind Speed (mph)
+ Seal-related Wind Speed Exponent
+ Annual Average Value of Vapor Pressure Function
+ Annual Average Daily Avg. Liquid Surface Temp. (R)
+ Annual Average Vapor Pressure at Daily Average Liquid Surface Temperature (psia)
+ Liquid Bulk Temperature (°R)
+ Tank Paint Solar Absorptance (Shell)
+ Tank Paint Solar Absorptance (Roof)
+ Annual Average Vapor Molecular Weight (lb/lb-mole)
+ Annual Product Factor
+ Number of Columns
+ Effective Column Diameter (ft)
+ Annual Net Throughput (gal/yr)
+ Annual Sum of Decreases in Liquid Level (ft/yr)
+ Annual Average Shell Clingage Factor (bbl/1000 sqft)
+ Annual Average Organic Liquid Density (lb/gal)
+ Annual Tot. Deck Fitting Loss Fact. (lb-mole/yr)
+ Deck Seam Length (ft)
+ Deck Seam Loss per Unit Length Factor (lb-mole/ft-yr)
+ Deck Seam Length Factor (ft/sqft)
+31
+
+ Annual Withdrawal Losses (lb/yr)
+ Annual Deck Fitting Losses (lb/yr)
+ Annual Deck Seam Losses (lb/yr)
+Monthly input
+ Tank ID
+ Tank Type
+ Description
+ City, State
+ Company
+ Chemical Name
+ Annual Rim Seal Losses (lb/yr)
+ Seal Factor A (lb-mole/ft-yr)
+ Seal Factor B (lb-mole/ft-yr (mph^n))
+ Annual Average Wind Speed (mph)
+ Seal-related Wind Speed Exponent
+ Annual Average Value of Vapor Pressure Function
+ Annual Average Daily Avg. Liquid Surface Temp. (°R)
+ Annual Average Vapor Pressure at Daily Average Liquid Surface Temperature (psia)
+ Liquid Bulk Temperature (°R)
+ Tank Paint Solar Absorptance (Shell)
+ Tank Paint Solar Absorptance (Roof)
+ Annual Average Vapor Molecular Weight (lb/lb-mole)
+ Annual Product Factor
+ By month
+• Rim Seal Losses (lb/mo)
+• Wind Speed (mph)
+• Average Value of Vapor Pressure Function
+• Average Liquid Surface Temp. (°R)
+• Average Vapor Pressure at Daily Average Liquid Surface Temperature (psia)
+• Average Vapor Molecular Weight (lb/lb-mole)
+ Annual Withdrawal Losses (lb/yr)
+ Annual Deck Fitting Losses (lb/yr)
+ Annual Deck Seam Losses (lb/yr)
+ Deck Seam Length (ft)
+ Deck Seam Loss per Unit Length Factor (lb-mole/ft-yr)
+ Deck Seam Length Factor (ft/sqft)
+ Annual Tot. Deck Fitting Loss Fact. (lb-mole/yr)
+ Number of Columns
+ Effective Column Diameter (ft)
+ Annual Net Throughput (gal/yr)
+ Annual Sum of Decreases in Liquid Level (ft/yr)
+ Annual Average Shell Clingage Factor (bbl/1000 sqft)
+ Annual Average Organic Liquid Density (lb/gal)
+• By month:
+o Withdrawal Losses (lb/mo)
+o Throughput (gal/mo)
+32
+
+o
+o
+o
+o
+o
+o
+
+Sum of Decreases in Liquid Level (ft/yr)
+Shell Clingage Factor (bbl/1000 sqft)
+Organic Liquid Density (lb/gal)
+Deck Fitting Losses (lb/mo)
+Tot. Deck Fitting Loss Fact. (lb-mole/mo)
+Deck Seam Losses (lb/mo)
+
+3.2.3 Fixed Roof Tank Calcs
+Annual Input
+• Tank ID
+• Tank Type
+• Description
+• City, State
+• Company
+• Chemical Name
+• Annual Standing Losses (lb/yr)
+• Annual Working Losses (lb/yr)
+• Annual Vapor Space Volume (cu ft)
+• Annual Stock Vapor Density (lb/cu ft)
+• Annual Average Vapor Space Expansion Factor
+• Annual Average Vented Vapor Saturation Factor
+• Effective Diameter (ft)
+• Vapor Space Outage (ft)
+• Tank Shell Height (ft)
+• Tank Shell Length (ft)
+• Average Liquid Height (ft)
+• Roof Outage (ft)
+• Dome Radius (ft)
+• Shell Radius (ft)
+• Tank Cone Roof Slope (ft/ft)
+• Annual Average Vapor Molecular Weight (lb/lb-mole)
+• Annual Average Vapor Pressure at Daily Average Liquid Surface Temperature (psia)
+• Annual Average Liquid Surface Temp (°R)
+• Annual Average Ambient Temp (°R)
+• Liquid Bulk Temperature (°R)
+• Tank Paint Solar Absorptance (Shell)
+• Tank Paint Solar Absorptance (Roof)
+• Annual Average Vapor Temperature Range (°R)
+• Annual Average Daily Vapor Pressure Range (psia)
+• Breather Vent Press. Setting Range (psia)
+• Annual Average Vapor Pressure at Daily Minimum Liquid Surface Temperature (psia)
+• Annual Average Vapor Pressure at Daily Maximum Liquid Surface Temperature (psia)
+• Annual Average Min. Liquid Surface Temp. (°R)
+• Annual Average Max. Liquid Surface Temp. (°R)
+33
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Annual Average Daily Ambient Temp. Range (°R)
+Vapor Space Pressure at Normal Operating Conditions (psig)
+Annual Throughput (gal/yr)
+Annual Turnovers
+Working Loss Turnover Factor
+Maximum Liquid Height (ft)
+Minimum Liquid Height (ft)
+Working Loss Product Factor Vent Setting Correction Factor
+Annual Sum of Increases in Liquid Level (ft/yr)
+
+Monthly Input
+ Tank Type
+ Description
+ City, State
+ Company
+ Chemical Name
+ Annual Standing Losses (lb/yr)
+ Annual Working Losses (lb/yr)
+ Annual Vapor Space Volume (cu ft)
+ Annual Stock Vapor Density (lb/cu ft)
+ Annual Average Vapor Space Expansion Factor
+ Annual Average Vented Vapor Saturation Factor
+ By month
+• Standing Losses (lb/mo)
+• Stock Vapor Density (lb/cu ft)
+• Vapor Space Expansion Factor
+• Vented Vapor Saturation Factor
+ Effective Diameter (ft)
+ Vapor Space Outage (ft)
+ Average Liquid Height (ft)
+ Roof Outage (ft)
+ Dome Radius (ft)
+ Shell Radius (ft)
+ Tank Cone Roof Slope (ft/ft)
+ Annual Average Vapor Molecular Weight (lb/lb-mole)
+ Annual Average Vapor Pressure at Daily Average Liquid Surface Temperature (psia)
+ Annual Average Liquid Surface Temp (°R)
+ Annual Average Ambient Temp (°R)
+ Liquid Bulk Temperature (°R)
+ Tank Paint Solar Absorptance (Shell)
+ Tank Paint Solar Absorptance (Roof)
+ By month
+• Vapor Molecular Weight (lb/lb-mole)
+• Vapor Pressure at Daily Average Liquid Surface Temperature (psia)
+• Daily Avg. Liquid Surface Temp. (°R)
+34
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.2.4
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+• Average Ambient Temp (°R)
+Annual Average Vapor Temperature Range (°R)
+Annual Average Daily Vapor Pressure Range (psia)
+Breather Vent Press. Setting Range (psia)
+Annual Average Vapor Pressure at Daily Minimum Liquid Surface Temperature
+(psia)
+Annual Average Vapor Pressure at Daily Maximum Liquid Surface Temperature
+(psia)
+Annual Average Min. Liquid Surface Temp. (°R)
+Annual Average Max. Liquid Surface Temp. (°R)
+Annual Average Daily Ambient Temp. Range (°R)
+Vapor Space Pressure at Normal Operating Conditions (psig)
+By month
+• Daily Vapor Temperature Range (°R)
+• Daily Vapor Pressure Range (psia)
+• Vapor Pressure at Daily Minimum Liquid Surface Temperature (psia)
+• Vapor Pressure at Daily Maximum Liquid Surface Temperature (psia)
+• Daily Min. Liquid Surface Temp. (°R)
+• Daily Max. Liquid Surface Temp. (°R)
+• Daily Ambient Temp. Range (°R)
+Annual Throughput (gal/yr)
+Annual Turnovers
+Working Loss Turnover Factor
+Annual Sum of Increases in Liquid Level (ft/yr)
+Maximum Liquid Height (ft)
+Minimum Liquid Height (ft)
+Working Loss Product Factor
+Vent Setting Correction Factor
+By month
+• Working Losses (lb/mo)
+• Standing Losses (lb/mo)
+• Throughput (gal/mo)
+• Sum of Increases in Liquid Level (ft/yr)
+
+Tank Characteristics
+Tank ID
+Tank Type
+Description
+City, State
+Company
+Meteorological Location
+Shell Length (ft) [used only for horizontal fixed roof tanks]
+Shell Side Length (ft) [used only for square vertical fixed roof tanks]
+Shell Side 1 Length (ft) [used only for rectangular vertical fixed roof tanks]
+Shell Side 2 Length (ft) [used only for rectangular vertical fixed roof tanks]
+35
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Shell Height (ft)
+Shell Diameter (ft)
+Maximum Liquid Height (ft)
+Average Liquid Height (ft)
+Minimum Liquid Height (ft)
+Is Tank Heated?
+Typical Maximum Liquid Bulk Temperature in Heating Cycle (degrees R)
+Typical Average Liquid Bulk Temperature in Heating Cycle (degrees R)
+Typical Minimum Liquid Bulk Temperature in Heating Cycle (degrees R)
+Number of Heating Cycles per Year
+Roof Type
+Vacuum Setting (psig)
+Pressure Setting (psig)
+Vapor Space Pressure at Normal Operating Conditions (psig)
+Is Tank Insulated?
+Is Tank Insulated or Underground? [used only for horizontal fixed roof tanks]
+Tank Cone Roof Slope (ft/ft)
+Tank Dome Roof Radius (ft)
+Is Tank Equipped with a Control Device?
+Control Device Efficiency (%)
+Tank Shape [used only for vertical fixed roof tanks]
+Liquid Bulk Temperature Calculation Method
+Liquid Bulk Temperature (degrees R)
+Tank Bottom Type
+Cone-Shaped Bottom Slope (ft/ft)
+Liquid Heel Type at Tank Minimum
+Minimum Liquid Heel Height (ft)
+Self Supporting Roof?
+Number of Columns
+Effective Column Diameter
+Internal Shell Condition
+Primary Seal
+Secondary Seal
+Seal Fit
+Deck Type
+Tank Construction
+Deck Construction
+Deck Seam
+Panel/Sheet Width (ft)
+Panel Length (ft)
+Shell Color/Shade
+Shell Condition
+Roof Color/Shade
+Roof Condition
+36
+
+3.2.5
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Deck Fittings [only for floating roof tanks]
+Tank ID
+Tank Type
+Description
+City, State
+Company
+Access Hatch fitting type and count
+Fixed Roof Support Column Well fitting type and count
+Unslotted Guidepole and Well fitting type and count
+Slotted Guidepole/Sample Well fitting type and count
+Gauge-float Well (Automatic Gauge) fitting type and count
+Gauge-hatch/Sample Port fitting type and count
+Vacuum Breaker fitting type and count
+Deck Drain fitting type and count
+Deck Leg fitting type and count
+Deck Leg or Hanger (No opening through deck) fitting type and count
+Rim Vent fitting type and count
+Ladder Well fitting type and count
+Ladder-slotted Guidepole Combination Well fitting type and count
+Deck Leg (Pontoon area of pontoon roofs) fitting type and count
+Deck Leg (Double-deck roofs and center area of pontoon roofs) fitting type and count
+
+3.2.6
+•
+•
+•
+
+Met Data
+Tank ID
+Meteorological Location
+By month
+o Average Maximum Ambient Temperature (°F)
+o Average Minimum Ambient Temperature (°F)
+o Average Wind Speed (mph)
+o Average Daily Total Isolation Factor (Btu/ft2/day)
+Annual Average Maximum Ambient Temperature (°F)
+Annual Average Minimum Ambient Temperature (°F)
+Annual Average Wind Speed (mph)
+Annual Average Total Insolation Factor (Btu/ft2/day)
+Annual Average Atmospheric Pressure (psi)
+
+•
+•
+•
+•
+•
+3.2.7
+•
+•
+•
+•
+•
+
+Tank Contents
+Tank ID
+Input Type
+Chemical Category of Liquid
+Sum of Increases/Decreases in Liquid Level Method
+Working Loss Turnover Factor Method
+37
+
+•
+
+•
+•
+•
+•
+•
+
+By month:
+o Chemical Name
+o Speciation Option
+o Components to Speciate
+o Throughput
+o Sum of Increases/Decreases in Liquid Level (ft/yr)
+Annual Chemical Name
+Annual Speciation Option
+Annual Components to Speciate
+Annual Throughput
+Annual Sum of Increases/Decreases in Liquid Level (ft/yr)
+
+3.2.8
+•
+•
+•
+•
+•
+•
+•
+•
+
+Custom Organic Liquids
+Tank ID
+Input Type
+Chemical Name
+Molecular Weight
+Liquid Density (lb/gal)
+Antoine's Equation Constant A
+Antoine's Equation Constant B (°C)
+Antoine's Equation Constant C (°C)
+
+3.2.9
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Custom Petroleum Liquids
+Tank ID
+Input Type
+Chemical Name
+Vapor Molecular Weight (lb/lb-mole)
+Liquid Molecular Weight (lb/lb-mole)
+Liquid Density (lb/gal)
+Vapor Pressure Equation Constant A
+Vapor Pressure Equation Constant B (°R)
+Is this a crude oil?
+Component Mole Fraction Type
+Chemical Component Name
+Mole Fraction
+
+3.2.10 Custom Mixtures
+• Tank ID
+• Input Type
+• Mixture Name
+• Chemical Name
+• Liquid Mole Fraction
+• Molecular Weight
+• Liquid Density (lb/gal)
+38
+
+•
+•
+•
+
+Antoine's Equation Constant A
+Antoine's Equation Constant B (°C)
+Antoine's Equation Constant C (°C)
+
+3.3 Generating the Routine Losses PDF Report
+Click “Generate PDF Report” to generate a .pdf file in your browser. The PDF report contains
+the same information as the Excel report in a printable format. The report contains a header page,
+with the TANKS version, along with the date and time that the report was generated. You can
+save the file to your computer at any location. TANKS 5.2 does not save this information.
+When you generate the report, you are given the option of entering a one-line custom report
+identifier that appears at the top-left of each page of the report. There is no character limit on the
+custom identifier.
+
+39
+
+4.0
+
+Non-Routine Losses Report
+
+If you want to (1) calculate roof landing losses for a floating roof tank or (2) calculate cleaning
+losses from any type of tank, click on the “Non-Routine Losses” tab as shown by the red oval in
+Figure 4 and Figure 5.
+Note that clicking “Clear Non-Routine Losses Data” removes the events you have entered for
+landing and cleaning. This cannot be undone.
+
+Figure 4. Screenshot of TANKS 5.2 “Non-Routine Losses” Page—Floating Roof Landing Events
+
+40
+
+Figure 5. Screenshot of TANKS 5.2 “Non-Routine Losses” Page—Tank Cleaning Events
+
+4.1
+
+Data Entry for Landing Losses
+
+For roof landings from floating roof tanks, the emissions are displayed as standing losses, filling
+losses, and total losses in pounds per year. Tank details for one or more floating roof tanks must
+be first entered in the Tank Data page before these emissions can be estimated.
+Choose “Floating Roof Landing Events.” See Figure 4.
+4.1.1
+
+Adding New Roof Landing Events
+
+Click “+Add New Roof Landing Event” to add the following information:
+•
+•
+•
+
+•
+
+•
+
+Tank ID
+Month During Which the Landing Event Occurred
+Chemical in Tank During Roof Landing (can also be “Empty”)
+o All chemicals entered into the tank within “Tank Data” will be listed in the dropdown list
+Chemical Added to Tank during Refilling (can also be “No Refill”)
+o All chemicals entered into the tank within “Tank Data” will be listed in the dropdown list
+Landed Roof Leg Height (ft)
+41
+
+•
+
+•
+
+Type of Liquid Heel Present during Roof Landing
+o Full Liquid Heel
+ Height of Liquid at the Tank Shell (ft)
+o Partial Liquid Heel [Note: This option is not available for tanks with flat or
+nominally flat bottoms]
+ Vertical Distance from the Bottom of the Shell Down to the Liquid
+Surface (ft)
+o No Liquid Heel (also known as Drain Dry)
+Number of Days the Tank Is Standing Idle
+
+After entering the data, you can click “Calculate” to show your landing losses or click “Save.”
+
+4.1.2
+
+Editing Roof Landing Events
+
+Once you have entered the landing events, you can choose to Edit, Duplicate, or Delete each
+event.
+Choosing Edit allows you to edit the landing event. Choose the appropriate item, make changes
+and click “Save” when you are finished.
+Choosing Duplicate will open a copy of the chosen landing event. Then you can change any
+information. Clicking “Save” adds a new landing event to the list.
+Choosing Delete will delete the landing event. This cannot be undone.
+If you want to clear all landing events, choose “Clear Non-Routine Losses Data.” This also
+deletes cleaning events. It cannot be undone.
+
+4.2
+
+Data Entry for Cleaning Losses
+
+For tank cleaning, the emissions are displayed as purge losses, forced ventilation losses, and total
+losses in pounds per year. Note that the Day 1 sludge depth should be the height of the chemical
+in the tank at the beginning of ventilation, NOT including the depth of solvent added or the
+equivalent additional height from the sump (if any).
+Choose “Tank Cleaning Events.” See Figure 5.
+
+4.2.1
+
+Fixed Roof Tanks
+
+For tank cleaning events for fixed roof tanks, you will need the following information:
+•
+
+Tank
+42
+
+•
+•
+•
+
+•
+
+•
+•
+•
+•
+
+•
+•
+
+•
+•
+
+Month During Which the Tank Cleaning Occurred
+Chemical Stored at the Start of Cleaning
+Type of Liquid Heel Present at the Start of Cleaning
+o Full Liquid Heel
+ Height of the Stock Liquid and Sludge at the Tank Shell at the Start of
+Cleaning (ft)
+o Partial Liquid Heel
+ Vertical Distance from the Bottom of the Shell Down to the Liquid
+Surface at the Start of Cleaning (ft)
+ Note: This option is not available for tanks with flat or nominally flat
+bottoms
+o No Liquid Heel (also known as Drain Dry)
+Does the Tank Have a Sump?
+o Sump Diameter (inches [in])
+o Depth of Liquid Remaining in the Sump (in)
+Number of Days that the Tank is Standing Idle After Emptying and Before Forced
+Ventilation Begins
+Were Emissions Routed to a Control Device Prior to Starting Ventilation?
+Number of Days in which Forced Ventilation Was Used
+For Each Day with Forced Ventilation:
+o Average Concentration (parts per million by volume [ppmv])
+o Vent Time (hr/day)
+o Average Sludge Depth (in) ** See Note below
+o Was Ventilation Stopped?
+o Were Emissions Routed to a Control Device?
+Control Device Efficiency (%)
+o if a control device is indicated above
+Was Tank Bottom Flooded with Solvent at the Start of the Cleaning?
+o Chemical Category of Solvent
+o Solvent Name
+o Equivalent Depth of Solvent that was Added to the Tank for Cleaning (in)
+Average Ventilation Rate During Continued Forced Ventilation (ft³/min)
+Calibration Gas Used During Continued Forced Ventilation
+o Methane
+o Ethane
+o Propane
+o Butane
+o Pentane
+o Hexane
+o Heptane
+
+** Note: The Day 1 sludge depth should be the height of the chemical in the tank at the
+beginning of ventilation, NOT including the depth of solvent added or the equivalent additional
+height from the sump (if any).
+
+43
+
+4.2.2
+
+Floating Roof Tanks
+
+For tank cleaning events for floating roof tanks, you will need the following information:
+•
+•
+•
+•
+•
+
+•
+
+•
+•
+•
+
+•
+•
+
+•
+•
+
+Tank
+Month During Which the Tank Cleaning Occurred
+Chemical Stored at the Start of Cleaning
+Floating Roof Leg Height (ft)
+Type of Liquid Heel Present at the Start of Cleaning
+o Full Liquid Heel
+ Height of the Stock Liquid and Sludge at the Tank Shell at the Start of
+Cleaning (ft)
+o Partial Liquid Heel
+ Vertical Distance from the Bottom of the Shell Down to the Liquid
+Surface at the Start of Cleaning (ft) [Note that this option is not available
+for tanks with flat or nominally flat bottoms]
+o No Liquid Heel (also known as Drain Dry)
+Does the Tank Have a Sump?
+o Sump Diameter (in)
+o Depth of Liquid Remaining in the Sump (in)
+Were Emissions Routed to a Control Device Prior to Starting Ventilation?
+Number of Days in which Forced Ventilation Was Used
+For Each Day with Forced Ventilation:
+o Average Concentration (ppmv)
+o Vent Time (hr/day)
+o Average Sludge Depth (in) ** See Note below
+o Was Ventilation Stopped?
+o Were Emissions Routed to a Control Device?
+Control Device Efficiency (%)
+o if a control device is indicated above
+Was Tank Bottom Flooded with Solvent at the Start of the Cleaning?
+o Chemical Category of Solvent
+o Solvent Name
+o Equivalent Depth of Solvent that was Added to the Tank for Cleaning (in)
+Average Ventilation Rate During Continued Forced Ventilation (ft³/min)
+Calibration Gas Used During Continued Forced Ventilation
+o Methane
+o Ethane
+o Propane
+o Butane
+o Pentane
+o Hexane
+o Heptane
+
+44
+
+** Note: The Day 1 sludge depth should be the height of the chemical in the tank at the
+beginning of ventilation, NOT including the depth of solvent added or the equivalent additional
+height from the sump (if any).
+
+4.3
+
+Editing Roof Cleaning Events
+
+Once you have entered the cleaning events, you can choose to Edit, Duplicate, or Delete each
+event.
+Choosing Edit allows you to edit the cleaning event. Choose the appropriate item, make changes
+and click “Save” when you are finished.
+Choosing Duplicate will open a copy of the chosen cleaning event. Then you can change any
+information. Clicking “Save” adds a new cleaning event to the list.
+Choosing Delete will delete the cleaning event. This cannot be undone.
+If you want to clear all cleaning events, choose “Clear Non-Routine Losses Data.” This also
+deletes landing events. It cannot be undone.
+
+4.4
+
+Running the Non-Routine Losses Report
+
+Click “Generate Non-Routine Losses Report.” The resulting xlsx file (named
+“date_report_nonroutine_losses.xlsx”) contains standing losses, working losses, and total losses
+in pounds per year for each tank. You can save the file to your computer at any location. TANKS
+5.2 does not save this information.
+Data are exported into a file with two tabs: (1) Landing Emissions; and (2) Cleaning Emissions.
+The report includes all landing and cleaning events entered on the main page.
+
+4.5
+
+Contents of the Non-Routine Losses Report
+
+4.5.1
+
+Landing Emissions
+
+•
+•
+•
+•
+•
+•
+•
+
+Tank ID
+Tank Type
+Description
+City
+State
+Company
+Number of Days
+45
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+4.5.2
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Month
+Floating Roof Leg Height
+Roof Landing Heel Height
+Roof Landing Heel Type
+Landing Chemical
+Refill Chemical
+Standing Losses (lb)
+Filling Losses (lb)
+Total Losses (lb)
+Cleaning Emissions
+Tank ID
+Tank Type
+Description
+City
+State
+Company
+Month Cleaning Occurred
+Number of Days Idle
+Number of Days Cleaning
+Number of Days Ventilation
+Cleaning Heel Type
+Floating Roof Leg Height
+Liquid Height
+Has Sump?
+Sump Diameter
+Sump Depth
+Solvent Added?
+Solvent Category
+Solvent Name
+Solvent Density
+Solvent Molecular Weight
+Solvent Antoine A
+Solvent Antoine B
+Solvent Antoine C
+Solvent Depth
+Average Ventilation Rate
+Control Efficiency
+Calibration Gas
+Purge Controlled?
+Cleaning Chemical
+46
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Total Purge Losses (lb)
+Total Controlled Forced Ventilation Losses (lb)
+Total Losses (lb)
+Day 1 - Average Concentration (ppmv)
+Day 1 - Ventilation Time (hr/day)
+Day 1 - Average Sludge Depth (in)
+Day 1 - Was Ventilation Stopped?
+Day 1 - Were Emissions Routed to a Control Device?
+Information for Day 1 continues for the number of days in which forced ventilation was
+used
+
+47
+
+5.0
+
+Customize
+
+If you want to (1) create tanks that contain custom contents (chemicals that are not included in
+AP-42 Chapter 7) or (2) your tank is located in a city and state that is not included in AP-42
+Chapter 7, click on the “Customize” tab as shown by the red oval in Figure 6.
+If data for a custom mixture, custom petroleum liquid, or custom organic liquid are changed after
+being added to a tank, you will need to edit the Contents in the Tank Data page to reselect the
+custom mixture, custom petroleum liquid, or custom organic liquid before calculating emissions.
+This is a known issue that will be corrected in a future version.
+
+Figure 6. Screenshot of TANKS 5.2 “Customize” Page
+
+Note that clicking “Clear Custom Data” removes the custom entries from all categories. This
+cannot be undone. However, if you have a Tank Data file that uses these custom entries, you
+can simply go back to the “Tank Data” tab and click “Import Tank Data” again.
+
+5.1
+
+Entering Custom Data
+
+5.1.1
+
+Custom Organic Liquids
+
+For custom organic liquids, you will need the following information:
+48
+
+•
+•
+•
+•
+•
+•
+•
+
+5.1.2
+
+Chemical Name
+Molecular weight
+Liquid density (lb/gal)
+Antoine’s Equation Constant A (dimensionless)
+Antoine’s Equation Constant B (°C)
+Antoine’s Equation Constant C (°C)
+You also have the option to use the chemical data in AP-42 Table 7.1-3 as a template by
+selecting the chemical from the drop-down list using Template Chemical. You can then
+adjust the required fields as needed.
+Custom Petroleum Liquids
+
+For custom petroleum liquids, you will need the following information:
+• Chemical Name
+• Vapor Molecular Weight (lb/lb-mole)
+• Liquid Molecular Weight (lb/lb-mole)
+• Vapor Pressure Equation Constant A (dimensionless)
+• Vapor Pressure Equation Constant B (°R)
+• Whether the petroleum liquid is a crude oil
+• You can also add one or more components in order to speciate emissions:
+o Component Mole Fraction Type
+ Liquid Mole Fraction
+ Vapor Mole Fraction
+o Chemical Name
+o Mole Fraction
+• You also have the option to use the chemical data in AP-42 Table 7.1-2 as a template by
+collecting the chemical from the drop-down list using Template Chemical. You can then
+adjust the required fields as needed.
+5.1.3
+
+Custom Mixtures
+
+For custom mixtures, you will need the following information:
+• Mixture Name
+• Chemical Category of Each Liquid Component
+• Organic Liquid Name of Each Component
+• Liquid Mole Fraction of Each Component
+o Note that the sum of all liquid mole fractions must be 1.
+• You cannot create a mixture containing multiple petroleum liquids, but you can create a
+mixture using the organic liquid components that are known to be contained in a specific
+petroleum liquid. You can also create a custom petroleum liquid using the option above.
+5.1.4
+
+Custom Meteorological Data
+
+For custom meteorological data, you will need the following information:
+• Location Name
+49
+
+•
+
+•
+
+Monthly Data:
+o Average Maximum Ambient Temperature (°F)
+o Average Minimum Ambient Temperature (°F)
+o Average Wind Speed (mph)
+o Average Daily Total Insolation Factor (Btu/ft2/day)
+Annual Data:
+o Average Maximum Ambient Temperature (°F)
+o Average Minimum Ambient Temperature (°F)
+o Average Wind Speed (mph)
+o Average Daily Total Insolation Factor (Btu/ft2/day)
+o Average Atmospheric Pressure (psi)
+
+5.2
+
+Sources for Custom Data
+
+5.2.1
+
+Chemical Data
+
+•
+
+•
+
+These reference books are available at most public and university libraries (in person or
+online) with an appropriate library card or user account:
+o CRC Handbook of Chemistry and Physics.
+o Perry’s Chemical Engineers’ Handbook.
+o Reid, Prausnitz and Sherwood, Properties of Liquids and Gases, McGraw Hill.
+o Yaws and Yang, Property Data: To Estimate Vapor Pressure Easily,
+Hydrocarbon Processing.
+o Boublík, Fried and Hála, The Vapor Pressures of Pure Substances, Selected
+Values of the Temperature Dependence of the Vapor Pressures of Some Pure
+Substances in the Normal and Low Pressure Region, Elsevier Science Publishers.
+NIST Chemistry WebBook, which is available online at:
+http://webbook.nist.gov/chemistry/.
+
+**Please note that in some resources, such as the NIST Chemistry WebBook, the
+Antoine's equation constants are in different units. Pressure is in bar and temperature
+is in Kelvin (K). To convert these to mmHg and °C, add 2.8751 to A, keep B the same,
+and add 273.15 to C.
+
+5.2.2
+•
+•
+
+Meteorological Data
+United States: National Solar Radiation Data Base. Available at
+https://nsrdb.nrel.gov/about/u-s-data.html.
+International: NASA Surface Meteorology and Solar Energy Data Set. Available at
+https://power.larc.nasa.gov/.
+
+50
+
+6.0
+
+Typical Deck Fittings by Tank Type
+Deck Fitting
+
+Fitting/Cover Type
+
+Quantity
+
+Access Hatch
+Access Hatch
+Access Hatch
+Fixed Roof Support Column Well
+Fixed Roof Support Column Well
+Fixed Roof Support Column Well
+Fixed Roof Support Column Well
+Fixed Roof Support Column Well
+Unslotted Guidepole and Well
+Unslotted Guidepole and Well
+Unslotted Guidepole and Well
+Unslotted Guidepole and Well
+Unslotted Guidepole and Well
+Slotted Guidepole/Sample Well
+Slotted Guidepole/Sample Well
+Slotted Guidepole/Sample Well
+Slotted Guidepole/Sample Well
+Slotted Guidepole/Sample Well
+Slotted Guidepole/Sample Well
+Slotted Guidepole/Sample Well
+Slotted Guidepole/Sample Well
+Gauge-float Well (Automatic Gauge)
+Gauge-float Well (Automatic Gauge)
+Gauge-float Well (Automatic Gauge)
+Gauge-hatch/Sample Port
+Gauge-hatch/Sample Port
+Gauge-hatch/Sample Port
+Vacuum Breaker
+
+Bolted Cover, Gasketed
+Unbolted Cover, Gasketed
+Unbolted Cover, Ungasketed
+Built-Up Column, Gasketed Sliding Cover
+Built-Up Column, Ungasketed Sliding Cover
+Round pipe, Flexible Fabric Sleeve Seal
+Round pipe, gasketed sliding cover
+Round pipe, ungasketed sliding cover
+Ungasketed Sliding Cover
+Ungasketed Sliding Cover with pole sleeve
+Gasketed Sliding Cover
+Gasketed Sliding Cover with pole wiper
+Gasketed Sliding Cover with pole sleeve
+Ungasketed or gasketed Sliding Cover
+Ungasketed or gasketed Sliding Cover, with float
+Gasketed sliding cover, with pole wiper
+Gasketed sliding cover, with pole sleeve
+Gasketed sliding cover, with pole sleeve and pole wiper
+Gasketed sliding cover, with float and pole wiper
+Gasketed sliding cover, with float, pole sleeve, and pole wiper
+Flexible enclosure
+Bolted Cover, Gasketed
+Unbolted Cover, Gasketed
+Unbolted Cover, Ungasketed
+Weighted Mech. Actuation, Gasketed
+Weighted Mech. Actuation, Ungasketed
+Slit Fabric Seal 10% Open area
+Weighted Mech. Actuation, Gasketed
+
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+Notes:
+IFRT = Internal Floating Roof Tan
+EFRT = External Floating Roof Tank
+DEFRT = Domed Floating Roof Tank
+A = Not used with self-supporting roofs.
+B = Not used on welded internal floating roof tanks.
+C = Not used on pontoon floating roof tanks, only double deck roofs
+D = Used only with mechanical shoe primary seals
+
+Typical
+for
+EFRT?
+Y
+N
+N
+N
+N
+N
+N
+N
+Y
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+Y
+Y
+N
+N
+Y
+
+Typical
+for
+DEFRT?
+Y
+N
+N
+N
+N
+N
+N
+N
+Y
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+Y
+Y
+N
+N
+Y
+
+Typical
+for
+IFRT?
+N
+N
+Y
+N
+Y
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+Y
+N
+N
+Y
+Y
+
+Notes
+
+A
+A
+A
+A
+A
+
+Weighted Mech. Actuation, Ungasketed
+Stub drain (1 inch diameter)
+Open
+90% closed
+Adjustable
+Adjustable - ungasketed
+
+1
+1
+1
+1
+1
+1
+
+Typical
+for
+EFRT?
+N
+N
+Y
+N
+N
+Y
+
+Adjustable - gasketed
+
+1
+
+N
+
+N
+
+N
+
+Adjustable - sock
+
+1
+
+N
+
+N
+
+N
+
+Adjustable - ungasketed
+
+1
+
+Y
+
+Y
+
+N
+
+Adjustable - gasketed
+
+1
+
+N
+
+N
+
+N
+
+Adjustable - sock
+
+1
+
+N
+
+N
+
+N
+
+Fixed
+
+1
+
+N
+
+N
+
+N
+
+Weighted Mech. Actuation, Gasketed
+Weighted Mech. Actuation, Ungasketed
+Sliding Cover, Gasketed
+Sliding Cover, Ungasketed
+Sliding cover, ungasketed
+
+1
+1
+1
+1
+1
+
+Y
+N
+N
+N
+
+Y
+N
+N
+N
+
+N
+N
+N
+Y
+
+Ladder sleeve, ungasketed sliding cover
+
+1
+
+Ladder sleeve, gasketed sliding cover
+
+1
+
+Deck Fitting
+Vacuum Breaker
+Deck Drain
+Deck Drain
+Deck Drain
+Deck Leg
+Deck Leg
+(Pontoon area of pontoon roofs)
+Deck Leg
+(Pontoon area of pontoon roofs)
+Deck Leg
+(Pontoon area of pontoon roofs)
+Deck Leg (Double-deck roofs and
+center area of pontoon roofs)
+Deck Leg (Double-deck roofs and
+center area of pontoon roofs)
+Deck Leg (Double-deck roofs and
+center area of pontoon roofs)
+Deck Leg or Hanger
+(No opening through deck)
+Rim Vent
+Rim Vent
+Ladder Well
+Ladder Well
+Ladder-slotted Guidepole
+Combination Well
+Ladder-slotted Guidepole
+Combination Well
+Ladder-slotted Guidepole
+Combination Well
+
+Fitting/Cover Type
+
+Notes:
+IFRT = Internal Floating Roof Tan
+EFRT = External Floating Roof Tank
+DEFRT = Domed Floating Roof Tank
+A = Not used with self-supporting roofs.
+B = Not used on welded internal floating roof tanks.
+C = Not used on pontoon floating roof tanks, only double deck roofs
+D = Used only with mechanical shoe primary seals
+
+Quantity
+
+Typical
+for
+DEFRT?
+N
+N
+Y
+N
+N
+Y
+
+Typical
+for
+IFRT?
+N
+Y
+N
+N
+Y
+N
+
+Notes
+
+B
+
+C
+
+D
+D
+A
+A
+
+7.0
+
+Definitions
+
+Aged. This is one of the choices for shell condition or roof condition. For paint, paint is
+noticeably faded and dull; for mill-finish aluminum, surface is dull.
+Annual Sum of Decreases in Liquid Level. If this value is unknown, it can be estimated from
+pump utilization records. Over the course of a year, the sum of increases in liquid level and the
+sum of decreases in liquid level, will be approximately the same. This value is used for floating
+roof tanks.
+Annual Sum of Increases in Liquid Level. If this value is unknown, it can be estimated from
+pump utilization records. Over the course of a year, the sum of increases in liquid level and the
+sum of decreases in liquid level, will be approximately the same. This value is used for fixed
+roof tanks.
+Annual Throughput. This is the annual throughput in gallons per year. If the throughput of the
+tank is measured in barrels, you may convert barrels to gallons by multiplying the number of
+barrels by 42.
+Antoine’s Equation. A correlation between vapor pressure and temperature for organic liquids.
+See Equation 1-28 of AP-42 Chapter 7. The pressure unit is mmHg and the temperature unit is
+degrees Celsius. For petroleum liquids, see Vapor Pressure Equation.
+
+where:
+log = log 10
+A = constant in vapor pressure equation, dimensionless
+B = constant in vapor pressure equation, °C
+C = constant in vapor pressure equation, °C
+TLA = average daily liquid surface temperature, °C
+PVA = vapor pressure at average daily liquid surface temperature, mm Hg
+
+Antoine’s Equation Constant A. The A constant used in the Antoine’s equation for organic
+liquids. It is dimensionless. For petroleum liquids, see Vapor Pressure Equation Constant A.
+Antoine’s Equation Constant B. The B constant used in the Antoine’s equation for organic
+liquids. The unit is degrees Celsius. For petroleum liquids, see Vapor Pressure Equation
+Constant B.
+
+53
+
+Antoine’s Equation Constant C. The C constant used in the Antoine’s equation for organic
+liquids. The unit is degrees Celsius.
+AP-42. Compilation of Air Pollutant Emissions Factors from Stationary Sources (AP-42) has
+been published since 1972 as the primary compilation of EPA's emissions factor information. It
+contains emissions factors and process information for more than 200 air pollution source
+categories. A source category is a specific industry sector or group of similar emitting sources.
+The emissions factors have been developed and compiled from source test data, material balance
+studies, and engineering estimates. See https://www.epa.gov/air-emissions-factors-andquantification/ap-42-compilation-air-emissions-factors-stationary-sources.
+AP-42 Chapter 7. AP-42 chapter for Organic Liquid Storage Tanks. See
+https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-fifth-edition-volume-ichapter-7-liquid-storage-0.
+Asterisks. Red asterisks within TANKS 5.2 indicate required fields.
+Average-Fitting. This is a choice for rim seals. If the rim seals are not tight-fitting, choose
+average-fitting.
+Average. This is one of the choices for shell condition or roof condition. For mill-finish
+aluminum, surface is oxidized but still bright.
+Average Liquid Height. This is the average height in feet of the liquid within the vertical fixed
+roof tank shell. This must be less than or equal to the maximum liquid height. The average liquid
+height is used in the standing loss calculations.
+Barrels. A unit of tank throughput which is equal to 42 gallons.
+Bolted. This is one of deck type choices for Deck Type for floating roof tanks. Bolted is only
+used for Internal Floating Roof Tanks.
+Breather Vent Settings. These are the pressure setting and vacuum setting on fixed roof tanks.
+If specific information on the breather vent pressure setting and vacuum setting is not available,
+assume 0.03 psig for breather vent pressure and -0.03 psig for breather vent vacuum as typical
+values.
+Chemical Category of Liquid. This is the type of liquid contained in the specific tank. The
+choices are the following: AP-42 Organic Liquids, AP-42 Petroleum Liquids, Custom Organic
+Liquids (if applicable), Custom Petroleum Liquids (if applicable), or Custom Mixtures (if
+applicable). If no custom materials have been added, those options will not be shown.
+
+54
+
+Chemical Name. After you have chosen the Chemical Category, the list of chemical names will
+populate.
+Chemicals to Speciate. If you have chosen a custom petroleum liquid or a custom mixture and
+chose to partially speciate your monthly emissions, this choice will determine the chemical(s)
+that will show in your Routine Losses Report.
+City. This is an optional field used to identify the city in which the storage tank is located. This
+may be different from the City chosen for the Meteorological Location.
+Clear Custom Data. This removes the custom entries from all categories. It cannot be undone.
+Clear Non-Routine Losses Data. This removes the events you have entered for landing losses
+and cleaning losses . It cannot be undone.
+Company. This is an optional field used to identify the company which owns or uses the storage
+tank.
+Components to Speciate. If you have chosen a custom petroleum liquid or a custom mixture
+and chose to partially speciate your annual emissions, this choice will determine the
+component(s) that will show in your Routine Losses Report.
+Cone. One of the roof types available for vertical fixed roof tanks.
+Cone-Shaped Bottom. This is one of the choices for a tank bottom type. According to Table
+7.1-4 and Figure 7.1-20 of AP-42 Chapter 7, partial liquid heel only occurs on tanks with a conedown bottom.
+Cone-Shaped Bottom Slope. The slope of the cone-shaped bottom. The value should be
+positive for cone-down bottom and negative for a cone-up bottom. A slight cone-up bottom
+might have an upward slope on the order of 1:120. The default value is 0.0625 ft/ft.
+Control Device. This is any device that could reduce the amount of emissions from a tank.
+Control Device Efficiency (%). The average amount that the control device reduces the
+emissions from a tank.
+Custom. For internal floating roof tanks with a welded deck, you can enter custom sheet width
+or custom panel length and panel width instead of choosing the options from AP-42 Chapter 7.
+Custom Meteorological Data. If your tank is in a city that is not in AP-42 Chapter 7 and you
+have meteorological data, you can create a custom location for use with your tank data. See
+Section 5.1.4.
+55
+
+Custom Mixture. If your tank contains a mixture of organic liquids and you have the
+composition data, you can create a custom mixture. However, the sum of all liquid mole
+fractions must be 1. You cannot create a mixture containing multiple petroleum liquids, but you
+can create a mixture using the organic liquid components that are known to be contained in a
+specific petroleum liquid. See Section 5.1.3.
+Custom Organic Liquids. If your tank contains an organic liquid that is not in AP-42 Chapter 7
+and you have composition data and Antoine constants, you can create a custom organic liquid for
+use within the Tank Data section. See Section 5.1.1.
+Custom Petroleum Liquids. If your tank contains a petroleum liquid that is not in AP-42
+Chapter 7 and you have composition data and vapor pressure constants, you can create a custom
+petroleum liquid for use within the Tank Data section See Section 5.1.2.
+Deck Construction. This applies only to internal floating roof tanks with bolted decks. Choose
+either Sheet or Panel from the drop-down list.
+Deck Fittings. This applies only to floating roof tanks. For each fitting type, choose the
+appropriate cover from the drop-down menu and enter the count. The corresponding loss factors
+from AP-42 Chapter 7, Table 7.1-12 will be applied within TANKS 5.2. For a list of typical deck
+fittings by tank type, see Section 6.
+Deck Roof Type. This deck characteristic applies only to external floating roof tanks. Choose
+Double-deck or Pontoon from the drop-down menu.
+Deck Seam. This deck characteristic applies only to internal floating roof tanks. Based on your
+choice of Deck Type and Deck Construction, choose the appropriate deck seam from the dropdown menu. Typical deck seam length factors are shown in Table 7.1-16 of AP-42 Chapter 7.
+There is also an option to add custom sheet width or custom panel length and custom panel
+width.
+Deck Type. This deck characteristic applies to internal or external floating roof tanks. Choose
+either Welded or Bolted. Welded is only used for External Floating Roof Tanks. Bolted is only
+used for Internal Floating Roof Tanks.
+Description. This is an optional field where you may enter additional information about a tank.
+Dome. One of the roof types available for vertical fixed roof tanks.
+Domed External Floating Roof Tanks. This type of tank is typically an external floating roof
+tank that has been retrofit with a domed fixed roof.
+
+56
+
+Effective Column Diameter. This is the average column diameter in feet for an internal floating
+roof tank without a self supporting roof. Once you choose the type of column from the dropdown menu, TANKS 5.2 will use the correct column diameter. As shown in Section 7.1.3.2.2 of
+AP-42 Chapter 7, the column diameter is equal to 1.1 feet for 9 x 7 inch built-up columns, 0.7
+feet for 8-inch diameter pipe columns, and 1.0 feet if no column construction details are known.
+External Floating Roof Tanks. This type of tank consists of a cylindrical steel shell equipped
+with a roof that floats on the surface of the stored liquid.
+External Shell Color/Shade. This is the color and shade combination of the paint on the shell of
+the tank (i.e., the sides). To view the list of available options, use the drop-down menu. If the
+shell paint color does not appear on the list of options, choose the color/shade combination that
+most closely approximates it. If the shell color is unknown, use White as the default.
+External Shell Condition. This is the condition of the paint on the external tank shell (Good,
+Average, or Aged). To view the list of available options, use the drop-down menu. If the shell
+paint condition is unknown, use Average.
+Fahrenheit (°F). To convert temperatures in degrees Fahrenheit (°F) to Rankine, add 459.67 to
+the temperature in Fahrenheit.
+Flat. One of the roof types available for vertical fixed roof tanks.
+Flat or Nominally Flat Bottom. This is one of the choices for a tank bottom type.
+Full Liquid Heel. According to Table 7.1-4 and Figure 7.1-20 of AP-42 Chapter 7, full liquid
+heel only occurs on tanks with a flat or nominally flat bottom. See Figure 7.1-20 of AP-42
+Chapter 7 for an illustration.
+Full Speciation. See Speciation Option: Full Speciation.
+Good. This is one of the choices for shell condition or roof condition. For paint, paint is in good
+condition
+Height of Liquid Heel. See Figure 7.1-23 and Table 7.1-4 of AP-42 Chapter 7.
+Horizontal Fixed Roof Tanks. This type of tank is constructed for both above ground and
+underground storage with the axis parallel to the foundation. Horizontal fixed roof shells may be
+steel, steel with a fiberglass overlay, or fiberglass-reinforced polyester.
+Internal Floating Roof Tanks. This type of tank has both a permanent fixed roof and a floating
+deck. There are two basic types of internal floating roof tanks: tanks in which the fixed roof is
+
+57
+
+supported by vertical columns within the tank, and tanks with a self-supporting fixed roof and no
+internal support columns.
+Internal Shell Condition. This is the condition of the paint on the internal tank shell (Light
+Rust, Dense Rust, or Gunite Lining). To view the list of available options, use the drop-down
+menu. If the tank is sludge-lined, choose Gunite Lining.
+Is Tank Heated? If the tank is regulated such that the ambient temperature conditions are not
+the sole factors that affect the surface temperature of the liquid, answer “Yes” to this question.
+Only Fully Insulated (vertical fixed roof) or Fully Insulated or Underground (horizontal fixed
+roof) tanks can be heated.
+Is Tank Insulated? Vertical fixed roof tanks can be Fully Insulated, Partially Insulated, or Not
+Insulated. Only Fully Insulated tanks can be heated.
+Is Tank Insulated or Underground? If the horizontal fixed roof tank is underground, no
+breathing or standing losses occur because the insulating nature of the earth limits the diurnal
+temperature change. Only Fully Insulated or Underground tanks can be heated.
+Liquid Bulk Temperature. The liquid bulk temperature should preferably be based on
+measurements or estimated from process knowledge.
+Liquid Bulk Temperature Calculation Method. You can either enter the liquid bulk
+temperature or choose “AP-42 Calculation” and TANKS 5.2 will calculate the liquid bulk
+temperature using Equation 1-33 in AP-42 Chapter 7.
+Liquid Density. This is a measure of a material’s mass per unit of volume. The liquid density of
+the mixture should be given in pounds per gallon at 60°F.
+Liquid Heel. This is the liquid remaining in the bottom of a floating roof tank after the floating
+roof is landed. If the remaining liquid covers the entire bottom of the tank, this is known as a full
+liquid heel. The liquid evaporates into the vapor space beneath the landed floating roof and daily
+changes in ambient temperature cause this vapor space to breathe in a manner similar to a fixed
+roof tank. A partial liquid heel may be left in tanks with sloped bottoms if the withdrawal of
+liquid ceases while some free standing liquid remains in a sump or elsewhere in the bottom of
+the tank.
+Liquid Heel Type. The choices are Full Liquid Heel, Partial Liquid Heel, and No Liquid Heel
+(or Drain Dry). See Figure 7.1-20 and Figure 7.1-23 of AP-42 Chapter 7.
+Liquid Molecular Weight. The molecular weight of the component or mixture should be given
+in pound per pound mole (lb/lb-mole). When a chemical from the chemical database is used, the
+program provides this weight from the chemical database.
+58
+
+Maximum Liquid Height. This is the maximum height in feet of the liquid within the tank shell,
+measured from the bottom of the tank shell. This must be less than or equal to the shell height.
+For horizontal fixed roof tanks, this value must be greater than the Minimum Liquid Height;
+otherwise, your Routine Losses report will not run. If unknown, for vertical tanks use one foot
+less than the shell height and for horizontal tanks use (π/4) D where D is the diameter of a
+vertical cross-section of the horizontal tank
+Meteorological Data. This data includes maximum temperature, minimum temperature, wind
+speed, insolation factors, atmospheric pressure by month for multiple cities in each state.
+TANKS 5.2 contains pre-defined data for all locations listed in Table 7.1-7 of AP-42 Chapter 7.
+See Section 10 for a list of cities by state. See Section 5.1.4 to create your own locations.
+Meteorological Location. This is the meteorological location of the tank. You can choose from
+Chapter 7 of AP-42 locations or custom locations. See Section 10 for a list of cities by state. See
+Section 5.1.4 to create your own locations.
+Mixtures. Any tank can contain a mixture of chemicals as Tank Contents, but you must create a
+custom mixture. TANKS 5.2 does not contain any pre-defined mixtures. See Section 5.1.3 to
+create your own mixtures.
+Minimum Liquid Heel Height. This is the minimum height in feet of the liquid remaining in
+the tank after emptying and prior to cleaning.
+Minimum Liquid Height. This is the minimum height in feet of the liquid within the tank shell.
+For horizontal fixed roof tanks, this value must be less than the Maximum Liquid Height;
+otherwise, your Routine Losses report will not run. If unknown, for vertical tanks use 1 foot and
+for horizontal tanks use 0.
+Molecular Weight. The sum of the atomic masses of all atoms in a molecule, based on a scale in
+which the atomic masses of hydrogen, carbon, nitrogen, and oxygen are 1, 12, 14, and 16,
+respectively.
+Net Throughput. This is the annual net throughput in gallons per year. If the net throughput of
+the tank is measured in barrels, you may convert barrels to gallons by multiplying the number of
+barrels by 42.
+No Liquid Heel. Also known as Drain Dry. See Figure 7.1-20 of AP-42 Chapter 7.
+Non Routine Losses. Emissions from floating roof landings and cleanings.
+Organic Liquids. TANKS 5.2 contains multiple organic liquids listed in Table 7.1-3 of AP-42
+Chapter 7. You can also create custom organic liquids. [See chapter 5.1.1.]
+
+59
+
+Partial Liquid Heel. See Figure 7.1-20 of AP-42 Chapter 7. If your tank has a flat or nominally
+flat bottom, you cannot have a partial liquid heel..
+Partial Speciation. See Speciation Option: Partial Speciation.
+Petroleum Liquids. TANKS 5.2 contains multiple petroleum liquids listed in Table 7.1-2 of AP42 Chapter 7. You can also create custom petroleum liquids. [See chapter 5.1.2.]
+Pressure Setting. This is the fixed roof storage tank pressure setting in psig. The pressure setting
+must be between 0 and 1 psig. The default pressure setting is 0.03 psig.
+Primary Seal. Primary rim seals close the annular space between the edge of the floating roof
+and the tank wall. There are three basic types of rim seals in use on internal floating roof tanks:
+mechanical shoe, liquid mounted, and vapor mounted. Both are resilient-filled nonmetallic seals.
+If no specific information is available, a welded tank with an average-fitting mechanical-shoe
+primary seal can be used to represent the most common or typical construction and rim-seal
+system in use for external and domed external floating roof tanks. If no specific information is
+available, a welded tank with an average-fitting vapor-mounted primary seal can be used to
+represent the most common or typical construction and rim-seal system in use for internal
+floating roof tanks. See Table 7.1-8 of AP-42 Chapter 7.
+Mechanical Shoe Seal -- A metallic shoe seal.
+Liquid Mounted -- A seal that is mounted in contact with the liquid in the tank.
+Vapor Mounted -- A seal that is mounted a few inches above the liquid in the tank.
+Rankine (°R). To convert temperatures in degrees Fahrenheit (°F) to Rankine, add 459.67 to the
+temperature in Fahrenheit.
+Riveted. This is one of choices for Tank Construction for floating roof tanks.
+Roof Color/Shade. This is the color and shade combination of the paint on the roof. To view the
+list of available options, use the drop-down menu. The color/shade combination must be chosen
+from this list, since these are the only combinations for which there are paint factors in Table
+7.1-6 of AP-42 Chapter 7. If the color of the roof paint does not appear on the list of options, use
+the color/shade combination that most closely approximates it. If the roof color is unknown,
+choose White.
+Roof Paint Condition. This is the condition of the paint on the tank roof, from Table 7.1-6 of
+AP-42 Chapter 7 (Good, Average, or Aged). To view the list of available options, use the dropdown menu. If the roof paint condition is unknown, choose Average.
+Roof Height. This is the height of the tank roof in feet, not including the tank shell itself (the
+vertical distance from the top of the shell to the top of the roof).
+60
+
+Roof Radius. This is the radius in feet of the arc of a domed roof. This field is used only for
+tanks which have a domed roof. The tank dome roof radius typically varies between a minimum
+of (0.8 x tank diameter) and a maximum of (1.2 x tank diameter). If the roof radius is not known,
+assume the dome roof radius is equivalent to the shell diameter.
+Roof Slope. This is the slope of a cone roof in feet/feet. The program will calculate this value
+based on height and diameter values. This only applies if the roof is cone-shaped. Assume a
+value of 0.0625 ft/ft if the roof slope is unknown.
+Roof Type. The roof type may be either Dome or Cone. Choose either using the drop-down
+menu.
+Routine Losses. Working and standing losses from floating roof and fixed roof organic liquid
+storage tanks.
+Save Tank. You can click “Save Tank” at any time during Tank Data entry. If validation checks
+trigger, the errors will show on the screen. You cannot “save” your tank until all validation errors
+are corrected.
+Secondary Seal. There are three options for secondary seals: Rim-mounted, Shoe mounted
+(when mechanical shoe seals are identified as primary seals), and Primary Only / None. Choose
+the appropriate option from the drop-down menu.
+Seal Fit. Choose Average-fitting or Tight-fitting from the drop-down menu. Tight-fitting seals
+are only available for welded tanks. It is not appropriate to use the values for tight-fitting seals
+unless the seal is known to be maintained with gaps no greater than 1/8 inch through the full
+range of liquid level in the tank.
+Self Supporting Roof. Most fixed roof tanks converted to an internal floating roof tank will
+have columns. Newly constructed internal floating roof tanks may be of either type. Tanks with
+columns have marginally higher emissions because of evaporation of liquid that clings to the
+column surface area.
+Shell Color/Shade. This is the color and shade combination of the paint on the shell of the tank
+(i.e., the sides). To view the list of available options, use the drop-down menu. The color/shade
+combination must be chosen from the available options, since these are the only combinations
+for which there are paint factors in AP-42 Chapter 7. If the shell paint color does not appear on
+the list of options, choose the color/shade combination that most closely approximates it. If the
+shell color is unknown, use White as the default.
+Shell Condition. This is the condition of the paint on the tank shell (Good, Average, or Aged).
+To view the list of available options, use the drop-down menu. If the shell paint condition is
+unknown, use Average as the default condition.
+61
+
+Shell Diameter. This is the width in feet of a cylindrical shell. This should be at least 0.5 feet.
+Shell Height. This is the height of the internal floating roof tank, external floating roof tank,
+domed external floating roof tank or vertical fixed roof tank in feet. This should be between 0.5
+feet and 80 feet.
+Shell Length. This is the total length of the horizontal fixed roof tank shell in feet. This should
+be at least 0.5 feet. The length of the tank is usually less than six times the diameter to ensure
+structural integrity.
+Speciated Emissions. The petroleum liquids from AP-42 Chapter 7 were not speciated using the
+old speciation profiles from TANKS 4.09D because a custom petroleum liquid with the exact
+speciation profile used in the tank is considered more accurate. Therefore, if you want to include
+speciated emissions from petroleum liquids, you must create a customized petroleum liquid and
+include the specific mole fractions (either vapor or liquid) for each component (e.g., benzene,
+toluene, xylenes).
+Speciation Option: Full Speciation. Selecting this option means that you will provide the
+names of each chemical component. The program will calculate the vapor pressure and other
+data for the entire mixture. After selecting Full Speciation, click on “Chemicals to Speciate.” The
+program uses Raoult’s Law for calculating speciated estimates. These calculations assume that
+the mixture is homogenous and made up of components with similar true vapor pressures; they
+also assume that the mixture behaves ideally.
+Speciation Option: None. Selecting this option means that you will not specify any chemical
+components. When using this option, you will not be able to obtain emissions estimates for
+individual components.
+Speciation Option: Partial Speciation. Selecting this option means that you will identify any
+chemical components for which an emissions estimate is required. For each component that you
+list and provide the concentration, the report will calculate the air emissions for the component in
+addition to calculating emissions of the total mixture. For example, use this option if you know
+your gasoline (RVP 7) has 4 percent benzene (or a mole fraction of 0.04) and want to know the
+emissions of gasoline and of benzene.
+State. This is an optional field used to identify the state in which the tank is located. This may be
+different from the State chosen for the Meteorological Location.
+Sum of Decreases in Liquid Level. If this value is unknown, it can be estimated from pump
+utilization records. This value is used for floating roof tanks with monthly inputs.
+Sum of Increases in Liquid Level. If this value is unknown, it can be estimated from pump
+utilization records. This value is used for fixed roof tanks with monthly inputs.
+62
+
+Tank ID. This field is the user-defined unique identifier for the tank. The ID can consist of any
+combination of letters, numbers, symbols, or spaces.
+Tank Bottom Type. The choices are Flat or Nominally Flat or Cone-Shaped Bottom. According
+to Table 7.1-4 and Figure 7.1-20 of AP-42 Chapter 7, partial liquid heel occurs on tanks with a
+cone-down bottom. If your tank has a flat or nominally flat bottom, you cannot have a partial
+liquid heel. The equations for partial liquid heel in Table 7.1-4 will not work if the slope is zero,
+which is the case for a flat or nominally flat bottom tank
+Tank Cone Roof Slope. The slope of the roof on a vertical fixed roof tank. The default is 0.0625
+ft/ft.
+Tank Construction. The choices are Riveted or Welded.
+Tank Shape. The choices are Cylinder, Rectangle, or Square. This determines how the standing
+and working losses are determined for fixed roof tanks.
+Throughput (by month). This is the throughput in gallons per month. If the throughput of the
+tank is measured in barrels, you may convert barrels to gallons by multiplying the number of
+barrels by 42.
+Tight-fitting. This means that the rim seal is maintained with no gaps greater than 1/8 inch wide
+between the rim seal and the tank shell. It is not appropriate to use the values for tig-fitting seals
+unless the seal is known to be maintained with gaps no greater than 1/8 inch through the full
+range of liquid level in the tank. Tight-fitting seals are only available for welded tanks.
+Turnovers per Year. This is the estimated number of times per year the tank is emptied and
+refilled. You may calculate the number of turnovers per year by dividing the throughput by the
+working volume. Also, you may enter zero to describe a tank in which the liquid was stored for
+an entire year.
+User Input. The user can enter a specific value instead of choosing from a drop-down menu.
+Vacuum Setting. This is the storage tank vacuum setting in pounds per square inch gauge (psig).
+The vacuum setting must be between 0 and -1 psig. The default vacuum setting is -0.03 psig.
+Note that the fixed roof tank emissions estimation procedures do not apply to low- or highpressure tanks. If you enter a zero into the “Vacuum Setting (psig)” field and then want to enter a
+negative value, use the down arrow to change the number to -0.001 and then edit to the
+appropriate value.
+Vapor Molecular Weight. The molecular weight of the vapor should be given in lb/lb-mole.
+
+63
+
+Vertical Fixed Roof Tanks. This type of tank consists of shells with permanently affixed roofs;
+the tank axis is perpendicular to the foundation. Tanks can be cylindrical, rectangular, or square.
+The fixed roof may be dome-shaped, cone-shaped, or flat. Vertical fixed roof tank shells are
+usually constructed of steel.
+Vapor Pressure Equation. A correlation describing the relation between vapor pressure and
+temperature for petroleum liquid stocks. See Equation 1-27 of AP-42 Chapter 7. The pressure
+unit is psia and the temperature unit is degrees Rankine.
+
+where:
+exp
+A
+B
+TLA
+PVA
+
+=
+=
+=
+=
+=
+
+exponential function
+constant in the vapor pressure equation, dimensionless
+constant in the vapor pressure equation, °R
+average daily liquid surface temperature, °R
+true vapor pressure, psia
+
+Vapor Pressure Equation Constant A. The A constant used in the vapor pressure equation. It
+is dimensionless.
+Vapor Pressure Equation Constant B. The B constant used in the vapor pressure equation. The
+unit is degrees Rankine.
+Vapor Space Pressure at Normal Operating Conditions. The pressure at normal operating
+conditions within the fixed roof tank. The approximate range of pressures is from zero
+(atmospheric pressure) to 15 psig. This is an actual pressure reading (the gauge pressure). If the
+tank is held at atmospheric pressure (not held under a vacuum or at a steady pressure) this should
+be zero.
+Welded. This is one of deck type choices for Deck Type for floating roof tanks. Welded is only
+used for External Floating Roof Tanks. This is also one of choices for Tank Construction for
+floating roof tanks.
+Working Loss Turnover Factor (KN) Method. If your tank is vapor balanced or if flashing
+occurs within the tank, you should choose “Set to 1.” Otherwise, you can choose “AP-42
+Calculation.”
+
+64
+
+8.0
+
+Error Messages
+
+Average Liquid Height. Values must be greater than zero, less than or equal to the maximum
+liquid height, and rounded to the nearest thousandth.
+Cannot read properties of undefined (reading 'components'). You need to add one or more
+components to your custom petroleum liquid, using either vapor mole fractions or liquid mole
+fractions, in order to calculate emissions. Go to Customize, Custom Petroleum Liquids, choose
+the specific petroleum liquid and Edit. Go to the bottom and add one or more components. Then
+go to “Tank Data,” choose the applicable tank, and choose the specific petroleum liquid as the
+contents. Then choose whether to speciate emissions by component(s).
+Maximum Liquid Height. Values must be greater than zero, less than or equal to the tank shell
+height, and rounded to the nearest thousandth.
+Minimum Liquid Height. Values must be greater than or equal to zero, less than the maximum
+liquid height, and rounded to the nearest thousandth.
+Number of Days in which Forced Ventilation was Used. Values must be greater than zero,
+less than or equal to 31, and rounded to the nearest integer.
+Shell Diameter. Values must be greater than or equal to five and rounded to the nearest
+thousandth.
+Shell Height: Values must be greater than or equal to 5, less than or equal to 80, and rounded to
+the nearest thousandth.
+Shell Length. Values must be greater than or equal to 5, less than or equal to 6 times the shell
+diameter, and rounded to the nearest thousandth. [for horizontal fixed roof tanks]
+Shell Side 1 Length. Values must be greater than or equal to 5, less than or equal to 6 times the
+shell diameter, and rounded to the nearest thousandth. [for rectangular vertical fixed roof tanks]
+Shell Side 2 Length. Values must be greater than or equal to 5, less than or equal to 6 times the
+shell diameter, and rounded to the nearest thousandth. [for rectangular vertical fixed roof tanks]
+Shell Side Length. Values must be greater than or equal to 5, less than or equal to 6 times the
+shell diameter, and rounded to the nearest thousandth. [for square vertical fixed roof tanks]
+Vapor Space Pressure at Normal Operating Conditions. Values must be 0 to 15 psig rounded
+to the nearest thousandth.
+
+65
+
+9.0
+
+Frequently Asked Questions (FAQs)
+
+Topic 1: Asphalt Binder Antoine Constants
+Q1: AP-42, Chapter 11.2.2 provides Antoine’s constants for an average asphalt binder. Can these
+constants be used in TANKS 5.2?
+A1: No, the Antoine constants in Chapter 11.1.1.5 are not appropriate for direct use in Chapter 7.
+Chapter 11 uses a different Antoine's equation, different units of pressure and temperature, and
+appears to reverse the A and B terms in relation to Chapter 7:
+Chapter 11:
+Log10 P = B- (0.05223 * A)/ T
+P = vapor pressure, mmHg
+B = 9.00346
+A = 75,350.06
+T = temperature, K
+Chapter 7: [Equation 1-27 of AP-42 Chapter 7]
+P = exp [A – (B/ T)]
+P = vapor pressure, psia
+A = constant in the vapor pressure equation, dimensionless
+B = constant in the vapor pressure equation, °R
+T = temperature, R
+You will need to create a custom petroleum liquid for asphalt to calculate emissions using
+TANKS 5.2. Asphalt is a complex combination of high molecular weight organic compounds, so
+you will need to know the composition of the asphalt stored in your tank, using the material
+safety data sheet (MSDS) or other sources listed in Section 5.2.1.
+
+Topic 2: Custom Mixture with Organic Liquid and Petroleum Liquid
+Q2: How do you create a custom mixture that contains an organic liquid and a petroleum liquid?
+A2: Custom mixtures within TANKS 5.2 do not currently allow the inclusion of petroleum
+liquids along with organic chemicals. The EPA is considering this change as a future
+enhancement to the TANKS application.
+
+66
+
+Topic 3: Routine Losses Report
+Q3: How do I save and print the calculated tank emissions?
+A3: See Section 3.0 for directions on running a routine losses report, which contains standing
+losses, working losses, and total losses in pounds per year for each tank. The Routine Losses
+Excel Report was not intended to be printed. The Routine Losses PDF Report can be printed.
+Either report can be saved to your computer at any location you choose.
+
+Topic 4: Speciated Emissions
+Q4: I have added custom organic liquids, but I cannot add them as components of a custom
+petroleum liquid. Is this a known issue?
+A4: Yes, this is a known issue. Currently, custom petroleum liquids can only be speciated by
+default organic chemicals (i.e., the organic compounds from AP-42 Chapter 7). The ability to
+add custom organic liquids as components of custom petroleum liquids will be added to TANKS
+5.2 during a future update.
+
+Topic 5: Working Loss Turnover Factor (KN)
+Q5: When I run a Routine Losses report for annual emissions from fixed roof tanks, the total
+emissions are correct, but when I run a Routine Losses report for monthly emissions from fixed
+roof tanks, the total emissions are higher than expected. Is this a known issue?
+A5: Yes, this is a known issue. The working loss turnover factor (KN) is not being determined
+correctly for monthly emissions, resulting in working losses being overestimated when monthly
+throughput data are entered. The EPA will correct this issue as part of future enhancements to the
+TANKS application.
+
+Q6: When I set up a fixed roof tank and I have the option of selecting the working loss turnover
+factor as “Set to 1”, the routine losses report does not reflect the correct working loss turnover
+factor. Is this a known issue?
+A6: Yes, this is a known issue. The working loss turnover factor (KN) is not being set to equal
+one. TANKS 5.2 incorrectly sets the working loss turnover factor equal to (180 + N)/6N when
+turnovers are greater than 36, regardless of whether flashing occurs in the tank. This leads to an
+underestimate of working loss emissions. The EPA will correct this issue as part of future
+enhancements to the TANKS application.
+
+67
+
+Q7: When I set up a fixed roof tank and I have the option of choosing the working loss turnover
+factor, what do I do if my tank is splash loaded?
+A7: In this case, you should enter a working loss turnover factor that is greater than 1. However,
+TANKS 5.2 is not yet set up to allow this entry. The EPA will correct this issue as part of future
+enhancements to the TANKS application.
+
+68
+
+10.0 Meteorological Locations by State
+CITY
+
+STATE
+
+CITY
+
+STATE
+
+CITY
+
+STATE
+
+Birmingham
+
+Alabama
+
+Sacramento
+
+California
+
+Lewiston
+
+Idaho
+
+Huntsville
+
+Alabama
+
+San Diego
+
+California
+
+Pocatello
+
+Idaho
+
+Mobile
+
+Alabama
+
+California
+
+Chicago
+
+Illinois
+
+Montgomery
+
+Alabama
+
+San Francisco
+Airport
+Santa Barbara
+
+California
+
+Moline
+
+Illinois
+
+Santa Maria
+
+California
+
+Peoria
+
+Illinois
+
+Stockton
+
+California
+
+Rockford
+
+Illinois
+
+Alamosa
+
+Colorado
+
+Springfield
+
+Illinois
+
+Colorado Springs
+
+Colorado
+
+Evansville
+
+Indiana
+
+Denver
+
+Colorado
+
+Fort Wayne
+
+Indiana
+
+Grand Junction
+
+Colorado
+
+Indianapolis
+
+Indiana
+
+Limon
+
+Colorado
+
+South Bend
+
+Indiana
+
+Pueblo
+
+Colorado
+
+Des Moines
+
+Iowa
+
+Bridgeport
+
+Connecticut
+
+Dubuque
+
+Iowa
+
+Hartford
+
+Connecticut
+
+Wilmington
+
+Delaware
+
+Daytona Beach
+
+Florida
+
+Fort Myers
+
+Florida
+
+Gainesville
+
+Florida
+
+Jacksonville
+
+Florida
+
+Key West
+
+Florida
+
+Miami
+
+Florida
+
+Orlando
+
+Florida
+
+Pensacola
+
+Florida
+
+Tallahassee
+
+Florida
+
+Tampa
+
+Florida
+
+Vero Beach
+
+Florida
+
+West Palm Beach
+
+Florida
+
+Athens
+
+Georgia
+
+Atlanta
+
+Georgia
+
+Augusta
+
+Georgia
+
+Columbus
+
+Georgia
+
+Macon
+
+Georgia
+
+Savannah
+
+Georgia
+
+Hilo
+
+Hawaii
+
+Honolulu
+
+Hawaii
+
+Kahului
+
+Hawaii
+
+Lihue
+
+Hawaii
+
+Boise
+
+Idaho
+
+Anchorage
+
+Alaska
+
+Annette
+
+Alaska
+
+Barrow
+
+Alaska
+
+Bethel
+
+Alaska
+
+Bettles
+
+Alaska
+
+Big Delta
+
+Alaska
+
+Cold Bay
+
+Alaska
+
+Fairbanks
+
+Alaska
+
+Gulkana
+
+Alaska
+
+Homer
+
+Alaska
+
+Juneau
+
+Alaska
+
+King Salmon
+
+Alaska
+
+Kodiak
+
+Alaska
+
+Kotzebue
+
+Alaska
+
+Mcgrath
+
+Alaska
+
+Nome
+
+Alaska
+
+St. Paul Island
+
+Alaska
+
+Talkeetna
+
+Alaska
+
+Unalakleet
+
+Alaska
+
+Valdez
+
+Alaska
+
+Yakutat
+
+Alaska
+
+Phoenix
+
+Arizona
+
+Prescott
+
+Arizona
+
+Tucson
+
+Arizona
+
+Fort Smith
+
+Arkansas
+
+Little Rock
+
+Arkansas
+
+Arcata
+
+California
+
+Bakersfield
+
+California
+
+Bishop
+
+California
+
+Daggett
+
+California
+
+Fresno
+
+California
+
+Long Beach
+
+California
+
+Los Angeles
+Airport
+Redding
+
+California
+California
+
+69
+
+Mason City
+
+Iowa
+
+Sioux City
+
+Iowa
+
+Waterloo
+
+Iowa
+
+Concordia
+
+Kansas
+
+Dodge City
+
+Kansas
+
+Goodland
+
+Kansas
+
+Russell
+
+Kansas
+
+Topeka
+
+Kansas
+
+Wichita
+
+Kansas
+
+Cincinnati
+
+Kentucky
+
+Jackson
+
+Kentucky
+
+Lexington
+
+Kentucky
+
+Louisville
+
+Kentucky
+
+Paducah
+
+Kentucky
+
+Baton Rouge
+
+Louisiana
+
+Lake Charles
+
+Louisiana
+
+New Orleans
+
+Louisiana
+
+Shreveport
+
+Louisiana
+
+Bangor
+
+Maine
+
+Caribou
+
+Maine
+
+Portland
+
+Maine
+
+Baltimore
+
+Maryland
+
+Boston
+
+Massachusetts
+
+Worcester
+
+Massachusetts
+
+Alpena
+
+Michigan
+
+CITY
+
+STATE
+
+Detroit Metro
+Airport
+Detroit
+
+Michigan
+Michigan
+
+Flint
+
+Michigan
+
+Grand Rapids
+
+Michigan
+
+Houghton Lake
+
+Michigan
+
+Lansing
+
+Michigan
+
+Muskegon
+
+CITY
+
+STATE
+
+CITY
+
+STATE
+
+Mercury
+
+Nevada
+
+Eugene
+
+Oregon
+
+Reno
+
+Nevada
+
+Medford
+
+Oregon
+
+Tonopah
+
+Nevada
+
+Pendleton
+
+Oregon
+
+Winnemucca
+
+Nevada
+
+Salem
+
+Oregon
+
+Concord
+
+Allentown
+
+Pennsylvania
+
+Atlantic City
+
+New
+Hampshire
+New Jersey
+
+Bradford
+
+Pennsylvania
+
+Michigan
+
+Newark
+
+New Jersey
+
+Erie
+
+Pennsylvania
+
+Sault St. Marie
+
+Michigan
+
+Albuquerque
+
+New Mexico
+
+Middletown
+
+Pennsylvania
+
+Traverse City
+
+Michigan
+
+Gallup
+
+New Mexico
+
+Philadelphia
+
+Pennsylvania
+
+Duluth
+
+Minnesota
+
+Roswell
+
+New Mexico
+
+Pittsburgh
+
+Pennsylvania
+
+International Falls
+
+Minnesota
+
+Albany
+
+New York
+
+Minneapolis-St.
+Paul
+Rochester
+
+Minnesota
+
+Binghamton
+
+New York
+
+Minnesota
+
+Buffalo
+
+New York
+
+St. Cloud
+
+Minnesota
+
+New York
+
+Jackson
+
+Mississippi
+
+New York LaGuardia Airport
+Long Island
+
+Meridian
+
+Mississippi
+
+Tupelo
+
+Mississippi
+
+Columbia
+
+Missouri
+
+Kansas City
+
+Missouri
+
+Springfield
+
+Missouri
+
+St. Louis - Lambert
+
+Missouri
+
+St. Louis - Sprit
+
+Missouri
+
+Billings
+
+Montana
+
+Glasgow
+
+Montana
+
+Great Falls
+
+Montana
+
+Harve City
+
+Montana
+
+Helena
+
+Montana
+
+Kalispell
+
+Montana
+
+Missoula
+
+Montana
+
+Grand Island
+
+Nebraska
+
+Lincoln
+
+Nebraska
+
+Norfolk
+
+Nebraska
+
+North Platte
+
+Nebraska
+
+Omaha
+
+Nebraska
+
+Scotts Bluff
+
+Nebraska
+
+Valentine
+
+Nebraska
+
+Ely
+
+Nevada
+
+Las Vegas
+
+Nevada
+
+Lovelock
+
+Nevada
+
+Scranton
+
+Pennsylvania
+
+Williamsport
+
+Pennsylvania
+
+Providence
+
+Rhode Island
+
+Charleston
+
+South Carolina
+
+Columbia
+
+South Carolina
+
+New York
+
+Greer
+
+South Carolina
+
+Massena
+
+New York
+
+Aberdeen
+
+South Dakota
+
+New York –
+Kennedy Airport
+Rochester
+
+New York
+
+Huron
+
+South Dakota
+
+New York
+
+Syracuse
+
+New York
+
+Asheville
+
+North Carolina
+
+Charlotte
+
+North Carolina
+
+Greensboro
+
+North Carolina
+
+Raleigh-Durham
+
+North Carolina
+
+Wilmington
+
+North Carolina
+
+Bismarck
+
+North Dakota
+
+Fargo
+
+North Dakota
+
+Minot
+
+North Dakota
+
+Williston
+
+North Dakota
+
+Akron
+
+Ohio
+
+Cleveland
+
+Ohio
+
+Columbus
+
+Ohio
+
+Dayton
+
+Ohio
+
+Mansfield
+
+Ohio
+
+Toledo
+
+Ohio
+
+Youngstown
+
+Ohio
+
+Oklahoma City
+
+Oklahoma
+
+Tulsa
+
+Oklahoma
+
+Astoria
+
+Oregon
+
+Burns
+
+Oregon
+
+70
+
+Pierre
+
+South Dakota
+
+Rapid City
+
+South Dakota
+
+Sioux Falls
+
+South Dakota
+
+Bristol
+
+Tennessee
+
+Chattanooga
+
+Tennessee
+
+Knoxville
+
+Tennessee
+
+Memphis
+
+Tennessee
+
+Nashville
+
+Tennessee
+
+Abilene
+
+Texas
+
+Amarillo
+
+Texas
+
+Austin
+
+Texas
+
+Brownsville
+
+Texas
+
+Corpus Christi
+
+Texas
+
+Dallas-Fort Worth
+
+Texas
+
+El Paso
+
+Texas
+
+Houston
+
+Texas
+
+Lubbock
+
+Texas
+
+Lufkin
+
+Texas
+
+Midland
+
+Texas
+
+Port Arthur
+
+Texas
+
+San Angelo
+
+Texas
+
+San Antonio
+
+Texas
+
+CITY
+
+STATE
+
+CITY
+
+STATE
+
+CITY
+
+STATE
+
+Victoria
+
+Texas
+
+Olympia
+
+Washington
+
+Green Bay
+
+Wisconsin
+
+Waco
+
+Texas
+
+Quillayute
+
+Washington
+
+La Crosse
+
+Wisconsin
+
+Cedar City
+
+Utah
+
+Seattle
+
+Washington
+
+Madison
+
+Wisconsin
+
+Salt Lake City
+
+Utah
+
+Spokane
+
+Washington
+
+Milwaukee
+
+Wisconsin
+
+Burlington
+
+Vermont
+
+Stampede Pass
+
+Washington
+
+Casper
+
+Wyoming
+
+DC - Dulles
+
+Virginia
+
+Yakima
+
+Washington
+
+Cheyenne
+
+Wyoming
+
+DC-Reagan
+
+Virginia
+
+Beckley
+
+West Virginia
+
+Lander
+
+Wyoming
+
+Lynchburg
+
+Virginia
+
+Charleston
+
+West Virginia
+
+Rock Springs
+
+Wyoming
+
+Norfolk
+
+Virginia
+
+Elkins
+
+West Virginia
+
+Sheridan
+
+Wyoming
+
+Richmond
+
+Virginia
+
+Huntington
+
+West Virginia
+
+Roanoke
+
+Virginia
+
+Eau Claire
+
+Wisconsin
+
+71
+
+11.0 Cities with Alternate Meteorological Data
+For some of the cities in the Meteorological Database, monthly wind speed data or solar
+insolation factors were not available. For each of these cities, meteorological data from another
+city were used. The following is a list of these cities and the corresponding city from which the
+missing data were taken:
+City
+Unakleet, AK
+Valdez, AK
+Bishop, CA
+Redding, CA
+Santa Barbara, CA
+Stockton, CA
+Fort Myers, FL
+Gainesville, FL
+Pensacola, FL
+Vero Beach, FL
+Columbus, GA
+Dubuque, IA
+Concordia, KS
+Jackson, KY
+Paducah, KY
+Muskegon, MI
+Sault St. Marie, MI
+Tupelo, MS
+Lincoln, NE
+Valentine, NE
+Williston, ND
+Aberdeen, SD
+Beckley, WV
+
+City used for Insolation Factors
+Nome, AK
+Yakutat, AK
+Fresno, CA
+Sacramento, CA
+Santa Maria, CA
+Sacramento, CA
+Tampa, FL
+Tallahassee, FL
+Mobile, AL
+West Palm Beach, FL
+Macon, GA
+Moline, IL
+Grand Island, NE
+Lexington, KY
+Evansville, IN
+Grand Rapids, MI
+MI Green Bay, WI
+Memphis, TN
+Omaha, NE
+North Platte, NE
+Glasgow, MT
+Sioux Falls, SD
+Charleston, WV
+
+City
+Unakleet, AK
+Bishop, CA
+Lewiston, ID
+Dubuque, IA
+
+City used for Wind Speed Data
+Nome, AK
+Fresno, CA
+Boise, ID
+Moline, IA
+
+72
+
+

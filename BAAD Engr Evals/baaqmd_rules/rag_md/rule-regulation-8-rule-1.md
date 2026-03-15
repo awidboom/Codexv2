@@ -1,0 +1,179 @@
+---
+rule_number: Regulation 8, Rule 1
+title: Regulation 8, Rule 1: General Provisions (Amendments Adopted 11/3/2021)
+source_url: https://www.baaqmd.gov/~/media/dotgov/files/rules/refinery-rules-definitions/rg0801_20211103-pdf.pdf?rev=06d430b39596487e8b921f0421f6558f&sc_lang=en
+local_pdf: C:\Users\aaw\Codex\BAAD Engr Evals\baaqmd_rules\pdfs\rule-regulation-8-rule-1.pdf
+rule_page_url: https://www.baaqmd.gov/en/rules-and-compliance/rules/reg-8-rule-1-general-provisions?rule_version=November 2021 Amendment
+version_status: Adopted
+adopted: 1980-01-01T00:00:00
+amended: 2021-11-03T00:00:00
+source_json: C:/Users/aaw/Codex/BAAD Engr Evals/baaqmd_rules/json/rule-regulation-8-rule-1.json
+---
+
+# Regulation 8, Rule 1: General Provisions (Amendments Adopted 11/3/2021)
+
+## Description
+
+N/A
+
+## Contact
+
+N/A
+
+## Sections
+
+### 100 GENERAL
+
+### 101 Description
+
+The purpose of this Regulation is to limit the emission of organic compounds to the atmosphere. Certain organic compounds may also be subject to the requirements of Regulations 11 or 12. (Amended March 17, 1982)
+
+### 110 Exemptions
+
+The following shall be exempted from the provisions of this regulation:
+
+#### 110.1
+
+Any structure designed and used exclusively as a dwelling for not more than two families, provided that this exclusion does not apply to the application of an architectural coating.
+
+#### 110.2
+
+Any intern al combustion engine.
+
+#### 110.3
+
+Any operation or group of operations which are related to each other by being a part of a continuous process, or a series of such operations on the same process material, which are subject to Regulation 8, Rule 2 or Rule 4, and for which emissions of organic compounds are reduced at least 85% on a mass basis. Where such reduction is achieved by incineration, at least 90% of the organic carbon shall be oxidized to carbon dioxide.
+
+#### 110.4
+
+Stationary storage tanks having a capacity of less than 1.0 m 3 (260 gal.).
+
+#### 110.5
+
+Any stationary storage tank installed prior to January 4, 1967 which is not used for storage of gasoline to be dispensed to internal combustion engine fuel tanks, and is either less than 7.6 m 3 (2000 gal.) capacity or an underground tank with an offset fill line.
+
+#### 110.6
+
+Deleted May 4, 1988.
+
+#### 110.7
+
+Any emission of organic compounds where the person responsible for such emission demonstrates to the satisfaction of the APCO that the emission contains ethane and if the ethane were not present the emission would not violate any standard. (Adopted March 17, 1982)
+
+### 200 DEFINITIONS
+
+### 201 Organic Compound
+
+Any compound of carbon, excluding methane, carbon monoxide, carbon dioxide, carbonic acid, metallic carbides or carbonates and ammonium carbonate. (Amended June 17, 1981, March 17, 1982)
+
+### 202 Organic Liquids
+
+**History**
+
+- Amended March 17, 1982
+
+All precursor organic compounds which contain hydrogen and which would exist as liquids at actual conditions of use or storage.
+
+### 203 Deleted November 3, 2021
+
+### 204 Process Unit Turnaround
+
+**History**
+
+- Renumbered March 17, 1982
+
+Any non- emergency unit shutdown, for the purpose of repair, maintenance or inspection, and subsequent start -up.
+
+### 205 Submerged Fill Pipe
+
+**History**
+
+- Renumbered March 17, 1982
+
+Any discharge pipe or nozzle which meets either of the following conditions:
+
+#### 205.1
+
+Where the tank is filled from the top, the discharge pipe or nozzle is totally submerged when the liquid level is 15 cm.(6 in.) from the bottom of the tank.
+
+#### 205.2
+
+Where the tank is filled from the side, t he discharge pipe or nozzle is totally submerged when the liquid level is 45 cm. (18 in.) from the bottom of the tank.
+
+### 206 True Vapor Pressure
+
+**History**
+
+- Renumbered March 17, 1982
+
+The pressure exerted when an organic liquid is in equilibrium with its own vapor expressed in bars. True vapor pressure may be found by referring 8-1-3 to applicable nomographs in American Petroleum Institute Bulletin No. 2517.
+
+### 207 Volatile Organic Compound (VOC)
+
+**History**
+
+- Amended March 17, 1982; June 15, 1994
+
+Any organic compound which would be emitted during use, application, curing or drying of a solvent or surface coating.
+
+### 208 Organic Compound, Non -Precursor
+
+**History**
+
+- Adopted March 17, 1982, Amended June 15, 1994
+
+Methylene chloride, 1, 1, 1, trichloroethane, 1, 1, 2 trichlorotrifluoroethane (CFC -113), trichlorofluoromethane (CFC -11), dichlorodifluoromethane (CFC -12), dichlorotetrafluoroethane (CFC -114), dichlorodifluoromethane (CFC -22)
+
+chloropentafluoroethane (CFC -115), 2-chloro- 1, 1, 1, 2- tetrafluoroethane (HCFC -124), pentafluoroethane (HFC -125), 1, 1, 2, 2 -tetrafluoroethane (HFC -134), 1, 1, 1- trifluoroethane (HFC -134a), 1, 1-difluoroethane (HFC -152a), trifluoromethane (CFC -23);
+
+and perfluorocarbons which fall into these classes:
+
+(1) Cyclic, branched, or linear completely fluorinated alkanes;
+
+(2) Cyclic, branched, or linear, completely fluorinated ethers with no unsaturations, (3) Cyclic, branched, or linear, completely fluorinated tertiary amines with no unsaturations, and (4) Sulfur containing perfluorocarbons wit h no unsaturations and with sulfur bonds only to carbon and fluorine.
+
+### 209 Deleted June 15, 1994
+
+### 210 Alternative Feedstock
+
+**History**
+
+- Adopted November 3, 2021
+
+Any feedstock, intermediate, product or byproduct material that contains organic material that is not derived from crude oil product, coal, natural gas, or any other fossil -fuel based organic material.
+
+### 211 Refinery
+
+**History**
+
+- Adopted November 3, 2021
+
+An establishment that is located on one or more contiguous or adjacent properties that processes any petroleum or alternative feedstock, to produce more usable products such as gasoline, diesel fuel, aviation fuel, lubricating oils, asphalt or petrochemica l feedstocks, or any other similar product. Refinery processes include separation processes (e.g., atmospheric or vacuum distillation, and light ends recovery), conversion processes (e.g., cracking, reforming, alkylation, polymerization, isomerization, cok ing, and visbreaking), treating processes (e.g., hydrodesulfurization, hydrotreating, chemical sweetening, acid gas removal, and deasphalting), feedstock and product handling (e.g., storage, crude oil blending, non- crude oil feedstock blending, product blending, loading, and unloading), and auxiliary facilities (e.g., boilers, waste water treatment, hydrogen production, sulfur recovery plant, cooling towers, blowdown systems, compressor engines, and power plants).
+
+### 300 STANDAR DS
+
+### 320 Surface Preparation; Clean -up; Coating, Ink, Paint Removal
+
+Effective August 1, 1988 a person shall not use open containers for the storage or disposal of cloth or paper impregnated with organic compounds that are used for surface preparation, clean- up, or coating, ink, or paint removal. (Adopted May 18, 1988)
+
+### 321 Closed Containers
+
+Effective August 1, 1988 a person shall not store spent or fresh organic compounds to be used for surface preparation, clean- up, or coating, ink, or paint remov al, in open containers. (Adopted May 18, 1988)
+
+### 322 Spray Equipment Clean -up Limitation
+
+Effective August 1, 1988 a person shall not use organic compounds for the clean- up of spray equipment unless equipment for collection of the cleaning compounds and minimizing its evaporation to the atmosphere is used. (Adopted May 18, 1988)
+
+### 600 MANUAL OF PROCEDURES
+
+### 601 Analysis of Sample
+
+Samples of organic compounds as defined in Subsection 110.6 shall be analyzed for vapor pressure as prescribed in the Manual of procedures, Volume III, Method 13. (Adopted March 17, 1982)
+
+### 602 Determination of Emissions
+
+**History**
+
+- Adopted 3/17/82; Amended 6/15/94, 11/3/21
+
+Emissions of organic compounds as specified in Subsection 8-1-110.3 shall be measured as prescribed by any of the following methods: 1) BAAQMD Manual of Procedures, Volume IV, ST -7, 2) EPA Method 25 or 25A, or 3) any other method approved by the APCO. A source shall be considered in violation if the VOC emissions measured by any of the referenced test methods exceed the standards of the rule.

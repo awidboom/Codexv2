@@ -1,0 +1,456 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\split_evals_2015_11\\application_23075.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 4
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "23075",
+    "application_number_from_filename": "23075"
+  },
+  "application_number": "23075",
+  "plant": {
+    "name": "Golden Eagle Refinery, 150 Solano Way, Martinez, Ca 94553",
+    "plant_id": 14628,
+    "address": "Martinez, CA 94553"
+  },
+  "evaluation_date": "April 4, 2011",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-802",
+      "description": "Fluid Catalytic Cracking Unit, Alteration for Regenerator Cyclone Upgrade"
+    }
+  ],
+  "background": {
+    "text": "I. BACKGROUND\nND  \n \n Tesoro has submitted an application for an Authority to Construct and Permit to Operate \nfor the  following Alteration:  \n  \nS-802  Fluid Catalytic Cracking Unit, Alteration for Regenerator Cyclone Upgrade  \n \nThe existing 12 2 -stage regenerator cyclones were installed in 1991 and are at the end of \ntheir useful life.  The replacement cyclones will have a sl ightly improved performance, \nwith an efficiency of over 99.9%.  Catalyst losses averaged 8.9 tons/day in 2009.  With \nthe cyclone replacement catalyst losses are expected to be reduced by at least 3 tons/day.  \nDirectionally this should reduce particulate em issions downstream of the ESPs because \nthe particulates in the ESP feed stream will go down.  However, due to the variability of \nthe ESP source test data, it is believed that the emission change downstream of the ESP \nwould likely not be  ascertained.   \n \nThis Application qualified for the Accelerated Permitting Program and the Temporary \nPermit to Operate was granted April 4, 2011.I. BACKGROUND\nND  \n \n Tesoro has submitted an application for an Authority to Construct and Permit to Operate \nfor the  following Alteration:  \n  \nS-802  Fluid Catalytic Cracking Unit, Alteration for Regenerator Cyclone Upgrade  \n \nThe existing 12 2 -stage regenerator cyclones were installed in 1991 and are at the end of \ntheir useful life.  The replacement cyclones will have a sl ightly improved performance, \nwith an efficiency of over 99.9%.  Catalyst losses averaged 8.9 tons/day in 2009.  With \nthe cyclone replacement catalyst losses are expected to be reduced by at least 3 tons/day.  \nDirectionally this should reduce particulate em issions downstream of the ESPs because \nthe particulates in the ESP feed stream will go down.  However, due to the variability of \nthe ESP source test data, it is believed that the emission change downstream of the ESP \nwould likely not be  ascertained.   \n \nThis Application qualified for the Accelerated Permitting Program and the Temporary \nPermit to Operate was granted April 4, 2011."
+  },
+  "emission_calculations": {
+    "text": "II. EMISSION CALCULATIONS\nNS  \n  \nThere are no emission changes associated with this application.II. EMISSION CALCULATIONS\nNS  \n  \nThere are no emission changes associated with this application.   \n \nIII. PLANT CUMULATIVE INCREASE SINCE 4/5/1991  \n  \nThere is no Cumulative Increase associated with this application."
+  },
+  "cumulative_increase": {
+    "text": "III. PLANT CUMULATIVE INCREASE SINCE 4/5/1991\n91  \n  \nThere is no Cumulative Increase associated with this application."
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "II. EMISSION CALCULATIONS\nNS  \n  \nThere are no emission changes associated with this application.II. EMISSION CALCULATIONS\nNS  \n  \nThere are no emission changes associated with this application.   \n \nIII. PLANT CUMULATIVE INCREASE SINCE 4/5/1991  \n  \nThere is no Cumulative Increase associated with this application.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-802": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": ""
+  },
+  "BACT": {
+    "text": "BACT)\n7. NOx concentration emission limits from the FCCU Regenerator shall not exceed \n20 ppmvd at 0% O2, measured as a 365 -calendar day rolling average, and 40 ppmvd at \n0% O2, measured as a 7 -calendar day rolling average, as determined prior to \ncommingling with other streams. (basis: Consent Decree Paragraph 35)  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  233 November 3 , 2015  8. SO2 concentration emission limits from the FCCU shall not exceed 25 ppmvd at \n0% O2, measured as a 365 -calendar day rolling average, and 50 ppmvd at 0% O2, \nmeasured  as a 7 -calendar day rolling average. (basis: Consent Decree Paragraph 82)  \n \n9. CO emissions from the FCCU shall not exceed 500 ppmvd at 0% O2, measured \nas a one -hour block average. (basis: Consent Decree Paragraph 94)  \n \n10. Particulate concentration emissio ns limits from the FCCU shall not exceed 1 \npound per 1000 pounds of coke burned (front half only according to Method 5B or 5F, as \nappropriate), measured as a one -hour average over three performance test runs. (basis: \nConsent Decree Paragraph 95)  \n \n11. The F CCU Regenerator (S -802) shall be an affected facility under 40 CFR 60 \nSubpart J for carbon monoxide (CO), opacity, particulate matter, and sulfur oxides (SO2) \nand the Owner/Operator shall comply with all applicable provisions of 40 CFR 60 \nSubparts A and J for FCCU Regenerators. The NSPS Subpart J limits for SO2, CO, \nopacity, and particulate matter, shall not apply during periods of startup, shutdown or \nmalfunction of the FCCU or malfunction of the applicable control equipment. (basis: \nConsent Decree Paragra phs 99, 102, 107A and 110)  \n \n12. The FCCU short term NOx limit in Part 7 (40 ppmvd at 0% O2, measured as a 7 -\ncalendar day rolling average) and the short -term SO2 limit in Part 8 (50 ppmvd at 0% O2, \nmeasured as a 7 -calendar day rolling average shall not appl y during periods of FCCU \nfeed hydrotreater outage, including startup, shutdown or malfunction of the hydrotreater. \nDuring hydrotreater outages, startup, shutdown or malfunction, Tesoro shall comply with \nthe FCCU Feed Hydrotreater Outage Plan. (basis: Conse nt Decree Paragraph 85)  \n \n13. The Owner/Operator shall use NOx and O2 CEMS to demonstrate compliance \nwith the NOx emission limits in Part 7. The CEMS shall be installed, certified, calibrated, \noperated, and maintained in accordance with the applicable provi sions of 40 CFR 60.13 \nand 40 CFR 60, Appendices A, B, and F. (basis: Consent Decree Paragraphs 61, 62)  \n \n14. The Owner/Operator of S -802 shall use SO2 and O2 CEMS to demonstrate \ncompliance with the SO2 emission limits in Part 8. The CEMS shall be installed,  \ncertified, calibrated, operated, and maintained in accordance with the applicable \nprovisions of 40 CFR 60.13 and 40 CFR 60, Appendices A, B, and F. (basis: Consent \ndecree Paragraphs 90, 91)  \n \n15. The Owner/Operator of S -802 is exempt from notification requ irements in \naccordance with 40 CFR Part 60, Subparts A and J, including without limitation 40 CFR \n60.7, with respect to the provisions of 40 CFR Part 60, Subparts A and J, as such \nrequirements apply to relate to CO, opacity, particulate matter, and SO2 emi ssions from \nFCCU regenerators. (basis: Consent decree Paragraphs 100, 108)  \n \n16. The Owner/Operator shall conduct the accuracy tests listed below on any CEMS \nused to comply with this permit condition unless that CEMS is otherwise subject to the \nrequirements  of NSPS Subparts A and J. These accuracy tests are allowed in lieu of the \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  234 November 3 , 2015  requirements of Part 60, Appendix F Paragraphs 5.1.1, 5.1.3 and 5.1.4. (basis: Consent \ndecree Paragraphs 62, 90, 101, 109)  \na. Conduct either a RAA or a RATA on each CEMS at least o nce every three (3) \nyears.  \nb. Conduct a CGA on each CEMS each calendar quarter during which a RAA or a \nRATA is not performed.  \nc. Conduct a FAT, as defined in BAAQMD regulations or procedures, if desired, in \nlieu of any required RAA or CGA."
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "IV. STATEMENT OF COMPLIANCE\nCE  \n \n There are no changes in compliance for S -802 FCCU.  S -802 is subject to and expected \nto be in compliance with Regulation 6, Rule 1, Regulation 9, Rule 1, NSPS Subpart J, \nMACT Subpart UUU and the Consent Decree requirements codified in Permit Condition \n11433.  \n \nThis application for an alteration is categorically exempt from CEQA per Regulation 2 -1-\n312.6 or 2 -1-312.7, and therefore is not  subject to CEQA review.  \n \n312.6  Permit applications relating exclusively to the repair, maintenance \nor minor alteration of existing facilities, equipment or sources involving \nnegligible or no expansion of use beyond that previously existing.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  231 November 3 , 2015  312.7  Permit a pplications for the replacement or reconstruction of existing \nsources or facilities where the new source or facility will be located on the \nsame site as the source or facility replaced and will have substantially the \nsame purpose and capacity as the source  or facility replaced.  \n  \nThis project is over 1,000 ft from the nearest public school and is therefore not subject to \nthe public notification requirements of Regulation 2 -1-412. \n \nPSD, BACT, Toxics and Offsets are not applicable.IV. STATEMENT OF COMPLIANCE\nCE  \n \n There are no changes in compliance for S -802 FCCU.  S -802 is subject to and expected \nto be in compliance with Regulation 6, Rule 1, Regulation 9, Rule 1, NSPS Subpart J, \nMACT Subpart UUU and the Consent Decree requirements codified in Permit Condition \n11433.  \n \nThis application for an alteration is categorically exempt from CEQA per Regulation 2 -1-\n312.6 or 2 -1-312.7, and therefore is not  subject to CEQA review.  \n \n312.6  Permit applications relating exclusively to the repair, maintenance \nor minor alteration of existing facilities, equipment or sources involving \nnegligible or no expansion of use beyond that previously existing.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  231 November 3 , 2015  312.7  Permit a pplications for the replacement or reconstruction of existing \nsources or facilities where the new source or facility will be located on the \nsame site as the source or facility replaced and will have substantially the \nsame purpose and capacity as the source  or facility replaced.  \n  \nThis project is over 1,000 ft from the nearest public school and is therefore not subject to \nthe public notification requirements of Regulation 2 -1-412. \n \nPSD, BACT, Toxics and Offsets are not applicable."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "V. CONDITIONS\nNDITIONS  \n \nThere will be no changes to the existing permit conditions.  Condition # 11433 will \nremain as follows:  \n \n \nCondition  11433  \n \nS802 FCCU Fluid Catalytic Cracker  \nS901 No. 7 BoilerV. CONDITIONS\nNDITIONS  \n \nThere will be no changes to the existing permit conditions.  Condition # 11433 will \nremain as follows:  \n \n \nCondition  11433  \n \nS802 FCCU Fluid Catalytic Cracker  \nS901 No. 7 Boiler  \nPERMIT CONDITION ID 11433 PLANT 14628 S -802 AND S -901, THE FCCU/CO \nBOILER PLANT:  \n \nADMI NISTRATIVELY REVISED VIA APPLICATION 15212 (MARCH 2007) \nADDED CONSENT DECREE PARTS 7 THROUGH 12.  \n \nADMINISTRATIVELY REVISED VIA APPLICATION 19647 (MARCH 2009) \nCONSOLIDATION OF BUBBLE CONDITION 4357 WITH CONDITION 8077  \n \nADMINISTRATIVELY REVISED VIA APPLICATION 17500 (JUNE 2009) \nCLARIFICATION OF CONSENT DECREE REQUIREMENTS, ADDING PARTS 13 - \n16. \n \nNOTE: The consent decree referenced in this condition is:  \nCase No. SA -05-CA-0569 -RF; United States of America v. Valero Refining Company – \nCalifornia, et.al.  in the United States District Court, Western District of Texas, San \nAntonio Division, Lodged 6/15/2005, Entered 11/23/2005  \n \n1. The FCCU/CO Boiler Plant, Sources S -802/S -901, shall be abated at all times of \noperation by the electrostatic precipitator A -30 operating properly as designed. (basis: \ncumulative increase, BACT, offsets)  \n \n2. Total emissions to the atmosphere from the FCCU/CO Boiler Plant, Sources S -\n802/S -901, shall not exceed the following limits in any calendar year.  \nPM/PM10  151.5  ton/year  \nPOC  5.8 ton/year  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  232 November 3 , 2015  NOx  354.4  ton/year  \nSO2 1335.5  ton/year  \nCO 121.9  ton/year  \n(basis: cumulative increase, BACT, offsets)  \n \n2A. The owner/operator shall continuously monitor and record SO2 and NOx \nemissions exiting A30 to determine compliance with Part 2. Any new CEMs  shall be \nreviewed and pre -approved the District Source Test Manager. (basis: cumulative \nincrease, BACT)  \n \n2B. The owner/operator shall install a continuous opacity monitor to ensure that the \nemission is not greater than 20% opacity for a period or periods aggregating more than \nthree minutes in any hour when the boiler is burning CO gas from the FCCU. (basis: Reg. \n6-1-302) \n \n3. Deleted.  (All new hydrocarbon vapor pressure relief valves associated with this \nproject are vented to the refinery flare gas recover y system.)  \n \n4. To demonstrate compliance with the emission limits of part 2 above and \nCondition ID 8077, part B2, the Owner/Operator shall monitor and calculate all \nemissions, in lb/day, of NOx, CO, POC, PM/PM10, and SO2, associated with the \nFCCU/CO Boiler  Plant, S -802 and S -901, and summarize and report these emissions to \nthe District on a monthly basis, in accordance with the procedures and requirements \nspecified in Condition ID 8077, part B5. (basis: cumulative increase, BACT, offsets)  \n \n5. The Owner/Oper ator may submit for District review approved source test data to \ndevelop new emission factors for CO and precursor organic compounds, POC, to be used \nas alternatives to the emission factors specified in Permit No. 22769 (the No. 3 HDS \nPermit), if it can be  shown that the new data are more representative of actual emissions. \n(basis: cumulative increase, offsets)  \n \n6. The Owner/Operator shall maintain a District approved file containing all \nmeasurements, records, charts, and other data which are required to be  collected  \npursuant to the various provisions of this conditional permit, as well as all other data and \ncalculations necessary to determine the emissions from the emission points covered by \nthis permit, according to the procedures specified in Permittee/O wner/Operator's Permit \nNo. 22769 (the No. 3 HDS Permit). This material shall be kept available for District staff \ninspection for a period of at least 5 years following the date on which such \nmeasurements, records or data are made or recorded. (basis: cumul ative increase, offsets, \nBACT)  \n \n7. NOx concentration emission limits from the FCCU Regenerator shall not exceed \n20 ppmvd at 0% O2, measured as a 365 -calendar day rolling average, and 40 ppmvd at \n0% O2, measured as a 7 -calendar day rolling average, as determined prior to \ncommingling with other streams. (basis: Consent Decree Paragraph 35)  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  233 November 3 , 2015  8. SO2 concentration emission limits from the FCCU shall not exceed 25 ppmvd at \n0% O2, measured as a 365 -calendar day rolling average, and 50 ppmvd at 0% O2, \nmeasured  as a 7 -calendar day rolling average. (basis: Consent Decree Paragraph 82)  \n \n9. CO emissions from the FCCU shall not exceed 500 ppmvd at 0% O2, measured \nas a one -hour block average. (basis: Consent Decree Paragraph 94)  \n \n10. Particulate concentration emissio ns limits from the FCCU shall not exceed 1 \npound per 1000 pounds of coke burned (front half only according to Method 5B or 5F, as \nappropriate), measured as a one -hour average over three performance test runs. (basis: \nConsent Decree Paragraph 95)  \n \n11. The F CCU Regenerator (S -802) shall be an affected facility under 40 CFR 60 \nSubpart J for carbon monoxide (CO), opacity, particulate matter, and sulfur oxides (SO2) \nand the Owner/Operator shall comply with all applicable provisions of 40 CFR 60 \nSubparts A and J for FCCU Regenerators. The NSPS Subpart J limits for SO2, CO, \nopacity, and particulate matter, shall not apply during periods of startup, shutdown or \nmalfunction of the FCCU or malfunction of the applicable control equipment. (basis: \nConsent Decree Paragra phs 99, 102, 107A and 110)  \n \n12. The FCCU short term NOx limit in Part 7 (40 ppmvd at 0% O2, measured as a 7 -\ncalendar day rolling average) and the short -term SO2 limit in Part 8 (50 ppmvd at 0% O2, \nmeasured as a 7 -calendar day rolling average shall not appl y during periods of FCCU \nfeed hydrotreater outage, including startup, shutdown or malfunction of the hydrotreater. \nDuring hydrotreater outages, startup, shutdown or malfunction, Tesoro shall comply with \nthe FCCU Feed Hydrotreater Outage Plan. (basis: Conse nt Decree Paragraph 85)  \n \n13. The Owner/Operator shall use NOx and O2 CEMS to demonstrate compliance \nwith the NOx emission limits in Part 7. The CEMS shall be installed, certified, calibrated, \noperated, and maintained in accordance with the applicable provi sions of 40 CFR 60.13 \nand 40 CFR 60, Appendices A, B, and F. (basis: Consent Decree Paragraphs 61, 62)  \n \n14. The Owner/Operator of S -802 shall use SO2 and O2 CEMS to demonstrate \ncompliance with the SO2 emission limits in Part 8. The CEMS shall be installed,  \ncertified, calibrated, operated, and maintained in accordance with the applicable \nprovisions of 40 CFR 60.13 and 40 CFR 60, Appendices A, B, and F. (basis: Consent \ndecree Paragraphs 90, 91)  \n \n15. The Owner/Operator of S -802 is exempt from notification requ irements in \naccordance with 40 CFR Part 60, Subparts A and J, including without limitation 40 CFR \n60.7, with respect to the provisions of 40 CFR Part 60, Subparts A and J, as such \nrequirements apply to relate to CO, opacity, particulate matter, and SO2 emi ssions from \nFCCU regenerators. (basis: Consent decree Paragraphs 100, 108)  \n \n16. The Owner/Operator shall conduct the accuracy tests listed below on any CEMS \nused to comply with this permit condition unless that CEMS is otherwise subject to the \nrequirements  of NSPS Subparts A and J. These accuracy tests are allowed in lieu of the \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  234 November 3 , 2015  requirements of Part 60, Appendix F Paragraphs 5.1.1, 5.1.3 and 5.1.4. (basis: Consent \ndecree Paragraphs 62, 90, 101, 109)  \na. Conduct either a RAA or a RATA on each CEMS at least o nce every three (3) \nyears.  \nb. Conduct a CGA on each CEMS each calendar quarter during which a RAA or a \nRATA is not performed.  \nc. Conduct a FAT, as defined in BAAQMD regulations or procedures, if desired, in \nlieu of any required RAA or CGA."
+  },
+  "permit_conditions": {
+    "condition_number": 11433,
+    "items": [
+      {
+        "num": 16,
+        "text": "NOTE: The consent decree referenced in this condition is:  \nCase No. SA -05-CA-0569 -RF; United States of America v. Valero Refining Company – \nCalifornia, et.al.  in the United States District Court, Western District of Texas, San \nAntonio Division, Lodged 6/15/2005, Entered 11/23/2005",
+        "basis": []
+      },
+      {
+        "num": 1,
+        "text": "The FCCU/CO Boiler Plant, Sources S -802/S -901, shall be abated at all times of \noperation by the electrostatic precipitator A -30 operating properly as designed. (",
+        "basis": [
+          "cumulative increase",
+          "BACT",
+          "offsets)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "Total emissions to the atmosphere from the FCCU/CO Boiler Plant, Sources S -\n802/S -901, shall not exceed the following limits in any calendar year.  \nPM/PM10  151.5  ton/year  \nPOC  5.8 ton/year  \nPermit Evaluation and Statement of",
+        "basis": [
+          "Site B2758 & B2759",
+          "Tesoro Refining & Marke ting Company",
+          "LLC",
+          "Golden Eagle Refinery",
+          "150 Solano Way",
+          "Martinez",
+          "CA  94553  \n    \nProposed Rev 5 Statement of Basis  232 November 3",
+          "2015  NOx  354.4  ton/year  \nSO2 1335.5  ton/year  \nCO 121.9  ton/year  \n(basis: cumulative increase",
+          "BACT",
+          "offsets)  \n \n2A. The owner/operator shall continuously monitor and record SO2 and NOx \nemissions exiting A30 to determine compliance with Part 2. Any new CEMs  shall be \nreviewed and pre -approved the District Source Test Manager. (basis: cumulative \nincrease",
+          "BACT)  \n \n2B. The owner/operator shall install a continuous opacity monitor to ensure that the \nemission is not greater than 20% opacity for a period or periods aggregating more than \nthree minutes in any hour when the boiler is burning CO gas from the FCCU. (basis: Reg. \n6-1-302)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "Deleted.  (All new hydrocarbon vapor pressure relief valves associated with this \nproject are vented to the refinery flare gas recover y system.)",
+        "basis": []
+      },
+      {
+        "num": 4,
+        "text": "To demonstrate compliance with the emission limits of part 2 above and \nCondition ID 8077, part B2, the Owner/Operator shall monitor and calculate all \nemissions, in lb/day, of NOx, CO, POC, PM/PM10, and SO2, associated with the \nFCCU/CO Boiler  Plant, S -802 and S -901, and summarize and report these emissions to \nthe District on a monthly basis, in accordance with the procedures and requirements \nspecified in Condition ID 8077, part B5. (",
+        "basis": [
+          "cumulative increase",
+          "BACT",
+          "offsets)"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "The Owner/Oper ator may submit for District review approved source test data to \ndevelop new emission factors for CO and precursor organic compounds, POC, to be used \nas alternatives to the emission factors specified in Permit No. 22769 (the No. 3 HDS \nPermit), if it can be  shown that the new data are more representative of actual emissions. \n(",
+        "basis": [
+          "cumulative increase",
+          "offsets)"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "The Owner/Operator shall maintain a District approved file containing all \nmeasurements, records, charts, and other data which are required to be  collected  \npursuant to the various provisions of this conditional permit, as well as all other data and \ncalculations necessary to determine the emissions from the emission points covered by \nthis permit, according to the procedures specified in Permittee/O wner/Operator's Permit \nNo. 22769 (the No. 3 HDS Permit). This material shall be kept available for District staff \ninspection for a period of at least 5 years following the date on which such \nmeasurements, records or data are made or recorded. (",
+        "basis": [
+          "cumul ative increase",
+          "offsets",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 7,
+        "text": "NOx concentration emission limits from the FCCU Regenerator shall not exceed \n20 ppmvd at 0% O2, measured as a 365 -calendar day rolling average, and 40 ppmvd at \n0% O2, measured as a 7 -calendar day rolling average, as determined prior to \ncommingling with other streams. (",
+        "basis": [
+          "Consent Decree Paragraph 35)  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759",
+          "Tesoro Refining & Marke ting Company",
+          "LLC",
+          "Golden Eagle Refinery",
+          "150 Solano Way",
+          "Martinez",
+          "CA  94553  \n    \nProposed Rev 5 Statement of Basis  233 November 3",
+          "2015  8. SO2 concentration emission limits from the FCCU shall not exceed 25 ppmvd at \n0% O2",
+          "measured as a 365 -calendar day rolling average",
+          "and 50 ppmvd at 0% O2",
+          "measured  as a 7 -calendar day rolling average. (basis: Consent Decree Paragraph 82)"
+        ]
+      },
+      {
+        "num": 9,
+        "text": "CO emissions from the FCCU shall not exceed 500 ppmvd at 0% O2, measured \nas a one -hour block average. (",
+        "basis": [
+          "Consent Decree Paragraph 94)"
+        ]
+      },
+      {
+        "num": 10,
+        "text": "Particulate concentration emissio ns limits from the FCCU shall not exceed 1 \npound per 1000 pounds of coke burned (front half only according to Method 5B or 5F, as \nappropriate), measured as a one -hour average over three performance test runs. (",
+        "basis": [
+          "Consent Decree Paragraph 95)"
+        ]
+      },
+      {
+        "num": 11,
+        "text": "The F CCU Regenerator (S -802) shall be an affected facility under 40 CFR 60 \nSubpart J for carbon monoxide (CO), opacity, particulate matter, and sulfur oxides (SO2) \nand the Owner/Operator shall comply with all applicable provisions of 40 CFR 60 \nSubparts A and J for FCCU Regenerators. The NSPS Subpart J limits for SO2, CO, \nopacity, and particulate matter, shall not apply during periods of startup, shutdown or \nmalfunction of the FCCU or malfunction of the applicable control equipment. (",
+        "basis": [
+          "Consent Decree Paragra phs 99",
+          "102",
+          "107A and 110)"
+        ]
+      },
+      {
+        "num": 12,
+        "text": "The FCCU short term NOx limit in Part 7 (40 ppmvd at 0% O2, measured as a 7 -\ncalendar day rolling average) and the short -term SO2 limit in Part 8 (50 ppmvd at 0% O2, \nmeasured as a 7 -calendar day rolling average shall not appl y during periods of FCCU \nfeed hydrotreater outage, including startup, shutdown or malfunction of the hydrotreater. \nDuring hydrotreater outages, startup, shutdown or malfunction, Tesoro shall comply with \nthe FCCU Feed Hydrotreater Outage Plan. (",
+        "basis": [
+          "Conse nt Decree Paragraph 85)"
+        ]
+      },
+      {
+        "num": 13,
+        "text": "The Owner/Operator shall use NOx and O2 CEMS to demonstrate compliance \nwith the NOx emission limits in Part 7. The CEMS shall be installed, certified, calibrated, \noperated, and maintained in accordance with the applicable provi sions of 40 CFR 60.13 \nand 40 CFR 60, Appendices A, B, and F. (",
+        "basis": [
+          "Consent Decree Paragraphs 61",
+          "62)"
+        ]
+      },
+      {
+        "num": 14,
+        "text": "The Owner/Operator of S -802 shall use SO2 and O2 CEMS to demonstrate \ncompliance with the SO2 emission limits in Part 8. The CEMS shall be installed,  \ncertified, calibrated, operated, and maintained in accordance with the applicable \nprovisions of 40 CFR 60.13 and 40 CFR 60, Appendices A, B, and F. (",
+        "basis": [
+          "Consent \ndecree Paragraphs 90",
+          "91)"
+        ]
+      },
+      {
+        "num": 15,
+        "text": "The Owner/Operator of S -802 is exempt from notification requ irements in \naccordance with 40 CFR Part 60, Subparts A and J, including without limitation 40 CFR",
+        "basis": []
+      },
+      {
+        "num": 60,
+        "text": "7, with respect to the provisions of 40 CFR Part 60, Subparts A and J, as such \nrequirements apply to relate to CO, opacity, particulate matter, and SO2 emi ssions from \nFCCU regenerators. (",
+        "basis": [
+          "Consent decree Paragraphs 100",
+          "108)"
+        ]
+      },
+      {
+        "num": 16,
+        "text": "The Owner/Operator shall conduct the accuracy tests listed below on any CEMS \nused to comply with this permit condition unless that CEMS is otherwise subject to the \nrequirements  of NSPS Subparts A and J. These accuracy tests are allowed in lieu of the \nPermit Evaluation and Statement of",
+        "basis": [
+          "Site B2758 & B2759",
+          "Tesoro Refining & Marke ting Company",
+          "LLC",
+          "Golden Eagle Refinery",
+          "150 Solano Way",
+          "Martinez",
+          "CA  94553  \n    \nProposed Rev 5 Statement of Basis  234 November 3",
+          "2015  requirements of Part 60",
+          "Appendix F Paragraphs 5.1.1",
+          "5.1.3 and 5.1.4. (basis: Consent \ndecree Paragraphs 62",
+          "90",
+          "101",
+          "109)  \na. Conduct either a RAA or a RATA on each CEMS at least o nce every three (3) \nyears.  \nb. Conduct a CGA on each CEMS each calendar quarter during which a RAA or a \nRATA is not performed.  \nc. Conduct a FAT",
+          "as defined in BAAQMD regulations or procedures",
+          "if desired",
+          "in \nlieu of any required RAA or CGA."
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "VI. RECOMMENDATIONVI. RECOMMENDATION\nTION  \n \nIt is recommended that an Authority to Construct be waived and that a Permit to Operate \nbe granted to Tesoro Refining & Marketing Company for the following equipment:  \n \nS-802  Fluid Catalytic Cracking Unit, Alteration for Regenerator Cyclone Upgrade  \n \n \n \n \n \n _________________________    __________________________  \n Arthur Valla      4May11  \n Senior Air Quality Engineer"
+  },
+  "raw_sections": {
+    "preamble": "Permit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  230 November 3 , 2015  Application 23075, Alteration to S -802 FCCU",
+    "blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nPORT"
+      },
+      {
+        "heading": "TESORO - GOLDEN EAGLE REFINRY",
+        "alias": null,
+        "text": "TESORO - GOLDEN EAGLE REFINRY\nApplication #23075 - Plant #14628  \n \n150 Solano Way  \nMartinez, CA 94553"
+      },
+      {
+        "heading": "I. BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "I. BACKGROUND\nND  \n \n Tesoro has submitted an application for an Authority to Construct and Permit to Operate \nfor the  following Alteration:  \n  \nS-802  Fluid Catalytic Cracking Unit, Alteration for Regenerator Cyclone Upgrade  \n \nThe existing 12 2 -stage regenerator cyclones were installed in 1991 and are at the end of \ntheir useful life.  The replacement cyclones will have a sl ightly improved performance, \nwith an efficiency of over 99.9%.  Catalyst losses averaged 8.9 tons/day in 2009.  With \nthe cyclone replacement catalyst losses are expected to be reduced by at least 3 tons/day.  \nDirectionally this should reduce particulate em issions downstream of the ESPs because \nthe particulates in the ESP feed stream will go down.  However, due to the variability of \nthe ESP source test data, it is believed that the emission change downstream of the ESP \nwould likely not be  ascertained.   \n \nThis Application qualified for the Accelerated Permitting Program and the Temporary \nPermit to Operate was granted April 4, 2011."
+      },
+      {
+        "heading": "II. EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "II. EMISSION CALCULATIONS\nNS  \n  \nThere are no emission changes associated with this application."
+      },
+      {
+        "heading": "III. PLANT CUMULATIVE INCREASE SINCE 4/5/1991",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "III. PLANT CUMULATIVE INCREASE SINCE 4/5/1991\n91  \n  \nThere is no Cumulative Increase associated with this application."
+      },
+      {
+        "heading": "IV. STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "IV. STATEMENT OF COMPLIANCE\nCE  \n \n There are no changes in compliance for S -802 FCCU.  S -802 is subject to and expected \nto be in compliance with Regulation 6, Rule 1, Regulation 9, Rule 1, NSPS Subpart J, \nMACT Subpart UUU and the Consent Decree requirements codified in Permit Condition \n11433.  \n \nThis application for an alteration is categorically exempt from CEQA per Regulation 2 -1-\n312.6 or 2 -1-312.7, and therefore is not  subject to CEQA review.  \n \n312.6  Permit applications relating exclusively to the repair, maintenance \nor minor alteration of existing facilities, equipment or sources involving \nnegligible or no expansion of use beyond that previously existing.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  231 November 3 , 2015  312.7  Permit a pplications for the replacement or reconstruction of existing \nsources or facilities where the new source or facility will be located on the \nsame site as the source or facility replaced and will have substantially the \nsame purpose and capacity as the source  or facility replaced.  \n  \nThis project is over 1,000 ft from the nearest public school and is therefore not subject to \nthe public notification requirements of Regulation 2 -1-412. \n \nPSD, BACT, Toxics and Offsets are not applicable."
+      },
+      {
+        "heading": "V. CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "V. CONDITIONS\nNDITIONS  \n \nThere will be no changes to the existing permit conditions.  Condition # 11433 will \nremain as follows:  \n \n \nCondition  11433  \n \nS802 FCCU Fluid Catalytic Cracker  \nS901 No. 7 Boiler"
+      },
+      {
+        "heading": "PERMIT CONDITION ID 11433 PLANT 14628 S -802 AND S -901, THE FCCU/CO",
+        "alias": null,
+        "text": "PERMIT CONDITION ID 11433 PLANT 14628 S -802 AND S -901, THE FCCU/CO\nBOILER PLANT:"
+      },
+      {
+        "heading": "ADMI NISTRATIVELY REVISED VIA APPLICATION 15212 (MARCH 2007)",
+        "alias": null,
+        "text": "ADMI NISTRATIVELY REVISED VIA APPLICATION 15212 (MARCH 2007)\n7)"
+      },
+      {
+        "heading": "ADDED CONSENT DECREE PARTS 7 THROUGH 12.",
+        "alias": null,
+        "text": "ADDED CONSENT DECREE PARTS 7 THROUGH 12."
+      },
+      {
+        "heading": "ADMINISTRATIVELY REVISED VIA APPLICATION 19647 (MARCH 2009)",
+        "alias": null,
+        "text": "ADMINISTRATIVELY REVISED VIA APPLICATION 19647 (MARCH 2009)"
+      },
+      {
+        "heading": "CONSOLIDATION OF BUBBLE CONDITION 4357 WITH CONDITION 8077",
+        "alias": null,
+        "text": "CONSOLIDATION OF BUBBLE CONDITION 4357 WITH CONDITION 8077"
+      },
+      {
+        "heading": "ADMINISTRATIVELY REVISED VIA APPLICATION 17500 (JUNE 2009)",
+        "alias": null,
+        "text": "ADMINISTRATIVELY REVISED VIA APPLICATION 17500 (JUNE 2009)"
+      },
+      {
+        "heading": "CLARIFICATION OF CONSENT DECREE REQUIREMENTS, ADDING PARTS 13 -",
+        "alias": null,
+        "text": "CLARIFICATION OF CONSENT DECREE REQUIREMENTS, ADDING PARTS 13 -\n16. \n \nNOTE: The consent decree referenced in this condition is:  \nCase No. SA -05-CA-0569 -RF; United States of America v. Valero Refining Company – \nCalifornia, et.al.  in the United States District Court, Western District of Texas, San \nAntonio Division, Lodged 6/15/2005, Entered 11/23/2005  \n \n1. The FCCU/CO Boiler Plant, Sources S -802/S -901, shall be abated at all times of \noperation by the electrostatic precipitator A -30 operating properly as designed. (basis: \ncumulative increase, BACT, offsets)  \n \n2. Total emissions to the atmosphere from the FCCU/CO Boiler Plant, Sources S -\n802/S -901, shall not exceed the following limits in any calendar year.  \nPM/PM10  151.5  ton/year  \nPOC  5.8 ton/year  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  232 November 3 , 2015  NOx  354.4  ton/year  \nSO2 1335.5  ton/year  \nCO 121.9  ton/year  \n(basis: cumulative increase, BACT, offsets)  \n \n2A. The owner/operator shall continuously monitor and record SO2 and NOx \nemissions exiting A30 to determine compliance with Part 2. Any new CEMs  shall be \nreviewed and pre -approved the District Source Test Manager. (basis: cumulative \nincrease, BACT)  \n \n2B. The owner/operator shall install a continuous opacity monitor to ensure that the \nemission is not greater than 20% opacity for a period or periods aggregating more than \nthree minutes in any hour when the boiler is burning CO gas from the FCCU. (basis: Reg. \n6-1-302) \n \n3. Deleted.  (All new hydrocarbon vapor pressure relief valves associated with this \nproject are vented to the refinery flare gas recover y system.)  \n \n4. To demonstrate compliance with the emission limits of part 2 above and \nCondition ID 8077, part B2, the Owner/Operator shall monitor and calculate all \nemissions, in lb/day, of NOx, CO, POC, PM/PM10, and SO2, associated with the \nFCCU/CO Boiler  Plant, S -802 and S -901, and summarize and report these emissions to \nthe District on a monthly basis, in accordance with the procedures and requirements \nspecified in Condition ID 8077, part B5. (basis: cumulative increase, BACT, offsets)  \n \n5. The Owner/Oper ator may submit for District review approved source test data to \ndevelop new emission factors for CO and precursor organic compounds, POC, to be used \nas alternatives to the emission factors specified in Permit No. 22769 (the No. 3 HDS \nPermit), if it can be  shown that the new data are more representative of actual emissions. \n(basis: cumulative increase, offsets)  \n \n6. The Owner/Operator shall maintain a District approved file containing all \nmeasurements, records, charts, and other data which are required to be  collected  \npursuant to the various provisions of this conditional permit, as well as all other data and \ncalculations necessary to determine the emissions from the emission points covered by \nthis permit, according to the procedures specified in Permittee/O wner/Operator's Permit \nNo. 22769 (the No. 3 HDS Permit). This material shall be kept available for District staff \ninspection for a period of at least 5 years following the date on which such \nmeasurements, records or data are made or recorded. (basis: cumul ative increase, offsets,"
+      },
+      {
+        "heading": "BACT)",
+        "alias": "BACT",
+        "text": "BACT)\n7. NOx concentration emission limits from the FCCU Regenerator shall not exceed \n20 ppmvd at 0% O2, measured as a 365 -calendar day rolling average, and 40 ppmvd at \n0% O2, measured as a 7 -calendar day rolling average, as determined prior to \ncommingling with other streams. (basis: Consent Decree Paragraph 35)  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  233 November 3 , 2015  8. SO2 concentration emission limits from the FCCU shall not exceed 25 ppmvd at \n0% O2, measured as a 365 -calendar day rolling average, and 50 ppmvd at 0% O2, \nmeasured  as a 7 -calendar day rolling average. (basis: Consent Decree Paragraph 82)  \n \n9. CO emissions from the FCCU shall not exceed 500 ppmvd at 0% O2, measured \nas a one -hour block average. (basis: Consent Decree Paragraph 94)  \n \n10. Particulate concentration emissio ns limits from the FCCU shall not exceed 1 \npound per 1000 pounds of coke burned (front half only according to Method 5B or 5F, as \nappropriate), measured as a one -hour average over three performance test runs. (basis: \nConsent Decree Paragraph 95)  \n \n11. The F CCU Regenerator (S -802) shall be an affected facility under 40 CFR 60 \nSubpart J for carbon monoxide (CO), opacity, particulate matter, and sulfur oxides (SO2) \nand the Owner/Operator shall comply with all applicable provisions of 40 CFR 60 \nSubparts A and J for FCCU Regenerators. The NSPS Subpart J limits for SO2, CO, \nopacity, and particulate matter, shall not apply during periods of startup, shutdown or \nmalfunction of the FCCU or malfunction of the applicable control equipment. (basis: \nConsent Decree Paragra phs 99, 102, 107A and 110)  \n \n12. The FCCU short term NOx limit in Part 7 (40 ppmvd at 0% O2, measured as a 7 -\ncalendar day rolling average) and the short -term SO2 limit in Part 8 (50 ppmvd at 0% O2, \nmeasured as a 7 -calendar day rolling average shall not appl y during periods of FCCU \nfeed hydrotreater outage, including startup, shutdown or malfunction of the hydrotreater. \nDuring hydrotreater outages, startup, shutdown or malfunction, Tesoro shall comply with \nthe FCCU Feed Hydrotreater Outage Plan. (basis: Conse nt Decree Paragraph 85)  \n \n13. The Owner/Operator shall use NOx and O2 CEMS to demonstrate compliance \nwith the NOx emission limits in Part 7. The CEMS shall be installed, certified, calibrated, \noperated, and maintained in accordance with the applicable provi sions of 40 CFR 60.13 \nand 40 CFR 60, Appendices A, B, and F. (basis: Consent Decree Paragraphs 61, 62)  \n \n14. The Owner/Operator of S -802 shall use SO2 and O2 CEMS to demonstrate \ncompliance with the SO2 emission limits in Part 8. The CEMS shall be installed,  \ncertified, calibrated, operated, and maintained in accordance with the applicable \nprovisions of 40 CFR 60.13 and 40 CFR 60, Appendices A, B, and F. (basis: Consent \ndecree Paragraphs 90, 91)  \n \n15. The Owner/Operator of S -802 is exempt from notification requ irements in \naccordance with 40 CFR Part 60, Subparts A and J, including without limitation 40 CFR \n60.7, with respect to the provisions of 40 CFR Part 60, Subparts A and J, as such \nrequirements apply to relate to CO, opacity, particulate matter, and SO2 emi ssions from \nFCCU regenerators. (basis: Consent decree Paragraphs 100, 108)  \n \n16. The Owner/Operator shall conduct the accuracy tests listed below on any CEMS \nused to comply with this permit condition unless that CEMS is otherwise subject to the \nrequirements  of NSPS Subparts A and J. These accuracy tests are allowed in lieu of the \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  234 November 3 , 2015  requirements of Part 60, Appendix F Paragraphs 5.1.1, 5.1.3 and 5.1.4. (basis: Consent \ndecree Paragraphs 62, 90, 101, 109)  \na. Conduct either a RAA or a RATA on each CEMS at least o nce every three (3) \nyears.  \nb. Conduct a CGA on each CEMS each calendar quarter during which a RAA or a \nRATA is not performed.  \nc. Conduct a FAT, as defined in BAAQMD regulations or procedures, if desired, in \nlieu of any required RAA or CGA."
+      },
+      {
+        "heading": "VI. RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "VI. RECOMMENDATION"
+      },
+      {
+        "heading": "I. BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "I. BACKGROUND\nND  \n \n Tesoro has submitted an application for an Authority to Construct and Permit to Operate \nfor the  following Alteration:  \n  \nS-802  Fluid Catalytic Cracking Unit, Alteration for Regenerator Cyclone Upgrade  \n \nThe existing 12 2 -stage regenerator cyclones were installed in 1991 and are at the end of \ntheir useful life.  The replacement cyclones will have a sl ightly improved performance, \nwith an efficiency of over 99.9%.  Catalyst losses averaged 8.9 tons/day in 2009.  With \nthe cyclone replacement catalyst losses are expected to be reduced by at least 3 tons/day.  \nDirectionally this should reduce particulate em issions downstream of the ESPs because \nthe particulates in the ESP feed stream will go down.  However, due to the variability of \nthe ESP source test data, it is believed that the emission change downstream of the ESP \nwould likely not be  ascertained.   \n \nThis Application qualified for the Accelerated Permitting Program and the Temporary \nPermit to Operate was granted April 4, 2011."
+      },
+      {
+        "heading": "II. EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "II. EMISSION CALCULATIONS\nNS  \n  \nThere are no emission changes associated with this application.   \n \nIII. PLANT CUMULATIVE INCREASE SINCE 4/5/1991  \n  \nThere is no Cumulative Increase associated with this application."
+      },
+      {
+        "heading": "IV. STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "IV. STATEMENT OF COMPLIANCE\nCE  \n \n There are no changes in compliance for S -802 FCCU.  S -802 is subject to and expected \nto be in compliance with Regulation 6, Rule 1, Regulation 9, Rule 1, NSPS Subpart J, \nMACT Subpart UUU and the Consent Decree requirements codified in Permit Condition \n11433.  \n \nThis application for an alteration is categorically exempt from CEQA per Regulation 2 -1-\n312.6 or 2 -1-312.7, and therefore is not  subject to CEQA review.  \n \n312.6  Permit applications relating exclusively to the repair, maintenance \nor minor alteration of existing facilities, equipment or sources involving \nnegligible or no expansion of use beyond that previously existing.  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  231 November 3 , 2015  312.7  Permit a pplications for the replacement or reconstruction of existing \nsources or facilities where the new source or facility will be located on the \nsame site as the source or facility replaced and will have substantially the \nsame purpose and capacity as the source  or facility replaced.  \n  \nThis project is over 1,000 ft from the nearest public school and is therefore not subject to \nthe public notification requirements of Regulation 2 -1-412. \n \nPSD, BACT, Toxics and Offsets are not applicable."
+      },
+      {
+        "heading": "V. CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "V. CONDITIONS\nNDITIONS  \n \nThere will be no changes to the existing permit conditions.  Condition # 11433 will \nremain as follows:  \n \n \nCondition  11433  \n \nS802 FCCU Fluid Catalytic Cracker  \nS901 No. 7 Boiler  \nPERMIT CONDITION ID 11433 PLANT 14628 S -802 AND S -901, THE FCCU/CO \nBOILER PLANT:  \n \nADMI NISTRATIVELY REVISED VIA APPLICATION 15212 (MARCH 2007) \nADDED CONSENT DECREE PARTS 7 THROUGH 12.  \n \nADMINISTRATIVELY REVISED VIA APPLICATION 19647 (MARCH 2009) \nCONSOLIDATION OF BUBBLE CONDITION 4357 WITH CONDITION 8077  \n \nADMINISTRATIVELY REVISED VIA APPLICATION 17500 (JUNE 2009) \nCLARIFICATION OF CONSENT DECREE REQUIREMENTS, ADDING PARTS 13 - \n16. \n \nNOTE: The consent decree referenced in this condition is:  \nCase No. SA -05-CA-0569 -RF; United States of America v. Valero Refining Company – \nCalifornia, et.al.  in the United States District Court, Western District of Texas, San \nAntonio Division, Lodged 6/15/2005, Entered 11/23/2005  \n \n1. The FCCU/CO Boiler Plant, Sources S -802/S -901, shall be abated at all times of \noperation by the electrostatic precipitator A -30 operating properly as designed. (basis: \ncumulative increase, BACT, offsets)  \n \n2. Total emissions to the atmosphere from the FCCU/CO Boiler Plant, Sources S -\n802/S -901, shall not exceed the following limits in any calendar year.  \nPM/PM10  151.5  ton/year  \nPOC  5.8 ton/year  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  232 November 3 , 2015  NOx  354.4  ton/year  \nSO2 1335.5  ton/year  \nCO 121.9  ton/year  \n(basis: cumulative increase, BACT, offsets)  \n \n2A. The owner/operator shall continuously monitor and record SO2 and NOx \nemissions exiting A30 to determine compliance with Part 2. Any new CEMs  shall be \nreviewed and pre -approved the District Source Test Manager. (basis: cumulative \nincrease, BACT)  \n \n2B. The owner/operator shall install a continuous opacity monitor to ensure that the \nemission is not greater than 20% opacity for a period or periods aggregating more than \nthree minutes in any hour when the boiler is burning CO gas from the FCCU. (basis: Reg. \n6-1-302) \n \n3. Deleted.  (All new hydrocarbon vapor pressure relief valves associated with this \nproject are vented to the refinery flare gas recover y system.)  \n \n4. To demonstrate compliance with the emission limits of part 2 above and \nCondition ID 8077, part B2, the Owner/Operator shall monitor and calculate all \nemissions, in lb/day, of NOx, CO, POC, PM/PM10, and SO2, associated with the \nFCCU/CO Boiler  Plant, S -802 and S -901, and summarize and report these emissions to \nthe District on a monthly basis, in accordance with the procedures and requirements \nspecified in Condition ID 8077, part B5. (basis: cumulative increase, BACT, offsets)  \n \n5. The Owner/Oper ator may submit for District review approved source test data to \ndevelop new emission factors for CO and precursor organic compounds, POC, to be used \nas alternatives to the emission factors specified in Permit No. 22769 (the No. 3 HDS \nPermit), if it can be  shown that the new data are more representative of actual emissions. \n(basis: cumulative increase, offsets)  \n \n6. The Owner/Operator shall maintain a District approved file containing all \nmeasurements, records, charts, and other data which are required to be  collected  \npursuant to the various provisions of this conditional permit, as well as all other data and \ncalculations necessary to determine the emissions from the emission points covered by \nthis permit, according to the procedures specified in Permittee/O wner/Operator's Permit \nNo. 22769 (the No. 3 HDS Permit). This material shall be kept available for District staff \ninspection for a period of at least 5 years following the date on which such \nmeasurements, records or data are made or recorded. (basis: cumul ative increase, offsets, \nBACT)  \n \n7. NOx concentration emission limits from the FCCU Regenerator shall not exceed \n20 ppmvd at 0% O2, measured as a 365 -calendar day rolling average, and 40 ppmvd at \n0% O2, measured as a 7 -calendar day rolling average, as determined prior to \ncommingling with other streams. (basis: Consent Decree Paragraph 35)  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  233 November 3 , 2015  8. SO2 concentration emission limits from the FCCU shall not exceed 25 ppmvd at \n0% O2, measured as a 365 -calendar day rolling average, and 50 ppmvd at 0% O2, \nmeasured  as a 7 -calendar day rolling average. (basis: Consent Decree Paragraph 82)  \n \n9. CO emissions from the FCCU shall not exceed 500 ppmvd at 0% O2, measured \nas a one -hour block average. (basis: Consent Decree Paragraph 94)  \n \n10. Particulate concentration emissio ns limits from the FCCU shall not exceed 1 \npound per 1000 pounds of coke burned (front half only according to Method 5B or 5F, as \nappropriate), measured as a one -hour average over three performance test runs. (basis: \nConsent Decree Paragraph 95)  \n \n11. The F CCU Regenerator (S -802) shall be an affected facility under 40 CFR 60 \nSubpart J for carbon monoxide (CO), opacity, particulate matter, and sulfur oxides (SO2) \nand the Owner/Operator shall comply with all applicable provisions of 40 CFR 60 \nSubparts A and J for FCCU Regenerators. The NSPS Subpart J limits for SO2, CO, \nopacity, and particulate matter, shall not apply during periods of startup, shutdown or \nmalfunction of the FCCU or malfunction of the applicable control equipment. (basis: \nConsent Decree Paragra phs 99, 102, 107A and 110)  \n \n12. The FCCU short term NOx limit in Part 7 (40 ppmvd at 0% O2, measured as a 7 -\ncalendar day rolling average) and the short -term SO2 limit in Part 8 (50 ppmvd at 0% O2, \nmeasured as a 7 -calendar day rolling average shall not appl y during periods of FCCU \nfeed hydrotreater outage, including startup, shutdown or malfunction of the hydrotreater. \nDuring hydrotreater outages, startup, shutdown or malfunction, Tesoro shall comply with \nthe FCCU Feed Hydrotreater Outage Plan. (basis: Conse nt Decree Paragraph 85)  \n \n13. The Owner/Operator shall use NOx and O2 CEMS to demonstrate compliance \nwith the NOx emission limits in Part 7. The CEMS shall be installed, certified, calibrated, \noperated, and maintained in accordance with the applicable provi sions of 40 CFR 60.13 \nand 40 CFR 60, Appendices A, B, and F. (basis: Consent Decree Paragraphs 61, 62)  \n \n14. The Owner/Operator of S -802 shall use SO2 and O2 CEMS to demonstrate \ncompliance with the SO2 emission limits in Part 8. The CEMS shall be installed,  \ncertified, calibrated, operated, and maintained in accordance with the applicable \nprovisions of 40 CFR 60.13 and 40 CFR 60, Appendices A, B, and F. (basis: Consent \ndecree Paragraphs 90, 91)  \n \n15. The Owner/Operator of S -802 is exempt from notification requ irements in \naccordance with 40 CFR Part 60, Subparts A and J, including without limitation 40 CFR \n60.7, with respect to the provisions of 40 CFR Part 60, Subparts A and J, as such \nrequirements apply to relate to CO, opacity, particulate matter, and SO2 emi ssions from \nFCCU regenerators. (basis: Consent decree Paragraphs 100, 108)  \n \n16. The Owner/Operator shall conduct the accuracy tests listed below on any CEMS \nused to comply with this permit condition unless that CEMS is otherwise subject to the \nrequirements  of NSPS Subparts A and J. These accuracy tests are allowed in lieu of the \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  234 November 3 , 2015  requirements of Part 60, Appendix F Paragraphs 5.1.1, 5.1.3 and 5.1.4. (basis: Consent \ndecree Paragraphs 62, 90, 101, 109)  \na. Conduct either a RAA or a RATA on each CEMS at least o nce every three (3) \nyears.  \nb. Conduct a CGA on each CEMS each calendar quarter during which a RAA or a \nRATA is not performed.  \nc. Conduct a FAT, as defined in BAAQMD regulations or procedures, if desired, in \nlieu of any required RAA or CGA."
+      },
+      {
+        "heading": "VI. RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "VI. RECOMMENDATION\nTION  \n \nIt is recommended that an Authority to Construct be waived and that a Permit to Operate \nbe granted to Tesoro Refining & Marketing Company for the following equipment:  \n \nS-802  Fluid Catalytic Cracking Unit, Alteration for Regenerator Cyclone Upgrade  \n \n \n \n \n \n _________________________    __________________________  \n Arthur Valla      4May11  \n Senior Air Quality Engineer"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nPORT"
+      },
+      {
+        "heading": "TESORO - GOLDEN EAGLE REFINRY",
+        "alias": null,
+        "text": "TESORO - GOLDEN EAGLE REFINRY\nApplication #23075 - Plant #14628  \n \n150 Solano Way  \nMartinez, CA 94553"
+      },
+      {
+        "heading": "PERMIT CONDITION ID 11433 PLANT 14628 S -802 AND S -901, THE FCCU/CO",
+        "alias": null,
+        "text": "PERMIT CONDITION ID 11433 PLANT 14628 S -802 AND S -901, THE FCCU/CO\nBOILER PLANT:"
+      },
+      {
+        "heading": "ADMI NISTRATIVELY REVISED VIA APPLICATION 15212 (MARCH 2007)",
+        "alias": null,
+        "text": "ADMI NISTRATIVELY REVISED VIA APPLICATION 15212 (MARCH 2007)\n7)"
+      },
+      {
+        "heading": "ADDED CONSENT DECREE PARTS 7 THROUGH 12.",
+        "alias": null,
+        "text": "ADDED CONSENT DECREE PARTS 7 THROUGH 12."
+      },
+      {
+        "heading": "ADMINISTRATIVELY REVISED VIA APPLICATION 19647 (MARCH 2009)",
+        "alias": null,
+        "text": "ADMINISTRATIVELY REVISED VIA APPLICATION 19647 (MARCH 2009)"
+      },
+      {
+        "heading": "CONSOLIDATION OF BUBBLE CONDITION 4357 WITH CONDITION 8077",
+        "alias": null,
+        "text": "CONSOLIDATION OF BUBBLE CONDITION 4357 WITH CONDITION 8077"
+      },
+      {
+        "heading": "ADMINISTRATIVELY REVISED VIA APPLICATION 17500 (JUNE 2009)",
+        "alias": null,
+        "text": "ADMINISTRATIVELY REVISED VIA APPLICATION 17500 (JUNE 2009)"
+      },
+      {
+        "heading": "CLARIFICATION OF CONSENT DECREE REQUIREMENTS, ADDING PARTS 13 -",
+        "alias": null,
+        "text": "CLARIFICATION OF CONSENT DECREE REQUIREMENTS, ADDING PARTS 13 -\n16. \n \nNOTE: The consent decree referenced in this condition is:  \nCase No. SA -05-CA-0569 -RF; United States of America v. Valero Refining Company – \nCalifornia, et.al.  in the United States District Court, Western District of Texas, San \nAntonio Division, Lodged 6/15/2005, Entered 11/23/2005  \n \n1. The FCCU/CO Boiler Plant, Sources S -802/S -901, shall be abated at all times of \noperation by the electrostatic precipitator A -30 operating properly as designed. (basis: \ncumulative increase, BACT, offsets)  \n \n2. Total emissions to the atmosphere from the FCCU/CO Boiler Plant, Sources S -\n802/S -901, shall not exceed the following limits in any calendar year.  \nPM/PM10  151.5  ton/year  \nPOC  5.8 ton/year  \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  232 November 3 , 2015  NOx  354.4  ton/year  \nSO2 1335.5  ton/year  \nCO 121.9  ton/year  \n(basis: cumulative increase, BACT, offsets)  \n \n2A. The owner/operator shall continuously monitor and record SO2 and NOx \nemissions exiting A30 to determine compliance with Part 2. Any new CEMs  shall be \nreviewed and pre -approved the District Source Test Manager. (basis: cumulative \nincrease, BACT)  \n \n2B. The owner/operator shall install a continuous opacity monitor to ensure that the \nemission is not greater than 20% opacity for a period or periods aggregating more than \nthree minutes in any hour when the boiler is burning CO gas from the FCCU. (basis: Reg. \n6-1-302) \n \n3. Deleted.  (All new hydrocarbon vapor pressure relief valves associated with this \nproject are vented to the refinery flare gas recover y system.)  \n \n4. To demonstrate compliance with the emission limits of part 2 above and \nCondition ID 8077, part B2, the Owner/Operator shall monitor and calculate all \nemissions, in lb/day, of NOx, CO, POC, PM/PM10, and SO2, associated with the \nFCCU/CO Boiler  Plant, S -802 and S -901, and summarize and report these emissions to \nthe District on a monthly basis, in accordance with the procedures and requirements \nspecified in Condition ID 8077, part B5. (basis: cumulative increase, BACT, offsets)  \n \n5. The Owner/Oper ator may submit for District review approved source test data to \ndevelop new emission factors for CO and precursor organic compounds, POC, to be used \nas alternatives to the emission factors specified in Permit No. 22769 (the No. 3 HDS \nPermit), if it can be  shown that the new data are more representative of actual emissions. \n(basis: cumulative increase, offsets)  \n \n6. The Owner/Operator shall maintain a District approved file containing all \nmeasurements, records, charts, and other data which are required to be  collected  \npursuant to the various provisions of this conditional permit, as well as all other data and \ncalculations necessary to determine the emissions from the emission points covered by \nthis permit, according to the procedures specified in Permittee/O wner/Operator's Permit \nNo. 22769 (the No. 3 HDS Permit). This material shall be kept available for District staff \ninspection for a period of at least 5 years following the date on which such \nmeasurements, records or data are made or recorded. (basis: cumul ative increase, offsets,"
+      }
+    ]
+  }
+}

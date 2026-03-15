@@ -1,0 +1,1115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UDAQ Approval Orders Dashboard</title>
+    <style>
+      :root {
+        color-scheme: light;
+        /* Borrowed palette from viz/cdphe_enforcement_summary_report.html */
+        --ink: #1b2b34;
+        --muted: #52616b;
+        --barr-blue: #0072bc;
+        --barr-blue-dark: #005a9c;
+        --barr-blue-light: #a9d4f2;
+        --pine: #0f4c5c;
+        --sage: #1f6f8b;
+        --rust: #d9792b;
+        --sand: #eef2f3;
+        --clay: #d7dee2;
+        --sky: #2a9d8f;
+        --card: #ffffff;
+        --bg: #f4f7f9;
+        --line: #dfe6ea;
+        --shadow: rgba(14,35,46,0.08);
+
+        /* Compatibility vars used by this dashboard */
+        --text: var(--ink);
+        --accent: var(--barr-blue);
+        --border: var(--line);
+        --panel: var(--card);
+        --panel2: #f6fbfd;
+        --good: var(--sky);
+        --warn: var(--rust);
+        --bad: #c94c4c;
+        --chip: #f6fbfd;
+      }
+      body {
+        margin: 0;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at 15% -10%, #ffffff 0%, var(--sand) 40%, var(--bg) 75%),
+          linear-gradient(135deg, rgba(15,76,92,0.08), rgba(42,157,143,0.08)),
+          repeating-linear-gradient(135deg, rgba(0,114,188,0.12) 0 2px, rgba(0,114,188,0) 2px 18px);
+      }
+      header {
+        padding: 18px 20px;
+        border-bottom: 1px solid var(--line);
+        background:
+          linear-gradient(120deg, #ffffff 0%, #eef3f6 45%, #f5f8fa 100%),
+          radial-gradient(circle at 90% 20%, rgba(31,111,139,0.18), rgba(31,111,139,0) 60%);
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        backdrop-filter: blur(6px);
+      }
+      header h1 {
+        margin: 0 0 6px 0;
+        font-size: 18px;
+        font-weight: 700;
+      }
+      header .sub {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      main {
+        padding: 16px 20px 40px;
+        display: grid;
+        grid-template-columns: 360px 1fr;
+        gap: 16px;
+      }
+      @media (max-width: 1050px) {
+        main {
+          grid-template-columns: 1fr;
+        }
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 8px 18px var(--shadow);
+      }
+      .card h2 {
+        margin: 0;
+        padding: 12px 14px;
+        font-size: 14px;
+        border-bottom: 1px solid var(--line);
+        background: linear-gradient(120deg, #ffffff 0%, #eef3f6 55%, #f5f8fa 100%);
+      }
+      .card .content {
+        padding: 12px 14px;
+      }
+      label {
+        display: block;
+        font-size: 12px;
+        color: var(--muted);
+        margin: 8px 0 6px;
+      }
+      input[type="text"], select {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 9px 10px;
+        border-radius: 10px;
+        border: 1px solid var(--line);
+        background: #ffffff;
+        color: var(--ink);
+        outline: none;
+      }
+      input[type="file"] {
+        width: 100%;
+        color: var(--muted);
+      }
+      button {
+        border: 1px solid var(--line);
+        background: #ffffff;
+        color: var(--ink);
+        padding: 9px 12px;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0 6px 14px var(--shadow);
+      }
+      button.primary {
+        background: rgba(0, 114, 188, 0.12);
+        border-color: rgba(0, 114, 188, 0.55);
+      }
+      button.danger {
+        background: rgba(201, 76, 76, 0.12);
+        border-color: rgba(201, 76, 76, 0.45);
+      }
+      button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+      .row {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .small {
+        font-size: 12px;
+        color: var(--muted);
+      }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: #f6fbfd;
+        border: 1px solid var(--line);
+        font-size: 12px;
+      }
+      .chip button {
+        padding: 2px 8px;
+        border-radius: 999px;
+      }
+      .statgrid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+      }
+      @media (max-width: 1050px) {
+        .statgrid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      .stat {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 10px 12px;
+        box-shadow: 0 8px 18px var(--shadow);
+      }
+      .stat .k {
+        font-size: 12px;
+        color: var(--muted);
+      }
+      .stat .v {
+        font-size: 18px;
+        margin-top: 4px;
+        font-weight: 700;
+      }
+      .chart {
+        min-height: 360px;
+      }
+      #mapPlot {
+        min-height: 700px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 12px;
+      }
+      td a {
+        word-break: break-all;
+      }
+      td.pdfcell {
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      thead th {
+        position: sticky;
+        top: 0px;
+        background: rgba(245, 248, 250, 0.95);
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        padding: 8px 8px;
+        z-index: 2;
+      }
+      tbody td {
+        border-bottom: 1px solid var(--line);
+        padding: 7px 8px;
+        vertical-align: top;
+        color: var(--ink);
+      }
+      tbody tr:hover {
+        background: rgba(0, 114, 188, 0.08);
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        padding: 2px 8px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: #f6fbfd;
+        color: var(--muted);
+        font-size: 11px;
+        white-space: nowrap;
+      }
+      .warning {
+        border: 1px solid rgba(217, 121, 43, 0.35);
+        background: rgba(217, 121, 43, 0.10);
+        padding: 10px 12px;
+        border-radius: 12px;
+        color: var(--rust);
+        font-size: 12px;
+        margin-top: 10px;
+      }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-2.30.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>UDAQ Approval Orders Dashboard</h1>
+      <div class="sub">
+        Load <span class="mono">permits_all.csv</span>, slice/filter by any column, and chart NOI -> AO processing duration by modification type.
+      </div>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Data & Filters</h2>
+        <div class="content">
+          <label>Load CSV</label>
+          <input id="fileInput" type="file" accept=".csv,text/csv" />
+          <div class="small" style="margin-top:6px">
+            Tip: pick <span class="mono">permits_all.csv</span> from the repo root. If you host this file from a local server, the dashboard can also auto-load it. For a single-file deploy, run <span class="mono">python viz/build_single_file_dashboard.py --csv permits_all.csv</span>.
+          </div>
+
+          <div id="plotlyWarn" class="warning" style="display:none">
+            Plotly failed to load (likely no internet). Charts will be disabled, but the table/filters still work.
+          </div>
+
+          <label>Global search (all fields)</label>
+          <input id="globalSearch" type="text" placeholder="e.g., 'Administrative Amendment', 'Salt Lake', 'DAQE-AN...'" />
+
+          <label style="margin-top:14px">Slicers</label>
+          <div class="row">
+            <select id="filterField"></select>
+            <button id="addFilterBtn" class="primary">Add slicer</button>
+          </div>
+          <div class="small" style="margin-top:6px">
+            Each slicer lets you choose allowed values for a column. Multiple slicers combine with AND logic.
+          </div>
+          <div id="activeFilters" class="chips"></div>
+
+          <div class="row" style="margin-top:12px">
+            <button id="resetBtn" class="danger">Reset filters</button>
+            <span class="small" id="status"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Overview</h2>
+        <div class="content">
+          <div class="statgrid">
+            <div class="stat"><div class="k">Rows (filtered)</div><div class="v" id="rowsFiltered">-</div></div>
+            <div class="stat"><div class="k">Rows (total)</div><div class="v" id="rowsTotal">-</div></div>
+            <div class="stat"><div class="k">Has duration</div><div class="v" id="rowsWithDuration">-</div></div>
+            <div class="stat"><div class="k">Median duration (days)</div><div class="v" id="medianDuration">-</div></div>
+            <div class="stat"><div class="k">NSR type unknown</div><div class="v" id="unknownNsr">-</div></div>
+            <div class="stat"><div class="k">AppliedOn missing</div><div class="v" id="missingApplied">-</div></div>
+            <div class="stat"><div class="k">ApprovalOrderID missing</div><div class="v" id="missingAoid">-</div></div>
+          </div>
+
+          <div class="row" style="margin-top:10px">
+            <button id="filterUnknownNsrBtn" class="primary">Filter NSR: Unknown</button>
+            <button id="clearNsrFilterBtn">Clear NSR filter</button>
+          </div>
+
+          <div style="height:14px"></div>
+
+          <div class="card" style="background: rgba(7,10,20,0.35)">
+            <h2 style="background: rgba(7,10,20,0.55)">Permit processing duration (NOI -> AO)</h2>
+            <div class="content">
+              <div class="small">
+                Duration = <span class="mono">IssuedOn</span> - <span class="mono">AppliedOn</span>. Only rows with both dates parseable are charted.
+              </div>
+              <div id="durationBox" class="chart"></div>
+              <div style="height:10px"></div>
+              <div id="durationBar" class="chart"></div>
+            </div>
+          </div>
+
+          <div style="height:14px"></div>
+
+          <div class="card" style="background: rgba(7,10,20,0.35)">
+            <h2 style="background: rgba(7,10,20,0.55)">Locations (UTM -> lat/lon)</h2>
+            <div class="content">
+              <div class="small">
+                Uses <span class="mono">UTM_Easting</span>, <span class="mono">UTM_Northing</span>, and <span class="mono">UTM_Zone</span> to approximate latitude/longitude (WGS84/NAD83-level precision for visualization).
+              </div>
+              <div id="mapPlot" class="chart"></div>
+            </div>
+          </div>
+
+          <div style="height:14px"></div>
+
+          <div class="card" style="background: rgba(7,10,20,0.35)">
+            <h2 style="background: rgba(7,10,20,0.55)">Table (first 250 rows, all columns)</h2>
+            <div class="content" style="padding:0">
+              <div style="overflow:auto; max-height: 540px">
+                <table id="dataTable">
+                  <thead><tr id="theadRow"></tr></thead>
+                  <tbody id="tbody"></tbody>
+                </table>
+              </div>
+              <div class="small" style="padding:10px 12px">
+                Showing first 250 rows after filters. Click a PDF link to open the Approval Order.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <template id="slicerTemplate">
+      <div class="card" style="margin-top:10px">
+        <h2 style="display:flex; align-items:center; justify-content:space-between">
+          <span class="mono"></span>
+          <span class="row">
+            <span class="pill"></span>
+            <button class="danger">Remove</button>
+          </span>
+        </h2>
+        <div class="content">
+          <label>Choose allowed values (multi-select)</label>
+          <select multiple size="10" style="height:auto"></select>
+          <div class="small" style="margin-top:8px">
+            Select one or more values. If none selected, the slicer is treated as "no filter".
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <script>
+      // -------- CSV parsing (RFC4180-ish) --------
+      function parseCsv(text) {
+        const rows = [];
+        let row = [];
+        let cur = "";
+        let inQuotes = false;
+        for (let i = 0; i < text.length; i++) {
+          const c = text[i];
+          const next = text[i + 1];
+          if (inQuotes) {
+            if (c === '"' && next === '"') { cur += '"'; i++; continue; }
+            if (c === '"') { inQuotes = false; continue; }
+            cur += c;
+            continue;
+          }
+          if (c === '"') { inQuotes = true; continue; }
+          if (c === ",") { row.push(cur); cur = ""; continue; }
+          if (c === "\r") { continue; }
+          if (c === "\n") {
+            row.push(cur); cur = "";
+            // ignore empty trailing line
+            if (row.length > 1 || (row.length === 1 && row[0] !== "")) rows.push(row);
+            row = [];
+            continue;
+          }
+          cur += c;
+        }
+        if (cur.length || row.length) { row.push(cur); rows.push(row); }
+
+        const header = rows.shift() || [];
+        const objects = rows.map(r => {
+          const o = {};
+          for (let i = 0; i < header.length; i++) o[header[i]] = (r[i] ?? "").trim();
+          return o;
+        });
+        return { header, objects };
+      }
+
+      function normalizeNsrClassification(raw) {
+        const s = (raw || "").toLowerCase();
+        if (!s) return "Unknown";
+        if (s.includes("10-year review") || s.includes("10 year review") || s.includes("10-year")) return "10-year Review";
+        if (s.includes("administrative amendment")) return "Administrative Amendment";
+        if (s.includes("experimental ao") || s.includes("experimental approval order")) return "Experimental AO";
+        if (s.includes("major psd modification") || s.includes("psd major modification") || s.includes("major modification (psd)")) return "Major PSD Modification";
+        if (s.includes("major modification at minor source")) return "Major Modification at Minor Source";
+        if (s.includes("minor modification at major source")) return "Minor Modification at Major Source";
+        if (s.includes("modification")) return "Modification";
+        if (s.includes("new major source")) return "New Major Source";
+        if (s.includes("new minor source")) return "New Minor Source";
+
+        // Clean up occasional extraction artifacts like " ... DAQE-... Page 4"
+        return "Unknown";
+      }
+
+      function pad2(n) { return String(n).padStart(2, "0"); }
+
+      function monthNameToNumber(m) {
+        const k = (m || "").toLowerCase();
+        const map = {
+          jan: 1, january: 1,
+          feb: 2, february: 2,
+          mar: 3, march: 3,
+          apr: 4, april: 4,
+          may: 5,
+          jun: 6, june: 6,
+          jul: 7, july: 7,
+          aug: 8, august: 8,
+          sep: 9, sept: 9, september: 9,
+          oct: 10, october: 10,
+          nov: 11, november: 11,
+          dec: 12, december: 12,
+        };
+        return map[k] || null;
+      }
+
+      function parseMonthDayYearUtc(v) {
+        const m = (v || "").trim().match(/^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})$/);
+        if (!m) return null;
+        const month = monthNameToNumber(m[1]);
+        const day = Number(m[2]);
+        const year = Number(m[3]);
+        if (!month || !Number.isFinite(day) || !Number.isFinite(year)) return null;
+        return new Date(Date.UTC(year, month - 1, day));
+      }
+
+      function formatDateYmdUtc(d) {
+        if (!d || Number.isNaN(d.getTime())) return "";
+        return `${d.getUTCFullYear()}-${pad2(d.getUTCMonth() + 1)}-${pad2(d.getUTCDate())}`;
+      }
+
+      function safeDateFromAppliedOn(s) {
+        const v = (s || "").trim();
+        if (!v) return null;
+        // Month Day, Year (UTC)
+        const d1 = parseMonthDayYearUtc(v.replace(/\s+/g, " "));
+        if (d1) return d1;
+        // ISO
+        if (/^\d{4}-\d{2}-\d{2}$/.test(v)) {
+          const d2 = new Date(v + "T00:00:00Z");
+          if (!Number.isNaN(d2.getTime())) return d2;
+        }
+        // mm/dd/yyyy
+        const m = v.match(/^(\d{1,2})\/(\d{1,2})\/(\d{2,4})$/);
+        if (m) {
+          const mm = Number(m[1]), dd = Number(m[2]), yy = Number(m[3].length === 2 ? "20" + m[3] : m[3]);
+          const d3 = new Date(Date.UTC(yy, mm - 1, dd));
+          if (!Number.isNaN(d3.getTime())) return d3;
+        }
+        return null;
+      }
+
+      function safeDateFromIssuedOn(s) {
+        const v = (s || "").trim();
+        if (!v) return null;
+        if (/^\d{4}-\d{2}-\d{2}$/.test(v)) {
+          const d = new Date(v + "T00:00:00Z");
+          if (!Number.isNaN(d.getTime())) return d;
+        }
+        const d2 = parseMonthDayYearUtc(v.replace(/\s+/g, " "));
+        if (d2) return d2;
+        return null;
+      }
+
+      function median(nums) {
+        const a = nums.slice().sort((x,y)=>x-y);
+        if (!a.length) return null;
+        const mid = Math.floor(a.length / 2);
+        return a.length % 2 ? a[mid] : (a[mid - 1] + a[mid]) / 2;
+      }
+
+      // -------- State --------
+      const state = {
+        header: [],
+        rows: [],
+        filteredRows: [],
+        slicers: new Map(), // field -> {allowed:Set<string>, options:string[]}
+        globalSearch: "",
+        mapPdfClickBound: false,
+        ready: false,
+      };
+
+      // -------- DOM --------
+      const els = {
+        fileInput: document.getElementById("fileInput"),
+        filterField: document.getElementById("filterField"),
+        addFilterBtn: document.getElementById("addFilterBtn"),
+        resetBtn: document.getElementById("resetBtn"),
+        activeFilters: document.getElementById("activeFilters"),
+        globalSearch: document.getElementById("globalSearch"),
+        status: document.getElementById("status"),
+        theadRow: document.getElementById("theadRow"),
+        tbody: document.getElementById("tbody"),
+        rowsFiltered: document.getElementById("rowsFiltered"),
+        rowsTotal: document.getElementById("rowsTotal"),
+        rowsWithDuration: document.getElementById("rowsWithDuration"),
+        medianDuration: document.getElementById("medianDuration"),
+        unknownNsr: document.getElementById("unknownNsr"),
+        missingApplied: document.getElementById("missingApplied"),
+        missingAoid: document.getElementById("missingAoid"),
+        filterUnknownNsrBtn: document.getElementById("filterUnknownNsrBtn"),
+        clearNsrFilterBtn: document.getElementById("clearNsrFilterBtn"),
+        durationBox: document.getElementById("durationBox"),
+        durationBar: document.getElementById("durationBar"),
+        mapPlot: document.getElementById("mapPlot"),
+        slicerTemplate: document.getElementById("slicerTemplate"),
+        plotlyWarn: document.getElementById("plotlyWarn"),
+      };
+
+      function setStatus(msg) { els.status.textContent = msg; }
+
+      function initFieldSelector() {
+        els.filterField.innerHTML = "";
+        state.header.forEach(h => {
+          const opt = document.createElement("option");
+          opt.value = h; opt.textContent = h;
+          els.filterField.appendChild(opt);
+        });
+      }
+
+      function uniqueValues(rows, field, cap=2000) {
+        const set = new Set();
+        for (const r of rows) {
+          const v = (r[field] ?? "").trim();
+          if (!v) continue;
+          set.add(v);
+          if (set.size >= cap) break;
+        }
+        return Array.from(set).sort((a,b)=>a.localeCompare(b));
+      }
+
+      function renderSlicerCards() {
+        els.activeFilters.innerHTML = "";
+        for (const [field, slicer] of state.slicers.entries()) {
+          const node = els.slicerTemplate.content.cloneNode(true);
+          const card = node.querySelector(".card");
+          const title = node.querySelector("h2 span.mono");
+          const countPill = node.querySelector(".pill");
+          const removeBtn = node.querySelector("button.danger");
+          const select = node.querySelector("select");
+          title.textContent = field;
+
+          const options = slicer.options || [];
+          select.innerHTML = "";
+          for (const v of options) {
+            const opt = document.createElement("option");
+            opt.value = v; opt.textContent = v;
+            if (slicer.allowed.has(v)) opt.selected = true;
+            select.appendChild(opt);
+          }
+
+          const updatePill = () => {
+            const n = slicer.allowed.size;
+            countPill.textContent = n ? `${n} selected` : "no filter";
+          };
+          updatePill();
+
+          select.addEventListener("change", () => {
+            slicer.allowed = new Set(Array.from(select.selectedOptions).map(o => o.value));
+            updatePill();
+            applyAll();
+          });
+          removeBtn.addEventListener("click", () => {
+            state.slicers.delete(field);
+            renderSlicerCards();
+            applyAll();
+          });
+
+          els.activeFilters.appendChild(card);
+        }
+      }
+
+      function addSlicer(field) {
+        if (state.slicers.has(field)) return;
+        const options = uniqueValues(state.rows, field);
+        state.slicers.set(field, { allowed: new Set(), options });
+        renderSlicerCards();
+        applyAll();
+      }
+
+      function setSlicerAllowed(field, allowedValues) {
+        if (!state.header.includes(field)) return;
+        if (!state.slicers.has(field)) {
+          const options = uniqueValues(state.rows, field);
+          state.slicers.set(field, { allowed: new Set(), options });
+        }
+        const slicer = state.slicers.get(field);
+        slicer.allowed = new Set(allowedValues);
+        renderSlicerCards();
+        applyAll();
+      }
+
+      function clearSlicer(field) {
+        if (!state.slicers.has(field)) return;
+        state.slicers.delete(field);
+        renderSlicerCards();
+        applyAll();
+      }
+
+      function matchesSlicers(row) {
+        for (const [field, slicer] of state.slicers.entries()) {
+          if (!slicer.allowed.size) continue;
+          const v = (row[field] ?? "").trim();
+          if (!slicer.allowed.has(v)) return false;
+        }
+        return true;
+      }
+
+      function matchesGlobalSearch(row) {
+        const q = state.globalSearch.trim().toLowerCase();
+        if (!q) return true;
+        for (const k of state.header) {
+          const v = (row[k] ?? "").toLowerCase();
+          if (v.includes(q)) return true;
+        }
+        return false;
+      }
+
+      function computeDurationDays(row) {
+        const a = safeDateFromAppliedOn(row.AppliedOn);
+        const i = safeDateFromIssuedOn(row.IssuedOn);
+        if (!a || !i) return null;
+        const days = Math.round((i.getTime() - a.getTime()) / 86400000);
+        if (!Number.isFinite(days) || days < 0 || days > 3650) return null;
+        return days;
+      }
+
+      // -------- UTM -> lat/lon (WGS84) --------
+      // This is a standard UTM conversion. Datum differences (NAD83 vs WGS84) are small for visualization.
+      function utmToLatLon(easting, northing, zoneNumber, northernHemisphere=true) {
+        const a = 6378137.0;
+        const eccSquared = 0.00669438;
+        const k0 = 0.9996;
+
+        let x = easting - 500000.0;
+        let y = northing;
+        if (!northernHemisphere) y -= 10000000.0;
+
+        const eccPrimeSquared = eccSquared / (1 - eccSquared);
+
+        const M = y / k0;
+        const mu = M / (a * (1 - eccSquared/4 - 3*eccSquared*eccSquared/64 - 5*eccSquared*eccSquared*eccSquared/256));
+
+        const e1 = (1 - Math.sqrt(1 - eccSquared)) / (1 + Math.sqrt(1 - eccSquared));
+
+        const J1 = 3*e1/2 - 27*Math.pow(e1,3)/32;
+        const J2 = 21*Math.pow(e1,2)/16 - 55*Math.pow(e1,4)/32;
+        const J3 = 151*Math.pow(e1,3)/96;
+        const J4 = 1097*Math.pow(e1,4)/512;
+
+        const fp = mu + J1*Math.sin(2*mu) + J2*Math.sin(4*mu) + J3*Math.sin(6*mu) + J4*Math.sin(8*mu);
+
+        const sinfp = Math.sin(fp);
+        const cosfp = Math.cos(fp);
+
+        const N1 = a / Math.sqrt(1 - eccSquared * sinfp*sinfp);
+        const T1 = Math.tan(fp) * Math.tan(fp);
+        const C1 = eccPrimeSquared * cosfp*cosfp;
+        const R1 = a * (1 - eccSquared) / Math.pow(1 - eccSquared*sinfp*sinfp, 1.5);
+        const D = x / (N1 * k0);
+
+        let lat = fp - (N1*Math.tan(fp)/R1) * (D*D/2 - (5 + 3*T1 + 10*C1 - 4*C1*C1 - 9*eccPrimeSquared)*Math.pow(D,4)/24
+          + (61 + 90*T1 + 298*C1 + 45*T1*T1 - 252*eccPrimeSquared - 3*C1*C1)*Math.pow(D,6)/720);
+        lat = lat * 180/Math.PI;
+
+        const lonOrigin = (zoneNumber - 1) * 6 - 180 + 3;
+        let lon = (D - (1 + 2*T1 + C1)*Math.pow(D,3)/6
+          + (5 - 2*C1 + 28*T1 - 3*C1*C1 + 8*eccPrimeSquared + 24*T1*T1)*Math.pow(D,5)/120) / cosfp;
+        lon = lonOrigin + lon * 180/Math.PI;
+
+        return { lat, lon };
+      }
+
+      function parseUtmNumber(s) {
+        const v = (s || "").replace(/,/g, "").trim();
+        if (!v) return null;
+        const n = Number(v);
+        return Number.isFinite(n) ? n : null;
+      }
+
+      function parseUtmZone(s) {
+        const v = (s || "").trim();
+        if (!v) return null;
+        const m = v.match(/(\d{1,2})/);
+        if (!m) return null;
+        const z = Number(m[1]);
+        if (!Number.isFinite(z) || z < 1 || z > 60) return null;
+        return z;
+      }
+
+      function applyAll() {
+        if (!state.ready) return;
+        setStatus("Filtering...");
+        const filtered = state.rows.filter(r => matchesGlobalSearch(r) && matchesSlicers(r));
+        state.filteredRows = filtered;
+        renderStats();
+        renderTable();
+        renderCharts();
+        renderMap();
+        setStatus(`Ready (${filtered.length} rows)`);
+      }
+
+      function renderStats() {
+        const total = state.rows.length;
+        const filtered = state.filteredRows.length;
+        let missingApplied = 0, missingAoid = 0, unknownNsr = 0;
+        const durations = [];
+        for (const r of state.filteredRows) {
+          if (!(r.AppliedOn || "").trim()) missingApplied++;
+          if (!(r.ApprovalOrderID || "").trim()) missingAoid++;
+          if (((r.NSR_Classification || "").trim().toLowerCase()) === "unknown") unknownNsr++;
+          const d = computeDurationDays(r);
+          if (d !== null) durations.push(d);
+        }
+
+        els.rowsTotal.textContent = total.toLocaleString();
+        els.rowsFiltered.textContent = filtered.toLocaleString();
+        els.rowsWithDuration.textContent = durations.length.toLocaleString();
+        els.missingApplied.textContent = missingApplied.toLocaleString();
+        els.missingAoid.textContent = missingAoid.toLocaleString();
+        els.unknownNsr.textContent = unknownNsr.toLocaleString();
+        const med = median(durations);
+        els.medianDuration.textContent = (med === null) ? "-" : med.toFixed(0);
+      }
+
+      function renderTable() {
+        const blocked = new Set([
+          "Applicable_Federal_Standards",
+          "SIC_Code",
+          "UTM_Easting",
+          "UTM_Northing",
+          "UTM_Zone",
+          "UTM_Datum",
+          "SourceContactName",
+          "SourceContactPhone",
+          "SourceContactEmail",
+          "PhysicalStreet",
+          "PhysicalZip",
+          "PhysicalState",
+          "AppliedOn",
+        ]);
+        const isEmissions = (c) => /^(Project|Source)_.+_TPY$/.test(c);
+        const isBlocked = (c) => blocked.has(c) || isEmissions(c);
+
+        const preferred = [
+          "ApprovalOrderID",
+          "NSR_Classification",
+          "Source_Classification",
+          "IssuedOn",
+          "DurationDays",
+          "OwnerName",
+          "SourceName",
+          "PhysicalCity",
+          "PDFLink",
+        ];
+        const cols = preferred
+          .filter(c => c === "DurationDays" || state.header.includes(c))
+          .filter(c => !isBlocked(c))
+          .concat(state.header.filter(c => !preferred.includes(c) && !isBlocked(c)));
+
+        els.theadRow.innerHTML = "";
+        for (const c of cols) {
+          const th = document.createElement("th");
+          th.textContent = c;
+          els.theadRow.appendChild(th);
+        }
+
+        els.tbody.innerHTML = "";
+        const rows = state.filteredRows.slice(0, 250);
+        for (const r of rows) {
+          const tr = document.createElement("tr");
+          for (const c of cols) {
+            const td = document.createElement("td");
+            if (c === "PDFLink") {
+              td.classList.add("pdfcell");
+              const a = document.createElement("a");
+              a.href = r[c];
+              a.textContent = "PDF";
+              a.title = r[c] ?? "";
+              a.target = "_blank";
+              a.rel = "noopener";
+              a.addEventListener("click", (e) => e.stopPropagation());
+              td.appendChild(a);
+              td.addEventListener("click", () => {
+                if (r[c]) window.open(r[c], "_blank", "noopener");
+              });
+              td.addEventListener("keydown", (e) => {
+                if (!r[c]) return;
+                if (e.key === "Enter" || e.key === " ") window.open(r[c], "_blank", "noopener");
+              });
+              td.tabIndex = 0;
+            } else if (c === "IssuedOn") {
+              const d = safeDateFromIssuedOn(r[c]);
+              td.textContent = d ? formatDateYmdUtc(d) : (r[c] ?? "");
+            } else if (c === "DurationDays") {
+              const d = computeDurationDays(r);
+              td.textContent = (d === null) ? "" : String(d);
+            } else {
+              td.textContent = r[c] ?? "";
+            }
+            tr.appendChild(td);
+          }
+          els.tbody.appendChild(tr);
+        }
+      }
+
+      function plotlyOk() {
+        return typeof Plotly !== "undefined" && Plotly && typeof Plotly.newPlot === "function";
+      }
+
+      function themeVar(name, fallback) {
+        const v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+        return v || fallback;
+      }
+
+      function renderCharts() {
+        if (!plotlyOk()) {
+          els.plotlyWarn.style.display = "block";
+          return;
+        } else {
+          els.plotlyWarn.style.display = "none";
+        }
+        const fontColor = themeVar("--ink", "#1b2b34");
+        const gridColor = "rgba(223,230,234,0.95)";
+        const barColor = "rgba(0,114,188,0.75)";
+
+        const groups = new Map(); // nsr -> durations[]
+        const allDurations = [];
+        for (const r of state.filteredRows) {
+          const d = computeDurationDays(r);
+          if (d === null) continue;
+          const k = (r.NSR_Classification || "Unknown").trim() || "Unknown";
+          if (!groups.has(k)) groups.set(k, []);
+          groups.get(k).push(d);
+          allDurations.push(d);
+        }
+
+        const nsrKeys = Array.from(groups.keys()).sort((a,b)=>a.localeCompare(b));
+        const traces = nsrKeys.map(k => ({
+          type: "box",
+          name: k,
+          y: groups.get(k),
+          boxpoints: false,
+          hovertemplate: `${k}<br>days=%{y}<extra></extra>`,
+        }));
+
+        Plotly.newPlot(
+          els.durationBox,
+          traces,
+          {
+            margin: { l: 55, r: 20, t: 10, b: 120 },
+            paper_bgcolor: "rgba(0,0,0,0)",
+            plot_bgcolor: "rgba(0,0,0,0)",
+            font: { color: fontColor },
+            yaxis: { title: "Days (IssuedOn - AppliedOn)", gridcolor: gridColor },
+            xaxis: { tickangle: -35, gridcolor: "rgba(0,0,0,0)" },
+            showlegend: false,
+          },
+          { displaylogo: false, responsive: true }
+        );
+
+        // Bar chart: median duration by NSR classification
+        const medians = nsrKeys.map(k => median(groups.get(k))).map(v => (v === null ? 0 : v));
+        const counts = nsrKeys.map(k => groups.get(k).length);
+
+        Plotly.newPlot(
+          els.durationBar,
+          [
+            {
+              type: "bar",
+              x: nsrKeys,
+              y: medians,
+              text: counts.map(c => `${c} rows`),
+              hovertemplate: "%{x}<br>median=%{y} days<br>%{text}<extra></extra>",
+              marker: { color: barColor },
+            },
+          ],
+          {
+            margin: { l: 55, r: 20, t: 10, b: 140 },
+            paper_bgcolor: "rgba(0,0,0,0)",
+            plot_bgcolor: "rgba(0,0,0,0)",
+            font: { color: fontColor },
+            yaxis: { title: "Median duration (days)", gridcolor: gridColor },
+            xaxis: { tickangle: -35 },
+          },
+          { displaylogo: false, responsive: true }
+        );
+      }
+
+      function renderMap() {
+        if (!plotlyOk()) return;
+        const fontColor = themeVar("--ink", "#1b2b34");
+        const land = "rgba(215,222,226,0.85)";
+        const lakes = "rgba(169,212,242,0.85)";
+        const borders = "rgba(82,97,107,0.35)";
+
+        const lats = [];
+        const lons = [];
+        const hover = [];
+        const color = [];
+        const pdfs = [];
+
+        for (const r of state.filteredRows) {
+          const e = parseUtmNumber(r.UTM_Easting);
+          const n = parseUtmNumber(r.UTM_Northing);
+          const z = parseUtmZone(r.UTM_Zone) ?? 12;
+          if (e === null || n === null) continue;
+
+          // Assume northern hemisphere; UDAQ sources are in Utah.
+          const ll = utmToLatLon(e, n, z, true);
+          if (!Number.isFinite(ll.lat) || !Number.isFinite(ll.lon)) continue;
+          // Rough bounding box sanity for Utah region (avoid bad conversions)
+          if (ll.lat < 35 || ll.lat > 43 || ll.lon < -115.5 || ll.lon > -108.5) continue;
+
+          const dur = computeDurationDays(r);
+          const nsr = (r.NSR_Classification || "Unknown").trim() || "Unknown";
+          lats.push(ll.lat);
+          lons.push(ll.lon);
+          color.push(nsr);
+          pdfs.push(r.PDFLink || "");
+          hover.push(
+            [
+              `<b>${(r.SourceName || "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;")}</b>`,
+              r.OwnerName ? `Owner: ${r.OwnerName}` : "",
+              r.ApprovalOrderID ? `AO: ${r.ApprovalOrderID}` : "",
+              (r.AppliedOn && r.IssuedOn) ? `Applied: ${r.AppliedOn} • Issued: ${r.IssuedOn}` : "",
+              (dur !== null) ? `Duration: ${dur} days` : "",
+              r.PDFLink ? `PDF: ${r.PDFLink}` : "",
+            ].filter(Boolean).join("<br>")
+          );
+        }
+
+        // Group by NSR for legend
+        const byNsr = new Map();
+        for (let i = 0; i < lats.length; i++) {
+          const k = color[i];
+          if (!byNsr.has(k)) byNsr.set(k, { lats: [], lons: [], hover: [], pdfs: [] });
+          byNsr.get(k).lats.push(lats[i]);
+          byNsr.get(k).lons.push(lons[i]);
+          byNsr.get(k).hover.push(hover[i]);
+          byNsr.get(k).pdfs.push(pdfs[i]);
+        }
+
+        const keys = Array.from(byNsr.keys()).sort((a,b)=>a.localeCompare(b));
+        const traces = keys.map(k => ({
+          type: "scattergeo",
+          mode: "markers",
+          name: k,
+          lat: byNsr.get(k).lats,
+          lon: byNsr.get(k).lons,
+          text: byNsr.get(k).hover,
+          customdata: byNsr.get(k).pdfs,
+          hovertemplate: "%{text}<extra></extra>",
+          marker: { size: 7, opacity: 0.75 },
+        }));
+
+        Plotly.newPlot(
+          els.mapPlot,
+          traces,
+          {
+            margin: { l: 0, r: 0, t: 0, b: 0 },
+            paper_bgcolor: "rgba(0,0,0,0)",
+            geo: {
+              scope: "usa",
+              center: { lat: 39.32, lon: -111.09 },
+              projection: { type: "albers usa", scale: 2.0 },
+              showland: true,
+              landcolor: land,
+              showcountries: false,
+              showsubunits: true,
+              subunitcolor: borders,
+              showlakes: true,
+              lakecolor: lakes,
+              bgcolor: "rgba(0,0,0,0)",
+              lataxis: { range: [34, 44.5] },
+              lonaxis: { range: [-117, -107] },
+            },
+            legend: { orientation: "h", y: -0.05, x: 0 },
+            font: { color: fontColor },
+          },
+          { displaylogo: false, responsive: true }
+        ).then(() => {
+          if (state.mapPdfClickBound) return;
+          state.mapPdfClickBound = true;
+          els.mapPlot.on("plotly_click", (ev) => {
+            const url = ev?.points?.[0]?.customdata;
+            if (url) window.open(url, "_blank", "noopener");
+          });
+        });
+      }
+
+      async function tryAutoLoad() {
+        // 1) If this HTML has an embedded CSV blob, use it (single-file deploy).
+        try {
+          const embedded = document.getElementById("embeddedPermitsCsvB64");
+          const b64 = (embedded?.textContent || "").trim();
+          if (b64) {
+            const bin = atob(b64);
+            const bytes = new Uint8Array(bin.length);
+            for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+            const text = new TextDecoder("utf-8", { fatal: false }).decode(bytes);
+            loadCsvText(text);
+            setStatus("Loaded embedded permits CSV");
+            return;
+          }
+        } catch {
+          // ignore
+        }
+
+        // Best-effort: fetch ../permits_all.csv when served via a local server.
+        try {
+          const resp = await fetch("../permits_all.csv", { cache: "no-store" });
+          if (!resp.ok) return;
+          const text = await resp.text();
+          loadCsvText(text);
+          setStatus("Loaded ../permits_all.csv");
+        } catch {
+          // ignore
+        }
+      }
+
+      function loadCsvText(text) {
+        const { header, objects } = parseCsv(text);
+        state.header = header;
+        state.rows = objects.map(r => {
+          if ("NSR_Classification" in r) {
+            r.NSR_Classification = normalizeNsrClassification(r.NSR_Classification);
+          }
+          return r;
+        });
+        state.ready = true;
+        state.slicers.clear();
+        state.globalSearch = "";
+        els.globalSearch.value = "";
+        initFieldSelector();
+        renderSlicerCards();
+        applyAll();
+      }
+
+      // Wire events
+      els.addFilterBtn.addEventListener("click", () => addSlicer(els.filterField.value));
+      els.resetBtn.addEventListener("click", () => {
+        state.slicers.clear();
+        state.globalSearch = "";
+        els.globalSearch.value = "";
+        renderSlicerCards();
+        applyAll();
+      });
+      els.globalSearch.addEventListener("input", () => {
+        state.globalSearch = els.globalSearch.value;
+        applyAll();
+      });
+      els.filterUnknownNsrBtn.addEventListener("click", () => setSlicerAllowed("NSR_Classification", ["Unknown"]));
+      els.clearNsrFilterBtn.addEventListener("click", () => clearSlicer("NSR_Classification"));
+      els.fileInput.addEventListener("change", async (e) => {
+        const file = e.target.files?.[0];
+        if (!file) return;
+        setStatus("Reading file...");
+        const text = await file.text();
+        loadCsvText(text);
+        setStatus(`Loaded ${file.name}`);
+      });
+
+      // Start
+      if (!plotlyOk()) els.plotlyWarn.style.display = "block";
+      tryAutoLoad();
+    </script>
+
+    <!--
+      Optional single-file deploy:
+      - Run: python viz/build_single_file_dashboard.py --csv permits_all.csv
+      - Then deploy the generated HTML (defaults to viz/permits_dashboard_single.html)
+    -->
+    <script id="embeddedPermitsCsvB64" type="text/plain"></script>
+  </body>
+</html>

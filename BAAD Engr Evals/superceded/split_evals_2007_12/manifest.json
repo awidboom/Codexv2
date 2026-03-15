@@ -1,0 +1,110 @@
+{
+  "source_pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\B2758 9_2007 12_sigrev_03 Rev4.pdf",
+  "heading_regex": "(ENGINEERING EVALUATION(?: REPORT)?|EVALUATION REPORT)",
+  "detect_by": "both",
+  "top_lines": 120,
+  "top_app_lines": 25,
+  "lookahead_pages": 6,
+  "anchor_line": true,
+  "min_gap": 2,
+  "appchange_confirm": true,
+  "confirm_lookahead": 3,
+  "sections": [
+    {
+      "index": 1,
+      "start_page": 16,
+      "end_page": 99,
+      "application_number": "14141",
+      "output": "split_evals_2007_12\\application_14141.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 2,
+      "start_page": 100,
+      "end_page": 155,
+      "application_number": "14141",
+      "output": "split_evals_2007_12\\application_14141-addendum-1.pdf",
+      "addendum_like": true
+    },
+    {
+      "index": 3,
+      "start_page": 156,
+      "end_page": 162,
+      "application_number": "14325",
+      "output": "split_evals_2007_12\\application_14325.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 4,
+      "start_page": 163,
+      "end_page": 168,
+      "application_number": "14374",
+      "output": "split_evals_2007_12\\application_14374.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 5,
+      "start_page": 169,
+      "end_page": 173,
+      "application_number": "14894",
+      "output": "split_evals_2007_12\\application_14894.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 6,
+      "start_page": 174,
+      "end_page": 200,
+      "application_number": "14752",
+      "output": "split_evals_2007_12\\application_14752.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 7,
+      "start_page": 201,
+      "end_page": 206,
+      "application_number": "14917",
+      "output": "split_evals_2007_12\\application_14917.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 8,
+      "start_page": 207,
+      "end_page": 211,
+      "application_number": "14919",
+      "output": "split_evals_2007_12\\application_14919.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 9,
+      "start_page": 212,
+      "end_page": 216,
+      "application_number": "15429",
+      "output": "split_evals_2007_12\\application_15429.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 10,
+      "start_page": 217,
+      "end_page": 251,
+      "application_number": "15212",
+      "output": "split_evals_2007_12\\application_15212.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 11,
+      "start_page": 252,
+      "end_page": 264,
+      "application_number": "16125",
+      "output": "split_evals_2007_12\\application_16125.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 12,
+      "start_page": 265,
+      "end_page": 266,
+      "application_number": "16018",
+      "output": "split_evals_2007_12\\application_16018.pdf",
+      "addendum_like": false
+    }
+  ]
+}

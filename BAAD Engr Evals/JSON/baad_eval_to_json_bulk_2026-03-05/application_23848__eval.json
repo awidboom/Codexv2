@@ -1,0 +1,1120 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\split_evals_2015_11\\application_23848.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 8
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "lb/MM  Unabated CO  Emissions  Abatemt\nFactor * Abated\nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr\nS-952 3.0 3.72 11.16  268 97,762  48.9 95% 2.4\nS-953 3.0 3.72 11.16  268 97,762  48.9 95% 2.4\nS-954 3.0 3.72 11.16  268 97,762  48.9 95% 2.4",
+        "S957  ICnternal Combustion  Engine , Compressor 406 6, Abated by A95 7 SCR\nS958  ICnternal Combustion  Engine , Compressor 406 7, Abated by A95 8 SCR\nS959  ICnternal Combustion  Engine , Compressor 406 8, Abated by A95 9 SCR\nS960  ICnternal Combustion  Engine , Compressor 40 96, Abated by A9 60 SCR"
+      ]
+    },
+    "application_number_detected": "23848",
+    "application_number_from_filename": "23848"
+  },
+  "application_number": "23848",
+  "plant": {
+    "name": "Golden Eagle Refinery, 150 Solano Way, Martinez, Ca 94553",
+    "plant_id": 14628,
+    "address": "Martinez, CA 94553"
+  },
+  "evaluation_date": "June 1, 2012",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-952",
+      "description": "No. 1 Gas Plant Compressor 4023  Engine, 300 BHP, Natural Gas Fired"
+    },
+    {
+      "id": "S-953",
+      "description": "No. 1 Gas  Plant Compressor 4024 Engine, 300 BHP, Natural Gas Fired"
+    },
+    {
+      "id": "S-954",
+      "description": "No. 1 Gas  Plant Compress or 4025 Engine, 300 BHP, Natural Gas Fired"
+    },
+    {
+      "id": "S-955",
+      "description": "No. 4  Gas Plant Compressor 4064 Engine, 880 BHP, Natural Gas Fired"
+    },
+    {
+      "id": "S-956",
+      "description": "No. 4  Gas Plant Compressor 4065 Engine, 880 BHP, Natural Gas Fired"
+    },
+    {
+      "id": "S-957",
+      "description": "No. 4  Gas Plant Compressor 4066 Engine, 880 BHP, Natural Gas Fired"
+    },
+    {
+      "id": "S-958",
+      "description": "No. 4  Gas Plant Compressor 4067 Engine, 880 BHP, Natural Gas Fired"
+    },
+    {
+      "id": "S-959",
+      "description": "No. 4  Gas Plant Compressor 4068 Engine, 880 BHP, Natural Gas Fired"
+    },
+    {
+      "id": "S-960",
+      "description": "No. 4  Gas Plant Compressor 4096 Engine, 660 BHP, Natural Gas Fired"
+    },
+    {
+      "id": "A-955",
+      "description": "SCR for No. 4  Gas Plant Compressor 4064 Engine"
+    },
+    {
+      "id": "A-956",
+      "description": "SCR for No. 4  Gas Plant Compressor 4065 Engine"
+    },
+    {
+      "id": "A-957",
+      "description": "SCR for No. 4  Gas Plant C ompressor 4066 Engine"
+    },
+    {
+      "id": "A-958",
+      "description": "SCR for No. 4  Gas Plant Compressor 4067 Engine"
+    },
+    {
+      "id": "A-959",
+      "description": "SCR for No. 4  Gas Plant Compressor 4068 Engine"
+    },
+    {
+      "id": "A-960",
+      "description": "SCR for No. 4  Gas Plant Compressor 4096 Engine"
+    },
+    {
+      "id": "S-56",
+      "description": "Amorco On-shore Diesel Fire -Water Pump , 660 BHP"
+    },
+    {
+      "id": "S-57",
+      "description": "Amorco Off-shore/Wharf Diesel Fire -Water Pump , 700 BHP"
+    },
+    {
+      "id": "S-1469",
+      "description": "Avon Wharf Fire Water Pump Engine; Diesel Fired , 400 BHP"
+    },
+    {
+      "id": "S-1471",
+      "description": "Landsend Fire Water Pump Engine;  Diesel Fired , 130 BHP"
+    },
+    {
+      "id": "S-1472",
+      "description": "Tract 4 North Fire Water Pump Engine; Diesel Fired , 430 BHP"
+    },
+    {
+      "id": "S-1475",
+      "description": "Trailer 1 Fire Water Pump Engine; Diesel Fired; Portable , 503 BHP"
+    },
+    {
+      "id": "S-1476",
+      "description": "Trailer 4 Fire Water Pump Engine; Diesel Fired; Portable , 503 BHP"
+    },
+    {
+      "id": "S-1487",
+      "description": "Tank 38 Fire -Water Pump Engine, Diesel Fired , 420 BHP"
+    },
+    {
+      "id": "S-1488",
+      "description": "Canal Fire -Water Pump Engine, Diesel Fired , 538 BHP"
+    },
+    {
+      "id": "S-1518",
+      "description": "North Reservoir West Fire Water Pump Engine, Diesel Fired , 360 BHP"
+    },
+    {
+      "id": "S-1519",
+      "description": "North Reservoir East Fire Water Pump Engine, Diesel Fired, 360 BHP"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nAs part of the Title V Renewal Permit 2011 Appeal efforts, Tesoro Refining and Marketing \nCompany is submitting several applications to address the Appeal items.  This is one of those \napplications, an administrative change in conditions, to address the issues with the refinery \nengines, including the following sources:  \n \nS-952 No. 1 Gas Plant Compressor 4023  Engine, 300 BHP, Natural Gas Fired  \nS-953 No. 1 Gas  Plant Compressor 4024 Engine, 300 BHP, Natural Gas Fired  \nS-954 No. 1 Gas  Plant Compress or 4025 Engine, 300 BHP, Natural Gas Fired  \nS-955 No. 4  Gas Plant Compressor 4064 Engine, 880 BHP, Natural Gas Fired  \nS-956 No. 4  Gas Plant Compressor 4065 Engine, 880 BHP, Natural Gas Fired  \nS-957 No. 4  Gas Plant Compressor 4066 Engine, 880 BHP, Natural Gas Fired  \nS-958 No. 4  Gas Plant Compressor 4067 Engine, 880 BHP, Natural Gas Fired  \nS-959 No. 4  Gas Plant Compressor 4068 Engine, 880 BHP, Natural Gas Fired  \nS-960 No. 4  Gas Plant Compressor 4096 Engine, 660 BHP, Natural Gas Fired  \n \nIn addition, the following exi sting abatement devices were permitted via 1996 Application \n15392, but are omitted from the Tesoro Permit to O perate:  \n \nA-955 SCR for No. 4  Gas Plant Compressor 4064 Engine  \nA-956 SCR for No. 4  Gas Plant Compressor 4065 Engine  \nA-957 SCR for No. 4  Gas Plant C ompressor 4066 Engine  \nA-958 SCR for No. 4  Gas Plant Compressor 4067 Engine  \nA-959 SCR for No. 4  Gas Plant Compressor 4068 Engine  \nA-960 SCR for No. 4  Gas Plant Compressor 4096 Engine  \n \nThe original application also included an administrative change in conditions to the following \nsources:  \n \nS-56  Amorco On-shore Diesel Fire -Water Pump , 660 BHP  \nS-57  Amorco Off-shore/Wharf Diesel Fire -Water Pump , 700 BHP  \nS-1469  Avon Wharf Fire Water Pump Engine; Diesel Fired , 400 BHP  \nS-1471  Landsend Fire Water Pump Engine;  Diesel Fired , 130 BHP  \nS-1472  Tract 4 North Fire Water Pump Engine; Diesel Fired , 430 BHP  \nS-1475  Trailer 1 Fire Water Pump Engine; Diesel Fired; Portable , 503 BHP  \nS-1476  Trailer 4 Fire Water Pump Engine; Diesel Fired; Portable , 503 BHP  \nS-1487  Tank 38 Fire -Water Pump Engine, Diesel Fired , 420 BHP  \nS-1488  Canal Fire -Water Pump Engine, Diesel Fired , 538 BHP  \nS-1518  North Reservoir West Fire Water Pump Engine, Diesel Fired , 360 BHP  \nS-1519  North Reservoir East Fire Water Pump Engine, Diesel Fired, 360 BHP  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  303 November 3 , 2015  The spe cific appeal items initially covered by this application are #5, #6 and #7, and are shown \nat the end of this evaluation.   \n \nIn the 4/26/12 letter from Tesoro regarding this application, all proposed revisions in this \napplication  regarding the sources othe r than the gas plant engines (i.e. all the sources in the \nsecond list above) were removed, both from the Title V Appeal and from this application.  \nTherefore, only Appeal Item # 5 is addressed in this application and Appeal Items # 6 and # 7 \nhave been remo ved from this application.  \n \nFor the No. 1 Gas Plant engines, S -952, S -953 and S -954, the proposed revisions are \nadministrative to show the NSCR abatement devices and to indicate that these devices abate CO \nemissions.  The existing information in the Renewe d Title V Permit  treats the NSCR as only a \nNOx abatement device.  \n \nFor the No. 4 Gas Plant engines, S -955, S -956, S - 957, S -958, S -959 and S -960, the proposed \nrevisions are administrative to correct capacities of S -956 and S -958 from the Model RA rating \nof 800 BHP to the Model HRA rating of 880 BHP.  A review of the sources found that the \noriginal 1977 data forms for S -956, S -957, S -958 and S -959 specified these engines as Model \nRA8 engines.  Furthermore, the District database did not show any of the No. 4 Gas Plant \nengines as abated.  Therefore, this application resulted in a District database correction plus two \nissues that merited addressing:  \n1. Were any of the engines modified to the Model HRA8?  \n2. Is 40 CFR 64, Compliance Assurance Monitoring (CAM)  applicable ?BACKGROUND\nOUND  \n \nAs part of the Title V Renewal Permit 2011 Appeal efforts, Tesoro Refining and Marketing \nCompany is submitting several applications to address the Appeal items.  This is one of those \napplications, an administrative change in conditions, to address the issues with the refinery \nengines, including the following sources:  \n \nS-952 No. 1 Gas Plant Compressor 4023  Engine, 300 BHP, Natural Gas Fired  \nS-953 No. 1 Gas  Plant Compressor 4024 Engine, 300 BHP, Natural Gas Fired  \nS-954 No. 1 Gas  Plant Compress or 4025 Engine, 300 BHP, Natural Gas Fired  \nS-955 No. 4  Gas Plant Compressor 4064 Engine, 880 BHP, Natural Gas Fired  \nS-956 No. 4  Gas Plant Compressor 4065 Engine, 880 BHP, Natural Gas Fired  \nS-957 No. 4  Gas Plant Compressor 4066 Engine, 880 BHP, Natural Gas Fired  \nS-958 No. 4  Gas Plant Compressor 4067 Engine, 880 BHP, Natural Gas Fired  \nS-959 No. 4  Gas Plant Compressor 4068 Engine, 880 BHP, Natural Gas Fired  \nS-960 No. 4  Gas Plant Compressor 4096 Engine, 660 BHP, Natural Gas Fired  \n \nIn addition, the following exi sting abatement devices were permitted via 1996 Application \n15392, but are omitted from the Tesoro Permit to O perate:  \n \nA-955 SCR for No. 4  Gas Plant Compressor 4064 Engine  \nA-956 SCR for No. 4  Gas Plant Compressor 4065 Engine  \nA-957 SCR for No. 4  Gas Plant C ompressor 4066 Engine  \nA-958 SCR for No. 4  Gas Plant Compressor 4067 Engine  \nA-959 SCR for No. 4  Gas Plant Compressor 4068 Engine  \nA-960 SCR for No. 4  Gas Plant Compressor 4096 Engine  \n \nThe original application also included an administrative change in conditions to the following \nsources:  \n \nS-56  Amorco On-shore Diesel Fire -Water Pump , 660 BHP  \nS-57  Amorco Off-shore/Wharf Diesel Fire -Water Pump , 700 BHP  \nS-1469  Avon Wharf Fire Water Pump Engine; Diesel Fired , 400 BHP  \nS-1471  Landsend Fire Water Pump Engine;  Diesel Fired , 130 BHP  \nS-1472  Tract 4 North Fire Water Pump Engine; Diesel Fired , 430 BHP  \nS-1475  Trailer 1 Fire Water Pump Engine; Diesel Fired; Portable , 503 BHP  \nS-1476  Trailer 4 Fire Water Pump Engine; Diesel Fired; Portable , 503 BHP  \nS-1487  Tank 38 Fire -Water Pump Engine, Diesel Fired , 420 BHP  \nS-1488  Canal Fire -Water Pump Engine, Diesel Fired , 538 BHP  \nS-1518  North Reservoir West Fire Water Pump Engine, Diesel Fired , 360 BHP  \nS-1519  North Reservoir East Fire Water Pump Engine, Diesel Fired, 360 BHP  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  303 November 3 , 2015  The spe cific appeal items initially covered by this application are #5, #6 and #7, and are shown \nat the end of this evaluation.   \n \nIn the 4/26/12 letter from Tesoro regarding this application, all proposed revisions in this \napplication  regarding the sources othe r than the gas plant engines (i.e. all the sources in the \nsecond list above) were removed, both from the Title V Appeal and from this application.  \nTherefore, only Appeal Item # 5 is addressed in this application and Appeal Items # 6 and # 7 \nhave been remo ved from this application.  \n \nFor the No. 1 Gas Plant engines, S -952, S -953 and S -954, the proposed revisions are \nadministrative to show the NSCR abatement devices and to indicate that these devices abate CO \nemissions.  The existing information in the Renewe d Title V Permit  treats the NSCR as only a \nNOx abatement device.  \n \nFor the No. 4 Gas Plant engines, S -955, S -956, S - 957, S -958, S -959 and S -960, the proposed \nrevisions are administrative to correct capacities of S -956 and S -958 from the Model RA rating \nof 800 BHP to the Model HRA rating of 880 BHP.  A review of the sources found that the \noriginal 1977 data forms for S -956, S -957, S -958 and S -959 specified these engines as Model \nRA8 engines.  Furthermore, the District database did not show any of the No. 4 Gas Plant \nengines as abated.  Therefore, this application resulted in a District database correction plus two \nissues that merited addressing:  \n1. Were any of the engines modified to the Model HRA8?  \n2. Is 40 CFR 64, Compliance Assurance Monitoring (CAM)  applicable ? \n \nEMISSIONS SUMMARY  \n \nThere are no increases in emissions associated with this administrative change in condition \napplication.   \n \nThe No 4 Gas Plant engines were altered to add abatement via 1995 Application 15392.  In this \napplication the engines were specified to have a maximum firing rate of 7.1MMBtu/hr (5.3MM \nfor S -960).  NOx emission factors from AP -42, Table 3 -2.1, is 3.17 lb/MMBtu for operation \nbetween 90% and 105% of load.  The following table summarizes the NOx emissions from these \nengines:  \n \nEngine MMBtu/hr  NOx \nlb/MM  Unabated NOx Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-955 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-956 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-957 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-958 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-959 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-960 5.3 3.17 16.8 403 147,177  73.6 80% 14.7 \n* Abatement factor from Tesoro Data Form ICE dated 5/15/12.  \n \nSimilarly, emissions for the No 1 Gas Plant engines are shown below (based on emission \nfactors for 4 -stroke Rich Burn engines from AP -42 Table 3.2 -3: \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  304 November 3 , 2015   \nEngine  MMBtu/hr  NOx \nlb/MM  Unabated NOx Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-952 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nS-953 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nS-954 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nEngine  MMBtu/hr  CO \nlb/MM  Unabated CO  Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-952 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \nS-953 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \nS-954 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \n* Abatement factor from Databank ."
+  },
+  "emission_calculations": {
+    "text": "EMISSIONS SUMMARY\nRY  \n \nThere are no increases in emissions associated with this administrative change in condition \napplication.   \n \nThe No 4 Gas Plant engines were altered to add abatement via 1995 Application 15392.  In this \napplication the engines were specified to have a maximum firing rate of 7.1MMBtu/hr (5.3MM \nfor S -960).  NOx emission factors from AP -42, Table 3 -2.1, is 3.17 lb/MMBtu for operation \nbetween 90% and 105% of load.  The following table summarizes the NOx emissions from these \nengines:  \n \nEngine MMBtu/hr  NOx \nlb/MM  Unabated NOx Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-955 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-956 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-957 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-958 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-959 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-960 5.3 3.17 16.8 403 147,177  73.6 80% 14.7 \n* Abatement factor from Tesoro Data Form ICE dated 5/15/12.  \n \nSimilarly, emissions for the No 1 Gas Plant engines are shown below (based on emission \nfactors for 4 -stroke Rich Burn engines from AP -42 Table 3.2 -3: \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  304 November 3 , 2015   \nEngine  MMBtu/hr  NOx \nlb/MM  Unabated NOx Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-952 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nS-953 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nS-954 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nEngine  MMBtu/hr  CO \nlb/MM  Unabated CO  Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-952 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \nS-953 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \nS-954 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \n* Abatement factor from Databank ."
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSIONS SUMMARY\nRY  \n \nThere are no increases in emissions associated with this administrative change in condition \napplication.   \n \nThe No 4 Gas Plant engines were altered to add abatement via 1995 Application 15392.  In this \napplication the engines were specified to have a maximum firing rate of 7.1MMBtu/hr (5.3MM \nfor S -960).  NOx emission factors from AP -42, Table 3 -2.1, is 3.17 lb/MMBtu for operation \nbetween 90% and 105% of load.  The following table summarizes the NOx emissions from these \nengines:  \n \nEngine MMBtu/hr  NOx \nlb/MM  Unabated NOx Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-955 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-956 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-957 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-958 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-959 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-960 5.3 3.17 16.8 403 147,177  73.6 80% 14.7 \n* Abatement factor from Tesoro Data Form ICE dated 5/15/12.  \n \nSimilarly, emissions for the No 1 Gas Plant engines are shown below (based on emission \nfactors for 4 -stroke Rich Burn engines from AP -42 Table 3.2 -3: \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  304 November 3 , 2015   \nEngine  MMBtu/hr  NOx \nlb/MM  Unabated NOx Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-952 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nS-953 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nS-954 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nEngine  MMBtu/hr  CO \nlb/MM  Unabated CO  Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-952 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \nS-953 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \nS-954 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \n* Abatement factor from Databank .",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-952": {
+        "narrative": "S-952 3.0 2.21 6.63 159 58,078  29.0 95% 1.45\nS-952 3.0 3.72 11.16  268 97,762  48.9 95% 2.4",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-953": {
+        "narrative": "S-953 3.0 2.21 6.63 159 58,078  29.0 95% 1.45\nS-953 3.0 3.72 11.16  268 97,762  48.9 95% 2.4",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-954": {
+        "narrative": "S-954 3.0 2.21 6.63 159 58,078  29.0 95% 1.45\nS-954 3.0 3.72 11.16  268 97,762  48.9 95% 2.4",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-955": {
+        "narrative": "S-955 7.1 3.17 22.5 540 197,161  98.6 80% 19.7",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-956": {
+        "narrative": "S-956 7.1 3.17 22.5 540 197,161  98.6 80% 19.7",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-957": {
+        "narrative": "S-957 7.1 3.17 22.5 540 197,161  98.6 80% 19.7",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-958": {
+        "narrative": "S-958 7.1 3.17 22.5 540 197,161  98.6 80% 19.7",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-959": {
+        "narrative": "S-959 7.1 3.17 22.5 540 197,161  98.6 80% 19.7",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-960": {
+        "narrative": "S-960 5.3 3.17 16.8 403 147,177  73.6 80% 14.7",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-955": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-956": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-957": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-958": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-959": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-960": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-56": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-57": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1469": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1471": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1472": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1475": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1476": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1487": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1488": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1518": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-1519": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": ""
+  },
+  "BACT": {
+    "text": ""
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nLIANCE  \n \nThis application does not change the compliance of these engines.  These engines are subject to, \nand are expected to remain in compliance with, the following:  \n \nRegulation 6, Rule 1, Particulate Matter; General Requirements  \nRegulation 9, Rule 8, Nitrogen Oxides and Carbon Monoxide from Stationary Internal \nCombustion Engines  \n \nRegulation 2, Rule 1, General Requi rements.   \nRegulation 2, Rule 2, New Source Review  \nThese sources in compliance with the permitting requirements of Regulation 2, Rule 1, and not \nsubject to the New Source Review requirements of Regulation 2, Rule 2, as explained in \nthe following paragraph.  \n \nAll of the No 1 Gas Plant engines are grandfathered sources that were altered to add NSCR \nabatement via 1996 Application 16779.  These engines satisfied the permitting \nrequirements of Regulation 2, Rule 1when altered in 1996, but because emissions were n ot \nincreased, these engines were not subject to the New Source Review requirements of \nRegulation 2, Rule 2.  \n \nAll of the No 4 Gas Plant engines were purchased and operated as Clark Model RA8 engines in \n1945(except S -960, which was a RA6).  These engines hav e a rating of 100HP per cylinder \nor a total rating of 800HP.  In 1949, Clark completed design improvements and introduced \nthe Model HRA8 which has a rating of 110HP/cylinder, or 880HP.  Some of these engines \nwere upgraded to the Model HRA8 engines as indic ated on the original Lion Oil data forms \ncompleted in 1977.  Tesoro can find no records of any engine being upgraded since 1972.  \nTherefore, it is likely that all engines were upgraded to the HRA8 models, if not in 1949 \nwhen Clark introduced the upgrade, t hen  sometime in the 1950s or 1960s.  In any case, the \nupgrades did not occur after 1972 when such an upgrade would have been a source \nmodification subject to New Source Review.  The engines were altered to add SCR via \n1996 Application 15392.  These engine s satisfied the permitting requirements of \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  305 November 3 , 2015  Regulation 2, Rule 1when altered in 1996, but because emissions were not increased, these \nengines were not subject to the New Source Review requirements of Regulation 2, Rule 2.  \n \n40 CFR 64, Compliance Assurance Mo nitoring (CAM).   CAM applies to any source that meets \nall of the following criteria:  \n1. Subject to a federally enforceable pollutant specific limit.  \n2. The pollutant subject to the limit in #1 is treated with a control device.  \n3. The pollutant subject to the limit in #1 has a pre -control PTE greater than the major \nsource threshold for the pollutant.  \n \nThese No 4 Gas Plant engines are subject to the SIP 9 -8-301.2  NOx limit ( 140 ppmv, dry at \n15% oxygen ) and NOx emissions are controlled with an SCR control device.  How ever, as \ncan be seen in the NOx emissions summary table on the previous page, pre -control NOx \nemissions are 98.5 ton/yr, less than the 100 ton/yr major source threshold.  Therefore, \nCAM 40 CFR 64 does not apply.  \n \nSimilarly, for the No 1 Gas Plant engines, pre-control NOx and CO emissions are below the \nmajor source thresholds.  Therefore, CAM 40 CFR 64 does not apply.STATEMENT OF COMPLIANCE\nLIANCE  \n \nThis application does not change the compliance of these engines.  These engines are subject to, \nand are expected to remain in compliance with, the following:  \n \nRegulation 6, Rule 1, Particulate Matter; General Requirements  \nRegulation 9, Rule 8, Nitrogen Oxides and Carbon Monoxide from Stationary Internal \nCombustion Engines  \n \nRegulation 2, Rule 1, General Requi rements.   \nRegulation 2, Rule 2, New Source Review  \nThese sources in compliance with the permitting requirements of Regulation 2, Rule 1, and not \nsubject to the New Source Review requirements of Regulation 2, Rule 2, as explained in \nthe following paragraph.  \n \nAll of the No 1 Gas Plant engines are grandfathered sources that were altered to add NSCR \nabatement via 1996 Application 16779.  These engines satisfied the permitting \nrequirements of Regulation 2, Rule 1when altered in 1996, but because emissions were n ot \nincreased, these engines were not subject to the New Source Review requirements of \nRegulation 2, Rule 2.  \n \nAll of the No 4 Gas Plant engines were purchased and operated as Clark Model RA8 engines in \n1945(except S -960, which was a RA6).  These engines hav e a rating of 100HP per cylinder \nor a total rating of 800HP.  In 1949, Clark completed design improvements and introduced \nthe Model HRA8 which has a rating of 110HP/cylinder, or 880HP.  Some of these engines \nwere upgraded to the Model HRA8 engines as indic ated on the original Lion Oil data forms \ncompleted in 1977.  Tesoro can find no records of any engine being upgraded since 1972.  \nTherefore, it is likely that all engines were upgraded to the HRA8 models, if not in 1949 \nwhen Clark introduced the upgrade, t hen  sometime in the 1950s or 1960s.  In any case, the \nupgrades did not occur after 1972 when such an upgrade would have been a source \nmodification subject to New Source Review.  The engines were altered to add SCR via \n1996 Application 15392.  These engine s satisfied the permitting requirements of \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  305 November 3 , 2015  Regulation 2, Rule 1when altered in 1996, but because emissions were not increased, these \nengines were not subject to the New Source Review requirements of Regulation 2, Rule 2.  \n \n40 CFR 64, Compliance Assurance Mo nitoring (CAM).   CAM applies to any source that meets \nall of the following criteria:  \n1. Subject to a federally enforceable pollutant specific limit.  \n2. The pollutant subject to the limit in #1 is treated with a control device.  \n3. The pollutant subject to the limit in #1 has a pre -control PTE greater than the major \nsource threshold for the pollutant.  \n \nThese No 4 Gas Plant engines are subject to the SIP 9 -8-301.2  NOx limit ( 140 ppmv, dry at \n15% oxygen ) and NOx emissions are controlled with an SCR control device.  How ever, as \ncan be seen in the NOx emissions summary table on the previous page, pre -control NOx \nemissions are 98.5 ton/yr, less than the 100 ton/yr major source threshold.  Therefore, \nCAM 40 CFR 64 does not apply.  \n \nSimilarly, for the No 1 Gas Plant engines, pre-control NOx and CO emissions are below the \nmajor source thresholds.  Therefore, CAM 40 CFR 64 does not apply."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS\nITIONS  \n \nPermit conditions 13509 and 15204 will be revised as follows:  \n \n \nCondition  13509  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nthe completed source test Part 4 and parts redundant with District regulations.  \n \nS955 I Cnternal Combustion  Engine , Compressor 4064 , Abated by A955 SCR  \nS956 I Cnternal Combustion  Engine , Compressor 406 5, Abated by A956 SCR  \nS957  ICnternal Combustion  Engine , Compressor 406 6, Abated by A95 7 SCR  \nS958  ICnternal Combustion  Engine , Compressor 406 7, Abated by A95 8 SCR  \nS959  ICnternal Combustion  Engine , Compressor 406 8, Abated by A95 9 SCR  \nS960  ICnternal Combustion  Engine , Compressor 40 96, Abated by A9 60 SCRPERMIT CONDITIONS\nITIONS  \n \nPermit conditions 13509 and 15204 will be revised as follows:  \n \n \nCondition  13509  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nthe completed source test Part 4 and parts redundant with District regulations.  \n \nS955 I Cnternal Combustion  Engine , Compressor 4064 , Abated by A955 SCR  \nS956 I Cnternal Combustion  Engine , Compressor 406 5, Abated by A956 SCR  \nS957  ICnternal Combustion  Engine , Compressor 406 6, Abated by A95 7 SCR  \nS958  ICnternal Combustion  Engine , Compressor 406 7, Abated by A95 8 SCR  \nS959  ICnternal Combustion  Engine , Compressor 406 8, Abated by A95 9 SCR  \nS960  ICnternal Combustion  Engine , Compressor 40 96, Abated by A9 60 SCR  \n \nTHE FOLLOWING CONDITI ONS ARE EFFECTIVE JANUARY 1, 1997  ON SOURCES S-955,  \nS-956,  S-957,  S-958,  S-959  AND S-960,   \n \nAPPLICATION #15392  (1996) :  ADD SCR S FOR NOX CONTROL  \n \nADMINISTRATIVELY CHAN GED BY APPLICATION 19419  (JUNE 2009):   REMOVED \nREDUNDANT PARTS 2 & 3 AND COMPLETED PART 4. \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  306 November 3 , 2015  ADMINISTRATIVELY CHAN GED BY APPLICATION 23848  (JUNE 2012):   UPDATED TO \nSHOW SOURCES ABATED BY SCR S (TESORO 2011  TV APPEAL ITEM 5). \n \n \n1. This engine shall be fired exclusively on natural gas. (basis: toxics)  \n \n2. Deleted (basis: NOx emissions limit Redundant with Regulation 9 -8-301.2)  \n \n3. Deleted (basis: CO emissions limit Redundant with Regulation 9 -8-301.2)  \n \n4. Deleted (basis: Initial Source Test completed prior to the granting of the \npermit to operate August 1, 1996)  \n \n \n \n \nCondition 15204  \n \nS-952 IC Engine , Compressor 40 23, Abated by A -952 NSCR  \nS-953 IC Engine , Compressor 40 24, Abated by A -953 NSCR  \nS-954 IC Engine , Compressor 40 25, Abated by A -954 NSCR  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nparts redundant with District regulations.  \n \nTHE FOLLOWING CONDITI ONS FOR THE NO. 1 GAS PLANT  \nCOMPRESSOR ENGINES A RE EFFECTIVE JANUARY 1. 1997  \n \nAPPLICATION 16779  (1996):   ADD NSCR S FOR NOX CONTROL  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nparts 2, 3 and 4 that are redundant with District regulations.  \n \nAdministratively changed by Application 23848 (June 2012):  Updat ed to show \nsources abated by NSCR s (Tesoro 2011 T V Appeal Item 5).  \n \n1. Compressor engines S -952, S -953, and S -954 shall be fired exclusively on \nnatural gas. (basis: cumulative increase)  \n \n2. Delete (basis: NOx emissions limit Redundant with Regulation 9 -8-301.1)  \n \n3. Delete (basis: CO emissions limit Redu ndant with Regulation 9 -8-301.3)  \n \n4. Delete (basis: Particulate emissions limit redundant with Regulation 6 -1-\n301) \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  307 November 3 , 2015"
+  },
+  "permit_conditions": {
+    "condition_number": 13509,
+    "items": [
+      {
+        "num": 1,
+        "text": "This engine shall be fired exclusively on natural gas. (",
+        "basis": [
+          "toxics)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "Deleted (",
+        "basis": [
+          "NOx emissions limit Redundant with Regulation 9 -8-301.2)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "Deleted (",
+        "basis": [
+          "CO emissions limit Redundant with Regulation 9 -8-301.2)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "Deleted (",
+        "basis": [
+          "Initial Source Test completed prior to the granting of the \npermit to operate August 1",
+          "1996)  \n \n \n \n \nCondition 15204  \n \nS-952 IC Engine",
+          "Compressor 40 23",
+          "Abated by A -952 NSCR  \nS-953 IC Engine",
+          "Compressor 40 24",
+          "Abated by A -953 NSCR  \nS-954 IC Engine",
+          "Compressor 40 25",
+          "Abated by A -954 NSCR  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nparts redundant with District regulations.  \n \nTHE FOLLOWING CONDITI ONS FOR THE NO. 1 GAS PLANT  \nCOMPRESSOR ENGINES A RE EFFECTIVE JANUARY 1. 1997  \n \nAPPLICATION 16779  (1996):   ADD NSCR S FOR NOX CONTROL  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nparts 2",
+          "3 and 4 that are redundant with District regulations.  \n \nAdministratively changed by Application 23848 (June 2012):  Updat ed to show \nsources abated by NSCR s (Tesoro 2011 T V Appeal Item 5)."
+        ]
+      },
+      {
+        "num": 1,
+        "text": "Compressor engines S -952, S -953, and S -954 shall be fired exclusively on \nnatural gas. (",
+        "basis": [
+          "cumulative increase)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "Delete (",
+        "basis": [
+          "NOx emissions limit Redundant with Regulation 9 -8-301.1)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "Delete (",
+        "basis": [
+          "CO emissions limit Redu ndant with Regulation 9 -8-301.3)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "Delete (",
+        "basis": [
+          "Particulate emissions limit redundant with Regulation 6 -1-\n301) \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759",
+          "Tesoro Refining & Marke ting Company",
+          "LLC",
+          "Golden Eagle Refinery",
+          "150 Solano Way",
+          "Martinez",
+          "CA  94553  \n    \nProposed Rev 5 Statement of Basis  307 November 3",
+          "2015"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nON  \n \nIt is recommended that an Administrative Change in Conditions be granted to Tesoro for the \nfollowing sources:  \n \nS-952 No. 1 Gas Plant Compressor 4023  Engine, 300 BHP, Natural Gas Fired  \nS-953 No. 1 Gas  Plant Compressor 4024 Engine, 300 BHP, Natural Gas Fired  \nS-954 No. 1 Gas  Plant Compressor 4025 Engine, 300 BHP, Natural Gas Fired  \nS-955 No. 4  Gas Plant Compressor 4064 Engine, 880 BHP, Natural Gas Fired  \nS-956 No. 4  Gas Plant Compressor 4065 Engine, 880 BHP, Natural Gas Fired  \nS-957 No. 4  Gas Plant Compressor 4066 Engine, 880 BHP, Natural Gas Fired  \nS-958 No. 4  Gas Plant Compressor 4067 Engine, 880 BHP, Natural Gas Fired  \nS-959 No. 4  Gas Plant Compressor 4068 Engine, 880 BHP, Natural Gas Fired  \nS-960 No. 4  Gas Plant Compressor 4096 Engine, 660 BHP, Natural Gas Fired  \n \n \n \n \nAnd that a Permit to Operate be granted for the following abatement devices:  \n \nA-955 SCR for No. 4  Gas Plant Compressor 4064 Engine  \nA-956 SCR for No. 4  Gas Plant Compressor 4065 Engine  \nA-957 SCR for No. 4  Gas Plant Compressor 4066 Engine  \nA-958 SCR for No. 4  Gas Plant Compressor 4067 Engine  \nA-959 SCR for No. 4  Gas Plant Compressor 4068 Engine  \nA-960 SCR for No. 4  Gas Plant Compressor 4096 Engine  \n \n \n \n \n \n \n \n \nBy:        \n Arthur Valla       June 1, 2012  \n Senior Air Quality Engineer  \n \n \n \n \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \nTesoro Refining and Marketing Company   Application #24056  \nPlant # 14628   Page 308 of 438 \n \nProposed Rev 5 Statement of Basis  308 November 3 , 2015   \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \n5  S955RECOMMENDATION\nON  \n \nIt is recommended that an Administrative Change in Conditions be granted to Tesoro for the \nfollowing sources:  \n \nS-952 No. 1 Gas Plant Compressor 4023  Engine, 300 BHP, Natural Gas Fired  \nS-953 No. 1 Gas  Plant Compressor 4024 Engine, 300 BHP, Natural Gas Fired  \nS-954 No. 1 Gas  Plant Compressor 4025 Engine, 300 BHP, Natural Gas Fired  \nS-955 No. 4  Gas Plant Compressor 4064 Engine, 880 BHP, Natural Gas Fired  \nS-956 No. 4  Gas Plant Compressor 4065 Engine, 880 BHP, Natural Gas Fired  \nS-957 No. 4  Gas Plant Compressor 4066 Engine, 880 BHP, Natural Gas Fired  \nS-958 No. 4  Gas Plant Compressor 4067 Engine, 880 BHP, Natural Gas Fired  \nS-959 No. 4  Gas Plant Compressor 4068 Engine, 880 BHP, Natural Gas Fired  \nS-960 No. 4  Gas Plant Compressor 4096 Engine, 660 BHP, Natural Gas Fired  \n \n \n \n \nAnd that a Permit to Operate be granted for the following abatement devices:  \n \nA-955 SCR for No. 4  Gas Plant Compressor 4064 Engine  \nA-956 SCR for No. 4  Gas Plant Compressor 4065 Engine  \nA-957 SCR for No. 4  Gas Plant Compressor 4066 Engine  \nA-958 SCR for No. 4  Gas Plant Compressor 4067 Engine  \nA-959 SCR for No. 4  Gas Plant Compressor 4068 Engine  \nA-960 SCR for No. 4  Gas Plant Compressor 4096 Engine  \n \n \n \n \n \n \n \n \nBy:        \n Arthur Valla       June 1, 2012  \n Senior Air Quality Engineer  \n \n \n \n \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \nTesoro Refining and Marketing Company   Application #24056  \nPlant # 14628   Page 308 of 438 \n \nProposed Rev 5 Statement of Basis  308 November 3 , 2015   \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \n5  S955 \nS956  \nS957  \nS958  \nS959  \nS960  The information in the Capacity column for these \nsources is incorrect. S955 through S959 are each 880 \nBHP engines with design fuel consumption of 7110 scfh \n(natural gas). Assuming 1030 BTU/scf for natural gas, \nthe design heat input is 8.322 BTU/HP -hr or7.3  \nMMBTU /hr and 64,152 MMBTU /year. Similar values \nare calculated for S960, which is a 660 BHP engine, by \napplying a ratio of the engine BHP (660/880).  \n5.1 Table II -A.1 S955  \nS956  \nS957  \nS958  \nS959  Correct Capacity column to read:  \n“17200 in3 displacement  \n880 BHP  \n7.3 MMBTU/hr  \n64,152 MMBTU/yr”  \n5.2 Table II -A.1 S960  Correct Capacity column to read:  \n“12900 in3 displacement  \n660 BHP  \n5.5 MMBTU/hr  \n48,114 MMBTU/yr”  \n6  S1475  \nS1476  S1475 and S1476 are portable diesel fired emergency \ninternal combustion engines (ICE). The regulatory \napplicability, permit conditions and allowable hours of \noperation shown for these sources in Section II and \nTable IV -C.3.4 are incorrect. These sources ar e subject \nto CARB ATCM 93116 which allows 50 hours per year \nfor non -emergency operations. Permit applications \n(AN) 19419/19418 incorrectly deleted this limit from \nCondition 18947, Part 5 and changed applicability for \nthese sources to treat them as in -use s tationary \nemergency ICE subject to CARB ATCM 93115 and \nCondition 22851, which allow only 34 hours per year \nfor non emergency operation.  \n6.1 Table II -A.1 S1475  \nS1476  Change Capacity column to read:  \n“503HP, 50 hr/yr”  \nChange Grandfathered Limit or Firm Limi t and Basis \ncolumn to read:  \n“Firm Limit Condition # 18947, part 5  \nNew Source Review”  \n6.2 Table IV -C.3.4  S1475  \nS1476  Delete S1475 and S1476 from Title Block  \nDelete Condition 18947  \n6.3 Section IV -C.3 S1475  \nS1476  Add new Table IV -C.3.7 for S1475 and S1476 with \napplicable requirements from Regulation 6, Rule 1; SIP \nRegulation 6; Regulation 9, Rule 1; CARB Portable \nDiesel Engine ATCM section 93116; and BAAQMD \nCondition 18947  \nTesoro Refining and Marketing Company   Application #24056  \nPlant # 14628   Page 309 of 438 \n \nProposed Rev 5 Statement of Basis  309 November 3 , 2015   \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \n6.4 Section VI  \nCondition \n18947  \nPart 5  S1475  \nS1476  Reinstate Part 5 to read: “ The owner/operator of S -1475 \nand S -1476 shall not operate either engine for more than \n50 hours during any consecutive 12 -month period. \n[Cumulative Increase, BACT Toxic Risk Screen]”  \n6.5 Section VI  \nCondition \n22851  \nIntroduction  S1475  \nS1476  Delete S1475, S1476  \n6.6 Table VII -C.3.4  S1475  \nS1476  Delete S1475 and S1476 from Title Block  \nDelete monitoring requirements from section titled \n“S1475 and S1476”  \n6.7 Section VII -C.3 S1475  \nS1476  Add new Table VII -C.3.7 for S1475 and S1476 with \napplicable monitoring requirements consistent with the \napplicable requirements in new Table IV -C.3.7  \n7 Table IV -C.3.4  \nTable IV -C.3.5  \nTable VII -\nC.3.4  \nTable VII -\nC.3.5  S1487  \nS1488  S1487 is a stationary diesel fired emergency internal \ncombustion engine (ICE). It is incorrectly included in \nTables IV -C.3.5 and VII -C.3.5 which include the \nrequirements for new engines in CARB ATCM 93115. \nS1487 is subject to the requirements for an in -use \nengine in CARB ATCM 93115 and should be included \nin Tables IV -C.3.4 and VII -C.3.4.  In addition, the \nmonitoring requirements for S1488 in Table VII -C.3.5 \nneed to be updated to correspond with current \nrequirements for new engines in CARB ATCM 93115 \nand to correct monitoring requirements for Regulation \n6 Rule 1 and SIP Regulation 6.  \n7.1 Table IV -C.3.4  S1487  Add “ S1487  TANK 38 FIRE-WATER PUMP ENGINE ; DIESEL \nFIRED” to title block  \nAdd Condition 20672, parts A5, A6, and A8 for S1487 \n(move from Table IV -C.3.5)  \n7.2 Table IV -C.3.5  S1487  Delete S1487 from title block  \nDelete Condition 20672, parts A5, A6, and A8 for S1487 \nand remove explanation of applicability from Condition \n20672 title block  \nAdd “S1488” to Description for Condition 20672, parts \nB5, B6, B7, and B9  \n7.3 Table VII -C.3.4  S1487  Add “ S1487  TANK 38 FIRE-WATER PUMP ENGINE ; DIESEL \nFIRED” to title block  \nAdd monitoring requirements for Condition 20672 for \nS1487 (move from Table VII -C.3.5)  \n7.4 Table VII -C.3.5  \nRows 1, 11, 15  S1487  Delete each row and move to Table VII -C.3.4 for S1487  \nRow 1 [Type of Limit: CO (S1487)]  \nRow 11 [Type of Limit: NOx (S1487)]  \nRow 15 [Type of Limit: Sulfur Content (S1487)]  \n7.5 Table VII -C.3.5  \nRows 2, 12, 13  S1488  Delete “(S1488)” from Type of Limit  \nTesoro Refining and Marketing Company   Application #24056  \nPlant # 14628   Page 310 of 438 \n \nProposed Rev 5 Statement of Basis  310 November 3 , 2015   \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \n7.6 Table VII -C.3.5  \nRow 7  S1488  Delete “(S1487)” from Type of Limit  \nAdd second Monitoring Requirement for this limit as \nfollows:  \nMonitoring Requirement Citation: CCR, Title 17, Section \n93115.10(e)(1)  \nMonitoring Frequency (P/C/N): C  \nMonitoring Type: Totalizing Meter  \n7.7 Table VII -C.3.5  \nRows 8, 9  S1488  Delete each row [Type of Limit: Hours of Operation PM \n(S1488)]  \n7.8 Table VII -C.3.5  \nRows 16, 17, 18  S1488  Delete each row (Regulation 6, Rule 1 and SIP Regulation \n6 monitoring)  \n \n7.9 Table VII -C.3.5  \nRow 19  S1487  Delete “(S1487)” from Type of Limit  \n7.10 Table VII -C.3.5  S1488  Add new row as follows:  \nType of Limit: Visible Emissions  \nCitation of Limit: BAAQMD 6 -1-303.1  \nFE Y/N: N  \nLimit: ≥ Ringelmann No. 2 for no more than 3 \nminutes/hour  \nMonitoring Requirement Citation: None  \nMonitoring Frequency  (P/C/N): N  \nMonitoring Type: N/A"
+  },
+  "raw_sections": {
+    "preamble": "Permit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  302 November 3 , 2015  Application 23 848, Title V Renewal Appeal Items -- Engines",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nON  \nTesoro Refining and Marketing Company"
+      },
+      {
+        "heading": "PLANT NO. 14628",
+        "alias": null,
+        "text": "PLANT NO. 14628"
+      },
+      {
+        "heading": "APPLICATION NO.  23848",
+        "alias": null,
+        "text": "APPLICATION NO.  23848"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nAs part of the Title V Renewal Permit 2011 Appeal efforts, Tesoro Refining and Marketing \nCompany is submitting several applications to address the Appeal items.  This is one of those \napplications, an administrative change in conditions, to address the issues with the refinery \nengines, including the following sources:  \n \nS-952 No. 1 Gas Plant Compressor 4023  Engine, 300 BHP, Natural Gas Fired  \nS-953 No. 1 Gas  Plant Compressor 4024 Engine, 300 BHP, Natural Gas Fired  \nS-954 No. 1 Gas  Plant Compress or 4025 Engine, 300 BHP, Natural Gas Fired  \nS-955 No. 4  Gas Plant Compressor 4064 Engine, 880 BHP, Natural Gas Fired  \nS-956 No. 4  Gas Plant Compressor 4065 Engine, 880 BHP, Natural Gas Fired  \nS-957 No. 4  Gas Plant Compressor 4066 Engine, 880 BHP, Natural Gas Fired  \nS-958 No. 4  Gas Plant Compressor 4067 Engine, 880 BHP, Natural Gas Fired  \nS-959 No. 4  Gas Plant Compressor 4068 Engine, 880 BHP, Natural Gas Fired  \nS-960 No. 4  Gas Plant Compressor 4096 Engine, 660 BHP, Natural Gas Fired  \n \nIn addition, the following exi sting abatement devices were permitted via 1996 Application \n15392, but are omitted from the Tesoro Permit to O perate:  \n \nA-955 SCR for No. 4  Gas Plant Compressor 4064 Engine  \nA-956 SCR for No. 4  Gas Plant Compressor 4065 Engine  \nA-957 SCR for No. 4  Gas Plant C ompressor 4066 Engine  \nA-958 SCR for No. 4  Gas Plant Compressor 4067 Engine  \nA-959 SCR for No. 4  Gas Plant Compressor 4068 Engine  \nA-960 SCR for No. 4  Gas Plant Compressor 4096 Engine  \n \nThe original application also included an administrative change in conditions to the following \nsources:  \n \nS-56  Amorco On-shore Diesel Fire -Water Pump , 660 BHP  \nS-57  Amorco Off-shore/Wharf Diesel Fire -Water Pump , 700 BHP  \nS-1469  Avon Wharf Fire Water Pump Engine; Diesel Fired , 400 BHP  \nS-1471  Landsend Fire Water Pump Engine;  Diesel Fired , 130 BHP  \nS-1472  Tract 4 North Fire Water Pump Engine; Diesel Fired , 430 BHP  \nS-1475  Trailer 1 Fire Water Pump Engine; Diesel Fired; Portable , 503 BHP  \nS-1476  Trailer 4 Fire Water Pump Engine; Diesel Fired; Portable , 503 BHP  \nS-1487  Tank 38 Fire -Water Pump Engine, Diesel Fired , 420 BHP  \nS-1488  Canal Fire -Water Pump Engine, Diesel Fired , 538 BHP  \nS-1518  North Reservoir West Fire Water Pump Engine, Diesel Fired , 360 BHP  \nS-1519  North Reservoir East Fire Water Pump Engine, Diesel Fired, 360 BHP  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  303 November 3 , 2015  The spe cific appeal items initially covered by this application are #5, #6 and #7, and are shown \nat the end of this evaluation.   \n \nIn the 4/26/12 letter from Tesoro regarding this application, all proposed revisions in this \napplication  regarding the sources othe r than the gas plant engines (i.e. all the sources in the \nsecond list above) were removed, both from the Title V Appeal and from this application.  \nTherefore, only Appeal Item # 5 is addressed in this application and Appeal Items # 6 and # 7 \nhave been remo ved from this application.  \n \nFor the No. 1 Gas Plant engines, S -952, S -953 and S -954, the proposed revisions are \nadministrative to show the NSCR abatement devices and to indicate that these devices abate CO \nemissions.  The existing information in the Renewe d Title V Permit  treats the NSCR as only a \nNOx abatement device.  \n \nFor the No. 4 Gas Plant engines, S -955, S -956, S - 957, S -958, S -959 and S -960, the proposed \nrevisions are administrative to correct capacities of S -956 and S -958 from the Model RA rating \nof 800 BHP to the Model HRA rating of 880 BHP.  A review of the sources found that the \noriginal 1977 data forms for S -956, S -957, S -958 and S -959 specified these engines as Model \nRA8 engines.  Furthermore, the District database did not show any of the No. 4 Gas Plant \nengines as abated.  Therefore, this application resulted in a District database correction plus two \nissues that merited addressing:  \n1. Were any of the engines modified to the Model HRA8?  \n2. Is 40 CFR 64, Compliance Assurance Monitoring (CAM)  applicable ?"
+      },
+      {
+        "heading": "EMISSIONS SUMMARY",
+        "alias": "EMISSIONS",
+        "text": "EMISSIONS SUMMARY\nRY  \n \nThere are no increases in emissions associated with this administrative change in condition \napplication.   \n \nThe No 4 Gas Plant engines were altered to add abatement via 1995 Application 15392.  In this \napplication the engines were specified to have a maximum firing rate of 7.1MMBtu/hr (5.3MM \nfor S -960).  NOx emission factors from AP -42, Table 3 -2.1, is 3.17 lb/MMBtu for operation \nbetween 90% and 105% of load.  The following table summarizes the NOx emissions from these \nengines:  \n \nEngine MMBtu/hr  NOx \nlb/MM  Unabated NOx Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-955 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-956 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-957 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-958 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-959 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-960 5.3 3.17 16.8 403 147,177  73.6 80% 14.7 \n* Abatement factor from Tesoro Data Form ICE dated 5/15/12.  \n \nSimilarly, emissions for the No 1 Gas Plant engines are shown below (based on emission \nfactors for 4 -stroke Rich Burn engines from AP -42 Table 3.2 -3: \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  304 November 3 , 2015   \nEngine  MMBtu/hr  NOx \nlb/MM  Unabated NOx Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-952 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nS-953 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nS-954 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nEngine  MMBtu/hr  CO \nlb/MM  Unabated CO  Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-952 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \nS-953 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \nS-954 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \n* Abatement factor from Databank ."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nLIANCE  \n \nThis application does not change the compliance of these engines.  These engines are subject to, \nand are expected to remain in compliance with, the following:  \n \nRegulation 6, Rule 1, Particulate Matter; General Requirements  \nRegulation 9, Rule 8, Nitrogen Oxides and Carbon Monoxide from Stationary Internal \nCombustion Engines  \n \nRegulation 2, Rule 1, General Requi rements.   \nRegulation 2, Rule 2, New Source Review  \nThese sources in compliance with the permitting requirements of Regulation 2, Rule 1, and not \nsubject to the New Source Review requirements of Regulation 2, Rule 2, as explained in \nthe following paragraph.  \n \nAll of the No 1 Gas Plant engines are grandfathered sources that were altered to add NSCR \nabatement via 1996 Application 16779.  These engines satisfied the permitting \nrequirements of Regulation 2, Rule 1when altered in 1996, but because emissions were n ot \nincreased, these engines were not subject to the New Source Review requirements of \nRegulation 2, Rule 2.  \n \nAll of the No 4 Gas Plant engines were purchased and operated as Clark Model RA8 engines in \n1945(except S -960, which was a RA6).  These engines hav e a rating of 100HP per cylinder \nor a total rating of 800HP.  In 1949, Clark completed design improvements and introduced \nthe Model HRA8 which has a rating of 110HP/cylinder, or 880HP.  Some of these engines \nwere upgraded to the Model HRA8 engines as indic ated on the original Lion Oil data forms \ncompleted in 1977.  Tesoro can find no records of any engine being upgraded since 1972.  \nTherefore, it is likely that all engines were upgraded to the HRA8 models, if not in 1949 \nwhen Clark introduced the upgrade, t hen  sometime in the 1950s or 1960s.  In any case, the \nupgrades did not occur after 1972 when such an upgrade would have been a source \nmodification subject to New Source Review.  The engines were altered to add SCR via \n1996 Application 15392.  These engine s satisfied the permitting requirements of \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  305 November 3 , 2015  Regulation 2, Rule 1when altered in 1996, but because emissions were not increased, these \nengines were not subject to the New Source Review requirements of Regulation 2, Rule 2.  \n \n40 CFR 64, Compliance Assurance Mo nitoring (CAM).   CAM applies to any source that meets \nall of the following criteria:  \n1. Subject to a federally enforceable pollutant specific limit.  \n2. The pollutant subject to the limit in #1 is treated with a control device.  \n3. The pollutant subject to the limit in #1 has a pre -control PTE greater than the major \nsource threshold for the pollutant.  \n \nThese No 4 Gas Plant engines are subject to the SIP 9 -8-301.2  NOx limit ( 140 ppmv, dry at \n15% oxygen ) and NOx emissions are controlled with an SCR control device.  How ever, as \ncan be seen in the NOx emissions summary table on the previous page, pre -control NOx \nemissions are 98.5 ton/yr, less than the 100 ton/yr major source threshold.  Therefore, \nCAM 40 CFR 64 does not apply.  \n \nSimilarly, for the No 1 Gas Plant engines, pre-control NOx and CO emissions are below the \nmajor source thresholds.  Therefore, CAM 40 CFR 64 does not apply."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nITIONS  \n \nPermit conditions 13509 and 15204 will be revised as follows:  \n \n \nCondition  13509  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nthe completed source test Part 4 and parts redundant with District regulations.  \n \nS955 I Cnternal Combustion  Engine , Compressor 4064 , Abated by A955 SCR  \nS956 I Cnternal Combustion  Engine , Compressor 406 5, Abated by A956 SCR  \nS957  ICnternal Combustion  Engine , Compressor 406 6, Abated by A95 7 SCR  \nS958  ICnternal Combustion  Engine , Compressor 406 7, Abated by A95 8 SCR  \nS959  ICnternal Combustion  Engine , Compressor 406 8, Abated by A95 9 SCR  \nS960  ICnternal Combustion  Engine , Compressor 40 96, Abated by A9 60 SCR"
+      },
+      {
+        "heading": "THE FOLLOWING CONDITI ONS ARE EFFECTIVE JANUARY 1, 1997  ON SOURCES S-955,",
+        "alias": null,
+        "text": "THE FOLLOWING CONDITI ONS ARE EFFECTIVE JANUARY 1, 1997  ON SOURCES S-955,\n5,"
+      },
+      {
+        "heading": "S-956,  S-957,  S-958,  S-959  AND S-960,",
+        "alias": null,
+        "text": "S-956,  S-957,  S-958,  S-959  AND S-960,\nAPPLICATION #15392  (1996) :  ADD SCR S FOR NOX CONTROL  \n \nADMINISTRATIVELY CHAN GED BY APPLICATION 19419  (JUNE 2009):   REMOVED"
+      },
+      {
+        "heading": "REDUNDANT PARTS 2 & 3 AND COMPLETED PART 4.",
+        "alias": null,
+        "text": "REDUNDANT PARTS 2 & 3 AND COMPLETED PART 4.\nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  306 November 3 , 2015  ADMINISTRATIVELY CHAN GED BY APPLICATION 23848  (JUNE 2012):   UPDATED TO"
+      },
+      {
+        "heading": "SHOW SOURCES ABATED BY SCR S (TESORO 2011  TV APPEAL ITEM 5).",
+        "alias": null,
+        "text": "SHOW SOURCES ABATED BY SCR S (TESORO 2011  TV APPEAL ITEM 5).\n1. This engine shall be fired exclusively on natural gas. (basis: toxics)  \n \n2. Deleted (basis: NOx emissions limit Redundant with Regulation 9 -8-301.2)  \n \n3. Deleted (basis: CO emissions limit Redundant with Regulation 9 -8-301.2)  \n \n4. Deleted (basis: Initial Source Test completed prior to the granting of the \npermit to operate August 1, 1996)  \n \n \n \n \nCondition 15204  \n \nS-952 IC Engine , Compressor 40 23, Abated by A -952 NSCR  \nS-953 IC Engine , Compressor 40 24, Abated by A -953 NSCR  \nS-954 IC Engine , Compressor 40 25, Abated by A -954 NSCR  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nparts redundant with District regulations."
+      },
+      {
+        "heading": "THE FOLLOWING CONDITI ONS FOR THE NO. 1 GAS PLANT",
+        "alias": null,
+        "text": "THE FOLLOWING CONDITI ONS FOR THE NO. 1 GAS PLANT\nNT"
+      },
+      {
+        "heading": "COMPRESSOR ENGINES A RE EFFECTIVE JANUARY 1. 1997",
+        "alias": null,
+        "text": "COMPRESSOR ENGINES A RE EFFECTIVE JANUARY 1. 1997\nAPPLICATION 16779  (1996):   ADD NSCR S FOR NOX CONTROL  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nparts 2, 3 and 4 that are redundant with District regulations.  \n \nAdministratively changed by Application 23848 (June 2012):  Updat ed to show \nsources abated by NSCR s (Tesoro 2011 T V Appeal Item 5).  \n \n1. Compressor engines S -952, S -953, and S -954 shall be fired exclusively on \nnatural gas. (basis: cumulative increase)  \n \n2. Delete (basis: NOx emissions limit Redundant with Regulation 9 -8-301.1)  \n \n3. Delete (basis: CO emissions limit Redu ndant with Regulation 9 -8-301.3)  \n \n4. Delete (basis: Particulate emissions limit redundant with Regulation 6 -1-\n301) \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  307 November 3 , 2015"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nON  \n \nIt is recommended that an Administrative Change in Conditions be granted to Tesoro for the \nfollowing sources:  \n \nS-952 No. 1 Gas Plant Compressor 4023  Engine, 300 BHP, Natural Gas Fired  \nS-953 No. 1 Gas  Plant Compressor 4024 Engine, 300 BHP, Natural Gas Fired  \nS-954 No. 1 Gas  Plant Compressor 4025 Engine, 300 BHP, Natural Gas Fired  \nS-955 No. 4  Gas Plant Compressor 4064 Engine, 880 BHP, Natural Gas Fired  \nS-956 No. 4  Gas Plant Compressor 4065 Engine, 880 BHP, Natural Gas Fired  \nS-957 No. 4  Gas Plant Compressor 4066 Engine, 880 BHP, Natural Gas Fired  \nS-958 No. 4  Gas Plant Compressor 4067 Engine, 880 BHP, Natural Gas Fired  \nS-959 No. 4  Gas Plant Compressor 4068 Engine, 880 BHP, Natural Gas Fired  \nS-960 No. 4  Gas Plant Compressor 4096 Engine, 660 BHP, Natural Gas Fired  \n \n \n \n \nAnd that a Permit to Operate be granted for the following abatement devices:  \n \nA-955 SCR for No. 4  Gas Plant Compressor 4064 Engine  \nA-956 SCR for No. 4  Gas Plant Compressor 4065 Engine  \nA-957 SCR for No. 4  Gas Plant Compressor 4066 Engine  \nA-958 SCR for No. 4  Gas Plant Compressor 4067 Engine  \nA-959 SCR for No. 4  Gas Plant Compressor 4068 Engine  \nA-960 SCR for No. 4  Gas Plant Compressor 4096 Engine  \n \n \n \n \n \n \n \n \nBy:        \n Arthur Valla       June 1, 2012  \n Senior Air Quality Engineer  \n \n \n \n \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \nTesoro Refining and Marketing Company   Application #24056  \nPlant # 14628   Page 308 of 438 \n \nProposed Rev 5 Statement of Basis  308 November 3 , 2015   \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \n5  S955"
+      },
+      {
+        "heading": "S956",
+        "alias": null,
+        "text": "S956"
+      },
+      {
+        "heading": "S957",
+        "alias": null,
+        "text": "S957"
+      },
+      {
+        "heading": "S958",
+        "alias": null,
+        "text": "S958"
+      },
+      {
+        "heading": "S959",
+        "alias": null,
+        "text": "S959\nS960  The information in the Capacity column for these \nsources is incorrect. S955 through S959 are each 880 \nBHP engines with design fuel consumption of 7110 scfh \n(natural gas). Assuming 1030 BTU/scf for natural gas, \nthe design heat input is 8.322 BTU/HP -hr or7.3  \nMMBTU /hr and 64,152 MMBTU /year. Similar values \nare calculated for S960, which is a 660 BHP engine, by \napplying a ratio of the engine BHP (660/880).  \n5.1 Table II -A.1 S955"
+      },
+      {
+        "heading": "S956",
+        "alias": null,
+        "text": "S956"
+      },
+      {
+        "heading": "S957",
+        "alias": null,
+        "text": "S957"
+      },
+      {
+        "heading": "S958",
+        "alias": null,
+        "text": "S958\nS959  Correct Capacity column to read:  \n“17200 in3 displacement  \n880 BHP  \n7.3 MMBTU/hr  \n64,152 MMBTU/yr”  \n5.2 Table II -A.1 S960  Correct Capacity column to read:  \n“12900 in3 displacement  \n660 BHP  \n5.5 MMBTU/hr  \n48,114 MMBTU/yr”  \n6  S1475  \nS1476  S1475 and S1476 are portable diesel fired emergency \ninternal combustion engines (ICE). The regulatory \napplicability, permit conditions and allowable hours of \noperation shown for these sources in Section II and \nTable IV -C.3.4 are incorrect. These sources ar e subject \nto CARB ATCM 93116 which allows 50 hours per year \nfor non -emergency operations. Permit applications \n(AN) 19419/19418 incorrectly deleted this limit from \nCondition 18947, Part 5 and changed applicability for \nthese sources to treat them as in -use s tationary \nemergency ICE subject to CARB ATCM 93115 and \nCondition 22851, which allow only 34 hours per year \nfor non emergency operation.  \n6.1 Table II -A.1 S1475  \nS1476  Change Capacity column to read:  \n“503HP, 50 hr/yr”  \nChange Grandfathered Limit or Firm Limi t and Basis \ncolumn to read:  \n“Firm Limit Condition # 18947, part 5  \nNew Source Review”  \n6.2 Table IV -C.3.4  S1475  \nS1476  Delete S1475 and S1476 from Title Block  \nDelete Condition 18947  \n6.3 Section IV -C.3 S1475  \nS1476  Add new Table IV -C.3.7 for S1475 and S1476 with \napplicable requirements from Regulation 6, Rule 1; SIP \nRegulation 6; Regulation 9, Rule 1; CARB Portable \nDiesel Engine ATCM section 93116; and BAAQMD \nCondition 18947  \nTesoro Refining and Marketing Company   Application #24056  \nPlant # 14628   Page 309 of 438 \n \nProposed Rev 5 Statement of Basis  309 November 3 , 2015   \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \n6.4 Section VI  \nCondition \n18947  \nPart 5  S1475  \nS1476  Reinstate Part 5 to read: “ The owner/operator of S -1475 \nand S -1476 shall not operate either engine for more than \n50 hours during any consecutive 12 -month period. \n[Cumulative Increase, BACT Toxic Risk Screen]”  \n6.5 Section VI  \nCondition \n22851  \nIntroduction  S1475  \nS1476  Delete S1475, S1476  \n6.6 Table VII -C.3.4  S1475  \nS1476  Delete S1475 and S1476 from Title Block  \nDelete monitoring requirements from section titled \n“S1475 and S1476”  \n6.7 Section VII -C.3 S1475  \nS1476  Add new Table VII -C.3.7 for S1475 and S1476 with \napplicable monitoring requirements consistent with the \napplicable requirements in new Table IV -C.3.7  \n7 Table IV -C.3.4  \nTable IV -C.3.5  \nTable VII -"
+      },
+      {
+        "heading": "C.3.4",
+        "alias": null,
+        "text": "C.3.4\nTable VII -"
+      },
+      {
+        "heading": "C.3.5  S1487",
+        "alias": null,
+        "text": "C.3.5  S1487"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nOUND  \n \nAs part of the Title V Renewal Permit 2011 Appeal efforts, Tesoro Refining and Marketing \nCompany is submitting several applications to address the Appeal items.  This is one of those \napplications, an administrative change in conditions, to address the issues with the refinery \nengines, including the following sources:  \n \nS-952 No. 1 Gas Plant Compressor 4023  Engine, 300 BHP, Natural Gas Fired  \nS-953 No. 1 Gas  Plant Compressor 4024 Engine, 300 BHP, Natural Gas Fired  \nS-954 No. 1 Gas  Plant Compress or 4025 Engine, 300 BHP, Natural Gas Fired  \nS-955 No. 4  Gas Plant Compressor 4064 Engine, 880 BHP, Natural Gas Fired  \nS-956 No. 4  Gas Plant Compressor 4065 Engine, 880 BHP, Natural Gas Fired  \nS-957 No. 4  Gas Plant Compressor 4066 Engine, 880 BHP, Natural Gas Fired  \nS-958 No. 4  Gas Plant Compressor 4067 Engine, 880 BHP, Natural Gas Fired  \nS-959 No. 4  Gas Plant Compressor 4068 Engine, 880 BHP, Natural Gas Fired  \nS-960 No. 4  Gas Plant Compressor 4096 Engine, 660 BHP, Natural Gas Fired  \n \nIn addition, the following exi sting abatement devices were permitted via 1996 Application \n15392, but are omitted from the Tesoro Permit to O perate:  \n \nA-955 SCR for No. 4  Gas Plant Compressor 4064 Engine  \nA-956 SCR for No. 4  Gas Plant Compressor 4065 Engine  \nA-957 SCR for No. 4  Gas Plant C ompressor 4066 Engine  \nA-958 SCR for No. 4  Gas Plant Compressor 4067 Engine  \nA-959 SCR for No. 4  Gas Plant Compressor 4068 Engine  \nA-960 SCR for No. 4  Gas Plant Compressor 4096 Engine  \n \nThe original application also included an administrative change in conditions to the following \nsources:  \n \nS-56  Amorco On-shore Diesel Fire -Water Pump , 660 BHP  \nS-57  Amorco Off-shore/Wharf Diesel Fire -Water Pump , 700 BHP  \nS-1469  Avon Wharf Fire Water Pump Engine; Diesel Fired , 400 BHP  \nS-1471  Landsend Fire Water Pump Engine;  Diesel Fired , 130 BHP  \nS-1472  Tract 4 North Fire Water Pump Engine; Diesel Fired , 430 BHP  \nS-1475  Trailer 1 Fire Water Pump Engine; Diesel Fired; Portable , 503 BHP  \nS-1476  Trailer 4 Fire Water Pump Engine; Diesel Fired; Portable , 503 BHP  \nS-1487  Tank 38 Fire -Water Pump Engine, Diesel Fired , 420 BHP  \nS-1488  Canal Fire -Water Pump Engine, Diesel Fired , 538 BHP  \nS-1518  North Reservoir West Fire Water Pump Engine, Diesel Fired , 360 BHP  \nS-1519  North Reservoir East Fire Water Pump Engine, Diesel Fired, 360 BHP  \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  303 November 3 , 2015  The spe cific appeal items initially covered by this application are #5, #6 and #7, and are shown \nat the end of this evaluation.   \n \nIn the 4/26/12 letter from Tesoro regarding this application, all proposed revisions in this \napplication  regarding the sources othe r than the gas plant engines (i.e. all the sources in the \nsecond list above) were removed, both from the Title V Appeal and from this application.  \nTherefore, only Appeal Item # 5 is addressed in this application and Appeal Items # 6 and # 7 \nhave been remo ved from this application.  \n \nFor the No. 1 Gas Plant engines, S -952, S -953 and S -954, the proposed revisions are \nadministrative to show the NSCR abatement devices and to indicate that these devices abate CO \nemissions.  The existing information in the Renewe d Title V Permit  treats the NSCR as only a \nNOx abatement device.  \n \nFor the No. 4 Gas Plant engines, S -955, S -956, S - 957, S -958, S -959 and S -960, the proposed \nrevisions are administrative to correct capacities of S -956 and S -958 from the Model RA rating \nof 800 BHP to the Model HRA rating of 880 BHP.  A review of the sources found that the \noriginal 1977 data forms for S -956, S -957, S -958 and S -959 specified these engines as Model \nRA8 engines.  Furthermore, the District database did not show any of the No. 4 Gas Plant \nengines as abated.  Therefore, this application resulted in a District database correction plus two \nissues that merited addressing:  \n1. Were any of the engines modified to the Model HRA8?  \n2. Is 40 CFR 64, Compliance Assurance Monitoring (CAM)  applicable ? \n \nEMISSIONS SUMMARY  \n \nThere are no increases in emissions associated with this administrative change in condition \napplication.   \n \nThe No 4 Gas Plant engines were altered to add abatement via 1995 Application 15392.  In this \napplication the engines were specified to have a maximum firing rate of 7.1MMBtu/hr (5.3MM \nfor S -960).  NOx emission factors from AP -42, Table 3 -2.1, is 3.17 lb/MMBtu for operation \nbetween 90% and 105% of load.  The following table summarizes the NOx emissions from these \nengines:  \n \nEngine MMBtu/hr  NOx \nlb/MM  Unabated NOx Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-955 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-956 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-957 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-958 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-959 7.1 3.17 22.5 540 197,161  98.6 80% 19.7 \nS-960 5.3 3.17 16.8 403 147,177  73.6 80% 14.7 \n* Abatement factor from Tesoro Data Form ICE dated 5/15/12.  \n \nSimilarly, emissions for the No 1 Gas Plant engines are shown below (based on emission \nfactors for 4 -stroke Rich Burn engines from AP -42 Table 3.2 -3: \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  304 November 3 , 2015   \nEngine  MMBtu/hr  NOx \nlb/MM  Unabated NOx Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-952 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nS-953 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nS-954 3.0 2.21 6.63 159 58,078  29.0 95% 1.45 \nEngine  MMBtu/hr  CO \nlb/MM  Unabated CO  Emissions  Abatemt \nFactor * Abated \nTon/yr  Lb/hr  Lb/day  Lb/yr  Ton/yr  \nS-952 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \nS-953 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \nS-954 3.0 3.72 11.16  268 97,762  48.9 95% 2.4 \n* Abatement factor from Databank ."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nLIANCE  \n \nThis application does not change the compliance of these engines.  These engines are subject to, \nand are expected to remain in compliance with, the following:  \n \nRegulation 6, Rule 1, Particulate Matter; General Requirements  \nRegulation 9, Rule 8, Nitrogen Oxides and Carbon Monoxide from Stationary Internal \nCombustion Engines  \n \nRegulation 2, Rule 1, General Requi rements.   \nRegulation 2, Rule 2, New Source Review  \nThese sources in compliance with the permitting requirements of Regulation 2, Rule 1, and not \nsubject to the New Source Review requirements of Regulation 2, Rule 2, as explained in \nthe following paragraph.  \n \nAll of the No 1 Gas Plant engines are grandfathered sources that were altered to add NSCR \nabatement via 1996 Application 16779.  These engines satisfied the permitting \nrequirements of Regulation 2, Rule 1when altered in 1996, but because emissions were n ot \nincreased, these engines were not subject to the New Source Review requirements of \nRegulation 2, Rule 2.  \n \nAll of the No 4 Gas Plant engines were purchased and operated as Clark Model RA8 engines in \n1945(except S -960, which was a RA6).  These engines hav e a rating of 100HP per cylinder \nor a total rating of 800HP.  In 1949, Clark completed design improvements and introduced \nthe Model HRA8 which has a rating of 110HP/cylinder, or 880HP.  Some of these engines \nwere upgraded to the Model HRA8 engines as indic ated on the original Lion Oil data forms \ncompleted in 1977.  Tesoro can find no records of any engine being upgraded since 1972.  \nTherefore, it is likely that all engines were upgraded to the HRA8 models, if not in 1949 \nwhen Clark introduced the upgrade, t hen  sometime in the 1950s or 1960s.  In any case, the \nupgrades did not occur after 1972 when such an upgrade would have been a source \nmodification subject to New Source Review.  The engines were altered to add SCR via \n1996 Application 15392.  These engine s satisfied the permitting requirements of \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  305 November 3 , 2015  Regulation 2, Rule 1when altered in 1996, but because emissions were not increased, these \nengines were not subject to the New Source Review requirements of Regulation 2, Rule 2.  \n \n40 CFR 64, Compliance Assurance Mo nitoring (CAM).   CAM applies to any source that meets \nall of the following criteria:  \n1. Subject to a federally enforceable pollutant specific limit.  \n2. The pollutant subject to the limit in #1 is treated with a control device.  \n3. The pollutant subject to the limit in #1 has a pre -control PTE greater than the major \nsource threshold for the pollutant.  \n \nThese No 4 Gas Plant engines are subject to the SIP 9 -8-301.2  NOx limit ( 140 ppmv, dry at \n15% oxygen ) and NOx emissions are controlled with an SCR control device.  How ever, as \ncan be seen in the NOx emissions summary table on the previous page, pre -control NOx \nemissions are 98.5 ton/yr, less than the 100 ton/yr major source threshold.  Therefore, \nCAM 40 CFR 64 does not apply.  \n \nSimilarly, for the No 1 Gas Plant engines, pre-control NOx and CO emissions are below the \nmajor source thresholds.  Therefore, CAM 40 CFR 64 does not apply."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nITIONS  \n \nPermit conditions 13509 and 15204 will be revised as follows:  \n \n \nCondition  13509  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nthe completed source test Part 4 and parts redundant with District regulations.  \n \nS955 I Cnternal Combustion  Engine , Compressor 4064 , Abated by A955 SCR  \nS956 I Cnternal Combustion  Engine , Compressor 406 5, Abated by A956 SCR  \nS957  ICnternal Combustion  Engine , Compressor 406 6, Abated by A95 7 SCR  \nS958  ICnternal Combustion  Engine , Compressor 406 7, Abated by A95 8 SCR  \nS959  ICnternal Combustion  Engine , Compressor 406 8, Abated by A95 9 SCR  \nS960  ICnternal Combustion  Engine , Compressor 40 96, Abated by A9 60 SCR  \n \nTHE FOLLOWING CONDITI ONS ARE EFFECTIVE JANUARY 1, 1997  ON SOURCES S-955,  \nS-956,  S-957,  S-958,  S-959  AND S-960,   \n \nAPPLICATION #15392  (1996) :  ADD SCR S FOR NOX CONTROL  \n \nADMINISTRATIVELY CHAN GED BY APPLICATION 19419  (JUNE 2009):   REMOVED \nREDUNDANT PARTS 2 & 3 AND COMPLETED PART 4. \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  306 November 3 , 2015  ADMINISTRATIVELY CHAN GED BY APPLICATION 23848  (JUNE 2012):   UPDATED TO \nSHOW SOURCES ABATED BY SCR S (TESORO 2011  TV APPEAL ITEM 5). \n \n \n1. This engine shall be fired exclusively on natural gas. (basis: toxics)  \n \n2. Deleted (basis: NOx emissions limit Redundant with Regulation 9 -8-301.2)  \n \n3. Deleted (basis: CO emissions limit Redundant with Regulation 9 -8-301.2)  \n \n4. Deleted (basis: Initial Source Test completed prior to the granting of the \npermit to operate August 1, 1996)  \n \n \n \n \nCondition 15204  \n \nS-952 IC Engine , Compressor 40 23, Abated by A -952 NSCR  \nS-953 IC Engine , Compressor 40 24, Abated by A -953 NSCR  \nS-954 IC Engine , Compressor 40 25, Abated by A -954 NSCR  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nparts redundant with District regulations.  \n \nTHE FOLLOWING CONDITI ONS FOR THE NO. 1 GAS PLANT  \nCOMPRESSOR ENGINES A RE EFFECTIVE JANUARY 1. 1997  \n \nAPPLICATION 16779  (1996):   ADD NSCR S FOR NOX CONTROL  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nparts 2, 3 and 4 that are redundant with District regulations.  \n \nAdministratively changed by Application 23848 (June 2012):  Updat ed to show \nsources abated by NSCR s (Tesoro 2011 T V Appeal Item 5).  \n \n1. Compressor engines S -952, S -953, and S -954 shall be fired exclusively on \nnatural gas. (basis: cumulative increase)  \n \n2. Delete (basis: NOx emissions limit Redundant with Regulation 9 -8-301.1)  \n \n3. Delete (basis: CO emissions limit Redu ndant with Regulation 9 -8-301.3)  \n \n4. Delete (basis: Particulate emissions limit redundant with Regulation 6 -1-\n301) \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  307 November 3 , 2015"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nON  \n \nIt is recommended that an Administrative Change in Conditions be granted to Tesoro for the \nfollowing sources:  \n \nS-952 No. 1 Gas Plant Compressor 4023  Engine, 300 BHP, Natural Gas Fired  \nS-953 No. 1 Gas  Plant Compressor 4024 Engine, 300 BHP, Natural Gas Fired  \nS-954 No. 1 Gas  Plant Compressor 4025 Engine, 300 BHP, Natural Gas Fired  \nS-955 No. 4  Gas Plant Compressor 4064 Engine, 880 BHP, Natural Gas Fired  \nS-956 No. 4  Gas Plant Compressor 4065 Engine, 880 BHP, Natural Gas Fired  \nS-957 No. 4  Gas Plant Compressor 4066 Engine, 880 BHP, Natural Gas Fired  \nS-958 No. 4  Gas Plant Compressor 4067 Engine, 880 BHP, Natural Gas Fired  \nS-959 No. 4  Gas Plant Compressor 4068 Engine, 880 BHP, Natural Gas Fired  \nS-960 No. 4  Gas Plant Compressor 4096 Engine, 660 BHP, Natural Gas Fired  \n \n \n \n \nAnd that a Permit to Operate be granted for the following abatement devices:  \n \nA-955 SCR for No. 4  Gas Plant Compressor 4064 Engine  \nA-956 SCR for No. 4  Gas Plant Compressor 4065 Engine  \nA-957 SCR for No. 4  Gas Plant Compressor 4066 Engine  \nA-958 SCR for No. 4  Gas Plant Compressor 4067 Engine  \nA-959 SCR for No. 4  Gas Plant Compressor 4068 Engine  \nA-960 SCR for No. 4  Gas Plant Compressor 4096 Engine  \n \n \n \n \n \n \n \n \nBy:        \n Arthur Valla       June 1, 2012  \n Senior Air Quality Engineer  \n \n \n \n \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \nTesoro Refining and Marketing Company   Application #24056  \nPlant # 14628   Page 308 of 438 \n \nProposed Rev 5 Statement of Basis  308 November 3 , 2015   \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \n5  S955 \nS956  \nS957  \nS958  \nS959  \nS960  The information in the Capacity column for these \nsources is incorrect. S955 through S959 are each 880 \nBHP engines with design fuel consumption of 7110 scfh \n(natural gas). Assuming 1030 BTU/scf for natural gas, \nthe design heat input is 8.322 BTU/HP -hr or7.3  \nMMBTU /hr and 64,152 MMBTU /year. Similar values \nare calculated for S960, which is a 660 BHP engine, by \napplying a ratio of the engine BHP (660/880).  \n5.1 Table II -A.1 S955  \nS956  \nS957  \nS958  \nS959  Correct Capacity column to read:  \n“17200 in3 displacement  \n880 BHP  \n7.3 MMBTU/hr  \n64,152 MMBTU/yr”  \n5.2 Table II -A.1 S960  Correct Capacity column to read:  \n“12900 in3 displacement  \n660 BHP  \n5.5 MMBTU/hr  \n48,114 MMBTU/yr”  \n6  S1475  \nS1476  S1475 and S1476 are portable diesel fired emergency \ninternal combustion engines (ICE). The regulatory \napplicability, permit conditions and allowable hours of \noperation shown for these sources in Section II and \nTable IV -C.3.4 are incorrect. These sources ar e subject \nto CARB ATCM 93116 which allows 50 hours per year \nfor non -emergency operations. Permit applications \n(AN) 19419/19418 incorrectly deleted this limit from \nCondition 18947, Part 5 and changed applicability for \nthese sources to treat them as in -use s tationary \nemergency ICE subject to CARB ATCM 93115 and \nCondition 22851, which allow only 34 hours per year \nfor non emergency operation.  \n6.1 Table II -A.1 S1475  \nS1476  Change Capacity column to read:  \n“503HP, 50 hr/yr”  \nChange Grandfathered Limit or Firm Limi t and Basis \ncolumn to read:  \n“Firm Limit Condition # 18947, part 5  \nNew Source Review”  \n6.2 Table IV -C.3.4  S1475  \nS1476  Delete S1475 and S1476 from Title Block  \nDelete Condition 18947  \n6.3 Section IV -C.3 S1475  \nS1476  Add new Table IV -C.3.7 for S1475 and S1476 with \napplicable requirements from Regulation 6, Rule 1; SIP \nRegulation 6; Regulation 9, Rule 1; CARB Portable \nDiesel Engine ATCM section 93116; and BAAQMD \nCondition 18947  \nTesoro Refining and Marketing Company   Application #24056  \nPlant # 14628   Page 309 of 438 \n \nProposed Rev 5 Statement of Basis  309 November 3 , 2015   \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \n6.4 Section VI  \nCondition \n18947  \nPart 5  S1475  \nS1476  Reinstate Part 5 to read: “ The owner/operator of S -1475 \nand S -1476 shall not operate either engine for more than \n50 hours during any consecutive 12 -month period. \n[Cumulative Increase, BACT Toxic Risk Screen]”  \n6.5 Section VI  \nCondition \n22851  \nIntroduction  S1475  \nS1476  Delete S1475, S1476  \n6.6 Table VII -C.3.4  S1475  \nS1476  Delete S1475 and S1476 from Title Block  \nDelete monitoring requirements from section titled \n“S1475 and S1476”  \n6.7 Section VII -C.3 S1475  \nS1476  Add new Table VII -C.3.7 for S1475 and S1476 with \napplicable monitoring requirements consistent with the \napplicable requirements in new Table IV -C.3.7  \n7 Table IV -C.3.4  \nTable IV -C.3.5  \nTable VII -\nC.3.4  \nTable VII -\nC.3.5  S1487  \nS1488  S1487 is a stationary diesel fired emergency internal \ncombustion engine (ICE). It is incorrectly included in \nTables IV -C.3.5 and VII -C.3.5 which include the \nrequirements for new engines in CARB ATCM 93115. \nS1487 is subject to the requirements for an in -use \nengine in CARB ATCM 93115 and should be included \nin Tables IV -C.3.4 and VII -C.3.4.  In addition, the \nmonitoring requirements for S1488 in Table VII -C.3.5 \nneed to be updated to correspond with current \nrequirements for new engines in CARB ATCM 93115 \nand to correct monitoring requirements for Regulation \n6 Rule 1 and SIP Regulation 6.  \n7.1 Table IV -C.3.4  S1487  Add “ S1487  TANK 38 FIRE-WATER PUMP ENGINE ; DIESEL \nFIRED” to title block  \nAdd Condition 20672, parts A5, A6, and A8 for S1487 \n(move from Table IV -C.3.5)  \n7.2 Table IV -C.3.5  S1487  Delete S1487 from title block  \nDelete Condition 20672, parts A5, A6, and A8 for S1487 \nand remove explanation of applicability from Condition \n20672 title block  \nAdd “S1488” to Description for Condition 20672, parts \nB5, B6, B7, and B9  \n7.3 Table VII -C.3.4  S1487  Add “ S1487  TANK 38 FIRE-WATER PUMP ENGINE ; DIESEL \nFIRED” to title block  \nAdd monitoring requirements for Condition 20672 for \nS1487 (move from Table VII -C.3.5)  \n7.4 Table VII -C.3.5  \nRows 1, 11, 15  S1487  Delete each row and move to Table VII -C.3.4 for S1487  \nRow 1 [Type of Limit: CO (S1487)]  \nRow 11 [Type of Limit: NOx (S1487)]  \nRow 15 [Type of Limit: Sulfur Content (S1487)]  \n7.5 Table VII -C.3.5  \nRows 2, 12, 13  S1488  Delete “(S1488)” from Type of Limit  \nTesoro Refining and Marketing Company   Application #24056  \nPlant # 14628   Page 310 of 438 \n \nProposed Rev 5 Statement of Basis  310 November 3 , 2015   \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \n7.6 Table VII -C.3.5  \nRow 7  S1488  Delete “(S1487)” from Type of Limit  \nAdd second Monitoring Requirement for this limit as \nfollows:  \nMonitoring Requirement Citation: CCR, Title 17, Section \n93115.10(e)(1)  \nMonitoring Frequency (P/C/N): C  \nMonitoring Type: Totalizing Meter  \n7.7 Table VII -C.3.5  \nRows 8, 9  S1488  Delete each row [Type of Limit: Hours of Operation PM \n(S1488)]  \n7.8 Table VII -C.3.5  \nRows 16, 17, 18  S1488  Delete each row (Regulation 6, Rule 1 and SIP Regulation \n6 monitoring)  \n \n7.9 Table VII -C.3.5  \nRow 19  S1487  Delete “(S1487)” from Type of Limit  \n7.10 Table VII -C.3.5  S1488  Add new row as follows:  \nType of Limit: Visible Emissions  \nCitation of Limit: BAAQMD 6 -1-303.1  \nFE Y/N: N  \nLimit: ≥ Ringelmann No. 2 for no more than 3 \nminutes/hour  \nMonitoring Requirement Citation: None  \nMonitoring Frequency  (P/C/N): N  \nMonitoring Type: N/A"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nON  \nTesoro Refining and Marketing Company"
+      },
+      {
+        "heading": "PLANT NO. 14628",
+        "alias": null,
+        "text": "PLANT NO. 14628"
+      },
+      {
+        "heading": "APPLICATION NO.  23848",
+        "alias": null,
+        "text": "APPLICATION NO.  23848"
+      },
+      {
+        "heading": "THE FOLLOWING CONDITI ONS ARE EFFECTIVE JANUARY 1, 1997  ON SOURCES S-955,",
+        "alias": null,
+        "text": "THE FOLLOWING CONDITI ONS ARE EFFECTIVE JANUARY 1, 1997  ON SOURCES S-955,\n5,"
+      },
+      {
+        "heading": "S-956,  S-957,  S-958,  S-959  AND S-960,",
+        "alias": null,
+        "text": "S-956,  S-957,  S-958,  S-959  AND S-960,\nAPPLICATION #15392  (1996) :  ADD SCR S FOR NOX CONTROL  \n \nADMINISTRATIVELY CHAN GED BY APPLICATION 19419  (JUNE 2009):   REMOVED"
+      },
+      {
+        "heading": "REDUNDANT PARTS 2 & 3 AND COMPLETED PART 4.",
+        "alias": null,
+        "text": "REDUNDANT PARTS 2 & 3 AND COMPLETED PART 4.\nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  306 November 3 , 2015  ADMINISTRATIVELY CHAN GED BY APPLICATION 23848  (JUNE 2012):   UPDATED TO"
+      },
+      {
+        "heading": "SHOW SOURCES ABATED BY SCR S (TESORO 2011  TV APPEAL ITEM 5).",
+        "alias": null,
+        "text": "SHOW SOURCES ABATED BY SCR S (TESORO 2011  TV APPEAL ITEM 5).\n1. This engine shall be fired exclusively on natural gas. (basis: toxics)  \n \n2. Deleted (basis: NOx emissions limit Redundant with Regulation 9 -8-301.2)  \n \n3. Deleted (basis: CO emissions limit Redundant with Regulation 9 -8-301.2)  \n \n4. Deleted (basis: Initial Source Test completed prior to the granting of the \npermit to operate August 1, 1996)  \n \n \n \n \nCondition 15204  \n \nS-952 IC Engine , Compressor 40 23, Abated by A -952 NSCR  \nS-953 IC Engine , Compressor 40 24, Abated by A -953 NSCR  \nS-954 IC Engine , Compressor 40 25, Abated by A -954 NSCR  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nparts redundant with District regulations."
+      },
+      {
+        "heading": "THE FOLLOWING CONDITI ONS FOR THE NO. 1 GAS PLANT",
+        "alias": null,
+        "text": "THE FOLLOWING CONDITI ONS FOR THE NO. 1 GAS PLANT\nNT"
+      },
+      {
+        "heading": "COMPRESSOR ENGINES A RE EFFECTIVE JANUARY 1. 1997",
+        "alias": null,
+        "text": "COMPRESSOR ENGINES A RE EFFECTIVE JANUARY 1. 1997\nAPPLICATION 16779  (1996):   ADD NSCR S FOR NOX CONTROL  \n \nAdministratively changed by Application 19419 (June 2009).  Updated to remove \nparts 2, 3 and 4 that are redundant with District regulations.  \n \nAdministratively changed by Application 23848 (June 2012):  Updat ed to show \nsources abated by NSCR s (Tesoro 2011 T V Appeal Item 5).  \n \n1. Compressor engines S -952, S -953, and S -954 shall be fired exclusively on \nnatural gas. (basis: cumulative increase)  \n \n2. Delete (basis: NOx emissions limit Redundant with Regulation 9 -8-301.1)  \n \n3. Delete (basis: CO emissions limit Redu ndant with Regulation 9 -8-301.3)  \n \n4. Delete (basis: Particulate emissions limit redundant with Regulation 6 -1-\n301) \n \nPermit Evaluation and Statement of Basis:  Site B2758 & B2759, Tesoro Refining & Marke ting Company, LLC, \nGolden Eagle Refinery, 150 Solano Way, Martinez, CA  94553  \n    \nProposed Rev 5 Statement of Basis  307 November 3 , 2015"
+      },
+      {
+        "heading": "S956",
+        "alias": null,
+        "text": "S956"
+      },
+      {
+        "heading": "S957",
+        "alias": null,
+        "text": "S957"
+      },
+      {
+        "heading": "S958",
+        "alias": null,
+        "text": "S958"
+      },
+      {
+        "heading": "S959",
+        "alias": null,
+        "text": "S959\nS960  The information in the Capacity column for these \nsources is incorrect. S955 through S959 are each 880 \nBHP engines with design fuel consumption of 7110 scfh \n(natural gas). Assuming 1030 BTU/scf for natural gas, \nthe design heat input is 8.322 BTU/HP -hr or7.3  \nMMBTU /hr and 64,152 MMBTU /year. Similar values \nare calculated for S960, which is a 660 BHP engine, by \napplying a ratio of the engine BHP (660/880).  \n5.1 Table II -A.1 S955"
+      },
+      {
+        "heading": "S956",
+        "alias": null,
+        "text": "S956"
+      },
+      {
+        "heading": "S957",
+        "alias": null,
+        "text": "S957"
+      },
+      {
+        "heading": "S958",
+        "alias": null,
+        "text": "S958\nS959  Correct Capacity column to read:  \n“17200 in3 displacement  \n880 BHP  \n7.3 MMBTU/hr  \n64,152 MMBTU/yr”  \n5.2 Table II -A.1 S960  Correct Capacity column to read:  \n“12900 in3 displacement  \n660 BHP  \n5.5 MMBTU/hr  \n48,114 MMBTU/yr”  \n6  S1475  \nS1476  S1475 and S1476 are portable diesel fired emergency \ninternal combustion engines (ICE). The regulatory \napplicability, permit conditions and allowable hours of \noperation shown for these sources in Section II and \nTable IV -C.3.4 are incorrect. These sources ar e subject \nto CARB ATCM 93116 which allows 50 hours per year \nfor non -emergency operations. Permit applications \n(AN) 19419/19418 incorrectly deleted this limit from \nCondition 18947, Part 5 and changed applicability for \nthese sources to treat them as in -use s tationary \nemergency ICE subject to CARB ATCM 93115 and \nCondition 22851, which allow only 34 hours per year \nfor non emergency operation.  \n6.1 Table II -A.1 S1475  \nS1476  Change Capacity column to read:  \n“503HP, 50 hr/yr”  \nChange Grandfathered Limit or Firm Limi t and Basis \ncolumn to read:  \n“Firm Limit Condition # 18947, part 5  \nNew Source Review”  \n6.2 Table IV -C.3.4  S1475  \nS1476  Delete S1475 and S1476 from Title Block  \nDelete Condition 18947  \n6.3 Section IV -C.3 S1475  \nS1476  Add new Table IV -C.3.7 for S1475 and S1476 with \napplicable requirements from Regulation 6, Rule 1; SIP \nRegulation 6; Regulation 9, Rule 1; CARB Portable \nDiesel Engine ATCM section 93116; and BAAQMD \nCondition 18947  \nTesoro Refining and Marketing Company   Application #24056  \nPlant # 14628   Page 309 of 438 \n \nProposed Rev 5 Statement of Basis  309 November 3 , 2015   \nTesoro Renewed Title V Permit Appeal Items  \nFor Application 23848  \n \n6.4 Section VI  \nCondition \n18947  \nPart 5  S1475  \nS1476  Reinstate Part 5 to read: “ The owner/operator of S -1475 \nand S -1476 shall not operate either engine for more than \n50 hours during any consecutive 12 -month period. \n[Cumulative Increase, BACT Toxic Risk Screen]”  \n6.5 Section VI  \nCondition \n22851  \nIntroduction  S1475  \nS1476  Delete S1475, S1476  \n6.6 Table VII -C.3.4  S1475  \nS1476  Delete S1475 and S1476 from Title Block  \nDelete monitoring requirements from section titled \n“S1475 and S1476”  \n6.7 Section VII -C.3 S1475  \nS1476  Add new Table VII -C.3.7 for S1475 and S1476 with \napplicable monitoring requirements consistent with the \napplicable requirements in new Table IV -C.3.7  \n7 Table IV -C.3.4  \nTable IV -C.3.5  \nTable VII -"
+      },
+      {
+        "heading": "C.3.4",
+        "alias": null,
+        "text": "C.3.4\nTable VII -"
+      },
+      {
+        "heading": "C.3.5  S1487",
+        "alias": null,
+        "text": "C.3.5  S1487"
+      }
+    ]
+  }
+}

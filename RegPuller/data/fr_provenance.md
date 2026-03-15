@@ -1,0 +1,247 @@
+# FR Citation Provenance
+
+- Rule URL: https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63/subpart-Y
+- Rule title: Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- Rule file: C:\Users\aaw\RegPuller\data\ecfr\title-40_part-63_subpart-Y\rule.xml
+
+## From eCFR XML <CITA> blocks
+- Line 977: 60 FR 48399, 76 FR 22595, 80 FR 75237, 85 FR 73892
+  - Context: [60 FR 48399, Sept. 19, 1995, as amended at 76 FR 22595, Apr. 21, 2011; 80 FR 75237, Dec. 1, 2015; 85 FR 73892, Nov. 19, 2020]
+- Line 1035: 60 FR 48399, 76 FR 22596
+  - Context: [60 FR 48399, Sept. 19, 1995, as amended at 76 FR 22596, Apr. 21, 2011]
+- Line 1124: 60 FR 48399, 68 FR 37350, 71 FR 20457, 76 FR 22596
+  - Context: [60 FR 48399, Sept. 19, 1995, as amended at 68 FR 37350, June 23, 2003; 71 FR 20457, Apr. 20, 2006; 76 FR 22596, Apr. 21, 2011]
+- Line 1173: 60 FR 48399, 76 FR 22597
+  - Context: [60 FR 48399, Sept. 19, 1995, as amended at 76 FR 22597, Apr. 21, 2011]
+- Line 1315: 60 FR 48399, 79 FR 11283
+  - Context: [60 FR 48399, Sept. 19, 1995, as amended at 79 FR 11283, Feb. 27, 2014]
+- Line 1391: 60 FR 48399, 68 FR 37350, 76 FR 22597, 85 FR 73892
+  - Context: [60 FR 48399, Sept. 19, 1995, as amended at 68 FR 37350, June 23, 2003; 76 FR 22597, Apr. 21, 2011; 85 FR 73892, Nov. 19, 2020]
+- Line 1404: 68 FR 37350
+  - Context: [68 FR 37350, June 23, 2003]
+
+## From FR text (proposed citations)
+- Found in 60 FR 48399 at C:\Users\aaw\RegPuller\data\fr\60-fr-48399\final-rule-rule.txt: 56 FR 1186
+- Found in 60 FR 48399 at C:\Users\aaw\RegPuller\data\fr\60-fr-48399\final-rule-rule.txt: 59 FR 25004 | downloaded to C:\Users\aaw\RegPuller\data\fr\59-fr-25004\notice-of-proposed-rulemaking-and-notice-of-public-hearing-rule.txt
+- Found in 60 FR 48399 at C:\Users\aaw\RegPuller\data\fr\60-fr-48399\final-rule-rule.txt: 59 FR 36130 | downloaded to C:\Users\aaw\RegPuller\data\fr\59-fr-36130\proposed-rule-and-notice-of-public-hearing-rule.txt
+- Found in 60 FR 48399 at C:\Users\aaw\RegPuller\data\fr\60-fr-48399\final-rule-rule.txt: 59 FR 44955 | downloaded to C:\Users\aaw\RegPuller\data\fr\59-fr-44955\reopening-of-public-comment-period-rule.txt
+- Found in 60 FR 48399 at C:\Users\aaw\RegPuller\data\fr\60-fr-48399\final-rule-rule.txt: 60 FR 12703
+- Found in 60 FR 48399 at C:\Users\aaw\RegPuller\data\fr\60-fr-48399\final-rule-rule.txt: 60 FR 12723 | downloaded to C:\Users\aaw\RegPuller\data\fr\60-fr-12723\proposed-rule-rule.txt
+- Found in 68 FR 37350 at C:\Users\aaw\RegPuller\data\fr\68-fr-37350\final-rule.xml: 64 FR 1880 | downloaded to C:\Users\aaw\RegPuller\data\fr\64-fr-1880\proposed-amendments-notice-of-public-hearing-rule.txt
+- Found in 68 FR 37350 at C:\Users\aaw\RegPuller\data\fr\68-fr-37350\final-rule.xml: 64 FR 38970 | downloaded to C:\Users\aaw\RegPuller\data\fr\64-fr-38970\direct-final-rule-amendments-to-rule-rule.txt
+- Found in 68 FR 37350 at C:\Users\aaw\RegPuller\data\fr\68-fr-37350\final-rule.xml: 65 FR 55822 | downloaded to C:\Users\aaw\RegPuller\data\fr\65-fr-55822\proposed-rule.xml
+- Found in 68 FR 37350 at C:\Users\aaw\RegPuller\data\fr\68-fr-37350\final-rule.xml: 67 FR 2286 | downloaded to C:\Users\aaw\RegPuller\data\fr\67-fr-2286\proposed-rule.xml
+- Found in 68 FR 37350 at C:\Users\aaw\RegPuller\data\fr\68-fr-37350\final-rule.xml: 67 FR 2288 | downloaded to C:\Users\aaw\RegPuller\data\fr\67-fr-2288\proposed-rule.xml
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 59 FR 12408 | downloaded to C:\Users\aaw\RegPuller\data\fr\59-fr-12408\final-rule-rule.txt
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 66 FR 16318 | downloaded to C:\Users\aaw\RegPuller\data\fr\66-fr-16318\proposed-rule.xml
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 67 FR 16582 | downloaded to C:\Users\aaw\RegPuller\data\fr\67-fr-16582\proposed-rule.xml
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 67 FR 72875 | downloaded to C:\Users\aaw\RegPuller\data\fr\67-fr-72875\proposed-rule.xml
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 68 FR 32586 | downloaded to C:\Users\aaw\RegPuller\data\fr\68-fr-32586\proposed-rule.xml
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 70 FR 43992 | downloaded to C:\Users\aaw\RegPuller\data\fr\70-fr-43992\proposed-rule.xml
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 70 FR 43994 | downloaded to C:\Users\aaw\RegPuller\data\fr\70-fr-43994\proposed-rule.xml
+- Found in 76 FR 22595 at C:\Users\aaw\RegPuller\data\fr\76-fr-22595\final-rule.xml: 62 FR 19885 | downloaded to C:\Users\aaw\RegPuller\data\fr\62-fr-19885\proposed-rule.txt
+- Found in 76 FR 22595 at C:\Users\aaw\RegPuller\data\fr\76-fr-22595\final-rule.xml: 66 FR 28355 | downloaded to C:\Users\aaw\RegPuller\data\fr\66-fr-28355\proposed-rule.xml
+- Found in 76 FR 22595 at C:\Users\aaw\RegPuller\data\fr\76-fr-22595\final-rule.xml: 75 FR 65068 | downloaded to C:\Users\aaw\RegPuller\data\fr\75-fr-65068\proposed-rule.xml
+- Found in 76 FR 22595 at C:\Users\aaw\RegPuller\data\fr\76-fr-22595\final-rule.xml: 75 FR 65071
+- Found in 76 FR 22595 at C:\Users\aaw\RegPuller\data\fr\76-fr-22595\final-rule.xml: 75 FR 65081
+- Found in 76 FR 22595 at C:\Users\aaw\RegPuller\data\fr\76-fr-22595\final-rule.xml: 75 FR 65115
+- Found in 76 FR 22596 at C:\Users\aaw\RegPuller\data\fr\76-fr-22596\final-rule.xml: 62 FR 19885 | downloaded to C:\Users\aaw\RegPuller\data\fr\62-fr-19885\proposed-rule.txt
+- Found in 76 FR 22596 at C:\Users\aaw\RegPuller\data\fr\76-fr-22596\final-rule.xml: 66 FR 28355 | downloaded to C:\Users\aaw\RegPuller\data\fr\66-fr-28355\proposed-rule.xml
+- Found in 76 FR 22596 at C:\Users\aaw\RegPuller\data\fr\76-fr-22596\final-rule.xml: 75 FR 65068 | downloaded to C:\Users\aaw\RegPuller\data\fr\75-fr-65068\proposed-rule.xml
+- Found in 76 FR 22596 at C:\Users\aaw\RegPuller\data\fr\76-fr-22596\final-rule.xml: 75 FR 65071
+- Found in 76 FR 22596 at C:\Users\aaw\RegPuller\data\fr\76-fr-22596\final-rule.xml: 75 FR 65081
+- Found in 76 FR 22596 at C:\Users\aaw\RegPuller\data\fr\76-fr-22596\final-rule.xml: 75 FR 65115
+- Found in 76 FR 22597 at C:\Users\aaw\RegPuller\data\fr\76-fr-22597\final-rule.xml: 62 FR 19885 | downloaded to C:\Users\aaw\RegPuller\data\fr\62-fr-19885\proposed-rule.txt
+- Found in 76 FR 22597 at C:\Users\aaw\RegPuller\data\fr\76-fr-22597\final-rule.xml: 66 FR 28355 | downloaded to C:\Users\aaw\RegPuller\data\fr\66-fr-28355\proposed-rule.xml
+- Found in 76 FR 22597 at C:\Users\aaw\RegPuller\data\fr\76-fr-22597\final-rule.xml: 75 FR 65068 | downloaded to C:\Users\aaw\RegPuller\data\fr\75-fr-65068\proposed-rule.xml
+- Found in 76 FR 22597 at C:\Users\aaw\RegPuller\data\fr\76-fr-22597\final-rule.xml: 75 FR 65071
+- Found in 76 FR 22597 at C:\Users\aaw\RegPuller\data\fr\76-fr-22597\final-rule.xml: 75 FR 65081
+- Found in 76 FR 22597 at C:\Users\aaw\RegPuller\data\fr\76-fr-22597\final-rule.xml: 75 FR 65115
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 63 FR 48899 | downloaded to C:\Users\aaw\RegPuller\data\fr\63-fr-48899\proposed-rule-and-notice-of-public-hearing-rule.txt
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 71 FR 65317 | downloaded to C:\Users\aaw\RegPuller\data\fr\71-fr-65317\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 72 FR 64860 | downloaded to C:\Users\aaw\RegPuller\data\fr\72-fr-64860\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 73 FR 35838
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 74 FR 52723
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36888 | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36888\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36900 | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36900\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36905 | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36905\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36913 | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36913\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36923 | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36923\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36929 | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36929\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36934 | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36934\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36956
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 66 FR 16328 | downloaded to C:\Users\aaw\RegPuller\data\fr\66-fr-16328\proposed-rule.xml
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 67 FR 16582 | downloaded to C:\Users\aaw\RegPuller\data\fr\67-fr-16582\proposed-rule.xml
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 68 FR 26249 | downloaded to C:\Users\aaw\RegPuller\data\fr\68-fr-26249\proposed-rule.xml
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 69 FR 21737 | downloaded to C:\Users\aaw\RegPuller\data\fr\69-fr-21737\proposed-rule.xml
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 72 FR 69 | downloaded to C:\Users\aaw\RegPuller\data\fr\72-fr-69\proposed-rule.xml
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 81 FR 35944 | downloaded to C:\Users\aaw\RegPuller\data\fr\81-fr-35944\proposed-rule.xml
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 83 FR 5543 | downloaded to C:\Users\aaw\RegPuller\data\fr\83-fr-5543\proposed-rule.xml
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 84 FR 36304
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 84 FR 36311
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 84 FR 36312
+
+## From FR text (proposed citations with dates)
+- Found in 60 FR 48399 at C:\Users\aaw\RegPuller\data\fr\60-fr-48399\final-rule-rule.txt: 59 FR 25004 (May 13, 1994) | downloaded to C:\Users\aaw\RegPuller\data\fr\59-fr-25004\notice-of-proposed-rulemaking-and-notice-of-public-hearing-rule.txt
+- Found in 60 FR 48399 at C:\Users\aaw\RegPuller\data\fr\60-fr-48399\final-rule-rule.txt: 59 FR 44955 (March 8, 1995) | downloaded to C:\Users\aaw\RegPuller\data\fr\59-fr-44955\reopening-of-public-comment-period-rule.txt
+- Found in 60 FR 48399 at C:\Users\aaw\RegPuller\data\fr\60-fr-48399\final-rule-rule.txt: 60 FR 12703
+- Found in 60 FR 48399 at C:\Users\aaw\RegPuller\data\fr\60-fr-48399\final-rule-rule.txt: 56 FR 1186
+- Found in 60 FR 48399 at C:\Users\aaw\RegPuller\data\fr\60-fr-48399\final-rule-rule.txt: 60 FR 12723 (March 8, 
+1995) | downloaded to C:\Users\aaw\RegPuller\data\fr\60-fr-12723\proposed-rule-rule.txt
+- Found in 60 FR 48399 at C:\Users\aaw\RegPuller\data\fr\60-fr-48399\final-rule-rule.txt: 59 FR 36130 (July 15, 1994) | downloaded to C:\Users\aaw\RegPuller\data\fr\59-fr-36130\proposed-rule-and-notice-of-public-hearing-rule.txt
+- Found in 68 FR 37350 at C:\Users\aaw\RegPuller\data\fr\68-fr-37350\final-rule.xml: 67 FR 2286 (January 16, 2002) | downloaded to C:\Users\aaw\RegPuller\data\fr\67-fr-2286\proposed-rule.xml
+- Found in 68 FR 37350 at C:\Users\aaw\RegPuller\data\fr\68-fr-37350\final-rule.xml: 67 FR 2288 (January 16, 2002) | downloaded to C:\Users\aaw\RegPuller\data\fr\67-fr-2288\proposed-rule.xml
+- Found in 68 FR 37350 at C:\Users\aaw\RegPuller\data\fr\68-fr-37350\final-rule.xml: 64 FR 1880 (January 12, 1999) | downloaded to C:\Users\aaw\RegPuller\data\fr\64-fr-1880\proposed-amendments-notice-of-public-hearing-rule.txt
+- Found in 68 FR 37350 at C:\Users\aaw\RegPuller\data\fr\68-fr-37350\final-rule.xml: 65 FR 55822 (September 14, 2000) | downloaded to C:\Users\aaw\RegPuller\data\fr\65-fr-55822\proposed-rule.xml
+- Found in 68 FR 37350 at C:\Users\aaw\RegPuller\data\fr\68-fr-37350\final-rule.xml: 64 FR 38970 (July 20, 1999) | downloaded to C:\Users\aaw\RegPuller\data\fr\64-fr-38970\direct-final-rule-amendments-to-rule-rule.txt
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 59 FR 12408 (March 16, 1994) | downloaded to C:\Users\aaw\RegPuller\data\fr\59-fr-12408\final-rule-rule.txt
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 66 FR 16318 (March 23, 2001) | downloaded to C:\Users\aaw\RegPuller\data\fr\66-fr-16318\proposed-rule.xml
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 67 FR 16582 (April 5, 2002) | downloaded to C:\Users\aaw\RegPuller\data\fr\67-fr-16582\proposed-rule.xml
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 67 FR 72875 (December 9, 2002) | downloaded to C:\Users\aaw\RegPuller\data\fr\67-fr-72875\proposed-rule.xml
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 68 FR 32586 (May 30, 2003) | downloaded to C:\Users\aaw\RegPuller\data\fr\68-fr-32586\proposed-rule.xml
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 70 FR 43992 (July 29, 2005) | downloaded to C:\Users\aaw\RegPuller\data\fr\70-fr-43992\proposed-rule.xml
+- Found in 71 FR 20457 at C:\Users\aaw\RegPuller\data\fr\71-fr-20457\final-rule.xml: 70 FR 43994 (July 29, 2005) | downloaded to C:\Users\aaw\RegPuller\data\fr\70-fr-43994\proposed-rule.xml
+- Found in 76 FR 22595 at C:\Users\aaw\RegPuller\data\fr\76-fr-22595\final-rule.xml: 75 FR 65068 (October 21, 2010) | downloaded to C:\Users\aaw\RegPuller\data\fr\75-fr-65068\proposed-rule.xml
+- Found in 76 FR 22595 at C:\Users\aaw\RegPuller\data\fr\76-fr-22595\final-rule.xml: 75 FR 65081
+- Found in 76 FR 22595 at C:\Users\aaw\RegPuller\data\fr\76-fr-22595\final-rule.xml: 75 FR 65071
+- Found in 76 FR 22595 at C:\Users\aaw\RegPuller\data\fr\76-fr-22595\final-rule.xml: 75 FR 65115
+- Found in 76 FR 22595 at C:\Users\aaw\RegPuller\data\fr\76-fr-22595\final-rule.xml: 62 FR 19885 (April 23, 1997) | downloaded to C:\Users\aaw\RegPuller\data\fr\62-fr-19885\proposed-rule.txt
+- Found in 76 FR 22595 at C:\Users\aaw\RegPuller\data\fr\76-fr-22595\final-rule.xml: 66 FR 28355 (May 22, 2001) | downloaded to C:\Users\aaw\RegPuller\data\fr\66-fr-28355\proposed-rule.xml
+- Found in 76 FR 22596 at C:\Users\aaw\RegPuller\data\fr\76-fr-22596\final-rule.xml: 75 FR 65068 (October 21, 2010) | downloaded to C:\Users\aaw\RegPuller\data\fr\75-fr-65068\proposed-rule.xml
+- Found in 76 FR 22596 at C:\Users\aaw\RegPuller\data\fr\76-fr-22596\final-rule.xml: 75 FR 65081
+- Found in 76 FR 22596 at C:\Users\aaw\RegPuller\data\fr\76-fr-22596\final-rule.xml: 75 FR 65071
+- Found in 76 FR 22596 at C:\Users\aaw\RegPuller\data\fr\76-fr-22596\final-rule.xml: 75 FR 65115
+- Found in 76 FR 22596 at C:\Users\aaw\RegPuller\data\fr\76-fr-22596\final-rule.xml: 62 FR 19885 (April 23, 1997) | downloaded to C:\Users\aaw\RegPuller\data\fr\62-fr-19885\proposed-rule.txt
+- Found in 76 FR 22596 at C:\Users\aaw\RegPuller\data\fr\76-fr-22596\final-rule.xml: 66 FR 28355 (May 22, 2001) | downloaded to C:\Users\aaw\RegPuller\data\fr\66-fr-28355\proposed-rule.xml
+- Found in 76 FR 22597 at C:\Users\aaw\RegPuller\data\fr\76-fr-22597\final-rule.xml: 75 FR 65068 (October 21, 2010) | downloaded to C:\Users\aaw\RegPuller\data\fr\75-fr-65068\proposed-rule.xml
+- Found in 76 FR 22597 at C:\Users\aaw\RegPuller\data\fr\76-fr-22597\final-rule.xml: 75 FR 65081
+- Found in 76 FR 22597 at C:\Users\aaw\RegPuller\data\fr\76-fr-22597\final-rule.xml: 75 FR 65071
+- Found in 76 FR 22597 at C:\Users\aaw\RegPuller\data\fr\76-fr-22597\final-rule.xml: 75 FR 65115
+- Found in 76 FR 22597 at C:\Users\aaw\RegPuller\data\fr\76-fr-22597\final-rule.xml: 62 FR 19885 (April 23, 1997) | downloaded to C:\Users\aaw\RegPuller\data\fr\62-fr-19885\proposed-rule.txt
+- Found in 76 FR 22597 at C:\Users\aaw\RegPuller\data\fr\76-fr-22597\final-rule.xml: 66 FR 28355 (May 22, 2001) | downloaded to C:\Users\aaw\RegPuller\data\fr\66-fr-28355\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36934 (June 30, 2014) | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36934\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36888 (June 30, 2014) | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36888\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36905 (June 30, 2014) | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36905\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36913 (June 30, 2014) | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36913\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 73 FR 35838
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36929 (June 30, 2014) | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36929\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36900 (June 30, 2014) | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36900\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36923 (June 30, 2014) | downloaded to C:\Users\aaw\RegPuller\data\fr\79-fr-36923\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 63 FR 48899 (September 11, 1998) | downloaded to C:\Users\aaw\RegPuller\data\fr\63-fr-48899\proposed-rule-and-notice-of-public-hearing-rule.txt
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 71 FR 65317 (November 7, 2006) | downloaded to C:\Users\aaw\RegPuller\data\fr\71-fr-65317\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 72 FR 64860 (November 16, 2007) | downloaded to C:\Users\aaw\RegPuller\data\fr\72-fr-64860\proposed-rule.xml
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 74 FR 52723
+- Found in 80 FR 75237 at C:\Users\aaw\RegPuller\data\fr\80-fr-75237\final-rule.xml: 79 FR 36956
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 84 FR 36304
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 68 FR 26249 (May 15, 2003) | downloaded to C:\Users\aaw\RegPuller\data\fr\68-fr-26249\proposed-rule.xml
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 69 FR 21737 (April 22, 2004) | downloaded to C:\Users\aaw\RegPuller\data\fr\69-fr-21737\proposed-rule.xml
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 72 FR 69 (January 3, 2007) | downloaded to C:\Users\aaw\RegPuller\data\fr\72-fr-69\proposed-rule.xml
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 83 FR 5543 (February 8, 2018) | downloaded to C:\Users\aaw\RegPuller\data\fr\83-fr-5543\proposed-rule.xml
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 84 FR 36311
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 84 FR 36312
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 81 FR 35944 (June 3, 2016) | downloaded to C:\Users\aaw\RegPuller\data\fr\81-fr-35944\proposed-rule.xml
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 66 FR 16328 (March 23, 2001) | downloaded to C:\Users\aaw\RegPuller\data\fr\66-fr-16328\proposed-rule.xml
+- Found in 85 FR 73892 at C:\Users\aaw\RegPuller\data\fr\85-fr-73892\final-rule.xml: 67 FR 16582 (April 5, 2002) | downloaded to C:\Users\aaw\RegPuller\data\fr\67-fr-16582\proposed-rule.xml
+
+## Download status
+- 60 FR 48399 (final): downloaded
+- 68 FR 37350 (final): downloaded
+- 71 FR 20457 (final): downloaded
+- 76 FR 22595 (final): downloaded
+- 76 FR 22596 (final): downloaded
+- 76 FR 22597 (final): downloaded
+- 79 FR 11283 (final): downloaded
+- 80 FR 75237 (final): downloaded
+- 85 FR 73892 (final): downloaded
+- 56 FR 1186 (proposed): missing no API match
+- 59 FR 25004 (proposed): downloaded title_date_section_unverified
+- 59 FR 36130 (proposed): downloaded title_date_section_unverified
+- 59 FR 44955 (proposed): downloaded title_date_section_unverified
+- 60 FR 12703 (proposed): missing no API match
+- 60 FR 12723 (proposed): downloaded
+- 64 FR 1880 (proposed): downloaded
+- 64 FR 38970 (proposed): downloaded
+- 65 FR 55822 (proposed): downloaded
+- 67 FR 2286 (proposed): downloaded
+- 67 FR 2288 (proposed): downloaded
+- 59 FR 12408 (proposed): downloaded title_date_section_unverified
+- 66 FR 16318 (proposed): downloaded
+- 67 FR 16582 (proposed): downloaded
+- 67 FR 72875 (proposed): downloaded
+- 68 FR 32586 (proposed): downloaded
+- 70 FR 43992 (proposed): downloaded
+- 70 FR 43994 (proposed): downloaded
+- 62 FR 19885 (proposed): downloaded
+- 66 FR 28355 (proposed): downloaded
+- 75 FR 65068 (proposed): downloaded
+- 75 FR 65071 (proposed): missing no API match
+- 75 FR 65081 (proposed): missing no API match
+- 75 FR 65115 (proposed): missing no API match
+- 63 FR 48899 (proposed): downloaded
+- 71 FR 65317 (proposed): downloaded
+- 72 FR 64860 (proposed): downloaded
+- 73 FR 35838 (proposed): missing no API match
+- 74 FR 52723 (proposed): missing no API match
+- 79 FR 36888 (proposed): downloaded
+- 79 FR 36900 (proposed): downloaded
+- 79 FR 36905 (proposed): downloaded
+- 79 FR 36913 (proposed): downloaded
+- 79 FR 36923 (proposed): downloaded
+- 79 FR 36929 (proposed): downloaded
+- 79 FR 36934 (proposed): downloaded
+- 79 FR 36956 (proposed): missing no API match
+- 66 FR 16328 (proposed): downloaded
+- 68 FR 26249 (proposed): downloaded
+- 69 FR 21737 (proposed): downloaded
+- 72 FR 69 (proposed): downloaded
+- 81 FR 35944 (proposed): downloaded
+- 83 FR 5543 (proposed): downloaded
+- 84 FR 36304 (proposed): missing no API match
+- 84 FR 36311 (proposed): missing no API match
+- 84 FR 36312 (proposed): missing no API match
+
+## Summary match check
+- 60 FR 48399 (final): matched | Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- 68 FR 37350 (final): matched | Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- 71 FR 20457 (final): matched | keywords: national, emission, standards, operations (4/8)
+- 76 FR 22595 (final): matched | keywords: national, emission, standards, marine, tank, vessel, loading, operations (8/8)
+- 76 FR 22596 (final): matched | keywords: national, emission, standards, marine, tank, vessel, loading, operations (8/8)
+- 76 FR 22597 (final): matched | keywords: national, emission, standards, marine, tank, vessel, loading, operations (8/8)
+- 79 FR 11283 (final): matched | keywords: national, emission, standards, marine, tank, vessel, loading, operations (8/8)
+- 80 FR 75237 (final): matched | Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- 85 FR 73892 (final): matched | Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- 59 FR 25004 (proposed): matched | keywords: national, emission, standards, marine, tank, vessel, loading, operations (8/8)
+- 59 FR 36130 (proposed): matched | keywords: national, emission, standards, marine, tank, vessel, loading, operations (8/8)
+- 59 FR 44955 (proposed): matched | keywords: national, emission, standards, marine, tank, vessel, loading, operations (8/8)
+- 60 FR 12723 (proposed): missing
+- 64 FR 1880 (proposed): matched | keywords: national, emission, standards, operations (4/8)
+- 64 FR 38970 (proposed): matched | keywords: national, emission, standards, tank, vessel, loading, operations (7/8)
+- 65 FR 55822 (proposed): matched | keywords: national, emission, standards, operations (4/8)
+- 67 FR 2286 (proposed): matched | Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- 67 FR 2288 (proposed): matched | Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- 59 FR 12408 (proposed): matched | keywords: national, emission, standards, tank, operations (5/8)
+- 66 FR 16318 (proposed): matched | keywords: national, emission, standards, marine, tank, vessel, loading, operations (8/8)
+- 67 FR 16582 (proposed): matched | keywords: national, emission, standards, marine, vessel, loading, operations (7/8)
+- 67 FR 72875 (proposed): missing
+- 68 FR 32586 (proposed): matched | keywords: national, emission, standards, marine, vessel, loading, operations (7/8)
+- 70 FR 43992 (proposed): matched | keywords: national, emission, standards, operations (4/8)
+- 70 FR 43994 (proposed): matched | keywords: national, emission, standards, operations (4/8)
+- 62 FR 19885 (proposed): missing
+- 66 FR 28355 (proposed): missing
+- 75 FR 65068 (proposed): matched | keywords: national, emission, standards, marine, tank, vessel, loading, operations (8/8)
+- 63 FR 48899 (proposed): matched | keywords: national, emission, standards, tank, vessel, operations (6/8)
+- 71 FR 65317 (proposed): matched | keywords: national, emission, standards, tank, vessel, loading, operations (7/8)
+- 72 FR 64860 (proposed): matched | keywords: national, emission, standards, tank, vessel, loading, operations (7/8)
+- 79 FR 36888 (proposed): matched | Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- 79 FR 36900 (proposed): matched | Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- 79 FR 36905 (proposed): matched | Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- 79 FR 36913 (proposed): matched | Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- 79 FR 36923 (proposed): matched | Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- 79 FR 36929 (proposed): matched | Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- 79 FR 36934 (proposed): matched | Subpart Y - National Emission Standards for Marine Tank Vessel Loading Operations
+- 66 FR 16328 (proposed): matched | keywords: national, emission, standards, marine, tank, vessel, loading, operations (8/8)
+- 68 FR 26249 (proposed): missing
+- 69 FR 21737 (proposed): missing
+- 72 FR 69 (proposed): missing
+- 81 FR 35944 (proposed): matched | keywords: national, emission, standards, marine, tank, vessel, loading, operations (8/8)
+- 83 FR 5543 (proposed): missing

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "nwcaa_regulations.schema.json",
+  "title": "NWCAA Regulations (Parsed)",
+  "type": "object",
+  "required": ["source", "sections"],
+  "additionalProperties": false,
+  "properties": {
+    "source": {
+      "type": "object",
+      "required": ["input_path", "generated_at"],
+      "additionalProperties": false,
+      "properties": {
+        "input_path": { "type": "string" },
+        "generated_at": { "type": "string" },
+        "document_name": { "type": "string" },
+        "document_date": {
+          "description": "Optional ISO date inferred from filename (YYYY-MM-DD).",
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Section" }
+    }
+  },
+  "$defs": {
+    "Section": {
+      "type": "object",
+      "required": ["section_id", "section_title", "rules"],
+      "additionalProperties": false,
+      "properties": {
+        "section_id": { "type": "string" },
+        "section_title": { "type": "string" },
+        "history": {
+          "description": "Raw PASSED/AMENDED history lines found near this section (if any).",
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "rules": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Rule" }
+        }
+      }
+    },
+    "Rule": {
+      "type": "object",
+      "required": ["rule_id", "text", "subsections"],
+      "additionalProperties": false,
+      "properties": {
+        "rule_id": { "type": "string" },
+        "rule_title": { "type": "string" },
+        "text": {
+          "description": "Paragraphs that belong directly to this rule (not within labeled subsections).",
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "subsections": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Subsection" }
+        }
+      }
+    },
+    "Subsection": {
+      "type": "object",
+      "required": ["label", "text", "subsections"],
+      "additionalProperties": false,
+      "properties": {
+        "label": { "type": "string" },
+        "text": {
+          "description": "Paragraphs that belong to this labeled subsection.",
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "subsections": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Subsection" }
+        }
+      }
+    }
+  }
+}
+

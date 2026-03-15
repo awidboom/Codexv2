@@ -1,0 +1,348 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\outputs\\public_notice_trials2\\736442.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 11
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "Hazard Index\nResident  6.3 chances in a million  0.0017\nOff-site worker  1.7 chances in a million  0.0013\nStudent (Berkeley Technology Academy)  0.041 chances in a million  0.000022",
+        "NOx  0.000  0.003 0.003 >10 N\nPOC  0.176  0.001  0.177 >10 N\nCO 0.000  0.0005 0.000 - N\nPM 10 0.000  0.001 0.001  ≥100 N\nPM 2.5 0.000  0.001 0.001  ≥100 N\nSO 2 0.000  0.000 4 0.000 4  ≥100 N"
+      ]
+    },
+    "application_number_detected": "736442",
+    "application_number_from_filename": null
+  },
+  "application_number": "736442",
+  "plant": {
+    "name": "University of California, Berkeley",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": "January 1, 2020",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-41",
+      "description": "Portable Emergency Standby Diesel Engine"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd  \nUniversity of California, Berkeley (UC Berkeley)  is applying for an Authority to \nConstruct  and Multiple Locations  Permit to Operate for the following equipment:  \n \nS-41 Portable Emergency Standby Diesel Engine  \nMake:  John Deere , Model:  6090HFG06 , Model Year: 2021 \n437 bhp, 2.51 MMBtu/hr  \nPermit Condition No. 100812  \n \nThe criteria pollutants are nitrogen oxides (NOx), carbon monoxide (CO), precursor \norganic compounds (POC) from unburned diesel fuel, sulfur dioxide (SO 2), and \nparticulate matter  (PM 10 and  PM 2.5). All of these pollutants are briefly discussed on the \nAir District’s website  at www.baaqmd.gov . \n \nS-41 meets  the Environmental Protection Agency and California Air Resources Board \n(EPA/CARB) Tier 4 final Off-road standard.  The engine  will burn commercially available \nCalifornia low-sulfur  diesel fuel.  The sulfur content of the diesel fuel will not exceed \n0.0015% by weight.   \n \nS-41 is primarily used at Facility #12293  and stored at Facility #12293 when not in use . \nHowever, S -41 is also used at the main UC Berkeley campus (Facility #59) as needed to \nprovide backup power. Therefore, S -41 requires a multiple location permit under \nRegulation 2 -1-413. Portable engines are subject to CARB’s portable Airborne Toxic \nControl Measures (ATCM) for diesel particulate matter from portable engines rated at 50 \nhorsepower and greater, offsets per Air District Regulations 2 -2-302, 2 -2-303, any \noperational limits based on project risks from Regulation 2 -5, and multi -location \noperating parameters of Regulation 2 -1-413 for equipment operating at multiple locations \nwithin the Air District. The multi -location permit will allow S -41 to be used at Facilit y \n#12293 and Facility #59.  \n \nAlthough this project will emit toxic air contaminants that have the potential to cause or \ncontribute to adverse health impacts, the Air District has evaluated the permit application \nand has made a preliminary determination that the project is expected to comply with all \napplicable Air District, state, and federal air quality -related laws and regulations, \nincluding health protective limits for toxic air contaminant emissions."
+  },
+  "emission_calculations": {
+    "text": "Emissions\nns  \nBasis:  \n➢ Annual emissions: Reliability -related activity 50 hours for S -41 \n \n 2 ➢ Max daily emissions: 24 -hour operation  \n➢ NOx and PM emissions from carryover EPA Engine Family \nGJDXL06.8312  for S -41 \n➢ Conservative Assumption: All PM emissions are PM 2.5 \n➢ SO 2 emission factor from AP -42 Table 3.4 -1, SO 2 (15 ppm) = \n0.00809*0.0015 lb SO 2/bhp-hr * 453.6 g/lb= 0.006 g/bhp -hr \n \nTable 1. Annual and Daily Emissions from EPA/CARB Certified Data from S -41 \nPollutant  Emission \nFactor  \n(g/bhp -hr) Max Daily \nEmissions  \n(lb/day)  Annual \nEmissions \n(lb/y ear) Annual \nEmissions \n(ton/y ear) \nNOx  0.045  1.03 2.2 0.001 \nPOC  0.015 0.34 0.7 0.0004 \nCO 0.007 0.17 0.4 0.0002  \nPM 10 0.0149  0.34 0.72 0.000 4 \nPM 2.5 0.0149  0.34 0.72 0.0004  \nSO 2 0.006  0.13 0.27 0.0001 3"
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Increase\nease  \nTable 2 summarizes the cumulative increase in criteria pollutant emissions from this  \napplication.   \n \nTable 2. Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing Emissions \nPost 4/5/91 \n(tons/y ear) Application \nEmissions \n(tons/y ear) Cumulative \nEmissions \n(tons/y ear) \nNOx  0.000  0.001 0.001 \nPOC  0.000 0.0004 0.0004 \nCO 0.000 0.0002 0.000 2 \nPM 10 0.000  0.000 4 0.0004 \nPM 2.5 0.000 0.0004 0.0004 \nSO 2 0.000 0.000 13 0.00013"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emissions\nns  \nBasis:  \n➢ Annual emissions: Reliability -related activity 50 hours for S -41 \n \n 2 ➢ Max daily emissions: 24 -hour operation  \n➢ NOx and PM emissions from carryover EPA Engine Family \nGJDXL06.8312  for S -41 \n➢ Conservative Assumption: All PM emissions are PM 2.5 \n➢ SO 2 emission factor from AP -42 Table 3.4 -1, SO 2 (15 ppm) = \n0.00809*0.0015 lb SO 2/bhp-hr * 453.6 g/lb= 0.006 g/bhp -hr \n \nTable 1. Annual and Daily Emissions from EPA/CARB Certified Data from S -41 \nPollutant  Emission \nFactor  \n(g/bhp -hr) Max Daily \nEmissions  \n(lb/day)  Annual \nEmissions \n(lb/y ear) Annual \nEmissions \n(ton/y ear) \nNOx  0.045  1.03 2.2 0.001 \nPOC  0.015 0.34 0.7 0.0004 \nCO 0.007 0.17 0.4 0.0002  \nPM 10 0.0149  0.34 0.72 0.000 4 \nPM 2.5 0.0149  0.34 0.72 0.0004  \nSO 2 0.006  0.13 0.27 0.0001 3",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-41": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "Health Risk Assessment (HR A)\nR A) \nThe diesel particulate emissions from the project are greater than the toxic trigger level of \n0.26 lb/year. All PM 10 emissions are considered diesel particulate emissions.  There are no \nrelated applications within the past 5 years at Facility #12293.  Because S -41 is also used \nat Facility #59, applications within 5 years of the project history for Facility #59 are \nincluded in the project history as a conservative estimate . The list of applications included \nin the project history are below:  \n \nApplication #709186 (Facility #59): Emergency Standby Diesel Engines  \nApplication #718970 (Facility #59): Emergency Standby Diesel Engines  \nApplication #719454 (Facility #59): Emergency Standby Diesel Engine  \n \n 3 Application #32138 (Facility #59): Emergency Standby Diesel Engine  \nApplication #31779 (Facility #59): Emergency Standby Diesel Engine  \nApplication #30568 (Facility #59): Emergency Standby Diesel Engine  \n \nSince the 40.6 lb/year of diesel particulate emissions from the project  are greater than the \ntoxic trigger level of 0.26 lb/year, an HRA is required. The included HRA streamlining \npolicy checklist shows that a refined HRA is required for this permit application.  \n \nSince the proposed engine, operating at 50 hours/year for reliability related testing, \ncomplies with TBACT, and the estimated project cancer risk does not exceed 10 in a \nmillion and the chronic hazard index does not exceed 1.0, this project complies with t he \nAir District’s Regulation 2 -5-302 project risk requirements. No additional operating hour \nrestrictions were necessary for this project.  \n \nHRA Results  \nThis analysis estimates the incremental health risk resulting from toxic air contaminant \n(TAC) emissions from non -emergency operation of a standby generator diesel engine at \nthis facility. Results from this HRA indicate that the maximum project cancer risk is \nestimated at 6.3 in a million, and the maximum project chronic hazard index is estimated \nat 0.0017. See HRA Report for more details.   \n \nTable 3. Health Risk Assessment  Results  \nMaximally Exposed Receptor  Maximum Cancer Risk  Maximum Chronic \nHazard Index  \nResident  6.3 chances in a million  0.0017 \nOff-site worker  1.7 chances in a million  0.0013 \nStudent (Berkeley Technology Academy)  0.041 chances in a million  0.000022"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\nT)  \nIn accordance with Regulation 2 -2-301, BACT is triggered for any new or modified \nsource with the potential to emit 10 pounds or more per highest day of POC, NPOC, \nNOx, CO, SO 2, PM 10 or PM 2.5.  \n \nAs shown in Table 1, emissions from S-41 do not  exceed 10 pounds per day . Therefore, \nBACT is not required for S-41."
+  },
+  "offsets": {
+    "narrative": "4  \nOffsets\nets  \nOffset must be provided for any new or modified source at a facility that will have the \npotential to emit more than 10 tons per year of NOx or POC, as specified in Regulation 2 -\n2-302; 100 tons per year or more of PM 2.5, PM 10 or sulfur dioxide, as specified in \nRegulation 2 -2-303.  \nTable 4. Potential to Emit for FID 12293  \nPollutant  Existing  \nAnnual  \nEmissions  \n(TPY)  Application  \nAnnual  \nEmissions*  \n(TPY)  Facility  \nAnnual  \nEmissions * \n(TPY)  Offset  \nRequirement  \n(TPY)  Offset  \nRequired  \nNOx  0.000  0.003 0.003 >10 N \nPOC  0.176  0.001  0.177 >10 N \nCO 0.000  0.0005 0.000 - N \nPM 10 0.000  0.001 0.001  ≥100 N \nPM 2.5 0.000  0.001 0.001  ≥100 N \nSO 2 0.000  0.000 4 0.000 4  ≥100 N \n*Annual emissions: Reliability -related activity of 50 hours and emergency operation of 100 hours \nfor a total of 1 50 hours for S-41.  \n \nSince the facility’s potential to emit is below the offsets  trigger levels specified in \nRegulation 2 -2, offsets are not required.   \n \nStatement of C ompliance  \nThe owner/operator is expected to comply with all applicable requirements. Key \nrequirements are listed below:  \n \nAirborne Toxic Control Measure for Stationary Compression Ignition Engines  \nATCM, 5/19/2011, Section 93115, Title 17, CA Code of Regulations  \n \nAir District Rules  \nRegulation 6 -1-303 ( Ringelmann No. 2 Limitation )  \nNon-road portable engines are not subject to Air District regulations that contain \nemission limits per Federal Clean Air Act Section 209(e).  However, if S -41 were subject \nto Regulation 6 -1-303, it would meet the requirements of Regulation 6 -1-303. \n \nRegulation 6 -1-305 (Visible Particles)  \nNon-road portable engines are not subject to Air District regulations that contain \nemission limits per Federal Clean Air Act Section 209(e).  However, if S -41 were subject \nto Regulation 6 -1-305, it would meet the requirements of Regulation 6 -1-305. \n \nRegulation 6 -1-310 (Total Suspended Particulate (TSP) Concentration Limits)  \nSections 6 -1-310.1 and 6 -1-310.2 limit TSP emissions to 0. 15 grains/dscf of exhaust gas \nvolume or less depending on the exhaust gas rate (see Table 6 -1-310.2 for the \ncorresponding TSP concentration limit). The certified particulate emission rate from S-41 \nis 0.0149 grams per bhp -hour, which results in an outlet grain loading of 0. 00021 gr/dscf. \n \n 5 The corresponding  emission rate is less than the 0.0425  gr/dscf limit in Section 6 -1-310. \nSince the outlet grain loading rate for S-41 is less than the limits of Section 6 -1-310, S-41 \ncompl ies with this section.  Non-road portable engines are not subject to Air District \nregulations that contain emission limits per Federal Clean Air Act Section 209(e).  \nHowever, if S -41 were subject to Regulation 6 -1-310, it would meet the requirements of \nRegulation 6 -1-310. \n \nTable 5.  Section 6 -1-310 Emissions Calculations   \nEngine Maximum Exhaust Flow Rate*   1,448   acfm   =  519.96 dscf/min   =  31,197.37   dscf/hr   \nEngine Maximum Exhaust Temperature   831 F              \nWater (H2O) Content (%)   12.5%                 \nPM10 abatement for Engine   0%                \nEngine PM10 emissions**   0.01  lb/hr   =  57.09   kg/yr   =  6.52  gr/hr   \nAre Engine PM10 Emissions > 1000 kg/yr?   NO                \nApplicable Regulation 6 -1-310 section?   6-1-310.1                 \nTSP Concentration for Engine   0.00021  gr/dscf             \nCorresponding Regulation 6 -1 TSP Limit   0.15  gr/dscf                 \nPM10 emissions < Corresponding Reg 6 -1 TSP \nLimit?   YES                 \n* dscfm = acfm  x (460 R + 70 F)/(460 R + Engine Maximum Exhaust Temperature in F) x (1 - water (H2O Content))   \n \nRegulation 9 -1-301 ( Limitations on Ground Level Concentrations of SO 2)  \nNon-road portable engines are not subject to Air District regulations that contain \nemission limits per Federal Clean Air Act Section 209(e). However, if S -41 were subject \nto Regulation 9 -1-301, it would meet the requirements of Regulation 9 -1-301. \n \nRegulation 9 -8 (NOx and CO from Stationary Internal Combustion Engines ): \nRegulation 9, Rule 8 only applies to stationary engines and this engine is portable. Thus, \nS-41 is not subject to Regulation 9, Rule 8 .",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "PM10",
+          0.0,
+          "N/A",
+          null
+        ],
+        [
+          "CO",
+          0.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD)\nD)  \nPSD does not apply to non -road (portable) engines.  \n \nPublic Notification (Regulation 2 -1-412) \nThis project is not located within Overburdened Community, as defined in Regulation 2 -\n1-243. The project  and home facility  is located within 1000’ of Berkeley Technology \nAcademy  (10th-12th grade ). Therefore, this project is subject to the  school  public \nnotification requirements of Regulation 2 -1-412.  \n \nWhen operating at the main campus, The East Bay School (middle school) is within \n1,000’ of the main campus’s southwest property boundary lines. To operate the portable \nengine at the main campus and satisfy the requirements of Regulation 2 -1-413.3, a public  \nnotice is required at Facility 59.  \n \nA public notice will be sent to all addresses  within 1 ,000’ of Facility  12293 and 59 . There \nwill be a 30 -day public comment period."
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA)\nA)  \nThis permit application is not subject to CEQA because the evaluation is a ministerial \naction (Public Resources Code Section 21080(b)(1) and CEQA Guidelines Section \n15268(a)) conducted using the fixed standards and objective measurements outlined in \nstanda rd air permitting/engineering reference materials including, but not limited to: \npermitting handbooks, permitting manuals, permitting guidance documents, source \ntest/lab sampling results, and emissions factor clearinghouses. Therefore, the applicant \nwas no t required to submit any CEQA -related information.  \n \nATCM for Diesel Particulate Matter from Portable Engines  Rated at 50 \nHorsepower and Greater , Title 17, California Code of Regulations, Section 93116 , \n11/30/2018  \nPer Title 17 CCR §93116.1 , all portable engines having a maximum rated horsepower of \n50 bhp and greater and fueled with diesel are subject to CARB’s  ATCM , which functions \nto reduce diesel particulate matter . 40 CFR 89.2 defines a non -road engine as “t hat, by \nitself or in or on a piece of equipment, is portable or transportable, meaning designed to \nbe and capable of being carried or moved from one location to another. Indicia of \n \n 6 transportability include, but are not limited to, wheels, skids, carrying handles, dolly, \ntrailer, or platform ”. S-41 is moved throughout Facility #12293 and #59 property \nboundaries via trailer. Since S -41 must meet Tier 4 emission standards for newly \nmanufactured nonroad engines , it will comply with CARB’s ATCM.  \n \nNew Source Performance Standards (NSPS)  \nNSPS does not apply to non -road (portable) engines.  \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP)  \nNESHAP does not apply to non -road (portable) engines."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": []
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "Permit Conditions\nns  \n \nPermit Condition #100 812 for S-41 \n \nThis permit authorizes operation of Source S-41 at Facilities #12293 and #59 only.  \n \n1. The owner/operator of S-41 Portable  Emergency Diesel Engine has been given a permit \nfor a portable source and is subject to Regulation 2 -1-413 and the CARB Portable \nEngine ATCM .   \n[Basis:  CARB ATCM for Portable Diesel Engines  and BAAQMD 2 -1-413.7 ] \n \n2. The owner/operator of S-41 shall not store or operate the source at one location \n(facility) for more than 12 consecutive months, following the date of initial operation.  \nAny backup or standby engine, which replaces S-41 at the same location and is intended \nto perform the same function will be counted toward this time limitation. The \nowner/operator shall not move the equipment and then return it to the same location in \nan attempt to circumvent the portable equipment time requirement.  \n [Basis:  CARB ATCM for Portable Diesel Engines, BAAQMD 2 -1-413.7 ] \n \n 7  \n3. The owner/operator of S-41 shall not operate within 1,000  feet of the outer boundary  \nof any K-12 school  site unless the applicable notice requirements of Health and \nSafety Code Section 42301.6 have been met .  \n \nThe public notice requirements of Regulation 2 -1-412 and 2 -1-413.3 have been \nfulfilled at Facility #12293 and #59.  \n [Basis:  Regulation  2-1-413.3 ] \n \n4. The owner/operator  of S -41 shall not exceed the following limits per year for \nreliability -related activities:  \n \n• 50 Hours of Diesel fuel (Diesel fuel)  \n \n[Basis: Cumulative Increase , Regulation 2 -5, Title 17, California Code of  Regulations, \nSection 9311 6, ATCM for Diesel Portable Engines]  \n \n5. The owner/operator  of S-41 shall emit no more than 10 tons per year of any regulated  \nair pollutant, including POC, CO, NOx,  PM 2.5,  PM 10, NPOC or SO 2.   \n[Basis: Regulation 2 -1-413.1]  \n \n6. The owner/operator of S -41 shall equip S -41 Portable Emergency Diesel Engine with \neither:  \na. a non -resettable totalizing meter that measures hours of operation for the \nengine; or  \nb. a non -resettable fuel usage meter, the maximum hourly fuel rate shall be used \nto convert fuel usage to hours of operation.  \n \n[Basis: Cumulative Increase ]  \n \n7. The owner/operator of S-41 shall operate the engine only for the  following purposes:  \n \na. To mitigate emergencies or emergency events as  defined by Sectio n \n93116.2(a)(12) and (13) of the  CARB ATCM,  \nb.  For emission testing to demonstrate compliance with  Air District, state or federal  \nemission limit, or  \nc. For reliability -related activities (maintenance and  other testing, but excluding \nemission testing).  \n \n  [Basis:  Title 17, California Code of Regulations, Section 93116, ATCM for Portable \nDiesel Engines ] \n \n8. The owner/operator of S -41 shall ensure that the portable emergency engine only fires \non CARB diesel fuel.  \n[Basis: Cumulative increase, Toxic s; Section 93116.3(a) of the ATCM for Portable \nDiesel Engines ] \n \n 8  \n9. The owner/operator  of S-41 shall ensure that emissions from  S-41 do not cause a \npublic nuisance under Regulation  1-301. \n       [Basis:  Regulation 1 -301] \n \n10. The owner/operator  of S-41 shall comply with the risk requirements of Regulation 2, \nRule 5.   \n[Basis:  Regulations 2 -1-413.2 and 2 -5-302] \n \n11. The owner/operator shall notify the Compliance and Enforcement Division by email \nto compliance@baaqmd.gov  (Attention:  Director of Compliance and Enforcement) , \nat least 3 days in advance,  of the new location in which it intends to operate.  The \nnotification shall include : \n \na. Permit number . \nb. Brief description of the nature of the operation . \nc. Estimated duration of the operation at the new location . \nd. Name and telephone number of a contact person at the new location . \n \n[Basis:  Regulation 2 -1-403] \n \n12. Within 30 days after the end of the calendar year, the owner/operator  of S-41 shall \nprovide the Director of the Compliance and Enforcement Division a year -end \nsummary with the following information:  \n \na. The location(s) and dates at which the equipment was operated.  \nb. The total amount of diesel fuel consumed in this operation for the previous 12 \nmonths (in gallons).  \nc. The total hours of operation.  \n \n[Basis:  Regulation 2 -1-403] \n  \n13. Effective January 1, 2020, the owner/operator of S -41 Portable Emergency Diesel \nEngine shall comply with one of the following:  \n \na. S-41 Portable Emergency Diesel Engine complies with Tier 4 emissions for \nnewly manufactured nonroad engines.  \nb. The owner/operator submits a permit application to equip S -41 Portable \nEmergency Diesel Engine with a properly functioning level -3 verified \ntechnology.   \nc. The owner/operator submits a permit application to equip S -41 Portable \nEmergency Diesel Engine with a combination of verified emission control \nstrategies that have been verified together to achieve at least 85% reduction in \ndiesel PM.  \n \n 9 d. The owner/operator submits a permit application to replace S -41 Portable \nEmergency Diesel Engine with a portable diesel -fueled engine certified to the \nTier 4 emission standards.  \n \n[Basis: Section 93116.3(b)(3) of ATCM for Portable Diesel Engines ] \n \n14. To determine compliance with the above conditions, the owner/operator  of S-41 shall \nmaintain the following records and provide all of the data necessary to evaluate \ncompliance with the above conditions.   \n \na. Daily hours of operation at each location.  \nb. Monthly consumption of diesel fuel (in gallons).  \nc. Hours of operation and amount of diesel fuel in parts a) and b) shall be totaled \non a rolling consecutive 12 -month basis.  \nd. The owner/operator shall record all records in an Air District -approved log.   \n \nThe owner/operator shall retain the records with the equipment for 24 months  (five \nyears  if the facility has been issued a Title V Major Facility Review Permit or a \nSynthetic Minor Operating Permit) , from the date of entry, and make them available \nfor inspection by Air District staff upon request.  These record -keeping requirements \nshall not replace the record -keeping requirements contained in any applicable Air \nDistrict Regulations.  \n \n[Basis:  Cumulative Increase, Regulation 1 -441, Regulation 2 -1-403] \n \nEnd of Conditions"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator of S-41 Portable  Emergency Diesel Engine has been given a permit \nfor a portable source and is subject to Regulation 2 -1-413 and the CARB Portable \nEngine ATCM .   \n[",
+        "basis": [
+          "CARB ATCM for Portable Diesel Engines  and BAAQMD 2 -1-413.7 ]"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator of S-41 shall not store or operate the source at one location \n(facility) for more than 12 consecutive months, following the date of initial operation.  \nAny backup or standby engine, which replaces S-41 at the same location and is intended \nto perform the same function will be counted toward this time limitation. The \nowner/operator shall not move the equipment and then return it to the same location in \nan attempt to circumvent the portable equipment time requirement.  \n [",
+        "basis": [
+          "CARB ATCM for Portable Diesel Engines",
+          "BAAQMD 2 -1-413.7 ] \n \n 7"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator of S-41 shall not operate within 1,000  feet of the outer boundary  \nof any K-12 school  site unless the applicable notice requirements of Health and \nSafety Code Section 42301.6 have been met .  \n \nThe public notice requirements of Regulation 2 -1-412 and 2 -1-413.3 have been \nfulfilled at Facility #12293 and #59.  \n [",
+        "basis": [
+          "Regulation  2-1-413.3 ]"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "The owner/operator  of S -41 shall not exceed the following limits per year for \nreliability -related activities:  \n \n• 50 Hours of Diesel fuel (Diesel fuel)  \n \n[",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 2 -5",
+          "Title 17",
+          "California Code of  Regulations",
+          "Section 9311 6",
+          "ATCM for Diesel Portable Engines]"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "The owner/operator  of S-41 shall emit no more than 10 tons per year of any regulated  \nair pollutant, including POC, CO, NOx,  PM 2.5,  PM 10, NPOC or SO 2.   \n[",
+        "basis": [
+          "Regulation 2 -1-413.1]"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "The owner/operator of S -41 shall equip S -41 Portable Emergency Diesel Engine with \neither:  \na. a non -resettable totalizing meter that measures hours of operation for the \nengine; or  \nb. a non -resettable fuel usage meter, the maximum hourly fuel rate shall be used \nto convert fuel usage to hours of operation.  \n \n[",
+        "basis": [
+          "Cumulative Increase ]"
+        ]
+      },
+      {
+        "num": 7,
+        "text": "The owner/operator of S-41 shall operate the engine only for the  following purposes:  \n \na. To mitigate emergencies or emergency events as  defined by Sectio n",
+        "basis": []
+      },
+      {
+        "num": 93116,
+        "text": "2(a)(12) and (13) of the  CARB ATCM,  \nb.  For emission testing to demonstrate compliance with  Air District, state or federal  \nemission limit, or  \nc. For reliability -related activities (maintenance and  other testing, but excluding \nemission testing).  \n \n  [",
+        "basis": [
+          "Title 17",
+          "California Code of Regulations",
+          "Section 93116",
+          "ATCM for Portable \nDiesel Engines ]"
+        ]
+      },
+      {
+        "num": 8,
+        "text": "The owner/operator of S -41 shall ensure that the portable emergency engine only fires \non CARB diesel fuel.  \n[",
+        "basis": [
+          "Cumulative increase",
+          "Toxic s",
+          "Section 93116.3(a) of the ATCM for Portable \nDiesel Engines ] \n \n 8"
+        ]
+      },
+      {
+        "num": 9,
+        "text": "The owner/operator  of S-41 shall ensure that emissions from  S-41 do not cause a \npublic nuisance under Regulation  1-301. \n       [",
+        "basis": [
+          "Regulation 1 -301]"
+        ]
+      },
+      {
+        "num": 10,
+        "text": "The owner/operator  of S-41 shall comply with the risk requirements of Regulation 2, \nRule 5.   \n[",
+        "basis": [
+          "Regulations 2 -1-413.2 and 2 -5-302]"
+        ]
+      },
+      {
+        "num": 11,
+        "text": "The owner/operator shall notify the Compliance and Enforcement Division by email \nto compliance@baaqmd.gov  (Attention:  Director of Compliance and Enforcement) , \nat least 3 days in advance,  of the new location in which it intends to operate.  The \nnotification shall include : \n \na. Permit number . \nb. Brief description of the nature of the operation . \nc. Estimated duration of the operation at the new location . \nd. Name and telephone number of a contact person at the new location . \n \n[",
+        "basis": [
+          "Regulation 2 -1-403]"
+        ]
+      },
+      {
+        "num": 12,
+        "text": "Within 30 days after the end of the calendar year, the owner/operator  of S-41 shall \nprovide the Director of the Compliance and Enforcement Division a year -end \nsummary with the following information:  \n \na. The location(s) and dates at which the equipment was operated.  \nb. The total amount of diesel fuel consumed in this operation for the previous 12 \nmonths (in gallons).  \nc. The total hours of operation.  \n \n[",
+        "basis": [
+          "Regulation 2 -1-403]"
+        ]
+      },
+      {
+        "num": 13,
+        "text": "Effective January 1, 2020, the owner/operator of S -41 Portable Emergency Diesel \nEngine shall comply with one of the following:  \n \na. S-41 Portable Emergency Diesel Engine complies with Tier 4 emissions for \nnewly manufactured nonroad engines.  \nb. The owner/operator submits a permit application to equip S -41 Portable \nEmergency Diesel Engine with a properly functioning level -3 verified \ntechnology.   \nc. The owner/operator submits a permit application to equip S -41 Portable \nEmergency Diesel Engine with a combination of verified emission control \nstrategies that have been verified together to achieve at least 85% reduction in \ndiesel PM.  \n \n 9 d. The owner/operator submits a permit application to replace S -41 Portable \nEmergency Diesel Engine with a portable diesel -fueled engine certified to the \nTier 4 emission standards.  \n \n[",
+        "basis": [
+          "Section 93116.3(b)(3) of ATCM for Portable Diesel Engines ]"
+        ]
+      },
+      {
+        "num": 14,
+        "text": "To determine compliance with the above conditions, the owner/operator  of S-41 shall \nmaintain the following records and provide all of the data necessary to evaluate \ncompliance with the above conditions.   \n \na. Daily hours of operation at each location.  \nb. Monthly consumption of diesel fuel (in gallons).  \nc. Hours of operation and amount of diesel fuel in parts a) and b) shall be totaled \non a rolling consecutive 12 -month basis.  \nd. The owner/operator shall record all records in an Air District -approved log.   \n \nThe owner/operator shall retain the records with the equipment for 24 months  (five \nyears  if the facility has been issued a Title V Major Facility Review Permit or a \nSynthetic Minor Operating Permit) , from the date of entry, and make them available \nfor inspection by Air District staff upon request.  These record -keeping requirements \nshall not replace the record -keeping requirements contained in any applicable Air \nDistrict Regulations.  \n \n[",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 1 -441",
+          "Regulation 2 -1-403] \n \nEnd of Conditions"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\ntion  \nThe Air District has reviewed the material contained in the permit application for the \nproposed project and has made a preliminary determination that the project is expected to \ncomply with all applicable requirements of Air District, state, and federal air  quality -\nrelated regulations. The preliminary recommendation is to issue an Authority to \nConstruct/Permit to Operate for the equipment listed below. However, the proposed \nsource is within 1000’ of Berkeley Technology Academy and The East Bay School \nwhich t riggers the public notification requirements of Air District Regulation 2 -1-412 and \n2-1-413.3 . After the comments are received and reviewed, the Air District will make a \nfinal determination on the permit.  \n \nI recommend that the Air District initiate a public notice and consider any comments \nreceived prior to taking any final action on issuance of an Authority to Construct/Permit \nto Operate for the following source:  \n \nS-41 Portable Emergency Standby Diesel Engine  \nMake: John Deere , Model: 6090HFG06 , Model Year: 2021  \n437 bhp, 2.51 MMBtu/hr  \n \n 10 Permit Condition No. 100812  \n \n \nPrepared By: Bao Trinh, Senior Air Quality Engineer   Date:  08/14/25            \n                \n \n 11  \nAttachment 1  \n \n \n \n\n \n 12"
+  },
+  "raw_sections": {
+    "preamble": "1 ENGINEERING EVALUATION  \n \nFacility ID No. 12293  \nUniversity of California, Berkeley  \n2000 Carleton Street , Berkeley , CA 9 4720  \nApplication No. 736442",
+    "blocks": [
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd  \nUniversity of California, Berkeley (UC Berkeley)  is applying for an Authority to \nConstruct  and Multiple Locations  Permit to Operate for the following equipment:  \n \nS-41 Portable Emergency Standby Diesel Engine  \nMake:  John Deere , Model:  6090HFG06 , Model Year: 2021 \n437 bhp, 2.51 MMBtu/hr  \nPermit Condition No. 100812  \n \nThe criteria pollutants are nitrogen oxides (NOx), carbon monoxide (CO), precursor \norganic compounds (POC) from unburned diesel fuel, sulfur dioxide (SO 2), and \nparticulate matter  (PM 10 and  PM 2.5). All of these pollutants are briefly discussed on the \nAir District’s website  at www.baaqmd.gov . \n \nS-41 meets  the Environmental Protection Agency and California Air Resources Board \n(EPA/CARB) Tier 4 final Off-road standard.  The engine  will burn commercially available \nCalifornia low-sulfur  diesel fuel.  The sulfur content of the diesel fuel will not exceed \n0.0015% by weight.   \n \nS-41 is primarily used at Facility #12293  and stored at Facility #12293 when not in use . \nHowever, S -41 is also used at the main UC Berkeley campus (Facility #59) as needed to \nprovide backup power. Therefore, S -41 requires a multiple location permit under \nRegulation 2 -1-413. Portable engines are subject to CARB’s portable Airborne Toxic \nControl Measures (ATCM) for diesel particulate matter from portable engines rated at 50 \nhorsepower and greater, offsets per Air District Regulations 2 -2-302, 2 -2-303, any \noperational limits based on project risks from Regulation 2 -5, and multi -location \noperating parameters of Regulation 2 -1-413 for equipment operating at multiple locations \nwithin the Air District. The multi -location permit will allow S -41 to be used at Facilit y \n#12293 and Facility #59.  \n \nAlthough this project will emit toxic air contaminants that have the potential to cause or \ncontribute to adverse health impacts, the Air District has evaluated the permit application \nand has made a preliminary determination that the project is expected to comply with all \napplicable Air District, state, and federal air quality -related laws and regulations, \nincluding health protective limits for toxic air contaminant emissions."
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\nns  \nBasis:  \n➢ Annual emissions: Reliability -related activity 50 hours for S -41 \n \n 2 ➢ Max daily emissions: 24 -hour operation  \n➢ NOx and PM emissions from carryover EPA Engine Family \nGJDXL06.8312  for S -41 \n➢ Conservative Assumption: All PM emissions are PM 2.5 \n➢ SO 2 emission factor from AP -42 Table 3.4 -1, SO 2 (15 ppm) = \n0.00809*0.0015 lb SO 2/bhp-hr * 453.6 g/lb= 0.006 g/bhp -hr \n \nTable 1. Annual and Daily Emissions from EPA/CARB Certified Data from S -41 \nPollutant  Emission \nFactor  \n(g/bhp -hr) Max Daily \nEmissions  \n(lb/day)  Annual \nEmissions \n(lb/y ear) Annual \nEmissions \n(ton/y ear) \nNOx  0.045  1.03 2.2 0.001 \nPOC  0.015 0.34 0.7 0.0004 \nCO 0.007 0.17 0.4 0.0002  \nPM 10 0.0149  0.34 0.72 0.000 4 \nPM 2.5 0.0149  0.34 0.72 0.0004  \nSO 2 0.006  0.13 0.27 0.0001 3"
+      },
+      {
+        "heading": "Plant Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Increase\nease  \nTable 2 summarizes the cumulative increase in criteria pollutant emissions from this  \napplication.   \n \nTable 2. Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing Emissions \nPost 4/5/91 \n(tons/y ear) Application \nEmissions \n(tons/y ear) Cumulative \nEmissions \n(tons/y ear) \nNOx  0.000  0.001 0.001 \nPOC  0.000 0.0004 0.0004 \nCO 0.000 0.0002 0.000 2 \nPM 10 0.000  0.000 4 0.0004 \nPM 2.5 0.000 0.0004 0.0004 \nSO 2 0.000 0.000 13 0.00013"
+      },
+      {
+        "heading": "Health Risk Assessment (HR A)",
+        "alias": "TOXICS",
+        "text": "Health Risk Assessment (HR A)\nR A) \nThe diesel particulate emissions from the project are greater than the toxic trigger level of \n0.26 lb/year. All PM 10 emissions are considered diesel particulate emissions.  There are no \nrelated applications within the past 5 years at Facility #12293.  Because S -41 is also used \nat Facility #59, applications within 5 years of the project history for Facility #59 are \nincluded in the project history as a conservative estimate . The list of applications included \nin the project history are below:  \n \nApplication #709186 (Facility #59): Emergency Standby Diesel Engines  \nApplication #718970 (Facility #59): Emergency Standby Diesel Engines  \nApplication #719454 (Facility #59): Emergency Standby Diesel Engine  \n \n 3 Application #32138 (Facility #59): Emergency Standby Diesel Engine  \nApplication #31779 (Facility #59): Emergency Standby Diesel Engine  \nApplication #30568 (Facility #59): Emergency Standby Diesel Engine  \n \nSince the 40.6 lb/year of diesel particulate emissions from the project  are greater than the \ntoxic trigger level of 0.26 lb/year, an HRA is required. The included HRA streamlining \npolicy checklist shows that a refined HRA is required for this permit application.  \n \nSince the proposed engine, operating at 50 hours/year for reliability related testing, \ncomplies with TBACT, and the estimated project cancer risk does not exceed 10 in a \nmillion and the chronic hazard index does not exceed 1.0, this project complies with t he \nAir District’s Regulation 2 -5-302 project risk requirements. No additional operating hour \nrestrictions were necessary for this project.  \n \nHRA Results  \nThis analysis estimates the incremental health risk resulting from toxic air contaminant \n(TAC) emissions from non -emergency operation of a standby generator diesel engine at \nthis facility. Results from this HRA indicate that the maximum project cancer risk is \nestimated at 6.3 in a million, and the maximum project chronic hazard index is estimated \nat 0.0017. See HRA Report for more details.   \n \nTable 3. Health Risk Assessment  Results  \nMaximally Exposed Receptor  Maximum Cancer Risk  Maximum Chronic \nHazard Index  \nResident  6.3 chances in a million  0.0017 \nOff-site worker  1.7 chances in a million  0.0013 \nStudent (Berkeley Technology Academy)  0.041 chances in a million  0.000022"
+      },
+      {
+        "heading": "TBACT",
+        "alias": null,
+        "text": "TBACT\nBACT  \nIn accordance with the Air District’s Regulation 2 -5-301, S-41 would require TBACT if \nthe estimated source cancer risk is greater than 1.0 in a million. BACT and TBACT \ndeterminations for compression ignition engines with a rated capacity between 50 -1000 \nbhp are described in BAAQMD BACT/TBACT Workbook for IC Engines – Compression \nIgnition: Stationary Emergency, non -Agricultural, non -direct drive fire pump, Document \n#96.1.3, Revision 9. dated 12/ 02/2024 (see Attachment 1). However, S -41 does not require \nTBACT because the estimated sour ce risk does not exceed a cancer risk of 1.0 in a  \nmillion, and/or chronic hazard index of 0.20."
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\nT)  \nIn accordance with Regulation 2 -2-301, BACT is triggered for any new or modified \nsource with the potential to emit 10 pounds or more per highest day of POC, NPOC, \nNOx, CO, SO 2, PM 10 or PM 2.5.  \n \nAs shown in Table 1, emissions from S-41 do not  exceed 10 pounds per day . Therefore, \nBACT is not required for S-41."
+      },
+      {
+        "heading": "4  \nOffsets",
+        "alias": "OFFSETS",
+        "text": "4  \nOffsets\nets  \nOffset must be provided for any new or modified source at a facility that will have the \npotential to emit more than 10 tons per year of NOx or POC, as specified in Regulation 2 -\n2-302; 100 tons per year or more of PM 2.5, PM 10 or sulfur dioxide, as specified in \nRegulation 2 -2-303.  \nTable 4. Potential to Emit for FID 12293  \nPollutant  Existing  \nAnnual  \nEmissions  \n(TPY)  Application  \nAnnual  \nEmissions*  \n(TPY)  Facility  \nAnnual  \nEmissions * \n(TPY)  Offset  \nRequirement  \n(TPY)  Offset  \nRequired  \nNOx  0.000  0.003 0.003 >10 N \nPOC  0.176  0.001  0.177 >10 N \nCO 0.000  0.0005 0.000 - N \nPM 10 0.000  0.001 0.001  ≥100 N \nPM 2.5 0.000  0.001 0.001  ≥100 N \nSO 2 0.000  0.000 4 0.000 4  ≥100 N \n*Annual emissions: Reliability -related activity of 50 hours and emergency operation of 100 hours \nfor a total of 1 50 hours for S-41.  \n \nSince the facility’s potential to emit is below the offsets  trigger levels specified in \nRegulation 2 -2, offsets are not required.   \n \nStatement of C ompliance  \nThe owner/operator is expected to comply with all applicable requirements. Key \nrequirements are listed below:  \n \nAirborne Toxic Control Measure for Stationary Compression Ignition Engines  \nATCM, 5/19/2011, Section 93115, Title 17, CA Code of Regulations  \n \nAir District Rules  \nRegulation 6 -1-303 ( Ringelmann No. 2 Limitation )  \nNon-road portable engines are not subject to Air District regulations that contain \nemission limits per Federal Clean Air Act Section 209(e).  However, if S -41 were subject \nto Regulation 6 -1-303, it would meet the requirements of Regulation 6 -1-303. \n \nRegulation 6 -1-305 (Visible Particles)  \nNon-road portable engines are not subject to Air District regulations that contain \nemission limits per Federal Clean Air Act Section 209(e).  However, if S -41 were subject \nto Regulation 6 -1-305, it would meet the requirements of Regulation 6 -1-305. \n \nRegulation 6 -1-310 (Total Suspended Particulate (TSP) Concentration Limits)  \nSections 6 -1-310.1 and 6 -1-310.2 limit TSP emissions to 0. 15 grains/dscf of exhaust gas \nvolume or less depending on the exhaust gas rate (see Table 6 -1-310.2 for the \ncorresponding TSP concentration limit). The certified particulate emission rate from S-41 \nis 0.0149 grams per bhp -hour, which results in an outlet grain loading of 0. 00021 gr/dscf. \n \n 5 The corresponding  emission rate is less than the 0.0425  gr/dscf limit in Section 6 -1-310. \nSince the outlet grain loading rate for S-41 is less than the limits of Section 6 -1-310, S-41 \ncompl ies with this section.  Non-road portable engines are not subject to Air District \nregulations that contain emission limits per Federal Clean Air Act Section 209(e).  \nHowever, if S -41 were subject to Regulation 6 -1-310, it would meet the requirements of \nRegulation 6 -1-310. \n \nTable 5.  Section 6 -1-310 Emissions Calculations   \nEngine Maximum Exhaust Flow Rate*   1,448   acfm   =  519.96 dscf/min   =  31,197.37   dscf/hr   \nEngine Maximum Exhaust Temperature   831 F              \nWater (H2O) Content (%)   12.5%                 \nPM10 abatement for Engine   0%                \nEngine PM10 emissions**   0.01  lb/hr   =  57.09   kg/yr   =  6.52  gr/hr   \nAre Engine PM10 Emissions > 1000 kg/yr?   NO                \nApplicable Regulation 6 -1-310 section?   6-1-310.1                 \nTSP Concentration for Engine   0.00021  gr/dscf             \nCorresponding Regulation 6 -1 TSP Limit   0.15  gr/dscf                 \nPM10 emissions < Corresponding Reg 6 -1 TSP \nLimit?   YES                 \n* dscfm = acfm  x (460 R + 70 F)/(460 R + Engine Maximum Exhaust Temperature in F) x (1 - water (H2O Content))   \n \nRegulation 9 -1-301 ( Limitations on Ground Level Concentrations of SO 2)  \nNon-road portable engines are not subject to Air District regulations that contain \nemission limits per Federal Clean Air Act Section 209(e). However, if S -41 were subject \nto Regulation 9 -1-301, it would meet the requirements of Regulation 9 -1-301. \n \nRegulation 9 -8 (NOx and CO from Stationary Internal Combustion Engines ): \nRegulation 9, Rule 8 only applies to stationary engines and this engine is portable. Thus, \nS-41 is not subject to Regulation 9, Rule 8 ."
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA)",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA)\nA)  \nThis permit application is not subject to CEQA because the evaluation is a ministerial \naction (Public Resources Code Section 21080(b)(1) and CEQA Guidelines Section \n15268(a)) conducted using the fixed standards and objective measurements outlined in \nstanda rd air permitting/engineering reference materials including, but not limited to: \npermitting handbooks, permitting manuals, permitting guidance documents, source \ntest/lab sampling results, and emissions factor clearinghouses. Therefore, the applicant \nwas no t required to submit any CEQA -related information.  \n \nATCM for Diesel Particulate Matter from Portable Engines  Rated at 50 \nHorsepower and Greater , Title 17, California Code of Regulations, Section 93116 , \n11/30/2018  \nPer Title 17 CCR §93116.1 , all portable engines having a maximum rated horsepower of \n50 bhp and greater and fueled with diesel are subject to CARB’s  ATCM , which functions \nto reduce diesel particulate matter . 40 CFR 89.2 defines a non -road engine as “t hat, by \nitself or in or on a piece of equipment, is portable or transportable, meaning designed to \nbe and capable of being carried or moved from one location to another. Indicia of \n \n 6 transportability include, but are not limited to, wheels, skids, carrying handles, dolly, \ntrailer, or platform ”. S-41 is moved throughout Facility #12293 and #59 property \nboundaries via trailer. Since S -41 must meet Tier 4 emission standards for newly \nmanufactured nonroad engines , it will comply with CARB’s ATCM.  \n \nNew Source Performance Standards (NSPS)  \nNSPS does not apply to non -road (portable) engines.  \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP)  \nNESHAP does not apply to non -road (portable) engines."
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD)",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD)\nD)  \nPSD does not apply to non -road (portable) engines.  \n \nPublic Notification (Regulation 2 -1-412) \nThis project is not located within Overburdened Community, as defined in Regulation 2 -\n1-243. The project  and home facility  is located within 1000’ of Berkeley Technology \nAcademy  (10th-12th grade ). Therefore, this project is subject to the  school  public \nnotification requirements of Regulation 2 -1-412.  \n \nWhen operating at the main campus, The East Bay School (middle school) is within \n1,000’ of the main campus’s southwest property boundary lines. To operate the portable \nengine at the main campus and satisfy the requirements of Regulation 2 -1-413.3, a public  \nnotice is required at Facility 59.  \n \nA public notice will be sent to all addresses  within 1 ,000’ of Facility  12293 and 59 . There \nwill be a 30 -day public comment period."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nns  \n \nPermit Condition #100 812 for S-41 \n \nThis permit authorizes operation of Source S-41 at Facilities #12293 and #59 only.  \n \n1. The owner/operator of S-41 Portable  Emergency Diesel Engine has been given a permit \nfor a portable source and is subject to Regulation 2 -1-413 and the CARB Portable \nEngine ATCM .   \n[Basis:  CARB ATCM for Portable Diesel Engines  and BAAQMD 2 -1-413.7 ] \n \n2. The owner/operator of S-41 shall not store or operate the source at one location \n(facility) for more than 12 consecutive months, following the date of initial operation.  \nAny backup or standby engine, which replaces S-41 at the same location and is intended \nto perform the same function will be counted toward this time limitation. The \nowner/operator shall not move the equipment and then return it to the same location in \nan attempt to circumvent the portable equipment time requirement.  \n [Basis:  CARB ATCM for Portable Diesel Engines, BAAQMD 2 -1-413.7 ] \n \n 7  \n3. The owner/operator of S-41 shall not operate within 1,000  feet of the outer boundary  \nof any K-12 school  site unless the applicable notice requirements of Health and \nSafety Code Section 42301.6 have been met .  \n \nThe public notice requirements of Regulation 2 -1-412 and 2 -1-413.3 have been \nfulfilled at Facility #12293 and #59.  \n [Basis:  Regulation  2-1-413.3 ] \n \n4. The owner/operator  of S -41 shall not exceed the following limits per year for \nreliability -related activities:  \n \n• 50 Hours of Diesel fuel (Diesel fuel)  \n \n[Basis: Cumulative Increase , Regulation 2 -5, Title 17, California Code of  Regulations, \nSection 9311 6, ATCM for Diesel Portable Engines]  \n \n5. The owner/operator  of S-41 shall emit no more than 10 tons per year of any regulated  \nair pollutant, including POC, CO, NOx,  PM 2.5,  PM 10, NPOC or SO 2.   \n[Basis: Regulation 2 -1-413.1]  \n \n6. The owner/operator of S -41 shall equip S -41 Portable Emergency Diesel Engine with \neither:  \na. a non -resettable totalizing meter that measures hours of operation for the \nengine; or  \nb. a non -resettable fuel usage meter, the maximum hourly fuel rate shall be used \nto convert fuel usage to hours of operation.  \n \n[Basis: Cumulative Increase ]  \n \n7. The owner/operator of S-41 shall operate the engine only for the  following purposes:  \n \na. To mitigate emergencies or emergency events as  defined by Sectio n \n93116.2(a)(12) and (13) of the  CARB ATCM,  \nb.  For emission testing to demonstrate compliance with  Air District, state or federal  \nemission limit, or  \nc. For reliability -related activities (maintenance and  other testing, but excluding \nemission testing).  \n \n  [Basis:  Title 17, California Code of Regulations, Section 93116, ATCM for Portable \nDiesel Engines ] \n \n8. The owner/operator of S -41 shall ensure that the portable emergency engine only fires \non CARB diesel fuel.  \n[Basis: Cumulative increase, Toxic s; Section 93116.3(a) of the ATCM for Portable \nDiesel Engines ] \n \n 8  \n9. The owner/operator  of S-41 shall ensure that emissions from  S-41 do not cause a \npublic nuisance under Regulation  1-301. \n       [Basis:  Regulation 1 -301] \n \n10. The owner/operator  of S-41 shall comply with the risk requirements of Regulation 2, \nRule 5.   \n[Basis:  Regulations 2 -1-413.2 and 2 -5-302] \n \n11. The owner/operator shall notify the Compliance and Enforcement Division by email \nto compliance@baaqmd.gov  (Attention:  Director of Compliance and Enforcement) , \nat least 3 days in advance,  of the new location in which it intends to operate.  The \nnotification shall include : \n \na. Permit number . \nb. Brief description of the nature of the operation . \nc. Estimated duration of the operation at the new location . \nd. Name and telephone number of a contact person at the new location . \n \n[Basis:  Regulation 2 -1-403] \n \n12. Within 30 days after the end of the calendar year, the owner/operator  of S-41 shall \nprovide the Director of the Compliance and Enforcement Division a year -end \nsummary with the following information:  \n \na. The location(s) and dates at which the equipment was operated.  \nb. The total amount of diesel fuel consumed in this operation for the previous 12 \nmonths (in gallons).  \nc. The total hours of operation.  \n \n[Basis:  Regulation 2 -1-403] \n  \n13. Effective January 1, 2020, the owner/operator of S -41 Portable Emergency Diesel \nEngine shall comply with one of the following:  \n \na. S-41 Portable Emergency Diesel Engine complies with Tier 4 emissions for \nnewly manufactured nonroad engines.  \nb. The owner/operator submits a permit application to equip S -41 Portable \nEmergency Diesel Engine with a properly functioning level -3 verified \ntechnology.   \nc. The owner/operator submits a permit application to equip S -41 Portable \nEmergency Diesel Engine with a combination of verified emission control \nstrategies that have been verified together to achieve at least 85% reduction in \ndiesel PM.  \n \n 9 d. The owner/operator submits a permit application to replace S -41 Portable \nEmergency Diesel Engine with a portable diesel -fueled engine certified to the \nTier 4 emission standards.  \n \n[Basis: Section 93116.3(b)(3) of ATCM for Portable Diesel Engines ] \n \n14. To determine compliance with the above conditions, the owner/operator  of S-41 shall \nmaintain the following records and provide all of the data necessary to evaluate \ncompliance with the above conditions.   \n \na. Daily hours of operation at each location.  \nb. Monthly consumption of diesel fuel (in gallons).  \nc. Hours of operation and amount of diesel fuel in parts a) and b) shall be totaled \non a rolling consecutive 12 -month basis.  \nd. The owner/operator shall record all records in an Air District -approved log.   \n \nThe owner/operator shall retain the records with the equipment for 24 months  (five \nyears  if the facility has been issued a Title V Major Facility Review Permit or a \nSynthetic Minor Operating Permit) , from the date of entry, and make them available \nfor inspection by Air District staff upon request.  These record -keeping requirements \nshall not replace the record -keeping requirements contained in any applicable Air \nDistrict Regulations.  \n \n[Basis:  Cumulative Increase, Regulation 1 -441, Regulation 2 -1-403] \n \nEnd of Conditions"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\ntion  \nThe Air District has reviewed the material contained in the permit application for the \nproposed project and has made a preliminary determination that the project is expected to \ncomply with all applicable requirements of Air District, state, and federal air  quality -\nrelated regulations. The preliminary recommendation is to issue an Authority to \nConstruct/Permit to Operate for the equipment listed below. However, the proposed \nsource is within 1000’ of Berkeley Technology Academy and The East Bay School \nwhich t riggers the public notification requirements of Air District Regulation 2 -1-412 and \n2-1-413.3 . After the comments are received and reviewed, the Air District will make a \nfinal determination on the permit.  \n \nI recommend that the Air District initiate a public notice and consider any comments \nreceived prior to taking any final action on issuance of an Authority to Construct/Permit \nto Operate for the following source:  \n \nS-41 Portable Emergency Standby Diesel Engine  \nMake: John Deere , Model: 6090HFG06 , Model Year: 2021  \n437 bhp, 2.51 MMBtu/hr  \n \n 10 Permit Condition No. 100812  \n \n \nPrepared By: Bao Trinh, Senior Air Quality Engineer   Date:  08/14/25            \n                \n \n 11  \nAttachment 1  \n \n \n \n\n \n 12"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "TBACT",
+        "alias": null,
+        "text": "TBACT\nBACT  \nIn accordance with the Air District’s Regulation 2 -5-301, S-41 would require TBACT if \nthe estimated source cancer risk is greater than 1.0 in a million. BACT and TBACT \ndeterminations for compression ignition engines with a rated capacity between 50 -1000 \nbhp are described in BAAQMD BACT/TBACT Workbook for IC Engines – Compression \nIgnition: Stationary Emergency, non -Agricultural, non -direct drive fire pump, Document \n#96.1.3, Revision 9. dated 12/ 02/2024 (see Attachment 1). However, S -41 does not require \nTBACT because the estimated sour ce risk does not exceed a cancer risk of 1.0 in a  \nmillion, and/or chronic hazard index of 0.20."
+      }
+    ]
+  }
+}

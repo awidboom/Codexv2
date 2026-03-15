@@ -1,0 +1,319 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\split_evals_2011_04\\application_17472.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 2
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "17472",
+    "application_number_from_filename": "17472"
+  },
+  "application_number": "17472",
+  "plant": {
+    "name": "Permit Evaluation and Statement of Basis, Renewed Permit: Site B5728 & B5729, Tesoro Re fining and Marketing Company",
+    "plant_id": 14628,
+    "address": "Martinez, CA 94553"
+  },
+  "evaluation_date": "April 8, 2011",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-795",
+      "description": "No. 3 Reformer V -307 Horizontal Pressure Stora ge Vessel, 1700 gallons,"
+    },
+    {
+      "id": "A-796",
+      "description": "Vapor Balance System"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nTesoro Refining and Marketing Company is applying for an administrative change in conditions to the Permit to \nOperate for:  \n \n S-795 No. 3 Reformer V -307 Horizontal Pressure Stora ge Vessel, 1700 gallons, \nPerchloroethylene   \n \nabated by:  \n \n A-796 Vapor Balance System  \n \nThis tank is currently permitted as a fixed roof tank subject to Regulation 8 -5, abated by A -795 \nvent gas condenser.  The data form in the plant file specifies a fixed ro of tank.  S -795 is actually \na pressure vessel, a horizontal ‗bullet‘ 6 feet in diameter, 8 feet tangent to tangent.  A review of \n1990 Application 5267 shows that at one time, the proposed project was for a fixed roof tank, \nstoring 1,1,1 -trichloroethylene, abated by a vent gas condenser.   The project was modified to the \npressure vessel with a vapor balance system, but these changes did not get properly updated in \nthe permit when the PO was granted in 1995.  This oversight was not corrected in 1995 \nApplicati on 25684 that granted a change in conditions to store perchloroethylene.  All revisions \nof the Title V permit shows S -795 as a horizontal vessel in the equipment table, but the \napplicable requirements in Section IV are shown for a fixed roof tank.  Further more, both A -795 \n(which was never installed) and A -796 (which is not in databank) are listed in  (Rev 4) Table II -\nB.BACKGROUND\nOUND  \n \nTesoro Refining and Marketing Company is applying for an administrative change in conditions to the Permit to \nOperate for:  \n \n S-795 No. 3 Reformer V -307 Horizontal Pressure Stora ge Vessel, 1700 gallons, \nPerchloroethylene   \n \nabated by:  \n \n A-796 Vapor Balance System  \n \nThis tank is currently permitted as a fixed roof tank subject to Regulation 8 -5, abated by A -795 \nvent gas condenser.  The data form in the plant file specifies a fixed ro of tank.  S -795 is actually \na pressure vessel, a horizontal ‗bullet‘ 6 feet in diameter, 8 feet tangent to tangent.  A review of \n1990 Application 5267 shows that at one time, the proposed project was for a fixed roof tank, \nstoring 1,1,1 -trichloroethylene, abated by a vent gas condenser.   The project was modified to the \npressure vessel with a vapor balance system, but these changes did not get properly updated in \nthe permit when the PO was granted in 1995.  This oversight was not corrected in 1995 \nApplicati on 25684 that granted a change in conditions to store perchloroethylene.  All revisions \nof the Title V permit shows S -795 as a horizontal vessel in the equipment table, but the \napplicable requirements in Section IV are shown for a fixed roof tank.  Further more, both A -795 \n(which was never installed) and A -796 (which is not in databank) are listed in  (Rev 4) Table II -\nB. \n \nEMISSIONS SUMMARY  \n \nThere are no increases in emissions associated with this application.  This application is \nadministrative to change Con dition 5711."
+  },
+  "emission_calculations": {
+    "text": "EMISSIONS SUMMARY\nThere are no increases in emissions associated with this application.  This application is \nadministrative to change Con dition 5711."
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSIONS SUMMARY\nThere are no increases in emissions associated with this application.  This application is \nadministrative to change Con dition 5711.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-795": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-796": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": ""
+  },
+  "BACT": {
+    "text": ""
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nCE  \n \nThere will be no change in the compliance of the associated equipment.  The vessel will comply \nwith Regulation 8 Rule 5, including:  \n   \n8-5-301  Storage Tanks Control Requirements,  \n8-5-306 Requirements for Approved Emission C ontrol Systems,  \n8-5-307 Requirements for Fixed Roof Tanks, Pressure Tanks and Blanketed Tanks  \n8-5-329 Tank Degassing Requirements,  \n8-5-333 Tank Cleaning Requirements, and  \n  \nApplication # 16082  Page 216 of 1354  Plant #14628  \n \nApril 8, 2011  216 8-5-334 Sludge Handling Requirements.  \n \n \nThis application is exempt from CEQA per 2 -1-312.1:  Applications to modi fy permit conditions \nfor existing or permitted sources or facilities that do not involve any increases in emissions \nor physical modifications.  \n \nBACT, Toxics,  Offsets, NESHAPS, NSPS and PSD do not apply to this administrative change.STATEMENT OF COMPLIANCE\nCE  \n \nThere will be no change in the compliance of the associated equipment.  The vessel will comply \nwith Regulation 8 Rule 5, including:  \n   \n8-5-301  Storage Tanks Control Requirements,  \n8-5-306 Requirements for Approved Emission C ontrol Systems,  \n8-5-307 Requirements for Fixed Roof Tanks, Pressure Tanks and Blanketed Tanks  \n8-5-329 Tank Degassing Requirements,  \n8-5-333 Tank Cleaning Requirements, and  \n  \nApplication # 16082  Page 216 of 1354  Plant #14628  \n \nApril 8, 2011  216 8-5-334 Sludge Handling Requirements.  \n \n \nThis application is exempt from CEQA per 2 -1-312.1:  Applications to modi fy permit conditions \nfor existing or permitted sources or facilities that do not involve any increases in emissions \nor physical modifications.  \n \nBACT, Toxics,  Offsets, NESHAPS, NSPS and PSD do not apply to this administrative change."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS\nITIONS  \n \nPermit Condition 5711 will be administratively changed as follows:  \n \n \n            COND#  5711    --------------------------------------  \n \nApplication 5267  (1,1,1 TCA tank) 1990  \nAmended by Application 25684  1995, added perchloroethylene  \nAmended by Application  17472, Dec 2008, remove 1,1,1 TCA  \n     \nS795 #3 Reformer Perchloroethylene Tank V -307Tank A-307                                             \n \n     1.  Permittee/Owner/Operator shall ensure that the total  \n         material throughput for storage tank S -795 does not \n         exceed 11,000 gallons in any consecutive 12 month  \n         period. \n        (basis: toxics, cumulative increase)                     \n \n     2.  If a material other than 1,1,1 trichloroethane or  \n         perchloroethylene is to be stored in t ank S-795, the  \n         Permittee/Owner/Operator shall first apply to, and  \n         receive from, the District a change in permit  \n         conditions, unless the modification is exempt from  \n         Authority to Construct requirements under limited  \n         exemption 2 -1-106. \n        (basis: toxics, cumulative increase)                     \n \n     3.  Permittee/Owner/Operator shall ensure that all tank  \n         loading operations at S -795 are abated by the vapor  \n         balance system A -796. \n        (basis: cumulative increase, toxics)                     \n \n     4.  In order to demonstrate compliance with the above  \n         conditions, the Permittee/Owner/Operator of tank S -795 \n         shall maintain the following records in a District  \n         approved log. These records shall be kept on site and  \n         made available for District inspection for a period of  \n         five years from the date that the record was made.  \n         a.  Identification of all materials stored and the dates  \n             that the mate rials were stored.  \n         b.  The total daily throughput of each material stored,  \n  \nApplication # 16082  Page 217 of 1354  Plant #14628  \n \nApril 8, 2011  217              summarized on a monthly basis.  \n        (basis: cumulative increase, toxics)PERMIT CONDITIONS\nITIONS  \n \nPermit Condition 5711 will be administratively changed as follows:  \n \n \n            COND#  5711    --------------------------------------  \n \nApplication 5267  (1,1,1 TCA tank) 1990  \nAmended by Application 25684  1995, added perchloroethylene  \nAmended by Application  17472, Dec 2008, remove 1,1,1 TCA  \n     \nS795 #3 Reformer Perchloroethylene Tank V -307Tank A-307                                             \n \n     1.  Permittee/Owner/Operator shall ensure that the total  \n         material throughput for storage tank S -795 does not \n         exceed 11,000 gallons in any consecutive 12 month  \n         period. \n        (basis: toxics, cumulative increase)                     \n \n     2.  If a material other than 1,1,1 trichloroethane or  \n         perchloroethylene is to be stored in t ank S-795, the  \n         Permittee/Owner/Operator shall first apply to, and  \n         receive from, the District a change in permit  \n         conditions, unless the modification is exempt from  \n         Authority to Construct requirements under limited  \n         exemption 2 -1-106. \n        (basis: toxics, cumulative increase)                     \n \n     3.  Permittee/Owner/Operator shall ensure that all tank  \n         loading operations at S -795 are abated by the vapor  \n         balance system A -796. \n        (basis: cumulative increase, toxics)                     \n \n     4.  In order to demonstrate compliance with the above  \n         conditions, the Permittee/Owner/Operator of tank S -795 \n         shall maintain the following records in a District  \n         approved log. These records shall be kept on site and  \n         made available for District inspection for a period of  \n         five years from the date that the record was made.  \n         a.  Identification of all materials stored and the dates  \n             that the mate rials were stored.  \n         b.  The total daily throughput of each material stored,  \n  \nApplication # 16082  Page 217 of 1354  Plant #14628  \n \nApril 8, 2011  217              summarized on a monthly basis.  \n        (basis: cumulative increase, toxics)"
+  },
+  "permit_conditions": {
+    "condition_number": 5711,
+    "items": [
+      {
+        "num": 1,
+        "text": "Permittee/Owner/Operator shall ensure that the total  \n         material throughput for storage tank S -795 does not \n         exceed 11,000 gallons in any consecutive 12 month  \n         period. \n        (",
+        "basis": [
+          "toxics",
+          "cumulative increase)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "If a material other than 1,1,1 trichloroethane or  \n         perchloroethylene is to be stored in t ank S-795, the  \n         Permittee/Owner/Operator shall first apply to, and  \n         receive from, the District a change in permit  \n         conditions, unless the modification is exempt from  \n         Authority to Construct requirements under limited  \n         exemption 2 -1-106. \n        (",
+        "basis": [
+          "toxics",
+          "cumulative increase)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "Permittee/Owner/Operator shall ensure that all tank  \n         loading operations at S -795 are abated by the vapor  \n         balance system A -796. \n        (",
+        "basis": [
+          "cumulative increase",
+          "toxics)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "In order to demonstrate compliance with the above  \n         conditions, the Permittee/Owner/Operator of tank S -795 \n         shall maintain the following records in a District  \n         approved log. These records shall be kept on site and  \n         made available for District inspection for a period of  \n         five years from the date that the record was made.  \n         a.  Identification of all materials stored and the dates  \n             that the mate rials were stored.  \n         b.  The total daily throughput of each material stored,  \n  \nApplication # 16082  Page 217 of 1354  Plant #14628  \n \nApril 8, 2011  217              summarized on a monthly basis.  \n        (",
+        "basis": [
+          "cumulative increase",
+          "toxics)PERMIT CONDITIONS\nITIONS  \n \nPermit Condition 5711 will be administratively changed as follows:  \n \n \n            COND#  5711    --------------------------------------  \n \nApplication 5267  (1",
+          "1",
+          "1 TCA tank) 1990  \nAmended by Application 25684  1995",
+          "added perchloroethylene  \nAmended by Application  17472",
+          "Dec 2008",
+          "remove 1",
+          "1",
+          "1 TCA  \n     \nS795 #3 Reformer Perchloroethylene Tank V -307Tank A-307"
+        ]
+      },
+      {
+        "num": 1,
+        "text": "Permittee/Owner/Operator shall ensure that the total  \n         material throughput for storage tank S -795 does not \n         exceed 11,000 gallons in any consecutive 12 month  \n         period. \n        (",
+        "basis": [
+          "toxics",
+          "cumulative increase)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "If a material other than 1,1,1 trichloroethane or  \n         perchloroethylene is to be stored in t ank S-795, the  \n         Permittee/Owner/Operator shall first apply to, and  \n         receive from, the District a change in permit  \n         conditions, unless the modification is exempt from  \n         Authority to Construct requirements under limited  \n         exemption 2 -1-106. \n        (",
+        "basis": [
+          "toxics",
+          "cumulative increase)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "Permittee/Owner/Operator shall ensure that all tank  \n         loading operations at S -795 are abated by the vapor  \n         balance system A -796. \n        (",
+        "basis": [
+          "cumulative increase",
+          "toxics)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "In order to demonstrate compliance with the above  \n         conditions, the Permittee/Owner/Operator of tank S -795 \n         shall maintain the following records in a District  \n         approved log. These records shall be kept on site and  \n         made available for District inspection for a period of  \n         five years from the date that the record was made.  \n         a.  Identification of all materials stored and the dates  \n             that the mate rials were stored.  \n         b.  The total daily throughput of each material stored,  \n  \nApplication # 16082  Page 217 of 1354  Plant #14628  \n \nApril 8, 2011  217              summarized on a monthly basis.  \n        (",
+        "basis": [
+          "cumulative increase",
+          "toxics)"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATIONRECOMMENDATION\nMMENDATION  \nGrant an administrative change in conditions to the Permit to O perate to Tesoro Refining and Marketing Company \nfor the following source:  \n \n S-795 No. 3 Reformer V -307 Horizontal Pressure Storage Vessel, 1700 gallons, \nPerchloroethylene   \n \nabated by:  \n \n A-796 Vapor Balance System  \n \n \n \n \n \n \nBy:        \n Arthur Valla       Decembe r 23, 2008  \n Senior Air Quality Engineer"
+  },
+  "raw_sections": {
+    "preamble": "Permit Evaluation and Statement of Basis, Renewed Permit:  Site B5728 & B5729, Tesoro Re fining and Marketing Company  \nGolden Eagle Refinery, 150 Solano Way and 1750 Marina Vista Way, Martinez, CA  94553  \nApril 8, 2011  215 Application 17472, S795 Perc Storage Vessel",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nTesoro Refin ing and Marketing Company"
+      },
+      {
+        "heading": "PLANT NO. 14628",
+        "alias": null,
+        "text": "PLANT NO. 14628"
+      },
+      {
+        "heading": "APPLICATION NO.  17472",
+        "alias": null,
+        "text": "APPLICATION NO.  17472"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nTesoro Refining and Marketing Company is applying for an administrative change in conditions to the Permit to \nOperate for:  \n \n S-795 No. 3 Reformer V -307 Horizontal Pressure Stora ge Vessel, 1700 gallons, \nPerchloroethylene   \n \nabated by:  \n \n A-796 Vapor Balance System  \n \nThis tank is currently permitted as a fixed roof tank subject to Regulation 8 -5, abated by A -795 \nvent gas condenser.  The data form in the plant file specifies a fixed ro of tank.  S -795 is actually \na pressure vessel, a horizontal ‗bullet‘ 6 feet in diameter, 8 feet tangent to tangent.  A review of \n1990 Application 5267 shows that at one time, the proposed project was for a fixed roof tank, \nstoring 1,1,1 -trichloroethylene, abated by a vent gas condenser.   The project was modified to the \npressure vessel with a vapor balance system, but these changes did not get properly updated in \nthe permit when the PO was granted in 1995.  This oversight was not corrected in 1995 \nApplicati on 25684 that granted a change in conditions to store perchloroethylene.  All revisions \nof the Title V permit shows S -795 as a horizontal vessel in the equipment table, but the \napplicable requirements in Section IV are shown for a fixed roof tank.  Further more, both A -795 \n(which was never installed) and A -796 (which is not in databank) are listed in  (Rev 4) Table II -\nB."
+      },
+      {
+        "heading": "EMISSIONS SUMMARY",
+        "alias": "EMISSIONS",
+        "text": "EMISSIONS SUMMARY\nThere are no increases in emissions associated with this application.  This application is \nadministrative to change Con dition 5711."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE  \n \nThere will be no change in the compliance of the associated equipment.  The vessel will comply \nwith Regulation 8 Rule 5, including:  \n   \n8-5-301  Storage Tanks Control Requirements,  \n8-5-306 Requirements for Approved Emission C ontrol Systems,  \n8-5-307 Requirements for Fixed Roof Tanks, Pressure Tanks and Blanketed Tanks  \n8-5-329 Tank Degassing Requirements,  \n8-5-333 Tank Cleaning Requirements, and  \n  \nApplication # 16082  Page 216 of 1354  Plant #14628  \n \nApril 8, 2011  216 8-5-334 Sludge Handling Requirements.  \n \n \nThis application is exempt from CEQA per 2 -1-312.1:  Applications to modi fy permit conditions \nfor existing or permitted sources or facilities that do not involve any increases in emissions \nor physical modifications.  \n \nBACT, Toxics,  Offsets, NESHAPS, NSPS and PSD do not apply to this administrative change."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nITIONS  \n \nPermit Condition 5711 will be administratively changed as follows:  \n \n \n            COND#  5711    --------------------------------------  \n \nApplication 5267  (1,1,1 TCA tank) 1990  \nAmended by Application 25684  1995, added perchloroethylene  \nAmended by Application  17472, Dec 2008, remove 1,1,1 TCA  \n     \nS795 #3 Reformer Perchloroethylene Tank V -307Tank A-307                                             \n \n     1.  Permittee/Owner/Operator shall ensure that the total  \n         material throughput for storage tank S -795 does not \n         exceed 11,000 gallons in any consecutive 12 month  \n         period. \n        (basis: toxics, cumulative increase)                     \n \n     2.  If a material other than 1,1,1 trichloroethane or  \n         perchloroethylene is to be stored in t ank S-795, the  \n         Permittee/Owner/Operator shall first apply to, and  \n         receive from, the District a change in permit  \n         conditions, unless the modification is exempt from  \n         Authority to Construct requirements under limited  \n         exemption 2 -1-106. \n        (basis: toxics, cumulative increase)                     \n \n     3.  Permittee/Owner/Operator shall ensure that all tank  \n         loading operations at S -795 are abated by the vapor  \n         balance system A -796. \n        (basis: cumulative increase, toxics)                     \n \n     4.  In order to demonstrate compliance with the above  \n         conditions, the Permittee/Owner/Operator of tank S -795 \n         shall maintain the following records in a District  \n         approved log. These records shall be kept on site and  \n         made available for District inspection for a period of  \n         five years from the date that the record was made.  \n         a.  Identification of all materials stored and the dates  \n             that the mate rials were stored.  \n         b.  The total daily throughput of each material stored,  \n  \nApplication # 16082  Page 217 of 1354  Plant #14628  \n \nApril 8, 2011  217              summarized on a monthly basis.  \n        (basis: cumulative increase, toxics)"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nOUND  \n \nTesoro Refining and Marketing Company is applying for an administrative change in conditions to the Permit to \nOperate for:  \n \n S-795 No. 3 Reformer V -307 Horizontal Pressure Stora ge Vessel, 1700 gallons, \nPerchloroethylene   \n \nabated by:  \n \n A-796 Vapor Balance System  \n \nThis tank is currently permitted as a fixed roof tank subject to Regulation 8 -5, abated by A -795 \nvent gas condenser.  The data form in the plant file specifies a fixed ro of tank.  S -795 is actually \na pressure vessel, a horizontal ‗bullet‘ 6 feet in diameter, 8 feet tangent to tangent.  A review of \n1990 Application 5267 shows that at one time, the proposed project was for a fixed roof tank, \nstoring 1,1,1 -trichloroethylene, abated by a vent gas condenser.   The project was modified to the \npressure vessel with a vapor balance system, but these changes did not get properly updated in \nthe permit when the PO was granted in 1995.  This oversight was not corrected in 1995 \nApplicati on 25684 that granted a change in conditions to store perchloroethylene.  All revisions \nof the Title V permit shows S -795 as a horizontal vessel in the equipment table, but the \napplicable requirements in Section IV are shown for a fixed roof tank.  Further more, both A -795 \n(which was never installed) and A -796 (which is not in databank) are listed in  (Rev 4) Table II -\nB. \n \nEMISSIONS SUMMARY  \n \nThere are no increases in emissions associated with this application.  This application is \nadministrative to change Con dition 5711."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE  \n \nThere will be no change in the compliance of the associated equipment.  The vessel will comply \nwith Regulation 8 Rule 5, including:  \n   \n8-5-301  Storage Tanks Control Requirements,  \n8-5-306 Requirements for Approved Emission C ontrol Systems,  \n8-5-307 Requirements for Fixed Roof Tanks, Pressure Tanks and Blanketed Tanks  \n8-5-329 Tank Degassing Requirements,  \n8-5-333 Tank Cleaning Requirements, and  \n  \nApplication # 16082  Page 216 of 1354  Plant #14628  \n \nApril 8, 2011  216 8-5-334 Sludge Handling Requirements.  \n \n \nThis application is exempt from CEQA per 2 -1-312.1:  Applications to modi fy permit conditions \nfor existing or permitted sources or facilities that do not involve any increases in emissions \nor physical modifications.  \n \nBACT, Toxics,  Offsets, NESHAPS, NSPS and PSD do not apply to this administrative change."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nITIONS  \n \nPermit Condition 5711 will be administratively changed as follows:  \n \n \n            COND#  5711    --------------------------------------  \n \nApplication 5267  (1,1,1 TCA tank) 1990  \nAmended by Application 25684  1995, added perchloroethylene  \nAmended by Application  17472, Dec 2008, remove 1,1,1 TCA  \n     \nS795 #3 Reformer Perchloroethylene Tank V -307Tank A-307                                             \n \n     1.  Permittee/Owner/Operator shall ensure that the total  \n         material throughput for storage tank S -795 does not \n         exceed 11,000 gallons in any consecutive 12 month  \n         period. \n        (basis: toxics, cumulative increase)                     \n \n     2.  If a material other than 1,1,1 trichloroethane or  \n         perchloroethylene is to be stored in t ank S-795, the  \n         Permittee/Owner/Operator shall first apply to, and  \n         receive from, the District a change in permit  \n         conditions, unless the modification is exempt from  \n         Authority to Construct requirements under limited  \n         exemption 2 -1-106. \n        (basis: toxics, cumulative increase)                     \n \n     3.  Permittee/Owner/Operator shall ensure that all tank  \n         loading operations at S -795 are abated by the vapor  \n         balance system A -796. \n        (basis: cumulative increase, toxics)                     \n \n     4.  In order to demonstrate compliance with the above  \n         conditions, the Permittee/Owner/Operator of tank S -795 \n         shall maintain the following records in a District  \n         approved log. These records shall be kept on site and  \n         made available for District inspection for a period of  \n         five years from the date that the record was made.  \n         a.  Identification of all materials stored and the dates  \n             that the mate rials were stored.  \n         b.  The total daily throughput of each material stored,  \n  \nApplication # 16082  Page 217 of 1354  Plant #14628  \n \nApril 8, 2011  217              summarized on a monthly basis.  \n        (basis: cumulative increase, toxics)"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nMMENDATION  \nGrant an administrative change in conditions to the Permit to O perate to Tesoro Refining and Marketing Company \nfor the following source:  \n \n S-795 No. 3 Reformer V -307 Horizontal Pressure Storage Vessel, 1700 gallons, \nPerchloroethylene   \n \nabated by:  \n \n A-796 Vapor Balance System  \n \n \n \n \n \n \nBy:        \n Arthur Valla       Decembe r 23, 2008  \n Senior Air Quality Engineer"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nTesoro Refin ing and Marketing Company"
+      },
+      {
+        "heading": "PLANT NO. 14628",
+        "alias": null,
+        "text": "PLANT NO. 14628"
+      },
+      {
+        "heading": "APPLICATION NO.  17472",
+        "alias": null,
+        "text": "APPLICATION NO.  17472"
+      }
+    ]
+  }
+}

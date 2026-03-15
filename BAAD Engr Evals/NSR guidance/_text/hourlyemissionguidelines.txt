@@ -1,0 +1,510 @@
+                  Guidance for Calculating Maximum Hourly
+                   Toxic Air Contaminant Emission Rates
+                               June 16, 2005
+This document provides guidance on calculating maximum hourly toxic air
+contaminant (TAC) emission rates that will be used to evaluate the acute hazard
+index for a project subject to Regulation 2, Rule 5. Maximum hourly emission
+rates are required only for those TACs that have an acute trigger level listed in
+Table 2-5-1 of Regulation 2-5. Emissions shall be calculated for the project based
+on the maximum emitting potential of the source(s) or the maximum permitted
+emission level of the source(s). The calculated emission should be from routine
+operation or emissions that are predictable, including, but not limited to continuous
+and intermittent releases and predictable process upsets or leaks.
+
+A conservative estimate of the maximum hourly TAC emission rate would be
+based on the maximum amount of TAC that can be emitted in a single hour. For
+arsenic and inorganic arsenic compounds, benzene, carbon disulfide, carbon
+tetrachloride, chloroform, ethylene glycol ethyl ether, ethylene glycol ethyl ether
+acetate and ethylene glycol methyl ether, a further refinement would be to
+calculate the maximum hourly emission rate based on the maximum amount of
+TAC emitted over the averaging period listed in Table 1 of this document.
+Consider, for example, a source that emits a maximum of 0.6 pounds of ethylene
+glycol methyl ether (EGME) in an hour, but does not operate for more than 2 hours
+per day. While an emission rate of 0.6 lbs/hr would exceed the acute trigger level
+for EGME, the emission rate for the source operating only 2 hrs/day and averaged
+over the 6-hour averaging period found in Table 1 for EGME, results in an hourly
+emission rate of 0.2 lbs/hr, which is below the acute trigger level.
+           (0.6 lbs/hr) * (2 hours operation) / (6 hour averaging period) = 0.2 lbs/hr.
+
+Because some of the District’s Data Forms do not require the applicant to report
+maximum hourly usage or activity rates, maximum one-hour emission rates may
+need to be estimated using maximum permitted annual throughput rates,
+operating times, and/or engineering judgment. For source categories that are not
+covered by this document, and unless you have site-specific operating time data
+or knowledge of the typical operating times for the source category, you may
+initially assume that the source operates 4 hours per day for 245 days out of the
+year. The maximum one-hour emission rate would be calculated as follows:
+
+   maximum one-hour emission rate, lbs/hr       =   maximum annual emission, lbs/yr
+                                                      (4 hours/day) (245 days/yr)
+
+For sources in which different materials are processed or used, but not
+concurrently, the TAC emissions should be reported for each material. The acute
+hazard index would be determined for the each of the materials that have TAC
+emissions exceeding the acute trigger level.
+
+
+                                                                                          Page 1
+This document is intended to provide general guidance for several source categories. If
+necessary, as additional source categories are identified, they will be incorporated into
+this document. The evaluating engineer should consult the appropriate permit
+handbook chapter for the calculation methodology and accepted calculation parameters
+(emission factors, percent evaporative losses, etc.) that are specific to the project that
+he or she is evaluating. It is anticipated that the updated permit handbook chapters will
+eventually include direction for calculating the maximum one-hour average TAC
+emissions as well as guidance on the size or capacity of the equipment for which this
+calculation will be necessary (i.e. expected to exceed the acute trigger levels).
+
+In the mean time, folders on the network drive at pub_data\Emissions-Max 1hr\ can be
+used by the engineers to post example calculations for others to see or review the work
+already done.
+
+General guidance for calculating maximum hourly TAC emission rates for several
+source categories is provided in the following sections.
+
+    I.         Combustion Sources
+    II.        General Sources
+               A. Nickel Plating
+    III.       Semiconductor Fabrication Areas
+    IV.        Solvent Sources
+               A. Surface Coating and Solvent Cleaning Operations
+               B. Graphic Arts Printing (placeholder for future work)
+               C. Fiberglass Operations (placeholder for future work)
+               D. Perchloroethylene Drycleaners
+    V.         Organic Liquid Storage Tanks
+    VI.        Gasoline Dispensing Facilities
+
+                  Table 1 – Toxic Air Contaminant Acute Trigger Levels and Averaging Periods
+                                                            Acute Trigger Level   Averaging Period
+          Toxic Air Contaminant
+                                                              (pounds/hour)           (hours)
+          Acrolein 1                                             4.2E-04                 1
+          Acrylic acid                                           1.3E+01                 1
+          Ammonia                                                7.1E+00                 1
+          Arsenic and compounds (inorganic)                      4.2E-04                 4
+          Arsine                                                 3.5E-01                 1
+          Benzene                                                2.9E+00                 6
+          Benzyl chloride                                        5.3E-01                 1
+          Carbon disulfide                                       1.4E+01                 6
+          Carbon tetrachloride (Tetrachloromethane)              4.2E+00                 7
+          Chlorine                                               4.6E-01                 1
+          Chloroform                                             3.3E-01                 7
+          Chloropicrin                                           6.4E-02                 1
+          Copper and compounds                                   2.2E-01                 1
+          Cyanide and compounds (inorganic)                      7.5E-01                 1
+             hydrogen cyanide (hydrocyanic acid)                 7.5E-01                 1
+          Dioxane, 1,4- (1,4-diethylene dioxide)                 6.6E+00                 1
+          Epichlorohydrin (1-chloro-2,3-epoxypropane)            2.9E+00                 1
+
+
+
+Guidance for Calculating Maximum Hourly Toxic Air Contaminant Emission Rates June 16, 2005   Page 2
+                 Table 1 – Toxic Air Contaminant Acute Trigger Levels and Averaging Periods
+                                                           Acute Trigger Level   Averaging Period
+        Toxic Air Contaminant
+                                                             (pounds/hour)           (hours)
+        Fluorides and compounds                                 5.3E-01                 1
+            hydrogen fluoride (hydrofluoric acid)               5.3E-01                 1
+        Formaldehyde                                            2.1E-01                 1
+        Glycol ethers                                                                   1
+            ethylene glycol butyl ether (EGBE,
+                                                                3.1E+01                 1
+            2-butoxy ethanol, butyl cellosolve)
+            ethylene glycol ethyl ether (EGEE,
+                                                                8.2E-01                 6
+            2-ethoxy ethanol, cellosolve)
+            ethylene glycol ethyl ether acetate
+            (EGEEA, 2-ethoxyethyl acetate,                      3.1E-01                 6
+            cellosolve acetate)
+            ethylene glycol methyl ether (EGME,
+                                                                2.1E-01                 6
+            2-methoxy ethanol, methyl cellosolve
+        Hydrochloric acid (hydrogen chloride)                   4.6E+00                 1
+        Hydrogen sulfide                                        9.3E-02                 1
+        Isopropyl alcohol (isopropanol)                         7.1E+00                 1
+        Mercury and compounds (inorganic)                       4.0E-03                 1
+            Mercuric chloride                                   4.0E-03                 1
+        Methanol (methyl alcohol)                               6.2E+01                 1
+        Methyl bromide (bromomethane)                           8.6E+00                 1
+        Methyl chloroform (1,1,1-trichloroethane)               1.5E+02                 1
+        Methyl ethyl ketone (MEK, 2-butanone)                   2.9E+01                 1
+        Methylene chloride (dichloromethane)                    3.1E+01                 1
+        Nickel and compounds (values also apply to:)            1.3E-02                 1
+            nickel acetate                                      1.3E-02                 1
+            nickel carbonate                                    1.3E-02                 1
+            nickel carbonyl                                     1.3E-02                 1
+            nickel hydroxide                                    1.3E-02                 1
+            Nickelocene                                         1.3E-02                 1
+            nickel oxide                                        1.3E-02                 1
+            nickel refinery dust from the
+                                                                1.3E-02                 1
+            pyrometallurgical process
+            nickel subsulfide                                   1.3E-02                 1
+        Nitric acid                                             1.9E-01                 1
+        Ozone                                                   4.0E-01                 1
+        Perchloroethylene (tetrachloroethylene)                 4.4E+01                 1
+        Phenol                                                  1.3E+01                 1
+        Phosgene                                                8.8E-03                 1
+        Propylene oxide                                         6.8E+00                 1
+        Selenium and compounds                                                          1
+            hydrogen selenide                                   1.1E-02                 1
+        Sodium hydroxide                                        1.8E-02                 1
+        Styrene                                                 4.6E+01                 1
+        Sulfates                                                2.6E-01                 1
+        Sulfuric acid and oleum                                 2.6E-01                 1
+            sulfuric acid                                       2.6E-01                 1
+            sulfur trioxide                                     2.6E-01                 1
+            oleum                                               2.6E-01                 1
+        Toluene                                                 8.2E+01                 1
+        Triethylamine                                           6.2E+00                 1
+        Vanadium compounds                                                              1
+
+
+Guidance for Calculating Maximum Hourly Toxic Air Contaminant Emission Rates June 16, 2005   Page 3
+                Table 1 – Toxic Air Contaminant Acute Trigger Levels and Averaging Periods
+                                                          Acute Trigger Level   Averaging Period
+        Toxic Air Contaminant
+                                                            (pounds/hour)           (hours)
+           vanadium (fume or dust)                             6.6E-02                 1
+           vanadium pentoxide                                  6.6E-02                 1
+        Vinyl chloride (chloroethylene)                        4.0E+02                 1
+        Xylenes (mixed isomers)                                4.9E+01                 1
+           m-xylene                                            4.9E+01                 1
+           o-xylene                                            4.9E+01                 1
+           p-xylene                                            4.9E+01                 1
+1. Acrolein is listed for information only. At this time, it is not necessary to calculate emissions for acrolein. CARB has invalidated
+the source test method for acrolein and the current emission factors are also invalid.
+
+
+
+
+I.    Combustion Sources: The maximum one-hour average TAC emissions from
+combustion sources should be calculated based on the maximum nameplate thermal
+input capacity (Btu/hr) multiplied by the appropriate toxic emission factors for
+combustion of the fuel(s) in question. For units with the capability of firing multiple fuels,
+each fuel needs to be evaluated to determine the maximum hourly emissions case.
+
+For boilers, dryers, ovens, furnaces, afterburners, kilns, flares, and turbines, the
+maximum hourly thermal input may be taken from the Data Form C as supplied in the
+permit application. In the case of internal combustion engines, the maximum firing rate
+will be found on the Form ICE. For incinerators, the maximum firing rate will be based
+on the supplemental/baseline fuel used along with the heating value (if any) of the
+material being burned. Flares must be evaluated on an individual basis, based on the
+maximum one-hour combustion capacity of the flare (stated on the Data Form C) as a
+function of the toxic emissions from the pilot fuel and the flared materials. For landfill
+gas and digester gas flares the materials produced by the flared gas may be well
+known. In the case of a refinery flare, a much more intensive analysis may be
+necessary.
+
+All maximum firing rates should be checked against the maximum fuel usages as
+reported on the respective data forms. These should be in fairly close agreement
+(within 1% of each other).
+
+Emission Factors: Toxic pollutant emission factors may be obtained from vendor
+certifications, source tests (vendor, company, BAAQMD), CARB’s California Air Toxics
+Emission Factor (CATEF) Database, or from AP-42. In the case of diesel compression
+ignition engines, there is no acute REL available for diesel PM at this time (5-2005).
+Until an acute REL is developed for diesel PM, there is no calculation of acute risk from
+diesel compression ignition engines. Also, CARB has invalidated the source test
+method for acrolein and the current emission factors are also invalid. Until CARB
+approves a source test method for acrolein and emission factors are developed using
+the approved source test method, it is not necessary to calculate emissions for acrolein.
+
+
+
+
+Guidance for Calculating Maximum Hourly Toxic Air Contaminant Emission Rates June 16, 2005                           Page 4
+I.       Combustion Sources (continued):
+
+Example Calculation:
+
+250 kW Microturbine; TAC = Formaldehyde
+Rated Heat Input: 3.05 MM Btu/hr
+Emission Factor, Formaldehyde (Table 3.1-3, AP-42): 7.10E-04 lb/MM Btu
+Max Hrly Emissions = (3.05 MM Btu/hr)(7.10E-04 lb/MM Btu) = 0.002 lb/hr
+
+The acute trigger level for formaldehyde is 0.21 lb/hr, therefore, based on formaldehyde
+emissions only, an acute risk screen would not be required for a single microturbine. A
+similar analysis would need to be conducted for the other toxic air contaminants emitted
+from this microturbine source.
+
+
+II.     General Source: This section provides guidance on calculating maximum
+hourly TAC emission rates from miscellaneous sources that are entered into our
+database using Data Form G. The maximum one-hour average TAC emissions from
+these sources should be calculated based on the maximum operating rate (usage
+unit/hr) reported on the Data Form G. In cases where there may not be a practical
+maximum hourly emission rate for the equipment or operation, engineering judgment
+must be used to estimate a maximum hourly emission rate based on maximum
+permitted annual usage rates and source-specific operating times. For sources in which
+different materials are processed or used, but not concurrently, the TAC emissions
+should be reported for each material. The acute hazard index would be determined for
+the each of the materials that have TAC emissions exceeding the acute trigger level.
+
+       A.      Nickel Plating: The maximum one-hour average TAC emissions from
+nickel plating should be calculated based on the maximum rectifier capacity specified on
+the Data Form G (amps), multiplied by the appropriate toxic emission factors for nickel
+plating added to the nickel emissions from air sparging (if used).
+
+         E = (A)(EF) + (20)(w)(Q)
+               (Plating)         (sparging)
+
+                   E = nickel emissions, mg/hr
+                   A = Rectifier Capacity, Amps
+                   EF = Nickel emission factor, mg/amp-hr
+                   W = nickel weight fraction in plating bath
+                   Q = sparging rate, scfm
+
+The nickel emission factor may be developed from the following method:
+
+         EF, ni plating (mg/amp-hr) = (5E-25)(w)(S14.923)
+         w = nickel weight fraction in plating bath
+         S = Bath Surface Tension, dyne/cm (typically ranges from 20-50)
+
+
+
+
+Guidance for Calculating Maximum Hourly Toxic Air Contaminant Emission Rates June 16, 2005   Page 5
+II.A.    Nickel Plating (continued):
+
+Alternately, the toxic pollutant emission factors may potentially be obtained from a
+vendor certification, source tests (vendor, company, BAAQMD), CARB’s California Air
+Toxics Emission Factor (CATEF) Database, or from AP-42.
+
+Sample calculation:                  w = 0.07 (7% nickel)
+                                     S = 25 dyne/cm
+                                     A = 4000 amp
+                                     Tank surface area = 10 sq ft (2 X 5)
+                                     Sparge, typical = 0.25 scfm/sq ft
+                                     Q, sparging rate: (10)(0.25) = 2.5 scfm
+                                     Sparging Emissions = (20)(0.07)(2.5) = 3.5 mg/hr = 07.71E-
+                                        03 lb/hr
+
+Emission Factor, ni plating = (5E-25)(0.07)(2514.923) = 2.54E-05 mg/a-hr
+E, ni plating only = [(2.54E-05 mg/a-hr)(4000 amp)(lb/454 mg)] = 2.24E-4 lb/hr
+
+E, ni, tot = 2.24E-04 + 7.71E-03 = 0.00793 lb/hr
+The acute trigger level for nickel is 0.013, therefore in this sample case the trigger is not
+exceeded and no further evaluation is necessary.
+
+
+III.   Semiconductor Fabrication Area (FAB): In general, only the inorganic
+emissions from a Semiconductor Fabrication Area (FAB) may trigger an acute risk
+screening, and only if scrubbers are not used to abate their emissions. If scrubbers are
+used to abate the FAB, then the inorganic emissions are usually estimated to be
+negligible and unlikely to trigger any acute risk screening. Hence, in the event that a
+scrubber is not used, the permit engineer should request the maximum hourly emission
+rate for each applicable inorganic acute toxic pollutant.
+
+It is unlikely that the applicant will trigger an acute risk screening for organic toxics,
+because if they were to emit the hourly trigger level of organic toxics, they would trigger
+Achieved-in-Practice BACT requirements which would require abatement by 90%
+overall controls. Because FAB operations are usually continuous operations, the permit
+engineer may assume a worst-case typical operating schedule of 250 days per year and
+4 hours per day to estimate worst-case hourly emissions:
+
+Hourly Emissions = Annual Emissions (lbs/yr)
+                    (250 days/yr)(4 hr/day)
+
+If the acute risk screening fails, then the permit engineer may refine the estimate more
+by asking for the maximum hourly usage rate of the applicable acute toxic pollutant and
+minimum daily operating time for its use in the FAB.
+
+
+
+
+Guidance for Calculating Maximum Hourly Toxic Air Contaminant Emission Rates June 16, 2005   Page 6
+IV.     Solvent Sources: This section provides guidance on calculating maximum
+hourly TAC emission rates from solvent sources such as surface coating operations,
+graphic arts printing, dryers, ovens, solvent cleaning operations, drycleaners, fiberglass
+operations, coating and solvent manufacture, and other operations using solvents that
+result in emissions of organic compounds. If a solvent source does not trigger BACT
+and does not emit one of the compounds listed below in Table IV-1, the maximum
+one-hour emissions will not exceed an acute trigger level, and no further
+calculations are necessary.
+
+                 Table IV-1. Organic Compounds with Low Acute Trigger Levels
+acrolein                   epichlorohydrin                                     methyl bromide
+benzyl chloride            ethylene glycol ethyl ether (EGEE                   Phosgene
+                           or cellosolve)
+chloroform                 ethylene glycol ether acetate                       propylene oxide
+                           (EGEEA or cellosolve acetate)
+chloropicrin               ethylene glycol methyl ether                        Triethylamine
+                           (EGME or methyl cellosolve)
+1,4-dioxane                isopropyl alcohol
+
+If the solvent source either (a) emits one of the compounds listed in Table IV-1 or (b)
+triggers BACT for organic compounds, then additional calculations are necessary to
+determine if the acute emissions will exceed a trigger level. You must determine the
+maximum one-hour emission rate for each TAC based on the MSDS data, vendor
+specification data, laboratory analyses or source tests, and operating times.
+
+Because applicants typically enter typical working times rather than typical source
+operating times on the Data Form S (see line 5), this data is unreliable for calculating
+maximum one-hour usage rates. The best way to determine site-specific maximum
+hourly usage rates is to ask the applicant to provide you with maximum daily usage
+rates and a minimum daily operating time for the source. Divide the maximum daily
+usage rate by the minimum daily operating time to obtain a maximum one-hour usage
+rate for the source. If the applicant provides no data or the data seems unreasonable,
+the maximum hourly usage rate may be conservatively estimated by dividing the
+maximum permitted annual usage by a minimum operating time of 2 hours per day and
+a minimum operating time of 245 days per year.
+
+For sources emitting benzene, carbon tetrachloride, chloroform, ethylene glycol ethyl
+ether, ethylene glycol ethyl ether acetate, or ethylene glycol methyl ether, a further
+refinement would be to calculate the maximum hourly emission rate based on the longer
+averaging times listed in Table 1 of this guidance document.
+
+Guidelines for specific solvent source categories are described in the following sections
+A through D.
+
+
+
+
+Guidance for Calculating Maximum Hourly Toxic Air Contaminant Emission Rates June 16, 2005       Page 7
+IV.      Solvent Sources (continued):
+
+        A.   Surface Coating and Solvent Cleaning Operations: The general TAC
+emission calculation equations for surface coating and solvent cleaning operations are
+as follows:
+
+                            ETAC = Q * ρ * XTAC
+
+where:
+ETAC is the maximum hourly TAC emission rate, lbs/hr
+Q     is the maximum hourly solvent or coating usage rate, gal/hr
+ρ      is the solvent or coating density, lbs/gal
+XTAC is the mass fraction of the TAC in the solvent or coating (lb TAC/lb)
+
+Example Calculation:
+
+Maximum Coating Usage:           245 gal/yr
+Coating Density:    10.5 lbs/gal
+Cellosolve Acetate by Weight:    15%
+
+If no information on the maximum daily usage and minimum daily operating time is
+available, the maximum hourly Cellosolve Acetate emission rate may be estimated,
+assuming operating times of 2 hr/day and 245 days/yr, as follows:
+
+                  Q         = (245 gal/yr) / (2 hrs/day) / (245 days/yr) = 0.50 gal/hr
+                  ETAC      = (0.50 gal/hr) * (10.5 lbs/gal) * (0.15) = 0.79 lbs/hr
+
+If the applicant had indicated that the maximum daily usage is 1 gal/day and minimum
+daily operating time is 4 hrs/day, the maximum hourly Cellosolve Acetate emission rate
+may be estimated as follows:
+
+                  Q         = (1 gal/day) / (4 hrs/day) = 0.25 gal/hr
+                  ETAC      = (0.25 gal/hr) * (10.5 lbs/gal) * (0.15) = 0.39 lbs/hr
+
+Table 1 shows that Cellosolve Acetate has a 6-hour averaging period. A further
+refinement to the maximum hourly Cellosolve Acetate emission rate may be estimated
+as follows
+
+                  ETAC      = (0.39 lbs/hr) * (4 hr operating period) / (6 hr averaging period)
+                            = 0.26 lbs/hr
+
+The last refinement for the calculation of the maximum hourly Cellosolve Acetate
+emission rate results in emissions that do not exceed the acute trigger level.
+
+
+
+
+Guidance for Calculating Maximum Hourly Toxic Air Contaminant Emission Rates June 16, 2005   Page 8
+IV.      Solvent Sources (continued):
+
+         B.       Graphic Arts Printing: Placeholder for future work.
+
+         C.       Fiberglass Operations: Placeholder for future work.
+
+D.     Perchloroethylene Drycleaners: The acute trigger level for perchloroethylene
+is 44 pounds per hour. The density of perchloroethylene is 13.46 pounds/gallon. As
+shown below, a risk screening analysis is required only if the net PERC usage rate
+exceeds 3,200 gallons per year.
+
+              (44 lbs PERC/hr) * (4 hr/day) * (245 days/yr) / (13.46 lbs PERC/gal) = 3200 gal/yr
+
+Since perchloroethylene drycleaners do not use more than 3,200 gallons per year, the
+acute health impacts are not significant and a risk screen for the acute hazard index is
+not required.
+
+
+V.    Organic Liquid Storage Tanks: This section provides guidance on calculating
+maximum hourly TAC emission rates from fixed roof, floating roof and variable vapor
+space organic liquid storage tanks.
+
+Fixed Roof Tanks: Over a one-hour period, the standing storage losses from a fixed
+roof tank are expected to be negligible compared to the working losses. The maximum
+one-hour average TAC emissions from fixed roof tanks should be calculated based on
+the working losses using the maximum fill rate from Data Form T, the equation for fixed
+roof working losses and, if necessary, the methodology for speciating pollutants found in
+AP-42.
+
+Floating Roof Tanks: Over a one-hour period, the rim seal, deck fitting and deck seam
+losses from a floating roof tank are expected to be negligible compared to the
+withdrawal losses. The maximum one-hour average TAC emissions from floating roof
+tanks should be calculated based on the working losses using the maximum withdrawal
+rate from Data Form T, the equation for floating roof withdrawal losses and, if
+necessary, the methodology for speciating pollutants found in AP-42.
+
+Variable Vapor Space Tanks: The maximum one-hour average TAC emissions from
+variable vapor space tanks should be calculated based on the filling losses using the
+maximum fill rate, the equation for variable vapor space filling losses and, if necessary,
+the methodology for speciating pollutants found in AP-42.
+
+Example Calculation: The following example calculation shows that the benzene
+emission rate for an abated fixed roof tank, with a 50 bbl/hr fill rate, storing benzene
+would not exceed the acute trigger level.
+
+MV, vapor molecular weight, lbs/lbmole = 78.11
+PVA, vapor pressure at 20oC, psia = 1.56
+
+
+Guidance for Calculating Maximum Hourly Toxic Air Contaminant Emission Rates June 16, 2005   Page 9
+V.       Organic Liquid Storage Tanks (continued):
+
+Q, fill rate, bbl/hr = 50
+KN, turnover factor = 1
+KP, working loss product factor = 1
+A, abatement efficiency = 98%
+Lw, working loss, lbs/hr = 0.0010 MV PVA Q KN KP (1 – A/100)
+                          = 0.0010 (78.11) (1.56) (50) (1) (1) (1 – 95/100)
+                          = 0.3 lbs/hr of benzene emissions
+
+Since the acute trigger level for benzene is 2.9 lbs/hr, the acute health impacts due to
+this source are not significant and a risk screen for the acute hazard index is not
+required.
+
+VI.    Gasoline Dispensing Facilities: This section provides guidance on calculating
+maximum hourly TAC emission rates from gasoline dispensing facilities (GDF). Over a
+one-hour period, the breathing, refueling and spillage losses from a GDF are expected
+to be negligible compared to the loading losses. The maximum one-hour average TAC
+emissions for GDFs should be calculated based on the loading losses. The following
+example calculation shows that none of the TAC emissions from a loading operation
+would exceed the TAC acute trigger levels.
+
+Q, fill rate, gal/hr = 10,000
+F, emission factor for loading, lbs/1000 gallons = 0.084
+     (from CAPCOA “Gasoline Service Station Industrywide Risk Assessment Guidelines,” Nov. 1997)
+
+
+            Vapor Space Composition
+     TAC                  Wt. fraction, Y
+     Benzene                 0.003
+     Toluene                 0.0102
+     Xylene                  0.0012
+
+E, emissions, lbs/hr                  = (Q/1000) F Y
+                                      = (10000/1000) (0.084) Y
+                                      = 0.003 lbs/hr of benzene emissions
+                                      = 0.009 lbs/hr of toluene emissions
+                                      = 0.0001 lbs/hr of xylene emissions
+
+Since the acute trigger level for benzene, toluene and xylene is 2.9, 82 and 49 lbs/hr,
+respectively, the acute health impacts from GDFs are not significant and a risk screen
+for the acute hazard index is not required.
+
+
+
+
+Guidance for Calculating Maximum Hourly Toxic Air Contaminant Emission Rates June 16, 2005         Page 10
+
