@@ -1,0 +1,221 @@
+SOURCE FILE: air-pollution-control-cost-estimation-spreadsheet-for-thermal-and-catalytic-oxidizers-no-heat-recovery.xlsm
+
+# SHEET: Read Me
+Air Pollution Control Cost Estimation Spreadsheet
+For Thermal and Catalytic Oxidizers
+U.S. Environmental Protection Agency
+Air Economics Group
+Health and Environmental Impacts Division
+Office of Air Quality Planning and Standards
+(September 2022)
+This spreadsheet allows users to estimate the capital and annualized costs for installing and operating oxidizers. Oxidizers control volatile organic compounds (VOCs) and hazardous air pollutants (HAP) from industrial waste gas streams by oxidizing organic compounds to carbon dioxide and water. If the waste gas contains chlorinated or sulfonated organic compounds, HCl and SO2 will be generated, which may require acid gas controls, such as a wet scrubber.  There are two major types of oxidizers: thermal and catalytic oxidizers.
+The calculation methodologies used in this spreadsheet are those presented in the U.S. EPA's Air Pollution Control Cost Manual.  This spreadsheet is intended to be used in combination with the Control Cost Manual. For a detailed description of the oxidizer control technology and cost methodology, see Section 3.2, Chapter 2 (Incinerators and Oxidizers) of the Air Pollution Control Cost Manual (as updated in 2016). Additional controls may be necessary for some industrial waste gas streams (e.g., chlorinated and sulfur-containing organic compounds that produce acid gases when oxidized).  Costs for additional control technologies can be estimated using the methods provided in other chapters of the cost manual.  A copy of the Control Cost Manual is available on the U.S. EPA's "Technology Transfer Network" website at: http://www3.epa.gov/ttn/catc/products.html#cccinfo.
+The spreadsheet can be used to estimate capital and annualized costs for the following types of oxidizers:
+Incinerator Type | Total Waste Gas Flowrate (scfm)
+Thermal Recuperative | 500 - 50,000
+Thermal Regenerative | 10,000 - 100,000
+Fixed-Bed/Monolith Catalytic | 2,000 - 50,000
+Fluid-Bed Catalytic | 2,000 - 25,000
+Installation costs for a given incinerator could deviate significantly from costs generated using this spreadsheet depending on the site conditions.
+Note: This spreadsheet is designed to calculate the design parameters and costs for thermal and catalytic oxidizers used to control waste gas streams that have an oxygen content of at least 20%. If the oxygen content is less than 20%, the waste stream parameters should be adjusted to include auxiliary air sufficient to increase the oxygen content of the waste gas stream above 20%.
+Instructions
+Step 1: Please select on the Data Inputs tab and click on the Reset Form button. This will reset the inlet flow rate, pressure drop, fan efficiency, inlet temperature, control efficiency, interest rate, labor rates, electricity and natural gas prices, and the contingency factor to default factors. All other data entry fields will be blank.
+Step 2:  Select the type of oxidizer from the options provided in the pull down menu. The operating temperature will be set to a default value of 2000oF for a regenerative thermal oxidizer, 1600oF for a recuperative thermal oxidizer and 900oF for a catalytic oxidizer. If you select a catalytic oxidizer, the catalyst life, catalyst unit cost, and space velocity factor will be set to default values. You may use site-specific values instead of the default values; however, you should document the source of each value you use.
+Step 3:  Complete all of the cells highlighted in yellow. As noted above, some of the highlighted cells are pre-populated with default values based on 2016 data. Users should document the source of all values entered in accordance with the recommendations provided in the Control Cost Manual. Use of actual values other than the default values in this spreadsheet, if appropriately documented, is acceptable.
+Step 4: Once all of the data fields are complete, select the Design Parameters tab to see the calculated design parameters and the Cost Estimate tab to view the calculated cost data for the installation and operation of the oxidizer. If the %LEL for the waste gas exceeds 25%, the spreadsheet adjusts the concentrations and waste gas flow rate to account for the dilution air needed to reduce the %LEL of the waste gas below the 25% threshold. If the oxygen content is less than 20%, auxiliary air must be added.
+
+# SHEET: Data Inputs
+Data Inputs
+Type of Oxidizer:
+Select the type of oxidizer | 2 | Click to select oxidizer type
+Recuperative Thermal Oxidizer
+Enter the following information for your emission source: | Catalytic Oxidizer - Fixed Bed
+Catalytic Oxidizer - Monolith
+Composition of Inlet Gas Stream | Catalytic Oxidizer - Fluid Bed
+Pollutant Name | Concentration (ppmv) | Lower Explosive Limit (LEL) (ppmv)* | Heat of Combustion (Btu/scf) | Molecular Weight | Note: The lower explosion limit (LEL), heat of combustion and molecular weight for some commonly used VOC/HAP are provided in the table below.  In addition, the heat of combustion to be entered in column D is a lower heating value (LHV), not a higher heating value (HHV). | Regenerative Thermal Oxidizer
+Butane | 213.75 | 19000 | 3101 | 58.12 | Calculation of Mass of constituent Controlled | 44.89691053040103
+Hexane | 265.23 | 11000 | 4404 | 86.17 | 82.59684646540752
+Pentane | 357.79 | 14000 | 3709 | 72.15 | 93.29304358292369
+Heptane | 39 | 8000 | 6493 | 128.25 | 18.07618214747736
+Octane | 16.58 | 10000 | 5796 | 114.23 | 6.8446214052263885
+Ethanol | 3.62 | 30000 | 1631 | 30.07 | 0.3933930895730919
+Benzene | 7.59 | 14000 | 3475 | 78.11 | 2.142560735627425
+Toluene | 4.66 | 11000 | 4274 | 92.14 | 1.5517396334282019
+0
+0
+Total Mass of VOC/HAP controlled = | 249.79529759006473 | tons/year
+Enter the design data for the proposed oxidizer: | Heat Recovery:
+4 | 0 percent | 1
+Number of operating hours/year | 2400 | hours/year | Percent Energy Recovery (HR) = | 35 percent
+Inlet volumetric flow rate(Qwi) at 77oF and 1 atm. | 20000 | scfm* | * 20,000 scfm is a default volumetric flow rate. User should enter actual value, if known. | 50 percent
+Pressure drop (ΔP) | 19 | inches of water | * 19 inches of water is a default pressure drop for thermal oxidizers. User should enter actual value, if known. | 70 percent
+Motor/Fan Efficiency (ε) | 60 | percent* | * 60% is a default fan efficiency. User should enter actual value, if known. | Not Applicable
+Inlet Waste Gas Temperature (Twi) | 100 | °F* | * 100°F is a default temperature. User should enter actual value, if known.
+Operating Temperature (Tfi) | 1625 | °F | * Note: Default value for Tfi is 1600°F for thermal recuperative oxidizers. Use actual value if known.
+Destruction and Removal Efficiency (DRE) | 97 | percent
+Estimated Equipment Life | 20 | Years* | * 20 years is the typical equipment life. User should enter actual value, if known.
+Heat Loss (η) | 0 | percent
+Catalyst Data:
+Estimated catalyst life (y) | 0 | years
+Catalyst Unit Cost (CC) | 0 | $/ft3
+Space velocity for catalyst (Φ) | 0 | /hour
+Enter the cost data:
+Desired dollar-year | 2021
+CEPCI* for 2021 | 708 | Enter the CEPCI value for 2021 | 390.6 | 1999 CEPCI | *Enter dollar year first.
+Annual Interest Rate (i) | 5.5 | % | * The default rate of 5.50% is the current bank prime rate, which is a nominal (or market) G45interest rate.
+Electricity (Costelect) | 0.0641 | $/kWh | * $0.0641/kWh is a default price for electicity. User should enter actual value, if known.
+Natural Gas Fuel Cost (Costfuel) | 0.00351 | $/scf | * $0.00351/scf is a default price for natural gas. User should enter actual value, if known.
+Operator Labor Rate | 26.61 | per hour | * $26.61 per hour is a default labor rate. User should enter actual value, if known.
+Maintenance Labor rate | 27.4 | per hour | * $27.40 per hour is a default labor rate. User should enter actual value, if known.
+Contingency Factor (CF) | 10 | Percent | * 10 percent of the total capital investment F45is a default value for construction contingencies. User may enter values between 5 and 15 percent.
+* CEPCI is the Chemical Engineering Plant Cost Escalation/De-escalation Index. The use of CEPCI in this spreadsheet is not an endorsement of the index for purposes of cost escalation or de-escalation, but is there merely to allow for availability of a well-known cost index to spreadsheet users. Use of other well-known cost indexes (e.g., M&S) is acceptable.
+Data Sources for Default Values Used in Calculations:
+Parameters for Common Compounds:
+Compound | LEL (ppmv) | Heat of Combustion (Btu/scf) | Molecular Weight
+Methane* | 50000 | 911 | 16.04
+Ethane | 30000 | 1631 | 30.07
+Propane | 21000 | 2353 | 44.09
+Butane | 19000 | 3101 | 58.12
+Pentane | 14000 | 3709 | 72.15
+Hexane | 11000 | 4404 | 86.17
+Octane | 10000 | 5796 | 114.23
+Nonane | 8000 | 6493 | 128.25
+Decane | 8000 | 7190 | 142.28
+Ethylene** | 27000 | 1499 | 28.05
+Propylene | 20000 | 2182 | 42.08
+Cyclohexane | 13000 | 4180 | 84.16
+Benzene** | 14000 | 3475 | 78.11
+Toluene** | 11000 | 4274 | 92.14
+Methyl Chloride (Chloromethane)** | 82500 | 705 | 50.49
+Footnotes
+* Greenhouse gas.
+** Hazardous air pollutant.
+Data Element | Default Value | Sources for Default Values used in the calculation . . . | If you used your own site-specific values, please enter the  value used and the reference  source . . . | Recommended data sources for site-specific information
+Catalyst Cost ($/ft3) | 650 | Based on 2014 vendor data for base metal oxide catalyst. | Check with catalyst vendor.
+Electricity Cost ($/kWh) | 0.0641 | Average annual electricity cost for industrial plants is based on 2016 price data compiled by the U.S. Energy Information Administration from data reported on Form EIA-861 and 861S, (https://www.eia.gov/electricity/annual/html/epa_02_04.html). | Plant's utility bill or use U.S. Energy Information Administration (EIA) data for most recent year. Available at http://www.eia.gov/electricity/data.cfm#sales.
+Fuel Cost ($/Mscf) | 3.51 | Annual average price paid for natural gas by industrial facilities in 2016 from the U.S. Energy Information Administration. Available at http://www.eia.gov/dnav/ng/hist/n3035us3A.htm. | Check with fuel supplier or use  U.S. Energy Information Administration (EIA) data for most recent year." Available at http://www.eia.gov/dnav/ng/hist/n3035us3A.htm.
+Operator Labor ($/hour) | 26.61 | Bureau of Labor Statistics, May 2016 National Occupational Employment and Wage Estimates – United States, May 2016 (https://www.bls.gov/oes/current/oes_nat.htm). Hourly rates for operators based on data for plant and System Operators – other (51-8099). | Use plant-specific labor rate.
+Maintenance Labor ($/hour) | 27.4 | Bureau of Labor Statistics, May 2016 National Occupational Employment and Wage Estimates – United States, May 2016 (https://www.bls.gov/oes/current/oes_nat.htm). Hourly rates for maintenance workers based on electrical and electronics commercial and industrial equipment repairers (49-2094). | Use plant-specific labor rate.
+
+# SHEET: Design Parameters
+Design Parameters
+The following design parameters for the oxidizer were calculated based on the values entered on the Data Inputs tab. These values were used to prepare the costs shown on the Cost Estimate tab.
+Composition of Inlet Gas Stream
+Pollutant Name | Concentration in Waste Stream (ppmv) From Data Inputs Tab | Adjusted Concentration with Dilution Air (ppmv)
+Butane | 213.75 | NA | Dilution Air Factor | 213.75
+Hexane | 265.23 | NA | 1.2386866618220255e-05 | 908.22 | 3.633037390175608 | #VALUE! | 265.23
+Pentane | 357.79 | NA | 2.654843339919643e-05 | #VALUE! | 357.79
+Heptane | 39 | NA | 2.8139028617987462e-05 | #VALUE! | 39
+Octane | 16.58 | NA | 5.367642201228777e-06 | #VALUE! | 16.58
+Ethanol | 3.62 | NA | 1.8255488758230383e-06 | #VALUE! | 3.62
+Benzene | 7.59 | NA | 1.3286061380135504e-07 | #VALUE! | 7.59
+Toluene | 4.66 | NA | 5.969290008399475e-07 | #VALUE! | 4.66
+0 | 0 | NA | 4.6644685608813243e-07 | #VALUE! | 0
+0 | 0 | NA | #DIV/0! | #VALUE! | 0
+Total | 908.22 | 0 | #DIV/0! | #VALUE!
+Constants used in calculations:
+Temperature of auxiliary fuel (Taf) = | Reference Temperature (Tref) = | 77 | °F
+Density of auxiliary Fuel at 77 °F (ρaf) = | 0.0408 | lb/ft3
+Heat Input of auxiliary fuel (-Δhcaf) = | 21502 | Btu/lb
+Density of waste gas at 77 °F (ρwi) = | 0.0739 | lb/ft3
+Mean Heat Capacity of Air (Cpmair) = | (For catalytic oxidizers) | 0.248 | Btu/lb °F
+Mean Heat Capacity of Air (Cpmair) | (For thermal oxidizers) | 0.255 | Btu/lb °F
+LEL of Mix | 13251.394451828479 | #DIV/0!
+Parameter | Equation | Calculated Value | Units | Calculated Value | Units
+Sum of volume fraction of combustible components = | = (∑xi) = | 908.22 | ppmv
+Lower Explosive Limit of waste gas (LELmix) | = [∑((xj)/((∑xi) × LELj))]-1 = | 13251.394451828479 | ppmv
+Where xj is the volume fraction and LELj the lower explosive limit for each combustible component in the waste gas.
+% LELmix | = (Total Combustible Conc. In Mixture/LELmix) × 100 = | 6.853769264069263 | percent | * Note: Since the LEL of the waste gas stream is below 25%, no dilution air is needed.
+Dilution Factor | = (LELmix x 0.249)/(∑xi) = | Not applicable
+Lower Explosive Limit (LEL) of waste gas after addition of dilution air | = (Total Adjusted Conc. With Dilution Air/LELmix) × 100 = | Not Applicable
+Inlet volumetric flow rate(Qwi) at 77°F and 1 atm. | (From Data Entry Tab) = | 20000 | scfm
+Oxygen Content of gas stream | =  100 - (∑xj × 100/106) = | 20.881018202 | percent
+Fan Power Consumption (FP) | = [(1.17 × 10-4) × Qwi × ΔP]/ε | 74.1 | kW
+Qwo | ≈ Qwi = | 20000 | scfm
+Operating temperature of oxidizer (Tfi) | (From Data Entry Tab) | 1625 | °F | HR = | 0
+Temperature of waste gas at outlet to preheater (Two) | = Heat Recovery × (Tfi - Twi) + Twi = | 100 | °F | Note:  this temperature is relevant for incinerators, but not for the RTOs (both regenerative and recuperative).
+Temperature of flue gas exiting the oxidizer (Tfo) | = Tfi - Two + Twi = | 1625 | °F | Recuperative/catalytic oxidizer
+Temperature of flue gas exiting the regenerative oxidizer (Tfo) | = Tfi - 0.95(Tfi - Twi) = | 176.25 | °F | Regenerative oxidizer
+Heat Input of waste gas (-Δhcwi) | = ∑ (-∆hci) xi 
+Where (-∆hci) is the heat of combustion and xi the fraction of component "i" at 77 °F. | 3.5594757700000006 | Btu/scf | 48.166113261163744 | Btu/lb
+Estimated Auxiliary Fuel Flow (Qaf) at 77 °F and 1 atm. | (Calculated using Equation 2.21 in Chapter 2 of the Cost Manual) | 653.7142268425599 | scfm | Calculated Qaf = | 653.7142268425599 | Recuperative Ox | 653.7142268425599 | Calculated Qaf for Regen. = | -48.447019916323946 | Regenerative Ox | 29297.815756671826
+Auxiliary fuel Energy Input = | 573491.462867204 | Btu/min | Qaf calc. for Regenerative oxidizers:
+Minimum Energy required for combustion stabilization = | = 5% × Total Energy Input = 0.05 × ρfi × Qfi × Cpmfi × (Tfi - Tref) = | 29297.815756671826 | Btu/min | Denominator for Eq.2.45 = | 21476.69125
+Is the calculated auxiliary fuel sufficient to stabilize combustion?                                                                 (Note: If the auxiliary fuel energy input > 5% of Total Energy Input, then the auxilary fuel is sufficient.) | Yes | Numerator for Eq.2.45 = | -42451.65290000001
+Auxiliary fuel flow (Qaf)  at 77°F and 1 atm. = | 653.7142268425599 | scfm | Qaf = | -48.447019916323946
+Total Volumetric Throughput (Qtot) at 77 °F and 1 atm. | = Qfi = Qwo + Qa + Qaf = Qwi + Qaf = | 20653.71422684256 | scfm
+Calculation of Catalyst Volume and Estimated Temperature of Waste Gas Entering the Catalyst Bed
+Volumetric Flow Rate at 60 °F and 1 atm (Qft) | = Qtot × (519)/(77 °F + 460) = | 19961.410956669068 | scfm
+Catalyst Volume (Volcat) | = Qft/Φ 
+Where Qft is the volumetric flow rate of the waste gas (Qfi) corrected to 60 °F and 1 atm and Φ is the space velocity for the catalyst. | 0 | ft3
+Estimated inlet temperature to the catalyst bed (Tri) = | (Calculated using Equation 2.28 in Chapter 2 of the Cost Manual) | 1494.6815416579288 | °F
+Capital Recovery Factor:
+Parameter | Equation | Calculated Value
+Capital Recovery Factor (CRF) = | i (1+ i)n/(1+ i)n - 1 = | 0.0836793300349332
+Where n = Equipment Life and i= Interest Rate
+Future Worth Factor
+Parameter | Equation | Calculated Value
+Future Worth Factor (FWF) = | i [1/(1+ i)y - 1] =
+Where y = Catalyst Life and i= Interest Rate
+
+# SHEET: Cost Estimate
+Cost Estimate | Catalytic - Fixed and Monolith | Catalytic - Fluid-Bed | Thermal - Recuperative
+0 | 0 | 0 | 106847.95917925684
+Direct Costs | 0.35 | 0 | 0 | 0
+Total Purchased equipment costs (in 2021 dollars) | 0.5 | 0 | 0 | 0
+Incinerator + auxiliary equipmenta (A) = | 0.7 | 0 | 0 | 0
+Equipment Costs  (EC) for Regenerative Oxidizer | in 2021 dollars
+Equipment Costs  (EC) for Recuperative Thermal Oxidizer | = (10,294 x Qtot°0.2355)x (2021 CEPI/1999 CEPCI) = | 193672.1840730001 | in 2021 dollars
+Equipment Costs  (EC) for a Fixed Bed/Monolith Catalytic Oxidizer | in 2021 dollars
+Equipment Costs  (EC) for Fluid Bed Catalytic Oxidizer | in 2021 dollars
+Instrumentationb = | 0.10 × A = | 19367.21840730001 | Regenerative TO | 0
+Sales taxes = | 0.03 × A = | 5810.165522190003 | EC | 106847.95917925684
+Freight = | 0.05 × A = | 9683.609203650005
+Escalation Factor | 1.812596006144393 | A scaled to cost year = | 193672.1840730001
+Total Purchased equipment costs (B) = | 228533.17720614013 | in 2021 dollars
+Footnotes
+a - Auxiliary equipment includes equipment (e.g., duct work) normally not included with unit furnished by incinerator vendor.
+b - Includes the instrumentation and controls furnished by the incinerator vendor.
+Direct Installation Costs (in 2021 dollars)
+Foundations and Supports = | 0.08 × B = | 18282.65417649121
+Handling and Erection = | 0.14 × B = | 31994.644808859623
+Electrical = | 0.04 × B = | 9141.327088245605
+Piping = | 0.02 × B = | 4570.663544122803
+Insulation for Ductwork = | 0.01 × B = | 2285.3317720614014
+Painting = | 0.01 × B = | 2285.3317720614014
+Site Preparation (SP) = | 0
+Buildings (Bldg) = | 0
+Total Direct Installaton Costs = | 68559.95316184204
+Total Direct Costs (DC) = | B + C + SP + Bldg = | 297093.1303679822 | in 2021 dollars
+Total Indirect Installation Costs (in 2021 dollars)
+Engineering = | 0.10 × B = | 22853.317720614014
+Construction and field expenses = | 0.05 × B = | 11426.658860307007
+Contractor fees = | 0.10 × B = | 22853.317720614014
+Start-up = | 0.02 × B = | 4570.663544122803
+Performance test = | 0.01 × B = | 2285.3317720614014
+Total Indirect Costs (IC) = | 63989.28961771923
+Continency Cost (C ) = | CF(IC+DC)= | 36108.24199857015
+Total Capital Investment = | DC + IC +C = | 397190.6619842716 | in 2021 dollars
+Direct Annual Costs
+Catalyst Replacement Cost | = 1.08 × CC × Volcat × FWF
+Where CC is the $/ft3 cost for the replacement catalyst; Volcat is the volume of catalyst required based on the waste gas flow rate (Qft) and the catalyst space velocity (Φ); and FWF is the future worth factor. | 0
+Annual Electricity Cost | = Annual Electricity Usage × Operating Hours/year × Electricity Price = | 11399.544
+Annual Fuel Costs for Natural Gas | = Costfuel × Fuel Usage Rate × 60 min/hr × Operating hours/year | 330413.3188153035
+Operating Labor | Operator = 0.5hours/shift × Labor Rate × (Operating hours/8 hours/shift) | 3991.5
+Supervisor = 15% of Operator | 598.725
+Maintenance Costs | Labor = 0.5 hours/shift × Labor Rate × (Operating Hours/8 hours/shift) | 4110
+Materials = 100% of maintenance labor | 4110
+Direct Annual Costs (DC) = | 354623.0878153035 | in 2021 dollars
+Indirect Annual Costs
+Overhead | = 60% of sum of operating, supervisor, maintenance labor and maintenance materials | 7686.135
+Administrative Charges | = 2% of TCI | 7943.813239685433
+Property Taxes | = 1% of TCI | 3971.9066198427163
+Insurance | = 1% of TCI | 3971.9066198427163
+Capital Recovery | = CRF x TCI | 33236.64849097546
+Indirect Annual Costs (IC) = | 56810.40997034633 | in 2021 dollars
+Total Annual Cost = | DC + IC = | 411433.4977856498 | in 2021 dollars
+Cost Effectiveness
+Cost Effectiveness = (Total Annual Cost)/(Annual Quantity of VOC/HAP Pollutants Destroyed)
+Total Annual Cost (TAC) = | 411433.4977856498 | per year in 2021 dollars
+VOC/HAP Pollutants Destroyed = | 249.79529759006473 | tons/year
+Cost Effectiveness = | 1647.0826382842765 | per ton of pollutants removed in 2021 dollars

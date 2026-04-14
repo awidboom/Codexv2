@@ -1,0 +1,244 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\extracted_evaluations\\application_22916.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 4
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "22916",
+    "application_number_from_filename": "22916"
+  },
+  "application_number": "22916",
+  "plant": {
+    "name": "EVALUATION REPORT",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [],
+  "background": {
+    "text": "Background\nnd  \n \nChevron Products Co. (Chevron) is proposing to permit an existing S -4373 \nChemical Tote, 400 gallon capacity storing only materials with less than 0.5 psia \nvapor pressure, Custamine RO Plant a t its refinery located in Richmond.  The \ntank is used to store Custamine CA -066P, a corrosion inhibitor used at the \nReverse Osmosis Plant (RO).  It is injected into the water in order to reduce the \npH to prevent corrosion in the associated piping and equip ment.  This material \nhas a true vapor pressure less than 0.5 psia and will accept a permit condition \nlimiting the maximum vapor pressure.  The emissions calculation was performed \nusing EPA’s AP42 Chapter 7."
+  },
+  "emission_calculations": {
+    "text": "Emission Calculations\nns  \n \nChevron submitted an em issions estimate using AP42 Chapter 7 with the \npermitted maximum vapor pressures for this tank/tote. (See attached)  \n \nS-4373 Chemical Tote, 400 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia, Custamine RO Plant  \n \nPOC:   13.3 #/y,  0.007 tpy  \n \nTotal POC from this application’s tank:  0.007 tpy  \n \nFugitive Component Emissions  \n \nPumps:  2 \nValves:  20 \nFlanges:  18 \nPSVs:   2 \n \nThe total fugitive POC emissions were estimated to be 1074.096 #/yr or 0.537 \ntpy.  This estimate assumes only one pegg ed leaker occurring from the \ncomponents listed above and not exceeding a total of 180 days of pegged leakeremissions.  The estimate also assumes that the components will comply with the\nconcentrations specified in Regulation 8 -18."
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Increa se\nPOC:   0.544 tpy(1.15) – 0.626 tpy (offsets) = 0.0 tpycumulative increase]\n8. The Owner/Operator shall comply with a leak standard of 100 ppm of \nTOC (measured as C1) at any valves , flanges, and/or PSV s installed as \npart of the application 22 916 in hydrocarbon service unless the \nOwner/Operator complies with the applicable minimization and repair \nprovisions contained in Regulation 8 -18. [Basis: cumulative increase, \nRegulation 8 Rule 18]  \n \n9. The owner/operat or of S -4373  fugitive components shall not exceed 500.0 \nppm of TOC (measured as C1) at any of the pumps installed as part of \napplication 22 916 in hydrocarbon service unless the Owner/Operator \ncomplies with the applicable minimization and repair provisions contained \nin Regulation 8 -18.  [cumulative increase, offsets, Regulation 8 -18] \n \n10. The Owner/Operator shall conduct inspections of fugitive components \ninstalled as part of application 22 916 in hydrocarbon service in \naccordance with the frequency below:   \nPump s: Quarterly  \nValves: Quarterly  \nPSV’s: Quarterly  \nFlanges: Biannual Flanges: Biannual [Basis: cumulative increase, \nRegulations 8 Rule 18]  \n \n11. The Owner/Operator shall not exceed 0. 537 tons of POC emissions per \nconsecutive 365 -day period measured as C1 from for all fugitive \ncomponents installed as part of application 22 916 in hydrocarbon service."
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emission Calculations\nns  \n \nChevron submitted an em issions estimate using AP42 Chapter 7 with the \npermitted maximum vapor pressures for this tank/tote. (See attached)  \n \nS-4373 Chemical Tote, 400 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia, Custamine RO Plant  \n \nPOC:   13.3 #/y,  0.007 tpy  \n \nTotal POC from this application’s tank:  0.007 tpy  \n \nFugitive Component Emissions  \n \nPumps:  2 \nValves:  20 \nFlanges:  18 \nPSVs:   2 \n \nThe total fugitive POC emissions were estimated to be 1074.096 #/yr or 0.537 \ntpy.  This estimate assumes only one pegg ed leaker occurring from the \ncomponents listed above and not exceeding a total of 180 days of pegged leakeremissions.  The estimate also assumes that the components will comply with the\nconcentrations specified in Regulation 8 -18.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": [
+          [
+            "Valves",
+            "Light liquid",
+            20
+          ],
+          [
+            "Pumps",
+            "Light liquid",
+            2
+          ],
+          [
+            "Connectors/Flanges",
+            "Light liquid",
+            18
+          ]
+        ]
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": 0.007
+        }
+      }
+    },
+    "by_equipment": {}
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "Toxic Risk Screening Analysis\nis  \n \nTOXIC    EMISSION RATE    TRIGGER LEVEL  \n \n40 \n monoethanolamine         N/A \nmethoxypropylamine        N/A \n \nA toxic risk analysis is not required for this application since the toxic emissions \ndid not have respective trigger levels contained in Table 2 -5-1.A toxic risk analysis is not required for this application since the toxic emissions\ndid not have respec tive trigger levels.   \n \nNSPS subpart Kb does not apply to this tank since it is less than 75 cubic \nmeters.  \n \nPSD and NESHAPS do not apply to this application."
+  },
+  "BACT": {
+    "text": ""
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nce  \n \nThis application will comply with Regulation 8 -5-117, which is a limited exemption \nfor tanks storing materials with a vapor pressure less than or e qual to 0.5 psia.  \nThe source will comply with Regulation 8 -5-307.3, which requires that the tank \nbe maintained vapor tight if it is pressurized or blanketed with organic gases \nother than natural gas.  This tank will not be pressurized or blanketed.   \n \nThis application will not trigger BACT since the increase in POC emissions will \nbe less than 10 pounds per highest day.   \n \nThis application will require POC offsets since the facility POC emissions are \ngreater than 35 tons per year.  This application requires  0.626 tons per year of \nPOC offsets.  \n \nThis application is considered ministerial since this source category is covered in \nPermit Handbook Chapter 4.1.Compliance with this provision shall be verified quarterly using methods\ndescribed in part 12. The results shall be submitted to the District within \n30 days of the clos e of each calendar quarter after the District's issuance \nof the Permit to Operate for Application 22 916.[Basis: Cumulative \nIncrease, offsets]  \n \n12. If all of the fugitive components installed as part of application 22 916 in \nhydrocarbon service are leaking at a rate less than 5000 ppm of TOC \n(measured as C1) in any calendar quarter, no further verification and no \nsubmittal of the results shall be required.  If any of the fugitive \ncomponents installed as part of application 22 916 in hydrocarbon service \nare leaking  at a rate equal to or greater than 5,000 ppm of TOC \n(measured as C1) in any calendar quarter, the owner/operator shall \nconduct an annual emissions estimate in order to demonstrate \ncompliance with part 11 and shall submit the results to the district within  \n30 days of the annual emissions calculation. For any calendar quarter in \nwhich one or more of these components is leaking at a rate equal to or \ngreater than 10,000 ppm of TOC (measured as C1), the Owner/Operator \nshall calculate and submit a report of fugi tive emissions from all S -4373  \nfugitive components in hydrocarbon service utilizing District approved \nmethods for the consecutive 12 month period ending with this quarter  in \norder to demonstrate compliance with part 11 . This calculation shall \ncontinue each  quarter until there is not a quarter containing a pegged \n43 \n leaker. For leaking components the owner/operator shall use the modified \ntrapezoidal method and LeakDAS as documented within the application \n12842 or other method pre -approved by the District. The O wner/Operator \nshall inclu de emissions estimates from all fugitive components included in \npart 5 (application 22916) in hydrocarbon service regardless of the \ncomponent Rule 8 -18 repair status in order to de monstrate compliance \nwith part 11 . [Basis: Cumulati ve Increase, Offsets]  \n \n13. The Owner/Operator shall keep a District -approved monthly log of fugitive \ncomponent counts installed as part of application 22 916 and  each \ncomponent's unique permanent identification codes  per part 5 , monitoring \nresults, and any annu al emissions  estimates required per parts 11 and 12  \nfor at least five years from date of entry. The log shall be retained on site \nand made available to district staff upon request.[Basis: offsets, \nrecordkeeping]  \n \n \n \n \n \n      by________________date________  \n        Gregory Solomon  \n       Senior Air Quality Engineer"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "Conditions\nns  \n \nFor Plant 10, S -4373  \n \n1. The owner/operator of S -4373 shall not exceed a total of 28,000 gall ons \nof Corrosion inhibitor in any consecutive 12 month period. (cum inc)  \n2. The owner/operator of S -4373 shall only store materials with a true vapor \npressure not to exceed 0.5 psia. (8 -5-117 and cum inc)  \n41 \n 3. The owner/operator of S -4373 may change the chemicals described in \napplication 22916 subject to district approval, provided that the \nowner/operator demonstrates to the satisfaction of the district that the \nsource will not be modified per 2 -1-234, there will be no increase in \nemissions, and the emissions of to xic air contaminants will not equal or \nexceed any trigger levels specified in Regulation 2.5. (2 -1-301, 2 -5) \n4. The owner/operator of S -4373 shall maintain a district approved monthly \nlog of all material throughput, the date in which throughput is added and \nthe amount added, material safety and data sheets for material stored, \nand vapor pressure of material stored at S -4373 in order to demonstrate \ncompliance with parts 1 through 3.  This log shall be kept on site for at \nleast 5 years from the date of entry and  made available to district staff \nupon request.  (record keeping)  \n \nS-4373 Chemical Tote – Fugitive component conditions - For the purposes of \nthese permit conditions hydrocarbon service is as defined in the Renewal Project \nPermit Condition #24136  \n \n5. Within 30  days of District's issuance of the Permit to Operate for \nApplication 22 916, the Owner/Operator shall provide the District's \nEngineering Division with a final count of all fugitive components and each \ncomponent's unique permanent identification codes in th is project.  The \nowner/operator has been permitted to install the following fugitive \ncomponents:   \n20 valves in hydrocarbon service;  \n18 flanges in hydrocarbon service;  \n     2 pumps in hydrocarbon service;  \n2 PSVs in hydrocarbon service.  \n[Basis: Cumulative I ncrease, offsets, Regulation 2 -5] \n \n6. If any of the fugitive component counts e xceed the count stated in Part 5 , \nthe plant's cumulative emissions for the project shall be adjusted, subject \nto APCO approval, to reflect the difference between emissions based on  \npredicted versus actual component counts. The Owner/Operator shall \nprovide to the District all additional required offsets at an offset ratio of \n1.15:1 no later than 21 days after submittal of the final POC fugitive count. \nIf the component count increase triggers any additional regulatory review, \nthe owner/operator shall submit an application to address the increased \nemissions.  The Owner/Operator submitted 0. 618 tons per year of POC \noffset credits corresponding to  the fugitive component counts in Part 5 . If \nthe actual component count is less than the predicted, the total emissio ns \nin Part 11  may be adjusted accordingly, subject to APCO approval, and all \nemission offsets applied by the owner/operator in excess of the fully offset \npermitted total POC emissio ns may be credited back to the \nowner/operator upon approval by the APCO.  [Basis: offsets]  \n \n7. The Owner/Operator of S-4373 shall install only the following types of \ncomponents:  \n \na. For valves in hydrocarbon service: (1) bellows sealed, (2) live \nloaded, (3) gra phitic packed, (4) quarter -turn (e.g., ball valves or \nplug valves), or equivalent as determined by the APCO.  \n42 \n b. For flanges in hydrocarbon service:  graphitic -based gaskets, metal \nring joints, or equivalent technology as determined by the APCO . \nc. For pumps in h ydrocarbon service: double mechanical seal with \nbarrier fluid, or equivalent as determined by the APCO. [Basis:"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator of S -4373 shall not exceed a total of 28,000 gall ons \nof Corrosion inhibitor in any consecutive 12 month period. (cum inc)",
+        "basis": []
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator of S -4373 shall only store materials with a true vapor \npressure not to exceed 0.5 psia. (8 -5-117 and cum inc)  \n41",
+        "basis": []
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator of S -4373 may change the chemicals described in \napplication 22916 subject to district approval, provided that the \nowner/operator demonstrates to the satisfaction of the district that the \nsource will not be modified per 2 -1-234, there will be no increase in \nemissions, and the emissions of to xic air contaminants will not equal or \nexceed any trigger levels specified in Regulation 2.5. (2 -1-301, 2 -5)",
+        "basis": []
+      },
+      {
+        "num": 4,
+        "text": "The owner/operator of S -4373 shall maintain a district approved monthly \nlog of all material throughput, the date in which throughput is added and \nthe amount added, material safety and data sheets for material stored, \nand vapor pressure of material stored at S -4373 in order to demonstrate \ncompliance with parts 1 through 3.  This log shall be kept on site for at \nleast 5 years from the date of entry and  made available to district staff \nupon request.  (record keeping)  \n \nS-4373 Chemical Tote – Fugitive component conditions - For the purposes of \nthese permit conditions hydrocarbon service is as defined in the Renewal Project \nPermit Condition #24136",
+        "basis": []
+      },
+      {
+        "num": 5,
+        "text": "Within 30  days of District's issuance of the Permit to Operate for \nApplication 22 916, the Owner/Operator shall provide the District's \nEngineering Division with a final count of all fugitive components and each \ncomponent's unique permanent identification codes in th is project.  The \nowner/operator has been permitted to install the following fugitive \ncomponents:   \n20 valves in hydrocarbon service;  \n18 flanges in hydrocarbon service;  \n     2 pumps in hydrocarbon service;  \n2 PSVs in hydrocarbon service.  \n[",
+        "basis": [
+          "Cumulative I ncrease",
+          "offsets",
+          "Regulation 2 -5]"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "If any of the fugitive component counts e xceed the count stated in Part 5 , \nthe plant's cumulative emissions for the project shall be adjusted, subject \nto APCO approval, to reflect the difference between emissions based on  \npredicted versus actual component counts. The Owner/Operator shall \nprovide to the District all additional required offsets at an offset ratio of",
+        "basis": []
+      },
+      {
+        "num": 1,
+        "text": "15:1 no later than 21 days after submittal of the final POC fugitive count. \nIf the component count increase triggers any additional regulatory review, \nthe owner/operator shall submit an application to address the increased \nemissions.  The Owner/Operator submitted 0. 618 tons per year of POC \noffset credits corresponding to  the fugitive component counts in Part 5 . If \nthe actual component count is less than the predicted, the total emissio ns \nin Part 11  may be adjusted accordingly, subject to APCO approval, and all \nemission offsets applied by the owner/operator in excess of the fully offset \npermitted total POC emissio ns may be credited back to the \nowner/operator upon approval by the APCO.  [",
+        "basis": [
+          "offsets]"
+        ]
+      },
+      {
+        "num": 7,
+        "text": "The Owner/Operator of S-4373 shall install only the following types of \ncomponents:  \n \na. For valves in hydrocarbon service: (1) bellows sealed, (2) live \nloaded, (3) gra phitic packed, (4) quarter -turn (e.g., ball valves or \nplug valves), or equivalent as determined by the APCO.  \n42 \n b. For flanges in hydrocarbon service:  graphitic -based gaskets, metal \nring joints, or equivalent technology as determined by the APCO . \nc. For pumps in h ydrocarbon service: double mechanical seal with \nbarrier fluid, or equivalent as determined by the APCO. [",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\non  \n \nRecommend that the following equipment be granted a Permit to Operate:  \n \n S-4373  Fixed Roof Tank, 400 gallon capacity, Chemical Tote, storing only \nmaterials with a true vapor pressure less than or equal to 0.5psia, Custamine RO \nPlant"
+  },
+  "raw_sections": {
+    "preamble": "39",
+    "blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nT  \nChevr on Products Co., Plant #10  \nApplication Number 22916"
+      },
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd  \n \nChevron Products Co. (Chevron) is proposing to permit an existing S -4373 \nChemical Tote, 400 gallon capacity storing only materials with less than 0.5 psia \nvapor pressure, Custamine RO Plant a t its refinery located in Richmond.  The \ntank is used to store Custamine CA -066P, a corrosion inhibitor used at the \nReverse Osmosis Plant (RO).  It is injected into the water in order to reduce the \npH to prevent corrosion in the associated piping and equip ment.  This material \nhas a true vapor pressure less than 0.5 psia and will accept a permit condition \nlimiting the maximum vapor pressure.  The emissions calculation was performed \nusing EPA’s AP42 Chapter 7."
+      },
+      {
+        "heading": "Emission Calculations",
+        "alias": "EMISSIONS",
+        "text": "Emission Calculations\nns  \n \nChevron submitted an em issions estimate using AP42 Chapter 7 with the \npermitted maximum vapor pressures for this tank/tote. (See attached)  \n \nS-4373 Chemical Tote, 400 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia, Custamine RO Plant  \n \nPOC:   13.3 #/y,  0.007 tpy  \n \nTotal POC from this application’s tank:  0.007 tpy  \n \nFugitive Component Emissions  \n \nPumps:  2 \nValves:  20 \nFlanges:  18 \nPSVs:   2 \n \nThe total fugitive POC emissions were estimated to be 1074.096 #/yr or 0.537 \ntpy.  This estimate assumes only one pegg ed leaker occurring from the \ncomponents listed above and not exceeding a total of 180 days of pegged leaker"
+      },
+      {
+        "heading": "emissions.  The estimate also assumes that the components will comply with the",
+        "alias": "EMISSIONS",
+        "text": "emissions.  The estimate also assumes that the components will comply with the\nconcentrations specified in Regulation 8 -18."
+      },
+      {
+        "heading": "Plant Cumulative Increa se",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Increa se\nPOC:   0.544 tpy(1.15) – 0.626 tpy (offsets) = 0.0 tpy"
+      },
+      {
+        "heading": "Toxic Risk Screening Analysis",
+        "alias": "TOXICS",
+        "text": "Toxic Risk Screening Analysis\nis  \n \nTOXIC    EMISSION RATE    TRIGGER LEVEL  \n \n40 \n monoethanolamine         N/A \nmethoxypropylamine        N/A \n \nA toxic risk analysis is not required for this application since the toxic emissions \ndid not have respective trigger levels contained in Table 2 -5-1."
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nce  \n \nThis application will comply with Regulation 8 -5-117, which is a limited exemption \nfor tanks storing materials with a vapor pressure less than or e qual to 0.5 psia.  \nThe source will comply with Regulation 8 -5-307.3, which requires that the tank \nbe maintained vapor tight if it is pressurized or blanketed with organic gases \nother than natural gas.  This tank will not be pressurized or blanketed.   \n \nThis application will not trigger BACT since the increase in POC emissions will \nbe less than 10 pounds per highest day.   \n \nThis application will require POC offsets since the facility POC emissions are \ngreater than 35 tons per year.  This application requires  0.626 tons per year of \nPOC offsets.  \n \nThis application is considered ministerial since this source category is covered in \nPermit Handbook Chapter 4.1."
+      },
+      {
+        "heading": "A toxic risk analysis is not required for this application since the toxic emissions",
+        "alias": "TOXICS",
+        "text": "A toxic risk analysis is not required for this application since the toxic emissions\ndid not have respec tive trigger levels.   \n \nNSPS subpart Kb does not apply to this tank since it is less than 75 cubic \nmeters.  \n \nPSD and NESHAPS do not apply to this application."
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\non  \n \nRecommend that the following equipment be granted a Permit to Operate:  \n \n S-4373  Fixed Roof Tank, 400 gallon capacity, Chemical Tote, storing only \nmaterials with a true vapor pressure less than or equal to 0.5psia, Custamine RO \nPlant"
+      },
+      {
+        "heading": "Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Conditions\nns  \n \nFor Plant 10, S -4373  \n \n1. The owner/operator of S -4373 shall not exceed a total of 28,000 gall ons \nof Corrosion inhibitor in any consecutive 12 month period. (cum inc)  \n2. The owner/operator of S -4373 shall only store materials with a true vapor \npressure not to exceed 0.5 psia. (8 -5-117 and cum inc)  \n41 \n 3. The owner/operator of S -4373 may change the chemicals described in \napplication 22916 subject to district approval, provided that the \nowner/operator demonstrates to the satisfaction of the district that the \nsource will not be modified per 2 -1-234, there will be no increase in \nemissions, and the emissions of to xic air contaminants will not equal or \nexceed any trigger levels specified in Regulation 2.5. (2 -1-301, 2 -5) \n4. The owner/operator of S -4373 shall maintain a district approved monthly \nlog of all material throughput, the date in which throughput is added and \nthe amount added, material safety and data sheets for material stored, \nand vapor pressure of material stored at S -4373 in order to demonstrate \ncompliance with parts 1 through 3.  This log shall be kept on site for at \nleast 5 years from the date of entry and  made available to district staff \nupon request.  (record keeping)  \n \nS-4373 Chemical Tote – Fugitive component conditions - For the purposes of \nthese permit conditions hydrocarbon service is as defined in the Renewal Project \nPermit Condition #24136  \n \n5. Within 30  days of District's issuance of the Permit to Operate for \nApplication 22 916, the Owner/Operator shall provide the District's \nEngineering Division with a final count of all fugitive components and each \ncomponent's unique permanent identification codes in th is project.  The \nowner/operator has been permitted to install the following fugitive \ncomponents:   \n20 valves in hydrocarbon service;  \n18 flanges in hydrocarbon service;  \n     2 pumps in hydrocarbon service;  \n2 PSVs in hydrocarbon service.  \n[Basis: Cumulative I ncrease, offsets, Regulation 2 -5] \n \n6. If any of the fugitive component counts e xceed the count stated in Part 5 , \nthe plant's cumulative emissions for the project shall be adjusted, subject \nto APCO approval, to reflect the difference between emissions based on  \npredicted versus actual component counts. The Owner/Operator shall \nprovide to the District all additional required offsets at an offset ratio of \n1.15:1 no later than 21 days after submittal of the final POC fugitive count. \nIf the component count increase triggers any additional regulatory review, \nthe owner/operator shall submit an application to address the increased \nemissions.  The Owner/Operator submitted 0. 618 tons per year of POC \noffset credits corresponding to  the fugitive component counts in Part 5 . If \nthe actual component count is less than the predicted, the total emissio ns \nin Part 11  may be adjusted accordingly, subject to APCO approval, and all \nemission offsets applied by the owner/operator in excess of the fully offset \npermitted total POC emissio ns may be credited back to the \nowner/operator upon approval by the APCO.  [Basis: offsets]  \n \n7. The Owner/Operator of S-4373 shall install only the following types of \ncomponents:  \n \na. For valves in hydrocarbon service: (1) bellows sealed, (2) live \nloaded, (3) gra phitic packed, (4) quarter -turn (e.g., ball valves or \nplug valves), or equivalent as determined by the APCO.  \n42 \n b. For flanges in hydrocarbon service:  graphitic -based gaskets, metal \nring joints, or equivalent technology as determined by the APCO . \nc. For pumps in h ydrocarbon service: double mechanical seal with \nbarrier fluid, or equivalent as determined by the APCO. [Basis:"
+      },
+      {
+        "heading": "cumulative increase]",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "cumulative increase]\n8. The Owner/Operator shall comply with a leak standard of 100 ppm of \nTOC (measured as C1) at any valves , flanges, and/or PSV s installed as \npart of the application 22 916 in hydrocarbon service unless the \nOwner/Operator complies with the applicable minimization and repair \nprovisions contained in Regulation 8 -18. [Basis: cumulative increase, \nRegulation 8 Rule 18]  \n \n9. The owner/operat or of S -4373  fugitive components shall not exceed 500.0 \nppm of TOC (measured as C1) at any of the pumps installed as part of \napplication 22 916 in hydrocarbon service unless the Owner/Operator \ncomplies with the applicable minimization and repair provisions contained \nin Regulation 8 -18.  [cumulative increase, offsets, Regulation 8 -18] \n \n10. The Owner/Operator shall conduct inspections of fugitive components \ninstalled as part of application 22 916 in hydrocarbon service in \naccordance with the frequency below:   \nPump s: Quarterly  \nValves: Quarterly  \nPSV’s: Quarterly  \nFlanges: Biannual Flanges: Biannual [Basis: cumulative increase, \nRegulations 8 Rule 18]  \n \n11. The Owner/Operator shall not exceed 0. 537 tons of POC emissions per \nconsecutive 365 -day period measured as C1 from for all fugitive \ncomponents installed as part of application 22 916 in hydrocarbon service."
+      },
+      {
+        "heading": "Compliance with this provision shall be verified quarterly using methods",
+        "alias": "SOC",
+        "text": "Compliance with this provision shall be verified quarterly using methods\ndescribed in part 12. The results shall be submitted to the District within \n30 days of the clos e of each calendar quarter after the District's issuance \nof the Permit to Operate for Application 22 916.[Basis: Cumulative \nIncrease, offsets]  \n \n12. If all of the fugitive components installed as part of application 22 916 in \nhydrocarbon service are leaking at a rate less than 5000 ppm of TOC \n(measured as C1) in any calendar quarter, no further verification and no \nsubmittal of the results shall be required.  If any of the fugitive \ncomponents installed as part of application 22 916 in hydrocarbon service \nare leaking  at a rate equal to or greater than 5,000 ppm of TOC \n(measured as C1) in any calendar quarter, the owner/operator shall \nconduct an annual emissions estimate in order to demonstrate \ncompliance with part 11 and shall submit the results to the district within  \n30 days of the annual emissions calculation. For any calendar quarter in \nwhich one or more of these components is leaking at a rate equal to or \ngreater than 10,000 ppm of TOC (measured as C1), the Owner/Operator \nshall calculate and submit a report of fugi tive emissions from all S -4373  \nfugitive components in hydrocarbon service utilizing District approved \nmethods for the consecutive 12 month period ending with this quarter  in \norder to demonstrate compliance with part 11 . This calculation shall \ncontinue each  quarter until there is not a quarter containing a pegged \n43 \n leaker. For leaking components the owner/operator shall use the modified \ntrapezoidal method and LeakDAS as documented within the application \n12842 or other method pre -approved by the District. The O wner/Operator \nshall inclu de emissions estimates from all fugitive components included in \npart 5 (application 22916) in hydrocarbon service regardless of the \ncomponent Rule 8 -18 repair status in order to de monstrate compliance \nwith part 11 . [Basis: Cumulati ve Increase, Offsets]  \n \n13. The Owner/Operator shall keep a District -approved monthly log of fugitive \ncomponent counts installed as part of application 22 916 and  each \ncomponent's unique permanent identification codes  per part 5 , monitoring \nresults, and any annu al emissions  estimates required per parts 11 and 12  \nfor at least five years from date of entry. The log shall be retained on site \nand made available to district staff upon request.[Basis: offsets, \nrecordkeeping]  \n \n \n \n \n \n      by________________date________  \n        Gregory Solomon  \n       Senior Air Quality Engineer"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nT  \nChevr on Products Co., Plant #10  \nApplication Number 22916"
+      }
+    ]
+  }
+}

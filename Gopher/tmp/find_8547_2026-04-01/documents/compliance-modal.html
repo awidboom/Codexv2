@@ -1,0 +1,52 @@
+<script>
+    $(document).ready(function () {
+        $("#documentDetailLoader").show();
+        setTimeout(function () {
+            $("#documentDetailLoader").hide();
+            $(".dvIframeContainer").show();
+        }, 5000);
+
+    });
+</script>
+
+<div class="modal-dialog modal-lg">
+    <!-- Modal content-->
+    <div class="modal-content">
+        <div class="modal-header">
+            <div class="closeModal"><a href="javascript:void(0)" data-dismiss="modal" title="Close"> <i class="fa fa-times"></i> <span class="hidden-xs">Close</span></a></div>
+            <h4 class="modal-title">Compliance</h4>
+        </div>
+        <div class="modal-body">
+            <div class="submodalContentContainer dvFacilityInformation ">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!--Heading-->
+                        <div class="heading2">Facility Information</div>
+                    </div>
+                </div>
+                <div class="row marginTop15">
+                    <div class="col-xs-12 col-sm-6 col-md-4 subModalItem">
+                        <p>Business Name</p>
+                        <p class="text-black" id="docFacName"></p>
+                        <hr class="visible-xs visible-sm">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 subModalItem">
+                        <p>Facility ID</p>
+                        <p class="text-black" id="docFacId">8547</p>
+                        <hr class="visible-xs visible-sm">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 subModalItem">
+                        <p>Address</p>
+                        <p class="text-black" id="docAddress">
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="documentDetailLoader" class="loader hideMe" style="">Loading <i class="fa fa-spinner fa-spin fa-fw"></i></div>
+            <div class="submodalContentContainer dvIframeContainer marginTop15 hideMe" style="padding:0px;">
+                <iframe id="iframeDoc" src="https://onbase-pub.aqmd.gov/publicaccess/DatasourceTemplateParameter_find.aspx?MyQueryID=220&amp;OBKey__103_1=8547" frameborder="0" width="600" height="600" class="documentIframe"></iframe>
+            </div>
+        </div>
+    </div>
+</div>

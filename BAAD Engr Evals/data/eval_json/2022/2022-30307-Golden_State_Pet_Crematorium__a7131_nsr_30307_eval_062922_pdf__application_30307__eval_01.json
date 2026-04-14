@@ -1,0 +1,349 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 10
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "PM10  7.60 0.380  99 8.50E -02 1.700  200 2.080  299\n  NOx  100.00  5.000  1,300  2.67E -01 5.250 627 10.250 1927\nS-4 CO 84.00  4.200  1,092  2.21E -01 4.420  519 8.620  1611\n  SO2 0.60 0.030  8 1.63E -01 3.260  383 3.290  391\n  POC  5.50 0.275  72 2.24E -02 0.448  53 0.723  125",
+        "Table 3.  Plant Cumulative Emissions\nPollutant  Existing  New  Total\n(ton/yr ) (ton/yr ) (ton/yr )  3\nPM 10 0.130  0.150  0.280\nNOx  0.640  0.964  1.604\nCO 0.540  0.806  1.346\nSO 2 0.210  0.196  0.406\nPOC  0.300  0.063  0.363",
+        "Copper  4.50E -05 2.20E -01 No 6.34E -02 N/A No\n  Formaldehyde  3.69E -04 1.20E -01 No 1.05E+00  1.40E+01  No\nS-4 Hydrogen Chloride  1.20E -01 4.60E+00  No 1.69E+02  3.50E+02  No\n  Hydrogen Fluoride  1.10E -03 5.30E -01 No 1.55E+00  5.80E+01  No"
+      ]
+    },
+    "application_number_detected": "30307",
+    "application_number_from_filename": "30307",
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2022/30307/a7131_nsr_30307_eval_062922-pdf.pdf?rev=27fa1970e5fd45209d441b0726cb923d&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2022/062922-30307/golden-state-pet-crematorium"
+  },
+  "application_number": "30307",
+  "plant": {
+    "name": "Golden State Pet Crematorium",
+    "plant_id": 21539,
+    "address": "Castro Valley, CA 94546"
+  },
+  "evaluation_date": "October 29, 1992",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-4",
+      "description": "Animal Cremator: Matthews, Model IEB 32 -5S,"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nND  \nGolden State Pet Crematorium  is applying for Authority  to Construct and Permit  to Operate \nfor the following equipment:  \n  \nS-4 Animal Cremator: Matthews, Model IEB 32 -5S, \n with five primary burners, one secondary burner, total 4.25 MMBTU/hr,  \n 250 lbs/hr, natural gas fired   \n \nThe animal  crematory equipment  will be  located at 2423 Grove Way, Castro Valley, CA \n94546 . The primary emissions from each cremator  include s nitrogen oxides (NO x), carbon \nmonoxide (CO), particulate matter (PM), sulfur dioxide (SO 2) and precursor organic \ncompo unds (POCs) from the combustion of natural gas for fuel and the animal carcass"
+  },
+  "emission_calculations": {
+    "text": "EMI SSION CALCULATIONS\nNS   \nThe applicant has provided the information as shown in Table 1.  \n \nS-4 will operate at the maximum rate of 250 lbs/hr,  12 hrs/day, with the annual hours of \noperation limited to 3120 h ours by permit condition . Annual animal carcass throughput is \nlimited to 352,420  lbs/year by permit condition . S-4 is equipped with one Eclipse TJ75 \nPrimary Burner (0.75 MMBtu/hr), four Eclipse TJ50 Primary Burners (0.50 MMBtu/hr), and \none TJ150 Secondary Burner (1.5 MMBtu/hr). T he total heat input rat ing for S -4 is 4.25  \nMMBtu/hr.  \n \nTable 1.  Incinerator Specifications  \nSource  Manufacturer  Model  Heat Input \nRating  Fuel  Animal Carcass  \nThroughput  \n      (MMBtu/hr)    (lbs/hour)  (lbs/year)   \nS-4 Matthews  IEB 32 -5S 4.25 Natural Gas  250 352,420 \n \n \n \n \n \n \n \n \n \n \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n2 | P a g eEMISSION CALCULATIONS\nATIONS  \nPotential to emit (PTE) values are summarized in the following table.  \n \nTable 2. PTE Calculations  \n    Emissions from Natural Gas \nCombustion  1 Emissions from Cremation  2 \n[Including case wrappings]  Total Emissions  \nSource  Pollutant  Emission \nFactor  Daily  Annual  Emission \nFactor  Daily  Annual  Daily  Annual  \n    (lb/MMft3) (lb/day)  (lb/yr)   (lb/body)  (lb/day)  (lb/yr)  (lb/day)  (lb/yr)  \n  PM10  7.60 0.380  99 8.50E -02 1.700  200 2.080  299 \n  NOx  100.00  5.000  1,300  2.67E -01 5.250 627 10.250 1927  \nS-4 CO 84.00  4.200  1,092  2.21E -01 4.420  519 8.620  1611  \n  SO2 0.60 0.030  8 1.63E -01 3.260  383 3.290  391 \n  POC  5.50 0.275  72 2.24E -02 0.448  53 0.723  125 \n \nAdditional assumptions are made as follows:  \n \n• 1,020 Btu / 1 ft3 \n• It is assumed that PM 10 emission equals PM2.5 emission  \n• Body = 150 lbs  \n \nSample emission calculations for S-4 are as follows:  \n \nDaily PM 10 emission becomes,  \n \n[𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  𝑓𝑟𝑜𝑚  𝑁𝑎𝑡𝑢𝑟𝑎𝑙  𝐺𝑎𝑠  𝐶𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑜𝑛  𝑓𝑜𝑟 𝑡ℎ𝑒 𝐼𝑛𝑐𝑖𝑛𝑒𝑟𝑎𝑡𝑜𝑟 ] \n \n+[𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  𝑓𝑟𝑜𝑚  𝐶𝑟𝑒𝑚𝑎𝑡𝑖𝑜𝑛  𝑖𝑛𝑐𝑙𝑢𝑑𝑖𝑛𝑔  𝐶𝑎𝑠𝑒  𝑊𝑟𝑎𝑝𝑝𝑖𝑛𝑔𝑠 ] \n \n \n=[ 7.6 𝑙𝑏𝑠-𝑃𝑀10\n𝑀𝑀𝑓 𝑡3×𝑀𝑀𝑓 𝑡3\n1,000 ,000  𝑓𝑡3× 𝑓𝑡3\n1,020  𝐵𝑡𝑢×1,000 ,000  𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢×4.25 𝑀𝑀𝐵𝑡𝑢\nℎ𝑟×12 ℎ𝑟𝑠\n𝑑𝑎𝑦] \n \n+[ 8.50−02 𝑙𝑏𝑠-𝑃𝑀 10\n𝑏𝑜𝑑𝑦×𝑏𝑜𝑑𝑦\n150  𝑙𝑏𝑠× 250  𝑙𝑏𝑠\nℎ𝑟×12 ℎ𝑟𝑠\n𝑑𝑎𝑦] \n \n \n=[0.380  𝑙𝑏𝑠-PM 10\n𝑑𝑎𝑦]+[1.700  𝑙𝑏𝑠-PM 10\n𝑑𝑎𝑦]  \n \n \n=2.080 𝑙𝑏𝑠-𝑃𝑀 10 𝑝𝑒𝑟 𝑑𝑎𝑦 \n \n1 Emission factors are obtained from “Chapter 11.6: Crematories” in BAAQMD Permit Handbook . \n2 PM 10 emission factor is obtained from EPA’s FIRE Program.  In deriving the PM 10 emission factor, the \naverage weight per body incinerated was approximately 150 lbs (rounded up).  Therefore, average weight per \nbody incinerated is assumed to be 150 lbs for the calc ulation of the emission values from cremation.  \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n3 | P a g e  \n    \n  \nSimilarly, annual PM 10 emission becomes,  \n \n[𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  𝑓𝑟𝑜𝑚  𝑁𝑎𝑡𝑢𝑟𝑎𝑙  𝐺𝑎𝑠  𝐶𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑜𝑛  𝑓𝑜𝑟 𝑡ℎ𝑒 𝐼𝑛𝑐𝑖𝑛𝑒𝑟𝑎𝑡𝑜𝑟 ] \n \n+[𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  𝑓𝑟𝑜𝑚  𝐶𝑟𝑒𝑚𝑎𝑡𝑖𝑜𝑛  𝑖𝑛𝑐𝑙𝑢𝑑𝑖𝑛𝑔  𝐶𝑎𝑠𝑒  𝑊𝑟𝑎𝑝𝑝𝑖𝑛𝑔𝑠 ] \n \n \n=[ 7.6 𝑙𝑏𝑠-𝑃𝑀10\n𝑀𝑀𝑓 𝑡3×𝑀𝑀𝑓 𝑡3\n1,000 ,000  𝑓𝑡3× 𝑓𝑡3\n1,020  𝐵𝑡𝑢×1,000 ,000  𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢×4.25 𝑀𝑀𝐵𝑡𝑢\nℎ𝑟×3,120  ℎ𝑟𝑠\n𝑦𝑒𝑎𝑟] \n \n+[ 8.50−02 𝑙𝑏𝑠-𝑃𝑀10\n𝑏𝑜𝑑𝑦×𝑏𝑜𝑑𝑦\n150  𝑙𝑏𝑠×352 ,420  𝑝𝑜𝑢𝑛𝑑𝑠\n𝑦𝑒𝑎𝑟] \n \n \n=[99 𝑙𝑏𝑠-PM 10\n𝑦𝑒𝑎𝑟]+[200  𝑙𝑏𝑠-PM 10\n𝑦𝑒𝑎𝑟] \n \n \n=299  lbs-PM10  𝑝𝑒𝑟 𝑦𝑒𝑎𝑟  \n \nThe maximum annual operation hours are used to calculate maximum emissions from the \nnatural gas combustion.  \n \nThe plant cumulative emission calculations are summarized in Table 3.  \n \nTable 3.  Plant Cumulative Emissions  \nPollutant  Existing  New  Total  \n(ton/yr ) (ton/yr ) (ton/yr )  3 \nPM 10 0.130  0.150  0.280  \nNOx  0.640  0.964  1.604  \nCO 0.540  0.806  1.346  \nSO 2 0.210  0.196  0.406  \nPOC  0.300  0.063  0.363"
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMI SSION CALCULATIONS\nNS   \nThe applicant has provided the information as shown in Table 1.  \n \nS-4 will operate at the maximum rate of 250 lbs/hr,  12 hrs/day, with the annual hours of \noperation limited to 3120 h ours by permit condition . Annual animal carcass throughput is \nlimited to 352,420  lbs/year by permit condition . S-4 is equipped with one Eclipse TJ75 \nPrimary Burner (0.75 MMBtu/hr), four Eclipse TJ50 Primary Burners (0.50 MMBtu/hr), and \none TJ150 Secondary Burner (1.5 MMBtu/hr). T he total heat input rat ing for S -4 is 4.25  \nMMBtu/hr.  \n \nTable 1.  Incinerator Specifications  \nSource  Manufacturer  Model  Heat Input \nRating  Fuel  Animal Carcass  \nThroughput  \n      (MMBtu/hr)    (lbs/hour)  (lbs/year)   \nS-4 Matthews  IEB 32 -5S 4.25 Natural Gas  250 352,420 \n \n \n \n \n \n \n \n \n \n \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n2 | P a g eEMISSION CALCULATIONS\nATIONS  \nPotential to emit (PTE) values are summarized in the following table.  \n \nTable 2. PTE Calculations  \n    Emissions from Natural Gas \nCombustion  1 Emissions from Cremation  2 \n[Including case wrappings]  Total Emissions  \nSource  Pollutant  Emission \nFactor  Daily  Annual  Emission \nFactor  Daily  Annual  Daily  Annual  \n    (lb/MMft3) (lb/day)  (lb/yr)   (lb/body)  (lb/day)  (lb/yr)  (lb/day)  (lb/yr)  \n  PM10  7.60 0.380  99 8.50E -02 1.700  200 2.080  299 \n  NOx  100.00  5.000  1,300  2.67E -01 5.250 627 10.250 1927  \nS-4 CO 84.00  4.200  1,092  2.21E -01 4.420  519 8.620  1611  \n  SO2 0.60 0.030  8 1.63E -01 3.260  383 3.290  391 \n  POC  5.50 0.275  72 2.24E -02 0.448  53 0.723  125 \n \nAdditional assumptions are made as follows:  \n \n• 1,020 Btu / 1 ft3 \n• It is assumed that PM 10 emission equals PM2.5 emission  \n• Body = 150 lbs  \n \nSample emission calculations for S-4 are as follows:  \n \nDaily PM 10 emission becomes,  \n \n[𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  𝑓𝑟𝑜𝑚  𝑁𝑎𝑡𝑢𝑟𝑎𝑙  𝐺𝑎𝑠  𝐶𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑜𝑛  𝑓𝑜𝑟 𝑡ℎ𝑒 𝐼𝑛𝑐𝑖𝑛𝑒𝑟𝑎𝑡𝑜𝑟 ] \n \n+[𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  𝑓𝑟𝑜𝑚  𝐶𝑟𝑒𝑚𝑎𝑡𝑖𝑜𝑛  𝑖𝑛𝑐𝑙𝑢𝑑𝑖𝑛𝑔  𝐶𝑎𝑠𝑒  𝑊𝑟𝑎𝑝𝑝𝑖𝑛𝑔𝑠 ] \n \n \n=[ 7.6 𝑙𝑏𝑠-𝑃𝑀10\n𝑀𝑀𝑓 𝑡3×𝑀𝑀𝑓 𝑡3\n1,000 ,000  𝑓𝑡3× 𝑓𝑡3\n1,020  𝐵𝑡𝑢×1,000 ,000  𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢×4.25 𝑀𝑀𝐵𝑡𝑢\nℎ𝑟×12 ℎ𝑟𝑠\n𝑑𝑎𝑦] \n \n+[ 8.50−02 𝑙𝑏𝑠-𝑃𝑀 10\n𝑏𝑜𝑑𝑦×𝑏𝑜𝑑𝑦\n150  𝑙𝑏𝑠× 250  𝑙𝑏𝑠\nℎ𝑟×12 ℎ𝑟𝑠\n𝑑𝑎𝑦] \n \n \n=[0.380  𝑙𝑏𝑠-PM 10\n𝑑𝑎𝑦]+[1.700  𝑙𝑏𝑠-PM 10\n𝑑𝑎𝑦]  \n \n \n=2.080 𝑙𝑏𝑠-𝑃𝑀 10 𝑝𝑒𝑟 𝑑𝑎𝑦 \n \n1 Emission factors are obtained from “Chapter 11.6: Crematories” in BAAQMD Permit Handbook . \n2 PM 10 emission factor is obtained from EPA’s FIRE Program.  In deriving the PM 10 emission factor, the \naverage weight per body incinerated was approximately 150 lbs (rounded up).  Therefore, average weight per \nbody incinerated is assumed to be 150 lbs for the calc ulation of the emission values from cremation.  \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n3 | P a g e  \n    \n  \nSimilarly, annual PM 10 emission becomes,  \n \n[𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  𝑓𝑟𝑜𝑚  𝑁𝑎𝑡𝑢𝑟𝑎𝑙  𝐺𝑎𝑠  𝐶𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑜𝑛  𝑓𝑜𝑟 𝑡ℎ𝑒 𝐼𝑛𝑐𝑖𝑛𝑒𝑟𝑎𝑡𝑜𝑟 ] \n \n+[𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  𝑓𝑟𝑜𝑚  𝐶𝑟𝑒𝑚𝑎𝑡𝑖𝑜𝑛  𝑖𝑛𝑐𝑙𝑢𝑑𝑖𝑛𝑔  𝐶𝑎𝑠𝑒  𝑊𝑟𝑎𝑝𝑝𝑖𝑛𝑔𝑠 ] \n \n \n=[ 7.6 𝑙𝑏𝑠-𝑃𝑀10\n𝑀𝑀𝑓 𝑡3×𝑀𝑀𝑓 𝑡3\n1,000 ,000  𝑓𝑡3× 𝑓𝑡3\n1,020  𝐵𝑡𝑢×1,000 ,000  𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢×4.25 𝑀𝑀𝐵𝑡𝑢\nℎ𝑟×3,120  ℎ𝑟𝑠\n𝑦𝑒𝑎𝑟] \n \n+[ 8.50−02 𝑙𝑏𝑠-𝑃𝑀10\n𝑏𝑜𝑑𝑦×𝑏𝑜𝑑𝑦\n150  𝑙𝑏𝑠×352 ,420  𝑝𝑜𝑢𝑛𝑑𝑠\n𝑦𝑒𝑎𝑟] \n \n \n=[99 𝑙𝑏𝑠-PM 10\n𝑦𝑒𝑎𝑟]+[200  𝑙𝑏𝑠-PM 10\n𝑦𝑒𝑎𝑟] \n \n \n=299  lbs-PM10  𝑝𝑒𝑟 𝑦𝑒𝑎𝑟  \n \nThe maximum annual operation hours are used to calculate maximum emissions from the \nnatural gas combustion.  \n \nThe plant cumulative emission calculations are summarized in Table 3.  \n \nTable 3.  Plant Cumulative Emissions  \nPollutant  Existing  New  Total  \n(ton/yr ) (ton/yr ) (ton/yr )  3 \nPM 10 0.130  0.150  0.280  \nNOx  0.640  0.964  1.604  \nCO 0.540  0.806  1.346  \nSO 2 0.210  0.196  0.406  \nPOC  0.300  0.063  0.363",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-4": {
+        "narrative": "S-4 CO 84.00  4.200  1,092  2.21E -01 4.420  519 8.620  1611\nS-4 Matthews  IEB 32 -5S 4.25 Natural Gas  250 352,420\nS-4 will operate at the maximum rate of 250 lbs/hr,  12 hrs/day, with the annual hours of\nSample emission calculations for S-4 are as follows:\nlimited to 352,420  lbs/year by permit condition . S-4 is equipped with one Eclipse TJ75",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "incineration process. Toxic air contaminants (TACs) such as benzene , formaldehyde, and\ntoluene are also emitted during the combustion of natural gas and incineration  of the anim al \ncarcasses .TOXIC HEALTH RISK ASSESSMENT\nThis project triggers health risk assessment.  Please see Appendix A of this report for the \nsummary of the Toxic Air Contaminant (TAC) calculations.  \n \nRegulation 2 -5 requires that the cumulative impacts from all related projects permitted within \nthe last three years be included in the health risk asse ssment.  The facility is new and has not \nsubmitted another application within the last three years.  \n \n3 There are 2,000 lbs in a ton.  \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n4 | P a g e  \n    \n  \nEmissions factors for benzene and toluene from natural gas combustion are from Table 1.4 -3 \nof AP-42. \n  \nBenzene = (0.0021 lb/ MMscf)/ (1020 MMBtu/106 ft3) = 2.06 x 10-6 lb/MMBtu , and  \nToluene = (0.0034 lb/MMscf)/ (1020 MMBtu/106 ft3) = 3.33 x 10-6 lb/MMBtu.  \n \nPer the BAAQMD Permit Handbook Chapter 11.6, formaldehyde and acetaldehyde are \ncalculated from the data in CARB's Test Report No. C -90-004, \"Evaluation Test on Two \nPropane Fired Crematories Camellia Memorial Lawn Cemetery,\" October 29, 1992.  Allother Toxic Air Contaminants (TAC) emission factors for cremation are from EPA's Factor\nInformation Retrieval (FIRE) database.  \n \nBased on 3,120  operating hours per year and the reduced throughput of 352,450 pounds per \nyear for S-4, the project passed the HRA conducted on September 28 , 2021, by the District’s \nToxics  Section.  The throughput was initially proposed  to be 780,000 lbs /year. With initial \nthroughput of 780,000 lbs/year, the r esults from this HRA indicate that the project cancer \nrisk is estimated at 22 in a million, the project chronic hazard index is estimated at 0.26, and \nthe acute hazard index is estimated at 0.012. In accordance with the District’s Regulation 2, \nRule 5, the initial throughput for S -4 did not  comply with the TBACT and project risk \nrequirements. To comply with Regulation 2, Rule 5 project risk requirements, the \nthroughput had to be  reduce d to 352,420 lbs /year.   \n \nWith 352,420 - lbs/year of throughput, that the project cancer risk is estimated at 9.9 in a \nmillion, the project chronic hazard index is estimated at 0. 12, and the acute hazard index is \nestimated at 0.012.  \n \nSince the facility is within 1,000 feet  of school, the health risk was estimated for the students  \nattending the school . At the reduced throughput  of 352,420 lbs/year, the facility passed the \nHRA for students at an estimated cancer risk of 0.24 in a million.  \n \nWith the reduced throughput of 352, 420 lbs/year, S-4 meet s Best Available ControlTechnology for Toxics (TBACT) .Technology for Toxics (TBACT). All the criteria for approval of  ministerial permit\napplications were met pursuant to Regulation 2 -1-428, including the criteria for the TBACT \ndetermination.  Because the approval is ministerial, the project is exempt from CEQA.  A \nCEQA Notice of Exemption will be filed with Alameda Count y.enclosure in associated containers. No other material contaminated with toxic air contaminants as\nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n9 | P a g e  \n    \n listed by Air Resources Board, including radioactive and biohazardous waste shall be incinerated in \nthis cremator w ithout prior approval of the District. (basis: Cumulative Increase; Regulation 2, Rule \n5)  \n \n9. The District may require the owner/operator of the cremator to conduct a District approved source \ntest to determine particulate matter, hydrocarbon, NOX, CO, O2,  HCl, and toxic emissions under \nunusual conditions, such as: disaster bags. The Source Test Section of the District shall be contacted \nto obtain approval for the source test method. The Source Test Section shall be notified at least 7 \ndays in advance of an y expected source test. A copy of source test report for each test shall be \nprovided to the District within 30 days of source test date. (basis: Cumulative Increase; Regulation \n2, Rule 5 )  \n \n10. The owner/operator shall have the S-4 Cremator equipped with sampling ports and platforms, the \nlocation of which shall have the approval of the Source Test Section of the District. (Basis: \nRegulation 6 -1-310)  \n \n11. The owner/operator shall have an operat or present at all times during cremations. (Basis: \nRegulation 6 -1-301)  \n \n12. The owner/operator shall keep the S-4 Cremator in good working condition. The date and \ndetailed description of the type of maintenance done on cremator shall be recorded in a Dist rict \napproved logbook. (basis: Regulation 6 -1-301, 6 -1-310)  \n \n13. To determine compliance with the above conditions, the owner/operator shall maintain the \nfollowing records and provide all of the data necessary to evaluate compliance with the above \nconditi ons, including but not limited to daily record s of the following information:  \na. Natural Gas Usage   \nb. Weight of animal remains  \nc. Processing rate  \n(basis: Regulation 1 -441, Regulation 6 -1-301, 6 -1-310.1, Cumulative Increase, TBACT, Regulation \n2, Rule 5 )  \n \n14. The owner/operator shall keep all monitoring, source test, and maintenance records as required \nper parts 3, 4, 5, 9, 12, and 1 3 on this s ite for at least two years from the date of data entry, and the \nrecords shall be made available to the District staff for inspection. These recordkeeping requirements \nshall not replace the recordkeeping requirements contained in any applicable District regulations. \n(basis: Cumulative Increase, TBACT; Regulation 6 -1-301, 6 -1-310) \n \n \n \n \n \n \n \n \n \n \n \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n10 | P a g eToxic Air Contaminants (TAC) calculation results are summarized in the following table.\n150 lbs per body has been assumed, based on Permitting Handbook chapter on crematories (Chapter 11.6).       \nS-4 will operate at the rate of 250 lbs/hr, and 3120 hours/year , with the capped throughput of 352,420 lbs/year per applicant proposal.  \n \nTable 1. Project Total TAC Emissions from Natural Gas Combustion and Incineration  \n    Combined  Acute  Surpassed  Combined  Chronic  Surpassed  \nSources  TAC  Emissions  Trigger  Acute  Emissions  Trigger  Chronic  \n    from S -4 Level  Trigger  from S -4 Level  Trigger  \n    (lb/hr)  (lb/hr)  Level?  (lb/yr)  (lb/yr)  Level?  \n  Acetaldehyde  2.17E -04 1.00E+00  No 3.05E -01 2.90E+01  No \n  Arsenic  2.50E -05 4.40E -04 No 3.52E -02 1.60E -03 Yes \n                \n  Beryllium  2.33E -06 N/A N/A 3.29E -03 3.40E -02 No \n  Cadmium  1.83E -05 N/A N/A 2.58E -02 1.90E -02 Yes \n  Chromium, hexavalent  2.33E -05 N/A N/A 3.29E -02 5.10E -04 Yes \n  Copper  4.50E -05 2.20E -01 No 6.34E -02 N/A No \n  Formaldehyde  3.69E -04 1.20E -01 No 1.05E+00  1.40E+01  No \nS-4 Hydrogen Chloride  1.20E -01 4.60E+00  No 1.69E+02  3.50E+02  No \n  Hydrogen Fluoride  1.10E -03 5.30E -01 No 1.55E+00  5.80E+01  No \n  Lead  1.10E -04 N/A No 1.55E -01 2.90E -01 No \n  Mercury  Not Relevant*  \n  Nickel  6.33E -05 3.10E -05 Yes 8.93E -02 3.10E -01 No \n  Selenium  3.63E -05 N/A N/A 5.12E -02 8.00E+00  No \n                \n  Chlorinated Dibenzodioxins and Furans  1.77E -09 N/A N/A 2.50E -06 4.40E -08 Yes \n  Polycy clic Aromatic Hydrocarbons (PAHs)  4.04E -08 N/A N/A 5.70E -05 3.30E -03 No \n  Benzene  8.76E -06 6.00E -02 No 2.73E -02 2.90E+00  No \n  Toluene  1.42E -05 8.20E+01  No 4.42E -02 1.20E+04  No \n*Mercury emissions are only from human cremations."
+  },
+  "BACT": {
+    "text": "BEST AVAILABLE CONTROL TECHNOLOGY (BACT)\nT)    \nIn accordance with Reg ulation  2-2-301 (Best Available Control Technology Requirement), \nBACT is triggered for any new or modified source with the potential to emit 10 pounds or \nmore per highest day of POC, NPOC, NOx, CO, SO 2 PM 10, or PM 2.5.  \n \nFor S-4, daily NOx emissions exceed 10 poun ds. Therefore, BACT is triggered for NOx . \nBACT for the crematorium  is presented in the “BAAQMD BACT Guideline – Crematory ” \n(Workbook).  The following table provides an analysis of the BACT requirements.  \n \n Table 4  Analysis of BACT Requirements  \nPollutant  BACT  \nRequirement  Source  Source Data  In Compliance \nwith \nRequirement?  \nNO X Natural Gas Firing  S-4 Natural Gas \nFuel Yes \n \nApplying the aforementioned methodology, S-4 is expected to satisfy the BACT \nrequirements for NO X and CO."
+  },
+  "offsets": {
+    "narrative": "OFFSETS\nTS  \nOffsets must be provided for any new or modified source at a facility that emits more than 10 \ntons per year of POC or NO x. Furthermore, pursuant to Regulation 2 -2-303, offsets must be \nprovided for any new or modified source with a cumulative increase that exceeds 100 tons per \nyear of PM10 or SO2.  As shown in Tables 3, the facility emissions do not exceed the offset \nthreshold for any pollutant.  Therefore, offsets are not triggered for this project.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "SO2",
+          3.0,
+          "N/A",
+          null
+        ],
+        [
+          "PM10",
+          2.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act: CEQA\nThe issuance of this Authority to Construct is ex empt from CEQA because the Air District’s \napproval was “ministerial” and, therefore, exempt from CEQA under CEQA § 21080(b)(1); \nCEQA Guidelines Section 15268(a). The issuance of this Authority to Construct is exempt \nfrom CEQA per Regulation 2 -1-312.11 .  \n \nThe Air District’s action is ministerial because regulatory requirements that govern the \napproval of this project involved objective numerical standards outlined in the Permit \nHandbook Chapter 11.6, which did not allow for or require any subjective judgmen t or \ndiscretion to interpret or apply.  The Air District is required to approve the project where it \ncomplied with such standards. The cremator y met the requirements for Best Available Control"
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nCE  \nRegulation 1: General Provisions & Definitions  \nRegulation 1, Section 301 prohibits all sources from causing public nuisance.  This source is \nnot expected to be a source of public nuisance for either odor or emissions if it is maintained \nand operated in accordance with the manufacturer’s recommendations .   \n \nRegulation 6, Rule 1: Particulate Matter – General Requirements  \nThe owner/operator is expected to comply with Reg ulation  6-1 (Particulate Matter and Visible \nEmissions Standards), since the unit is fueled with LPG.  Thus, for any period aggregating \nmore than three minutes in any hour, there should be no visible emission as dark or darker \nthan No. 1 on the Ringlemann Chart (Regulation 6 -1-301) and no visible emission to exceed \n20% opacity (Reg ulation  6-1-302).   \n \nRegulation  6-1-305 prohibits emissions of  visible particles from causing a nuisance on \nproperty other than that of the operator. With proper equipment operation, this project is \nexpected to comply with this standard.   \n \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n5 | P a g e  \n    \n Regulation  6-1-310 limits particulate emissions to 0.15 grains/dscf of exhaus t gas volume.  \n \n \n \n \n \nThe estimated  grain loading for the cremation is calculated as follows:  \n \nS-4: \n \n[ (hourly PM -10 emissions from natural gas combustion)   \n+ (hourly PM -10 emissions from cremation) ] / (12 hours per day of operation)  \n \n× (7,000 grains / lb) × (hour/60 min) × (min/ 2,100 dscf)  \n \n \n= (combined daily PM -10 emissions)  / (12 hours per day of operation)  \n \n× (7,000 grains / lb) × (hour/60 min) × (min/ 2,100  dscf)  \n \n \n= (2.080 lbs PM -10) / day / (12 hours per day of operation)  \n \n× (7,000 grains / lb) × (hour/60 min) × (min/ 2,100  dscf)  \n \n \n= 0.0096 grains / dscf.  \n \nSince 0.0096 grains/dscf is less than 0.15 grains/dscf, compliance with this rule is expected.  \n \nRegulation  6-1-401 requires the operator to ha ve the means to visually monitor  emissions \nfrom the operation at all times.  The emissions from the incinerator  will occur during active, \nmanned operation of the source . Therefore,  the emissions will be always visible to the \noperator . \n \nRegulation 7: Odorou s Substances  \nIn Regulation 7, Sections 301 and 302 limit discharges  of odorous emissions from sources. \nThis source is not expected to be a source of public nuisance for either odor or emissions if it \nis maintained and operated in accordance with the manufa cturer’s recommendations.   \n \nRegulation 8, Rule 2: Miscellaneous Operations  \nRegulation  8-2-301 prohibits any miscellaneous operation from discharging an emission \ncontaining more than 15 pounds per day and containing a concentration of 300 ppm total \ncarbon on a dry basis. The daily POC emissions were estimated at 0.17 2 lbs/day. Since the \nemissions from the proposed equipment is less than 15 lbs/day limit, this project will comply \nwith Regulation 8 -2-301. \n \nRegulation 9, Rule 1: Inorganic Gaseous Pollutants – Sulfur Dioxide  \nThis rule establishes emission limits for sulfur dioxide from all sourc es, and limits ground \nlevel concentrations of sulfur dioxide. S -4 will comply with this rule by using only natural gas \nfor its fuel.   \n \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n6 | P a g e  \n    \n  \n \n \n \n \n \nSO 2 concentration becomes,  \n \n0.60 𝑙𝑏𝑠-SO2\n𝑀𝑀𝑓 𝑡3×𝑀𝑀𝑓 𝑡3\n106  𝑓𝑡3× 𝑓𝑡3\n1,020  𝐵𝑡𝑢×106 𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢×385.5 ft3-SO2\nlb-mol SO2 ×106 standard f t3 flue\n 1 ft3-SO2 \n \n×(20.9−3)\n20.9×1 lb-mol SO2\n64.06 lb-SO2×𝑀𝑀𝐵𝑡𝑢\n8,710  ft3 flue \n \n \n = 0.348 ppmv at 3% O2  \n \nBased on the calculation above, combustion of natural gas is expected to produce a SO 2 \nconcentration of less than 1 ppmv, thereby meeting the requirement of a maximum outlet \nconcentration of 300 ppmv of SO 2   prescribed in Regulation 9, Rule 1 -302."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "California Health & Safety Code §42301.6 and Regulation 2 -1-412\nPursuant to California Health & Safety Code §42301.6(a), prior to approving an application \nfor a permit to construct or modification of a source, which is located within 1,000 feet from \nthe outer boundary of a school site, the District shall prepare a public notice as detailed in \n§42301.6.  §42301.9(a) defines a “school” as any public or private school used for the \npurposes of the education of more than 12 children in kindergarten or  any grades 1 to 12, \ninclusive, but does not include any private school in which education is primarily conducted \nin private homes.  \n \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n7 | P a g e  \n    \n The proposed cremator  will be located within 1,000 feet of the outer boundary of K -12 \nschools.  Therefore, the requirements of the California Health & Safety Code §42301.6 are \napplicable.   \n \nPublic School Notification  \nThis application proposes a new source of TACs and is locat ed within 1,000 feet of the outerboundary of a school. Therefore, public notification pursuant to Reg. 2 -1-412 is required.\nThe school public notice w ill be distributed to the parents and guardians of the students at \nthe following school as well as to add resses located within 1,000 feet of the site:  \n \n• Hayward Twin Oaks Montessori School , 2652 Vergil Ct, Castro Valley, CA 94546  \n \nThe public notice period ended The public was informed that the proposed cremator  \ncomplies with all the rules and regulations of Bay Area Air Quality Management District \nand therefore we will be issuing an authority to construct for the proposed cremator ."
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS\nITIONS  \nCOND# 27506 --------------------------------------  \n \nS-4 Animal Cremator: Matthews, Model IEB 32 -5S, \n with five primary burners, one secondary burner, total 4.25 MMBTU/hr,  \n 250 lbs/hr, natural gas fired   \n \n1. The owner/operator shall operate S-4 Cremator in such a way that the cremator’s processing  \nrate shall not exceed 250 pounds per hour, and the maximum firing rate shall not exceed  \n4.25 MM BTU  per hour.  \n(basis: Cumulative Increase; Regulation 2, Rule 5 )  \n \n2. The  owner/operator shall ensure that the minimum  stack height will be 40 feet for S-4 Matthews \nIEB32-4S cremator . \n(basis: Regulation 2, Rule 5 ) \n \n3. The owner/operator shall  ensure that the total natural gas usage at  S-4 shall not exceed 13,260 \nMMBtu  in any consecutive twelve -month period . \n(basis: Cumulative Increase; Regulation 2, Rule  5) \n \n4. The owner/operator shall not cremate more than 352,420  pound s of animal remains  using S-4 \nMatthews IEB 32-4S cremator in any consecutive twelve -month period .  \n(basis: Cumulative Increase; Regulation 2, Rule 5 )  \n \n5. The owner/operator shall maintain the operating temperature in the secondary chamber of the S-4 \nCremator s at or above 1650 degree s Fahrenheit during the cremation mode. Any temperature \nexcursion below 1600 degree s Fahrenheit during the cremation mode wil l be considered a violation \nof this permit condition. The owner/operator shall equip the cremator with a District approved \ncontinuous temperature monitoring and recording device to ensure compliance with this condition. \nThe location of the thermocouple sha ll be approved by the Source Test Section of the District. \nNatural gas input to the secondary chamber burner shall be increased, if necessary, to increase \ntemperature sufficiently to control odor and visible plume. (Basis: Regulation 6 -1-301, 6 -1-310;"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator shall operate S-4 Cremator in such a way that the cremator’s processing  \nrate shall not exceed 250 pounds per hour, and the maximum firing rate shall not exceed",
+        "basis": []
+      },
+      {
+        "num": 4,
+        "text": "25 MM BTU  per hour.  \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 2",
+          "Rule 5 )"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The  owner/operator shall ensure that the minimum  stack height will be 40 feet for S-4 Matthews \nIEB32-4S cremator . \n(",
+        "basis": [
+          "Regulation 2",
+          "Rule 5 )"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator shall  ensure that the total natural gas usage at  S-4 shall not exceed 13,260 \nMMBtu  in any consecutive twelve -month period . \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 2",
+          "Rule  5)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "The owner/operator shall not cremate more than 352,420  pound s of animal remains  using S-4 \nMatthews IEB 32-4S cremator in any consecutive twelve -month period .  \n(",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 2",
+          "Rule 5 )"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "The owner/operator shall maintain the operating temperature in the secondary chamber of the S-4 \nCremator s at or above 1650 degree s Fahrenheit during the cremation mode. Any temperature \nexcursion below 1600 degree s Fahrenheit during the cremation mode wil l be considered a violation \nof this permit condition. The owner/operator shall equip the cremator with a District approved \ncontinuous temperature monitoring and recording device to ensure compliance with this condition. \nThe location of the thermocouple sha ll be approved by the Source Test Section of the District. \nNatural gas input to the secondary chamber burner shall be increased, if necessary, to increase \ntemperature sufficiently to control odor and visible plume. (",
+        "basis": [
+          "Regulation 6 -1-301",
+          "6 -1-310"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nENDATION  \nIssue an Authority to Construct for the following source s: \n \nS-4 Animal Cremator: Matthews, Model IEB 32 -5S, \n with five primary burners, one secondary burner, total 4.25 MMBTU/hr,  \n 250 lbs/hr, natural gas fired   \n \n \n \n \n \n \n                                                   Date : 04/25/2022  \n                         Youjin Kim  \n                      Air Quality Engineer   \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n Appendix A"
+  },
+  "raw_sections": {
+    "preamble": "Golden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n Engineering Evaluation  \nGolden State Pet Crematorium  \n2423 Grove Way, Castro Valley, CA 94546  \nPlant No. 21539  \nApplication No. 30307  \n \nProject Description: Animal Crematory Equipment",
+    "blocks": [
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND  \nGolden State Pet Crematorium  is applying for Authority  to Construct and Permit  to Operate \nfor the following equipment:  \n  \nS-4 Animal Cremator: Matthews, Model IEB 32 -5S, \n with five primary burners, one secondary burner, total 4.25 MMBTU/hr,  \n 250 lbs/hr, natural gas fired   \n \nThe animal  crematory equipment  will be  located at 2423 Grove Way, Castro Valley, CA \n94546 . The primary emissions from each cremator  include s nitrogen oxides (NO x), carbon \nmonoxide (CO), particulate matter (PM), sulfur dioxide (SO 2) and precursor organic \ncompo unds (POCs) from the combustion of natural gas for fuel and the animal carcass"
+      },
+      {
+        "heading": "incineration process. Toxic air contaminants (TACs) such as benzene , formaldehyde, and",
+        "alias": "TOXICS",
+        "text": "incineration process. Toxic air contaminants (TACs) such as benzene , formaldehyde, and\ntoluene are also emitted during the combustion of natural gas and incineration  of the anim al \ncarcasses ."
+      },
+      {
+        "heading": "EMI SSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMI SSION CALCULATIONS\nNS   \nThe applicant has provided the information as shown in Table 1.  \n \nS-4 will operate at the maximum rate of 250 lbs/hr,  12 hrs/day, with the annual hours of \noperation limited to 3120 h ours by permit condition . Annual animal carcass throughput is \nlimited to 352,420  lbs/year by permit condition . S-4 is equipped with one Eclipse TJ75 \nPrimary Burner (0.75 MMBtu/hr), four Eclipse TJ50 Primary Burners (0.50 MMBtu/hr), and \none TJ150 Secondary Burner (1.5 MMBtu/hr). T he total heat input rat ing for S -4 is 4.25  \nMMBtu/hr.  \n \nTable 1.  Incinerator Specifications  \nSource  Manufacturer  Model  Heat Input \nRating  Fuel  Animal Carcass  \nThroughput  \n      (MMBtu/hr)    (lbs/hour)  (lbs/year)   \nS-4 Matthews  IEB 32 -5S 4.25 Natural Gas  250 352,420 \n \n \n \n \n \n \n \n \n \n \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n2 | P a g e"
+      },
+      {
+        "heading": "EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSION CALCULATIONS\nATIONS  \nPotential to emit (PTE) values are summarized in the following table.  \n \nTable 2. PTE Calculations  \n    Emissions from Natural Gas \nCombustion  1 Emissions from Cremation  2 \n[Including case wrappings]  Total Emissions  \nSource  Pollutant  Emission \nFactor  Daily  Annual  Emission \nFactor  Daily  Annual  Daily  Annual  \n    (lb/MMft3) (lb/day)  (lb/yr)   (lb/body)  (lb/day)  (lb/yr)  (lb/day)  (lb/yr)  \n  PM10  7.60 0.380  99 8.50E -02 1.700  200 2.080  299 \n  NOx  100.00  5.000  1,300  2.67E -01 5.250 627 10.250 1927  \nS-4 CO 84.00  4.200  1,092  2.21E -01 4.420  519 8.620  1611  \n  SO2 0.60 0.030  8 1.63E -01 3.260  383 3.290  391 \n  POC  5.50 0.275  72 2.24E -02 0.448  53 0.723  125 \n \nAdditional assumptions are made as follows:  \n \n• 1,020 Btu / 1 ft3 \n• It is assumed that PM 10 emission equals PM2.5 emission  \n• Body = 150 lbs  \n \nSample emission calculations for S-4 are as follows:  \n \nDaily PM 10 emission becomes,  \n \n[𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  𝑓𝑟𝑜𝑚  𝑁𝑎𝑡𝑢𝑟𝑎𝑙  𝐺𝑎𝑠  𝐶𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑜𝑛  𝑓𝑜𝑟 𝑡ℎ𝑒 𝐼𝑛𝑐𝑖𝑛𝑒𝑟𝑎𝑡𝑜𝑟 ] \n \n+[𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  𝑓𝑟𝑜𝑚  𝐶𝑟𝑒𝑚𝑎𝑡𝑖𝑜𝑛  𝑖𝑛𝑐𝑙𝑢𝑑𝑖𝑛𝑔  𝐶𝑎𝑠𝑒  𝑊𝑟𝑎𝑝𝑝𝑖𝑛𝑔𝑠 ] \n \n \n=[ 7.6 𝑙𝑏𝑠-𝑃𝑀10\n𝑀𝑀𝑓 𝑡3×𝑀𝑀𝑓 𝑡3\n1,000 ,000  𝑓𝑡3× 𝑓𝑡3\n1,020  𝐵𝑡𝑢×1,000 ,000  𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢×4.25 𝑀𝑀𝐵𝑡𝑢\nℎ𝑟×12 ℎ𝑟𝑠\n𝑑𝑎𝑦] \n \n+[ 8.50−02 𝑙𝑏𝑠-𝑃𝑀 10\n𝑏𝑜𝑑𝑦×𝑏𝑜𝑑𝑦\n150  𝑙𝑏𝑠× 250  𝑙𝑏𝑠\nℎ𝑟×12 ℎ𝑟𝑠\n𝑑𝑎𝑦] \n \n \n=[0.380  𝑙𝑏𝑠-PM 10\n𝑑𝑎𝑦]+[1.700  𝑙𝑏𝑠-PM 10\n𝑑𝑎𝑦]  \n \n \n=2.080 𝑙𝑏𝑠-𝑃𝑀 10 𝑝𝑒𝑟 𝑑𝑎𝑦 \n \n1 Emission factors are obtained from “Chapter 11.6: Crematories” in BAAQMD Permit Handbook . \n2 PM 10 emission factor is obtained from EPA’s FIRE Program.  In deriving the PM 10 emission factor, the \naverage weight per body incinerated was approximately 150 lbs (rounded up).  Therefore, average weight per \nbody incinerated is assumed to be 150 lbs for the calc ulation of the emission values from cremation.  \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n3 | P a g e  \n    \n  \nSimilarly, annual PM 10 emission becomes,  \n \n[𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  𝑓𝑟𝑜𝑚  𝑁𝑎𝑡𝑢𝑟𝑎𝑙  𝐺𝑎𝑠  𝐶𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑜𝑛  𝑓𝑜𝑟 𝑡ℎ𝑒 𝐼𝑛𝑐𝑖𝑛𝑒𝑟𝑎𝑡𝑜𝑟 ] \n \n+[𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  𝑓𝑟𝑜𝑚  𝐶𝑟𝑒𝑚𝑎𝑡𝑖𝑜𝑛  𝑖𝑛𝑐𝑙𝑢𝑑𝑖𝑛𝑔  𝐶𝑎𝑠𝑒  𝑊𝑟𝑎𝑝𝑝𝑖𝑛𝑔𝑠 ] \n \n \n=[ 7.6 𝑙𝑏𝑠-𝑃𝑀10\n𝑀𝑀𝑓 𝑡3×𝑀𝑀𝑓 𝑡3\n1,000 ,000  𝑓𝑡3× 𝑓𝑡3\n1,020  𝐵𝑡𝑢×1,000 ,000  𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢×4.25 𝑀𝑀𝐵𝑡𝑢\nℎ𝑟×3,120  ℎ𝑟𝑠\n𝑦𝑒𝑎𝑟] \n \n+[ 8.50−02 𝑙𝑏𝑠-𝑃𝑀10\n𝑏𝑜𝑑𝑦×𝑏𝑜𝑑𝑦\n150  𝑙𝑏𝑠×352 ,420  𝑝𝑜𝑢𝑛𝑑𝑠\n𝑦𝑒𝑎𝑟] \n \n \n=[99 𝑙𝑏𝑠-PM 10\n𝑦𝑒𝑎𝑟]+[200  𝑙𝑏𝑠-PM 10\n𝑦𝑒𝑎𝑟] \n \n \n=299  lbs-PM10  𝑝𝑒𝑟 𝑦𝑒𝑎𝑟  \n \nThe maximum annual operation hours are used to calculate maximum emissions from the \nnatural gas combustion.  \n \nThe plant cumulative emission calculations are summarized in Table 3.  \n \nTable 3.  Plant Cumulative Emissions  \nPollutant  Existing  New  Total  \n(ton/yr ) (ton/yr ) (ton/yr )  3 \nPM 10 0.130  0.150  0.280  \nNOx  0.640  0.964  1.604  \nCO 0.540  0.806  1.346  \nSO 2 0.210  0.196  0.406  \nPOC  0.300  0.063  0.363"
+      },
+      {
+        "heading": "TOXIC HEALTH RISK ASSESSMENT",
+        "alias": "TOXICS",
+        "text": "TOXIC HEALTH RISK ASSESSMENT\nThis project triggers health risk assessment.  Please see Appendix A of this report for the \nsummary of the Toxic Air Contaminant (TAC) calculations.  \n \nRegulation 2 -5 requires that the cumulative impacts from all related projects permitted within \nthe last three years be included in the health risk asse ssment.  The facility is new and has not \nsubmitted another application within the last three years.  \n \n3 There are 2,000 lbs in a ton.  \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n4 | P a g e  \n    \n  \nEmissions factors for benzene and toluene from natural gas combustion are from Table 1.4 -3 \nof AP-42. \n  \nBenzene = (0.0021 lb/ MMscf)/ (1020 MMBtu/106 ft3) = 2.06 x 10-6 lb/MMBtu , and  \nToluene = (0.0034 lb/MMscf)/ (1020 MMBtu/106 ft3) = 3.33 x 10-6 lb/MMBtu.  \n \nPer the BAAQMD Permit Handbook Chapter 11.6, formaldehyde and acetaldehyde are \ncalculated from the data in CARB's Test Report No. C -90-004, \"Evaluation Test on Two \nPropane Fired Crematories Camellia Memorial Lawn Cemetery,\" October 29, 1992.  All"
+      },
+      {
+        "heading": "other Toxic Air Contaminants (TAC) emission factors for cremation are from EPA's Factor",
+        "alias": "TOXICS",
+        "text": "other Toxic Air Contaminants (TAC) emission factors for cremation are from EPA's Factor\nInformation Retrieval (FIRE) database.  \n \nBased on 3,120  operating hours per year and the reduced throughput of 352,450 pounds per \nyear for S-4, the project passed the HRA conducted on September 28 , 2021, by the District’s \nToxics  Section.  The throughput was initially proposed  to be 780,000 lbs /year. With initial \nthroughput of 780,000 lbs/year, the r esults from this HRA indicate that the project cancer \nrisk is estimated at 22 in a million, the project chronic hazard index is estimated at 0.26, and \nthe acute hazard index is estimated at 0.012. In accordance with the District’s Regulation 2, \nRule 5, the initial throughput for S -4 did not  comply with the TBACT and project risk \nrequirements. To comply with Regulation 2, Rule 5 project risk requirements, the \nthroughput had to be  reduce d to 352,420 lbs /year.   \n \nWith 352,420 - lbs/year of throughput, that the project cancer risk is estimated at 9.9 in a \nmillion, the project chronic hazard index is estimated at 0. 12, and the acute hazard index is \nestimated at 0.012.  \n \nSince the facility is within 1,000 feet  of school, the health risk was estimated for the students  \nattending the school . At the reduced throughput  of 352,420 lbs/year, the facility passed the \nHRA for students at an estimated cancer risk of 0.24 in a million.  \n \nWith the reduced throughput of 352, 420 lbs/year, S-4 meet s Best Available Control"
+      },
+      {
+        "heading": "Technology for Toxics (TBACT) .",
+        "alias": "TOXICS",
+        "text": "Technology for Toxics (TBACT) ."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE  \nRegulation 1: General Provisions & Definitions  \nRegulation 1, Section 301 prohibits all sources from causing public nuisance.  This source is \nnot expected to be a source of public nuisance for either odor or emissions if it is maintained \nand operated in accordance with the manufacturer’s recommendations .   \n \nRegulation 6, Rule 1: Particulate Matter – General Requirements  \nThe owner/operator is expected to comply with Reg ulation  6-1 (Particulate Matter and Visible \nEmissions Standards), since the unit is fueled with LPG.  Thus, for any period aggregating \nmore than three minutes in any hour, there should be no visible emission as dark or darker \nthan No. 1 on the Ringlemann Chart (Regulation 6 -1-301) and no visible emission to exceed \n20% opacity (Reg ulation  6-1-302).   \n \nRegulation  6-1-305 prohibits emissions of  visible particles from causing a nuisance on \nproperty other than that of the operator. With proper equipment operation, this project is \nexpected to comply with this standard.   \n \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n5 | P a g e  \n    \n Regulation  6-1-310 limits particulate emissions to 0.15 grains/dscf of exhaus t gas volume.  \n \n \n \n \n \nThe estimated  grain loading for the cremation is calculated as follows:  \n \nS-4: \n \n[ (hourly PM -10 emissions from natural gas combustion)   \n+ (hourly PM -10 emissions from cremation) ] / (12 hours per day of operation)  \n \n× (7,000 grains / lb) × (hour/60 min) × (min/ 2,100 dscf)  \n \n \n= (combined daily PM -10 emissions)  / (12 hours per day of operation)  \n \n× (7,000 grains / lb) × (hour/60 min) × (min/ 2,100  dscf)  \n \n \n= (2.080 lbs PM -10) / day / (12 hours per day of operation)  \n \n× (7,000 grains / lb) × (hour/60 min) × (min/ 2,100  dscf)  \n \n \n= 0.0096 grains / dscf.  \n \nSince 0.0096 grains/dscf is less than 0.15 grains/dscf, compliance with this rule is expected.  \n \nRegulation  6-1-401 requires the operator to ha ve the means to visually monitor  emissions \nfrom the operation at all times.  The emissions from the incinerator  will occur during active, \nmanned operation of the source . Therefore,  the emissions will be always visible to the \noperator . \n \nRegulation 7: Odorou s Substances  \nIn Regulation 7, Sections 301 and 302 limit discharges  of odorous emissions from sources. \nThis source is not expected to be a source of public nuisance for either odor or emissions if it \nis maintained and operated in accordance with the manufa cturer’s recommendations.   \n \nRegulation 8, Rule 2: Miscellaneous Operations  \nRegulation  8-2-301 prohibits any miscellaneous operation from discharging an emission \ncontaining more than 15 pounds per day and containing a concentration of 300 ppm total \ncarbon on a dry basis. The daily POC emissions were estimated at 0.17 2 lbs/day. Since the \nemissions from the proposed equipment is less than 15 lbs/day limit, this project will comply \nwith Regulation 8 -2-301. \n \nRegulation 9, Rule 1: Inorganic Gaseous Pollutants – Sulfur Dioxide  \nThis rule establishes emission limits for sulfur dioxide from all sourc es, and limits ground \nlevel concentrations of sulfur dioxide. S -4 will comply with this rule by using only natural gas \nfor its fuel.   \n \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n6 | P a g e  \n    \n  \n \n \n \n \n \nSO 2 concentration becomes,  \n \n0.60 𝑙𝑏𝑠-SO2\n𝑀𝑀𝑓 𝑡3×𝑀𝑀𝑓 𝑡3\n106  𝑓𝑡3× 𝑓𝑡3\n1,020  𝐵𝑡𝑢×106 𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢×385.5 ft3-SO2\nlb-mol SO2 ×106 standard f t3 flue\n 1 ft3-SO2 \n \n×(20.9−3)\n20.9×1 lb-mol SO2\n64.06 lb-SO2×𝑀𝑀𝐵𝑡𝑢\n8,710  ft3 flue \n \n \n = 0.348 ppmv at 3% O2  \n \nBased on the calculation above, combustion of natural gas is expected to produce a SO 2 \nconcentration of less than 1 ppmv, thereby meeting the requirement of a maximum outlet \nconcentration of 300 ppmv of SO 2   prescribed in Regulation 9, Rule 1 -302."
+      },
+      {
+        "heading": "California Environmental Quality Act: CEQA",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act: CEQA\nThe issuance of this Authority to Construct is ex empt from CEQA because the Air District’s \napproval was “ministerial” and, therefore, exempt from CEQA under CEQA § 21080(b)(1); \nCEQA Guidelines Section 15268(a). The issuance of this Authority to Construct is exempt \nfrom CEQA per Regulation 2 -1-312.11 .  \n \nThe Air District’s action is ministerial because regulatory requirements that govern the \napproval of this project involved objective numerical standards outlined in the Permit \nHandbook Chapter 11.6, which did not allow for or require any subjective judgmen t or \ndiscretion to interpret or apply.  The Air District is required to approve the project where it \ncomplied with such standards. The cremator y met the requirements for Best Available Control"
+      },
+      {
+        "heading": "Technology for Toxics (TBACT). All the criteria for approval of  ministerial permit",
+        "alias": "TOXICS",
+        "text": "Technology for Toxics (TBACT). All the criteria for approval of  ministerial permit\napplications were met pursuant to Regulation 2 -1-428, including the criteria for the TBACT \ndetermination.  Because the approval is ministerial, the project is exempt from CEQA.  A \nCEQA Notice of Exemption will be filed with Alameda Count y."
+      },
+      {
+        "heading": "California Health & Safety Code §42301.6 and Regulation 2 -1-412",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "California Health & Safety Code §42301.6 and Regulation 2 -1-412\nPursuant to California Health & Safety Code §42301.6(a), prior to approving an application \nfor a permit to construct or modification of a source, which is located within 1,000 feet from \nthe outer boundary of a school site, the District shall prepare a public notice as detailed in \n§42301.6.  §42301.9(a) defines a “school” as any public or private school used for the \npurposes of the education of more than 12 children in kindergarten or  any grades 1 to 12, \ninclusive, but does not include any private school in which education is primarily conducted \nin private homes.  \n \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n7 | P a g e  \n    \n The proposed cremator  will be located within 1,000 feet of the outer boundary of K -12 \nschools.  Therefore, the requirements of the California Health & Safety Code §42301.6 are \napplicable.   \n \nPublic School Notification  \nThis application proposes a new source of TACs and is locat ed within 1,000 feet of the outer"
+      },
+      {
+        "heading": "boundary of a school. Therefore, public notification pursuant to Reg. 2 -1-412 is required.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "boundary of a school. Therefore, public notification pursuant to Reg. 2 -1-412 is required.\nThe school public notice w ill be distributed to the parents and guardians of the students at \nthe following school as well as to add resses located within 1,000 feet of the site:  \n \n• Hayward Twin Oaks Montessori School , 2652 Vergil Ct, Castro Valley, CA 94546  \n \nThe public notice period ended The public was informed that the proposed cremator  \ncomplies with all the rules and regulations of Bay Area Air Quality Management District \nand therefore we will be issuing an authority to construct for the proposed cremator ."
+      },
+      {
+        "heading": "BEST AVAILABLE CONTROL TECHNOLOGY (BACT)",
+        "alias": "BACT",
+        "text": "BEST AVAILABLE CONTROL TECHNOLOGY (BACT)\nT)    \nIn accordance with Reg ulation  2-2-301 (Best Available Control Technology Requirement), \nBACT is triggered for any new or modified source with the potential to emit 10 pounds or \nmore per highest day of POC, NPOC, NOx, CO, SO 2 PM 10, or PM 2.5.  \n \nFor S-4, daily NOx emissions exceed 10 poun ds. Therefore, BACT is triggered for NOx . \nBACT for the crematorium  is presented in the “BAAQMD BACT Guideline – Crematory ” \n(Workbook).  The following table provides an analysis of the BACT requirements.  \n \n Table 4  Analysis of BACT Requirements  \nPollutant  BACT  \nRequirement  Source  Source Data  In Compliance \nwith \nRequirement?  \nNO X Natural Gas Firing  S-4 Natural Gas \nFuel Yes \n \nApplying the aforementioned methodology, S-4 is expected to satisfy the BACT \nrequirements for NO X and CO."
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nTS  \nOffsets must be provided for any new or modified source at a facility that emits more than 10 \ntons per year of POC or NO x. Furthermore, pursuant to Regulation 2 -2-303, offsets must be \nprovided for any new or modified source with a cumulative increase that exceeds 100 tons per \nyear of PM10 or SO2.  As shown in Tables 3, the facility emissions do not exceed the offset \nthreshold for any pollutant.  Therefore, offsets are not triggered for this project."
+      },
+      {
+        "heading": "NEW SOURCE PERFORMANCE STANDARDS (NSPS)",
+        "alias": null,
+        "text": "NEW SOURCE PERFORMANCE STANDARDS (NSPS)\nS)  \nNSPS requirements do not apply to incinerators at animal crematories.  \n \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n8 | P a g e"
+      },
+      {
+        "heading": "NATIONAL EMISSION STANDARDS FOR HAZARDOUS AIR POLLUTANTS",
+        "alias": null,
+        "text": "NATIONAL EMISSION STANDARDS FOR HAZARDOUS AIR POLLUTANTS\nUTANTS \n(NESHAP)   \nNESHAP requirements do not apply to incinerators at animal crematories."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nITIONS  \nCOND# 27506 --------------------------------------  \n \nS-4 Animal Cremator: Matthews, Model IEB 32 -5S, \n with five primary burners, one secondary burner, total 4.25 MMBTU/hr,  \n 250 lbs/hr, natural gas fired   \n \n1. The owner/operator shall operate S-4 Cremator in such a way that the cremator’s processing  \nrate shall not exceed 250 pounds per hour, and the maximum firing rate shall not exceed  \n4.25 MM BTU  per hour.  \n(basis: Cumulative Increase; Regulation 2, Rule 5 )  \n \n2. The  owner/operator shall ensure that the minimum  stack height will be 40 feet for S-4 Matthews \nIEB32-4S cremator . \n(basis: Regulation 2, Rule 5 ) \n \n3. The owner/operator shall  ensure that the total natural gas usage at  S-4 shall not exceed 13,260 \nMMBtu  in any consecutive twelve -month period . \n(basis: Cumulative Increase; Regulation 2, Rule  5) \n \n4. The owner/operator shall not cremate more than 352,420  pound s of animal remains  using S-4 \nMatthews IEB 32-4S cremator in any consecutive twelve -month period .  \n(basis: Cumulative Increase; Regulation 2, Rule 5 )  \n \n5. The owner/operator shall maintain the operating temperature in the secondary chamber of the S-4 \nCremator s at or above 1650 degree s Fahrenheit during the cremation mode. Any temperature \nexcursion below 1600 degree s Fahrenheit during the cremation mode wil l be considered a violation \nof this permit condition. The owner/operator shall equip the cremator with a District approved \ncontinuous temperature monitoring and recording device to ensure compliance with this condition. \nThe location of the thermocouple sha ll be approved by the Source Test Section of the District. \nNatural gas input to the secondary chamber burner shall be increased, if necessary, to increase \ntemperature sufficiently to control odor and visible plume. (Basis: Regulation 6 -1-301, 6 -1-310;"
+      },
+      {
+        "heading": "TBAC T)",
+        "alias": null,
+        "text": "TBAC T)\n6. After the shutdown, the owner/operator shall not cremate until the S-4 Cremator has been \npreheated so that the temperature in the secondary chamber is at least 1650 degree s Fahrenheit. \n(Basis: Regulation 6 -1-301, 6 -1-310; TBACT)  \n \n7. The owner/oper ator shall fire the S-4 Cremator with natural gas only. (basis: Cumulative Increase;"
+      },
+      {
+        "heading": "TBACT)",
+        "alias": null,
+        "text": "TBACT)\n8. The owner/operator shall use the S-4 Cremator s to cremate animal remains with or without"
+      },
+      {
+        "heading": "enclosure in associated containers. No other material contaminated with toxic air contaminants as",
+        "alias": "TOXICS",
+        "text": "enclosure in associated containers. No other material contaminated with toxic air contaminants as\nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n9 | P a g e  \n    \n listed by Air Resources Board, including radioactive and biohazardous waste shall be incinerated in \nthis cremator w ithout prior approval of the District. (basis: Cumulative Increase; Regulation 2, Rule \n5)  \n \n9. The District may require the owner/operator of the cremator to conduct a District approved source \ntest to determine particulate matter, hydrocarbon, NOX, CO, O2,  HCl, and toxic emissions under \nunusual conditions, such as: disaster bags. The Source Test Section of the District shall be contacted \nto obtain approval for the source test method. The Source Test Section shall be notified at least 7 \ndays in advance of an y expected source test. A copy of source test report for each test shall be \nprovided to the District within 30 days of source test date. (basis: Cumulative Increase; Regulation \n2, Rule 5 )  \n \n10. The owner/operator shall have the S-4 Cremator equipped with sampling ports and platforms, the \nlocation of which shall have the approval of the Source Test Section of the District. (Basis: \nRegulation 6 -1-310)  \n \n11. The owner/operator shall have an operat or present at all times during cremations. (Basis: \nRegulation 6 -1-301)  \n \n12. The owner/operator shall keep the S-4 Cremator in good working condition. The date and \ndetailed description of the type of maintenance done on cremator shall be recorded in a Dist rict \napproved logbook. (basis: Regulation 6 -1-301, 6 -1-310)  \n \n13. To determine compliance with the above conditions, the owner/operator shall maintain the \nfollowing records and provide all of the data necessary to evaluate compliance with the above \nconditi ons, including but not limited to daily record s of the following information:  \na. Natural Gas Usage   \nb. Weight of animal remains  \nc. Processing rate  \n(basis: Regulation 1 -441, Regulation 6 -1-301, 6 -1-310.1, Cumulative Increase, TBACT, Regulation \n2, Rule 5 )  \n \n14. The owner/operator shall keep all monitoring, source test, and maintenance records as required \nper parts 3, 4, 5, 9, 12, and 1 3 on this s ite for at least two years from the date of data entry, and the \nrecords shall be made available to the District staff for inspection. These recordkeeping requirements \nshall not replace the recordkeeping requirements contained in any applicable District regulations. \n(basis: Cumulative Increase, TBACT; Regulation 6 -1-301, 6 -1-310) \n \n \n \n \n \n \n \n \n \n \n \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n10 | P a g e"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nENDATION  \nIssue an Authority to Construct for the following source s: \n \nS-4 Animal Cremator: Matthews, Model IEB 32 -5S, \n with five primary burners, one secondary burner, total 4.25 MMBTU/hr,  \n 250 lbs/hr, natural gas fired   \n \n \n \n \n \n \n                                                   Date : 04/25/2022  \n                         Youjin Kim  \n                      Air Quality Engineer   \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n Appendix A"
+      },
+      {
+        "heading": "Toxic Air Contaminants (TAC) calculation results are summarized in the following table.",
+        "alias": "TOXICS",
+        "text": "Toxic Air Contaminants (TAC) calculation results are summarized in the following table.\n150 lbs per body has been assumed, based on Permitting Handbook chapter on crematories (Chapter 11.6).       \nS-4 will operate at the rate of 250 lbs/hr, and 3120 hours/year , with the capped throughput of 352,420 lbs/year per applicant proposal.  \n \nTable 1. Project Total TAC Emissions from Natural Gas Combustion and Incineration  \n    Combined  Acute  Surpassed  Combined  Chronic  Surpassed  \nSources  TAC  Emissions  Trigger  Acute  Emissions  Trigger  Chronic  \n    from S -4 Level  Trigger  from S -4 Level  Trigger  \n    (lb/hr)  (lb/hr)  Level?  (lb/yr)  (lb/yr)  Level?  \n  Acetaldehyde  2.17E -04 1.00E+00  No 3.05E -01 2.90E+01  No \n  Arsenic  2.50E -05 4.40E -04 No 3.52E -02 1.60E -03 Yes \n                \n  Beryllium  2.33E -06 N/A N/A 3.29E -03 3.40E -02 No \n  Cadmium  1.83E -05 N/A N/A 2.58E -02 1.90E -02 Yes \n  Chromium, hexavalent  2.33E -05 N/A N/A 3.29E -02 5.10E -04 Yes \n  Copper  4.50E -05 2.20E -01 No 6.34E -02 N/A No \n  Formaldehyde  3.69E -04 1.20E -01 No 1.05E+00  1.40E+01  No \nS-4 Hydrogen Chloride  1.20E -01 4.60E+00  No 1.69E+02  3.50E+02  No \n  Hydrogen Fluoride  1.10E -03 5.30E -01 No 1.55E+00  5.80E+01  No \n  Lead  1.10E -04 N/A No 1.55E -01 2.90E -01 No \n  Mercury  Not Relevant*  \n  Nickel  6.33E -05 3.10E -05 Yes 8.93E -02 3.10E -01 No \n  Selenium  3.63E -05 N/A N/A 5.12E -02 8.00E+00  No \n                \n  Chlorinated Dibenzodioxins and Furans  1.77E -09 N/A N/A 2.50E -06 4.40E -08 Yes \n  Polycy clic Aromatic Hydrocarbons (PAHs)  4.04E -08 N/A N/A 5.70E -05 3.30E -03 No \n  Benzene  8.76E -06 6.00E -02 No 2.73E -02 2.90E+00  No \n  Toluene  1.42E -05 8.20E+01  No 4.42E -02 1.20E+04  No \n*Mercury emissions are only from human cremations."
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "NEW SOURCE PERFORMANCE STANDARDS (NSPS)",
+        "alias": null,
+        "text": "NEW SOURCE PERFORMANCE STANDARDS (NSPS)\nS)  \nNSPS requirements do not apply to incinerators at animal crematories.  \n \nGolden State Pet Crematorium  \nPlant No. 21539  \nApplication No. 30307  \n \n8 | P a g e"
+      },
+      {
+        "heading": "NATIONAL EMISSION STANDARDS FOR HAZARDOUS AIR POLLUTANTS",
+        "alias": null,
+        "text": "NATIONAL EMISSION STANDARDS FOR HAZARDOUS AIR POLLUTANTS\nUTANTS \n(NESHAP)   \nNESHAP requirements do not apply to incinerators at animal crematories."
+      },
+      {
+        "heading": "TBAC T)",
+        "alias": null,
+        "text": "TBAC T)\n6. After the shutdown, the owner/operator shall not cremate until the S-4 Cremator has been \npreheated so that the temperature in the secondary chamber is at least 1650 degree s Fahrenheit. \n(Basis: Regulation 6 -1-301, 6 -1-310; TBACT)  \n \n7. The owner/oper ator shall fire the S-4 Cremator with natural gas only. (basis: Cumulative Increase;"
+      },
+      {
+        "heading": "TBACT)",
+        "alias": null,
+        "text": "TBACT)\n8. The owner/operator shall use the S-4 Cremator s to cremate animal remains with or without"
+      }
+    ]
+  }
+}

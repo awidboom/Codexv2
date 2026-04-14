@@ -1,0 +1,278 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 6
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "1,1-Dichloroethene  75-35-4 2.9E-02 2.70E+03  No\nDRAFT Application No. 687021   Plant No. 203304\n4\n Trichloroethylene (TCE)  79-01-6 3.9E-02 4.10E+01  No\nVinyl Chloride  75-01-4 1.9E-02 1.10E+00  No\nTetrachloroethylene (PCE)  127-18-4 2.5E+00  1.40E+01  YES"
+      ]
+    },
+    "application_number_detected": "687021",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2024/687021/fid203304_nsr_687021_eval_030824-pdf.pdf?rev=f1cab1461d46488ba37ae969b55ec778&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2024/030824-687021/ronald-and-ann-williams-charitable-foundation"
+  },
+  "application_number": "687021",
+  "plant": {
+    "name": "855 El Camino Real, in the City of Palo Alto, Santa Clara, CA",
+    "plant_id": 203304,
+    "address": ""
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "So"
+    },
+    {
+      "id": "A-1",
+      "description": "Two, 1,000-pounds granular activated carbon (GAC) vessels in series ."
+    }
+  ],
+  "background": {
+    "text": "Background\nOn behalf  of Ronald & Ann Williams Charitable Foundation, IRC Environment al Consulting, LLC . has \napplied for an Authority to Cons truct/Permit to Operate the following equipment : \nS-1 So\nil Vapor Extraction System\nEurus , Model ZZ6M Blower, Maximum 365 CFM  \nAbated by: \nA-1       Two, 1,000-pounds granular activated carbon (GAC) vessels in series .\nThe Site is\n the Palo Alto Town & Country Village Shopping Center located at 855 El Camino Real, in the\nCity of Palo Alto, Santa Clara County, California. The Site consists of approxim ately 13 acres and is an\noccupied retail shopping center comprising six single -story retail buildings (and several second story \noffices) with a total of approximately 170,000 square feet. A previous dry cleaner, Meaders Cleaner,\noperated on the site between circa 1958 and 1965 and th e main compound found in the soil was\nTetrachloroethylene (PCE), expected emissions were based on laboratory results from samples taken at the\nsitein November 2020. However, knowing that former dry cleaners often have soil contaminated with\ntrichloroethylene (TCE), vinyl chloride, and vinylidene chloride (1,1-Dichloroethene) in addition to\ntetrachloroethylene, all these compounds were also considered to perform the Health Risk Assessment\n(HRA), in accordance with the BAAQMD TAC Emission Factor Guidelines. Further details are pro vided"
+  },
+  "emission_calculations": {
+    "text": "Emission Calculations\nInitial s oil vapor data will be used to estimate precursor organic compound (POC), non- precursor organicEmissions, Post\n4/5/1991  \n(ton/yr)  Application New \nEmissions Increase  \n(ton/yr) New Cumulative \nIncrease  \n(ton/yr) \nNOx  0.000 0.000  0.000  \nPOC  0.000 0.001 0.001 \nCO 0.000 0.000  0.000  \nPM 10/2.5 0.000 0.000  0.000  \nSO 2 0.000 0.000  0.000"
+  },
+  "cumulative_increase": {
+    "text": "3 Cumulative Increase\nThere aren’t any other sources permitted within the facility. Cumulative increase accounts only for \nemissions in this application.  \nTable 4.  Cumulative Increase  \nPollutant  Current Permitted"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emission Calculations\nInitial s oil vapor data will be used to estimate precursor organic compound (POC), non- precursor organicEmissions, Post\n4/5/1991  \n(ton/yr)  Application New \nEmissions Increase  \n(ton/yr) New Cumulative \nIncrease  \n(ton/yr) \nNOx  0.000 0.000  0.000  \nPOC  0.000 0.001 0.001 \nCO 0.000 0.000  0.000  \nPM 10/2.5 0.000 0.000  0.000  \nSO 2 0.000 0.000  0.000",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "in the Toxic Risk Screening section of this document .\nThe m\nain area of concern is primarily where the former dry cleaner operated, which is now a parking lot.\nPCE impacts soil, groundwater, soil-vapor and indoor air at the east end of Building 3 proximate to the\nsource area.\nTo r\nemediate the area, the facility has proposed to install a Soil Vapor Extraction (SVE) system equipped \nwith a 365 C FM outflow  blower  abated by  two 1000- lbs pound granulated activated carbon vessels.  \nProc\nedures are outlined in the conditions found below. The applicant will be required to provide written \nnotification at the start of the operation.  The applicant will be required to stay belo w the acute and chronic \ntrigger levels of Regulation 2-5. Effluent volatile organic compound (VOC) concentrations will be \nmonitored with a flame -ionization detector (FID) on a schedule reflecting current loading rates and \npredicted carbon capacity.compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the equipment can\noperate 24 hours a day, 365 days a year.  The following are assumptions used to estimate emissions.  \n• Operat\ning conditions: Pressure = 1 Atm; Inlet Temperature = 21 oC; 1 mole occupies 24.15 L iters\n(or 386.8 ft3/lb-mol)\nDRAFT Application No. 687021   Plant No. 203304  \n2 \n • Toxic Air Contaminants (TAC) emissions will be based on soil vapor da ta submitted with this \napplication.  \n• The organic flow rate of 365  cfm per two blowers as agreed upon by the applicant.  \n• The system will be abated by GAC vessels with an abatement efficiency of 90% by weight .  \n \nTable 1. SVE System Emissions  for S -1  \nPollutant  CAS #  Unabated Emissions  \nInlet  \nConc. \n(ug/m3) Hourly \nEmission \nRate \n(lb/hr)  Daily \nEmission \nRate \n(lb/day)  Annual \nEmission \nRate \n(lb/yr)  Annual \nEmission \nRate \n(ton/yr)  \nTetrachloroethene (PCE)  127-18-4 2100  2.9E-03 6.9E-02 2.5E+01  0.013  \n       \nNotes: \n1. Influent  data was obtained from the  samples analyzed by IRC Environmental  and included in the \napplication submittal package .  \n2. It is assumed that equipment will operate 24 hours a day, 365 days a year.  \n3. Per Regulation 1 -234 and 40 CFR 51.100(s)(1)  Tetrachloroethylene (PCE ) has been determined to have \nnegligible photochemical reactivity and is considered a Non- Precursor Organic Compound s (NPOC).  \n \n \nTable 2. SVE System Emissions for S -1 \nPollutant  CAS #  Abated Emissions  \nAbatement \nEfficiency \n(%) Hourly \nEmission \nRate \n(lb/hr)  Daily \nEmission \nRate \n(lb/day)  Annual \nEmission \nRate \n(lb/yr)  Annual \nEmission \nRate \n(ton/yr)  \nTetrachloroethene (PCE)  127-18-4 90% 2.9E-04 6.9E-03 2.5E+00  0.001  \n       \n \n \nTable 3.  Organic Emissions Review  for S-1 \nPollutant  Effluent \nVolumetric \nConcentration  \n(ppmv)  Hourly \nEmission \nRate \n(lb/hr)  Daily \nEmission \nRate \n(lb/day)  Annual \nEmission \nRate \n(lb/yr)  Annual \nEmission \nRate \n(ton/yr)  \nPOC  0.00 0.00 0.00 0.00 0.000  \nNPOC  3.16 2.9E-04 6.9E-03 2.51 0.001  \nTotal VOC  3.16 2.9E-04 6.9E-03 2.51 0.001  \nNotes : \n1. POC and NPOC emissions  are based on Table 1 and 2. The effluent volumetric concentrations are \nmeasured as methane. \n2. The total VOC effluent volumetric concentration  will be used as guide for carbon breakthrough monitoring \nin the conditions.  \n3. Annual emissions will be rounded up and used as limit in the permit conditions to 2.51 .  \n4. Total Effluent Volum etric Concentration will be used to monitor carbon breakthrough. Since 50% of the \ntotal effluent concentration  is 1.58 ppmv,  it will be rounded up to 2 ppmv  to avoid issues wit h monitoring \nequipment .  \n \n  \n \n \nDRAFT Application No. 687021  Plant No. 203304Toxic Risk Screening\nThesite is a former dry -cleaning facility; therefore, the soil is expected to be contaminated with TCE , vinyl\nchloride, and vinylidene chloride (1,1 -Dichloroethene) in addition to PCE. All the other compounds\ndifferent than PCE were not detected in the laboratory analysis performed to characterize the soil .\nHo\nwever, t obe conservative to perform the Health Risk Assessment (HRA) ,50% of the detection limit was\nassumed to calculate the emissions of thenon-detected compounds that are expected to be found in a former\ndry cleaner. This assumption is based on the BAAQMD TAC Emission Factor Guidelines Document , \nChapter 3.3 Source -Specific TAC Emission Factors.\nT\nhe detection limit was taken from the laboratory analysis report performed by IRC Environmental  \nprovided by the applicant.  \nT\nCE, vinyl chloride, and vinylidene chloride (1,1-D ichloroethene) emissions are unabated. PCE emissions\nare90% abated by weight . \nAt\n the given rates in Table 5 and 6 , the emissions do not exceed the Acute or Chronic Trigger Levels in\nRegulation 2- 5, Table 2 -5-1. Consequently, the project is not subject to a refined Health Risk Assessment\n(HRA).\nTable 5.  Project Acute Emissions Review - Regulation 2 -5 \nPollutant  CAS #  Hourly  \nEmission Rate  \n(lb/hr)  Acute  \nTrigger Level  \n(lb/hr)  Exceeds Acute \nTrigger Level?  \n1,1-Ddichloroethene  75-35-4 3.3E-06 N/A N/A \nTrichloroethylene (TCE)  79-01-6 4.4E-06 N/A N/A \nVinyl Chloride  75-01-4 2.1E-06 8.0E+01  No \nTetrachloroethylene (PCE)  127-18-4 2.9E-04 8.8E+00  No \nTable 6.  Project Chronic Emissions Review - Regulation 2 -5 \nPollutant  CAS #  Annual  \nEmission Rate  \n(lb/yr)  Chronic  \nTrigger Level  \n(lb/yr)  Exceeds Chronic \nTrigger Level?  \n1,1-Dichloroethene  75-35-4 2.9E-02 2.70E+03  No \nDRAFT Application No. 687021   Plant No. 203304  \n4 \n Trichloroethylene (TCE)  79-01-6 3.9E-02 4.10E+01  No \nVinyl Chloride  75-01-4 1.9E-02 1.10E+00  No \nTetrachloroethylene (PCE)  127-18-4 2.5E+00  1.40E+01  YESo event shall the rest of the toxic air contaminant (TAC) emissions to the atmosphere from S-1\nexceed the trigger levels listed in District Regulation 2 -5, Table 2 -5-1.   [Basis: Regulations 8 -47-\n301 and 8-47-302 and Toxi cs].\n4.The owner/operator shall not emit from S -1 more than 2.51 pounds of precursor organic compounds\n(POC) and  2.51 pounds of non- precursor organic compounds (NPOC) per 12- month consecutive\nperiod. [Basis: Cumulative Increase]\n5.Upo\nn initial start-up, the owner/operator shall take air samples from S-1 for laboratory analysis\nusing EPA Method TO -15.  The air samples shall be taken at the following locations:\na. At th\ne inlet to the first carbon vessel in series.\nb.At the outlet of the carbon vessel that is last in series prior to venting to the atmosphere.\n[Basis: Regulation 2 -1-403, Regulation 8-47-301] .\nDRAFT Application No. 687021   Plant No. 203304  \n6 \n   \n6. The owner/operator shall use the results from the laboratory report to calculate TAC emissions \nemitted to the atmosphere, using the maximum design flowrate of S-1.  The owner/operator shall \nsubmit the laboratory report and calculated TAC emissions within 21 days of the initial startup, to \ndemonstrate compliance with Parts 1, 3, and 4 of this condition.   [Basis: Regulation 2 -1-403, \nRegulation 2- 5]. \n \n7. During operation of A -1, the owner/operator shall monitor with a flame -ionization detector (FID), \nor other method approved in writing by the District's Source Test Manager at the following locations:   \n \n \na. At the inlet to the second to last carbon vessel in series.   \nb. At the inlet to the last carbon vessel in series.   \nc. At the outlet of the last carbon vessel in series, prior to venting to the atmosphere.   \n[Basis: Regulations 1 -523 and 2-1-403]   \n \n8. The owner/operator shall record these monitor readings in a monitoring log at the time they are taken.  The owner/operator shall use the monitoring results to estimate the frequency of carbon \nchange -out necessary to maintain compliance with Parts 1 through 6 of this condition and shall be \nconducted on a daily basis.   \n \n \na. If the owner/operator can demonstrate one (1) month of consecutive daily monitoring \nreadings where the sum of monitoring results of S -1 is lower than 2 ppmv, measured as \nmethane, the monitoring frequency may be reduced to weekly.   \nb. After the monitoring fr equency has been reduced to weekly, if the owner/operator can \ndemonstrate one (1) month of consecutive weekly monitoring readings of S -1 is lower than \n2 ppmv, measured as methane, the monitoring frequency may be reduced to once every \ntwo (2) weeks.   \nc. After the monitoring frequency has been reduced to once every two (2) weeks, if the \nowner/operator can demonstrate one (1) month of consecutive bi -weekly readings where \nthe monitoring results of S -1 is lower than 2 ppmv, measured as methane, the monitoring \nfrequency may be reduced to monthly.   \n \nIf any subsequent results from monitoring where the sum of monitoring results of S -1 exceed  2 \nppmv, measured as methane, the owner/operator shall revert to daily monitoring.   If monitoring \nreverts back to daily, the owner/operator may reduce the monitoring frequency in accordance with \nParts 9(a) through (c) of this condition.[Basis: Cumulative Increase, Toxics, and Regulations 1 -523 and 2-1-403]\n9. The owner/operator shall maintain the following information for each month of operation:   \n  \na. Hours and time of operation.   \nb. Each emission test, analysis, or monitoring results logged in for the day of operation they \nwere taken.   \nc. Total throughput of soil vapor from source S-1 in standard cubic feet.  \n  \nSuch  records shall be retained and made available for inspection by the District for two (2) years \nfollowing the date the data is recorded.   [Basis: Recordkeeping]  \n  \nDRAFT Application No. 687021  Plant No. 203304  \n7 10.The owner/operator shall report any noncompliance with these conditions to the Compliance a nd\nEn\nforcement Division at the time that it is first discovered.  The owner/operator shall detail the\ncorrective action taken and include the data showing the exceedance as well as the time of\noccurrence in the submittal.   [Basis: Regulation 2 -1-403]\n11.The owner/operator shall maintain a file containing all measurements, records and other data thatare required to be collected pursuant to the various provisions of this condition.   All measurements,\nrecords and data required to be maintained by the operator shall be retained for at least two (2)\nyears following the date the data is recorded.   [Basis: Regulation 1 -523]\n12.Upon final completion of the remediation project, the operator shall notify the Engineering Division\nwithin two weeks of decommissioning the operation.   [Basis: Regulation 2 -1-403]\nEnd of Conditions"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\nT)  \nIn accordance with Regulation 2-2-301, Best Available Control Technology ( BACT ) is triggered for any \nnew or modified source with the potential to emit 10 pounds or more per highest day of POC, NPOC, nitrogen oxides (NO\nx), carbon monoxide (CO), sulfur dioxides (SO 2), particulate matter less than 10 \nmicrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). NPOC and POC emissions are \nexpected to be below 10 lb/day for S -1.  Therefore, BACT is not required."
+  },
+  "offsets": {
+    "narrative": "Offsets\nsets  \nPursuant to Regulation 2-2-302, offsets must be provided for any new or modified source at a facility that \nemits, or is permitted to emit, more than 10 tons per year of precursor organic compounds (POCs) or \nnitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2-2- 303 offsets must be provided for any new \nor modified source at a major facility with a cumulative increase that exceeds 1.0 ton per year of PM 10, \nPM 2.5, or sulfur dioxide (SO 2). \n The facility is not expected to have a PTE greater than 10 tons per year of POC or NO\nX, nor is the facility \na major facility of PM 10, PM 2.5, and SO 2.  Therefore, the requirements of Regulations 2-2-302 and 2-2-303 \ndo not apply.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          10.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act ( CEQA)\nThe project is subject to California Environmental Quality Act (CEQA) review as set in Regulation 2-1-\n310. The lead agency is the Office of Planning and Research State Clearing house , Department of Toxic  \nSubstances Con trol Site Mitigation and Restoration Program and pursuant to the requirements of the CEQA \nState Guidelines, after the Initial Study, a Notice of Exem ption  was prepared in April  2019 .  \n The Notice of Exemption states that the project is a minor action designed to prevent, minimize , stabilize, \nmitigate, or eliminate the release or threat of release of hazardous waste or substances. The project will not \nexceed $1 million in cost and does not involve the ons ite use of a hazardous waste incinerator or thermal \ntreatment unit. Therefore,  is exempt from CEQA under the  California Code  Categorical Exemption in Title \n14, section §15330: Minor Actions to Prevent, Minimize, Stabilize, Mitigate or Eliminate the Release or \nThreat of Release of Hazardous Waste or Hazardous Substances. All relevant documents are included in \nthis application.  \n \nThis project complies with Regulation 2 -1-426.2.6 and the application has been dee med complete for \nCEQA purposes."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nce  \nRegulation 2-1-243 Public Notice. Prior to approving an application for an authority to construct or permit \nto operate, a public notice, fully describing the potential emissions, shall be prepared for the following cases:  \n \n(i) A new or modified source located within 1000 feet of the outer boundary of a K -12 sch ool site and \nwhich results in the increase in emissions of any substance into the ambient air which has been identified \nby the California Air Resources Board or the APCO as a toxic air contaminant or a hazardous air contaminant or which is on the list required to be prepared pursuant to subdivision (a) of Section 25532 or Section 44321 subsections(a) to (f) inclusive of the Health and Safety Code.  \nDRAFT Application No. 687021  Plant No. 203304  \n5 (ii) A ne w or m odified source l ocated  within  an Ov erburdened Community as de fined in Section 2-1-\n243 and f or which a Health Risk Asse ssment i s required p ursuant to Section 2 -5-401\nThis project is not located within an Ov erburdened Community and triggered a Health  Risk \nAssessment. However, the project is located within 1,000 feet from the K-12  school below, therefore, is \nsubject to the Public Notice requirements. \n-Palo Alto High Scho ol, 50  Embarcadero Road, Palo Alto, CA 94301-2 321 \nRegul\nation 8 -47-301, any soil vapor extraction operation which emits benzene, vinyl chloride, \ntetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a control device which \nreduces emissions to the atmosphere by at least 90 percent by weight. The facility has installed two GAC \nvessels to abate emissions with an efficiency that meets this section’s requirement.  \nRegul\nation 8- 47-501 Recordkeeping. The facility is required to keep the pertinent records per condition \n#100138  pursuant to Regulation 8-47 -501.  \nPrev\nention of Significant Deterioration (PSD ), New Source Performance Standards ( NSPS), and National\nEmission Standards for Hazardous Air Pollutants ( NESHAPS ) do not apply to this project ."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "subject to the Public Notice requirements. \n-Palo Alto High Scho ol, 50  Embarcadero Road, Palo Alto, CA 94301-2 321 \nRegul\nation 8 -47-301, any soil vapor extraction operation which emits benzene, vinyl chloride, \ntetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a control device which \nreduces emissions to the atmosphere by at least 90 percent by weight. The facility has installed two GAC \nvessels to abate emissions with an efficiency that meets this section’s requirement.  \nRegul\nation 8- 47-501 Recordkeeping. The facility is required to keep the pertinent records per condition \n#100138  pursuant to Regulation 8-47 -501.  \nPrev\nention of Significant Deterioration (PSD ), New Source Performance Standards ( NSPS), and National\nEmission Standards for Hazardous Air Pollutants ( NESHAPS ) do not apply to this project ."
+  },
+  "conditions": {
+    "text": "Permit Conditions\nPerm\nit Condition #TBD for S-1 \n1.The i\nnfluent vapor flow rate shall not exceed 365 scfm from the blower of S -1. \n[Basis: Cumulative Increase, Regulation 2 -5].\n2.The ow\nner/operator shall abate the precursor organic compound (POC)/non -precursor organic\ncompound (NPOC) emissions from the soi l vapor extraction systems with the Activated Carbon\nVessels (A-1) during all periods of operation as follows:\nS-1 s\nhall be abated by A -1, consisting of a minimum of two (2) 1000 lb activated carbon vessels\nin series.\n[Basis: Regulations 8 -47-301 and 8-47- 302 and Regulation 2-5]. \n3.In n"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The i\nnfluent vapor flow rate shall not exceed 365 scfm from the blower of S -1. \n[",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 2 -5]."
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The ow\nner/operator shall abate the precursor organic compound (POC)/non -precursor organic\ncompound (NPOC) emissions from the soi l vapor extraction systems with the Activated Carbon\nVessels (A-1) during all periods of operation as follows:\nS-1 s\nhall be abated by A -1, consisting of a minimum of two (2) 1000 lb activated carbon vessels\nin series.\n[",
+        "basis": [
+          "Regulations 8 -47-301 and 8-47- 302 and Regulation 2-5]."
+        ]
+      },
+      {
+        "num": 3,
+        "text": "In n",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\nThe Air District has reviewed the material contained in the permit application for the proposed project and has made a preliminary determination that the project is expected to comply with all applicable requirements of District, state, and federal air quality -related regulations. The preliminary recommendation \nis to issue an Authority to Construct for the equipment listed below. However, the proposed source will be \nlocated within 1,000 feet of a K-12 school which triggers the public notification requirements of Regulation \n2-1-412. After the comments are received from the public and reviewed, the Air District will make a final\ndetermination on the permit.\nI\n recommend that the Air District initiate a public notice and consider any comments received prior to \ntaking any final action on issuance of an Authority to Construct and/or a Permit to Operate for the following \nequipment:    \nS-1 Soil Vapor Extraction System\nEurus , Model ZZ6M Blower, Maximum 365 CFM  \nAbated by: \nA\n-1       Two, 1,000-pound granular activated carbon (GAC) vessels in series.\nB\ny Isis Virrueta, AQ Engineer I   \nOctober  2023"
+  },
+  "raw_sections": {
+    "preamble": "DRAFTDRAFT - Engineering Evaluation   \nRonald & Ann Williams Charitable Foundation   \n855 El Camino Real, in the City of Palo Alto, Santa Clara, CA  \nPlant No. 203304  \nApplication No. 687021",
+    "blocks": [
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nOn behalf  of Ronald & Ann Williams Charitable Foundation, IRC Environment al Consulting, LLC . has \napplied for an Authority to Cons truct/Permit to Operate the following equipment : \nS-1 So\nil Vapor Extraction System\nEurus , Model ZZ6M Blower, Maximum 365 CFM  \nAbated by: \nA-1       Two, 1,000-pounds granular activated carbon (GAC) vessels in series .\nThe Site is\n the Palo Alto Town & Country Village Shopping Center located at 855 El Camino Real, in the\nCity of Palo Alto, Santa Clara County, California. The Site consists of approxim ately 13 acres and is an\noccupied retail shopping center comprising six single -story retail buildings (and several second story \noffices) with a total of approximately 170,000 square feet. A previous dry cleaner, Meaders Cleaner,\noperated on the site between circa 1958 and 1965 and th e main compound found in the soil was\nTetrachloroethylene (PCE), expected emissions were based on laboratory results from samples taken at the\nsitein November 2020. However, knowing that former dry cleaners often have soil contaminated with\ntrichloroethylene (TCE), vinyl chloride, and vinylidene chloride (1,1-Dichloroethene) in addition to\ntetrachloroethylene, all these compounds were also considered to perform the Health Risk Assessment\n(HRA), in accordance with the BAAQMD TAC Emission Factor Guidelines. Further details are pro vided"
+      },
+      {
+        "heading": "in the Toxic Risk Screening section of this document .",
+        "alias": "TOXICS",
+        "text": "in the Toxic Risk Screening section of this document .\nThe m\nain area of concern is primarily where the former dry cleaner operated, which is now a parking lot.\nPCE impacts soil, groundwater, soil-vapor and indoor air at the east end of Building 3 proximate to the\nsource area.\nTo r\nemediate the area, the facility has proposed to install a Soil Vapor Extraction (SVE) system equipped \nwith a 365 C FM outflow  blower  abated by  two 1000- lbs pound granulated activated carbon vessels.  \nProc\nedures are outlined in the conditions found below. The applicant will be required to provide written \nnotification at the start of the operation.  The applicant will be required to stay belo w the acute and chronic \ntrigger levels of Regulation 2-5. Effluent volatile organic compound (VOC) concentrations will be \nmonitored with a flame -ionization detector (FID) on a schedule reflecting current loading rates and \npredicted carbon capacity."
+      },
+      {
+        "heading": "Emission Calculations",
+        "alias": "EMISSIONS",
+        "text": "Emission Calculations\nInitial s oil vapor data will be used to estimate precursor organic compound (POC), non- precursor organic"
+      },
+      {
+        "heading": "compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the equipment can",
+        "alias": "TOXICS",
+        "text": "compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the equipment can\noperate 24 hours a day, 365 days a year.  The following are assumptions used to estimate emissions.  \n• Operat\ning conditions: Pressure = 1 Atm; Inlet Temperature = 21 oC; 1 mole occupies 24.15 L iters\n(or 386.8 ft3/lb-mol)\nDRAFT Application No. 687021   Plant No. 203304  \n2 \n • Toxic Air Contaminants (TAC) emissions will be based on soil vapor da ta submitted with this \napplication.  \n• The organic flow rate of 365  cfm per two blowers as agreed upon by the applicant.  \n• The system will be abated by GAC vessels with an abatement efficiency of 90% by weight .  \n \nTable 1. SVE System Emissions  for S -1  \nPollutant  CAS #  Unabated Emissions  \nInlet  \nConc. \n(ug/m3) Hourly \nEmission \nRate \n(lb/hr)  Daily \nEmission \nRate \n(lb/day)  Annual \nEmission \nRate \n(lb/yr)  Annual \nEmission \nRate \n(ton/yr)  \nTetrachloroethene (PCE)  127-18-4 2100  2.9E-03 6.9E-02 2.5E+01  0.013  \n       \nNotes: \n1. Influent  data was obtained from the  samples analyzed by IRC Environmental  and included in the \napplication submittal package .  \n2. It is assumed that equipment will operate 24 hours a day, 365 days a year.  \n3. Per Regulation 1 -234 and 40 CFR 51.100(s)(1)  Tetrachloroethylene (PCE ) has been determined to have \nnegligible photochemical reactivity and is considered a Non- Precursor Organic Compound s (NPOC).  \n \n \nTable 2. SVE System Emissions for S -1 \nPollutant  CAS #  Abated Emissions  \nAbatement \nEfficiency \n(%) Hourly \nEmission \nRate \n(lb/hr)  Daily \nEmission \nRate \n(lb/day)  Annual \nEmission \nRate \n(lb/yr)  Annual \nEmission \nRate \n(ton/yr)  \nTetrachloroethene (PCE)  127-18-4 90% 2.9E-04 6.9E-03 2.5E+00  0.001  \n       \n \n \nTable 3.  Organic Emissions Review  for S-1 \nPollutant  Effluent \nVolumetric \nConcentration  \n(ppmv)  Hourly \nEmission \nRate \n(lb/hr)  Daily \nEmission \nRate \n(lb/day)  Annual \nEmission \nRate \n(lb/yr)  Annual \nEmission \nRate \n(ton/yr)  \nPOC  0.00 0.00 0.00 0.00 0.000  \nNPOC  3.16 2.9E-04 6.9E-03 2.51 0.001  \nTotal VOC  3.16 2.9E-04 6.9E-03 2.51 0.001  \nNotes : \n1. POC and NPOC emissions  are based on Table 1 and 2. The effluent volumetric concentrations are \nmeasured as methane. \n2. The total VOC effluent volumetric concentration  will be used as guide for carbon breakthrough monitoring \nin the conditions.  \n3. Annual emissions will be rounded up and used as limit in the permit conditions to 2.51 .  \n4. Total Effluent Volum etric Concentration will be used to monitor carbon breakthrough. Since 50% of the \ntotal effluent concentration  is 1.58 ppmv,  it will be rounded up to 2 ppmv  to avoid issues wit h monitoring \nequipment .  \n \n  \n \n \nDRAFT Application No. 687021  Plant No. 203304"
+      },
+      {
+        "heading": "3 Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "3 Cumulative Increase\nThere aren’t any other sources permitted within the facility. Cumulative increase accounts only for \nemissions in this application.  \nTable 4.  Cumulative Increase  \nPollutant  Current Permitted"
+      },
+      {
+        "heading": "Emissions, Post",
+        "alias": "EMISSIONS",
+        "text": "Emissions, Post\n4/5/1991  \n(ton/yr)  Application New \nEmissions Increase  \n(ton/yr) New Cumulative \nIncrease  \n(ton/yr) \nNOx  0.000 0.000  0.000  \nPOC  0.000 0.001 0.001 \nCO 0.000 0.000  0.000  \nPM 10/2.5 0.000 0.000  0.000  \nSO 2 0.000 0.000  0.000"
+      },
+      {
+        "heading": "Toxic Risk Screening",
+        "alias": "TOXICS",
+        "text": "Toxic Risk Screening\nThesite is a former dry -cleaning facility; therefore, the soil is expected to be contaminated with TCE , vinyl\nchloride, and vinylidene chloride (1,1 -Dichloroethene) in addition to PCE. All the other compounds\ndifferent than PCE were not detected in the laboratory analysis performed to characterize the soil .\nHo\nwever, t obe conservative to perform the Health Risk Assessment (HRA) ,50% of the detection limit was\nassumed to calculate the emissions of thenon-detected compounds that are expected to be found in a former\ndry cleaner. This assumption is based on the BAAQMD TAC Emission Factor Guidelines Document , \nChapter 3.3 Source -Specific TAC Emission Factors.\nT\nhe detection limit was taken from the laboratory analysis report performed by IRC Environmental  \nprovided by the applicant.  \nT\nCE, vinyl chloride, and vinylidene chloride (1,1-D ichloroethene) emissions are unabated. PCE emissions\nare90% abated by weight . \nAt\n the given rates in Table 5 and 6 , the emissions do not exceed the Acute or Chronic Trigger Levels in\nRegulation 2- 5, Table 2 -5-1. Consequently, the project is not subject to a refined Health Risk Assessment\n(HRA).\nTable 5.  Project Acute Emissions Review - Regulation 2 -5 \nPollutant  CAS #  Hourly  \nEmission Rate  \n(lb/hr)  Acute  \nTrigger Level  \n(lb/hr)  Exceeds Acute \nTrigger Level?  \n1,1-Ddichloroethene  75-35-4 3.3E-06 N/A N/A \nTrichloroethylene (TCE)  79-01-6 4.4E-06 N/A N/A \nVinyl Chloride  75-01-4 2.1E-06 8.0E+01  No \nTetrachloroethylene (PCE)  127-18-4 2.9E-04 8.8E+00  No \nTable 6.  Project Chronic Emissions Review - Regulation 2 -5 \nPollutant  CAS #  Annual  \nEmission Rate  \n(lb/yr)  Chronic  \nTrigger Level  \n(lb/yr)  Exceeds Chronic \nTrigger Level?  \n1,1-Dichloroethene  75-35-4 2.9E-02 2.70E+03  No \nDRAFT Application No. 687021   Plant No. 203304  \n4 \n Trichloroethylene (TCE)  79-01-6 3.9E-02 4.10E+01  No \nVinyl Chloride  75-01-4 1.9E-02 1.10E+00  No \nTetrachloroethylene (PCE)  127-18-4 2.5E+00  1.40E+01  YES"
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nsets  \nPursuant to Regulation 2-2-302, offsets must be provided for any new or modified source at a facility that \nemits, or is permitted to emit, more than 10 tons per year of precursor organic compounds (POCs) or \nnitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2-2- 303 offsets must be provided for any new \nor modified source at a major facility with a cumulative increase that exceeds 1.0 ton per year of PM 10, \nPM 2.5, or sulfur dioxide (SO 2). \n The facility is not expected to have a PTE greater than 10 tons per year of POC or NO\nX, nor is the facility \na major facility of PM 10, PM 2.5, and SO 2.  Therefore, the requirements of Regulations 2-2-302 and 2-2-303 \ndo not apply."
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\nT)  \nIn accordance with Regulation 2-2-301, Best Available Control Technology ( BACT ) is triggered for any \nnew or modified source with the potential to emit 10 pounds or more per highest day of POC, NPOC, nitrogen oxides (NO\nx), carbon monoxide (CO), sulfur dioxides (SO 2), particulate matter less than 10 \nmicrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). NPOC and POC emissions are \nexpected to be below 10 lb/day for S -1.  Therefore, BACT is not required."
+      },
+      {
+        "heading": "California Environmental Quality Act ( CEQA)",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act ( CEQA)\nThe project is subject to California Environmental Quality Act (CEQA) review as set in Regulation 2-1-\n310. The lead agency is the Office of Planning and Research State Clearing house , Department of Toxic  \nSubstances Con trol Site Mitigation and Restoration Program and pursuant to the requirements of the CEQA \nState Guidelines, after the Initial Study, a Notice of Exem ption  was prepared in April  2019 .  \n The Notice of Exemption states that the project is a minor action designed to prevent, minimize , stabilize, \nmitigate, or eliminate the release or threat of release of hazardous waste or substances. The project will not \nexceed $1 million in cost and does not involve the ons ite use of a hazardous waste incinerator or thermal \ntreatment unit. Therefore,  is exempt from CEQA under the  California Code  Categorical Exemption in Title \n14, section §15330: Minor Actions to Prevent, Minimize, Stabilize, Mitigate or Eliminate the Release or \nThreat of Release of Hazardous Waste or Hazardous Substances. All relevant documents are included in \nthis application.  \n \nThis project complies with Regulation 2 -1-426.2.6 and the application has been dee med complete for \nCEQA purposes."
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nce  \nRegulation 2-1-243 Public Notice. Prior to approving an application for an authority to construct or permit \nto operate, a public notice, fully describing the potential emissions, shall be prepared for the following cases:  \n \n(i) A new or modified source located within 1000 feet of the outer boundary of a K -12 sch ool site and \nwhich results in the increase in emissions of any substance into the ambient air which has been identified \nby the California Air Resources Board or the APCO as a toxic air contaminant or a hazardous air contaminant or which is on the list required to be prepared pursuant to subdivision (a) of Section 25532 or Section 44321 subsections(a) to (f) inclusive of the Health and Safety Code.  \nDRAFT Application No. 687021  Plant No. 203304  \n5 (ii) A ne w or m odified source l ocated  within  an Ov erburdened Community as de fined in Section 2-1-\n243 and f or which a Health Risk Asse ssment i s required p ursuant to Section 2 -5-401\nThis project is not located within an Ov erburdened Community and triggered a Health  Risk \nAssessment. However, the project is located within 1,000 feet from the K-12  school below, therefore, is \nsubject to the Public Notice requirements. \n-Palo Alto High Scho ol, 50  Embarcadero Road, Palo Alto, CA 94301-2 321 \nRegul\nation 8 -47-301, any soil vapor extraction operation which emits benzene, vinyl chloride, \ntetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a control device which \nreduces emissions to the atmosphere by at least 90 percent by weight. The facility has installed two GAC \nvessels to abate emissions with an efficiency that meets this section’s requirement.  \nRegul\nation 8- 47-501 Recordkeeping. The facility is required to keep the pertinent records per condition \n#100138  pursuant to Regulation 8-47 -501.  \nPrev\nention of Significant Deterioration (PSD ), New Source Performance Standards ( NSPS), and National\nEmission Standards for Hazardous Air Pollutants ( NESHAPS ) do not apply to this project ."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nPerm\nit Condition #TBD for S-1 \n1.The i\nnfluent vapor flow rate shall not exceed 365 scfm from the blower of S -1. \n[Basis: Cumulative Increase, Regulation 2 -5].\n2.The ow\nner/operator shall abate the precursor organic compound (POC)/non -precursor organic\ncompound (NPOC) emissions from the soi l vapor extraction systems with the Activated Carbon\nVessels (A-1) during all periods of operation as follows:\nS-1 s\nhall be abated by A -1, consisting of a minimum of two (2) 1000 lb activated carbon vessels\nin series.\n[Basis: Regulations 8 -47-301 and 8-47- 302 and Regulation 2-5]. \n3.In n"
+      },
+      {
+        "heading": "o event shall the rest of the toxic air contaminant (TAC) emissions to the atmosphere from S-1",
+        "alias": "TOXICS",
+        "text": "o event shall the rest of the toxic air contaminant (TAC) emissions to the atmosphere from S-1\nexceed the trigger levels listed in District Regulation 2 -5, Table 2 -5-1.   [Basis: Regulations 8 -47-\n301 and 8-47-302 and Toxi cs].\n4.The owner/operator shall not emit from S -1 more than 2.51 pounds of precursor organic compounds\n(POC) and  2.51 pounds of non- precursor organic compounds (NPOC) per 12- month consecutive\nperiod. [Basis: Cumulative Increase]\n5.Upo\nn initial start-up, the owner/operator shall take air samples from S-1 for laboratory analysis\nusing EPA Method TO -15.  The air samples shall be taken at the following locations:\na. At th\ne inlet to the first carbon vessel in series.\nb.At the outlet of the carbon vessel that is last in series prior to venting to the atmosphere.\n[Basis: Regulation 2 -1-403, Regulation 8-47-301] .\nDRAFT Application No. 687021   Plant No. 203304  \n6 \n   \n6. The owner/operator shall use the results from the laboratory report to calculate TAC emissions \nemitted to the atmosphere, using the maximum design flowrate of S-1.  The owner/operator shall \nsubmit the laboratory report and calculated TAC emissions within 21 days of the initial startup, to \ndemonstrate compliance with Parts 1, 3, and 4 of this condition.   [Basis: Regulation 2 -1-403, \nRegulation 2- 5]. \n \n7. During operation of A -1, the owner/operator shall monitor with a flame -ionization detector (FID), \nor other method approved in writing by the District's Source Test Manager at the following locations:   \n \n \na. At the inlet to the second to last carbon vessel in series.   \nb. At the inlet to the last carbon vessel in series.   \nc. At the outlet of the last carbon vessel in series, prior to venting to the atmosphere.   \n[Basis: Regulations 1 -523 and 2-1-403]   \n \n8. The owner/operator shall record these monitor readings in a monitoring log at the time they are taken.  The owner/operator shall use the monitoring results to estimate the frequency of carbon \nchange -out necessary to maintain compliance with Parts 1 through 6 of this condition and shall be \nconducted on a daily basis.   \n \n \na. If the owner/operator can demonstrate one (1) month of consecutive daily monitoring \nreadings where the sum of monitoring results of S -1 is lower than 2 ppmv, measured as \nmethane, the monitoring frequency may be reduced to weekly.   \nb. After the monitoring fr equency has been reduced to weekly, if the owner/operator can \ndemonstrate one (1) month of consecutive weekly monitoring readings of S -1 is lower than \n2 ppmv, measured as methane, the monitoring frequency may be reduced to once every \ntwo (2) weeks.   \nc. After the monitoring frequency has been reduced to once every two (2) weeks, if the \nowner/operator can demonstrate one (1) month of consecutive bi -weekly readings where \nthe monitoring results of S -1 is lower than 2 ppmv, measured as methane, the monitoring \nfrequency may be reduced to monthly.   \n \nIf any subsequent results from monitoring where the sum of monitoring results of S -1 exceed  2 \nppmv, measured as methane, the owner/operator shall revert to daily monitoring.   If monitoring \nreverts back to daily, the owner/operator may reduce the monitoring frequency in accordance with \nParts 9(a) through (c) of this condition."
+      },
+      {
+        "heading": "[Basis: Cumulative Increase, Toxics, and Regulations 1 -523 and 2-1-403]",
+        "alias": "TOXICS",
+        "text": "[Basis: Cumulative Increase, Toxics, and Regulations 1 -523 and 2-1-403]\n9. The owner/operator shall maintain the following information for each month of operation:   \n  \na. Hours and time of operation.   \nb. Each emission test, analysis, or monitoring results logged in for the day of operation they \nwere taken.   \nc. Total throughput of soil vapor from source S-1 in standard cubic feet.  \n  \nSuch  records shall be retained and made available for inspection by the District for two (2) years \nfollowing the date the data is recorded.   [Basis: Recordkeeping]  \n  \nDRAFT Application No. 687021  Plant No. 203304  \n7 10.The owner/operator shall report any noncompliance with these conditions to the Compliance a nd\nEn\nforcement Division at the time that it is first discovered.  The owner/operator shall detail the\ncorrective action taken and include the data showing the exceedance as well as the time of\noccurrence in the submittal.   [Basis: Regulation 2 -1-403]\n11.The owner/operator shall maintain a file containing all measurements, records and other data thatare required to be collected pursuant to the various provisions of this condition.   All measurements,\nrecords and data required to be maintained by the operator shall be retained for at least two (2)\nyears following the date the data is recorded.   [Basis: Regulation 1 -523]\n12.Upon final completion of the remediation project, the operator shall notify the Engineering Division\nwithin two weeks of decommissioning the operation.   [Basis: Regulation 2 -1-403]\nEnd of Conditions"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\nThe Air District has reviewed the material contained in the permit application for the proposed project and has made a preliminary determination that the project is expected to comply with all applicable requirements of District, state, and federal air quality -related regulations. The preliminary recommendation \nis to issue an Authority to Construct for the equipment listed below. However, the proposed source will be \nlocated within 1,000 feet of a K-12 school which triggers the public notification requirements of Regulation \n2-1-412. After the comments are received from the public and reviewed, the Air District will make a final\ndetermination on the permit.\nI\n recommend that the Air District initiate a public notice and consider any comments received prior to \ntaking any final action on issuance of an Authority to Construct and/or a Permit to Operate for the following \nequipment:    \nS-1 Soil Vapor Extraction System\nEurus , Model ZZ6M Blower, Maximum 365 CFM  \nAbated by: \nA\n-1       Two, 1,000-pound granular activated carbon (GAC) vessels in series.\nB\ny Isis Virrueta, AQ Engineer I   \nOctober  2023"
+      }
+    ],
+    "unmapped_blocks": []
+  }
+}

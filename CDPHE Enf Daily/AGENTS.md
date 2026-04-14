@@ -6,7 +6,7 @@ This repo is a small, repeatable pipeline to (1) download CDPHE air enforcement 
 ## What “done” looks like
 - `cdphe_downloader.py` writes `downloads/cdphe_download_manifest.csv` and downloads PDFs into `downloads/`.
 - `cdphe_processor.py` reads the manifest + PDFs and writes `downloads/cdphe_enforcement_summary.csv`.
-- `cdphe_report.py` reads the summary CSV and writes `downloads/cdphe_enforcement_summary_report.html`.
+- `cdphe_report.py` reads the summary CSV and writes `outputs/cdphe_enforcement_summary_report.html`.
 - The above scripts continue to run end-to-end via `python cdphe_pipeline.py` (and ideally remain stable as internals evolve).
 
 ## Working style for this repo

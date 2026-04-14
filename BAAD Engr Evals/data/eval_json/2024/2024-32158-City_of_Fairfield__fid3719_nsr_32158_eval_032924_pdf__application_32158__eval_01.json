@@ -1,0 +1,288 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 6
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "32158",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2024/32158/fid3719_nsr_32158_eval_032924-pdf.pdf?rev=2e99c3ece1e4429aa5e7a9cb23b80649&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2024/032924-32158/city-of-fairfield"
+  },
+  "application_number": "32158",
+  "plant": {
+    "name": "City of Fairfield",
+    "plant_id": 3719,
+    "address": "Fairfield, CA 94533"
+  },
+  "evaluation_date": "July 1, 2007",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-4",
+      "description": "Prime Propane Engine Generator Set"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nND \nThe City of Fairfield is applying for an Authority to Construct and Permit to Operate a Prime Generator Set, \nfueled by liquefied petroleum gas (LPG).  \n \nS-4 Prime Propane Engine Generator Set \nMake: Power Solutions International, EPA Family: LPSIB21.9NGP, Model 21.9L, \nModel Year 2020, Burn Type: Rich, Rated 582 BHP.  \n \nS-4 will be installed at a municipal bus depot located at 420 Gregory Lane in Fairfield, CA. The project will \nreduce air pollution within a disadvantaged community by providing charging capability for electric buses and \nallow the diesel buses serving this area to be retired. \n \nThe primary pollutants from LPG engines are the products of combustion, including nitrogen oxides (NO x), \ncarbon monoxide (CO), hydrocarbon and other organic compounds (precursor organic compounds, POCs), \nsulfur dioxide (SO 2), and particulate matter (PM 10 and PM 2.5). Various toxic air contaminants (TACs) are also \nemitted during the combustion of LPG. \n \nThe new source is located within an overburdened community, and the project required a Health Risk Assessment \n(HRA); therefore, this application is subject to the public notice requirements of BAAQMD Regulation 2-1-412."
+  },
+  "emission_calculations": {
+    "text": "EMISSION CALCULATIONS\nNS  \nBasis and Assumptions: \n- Maximum output rating of 582 brake horsepower (BHP), per EPA certification rating data \n- Liquified propane density of 4.23 lb/gallon \n- Maximum fuel consumption of 162 lb/hr, per manufacturer \n- Maximum volumetric fuel consumption of 38.30 gallons/hr (162 lb/hr / 4.23 lb/gallon) \n- Maximum operation: 1053 hours (40,328 gallons propane) per year, up to 9 hours (344.7 gallons \npropane) per day \n- Heat Conversion: 8063 British thermal units (Btus) per BHP for LPG fuel \n- For the US Environmental Protection Agency (EPA) Certification Emission Rate for “HC+NOx”, the \nportions may be considered 95% NOx and 5% hydrocarbons (HC). For the purposes of this evaluation, \nHC = POC.Emissions\n[lb/hr]  Acute \nTrigger \nLevel [lb/hr] HRA \nTriggered? \n(Acute) Annual \nEmissions \n[lb/yr] Chronic \nTrigger \nLevel [lb/yr] HRA \nTriggered? \n(Chronic)  \n1,1,2,2-Tetrachloroethane 2.53E-05 AP-42 1.2E-04 None None 2.8E-01 1.40E+00 No \n1,1,2-Trichloroethane 1.53E-05 AP-42 7.2E-05 None None 1.7E-01 5.00E+00 No \n1,1-Dichloroethane 1.13E-05 AP-42 5.3E-05 None None 1.2E-01 5.00E+01 No \n1,3-Butadiene 1.02E-04 CATEF 4.8E-04 2.90E-01 No 1.1E+00 4.80E-01 YES \nAcetaldehyde 8.66E-04 CATEF 4.1E-03 2.10E-01 No 9.5E+00 2.90E+01 No \nAcrolein 5.36E-04 CATEF 2.5E-03 1.10E-03 YES 5.9E+00 1.40E+01 No \nBenzene (no control) 1.87E-03 CATEF 8.8E-03 1.20E-02 No 2.1E+01 2.90E+00 YES \nCarbon Tetrachloride 1.77E-05 AP-42 8.3E-05 8.40E-01 No 1.9E-01 1.90E+00 No \nChlorobenzene 1.29E-05 AP-42 6.1E-05 None None 1.4E-01 3.90E+04 No \nChloroform 1.37E-05 AP-42 6.4E-05 6.60E-02 No 1.5E-01 1.50E+01 No \nEthylbenzene 1.14E-05 CATEF 5.3E-05 None None 1.3E-01 3.30E+01 No \nEthylene Dibromide 2.13E-05 AP-42 1.0E-04 None None 2.3E-01 1.10E+00 No \nFormaldehyde (no control) 2.30E-03 CATEF 1.1E-02 2.40E-02 No 2.5E+01 1.40E+01 No \nMethanol 3.06E-03 AP-42 1.4E-02 1.20E+01 No 3.4E+01 1.50E+05 No \nMethylene Chloride 4.12E-05 AP-42 1.9E-04 6.20E+00 No 4.5E-01 8.20E+01 No \nNaphthalene 7.50E-05 CATEF 3.5E-04 None None 8.2E-01 2.40E+00 No \nPAH Equivalent as \nBenzo(a)pyrene  1.78E-07 CATEF 8.4E-07 None None 2.0E-03 3.30E-03 No \nPropylene 1.57E-02 CATEF 7.4E-02 None None 1.7E+02 1.20E+05 No \nStyrene 1.19E-05 AP-42 5.6E-05 9.30E+00 No 1.3E-01 3.50E+04 No \nToluene 1.05E-03 CATEF 4.9E-03 2.20E+00 No 1.2E+01 1.60E+04 No \nVinyl Chloride 7.18E-06 AP-42 3.4E-05 8.00E+01 No 7.9E-02 1.10E+00 No \nXylene (total) 6.45E-04 CATEF 3.0E-03 9.70E+00 No 7.1E+00 2.70E+04 No \n \n1 CATEFs are used when AP-42 EFs are less conservative than CATEFs. Reported mean emission factor values are used in accordance with District procedures.  \n \nBased on the calculations in Table 3 below, some TACs exceed the District’s Risk Screening trigger levels set \nforth in Table 1 of Reg. 2-5 (New Source Review for Toxic Air Contaminants). Therefore, a Health Risk \nAssessment (HRA) is required. \n \nThe BAAQMD therefore undertook an HRA to evaluate the potential acute, chronic, carcinogenic and non-\ncarcinogenic health risks from emissions from this project. The HRA evaluated risks to workers and to \nresidents in the vicinity of the project. \n \nResults from the HRA indicate that the maximum project cancer risk is 2.2 in a million , the project maximum \nchronic hazard index is 0.017, and the project maximum acute hazard index is 0.057. In accordance with the \nDistrict’s Regulation 2-5-301, this source requires TBACT because the cancer risk exceeds 1.0 in a million. \nRather than apply TBACT, the applicant instead chose to accept a reduction in permitted usage of the new \nengine. By reducing annual usage from 2,340 hours per year to 1,053 hours per year, the project cancer risk no \nlonger exceeds 1.0 in a million. \n \nThis project is located in an overburdened community (OBC), as defined by Regulation 2-1-243; therefore, the \nproject must comply with the project cancer risk limit of 6 in a million.  Since the estimated project cancer risk \ndoes not exceed 6 in a million and project hazard indices do not exceed 1.0, this project complies with the \nDistrict’s Regulation 2-5-302 project risk requirements. \n \nCompliance with Regulation 2-5 is therefore satisfied."
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Increase:\nTable 2 summarizes the cumulative increase in criteria pollutant emissions resulting from the operation of S-4. \n \nTable 2 – Plant Cumulative Emissions \nPollutant Emissions (TPY)  \nExisting New Total \nNOx 0.000 0.191 0.191 \nCO 0.000 0.302 0.302 \nPOC 0.000 0.010 0.010 \nPM10 0.000 0.048 0.048 \nPM2.5 0.000 0.048 0.048 \nSO2 0.000 0.001 0.001"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSION CALCULATIONS\nNS  \nBasis and Assumptions: \n- Maximum output rating of 582 brake horsepower (BHP), per EPA certification rating data \n- Liquified propane density of 4.23 lb/gallon \n- Maximum fuel consumption of 162 lb/hr, per manufacturer \n- Maximum volumetric fuel consumption of 38.30 gallons/hr (162 lb/hr / 4.23 lb/gallon) \n- Maximum operation: 1053 hours (40,328 gallons propane) per year, up to 9 hours (344.7 gallons \npropane) per day \n- Heat Conversion: 8063 British thermal units (Btus) per BHP for LPG fuel \n- For the US Environmental Protection Agency (EPA) Certification Emission Rate for “HC+NOx”, the \nportions may be considered 95% NOx and 5% hydrocarbons (HC). For the purposes of this evaluation, \nHC = POC.Emissions\n[lb/hr]  Acute \nTrigger \nLevel [lb/hr] HRA \nTriggered? \n(Acute) Annual \nEmissions \n[lb/yr] Chronic \nTrigger \nLevel [lb/yr] HRA \nTriggered? \n(Chronic)  \n1,1,2,2-Tetrachloroethane 2.53E-05 AP-42 1.2E-04 None None 2.8E-01 1.40E+00 No \n1,1,2-Trichloroethane 1.53E-05 AP-42 7.2E-05 None None 1.7E-01 5.00E+00 No \n1,1-Dichloroethane 1.13E-05 AP-42 5.3E-05 None None 1.2E-01 5.00E+01 No \n1,3-Butadiene 1.02E-04 CATEF 4.8E-04 2.90E-01 No 1.1E+00 4.80E-01 YES \nAcetaldehyde 8.66E-04 CATEF 4.1E-03 2.10E-01 No 9.5E+00 2.90E+01 No \nAcrolein 5.36E-04 CATEF 2.5E-03 1.10E-03 YES 5.9E+00 1.40E+01 No \nBenzene (no control) 1.87E-03 CATEF 8.8E-03 1.20E-02 No 2.1E+01 2.90E+00 YES \nCarbon Tetrachloride 1.77E-05 AP-42 8.3E-05 8.40E-01 No 1.9E-01 1.90E+00 No \nChlorobenzene 1.29E-05 AP-42 6.1E-05 None None 1.4E-01 3.90E+04 No \nChloroform 1.37E-05 AP-42 6.4E-05 6.60E-02 No 1.5E-01 1.50E+01 No \nEthylbenzene 1.14E-05 CATEF 5.3E-05 None None 1.3E-01 3.30E+01 No \nEthylene Dibromide 2.13E-05 AP-42 1.0E-04 None None 2.3E-01 1.10E+00 No \nFormaldehyde (no control) 2.30E-03 CATEF 1.1E-02 2.40E-02 No 2.5E+01 1.40E+01 No \nMethanol 3.06E-03 AP-42 1.4E-02 1.20E+01 No 3.4E+01 1.50E+05 No \nMethylene Chloride 4.12E-05 AP-42 1.9E-04 6.20E+00 No 4.5E-01 8.20E+01 No \nNaphthalene 7.50E-05 CATEF 3.5E-04 None None 8.2E-01 2.40E+00 No \nPAH Equivalent as \nBenzo(a)pyrene  1.78E-07 CATEF 8.4E-07 None None 2.0E-03 3.30E-03 No \nPropylene 1.57E-02 CATEF 7.4E-02 None None 1.7E+02 1.20E+05 No \nStyrene 1.19E-05 AP-42 5.6E-05 9.30E+00 No 1.3E-01 3.50E+04 No \nToluene 1.05E-03 CATEF 4.9E-03 2.20E+00 No 1.2E+01 1.60E+04 No \nVinyl Chloride 7.18E-06 AP-42 3.4E-05 8.00E+01 No 7.9E-02 1.10E+00 No \nXylene (total) 6.45E-04 CATEF 3.0E-03 9.70E+00 No 7.1E+00 2.70E+04 No \n \n1 CATEFs are used when AP-42 EFs are less conservative than CATEFs. Reported mean emission factor values are used in accordance with District procedures.  \n \nBased on the calculations in Table 3 below, some TACs exceed the District’s Risk Screening trigger levels set \nforth in Table 1 of Reg. 2-5 (New Source Review for Toxic Air Contaminants). Therefore, a Health Risk \nAssessment (HRA) is required. \n \nThe BAAQMD therefore undertook an HRA to evaluate the potential acute, chronic, carcinogenic and non-\ncarcinogenic health risks from emissions from this project. The HRA evaluated risks to workers and to \nresidents in the vicinity of the project. \n \nResults from the HRA indicate that the maximum project cancer risk is 2.2 in a million , the project maximum \nchronic hazard index is 0.017, and the project maximum acute hazard index is 0.057. In accordance with the \nDistrict’s Regulation 2-5-301, this source requires TBACT because the cancer risk exceeds 1.0 in a million. \nRather than apply TBACT, the applicant instead chose to accept a reduction in permitted usage of the new \nengine. By reducing annual usage from 2,340 hours per year to 1,053 hours per year, the project cancer risk no \nlonger exceeds 1.0 in a million. \n \nThis project is located in an overburdened community (OBC), as defined by Regulation 2-1-243; therefore, the \nproject must comply with the project cancer risk limit of 6 in a million.  Since the estimated project cancer risk \ndoes not exceed 6 in a million and project hazard indices do not exceed 1.0, this project complies with the \nDistrict’s Regulation 2-5-302 project risk requirements. \n \nCompliance with Regulation 2-5 is therefore satisfied.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-4": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "- For the purposes of this evaluation, toxic air contaminant (TAC) emissions from this engine can be\nestimated using TAC emission factors from natural gas. \n \nAnnual Emissions and Daily Maximum Emissions: \nThe following EPA Certification Emission Rates for HC+NO x, and CO emissions from the engine were used for \nthe emission calculations: \n \nHC+NO x = 0.4 g/kW-hr (0.30 g/bhp-hr) \nCO = 0.6 g/kW-hr (0.45 g/bhp-hr)  \n \nNOx and POC emissions rates were calculated as follows: \n \nNOx = (0.30 g/bhp-hr) * (95%) = 0.28 g/bhp-hr \nPOC = (0.30 g/bhp-hr) * (5%) = 0.015 g/bhp-hr \n \nThe particulate matter (PM) and SO 2 emissions were calculated using emission factors from AP-42 Chapter 3.2 \nNatural Gas-fired Reciprocating Engines, Table 3.2-3 (Uncontrolled Emission Factors For 4-Stroke Rich-Burn \nEngines). The total PM emission factor consists of the sum of filterable plus condensable emission factors in \nAP-42. \n \nCity of Fairfield, Plant #3719                                                                Application #32158 \n \n  \nPage 2 of 7   \nThe daily maximum emissions were calculated assuming 9-hr/day of operation.  \n \nThe annual and daily maximum emissions from S-4 are summarized below in Table 1. \n \nTable 1 – Daily and Annual Maximum Emissions for S-4 \nPollutant Emission \nFactor Emission \nFactor \nUnit Emissions \n Daily (lbs/day) Annual (lbs/yr) Annual (TPY) \nNOx 0.28 g/bhp-hr 3.272 382.80 0.191 \nCO 0.45 g/bhp-hr 5.166 604.42 0.302 \nPOC 0.015 g/bhp-hr 0.172 20.15 0.010 \nPM10 1.94E-02 lb/MMBtu 0.820 95.91 0.048 \nPM2.5 1.94E-02 lb/MMBtu 0.820 95.91 0.048 \nSO2 5.88E-04 lb/MMBtu 0.025 2.91 0.001 \na Emission factors for NO x, CO, and POC per EPA certification. \nb Emission factors for PM 10 and SO 2 were retrieved from AP-42 Chapter 3.2 Natural Gas-fired Reciprocating \nEngines, Table 3.2-3. PM emission factors consist of filterable plus condensable fractions. These numbers are \nuncontrolled (unabated) emissions.TOXIC HEALTH RISK ASSESSMENT\nToxic air contaminant (TAC) emission factors from California Air Toxics Emission Factors (CATEF) are \ngenerally preferred over those found in AP-42. When available, TAC emission factors were therefore retrieved \nfrom CATEF for Natural Gas-fired Rich Burn Engines rated < 650 hp. When CATEF factors were unavailable, \nvalues from AP-42, Table 3.2-3 were used. The TAC emission estimates are based on uncontrolled emission \nfactors for natural gas engines, and a factor of 1020 btu/cubic foot was used to convert CATEF factors to units \nof lb/MMBtu. \n \nTACs were calculated assuming an operating schedule of 9 hours per day, 5 days per week, and 52 weeks per \nyear (2,340 hours per year). \n \n \n \nTable 3 - TAC Emission Estimates \nCompound  Emission \nFactor \n[lb/MMBt\nu] Basis Hourly"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\nT)    \nIn accordance with Reg. 2-2-301 (Best Available Control Technology Requirement), BACT is triggered for any \nnew or modified source with the potential to emit 10 pounds or more per highest day of POC, NPOC, NOx, CO, \nSO2 PM10, or PM 2.5. Based on the emission calculations in Table 1, BACT is not triggered since the maximum \ndaily emission for all the criteria pollutants are less than 10 pounds per day."
+  },
+  "offsets": {
+    "narrative": "Offsets\nts \nOffsets must be provided for any new or modified source at a facility that emits more than 10 tons per year of \nPOC or NO x. Based on the emission calculations in Table 1, offsets are not required for this application per Reg \n2-2-302 (Offset Requirements, Precursor Organic Compounds and Nitrogen Oxides). \n \nNew Source Performance Standards (NSPS)  \nS-4 is subject to 40 CFR 60, Subpart JJJJ, Standards of Performance for Stationary Spark Ignition (SI) Internal \nCombustion Engines (ICEs), per §60.4230(a)(4)(i) because the owner/operator will commence construction after \nJune 12, 2006, and the source is an engine which was manufactured after July 1, 2007 and has a maximum power \ngreater than 500 hp.  \n \nThe engine will comply with the limits in (40 CFR 60 Subpart JJJJ) Table 1 for emergency spark-ignited \nengines greater than 130 hp. \n \n \nCity of Fairfield, Plant #3719                                                                Application #32158 \n \n  \nPage 6 of 7  Table 5. NSPS Emission Standards vs. S-4 Engine Family Emission Rates \nPollutant NSPS Emission Standard* S-4 Emission Rate  \nNOx 2.0 g/bhp-hr  0.3 g/bhp-hr \nCO 4.0 g/bhp-hr  0.4 g/bhp-hr \nVOC 1.0 g/bhp-hr 0.01 g/bhp-hr \n * https://www.law.cornell.edu/cfr/text/40/appendix-Table_1_to_subpart_JJJJ_of_part_60  \n \nBased on the EPA Annual Emission Certification Data, S-4 complies with NSPS requirements.    \n \nNational Emission Standards for Hazardous Air Pollutants (NESHAP)  \nS-4 is subject to 40 CFR 63, Subpart ZZZZ, National Emission Standards for Hazardous Air Pollutants for \nReciprocating Internal Combustion Engines (RICE). Per 40 CFR 63.6590(c)(1), a new or reconstructed \nstationary RICE located at an area source must meet the requirements of NSPS (40 CFR 60, Subpart JJJJ) for \nspark ignition engines. As stated above in the NSPS section, S-4 meets the emissions requirements of NSPS.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          1.0,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "CO",
+          60.423,
+          "N/A",
+          null
+        ],
+        [
+          "VOC",
+          1.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD)\nD) \nRegulation 2-2-224 defines a PSD project as one at a facility that has the potential to emit 100 tons or more per \nyear of any PSD pollutant. This facility will not have the potential to emit 100 tons or more of any PSD pollutant \ntherefore, this project is not a PSD project."
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA):\nThe project is ministerial, under the District's CEQA Reg. 2-1-311, and therefore is not subject to CEQA review. \nThe engineering review for this project requires only the application of standard permit conditions and standard \nemissions factors as specified in District permit handbook chapter 2.3.2 (Stationary Natural Gas Engines) and \ntherefore is not discretionary as defined by CEQA."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nCE \nThe owner/operator of S-4 shall comply with Reg. 6-1 (Particulate Matter and Visible Emissions Standards), \nReg. 9-1-301 (Inorganic Gaseous Pollutants:  Sulfur Dioxide for Limitations on Ground Level Concentrations), \nand Reg. 9-8 (Nitrogen Oxides and Carbon Monoxide from Stationary ICE).   \n \nThe owner/operator is expected to comply with Reg. 6-1 since the unit is fueled with LPG.  Because the S-4 \nengine has displacement of 21.9L (1336.4 cubic inch), the Ringelmann No. 2 Limitation applies per Section 6-\n1-303 (ICE engine of less than 25 L or 1500 cubic inch displacement). Thus, for any period aggregating more \nthan three minutes in any hour, there should be no visible emission as dark or darker than No. 2 on the \nRingelmann Chart or be equal to or greater than 40% opacity. S-4 is expected to comply with this requirement, \nas well as the visible particles requirement of Section 6-1-305.  The emission rate from S-4 results in an outlet \ngrain loading of 0.01 grains/dscf, which is less than the limit 0.15 grains/dscf and therefore complies with \nRegulation 6-1-310.1.  The TSP limits in 6-1-310.2 does not apply because the potential to emit TSP is below \n1,000 kg per year. \n \nThe owner/operator is expected to comply with Regulation 9-1 by restricting fuel to LPG only. Combustion of \nLPG is expected to produce a SO 2 concentration of no more than 1 ppmv. Therefore, the source is expected to \ncomply with Section 9-1-301 (Limitations on Ground Level Concentrations) and 9-1-304 (Fuel Burning). \n \nCity of Fairfield, Plant #3719                                                                Application #32158 \n \n  \nPage 5 of 7   \nS-4 is expected to comply with the limits identified in Regulation 9-8-301, as shown below. \n \nTable 4: Regulation 9-8-301 Limits \nPollutant Standard (ppmvd @ 15% O2) Standard (lb/hr) S-4 Emissions Rate (lb/hr) \nNOx 56 1.0 0.4 \nCO 2000 21.0 0.6 \n \nAssumptions: \n \nlb/hr = ppm * 10^-6 * (1/molar volume) * (molar mass) * Fd * 20.9/(20.9-%O2) * HHV 10^-6 * bhp \n \nwhere molar volume = 385.3 dscf/lb/mol, Fd = 8710 dscf/MMBtu, %O2 = 15, HHV = 8063, and bhp = 582 \n \nNOx \n56 ppm * 10^-6 * (1/385.3 dscf/lb-mol) * (46 lb/lb-mol) * (8710 dscf/MMBtu) * (20.9)/(20.9-15)  \n* (8063 Btu/bhp-hr) * 10^-6 * 582 bhp \n= 1.0 lb/hr \n \nCO \n2000 ppm * 10^-6 * (1/385.3 dscf/lb-mol) * (28 lb/lb-mol) * (8710 dscf/MMBtu) * (20.9)/(20.9-15)  \n* (8063 Btu/bhp-hr) * 10^-6 * 582 bhp \n= 21.0 lb/hr"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Public Notification (Regulation 2-1-412)\nThe project is not within 1,000 feet from the nearest school; however, the project is located within an \noverburdened community and required an HRA. Therefore, a public notice will be distributed and a thirty-day \npublic comment period will be initiated."
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS\nNS \n \nPermit Condition # 100266 (applicable to S-4)  \n \n1. The owner/operator of S-4 shall operate this source on propane gas fuel exclusively. (Basis: Cumulative \nIncrease; Regulation 2-5) \n2. The owner/operator of S-4 shall not exceed 1,053 hours of operation or 40,328 gallons of propane fuel usage \nin any 12-month period. (Basis: Cumulative Increase, Regulation 2-5) \n3. The owner/operator of S-4 shall not exceed 9 hours of operation or 344.7 gallons of propane fuel usage in \nany day. (Basis: BACT) \n4. To determine compliance with the above parts, the owner/operator of S-4 shall maintain the following \nrecords: \n \na. Gallons of propane used in each day. \nb. Gallons of propane used in each month. \nc. Gallons of propane used in each rolling 12-month period. \n \nThe owner/operator shall record all records in a District-approved log. The owner/operator shall retain the \nrecords with the equipment for two years, from the date of entry, and make them available for inspection by \nDistrict staff upon request. These record-keeping requirements shall not replace the record-keeping \nrequirements contained in any applicable District Regulations. (Basis: Recordkeeping) \n  \n \nCity of Fairfield, Plant #3719                                                                Application #32158 \n \n  \nPage 7 of 7  RECOMMENDATION \nThe District has reviewed the material contained in the permit application for the proposed project and has made \na preliminary determination that the project is expected to comply with all applicable requirements of District, \nstate, and federal air quality-related regulations. The preliminary recommendation is to issue an Authority to \nConstruct for the equipment listed below. However, the proposed source will be located within an overburdened \ncommunity and an HRA was required, which triggers the public notification requirements of Regulation 2-1-\n412. After the comments are received from the public and reviewed, the District will make a final determination \non the permit. \n \nI recommend that the District initiate a public notice and consider any comments received prior to taking any \nfinal action on issuance of an Authority to Construct and/or a Permit to Operate for the following equipment: \n \nS-4 Prime Propane Engine Generator Set \nMake: Power Solutions International, EPA Family: LPSIB21.9NGP, Model 21.9L, \nModel Year 2020, Burn Type: Rich, Rated 582 BHP. \nPrepared by:  _______________________________________   Date: ________________ \nDaniel Oliver          03/07/2024 \nSenior Air Quality Engineer"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator of S-4 shall operate this source on propane gas fuel exclusively. (",
+        "basis": [
+          "Cumulative \nIncrease",
+          "Regulation 2-5)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator of S-4 shall not exceed 1,053 hours of operation or 40,328 gallons of propane fuel usage \nin any 12-month period. (",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 2-5)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator of S-4 shall not exceed 9 hours of operation or 344.7 gallons of propane fuel usage in \nany day. (",
+        "basis": [
+          "BACT)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "To determine compliance with the above parts, the owner/operator of S-4 shall maintain the following \nrecords: \n \na. Gallons of propane used in each day. \nb. Gallons of propane used in each month. \nc. Gallons of propane used in each rolling 12-month period. \n \nThe owner/operator shall record all records in a District-approved log. The owner/operator shall retain the \nrecords with the equipment for two years, from the date of entry, and make them available for inspection by \nDistrict staff upon request. These record-keeping requirements shall not replace the record-keeping \nrequirements contained in any applicable District Regulations. (",
+        "basis": [
+          "Recordkeeping) \n  \n \nCity of Fairfield",
+          "Plant #3719                                                                Application #32158 \n \n  \nPage 7 of 7  RECOMMENDATION \nThe District has reviewed the material contained in the permit application for the proposed project and has made \na preliminary determination that the project is expected to comply with all applicable requirements of District",
+          "state",
+          "and federal air quality-related regulations. The preliminary recommendation is to issue an Authority to \nConstruct for the equipment listed below. However",
+          "the proposed source will be located within an overburdened \ncommunity and an HRA was required",
+          "which triggers the public notification requirements of Regulation 2-1-"
+        ]
+      },
+      {
+        "num": 412,
+        "text": "After the comments are received from the public and reviewed, the District will make a final determination \non the permit. \n \nI recommend that the District initiate a public notice and consider any comments received prior to taking any \nfinal action on issuance of an Authority to Construct and/or a Permit to Operate for the following equipment: \n \nS-4 Prime Propane Engine Generator Set \nMake: Power Solutions International, EPA Family: LPSIB21.9NGP, Model 21.9L, \nModel Year 2020, Burn Type: Rich, Rated 582 BHP. \nPrepared by:  _______________________________________   Date: ________________ \nDaniel Oliver          03/07/2024 \nSenior Air Quality Engineer",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": ""
+  },
+  "raw_sections": {
+    "preamble": "Draft Engineering Evaluation \nCity of Fairfield \n Plant No.  3719 \nApplication No. 32158 \n420 Gregory Lane, Fairfield, CA 94533",
+    "blocks": [
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND \nThe City of Fairfield is applying for an Authority to Construct and Permit to Operate a Prime Generator Set, \nfueled by liquefied petroleum gas (LPG).  \n \nS-4 Prime Propane Engine Generator Set \nMake: Power Solutions International, EPA Family: LPSIB21.9NGP, Model 21.9L, \nModel Year 2020, Burn Type: Rich, Rated 582 BHP.  \n \nS-4 will be installed at a municipal bus depot located at 420 Gregory Lane in Fairfield, CA. The project will \nreduce air pollution within a disadvantaged community by providing charging capability for electric buses and \nallow the diesel buses serving this area to be retired. \n \nThe primary pollutants from LPG engines are the products of combustion, including nitrogen oxides (NO x), \ncarbon monoxide (CO), hydrocarbon and other organic compounds (precursor organic compounds, POCs), \nsulfur dioxide (SO 2), and particulate matter (PM 10 and PM 2.5). Various toxic air contaminants (TACs) are also \nemitted during the combustion of LPG. \n \nThe new source is located within an overburdened community, and the project required a Health Risk Assessment \n(HRA); therefore, this application is subject to the public notice requirements of BAAQMD Regulation 2-1-412."
+      },
+      {
+        "heading": "EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSION CALCULATIONS\nNS  \nBasis and Assumptions: \n- Maximum output rating of 582 brake horsepower (BHP), per EPA certification rating data \n- Liquified propane density of 4.23 lb/gallon \n- Maximum fuel consumption of 162 lb/hr, per manufacturer \n- Maximum volumetric fuel consumption of 38.30 gallons/hr (162 lb/hr / 4.23 lb/gallon) \n- Maximum operation: 1053 hours (40,328 gallons propane) per year, up to 9 hours (344.7 gallons \npropane) per day \n- Heat Conversion: 8063 British thermal units (Btus) per BHP for LPG fuel \n- For the US Environmental Protection Agency (EPA) Certification Emission Rate for “HC+NOx”, the \nportions may be considered 95% NOx and 5% hydrocarbons (HC). For the purposes of this evaluation, \nHC = POC."
+      },
+      {
+        "heading": "- For the purposes of this evaluation, toxic air contaminant (TAC) emissions from this engine can be",
+        "alias": "TOXICS",
+        "text": "- For the purposes of this evaluation, toxic air contaminant (TAC) emissions from this engine can be\nestimated using TAC emission factors from natural gas. \n \nAnnual Emissions and Daily Maximum Emissions: \nThe following EPA Certification Emission Rates for HC+NO x, and CO emissions from the engine were used for \nthe emission calculations: \n \nHC+NO x = 0.4 g/kW-hr (0.30 g/bhp-hr) \nCO = 0.6 g/kW-hr (0.45 g/bhp-hr)  \n \nNOx and POC emissions rates were calculated as follows: \n \nNOx = (0.30 g/bhp-hr) * (95%) = 0.28 g/bhp-hr \nPOC = (0.30 g/bhp-hr) * (5%) = 0.015 g/bhp-hr \n \nThe particulate matter (PM) and SO 2 emissions were calculated using emission factors from AP-42 Chapter 3.2 \nNatural Gas-fired Reciprocating Engines, Table 3.2-3 (Uncontrolled Emission Factors For 4-Stroke Rich-Burn \nEngines). The total PM emission factor consists of the sum of filterable plus condensable emission factors in \nAP-42. \n \nCity of Fairfield, Plant #3719                                                                Application #32158 \n \n  \nPage 2 of 7   \nThe daily maximum emissions were calculated assuming 9-hr/day of operation.  \n \nThe annual and daily maximum emissions from S-4 are summarized below in Table 1. \n \nTable 1 – Daily and Annual Maximum Emissions for S-4 \nPollutant Emission \nFactor Emission \nFactor \nUnit Emissions \n Daily (lbs/day) Annual (lbs/yr) Annual (TPY) \nNOx 0.28 g/bhp-hr 3.272 382.80 0.191 \nCO 0.45 g/bhp-hr 5.166 604.42 0.302 \nPOC 0.015 g/bhp-hr 0.172 20.15 0.010 \nPM10 1.94E-02 lb/MMBtu 0.820 95.91 0.048 \nPM2.5 1.94E-02 lb/MMBtu 0.820 95.91 0.048 \nSO2 5.88E-04 lb/MMBtu 0.025 2.91 0.001 \na Emission factors for NO x, CO, and POC per EPA certification. \nb Emission factors for PM 10 and SO 2 were retrieved from AP-42 Chapter 3.2 Natural Gas-fired Reciprocating \nEngines, Table 3.2-3. PM emission factors consist of filterable plus condensable fractions. These numbers are \nuncontrolled (unabated) emissions."
+      },
+      {
+        "heading": "Plant Cumulative Increase:",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Increase:\nTable 2 summarizes the cumulative increase in criteria pollutant emissions resulting from the operation of S-4. \n \nTable 2 – Plant Cumulative Emissions \nPollutant Emissions (TPY)  \nExisting New Total \nNOx 0.000 0.191 0.191 \nCO 0.000 0.302 0.302 \nPOC 0.000 0.010 0.010 \nPM10 0.000 0.048 0.048 \nPM2.5 0.000 0.048 0.048 \nSO2 0.000 0.001 0.001"
+      },
+      {
+        "heading": "TOXIC HEALTH RISK ASSESSMENT",
+        "alias": "TOXICS",
+        "text": "TOXIC HEALTH RISK ASSESSMENT\nToxic air contaminant (TAC) emission factors from California Air Toxics Emission Factors (CATEF) are \ngenerally preferred over those found in AP-42. When available, TAC emission factors were therefore retrieved \nfrom CATEF for Natural Gas-fired Rich Burn Engines rated < 650 hp. When CATEF factors were unavailable, \nvalues from AP-42, Table 3.2-3 were used. The TAC emission estimates are based on uncontrolled emission \nfactors for natural gas engines, and a factor of 1020 btu/cubic foot was used to convert CATEF factors to units \nof lb/MMBtu. \n \nTACs were calculated assuming an operating schedule of 9 hours per day, 5 days per week, and 52 weeks per \nyear (2,340 hours per year). \n \n \n \nTable 3 - TAC Emission Estimates \nCompound  Emission \nFactor \n[lb/MMBt\nu] Basis Hourly"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n[lb/hr]  Acute \nTrigger \nLevel [lb/hr] HRA \nTriggered? \n(Acute) Annual \nEmissions \n[lb/yr] Chronic \nTrigger \nLevel [lb/yr] HRA \nTriggered? \n(Chronic)  \n1,1,2,2-Tetrachloroethane 2.53E-05 AP-42 1.2E-04 None None 2.8E-01 1.40E+00 No \n1,1,2-Trichloroethane 1.53E-05 AP-42 7.2E-05 None None 1.7E-01 5.00E+00 No \n1,1-Dichloroethane 1.13E-05 AP-42 5.3E-05 None None 1.2E-01 5.00E+01 No \n1,3-Butadiene 1.02E-04 CATEF 4.8E-04 2.90E-01 No 1.1E+00 4.80E-01 YES \nAcetaldehyde 8.66E-04 CATEF 4.1E-03 2.10E-01 No 9.5E+00 2.90E+01 No \nAcrolein 5.36E-04 CATEF 2.5E-03 1.10E-03 YES 5.9E+00 1.40E+01 No \nBenzene (no control) 1.87E-03 CATEF 8.8E-03 1.20E-02 No 2.1E+01 2.90E+00 YES \nCarbon Tetrachloride 1.77E-05 AP-42 8.3E-05 8.40E-01 No 1.9E-01 1.90E+00 No \nChlorobenzene 1.29E-05 AP-42 6.1E-05 None None 1.4E-01 3.90E+04 No \nChloroform 1.37E-05 AP-42 6.4E-05 6.60E-02 No 1.5E-01 1.50E+01 No \nEthylbenzene 1.14E-05 CATEF 5.3E-05 None None 1.3E-01 3.30E+01 No \nEthylene Dibromide 2.13E-05 AP-42 1.0E-04 None None 2.3E-01 1.10E+00 No \nFormaldehyde (no control) 2.30E-03 CATEF 1.1E-02 2.40E-02 No 2.5E+01 1.40E+01 No \nMethanol 3.06E-03 AP-42 1.4E-02 1.20E+01 No 3.4E+01 1.50E+05 No \nMethylene Chloride 4.12E-05 AP-42 1.9E-04 6.20E+00 No 4.5E-01 8.20E+01 No \nNaphthalene 7.50E-05 CATEF 3.5E-04 None None 8.2E-01 2.40E+00 No \nPAH Equivalent as \nBenzo(a)pyrene  1.78E-07 CATEF 8.4E-07 None None 2.0E-03 3.30E-03 No \nPropylene 1.57E-02 CATEF 7.4E-02 None None 1.7E+02 1.20E+05 No \nStyrene 1.19E-05 AP-42 5.6E-05 9.30E+00 No 1.3E-01 3.50E+04 No \nToluene 1.05E-03 CATEF 4.9E-03 2.20E+00 No 1.2E+01 1.60E+04 No \nVinyl Chloride 7.18E-06 AP-42 3.4E-05 8.00E+01 No 7.9E-02 1.10E+00 No \nXylene (total) 6.45E-04 CATEF 3.0E-03 9.70E+00 No 7.1E+00 2.70E+04 No \n \n1 CATEFs are used when AP-42 EFs are less conservative than CATEFs. Reported mean emission factor values are used in accordance with District procedures.  \n \nBased on the calculations in Table 3 below, some TACs exceed the District’s Risk Screening trigger levels set \nforth in Table 1 of Reg. 2-5 (New Source Review for Toxic Air Contaminants). Therefore, a Health Risk \nAssessment (HRA) is required. \n \nThe BAAQMD therefore undertook an HRA to evaluate the potential acute, chronic, carcinogenic and non-\ncarcinogenic health risks from emissions from this project. The HRA evaluated risks to workers and to \nresidents in the vicinity of the project. \n \nResults from the HRA indicate that the maximum project cancer risk is 2.2 in a million , the project maximum \nchronic hazard index is 0.017, and the project maximum acute hazard index is 0.057. In accordance with the \nDistrict’s Regulation 2-5-301, this source requires TBACT because the cancer risk exceeds 1.0 in a million. \nRather than apply TBACT, the applicant instead chose to accept a reduction in permitted usage of the new \nengine. By reducing annual usage from 2,340 hours per year to 1,053 hours per year, the project cancer risk no \nlonger exceeds 1.0 in a million. \n \nThis project is located in an overburdened community (OBC), as defined by Regulation 2-1-243; therefore, the \nproject must comply with the project cancer risk limit of 6 in a million.  Since the estimated project cancer risk \ndoes not exceed 6 in a million and project hazard indices do not exceed 1.0, this project complies with the \nDistrict’s Regulation 2-5-302 project risk requirements. \n \nCompliance with Regulation 2-5 is therefore satisfied."
+      },
+      {
+        "heading": "GRAIN LOADING RATE",
+        "alias": null,
+        "text": "GRAIN LOADING RATE\nTE \nThe grain loading rate calculation is required for determining the compliance of this application with \nBAAQMD Regulation 6, Rule 1 (refer to “Statement of Compliance” section, below). \n \n[0.091 lb PM 10/hr * 7000 grain/lb] / [60 min/hr * 817.2 DSCFM] = 0.01 grain/dscf \n \nAssumptions : \n 1.94E-02 lb PM 10/MMBtu * 4.69 MMBtu/hr = 0.091 lb PM 10/hr \n 7000 grain/lb standard conversion factor (AP-42 Appendix A, Page A-19) \n Per applicant, S-4 has maximum flow of 2333 acfm at 1053°F dry exhaust; this is equivalent \nto 817.2 DSCFM: \n \nDSCFM = ACFM x [(460°R + 70°F)/(460°R + temp)] x (Actual P/14.7 psi) x (1-B wo) \n   \n  Where: ACFM = 2333 cfm, temp = 1053°F, Actual P = 14.7 psi, B w = 0 (fraction of water vapor)"
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE \nThe owner/operator of S-4 shall comply with Reg. 6-1 (Particulate Matter and Visible Emissions Standards), \nReg. 9-1-301 (Inorganic Gaseous Pollutants:  Sulfur Dioxide for Limitations on Ground Level Concentrations), \nand Reg. 9-8 (Nitrogen Oxides and Carbon Monoxide from Stationary ICE).   \n \nThe owner/operator is expected to comply with Reg. 6-1 since the unit is fueled with LPG.  Because the S-4 \nengine has displacement of 21.9L (1336.4 cubic inch), the Ringelmann No. 2 Limitation applies per Section 6-\n1-303 (ICE engine of less than 25 L or 1500 cubic inch displacement). Thus, for any period aggregating more \nthan three minutes in any hour, there should be no visible emission as dark or darker than No. 2 on the \nRingelmann Chart or be equal to or greater than 40% opacity. S-4 is expected to comply with this requirement, \nas well as the visible particles requirement of Section 6-1-305.  The emission rate from S-4 results in an outlet \ngrain loading of 0.01 grains/dscf, which is less than the limit 0.15 grains/dscf and therefore complies with \nRegulation 6-1-310.1.  The TSP limits in 6-1-310.2 does not apply because the potential to emit TSP is below \n1,000 kg per year. \n \nThe owner/operator is expected to comply with Regulation 9-1 by restricting fuel to LPG only. Combustion of \nLPG is expected to produce a SO 2 concentration of no more than 1 ppmv. Therefore, the source is expected to \ncomply with Section 9-1-301 (Limitations on Ground Level Concentrations) and 9-1-304 (Fuel Burning). \n \nCity of Fairfield, Plant #3719                                                                Application #32158 \n \n  \nPage 5 of 7   \nS-4 is expected to comply with the limits identified in Regulation 9-8-301, as shown below. \n \nTable 4: Regulation 9-8-301 Limits \nPollutant Standard (ppmvd @ 15% O2) Standard (lb/hr) S-4 Emissions Rate (lb/hr) \nNOx 56 1.0 0.4 \nCO 2000 21.0 0.6 \n \nAssumptions: \n \nlb/hr = ppm * 10^-6 * (1/molar volume) * (molar mass) * Fd * 20.9/(20.9-%O2) * HHV 10^-6 * bhp \n \nwhere molar volume = 385.3 dscf/lb/mol, Fd = 8710 dscf/MMBtu, %O2 = 15, HHV = 8063, and bhp = 582 \n \nNOx \n56 ppm * 10^-6 * (1/385.3 dscf/lb-mol) * (46 lb/lb-mol) * (8710 dscf/MMBtu) * (20.9)/(20.9-15)  \n* (8063 Btu/bhp-hr) * 10^-6 * 582 bhp \n= 1.0 lb/hr \n \nCO \n2000 ppm * 10^-6 * (1/385.3 dscf/lb-mol) * (28 lb/lb-mol) * (8710 dscf/MMBtu) * (20.9)/(20.9-15)  \n* (8063 Btu/bhp-hr) * 10^-6 * 582 bhp \n= 21.0 lb/hr"
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA):",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA):\nThe project is ministerial, under the District's CEQA Reg. 2-1-311, and therefore is not subject to CEQA review. \nThe engineering review for this project requires only the application of standard permit conditions and standard \nemissions factors as specified in District permit handbook chapter 2.3.2 (Stationary Natural Gas Engines) and \ntherefore is not discretionary as defined by CEQA."
+      },
+      {
+        "heading": "Public Notification (Regulation 2-1-412)",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Public Notification (Regulation 2-1-412)\nThe project is not within 1,000 feet from the nearest school; however, the project is located within an \noverburdened community and required an HRA. Therefore, a public notice will be distributed and a thirty-day \npublic comment period will be initiated."
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\nT)    \nIn accordance with Reg. 2-2-301 (Best Available Control Technology Requirement), BACT is triggered for any \nnew or modified source with the potential to emit 10 pounds or more per highest day of POC, NPOC, NOx, CO, \nSO2 PM10, or PM 2.5. Based on the emission calculations in Table 1, BACT is not triggered since the maximum \ndaily emission for all the criteria pollutants are less than 10 pounds per day."
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nts \nOffsets must be provided for any new or modified source at a facility that emits more than 10 tons per year of \nPOC or NO x. Based on the emission calculations in Table 1, offsets are not required for this application per Reg \n2-2-302 (Offset Requirements, Precursor Organic Compounds and Nitrogen Oxides). \n \nNew Source Performance Standards (NSPS)  \nS-4 is subject to 40 CFR 60, Subpart JJJJ, Standards of Performance for Stationary Spark Ignition (SI) Internal \nCombustion Engines (ICEs), per §60.4230(a)(4)(i) because the owner/operator will commence construction after \nJune 12, 2006, and the source is an engine which was manufactured after July 1, 2007 and has a maximum power \ngreater than 500 hp.  \n \nThe engine will comply with the limits in (40 CFR 60 Subpart JJJJ) Table 1 for emergency spark-ignited \nengines greater than 130 hp. \n \n \nCity of Fairfield, Plant #3719                                                                Application #32158 \n \n  \nPage 6 of 7  Table 5. NSPS Emission Standards vs. S-4 Engine Family Emission Rates \nPollutant NSPS Emission Standard* S-4 Emission Rate  \nNOx 2.0 g/bhp-hr  0.3 g/bhp-hr \nCO 4.0 g/bhp-hr  0.4 g/bhp-hr \nVOC 1.0 g/bhp-hr 0.01 g/bhp-hr \n * https://www.law.cornell.edu/cfr/text/40/appendix-Table_1_to_subpart_JJJJ_of_part_60  \n \nBased on the EPA Annual Emission Certification Data, S-4 complies with NSPS requirements.    \n \nNational Emission Standards for Hazardous Air Pollutants (NESHAP)  \nS-4 is subject to 40 CFR 63, Subpart ZZZZ, National Emission Standards for Hazardous Air Pollutants for \nReciprocating Internal Combustion Engines (RICE). Per 40 CFR 63.6590(c)(1), a new or reconstructed \nstationary RICE located at an area source must meet the requirements of NSPS (40 CFR 60, Subpart JJJJ) for \nspark ignition engines. As stated above in the NSPS section, S-4 meets the emissions requirements of NSPS."
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD)",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD)\nD) \nRegulation 2-2-224 defines a PSD project as one at a facility that has the potential to emit 100 tons or more per \nyear of any PSD pollutant. This facility will not have the potential to emit 100 tons or more of any PSD pollutant \ntherefore, this project is not a PSD project."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nNS \n \nPermit Condition # 100266 (applicable to S-4)  \n \n1. The owner/operator of S-4 shall operate this source on propane gas fuel exclusively. (Basis: Cumulative \nIncrease; Regulation 2-5) \n2. The owner/operator of S-4 shall not exceed 1,053 hours of operation or 40,328 gallons of propane fuel usage \nin any 12-month period. (Basis: Cumulative Increase, Regulation 2-5) \n3. The owner/operator of S-4 shall not exceed 9 hours of operation or 344.7 gallons of propane fuel usage in \nany day. (Basis: BACT) \n4. To determine compliance with the above parts, the owner/operator of S-4 shall maintain the following \nrecords: \n \na. Gallons of propane used in each day. \nb. Gallons of propane used in each month. \nc. Gallons of propane used in each rolling 12-month period. \n \nThe owner/operator shall record all records in a District-approved log. The owner/operator shall retain the \nrecords with the equipment for two years, from the date of entry, and make them available for inspection by \nDistrict staff upon request. These record-keeping requirements shall not replace the record-keeping \nrequirements contained in any applicable District Regulations. (Basis: Recordkeeping) \n  \n \nCity of Fairfield, Plant #3719                                                                Application #32158 \n \n  \nPage 7 of 7  RECOMMENDATION \nThe District has reviewed the material contained in the permit application for the proposed project and has made \na preliminary determination that the project is expected to comply with all applicable requirements of District, \nstate, and federal air quality-related regulations. The preliminary recommendation is to issue an Authority to \nConstruct for the equipment listed below. However, the proposed source will be located within an overburdened \ncommunity and an HRA was required, which triggers the public notification requirements of Regulation 2-1-\n412. After the comments are received from the public and reviewed, the District will make a final determination \non the permit. \n \nI recommend that the District initiate a public notice and consider any comments received prior to taking any \nfinal action on issuance of an Authority to Construct and/or a Permit to Operate for the following equipment: \n \nS-4 Prime Propane Engine Generator Set \nMake: Power Solutions International, EPA Family: LPSIB21.9NGP, Model 21.9L, \nModel Year 2020, Burn Type: Rich, Rated 582 BHP. \nPrepared by:  _______________________________________   Date: ________________ \nDaniel Oliver          03/07/2024 \nSenior Air Quality Engineer"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "GRAIN LOADING RATE",
+        "alias": null,
+        "text": "GRAIN LOADING RATE\nTE \nThe grain loading rate calculation is required for determining the compliance of this application with \nBAAQMD Regulation 6, Rule 1 (refer to “Statement of Compliance” section, below). \n \n[0.091 lb PM 10/hr * 7000 grain/lb] / [60 min/hr * 817.2 DSCFM] = 0.01 grain/dscf \n \nAssumptions : \n 1.94E-02 lb PM 10/MMBtu * 4.69 MMBtu/hr = 0.091 lb PM 10/hr \n 7000 grain/lb standard conversion factor (AP-42 Appendix A, Page A-19) \n Per applicant, S-4 has maximum flow of 2333 acfm at 1053°F dry exhaust; this is equivalent \nto 817.2 DSCFM: \n \nDSCFM = ACFM x [(460°R + 70°F)/(460°R + temp)] x (Actual P/14.7 psi) x (1-B wo) \n   \n  Where: ACFM = 2333 cfm, temp = 1053°F, Actual P = 14.7 psi, B w = 0 (fraction of water vapor)"
+      }
+    ]
+  }
+}

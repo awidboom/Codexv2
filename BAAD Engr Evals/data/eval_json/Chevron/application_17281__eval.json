@@ -1,0 +1,185 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\extracted_evaluations\\application_17281.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 1
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "17281",
+    "application_number_from_filename": "17281"
+  },
+  "application_number": "17281",
+  "plant": {
+    "name": "59EVALUATION REPORT",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-6010",
+      "description": "LSFO Flare to NSPS subparts A and J as part of its EPA/DOJ Consent"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd  \n \nChevron Products Co. (Chevron) is proposing to add a new condition subjecting \nS-6010 LSFO Flare to NSPS subparts A and J as part of its EPA/DOJ Consent \nDecree at its refinery located in Richmond.   These changes in conditions are to \nincorporate NSPS Subparts A and J into the Title V permit and the related permit conditions.  This is the last of Chevron’s Flares to become subject to NSPS A and J.  The other Flares at Chevron were made subject to NSPS A and J through \napplication 15711.  The effectiveness date is  the date Chevron sent a letter to \nEPA certifying that the flare is  in compliance with NSPS J. \n The Chevron Title V permit sections IV, VI, and VII will need to be changed to include the change in conditions for the LSFO Flare and include NSPS Subparts A and J for this Flare.  Emission Calculations  \n \nNo emission increases are expected as  a result of this application."
+  },
+  "emission_calculations": {
+    "text": ""
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Increase\nse \n \nThere will be no increase in the Plant Cumula tive Increase as a result of this \napplication."
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-6010": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "Toxic Risk Screening Analysis\nA toxic risk analysis is not required for th is application since the emissions are \nnot expected to increase as a result of this application.A toxic risk analysis is not required for this application as stated above."
+  },
+  "BACT": {
+    "text": ""
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nS-6010 LSFO Flare will now be subject to all applicable parts of both NSPS \nSubparts A and J.  These sources will continue to comply wit h all applicable requirements specified \nin the most recent facility Title V permit.  This application will not trigger BACT, offsets, or PSD since there will be no \nincrease in emissions as a result of this application.  This application is exempt from CEQA  since the project has no potential for \ncausing a significant adverse envir onmental impact and the application is \ncategorically exempt from CEQA under  Regulation 2-1-312.5, which exempts \npermit applications submitted pursuant to  a judicial enforcement order (see \nReferences – Part III).  In making the determination that this application is \n 60categorically exempt: 1) a review of t he CEQA-Related Information submitted by \nthe applicant (under Regulat ion 2-1-426.1), has been conducted indicating that \nthere is no potential for a significant adverse environmental impact from the \nproject; 2) a formal health risk assessment was not required; and 3) no unusual \ncircumstances or cumulative impacts from  successive projects of the same type \nin the same place over time were dete rmined to result in significant adverse \nenvironmental impacts."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "Conditions\nns  \n \nSee condition # 23735. (attached) \n \n  \n \n      by________________date________ \n        Gregory Solomon  \n       Senior Air Quality Engineer"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": null,
+        "text": "Conditions\nns  \n \nSee condition # 23735. (attached) \n \n  \n \n      by________________date________ \n        Gregory Solomon  \n       Senior Air Quality Engineer",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\non  \n \nRecommend that the following equipment  be granted a change in conditions: \n  S-6010  LSFO Flare, 878,900 #/hr  vent gas maximum capacity"
+  },
+  "raw_sections": {
+    "preamble": "59EVALUATION REPORT \nChevron Products Co., Plant #10 \nApplication Number 17281/2",
+    "blocks": [
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd  \n \nChevron Products Co. (Chevron) is proposing to add a new condition subjecting \nS-6010 LSFO Flare to NSPS subparts A and J as part of its EPA/DOJ Consent \nDecree at its refinery located in Richmond.   These changes in conditions are to \nincorporate NSPS Subparts A and J into the Title V permit and the related permit conditions.  This is the last of Chevron’s Flares to become subject to NSPS A and J.  The other Flares at Chevron were made subject to NSPS A and J through \napplication 15711.  The effectiveness date is  the date Chevron sent a letter to \nEPA certifying that the flare is  in compliance with NSPS J. \n The Chevron Title V permit sections IV, VI, and VII will need to be changed to include the change in conditions for the LSFO Flare and include NSPS Subparts A and J for this Flare.  Emission Calculations  \n \nNo emission increases are expected as  a result of this application."
+      },
+      {
+        "heading": "Plant Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Increase\nse \n \nThere will be no increase in the Plant Cumula tive Increase as a result of this \napplication."
+      },
+      {
+        "heading": "Toxic Risk Screening Analysis",
+        "alias": "TOXICS",
+        "text": "Toxic Risk Screening Analysis\nA toxic risk analysis is not required for th is application since the emissions are \nnot expected to increase as a result of this application."
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nS-6010 LSFO Flare will now be subject to all applicable parts of both NSPS \nSubparts A and J.  These sources will continue to comply wit h all applicable requirements specified \nin the most recent facility Title V permit.  This application will not trigger BACT, offsets, or PSD since there will be no \nincrease in emissions as a result of this application.  This application is exempt from CEQA  since the project has no potential for \ncausing a significant adverse envir onmental impact and the application is \ncategorically exempt from CEQA under  Regulation 2-1-312.5, which exempts \npermit applications submitted pursuant to  a judicial enforcement order (see \nReferences – Part III).  In making the determination that this application is \n 60categorically exempt: 1) a review of t he CEQA-Related Information submitted by \nthe applicant (under Regulat ion 2-1-426.1), has been conducted indicating that \nthere is no potential for a significant adverse environmental impact from the \nproject; 2) a formal health risk assessment was not required; and 3) no unusual \ncircumstances or cumulative impacts from  successive projects of the same type \nin the same place over time were dete rmined to result in significant adverse \nenvironmental impacts."
+      },
+      {
+        "heading": "A toxic risk analysis is not required for this application as stated above.",
+        "alias": "TOXICS",
+        "text": "A toxic risk analysis is not required for this application as stated above."
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\non  \n \nRecommend that the following equipment  be granted a change in conditions: \n  S-6010  LSFO Flare, 878,900 #/hr  vent gas maximum capacity"
+      },
+      {
+        "heading": "Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Conditions\nns  \n \nSee condition # 23735. (attached) \n \n  \n \n      by________________date________ \n        Gregory Solomon  \n       Senior Air Quality Engineer"
+      }
+    ],
+    "unmapped_blocks": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "source_pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\A0010_2017_11_SigRevision_Proposed_SOB_04 pdf.pdf",
+  "heading_regex": "(ENGINEERING EVALUATION(?: REPORT)?|EVALUATION REPORT)",
+  "detect_by": "both",
+  "top_lines": 120,
+  "top_app_lines": 25,
+  "lookahead_pages": 6,
+  "anchor_line": true,
+  "min_gap": 2,
+  "appchange_confirm": true,
+  "confirm_lookahead": 3,
+  "sections": [
+    {
+      "index": 1,
+      "start_page": 25,
+      "end_page": 28,
+      "application_number": null,
+      "output": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\split_A0010_2017_11_SigRevision_Proposed_SOB_04 pdf\\evaluation_01.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 2,
+      "start_page": 29,
+      "end_page": 31,
+      "application_number": null,
+      "output": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\split_A0010_2017_11_SigRevision_Proposed_SOB_04 pdf\\evaluation_02.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 3,
+      "start_page": 32,
+      "end_page": 48,
+      "application_number": "24892",
+      "output": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\split_A0010_2017_11_SigRevision_Proposed_SOB_04 pdf\\application_24892.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 4,
+      "start_page": 49,
+      "end_page": 55,
+      "application_number": "25793",
+      "output": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\split_A0010_2017_11_SigRevision_Proposed_SOB_04 pdf\\application_25793.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 5,
+      "start_page": 56,
+      "end_page": 75,
+      "application_number": "25960",
+      "output": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\split_A0010_2017_11_SigRevision_Proposed_SOB_04 pdf\\application_25960.pdf",
+      "addendum_like": false
+    }
+  ]
+}

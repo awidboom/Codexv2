@@ -1,0 +1,349 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 8
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "Maximally Exposed\nReceptor  Maximum Cancer Risk  Maximum Chronic\nHazard Index\nResident  0.29 in a million  0.000079\nWorker  0.11 in a million  0.000084\nStudent  0.018 in a million  0.0000098"
+      ]
+    },
+    "application_number_detected": "672206",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2023/672206/fid17710_nsr_672206_eval_042123-pdf.pdf?rev=2c66f76a1f4644f2a5ec0099650d5e74&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2023/042123-672206/3e-company-regulatory-dept-co-home-depot-6603"
+  },
+  "application_number": "672206",
+  "plant": {
+    "name": "3E Company/Regulatory Dept C/O Home Depot #6603",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-2",
+      "description": "Emergency Standby Diesel Generator Set"
+    },
+    {
+      "id": "A-1",
+      "description": "Diesel Particulate Filter"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd  \n3E Company/Regulatory Dept C/O Home Depot #6603 is applying for an Authority to \nConstruct/Permit to Operate for the following equipment : \n \nS-2 Emergency Standby Diesel Generator Set  \nMake:  John Deere, Model: 6090HF484B ,   \nYear: 2022, 385 bhp, 2.41 MMBtu/h our  \nPermit Condition No s. 100072, 100073 and 100102 \nAbated by  Diesel Particualte Filter, A -1 \n \nA-1      Diesel Particulate Filter  \n            Make: Miratech  LTR DOC/DPF , Model: LTRV6 -6-05-R1 \n Executive Order DE -14-005-07 \n \nThe criteria pollutants are nitrogen oxides (NO x), carbon monoxide (CO), precursor \norganic compounds (POC) from unburned diesel fuel, sulfur dioxide (SO 2) and particulate \nmatter (PM 10).  All of these pollutants are briefly discussed on the District’s web site at \nwww.baaqmd.gov . \n \nS-2 meets  the Environmental Protection Agency and California Air Resources Board \n(EPA/CARB) Tier 3 Off-road standard.  The engine will burn commercially available \nCalifornia low sulfur diesel fuel. The sulfur content of the diesel fuel will not exceed \n0.0015% by weight. PM emissions from S -2 will be abated with an efficiency of 85% by \nweight with a certified Diesel Particulate Filter (DPF) identified as A -1, certified accordin g \nto CARB Executive Order D E-14-005-07. \n \nThis evaluation report will discuss compliance of the proposed project with all applicable \nrules and regulations. \n \n \n \n \n \n \n \n \n \n \n \nAN672206/ FID17710"
+  },
+  "emission_calculations": {
+    "text": "2 \n Emissions\nTable 1. Annual and Daily Emissions from EPA/CARB Certified Data from S -2 \nPollutant  Unabated \nEmission \nFactor  \n(g/bhp -hr) Abated \nEmission \nFactor  \n(g/bhp -hr) Max Daily \nEmissions  \n(lbs./day)  Annual \nEmissions \n(lbs./year) Annual \nEmissions \n(tons/y ear) \nNOx  2.84 -- 57.8 120 0.060 \nPOC  0.07 -- 1.4 3 0.001 \nCO 0.67 -- 13.6 28 0.014 \nPM 10/PM 2.51 0.10 0.02 0.3 1 0.000 \nSO 2 N/A2 -- 0.1 0 0.000  \nBasis :   \n Annual emissions: Reliability -related activity 50  hours for S -2 \n Max daily emissions: 24- hour operation  \n Unabated Emissions from the EPA Engine Family NJDXL09.0114 for S -2 \n PM emissions are abated by a CARB certified DPF according to Executive Order DE -14-\n005-07 \n 1 Conservative Assumption: All PM emissions are PM 2.5 \n 2 SO 2 emission factor from AP -42 Table 3.4- 1, SO 2 (15 ppm) = 0.00809*0.0015 lb SO 2/bhp-\nhour.Emission s\n(tons/y ear) Cumulative \nEmissions \n(tons/y ear) \nNOx  0.000  0.060  0.060  \nPOC  0.000  0.001 0.001 \nCO 0.000  0.014 0.014 \nPM 10/PM 2.5 0.000  0.000 0.000 \nSO 2 0.000  0.000  0.000Emissions\n(TPY)  Application  \nAnnual  \nEmissions*  \n(TPY)  Facility  \nAnnual  \nEmissions  \n(TPY) *  Offset  \nRequirement  \n(TPY)  Offset  \nRequired  \nNOx  0.214  0.181 0.395 >10 N \nPOC  0.002 0.004 0.006 >10 N \nCO 0.008 0.043 0.051 - N \nPM 10/PM 2.51 0.003 0.001 0.004 ≥100 N \nSO 2 0.000 0.000 0.000 ≥100 N \n*Annual emissions: Reliability -related activity of 50 hours and emergency operation of 100 hours \nfor S -2. \n \nSince the facility’s potential to emit is below the offsets trigger levels specified in \nRegulation 2- 2, offsets are not required."
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Increase\nse \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result \nfrom this application.  \n \nTable 2. Plant Cumulative Emissions Increase, Post 4/5/91 \nPollutant  Existing Emissions \nPost 4/5/91 \n(tons/y ear) Application"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "2 \n Emissions\nTable 1. Annual and Daily Emissions from EPA/CARB Certified Data from S -2 \nPollutant  Unabated \nEmission \nFactor  \n(g/bhp -hr) Abated \nEmission \nFactor  \n(g/bhp -hr) Max Daily \nEmissions  \n(lbs./day)  Annual \nEmissions \n(lbs./year) Annual \nEmissions \n(tons/y ear) \nNOx  2.84 -- 57.8 120 0.060 \nPOC  0.07 -- 1.4 3 0.001 \nCO 0.67 -- 13.6 28 0.014 \nPM 10/PM 2.51 0.10 0.02 0.3 1 0.000 \nSO 2 N/A2 -- 0.1 0 0.000  \nBasis :   \n Annual emissions: Reliability -related activity 50  hours for S -2 \n Max daily emissions: 24- hour operation  \n Unabated Emissions from the EPA Engine Family NJDXL09.0114 for S -2 \n PM emissions are abated by a CARB certified DPF according to Executive Order DE -14-\n005-07 \n 1 Conservative Assumption: All PM emissions are PM 2.5 \n 2 SO 2 emission factor from AP -42 Table 3.4- 1, SO 2 (15 ppm) = 0.00809*0.0015 lb SO 2/bhp-\nhour.Emission s\n(tons/y ear) Cumulative \nEmissions \n(tons/y ear) \nNOx  0.000  0.060  0.060  \nPOC  0.000  0.001 0.001 \nCO 0.000  0.014 0.014 \nPM 10/PM 2.5 0.000  0.000 0.000 \nSO 2 0.000  0.000  0.000Emissions\n(TPY)  Application  \nAnnual  \nEmissions*  \n(TPY)  Facility  \nAnnual  \nEmissions  \n(TPY) *  Offset  \nRequirement  \n(TPY)  Offset  \nRequired  \nNOx  0.214  0.181 0.395 >10 N \nPOC  0.002 0.004 0.006 >10 N \nCO 0.008 0.043 0.051 - N \nPM 10/PM 2.51 0.003 0.001 0.004 ≥100 N \nSO 2 0.000 0.000 0.000 ≥100 N \n*Annual emissions: Reliability -related activity of 50 hours and emergency operation of 100 hours \nfor S -2. \n \nSince the facility’s potential to emit is below the offsets trigger levels specified in \nRegulation 2- 2, offsets are not required.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-2": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "Health Risk Assessment (HR A)\nA) \nAn HRA was required. The diesel particulate emissions from the project are greater than \nthe toxic trigger level of 0.26 pounds per year. All PM 10 emissions are considered diesel \nparticulate emissions. The P M10 emissions from this application are summarized in Table \n1. There are no related application s associated with this project. Since the diesel particulate \nemissions from the project are greater than the toxic trigger level of 0.26 pounds per year, \nan HRA is required. This application did not qualify for HRA streamlining because \nreceptors are located less than 100 feet from the proposed engine location.  \n \n \n \nAN672206/ FID17710  \n3 \n HRA ResultsThis analysis estimates the incremental health risk resulting from toxic air contaminant\n(TAC) emissions from non- emergency operation of a standby generator diesel engine at \nthis facility.  Results from this HRA indicate that the maximum project cancer risk is \nestimated at 0.29 in a million, and the maximum project chronic hazard index is estimated \nat 0.000084 as shown in Table 3.  \n \nTable 3. Risk Screening Results  \nMaximally Exposed \nReceptor  Maximum Cancer Risk  Maximum Chronic \nHazard Index  \nResident  0.29 in a million  0.000079  \nWorker  0.11 in a million  0.000084  \nStudent  0.018 in a million  0.0000098Airborne Toxic Control Measure for Stationary Compression Ignition Engines\nATCM, 5/19/2011, section 93115, title 17, CA Code of Regula tionsoperation. [Basis: Toxics, \"ATCM for Stationary Compression Ignition Engines\"\nSecti on 93115.6(a)(3) or 93115.6(b)(3), title 17, CA Code of Regulations]  \n \n2. The owner/operator shall comply with requirements for CARB Executive Order  DE-14-\n005-07.  \n [Basis: CARB Executive Order DE -14-005-07, \"ATCM for Stationary Compression \nIgnition Engines\" Section 93115.13(f), title 17, CA Code of Regulations, Toxics, \nSections 2700 through 2711 of title 13, CA Code of Regulations]  \n \nEnd of Conditions"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\nT)  \nIn accordance with Regulation 2- 2-301, BACT is triggered for any new or modified source \nwith the potential to emit 10 pounds or more per highest day of POC, non -precursor organic \ncompounds ( NPOC ), NO x, CO, SO 2, or PM 10.  \n \nBACT for this source is presented in the current BAAQMD BACT/TBACT Workbook for \nIC Engine – Compression Ignition: Stationary Emergency, non- Agricultural, non- direct \ndrive fire pump, 50- 1000 bhp, Document #96.1.3, Revision 8, dated 12/22/2020 (see \nAttachment 1) . For NO x, CO, POC and PM 10, BACT(2) is the CARB ATCM standard for \nthe respective pollutant at the applicable horsepower rating. For SO 2, BACT(2) is using \nfuel with sulfur content not to exceed 0.0015%, or 15 ppm. The more restrictive BACT(1) \nstandards are not applicable to this engine because it will be limited to operation as an \nemergency standby engine.  \n \nAN672206/ FID17710  \n4 \n S-2 satisfies th e current BACT(2) standards for the following pollutants which exceed 10 \npounds per day in Table 1:  \n \n  Pollutant   Emission Factor  BACT(2) Standard  \n  NOx1   2.84 g/bhp- hr  2.85 g/bhp- hr  \nCO   0.67 g/bhp- hr  2.60 g/bhp- hr \n  \n 1The standard is expressed as 3.0  g/bhp of NMHC+NOx.  NOx is estimated to be 95% of the \ncombined standard ( 3.0*0.95 = 2.85 g/bhp- hr)"
+  },
+  "offsets": {
+    "narrative": "Offsets\nts  \nOffset must be provided for any new or modified source at a facility that will have the \npotential to emit more than 10 tons per year of NO x or POC, as specified in Regulation 2-\n2-302; 100 tons per year or more of PM 2.5, PM 10 or SO 2, as specified in Regulation 2- 2- \n303. \n \nTable 4. Potential to Emit for FID 17710 \nPollutant  Existing  \nAnnual",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          2.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD)\nD)  \nThis application is not part of a PSD project as defined in Regulation 2- 2."
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA)\nA)  \nThis project is ministerial under the District Regulation 2 -1-311 (Permit Handbook \nChapter 2.3.1) and is therefore not subject to CEQA review.  \n \nNew Source Performance Standards (NSPS)  \n40 CFR 60, Subpart IIII ( Stationary Compression Ignition Internal Combustion Engines ) \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP)  \n40 CFR 63, Subpart ZZZZ ( Stationary Reciprocating Internal Combustion Engines \n(RICE))"
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nce  \nThe owner/operator is expected to comply with all applicable requirements. Key \nrequirements are listed below:District Rules\nes  \nRegulation 6- 1-303 ( Ringelmann No. 2 Limitation)  \nRegulation 9- 1-301 ( Limitations on Ground Level Concentrations of SO 2)  \nRegulation 9- 8 (NOx and CO from Stationary Internal Combustion Engines ) \nSection 9 -8-110.5 – Limited exemption fo r emergency standby engines  \nSection 9 -8-330 – Hours of operation for emergency standby engines  \nSection 9 -8-502 – Recordkeeping  \n            Section 9 -8-331 –  Essential Public Service, Hours of Operation  \nAN672206/ FID17710  \n5"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Public Notification (Regulation 2 -1-412)\n) \nThe proposed source is located less than 1,000 feet from K -12 school(s), with more than \n12 students enrolled, and within an Overburdened Community as defined in Regulation \n2-1-243 and requires a Health Risk Assessment pursuant to Regulation 2- 5-401. \nTherefore, the pro posed source is subject to the public notification requirements of \nRegulation 2- 1-412. A public notice will be prepared and sent to all addresses within \n1,000 feet of the proposed source(s) and parents and guardians of students at the \nfollowing school(s):  \nTable 5. School Public Notification  \nSchool Name  Street Address  City Grade School  \nLos Robles Magnet Academy  2033 Pulgas Avenue  East Palo Alto  K-8 \nBrentwood Academy  2086 Clarke Avenue  East Palo Alto  K-5 \nThe Primary School – East Palo \nAlto 951 O’ Connor \nStreet  East Palo Alto  K-2 \nLa Scuola International – Silicon \nValley Campus  2086 Clarke Avenue  East Palo Alto  PK-1 \nRonald Mc Nair Academy  2033 Pulgas Avenue  East Palo Alto  6-8triggers the public notification requirements of Regulation 2- 1-412. After the comments\nare received from the public and reviewed, the District will make a final determination on \nthe permit.  \n \nI recommend that the District initiate a public notice and consider any comments received \nprior to taking any final action on is suance of an Authority to Construct and/or a Permit to \nOperate for the following equipment:  \n \nS-2 Emergency Standby Diesel Generator Set  \nMake:  John Deere, Model: 6090HF484B,   \nYear: 2022, 385 bhp, 2.41 MMBtu/hr  \nPermit Condition No s. 100072, 100073 and 100102 \nAbated by  Diesel Particulate Filter, A -1 \n \nA-1      Diesel Particulate Filter  \n            Make: Miratech  LTR DOC/DPF , Model: LTRV6 -6-05-R1 \n Executive Order DE -14-005-07 \n \nPrepared by:  Osvaldo Zacarias, AQ E1  \nFebruary  2023  \n \n \n \nAN672206/ FID17710  \n8 \n Attachment 1  \n \n \n \n\nAN672206/ FID17710  \n9"
+  },
+  "conditions": {
+    "text": "Permit Conditions\nns  \n \nPermit Condition #100072 for S -2 \n \n1. The owner or operator shall operate each emergency standby engine only for the \nfollowing purposes: to mitigate emergency conditions, for emission testing to \ndemonstrate compliance with a District, state or Federal emission limit, or for \nreliability -related activities (maintenance and other testing, but excluding emission \ntesting). Operating while mitigating emergency conditions or while emission testing to \nshow compliance  with District, state or Federal emission limits is not limited.  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary \nCI Engines]  \n \nAN672206/ FID17710  \n6 \n 2. The owner/operator shall operate each emergency standby engine only when a non-\nresettable totalizing meter (with a minimum display capability of 9,999 hours) that \nmeasures the hours of operation for the engine is installed, operated and properly \nmaintained.  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for  Stationary \nCI Engines]  \n \n3. Records: The owner/operator shall maintain the following monthly records in a \nDistrict- approved log for at least 36 months from the date of entry (60 months if the \nfacility has been issued a Title V Major Facility Review Permit or a Synthetic Minor \nOperating Permit). Log entries shall be retained on- site, either at a central location or \nat the engine’s location, and made immediately available to the District staff upon \nrequest.  \na. Hours of operation for reliability- related activities (maintenance and testing).  \nb. Hours of operation for emission testing to show compliance with emission \nlimits.  \nc. Hours of operation (emergency).  \nd. For each emergency, the nature of the emergency condition.  \ne. Fuel usage for each engine(s).  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for \nStationary CI Engines]  \n \n4. At School and Near -School Operation: If the emergency standby engine is located on \nschool grounds or within 500 feet of any school grounds, the following requirements \nshall apply: The owner or operator shall not operate each stationary emergency standby \ndiesel -fueled engine for non- emergency use, including maintenance and testing, during \nthe following periods:  \na. Whenever there is a school sponsored activity (if the engine is located on \nschool grounds)  \nb. Between 7:30 a.m. and 3:30 p.m. on days when school is in session.  \n'School' or 'School Grounds' means any public or private school used for the purposes \nof the education of more than 12 children in kindergarten or any of grades 1 to 12, \ninclusive, but does not include any private school in which education is primarily \nconducted in a private home(s). 'School' or 'School Grounds' includes any building or \nstructure, playground, athletic field, or other areas of school property but does not \ninclude unimproved school property.  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary \nCI Engines]  \n \n Permit Condition #100073 for S -2 \n \nThe owner/operator shall not exceed the following limits per year per engine for \nreliability -related activities: \n• 50 Hours of Diesel fuel (Diesel fuel)  \n      [Basis: Cumulative Increase; Regulation 2 -5; Title 17, California Code of Regulations,   \n       section 93115, ATCM for Stationary CI Engines]  \nAN672206/ FID17710  \n7 \n Permit Condition #100102 for S -2. \n \n1. The owner/operator shall abate the particulate emissions from the emergency diesel \nengine by the Diesel Oxidation Catalyst/Particulate Filter at all times the engine is in"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner or operator shall operate each emergency standby engine only for the \nfollowing purposes: to mitigate emergency conditions, for emission testing to \ndemonstrate compliance with a District, state or Federal emission limit, or for \nreliability -related activities (maintenance and other testing, but excluding emission \ntesting). Operating while mitigating emergency conditions or while emission testing to \nshow compliance  with District, state or Federal emission limits is not limited.  \n[",
+        "basis": [
+          "Title 17",
+          "California Code of Regulations",
+          "section 93115",
+          "ATCM for Stationary \nCI Engines]  \n \nAN672206/ FID17710  \n6"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall operate each emergency standby engine only when a non-\nresettable totalizing meter (with a minimum display capability of 9,999 hours) that \nmeasures the hours of operation for the engine is installed, operated and properly \nmaintained.  \n[",
+        "basis": [
+          "Title 17",
+          "California Code of Regulations",
+          "section 93115",
+          "ATCM for  Stationary \nCI Engines]"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "Records: The owner/operator shall maintain the following monthly records in a \nDistrict- approved log for at least 36 months from the date of entry (60 months if the \nfacility has been issued a Title V Major Facility Review Permit or a Synthetic Minor \nOperating Permit). Log entries shall be retained on- site, either at a central location or \nat the engine’s location, and made immediately available to the District staff upon \nrequest.  \na. Hours of operation for reliability- related activities (maintenance and testing).  \nb. Hours of operation for emission testing to show compliance with emission \nlimits.  \nc. Hours of operation (emergency).  \nd. For each emergency, the nature of the emergency condition.  \ne. Fuel usage for each engine(s).  \n[",
+        "basis": [
+          "Title 17",
+          "California Code of Regulations",
+          "section 93115",
+          "ATCM for \nStationary CI Engines]"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "At School and Near -School Operation: If the emergency standby engine is located on \nschool grounds or within 500 feet of any school grounds, the following requirements \nshall apply: The owner or operator shall not operate each stationary emergency standby \ndiesel -fueled engine for non- emergency use, including maintenance and testing, during \nthe following periods:  \na. Whenever there is a school sponsored activity (if the engine is located on \nschool grounds)  \nb. Between 7:30 a.m. and 3:30 p.m. on days when school is in session.  \n'School' or 'School Grounds' means any public or private school used for the purposes \nof the education of more than 12 children in kindergarten or any of grades 1 to 12, \ninclusive, but does not include any private school in which education is primarily \nconducted in a private home(s). 'School' or 'School Grounds' includes any building or \nstructure, playground, athletic field, or other areas of school property but does not \ninclude unimproved school property.  \n[",
+        "basis": [
+          "Title 17",
+          "California Code of Regulations",
+          "section 93115",
+          "ATCM for Stationary \nCI Engines]  \n \n Permit Condition #100073 for S -2 \n \nThe owner/operator shall not exceed the following limits per year per engine for \nreliability -related activities: \n• 50 Hours of Diesel fuel (Diesel fuel)  \n      [Basis: Cumulative Increase",
+          "Regulation 2 -5",
+          "Title 17",
+          "California Code of Regulations",
+          "section 93115",
+          "ATCM for Stationary CI Engines]  \nAN672206/ FID17710  \n7 \n Permit Condition #100102 for S -2."
+        ]
+      },
+      {
+        "num": 1,
+        "text": "The owner/operator shall abate the particulate emissions from the emergency diesel \nengine by the Diesel Oxidation Catalyst/Particulate Filter at all times the engine is in",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\non  \nThe District has reviewed the material contained in the permit application f or the proposed \nproject and has made a preliminary determination that the project is expected to comply \nwith all applicable requirements of District, state, and federal air quality -related \nregulations.  The preliminary recommendation is to issue an Authori ty to Construct for the \nequipment listed below. However, the proposed source will be located within 1,000 feet of \na K-12 school and within an Overburdened Community and requires an HRA, which"
+  },
+  "raw_sections": {
+    "preamble": "AN672206/ FID17710  \n1",
+    "blocks": [
+      {
+        "heading": "DRAFT  ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "DRAFT  ENGINEERING EVALUATION\nN \n \nFacility ID No. 17710  \n3E Company/Regulatory Dept C/O Home Depot #6603 \n1781 East Bayshore Road , East Palo Alto, CA 94 303 \nApplication No. 672206"
+      },
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd  \n3E Company/Regulatory Dept C/O Home Depot #6603 is applying for an Authority to \nConstruct/Permit to Operate for the following equipment : \n \nS-2 Emergency Standby Diesel Generator Set  \nMake:  John Deere, Model: 6090HF484B ,   \nYear: 2022, 385 bhp, 2.41 MMBtu/h our  \nPermit Condition No s. 100072, 100073 and 100102 \nAbated by  Diesel Particualte Filter, A -1 \n \nA-1      Diesel Particulate Filter  \n            Make: Miratech  LTR DOC/DPF , Model: LTRV6 -6-05-R1 \n Executive Order DE -14-005-07 \n \nThe criteria pollutants are nitrogen oxides (NO x), carbon monoxide (CO), precursor \norganic compounds (POC) from unburned diesel fuel, sulfur dioxide (SO 2) and particulate \nmatter (PM 10).  All of these pollutants are briefly discussed on the District’s web site at \nwww.baaqmd.gov . \n \nS-2 meets  the Environmental Protection Agency and California Air Resources Board \n(EPA/CARB) Tier 3 Off-road standard.  The engine will burn commercially available \nCalifornia low sulfur diesel fuel. The sulfur content of the diesel fuel will not exceed \n0.0015% by weight. PM emissions from S -2 will be abated with an efficiency of 85% by \nweight with a certified Diesel Particulate Filter (DPF) identified as A -1, certified accordin g \nto CARB Executive Order D E-14-005-07. \n \nThis evaluation report will discuss compliance of the proposed project with all applicable \nrules and regulations. \n \n \n \n \n \n \n \n \n \n \n \nAN672206/ FID17710"
+      },
+      {
+        "heading": "2 \n Emissions",
+        "alias": "EMISSIONS",
+        "text": "2 \n Emissions\nTable 1. Annual and Daily Emissions from EPA/CARB Certified Data from S -2 \nPollutant  Unabated \nEmission \nFactor  \n(g/bhp -hr) Abated \nEmission \nFactor  \n(g/bhp -hr) Max Daily \nEmissions  \n(lbs./day)  Annual \nEmissions \n(lbs./year) Annual \nEmissions \n(tons/y ear) \nNOx  2.84 -- 57.8 120 0.060 \nPOC  0.07 -- 1.4 3 0.001 \nCO 0.67 -- 13.6 28 0.014 \nPM 10/PM 2.51 0.10 0.02 0.3 1 0.000 \nSO 2 N/A2 -- 0.1 0 0.000  \nBasis :   \n Annual emissions: Reliability -related activity 50  hours for S -2 \n Max daily emissions: 24- hour operation  \n Unabated Emissions from the EPA Engine Family NJDXL09.0114 for S -2 \n PM emissions are abated by a CARB certified DPF according to Executive Order DE -14-\n005-07 \n 1 Conservative Assumption: All PM emissions are PM 2.5 \n 2 SO 2 emission factor from AP -42 Table 3.4- 1, SO 2 (15 ppm) = 0.00809*0.0015 lb SO 2/bhp-\nhour."
+      },
+      {
+        "heading": "Plant Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Increase\nse \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result \nfrom this application.  \n \nTable 2. Plant Cumulative Emissions Increase, Post 4/5/91 \nPollutant  Existing Emissions \nPost 4/5/91 \n(tons/y ear) Application"
+      },
+      {
+        "heading": "Emission s",
+        "alias": "EMISSIONS",
+        "text": "Emission s\n(tons/y ear) Cumulative \nEmissions \n(tons/y ear) \nNOx  0.000  0.060  0.060  \nPOC  0.000  0.001 0.001 \nCO 0.000  0.014 0.014 \nPM 10/PM 2.5 0.000  0.000 0.000 \nSO 2 0.000  0.000  0.000"
+      },
+      {
+        "heading": "Health Risk Assessment (HR A)",
+        "alias": "TOXICS",
+        "text": "Health Risk Assessment (HR A)\nA) \nAn HRA was required. The diesel particulate emissions from the project are greater than \nthe toxic trigger level of 0.26 pounds per year. All PM 10 emissions are considered diesel \nparticulate emissions. The P M10 emissions from this application are summarized in Table \n1. There are no related application s associated with this project. Since the diesel particulate \nemissions from the project are greater than the toxic trigger level of 0.26 pounds per year, \nan HRA is required. This application did not qualify for HRA streamlining because \nreceptors are located less than 100 feet from the proposed engine location.  \n \n \n \nAN672206/ FID17710  \n3 \n HRA Results"
+      },
+      {
+        "heading": "This analysis estimates the incremental health risk resulting from toxic air contaminant",
+        "alias": "TOXICS",
+        "text": "This analysis estimates the incremental health risk resulting from toxic air contaminant\n(TAC) emissions from non- emergency operation of a standby generator diesel engine at \nthis facility.  Results from this HRA indicate that the maximum project cancer risk is \nestimated at 0.29 in a million, and the maximum project chronic hazard index is estimated \nat 0.000084 as shown in Table 3.  \n \nTable 3. Risk Screening Results  \nMaximally Exposed \nReceptor  Maximum Cancer Risk  Maximum Chronic \nHazard Index  \nResident  0.29 in a million  0.000079  \nWorker  0.11 in a million  0.000084  \nStudent  0.018 in a million  0.0000098"
+      },
+      {
+        "heading": "TBACT",
+        "alias": null,
+        "text": "TBACT\nCT  \nIn accordance with the District’s Regulation 2- 5-301, the source does  not require TBACT \nbecause the estimated source risk does not exceed a cancer risk of 1.0 in a million and/or a \nchronic hazard index  of 0.20. \n \nProject Risk Limits  \nSince the estimated project cancer risk does not exceed 6.0 in a mill ion, and project chronic \nhazard index does not exceed 1.0, this project complies with the District’s Regulation 2- 5-\n302 project risk requirements, for projects located in an Overburdened Community, as \ndefined in Regulation 2- 1-243. \n \nSince the proposed engi ne, operating at 50 hours/year for reliability related testing, \ncomplies with TBACT, and the estimated project cancer risk does not exceed 6 in a million \nand the chronic hazard index does not exceed 1.0, this project complies with the District’s \nRegulation 2-5-302 project risk requirements.  No additional operating hour restrictions \nwere necessary for this project."
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\nT)  \nIn accordance with Regulation 2- 2-301, BACT is triggered for any new or modified source \nwith the potential to emit 10 pounds or more per highest day of POC, non -precursor organic \ncompounds ( NPOC ), NO x, CO, SO 2, or PM 10.  \n \nBACT for this source is presented in the current BAAQMD BACT/TBACT Workbook for \nIC Engine – Compression Ignition: Stationary Emergency, non- Agricultural, non- direct \ndrive fire pump, 50- 1000 bhp, Document #96.1.3, Revision 8, dated 12/22/2020 (see \nAttachment 1) . For NO x, CO, POC and PM 10, BACT(2) is the CARB ATCM standard for \nthe respective pollutant at the applicable horsepower rating. For SO 2, BACT(2) is using \nfuel with sulfur content not to exceed 0.0015%, or 15 ppm. The more restrictive BACT(1) \nstandards are not applicable to this engine because it will be limited to operation as an \nemergency standby engine.  \n \nAN672206/ FID17710  \n4 \n S-2 satisfies th e current BACT(2) standards for the following pollutants which exceed 10 \npounds per day in Table 1:  \n \n  Pollutant   Emission Factor  BACT(2) Standard  \n  NOx1   2.84 g/bhp- hr  2.85 g/bhp- hr  \nCO   0.67 g/bhp- hr  2.60 g/bhp- hr \n  \n 1The standard is expressed as 3.0  g/bhp of NMHC+NOx.  NOx is estimated to be 95% of the \ncombined standard ( 3.0*0.95 = 2.85 g/bhp- hr)"
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nts  \nOffset must be provided for any new or modified source at a facility that will have the \npotential to emit more than 10 tons per year of NO x or POC, as specified in Regulation 2-\n2-302; 100 tons per year or more of PM 2.5, PM 10 or SO 2, as specified in Regulation 2- 2- \n303. \n \nTable 4. Potential to Emit for FID 17710 \nPollutant  Existing  \nAnnual"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(TPY)  Application  \nAnnual  \nEmissions*  \n(TPY)  Facility  \nAnnual  \nEmissions  \n(TPY) *  Offset  \nRequirement  \n(TPY)  Offset  \nRequired  \nNOx  0.214  0.181 0.395 >10 N \nPOC  0.002 0.004 0.006 >10 N \nCO 0.008 0.043 0.051 - N \nPM 10/PM 2.51 0.003 0.001 0.004 ≥100 N \nSO 2 0.000 0.000 0.000 ≥100 N \n*Annual emissions: Reliability -related activity of 50 hours and emergency operation of 100 hours \nfor S -2. \n \nSince the facility’s potential to emit is below the offsets trigger levels specified in \nRegulation 2- 2, offsets are not required."
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nce  \nThe owner/operator is expected to comply with all applicable requirements. Key \nrequirements are listed below:"
+      },
+      {
+        "heading": "Airborne Toxic Control Measure for Stationary Compression Ignition Engines",
+        "alias": "TOXICS",
+        "text": "Airborne Toxic Control Measure for Stationary Compression Ignition Engines\nATCM, 5/19/2011, section 93115, title 17, CA Code of Regula tions"
+      },
+      {
+        "heading": "District Rules",
+        "alias": "SOC",
+        "text": "District Rules\nes  \nRegulation 6- 1-303 ( Ringelmann No. 2 Limitation)  \nRegulation 9- 1-301 ( Limitations on Ground Level Concentrations of SO 2)  \nRegulation 9- 8 (NOx and CO from Stationary Internal Combustion Engines ) \nSection 9 -8-110.5 – Limited exemption fo r emergency standby engines  \nSection 9 -8-330 – Hours of operation for emergency standby engines  \nSection 9 -8-502 – Recordkeeping  \n            Section 9 -8-331 –  Essential Public Service, Hours of Operation  \nAN672206/ FID17710  \n5"
+      },
+      {
+        "heading": "Public Notification (Regulation 2 -1-412)",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Public Notification (Regulation 2 -1-412)\n) \nThe proposed source is located less than 1,000 feet from K -12 school(s), with more than \n12 students enrolled, and within an Overburdened Community as defined in Regulation \n2-1-243 and requires a Health Risk Assessment pursuant to Regulation 2- 5-401. \nTherefore, the pro posed source is subject to the public notification requirements of \nRegulation 2- 1-412. A public notice will be prepared and sent to all addresses within \n1,000 feet of the proposed source(s) and parents and guardians of students at the \nfollowing school(s):  \nTable 5. School Public Notification  \nSchool Name  Street Address  City Grade School  \nLos Robles Magnet Academy  2033 Pulgas Avenue  East Palo Alto  K-8 \nBrentwood Academy  2086 Clarke Avenue  East Palo Alto  K-5 \nThe Primary School – East Palo \nAlto 951 O’ Connor \nStreet  East Palo Alto  K-2 \nLa Scuola International – Silicon \nValley Campus  2086 Clarke Avenue  East Palo Alto  PK-1 \nRonald Mc Nair Academy  2033 Pulgas Avenue  East Palo Alto  6-8"
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA)",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA)\nA)  \nThis project is ministerial under the District Regulation 2 -1-311 (Permit Handbook \nChapter 2.3.1) and is therefore not subject to CEQA review.  \n \nNew Source Performance Standards (NSPS)  \n40 CFR 60, Subpart IIII ( Stationary Compression Ignition Internal Combustion Engines ) \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP)  \n40 CFR 63, Subpart ZZZZ ( Stationary Reciprocating Internal Combustion Engines \n(RICE))"
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD)",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD)\nD)  \nThis application is not part of a PSD project as defined in Regulation 2- 2."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nns  \n \nPermit Condition #100072 for S -2 \n \n1. The owner or operator shall operate each emergency standby engine only for the \nfollowing purposes: to mitigate emergency conditions, for emission testing to \ndemonstrate compliance with a District, state or Federal emission limit, or for \nreliability -related activities (maintenance and other testing, but excluding emission \ntesting). Operating while mitigating emergency conditions or while emission testing to \nshow compliance  with District, state or Federal emission limits is not limited.  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary \nCI Engines]  \n \nAN672206/ FID17710  \n6 \n 2. The owner/operator shall operate each emergency standby engine only when a non-\nresettable totalizing meter (with a minimum display capability of 9,999 hours) that \nmeasures the hours of operation for the engine is installed, operated and properly \nmaintained.  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for  Stationary \nCI Engines]  \n \n3. Records: The owner/operator shall maintain the following monthly records in a \nDistrict- approved log for at least 36 months from the date of entry (60 months if the \nfacility has been issued a Title V Major Facility Review Permit or a Synthetic Minor \nOperating Permit). Log entries shall be retained on- site, either at a central location or \nat the engine’s location, and made immediately available to the District staff upon \nrequest.  \na. Hours of operation for reliability- related activities (maintenance and testing).  \nb. Hours of operation for emission testing to show compliance with emission \nlimits.  \nc. Hours of operation (emergency).  \nd. For each emergency, the nature of the emergency condition.  \ne. Fuel usage for each engine(s).  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for \nStationary CI Engines]  \n \n4. At School and Near -School Operation: If the emergency standby engine is located on \nschool grounds or within 500 feet of any school grounds, the following requirements \nshall apply: The owner or operator shall not operate each stationary emergency standby \ndiesel -fueled engine for non- emergency use, including maintenance and testing, during \nthe following periods:  \na. Whenever there is a school sponsored activity (if the engine is located on \nschool grounds)  \nb. Between 7:30 a.m. and 3:30 p.m. on days when school is in session.  \n'School' or 'School Grounds' means any public or private school used for the purposes \nof the education of more than 12 children in kindergarten or any of grades 1 to 12, \ninclusive, but does not include any private school in which education is primarily \nconducted in a private home(s). 'School' or 'School Grounds' includes any building or \nstructure, playground, athletic field, or other areas of school property but does not \ninclude unimproved school property.  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary \nCI Engines]  \n \n Permit Condition #100073 for S -2 \n \nThe owner/operator shall not exceed the following limits per year per engine for \nreliability -related activities: \n• 50 Hours of Diesel fuel (Diesel fuel)  \n      [Basis: Cumulative Increase; Regulation 2 -5; Title 17, California Code of Regulations,   \n       section 93115, ATCM for Stationary CI Engines]  \nAN672206/ FID17710  \n7 \n Permit Condition #100102 for S -2. \n \n1. The owner/operator shall abate the particulate emissions from the emergency diesel \nengine by the Diesel Oxidation Catalyst/Particulate Filter at all times the engine is in"
+      },
+      {
+        "heading": "operation. [Basis: Toxics, \"ATCM for Stationary Compression Ignition Engines\"",
+        "alias": "TOXICS",
+        "text": "operation. [Basis: Toxics, \"ATCM for Stationary Compression Ignition Engines\"\nSecti on 93115.6(a)(3) or 93115.6(b)(3), title 17, CA Code of Regulations]  \n \n2. The owner/operator shall comply with requirements for CARB Executive Order  DE-14-\n005-07.  \n [Basis: CARB Executive Order DE -14-005-07, \"ATCM for Stationary Compression \nIgnition Engines\" Section 93115.13(f), title 17, CA Code of Regulations, Toxics, \nSections 2700 through 2711 of title 13, CA Code of Regulations]  \n \nEnd of Conditions"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\non  \nThe District has reviewed the material contained in the permit application f or the proposed \nproject and has made a preliminary determination that the project is expected to comply \nwith all applicable requirements of District, state, and federal air quality -related \nregulations.  The preliminary recommendation is to issue an Authori ty to Construct for the \nequipment listed below. However, the proposed source will be located within 1,000 feet of \na K-12 school and within an Overburdened Community and requires an HRA, which"
+      },
+      {
+        "heading": "triggers the public notification requirements of Regulation 2- 1-412. After the comments",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "triggers the public notification requirements of Regulation 2- 1-412. After the comments\nare received from the public and reviewed, the District will make a final determination on \nthe permit.  \n \nI recommend that the District initiate a public notice and consider any comments received \nprior to taking any final action on is suance of an Authority to Construct and/or a Permit to \nOperate for the following equipment:  \n \nS-2 Emergency Standby Diesel Generator Set  \nMake:  John Deere, Model: 6090HF484B,   \nYear: 2022, 385 bhp, 2.41 MMBtu/hr  \nPermit Condition No s. 100072, 100073 and 100102 \nAbated by  Diesel Particulate Filter, A -1 \n \nA-1      Diesel Particulate Filter  \n            Make: Miratech  LTR DOC/DPF , Model: LTRV6 -6-05-R1 \n Executive Order DE -14-005-07 \n \nPrepared by:  Osvaldo Zacarias, AQ E1  \nFebruary  2023  \n \n \n \nAN672206/ FID17710  \n8 \n Attachment 1  \n \n \n \n\nAN672206/ FID17710  \n9"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "DRAFT  ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "DRAFT  ENGINEERING EVALUATION\nN \n \nFacility ID No. 17710  \n3E Company/Regulatory Dept C/O Home Depot #6603 \n1781 East Bayshore Road , East Palo Alto, CA 94 303 \nApplication No. 672206"
+      },
+      {
+        "heading": "TBACT",
+        "alias": null,
+        "text": "TBACT\nCT  \nIn accordance with the District’s Regulation 2- 5-301, the source does  not require TBACT \nbecause the estimated source risk does not exceed a cancer risk of 1.0 in a million and/or a \nchronic hazard index  of 0.20. \n \nProject Risk Limits  \nSince the estimated project cancer risk does not exceed 6.0 in a mill ion, and project chronic \nhazard index does not exceed 1.0, this project complies with the District’s Regulation 2- 5-\n302 project risk requirements, for projects located in an Overburdened Community, as \ndefined in Regulation 2- 1-243. \n \nSince the proposed engi ne, operating at 50 hours/year for reliability related testing, \ncomplies with TBACT, and the estimated project cancer risk does not exceed 6 in a million \nand the chronic hazard index does not exceed 1.0, this project complies with the District’s \nRegulation 2-5-302 project risk requirements.  No additional operating hour restrictions \nwere necessary for this project."
+      }
+    ]
+  }
+}

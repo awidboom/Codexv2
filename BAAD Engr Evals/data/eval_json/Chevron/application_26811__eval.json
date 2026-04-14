@@ -1,0 +1,331 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\extracted_evaluations\\application_26811.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 2
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "26811",
+    "application_number_from_filename": "26811"
+  },
+  "application_number": "26811",
+  "plant": {
+    "name": "amendments to NOx Box permit condition 21232 as it pertains to the following sources:",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": "December 15, 2010",
+  "permit_date": null,
+  "project_title": "Amendments to NOx Box permit condition (curtailed operation)",
+  "equipment": [
+    {
+      "id": "S-4068",
+      "description": "VGO  Desulfurizer Furnace (F -1610)"
+    },
+    {
+      "id": "S-4069",
+      "description": "VGO  Furnace (F -1660)"
+    },
+    {
+      "id": "S-4154",
+      "description": "Asphalt Solution Heater SDA Isomax (F -120)"
+    },
+    {
+      "id": "S-4158",
+      "description": "Natural Gas  Heater, H2 Plant (F -340)"
+    },
+    {
+      "id": "S-4188",
+      "description": "Polymer Furnace (F -651)"
+    },
+    {
+      "id": "S-4189",
+      "description": "Polymer Furnace (F -661)"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nND  \nChevron Products Company (Chevron) has submitted this permit application requesting \namendments to NOx Box permit condition 21232 as it pertains to the following sources:  \n \nS-4068  VGO  Desulfurizer Furnace (F -1610)  \n 127.5 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4069  VGO  Furnace (F -1660)  \n 55 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4154  Asphalt Solution Heater SDA Isomax (F -120) \n50.5 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4158  Natural Gas  Heater, H2 Plant (F -340) \n 48 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4188  Polymer Furnace (F -651) \n 27 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4189  Polymer Furnace (F -661)  \n 15 MMBTU/hour; Not equipped with NOx and CO CEMS  \n    \nBecause t he above sources are not equipped with CEMS, they are required by permit \ncondition 21232 to operate within the confines of their respective NOx boxes to \ndemonstrate compliance with Regulation 9 -10-301 - the refinery -wide NOx emission \nlimit of 0.033 lb NOx per MMBTU of heat input, based on an operating day average. The \nDecember 15, 2010 amendments to Regulation 9, Rule 10 “Inorganic Gaseous Pollutants \n– Nitrogen Oxides and Carbon Monoxide from Boilers, Steam Generators, and Process \nHeaters in Petroleum Refin eries” revised the definition of “Curtailed Operation” in \nSection 222 of the above rule to state: “Operation of a boiler, steam generator or process \nheater at no more than 30% (vs. 20%) of its rated heat input.”   \n \nFor reasons stated above, Chevron has req uested the definition of curtailed operation in \npermit condition 21232 be changed in order to be consistent with the December 2010 \namendments. The proposed change would reduce the frequency of compliance issues \nassociated when operating sources “out of the  NOx box” at low fire conditions, and also \nreduce affected sources from having to replicate low fire (curtailed operation) conditions \nduring a source test to demonstrate if they exceeded their permitted NOx emissions rate \n(~factor) when operating “out of t he NOx box”.  \n \nThe District believes the permit condition limit of 20% in permit condition 21232 that \nwas created under a District policy can be more stringent than its rule; and that physical \nor operational changes are not required at S -4068, S -4069, S -4154, S -4158, S -4188, and \nS-4189 to accommodate the proposed change. Therefore, this evaluation report assumes \n  \n31 \n the proposed changes to permit condition 21232 will not result in a “net increase” in NOx \nemissions from the above sources."
+  },
+  "emission_calculations": {
+    "text": "EMISSIONS CALCULATION\nON  \nThis evaluation report assumes the proposed changes to permit condition 21232 will not \nresult in a “net increase” in NOx emissions from S -4068, S -4069, S -4154, S -4158, S -\n4188, and S -4189. Therefore, the cumulative increase in NOx emissions is zero."
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSIONS CALCULATION\nON  \nThis evaluation report assumes the proposed changes to permit condition 21232 will not \nresult in a “net increase” in NOx emissions from S -4068, S -4069, S -4154, S -4158, S -\n4188, and S -4189. Therefore, the cumulative increase in NOx emissions is zero.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-4068": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-4069": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-4154": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-4158": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-4188": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-4189": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": ""
+  },
+  "BACT": {
+    "text": "BACT  & OFFSETS:\nThe proposed changes to permit condition 21232 will not require physical or operational \nchanges to S -4068, S -4069, S -4154, S -4158, S -4188, and S -4189. Even if the above \nsources were to be modified, they would be exempt from BACT and offsets per  \nRegulation 1 -115, which states:  \n \n“1-115 Exemption, Modification to Meet Emission Standards: When permits are \nnecessary for modifying an existing source in order to comply with emission \nregulations such modifications shall not subject the existing source to emission \nstandards for new or modified plants as set forth in Section 2 -2-301 or 2 -2-302 or 2 -\n2-303 of Regulation 2, Permits.”  \n \nIn addition to the above, this evaluation report assumes the cumulative increase in \nemissions is zero. Therefore, BACT is not triggered, and offsets are not required."
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE:\nS-4068, S -4069, S -4154, S -4158, S -4188, and S -4189 are subje ct to and are expected to \ncomply with Regulation 9, Rule 10. The District’s Compliance & Enforcement staff will \nverify the compliance of the above sources with the rule during their routine inspections.  \n \nThe proposed change to permit condition 21232 is cat egorically exempt from CEQA per \nRegulation 2 -1-312.1 and 312.3. Chevron has submitted Appendix H “Environmental \nInformation Form” in accordance with Regulation 2 -1-312.  \n \nThis project is over 1,000 feet from the nearest public school and is therefore not s ubject"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "to the public notification requirements of Regulation 2 -1-412."
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS:\nThe proposed changes to permit condition 21232 are as shown below5: \n \n5B) Part 5A. does not apply to low firing rate conditions (i.e., firing rate less than or \nequal t o 20% of the unit's rated capacity) during startup or shutdown periods or periods of \ncurtailed operation  (ex. during heater idling, refractory dryout, etc.) lasting 5 days or \nless. During these conditions the means for determining compliance with the refi nery \nwide limit shall be accomplished using the method described in 9 -10-301.4.2 (previous \n30-day average fire rate i.e. units out of service & 30 -day averaging data ). OR \n \n                                                           \n5 The proposed changes to permit condition 21232 are similar to changes made in Tesoro permit condition \n18372 and Valero permit condition 21233.   \n  \n32 \n Part 5A does not apply to units in Curtailed  Operation (i.e. operation at 30% or less  of \nrated  heat input) or to units undergoing startup or  shutdown, or to units that are \ntemporarily out of  service.  For units in curtailed operation or  undergoing startup or \nshutdown, the means for  determining compliance with the refinery wide  limit shall be in \naccordance with Regulation  9-10-301.4.    For units temporarily out of service,  the means \nfor determining compliance with the refinery wide limit shall be in accordance with  \nRegulation 9 -10-301.5."
+  },
+  "permit_conditions": {
+    "condition_number": 21232,
+    "items": [
+      {
+        "num": null,
+        "text": "PERMIT CONDITIONS:\nThe proposed changes to permit condition 21232 are as shown below5: \n \n5B) Part 5A. does not apply to low firing rate conditions (i.e., firing rate less than or \nequal t o 20% of the unit's rated capacity) during startup or shutdown periods or periods of \ncurtailed operation  (ex. during heater idling, refractory dryout, etc.) lasting 5 days or \nless. During these conditions the means for determining compliance with the refi nery \nwide limit shall be accomplished using the method described in 9 -10-301.4.2 (previous \n30-day average fire rate i.e. units out of service & 30 -day averaging data ). OR \n \n                                                           \n5 The proposed changes to permit condition 21232 are similar to changes made in Tesoro permit condition \n18372 and Valero permit condition 21233.   \n  \n32 \n Part 5A does not apply to units in Curtailed  Operation (i.e. operation at 30% or less  of \nrated  heat input) or to units undergoing startup or  shutdown, or to units that are \ntemporarily out of  service.  For units in curtailed operation or  undergoing startup or \nshutdown, the means for  determining compliance with the refinery wide  limit shall be in \naccordance with Regulation  9-10-301.4.    For units temporarily out of service,  the means \nfor determining compliance with the refinery wide limit shall be in accordance with  \nRegulation 9 -10-301.5.",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION:\nModify permit condition 21232 as pr oposed and issue a Permit to Operate for the \nfollowing sources:  \n \n \nS-4068  VGO  Desulfurizer Furnace (F -1610)  \n 127.5 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4069  VGO  Furnace (F -1660)  \n 55 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4154  Asphalt Solution Heater SDA Isomax (F -120) \n50.5 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4158  Natural Gas Heater, H2 Plant (F -340) \n 48 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4188  Polymer Furnace (F -651) \n 27 MMBTU/hour; Not equipped with  NOx and CO CEMS  \n \nS-4189  Polymer Furnace (F -661)  \n 15 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \n \n \n \n_____________  \nBhagavan R. Krishnaswamy"
+  },
+  "raw_sections": {
+    "preamble": "30",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nION  \nPlant 10: Chevron Products Company  \nApplication 26811: Amendments to NOx Box permit condition (curtailed operation)"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND  \nChevron Products Company (Chevron) has submitted this permit application requesting \namendments to NOx Box permit condition 21232 as it pertains to the following sources:  \n \nS-4068  VGO  Desulfurizer Furnace (F -1610)  \n 127.5 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4069  VGO  Furnace (F -1660)  \n 55 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4154  Asphalt Solution Heater SDA Isomax (F -120) \n50.5 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4158  Natural Gas  Heater, H2 Plant (F -340) \n 48 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4188  Polymer Furnace (F -651) \n 27 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4189  Polymer Furnace (F -661)  \n 15 MMBTU/hour; Not equipped with NOx and CO CEMS  \n    \nBecause t he above sources are not equipped with CEMS, they are required by permit \ncondition 21232 to operate within the confines of their respective NOx boxes to \ndemonstrate compliance with Regulation 9 -10-301 - the refinery -wide NOx emission \nlimit of 0.033 lb NOx per MMBTU of heat input, based on an operating day average. The \nDecember 15, 2010 amendments to Regulation 9, Rule 10 “Inorganic Gaseous Pollutants \n– Nitrogen Oxides and Carbon Monoxide from Boilers, Steam Generators, and Process \nHeaters in Petroleum Refin eries” revised the definition of “Curtailed Operation” in \nSection 222 of the above rule to state: “Operation of a boiler, steam generator or process \nheater at no more than 30% (vs. 20%) of its rated heat input.”   \n \nFor reasons stated above, Chevron has req uested the definition of curtailed operation in \npermit condition 21232 be changed in order to be consistent with the December 2010 \namendments. The proposed change would reduce the frequency of compliance issues \nassociated when operating sources “out of the  NOx box” at low fire conditions, and also \nreduce affected sources from having to replicate low fire (curtailed operation) conditions \nduring a source test to demonstrate if they exceeded their permitted NOx emissions rate \n(~factor) when operating “out of t he NOx box”.  \n \nThe District believes the permit condition limit of 20% in permit condition 21232 that \nwas created under a District policy can be more stringent than its rule; and that physical \nor operational changes are not required at S -4068, S -4069, S -4154, S -4158, S -4188, and \nS-4189 to accommodate the proposed change. Therefore, this evaluation report assumes \n  \n31 \n the proposed changes to permit condition 21232 will not result in a “net increase” in NOx \nemissions from the above sources."
+      },
+      {
+        "heading": "EMISSIONS CALCULATION",
+        "alias": "EMISSIONS",
+        "text": "EMISSIONS CALCULATION\nON  \nThis evaluation report assumes the proposed changes to permit condition 21232 will not \nresult in a “net increase” in NOx emissions from S -4068, S -4069, S -4154, S -4158, S -\n4188, and S -4189. Therefore, the cumulative increase in NOx emissions is zero."
+      },
+      {
+        "heading": "BACT  & OFFSETS:",
+        "alias": "BACT",
+        "text": "BACT  & OFFSETS:\nThe proposed changes to permit condition 21232 will not require physical or operational \nchanges to S -4068, S -4069, S -4154, S -4158, S -4188, and S -4189. Even if the above \nsources were to be modified, they would be exempt from BACT and offsets per  \nRegulation 1 -115, which states:  \n \n“1-115 Exemption, Modification to Meet Emission Standards: When permits are \nnecessary for modifying an existing source in order to comply with emission \nregulations such modifications shall not subject the existing source to emission \nstandards for new or modified plants as set forth in Section 2 -2-301 or 2 -2-302 or 2 -\n2-303 of Regulation 2, Permits.”  \n \nIn addition to the above, this evaluation report assumes the cumulative increase in \nemissions is zero. Therefore, BACT is not triggered, and offsets are not required."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE:",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE:\nS-4068, S -4069, S -4154, S -4158, S -4188, and S -4189 are subje ct to and are expected to \ncomply with Regulation 9, Rule 10. The District’s Compliance & Enforcement staff will \nverify the compliance of the above sources with the rule during their routine inspections.  \n \nThe proposed change to permit condition 21232 is cat egorically exempt from CEQA per \nRegulation 2 -1-312.1 and 312.3. Chevron has submitted Appendix H “Environmental \nInformation Form” in accordance with Regulation 2 -1-312.  \n \nThis project is over 1,000 feet from the nearest public school and is therefore not s ubject"
+      },
+      {
+        "heading": "to the public notification requirements of Regulation 2 -1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "to the public notification requirements of Regulation 2 -1-412."
+      },
+      {
+        "heading": "PERMIT CONDITIONS:",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS:\nThe proposed changes to permit condition 21232 are as shown below5: \n \n5B) Part 5A. does not apply to low firing rate conditions (i.e., firing rate less than or \nequal t o 20% of the unit's rated capacity) during startup or shutdown periods or periods of \ncurtailed operation  (ex. during heater idling, refractory dryout, etc.) lasting 5 days or \nless. During these conditions the means for determining compliance with the refi nery \nwide limit shall be accomplished using the method described in 9 -10-301.4.2 (previous \n30-day average fire rate i.e. units out of service & 30 -day averaging data ). OR \n \n                                                           \n5 The proposed changes to permit condition 21232 are similar to changes made in Tesoro permit condition \n18372 and Valero permit condition 21233.   \n  \n32 \n Part 5A does not apply to units in Curtailed  Operation (i.e. operation at 30% or less  of \nrated  heat input) or to units undergoing startup or  shutdown, or to units that are \ntemporarily out of  service.  For units in curtailed operation or  undergoing startup or \nshutdown, the means for  determining compliance with the refinery wide  limit shall be in \naccordance with Regulation  9-10-301.4.    For units temporarily out of service,  the means \nfor determining compliance with the refinery wide limit shall be in accordance with  \nRegulation 9 -10-301.5."
+      },
+      {
+        "heading": "RECOMMENDATION:",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION:\nModify permit condition 21232 as pr oposed and issue a Permit to Operate for the \nfollowing sources:  \n \n \nS-4068  VGO  Desulfurizer Furnace (F -1610)  \n 127.5 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4069  VGO  Furnace (F -1660)  \n 55 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4154  Asphalt Solution Heater SDA Isomax (F -120) \n50.5 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4158  Natural Gas Heater, H2 Plant (F -340) \n 48 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \nS-4188  Polymer Furnace (F -651) \n 27 MMBTU/hour; Not equipped with  NOx and CO CEMS  \n \nS-4189  Polymer Furnace (F -661)  \n 15 MMBTU/hour; Not equipped with NOx and CO CEMS  \n \n \n \n \n_____________  \nBhagavan R. Krishnaswamy"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nION  \nPlant 10: Chevron Products Company  \nApplication 26811: Amendments to NOx Box permit condition (curtailed operation)"
+      }
+    ]
+  }
+}

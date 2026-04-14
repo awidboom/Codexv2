@@ -1,0 +1,60 @@
+
+    <script>
+        $(document).ready(function () {
+            $("#FacilityDetailMainLoader").hide();
+            $("#AllListAccordion").show();
+
+        });
+    </script>
+    <div class="row">
+        <div class="col-md-6 paddingTop7-xs">
+            <!--modal map-->
+<script>
+    $(document).ready(function () {
+        $("#facilityNameh4").html("ECOBAT RESOURCES CALIFORNIA, INC.");
+        var facilityURL = 'https://services2.arcgis.com/I4NVzmfP3kyPvlVg/ArcGIS/rest/services/Facilities/FeatureServer/0';
+        var mapID = '6313dce6a87743aebb78ab9309128b68';
+        if (typeof ShowFacilityMap !== "undefined") ShowFacilityMap("8547", facilityURL, mapID);
+
+    });
+</script>
+
+
+<div id="FacilityDetailMapLoader" class="loader" style="">Loading <i class="fa fa-spinner fa-spin fa-fw"></i></div>
+<img id="imgMapNA" class="img-responsive hideMe" src="/find/Images/mapnotavailable.png" >
+<div id="viewFacilityDiv" class="googlemap" style="width:100%;height:100%;display:none;border:0"></div>
+
+            <!--modal map ends-->
+        </div>
+<div class="col-md-6">
+
+    <p class="marginBottom30">
+        <span class="text-black">Address: </span>720 S 7TH AVE, CITY OF INDUSTRY, CA 91746
+    </p>
+    <p class="marginBottom30"><span class="text-black">Facility ID: </span><span id="FaciliTyId">8547</span></p>
+            <p class="marginBottom30"><span class="text-black">Status: </span>Active</p>
+
+            <p class="marginBottom30"><span class="text-black">Back Fees Due: </span>No.</p>
+
+    <p class="clearfix">
+                <table cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td width="60"> <span class="buildingIcon displayinlineBlock marginRight20"><i class="fa fa-3x fa-building"></i></span></td>
+                                <td width="60">
+                                    <span class="SICCode displayinlineBlock">
+                                        SIC Code<br>
+                                        <span class="text-1dot5em text-black">3341</span>
+                                    </span>
+                                </td>
+                                <td><span class="displayinlineBlock text-uppercase marginLeft35 marginTop20">SECONDARY NONFERROUS METALS</span></td>
+                            </tr>
+                </table>
+
+
+    </p>
+
+
+</div>
+
+
+    </div>

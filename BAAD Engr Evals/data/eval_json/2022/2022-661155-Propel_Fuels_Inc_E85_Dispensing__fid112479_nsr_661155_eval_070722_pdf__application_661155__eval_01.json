@@ -1,0 +1,307 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 4
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "and Other  0.567  0.00130  2.90 0.06 No\nEthylbenzene  Both\nCarcinogen\nand Other  0.742  0.00100  33.00  n/a No\nHexane  TAC -  Other  1.716  0.00458  270000.00  n/a No\nNaphthalene  TAC -  Other  0.094  0.00011  2.40 n/a No\nToluene  TAC -  Other  3.546  0.00565  12000.00  82.00  No\nXylene  TAC -  Other  3.798  0.00492  27000.00  49.00  No"
+      ]
+    },
+    "application_number_detected": "661155",
+    "application_number_from_filename": "661155",
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2022/661155/fid112479_nsr_661155_eval_070722-pdf.pdf?rev=98594f3e5360423798aeed5e8a0a5e31&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2022/070722-661155/propel-fuels-inc"
+  },
+  "application_number": "661155",
+  "plant": {
+    "name": "Propel Fuels Inc (E85 Dispensing)",
+    "plant_id": null,
+    "address": "Berkeley, CA 94710"
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Fuel  Dispensing Facility"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nOUND  \n \nThe applicant has requested to modify the Permit to Operate for the following equipment:  \n \nS-1 Fuel  Dispensing Facility  \n \nThe facility configurations are described below:  \n \nCurrent Configuration  Configuration after Modification  \n1 – 5,000 gallons E85 tank  No change  \nPhase I Phil -Tite EVR (VR -101) No change  \nNone – Exempt (Reg 8 -7-112.3)  No change  \n2 E85 nozzles  No change  \n1 – 5,000 gallons diesel tank No change  \n2 diesel nozzles No change  \n144,000 gallons of E85  per year throughput \nlimit  350,000 gallons  of E85  per year throughput \nlimit  \n \nThis facility is requesting an E85 throughput increase from 144,000 to 350,000 gallons per year . \n \nThis application is being processed as a modification as defined in Regulation 2- 1-234."
+  },
+  "emission_calculations": {
+    "text": "EMISSION CALCULATIONS\nNS  \n \nTable 1 summarizes annual and daily permitted emissions.  \n  \nTable 1. Annual and Daily Emissions  \nCriteria \nPollutant  Emissions Factors \n(lb/thousand \ngallon)  Annual Average \nEmissions  \n(lb/day)  Annual \nEmissions  \n(lb/year)  Annual \nEmissions  \n(ton/year)  \nPOC  1.086  1.04 379.93  0.19 \n \n \nBasis:  \n• Annual throughput of E85: 350,000 gallons per year  \n• Operation schedule:  24 hr/day (max), 24 hr/day (typical), 7 day/week, 52 week/yr  \n• Phase I EVR for UST \n• Phase II Exempt – BAAQMD Regulation 8- 7-112.3  \n• POC is Precursor Organic Compound.  \n• Emissions of POC include emissions from loading, breathing, refueling and spillage . \n• Emission factors are taken from the California Air Resources Board’s “Revised Emission Factors \nfor G asoline Marketing Operations at California Gasoline Dispensing Facilities” (12/23/13)  \nadjusted for a mixture of 25% gasoline/75% ethanol ."
+  },
+  "cumulative_increase": {
+    "text": "FACILITY CUMULATIVE INCREASE\nEASE  \n \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result from this \napplication.  \n \nTable 2. Facility  Cumulative Emissions Increase, Post 4/5/91  \nCumulative \nIncrease  Existing Emissions (ton/yr)  Application Emissions  \n(tons/yr)  Total Emissions  \n(tons/yr)  \nPOC  0.08 0.11 0.19"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSION CALCULATIONS\nNS  \n \nTable 1 summarizes annual and daily permitted emissions.  \n  \nTable 1. Annual and Daily Emissions  \nCriteria \nPollutant  Emissions Factors \n(lb/thousand \ngallon)  Annual Average \nEmissions  \n(lb/day)  Annual \nEmissions  \n(lb/year)  Annual \nEmissions  \n(ton/year)  \nPOC  1.086  1.04 379.93  0.19 \n \n \nBasis:  \n• Annual throughput of E85: 350,000 gallons per year  \n• Operation schedule:  24 hr/day (max), 24 hr/day (typical), 7 day/week, 52 week/yr  \n• Phase I EVR for UST \n• Phase II Exempt – BAAQMD Regulation 8- 7-112.3  \n• POC is Precursor Organic Compound.  \n• Emissions of POC include emissions from loading, breathing, refueling and spillage . \n• Emission factors are taken from the California Air Resources Board’s “Revised Emission Factors \nfor G asoline Marketing Operations at California Gasoline Dispensing Facilities” (12/23/13)  \nadjusted for a mixture of 25% gasoline/75% ethanol .",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "TOXIC EMISSIONS AND HEALTH RISK ASSESSMENT (HRA)\nHRA)   \n \nA Health Risk Assessment (HRA) is required when the emissions of toxic air contaminants (TACs) are at \nor exceed the trigger levels outlined in Regulation 2, Rule 5, Table 2- 5-1.  An HRA is not  required, based \non the toxic emissions for this source, summari zed in Table 3.  \n \nTable 3.  Toxic Emissions  \nTACs  Category  Emissions  \n(Chronic)  \n(lb/yr) Emissions  \n(Maximum)  \n(lb/hr)  Reg 2 -5 \nChronic \nTrigger \n(lb/yr)  Reg 2 -5 \nAcute \nTrigger \n(lb/hr)  HRA \nRequired  \nBenzene  Both \nCarcinogen \nand Other  0.567  0.00130  2.90 0.06 No \nEthylbenzene  Both \nCarcinogen \nand Other  0.742  0.00100  33.00  n/a No \nHexane  TAC -  Other  1.716  0.00458  270000.00  n/a No \nNaphthalene  TAC -  Other  0.094  0.00011  2.40 n/a No \nToluene  TAC -  Other  3.546  0.00565  12000.00  82.00  No \nXylene  TAC -  Other  3.798  0.00492  27000.00  49.00  No \n \n \n \nBasis:  \n• Emission factors are taken from the California Air Resources Board’s “Revised Emission Factors \nfor Gasoline Marketing Operations at California Gasoline Dispensing Facilities” (12/23/13)  \nadjusted for a mixture of 25% gasoline/75% ethanol . \n• Composition Data is from ARB Organic Gas Spec iation Profiles for E10 Gasoline Fuels (Liquid \nand Headspace for both Summer and Winter blends), revised 2013 and 2015 extrapolated for a \nmixture of 25% gasoline/75% ethanol .• Hourly e missions are calculated in accordance with BAAQMD’s Air Toxics NSR Program HRA\nGuidelines for GDFs, dated December 2016.Toxic Air Contaminants, Low Emission Levels Exemption, Regulation 2 -5-110\nThis project is not subject to Regulation 2, Rule 5 because toxic air contaminant emissions are below the \nacute and chronic trigger le vels listed in Table 2 -5-1.Airborne Toxic Control Measure for Benzene for Retail Service Stations\nATCM, 5/13/1988, Section 93101, Title 17, CA Code of Regulations.  \n \nNational Emissions Standards for Hazardous Air Pollutants (NE SHAP)  \n40 CFR 63, Subpart CCCCCC (Gasoline Dispensing Facilities)"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT), Regulation 2 -2-301 \nBecause this GDF will emit less than 10 pounds of POC per day, the facility is not required to install BACT.  \n \nOffsets, Regulation 2- 2-302  \nBecause the total facility potential to emit will be less than 10 tons of POC per year, th e facility is not \nrequired to provide offsets.  \n \nToxic Air Contaminants, Low Emission Levels Exemption, Regulation 2 -5-110 \nThis project is not subject to Regulation 2, Rule 5 because toxic air contaminant emissions are below the \nacute and chronic trigger le vels listed in Table 2 -5-1. \n \nDistrict Rules (Limits to emissions of pollutants or performance standards)  \nRegulation 8- 7 (Organic Compounds – Gasoline Dispensing Facilities)  \nSection 8- 7-301 – Phase I Requirements  \nSection 8- 7-302 – Phase II Requirements  \nSection 8- 7-304 – Certification Requirements  \nSection 8- 7-112.3 – Phase II Exemption: Not Feasible   \n \nCalifornia Air Resources Board (CARB) Vapor Recovery Certification  \nPhase I Vapor Recovery System Executive Order VR -101. \nAirborne Toxic Control Measure for Benzene for Retail Service Stations  \nATCM, 5/13/1988, Section 93101, Title 17, CA Code of Regulations.  \n \nNational Emissions Standards for Hazardous Air Pollutants (NE SHAP)  \n40 CFR 63, Subpart CCCCCC (Gasoline Dispensing Facilities)   \n \n \nCONDITIONS"
+  },
+  "offsets": {
+    "narrative": "Offsets, Regulation 2- 2-302  \nBecause the total facility potential to emit will be less than 10 tons of POC per year, th e facility is not \nrequired to provide offsets.  \n \nToxic Air Contaminants, Low Emission Levels Exemption, Regulation 2 -5-110 \nThis project is not subject to Regulation 2, Rule 5 because toxic air contaminant emissions are below the \nacute and chronic trigger le vels listed in Table 2 -5-1. \n \nDistrict Rules (Limits to emissions of pollutants or performance standards)  \nRegulation 8- 7 (Organic Compounds – Gasoline Dispensing Facilities)  \nSection 8- 7-301 – Phase I Requirements  \nSection 8- 7-302 – Phase II Requirements  \nSection 8- 7-304 – Certification Requirements  \nSection 8- 7-112.3 – Phase II Exemption: Not Feasible   \n \nCalifornia Air Resources Board (CARB) Vapor Recovery Certification  \nPhase I Vapor Recovery System Executive Order VR -101. \nAirborne Toxic Control Measure for Benzene for Retail Service Stations  \nATCM, 5/13/1988, Section 93101, Title 17, CA Code of Regulations.  \n \nNational Emissions Standards for Hazardous Air Pollutants (NE SHAP)  \n40 CFR 63, Subpart CCCCCC (Gasoline Dispensing Facilities)   \n \n \nCONDITIONS",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "CO",
+          2.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA), Regulation 2 -1-311  \nThis permit application is not subject to CEQA because the evaluation is a ministerial action conducted \nusing the fixed standards and objective measurements outlined in the Permit Handbook Chapter 3.2.   \nThe Procedures for Ministerial Ev aluation (Section 2 -1-427) and Criteria for Approval of Ministerial \nPermit Applications (Section 2 -1-428) have been complied with in the determination that this application \nis exempt from CEQA."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nANCE  \n \nThe owner/operator is expected to comply with all applicable requirements. Key requirements are listed \nbelow:  \n \nCalifornia Environmental Quality Act (CEQA), Regulation 2 -1-311  \nThis permit application is not subject to CEQA because the evaluation is a ministerial action conducted \nusing the fixed standards and objective measurements outlined in the Permit Handbook Chapter 3.2.   \nThe Procedures for Ministerial Ev aluation (Section 2 -1-427) and Criteria for Approval of Ministerial \nPermit Applications (Section 2 -1-428) have been complied with in the determination that this application \nis exempt from CEQA.District Rules (Limits to emissions of pollutants or performance standards)\nRegulation 8- 7 (Organic Compounds – Gasoline Dispensing Facilities)  \nSection 8- 7-301 – Phase I Requirements  \nSection 8- 7-302 – Phase II Requirements  \nSection 8- 7-304 – Certification Requirements  \nSection 8- 7-112.3 – Phase II Exemption: Not Feasible   \n \nCalifornia Air Resources Board (CARB) Vapor Recovery Certification  \nPhase I Vapor Recovery System Executive Order VR -101."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Public Notification, Regulation 2 -1-412\n12 \nThe facility is loca ted within 1000 feet of the outer boundary of  Fusion Academy Berkeley  located at  2027 \nSeventh Street and therefore subject to the public notification requirements  \n \nA public notice has been prepared and sent to all addresses within 1,000 feet of the propose d source and to \nthe parents or guardians of students enrolled at the school, and the following schools within ¼ mile of the \nsource:  Black Pine Circle School, Rosa Parks Environmental Science Magnet, Via Center . \n \nBest Available Control Technology (BACT), Regulation 2 -2-301 \nBecause this GDF will emit less than 10 pounds of POC per day, the facility is not required to install BACT.  \n \nOffsets, Regulation 2- 2-302  \nBecause the total facility potential to emit will be less than 10 tons of POC per year, th e facility is not \nrequired to provide offsets."
+  },
+  "conditions": {
+    "text": "CONDITIONS\nIONS  \n \nOperating Conditions  \nThis GDF is subject to the following Operating Conditions:  \n100013  \nThe owner/operator shall not allow the total fuel dispensed at this source to exceed the following limits \nduring any consecutive 12- month period:  \n \no 350,000 Gallons of Ethanol (E85)  \n \n100015  \nThe owner/operator shall ensure the Phase I Phil -Tite is installed, operated, and maintained in accordance \nwith the most recent revision of the Ca lifornia Air Resources Board (CARB) Executive Order (EO) VR -\n101. \n \n100036  \nThe owner/operator shall:  \n1. Notify Source Test by email (gdfnotice@baaqmd.gov) or Fax (510- 758-3087), at least 48 hours \nprior to any required testing. \n2. Submit test results in a District -approved format within thirty (30) days of testing.  \no For start -up tests results, cover sheet shall include the facility number  (Facility ID) and \napplication number of the Authority to Construct permit.  \no For annual test results, cover sheet shall in clude the facility number  (Facility ID) and \nidentified as ‘Annual’ in lieu of the application number. \no Test results shall be emailed (gdfresults@baaqmd.gov) or mailed to the Districts main \noffice.  \n \n100037  \nThe owner/operator shall conduct and pass the following tests at the indicated intervals:  \n1. A Static Pressure Performance Test, in accordance with CARB procedure TP -201.3 at least once \nin each 12- month period.  \n2. Phase I Adaptor Static Torque Test on all rotatable Phase I adaptors in accordance with CARB TP-\n201.1B at least once in each 36- month period.  \n3. One of the following tests in each 36- month period. The measured leak rate for each component \nshall be within the limits set in the applicable CARB Executive Order:  \no Stations equipped with drop tube overfill prevention devices (\"flapper valves\"): a Drop \nTube Overfill Prevention Device and Spill Container Drain Valve Leak Test in accordance \nwith CARB Test Procedure TP -201.1D and the applicable CARB Executive Order. \no All other stations: a Drop Tube/Drain Valve As sembly Leak Test in accordance with \nCARB Test Procedure TP -201.1C and the applicable CARB Executive Order.  \n100051  \nThe owner/operator of the facility shall maintain the following records. Records shall be maintained on site \nand made available for inspection  for a period of 24 months from the date the record is made.  \n \n1. Monthly totals of throughput (sales) of gasoline (all -grades) and other fuels pumped and \nsummarized on an annual basis for each type of fuel (excluding diesel).  \n2. All scheduled testing and maintenance activities, including:  \no the date of maintenance, inspection, failure and, if applicable, ISD alarm history;  \no the date and time of maintenance call;  \no the maintenance performed;  \no Certified Technician ID number or name of individual conducting mainten ance and their \nphone number.  \n3. Weekly, quarterly and/or annual inspection sheets as required by the appropriate CARB Executive \nOrders.  \n \n100088  \nThe owner/operator of the facility shall ensure all of the following for E85 dispensing:  \n \n1. Only E85 fuel may be stored in the E85 tank unless prior approval of a change of fuel is granted \nby the District.  \n2. The tank shall be equipped with a Phase I EVR system certified by CARB for use in E85 service.  \n3. The Phase I system shall be used during each fuel delivery, and maintained, operated in compliance \nwith the applicable CARB Executive Order.  \n4. The E85 tank and Phase I EVR system shall be periodically tested in compliance with the applicable \nCARB Executive Order and District permit conditions. \n5. The E85 tank and associated dis pensers are exempt from Phase II requirements and shall not be \nconnected to the facility’s gasoline Phase II vapor recovery system.  \n6. Only conventional (non- vapor recovery) hoses and nozzles may be used to dispense E85."
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 101,
+        "text": "100036  \nThe owner/operator shall:",
+        "basis": []
+      },
+      {
+        "num": 1,
+        "text": "Notify Source Test by email (gdfnotice@baaqmd.gov) or Fax (510- 758-3087), at least 48 hours \nprior to any required testing.",
+        "basis": []
+      },
+      {
+        "num": 2,
+        "text": "Submit test results in a District -approved format within thirty (30) days of testing.  \no For start -up tests results, cover sheet shall include the facility number  (Facility ID) and \napplication number of the Authority to Construct permit.  \no For annual test results, cover sheet shall in clude the facility number  (Facility ID) and \nidentified as ‘Annual’ in lieu of the application number. \no Test results shall be emailed (gdfresults@baaqmd.gov) or mailed to the Districts main \noffice.  \n \n100037  \nThe owner/operator shall conduct and pass the following tests at the indicated intervals:",
+        "basis": []
+      },
+      {
+        "num": 1,
+        "text": "A Static Pressure Performance Test, in accordance with CARB procedure TP -201.3 at least once \nin each 12- month period.",
+        "basis": []
+      },
+      {
+        "num": 2,
+        "text": "Phase I Adaptor Static Torque Test on all rotatable Phase I adaptors in accordance with CARB TP-",
+        "basis": []
+      },
+      {
+        "num": 201,
+        "text": "1B at least once in each 36- month period.",
+        "basis": []
+      },
+      {
+        "num": 3,
+        "text": "One of the following tests in each 36- month period. The measured leak rate for each component \nshall be within the limits set in the applicable CARB Executive Order:  \no Stations equipped with drop tube overfill prevention devices (\"flapper valves\"): a Drop \nTube Overfill Prevention Device and Spill Container Drain Valve Leak Test in accordance \nwith CARB Test Procedure TP -201.1D and the applicable CARB Executive Order. \no All other stations: a Drop Tube/Drain Valve As sembly Leak Test in accordance with \nCARB Test Procedure TP -201.1C and the applicable CARB Executive Order.  \n100051  \nThe owner/operator of the facility shall maintain the following records. Records shall be maintained on site \nand made available for inspection  for a period of 24 months from the date the record is made.",
+        "basis": []
+      },
+      {
+        "num": 1,
+        "text": "Monthly totals of throughput (sales) of gasoline (all -grades) and other fuels pumped and \nsummarized on an annual basis for each type of fuel (excluding diesel).",
+        "basis": []
+      },
+      {
+        "num": 2,
+        "text": "All scheduled testing and maintenance activities, including:  \no the date of maintenance, inspection, failure and, if applicable, ISD alarm history;  \no the date and time of maintenance call;  \no the maintenance performed;  \no Certified Technician ID number or name of individual conducting mainten ance and their \nphone number.",
+        "basis": []
+      },
+      {
+        "num": 3,
+        "text": "Weekly, quarterly and/or annual inspection sheets as required by the appropriate CARB Executive \nOrders.  \n \n100088  \nThe owner/operator of the facility shall ensure all of the following for E85 dispensing:",
+        "basis": []
+      },
+      {
+        "num": 1,
+        "text": "Only E85 fuel may be stored in the E85 tank unless prior approval of a change of fuel is granted \nby the District.",
+        "basis": []
+      },
+      {
+        "num": 2,
+        "text": "The tank shall be equipped with a Phase I EVR system certified by CARB for use in E85 service.",
+        "basis": []
+      },
+      {
+        "num": 3,
+        "text": "The Phase I system shall be used during each fuel delivery, and maintained, operated in compliance \nwith the applicable CARB Executive Order.",
+        "basis": []
+      },
+      {
+        "num": 4,
+        "text": "The E85 tank and Phase I EVR system shall be periodically tested in compliance with the applicable \nCARB Executive Order and District permit conditions.",
+        "basis": []
+      },
+      {
+        "num": 5,
+        "text": "The E85 tank and associated dis pensers are exempt from Phase II requirements and shall not be \nconnected to the facility’s gasoline Phase II vapor recovery system.",
+        "basis": []
+      },
+      {
+        "num": 6,
+        "text": "Only conventional (non- vapor recovery) hoses and nozzles may be used to dispense E85.",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nON  \nThe District has reviewed the material contained in the permit application for the proposed project and has \nmade a preliminary determination that the project is expected to comply with all applicable requirements \nof District, state and federal air quality -related regu lations.  The preliminary recommendation is to issue a \nPermit to Operate for the equipment listed below.  However, the proposed source will be located within \n1000 feet of a school which triggers the public notification requirements of District Regulation 2- 1-412.  \nAfter the comments are received and reviewed, the District will make a final determination on the permit.   \n \nI recommend that the District initiate a public notice and consider any comments received prior to taking \nany final action on issuance of a  Permit to Operate to change permit conditions for the following source:  \n \nS-1 Fuel  Dispensing Facility  \n \n \nBy: Annie Allen , Air Quality Technician  Date:  XX/XX/XXXX"
+  },
+  "raw_sections": {
+    "preamble": "",
+    "blocks": [
+      {
+        "heading": "DRAFT ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "DRAFT ENGINEERING EVALUATION\nON \n \n \nFacility ID No. 112479  \nPropel  Fuels Inc (E85 Dispensing)  \n849 University Ave, Ste E85, Berkeley, CA 94710  \nApplication No. 661155"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nOUND  \n \nThe applicant has requested to modify the Permit to Operate for the following equipment:  \n \nS-1 Fuel  Dispensing Facility  \n \nThe facility configurations are described below:  \n \nCurrent Configuration  Configuration after Modification  \n1 – 5,000 gallons E85 tank  No change  \nPhase I Phil -Tite EVR (VR -101) No change  \nNone – Exempt (Reg 8 -7-112.3)  No change  \n2 E85 nozzles  No change  \n1 – 5,000 gallons diesel tank No change  \n2 diesel nozzles No change  \n144,000 gallons of E85  per year throughput \nlimit  350,000 gallons  of E85  per year throughput \nlimit  \n \nThis facility is requesting an E85 throughput increase from 144,000 to 350,000 gallons per year . \n \nThis application is being processed as a modification as defined in Regulation 2- 1-234."
+      },
+      {
+        "heading": "EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSION CALCULATIONS\nNS  \n \nTable 1 summarizes annual and daily permitted emissions.  \n  \nTable 1. Annual and Daily Emissions  \nCriteria \nPollutant  Emissions Factors \n(lb/thousand \ngallon)  Annual Average \nEmissions  \n(lb/day)  Annual \nEmissions  \n(lb/year)  Annual \nEmissions  \n(ton/year)  \nPOC  1.086  1.04 379.93  0.19 \n \n \nBasis:  \n• Annual throughput of E85: 350,000 gallons per year  \n• Operation schedule:  24 hr/day (max), 24 hr/day (typical), 7 day/week, 52 week/yr  \n• Phase I EVR for UST \n• Phase II Exempt – BAAQMD Regulation 8- 7-112.3  \n• POC is Precursor Organic Compound.  \n• Emissions of POC include emissions from loading, breathing, refueling and spillage . \n• Emission factors are taken from the California Air Resources Board’s “Revised Emission Factors \nfor G asoline Marketing Operations at California Gasoline Dispensing Facilities” (12/23/13)  \nadjusted for a mixture of 25% gasoline/75% ethanol ."
+      },
+      {
+        "heading": "FACILITY CUMULATIVE INCREASE",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "FACILITY CUMULATIVE INCREASE\nEASE  \n \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result from this \napplication.  \n \nTable 2. Facility  Cumulative Emissions Increase, Post 4/5/91  \nCumulative \nIncrease  Existing Emissions (ton/yr)  Application Emissions  \n(tons/yr)  Total Emissions  \n(tons/yr)  \nPOC  0.08 0.11 0.19"
+      },
+      {
+        "heading": "TOXIC EMISSIONS AND HEALTH RISK ASSESSMENT (HRA)",
+        "alias": "TOXICS",
+        "text": "TOXIC EMISSIONS AND HEALTH RISK ASSESSMENT (HRA)\nHRA)   \n \nA Health Risk Assessment (HRA) is required when the emissions of toxic air contaminants (TACs) are at \nor exceed the trigger levels outlined in Regulation 2, Rule 5, Table 2- 5-1.  An HRA is not  required, based \non the toxic emissions for this source, summari zed in Table 3.  \n \nTable 3.  Toxic Emissions  \nTACs  Category  Emissions  \n(Chronic)  \n(lb/yr) Emissions  \n(Maximum)  \n(lb/hr)  Reg 2 -5 \nChronic \nTrigger \n(lb/yr)  Reg 2 -5 \nAcute \nTrigger \n(lb/hr)  HRA \nRequired  \nBenzene  Both \nCarcinogen \nand Other  0.567  0.00130  2.90 0.06 No \nEthylbenzene  Both \nCarcinogen \nand Other  0.742  0.00100  33.00  n/a No \nHexane  TAC -  Other  1.716  0.00458  270000.00  n/a No \nNaphthalene  TAC -  Other  0.094  0.00011  2.40 n/a No \nToluene  TAC -  Other  3.546  0.00565  12000.00  82.00  No \nXylene  TAC -  Other  3.798  0.00492  27000.00  49.00  No \n \n \n \nBasis:  \n• Emission factors are taken from the California Air Resources Board’s “Revised Emission Factors \nfor Gasoline Marketing Operations at California Gasoline Dispensing Facilities” (12/23/13)  \nadjusted for a mixture of 25% gasoline/75% ethanol . \n• Composition Data is from ARB Organic Gas Spec iation Profiles for E10 Gasoline Fuels (Liquid \nand Headspace for both Summer and Winter blends), revised 2013 and 2015 extrapolated for a \nmixture of 25% gasoline/75% ethanol ."
+      },
+      {
+        "heading": "• Hourly e missions are calculated in accordance with BAAQMD’s Air Toxics NSR Program HRA",
+        "alias": "TOXICS",
+        "text": "• Hourly e missions are calculated in accordance with BAAQMD’s Air Toxics NSR Program HRA\nGuidelines for GDFs, dated December 2016."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nANCE  \n \nThe owner/operator is expected to comply with all applicable requirements. Key requirements are listed \nbelow:  \n \nCalifornia Environmental Quality Act (CEQA), Regulation 2 -1-311  \nThis permit application is not subject to CEQA because the evaluation is a ministerial action conducted \nusing the fixed standards and objective measurements outlined in the Permit Handbook Chapter 3.2.   \nThe Procedures for Ministerial Ev aluation (Section 2 -1-427) and Criteria for Approval of Ministerial \nPermit Applications (Section 2 -1-428) have been complied with in the determination that this application \nis exempt from CEQA."
+      },
+      {
+        "heading": "Public Notification, Regulation 2 -1-412",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Public Notification, Regulation 2 -1-412\n12 \nThe facility is loca ted within 1000 feet of the outer boundary of  Fusion Academy Berkeley  located at  2027 \nSeventh Street and therefore subject to the public notification requirements  \n \nA public notice has been prepared and sent to all addresses within 1,000 feet of the propose d source and to \nthe parents or guardians of students enrolled at the school, and the following schools within ¼ mile of the \nsource:  Black Pine Circle School, Rosa Parks Environmental Science Magnet, Via Center . \n \nBest Available Control Technology (BACT), Regulation 2 -2-301 \nBecause this GDF will emit less than 10 pounds of POC per day, the facility is not required to install BACT.  \n \nOffsets, Regulation 2- 2-302  \nBecause the total facility potential to emit will be less than 10 tons of POC per year, th e facility is not \nrequired to provide offsets."
+      },
+      {
+        "heading": "Toxic Air Contaminants, Low Emission Levels Exemption, Regulation 2 -5-110",
+        "alias": "TOXICS",
+        "text": "Toxic Air Contaminants, Low Emission Levels Exemption, Regulation 2 -5-110\nThis project is not subject to Regulation 2, Rule 5 because toxic air contaminant emissions are below the \nacute and chronic trigger le vels listed in Table 2 -5-1."
+      },
+      {
+        "heading": "District Rules (Limits to emissions of pollutants or performance standards)",
+        "alias": "SOC",
+        "text": "District Rules (Limits to emissions of pollutants or performance standards)\nRegulation 8- 7 (Organic Compounds – Gasoline Dispensing Facilities)  \nSection 8- 7-301 – Phase I Requirements  \nSection 8- 7-302 – Phase II Requirements  \nSection 8- 7-304 – Certification Requirements  \nSection 8- 7-112.3 – Phase II Exemption: Not Feasible   \n \nCalifornia Air Resources Board (CARB) Vapor Recovery Certification  \nPhase I Vapor Recovery System Executive Order VR -101."
+      },
+      {
+        "heading": "Airborne Toxic Control Measure for Benzene for Retail Service Stations",
+        "alias": "TOXICS",
+        "text": "Airborne Toxic Control Measure for Benzene for Retail Service Stations\nATCM, 5/13/1988, Section 93101, Title 17, CA Code of Regulations.  \n \nNational Emissions Standards for Hazardous Air Pollutants (NE SHAP)  \n40 CFR 63, Subpart CCCCCC (Gasoline Dispensing Facilities)"
+      },
+      {
+        "heading": "CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "CONDITIONS\nIONS  \n \nOperating Conditions  \nThis GDF is subject to the following Operating Conditions:  \n100013  \nThe owner/operator shall not allow the total fuel dispensed at this source to exceed the following limits \nduring any consecutive 12- month period:  \n \no 350,000 Gallons of Ethanol (E85)  \n \n100015  \nThe owner/operator shall ensure the Phase I Phil -Tite is installed, operated, and maintained in accordance \nwith the most recent revision of the Ca lifornia Air Resources Board (CARB) Executive Order (EO) VR -\n101. \n \n100036  \nThe owner/operator shall:  \n1. Notify Source Test by email (gdfnotice@baaqmd.gov) or Fax (510- 758-3087), at least 48 hours \nprior to any required testing. \n2. Submit test results in a District -approved format within thirty (30) days of testing.  \no For start -up tests results, cover sheet shall include the facility number  (Facility ID) and \napplication number of the Authority to Construct permit.  \no For annual test results, cover sheet shall in clude the facility number  (Facility ID) and \nidentified as ‘Annual’ in lieu of the application number. \no Test results shall be emailed (gdfresults@baaqmd.gov) or mailed to the Districts main \noffice.  \n \n100037  \nThe owner/operator shall conduct and pass the following tests at the indicated intervals:  \n1. A Static Pressure Performance Test, in accordance with CARB procedure TP -201.3 at least once \nin each 12- month period.  \n2. Phase I Adaptor Static Torque Test on all rotatable Phase I adaptors in accordance with CARB TP-\n201.1B at least once in each 36- month period.  \n3. One of the following tests in each 36- month period. The measured leak rate for each component \nshall be within the limits set in the applicable CARB Executive Order:  \no Stations equipped with drop tube overfill prevention devices (\"flapper valves\"): a Drop \nTube Overfill Prevention Device and Spill Container Drain Valve Leak Test in accordance \nwith CARB Test Procedure TP -201.1D and the applicable CARB Executive Order. \no All other stations: a Drop Tube/Drain Valve As sembly Leak Test in accordance with \nCARB Test Procedure TP -201.1C and the applicable CARB Executive Order.  \n100051  \nThe owner/operator of the facility shall maintain the following records. Records shall be maintained on site \nand made available for inspection  for a period of 24 months from the date the record is made.  \n \n1. Monthly totals of throughput (sales) of gasoline (all -grades) and other fuels pumped and \nsummarized on an annual basis for each type of fuel (excluding diesel).  \n2. All scheduled testing and maintenance activities, including:  \no the date of maintenance, inspection, failure and, if applicable, ISD alarm history;  \no the date and time of maintenance call;  \no the maintenance performed;  \no Certified Technician ID number or name of individual conducting mainten ance and their \nphone number.  \n3. Weekly, quarterly and/or annual inspection sheets as required by the appropriate CARB Executive \nOrders.  \n \n100088  \nThe owner/operator of the facility shall ensure all of the following for E85 dispensing:  \n \n1. Only E85 fuel may be stored in the E85 tank unless prior approval of a change of fuel is granted \nby the District.  \n2. The tank shall be equipped with a Phase I EVR system certified by CARB for use in E85 service.  \n3. The Phase I system shall be used during each fuel delivery, and maintained, operated in compliance \nwith the applicable CARB Executive Order.  \n4. The E85 tank and Phase I EVR system shall be periodically tested in compliance with the applicable \nCARB Executive Order and District permit conditions. \n5. The E85 tank and associated dis pensers are exempt from Phase II requirements and shall not be \nconnected to the facility’s gasoline Phase II vapor recovery system.  \n6. Only conventional (non- vapor recovery) hoses and nozzles may be used to dispense E85."
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nON  \nThe District has reviewed the material contained in the permit application for the proposed project and has \nmade a preliminary determination that the project is expected to comply with all applicable requirements \nof District, state and federal air quality -related regu lations.  The preliminary recommendation is to issue a \nPermit to Operate for the equipment listed below.  However, the proposed source will be located within \n1000 feet of a school which triggers the public notification requirements of District Regulation 2- 1-412.  \nAfter the comments are received and reviewed, the District will make a final determination on the permit.   \n \nI recommend that the District initiate a public notice and consider any comments received prior to taking \nany final action on issuance of a  Permit to Operate to change permit conditions for the following source:  \n \nS-1 Fuel  Dispensing Facility  \n \n \nBy: Annie Allen , Air Quality Technician  Date:  XX/XX/XXXX"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "DRAFT ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "DRAFT ENGINEERING EVALUATION\nON \n \n \nFacility ID No. 112479  \nPropel  Fuels Inc (E85 Dispensing)  \n849 University Ave, Ste E85, Berkeley, CA 94710  \nApplication No. 661155"
+      }
+    ]
+  }
+}

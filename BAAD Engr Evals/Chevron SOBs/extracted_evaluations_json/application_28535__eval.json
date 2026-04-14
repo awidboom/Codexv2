@@ -1,0 +1,266 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\extracted_evaluations\\application_28535.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 3
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "28535",
+    "application_number_from_filename": "28535"
+  },
+  "application_number": "28535",
+  "plant": {
+    "name": "Permit Evaluation and Statement of Basis Site No: A0010, Chevron Products Company",
+    "plant_id": null,
+    "address": "Richmond, CA 94802"
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-6022",
+      "description": ": Refillable tote  (active) connected to an injection skid"
+    },
+    {
+      "id": "S-6023",
+      "description": "is exempt from permitting per Regulations 2 -1-123.1 because the capacity of the tote is less than"
+    }
+  ],
+  "background": {
+    "text": "Backgr ound\nChevron Products Company (Chevron) has proposed to install the following equipment:  \n \nS-6022 : Refillable tote  (active) connected to an injection skid  \n              Make and Model: NALCO PORTA -FEED® Senior  \n              Tote Location: #4 Crude Unit (S -4236) overhead accumulator process line  \n              Area Business Unit: Distillation & Reforming (D&R)  \n              Material stored: Corrosion Inhibitor; TVP43 < 0.33 psia (100 °F)  \n              Nominal volume: 400 gallon s; normal fill volume: 385 gall ons \n                                        Throughput: 1,825 gallons/year  \n \nS-6023: Transfer tote (standby) with transfer line to S -6022  \n              Make and Model: NALCO PORTA -FEED® Junior   \n              Tote Location: #4 Crude Unit (S -4236) overhead accumulator process line  \n              Area Business Unit: Distillation & Reforming (D&R)  \n              Material stored: Corrosion Inhibitor; TVP < 0.33 psia (100 °F)  \n              Nominal volum e: 217  gallon s; normal fill volume: 200 gallons  \n                                        Throughput: 1,825 gallons/year  \n \nS-6022  will store a corrosion inhibitor and dispense it via an injection skid into an overhead accumulator \nprocess line at the #4 Crude  Unit (S -4236). S -6022 will be located upstream of heat exchanger train (E -\n1101 A -D). The injection skid connected to S -6022 will include piping, a pump, and fugitive components. \nThe material will be pumped via the injection skid to the recycle water strea m which feeds to E -1101 A -D. \nMaterial stored in S -6023 will be used to replenish S -6022. When empty, S -6023 will be hauled offsite \nand will be replaced with a new tote that will be filled offsite.  \n \nS-6023 is exempt from permitting per Regulations 2 -1-123.1 because the capacity of the tote is less than \n260 gallons. Chevron had originally proposed to install two identical 400 -gallon totes (active and transfer). \nChevron revised the project scope after t hey were invoiced for application fees. Because S -6023 is \nexempt, fees will be assessed per Regulation 3 -337 and Chevron will be refunded the difference."
+  },
+  "emission_calculations": {
+    "text": "Emission Calculations\nns  \n \nAssuming ~5 tote turnovers (1825 ÷ 385), Chevron estimated the working and breathing POC losses from \nS-6022 via US EPA’s TANKS model to be 7 lbs/year. Installing S -6022 and S -6023 will require adding 39 \nfugitive components (5 valves, 27 flanges, 1 pump, 6 PRDs). The District estimated POC emissions from \nthe fugitive component s to be 1,082 pounds/year. Therefore, the POC emissions associated with this \napplication is 1,089 pounds/year (0.54 TPY). Attachment A contains fugitive emissions calculations."
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Increase\nse  \n \nPOC:   0.54 TPY (1.15) – 0.62 TPY (offsets) = 0.0 t py \n \n  \n                                                           \n43 Vapour pressure listed in SDS dated October 7th, 2015 for NALCO EC1010A is 22.75 hPa (37.8°C).  \nPermit Evaluation and Statement of Basis  Site No: A0010, Chevron Products Company  \nApplication No:  27756  841 Chevron Way, Richmond, CA  94802  \n \n279"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emission Calculations\nns  \n \nAssuming ~5 tote turnovers (1825 ÷ 385), Chevron estimated the working and breathing POC losses from \nS-6022 via US EPA’s TANKS model to be 7 lbs/year. Installing S -6022 and S -6023 will require adding 39 \nfugitive components (5 valves, 27 flanges, 1 pump, 6 PRDs). The District estimated POC emissions from \nthe fugitive component s to be 1,082 pounds/year. Therefore, the POC emissions associated with this \napplication is 1,089 pounds/year (0.54 TPY). Attachment A contains fugitive emissions calculations.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": [
+          [
+            "Valves",
+            "Light liquid",
+            27
+          ],
+          [
+            "Connectors/Flanges",
+            "Light liquid",
+            1
+          ]
+        ]
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": 0.54
+        }
+      }
+    },
+    "by_equipment": {
+      "S-6022": {
+        "narrative": "S-6022 via US EPA’s TANKS model to be 7 lbs/year. Installing S -6022 and S -6023 will require adding 39",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-6023": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "Toxic Health Risk Assessment (HRA)\nAn HRA was required because annual emissions of naphthalene (54.09 lbs/year) exceeded the \nRegulation 2, Rule 5 chronic TAC trigger level of 2.4 lbs/year. The District’s HRA determined the \nmaximum cancer risk for t he project to be 0.04 in a million and the chronic hazard index to be 0.0001, and \nconcluded the above risks are acceptable in accordance with Regulations 2 -5-301 and 302.b. The use of these materials does not increase toxic emissions above any risk screening\ntrigger level of Table 2 -5-1 in Regulation 2 -5. \n(Basis: Cumulative Increase; Toxics)  \n \n3. To determine compliance with the above parts, the owner/operator shall maintain the following \nrecords and provide all of the data necessary to evaluate compliance with the above parts, \nincluding the following information:  \na. Quantities of each type of liq uid stored at this source on a monthly basis.  \nb. If a material other than those specified in Part 1 is stored, POC/NPOC and toxic \ncomponent contents of each material used; and mass emission calculations to \ndemonstrate compliance with Part 2, on a monthly basis;  \nc. Monthly throughput and/or emission calculations shall be totaled for each consecutive \ntwelve -month period.  \nAll records shall be retained on -site for five years, from the date of entry, and made available \nfor inspection by District staff upon re quest. These recordkeeping requirements shall not \nreplace the recordkeeping requirements contained in any applicable District Regulations.(Basis: Cumulative Increase; Toxics)\n4. Not more than 30 days after the start -up of S -6022, the owner/operator shall provide the District’s \nEngineering Division with a final count of fugitive components installed. The owner/operator has \nbeen permitted for an increase in the following fugitive co mponents in liquid service: Valves: 5; \nFlanges: 27; Connectors: 0; Pump seals: 1; PRD: 6.  \n(Basis: Cumulative Increase, offsets, toxics risk screen)  \n  \n5. If there is an increase in the total fugitive component emissions, the plant’s cumulative emissions \nfor the project shall be adjusted to reflect the difference between emissions based on predicted \nversus actual component counts. The owner/operator shall provide to the District all additional \nrequired offsets at an offset ratio of 1.15:1 no later than 14 days after submittal of the final POC \nfugitive count. If the actual component count is less than the predicted, the total will be adjusted \naccordingly and all emission offsets applied by the owner/operator in excess of the actual total \nfugitive emissions will b e credited back to the owner/operator.  \n(Basis: offsets)  \n \n6. The owner/operator shall install valves, in light hydrocarbon service, that are of District approved(Basis: Regulation 8 -18, toxics risk screen)\n7. The owner/operator shall install flanges, in light hydrocarbon service, that are of District approved \nBACT compliant technology (graphitic gas kets or the equivalent) such that fugitive organic \nemissions shall not exceed 100 ppm.  \n(Basis: Regulation 8 -18, toxics risk screen)  \n \n8. The owner/operator shall install pump seals, in light hydrocarbon service, that are of District \napproved BACT compliant te chnology (double mechanical seals with barrier fluid or the \nequivalent) such that fugitive organic emissions shall not exceed 500 ppm.(Basis: Regulation 8 -18, toxics risk screen)\n9. The owner/operator shall ensure pressure relief valve s installed on S -6022  and the exempt 217 \ngallon NALCO PORTA -FEED® Junior  transfer tote S -6023 compl y with and meet applicable \nrequirements of Regulation 8, Rule 5, Rule 18, Rule 28.  \n(Basis: Regulation 8 -5, Regulation 2 -1-403)  \n \n10. In accordance with the provisions of Regulation 8-18, the owner/operator shall integrate all new \nfugitive equipment in organic service installed as part of S -6022 and S -6023  into the facility \nfugitive equipment monitoring and repair program.  \n(Basis: Regulation 8 -18)"
+  },
+  "BACT": {
+    "text": "BACT compliant technology (bellows valves, diaphragm valves, live loaded valves, or the\nPermit Evaluation and Statement of Basis  Site No: A0010, Chevron Products Company  \nApplication No:  27756  841 Chevron Way, Richmond, CA  94802  \n \n281 \n equivalen t) such that fugitive organic emissions shall not exceed 100 ppm."
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nce  \n \nS-6022 is not exempt from permitting per Regulations 2-1-123.1 and 123.3.2 because the capacity of the \ntote is greater than 260 gallons and the initial boiling point of the corrosion inhibitor is 146 °C (295 °F). \nBecause the TVP of the corrosion inhibitor stored in S -6022 and S -6023 is less than 0.5 psia, the totes \nare not subject to the provisions of Regulation 8, Rule 5 except for Regulation 8 -5-307.3 . Per information \nin NALCO’s product brochure the totes are atmospheric containers and pressure is not to be applied to \nthe units. Therefore, the totes will not be pressurized or blanketed  and Reg. 8 -5-307.3 does not apply. \nAppurtenances ( ex. fittings, etc.) on storage tanks  (~totes)  are exempt from Reg ulation 8, Rule 18 per \nRegulation 8-18-115. However, fugitive components (ex. sample valves/connections , etc.)  that run up to \nthe tank are subject to Reg ulation  8-18. NALCO’s product brochure states each tote is equipped with \npressure and vacuum relief valves and a high capacity fusible relief device. Because the totes are exempt \nfrom Regulation 8, Rule 5, all fugiti ve components summarized in Attachment A including PRDs exempt \nfrom Regulation 8, Rule 28 per Regulation 8 -28-112 are subject to Regulation 8, Rule 18.  \n \nThe capacity of the totes (~storage vessel) is < 75 m3 (19,813 gallons). Therefore, 40 CFR 60, Subpart  \nKb (NSPS Kb) does not apply  per 40 CFR 60.110b(a) . The totes are not subject to 40 CFR 63, Subpart \nCC (MACT CC) per 40 CFR 63.641 because the capacity of the totes is < 40 m3 (10,567 gallons). The \nfugitive components summarized in Attachment A will be ins talled at the #4 Crude Unit (S -4236) which is \nan existing source. Therefore, the fugitive components are required to comply with the provisions of 40 \nCFR 60, Subpart VV and all applicable provisions in MACT CC per 40 CFR 63.648. Chevron has stated \nthat the  PRDs do not have the potential to emit ≥ 72 lbs/day of VOC based on the valve diameter, the set \nrelease pressure, and the contents stored in the totes. Therefore, the PRDs are not subject to the \npressure release management requirements in 40 CFR 63.648(j) (3) per 40 CFR 63.648(j)(5)(v).         \n \nPSD do es not apply to this application.  \n \nBACT is not triggered since the increase in POC emissions is less than 10 pounds per highest day.   \n \nThis application will require POC offsets since the facility POC emissions  are greater than 35 tons per \nyear.  This application requires 0.62  TPY of POC offsets  which Chevron will offset via ERC # 1283.  \n  \nThis application is considered ministerial for CEQA since this source category is covered in Permit \nHandbook Chapter 4.   \n \n  \nPermit Evaluation and Statement of Basis  Site No: A0010, Chevron Products Company  \nApplication No:  27756  841 Chevron Way, Richmond, CA  94802"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "280 \n  \nPERMIT CONDITIONS\nNS  \nChevron Richmond Refinery (Plant # 10)  \nS-6022 Corrosion Inhibitor Tote  \nApplication 28535 – August 2017  \nPC 26558  \n1. The owner/operator of S -6022  (400 gallon NALCO PORTA -FEED® Senior refillable tote) shall not \nexceed the following throughput limit during any consecutive twelve -month period:  \nNALCO® EC1010A Corrosion Inhibitor (TVP < 0.5 psia) : 1,825 gallons .  \n(Basis: Cumulative Increase)  \n \n2. The owner/operator may store alternate liquid(s) other than the  material specified in Part 1 and/or \nusage in excess of those specified in Part 1, provided that the owner/operator can demonstrate \nthat all of the following are satisfied:  \na. Total POC emissions (including fugitive component emissions) from S -6022  do not  exceed \n1,089  pounds per year in any consecutive twelve month period; and"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator of S -6022  (400 gallon NALCO PORTA -FEED® Senior refillable tote) shall not \nexceed the following throughput limit during any consecutive twelve -month period:  \nNALCO® EC1010A Corrosion Inhibitor (TVP < 0.5 psia) : 1,825 gallons .  \n(",
+        "basis": [
+          "Cumulative Increase)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator may store alternate liquid(s) other than the  material specified in Part 1 and/or \nusage in excess of those specified in Part 1, provided that the owner/operator can demonstrate \nthat all of the following are satisfied:  \na. Total POC emissions (including fugitive component emissions) from S -6022  do not  exceed \n1,089  pounds per year in any consecutive twelve month period; and",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\non  \n \nIssue Chevron an A uthority to Construct for the following:  \n \nS-6022 : Refillable tote  (active) connected to an injection skid  \n              Make and Model: NALCO PORTA -FEED® Senior  \n              Tote Location: #4 Crude Unit (S -4236) overhead accumulator process line  \n              Area Business Unit: Distillation & Reforming (D&R)  \n              Material stored: Corrosion Inhibitor; TVP < 0.33 psia (100 °F)  \n              Nominal volume: 400 gallon s; normal fill volume: 385 gallons  \n                                        Throughput: 1,825 gallons/year  \n \nIssue Chevron a Letter of Exemption for the following:  \n \nS-6023: Transfer tote (standby) with transfer line to S -6022  \n              Make and Model: NALCO PORTA -FEED® Junior   \n              Tote Location: #4 Crude Unit (S -4236) overhead accumulator process line  \n              Area Business Unit: Distillation & Reforming (D&R)  \n              Material stored: Corrosion Inhibitor; TVP < 0.33 psia (100 °F)  \n              Nominal volume: 217  gallon s; normal fill volume: 200 gallons  \n                                        Throughput: 1,825 gallons/year  \n \n \n \n \n_____________  \nK. R. Bhagavan"
+  },
+  "raw_sections": {
+    "preamble": "Permit Evaluation and Statement of Basis  Site No: A0010, Chevron Products Company  \nApplication No:  27756  841 Chevron Way, Richmond, CA  94802  \n \n278",
+    "blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nORT  \nPlant 10: Chevron Products Co mpany  \nApplication 2 8535: Corrosion Inhibitor Tote"
+      },
+      {
+        "heading": "Backgr ound",
+        "alias": "BACKGROUND",
+        "text": "Backgr ound\nChevron Products Company (Chevron) has proposed to install the following equipment:  \n \nS-6022 : Refillable tote  (active) connected to an injection skid  \n              Make and Model: NALCO PORTA -FEED® Senior  \n              Tote Location: #4 Crude Unit (S -4236) overhead accumulator process line  \n              Area Business Unit: Distillation & Reforming (D&R)  \n              Material stored: Corrosion Inhibitor; TVP43 < 0.33 psia (100 °F)  \n              Nominal volume: 400 gallon s; normal fill volume: 385 gall ons \n                                        Throughput: 1,825 gallons/year  \n \nS-6023: Transfer tote (standby) with transfer line to S -6022  \n              Make and Model: NALCO PORTA -FEED® Junior   \n              Tote Location: #4 Crude Unit (S -4236) overhead accumulator process line  \n              Area Business Unit: Distillation & Reforming (D&R)  \n              Material stored: Corrosion Inhibitor; TVP < 0.33 psia (100 °F)  \n              Nominal volum e: 217  gallon s; normal fill volume: 200 gallons  \n                                        Throughput: 1,825 gallons/year  \n \nS-6022  will store a corrosion inhibitor and dispense it via an injection skid into an overhead accumulator \nprocess line at the #4 Crude  Unit (S -4236). S -6022 will be located upstream of heat exchanger train (E -\n1101 A -D). The injection skid connected to S -6022 will include piping, a pump, and fugitive components. \nThe material will be pumped via the injection skid to the recycle water strea m which feeds to E -1101 A -D. \nMaterial stored in S -6023 will be used to replenish S -6022. When empty, S -6023 will be hauled offsite \nand will be replaced with a new tote that will be filled offsite.  \n \nS-6023 is exempt from permitting per Regulations 2 -1-123.1 because the capacity of the tote is less than \n260 gallons. Chevron had originally proposed to install two identical 400 -gallon totes (active and transfer). \nChevron revised the project scope after t hey were invoiced for application fees. Because S -6023 is \nexempt, fees will be assessed per Regulation 3 -337 and Chevron will be refunded the difference."
+      },
+      {
+        "heading": "Emission Calculations",
+        "alias": "EMISSIONS",
+        "text": "Emission Calculations\nns  \n \nAssuming ~5 tote turnovers (1825 ÷ 385), Chevron estimated the working and breathing POC losses from \nS-6022 via US EPA’s TANKS model to be 7 lbs/year. Installing S -6022 and S -6023 will require adding 39 \nfugitive components (5 valves, 27 flanges, 1 pump, 6 PRDs). The District estimated POC emissions from \nthe fugitive component s to be 1,082 pounds/year. Therefore, the POC emissions associated with this \napplication is 1,089 pounds/year (0.54 TPY). Attachment A contains fugitive emissions calculations."
+      },
+      {
+        "heading": "Plant Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Increase\nse  \n \nPOC:   0.54 TPY (1.15) – 0.62 TPY (offsets) = 0.0 t py \n \n  \n                                                           \n43 Vapour pressure listed in SDS dated October 7th, 2015 for NALCO EC1010A is 22.75 hPa (37.8°C).  \nPermit Evaluation and Statement of Basis  Site No: A0010, Chevron Products Company  \nApplication No:  27756  841 Chevron Way, Richmond, CA  94802  \n \n279"
+      },
+      {
+        "heading": "Toxic Health Risk Assessment (HRA)",
+        "alias": "TOXICS",
+        "text": "Toxic Health Risk Assessment (HRA)\nAn HRA was required because annual emissions of naphthalene (54.09 lbs/year) exceeded the \nRegulation 2, Rule 5 chronic TAC trigger level of 2.4 lbs/year. The District’s HRA determined the \nmaximum cancer risk for t he project to be 0.04 in a million and the chronic hazard index to be 0.0001, and \nconcluded the above risks are acceptable in accordance with Regulations 2 -5-301 and 302."
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nce  \n \nS-6022 is not exempt from permitting per Regulations 2-1-123.1 and 123.3.2 because the capacity of the \ntote is greater than 260 gallons and the initial boiling point of the corrosion inhibitor is 146 °C (295 °F). \nBecause the TVP of the corrosion inhibitor stored in S -6022 and S -6023 is less than 0.5 psia, the totes \nare not subject to the provisions of Regulation 8, Rule 5 except for Regulation 8 -5-307.3 . Per information \nin NALCO’s product brochure the totes are atmospheric containers and pressure is not to be applied to \nthe units. Therefore, the totes will not be pressurized or blanketed  and Reg. 8 -5-307.3 does not apply. \nAppurtenances ( ex. fittings, etc.) on storage tanks  (~totes)  are exempt from Reg ulation 8, Rule 18 per \nRegulation 8-18-115. However, fugitive components (ex. sample valves/connections , etc.)  that run up to \nthe tank are subject to Reg ulation  8-18. NALCO’s product brochure states each tote is equipped with \npressure and vacuum relief valves and a high capacity fusible relief device. Because the totes are exempt \nfrom Regulation 8, Rule 5, all fugiti ve components summarized in Attachment A including PRDs exempt \nfrom Regulation 8, Rule 28 per Regulation 8 -28-112 are subject to Regulation 8, Rule 18.  \n \nThe capacity of the totes (~storage vessel) is < 75 m3 (19,813 gallons). Therefore, 40 CFR 60, Subpart  \nKb (NSPS Kb) does not apply  per 40 CFR 60.110b(a) . The totes are not subject to 40 CFR 63, Subpart \nCC (MACT CC) per 40 CFR 63.641 because the capacity of the totes is < 40 m3 (10,567 gallons). The \nfugitive components summarized in Attachment A will be ins talled at the #4 Crude Unit (S -4236) which is \nan existing source. Therefore, the fugitive components are required to comply with the provisions of 40 \nCFR 60, Subpart VV and all applicable provisions in MACT CC per 40 CFR 63.648. Chevron has stated \nthat the  PRDs do not have the potential to emit ≥ 72 lbs/day of VOC based on the valve diameter, the set \nrelease pressure, and the contents stored in the totes. Therefore, the PRDs are not subject to the \npressure release management requirements in 40 CFR 63.648(j) (3) per 40 CFR 63.648(j)(5)(v).         \n \nPSD do es not apply to this application.  \n \nBACT is not triggered since the increase in POC emissions is less than 10 pounds per highest day.   \n \nThis application will require POC offsets since the facility POC emissions  are greater than 35 tons per \nyear.  This application requires 0.62  TPY of POC offsets  which Chevron will offset via ERC # 1283.  \n  \nThis application is considered ministerial for CEQA since this source category is covered in Permit \nHandbook Chapter 4.   \n \n  \nPermit Evaluation and Statement of Basis  Site No: A0010, Chevron Products Company  \nApplication No:  27756  841 Chevron Way, Richmond, CA  94802"
+      },
+      {
+        "heading": "280 \n  \nPERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "280 \n  \nPERMIT CONDITIONS\nNS  \nChevron Richmond Refinery (Plant # 10)  \nS-6022 Corrosion Inhibitor Tote  \nApplication 28535 – August 2017  \nPC 26558  \n1. The owner/operator of S -6022  (400 gallon NALCO PORTA -FEED® Senior refillable tote) shall not \nexceed the following throughput limit during any consecutive twelve -month period:  \nNALCO® EC1010A Corrosion Inhibitor (TVP < 0.5 psia) : 1,825 gallons .  \n(Basis: Cumulative Increase)  \n \n2. The owner/operator may store alternate liquid(s) other than the  material specified in Part 1 and/or \nusage in excess of those specified in Part 1, provided that the owner/operator can demonstrate \nthat all of the following are satisfied:  \na. Total POC emissions (including fugitive component emissions) from S -6022  do not  exceed \n1,089  pounds per year in any consecutive twelve month period; and"
+      },
+      {
+        "heading": "b. The use of these materials does not increase toxic emissions above any risk screening",
+        "alias": "TOXICS",
+        "text": "b. The use of these materials does not increase toxic emissions above any risk screening\ntrigger level of Table 2 -5-1 in Regulation 2 -5. \n(Basis: Cumulative Increase; Toxics)  \n \n3. To determine compliance with the above parts, the owner/operator shall maintain the following \nrecords and provide all of the data necessary to evaluate compliance with the above parts, \nincluding the following information:  \na. Quantities of each type of liq uid stored at this source on a monthly basis.  \nb. If a material other than those specified in Part 1 is stored, POC/NPOC and toxic \ncomponent contents of each material used; and mass emission calculations to \ndemonstrate compliance with Part 2, on a monthly basis;  \nc. Monthly throughput and/or emission calculations shall be totaled for each consecutive \ntwelve -month period.  \nAll records shall be retained on -site for five years, from the date of entry, and made available \nfor inspection by District staff upon re quest. These recordkeeping requirements shall not \nreplace the recordkeeping requirements contained in any applicable District Regulations."
+      },
+      {
+        "heading": "(Basis: Cumulative Increase; Toxics)",
+        "alias": "TOXICS",
+        "text": "(Basis: Cumulative Increase; Toxics)\n4. Not more than 30 days after the start -up of S -6022, the owner/operator shall provide the District’s \nEngineering Division with a final count of fugitive components installed. The owner/operator has \nbeen permitted for an increase in the following fugitive co mponents in liquid service: Valves: 5; \nFlanges: 27; Connectors: 0; Pump seals: 1; PRD: 6.  \n(Basis: Cumulative Increase, offsets, toxics risk screen)  \n  \n5. If there is an increase in the total fugitive component emissions, the plant’s cumulative emissions \nfor the project shall be adjusted to reflect the difference between emissions based on predicted \nversus actual component counts. The owner/operator shall provide to the District all additional \nrequired offsets at an offset ratio of 1.15:1 no later than 14 days after submittal of the final POC \nfugitive count. If the actual component count is less than the predicted, the total will be adjusted \naccordingly and all emission offsets applied by the owner/operator in excess of the actual total \nfugitive emissions will b e credited back to the owner/operator.  \n(Basis: offsets)  \n \n6. The owner/operator shall install valves, in light hydrocarbon service, that are of District approved"
+      },
+      {
+        "heading": "BACT compliant technology (bellows valves, diaphragm valves, live loaded valves, or the",
+        "alias": "BACT",
+        "text": "BACT compliant technology (bellows valves, diaphragm valves, live loaded valves, or the\nPermit Evaluation and Statement of Basis  Site No: A0010, Chevron Products Company  \nApplication No:  27756  841 Chevron Way, Richmond, CA  94802  \n \n281 \n equivalen t) such that fugitive organic emissions shall not exceed 100 ppm."
+      },
+      {
+        "heading": "(Basis: Regulation 8 -18, toxics risk screen)",
+        "alias": "TOXICS",
+        "text": "(Basis: Regulation 8 -18, toxics risk screen)\n7. The owner/operator shall install flanges, in light hydrocarbon service, that are of District approved \nBACT compliant technology (graphitic gas kets or the equivalent) such that fugitive organic \nemissions shall not exceed 100 ppm.  \n(Basis: Regulation 8 -18, toxics risk screen)  \n \n8. The owner/operator shall install pump seals, in light hydrocarbon service, that are of District \napproved BACT compliant te chnology (double mechanical seals with barrier fluid or the \nequivalent) such that fugitive organic emissions shall not exceed 500 ppm."
+      },
+      {
+        "heading": "(Basis: Regulation 8 -18, toxics risk screen)",
+        "alias": "TOXICS",
+        "text": "(Basis: Regulation 8 -18, toxics risk screen)\n9. The owner/operator shall ensure pressure relief valve s installed on S -6022  and the exempt 217 \ngallon NALCO PORTA -FEED® Junior  transfer tote S -6023 compl y with and meet applicable \nrequirements of Regulation 8, Rule 5, Rule 18, Rule 28.  \n(Basis: Regulation 8 -5, Regulation 2 -1-403)  \n \n10. In accordance with the provisions of Regulation 8-18, the owner/operator shall integrate all new \nfugitive equipment in organic service installed as part of S -6022 and S -6023  into the facility \nfugitive equipment monitoring and repair program.  \n(Basis: Regulation 8 -18)"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\non  \n \nIssue Chevron an A uthority to Construct for the following:  \n \nS-6022 : Refillable tote  (active) connected to an injection skid  \n              Make and Model: NALCO PORTA -FEED® Senior  \n              Tote Location: #4 Crude Unit (S -4236) overhead accumulator process line  \n              Area Business Unit: Distillation & Reforming (D&R)  \n              Material stored: Corrosion Inhibitor; TVP < 0.33 psia (100 °F)  \n              Nominal volume: 400 gallon s; normal fill volume: 385 gallons  \n                                        Throughput: 1,825 gallons/year  \n \nIssue Chevron a Letter of Exemption for the following:  \n \nS-6023: Transfer tote (standby) with transfer line to S -6022  \n              Make and Model: NALCO PORTA -FEED® Junior   \n              Tote Location: #4 Crude Unit (S -4236) overhead accumulator process line  \n              Area Business Unit: Distillation & Reforming (D&R)  \n              Material stored: Corrosion Inhibitor; TVP < 0.33 psia (100 °F)  \n              Nominal volume: 217  gallon s; normal fill volume: 200 gallons  \n                                        Throughput: 1,825 gallons/year  \n \n \n \n \n_____________  \nK. R. Bhagavan"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nORT  \nPlant 10: Chevron Products Co mpany  \nApplication 2 8535: Corrosion Inhibitor Tote"
+      }
+    ]
+  }
+}

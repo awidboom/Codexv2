@@ -1,0 +1,262 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 5
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "and Other  18.584  0.01100  2.90 0.06 Yes\nEthylbenzene  Both\nCarcinogen\nand Other  21.042  0.00672  33.00  n/a No\nHexane  TAC - Other  59.220  0.04031  270000.00  n/a No\nNaphthalene  TAC - Other  2.578  0.00065  2.40 n/a Yes"
+      ]
+    },
+    "application_number_detected": "647125",
+    "application_number_from_filename": "647125",
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2022/647125/fid111724_nsr_647125_eval_031722-pdf.pdf?rev=6db5d7afc2b844f2b3d3d0d75c948925&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2022/031722-647125/arco-ampm"
+  },
+  "application_number": "647125",
+  "plant": {
+    "name": "ARCO AM/PM",
+    "plant_id": null,
+    "address": "San Jose, CA 95127"
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Gasoline Dispensing Facility"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nOUND  \n \nThe applicant has requested to modify the Permit to Operate for the following equipment:  \n \nS-1 Gasoline Dispensing Facility  \n \nThe facility configurations are described below:  \n \nCurrent Configuration  Configuration after Modification  \n3 – gasoline USTs 1 - 12,000 gallon  and 1-\n12,000 Split tank  (2 – 6,000 gallon)  No change  \nPhase I OPW EVR (VR -102) No change  \nPhase II Balance EVR with Veeder Root \nVapor Polisher  (VR-203) Phase II Balance EVR with Veeder Root \nVapor Polisher  and Veeder -Root ISD (VR-\n204) \n8 triple product gasoline nozzles  No change  \n600,000  gallons per year throughput limit  6.4 million  gallons per year throughput limit  \n \nThis project involves removing and replacing the dispensers and associated piping, relocate existing \nvent/sump stack and adding Veeder -Root ISD to  Phase II Vapor Recovery System per VR -204. The facility  \nis requesting a  throughput  increase  from 600,000 gallons of gasoline per y ear to 6.4 million  gallons of \ngasoline per year .  \n \nThis application is being processed as a modification as defined in Regulation 2 -1-234."
+  },
+  "emission_calculations": {
+    "text": "EMISSION CALCULATIONS\nIONS  \n \nTable 1 summarizes annual and daily permitted emissions.  \n \n \n \n \n \nTable 1. Annual and Daily Emissions  \n \n Criteria \nPollutant  Emissions Factors \n(lb/thousand \ngallon)  Annual Average \nEmissions  \n(lb/day)  Annual \nEmissions  \n(lb/year)  Annual \nEmissions  \n(ton/year)  \nPOC  0.516  9.04 3301.25  1.65 \n \nBasis:  \n• Annual throughput of Unleaded Gasoline: 6.4 million gallons per year  \n• Operation schedule:  24 hr/day (max), 24 hr/day (typical), 7 day/week, 52 week/yr  \n• Phase I EVR for UST  \n• Phase II EVR for UST  \n• POC is Precursor Organic Compound.  \n• Emissions of POC  include emissions from loading, breathing, refueling and spillage  \n• Emission factors are taken from the California Air Resources Board’s “Revised Emission Factors \nfor Gasoline Marketing Operations at California Gasoline Dispensing Facilities” (12/23/13)."
+  },
+  "cumulative_increase": {
+    "text": "FACILITY  CUMULATIVE INCREASE\nEASE  \n \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result from this \napplication.  \n \nTable 2. Facility  Cumulative Emissions Increase, Post 4/5/91  \nCumulative \nIncrease  Existing Emissions (ton/yr)  Application Emissions  \n(tons/yr)  Total Emissions  \n(tons/yr)  \nPOC  0.25 1.40 1.65"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSION CALCULATIONS\nIONS  \n \nTable 1 summarizes annual and daily permitted emissions.  \n \n \n \n \n \nTable 1. Annual and Daily Emissions  \n \n Criteria \nPollutant  Emissions Factors \n(lb/thousand \ngallon)  Annual Average \nEmissions  \n(lb/day)  Annual \nEmissions  \n(lb/year)  Annual \nEmissions  \n(ton/year)  \nPOC  0.516  9.04 3301.25  1.65 \n \nBasis:  \n• Annual throughput of Unleaded Gasoline: 6.4 million gallons per year  \n• Operation schedule:  24 hr/day (max), 24 hr/day (typical), 7 day/week, 52 week/yr  \n• Phase I EVR for UST  \n• Phase II EVR for UST  \n• POC is Precursor Organic Compound.  \n• Emissions of POC  include emissions from loading, breathing, refueling and spillage  \n• Emission factors are taken from the California Air Resources Board’s “Revised Emission Factors \nfor Gasoline Marketing Operations at California Gasoline Dispensing Facilities” (12/23/13).",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "TOXIC EMISSIONS AND HEALTH RISK ASSESSMENT (HRA)\nA)   \n \nA Health Risk Assessment (HRA) is required when the emissions of toxic air contaminants (TACs) are at \nor exceed the trigger levels outlined in Regulation 2, Rule 5, Table 2 -5-1.  An HRA is required, based on \nthe toxic emissions for th is source, summarized in Table 3. \n \nTable 3.  Toxic Emissions  \nTACs  Category  Emissions  \n(Chronic)  \n(lb/yr) Emissions  \n(Maximum)  \n(lb/hr)  Reg 2 -5 \nChronic \nTrigger \n(lb/yr)  Reg 2 -5 \nAcute \nTrigger \n(lb/hr)  HRA \nRequired  \nBenzene  Both \nCarcinogen \nand Other  18.584  0.01100  2.90 0.06 Yes \nEthylbenzene  Both \nCarcinogen \nand Other  21.042  0.00672  33.00  n/a No \nHexane  TAC - Other  59.220  0.04031  270000.00  n/a No \nNaphthalene  TAC - Other  2.578  0.00065  2.40 n/a Yes \n \n Toluene  TAC - Other  104.662  0.04173  12000.00  82.00  No \nXylene  TAC - Other  106.867  0.03234  27000.00  49.00  No \n \nBasis:  \n• Emission factors are taken from the California Air Resources Board’s “Revised Emission Factors \nfor Gasoline Marketing Operations at California Gasoline Dispensing Facilities” (12/23/13).  \n• Composition Data is from ARB Organic Gas Speciation Profiles for E10 Gasoline Fuels (Liquid \nand Headspace  for both Summer and Winter blends), revised 2013 and 2015• Hourly e missions are calculated in accordance with BAAQMD’s Air Toxics NSR Program HRA\nGuidelines for GDFs, dated December 2016.  \n \nHealth Risk estimates were calculated in accordance with BAAQMD’s A ir Toxics NSR Program HRA \nGuidelines for Gasoline Dispensing Facilities, dated December 2016.  The assessment was performed for \nthis facility using site specific land use data and the report is attached to this application. Results are \nsummarized in Table 4. \n \nTable 4. Maximum Project Risk  \nMaximally Exposed \nReceptor  Cancer Risk  Chronic Non -Cancer  Hazard \nIndex  \nResident  7.2 chances in a million  0.041 \nWorker  1.6 chances in a million  0.018Toxic Air Contaminants, Low Emission Levels Exemption, Regulation 2 -5-110\nThis project is not subject to Regulation 2, Rule 5 because toxic air contaminant emissions are below t he \nacute and chronic trigger levels listed in Table 2 -5-1. \n \nBest Available Control Technology for Toxics (TBACT), Regulation 2 -5-301 \nThe expected increased health risk from this project will exceed 1 per million, thus TBACT requirement is \ntriggered.  TBACT  for GDFs requires the use of CARB certified Phase I and Phase II vapor recovery \nequipment.  \n \nProject Risk Requirement, Regulation 2 -5-302 \nHRA results show that the increased cancer risk does not exceed 10 in one million, the chronic and acute \nhazard indexe s do not exceed 1, and therefore the project complies with the project risk requirement.Airborne Toxic Control Measure for Benzene for Retail Service Stations\nATCM, 5/13/1988, Section 93101, Title 17, CA Code of Regulations.   \n \nNational Emissions Standards for Haza rdous Air Pollutants (NESHAP)  \n40 CFR 63, Subpart CCCCCC (Gasoline Dispensing Facilities)"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT), Regulation 2 -2-301 \nBecause this GDF will emit less than 10 pounds of POC per day, the facility is not required to install BACT.  \n \n \n \n  \nOffsets, Regulation 2 -2-302  \nBecause the total facility potential to emit will be less t han 10 tons of POC per year, the facility is not \nrequired to provide offsets.  \n \nToxic Air Contaminants, Low Emission Levels Exemption, Regulation 2 -5-110 \nThis project is not subject to Regulation 2, Rule 5 because toxic air contaminant emissions are below t he \nacute and chronic trigger levels listed in Table 2 -5-1. \n \nBest Available Control Technology for Toxics (TBACT), Regulation 2 -5-301 \nThe expected increased health risk from this project will exceed 1 per million, thus TBACT requirement is \ntriggered.  TBACT  for GDFs requires the use of CARB certified Phase I and Phase II vapor recovery \nequipment.  \n \nProject Risk Requirement, Regulation 2 -5-302 \nHRA results show that the increased cancer risk does not exceed 10 in one million, the chronic and acute \nhazard indexe s do not exceed 1, and therefore the project complies with the project risk requirement.  \n \nDistrict Rules (Limits to emissions of pollutants or performance standards)  \nRegulation 8 -7 (Organic Compounds – Gasoline Dispensing Facilities)  \nSection 8 -7-301 – Phase I Requirements  \nSection 8 -7-302 – Phase II Requirements  \nSection 8 -7-304 – Certification Requirements  \n \nCalifornia Air Resources Board (CARB) Vapor Recovery Certification  \nPhase I and Phase II Vapor Recovery System Executive Orders VR-102 and VR-204. \n \nAirborne Toxic Control Measure for Benzene for Retail Service Stations  \nATCM, 5/13/1988, Section 93101, Title 17, CA Code of Regulations.   \n \nNational Emissions Standards for Haza rdous Air Pollutants (NESHAP)  \n40 CFR 63, Subpart CCCCCC (Gasoline Dispensing Facilities)   \n \nCONDITIONS"
+  },
+  "offsets": {
+    "narrative": "Offsets, Regulation 2 -2-302  \nBecause the total facility potential to emit will be less t han 10 tons of POC per year, the facility is not \nrequired to provide offsets.  \n \nToxic Air Contaminants, Low Emission Levels Exemption, Regulation 2 -5-110 \nThis project is not subject to Regulation 2, Rule 5 because toxic air contaminant emissions are below t he \nacute and chronic trigger levels listed in Table 2 -5-1. \n \nBest Available Control Technology for Toxics (TBACT), Regulation 2 -5-301 \nThe expected increased health risk from this project will exceed 1 per million, thus TBACT requirement is \ntriggered.  TBACT  for GDFs requires the use of CARB certified Phase I and Phase II vapor recovery \nequipment.  \n \nProject Risk Requirement, Regulation 2 -5-302 \nHRA results show that the increased cancer risk does not exceed 10 in one million, the chronic and acute \nhazard indexe s do not exceed 1, and therefore the project complies with the project risk requirement.  \n \nDistrict Rules (Limits to emissions of pollutants or performance standards)  \nRegulation 8 -7 (Organic Compounds – Gasoline Dispensing Facilities)  \nSection 8 -7-301 – Phase I Requirements  \nSection 8 -7-302 – Phase II Requirements  \nSection 8 -7-304 – Certification Requirements  \n \nCalifornia Air Resources Board (CARB) Vapor Recovery Certification  \nPhase I and Phase II Vapor Recovery System Executive Orders VR-102 and VR-204. \n \nAirborne Toxic Control Measure for Benzene for Retail Service Stations  \nATCM, 5/13/1988, Section 93101, Title 17, CA Code of Regulations.   \n \nNational Emissions Standards for Haza rdous Air Pollutants (NESHAP)  \n40 CFR 63, Subpart CCCCCC (Gasoline Dispensing Facilities)   \n \nCONDITIONS",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "CO",
+          2.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA), Regulation 2 -1-311  \nThis permit application is not subject to CEQA because the evaluation is a ministerial action cond ucted \nusing the fixed standards and objective measurements outlined in the Permit Handbook Chapter 3.2.   \nThe Procedures for Ministerial Evaluation (Section 2 -1-427) and Criteria for Approval of Ministerial \nPermit Applications (Section 2 -1-428) have been co mplied with in the determination that this application \nis exempt from CEQA."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nCE  \n \nThe owner/operator is expected to comply with all applicable requirements. Key requirements are listed \nbelow:  \n \nCalifornia Environmental Quality Act (CEQA), Regulation 2 -1-311  \nThis permit application is not subject to CEQA because the evaluation is a ministerial action cond ucted \nusing the fixed standards and objective measurements outlined in the Permit Handbook Chapter 3.2.   \nThe Procedures for Ministerial Evaluation (Section 2 -1-427) and Criteria for Approval of Ministerial \nPermit Applications (Section 2 -1-428) have been co mplied with in the determination that this application \nis exempt from CEQA.District Rules (Limits to emissions of pollutants or performance standards)\nRegulation 8 -7 (Organic Compounds – Gasoline Dispensing Facilities)  \nSection 8 -7-301 – Phase I Requirements  \nSection 8 -7-302 – Phase II Requirements  \nSection 8 -7-304 – Certification Requirements  \n \nCalifornia Air Resources Board (CARB) Vapor Recovery Certification  \nPhase I and Phase II Vapor Recovery System Executive Orders VR-102 and VR-204."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Public Notification, Regulation 2 -1-412\n12 \nThe facility is located within 1000 feet of the outer boundary of  Thomas More  School  located at  1565 South \nWhite Road San Jose , CA 9 5127  and therefore  is subject to the public notification requirements  \n \nA public notice will be  sent to all addresses within 1,000 feet of the proposed source and to the parents or \nguardians of students enrolled at the school, and the following schools within ¼ mile of the source:  Terra \nMarin School  and Edna Maguire Elementary School . \n \nBest Available Control Technology (BACT), Regulation 2 -2-301 \nBecause this GDF will emit less than 10 pounds of POC per day, the facility is not required to install BACT.  \n \n \n \n  \nOffsets, Regulation 2 -2-302  \nBecause the total facility potential to emit will be less t han 10 tons of POC per year, the facility is not \nrequired to provide offsets.Regulation 2 -1-412.  After the comments are received and reviewed, the District will make a final\ndetermination on the permit.   \n \nI recommend that the District initiate a public notice and consider any comments received prior to taking \nany final action on issuance of an Authority to Construct/Permit to Operate to change permit conditions for \nthe following source:  \n \nS-1 Gasoline Dispensing Facility  \n \n \nPrepared b y: Vanessa Hodgson , Air Quality Technician  Date: XX/XX/XXXX"
+  },
+  "conditions": {
+    "text": "CONDITIONS\nNS  \n \nAuthority to Construct Conditions  \nThis GDF is subject to the following Construction Conditions:  \n \n1. The owner/operator shall install, operate, and maintain the Phase II Balance EVR with Veeder -\nRoot Vapor Polisher and Veeder -Root ISD in accordance with CARB Executive Order VR -204 \nand the corresponding System Installation, Operation and Maintenance Manual.  \n \nStart -up Conditions  \nThis GDF is subject to the following Start -up Conditions:  \n \n1. The owner/operator shall ensure the performance tests are successfully conducted at least ten (10) \ndays, but no more than thirty (30) days after start -up.  To comply with this condition, all tests shall \nbe conducted after back -filling, paving, and installa tion of all required Phase I and Phase II \ncomponents.  \n \n  \n2. The owner/operator shall ensure the following vapor recovery system tests are successfully \nconducted in accordance with the latest version of CARB E.O. VR -102 and VR -204: \n \na. Static Pressure Performance Test using CARB Test Procedure TP -201.3.   \nb. Dynamic Back Pressure Test using CARB Test Procedure TP -201.4.  \nc. One of the following tests is applicable. The measured leak rate for each component \nshall be within the limits set in the applicable CARB Executive O rder:  \no Stations equipped with drop tube overfill prevention devices (\"flapper \nvalves\"): a Drop Tube Overfill Prevention Device and Spill Container Drain \nValve Leak Test in accordance with CARB Test Procedure TP -201.1D and the \napplicable CARB Executive Order . \no All other stations: a Drop Tube/Drain Valve Assembly Leak Test in \naccordance with CARB Test Procedure TP -201.1C and the applicable CARB \nExecutive Order.  \nd. Liquid Removal Test.  \ne. Vapor Pressure Sensor Verification Test.  \nf. Veeder -Root Vapor Polisher Operability Test.  \ng. Veeder -Root Vapor Polisher Emissions Test.  \nh. Nozzle Bag Test on all nozzles.  \ni. ISD Operability Test applicable to the manufacturer.Operating Conditions\nions  \nThis GDF is subject to the following Operating Conditions:  \nCondition Number  Condition Type  \n100013  Operational, Annual Throughput Limit  \n100015  Vapor Recovery System, Phase I  \n100016  Vapor Recovery System, Phase II  \n100036  Source Testing Notification  \n100037  Source Testing, Phase I  \n1000 43 Source Testing, Phase II  \n100051  Record Keeping"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator shall install, operate, and maintain the Phase II Balance EVR with Veeder -\nRoot Vapor Polisher and Veeder -Root ISD in accordance with CARB Executive Order VR -204 \nand the corresponding System Installation, Operation and Maintenance Manual.  \n \nStart -up Conditions  \nThis GDF is subject to the following Start -up Conditions:",
+        "basis": []
+      },
+      {
+        "num": 1,
+        "text": "The owner/operator shall ensure the performance tests are successfully conducted at least ten (10) \ndays, but no more than thirty (30) days after start -up.  To comply with this condition, all tests shall \nbe conducted after back -filling, paving, and installa tion of all required Phase I and Phase II \ncomponents.",
+        "basis": []
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall ensure the following vapor recovery system tests are successfully \nconducted in accordance with the latest version of CARB E.O. VR -102 and VR -204: \n \na. Static Pressure Performance Test using CARB Test Procedure TP -201.3.   \nb. Dynamic Back Pressure Test using CARB Test Procedure TP -201.4.  \nc. One of the following tests is applicable. The measured leak rate for each component \nshall be within the limits set in the applicable CARB Executive O rder:  \no Stations equipped with drop tube overfill prevention devices (\"flapper \nvalves\"): a Drop Tube Overfill Prevention Device and Spill Container Drain \nValve Leak Test in accordance with CARB Test Procedure TP -201.1D and the \napplicable CARB Executive Order . \no All other stations: a Drop Tube/Drain Valve Assembly Leak Test in \naccordance with CARB Test Procedure TP -201.1C and the applicable CARB \nExecutive Order.  \nd. Liquid Removal Test.  \ne. Vapor Pressure Sensor Verification Test.  \nf. Veeder -Root Vapor Polisher Operability Test.  \ng. Veeder -Root Vapor Polisher Emissions Test.  \nh. Nozzle Bag Test on all nozzles.  \ni. ISD Operability Test applicable to the manufacturer.Operating Conditions\nions  \nThis GDF is subject to the following Operating Conditions:  \nCondition Number  Condition Type  \n100013  Operational, Annual Throughput Limit  \n100015  Vapor Recovery System, Phase I  \n100016  Vapor Recovery System, Phase II  \n100036  Source Testing Notification  \n100037  Source Testing, Phase I  \n1000 43 Source Testing, Phase II  \n100051  Record Keeping",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nN  \nThe District has reviewed the material contained in the permit application for the proposed project and has \nmade a preliminary determination that the project is expected to comply with all applicable requirements \nof District, state and feder al air quality -related regulations.  The preliminary recommendation is to issue an \n \n Authority to Construct /Permit to Operate  for the equipment listed below.  However, the proposed source \nwill be located within 1000 feet of a school which triggers the public  notification requirements of District"
+  },
+  "raw_sections": {
+    "preamble": "",
+    "blocks": [
+      {
+        "heading": "DRAFT ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "DRAFT ENGINEERING EVALUATION\nION  \n \n \nFacility ID No. 111724"
+      },
+      {
+        "heading": "ARCO AM/PM",
+        "alias": null,
+        "text": "ARCO AM/PM\n3010 Mount Vista Drive, San Jose, CA 95127  \nApplication No. 647125"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nOUND  \n \nThe applicant has requested to modify the Permit to Operate for the following equipment:  \n \nS-1 Gasoline Dispensing Facility  \n \nThe facility configurations are described below:  \n \nCurrent Configuration  Configuration after Modification  \n3 – gasoline USTs 1 - 12,000 gallon  and 1-\n12,000 Split tank  (2 – 6,000 gallon)  No change  \nPhase I OPW EVR (VR -102) No change  \nPhase II Balance EVR with Veeder Root \nVapor Polisher  (VR-203) Phase II Balance EVR with Veeder Root \nVapor Polisher  and Veeder -Root ISD (VR-\n204) \n8 triple product gasoline nozzles  No change  \n600,000  gallons per year throughput limit  6.4 million  gallons per year throughput limit  \n \nThis project involves removing and replacing the dispensers and associated piping, relocate existing \nvent/sump stack and adding Veeder -Root ISD to  Phase II Vapor Recovery System per VR -204. The facility  \nis requesting a  throughput  increase  from 600,000 gallons of gasoline per y ear to 6.4 million  gallons of \ngasoline per year .  \n \nThis application is being processed as a modification as defined in Regulation 2 -1-234."
+      },
+      {
+        "heading": "EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSION CALCULATIONS\nIONS  \n \nTable 1 summarizes annual and daily permitted emissions.  \n \n \n \n \n \nTable 1. Annual and Daily Emissions  \n \n Criteria \nPollutant  Emissions Factors \n(lb/thousand \ngallon)  Annual Average \nEmissions  \n(lb/day)  Annual \nEmissions  \n(lb/year)  Annual \nEmissions  \n(ton/year)  \nPOC  0.516  9.04 3301.25  1.65 \n \nBasis:  \n• Annual throughput of Unleaded Gasoline: 6.4 million gallons per year  \n• Operation schedule:  24 hr/day (max), 24 hr/day (typical), 7 day/week, 52 week/yr  \n• Phase I EVR for UST  \n• Phase II EVR for UST  \n• POC is Precursor Organic Compound.  \n• Emissions of POC  include emissions from loading, breathing, refueling and spillage  \n• Emission factors are taken from the California Air Resources Board’s “Revised Emission Factors \nfor Gasoline Marketing Operations at California Gasoline Dispensing Facilities” (12/23/13)."
+      },
+      {
+        "heading": "FACILITY  CUMULATIVE INCREASE",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "FACILITY  CUMULATIVE INCREASE\nEASE  \n \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result from this \napplication.  \n \nTable 2. Facility  Cumulative Emissions Increase, Post 4/5/91  \nCumulative \nIncrease  Existing Emissions (ton/yr)  Application Emissions  \n(tons/yr)  Total Emissions  \n(tons/yr)  \nPOC  0.25 1.40 1.65"
+      },
+      {
+        "heading": "TOXIC EMISSIONS AND HEALTH RISK ASSESSMENT (HRA)",
+        "alias": "TOXICS",
+        "text": "TOXIC EMISSIONS AND HEALTH RISK ASSESSMENT (HRA)\nA)   \n \nA Health Risk Assessment (HRA) is required when the emissions of toxic air contaminants (TACs) are at \nor exceed the trigger levels outlined in Regulation 2, Rule 5, Table 2 -5-1.  An HRA is required, based on \nthe toxic emissions for th is source, summarized in Table 3. \n \nTable 3.  Toxic Emissions  \nTACs  Category  Emissions  \n(Chronic)  \n(lb/yr) Emissions  \n(Maximum)  \n(lb/hr)  Reg 2 -5 \nChronic \nTrigger \n(lb/yr)  Reg 2 -5 \nAcute \nTrigger \n(lb/hr)  HRA \nRequired  \nBenzene  Both \nCarcinogen \nand Other  18.584  0.01100  2.90 0.06 Yes \nEthylbenzene  Both \nCarcinogen \nand Other  21.042  0.00672  33.00  n/a No \nHexane  TAC - Other  59.220  0.04031  270000.00  n/a No \nNaphthalene  TAC - Other  2.578  0.00065  2.40 n/a Yes \n \n Toluene  TAC - Other  104.662  0.04173  12000.00  82.00  No \nXylene  TAC - Other  106.867  0.03234  27000.00  49.00  No \n \nBasis:  \n• Emission factors are taken from the California Air Resources Board’s “Revised Emission Factors \nfor Gasoline Marketing Operations at California Gasoline Dispensing Facilities” (12/23/13).  \n• Composition Data is from ARB Organic Gas Speciation Profiles for E10 Gasoline Fuels (Liquid \nand Headspace  for both Summer and Winter blends), revised 2013 and 2015"
+      },
+      {
+        "heading": "• Hourly e missions are calculated in accordance with BAAQMD’s Air Toxics NSR Program HRA",
+        "alias": "TOXICS",
+        "text": "• Hourly e missions are calculated in accordance with BAAQMD’s Air Toxics NSR Program HRA\nGuidelines for GDFs, dated December 2016.  \n \nHealth Risk estimates were calculated in accordance with BAAQMD’s A ir Toxics NSR Program HRA \nGuidelines for Gasoline Dispensing Facilities, dated December 2016.  The assessment was performed for \nthis facility using site specific land use data and the report is attached to this application. Results are \nsummarized in Table 4. \n \nTable 4. Maximum Project Risk  \nMaximally Exposed \nReceptor  Cancer Risk  Chronic Non -Cancer  Hazard \nIndex  \nResident  7.2 chances in a million  0.041 \nWorker  1.6 chances in a million  0.018"
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE  \n \nThe owner/operator is expected to comply with all applicable requirements. Key requirements are listed \nbelow:  \n \nCalifornia Environmental Quality Act (CEQA), Regulation 2 -1-311  \nThis permit application is not subject to CEQA because the evaluation is a ministerial action cond ucted \nusing the fixed standards and objective measurements outlined in the Permit Handbook Chapter 3.2.   \nThe Procedures for Ministerial Evaluation (Section 2 -1-427) and Criteria for Approval of Ministerial \nPermit Applications (Section 2 -1-428) have been co mplied with in the determination that this application \nis exempt from CEQA."
+      },
+      {
+        "heading": "Public Notification, Regulation 2 -1-412",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Public Notification, Regulation 2 -1-412\n12 \nThe facility is located within 1000 feet of the outer boundary of  Thomas More  School  located at  1565 South \nWhite Road San Jose , CA 9 5127  and therefore  is subject to the public notification requirements  \n \nA public notice will be  sent to all addresses within 1,000 feet of the proposed source and to the parents or \nguardians of students enrolled at the school, and the following schools within ¼ mile of the source:  Terra \nMarin School  and Edna Maguire Elementary School . \n \nBest Available Control Technology (BACT), Regulation 2 -2-301 \nBecause this GDF will emit less than 10 pounds of POC per day, the facility is not required to install BACT.  \n \n \n \n  \nOffsets, Regulation 2 -2-302  \nBecause the total facility potential to emit will be less t han 10 tons of POC per year, the facility is not \nrequired to provide offsets."
+      },
+      {
+        "heading": "Toxic Air Contaminants, Low Emission Levels Exemption, Regulation 2 -5-110",
+        "alias": "TOXICS",
+        "text": "Toxic Air Contaminants, Low Emission Levels Exemption, Regulation 2 -5-110\nThis project is not subject to Regulation 2, Rule 5 because toxic air contaminant emissions are below t he \nacute and chronic trigger levels listed in Table 2 -5-1. \n \nBest Available Control Technology for Toxics (TBACT), Regulation 2 -5-301 \nThe expected increased health risk from this project will exceed 1 per million, thus TBACT requirement is \ntriggered.  TBACT  for GDFs requires the use of CARB certified Phase I and Phase II vapor recovery \nequipment.  \n \nProject Risk Requirement, Regulation 2 -5-302 \nHRA results show that the increased cancer risk does not exceed 10 in one million, the chronic and acute \nhazard indexe s do not exceed 1, and therefore the project complies with the project risk requirement."
+      },
+      {
+        "heading": "District Rules (Limits to emissions of pollutants or performance standards)",
+        "alias": "SOC",
+        "text": "District Rules (Limits to emissions of pollutants or performance standards)\nRegulation 8 -7 (Organic Compounds – Gasoline Dispensing Facilities)  \nSection 8 -7-301 – Phase I Requirements  \nSection 8 -7-302 – Phase II Requirements  \nSection 8 -7-304 – Certification Requirements  \n \nCalifornia Air Resources Board (CARB) Vapor Recovery Certification  \nPhase I and Phase II Vapor Recovery System Executive Orders VR-102 and VR-204."
+      },
+      {
+        "heading": "Airborne Toxic Control Measure for Benzene for Retail Service Stations",
+        "alias": "TOXICS",
+        "text": "Airborne Toxic Control Measure for Benzene for Retail Service Stations\nATCM, 5/13/1988, Section 93101, Title 17, CA Code of Regulations.   \n \nNational Emissions Standards for Haza rdous Air Pollutants (NESHAP)  \n40 CFR 63, Subpart CCCCCC (Gasoline Dispensing Facilities)"
+      },
+      {
+        "heading": "CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "CONDITIONS\nNS  \n \nAuthority to Construct Conditions  \nThis GDF is subject to the following Construction Conditions:  \n \n1. The owner/operator shall install, operate, and maintain the Phase II Balance EVR with Veeder -\nRoot Vapor Polisher and Veeder -Root ISD in accordance with CARB Executive Order VR -204 \nand the corresponding System Installation, Operation and Maintenance Manual.  \n \nStart -up Conditions  \nThis GDF is subject to the following Start -up Conditions:  \n \n1. The owner/operator shall ensure the performance tests are successfully conducted at least ten (10) \ndays, but no more than thirty (30) days after start -up.  To comply with this condition, all tests shall \nbe conducted after back -filling, paving, and installa tion of all required Phase I and Phase II \ncomponents.  \n \n  \n2. The owner/operator shall ensure the following vapor recovery system tests are successfully \nconducted in accordance with the latest version of CARB E.O. VR -102 and VR -204: \n \na. Static Pressure Performance Test using CARB Test Procedure TP -201.3.   \nb. Dynamic Back Pressure Test using CARB Test Procedure TP -201.4.  \nc. One of the following tests is applicable. The measured leak rate for each component \nshall be within the limits set in the applicable CARB Executive O rder:  \no Stations equipped with drop tube overfill prevention devices (\"flapper \nvalves\"): a Drop Tube Overfill Prevention Device and Spill Container Drain \nValve Leak Test in accordance with CARB Test Procedure TP -201.1D and the \napplicable CARB Executive Order . \no All other stations: a Drop Tube/Drain Valve Assembly Leak Test in \naccordance with CARB Test Procedure TP -201.1C and the applicable CARB \nExecutive Order.  \nd. Liquid Removal Test.  \ne. Vapor Pressure Sensor Verification Test.  \nf. Veeder -Root Vapor Polisher Operability Test.  \ng. Veeder -Root Vapor Polisher Emissions Test.  \nh. Nozzle Bag Test on all nozzles.  \ni. ISD Operability Test applicable to the manufacturer."
+      },
+      {
+        "heading": "Operating Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Operating Conditions\nions  \nThis GDF is subject to the following Operating Conditions:  \nCondition Number  Condition Type  \n100013  Operational, Annual Throughput Limit  \n100015  Vapor Recovery System, Phase I  \n100016  Vapor Recovery System, Phase II  \n100036  Source Testing Notification  \n100037  Source Testing, Phase I  \n1000 43 Source Testing, Phase II  \n100051  Record Keeping"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nN  \nThe District has reviewed the material contained in the permit application for the proposed project and has \nmade a preliminary determination that the project is expected to comply with all applicable requirements \nof District, state and feder al air quality -related regulations.  The preliminary recommendation is to issue an \n \n Authority to Construct /Permit to Operate  for the equipment listed below.  However, the proposed source \nwill be located within 1000 feet of a school which triggers the public  notification requirements of District"
+      },
+      {
+        "heading": "Regulation 2 -1-412.  After the comments are received and reviewed, the District will make a final",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Regulation 2 -1-412.  After the comments are received and reviewed, the District will make a final\ndetermination on the permit.   \n \nI recommend that the District initiate a public notice and consider any comments received prior to taking \nany final action on issuance of an Authority to Construct/Permit to Operate to change permit conditions for \nthe following source:  \n \nS-1 Gasoline Dispensing Facility  \n \n \nPrepared b y: Vanessa Hodgson , Air Quality Technician  Date: XX/XX/XXXX"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "DRAFT ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "DRAFT ENGINEERING EVALUATION\nION  \n \n \nFacility ID No. 111724"
+      },
+      {
+        "heading": "ARCO AM/PM",
+        "alias": null,
+        "text": "ARCO AM/PM\n3010 Mount Vista Drive, San Jose, CA 95127  \nApplication No. 647125"
+      }
+    ]
+  }
+}

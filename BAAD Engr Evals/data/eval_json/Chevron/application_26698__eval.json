@@ -1,0 +1,237 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\extracted_evaluations\\application_26698.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 3
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "26698",
+    "application_number_from_filename": "26698"
+  },
+  "application_number": "26698",
+  "plant": {
+    "name": "correct a typographical error in permit condition 8773 for the following source:",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": "Amendment to permit condition 8773 (typo correction)",
+  "equipment": [
+    {
+      "id": "S-4155",
+      "description": "Hot Oil Furnace (F -135)"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nND  \nChevron Products Company (Chevron) has submitted this permit application to \ncorrect a typographical error in permit condition 8773 for the following source:  \n \nS-4155  Hot Oil Furnace (F -135) \n   \nPart 1 of permit condition 8773 states:  \n \n“The NOx emitted fro m S-4155 shall not exceed 8.85 lb/hour (averaged over \nany rolling 3 -hour period) .  This NOx  emissions limit shall not apply to S -4155 \nduring the startup or shutdown period of S -4155.  For S -4155, startup periods \nshall last no more than 36 hours after the first burner is lit.  For S -4155, the \nshutdown period shall begin 12 hours before the last burner is extinguished.  \n(cum inc)  \nThe time of first burner lighting and last burner extinguishment shall be determined \nbased on the NOx CEM data and/or continuous h ourly fuel flow data of S -4155. \nThe first NOx reading recorded by the properly operating CEM after S -4155 is cold \nstarted from zero fuel flow, will be considered the point at which startup has begun.  \nThe time of last burner extinguishment (the end of the shutdown period) will be \nconsidered the time when the fuel flow to S -4155 is zero.  \nThe NOx mass rate shall be calculated as follows based on the concentration (ppm \nNOx, corrected to 3% O2, dry) as measured by the CEM and the firing rate \n(BTU/hr ) based on the fuel gas meter for S -4155:  \nlb NOx/hour = [ppm NOx](1 lb -mole/386 scf)(46 lb NO2/lb -mole NO2)( 0.01077  \ndscf flue gas/BTU)[million BTU/hour]”  \n \nThe scope of Application 26698 is to correct the (dscf flue gas/BTU) multiplier (from \n0.010 77 to 0.010 174) as discussed below. S -4155’s hourly firing rate is 209 MMBTU/hr \n(5,016 ÷ 24). The multiplier cited above is used in the equation provided in part 1 of \npermit condition 8773 to demonstrate compliance with the NOx emission rate of 8.85 \nlb/hour (ave raged over any rolling 3 -hour period).  \n \nIf for example, the NOx concentration corrected to 3% O 2 and firing rate for S -4155 \naveraged over any rolling 3 -hour period are 40 ppm and 180 MMBTU/hour, respectively \nthe NOx emission rates calculated using the exi sting (0.010 77) and revised (0.010 17) \nmultipliers would be 9.24 lb/hour (over the limit) and 8.73 lb/hour (below the limit), \nrespectively.  \n \nThe proposed change to permit condition 8773 is administrative (correction of a \ntypo error), and will not result in  a “net increase” in NOx emissions from S -4155.  \n                                                           \n4 0.01017 = [(8,710) x (20.9 – 0/20.9 – 3)] ÷ 1,000,000; Where, F d (natural gas) = 8,710 dscf/MMBTU  \n  \n27"
+  },
+  "emission_calculations": {
+    "text": "EMISSIONS CALCULATION\nION  \nThe proposed change to permit condition 8773 will not result in a “net increase” \nin NOx emissions from S -4155. Therefore, the cumulative increase in NOx \nemissions is zero."
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSIONS CALCULATION\nION  \nThe proposed change to permit condition 8773 will not result in a “net increase” \nin NOx emissions from S -4155. Therefore, the cumulative increase in NOx \nemissions is zero.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-4155": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": ""
+  },
+  "BACT": {
+    "text": "BACT & OFF SETS:\nThe proposed change to permit condition 8773 is administrative in nature and will \nnot require physical or operational changes to S -4155. Therefore, the cumulative \nincrease in emissions is zero, BACT is not triggered and offsets are not required."
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE:\nS-4155 is subject to and is expected to comply with Regulation 9, Rule 10 \n“Inorganic Gaseous Pollutants - Nitrogen Oxides and Carbon Monoxide from \nBoilers, Steam Generators and Process Heaters in Petroleum Refineries”. The \nDistrict’ s Compliance & Enforcement staff will verify the compliance of the \nabove source with Regulation 9 -10 during their routine inspections.  \n \nThe proposed change to permit condition 8773 is categorically exempt from \nCEQA per Regulation 2 -1-312.1. Chevron has sub mitted Appendix H \n“Environmental Information Form” in accordance with Regulation 2 -1-312.  \n \nThis project is over 1,000 feet from the nearest public school and is therefore not"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "subject to the public notification requirements of Regulation 2 -1-412."
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS:\nThe proposed changes to permit condition 8773 are as shown below:  \n \nFor S -4155, Plant 10:                                       \n \n     1.   The NOx emitted from S -4155 shall not exceed 8.85  \n          lb/hour (averaged over any rolling 3 -hour period).  \n          This NOx  emissions limit shall not apply to S -4155  \n          during the startup or shutdown period of S -4155.  For  \n          S-4155, startup periods shall last no more than 36  \n          hours after the first burner is lit.  For S -4155, the \n          shutdown period shall begin 12 hours before the last  \n          burner is extinguished. ( Basis: C cumulative  Iincrease )                      \n \n          The time of first burner lighting and last burner  \n          extinguishment shall be determin ed based on the NOx  \n          CEM data and/or continuous hourly fuel flow data of  \n          S-4155. The first NOx reading recorded by the properly  \n          operating CEM after S -4155 is cold started from zero  \n          fuel flow, will be considered the po int at which  \n          startup has begun.  The time of last burner  \n          extinguishment (the end of the shutdown period) will  \n          be considered the time when the fuel flow to S -4155 is  \n  \n28 \n           zero.                                                  \n \n          The NOx mass rate shall be calculated as follows based  \n          on the concentration (ppm NOx, corrected to 3% O2,  \n          dry) as measured by the CEM and the firing rate  \n         (BTU/hr) based on the fuel gas meter for S -4155:  \n          lb NOx/hour = [ppm NOx](1 lb -mole/386 scf)(46 lb  \n          NO2/lb -mole NO2)(0. 01077 01017 dscf flue gas/BTU)[million  \n          BTU/hour]                                              \n \n2.   The concentration of CO emitted from S -4155 shall not  \n          exceed 50 ppmv corrected to 3% O2, dry.  Compliance  \n          with this CO limit shall be based on the average of  \n          three 30 -minute test runs as specified in BAAQMD  \n          Source Test Procedure ST -6. (Basis: BACT)  \n                     \n \n     3.   S -4155 shall be equipped with a District -approved O2  \n          monitor and a District -approved continuous NOx  \n          monitor.  (Basis: Regulation 2 -1-403)                                               \n \n     4.   To confirm compliance with the NOx and CO limits in  \n          conditions #1 and #2, respectively, and to verify the  \n          accuracy of the NOx monitor required by condition #3,  \n          the owner/operator of S -4155 shall conduct a source  \n          test within 60 days of start -up after t he physical  \n          modification of the equipment.  The District Source  \n          Test Manager shall approve the source test procedures  \n          as well as the installation and location of testing  \n          ports, instrumentation, and platforms.  After the \n          above approval is received, the owner/operator shall  \n          notify the District Permit Services Division and the  \n          District Source Test Manager at least two weeks prior  \n          to performing any source test.  Source test results  \n          shall be submitted to the District Source Test Section  \n          and the Permit Services Division within 45 days of  \n          completing the test. ( Basis: C cumulative  Iincrease , BACT)                   \n \n     5.   The concentration of H2S in the fuel gas at S -4155  \n          shall not exceed 50 ppm averaged over any 24 -hour \n          period.  To confirm compliance with this condition,  \n          either S -4155 or the fuel gas mix drum supplying fuel  \n          gas to S -4155 shall be equipped with a continuous H2S  \n          monitor, and this information shall be made available  \n          for District inspection for a period of 24 months from  \n          the date on which a record is made. ( Basis: BACT)             \n  \n29 \n  \n     6.   Fuel usage at S -4155 shall not exceed 209 MMBtu/hr on  \n          an annual average basis.  To confirm compliance with  \n          this condition, records of fuel usage at S -4155 shall  \n          be recorded in a District -approved log, summarized on  \n          a monthly basis, and made available for District  \n          inspection for a period of 24 months from the date on  \n          which a record is made. ( Basis: BACT)"
+  },
+  "permit_conditions": {
+    "condition_number": 8773,
+    "items": [
+      {
+        "num": 1,
+        "text": "The NOx emitted from S -4155 shall not exceed 8.85  \n          lb/hour (averaged over any rolling 3 -hour period).  \n          This NOx  emissions limit shall not apply to S -4155  \n          during the startup or shutdown period of S -4155.  For  \n          S-4155, startup periods shall last no more than 36  \n          hours after the first burner is lit.  For S -4155, the \n          shutdown period shall begin 12 hours before the last  \n          burner is extinguished. (",
+        "basis": [
+          "C cumulative  Iincrease )                      \n \n          The time of first burner lighting and last burner  \n          extinguishment shall be determin ed based on the NOx  \n          CEM data and/or continuous hourly fuel flow data of  \n          S-4155. The first NOx reading recorded by the properly  \n          operating CEM after S -4155 is cold started from zero  \n          fuel flow",
+          "will be considered the po int at which  \n          startup has begun.  The time of last burner  \n          extinguishment (the end of the shutdown period) will  \n          be considered the time when the fuel flow to S -4155 is  \n  \n28 \n           zero.                                                  \n \n          The NOx mass rate shall be calculated as follows based  \n          on the concentration (ppm NOx",
+          "corrected to 3% O2",
+          "dry) as measured by the CEM and the firing rate  \n         (BTU/hr) based on the fuel gas meter for S -4155:  \n          lb NOx/hour = [ppm NOx](1 lb -mole/386 scf)(46 lb  \n          NO2/lb -mole NO2)(0. 01077 01017 dscf flue gas/BTU)[million  \n          BTU/hour]"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The concentration of CO emitted from S -4155 shall not  \n          exceed 50 ppmv corrected to 3% O2, dry.  Compliance  \n          with this CO limit shall be based on the average of  \n          three 30 -minute test runs as specified in BAAQMD  \n          Source Test Procedure ST -6. (",
+        "basis": [
+          "BACT)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "S -4155 shall be equipped with a District -approved O2  \n          monitor and a District -approved continuous NOx  \n          monitor.  (",
+        "basis": [
+          "Regulation 2 -1-403)"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "To confirm compliance with the NOx and CO limits in  \n          conditions #1 and #2, respectively, and to verify the  \n          accuracy of the NOx monitor required by condition #3,  \n          the owner/operator of S -4155 shall conduct a source  \n          test within 60 days of start -up after t he physical  \n          modification of the equipment.  The District Source  \n          Test Manager shall approve the source test procedures  \n          as well as the installation and location of testing  \n          ports, instrumentation, and platforms.  After the \n          above approval is received, the owner/operator shall  \n          notify the District Permit Services Division and the  \n          District Source Test Manager at least two weeks prior  \n          to performing any source test.  Source test results  \n          shall be submitted to the District Source Test Section  \n          and the Permit Services Division within 45 days of  \n          completing the test. (",
+        "basis": [
+          "C cumulative  Iincrease",
+          "BACT)"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "The concentration of H2S in the fuel gas at S -4155  \n          shall not exceed 50 ppm averaged over any 24 -hour \n          period.  To confirm compliance with this condition,  \n          either S -4155 or the fuel gas mix drum supplying fuel  \n          gas to S -4155 shall be equipped with a continuous H2S  \n          monitor, and this information shall be made available  \n          for District inspection for a period of 24 months from  \n          the date on which a record is made. (",
+        "basis": [
+          "BACT)             \n  \n29"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "Fuel usage at S -4155 shall not exceed 209 MMBtu/hr on  \n          an annual average basis.  To confirm compliance with  \n          this condition, records of fuel usage at S -4155 shall  \n          be recorded in a District -approved log, summarized on  \n          a monthly basis, and made available for District  \n          inspection for a period of 24 months from the date on  \n          which a record is made. (",
+        "basis": [
+          "BACT)"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION:\nModify permit condition 8773 as proposed and issue Chevron a Permi t to Operate \nfor the following source:  \n \nS-4155  Hot Oil Furnace (F -135) \n \n \n \n_____________  \nBhagavan R. Krishnaswamy"
+  },
+  "raw_sections": {
+    "preamble": "26",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nION  \nPlant 10: Chevron Products Company  \nApplication 26698: Amendment to permit condition 8773 (typo correction)"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND  \nChevron Products Company (Chevron) has submitted this permit application to \ncorrect a typographical error in permit condition 8773 for the following source:  \n \nS-4155  Hot Oil Furnace (F -135) \n   \nPart 1 of permit condition 8773 states:  \n \n“The NOx emitted fro m S-4155 shall not exceed 8.85 lb/hour (averaged over \nany rolling 3 -hour period) .  This NOx  emissions limit shall not apply to S -4155 \nduring the startup or shutdown period of S -4155.  For S -4155, startup periods \nshall last no more than 36 hours after the first burner is lit.  For S -4155, the \nshutdown period shall begin 12 hours before the last burner is extinguished.  \n(cum inc)  \nThe time of first burner lighting and last burner extinguishment shall be determined \nbased on the NOx CEM data and/or continuous h ourly fuel flow data of S -4155. \nThe first NOx reading recorded by the properly operating CEM after S -4155 is cold \nstarted from zero fuel flow, will be considered the point at which startup has begun.  \nThe time of last burner extinguishment (the end of the shutdown period) will be \nconsidered the time when the fuel flow to S -4155 is zero.  \nThe NOx mass rate shall be calculated as follows based on the concentration (ppm \nNOx, corrected to 3% O2, dry) as measured by the CEM and the firing rate \n(BTU/hr ) based on the fuel gas meter for S -4155:  \nlb NOx/hour = [ppm NOx](1 lb -mole/386 scf)(46 lb NO2/lb -mole NO2)( 0.01077  \ndscf flue gas/BTU)[million BTU/hour]”  \n \nThe scope of Application 26698 is to correct the (dscf flue gas/BTU) multiplier (from \n0.010 77 to 0.010 174) as discussed below. S -4155’s hourly firing rate is 209 MMBTU/hr \n(5,016 ÷ 24). The multiplier cited above is used in the equation provided in part 1 of \npermit condition 8773 to demonstrate compliance with the NOx emission rate of 8.85 \nlb/hour (ave raged over any rolling 3 -hour period).  \n \nIf for example, the NOx concentration corrected to 3% O 2 and firing rate for S -4155 \naveraged over any rolling 3 -hour period are 40 ppm and 180 MMBTU/hour, respectively \nthe NOx emission rates calculated using the exi sting (0.010 77) and revised (0.010 17) \nmultipliers would be 9.24 lb/hour (over the limit) and 8.73 lb/hour (below the limit), \nrespectively.  \n \nThe proposed change to permit condition 8773 is administrative (correction of a \ntypo error), and will not result in  a “net increase” in NOx emissions from S -4155.  \n                                                           \n4 0.01017 = [(8,710) x (20.9 – 0/20.9 – 3)] ÷ 1,000,000; Where, F d (natural gas) = 8,710 dscf/MMBTU  \n  \n27"
+      },
+      {
+        "heading": "EMISSIONS CALCULATION",
+        "alias": "EMISSIONS",
+        "text": "EMISSIONS CALCULATION\nION  \nThe proposed change to permit condition 8773 will not result in a “net increase” \nin NOx emissions from S -4155. Therefore, the cumulative increase in NOx \nemissions is zero."
+      },
+      {
+        "heading": "BACT & OFF SETS:",
+        "alias": "BACT",
+        "text": "BACT & OFF SETS:\nThe proposed change to permit condition 8773 is administrative in nature and will \nnot require physical or operational changes to S -4155. Therefore, the cumulative \nincrease in emissions is zero, BACT is not triggered and offsets are not required."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE:",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE:\nS-4155 is subject to and is expected to comply with Regulation 9, Rule 10 \n“Inorganic Gaseous Pollutants - Nitrogen Oxides and Carbon Monoxide from \nBoilers, Steam Generators and Process Heaters in Petroleum Refineries”. The \nDistrict’ s Compliance & Enforcement staff will verify the compliance of the \nabove source with Regulation 9 -10 during their routine inspections.  \n \nThe proposed change to permit condition 8773 is categorically exempt from \nCEQA per Regulation 2 -1-312.1. Chevron has sub mitted Appendix H \n“Environmental Information Form” in accordance with Regulation 2 -1-312.  \n \nThis project is over 1,000 feet from the nearest public school and is therefore not"
+      },
+      {
+        "heading": "subject to the public notification requirements of Regulation 2 -1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "subject to the public notification requirements of Regulation 2 -1-412."
+      },
+      {
+        "heading": "PERMIT CONDITIONS:",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS:\nThe proposed changes to permit condition 8773 are as shown below:  \n \nFor S -4155, Plant 10:                                       \n \n     1.   The NOx emitted from S -4155 shall not exceed 8.85  \n          lb/hour (averaged over any rolling 3 -hour period).  \n          This NOx  emissions limit shall not apply to S -4155  \n          during the startup or shutdown period of S -4155.  For  \n          S-4155, startup periods shall last no more than 36  \n          hours after the first burner is lit.  For S -4155, the \n          shutdown period shall begin 12 hours before the last  \n          burner is extinguished. ( Basis: C cumulative  Iincrease )                      \n \n          The time of first burner lighting and last burner  \n          extinguishment shall be determin ed based on the NOx  \n          CEM data and/or continuous hourly fuel flow data of  \n          S-4155. The first NOx reading recorded by the properly  \n          operating CEM after S -4155 is cold started from zero  \n          fuel flow, will be considered the po int at which  \n          startup has begun.  The time of last burner  \n          extinguishment (the end of the shutdown period) will  \n          be considered the time when the fuel flow to S -4155 is  \n  \n28 \n           zero.                                                  \n \n          The NOx mass rate shall be calculated as follows based  \n          on the concentration (ppm NOx, corrected to 3% O2,  \n          dry) as measured by the CEM and the firing rate  \n         (BTU/hr) based on the fuel gas meter for S -4155:  \n          lb NOx/hour = [ppm NOx](1 lb -mole/386 scf)(46 lb  \n          NO2/lb -mole NO2)(0. 01077 01017 dscf flue gas/BTU)[million  \n          BTU/hour]                                              \n \n2.   The concentration of CO emitted from S -4155 shall not  \n          exceed 50 ppmv corrected to 3% O2, dry.  Compliance  \n          with this CO limit shall be based on the average of  \n          three 30 -minute test runs as specified in BAAQMD  \n          Source Test Procedure ST -6. (Basis: BACT)  \n                     \n \n     3.   S -4155 shall be equipped with a District -approved O2  \n          monitor and a District -approved continuous NOx  \n          monitor.  (Basis: Regulation 2 -1-403)                                               \n \n     4.   To confirm compliance with the NOx and CO limits in  \n          conditions #1 and #2, respectively, and to verify the  \n          accuracy of the NOx monitor required by condition #3,  \n          the owner/operator of S -4155 shall conduct a source  \n          test within 60 days of start -up after t he physical  \n          modification of the equipment.  The District Source  \n          Test Manager shall approve the source test procedures  \n          as well as the installation and location of testing  \n          ports, instrumentation, and platforms.  After the \n          above approval is received, the owner/operator shall  \n          notify the District Permit Services Division and the  \n          District Source Test Manager at least two weeks prior  \n          to performing any source test.  Source test results  \n          shall be submitted to the District Source Test Section  \n          and the Permit Services Division within 45 days of  \n          completing the test. ( Basis: C cumulative  Iincrease , BACT)                   \n \n     5.   The concentration of H2S in the fuel gas at S -4155  \n          shall not exceed 50 ppm averaged over any 24 -hour \n          period.  To confirm compliance with this condition,  \n          either S -4155 or the fuel gas mix drum supplying fuel  \n          gas to S -4155 shall be equipped with a continuous H2S  \n          monitor, and this information shall be made available  \n          for District inspection for a period of 24 months from  \n          the date on which a record is made. ( Basis: BACT)             \n  \n29 \n  \n     6.   Fuel usage at S -4155 shall not exceed 209 MMBtu/hr on  \n          an annual average basis.  To confirm compliance with  \n          this condition, records of fuel usage at S -4155 shall  \n          be recorded in a District -approved log, summarized on  \n          a monthly basis, and made available for District  \n          inspection for a period of 24 months from the date on  \n          which a record is made. ( Basis: BACT)"
+      },
+      {
+        "heading": "RECOMMENDATION:",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION:\nModify permit condition 8773 as proposed and issue Chevron a Permi t to Operate \nfor the following source:  \n \nS-4155  Hot Oil Furnace (F -135) \n \n \n \n_____________  \nBhagavan R. Krishnaswamy"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nION  \nPlant 10: Chevron Products Company  \nApplication 26698: Amendment to permit condition 8773 (typo correction)"
+      }
+    ]
+  }
+}

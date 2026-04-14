@@ -206,7 +206,12 @@ def main() -> int:
     reggov_parser.add_argument(
         "--formats",
         default="pdf,txt",
-        help="Comma-separated formats to download (default: pdf,txt)",
+        help="Comma-separated formats to download, or 'all' for every available attachment format (default: pdf,txt)",
+    )
+    reggov_parser.add_argument(
+        "--all-documents",
+        action="store_true",
+        help="Ignore keyword filtering and download attachments for every document in the docket.",
     )
     reggov_parser.add_argument("--json", action="store_true", help="Print result JSON to stdout")
 
@@ -291,14 +296,14 @@ def main() -> int:
         if not args.api_key:
             print("Missing --api-key (or REGGOV_API_KEY).", file=sys.stderr)
             return 2
-        keywords = parse_keywords(args.keywords)
-        formats = [item.strip().lower() for item in args.formats.split(",") if item.strip()]
+        keywords = [] if args.all_documents else parse_keywords(args.keywords)
+        formats = None if args.formats.strip().lower() == "all" else [item.strip().lower() for item in args.formats.split(",") if item.strip()]
         downloads = download_regulations_gov.download_docket_attachments(
             args.docket,
             keywords,
             args.out_dir,
             args.api_key,
-            allowed_formats=tuple(formats),
+            allowed_formats=None if formats is None else tuple(formats),
         )
         if args.json:
             print(json.dumps(downloads, indent=2))

@@ -1,0 +1,186 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\extracted_evaluations\\application_14096.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 1
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "14096",
+    "application_number_from_filename": "14096"
+  },
+  "application_number": "14096",
+  "plant": {
+    "name": "CHEVRON USA, INC.; PLANT 10",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [],
+  "background": {
+    "text": "BACKGROUND\nChevron has applied for a Permit to Operate for the following existing equipment, which was\npreviously exempt from permits:\n8-4940\n Tank D-4940, Chemical Additives Tank, approximately 1450 gallon capacity\nChevron currently injects the NALCO chemical TRI-ACT 1803 from tank D-4940 into its steam\nsystem in order to control the pH of the condensate system. The yapor pressure of this additive is"
+  },
+  "emission_calculations": {
+    "text": "EMISSIONS\nEmissions at proposed conditions were estimated using the EP A TANKS 4.0 program. The\nprogram was run based on 7027.23 gal/yr TRI-ACT 1800 throughput. For calculation and\nemission details see attached Tanks program reports. The reports indicate that the annual\nemissions ofPOC will increase 90.5lb/yr = 0.045 TPY."
+  },
+  "cumulative_increase": {
+    "text": "pLANT CUMULATIVE INCREASE\nThe plant cumulative increase.is:\nNew,TPY\n0.045"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSIONS\nEmissions at proposed conditions were estimated using the EP A TANKS 4.0 program. The\nprogram was run based on 7027.23 gal/yr TRI-ACT 1800 throughput. For calculation and\nemission details see attached Tanks program reports. The reports indicate that the annual\nemissions ofPOC will increase 90.5lb/yr = 0.045 TPY.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": 0.045
+        }
+      }
+    },
+    "by_equipment": {}
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "0.39 psia at 100F. It contains none of the toxic chemicals listed in Rule 2-5. The tank is a\nplastic, prefabricated unit approximately 1450 gallon capacity .The unit was exempt from\npermitting since the chemical's vapor pressure is less than 0.5 psia.\nChevron intends to switch to NALCO's TRI-ACT 1800, vapor pressure 0.73 psia. This\nchangeover triggers permitting because Rule 2-1 was subsequently revised and the new chemical\nhas a vapor pressure > 0.5 psia. The tank is already equipped with a submerged fill line as\nspecified by Rule 8-5. It is vented to the atmosphere.TOXIC RISK SCREENING ANAL YSIS\nNone of the compounds listed in the MSDS for NALCO's TRI-ACT 1800 are listed on the list of\ntoxic air contaminants in Rule 2-5. Therefore, a toxic risk screen is not required.increase in emissions and the toxic emissions will not exceed the respective toxic trigger\nlevels in Rule 2-5 (Basis: cumulative increase, Rule 2-5)\nThe owner/operator shall only store materials with a vapor pressure that shall not exceed\n0.73 psia. (Basis: cumulative increase)\n2,\n3. The owner/operator of 8-4940 shall maintain records of storage tank throughput, type,\nstorage vapor pressure and all inspection records. These records shall be summarized on\n--,cc 1--1..1---~;~-0.--J ...,,\" L-A 0... *~A ~ £ PA-~\"*\"' '.\"\"\"-~ t\",--'! --'!..t.. \"~,hi,,,1'1 iQ ..\"..QiIQhlp tAa liJ.UliUli)' ua~J.~, £uJ.u J.J.J.a)' u.., J.~~ I.~~..' J.V~~~~ v~ ..'v~~~J:'...I...'~ -6'\"'~~'\"'~ '\"'-.. , ..~~,'\"'~, ,\"' ,'~~,~ .~\nDistrict personnel on short notice (rather than actual paper copies of throughput data).\nThese records shall be kept on file for a minimumof5 years. (Basis: Cumulative\nIncrease, Rule 2-5)\n2"
+  },
+  "BACT": {
+    "text": "BACT/OFFSETS\nThe emissions from this source do not exceed 10 Ib/highest day. Therefore,BACT is not\ntriggered. Offsets are required at a 1.15 to 1.0 ratio since permitted emissions fall between 10\ntons and 35 tons per year at this facility. The total offsets required will be 0.052 tons per year\nPOC, which includes the 1.15 to 1.0 offset ratio. The offsets will be provided by Chevron's\nRichmond Refinery (Plant No.10). The credits will be taken from Banking Certificate #777,\nwhich is already in the District's possession.\n\nAPPLICATION 14096\n ENGINEERING EVALuATION"
+  },
+  "offsets": {
+    "narrative": "Offsets, TPY\n0.052\nTotal, TPY\n0.000",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\n8-4940 is subject to and complies with Rule 8-5. It is equipped with a submerged fill line, which\ncomplies with Rule 8-5-301 and is expected to meet 8-5-302 as well. Also, the monitoring and\nrecords requirements of subsection 8-5-501.1 will be met.\nThis facility is over 1,000 feet from the nearest school and therefore is not subject to the public"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "notification requirements of Regulation 2-1-412.\nThis application is considered ministerial under the District's proposed CEQA guidelines\n(Regulation 2-1-311) and therefore is not subject tp CEQA review. The engineering review for\nthis project requires only the application of standard permit conditions and standard emission\nfactors in accordance with Permit Handbook Chapter 4.1.\nPSD, NSPS and NESHAPS are not triggered.\nThis permit application is a minor revision to the Title V Permit. The tank is a new source that\nfalls in Cluster 02 of the tank tables, i.e., Tables IV.Fl.3 and VII.F.l.3. The appropriate Title V\nforms are included in Attachment 3 and will be turned into a separate Title V permit application\nto handle the revision."
+  },
+  "conditions": {
+    "text": ""
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": []
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": ""
+  },
+  "raw_sections": {
+    "preamble": "",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EV ALUATION",
+        "alias": null,
+        "text": "ENGINEERING EV ALUATION\nCHEVRON USA, INC.; PLANT 10\nAPPLICATION NUMBER 14096"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nChevron has applied for a Permit to Operate for the following existing equipment, which was\npreviously exempt from permits:\n8-4940\n Tank D-4940, Chemical Additives Tank, approximately 1450 gallon capacity\nChevron currently injects the NALCO chemical TRI-ACT 1803 from tank D-4940 into its steam\nsystem in order to control the pH of the condensate system. The yapor pressure of this additive is"
+      },
+      {
+        "heading": "0.39 psia at 100F. It contains none of the toxic chemicals listed in Rule 2-5. The tank is a",
+        "alias": "TOXICS",
+        "text": "0.39 psia at 100F. It contains none of the toxic chemicals listed in Rule 2-5. The tank is a\nplastic, prefabricated unit approximately 1450 gallon capacity .The unit was exempt from\npermitting since the chemical's vapor pressure is less than 0.5 psia.\nChevron intends to switch to NALCO's TRI-ACT 1800, vapor pressure 0.73 psia. This\nchangeover triggers permitting because Rule 2-1 was subsequently revised and the new chemical\nhas a vapor pressure > 0.5 psia. The tank is already equipped with a submerged fill line as\nspecified by Rule 8-5. It is vented to the atmosphere."
+      },
+      {
+        "heading": "EMISSIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSIONS\nEmissions at proposed conditions were estimated using the EP A TANKS 4.0 program. The\nprogram was run based on 7027.23 gal/yr TRI-ACT 1800 throughput. For calculation and\nemission details see attached Tanks program reports. The reports indicate that the annual\nemissions ofPOC will increase 90.5lb/yr = 0.045 TPY."
+      },
+      {
+        "heading": "pLANT CUMULATIVE INCREASE",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "pLANT CUMULATIVE INCREASE\nThe plant cumulative increase.is:\nNew,TPY\n0.045"
+      },
+      {
+        "heading": "Offsets, TPY",
+        "alias": "OFFSETS",
+        "text": "Offsets, TPY\n0.052\nTotal, TPY\n0.000"
+      },
+      {
+        "heading": "TOXIC RISK SCREENING ANAL YSIS",
+        "alias": "TOXICS",
+        "text": "TOXIC RISK SCREENING ANAL YSIS\nNone of the compounds listed in the MSDS for NALCO's TRI-ACT 1800 are listed on the list of\ntoxic air contaminants in Rule 2-5. Therefore, a toxic risk screen is not required."
+      },
+      {
+        "heading": "BACT/OFFSETS",
+        "alias": "BACT",
+        "text": "BACT/OFFSETS\nThe emissions from this source do not exceed 10 Ib/highest day. Therefore,BACT is not\ntriggered. Offsets are required at a 1.15 to 1.0 ratio since permitted emissions fall between 10\ntons and 35 tons per year at this facility. The total offsets required will be 0.052 tons per year\nPOC, which includes the 1.15 to 1.0 offset ratio. The offsets will be provided by Chevron's\nRichmond Refinery (Plant No.10). The credits will be taken from Banking Certificate #777,\nwhich is already in the District's possession.\n\nAPPLICATION 14096\n ENGINEERING EVALuATION"
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\n8-4940 is subject to and complies with Rule 8-5. It is equipped with a submerged fill line, which\ncomplies with Rule 8-5-301 and is expected to meet 8-5-302 as well. Also, the monitoring and\nrecords requirements of subsection 8-5-501.1 will be met.\nThis facility is over 1,000 feet from the nearest school and therefore is not subject to the public"
+      },
+      {
+        "heading": "notification requirements of Regulation 2-1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "notification requirements of Regulation 2-1-412.\nThis application is considered ministerial under the District's proposed CEQA guidelines\n(Regulation 2-1-311) and therefore is not subject tp CEQA review. The engineering review for\nthis project requires only the application of standard permit conditions and standard emission\nfactors in accordance with Permit Handbook Chapter 4.1.\nPSD, NSPS and NESHAPS are not triggered.\nThis permit application is a minor revision to the Title V Permit. The tank is a new source that\nfalls in Cluster 02 of the tank tables, i.e., Tables IV.Fl.3 and VII.F.l.3. The appropriate Title V\nforms are included in Attachment 3 and will be turned into a separate Title V permit application\nto handle the revision."
+      },
+      {
+        "heading": "PERMIT CONDITJDM",
+        "alias": null,
+        "text": "PERMIT CONDITJDM\nAPPLICAnON 14096; Chevron; PLANT 10\nCONDmON8 FOR 8-4940\nThe owner/operator ofS-4940 shall not exceed 7,028 gallons ofNALCO TRI-ACT 1800\nthroughput during any twelve-month period. The owner operator may store materials\nother than NALCO TRI-ACT 1800 provided that the owner/operator demonstrates by\nsubmitting to the District a Data Form X, an MSDS, and a demonstration that there is no"
+      },
+      {
+        "heading": "increase in emissions and the toxic emissions will not exceed the respective toxic trigger",
+        "alias": "TOXICS",
+        "text": "increase in emissions and the toxic emissions will not exceed the respective toxic trigger\nlevels in Rule 2-5 (Basis: cumulative increase, Rule 2-5)\nThe owner/operator shall only store materials with a vapor pressure that shall not exceed\n0.73 psia. (Basis: cumulative increase)\n2,\n3. The owner/operator of 8-4940 shall maintain records of storage tank throughput, type,\nstorage vapor pressure and all inspection records. These records shall be summarized on\n--,cc 1--1..1---~;~-0.--J ...,,\" L-A 0... *~A ~ £ PA-~\"*\"' '.\"\"\"-~ t\",--'! --'!..t.. \"~,hi,,,1'1 iQ ..\"..QiIQhlp tAa liJ.UliUli)' ua~J.~, £uJ.u J.J.J.a)' u.., J.~~ I.~~..' J.V~~~~ v~ ..'v~~~J:'...I...'~ -6'\"'~~'\"'~ '\"'-.. , ..~~,'\"'~, ,\"' ,'~~,~ .~\nDistrict personnel on short notice (rather than actual paper copies of throughput data).\nThese records shall be kept on file for a minimumof5 years. (Basis: Cumulative\nIncrease, Rule 2-5)\n2"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EV ALUATION",
+        "alias": null,
+        "text": "ENGINEERING EV ALUATION\nCHEVRON USA, INC.; PLANT 10\nAPPLICATION NUMBER 14096"
+      },
+      {
+        "heading": "PERMIT CONDITJDM",
+        "alias": null,
+        "text": "PERMIT CONDITJDM\nAPPLICAnON 14096; Chevron; PLANT 10\nCONDmON8 FOR 8-4940\nThe owner/operator ofS-4940 shall not exceed 7,028 gallons ofNALCO TRI-ACT 1800\nthroughput during any twelve-month period. The owner operator may store materials\nother than NALCO TRI-ACT 1800 provided that the owner/operator demonstrates by\nsubmitting to the District a Data Form X, an MSDS, and a demonstration that there is no"
+      }
+    ]
+  }
+}

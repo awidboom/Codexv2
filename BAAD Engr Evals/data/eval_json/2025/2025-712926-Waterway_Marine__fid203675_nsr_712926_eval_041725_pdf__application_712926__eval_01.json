@@ -1,0 +1,275 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 5
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "(lb/hr)  HRA\nTriggered?\n(Y/N)\nCopper  19.21  - 0.009  4.4E-02 N\nEthyl Benzene  41.63  4.3E+01  0.020 - N\nNaphthalene  1.17 3.2E+00  0.001 - N\nSilica (crystalline, respirable)  19.21  1.20E+02  0.009 - N\nXylene  86.42  2.70E+04  0.042 4.90E+01  N"
+      ]
+    },
+    "application_number_detected": "712926",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2025/712926/fid203675_nsr_-712926_eval_041725-pdf.pdf?rev=3c704444faa74d3f9534a83138d88f2e&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2025/041725-712926/waterway-marine"
+  },
+  "application_number": "712926",
+  "plant": {
+    "name": "Waterway Marine",
+    "plant_id": null,
+    "address": "145 3rd St"
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Marine Vessel Coating  Booth"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd  \n \nWaterway Marine  is applying for a Permit to Operat e for the following equipment:  \n \nS-1  Marine Vessel Coating  Booth  \nBrush and roll painting method  \n132 gallons of coating per year, 25 gallons cleanup solvent  \n \nWaterway marine  will use a spray booth (S -1) to apply coatings to  marine vessels . \nWaterway Marine  will use up to 132 gallons of coating per year with 25 gallons of \ncleanup solvent."
+  },
+  "emission_calculations": {
+    "text": "Emissions Calculations\nns  \n \nThe emissions estimates detailed below use these maximum throughputs and the \nfollowing operational schedule:  \n• 8 hours per day  \n• 5 days per week  \n• 52 weeks per year  \n \nThe s praying process at S -1 will generate precursor organic compounds (POC), non -precursorEmissions\n(lb/yr)  Chronic \nTrigger \nLevel \n(lb/yr)  Maximum \nHourly \nEmissions \n(lb/hr)  Acute \nTrigger \nLevel \n(lb/hr)  HRA \nTriggered? \n(Y/N)  \nCopper  19.21  - 0.009  4.4E-02 N \nEthyl Benzene  41.63  4.3E+01  0.020 - N \nNaphthalene  1.17 3.2E+00  0.001 - N \nSilica (crystalline, respirable)  19.21  1.20E+02  0.009 - N \nXylene  86.42  2.70E+04  0.042 4.90E+01  N \n \nThis application does not emit any pollutant greater than the the risk trigger levels listed in \nTable 2 -5-1, therefore, a n HRA is not required."
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Increase\nease  \n \nTable 3 summarizes the cumulative increase in criteria pollutant emissions that will result \nfrom this application.   \n \n \n 3 Table 3. Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing Emissions Post \n4/5/91 (tons/yr)  Application Emissions \n(tons/yr)  Cumulative Emissions \n(tons/yr)  \nNOx  0.00 0.000 0.000 \nPOC  0.00 0.169 0.169 \nCO 0.00 0.000 0.000 \nPM10  0.00 0.000  0.000  \nPM2.5  0.00 0.000  0.000  \nSO2 0.00 0.000 0.000 \nNPOC  0.00 0.107 0.107"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emissions Calculations\nns  \n \nThe emissions estimates detailed below use these maximum throughputs and the \nfollowing operational schedule:  \n• 8 hours per day  \n• 5 days per week  \n• 52 weeks per year  \n \nThe s praying process at S -1 will generate precursor organic compounds (POC), non -precursorEmissions\n(lb/yr)  Chronic \nTrigger \nLevel \n(lb/yr)  Maximum \nHourly \nEmissions \n(lb/hr)  Acute \nTrigger \nLevel \n(lb/hr)  HRA \nTriggered? \n(Y/N)  \nCopper  19.21  - 0.009  4.4E-02 N \nEthyl Benzene  41.63  4.3E+01  0.020 - N \nNaphthalene  1.17 3.2E+00  0.001 - N \nSilica (crystalline, respirable)  19.21  1.20E+02  0.009 - N \nXylene  86.42  2.70E+04  0.042 4.90E+01  N \n \nThis application does not emit any pollutant greater than the the risk trigger levels listed in \nTable 2 -5-1, therefore, a n HRA is not required.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "organic compounds (NPOC),  particulate matter  (PM) , and toxic air contaminants (TACs)\nemissions from the coatings , additives,  and cleaning solutions.  \n \nMarine Vessel Coating  Booth  (S-1) \n \nTable 1. VOC Emissions for S -1, Marine Vessel Coating Booth  \nCoating \nName  Annual \nUsage \n(gal/yr) VOC \nContent  \n(lb/gal)  POC  \n(lb/yr)  NPOC1 \n(lb/yr)  POC  \n(TPY)  NPOC \n(TPY)  \nTrinidad \nHD \n(Topcoat)  109 2.74 250.6  48.0 .125 0.024 \nTopcoat \n(Prop \nCoat \nBarnacle \nBarrier)  5 4.06 20.3 0 0.010 0 \nPrimer \n(Interlux 15 3.87 58.1 0 0.029 0 \n \n 2 2000e \nPrimer)  \nPrimer 2 \n(Proline \nLow \nTemp)  3 2.80 8.4 0 0.004 0 \nAcetone  25 6.60 NA 165.0 NA 0.083 \n1 NPOC content determined from SDS  \n \nTo estimate PM emissions from the solids (non -volatile) portion of the coating, the following \nmethodology is used to calculate PM emissions from coating operation:  \n𝑃𝑀 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  (𝑙𝑏\n𝑦𝑟)=𝑄×𝑆×𝐷×(1−𝑇𝐸∗)×(1−𝐶𝐸) \nwhere:  \nQ = Quantity of coatings applied (gallons/year)  \nS = Solid content in coatings (% by weight)  \nD = Coating density (lb/gal)  \nTE = Transfer efficiency (decimal), 1.0 for HVLP per “Guidelines for \nReporting Emissions from the Use of Materials Containing Organic \nCompounds – December 2016”  \nCE = Control System Efficiency (decimal), 0 no filter reported for the \nsystem  \n \n*Transfer efficiency is the ratio of the amount of coating solids deposited onto the surface of a part \nor product to the total amount of coating solids used, defined by EPA.  \n \nThe transfer efficiency is assumed to be 1 for dipping, rollers, and brushes.  Therefore, the PM \nemissions will be negligible for this operation . \n \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result \nfrom the operation of S -1.  \n \nTable 2: S-1 Total Criteria Pollutant Emission  \nPollutant  lbs/day  lbs/yr  tons/yr  \nPOC  1.45 337.4 0.169 \nNPOC  0.66  213.0  0.107 \nPM 10 0 -- -- \nPM 2.51 0 -- -- \n \n1 Assumption: PM 2.5=PM 10 as a conservative estimateHealth Risk Assessment (HRA)\nA)  \n \nTACs were included based on SDSs from coating and cleaning materials.  \n \nTable 4. Toxic Air Contaminant Emissions for S -1 \nPollutant  Annualc. The use of these materials does not increase toxic emissions above any risk\nscreening trigger level of Table 2 -5-1 in Regulation 2 -5. \n(Basis: Cumulative Increase, Regulation 2 -5) \n \n3. The owner/operator of S -1 shall only use coatings with VOC content less than that \nrequired by Regulation 8 -43 at the facility.  \n(Basis: Cumulative Increase ) \n \n4. To determine compliance with the above parts, the owner/operator of S -1 shall \nmaintain the following records and provide all of the data necessary to evaluateii. POC, NPOC, and toxic contents of each material used; and\niii. Mass emission estimates of POC, NPOC, and toxic air contaminants \non a monthly basis to demonstrate compliance with Part 2.  \nc. Monthly usage and/or emission calculations shall be totaled for each \nconsecutive twelve -month period to demonstrate compliance with Part 1 and \nPart 2.  \n \nAll records shall be maintained on -site for at least two years, from the date of entry, \nand made available for inspection by District staff upon request. These recordkeeping \nrequirements shall not replace the recordkeeping requirements contained in any \nDistrict Regulations.  \n(Basis: Cumulative Increase, Regulations 2 -5, 8-43) \n \n \nEnd of Conditions"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\nT)  \n \nIn accordance with Regulation 2 -2-301, BACT is triggered for any new or modified \nsource with the potential to emit 10 pounds or more per highest day of POC, NPOC, \nNOx, CO, SO 2, PM 10 or PM 2.5. Per Table  3, BACT is not triggered for any source \ncontained in this application."
+  },
+  "offsets": {
+    "narrative": "Offsets\nts  \n \nEmission offset requirements for POC, and NO x are outlined in Regulation 2, Rule 2, \nSection 302.  POC and NO x offsets are required for new or modified sources at a facility \nthat emits or will be permitted to emit 10 tons per year or more of that pollutant. \nRegulation 2 -2-303 requires offsets for any new or modified source at a major facility \nwith a potential to e mit 100 tons per year or more of PM 10, PM 2.5, or sulfur dioxide (SO 2).  \nSince the facility  will not exceed 10 tons per year of POC and NOx and 100 tons per year \nof PM 10, PM 2.5 and SO 2,, offsets are not required.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          100.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD)\nD)  \nThis application is not part of a PSD project as defined in Regulation 2 -2-224 because the facility \nwill not have the potential to emit 100 tons or more per year of any pollutants.   Therefore, the \nPSD requirements do not apply.  \n \n \n 5 School Notification  \nThis project is within 1,000 feet from the nearest K -12 school and is not located in an \nOverburdened and is therefore subject to the public notification requirements of"
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA)\nA)  \nDistrict Regulation 2, Rule 1, Section 310 specifies that all proposed new and modified sources \nsubject to District permit requirements must be reviewed in accordance with CEQA \nrequirements, except for ministerial projects or projects exempt from CEQA under Section 2 -1-\n312. This permit application is not subject to CEQA because the evaluation is a ministerial action \n(Public Resources Code Section 21080(b)(1) and CEQA Guidelines Section 15268(a)) conducted \nusing the fixed standards and objectiv e measurements outlined in standard air \npermitting/engineering reference materials including, but not limited to: permitting handbooks, \npermitting manuals, permitting guidance documents, source test/lab sampling results, and \nemissions factor clearinghouses . Therefore, the applicant was not required to submit any CEQA -\nrelated information.  \n \nNew Source Performance Standards (NSPS)  \nS-1 is not subject to NSPS.  \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP)  \nWaterway Marine  is not subject to the surface preparation and coating of marine vessels \n(NESHAP Subpart II) as it is not a major source, is not located at a major source, and is \nnot part of a major source of emissions of HAP."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nce  \n \n \n 4 The owner/operator is expected to comply with all applicable requirements. Key requirements are \nlisted below:  \n \nDistrict Rules  \nRegulation 8 -43-301: VOC content  of coating  is less than maximum content  as specified \nby 8-43-301 (2.8 lb/gal for air -dried coating ) for any coating used in volumes of 20 \ngallons or more in one calendar year  per regulation 8 -43-111. \nRegulation 8 -43-302: Waterway Marine complies with the VOC limits in 8 -43-302 for \nany coating that is in a larger than 1 gallon container for pleasure craft and fishing vessels \nper regulation 8 -43-110 or for any coating that i s applied in volumes greater that 20 \ngallons per year per regulation 8 -43-111 \nRegulation 8-43-320: Waterway Marine  uses organic solvent for cleanup and uses and \ndisposes coatings containing organic solvent.  \n• 320.1: Waterway Marine  shall use closed containers for the storage or disposal of \ncloth or paper used for solvent surface preparation and cleanup.  \n• 320.2: Waterway Marine shall close containers of coating, catalyst, and fresh or \nspent solvent when not in use  \n• 320.3: Waterway Marine will not be using spray equipment  \nRegulation 8 -43-321: Waterway Marine will use acetone as a surface preparation solvent \nwhich is exempt as a VOC per regulation 8 -43-215.2compliance with the above parts, including the following information:\na. Types and quantities of each coating and solvent used at S -1 on a monthly \nbasis  \nb. If a material other than those specified in Part 1 is used and/or usages in \nexcess of those specified in Part 1, the owner/operator of S -1 shall record the \nfollowing on a daily basis:  \n \n 6 i. Usage amounts of each alternative material used;"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Regulation 2 -1-412. A public notice will be prepared and sent to all residents and\nbusinesses located within 1,000 feet of the proposed source.   The schools that are within \n1,000 feet of the project:  \n1. San Rafael High School  \n150 3rd Street, San Rafael, CA 94901  \n2. Madrone High Continuation  \n185 Mission Avenue , San Rafael, CA 94901requirements per Regulation 2 -1-412. After the comments are received fr om the public and\nreviewed, the Air District will make a final determination on the permit.  \n \nI recommend that the District initiates a public notice and consider any comments received \nprior to taking any final action on issuance of a Permit to Operate for the following \nequipment:    \n \nS-1  Marine Vessel Coating Booth  \nBrush and roll painting method  \n132 gallons of coating per year, 25 gallons cleanup solvent  \n \nPrepared by:  Matthew Green , Air Quality Engineer   Date:  3/20/2025"
+  },
+  "conditions": {
+    "text": "Permit Conditions\nPermit Condition #1005 36 for S -1 Coating  Booth  \n1. The owner/operator of S -1 shall not exceed the following usage limits during any \nconsecutive twelve -month period:  \n \nTopcoat (Trinidad HD)        109 gallons  \nTopcoat (Prop Coat Barnacle Barrier)      5 gallons  \nPrimer (Interlux 2000e Primer)       15 gallons  \nPrimer 2 (Proline Low Temp)       3 gallons  \nAcetone                                           25 gallons  \n(Basis: Cumulative Increase)  \n \n2. The owner/operator of S -1 may use alternate coating(s) or clean up solvent(s) other \nthan the materials specified in Part 1 and/or usages in excess of those specified in Part \n1, provided that the owner/operator of S -1 can demonstrate that all of the followi ng \nare satisfied:  \na. Total POC emissions from S -1 do not exceed 338 pounds per year;  \nb. Total NPOC emissions from S -1 do not exceed 213 pounds per year;"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator of S -1 shall not exceed the following usage limits during any \nconsecutive twelve -month period:  \n \nTopcoat (Trinidad HD)        109 gallons  \nTopcoat (Prop Coat Barnacle Barrier)      5 gallons  \nPrimer (Interlux 2000e Primer)       15 gallons  \nPrimer 2 (Proline Low Temp)       3 gallons  \nAcetone                                           25 gallons  \n(",
+        "basis": [
+          "Cumulative Increase)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator of S -1 may use alternate coating(s) or clean up solvent(s) other \nthan the materials specified in Part 1 and/or usages in excess of those specified in Part \n1, provided that the owner/operator of S -1 can demonstrate that all of the followi ng \nare satisfied:  \na. Total POC emissions from S -1 do not exceed 338 pounds per year;  \nb. Total NPOC emissions from S -1 do not exceed 213 pounds per year;",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\non  \n \nThe Air District has reviewed the material contained in the permit application for the \nproposed project and has made a preliminary determination that the project is expected to \ncomply with all applicable requirements of District, state, and federal air qua lity-related \nregulations. The preliminary recommendation is to issue an Authority to Construct for the \nequipment listed below. However, the proposed source triggers public notification"
+  },
+  "raw_sections": {
+    "preamble": "1 DRAFT",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nFacility ID No. 203675 \nWaterway Marine  \n145 3rd St, San Rafael , CA, 9 4901  \nApplication No. 712926"
+      },
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd  \n \nWaterway Marine  is applying for a Permit to Operat e for the following equipment:  \n \nS-1  Marine Vessel Coating  Booth  \nBrush and roll painting method  \n132 gallons of coating per year, 25 gallons cleanup solvent  \n \nWaterway marine  will use a spray booth (S -1) to apply coatings to  marine vessels . \nWaterway Marine  will use up to 132 gallons of coating per year with 25 gallons of \ncleanup solvent."
+      },
+      {
+        "heading": "Emissions Calculations",
+        "alias": "EMISSIONS",
+        "text": "Emissions Calculations\nns  \n \nThe emissions estimates detailed below use these maximum throughputs and the \nfollowing operational schedule:  \n• 8 hours per day  \n• 5 days per week  \n• 52 weeks per year  \n \nThe s praying process at S -1 will generate precursor organic compounds (POC), non -precursor"
+      },
+      {
+        "heading": "organic compounds (NPOC),  particulate matter  (PM) , and toxic air contaminants (TACs)",
+        "alias": "TOXICS",
+        "text": "organic compounds (NPOC),  particulate matter  (PM) , and toxic air contaminants (TACs)\nemissions from the coatings , additives,  and cleaning solutions.  \n \nMarine Vessel Coating  Booth  (S-1) \n \nTable 1. VOC Emissions for S -1, Marine Vessel Coating Booth  \nCoating \nName  Annual \nUsage \n(gal/yr) VOC \nContent  \n(lb/gal)  POC  \n(lb/yr)  NPOC1 \n(lb/yr)  POC  \n(TPY)  NPOC \n(TPY)  \nTrinidad \nHD \n(Topcoat)  109 2.74 250.6  48.0 .125 0.024 \nTopcoat \n(Prop \nCoat \nBarnacle \nBarrier)  5 4.06 20.3 0 0.010 0 \nPrimer \n(Interlux 15 3.87 58.1 0 0.029 0 \n \n 2 2000e \nPrimer)  \nPrimer 2 \n(Proline \nLow \nTemp)  3 2.80 8.4 0 0.004 0 \nAcetone  25 6.60 NA 165.0 NA 0.083 \n1 NPOC content determined from SDS  \n \nTo estimate PM emissions from the solids (non -volatile) portion of the coating, the following \nmethodology is used to calculate PM emissions from coating operation:  \n𝑃𝑀 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠  (𝑙𝑏\n𝑦𝑟)=𝑄×𝑆×𝐷×(1−𝑇𝐸∗)×(1−𝐶𝐸) \nwhere:  \nQ = Quantity of coatings applied (gallons/year)  \nS = Solid content in coatings (% by weight)  \nD = Coating density (lb/gal)  \nTE = Transfer efficiency (decimal), 1.0 for HVLP per “Guidelines for \nReporting Emissions from the Use of Materials Containing Organic \nCompounds – December 2016”  \nCE = Control System Efficiency (decimal), 0 no filter reported for the \nsystem  \n \n*Transfer efficiency is the ratio of the amount of coating solids deposited onto the surface of a part \nor product to the total amount of coating solids used, defined by EPA.  \n \nThe transfer efficiency is assumed to be 1 for dipping, rollers, and brushes.  Therefore, the PM \nemissions will be negligible for this operation . \n \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result \nfrom the operation of S -1.  \n \nTable 2: S-1 Total Criteria Pollutant Emission  \nPollutant  lbs/day  lbs/yr  tons/yr  \nPOC  1.45 337.4 0.169 \nNPOC  0.66  213.0  0.107 \nPM 10 0 -- -- \nPM 2.51 0 -- -- \n \n1 Assumption: PM 2.5=PM 10 as a conservative estimate"
+      },
+      {
+        "heading": "Plant Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Increase\nease  \n \nTable 3 summarizes the cumulative increase in criteria pollutant emissions that will result \nfrom this application.   \n \n \n 3 Table 3. Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing Emissions Post \n4/5/91 (tons/yr)  Application Emissions \n(tons/yr)  Cumulative Emissions \n(tons/yr)  \nNOx  0.00 0.000 0.000 \nPOC  0.00 0.169 0.169 \nCO 0.00 0.000 0.000 \nPM10  0.00 0.000  0.000  \nPM2.5  0.00 0.000  0.000  \nSO2 0.00 0.000 0.000 \nNPOC  0.00 0.107 0.107"
+      },
+      {
+        "heading": "Health Risk Assessment (HRA)",
+        "alias": "TOXICS",
+        "text": "Health Risk Assessment (HRA)\nA)  \n \nTACs were included based on SDSs from coating and cleaning materials.  \n \nTable 4. Toxic Air Contaminant Emissions for S -1 \nPollutant  Annual"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lb/yr)  Chronic \nTrigger \nLevel \n(lb/yr)  Maximum \nHourly \nEmissions \n(lb/hr)  Acute \nTrigger \nLevel \n(lb/hr)  HRA \nTriggered? \n(Y/N)  \nCopper  19.21  - 0.009  4.4E-02 N \nEthyl Benzene  41.63  4.3E+01  0.020 - N \nNaphthalene  1.17 3.2E+00  0.001 - N \nSilica (crystalline, respirable)  19.21  1.20E+02  0.009 - N \nXylene  86.42  2.70E+04  0.042 4.90E+01  N \n \nThis application does not emit any pollutant greater than the the risk trigger levels listed in \nTable 2 -5-1, therefore, a n HRA is not required."
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\nT)  \n \nIn accordance with Regulation 2 -2-301, BACT is triggered for any new or modified \nsource with the potential to emit 10 pounds or more per highest day of POC, NPOC, \nNOx, CO, SO 2, PM 10 or PM 2.5. Per Table  3, BACT is not triggered for any source \ncontained in this application."
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nts  \n \nEmission offset requirements for POC, and NO x are outlined in Regulation 2, Rule 2, \nSection 302.  POC and NO x offsets are required for new or modified sources at a facility \nthat emits or will be permitted to emit 10 tons per year or more of that pollutant. \nRegulation 2 -2-303 requires offsets for any new or modified source at a major facility \nwith a potential to e mit 100 tons per year or more of PM 10, PM 2.5, or sulfur dioxide (SO 2).  \nSince the facility  will not exceed 10 tons per year of POC and NOx and 100 tons per year \nof PM 10, PM 2.5 and SO 2,, offsets are not required."
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nce  \n \n \n 4 The owner/operator is expected to comply with all applicable requirements. Key requirements are \nlisted below:  \n \nDistrict Rules  \nRegulation 8 -43-301: VOC content  of coating  is less than maximum content  as specified \nby 8-43-301 (2.8 lb/gal for air -dried coating ) for any coating used in volumes of 20 \ngallons or more in one calendar year  per regulation 8 -43-111. \nRegulation 8 -43-302: Waterway Marine complies with the VOC limits in 8 -43-302 for \nany coating that is in a larger than 1 gallon container for pleasure craft and fishing vessels \nper regulation 8 -43-110 or for any coating that i s applied in volumes greater that 20 \ngallons per year per regulation 8 -43-111 \nRegulation 8-43-320: Waterway Marine  uses organic solvent for cleanup and uses and \ndisposes coatings containing organic solvent.  \n• 320.1: Waterway Marine  shall use closed containers for the storage or disposal of \ncloth or paper used for solvent surface preparation and cleanup.  \n• 320.2: Waterway Marine shall close containers of coating, catalyst, and fresh or \nspent solvent when not in use  \n• 320.3: Waterway Marine will not be using spray equipment  \nRegulation 8 -43-321: Waterway Marine will use acetone as a surface preparation solvent \nwhich is exempt as a VOC per regulation 8 -43-215.2"
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA)",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA)\nA)  \nDistrict Regulation 2, Rule 1, Section 310 specifies that all proposed new and modified sources \nsubject to District permit requirements must be reviewed in accordance with CEQA \nrequirements, except for ministerial projects or projects exempt from CEQA under Section 2 -1-\n312. This permit application is not subject to CEQA because the evaluation is a ministerial action \n(Public Resources Code Section 21080(b)(1) and CEQA Guidelines Section 15268(a)) conducted \nusing the fixed standards and objectiv e measurements outlined in standard air \npermitting/engineering reference materials including, but not limited to: permitting handbooks, \npermitting manuals, permitting guidance documents, source test/lab sampling results, and \nemissions factor clearinghouses . Therefore, the applicant was not required to submit any CEQA -\nrelated information.  \n \nNew Source Performance Standards (NSPS)  \nS-1 is not subject to NSPS.  \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP)  \nWaterway Marine  is not subject to the surface preparation and coating of marine vessels \n(NESHAP Subpart II) as it is not a major source, is not located at a major source, and is \nnot part of a major source of emissions of HAP."
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD)",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD)\nD)  \nThis application is not part of a PSD project as defined in Regulation 2 -2-224 because the facility \nwill not have the potential to emit 100 tons or more per year of any pollutants.   Therefore, the \nPSD requirements do not apply.  \n \n \n 5 School Notification  \nThis project is within 1,000 feet from the nearest K -12 school and is not located in an \nOverburdened and is therefore subject to the public notification requirements of"
+      },
+      {
+        "heading": "Regulation 2 -1-412. A public notice will be prepared and sent to all residents and",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Regulation 2 -1-412. A public notice will be prepared and sent to all residents and\nbusinesses located within 1,000 feet of the proposed source.   The schools that are within \n1,000 feet of the project:  \n1. San Rafael High School  \n150 3rd Street, San Rafael, CA 94901  \n2. Madrone High Continuation  \n185 Mission Avenue , San Rafael, CA 94901"
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nPermit Condition #1005 36 for S -1 Coating  Booth  \n1. The owner/operator of S -1 shall not exceed the following usage limits during any \nconsecutive twelve -month period:  \n \nTopcoat (Trinidad HD)        109 gallons  \nTopcoat (Prop Coat Barnacle Barrier)      5 gallons  \nPrimer (Interlux 2000e Primer)       15 gallons  \nPrimer 2 (Proline Low Temp)       3 gallons  \nAcetone                                           25 gallons  \n(Basis: Cumulative Increase)  \n \n2. The owner/operator of S -1 may use alternate coating(s) or clean up solvent(s) other \nthan the materials specified in Part 1 and/or usages in excess of those specified in Part \n1, provided that the owner/operator of S -1 can demonstrate that all of the followi ng \nare satisfied:  \na. Total POC emissions from S -1 do not exceed 338 pounds per year;  \nb. Total NPOC emissions from S -1 do not exceed 213 pounds per year;"
+      },
+      {
+        "heading": "c. The use of these materials does not increase toxic emissions above any risk",
+        "alias": "TOXICS",
+        "text": "c. The use of these materials does not increase toxic emissions above any risk\nscreening trigger level of Table 2 -5-1 in Regulation 2 -5. \n(Basis: Cumulative Increase, Regulation 2 -5) \n \n3. The owner/operator of S -1 shall only use coatings with VOC content less than that \nrequired by Regulation 8 -43 at the facility.  \n(Basis: Cumulative Increase ) \n \n4. To determine compliance with the above parts, the owner/operator of S -1 shall \nmaintain the following records and provide all of the data necessary to evaluate"
+      },
+      {
+        "heading": "compliance with the above parts, including the following information:",
+        "alias": "SOC",
+        "text": "compliance with the above parts, including the following information:\na. Types and quantities of each coating and solvent used at S -1 on a monthly \nbasis  \nb. If a material other than those specified in Part 1 is used and/or usages in \nexcess of those specified in Part 1, the owner/operator of S -1 shall record the \nfollowing on a daily basis:  \n \n 6 i. Usage amounts of each alternative material used;"
+      },
+      {
+        "heading": "ii. POC, NPOC, and toxic contents of each material used; and",
+        "alias": "TOXICS",
+        "text": "ii. POC, NPOC, and toxic contents of each material used; and\niii. Mass emission estimates of POC, NPOC, and toxic air contaminants \non a monthly basis to demonstrate compliance with Part 2.  \nc. Monthly usage and/or emission calculations shall be totaled for each \nconsecutive twelve -month period to demonstrate compliance with Part 1 and \nPart 2.  \n \nAll records shall be maintained on -site for at least two years, from the date of entry, \nand made available for inspection by District staff upon request. These recordkeeping \nrequirements shall not replace the recordkeeping requirements contained in any \nDistrict Regulations.  \n(Basis: Cumulative Increase, Regulations 2 -5, 8-43) \n \n \nEnd of Conditions"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\non  \n \nThe Air District has reviewed the material contained in the permit application for the \nproposed project and has made a preliminary determination that the project is expected to \ncomply with all applicable requirements of District, state, and federal air qua lity-related \nregulations. The preliminary recommendation is to issue an Authority to Construct for the \nequipment listed below. However, the proposed source triggers public notification"
+      },
+      {
+        "heading": "requirements per Regulation 2 -1-412. After the comments are received fr om the public and",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "requirements per Regulation 2 -1-412. After the comments are received fr om the public and\nreviewed, the Air District will make a final determination on the permit.  \n \nI recommend that the District initiates a public notice and consider any comments received \nprior to taking any final action on issuance of a Permit to Operate for the following \nequipment:    \n \nS-1  Marine Vessel Coating Booth  \nBrush and roll painting method  \n132 gallons of coating per year, 25 gallons cleanup solvent  \n \nPrepared by:  Matthew Green , Air Quality Engineer   Date:  3/20/2025"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nFacility ID No. 203675 \nWaterway Marine  \n145 3rd St, San Rafael , CA, 9 4901  \nApplication No. 712926"
+      }
+    ]
+  }
+}

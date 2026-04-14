@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Permit Comparison QAQC Review</title>
+  <script src="permit_review_data.js"></script>
+  <style>
+    :root {
+      --bg: #edf4f8;
+      --panel: #ffffff;
+      --panel-strong: #eef6fb;
+      --line: #c3d2db;
+      --text: #182836;
+      --muted: #5f7480;
+      --accent: #0486cc;
+      --accent-soft: #60b7e6;
+      --ok: #0d6f99;
+      --warn: #fe7349;
+      --high: #c75432;
+      --shadow: 0 12px 28px rgba(24, 40, 54, 0.10);
+      --radius: 16px;
+      --sans: Arial, Roboto, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(96, 183, 230, 0.28), transparent 22%),
+        linear-gradient(180deg, #f9fcfe 0%, var(--bg) 100%);
+    }
+    .app-header {
+      padding: 22px 28px 16px;
+      border-bottom: 1px solid rgba(4, 134, 204, 0.18);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(8px);
+      background: rgba(249, 252, 254, 0.92);
+    }
+    .header-top {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+    }
+    .subtitle { margin-top: 6px; color: var(--muted); max-width: 980px; }
+    .toolbar, .badge-row, .badge-stack, .inline-actions, .pdf-controls, .pdf-links {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .toolbar { margin-top: 14px; }
+    button, select, input, textarea { font: inherit; }
+    button, .button-link {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 9px 14px;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+      text-decoration: none;
+    }
+    button.primary { background: var(--accent); color: white; border-color: var(--accent); }
+    .app-shell {
+      display: grid;
+      grid-template-columns: 340px minmax(0, 1fr);
+      gap: 18px;
+      padding: 18px;
+      align-items: start;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid rgba(24, 40, 54, 0.08);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .filters {
+      position: sticky;
+      top: 118px;
+      padding: 18px;
+      max-height: calc(100vh - 136px);
+      overflow: auto;
+    }
+    .workspace { display: grid; gap: 18px; }
+    .tab-bar { display: flex; gap: 10px; flex-wrap: wrap; }
+    .tab-button {
+      border-radius: 999px;
+      padding: 10px 16px;
+      background: #eef6fb;
+      border: 1px solid rgba(24, 40, 54, 0.08);
+      font-weight: 700;
+    }
+    .tab-button.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .workspace-tab { display: none; gap: 18px; }
+    .workspace-tab.active { display: grid; }
+    .detail-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.65fr);
+      gap: 18px;
+    }
+    .pdf-grid, .diff-grid, .analysis-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .tri-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .summary-strip, .detail-panel, .review-panel, .pdf-panel, .focus-panel, .app-panel { padding: 18px; }
+    .form-grid { display: grid; gap: 10px; }
+    label { display: grid; gap: 6px; font-size: 13px; color: var(--muted); }
+    input[type="text"], input[type="number"], select, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px 12px;
+      background: white;
+      color: var(--text);
+    }
+    textarea { min-height: 112px; resize: vertical; }
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin: 12px 0 16px;
+    }
+    .stat, .mini-panel, .callout, .diff-box, .result-card, .pdf-card, .focus-panel {
+      border: 1px solid rgba(24, 40, 54, 0.08);
+      background: white;
+      border-radius: 14px;
+    }
+    .stat, .mini-panel, .callout { padding: 14px; }
+    .stat b { display: block; font-size: 20px; color: var(--accent); }
+    .results { display: grid; gap: 10px; margin-top: 16px; }
+    .result-card {
+      padding: 14px;
+      cursor: pointer;
+      transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+    }
+    .result-card:hover { transform: translateY(-1px); border-color: rgba(4, 134, 204, 0.35); }
+    .result-card.active { background: #f2f9fd; border-color: rgba(4, 134, 204, 0.55); }
+    .result-title { display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; margin-bottom: 8px; }
+    .muted { color: var(--muted); }
+    .small { font-size: 12px; }
+    .badge {
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      background: #eef6fb;
+      color: #305468;
+    }
+    .badge.high { background: #fde4dc; color: var(--high); }
+    .badge.medium { background: #fff0e9; color: var(--warn); }
+    .badge.low, .badge.status-verified { background: #e5f3fb; color: var(--ok); }
+    .badge.status-needs-follow-up { background: #fde4dc; color: var(--high); }
+    .callout { border-left: 4px solid var(--accent); background: var(--panel-strong); }
+    .diff-box { overflow: hidden; }
+    .diff-box header, .pdf-head {
+      padding: 10px 12px;
+      font-weight: 700;
+      background: #f4f9fc;
+      border-bottom: 1px solid rgba(24, 40, 54, 0.08);
+    }
+    .diff-content { padding: 14px; white-space: pre-wrap; line-height: 1.55; font-size: 13px; }
+    mark.add { background: #dff1fb; color: #0d5478; padding: 0 2px; border-radius: 4px; }
+    mark.del { background: #fde0d7; color: #8d3b23; padding: 0 2px; border-radius: 4px; }
+    .review-footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 12px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .focus-panel {
+      background: linear-gradient(135deg, #fafdff 0%, #edf5fa 100%);
+      display: grid;
+      gap: 12px;
+    }
+    .focus-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .focus-item {
+      padding: 12px;
+      background: rgba(255,255,255,0.72);
+      border-radius: 12px;
+      border: 1px solid rgba(24, 40, 54, 0.08);
+    }
+    .pdf-card { min-height: 820px; display: grid; grid-template-rows: auto 1fr; overflow: hidden; }
+    .app-catalog { display: grid; gap: 10px; }
+    .app-card { padding: 12px; border: 1px solid rgba(24, 40, 54, 0.08); border-radius: 12px; background: white; }
+    .pdf-stage {
+      position: relative;
+      overflow: auto;
+      background: #edf4f8;
+      padding: 10px;
+    }
+    .pdf-image-wrap {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      background: #fff;
+      box-shadow: 0 10px 22px rgba(31, 36, 34, 0.12);
+    }
+    .pdf-image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .pdf-highlight {
+      position: absolute;
+      border: 2px solid rgba(254, 115, 73, 0.95);
+      background: rgba(96, 183, 230, 0.22);
+      box-shadow: 0 0 0 2px rgba(255,255,255,0.8) inset;
+      pointer-events: none;
+    }
+    .pdf-links { margin-top: 10px; }
+    .req-id {
+      font-weight: 700;
+      color: var(--accent);
+      display: inline-block;
+      margin-right: 6px;
+    }
+    .cond-break {
+      display: block;
+      height: 12px;
+    }
+    .empty-state { display: grid; place-items: center; color: var(--muted); font-size: 14px; padding: 24px; text-align: center; }
+    @media (max-width: 1280px) {
+      .app-shell, .detail-grid, .pdf-grid, .diff-grid, .analysis-grid, .focus-grid, .tri-grid { grid-template-columns: 1fr; }
+      .filters { position: static; max-height: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-top">
+      <div>
+        <h1>Permit Comparison QAQC Review</h1>
+        <div class="subtitle">Cross-check each identified permit change against the underlying PDFs, filter by issue type, and capture reviewer overrides and comments in a workflow that is usable offline.</div>
+      </div>
+      <div class="badge-row" id="headerMeta"></div>
+    </div>
+    <div class="toolbar">
+      <button class="primary" id="exportReviews">Export QAQC Notes</button>
+      <button id="importReviews">Import QAQC Notes</button>
+      <button id="clearReviews">Clear Saved Notes</button>
+      <a class="button-link" id="openOldPdf" target="_blank" rel="noreferrer">Open Old PDF</a>
+      <a class="button-link" id="openNewPdf" target="_blank" rel="noreferrer">Open New PDF</a>
+      <input type="file" id="importFile" accept=".json" hidden>
+    </div>
+  </header>
+
+  <div class="app-shell">
+    <aside class="panel filters">
+      <h2>Filters</h2>
+      <div class="form-grid">
+        <label>Search<input type="text" id="searchInput" placeholder="ID, section, analysis, text"></label>
+        <label>Subject Tag<select id="subjectFilter"></select></label>
+        <label>Change Type<select id="changeTypeFilter"></select></label>
+        <label>Consultant Conclusion<select id="conclusionFilter"></select></label>
+        <label>Risk Level<select id="riskFilter"></select></label>
+        <label>Requested Basis<select id="requestedFilter"></select></label>
+        <label>Review Status<select id="statusFilter"></select></label>
+      </div>
+      <div class="stat-grid" id="statsGrid"></div>
+      <h2>Changes</h2>
+      <div class="results" id="resultList"></div>
+    </aside>
+
+    <main class="workspace">
+      <section class="panel summary-strip">
+        <div>
+          <h2 id="selectedHeading">Select a comparison row</h2>
+          <div class="muted" id="selectedSections">No change selected.</div>
+        </div>
+        <div class="badge-stack" id="selectedBadges"></div>
+      </section>
+
+      <section class="tab-bar">
+        <button class="tab-button active" data-tab="reviewTab">Change Review</button>
+        <button class="tab-button" data-tab="pdfTab">PDF Cross-Check</button>
+        <button class="tab-button" data-tab="applicationTab">Application Cross-Check</button>
+      </section>
+
+      <section class="workspace-tab active" id="reviewTab">
+      <section class="detail-grid">
+        <article class="panel detail-panel">
+          <div class="callout">
+            <strong>Core change</strong>
+            <div id="coreChangeText" class="small">Select a row to review the core difference.</div>
+          </div>
+          <div class="tri-grid" style="margin-top:14px;">
+            <section class="diff-box"><header>Old permit text</header><div class="diff-content" id="oldDiffText"></div></section>
+            <section class="diff-box"><header>New permit text</header><div class="diff-content" id="newDiffText"></div></section>
+            <section class="diff-box"><header>Requested text in application</header><div class="diff-content" id="applicationDiffText"></div></section>
+          </div>
+          <div class="analysis-grid" style="margin-top:16px;">
+            <section class="mini-panel"><strong>Initial analysis</strong><div id="initialAnalysis"></div></section>
+            <section class="mini-panel"><strong>Regulatory / compliance impact</strong><div id="regImpact"></div></section>
+            <section class="mini-panel"><strong>Operational impact</strong><div id="opImpact"></div></section>
+            <section class="mini-panel"><strong>Recommended follow-up</strong><div id="followUp"></div></section>
+            <section class="mini-panel"><strong>Application source</strong><div id="applicationSource"></div></section>
+            <section class="mini-panel"><strong>Application basis</strong><div id="applicationBasis"></div></section>
+          </div>
+        </article>
+
+        <aside class="panel review-panel">
+          <h2>Reviewer QAQC</h2>
+          <div class="form-grid">
+            <label>Review status<select id="reviewStatus"></select></label>
+            <label>Verified primary subject<select id="verifiedPrimary"></select></label>
+            <label>Verified secondary subject<input type="text" id="verifiedSecondary" list="subjectOptions" placeholder="Optional override"></label>
+            <label>Verified conclusion<select id="verifiedConclusion"></select></label>
+            <label>Verified risk<select id="verifiedRisk"></select></label>
+            <label>Reviewer comments<textarea id="reviewerComments" placeholder="Capture your verification notes, disagreement, or permit-comment language."></textarea></label>
+            <label>Action items / follow-up<textarea id="reviewerActions" placeholder="Client questions, agency follow-up, or internal QA items."></textarea></label>
+          </div>
+          <div class="review-footer">
+            <div id="saveStatus">No saved review yet.</div>
+            <div class="inline-actions"><button id="resetCurrent">Reset Current Row</button></div>
+          </div>
+        </aside>
+      </section>
+      </section>
+
+      <section class="workspace-tab" id="pdfTab">
+      <section class="focus-panel" id="focusPanel">
+        <div class="badge-row" id="focusBadges"></div>
+        <div class="callout">
+          <strong>Current condition focus</strong>
+          <div id="focusSummary" class="small">Select a row to focus the PDF review.</div>
+        </div>
+        <div class="focus-grid">
+          <div class="focus-item"><strong>Old section</strong><div id="focusOldSection" class="small muted"></div></div>
+          <div class="focus-item"><strong>New section</strong><div id="focusNewSection" class="small muted"></div></div>
+          <div class="focus-item"><strong>Mapped pages</strong><div id="focusPages" class="small muted"></div></div>
+        </div>
+      </section>
+      <section class="panel pdf-panel">
+        <h2>Side-by-Side PDF Cross-Check</h2>
+        <div class="pdf-grid">
+          <section class="pdf-card">
+            <div class="pdf-head"><div><strong>Old permit PDF excerpt</strong><div class="muted small" id="oldPdfLabel"></div></div></div>
+            <div class="pdf-stage"><div class="pdf-image-wrap" id="oldPdfWrap"></div></div>
+            <div class="pdf-links"><a class="button-link" id="oldPageLink" target="_blank" rel="noreferrer">Open old PDF at page</a></div>
+          </section>
+          <section class="pdf-card">
+            <div class="pdf-head"><div><strong>New permit PDF excerpt</strong><div class="muted small" id="newPdfLabel"></div></div></div>
+            <div class="pdf-stage"><div class="pdf-image-wrap" id="newPdfWrap"></div></div>
+            <div class="pdf-links"><a class="button-link" id="newPageLink" target="_blank" rel="noreferrer">Open new PDF at page</a></div>
+          </section>
+        </div>
+      </section>
+      </section>
+
+      <section class="workspace-tab" id="applicationTab">
+      <section class="focus-panel" id="applicationFocusPanel">
+        <div class="badge-row" id="applicationBadges"></div>
+        <div class="callout">
+          <strong>Application request focus</strong>
+          <div id="applicationSummary" class="small">Select a row to review the supporting application basis.</div>
+        </div>
+        <div class="focus-grid">
+          <div class="focus-item"><strong>Requested status</strong><div id="applicationRequestedStatus" class="small muted"></div></div>
+          <div class="focus-item"><strong>Application file</strong><div id="applicationFileName" class="small muted"></div></div>
+          <div class="focus-item"><strong>Evidence type</strong><div id="applicationEvidenceType" class="small muted"></div></div>
+          <div class="focus-item"><strong>Application page</strong><div id="applicationPageInfo" class="small muted"></div></div>
+        </div>
+      </section>
+      <section class="panel app-panel">
+        <h2>Application Cross-Check</h2>
+        <div class="detail-grid">
+          <section class="pdf-card">
+            <div class="pdf-head"><div><strong>Application PDF excerpt</strong><div class="muted small" id="applicationPdfLabel"></div></div></div>
+            <div class="pdf-stage"><div class="pdf-image-wrap" id="applicationPdfWrap"></div></div>
+            <div class="pdf-links"><a class="button-link" id="applicationPageLink" target="_blank" rel="noreferrer">Open application PDF at page</a></div>
+          </section>
+          <aside class="panel review-panel">
+            <h2>Uploaded Applications</h2>
+            <div class="app-catalog" id="applicationCatalog"></div>
+          </aside>
+        </div>
+      </section>
+      </section>
+    </main>
+  </div>
+
+  <datalist id="subjectOptions"></datalist>
+  <script>
+    const DATA = window.PERMIT_REVIEW_DATA;
+    const STORAGE_KEY = "permit-review-qaqc-v1";
+    const STATUS_OPTIONS = ["Unreviewed", "In Review", "Verified", "Needs Follow-up"];
+    const reviewState = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    const filters = { search: "", subject: "All", changeType: "All", conclusion: "All", risk: "All", requested: "All", status: "All" };
+    let selectedId = DATA.rows[0]?.id || null;
+
+    const els = {
+      headerMeta: document.getElementById("headerMeta"),
+      searchInput: document.getElementById("searchInput"),
+      subjectFilter: document.getElementById("subjectFilter"),
+      changeTypeFilter: document.getElementById("changeTypeFilter"),
+      conclusionFilter: document.getElementById("conclusionFilter"),
+      riskFilter: document.getElementById("riskFilter"),
+      requestedFilter: document.getElementById("requestedFilter"),
+      statusFilter: document.getElementById("statusFilter"),
+      statsGrid: document.getElementById("statsGrid"),
+      resultList: document.getElementById("resultList"),
+      selectedHeading: document.getElementById("selectedHeading"),
+      selectedSections: document.getElementById("selectedSections"),
+      selectedBadges: document.getElementById("selectedBadges"),
+      coreChangeText: document.getElementById("coreChangeText"),
+      oldDiffText: document.getElementById("oldDiffText"),
+      newDiffText: document.getElementById("newDiffText"),
+      applicationDiffText: document.getElementById("applicationDiffText"),
+      initialAnalysis: document.getElementById("initialAnalysis"),
+      regImpact: document.getElementById("regImpact"),
+      opImpact: document.getElementById("opImpact"),
+      followUp: document.getElementById("followUp"),
+      applicationSource: document.getElementById("applicationSource"),
+      applicationBasis: document.getElementById("applicationBasis"),
+      tabButtons: [...document.querySelectorAll(".tab-button")],
+      reviewTab: document.getElementById("reviewTab"),
+      pdfTab: document.getElementById("pdfTab"),
+      applicationTab: document.getElementById("applicationTab"),
+      focusBadges: document.getElementById("focusBadges"),
+      focusSummary: document.getElementById("focusSummary"),
+      focusOldSection: document.getElementById("focusOldSection"),
+      focusNewSection: document.getElementById("focusNewSection"),
+      focusPages: document.getElementById("focusPages"),
+      reviewStatus: document.getElementById("reviewStatus"),
+      verifiedPrimary: document.getElementById("verifiedPrimary"),
+      verifiedSecondary: document.getElementById("verifiedSecondary"),
+      verifiedConclusion: document.getElementById("verifiedConclusion"),
+      verifiedRisk: document.getElementById("verifiedRisk"),
+      reviewerComments: document.getElementById("reviewerComments"),
+      reviewerActions: document.getElementById("reviewerActions"),
+      saveStatus: document.getElementById("saveStatus"),
+      resetCurrent: document.getElementById("resetCurrent"),
+      oldPdfWrap: document.getElementById("oldPdfWrap"),
+      newPdfWrap: document.getElementById("newPdfWrap"),
+      oldPdfLabel: document.getElementById("oldPdfLabel"),
+      newPdfLabel: document.getElementById("newPdfLabel"),
+      oldPageLink: document.getElementById("oldPageLink"),
+      newPageLink: document.getElementById("newPageLink"),
+      applicationBadges: document.getElementById("applicationBadges"),
+      applicationSummary: document.getElementById("applicationSummary"),
+      applicationRequestedStatus: document.getElementById("applicationRequestedStatus"),
+      applicationFileName: document.getElementById("applicationFileName"),
+      applicationEvidenceType: document.getElementById("applicationEvidenceType"),
+      applicationPageInfo: document.getElementById("applicationPageInfo"),
+      applicationPdfWrap: document.getElementById("applicationPdfWrap"),
+      applicationPdfLabel: document.getElementById("applicationPdfLabel"),
+      applicationPageLink: document.getElementById("applicationPageLink"),
+      applicationCatalog: document.getElementById("applicationCatalog"),
+      exportReviews: document.getElementById("exportReviews"),
+      importReviews: document.getElementById("importReviews"),
+      importFile: document.getElementById("importFile"),
+      clearReviews: document.getElementById("clearReviews"),
+      openOldPdf: document.getElementById("openOldPdf"),
+      openNewPdf: document.getElementById("openNewPdf"),
+      subjectOptions: document.getElementById("subjectOptions")
+    };
+
+    function escapeHtml(text) {
+      return (text || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    }
+
+    function getReview(id) {
+      return reviewState[id] || {};
+    }
+
+    function defaultReview(row) {
+      return {
+        status: "Unreviewed",
+        verifiedPrimary: row.subjectPrimary,
+        verifiedSecondary: row.subjectSecondary || "",
+        verifiedConclusion: row.consultantConclusion,
+        verifiedRisk: row.riskLevel,
+        comments: "",
+        actions: "",
+        oldPage: row.oldPage || "",
+        newPage: row.newPage || "",
+        updatedAt: ""
+      };
+    }
+
+    function mergedReview(row) {
+      return { ...defaultReview(row), ...getReview(row.id) };
+    }
+
+    function saveReview(id, patch) {
+      const row = DATA.rows.find((item) => item.id === id);
+      if (!row) return;
+      reviewState[id] = { ...mergedReview(row), ...patch, updatedAt: new Date().toLocaleString() };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(reviewState));
+      renderStats(filteredRows());
+      renderList();
+      renderDetail();
+    }
+
+    function optionFill(select, items, includeAll = false) {
+      const values = includeAll ? ["All", ...items] : items;
+      select.innerHTML = values.map((item) => `<option value="${escapeHtml(item)}">${escapeHtml(item)}</option>`).join("");
+    }
+
+    function badgeClass(value) {
+      const lower = String(value || "").toLowerCase();
+      if (lower === "high") return "badge high";
+      if (lower === "medium") return "badge medium";
+      if (lower === "low") return "badge low";
+      if (lower.includes("verified")) return "badge status-verified";
+      if (lower.includes("follow-up")) return "badge status-needs-follow-up";
+      return "badge";
+    }
+
+    function renderHeader() {
+      els.headerMeta.innerHTML = [
+        `<span class="badge">${DATA.meta.rowCount} comparison rows</span>`,
+        `<span class="badge">${escapeHtml(DATA.meta.oldPdf)}</span>`,
+        `<span class="badge">${escapeHtml(DATA.meta.newPdf)}</span>`
+      ].join("");
+      els.openOldPdf.href = encodeURI(DATA.meta.oldPdf);
+      els.openNewPdf.href = encodeURI(DATA.meta.newPdf);
+      els.applicationCatalog.innerHTML = (DATA.applications || []).map((app) => `
+        <article class="app-card">
+          <div class="badge-row">
+            <span class="badge">${escapeHtml(app.amendmentType)}</span>
+            <span class="badge">${escapeHtml(app.relevance)}</span>
+          </div>
+          <p style="margin:8px 0 4px;"><strong>${escapeHtml(app.file)}</strong></p>
+          <p class="small muted" style="margin:0 0 6px;">${escapeHtml(app.summary)}</p>
+          <p class="small muted" style="margin:0 0 10px;">${escapeHtml(app.note)}</p>
+          <a class="button-link" href="${encodeURI(app.path)}" target="_blank" rel="noreferrer">Open application PDF</a>
+        </article>
+      `).join("");
+    }
+
+    function filteredRows() {
+      const q = filters.search.trim().toLowerCase();
+      return DATA.rows.filter((row) => {
+        const review = mergedReview(row);
+        const haystack = [
+          row.id, row.oldSection, row.newSection, row.subjectPrimary, row.subjectSecondary,
+          row.changeType, row.consultantConclusion, row.coreChange, row.initialAnalysis, row.oldText, row.newText,
+          row.requestedChangeStatus, row.applicationSource, row.applicationBasis, row.applicationText
+        ].join(" ").toLowerCase();
+        const requestedMatch = filters.requested === "All"
+          || (filters.requested === "Requested or related" && ["Requested", "Related to requested change"].includes(row.requestedChangeStatus))
+          || (filters.requested === "Not requested" && row.requestedChangeStatus === "Not identified in application")
+          || (filters.requested === "Legacy / other" && row.requestedChangeStatus === "Legacy or structural only");
+        return (!q || haystack.includes(q))
+          && (filters.subject === "All" || row.subjectPrimary === filters.subject)
+          && (filters.changeType === "All" || row.changeType === filters.changeType)
+          && (filters.conclusion === "All" || row.consultantConclusion === filters.conclusion)
+          && (filters.risk === "All" || row.riskLevel === filters.risk)
+          && requestedMatch
+          && (filters.status === "All" || review.status === filters.status);
+      }).sort((a, b) => (a.importanceRank - b.importanceRank) || a.id.localeCompare(b.id));
+    }
+
+    function renderStats(rows) {
+      const verified = rows.filter((row) => mergedReview(row).status === "Verified").length;
+      const followUp = rows.filter((row) => mergedReview(row).status === "Needs Follow-up").length;
+      const significant = rows.filter((row) => row.consultantConclusion === "Significant changes").length;
+      const substantive = rows.filter((row) => !["No change", "Possible relocation or renumbering"].includes(row.changeType)).length;
+      const requested = rows.filter((row) => ["Requested", "Related to requested change"].includes(row.requestedChangeStatus)).length;
+      const unreviewed = rows.filter((row) => mergedReview(row).status === "Unreviewed").length;
+      els.statsGrid.innerHTML = [
+        ["Visible rows", rows.length], ["Verified", verified], ["Needs follow-up", followUp],
+        ["Significant", significant], ["Requested", requested], ["Unreviewed", unreviewed]
+      ].map(([label, value]) => `<div class="stat"><span>${label}</span><b>${value}</b></div>`).join("");
+    }
+
+    function renderList() {
+      const rows = filteredRows();
+      if (!rows.find((row) => row.id === selectedId)) selectedId = rows[0]?.id || null;
+      if (!rows.length) {
+        els.resultList.innerHTML = `<div class="empty-state">No rows match the current filters.</div>`;
+        return;
+      }
+      els.resultList.innerHTML = rows.map((row) => {
+        const review = mergedReview(row);
+        return `
+          <article class="result-card ${row.id === selectedId ? "active" : ""}" data-id="${row.id}">
+            <div class="result-title">
+              <div>
+                <strong>${row.id}</strong>
+                <div class="muted small">${escapeHtml(row.newSection !== "No direct equivalent" ? row.newSection : row.oldSection)}</div>
+              </div>
+              <span class="${badgeClass(review.status)}">${escapeHtml(review.status)}</span>
+            </div>
+            <div class="badge-row">
+              <span class="badge">${escapeHtml(row.subjectPrimary)}</span>
+              <span class="badge">${escapeHtml(row.reviewPriority || "Watch")}</span>
+              <span class="${badgeClass(row.riskLevel)}">${escapeHtml(row.riskLevel)}</span>
+              <span class="badge">${escapeHtml(row.changeType)}</span>
+            </div>
+            <p class="small" style="margin:10px 0 0; line-height:1.5;">${escapeHtml(row.coreChange)}</p>
+          </article>`;
+      }).join("");
+      [...els.resultList.querySelectorAll(".result-card")].forEach((card) => {
+        card.addEventListener("click", () => {
+          selectedId = card.dataset.id;
+          renderList();
+          renderDetail();
+        });
+      });
+    }
+
+    function normalizeDiffText(text) {
+      return (text || "")
+        .replace(/\bth\s+is\b/gi, "this")
+        .replace(/\bth\s+e\b/gi, "the")
+        .replace(/\bfr\s+om\b/gi, "from")
+        .replace(/\bme\s+et\b/gi, "meet")
+        .replace(/\bte\s+st\b/gi, "test")
+        .replace(/\bfo\s+r\b/gi, "for")
+        .replace(/\bth\s+an\b/gi, "than")
+        .replace(/\bdu\s+e\b/gi, "due")
+        .replace(/\bmo\s+st\b/gi, "most")
+        .replace(/\bea\s+ch\b/gi, "each")
+        .replace(/\bworst\s*-\s*case\b/gi, "worst-case")
+        .replace(/\bworstcase\b/gi, "worst-case")
+        .replace(/\bshort\s*-\s*term\b/gi, "short-term")
+        .replace(/\bshortterm\b/gi, "short-term")
+        .replace(/\bhard\s*-\s*copy\b/gi, "hard-copy")
+        .replace(/\bthroughputlimits\b/gi, "throughput limits")
+        .replace(/\bthroughputlimit\b/gi, "throughput limit")
+        .replace(/\bthoughputlimits\b/gi, "throughput limits")
+        .replace(/\bthoughputlimit\b/gi, "throughput limit")
+        .replace(/\blimit\s+s\b/gi, "limits")
+        .replace(/\bdescribedat\b/gi, "described at")
+        .replace(/\btodocument\b/gi, "to document")
+        .replace(/\bmusttest\b/gi, "must test")
+        .replace(/\bbyMPCA\b/g, "by MPCA")
+        .replace(/\bfollow up\b/gi, "follow-up")
+        .replace(/\b([1-9])\s+(0\d{2}\.\d{4})\b/g, "$1$2");
+    }
+
+    function tokenizeWords(text) {
+      return normalizeDiffText(text).replace(/\n{2,}/g, " §P§ ").match(/§P§|\w+|[^\s\w]+/g) || [];
+    }
+
+    function splitSentences(text) {
+      return (text || "").split(/(?<=[.!?])\s+/).filter(Boolean);
+    }
+
+    function lcsDiff(a, b) {
+      const m = a.length;
+      const n = b.length;
+      const dp = Array.from({ length: m + 1 }, () => Array(n + 1).fill(0));
+      for (let i = m - 1; i >= 0; i -= 1) {
+        for (let j = n - 1; j >= 0; j -= 1) {
+          dp[i][j] = a[i] === b[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+        }
+      }
+      const oldOps = [];
+      const newOps = [];
+      let i = 0;
+      let j = 0;
+      while (i < m && j < n) {
+        if (a[i] === b[j]) {
+          oldOps.push({ type: "same", value: a[i] });
+          newOps.push({ type: "same", value: b[j] });
+          i += 1;
+          j += 1;
+        } else if (dp[i + 1][j] >= dp[i][j + 1]) {
+          oldOps.push({ type: "del", value: a[i] });
+          i += 1;
+        } else {
+          newOps.push({ type: "add", value: b[j] });
+          j += 1;
+        }
+      }
+      while (i < m) oldOps.push({ type: "del", value: a[i++] });
+      while (j < n) newOps.push({ type: "add", value: b[j++] });
+      return { oldOps, newOps };
+    }
+
+    function renderOps(ops) {
+      const closers = /^[,.;:!?%)\]]$/;
+      const openers = /^[(\[]$/;
+      let html = "";
+      let previous = null;
+      ops.forEach((op) => {
+        const token = op.value;
+        if (token === "§P§") {
+          html += `<span class="cond-break"></span>`;
+          previous = null;
+          return;
+        }
+        const safe = escapeHtml(token);
+        const needsSpace = previous && !closers.test(token) && !openers.test(previous) && previous !== "/";
+        if (needsSpace) html += " ";
+        const formatted = /^\d+\.\d+\.\d+$/.test(token) ? `<span class="req-id">${safe}</span>` : safe;
+        if (op.type === "add") html += `<mark class="add">${formatted}</mark>`;
+        else if (op.type === "del") html += `<mark class="del">${formatted}</mark>`;
+        else html += formatted;
+        previous = token;
+      });
+      return html;
+    }
+
+    function plainHtml(text) {
+      return renderOps((tokenizeWords(text) || []).map((value) => ({ type: "same", value })));
+    }
+
+    function diffHtml(row) {
+      const oldText = row.oldText || "";
+      const newText = row.newText || "";
+      if (row.oldSection === "No direct equivalent" || row.newSection === "No direct equivalent") {
+        return { oldHtml: plainHtml(oldText), newHtml: plainHtml(newText) };
+      }
+      const wordA = tokenizeWords(oldText);
+      const wordB = tokenizeWords(newText);
+      const useWords = wordA.length * wordB.length <= 1200000;
+      const a = useWords ? wordA : splitSentences(normalizeDiffText(oldText));
+      const b = useWords ? wordB : splitSentences(normalizeDiffText(newText));
+      const diff = lcsDiff(a, b);
+      return { oldHtml: renderOps(diff.oldOps), newHtml: renderOps(diff.newOps) };
+    }
+
+    function setActiveTab(tabId) {
+      els.tabButtons.forEach((button) => button.classList.toggle("active", button.dataset.tab === tabId));
+      els.reviewTab.classList.toggle("active", tabId === "reviewTab");
+      els.pdfTab.classList.toggle("active", tabId === "pdfTab");
+      els.applicationTab.classList.toggle("active", tabId === "applicationTab");
+    }
+
+    function renderPageView(container, fileName, page, asset, rects, labelEl, linkEl, emptyMessage = "No mapped page image available.") {
+      if (!page) {
+        labelEl.textContent = "No page image mapped for this side of the comparison.";
+        container.innerHTML = `<div class="empty-state">${escapeHtml(emptyMessage)}</div>`;
+        linkEl.removeAttribute("href");
+        return;
+      }
+      labelEl.textContent = `${fileName} · page ${page}`;
+      linkEl.href = `${encodeURI(fileName)}#page=${page}`;
+      if (!asset) {
+        container.innerHTML = `<div class="empty-state">${escapeHtml(emptyMessage)}</div>`;
+        return;
+      }
+      const assetUrl = DATA.meta.generatedAt ? `${encodeURI(asset)}?v=${encodeURIComponent(DATA.meta.generatedAt)}` : encodeURI(asset);
+      const highlights = (rects || []).map((rect) => `
+        <div class="pdf-highlight" title="${escapeHtml(rect.reqId || "")}" style="
+          left:${rect.x * 100}%;
+          top:${rect.y * 100}%;
+          width:${rect.w * 100}%;
+          height:${rect.h * 100}%;">
+        </div>`).join("");
+      container.innerHTML = `
+        <img class="pdf-image" src="${assetUrl}" alt="${escapeHtml(fileName)} page ${page}">
+        ${highlights}
+      `;
+    }
+ 
+    function renderDetail() {
+      const row = DATA.rows.find((item) => item.id === selectedId);
+      if (!row) return;
+      const review = mergedReview(row);
+      const diff = diffHtml(row);
+      const applicationEvidenceNote = row.applicationEvidenceType
+        ? `<div class="small muted" style="margin-bottom:8px;">${escapeHtml(row.applicationEvidenceType)}</div>`
+        : "";
+      els.selectedHeading.textContent = `${row.id} · ${row.coreChange}`;
+      els.selectedSections.textContent = `Old: ${row.oldSection} | New: ${row.newSection}`;
+      els.selectedBadges.innerHTML = [
+        `<span class="badge">${escapeHtml(row.subjectPrimary)}</span>`,
+        row.subjectSecondary ? `<span class="badge">${escapeHtml(row.subjectSecondary)}</span>` : "",
+        row.requestedChangeStatus ? `<span class="badge">${escapeHtml(row.requestedChangeStatus)}</span>` : "",
+        row.reviewPriority ? `<span class="badge">${escapeHtml(row.reviewPriority)}</span>` : "",
+        `<span class="badge">${escapeHtml(row.changeType)}</span>`,
+        `<span class="${badgeClass(row.riskLevel)}">${escapeHtml(row.riskLevel)}</span>`,
+        `<span class="badge">${escapeHtml(row.consultantConclusion)}</span>`
+      ].join("");
+      els.coreChangeText.textContent = row.coreChange;
+      els.oldDiffText.innerHTML = diff.oldHtml || `<span class="muted">No old text.</span>`;
+      els.newDiffText.innerHTML = diff.newHtml || `<span class="muted">No new text.</span>`;
+      els.applicationDiffText.innerHTML = row.applicationText
+        ? `${applicationEvidenceNote}${plainHtml(row.applicationText)}`
+        : `<span class="muted">No direct request language identified in the uploaded applications for this row.</span>`;
+      els.initialAnalysis.textContent = row.initialAnalysis;
+      els.regImpact.textContent = row.regulatoryImpact;
+      els.opImpact.textContent = row.operationalImpact;
+      els.followUp.textContent = row.recommendedFollowUp;
+      els.applicationSource.textContent = row.applicationSource || "None";
+      els.applicationBasis.textContent = row.applicationBasis || "No application basis mapped.";
+      els.focusBadges.innerHTML = [
+        `<span class="badge">${escapeHtml(row.id)}</span>`,
+        row.reviewPriority ? `<span class="badge">${escapeHtml(row.reviewPriority)}</span>` : "",
+        row.requestedChangeStatus ? `<span class="badge">${escapeHtml(row.requestedChangeStatus)}</span>` : "",
+        `<span class="badge">${escapeHtml(row.changeType)}</span>`,
+        `<span class="${badgeClass(row.riskLevel)}">${escapeHtml(row.riskLevel)}</span>`,
+        `<span class="badge">${escapeHtml(row.consultantConclusion)}</span>`
+      ].join("");
+      els.focusSummary.textContent = row.coreChange;
+      els.focusOldSection.textContent = row.oldSection || "No direct equivalent";
+      els.focusNewSection.textContent = row.newSection || "No direct equivalent";
+      els.focusPages.textContent = `Old page: ${review.oldPage || row.oldPage || "N/A"} | New page: ${review.newPage || row.newPage || "N/A"}`;
+      els.reviewStatus.value = review.status;
+      els.verifiedPrimary.value = review.verifiedPrimary;
+      els.verifiedSecondary.value = review.verifiedSecondary;
+      els.verifiedConclusion.value = review.verifiedConclusion;
+      els.verifiedRisk.value = review.verifiedRisk;
+      els.reviewerComments.value = review.comments;
+      els.reviewerActions.value = review.actions;
+      els.saveStatus.textContent = review.updatedAt ? `Saved ${review.updatedAt}` : "No saved review yet.";
+      renderPageView(
+        els.oldPdfWrap,
+        DATA.meta.oldPdf,
+        row.oldPage,
+        row.oldAsset,
+        row.oldHighlightRects,
+        els.oldPdfLabel,
+        els.oldPageLink,
+        "No mapped old permit page image available."
+      );
+      renderPageView(
+        els.newPdfWrap,
+        DATA.meta.newPdf,
+        row.newPage,
+        row.newAsset,
+        row.newHighlightRects,
+        els.newPdfLabel,
+        els.newPageLink,
+        "No mapped new permit page image available."
+      );
+      renderPageView(
+        els.applicationPdfWrap,
+        row.applicationPdf || "No application PDF mapped",
+        row.applicationPage,
+        row.applicationAsset,
+        row.applicationHighlightRects,
+        els.applicationPdfLabel,
+        els.applicationPageLink,
+        row.applicationMode === "support"
+          ? "Narrative application support is mapped for this row, but no Attachment A redline excerpt was identified. Use the page link to review the application narrative."
+          : "No Attachment A permit redline excerpt is mapped for this row."
+      );
+      els.applicationBadges.innerHTML = [
+        `<span class="badge">${escapeHtml(row.id)}</span>`,
+        row.requestedChangeStatus ? `<span class="badge">${escapeHtml(row.requestedChangeStatus)}</span>` : "",
+        row.applicationEvidenceType ? `<span class="badge">${escapeHtml(row.applicationEvidenceType)}</span>` : "",
+        row.applicationSource ? `<span class="badge">${escapeHtml(row.applicationSource)}</span>` : "",
+        row.reviewPriority ? `<span class="badge">${escapeHtml(row.reviewPriority)}</span>` : ""
+      ].join("");
+      els.applicationSummary.textContent = row.applicationText || "No direct request language identified in the uploaded applications for this row.";
+      els.applicationRequestedStatus.textContent = row.requestedChangeStatus || "N/A";
+      els.applicationFileName.textContent = row.applicationFile || row.applicationSource || "No application PDF mapped";
+      els.applicationEvidenceType.textContent = row.applicationEvidenceType || "No application evidence mapped";
+      els.applicationPageInfo.textContent = row.applicationPage ? `Page ${row.applicationPage}` : "No application page mapped";
+    }
+
+    function exportReviews() {
+      const blob = new Blob([JSON.stringify(reviewState, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "permit_review_qaqc_notes.json";
+      link.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function importReviewsObject(obj) {
+      Object.keys(reviewState).forEach((key) => delete reviewState[key]);
+      Object.assign(reviewState, obj || {});
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(reviewState));
+      renderStats(filteredRows());
+      renderList();
+      renderDetail();
+    }
+
+    function bindEvents() {
+      els.tabButtons.forEach((button) => button.addEventListener("click", () => setActiveTab(button.dataset.tab)));
+      els.searchInput.addEventListener("input", (e) => { filters.search = e.target.value; renderStats(filteredRows()); renderList(); });
+      els.subjectFilter.addEventListener("change", (e) => { filters.subject = e.target.value; renderStats(filteredRows()); renderList(); });
+      els.changeTypeFilter.addEventListener("change", (e) => { filters.changeType = e.target.value; renderStats(filteredRows()); renderList(); });
+      els.conclusionFilter.addEventListener("change", (e) => { filters.conclusion = e.target.value; renderStats(filteredRows()); renderList(); });
+      els.riskFilter.addEventListener("change", (e) => { filters.risk = e.target.value; renderStats(filteredRows()); renderList(); });
+      els.requestedFilter.addEventListener("change", (e) => { filters.requested = e.target.value; renderStats(filteredRows()); renderList(); });
+      els.statusFilter.addEventListener("change", (e) => { filters.status = e.target.value; renderStats(filteredRows()); renderList(); });
+      [els.reviewStatus, els.verifiedPrimary, els.verifiedSecondary, els.verifiedConclusion, els.verifiedRisk, els.reviewerComments, els.reviewerActions].forEach((el) => {
+        el.addEventListener("input", () => {
+          if (!selectedId) return;
+          saveReview(selectedId, {
+            status: els.reviewStatus.value,
+            verifiedPrimary: els.verifiedPrimary.value,
+            verifiedSecondary: els.verifiedSecondary.value,
+            verifiedConclusion: els.verifiedConclusion.value,
+            verifiedRisk: els.verifiedRisk.value,
+            comments: els.reviewerComments.value,
+            actions: els.reviewerActions.value
+          });
+        });
+      });
+      els.resetCurrent.addEventListener("click", () => {
+        if (!selectedId) return;
+        delete reviewState[selectedId];
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(reviewState));
+        renderStats(filteredRows());
+        renderList();
+        renderDetail();
+      });
+      els.exportReviews.addEventListener("click", exportReviews);
+      els.importReviews.addEventListener("click", () => els.importFile.click());
+      els.importFile.addEventListener("change", async (event) => {
+        const file = event.target.files[0];
+        if (!file) return;
+        const text = await file.text();
+        importReviewsObject(JSON.parse(text));
+        event.target.value = "";
+      });
+      els.clearReviews.addEventListener("click", () => {
+        if (!confirm("Clear all locally saved QAQC notes for this review tool?")) return;
+        localStorage.removeItem(STORAGE_KEY);
+        Object.keys(reviewState).forEach((key) => delete reviewState[key]);
+        renderStats(filteredRows());
+        renderList();
+        renderDetail();
+      });
+    }
+
+    function init() {
+      renderHeader();
+      setActiveTab("reviewTab");
+      optionFill(els.subjectFilter, DATA.options.subjectTags, true);
+      optionFill(els.changeTypeFilter, DATA.options.changeTypes, true);
+      optionFill(els.conclusionFilter, DATA.options.conclusions, true);
+      optionFill(els.riskFilter, DATA.options.riskLevels, true);
+      optionFill(els.requestedFilter, ["Requested or related", "Not requested", "Legacy / other"], true);
+      optionFill(els.statusFilter, STATUS_OPTIONS, true);
+      optionFill(els.reviewStatus, STATUS_OPTIONS, false);
+      optionFill(els.verifiedPrimary, DATA.options.subjectTags, false);
+      optionFill(els.verifiedConclusion, DATA.options.conclusions, false);
+      optionFill(els.verifiedRisk, DATA.options.riskLevels, false);
+      els.subjectOptions.innerHTML = DATA.options.subjectTags.map((tag) => `<option value="${escapeHtml(tag)}"></option>`).join("");
+      bindEvents();
+      renderStats(filteredRows());
+      renderList();
+      renderDetail();
+    }
+
+    init();
+  </script>
+</body>
+</html>

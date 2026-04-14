@@ -1,0 +1,332 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 11
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "702095",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2025/702095/fid203494_nsr_702095_eval_073025-pdf.pdf?rev=994f7ba3ab824a438b847f7dd5c79130&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2025/073025-702095/city-towers"
+  },
+  "application_number": "702095",
+  "plant": {
+    "name": "City Towers",
+    "plant_id": 203494,
+    "address": "Oakland, CA 94607"
+  },
+  "evaluation_date": "July 7, 2025",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Soil Vapor Extraction System"
+    },
+    {
+      "id": "A-1",
+      "description": "Granular Activated Carbon Vessels"
+    },
+    {
+      "id": "A-2",
+      "description": "Permanganate Vessel"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd \nCity Towers has applied for an Authority to Construct for the following equipment: \n \nS-1 Soil Vapor Extraction System  \nSoil Vapor Extraction System with One (1) Blower,  \nMake: Rietschle Zephyr, Model: VLR 400, Max. 280 cfm  \n  \nAbated By \n \nA-1 Granular Activated Carbon Vessels \n Make: Mako Industries, Model: VF-1000,  \n Two (2) 1,000 lb. GAC Vessels (2,000 lbs. total) \nAnd \n \nA-2 Permanganate Vessel \n Make: Mako Industries, Model: Mako-110 \n One (1) 400-lb. Permanganate Vessel (400 lbs. total) \n \n \nThe site is located at 725 Market Street, Oakland, CA 94607. This site is a former dry cleaner.  \n \nThe facility is proposing a soil vapor extraction (SVE) system in order to improve soil gas"
+  },
+  "emission_calculations": {
+    "text": "Emission Calculations\nions \nInitial soil vapor data is used to estimate precursor organic compound (POC), non-precursorEmissions, Post\n4/5/1991 Application New \nEmissions Increase New Cumulative \nIncrease \n(ton/year) (ton/year) (ton/year) \nPOC 0.000 0.030 0.030 \n \nThis is a new facility. Therefore, there are no existing emissions at this facility."
+  },
+  "cumulative_increase": {
+    "text": "Cumulative Increase\ncrease \n \nCumulative emissions for the facility are shown in Table 3 below. \n \nTable 3.  Cumulative Increase \nPollutant Current Permitted"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emission Calculations\nions \nInitial soil vapor data is used to estimate precursor organic compound (POC), non-precursorEmissions, Post\n4/5/1991 Application New \nEmissions Increase New Cumulative \nIncrease \n(ton/year) (ton/year) (ton/year) \nPOC 0.000 0.030 0.030 \n \nThis is a new facility. Therefore, there are no existing emissions at this facility.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-2": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "organic compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the\nequipment can operate 24 hours a day, 365 days a year.   \n \nThe following assumptions are used to estimate emissions. \n \n Operating conditions: Pressure = 1 Atm; Inlet Temperature = 21 oC; 1 mole occupies 24.15 \nLiters (or 386.8 ft3/pound-mol). \n Toxic Air Contaminants (TAC) emissions will be based on soil vapor data submitted with \nthis application. \n There will be one SVE system consisting of one blower.  \n The organic influent flow rate of the SVE system will be max. 280 scfm. \n The blower will be abated by two 1,000-lb. granular activated carbon (GAC) vessels (2,000 \nlbs. total) and one 400-lbs. permanganate vessel in series pursuant to Regulation 8-47-301.  \n The abatement efficiency of 98.5% was proposed by the applicant.  \n Emissions are from a pilot TO-15 test completed in January 2024 for Pangea \nEnvironmental Services by Pace Analytical. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPlant No. 203494  \nApplication No. 702095    \n3 \n Abated emissions for the SVE system are shown in Table 1 below.  \n \nTable 1. S-1 SVE System Abated Emissions \nPollutant CAS # Abated Emissions \nInlet \nConc. \n(ug/m3) Hourly \nEmission \nRate Daily \nEmission \nRate Annual \nEmission \nRate Annual \nEmission \nRate \n(lb/hr) (lb/day) (lb/yr) (ton/yr) \nAcetone 67-64-1 10.3 1.62E-07 3.89E-06 1.42E-03 7.09E-07 \nBenzene 71-43-2 2.83 4.45E-08 1.07E-06 3.90E-04 1.95E-07 \nChloromethane 74-87-3 0.905 1.42E-08 3.41E-07 1.25E-04 6.23E-08 \nCarbon disulfide 75-15-0 0.921 1.45E-08 3.47E-07 1.27E-04 6.34E-08 \nFreon 12 \n(Dichlorodifluoromethane)  75-71-8 2.1 3.30E-08 7.92E-07 2.89E-04 1.45E-07 \n1,1-Dichloroethene 75-35-4 2.06 3.24E-08 7.77E-07 2.84E-04 1.42E-07 \n1,2-Dichloroethene (cis) 156-59-2 205 3.22E-06 7.73E-05 2.82E-02 1.41E-05 \n1,2-Dichloroethene (trans) 156-60-5 18.6 2.92E-07 7.02E-06 2.56E-03 1.28E-06 \nEthanol 64-17-5 13.3 2.09E-07 5.02E-06 1.83E-03 9.16E-07 \nIsopropyl alcohol (2-\nPropanol)  67-63-0 3.54 5.56E-08 1.34E-06 4.87E-04 2.44E-07 \nMethylene Chloride \n(dichloromethane)  75-09-2 0.84 1.32E-08 3.17E-07 1.16E-04 5.78E-08 \n2-Butanone (MEK) 78-93-3 14.8 2.33E-07 5.58E-06 2.04E-03 1.02E-06 \nMethyl-tert-butyl ether \n(MTBE) 1634-04-\n4 1.66 2.61E-08 6.26E-07 2.29E-04 1.14E-07 \nTetrachloroethene, \nPerchloroethylene (PCE), \nTetrachloroethylene  127-18-4 5840 9.18E-05 2.20E-03 8.04E-01 4.02E-04 \nTrichloroethene (TCE) \n(Trichloroethylene)  79-01-6 1430 2.25E-05 5.39E-04 1.97E-01 9.84E-05 \nVinyl Chloride \n(chloroethylene)  75-01-4 1.04 1.63E-08 3.92E-07 1.43E-04 7.16E-08 \nXylenes 1330-20-\n7 2.36 3.71E-08 8.90E-07 3.25E-04 1.62E-07 \n \nPlant No. 203494  \nApplication No. 702095    \n4 \n Notes: \n1. It is assumed that equipment will operate 24 hours a day, 365 days a year. \n2. 98.5% abatement efficiency by the GAC and Permanganate systems is assumed. \n \nOrganic emissions for the SVE system are shown in Table 2 below.  \n \nTable 2.  Organic Emissions Review for S-1 \n(Based on the 10ppmv Limit)  \nPollutant Effluent \nVolumetric \nConcentration Hourly \nEmission Daily \nEmission Annual \nEmission Annual \nEmission \n(ppmv) Rate Rate Rate Rate \n  (lb/hr) (lb/day) (lb/yr) (ton/yr) \nPOC 10.000 0.007 0.165 60.218 0.030 \nNPOC 10.000 0.007 0.165 60.218 0.030 \nTotal 10.000 0.007 0.165 60.218 0.030 \n \nNotes: \n1. It is assumed that equipment will operate 24 hours a day, 365 days a year. \n2. Non-Precursor Organic Compounds (NPOCs) have been determined based on Regulation \n1-234 and 40 CFR 51.100(s)(1). NPOCs have negligible photochemical reactivity. \n3. POC and NPOC emissions are based on an abatement efficiency of 98.5% and 10 ppmv \ntotal organic emissions. Effluent volumetric concentrations are measured as methane. \n4. The total organics annual emission rates for the proposed SVE system (S-1) will be \nrounded up to 61 lbs./year to be used as condition limit.  \n5. The total effluent volumetric concentration will be used to set the Permanganate and \nGAC vessels breakthrough monitoring condition.Toxic Risk Screening\nning  \nPlant No. 203494  \nApplication No. 702095    \n5 \n Emissions from S-1 SVE system are shown in Table 4 below. \n \nAt the given rates in Table 4, emissions do not exceed the Chronic Trigger Levels in Regulation \n2-5, Table 2-5-1. Therefore, this project did not trigger a Health Risk Assessment (HRA). \n \nTable 4.  S-1 Abated Emissions Review - Regulation 2-5 \nPollutant CAS \n# Hourly Acute Exceed\ns \nAcute \nTrigge\nr \nLevel? Annual Chroni\nc Exceed\ns \nChroni\nc \nTrigge\nr \nLevel? Emissio\nn Rate Trigger \nLevel Emissio\nn Rate Trigger \nLevel \n(lb/hr) (lb/hr) (lb/yr) (lb/yr) \nAcetone 67-\n64-1 1.62E-\n07 N/A No 7.09E-\n07 N/A No \nBenzene 71-\n43-2 4.45E-\n08 1.20E-\n02 No 1.95E-\n07 2.90E+0\n0 No \nChloromethane 74-\n87-3 1.42E-\n08 N/A No 6.23E-\n08 N/A No \nCarbon disulfide 75-\n15-0 1.45E-\n08 2.70E+0\n0 No 6.34E-\n08 3.10E+0\n4 No \nFreon 12 \n(Dichlorodifluorometha\nne) 75-\n71-8 3.30E-\n08 N/A No 1.45E-\n07 N/A No \n1,1-Dichloroethene 75-\n35-4 3.24E-\n08 N/A No 1.42E-\n07 2.70E+0\n3 No \n1,2-Dichloroethene \n(cis) 156-\n59-2 3.22E-\n06 N/A No 1.41E-\n05 N/A No \n1,2-Dichloroethene \n(trans) 156-\n60-5 2.92E-\n07 N/A No 1.28E-\n06 N/A No \nEthanol 64-\n17-5 2.09E-\n07 N/A No 9.16E-\n07 N/A No \nIsopropyl alcohol (2-\nPropanol)  67-\n63-0 5.56E-\n08 1.40E+0\n0 No 2.44E-\n07 2.70E+0\n5 No \nMethylene Chloride \n(dichloromethane)  75-\n09-2 1.32E-\n08 6.20E+0\n0 No 5.78E-\n08 8.20E+0\n1 No \n2-Butanone (MEK) 78-\n93-3 2.33E-\n07 5.80E+0\n0 No 1.02E-\n06 N/A No \nMethyl-tert-butyl ether \n(MTBE) 1634\n-04-\n4 2.61E-\n08 N/A No 1.14E-\n07 1.60E+0\n2 No \nPlant No. 203494  \nApplication No. 702095    \n6 \n Tetrachloroethene, \nPerchloroethylene \n(PCE), \nTetrachloroethylene  127-\n18-4 9.18E-\n05 8.80E+0\n0 No 4.02E-\n04 1.40E+0\n1 No \nTrichloroethene (TCE) \n(Trichloroethylene)  79-\n01-6 2.25E-\n05 N/A No 9.84E-\n05 4.10E+0\n1 No \nVinyl Chloride \n(chloroethylene)  75-\n01-4 1.63E-\n08 8.00E+0\n1 No 7.16E-\n08 1.10E+0\n0 No \nXylenes 1330\n-20-\n7 3.71E-\n08 9.70E+0\n0 No 1.62E-\n07 2.70E+0\n4 No4. In no event shall the toxic air contaminant (TAC) emissions to the atmosphere from each\nabatement system exceed the trigger levels listed in District Regulation 2-5, Table 2-5-1.    \n[Basis: Regulation 2-5]   \n \n5. The owner/operator shall not emit from the SVE system (S-1) more than 61 pounds of \nprecursor organic compounds (POC) and 61 pounds of non-precursor organic compounds \n(NPOC) per 12-month consecutive period.  \n[Basis: Cumulative Increase]  \n \n6. Upon initial start-up, the owner/operator shall take air samples from the SVE system (S-1) \nfor laboratory analysis using EPA Method TO-15.  The air samples shall be taken at the \nfollowing locations of each abatement system described in Part 2:    \na. At the inlet to the first vessel in series.   \nb. At the outlet of the last vessel in series prior to venting to the atmosphere.   \n[Basis: Regulation 2-1-403, Regulation 8-47-301]  \n \n7. The owner/operator shall use the results from the laboratory report to calculate the \nfollowing:   \n \na. Organics (POC and NPOC) emissions to demonstrate compliance with Part 5.  \nb. Organics (POC and NPOC) abatement efficiency or outlet Organics (POC and NPOC) \nconcentration of the SVE system (S-1) to demonstrate compliance with Part 3.   \nc. TAC emissions emitted to the atmosphere, using the maximum permitted flow rate of \nThe SVE system (S-1).  \n[Basis: Regulation 2-5, Regulation 8-47-301] \n \n8. The owner/operator shall submit the laboratory report, abatement efficiency, outlet POC \nconcentration, and calculated POC, NPOC, TAC emissions within 21 days of the initial \nstartup, to demonstrate compliance with Parts 1 through 7 of this condition.    \n[Basis: Regulation 2-1-403, Regulation 2-5]  \nPlant No. 203494  \nApplication No. 702095    \n9 \n   \n9. During operation of the abatement devices (A-1 and A-2), the owner/operator shall monitor \nwith a flame-ionization detector (FID), or other method approved in writing by the \nDistrict's Source Test Manager at the following locations of each abatement system \ndescribed in Part 2:   \na. At the inlet to the first vessel in series.  \nb. At the inlet to the second vessel in series. \n \nc. At the outlet of the last vessel in series, prior to venting to the atmosphere.   \n[Basis: Regulations 8-47 and 2-1-403]  \n \n10. The owner/operator shall record these monitor readings in a monitoring log at the time they \nare taken.  The owner/operator shall use the monitoring results to estimate the frequency \nof carbon change-out necessary to maintain compliance with Parts 1 through 5 of this \ncondition and shall be conducted on a daily basis.   \n \na. If the owner/operator can demonstrate one (1) month of consecutive daily monitoring \nreadings where the sum of monitoring results at each outlet of The SVE system (S-1) is \nlower than 2 ppmv measured as methane, the monitoring frequency may be reduced to \nweekly.   \n \nb. After the monitoring frequency has been reduced to weekly, if the owner/operator can \ndemonstrate one (1) month of consecutive weekly monitoring readings at each outlet of \nThe SVE system (S-1) is lower than 2 ppmv, measured as methane, the monitoring \nfrequency may be reduced to once every two (2) weeks.   \n \nc. After the monitoring frequency has been reduced to once every two (2) weeks, if the \nowner/operator can demonstrate one (1) month of consecutive bi-weekly readings where \nthe monitoring results of The SVE system (S-1) is lower than 2 ppmv, measured as \nmethane, the monitoring frequency may be reduced to monthly.   \n \nIf any subsequent results from monitoring where the sum of monitoring results at each \noutlet of The SVE system (S-1) exceed 2 ppmv, measured as methane, the owner/operator \nshall revert to daily monitoring.  If monitoring reverts back to daily, the owner/operator \nmay reduce the monitoring frequency in accordance with Parts 10(a) through (c) of this \ncondition. 5,[Basis: Cumulative Increase, Toxics, and Regulations 8-47 and 2-1-403]\n11. The owner/operator shall maintain the following information for each month of operation:    \nPlant No. 203494  \nApplication No. 702095    \n10 \n a. Hours and time of operation.   \nb. Each emission test, analysis, or monitoring results logged in for the day of operation \nthey were taken.   \nc. Total throughput of soil vapor from source the SVE system (S-1) in standard cubic feet.  \n \nSuch records shall be retained and made available for inspection by the District for two (2) \nyears following the date the data is recorded.    \n[Basis: Recordkeeping]   \n   \n12. During the operation of the abatement devices, the first vessel of each abatement system \ndescribed in Part 2 shall be immediately changed out with unspent carbon upon \nbreakthrough, defined as the detection at the outlet of the last vessel in excess of the higher \nof the following limits:  \na. 1.5% of the inlet stream concentration to the first carbon bed.  \nb. 10 ppmv (measured as methane).  \n  [Basis: Cumulative Increase and Regulations 8-47 and 2-1-403]  \n \n13. During the operation of the abatement devices, the last carbon vessel of each abatement \nsystem described in Part 2 shall be immediately changed out with unspent carbon upon \nbreakthrough, defined as the detection at the outlet of the last vessel in excess of the higher \nof the following limits:  \na. 1.5% of the inlet stream concentration to the first carbon bed.  \nb. 10 ppmv (measured as methane).  \n  [Basis: Cumulative Increase and Regulations 8-47 and 2-1-403]  \n14. During the operation of the abatement devices, the last permanganate vessel of each \nabatement system described in Part 2 shall be immediately changed out with unspent \npermanganate upon breakthrough, defined as the detection at the outlet of the last vessel in \nexcess of the higher of the following limits:  \na. 1.5% of the inlet stream concentration to the first carbon bed.  \nb. 10 ppmv (measured as methane).  \n  [Basis: Cumulative Increase and Regulations 8-47 and 2-1-403]  \n \n15. The owner/operator shall report any noncompliance with these conditions to the \nCompliance and Enforcement Division at the time that it is first discovered.  The \nowner/operator shall detail the corrective action taken and include the data showing the \nexceedance as well as the time of occurrence in the submittal.    \n[Basis: Regulation 2-1-403]   \nPlant No. 203494  \nApplication No. 702095    \n11 \n  \n16. The owner/operator shall maintain a file containing all measurements, records and other \ndata that are required to be collected pursuant to the various provisions of this condition.  \nAll measurements, records and data required to be maintained by the operator shall be \nretained for at least two (2) years following the date the data is recorded.    \n[Basis: Regulation 8-47]   \n \n17. Upon final completion of the remediation project, the operator shall notify the Engineering \nDivision within two weeks of decommissioning the operation.    \n[Basis: Regulation 2-1-403]"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\nBACT) \nIn accordance with Regulation 2-2-301, Best Available Control Technology (BACT) is triggered \nfor any new or modified source with the potential to emit 10 pounds or more per highest day of \nPOC, NPOC, nitrogen oxides (NO x), carbon monoxide (CO), sulfur dioxides (SO 2), particulate \nmatter less than 10 micrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). \n \nWith the proposed abatement device, NPOC and POC emissions are expected to be below 10 \npound per day for the SVE system.  Therefore, BACT is not required."
+  },
+  "offsets": {
+    "narrative": "Offsets\nsets \nPursuant to Regulation 2-2-302, offsets must be provided for any new or modified source at a site \nthat emits, or is permitted to emit, more than 10 tons per year of precursor organic compounds \n(POCs) or nitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2-2-303 offsets must be \nprovided for any new or modified source at a major site with a cumulative increase that exceeds \n1.0 ton per year of PM 10, PM2.5, or sulfur dioxide (SO 2). \n \nThe site is not expected to have a PTE greater than 10 tons per year of POC or NO X, nor is the site \na major site of PM 10, PM2.5, and SO 2.  Therefore, the requirements of Regulations 2-2-302 and 2-\n2-303 do not apply.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          10.0,
+          "N/A",
+          null
+        ],
+        [
+          "PM2.5",
+          2.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD), New Source Performance Standards (NSPS), and\nNational Emission Standards for Hazardous Air Pollutants (NESHAPS) are not triggered."
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA)\nEQA)  \nThis project is classified as ministerial under the District Regulation 2-1-311, because the \nengineering review for this project requires only the application of standard emission factors and \nestablished formulas as specified in Chapter 9.2 of the District’s Permit Handbook.  This project \ndoes not trigger BACT or TBACT and is not subject to the health risk assessment requirements of \nRegulation 2, Rule 5.  This review follows objective procedures and applies standard permit \nconditions; and therefore, the review of this project is not discretionary as defined by CEQA.  Since \nthis project is ministerial, it is not subject to CEQA review requirement of Regulation 2-1-310, \nand no further CEQA analysis is required. \n \n \nPlant No. 203494  \nApplication No. 702095"
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "7 \n Compliance\nThis project is located within 1,000 feet of the following school: \n \n Martin Luther King, Jr. Elementary (960 10th St., Oakland, CA 94607) \n \nThis project is located within the boundaries of an Overburdened Community (OBC) as defined \nin Regulation 2-1-243. However, a Health Risk Assessment (HRA) is not triggered for this project."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Therefore, school public notification is required per Regulation 2-1-412.Therefore, this project triggers school public notification per Regulation 2-1-412.\nRegulation 8-47-301 requires that any sub-slab depressurization operation which emits benzene, \nvinyl chloride, tetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a \ncontrol device which reduces emissions to the atmosphere by at least 90 percent by weight. The \nfacility has proposed to install activated carbon vessels and permanganate vessels with at least 98.5 \npercent abatement efficiency to reduce emissions. Therefore, this project complies with the \nrequirements of this rule. \n \nThe facility is required to keep the pertinent records per condition #100564 pursuant to Regulation \n8-47-501.Overburdened Community, which  triggers public notification requirements per Regulation 2-1-412.\nAfter the comments are received from the public and reviewed, the Air District will make a final \ndetermination on the permit. \n \nI recommend that the District initiates a public notice and consider any comments received prior \nto taking any final action on issuance of an Authority to Construct and/or a Permit to Operate for \nthe following equipment:   \n \nS-1 Soil Vapor Extraction System  \nSoil Vapor Extraction System with One (1) Blower,  \nMake: Rietschle Zephyr, Model: VLR 400, Max. 280 cfm  \n  \nAbated By \n \nA-1 Granular Activated Carbon Vessels \n Make: Mako Industries, Model: VF-1000,  \n Two (2) 1,000 lb. GAC Vessels (2,000 lbs. total) \nAnd \n \nA-2 Permanganate Vessel \n Make: Mako Industries, Model: Mako-110 \n One (1) 400-lb. Permanganate Vessel (400 lbs. total) \n \n02 \nPlant No. 203494  \nApplication No. 702095    \n12 \n  \nYoujin Kim, Air Quality Engineer \nJuly 7, 2025"
+  },
+  "conditions": {
+    "text": "conditions, reduce potential vapor intrusion risk, and improve groundwater quality by reducing\nperchloroethylene (PCE) concentration in the subsurface layer. There are no current plans to \nredevelop the property. \n \nThe SVE system at this site will consist of one blower with the maximum flow rate of 280 cfm. A \nflow meter will be installed to ensure that the flow rate is not exceeded. The blower will be abated \nby two 1,000-lb. granular activated carbon (GAC) vessels (2,000 lbs. total) followed by one 400-\nlbs. permanganate vessel.  \n \nThe main compound found in the soil was PCE. Emissions calculations were based on laboratory \nresults from samples taken at the site.  \n \nThis project is not expected to trigger Health Risk Assessment per Regulation 2-5, Table 1.  \n \nProcedures are outlined in the conditions found below. The applicant will be required to provide \nwritten notification at the start of the operation.  The applicant will be required to stay below the \nPlant No. 203494  \nApplication No. 702095    \n2 \n acute and chronic trigger levels of Regulation 2-5. Effluent volatile organic compound (VOC) \nconcentrations will be monitored with a flame-ionization detector (FID).  \n \nThere is one K-12 school within 1,000 feet of the proposed SVE system.  \n \nThis facility is located within the boundary of an overburdened community. However, a health risk \nassessment (HRA) is not triggered.Permit Conditions\nions \n \nPermit Condition #100564 for S-1, A-1, and A-2 \n1. The influent vapor flow rate shall not exceed 280 scfm from the Soil Vapor Extraction \nSystem at any given time.   \n[Basis: Cumulative Increase, Regulation 2-5]   \n \n2. The owner/operator shall abate the precursor organic compound (POC)/non-precursor \norganic compound (NPOC) emissions from each sub-slab depressurization systems with \nthe permanganate vessel and granular activated carbon vessel (GAC) during all periods of \noperation as follows:  \n \nS-1 shall be abated by an abatement system, consisting of:   \nTwo (2) 1,000-lb. Granular Activated Carbon vessels (total 2,000 lbs. GAC) and   \nOne (1) 400-lb. Permanganate vessel (total 400 lbs. Permanganate) in series.  \n[Basis: Regulations 8-47-301, 8-47-302 and Regulation 2-5] \n   \nPlant No. 203494  \nApplication No. 702095    \n8 \n 3. The total organics (sum of POC and NPOC) abatement efficiency of the abatement systems \ndescribed in Part 2 shall be maintained at a minimum of 98.5% by weight or a maximum \noutlet total organics (sum of POC and NPOC) concentration of 10 ppmv (measured as \nmethane) at all outlets of S-1 combined.   \n[Basis: Regulations 8-47-301 and 8-47-302 and Regulation 2-5]"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The influent vapor flow rate shall not exceed 280 scfm from the Soil Vapor Extraction \nSystem at any given time.   \n[",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 2-5]"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall abate the precursor organic compound (POC)/non-precursor \norganic compound (NPOC) emissions from each sub-slab depressurization systems with \nthe permanganate vessel and granular activated carbon vessel (GAC) during all periods of \noperation as follows:  \n \nS-1 shall be abated by an abatement system, consisting of:   \nTwo (2) 1,000-lb. Granular Activated Carbon vessels (total 2,000 lbs. GAC) and   \nOne (1) 400-lb. Permanganate vessel (total 400 lbs. Permanganate) in series.  \n[",
+        "basis": [
+          "Regulations 8-47-301",
+          "8-47-302 and Regulation 2-5] \n   \nPlant No. 203494  \nApplication No. 702095    \n8"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The total organics (sum of POC and NPOC) abatement efficiency of the abatement systems \ndescribed in Part 2 shall be maintained at a minimum of 98.5% by weight or a maximum \noutlet total organics (sum of POC and NPOC) concentration of 10 ppmv (measured as \nmethane) at all outlets of S-1 combined.   \n[",
+        "basis": [
+          "Regulations 8-47-301 and 8-47-302 and Regulation 2-5]"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\ntion   \nThe Air District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of District, state, and federal air quality-related regulations. The \npreliminary recommendation is to issue an Authority to Construct for the equipment listed below. \nHowever, the proposed source will be located within 1,000 feet of a K-12 school and located within an"
+  },
+  "raw_sections": {
+    "preamble": "Draft Engineering Evaluation  \nCity Towers \n725 Market Street, Oakland, CA 94607 \nPlant No. 203494 \nApplication No. 702095 \nProject Description: Soil Vapor Extraction System",
+    "blocks": [
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd \nCity Towers has applied for an Authority to Construct for the following equipment: \n \nS-1 Soil Vapor Extraction System  \nSoil Vapor Extraction System with One (1) Blower,  \nMake: Rietschle Zephyr, Model: VLR 400, Max. 280 cfm  \n  \nAbated By \n \nA-1 Granular Activated Carbon Vessels \n Make: Mako Industries, Model: VF-1000,  \n Two (2) 1,000 lb. GAC Vessels (2,000 lbs. total) \nAnd \n \nA-2 Permanganate Vessel \n Make: Mako Industries, Model: Mako-110 \n One (1) 400-lb. Permanganate Vessel (400 lbs. total) \n \n \nThe site is located at 725 Market Street, Oakland, CA 94607. This site is a former dry cleaner.  \n \nThe facility is proposing a soil vapor extraction (SVE) system in order to improve soil gas"
+      },
+      {
+        "heading": "conditions, reduce potential vapor intrusion risk, and improve groundwater quality by reducing",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "conditions, reduce potential vapor intrusion risk, and improve groundwater quality by reducing\nperchloroethylene (PCE) concentration in the subsurface layer. There are no current plans to \nredevelop the property. \n \nThe SVE system at this site will consist of one blower with the maximum flow rate of 280 cfm. A \nflow meter will be installed to ensure that the flow rate is not exceeded. The blower will be abated \nby two 1,000-lb. granular activated carbon (GAC) vessels (2,000 lbs. total) followed by one 400-\nlbs. permanganate vessel.  \n \nThe main compound found in the soil was PCE. Emissions calculations were based on laboratory \nresults from samples taken at the site.  \n \nThis project is not expected to trigger Health Risk Assessment per Regulation 2-5, Table 1.  \n \nProcedures are outlined in the conditions found below. The applicant will be required to provide \nwritten notification at the start of the operation.  The applicant will be required to stay below the \nPlant No. 203494  \nApplication No. 702095    \n2 \n acute and chronic trigger levels of Regulation 2-5. Effluent volatile organic compound (VOC) \nconcentrations will be monitored with a flame-ionization detector (FID).  \n \nThere is one K-12 school within 1,000 feet of the proposed SVE system.  \n \nThis facility is located within the boundary of an overburdened community. However, a health risk \nassessment (HRA) is not triggered."
+      },
+      {
+        "heading": "Therefore, school public notification is required per Regulation 2-1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Therefore, school public notification is required per Regulation 2-1-412."
+      },
+      {
+        "heading": "Emission Calculations",
+        "alias": "EMISSIONS",
+        "text": "Emission Calculations\nions \nInitial soil vapor data is used to estimate precursor organic compound (POC), non-precursor"
+      },
+      {
+        "heading": "organic compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the",
+        "alias": "TOXICS",
+        "text": "organic compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the\nequipment can operate 24 hours a day, 365 days a year.   \n \nThe following assumptions are used to estimate emissions. \n \n Operating conditions: Pressure = 1 Atm; Inlet Temperature = 21 oC; 1 mole occupies 24.15 \nLiters (or 386.8 ft3/pound-mol). \n Toxic Air Contaminants (TAC) emissions will be based on soil vapor data submitted with \nthis application. \n There will be one SVE system consisting of one blower.  \n The organic influent flow rate of the SVE system will be max. 280 scfm. \n The blower will be abated by two 1,000-lb. granular activated carbon (GAC) vessels (2,000 \nlbs. total) and one 400-lbs. permanganate vessel in series pursuant to Regulation 8-47-301.  \n The abatement efficiency of 98.5% was proposed by the applicant.  \n Emissions are from a pilot TO-15 test completed in January 2024 for Pangea \nEnvironmental Services by Pace Analytical. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPlant No. 203494  \nApplication No. 702095    \n3 \n Abated emissions for the SVE system are shown in Table 1 below.  \n \nTable 1. S-1 SVE System Abated Emissions \nPollutant CAS # Abated Emissions \nInlet \nConc. \n(ug/m3) Hourly \nEmission \nRate Daily \nEmission \nRate Annual \nEmission \nRate Annual \nEmission \nRate \n(lb/hr) (lb/day) (lb/yr) (ton/yr) \nAcetone 67-64-1 10.3 1.62E-07 3.89E-06 1.42E-03 7.09E-07 \nBenzene 71-43-2 2.83 4.45E-08 1.07E-06 3.90E-04 1.95E-07 \nChloromethane 74-87-3 0.905 1.42E-08 3.41E-07 1.25E-04 6.23E-08 \nCarbon disulfide 75-15-0 0.921 1.45E-08 3.47E-07 1.27E-04 6.34E-08 \nFreon 12 \n(Dichlorodifluoromethane)  75-71-8 2.1 3.30E-08 7.92E-07 2.89E-04 1.45E-07 \n1,1-Dichloroethene 75-35-4 2.06 3.24E-08 7.77E-07 2.84E-04 1.42E-07 \n1,2-Dichloroethene (cis) 156-59-2 205 3.22E-06 7.73E-05 2.82E-02 1.41E-05 \n1,2-Dichloroethene (trans) 156-60-5 18.6 2.92E-07 7.02E-06 2.56E-03 1.28E-06 \nEthanol 64-17-5 13.3 2.09E-07 5.02E-06 1.83E-03 9.16E-07 \nIsopropyl alcohol (2-\nPropanol)  67-63-0 3.54 5.56E-08 1.34E-06 4.87E-04 2.44E-07 \nMethylene Chloride \n(dichloromethane)  75-09-2 0.84 1.32E-08 3.17E-07 1.16E-04 5.78E-08 \n2-Butanone (MEK) 78-93-3 14.8 2.33E-07 5.58E-06 2.04E-03 1.02E-06 \nMethyl-tert-butyl ether \n(MTBE) 1634-04-\n4 1.66 2.61E-08 6.26E-07 2.29E-04 1.14E-07 \nTetrachloroethene, \nPerchloroethylene (PCE), \nTetrachloroethylene  127-18-4 5840 9.18E-05 2.20E-03 8.04E-01 4.02E-04 \nTrichloroethene (TCE) \n(Trichloroethylene)  79-01-6 1430 2.25E-05 5.39E-04 1.97E-01 9.84E-05 \nVinyl Chloride \n(chloroethylene)  75-01-4 1.04 1.63E-08 3.92E-07 1.43E-04 7.16E-08 \nXylenes 1330-20-\n7 2.36 3.71E-08 8.90E-07 3.25E-04 1.62E-07 \n \nPlant No. 203494  \nApplication No. 702095    \n4 \n Notes: \n1. It is assumed that equipment will operate 24 hours a day, 365 days a year. \n2. 98.5% abatement efficiency by the GAC and Permanganate systems is assumed. \n \nOrganic emissions for the SVE system are shown in Table 2 below.  \n \nTable 2.  Organic Emissions Review for S-1 \n(Based on the 10ppmv Limit)  \nPollutant Effluent \nVolumetric \nConcentration Hourly \nEmission Daily \nEmission Annual \nEmission Annual \nEmission \n(ppmv) Rate Rate Rate Rate \n  (lb/hr) (lb/day) (lb/yr) (ton/yr) \nPOC 10.000 0.007 0.165 60.218 0.030 \nNPOC 10.000 0.007 0.165 60.218 0.030 \nTotal 10.000 0.007 0.165 60.218 0.030 \n \nNotes: \n1. It is assumed that equipment will operate 24 hours a day, 365 days a year. \n2. Non-Precursor Organic Compounds (NPOCs) have been determined based on Regulation \n1-234 and 40 CFR 51.100(s)(1). NPOCs have negligible photochemical reactivity. \n3. POC and NPOC emissions are based on an abatement efficiency of 98.5% and 10 ppmv \ntotal organic emissions. Effluent volumetric concentrations are measured as methane. \n4. The total organics annual emission rates for the proposed SVE system (S-1) will be \nrounded up to 61 lbs./year to be used as condition limit.  \n5. The total effluent volumetric concentration will be used to set the Permanganate and \nGAC vessels breakthrough monitoring condition."
+      },
+      {
+        "heading": "Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Cumulative Increase\ncrease \n \nCumulative emissions for the facility are shown in Table 3 below. \n \nTable 3.  Cumulative Increase \nPollutant Current Permitted"
+      },
+      {
+        "heading": "Emissions, Post",
+        "alias": "EMISSIONS",
+        "text": "Emissions, Post\n4/5/1991 Application New \nEmissions Increase New Cumulative \nIncrease \n(ton/year) (ton/year) (ton/year) \nPOC 0.000 0.030 0.030 \n \nThis is a new facility. Therefore, there are no existing emissions at this facility."
+      },
+      {
+        "heading": "Toxic Risk Screening",
+        "alias": "TOXICS",
+        "text": "Toxic Risk Screening\nning  \nPlant No. 203494  \nApplication No. 702095    \n5 \n Emissions from S-1 SVE system are shown in Table 4 below. \n \nAt the given rates in Table 4, emissions do not exceed the Chronic Trigger Levels in Regulation \n2-5, Table 2-5-1. Therefore, this project did not trigger a Health Risk Assessment (HRA). \n \nTable 4.  S-1 Abated Emissions Review - Regulation 2-5 \nPollutant CAS \n# Hourly Acute Exceed\ns \nAcute \nTrigge\nr \nLevel? Annual Chroni\nc Exceed\ns \nChroni\nc \nTrigge\nr \nLevel? Emissio\nn Rate Trigger \nLevel Emissio\nn Rate Trigger \nLevel \n(lb/hr) (lb/hr) (lb/yr) (lb/yr) \nAcetone 67-\n64-1 1.62E-\n07 N/A No 7.09E-\n07 N/A No \nBenzene 71-\n43-2 4.45E-\n08 1.20E-\n02 No 1.95E-\n07 2.90E+0\n0 No \nChloromethane 74-\n87-3 1.42E-\n08 N/A No 6.23E-\n08 N/A No \nCarbon disulfide 75-\n15-0 1.45E-\n08 2.70E+0\n0 No 6.34E-\n08 3.10E+0\n4 No \nFreon 12 \n(Dichlorodifluorometha\nne) 75-\n71-8 3.30E-\n08 N/A No 1.45E-\n07 N/A No \n1,1-Dichloroethene 75-\n35-4 3.24E-\n08 N/A No 1.42E-\n07 2.70E+0\n3 No \n1,2-Dichloroethene \n(cis) 156-\n59-2 3.22E-\n06 N/A No 1.41E-\n05 N/A No \n1,2-Dichloroethene \n(trans) 156-\n60-5 2.92E-\n07 N/A No 1.28E-\n06 N/A No \nEthanol 64-\n17-5 2.09E-\n07 N/A No 9.16E-\n07 N/A No \nIsopropyl alcohol (2-\nPropanol)  67-\n63-0 5.56E-\n08 1.40E+0\n0 No 2.44E-\n07 2.70E+0\n5 No \nMethylene Chloride \n(dichloromethane)  75-\n09-2 1.32E-\n08 6.20E+0\n0 No 5.78E-\n08 8.20E+0\n1 No \n2-Butanone (MEK) 78-\n93-3 2.33E-\n07 5.80E+0\n0 No 1.02E-\n06 N/A No \nMethyl-tert-butyl ether \n(MTBE) 1634\n-04-\n4 2.61E-\n08 N/A No 1.14E-\n07 1.60E+0\n2 No \nPlant No. 203494  \nApplication No. 702095    \n6 \n Tetrachloroethene, \nPerchloroethylene \n(PCE), \nTetrachloroethylene  127-\n18-4 9.18E-\n05 8.80E+0\n0 No 4.02E-\n04 1.40E+0\n1 No \nTrichloroethene (TCE) \n(Trichloroethylene)  79-\n01-6 2.25E-\n05 N/A No 9.84E-\n05 4.10E+0\n1 No \nVinyl Chloride \n(chloroethylene)  75-\n01-4 1.63E-\n08 8.00E+0\n1 No 7.16E-\n08 1.10E+0\n0 No \nXylenes 1330\n-20-\n7 3.71E-\n08 9.70E+0\n0 No 1.62E-\n07 2.70E+0\n4 No"
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nsets \nPursuant to Regulation 2-2-302, offsets must be provided for any new or modified source at a site \nthat emits, or is permitted to emit, more than 10 tons per year of precursor organic compounds \n(POCs) or nitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2-2-303 offsets must be \nprovided for any new or modified source at a major site with a cumulative increase that exceeds \n1.0 ton per year of PM 10, PM2.5, or sulfur dioxide (SO 2). \n \nThe site is not expected to have a PTE greater than 10 tons per year of POC or NO X, nor is the site \na major site of PM 10, PM2.5, and SO 2.  Therefore, the requirements of Regulations 2-2-302 and 2-\n2-303 do not apply."
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\nBACT) \nIn accordance with Regulation 2-2-301, Best Available Control Technology (BACT) is triggered \nfor any new or modified source with the potential to emit 10 pounds or more per highest day of \nPOC, NPOC, nitrogen oxides (NO x), carbon monoxide (CO), sulfur dioxides (SO 2), particulate \nmatter less than 10 micrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). \n \nWith the proposed abatement device, NPOC and POC emissions are expected to be below 10 \npound per day for the SVE system.  Therefore, BACT is not required."
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA)",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA)\nEQA)  \nThis project is classified as ministerial under the District Regulation 2-1-311, because the \nengineering review for this project requires only the application of standard emission factors and \nestablished formulas as specified in Chapter 9.2 of the District’s Permit Handbook.  This project \ndoes not trigger BACT or TBACT and is not subject to the health risk assessment requirements of \nRegulation 2, Rule 5.  This review follows objective procedures and applies standard permit \nconditions; and therefore, the review of this project is not discretionary as defined by CEQA.  Since \nthis project is ministerial, it is not subject to CEQA review requirement of Regulation 2-1-310, \nand no further CEQA analysis is required. \n \n \nPlant No. 203494  \nApplication No. 702095"
+      },
+      {
+        "heading": "7 \n Compliance",
+        "alias": "SOC",
+        "text": "7 \n Compliance\nThis project is located within 1,000 feet of the following school: \n \n Martin Luther King, Jr. Elementary (960 10th St., Oakland, CA 94607) \n \nThis project is located within the boundaries of an Overburdened Community (OBC) as defined \nin Regulation 2-1-243. However, a Health Risk Assessment (HRA) is not triggered for this project."
+      },
+      {
+        "heading": "Therefore, this project triggers school public notification per Regulation 2-1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Therefore, this project triggers school public notification per Regulation 2-1-412.\nRegulation 8-47-301 requires that any sub-slab depressurization operation which emits benzene, \nvinyl chloride, tetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a \ncontrol device which reduces emissions to the atmosphere by at least 90 percent by weight. The \nfacility has proposed to install activated carbon vessels and permanganate vessels with at least 98.5 \npercent abatement efficiency to reduce emissions. Therefore, this project complies with the \nrequirements of this rule. \n \nThe facility is required to keep the pertinent records per condition #100564 pursuant to Regulation \n8-47-501."
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD), New Source Performance Standards (NSPS), and",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD), New Source Performance Standards (NSPS), and\nNational Emission Standards for Hazardous Air Pollutants (NESHAPS) are not triggered."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nions \n \nPermit Condition #100564 for S-1, A-1, and A-2 \n1. The influent vapor flow rate shall not exceed 280 scfm from the Soil Vapor Extraction \nSystem at any given time.   \n[Basis: Cumulative Increase, Regulation 2-5]   \n \n2. The owner/operator shall abate the precursor organic compound (POC)/non-precursor \norganic compound (NPOC) emissions from each sub-slab depressurization systems with \nthe permanganate vessel and granular activated carbon vessel (GAC) during all periods of \noperation as follows:  \n \nS-1 shall be abated by an abatement system, consisting of:   \nTwo (2) 1,000-lb. Granular Activated Carbon vessels (total 2,000 lbs. GAC) and   \nOne (1) 400-lb. Permanganate vessel (total 400 lbs. Permanganate) in series.  \n[Basis: Regulations 8-47-301, 8-47-302 and Regulation 2-5] \n   \nPlant No. 203494  \nApplication No. 702095    \n8 \n 3. The total organics (sum of POC and NPOC) abatement efficiency of the abatement systems \ndescribed in Part 2 shall be maintained at a minimum of 98.5% by weight or a maximum \noutlet total organics (sum of POC and NPOC) concentration of 10 ppmv (measured as \nmethane) at all outlets of S-1 combined.   \n[Basis: Regulations 8-47-301 and 8-47-302 and Regulation 2-5]"
+      },
+      {
+        "heading": "4. In no event shall the toxic air contaminant (TAC) emissions to the atmosphere from each",
+        "alias": "TOXICS",
+        "text": "4. In no event shall the toxic air contaminant (TAC) emissions to the atmosphere from each\nabatement system exceed the trigger levels listed in District Regulation 2-5, Table 2-5-1.    \n[Basis: Regulation 2-5]   \n \n5. The owner/operator shall not emit from the SVE system (S-1) more than 61 pounds of \nprecursor organic compounds (POC) and 61 pounds of non-precursor organic compounds \n(NPOC) per 12-month consecutive period.  \n[Basis: Cumulative Increase]  \n \n6. Upon initial start-up, the owner/operator shall take air samples from the SVE system (S-1) \nfor laboratory analysis using EPA Method TO-15.  The air samples shall be taken at the \nfollowing locations of each abatement system described in Part 2:    \na. At the inlet to the first vessel in series.   \nb. At the outlet of the last vessel in series prior to venting to the atmosphere.   \n[Basis: Regulation 2-1-403, Regulation 8-47-301]  \n \n7. The owner/operator shall use the results from the laboratory report to calculate the \nfollowing:   \n \na. Organics (POC and NPOC) emissions to demonstrate compliance with Part 5.  \nb. Organics (POC and NPOC) abatement efficiency or outlet Organics (POC and NPOC) \nconcentration of the SVE system (S-1) to demonstrate compliance with Part 3.   \nc. TAC emissions emitted to the atmosphere, using the maximum permitted flow rate of \nThe SVE system (S-1).  \n[Basis: Regulation 2-5, Regulation 8-47-301] \n \n8. The owner/operator shall submit the laboratory report, abatement efficiency, outlet POC \nconcentration, and calculated POC, NPOC, TAC emissions within 21 days of the initial \nstartup, to demonstrate compliance with Parts 1 through 7 of this condition.    \n[Basis: Regulation 2-1-403, Regulation 2-5]  \nPlant No. 203494  \nApplication No. 702095    \n9 \n   \n9. During operation of the abatement devices (A-1 and A-2), the owner/operator shall monitor \nwith a flame-ionization detector (FID), or other method approved in writing by the \nDistrict's Source Test Manager at the following locations of each abatement system \ndescribed in Part 2:   \na. At the inlet to the first vessel in series.  \nb. At the inlet to the second vessel in series. \n \nc. At the outlet of the last vessel in series, prior to venting to the atmosphere.   \n[Basis: Regulations 8-47 and 2-1-403]  \n \n10. The owner/operator shall record these monitor readings in a monitoring log at the time they \nare taken.  The owner/operator shall use the monitoring results to estimate the frequency \nof carbon change-out necessary to maintain compliance with Parts 1 through 5 of this \ncondition and shall be conducted on a daily basis.   \n \na. If the owner/operator can demonstrate one (1) month of consecutive daily monitoring \nreadings where the sum of monitoring results at each outlet of The SVE system (S-1) is \nlower than 2 ppmv measured as methane, the monitoring frequency may be reduced to \nweekly.   \n \nb. After the monitoring frequency has been reduced to weekly, if the owner/operator can \ndemonstrate one (1) month of consecutive weekly monitoring readings at each outlet of \nThe SVE system (S-1) is lower than 2 ppmv, measured as methane, the monitoring \nfrequency may be reduced to once every two (2) weeks.   \n \nc. After the monitoring frequency has been reduced to once every two (2) weeks, if the \nowner/operator can demonstrate one (1) month of consecutive bi-weekly readings where \nthe monitoring results of The SVE system (S-1) is lower than 2 ppmv, measured as \nmethane, the monitoring frequency may be reduced to monthly.   \n \nIf any subsequent results from monitoring where the sum of monitoring results at each \noutlet of The SVE system (S-1) exceed 2 ppmv, measured as methane, the owner/operator \nshall revert to daily monitoring.  If monitoring reverts back to daily, the owner/operator \nmay reduce the monitoring frequency in accordance with Parts 10(a) through (c) of this \ncondition. 5,"
+      },
+      {
+        "heading": "[Basis: Cumulative Increase, Toxics, and Regulations 8-47 and 2-1-403]",
+        "alias": "TOXICS",
+        "text": "[Basis: Cumulative Increase, Toxics, and Regulations 8-47 and 2-1-403]\n11. The owner/operator shall maintain the following information for each month of operation:    \nPlant No. 203494  \nApplication No. 702095    \n10 \n a. Hours and time of operation.   \nb. Each emission test, analysis, or monitoring results logged in for the day of operation \nthey were taken.   \nc. Total throughput of soil vapor from source the SVE system (S-1) in standard cubic feet.  \n \nSuch records shall be retained and made available for inspection by the District for two (2) \nyears following the date the data is recorded.    \n[Basis: Recordkeeping]   \n   \n12. During the operation of the abatement devices, the first vessel of each abatement system \ndescribed in Part 2 shall be immediately changed out with unspent carbon upon \nbreakthrough, defined as the detection at the outlet of the last vessel in excess of the higher \nof the following limits:  \na. 1.5% of the inlet stream concentration to the first carbon bed.  \nb. 10 ppmv (measured as methane).  \n  [Basis: Cumulative Increase and Regulations 8-47 and 2-1-403]  \n \n13. During the operation of the abatement devices, the last carbon vessel of each abatement \nsystem described in Part 2 shall be immediately changed out with unspent carbon upon \nbreakthrough, defined as the detection at the outlet of the last vessel in excess of the higher \nof the following limits:  \na. 1.5% of the inlet stream concentration to the first carbon bed.  \nb. 10 ppmv (measured as methane).  \n  [Basis: Cumulative Increase and Regulations 8-47 and 2-1-403]  \n14. During the operation of the abatement devices, the last permanganate vessel of each \nabatement system described in Part 2 shall be immediately changed out with unspent \npermanganate upon breakthrough, defined as the detection at the outlet of the last vessel in \nexcess of the higher of the following limits:  \na. 1.5% of the inlet stream concentration to the first carbon bed.  \nb. 10 ppmv (measured as methane).  \n  [Basis: Cumulative Increase and Regulations 8-47 and 2-1-403]  \n \n15. The owner/operator shall report any noncompliance with these conditions to the \nCompliance and Enforcement Division at the time that it is first discovered.  The \nowner/operator shall detail the corrective action taken and include the data showing the \nexceedance as well as the time of occurrence in the submittal.    \n[Basis: Regulation 2-1-403]   \nPlant No. 203494  \nApplication No. 702095    \n11 \n  \n16. The owner/operator shall maintain a file containing all measurements, records and other \ndata that are required to be collected pursuant to the various provisions of this condition.  \nAll measurements, records and data required to be maintained by the operator shall be \nretained for at least two (2) years following the date the data is recorded.    \n[Basis: Regulation 8-47]   \n \n17. Upon final completion of the remediation project, the operator shall notify the Engineering \nDivision within two weeks of decommissioning the operation.    \n[Basis: Regulation 2-1-403]"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\ntion   \nThe Air District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of District, state, and federal air quality-related regulations. The \npreliminary recommendation is to issue an Authority to Construct for the equipment listed below. \nHowever, the proposed source will be located within 1,000 feet of a K-12 school and located within an"
+      },
+      {
+        "heading": "Overburdened Community, which  triggers public notification requirements per Regulation 2-1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Overburdened Community, which  triggers public notification requirements per Regulation 2-1-412.\nAfter the comments are received from the public and reviewed, the Air District will make a final \ndetermination on the permit. \n \nI recommend that the District initiates a public notice and consider any comments received prior \nto taking any final action on issuance of an Authority to Construct and/or a Permit to Operate for \nthe following equipment:   \n \nS-1 Soil Vapor Extraction System  \nSoil Vapor Extraction System with One (1) Blower,  \nMake: Rietschle Zephyr, Model: VLR 400, Max. 280 cfm  \n  \nAbated By \n \nA-1 Granular Activated Carbon Vessels \n Make: Mako Industries, Model: VF-1000,  \n Two (2) 1,000 lb. GAC Vessels (2,000 lbs. total) \nAnd \n \nA-2 Permanganate Vessel \n Make: Mako Industries, Model: Mako-110 \n One (1) 400-lb. Permanganate Vessel (400 lbs. total) \n \n02 \nPlant No. 203494  \nApplication No. 702095    \n12 \n  \nYoujin Kim, Air Quality Engineer \nJuly 7, 2025"
+      }
+    ],
+    "unmapped_blocks": []
+  }
+}

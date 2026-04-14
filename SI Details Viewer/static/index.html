@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SI Details Viewer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Air Permitting Assistant</p>
+          <h1>Emission Unit Detail Lookup</h1>
+          <p class="subhead">Enter an emission unit ID or subject item ID to pull detailed information from the SI workbook.</p>
+        </div>
+        <div class="chip">File-based viewer for SI details and optional TV/PTE baseline data</div>
+      </header>
+      <main class="panel">
+        <div class="tab-bar">
+          <button class="tab active" data-tab="lookup">Permit Lookup</button>
+          <button class="tab" data-tab="dashboard">Emission Calculation Dashboard</button>
+        </div>
+        <section id="tab-lookup" class="tab-panel active">
+          <form id="lookup-form" class="lookup">
+            <label for="unit-id">Emission Unit / Subject Item Search</label>
+            <div class="input-row">
+              <input id="unit-id" name="unit-id" type="text" placeholder="Example: EU018 or EQUI15" autocomplete="off" list="unit-suggestions" required />
+              <input id="unit-id-compare" name="unit-id-compare" type="text" placeholder="Compare with..." autocomplete="off" list="unit-suggestions" class="compare-input" />
+              <button type="submit">Find Details</button>
+            </div>
+            <datalist id="unit-suggestions"></datalist>
+            <div class="toggle-row">
+              <label class="toggle"><input id="compare-mode" type="checkbox" /><span>Compare mode</span></label>
+              <label class="toggle"><input id="broad-search" type="checkbox" /><span>Broad text search</span></label>
+            </div>
+            <div class="filter-row">
+              <span class="filter-label">PTE filters</span>
+              <label class="toggle"><input id="filter-criteria" type="checkbox" checked /><span>Criteria</span></label>
+              <label class="toggle"><input id="filter-hap" type="checkbox" checked /><span>HAP + Air Toxics</span></label>
+              <label class="toggle"><input id="filter-ghg" type="checkbox" checked /><span>GHG</span></label>
+            </div>
+            <div class="action-row">
+              <button type="button" id="export-csv">Download CSV</button>
+              <button type="button" id="export-pdf">Print / Save PDF</button>
+            </div>
+            <p class="hint">Matches on <strong>Subject Item Designation</strong> and <strong>Subject Item ID</strong>. Use broad search for descriptions or keywords.</p>
+          </form>
+          <section id="status" class="status"></section>
+          <div class="content-grid">
+            <aside id="summary" class="summary"></aside>
+            <section id="results" class="results"></section>
+          </div>
+        </section>
+        <section id="tab-dashboard" class="tab-panel">
+          <div class="dashboard-header">
+            <div>
+              <h2>Emission Calculation Dashboard</h2>
+              <p class="subhead">Review segment-level calculations, methodologies, and references by EQUI ID.</p>
+            </div>
+            <div class="chip">Optional baseline workbook view</div>
+          </div>
+          <form id="dashboard-form" class="lookup">
+            <label for="dashboard-equi">EQUI ID</label>
+            <div class="input-row">
+              <input id="dashboard-equi" name="dashboard-equi" type="text" placeholder="Example: EQUI 789" autocomplete="off" list="equi-suggestions" required />
+              <button type="submit">View Emissions</button>
+            </div>
+            <datalist id="equi-suggestions"></datalist>
+            <div class="toggle-row">
+              <label class="toggle"><input id="dashboard-nonzero" type="checkbox" /><span>Show non-zero emissions only</span></label>
+            </div>
+            <div class="action-row">
+              <button type="button" id="dashboard-export-xlsx">Export XLSX</button>
+            </div>
+          </form>
+          <section id="dashboard-status" class="status"></section>
+          <section id="dashboard-results" class="dashboard-results"></section>
+        </section>
+      </main>
+    </div>
+    <script src="./data.js"></script>
+    <script src="./baseline.js"></script>
+    <script src="./vendor/xlsx.full.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

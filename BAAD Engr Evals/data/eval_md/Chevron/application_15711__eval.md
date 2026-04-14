@@ -1,0 +1,135 @@
+---
+application_number: 15711
+plant_name: 11EVALUATION REPORT
+source_pdf: C:\Users\aaw\Codex\BAAD Engr Evals\Chevron SOBs\extracted_evaluations\application_15711.pdf
+source_json: data/permit_evaluations_json/Chevron/application_15711__eval.json
+---
+
+# Engineering Evaluation (Application 15711)
+**Plant**:  11EVALUATION REPORT
+
+## background
+JSONPath: `$.background.text`
+
+Background
+nd  
+ 
+Chevron Products Co. (Chevron) is proposing to add two new permit conditions 
+at S-4285 FCCU, and add a new condition subj ecting all of its Flares (S-6012, 
+6013, 6015, 6016, 6017, 6019, and 6039) to NSPS subparts A and J as part of 
+its EPA/DOJ Consent Decree at its re finery located in Richmond.  These 
+changes in conditions are to incorporate NSPS Subparts A and J into the Title V permit and the related permit conditions.  The FCCU (S-4285) will accept new SO2 and NOx emissions limits based on both a 365 day rolling average and a 7 
+day rolling average.  The Chevron Title V permit sections IV, VI, and VII will need to be changed to include the modifications to condition text for the FCCU and include NSPS Subparts A and J to the Flares.  Emission Calculations  
+ 
+No emission increases are expected as  a result of this application.
+
+## emission_calculations
+JSONPath: `$.emission_calculations.text`
+
+(empty)
+
+## cumulative_increase
+JSONPath: `$.cumulative_increase.text`
+
+Plant Cumulative Increase
+se 
+ 
+There will be no increase in the Plant Cumula tive Increase as a result of this 
+application.
+
+## toxic_risk_screening_analysis
+JSONPath: `$.toxic_risk_screening_analysis.narrative`
+
+Toxic Risk Screening Analysis
+A toxic risk analysis is not required for th is application since the emissions are 
+not expected to increase as a result of this application.A toxic risk analysis is not required for this application as stated above.
+
+## BACT
+JSONPath: `$.BACT.text`
+
+(empty)
+
+## offsets
+JSONPath: `$.offsets.narrative`
+
+(empty)
+
+## PSD_applicability
+JSONPath: `$.PSD_applicability.narrative`
+
+(empty)
+
+## CEQA
+JSONPath: `$.CEQA.narrative`
+
+(empty)
+
+## Statement_of_Compliance
+JSONPath: `$.Statement_of_Compliance`
+
+### General
+Statement of Compliance
+The SRU’s (S-4227 – 4229) and FCCU (S-4285) and several furnaces and 
+boilers will now be subject to NSPS Subparts A and J.  These sources will continue to comply wit h all applicable requirements specified 
+in the most recent facility Title V permit.  This application will not trigger BACT, offsets, or PSD since there will be no 
+increase in emissions as a result of this application.  This application is exempt from CEQA  since the project has no potential for 
+causing a significant adverse envir onmental impact and the application is 
+categorically exempt from CEQA under  Regulation 2-1-312.5, which exempts 
+permit applications submitted pursuant to  a judicial enforcement order (see 
+References – Part III).  In making the determination that this application is 
+ 12categorically exempt: 1) a review of t he CEQA-Related Information submitted by 
+the applicant (under Regulat ion 2-1-426.1), has been conducted indicating that 
+there is no potential for a significant adverse environmental impact from the 
+project; 2) a formal health risk assessment  was not required; and 3) no unusual 
+circumstances or cumulative impacts from  successive projects of the same type 
+in the same place over time were dete rmined to result in significant adverse 
+environmental impacts.
+
+## public_notification
+JSONPath: `$.public_notification.text`
+
+(empty)
+
+## conditions
+JSONPath: `$.conditions.text`
+
+13 
+Conditions
+s  
+ 
+See condition #’s 11066. (attached) 
+ 
+  
+ 
+      by________________date________ 
+        Gregory Solomon  
+       Senior Air Quality Engineer
+
+## permit_conditions
+JSONPath: `$.permit_conditions`
+
+- Item
+13 
+Conditions
+s  
+ 
+See condition #’s 11066. (attached) 
+ 
+  
+ 
+      by________________date________ 
+        Gregory Solomon  
+       Senior Air Quality Engineer
+
+## TitleV_permit
+JSONPath: `$.TitleV_permit.narrative`
+
+(empty)
+
+## recommendation
+JSONPath: `$.recommendation.text`
+
+Recommendation
+on  
+ 
+Recommend that the following equipment  be granted a change in conditions:

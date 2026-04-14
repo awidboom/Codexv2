@@ -1,0 +1,402 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 9
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "4/5/91 (tons/yr)  Application Emissions\n(tons/yr)  Cumulative Emissions\n(tons/yr)\nNOx  0.000  0.006  0.006\nPOC  0.000  0.001  0.001\nCO 0.000  0.000  0.000\nPM 10/PM 2.5 0.000  0.001  0.001\nSO 2 0.000  0.000  0.00045",
+        "Residential  0.12 chances in a million  0.000032\nStudent  0.059  chances in a million  0.000 033\nOff-site worker  0.74 chances in a million  0.00058",
+        "Requirement\n(TPY)  Offset\nRequired\nNOx  0 0.017  0.017  >10 N\nPOC  0 0.002  0.002  >10 N\nCO 0 0.000  0.000  - N\nPM 10/PM 2.51 0 0.002  0.002  ≥100 N"
+      ]
+    },
+    "application_number_detected": "732421",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2025/732421/fid203987_nsr_732421_eval_122225-pdf.pdf?rev=25a48e4f67ff4bf6a32161a3caa39a2a&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2025/122225-732421/bart-police-department-headquarters"
+  },
+  "application_number": "732421",
+  "plant": {
+    "name": "BART POLICE DEPARTMENT HEADQUARTERS",
+    "plant_id": null,
+    "address": "Oakland, CA 94612"
+  },
+  "evaluation_date": "November 1, 2023",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Emergency Standby Diesel Engine for Electrical Generation"
+    },
+    {
+      "id": "S-2",
+      "description": "Emergency Standby Diesel Engine for Electrical Generation"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd  \nBart Police Department Headquarters is applying for an Authority to Construct/Permit to Operate for the \nfollowing equipment:  \n \nS-1 Emergency Standby Diesel Engine for Electrical Generation  \nMake: Caterpillar, Inc.   Model: 2806F -E18TAG1   Model Year: 2025 \n744 bhp     5.019 MMBtu/hr  \nPermit Condition No s. 100072, 100073, and 27778 \nwith integral Selective Catalytic Reduction and Diesel Particulate Filter  \n \nS-2 Emergency Standby Diesel Engine for Electrical Generation  \nMake: Caterpillar, Inc.   Model: 2806F -E18TAG1   Model Year: 2025 \n744 bhp     5.019 MMBtu/hr  \nPermit Condition No s. 100072, 100073, and 27778 \nwith integral Selective Catalytic Reduction and Diesel Particulate Filter  \n \nThe criteria pollutants are nitrogen oxides (NOx), carbon monoxide (CO), precursor organic compounds \n(POC) from unburned diesel fuel, sulfur dioxide (SO 2) and particulate matter (PM 10).  All of these pollutants \nare briefly discussed on the Air District’s web site at www.baaqmd.gov. \n \nS-1 and S- 2 meets the Environmental Protection Agency and California Air Resources Board (EPA/CARB) \nTier 4 Off -road standard.  The engine will burn commercially available California low sulfur diesel fuel.  \nThe sulfur content of the diesel fuel will not exceed 0.0015% by weight.   \n \nThis evaluation report will discuss compliance of the proposed project with all applicable rules and \nregulations."
+  },
+  "emission_calculations": {
+    "text": "Emissions\nns  \nTable 1. Annual and Daily Emissions from EPA/CARB Certified Data from S -1 and S- 2 (each engine)  \nPollutant  Emission  \nFactor  (g/bhp -hr) Max Daily  \nEmissions  (lb/day)  Annual  \nEmissions (lb/yr)  Annual  \nEmissions (tons/yr)  \nNOx  0.07 2.75 5.74 0.003  \nPOC  0.01 0.39 0.82 0.000  \nCO 0.01 0.39 0.82 0.000  \nPM 10/PM 2.51 0.01 0.39 0.82 0.000  \nSO 2 N/A2 0.00 0.22 0.450  \nBasis:   \n Annual emissions: Reliability -related activity 50  hours for S -1 and S -2 \n Max daily emissions: 24 -hour operation \n   \n \n 2  Emissions from EPA Engine Family SCPXL18.1HTH  for S -1 and S -2 \n 1 Conservative Assumption: All PM emissions are PM2.5 \n 2 SO 2 emission factor from AP -42 Table 3.4- 1, SO 2 (15 ppm) = 0.00809*0.0015 lb SO 2/bhp- hr \n \nAmmonia Slip  \nThe proposed engines will have a n integral SCR installed which will control ammonia emissions via \ncatalytic reaction. However, there will be a small amount that will slip by the SCR unreacted. Below are \nestimated ammonia emissions for this project.  \nTable 3. Emissions from Ammonia Slip  \nBasis:  \n Annual emissions: Reliability -related activity hours for S -1 and S -2: 50 hours  (each engine) .  \n It is assumed that the exhaust water content is 12.5% by weight.  \n It is assumed that the exhaust is at standard pressure.  \n Volumetric concentrations were corrected to 0% O2 from 15% O2.  \n The exhaust flowrates were corrected to 0% O2 from 10% O2.Emissions  (TPY)  Application\nAnnual  \nEmissions*(TPY)  Facility   \nAnnual  \nEmissions *(TPY)  Offset  \nRequirement   \n(TPY)  Offset  \nRequired  \nNOx  0 0.017  0.017  >10 N \nPOC  0 0.002  0.002  >10 N \nCO 0 0.000  0.000  - N \nPM 10/PM 2.51 0 0.002  0.002  ≥100 N \n   \n \n 4 SO 2 0 0.001  0.001  ≥100 N \n*Annual emissions: Reliability -related activity of 50 hours and emergency operation of 100 hours for  S-1 and S-2.  \n \nSince the facility’s potential to emit is below the offsets trigger levels specified in Regulation 2 -2, offsets \nare not required."
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Increase\nse  \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result from this \napplication.  \nTable 2. Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing Emissions Post \n4/5/91 (tons/yr)  Application Emissions \n(tons/yr)  Cumulative Emissions \n(tons/yr)  \nNOx  0.000  0.006  0.006  \nPOC  0.000  0.001  0.001  \nCO 0.000  0.000  0.000  \nPM 10/PM 2.5 0.000  0.001  0.001  \nSO 2 0.000  0.000  0.00045"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emissions\nns  \nTable 1. Annual and Daily Emissions from EPA/CARB Certified Data from S -1 and S- 2 (each engine)  \nPollutant  Emission  \nFactor  (g/bhp -hr) Max Daily  \nEmissions  (lb/day)  Annual  \nEmissions (lb/yr)  Annual  \nEmissions (tons/yr)  \nNOx  0.07 2.75 5.74 0.003  \nPOC  0.01 0.39 0.82 0.000  \nCO 0.01 0.39 0.82 0.000  \nPM 10/PM 2.51 0.01 0.39 0.82 0.000  \nSO 2 N/A2 0.00 0.22 0.450  \nBasis:   \n Annual emissions: Reliability -related activity 50  hours for S -1 and S -2 \n Max daily emissions: 24 -hour operation \n   \n \n 2  Emissions from EPA Engine Family SCPXL18.1HTH  for S -1 and S -2 \n 1 Conservative Assumption: All PM emissions are PM2.5 \n 2 SO 2 emission factor from AP -42 Table 3.4- 1, SO 2 (15 ppm) = 0.00809*0.0015 lb SO 2/bhp- hr \n \nAmmonia Slip  \nThe proposed engines will have a n integral SCR installed which will control ammonia emissions via \ncatalytic reaction. However, there will be a small amount that will slip by the SCR unreacted. Below are \nestimated ammonia emissions for this project.  \nTable 3. Emissions from Ammonia Slip  \nBasis:  \n Annual emissions: Reliability -related activity hours for S -1 and S -2: 50 hours  (each engine) .  \n It is assumed that the exhaust water content is 12.5% by weight.  \n It is assumed that the exhaust is at standard pressure.  \n Volumetric concentrations were corrected to 0% O2 from 15% O2.  \n The exhaust flowrates were corrected to 0% O2 from 10% O2.Emissions  (TPY)  Application\nAnnual  \nEmissions*(TPY)  Facility   \nAnnual  \nEmissions *(TPY)  Offset  \nRequirement   \n(TPY)  Offset  \nRequired  \nNOx  0 0.017  0.017  >10 N \nPOC  0 0.002  0.002  >10 N \nCO 0 0.000  0.000  - N \nPM 10/PM 2.51 0 0.002  0.002  ≥100 N \n   \n \n 4 SO 2 0 0.001  0.001  ≥100 N \n*Annual emissions: Reliability -related activity of 50 hours and emergency operation of 100 hours for  S-1 and S-2.  \n \nSince the facility’s potential to emit is below the offsets trigger levels specified in Regulation 2 -2, offsets \nare not required.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "*Annual emissions: Reliability -related activity of 50 hours and emergency operation of 100 hours for  S-1 and S-2.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-2": {
+        "narrative": "*Annual emissions: Reliability -related activity of 50 hours and emergency operation of 100 hours for  S-1 and S-2.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "Health Risk Assessment (HRA)\nA)  \nHRA was required. The diesel particulate emissions from the project are greater than the toxic trigger level \nof 0.26 lb/year. All PM 10 emissions are considered diesel particulate emissions. The PM 10 emissions from \nthis application are summarized in Table 1. There were no other related projects permitted in the last three \nyears. Since the diesel particulate emissions from the project are greater than the toxic trigger level of 0.26 \nlb/year, an HRA is required.  This application did not qualify for HRA stream lining. \n \nThe project is in compliance with project risk requirements as recommended, limiting reliability -related \nactivity hours by permit condition. See HRA report.  \n \n \n Source  \n# Ammonia \nSlip \nppm @  \n15% O2  Ammonia  \nSlip \nppm @   \n0% O2   \nActual \nTemp.  \n(°F) Actual \nExhaust \nFlowrate \n(acfm)  Dry Standard \nExhaust \nFlowrate \n(dscfm)  Hourly \nEmission \nRate \n(lb/hr)  Annual \nEmission \nRate \n(lb/year)  \nS-1 10 35.42  911 935 164.88  0.02 0.77 \nS-2 10 35.42  911 935 164.88  0.02 0.77 \n   \n \n 3 Health R isk Assessment Results  \nThis analysis estimates the incremental health risk resulting from toxic air contaminant (TAC) emissions \nfrom non -emergency operation of a standby generator diesel engine at this facility.  Results from this HRA \nindicate that the maximum project cancer ris k is estimated at 0.74 in a million,  the maximum project  chronic  \nhazard index is estimated at 0.00058 , and the maximum project acute hazard index is estimated at 0.0015.  \nSee HRA Report for more details.  \nTable 3. Health Risk Assessment Results  \nMaximally Exposed Receptor  Maximum Cancer Risk  Maximum Chronic Hazard Index  \nResidential  0.12 chances in a million  0.000032  \nStudent  0.059  chances in a million  0.000 033 \nOff-site worker  0.74 chances in a million  0.00058Airborne Toxic Control Measure for Stationary Compression Ignition Engines\nATCM, 5/19/2011, section 93115, title 17, CA Code of Regulations  \n \nAir District Rules \nRegulation 6- 1-303 ( Ringelmann No. 2 Limitation)  \nRegulation 9- 1-301 ( Limitations on Ground Level Concentrations of SO 2)  \nRegulation 9- 8 (NOx and CO from Stationary Internal Combustion Engines ) \nSection 9 -8-110.5 – Limited exemption for emergency standby engines  \nSection 9 -8-330 – Hours of operation for emergency standby engines  \nSection 9 -8-502 – Recordkeeping  \n \nSections 6 -1-310.1 and 6- 1-310.2 limit total suspended particulate (TSP) emissions to 0.15 grains/dscf  of \nexhaust gas volume or less depending on the exhaust gas rate (see Table 6 -1-310.2 for the corresponding TSP \nconcentration limit). As shown in the emission calculations in the table below, the certified particulate \nemission rate from this engine is 0.01 grams per bhp- hour, which results in an outlet grain loading of 0.02  \ngrains per dscf. Since this emission rate is less than the limit in Section 6 -1-310, compliance with this section \nis expected through use of the certified engine.    \nTable 6. Section 6 -1-310 Emissions Calculations  \nEngine Maximum Exhaust Flow Rate  935.00 acfm = 316.15 dscf/min =  18968.95 dscf/hr  \nEngine Maximum Exhaust Temperature  911.00  F     \nWater (H2O) Content (%)  12.5%       \nPM10 abatement for Engine  0%      \nEngine PM10 emissions  0.02 lb/hr =  65.17  kg/yr =  114.71  gr/hr  \nAre Engine PM10 Emissions > 1000 kg/yr?  NO      \nApplicable Regulation 6 -1-310 section?  6-1-310.1       \nTSP Concentration for Engine  0.02 gr/dscf      \nCorresponding Regulation 6 -1 TSP Limit  0.15 gr/dscf      \nPM10 emissions < Corresponding Reg 6 -1 TSP Limit?  YES       \n* dscfm = acfm x (460 R + 70 F)/(460 R + Engine Maximum Exhaust Temperature in F) x (1-  water (H2O Content))The engines do not trigger Best Available Control Technology (BACT) or Toxic Best Available\nControl Technology (TBACT) requirements per the evalua tion.  \n \nNew Source Performance Standards (NSPS)  \n40 CFR 60, Subpart IIII ( Stationary Compression Ignition Internal Combustion Engines ) \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP) \n40 CFR 63, Subpart ZZZZ ( Stationary Reciprocating Internal Combustion Engines (RICE) )"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\nT)    \nIn accordance with Regulation 2 -2-301, BACT is triggered for any new or modified source with the potential \nto emit 10 pounds or more per highest day of POC, NPOC, NOx, CO, SO2, or PM10.  \n   \nBACT is not triggered for any pollutant since the maximum daily emission of each pollutant does not exceed \n10 lb/day."
+  },
+  "offsets": {
+    "narrative": "Offsets\nts  \nOffset must be provided for any new or modified source at a facility that will have the potential to emit more \nthan 10 tons per year of NOx or POC, as specified in Regulation 2- 2-302; 100 tons per year or more of PM2.5, \nPM10 or sulfur dioxide, as specified in Regulation 2- 2- 303.  \n \nTable 4. Potential to Emit for FID 203987 \nPollutant  Existing   \nAnnual",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "PM10",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "PM2.5",
+          10.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD)\nD)  \nThis application is not part of a PSD project as defined in Regulation 2 -2."
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA)\nA) \nOn November 1, 2023, the San Francisco Bay Area Rapid Transit District, as the CEQA lead agency, \ndetermined that the BART Police Department Administrative Headquarters Relocation project is exempt \nfrom CEQA per CEQA Guidelines Section 15301 for Existing Fa cilities. They filed a Notice of Exemption \nfor the project with the Alameda County Clerk. BART intends to relocate its administrative headquarters to \nan existing office building at 2000 Broadway in Oakland. CEQA Guidelines, Section 15301 exempts \nprojects that involve negligible or no expansion of use. The two emergency standby engines will not expand \n   \n \n 5 the facility’s normal operation and will result in no increase or only a negligible increase in use of the \nexisting commercial building. Further, based on the review of the permit application materials, including \nAppendix H, environmental information form, the project will not have any significant environmental \nimpacts, and cumulative impacts from successive projects of the same type in the same place will not result \nin significant environmental impacts.  In addition, this project is exempt under CEQA Guidelines \nSection 15268 (Ministerial Projects) because the Air District’s permit issuance is a ministerial action."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nce  \nThe owner/operator is expected to comply with all applicable requirements. Key requirements are listed \nbelow:"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Public Notification (Regulation 2 -1-412)\nThis project is  within 1,000 feet of  the nearest K -12 school and is located within an Overburdened Community  \nand requires a Health Risk Assessment  and is therefore subject to the public notification requirements of \nRegulation 2- 1-412.  A public notice will be sent to all parents of students of th e school(s)  below  and all \nresidents within 1,000 feet of the facility.  \n  \nOakland School for the Arts | 530 18th St, Oakland, CA 94612 \n \nAll comments received shall be summarized in the final evaluation report."
+  },
+  "conditions": {
+    "text": "Permit Conditions\nns  \nPermit Condition #100072 for S -1 and S- 2 \n1. The owner or operator shall operate each emergency standby engine only for the following purposes: to \nmitigate emergency conditions, for emission testing to demonstrate compliance with a District, state or \nFederal emission limit, or for reliability -related  activities (maintenance and other testing, but excluding \nemission testing). Operating while mitigating emergency conditions or while emission testing to show \ncompliance with District, state or Federal emission limits is not limited.  [Basis: Title 17, Cali fornia Code \nof Regulations, section 93115, ATCM for Stationary CI Engines]  \n \n2. The owner/operator shall operate each emergency standby engine only when a non- resettable totalizing \nmeter (with a minimum display capability of 9,999 hours) that measures the hours of operation for the \nengine is installed, operated and properly maintained. [Basis: Title 17, California Code of Regulations, \nsection 93115, ATCM for Stationary CI Engines]  \n \n3. Records: The owner/operator shall maintain the following monthly records in a District- approved log for \nat least 36 months from the date of entry (60 months if the facility has been issued a Title V Major Facility \nReview Permit or a Synthetic Minor Operating Permit). Log entries shall be retained on- site, either at a \n   \n \n 6 central location or at the engine’s location, and made immediately available to the District staff upon \nrequest.  \na. Hours of operation for reliability -related activities (maintenance and testing).  \nb. Hours of operation for emission testing to show compliance with emission limits.  \nc. Hours of operation (emergency).  \nd. For each emergency, the nature of the emergency condition. Fuel usage for each engine(s).  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary CI \nEngines]  \n \n4. At School and Near -School Operation: If the emergency standby engine is located on school grounds or \nwithin 500 feet of any school grounds, the following requirements shall apply: The owner or operator \nshall not operate each stationary emergency standby di esel-fueled engine for non- emergency use, \nincluding maintenance and testing, during the following periods:  \na. Whenever there is a school sponsored activity (if the engine is located on school grounds)  \nb. Between 7:30 a.m. and 3:30 p.m. on days when school is in session.  \n \n'School' or 'School Grounds' means any public or private school used for the purposes of the education \nof more than 12 children in kindergarten or any of grades 1 to 12, inclusive, but does not include any \nprivate school in which education is primarily conducted in a private home(s). 'School' or 'School \nGrounds' includes any building or structure, playground, athletic field, or other areas of school property \nbut does not include unimproved school property. [Basis: Title 17, California Code of Regulations, \nsection 93115, ATCM for Stationary CI Engines]  \n \nPermit Condition #100073 for S -1 and S- 2 \n1. The owner/operator shall not exceed the following limits per year per engine for reliability -related  \nactivities:  \n• 50 Hours of Diesel fuel (Diesel fuel) [Basis: Cumulative Increase; Regulation 2 -5; Title 17, \nCalifornia Code of Regulations, section 93115, ATCM for Stationary CI Engines]  \n \nPermit Condition # 27778 for S -1 and S- 2 \nTier 4 Certified Engines, equipped with SCR and DPF  \n \n1. The owner/operator shall ensure the engine is abated at all times of operation by an approved \nSelective Catalytic Reduction (SCR) System and Diesel Particulate Filter (DPF) equipped with a \nbackpressure monitor or other approved Diesel Exhaust Particulate Matter Abatement System. The \nengine, SCR System, and DPF with backpressure monitor or other approved system shall be \ninstalled, maintained, and operated in accordance with the manufacturer specifications and/or best \nmodern practices.  [Basis: Cumulative Inc rease, Title 17 CCR Section 93115.6(a)(3), 40 CFR \n1039.101, BACT, TBACT]  \n \n2. The owner/operator shall take all corrective actions recommended by the manufacturer in response \nto backpressure monitor notifications.  [Basis: Cumulative Increase, Title 17 CCR Section \n93115.6(a)(3), 40 CFR 1039.101, BACT, TBACT]  \n \n   \n \n 7 3. The owner/operator shall ensure urea injection commences as soon as the SCR catalyst bed reaches \nminimum operating temperature as specified by the manufacturer.   [Basis: Cumulative Increase, \nTitle 17 CCR Section 93115.6(a)(3), 40 CFR 1039.101, BACT, TBACT]  \n \n4. The owner/operator shall ensure the engine emissions do not exceed an ammonia (NH3) slip of 10 \nppmv, dry @15% O2 from the SCR system. If deemed necessary to demonstrate compliance with \nRegulation 2, Rule 5, the Air District may require a source test to determine compliance with this \nemission limit.   [Basis: Regulation 2, Rule 5]  \n \n5. To determine compliance with the above conditions, the owner/operator shall maintain the following \nrecords in a Air District- approved log and shall make these records available to Air District staff \nupon request.  All records shall be retained for at least  36 months from the date of entry (60 months \nif the facility has been issued a Title V Major Facility Review Permit or Synthetic Minor Operating \nPermit).   These recordkeeping requirements shall not replace the recordkeeping requirements \ncontained in any applicable Air District or state regulations.  \n \na.  Engine, SCR, and DPF maintenance records  \nb. SCR system owner's manual or manufacturer's specifications  \nc. DPF owner's manual or manufacturer's specifications  \nd. All backpressure monitor notifications and corrective actions  \n[Basis: BACT, Cumulative Increase, Recordkeeping]  \n \nEnd of Conditions"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner or operator shall operate each emergency standby engine only for the following purposes: to \nmitigate emergency conditions, for emission testing to demonstrate compliance with a District, state or \nFederal emission limit, or for reliability -related  activities (maintenance and other testing, but excluding \nemission testing). Operating while mitigating emergency conditions or while emission testing to show \ncompliance with District, state or Federal emission limits is not limited.  [",
+        "basis": [
+          "Title 17",
+          "Cali fornia Code \nof Regulations",
+          "section 93115",
+          "ATCM for Stationary CI Engines]"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall operate each emergency standby engine only when a non- resettable totalizing \nmeter (with a minimum display capability of 9,999 hours) that measures the hours of operation for the \nengine is installed, operated and properly maintained. [",
+        "basis": [
+          "Title 17",
+          "California Code of Regulations",
+          "section 93115",
+          "ATCM for Stationary CI Engines]"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "Records: The owner/operator shall maintain the following monthly records in a District- approved log for \nat least 36 months from the date of entry (60 months if the facility has been issued a Title V Major Facility \nReview Permit or a Synthetic Minor Operating Permit). Log entries shall be retained on- site, either at a \n   \n \n 6 central location or at the engine’s location, and made immediately available to the District staff upon \nrequest.  \na. Hours of operation for reliability -related activities (maintenance and testing).  \nb. Hours of operation for emission testing to show compliance with emission limits.  \nc. Hours of operation (emergency).  \nd. For each emergency, the nature of the emergency condition. Fuel usage for each engine(s).  \n[",
+        "basis": [
+          "Title 17",
+          "California Code of Regulations",
+          "section 93115",
+          "ATCM for Stationary CI \nEngines]"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "At School and Near -School Operation: If the emergency standby engine is located on school grounds or \nwithin 500 feet of any school grounds, the following requirements shall apply: The owner or operator \nshall not operate each stationary emergency standby di esel-fueled engine for non- emergency use, \nincluding maintenance and testing, during the following periods:  \na. Whenever there is a school sponsored activity (if the engine is located on school grounds)  \nb. Between 7:30 a.m. and 3:30 p.m. on days when school is in session.  \n \n'School' or 'School Grounds' means any public or private school used for the purposes of the education \nof more than 12 children in kindergarten or any of grades 1 to 12, inclusive, but does not include any \nprivate school in which education is primarily conducted in a private home(s). 'School' or 'School \nGrounds' includes any building or structure, playground, athletic field, or other areas of school property \nbut does not include unimproved school property. [",
+        "basis": [
+          "Title 17",
+          "California Code of Regulations",
+          "section 93115",
+          "ATCM for Stationary CI Engines]  \n \nPermit Condition #100073 for S -1 and S- 2"
+        ]
+      },
+      {
+        "num": 1,
+        "text": "The owner/operator shall not exceed the following limits per year per engine for reliability -related  \nactivities:  \n• 50 Hours of Diesel fuel (Diesel fuel) [",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 2 -5",
+          "Title 17",
+          "California Code of Regulations",
+          "section 93115",
+          "ATCM for Stationary CI Engines]  \n \nPermit Condition # 27778 for S -1 and S- 2 \nTier 4 Certified Engines",
+          "equipped with SCR and DPF"
+        ]
+      },
+      {
+        "num": 1,
+        "text": "The owner/operator shall ensure the engine is abated at all times of operation by an approved \nSelective Catalytic Reduction (SCR) System and Diesel Particulate Filter (DPF) equipped with a \nbackpressure monitor or other approved Diesel Exhaust Particulate Matter Abatement System. The \nengine, SCR System, and DPF with backpressure monitor or other approved system shall be \ninstalled, maintained, and operated in accordance with the manufacturer specifications and/or best \nmodern practices.  [",
+        "basis": [
+          "Cumulative Inc rease",
+          "Title 17 CCR Section 93115.6(a)(3)",
+          "40 CFR"
+        ]
+      },
+      {
+        "num": 1039,
+        "text": "101, BACT, TBACT]",
+        "basis": []
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall take all corrective actions recommended by the manufacturer in response \nto backpressure monitor notifications.  [",
+        "basis": [
+          "Cumulative Increase",
+          "Title 17 CCR Section"
+        ]
+      },
+      {
+        "num": 93115,
+        "text": "6(a)(3), 40 CFR 1039.101, BACT, TBACT]  \n \n   \n \n 7 3. The owner/operator shall ensure urea injection commences as soon as the SCR catalyst bed reaches \nminimum operating temperature as specified by the manufacturer.   [",
+        "basis": [
+          "Cumulative Increase",
+          "Title 17 CCR Section 93115.6(a)(3)",
+          "40 CFR 1039.101",
+          "BACT",
+          "TBACT]"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "The owner/operator shall ensure the engine emissions do not exceed an ammonia (NH3) slip of 10 \nppmv, dry @15% O2 from the SCR system. If deemed necessary to demonstrate compliance with \nRegulation 2, Rule 5, the Air District may require a source test to determine compliance with this \nemission limit.   [",
+        "basis": [
+          "Regulation 2",
+          "Rule 5]"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "To determine compliance with the above conditions, the owner/operator shall maintain the following \nrecords in a Air District- approved log and shall make these records available to Air District staff \nupon request.  All records shall be retained for at least  36 months from the date of entry (60 months \nif the facility has been issued a Title V Major Facility Review Permit or Synthetic Minor Operating \nPermit).   These recordkeeping requirements shall not replace the recordkeeping requirements \ncontained in any applicable Air District or state regulations.  \n \na.  Engine, SCR, and DPF maintenance records  \nb. SCR system owner's manual or manufacturer's specifications  \nc. DPF owner's manual or manufacturer's specifications  \nd. All backpressure monitor notifications and corrective actions  \n[",
+        "basis": [
+          "BACT",
+          "Cumulative Increase",
+          "Recordkeeping]  \n \nEnd of Conditions"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\ntion  \nThe Air District has reviewed the material contained in the permit application for the proposed project and \nhas made a preliminary determination that the project is expected to comply with all applicable requirements \nof Air District, state and federal air quality- related regulations. The preliminary recommendation is to issue \nan Authority to Construct for the equipment listed below. However, the proposed source s will be located \nwithin an Overburdened Community and requires a Health Risk Assessment,  which tr iggers the public \nnotification requirements of Air District Regulation 2 -1-412. After the comments are received and reviewed, \nthe Air District will make a final determination on the permit.  \n \nI recommend that the Air District initiate a public notice and consider any comments received prior to taking \nany final action on issuance of an Authority to Construct for the following:  \n \nS-1 Emergency Standby Diesel Engine for Electrical Generation  \nMake: Caterpillar, Inc.   Model: 28069F -E18TAG1   Model Year: 2025 \n744 bhp     5.019 MMBtu/hr  \nPermit Condition No s. 100072, 100073, and 27778 \nwith integral Selective Catalytic Reduction and Diesel Particulate Filter  \n   \n \n 8  \nS-2 Emergency Standby Diesel Engine for Electrical Generation  \nMake: Caterpillar, Inc.   Model: 28069F -E18TAG1   Model Year: 2025 \n744 bhp     5.019 MMBtu/hr  \nPermit Condition No s. 100072, 100073, and 27778 \nwith integral Selective Catalytic Reduction and Diesel Particulate Filter  \n \n \nPrepared By:  Rahseam Wroten  | Air Quality Technician I   \n   \n \n 9 Attachment 1   \n\n   \n \n 10"
+  },
+  "raw_sections": {
+    "preamble": "1 ENGINEERING EVALUATION \n \nFacility ID No. 203987",
+    "blocks": [
+      {
+        "heading": "BART POLICE DEPARTMENT HEADQUARTERS",
+        "alias": null,
+        "text": "BART POLICE DEPARTMENT HEADQUARTERS\n2000 Broadway, Oakland, CA 94612 \nApplication No. 732421"
+      },
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd  \nBart Police Department Headquarters is applying for an Authority to Construct/Permit to Operate for the \nfollowing equipment:  \n \nS-1 Emergency Standby Diesel Engine for Electrical Generation  \nMake: Caterpillar, Inc.   Model: 2806F -E18TAG1   Model Year: 2025 \n744 bhp     5.019 MMBtu/hr  \nPermit Condition No s. 100072, 100073, and 27778 \nwith integral Selective Catalytic Reduction and Diesel Particulate Filter  \n \nS-2 Emergency Standby Diesel Engine for Electrical Generation  \nMake: Caterpillar, Inc.   Model: 2806F -E18TAG1   Model Year: 2025 \n744 bhp     5.019 MMBtu/hr  \nPermit Condition No s. 100072, 100073, and 27778 \nwith integral Selective Catalytic Reduction and Diesel Particulate Filter  \n \nThe criteria pollutants are nitrogen oxides (NOx), carbon monoxide (CO), precursor organic compounds \n(POC) from unburned diesel fuel, sulfur dioxide (SO 2) and particulate matter (PM 10).  All of these pollutants \nare briefly discussed on the Air District’s web site at www.baaqmd.gov. \n \nS-1 and S- 2 meets the Environmental Protection Agency and California Air Resources Board (EPA/CARB) \nTier 4 Off -road standard.  The engine will burn commercially available California low sulfur diesel fuel.  \nThe sulfur content of the diesel fuel will not exceed 0.0015% by weight.   \n \nThis evaluation report will discuss compliance of the proposed project with all applicable rules and \nregulations."
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\nns  \nTable 1. Annual and Daily Emissions from EPA/CARB Certified Data from S -1 and S- 2 (each engine)  \nPollutant  Emission  \nFactor  (g/bhp -hr) Max Daily  \nEmissions  (lb/day)  Annual  \nEmissions (lb/yr)  Annual  \nEmissions (tons/yr)  \nNOx  0.07 2.75 5.74 0.003  \nPOC  0.01 0.39 0.82 0.000  \nCO 0.01 0.39 0.82 0.000  \nPM 10/PM 2.51 0.01 0.39 0.82 0.000  \nSO 2 N/A2 0.00 0.22 0.450  \nBasis:   \n Annual emissions: Reliability -related activity 50  hours for S -1 and S -2 \n Max daily emissions: 24 -hour operation \n   \n \n 2  Emissions from EPA Engine Family SCPXL18.1HTH  for S -1 and S -2 \n 1 Conservative Assumption: All PM emissions are PM2.5 \n 2 SO 2 emission factor from AP -42 Table 3.4- 1, SO 2 (15 ppm) = 0.00809*0.0015 lb SO 2/bhp- hr \n \nAmmonia Slip  \nThe proposed engines will have a n integral SCR installed which will control ammonia emissions via \ncatalytic reaction. However, there will be a small amount that will slip by the SCR unreacted. Below are \nestimated ammonia emissions for this project.  \nTable 3. Emissions from Ammonia Slip  \nBasis:  \n Annual emissions: Reliability -related activity hours for S -1 and S -2: 50 hours  (each engine) .  \n It is assumed that the exhaust water content is 12.5% by weight.  \n It is assumed that the exhaust is at standard pressure.  \n Volumetric concentrations were corrected to 0% O2 from 15% O2.  \n The exhaust flowrates were corrected to 0% O2 from 10% O2."
+      },
+      {
+        "heading": "Plant Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Increase\nse  \nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result from this \napplication.  \nTable 2. Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing Emissions Post \n4/5/91 (tons/yr)  Application Emissions \n(tons/yr)  Cumulative Emissions \n(tons/yr)  \nNOx  0.000  0.006  0.006  \nPOC  0.000  0.001  0.001  \nCO 0.000  0.000  0.000  \nPM 10/PM 2.5 0.000  0.001  0.001  \nSO 2 0.000  0.000  0.00045"
+      },
+      {
+        "heading": "Health Risk Assessment (HRA)",
+        "alias": "TOXICS",
+        "text": "Health Risk Assessment (HRA)\nA)  \nHRA was required. The diesel particulate emissions from the project are greater than the toxic trigger level \nof 0.26 lb/year. All PM 10 emissions are considered diesel particulate emissions. The PM 10 emissions from \nthis application are summarized in Table 1. There were no other related projects permitted in the last three \nyears. Since the diesel particulate emissions from the project are greater than the toxic trigger level of 0.26 \nlb/year, an HRA is required.  This application did not qualify for HRA stream lining. \n \nThe project is in compliance with project risk requirements as recommended, limiting reliability -related \nactivity hours by permit condition. See HRA report.  \n \n \n Source  \n# Ammonia \nSlip \nppm @  \n15% O2  Ammonia  \nSlip \nppm @   \n0% O2   \nActual \nTemp.  \n(°F) Actual \nExhaust \nFlowrate \n(acfm)  Dry Standard \nExhaust \nFlowrate \n(dscfm)  Hourly \nEmission \nRate \n(lb/hr)  Annual \nEmission \nRate \n(lb/year)  \nS-1 10 35.42  911 935 164.88  0.02 0.77 \nS-2 10 35.42  911 935 164.88  0.02 0.77 \n   \n \n 3 Health R isk Assessment Results  \nThis analysis estimates the incremental health risk resulting from toxic air contaminant (TAC) emissions \nfrom non -emergency operation of a standby generator diesel engine at this facility.  Results from this HRA \nindicate that the maximum project cancer ris k is estimated at 0.74 in a million,  the maximum project  chronic  \nhazard index is estimated at 0.00058 , and the maximum project acute hazard index is estimated at 0.0015.  \nSee HRA Report for more details.  \nTable 3. Health Risk Assessment Results  \nMaximally Exposed Receptor  Maximum Cancer Risk  Maximum Chronic Hazard Index  \nResidential  0.12 chances in a million  0.000032  \nStudent  0.059  chances in a million  0.000 033 \nOff-site worker  0.74 chances in a million  0.00058"
+      },
+      {
+        "heading": "TBACT",
+        "alias": null,
+        "text": "TBACT\nCT  \nIn accordance with the Air District’s Regulation 2 -5-301, this source does not require TBACT because the \nestimated source cancer risk is less than 1.0 in a million.  BACT and TBACT determinations for compression \nignition engines with a rated capacity between 50 -1000 bhp are described in BAAQMD BACT/TBACT \nWorkbook for IC Engine – Compression Ignition: Stationary Emergency, non-  Agricultural, non- direct drive \nfire pump 50 BHP and < 1000 BHP Output, Document #96.1.3, Revision 9, dated 12/02/2024  (see Attachment \n1).   \n \nProject Risk Limits  \nSince the proposed engine, operating at 50 hours/year for reliability related testing, complies with TBACT, \nand the estimated project cancer risk does not exceed 10 in a million and the chronic hazard index does not \nexceed 1.0, this project complies with the Air District’s Regulation 2 -5-302 project risk requirements.  No \nadditional operating hour restrictions were necessary for this project."
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\nT)    \nIn accordance with Regulation 2 -2-301, BACT is triggered for any new or modified source with the potential \nto emit 10 pounds or more per highest day of POC, NPOC, NOx, CO, SO2, or PM10.  \n   \nBACT is not triggered for any pollutant since the maximum daily emission of each pollutant does not exceed \n10 lb/day."
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nts  \nOffset must be provided for any new or modified source at a facility that will have the potential to emit more \nthan 10 tons per year of NOx or POC, as specified in Regulation 2- 2-302; 100 tons per year or more of PM2.5, \nPM10 or sulfur dioxide, as specified in Regulation 2- 2- 303.  \n \nTable 4. Potential to Emit for FID 203987 \nPollutant  Existing   \nAnnual"
+      },
+      {
+        "heading": "Emissions  (TPY)  Application",
+        "alias": "EMISSIONS",
+        "text": "Emissions  (TPY)  Application\nAnnual  \nEmissions*(TPY)  Facility   \nAnnual  \nEmissions *(TPY)  Offset  \nRequirement   \n(TPY)  Offset  \nRequired  \nNOx  0 0.017  0.017  >10 N \nPOC  0 0.002  0.002  >10 N \nCO 0 0.000  0.000  - N \nPM 10/PM 2.51 0 0.002  0.002  ≥100 N \n   \n \n 4 SO 2 0 0.001  0.001  ≥100 N \n*Annual emissions: Reliability -related activity of 50 hours and emergency operation of 100 hours for  S-1 and S-2.  \n \nSince the facility’s potential to emit is below the offsets trigger levels specified in Regulation 2 -2, offsets \nare not required."
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nce  \nThe owner/operator is expected to comply with all applicable requirements. Key requirements are listed \nbelow:"
+      },
+      {
+        "heading": "Airborne Toxic Control Measure for Stationary Compression Ignition Engines",
+        "alias": "TOXICS",
+        "text": "Airborne Toxic Control Measure for Stationary Compression Ignition Engines\nATCM, 5/19/2011, section 93115, title 17, CA Code of Regulations  \n \nAir District Rules \nRegulation 6- 1-303 ( Ringelmann No. 2 Limitation)  \nRegulation 9- 1-301 ( Limitations on Ground Level Concentrations of SO 2)  \nRegulation 9- 8 (NOx and CO from Stationary Internal Combustion Engines ) \nSection 9 -8-110.5 – Limited exemption for emergency standby engines  \nSection 9 -8-330 – Hours of operation for emergency standby engines  \nSection 9 -8-502 – Recordkeeping  \n \nSections 6 -1-310.1 and 6- 1-310.2 limit total suspended particulate (TSP) emissions to 0.15 grains/dscf  of \nexhaust gas volume or less depending on the exhaust gas rate (see Table 6 -1-310.2 for the corresponding TSP \nconcentration limit). As shown in the emission calculations in the table below, the certified particulate \nemission rate from this engine is 0.01 grams per bhp- hour, which results in an outlet grain loading of 0.02  \ngrains per dscf. Since this emission rate is less than the limit in Section 6 -1-310, compliance with this section \nis expected through use of the certified engine.    \nTable 6. Section 6 -1-310 Emissions Calculations  \nEngine Maximum Exhaust Flow Rate  935.00 acfm = 316.15 dscf/min =  18968.95 dscf/hr  \nEngine Maximum Exhaust Temperature  911.00  F     \nWater (H2O) Content (%)  12.5%       \nPM10 abatement for Engine  0%      \nEngine PM10 emissions  0.02 lb/hr =  65.17  kg/yr =  114.71  gr/hr  \nAre Engine PM10 Emissions > 1000 kg/yr?  NO      \nApplicable Regulation 6 -1-310 section?  6-1-310.1       \nTSP Concentration for Engine  0.02 gr/dscf      \nCorresponding Regulation 6 -1 TSP Limit  0.15 gr/dscf      \nPM10 emissions < Corresponding Reg 6 -1 TSP Limit?  YES       \n* dscfm = acfm x (460 R + 70 F)/(460 R + Engine Maximum Exhaust Temperature in F) x (1-  water (H2O Content))"
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA)",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA)\nA) \nOn November 1, 2023, the San Francisco Bay Area Rapid Transit District, as the CEQA lead agency, \ndetermined that the BART Police Department Administrative Headquarters Relocation project is exempt \nfrom CEQA per CEQA Guidelines Section 15301 for Existing Fa cilities. They filed a Notice of Exemption \nfor the project with the Alameda County Clerk. BART intends to relocate its administrative headquarters to \nan existing office building at 2000 Broadway in Oakland. CEQA Guidelines, Section 15301 exempts \nprojects that involve negligible or no expansion of use. The two emergency standby engines will not expand \n   \n \n 5 the facility’s normal operation and will result in no increase or only a negligible increase in use of the \nexisting commercial building. Further, based on the review of the permit application materials, including \nAppendix H, environmental information form, the project will not have any significant environmental \nimpacts, and cumulative impacts from successive projects of the same type in the same place will not result \nin significant environmental impacts.  In addition, this project is exempt under CEQA Guidelines \nSection 15268 (Ministerial Projects) because the Air District’s permit issuance is a ministerial action."
+      },
+      {
+        "heading": "The engines do not trigger Best Available Control Technology (BACT) or Toxic Best Available",
+        "alias": "TOXICS",
+        "text": "The engines do not trigger Best Available Control Technology (BACT) or Toxic Best Available\nControl Technology (TBACT) requirements per the evalua tion.  \n \nNew Source Performance Standards (NSPS)  \n40 CFR 60, Subpart IIII ( Stationary Compression Ignition Internal Combustion Engines ) \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP) \n40 CFR 63, Subpart ZZZZ ( Stationary Reciprocating Internal Combustion Engines (RICE) )"
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD)",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD)\nD)  \nThis application is not part of a PSD project as defined in Regulation 2 -2."
+      },
+      {
+        "heading": "Public Notification (Regulation 2 -1-412)",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Public Notification (Regulation 2 -1-412)\nThis project is  within 1,000 feet of  the nearest K -12 school and is located within an Overburdened Community  \nand requires a Health Risk Assessment  and is therefore subject to the public notification requirements of \nRegulation 2- 1-412.  A public notice will be sent to all parents of students of th e school(s)  below  and all \nresidents within 1,000 feet of the facility.  \n  \nOakland School for the Arts | 530 18th St, Oakland, CA 94612 \n \nAll comments received shall be summarized in the final evaluation report."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nns  \nPermit Condition #100072 for S -1 and S- 2 \n1. The owner or operator shall operate each emergency standby engine only for the following purposes: to \nmitigate emergency conditions, for emission testing to demonstrate compliance with a District, state or \nFederal emission limit, or for reliability -related  activities (maintenance and other testing, but excluding \nemission testing). Operating while mitigating emergency conditions or while emission testing to show \ncompliance with District, state or Federal emission limits is not limited.  [Basis: Title 17, Cali fornia Code \nof Regulations, section 93115, ATCM for Stationary CI Engines]  \n \n2. The owner/operator shall operate each emergency standby engine only when a non- resettable totalizing \nmeter (with a minimum display capability of 9,999 hours) that measures the hours of operation for the \nengine is installed, operated and properly maintained. [Basis: Title 17, California Code of Regulations, \nsection 93115, ATCM for Stationary CI Engines]  \n \n3. Records: The owner/operator shall maintain the following monthly records in a District- approved log for \nat least 36 months from the date of entry (60 months if the facility has been issued a Title V Major Facility \nReview Permit or a Synthetic Minor Operating Permit). Log entries shall be retained on- site, either at a \n   \n \n 6 central location or at the engine’s location, and made immediately available to the District staff upon \nrequest.  \na. Hours of operation for reliability -related activities (maintenance and testing).  \nb. Hours of operation for emission testing to show compliance with emission limits.  \nc. Hours of operation (emergency).  \nd. For each emergency, the nature of the emergency condition. Fuel usage for each engine(s).  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary CI \nEngines]  \n \n4. At School and Near -School Operation: If the emergency standby engine is located on school grounds or \nwithin 500 feet of any school grounds, the following requirements shall apply: The owner or operator \nshall not operate each stationary emergency standby di esel-fueled engine for non- emergency use, \nincluding maintenance and testing, during the following periods:  \na. Whenever there is a school sponsored activity (if the engine is located on school grounds)  \nb. Between 7:30 a.m. and 3:30 p.m. on days when school is in session.  \n \n'School' or 'School Grounds' means any public or private school used for the purposes of the education \nof more than 12 children in kindergarten or any of grades 1 to 12, inclusive, but does not include any \nprivate school in which education is primarily conducted in a private home(s). 'School' or 'School \nGrounds' includes any building or structure, playground, athletic field, or other areas of school property \nbut does not include unimproved school property. [Basis: Title 17, California Code of Regulations, \nsection 93115, ATCM for Stationary CI Engines]  \n \nPermit Condition #100073 for S -1 and S- 2 \n1. The owner/operator shall not exceed the following limits per year per engine for reliability -related  \nactivities:  \n• 50 Hours of Diesel fuel (Diesel fuel) [Basis: Cumulative Increase; Regulation 2 -5; Title 17, \nCalifornia Code of Regulations, section 93115, ATCM for Stationary CI Engines]  \n \nPermit Condition # 27778 for S -1 and S- 2 \nTier 4 Certified Engines, equipped with SCR and DPF  \n \n1. The owner/operator shall ensure the engine is abated at all times of operation by an approved \nSelective Catalytic Reduction (SCR) System and Diesel Particulate Filter (DPF) equipped with a \nbackpressure monitor or other approved Diesel Exhaust Particulate Matter Abatement System. The \nengine, SCR System, and DPF with backpressure monitor or other approved system shall be \ninstalled, maintained, and operated in accordance with the manufacturer specifications and/or best \nmodern practices.  [Basis: Cumulative Inc rease, Title 17 CCR Section 93115.6(a)(3), 40 CFR \n1039.101, BACT, TBACT]  \n \n2. The owner/operator shall take all corrective actions recommended by the manufacturer in response \nto backpressure monitor notifications.  [Basis: Cumulative Increase, Title 17 CCR Section \n93115.6(a)(3), 40 CFR 1039.101, BACT, TBACT]  \n \n   \n \n 7 3. The owner/operator shall ensure urea injection commences as soon as the SCR catalyst bed reaches \nminimum operating temperature as specified by the manufacturer.   [Basis: Cumulative Increase, \nTitle 17 CCR Section 93115.6(a)(3), 40 CFR 1039.101, BACT, TBACT]  \n \n4. The owner/operator shall ensure the engine emissions do not exceed an ammonia (NH3) slip of 10 \nppmv, dry @15% O2 from the SCR system. If deemed necessary to demonstrate compliance with \nRegulation 2, Rule 5, the Air District may require a source test to determine compliance with this \nemission limit.   [Basis: Regulation 2, Rule 5]  \n \n5. To determine compliance with the above conditions, the owner/operator shall maintain the following \nrecords in a Air District- approved log and shall make these records available to Air District staff \nupon request.  All records shall be retained for at least  36 months from the date of entry (60 months \nif the facility has been issued a Title V Major Facility Review Permit or Synthetic Minor Operating \nPermit).   These recordkeeping requirements shall not replace the recordkeeping requirements \ncontained in any applicable Air District or state regulations.  \n \na.  Engine, SCR, and DPF maintenance records  \nb. SCR system owner's manual or manufacturer's specifications  \nc. DPF owner's manual or manufacturer's specifications  \nd. All backpressure monitor notifications and corrective actions  \n[Basis: BACT, Cumulative Increase, Recordkeeping]  \n \nEnd of Conditions"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\ntion  \nThe Air District has reviewed the material contained in the permit application for the proposed project and \nhas made a preliminary determination that the project is expected to comply with all applicable requirements \nof Air District, state and federal air quality- related regulations. The preliminary recommendation is to issue \nan Authority to Construct for the equipment listed below. However, the proposed source s will be located \nwithin an Overburdened Community and requires a Health Risk Assessment,  which tr iggers the public \nnotification requirements of Air District Regulation 2 -1-412. After the comments are received and reviewed, \nthe Air District will make a final determination on the permit.  \n \nI recommend that the Air District initiate a public notice and consider any comments received prior to taking \nany final action on issuance of an Authority to Construct for the following:  \n \nS-1 Emergency Standby Diesel Engine for Electrical Generation  \nMake: Caterpillar, Inc.   Model: 28069F -E18TAG1   Model Year: 2025 \n744 bhp     5.019 MMBtu/hr  \nPermit Condition No s. 100072, 100073, and 27778 \nwith integral Selective Catalytic Reduction and Diesel Particulate Filter  \n   \n \n 8  \nS-2 Emergency Standby Diesel Engine for Electrical Generation  \nMake: Caterpillar, Inc.   Model: 28069F -E18TAG1   Model Year: 2025 \n744 bhp     5.019 MMBtu/hr  \nPermit Condition No s. 100072, 100073, and 27778 \nwith integral Selective Catalytic Reduction and Diesel Particulate Filter  \n \n \nPrepared By:  Rahseam Wroten  | Air Quality Technician I   \n   \n \n 9 Attachment 1   \n\n   \n \n 10"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "BART POLICE DEPARTMENT HEADQUARTERS",
+        "alias": null,
+        "text": "BART POLICE DEPARTMENT HEADQUARTERS\n2000 Broadway, Oakland, CA 94612 \nApplication No. 732421"
+      },
+      {
+        "heading": "TBACT",
+        "alias": null,
+        "text": "TBACT\nCT  \nIn accordance with the Air District’s Regulation 2 -5-301, this source does not require TBACT because the \nestimated source cancer risk is less than 1.0 in a million.  BACT and TBACT determinations for compression \nignition engines with a rated capacity between 50 -1000 bhp are described in BAAQMD BACT/TBACT \nWorkbook for IC Engine – Compression Ignition: Stationary Emergency, non-  Agricultural, non- direct drive \nfire pump 50 BHP and < 1000 BHP Output, Document #96.1.3, Revision 9, dated 12/02/2024  (see Attachment \n1).   \n \nProject Risk Limits  \nSince the proposed engine, operating at 50 hours/year for reliability related testing, complies with TBACT, \nand the estimated project cancer risk does not exceed 10 in a million and the chronic hazard index does not \nexceed 1.0, this project complies with the Air District’s Regulation 2 -5-302 project risk requirements.  No \nadditional operating hour restrictions were necessary for this project."
+      }
+    ]
+  }
+}

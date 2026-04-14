@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Facility SI Details Viewer</title>
+    <link rel="stylesheet" href="./audit-reference.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Air Permitting Assistant</p>
+          <h1 id="page-title">Facility SI Details Viewer</h1>
+          <p id="page-subtitle" class="subhead">
+            Search subject items and review SI details, emissions context, and Title V permit conditions from the uploaded source files.
+          </p>
+        </div>
+        <div class="hero-actions">
+          <button id="print-page" type="button" class="secondary">Print</button>
+        </div>
+      </header>
+
+      <section class="meta-strip">
+        <div id="meta-details" class="meta-details"></div>
+        <div id="document-links" class="document-links"></div>
+      </section>
+
+      <section id="stat-grid" class="stat-grid"></section>
+
+      <section class="toolbar">
+        <label class="search-card">
+          <span>Search by ID, designation, description, pollutant, or manufacturer</span>
+          <input id="search-input" type="text" placeholder="Examples: EQUI18, COMG1, TREA30, Boiler, Mercury" autocomplete="off" />
+        </label>
+        <div id="category-filters" class="category-filters"></div>
+      </section>
+
+      <main class="workspace">
+        <aside class="sidebar">
+          <div class="sidebar-head">
+            <h2>Matching Items</h2>
+            <p id="result-count">0 items</p>
+          </div>
+          <div id="result-list" class="result-list"></div>
+        </aside>
+
+        <section id="detail-panel" class="detail-panel">
+          <div class="empty-state">
+            Select a record to review facility details and related subject items.
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./audit_data.js"></script>
+    <script src="./audit-reference.js"></script>
+  </body>
+</html>

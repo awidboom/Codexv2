@@ -16,8 +16,37 @@ Build a repeatable pipeline that pulls CDPHE enforcement documents, extracts str
 
 ## Outputs
 - downloads/*.pdf: raw enforcement documents.
-- downloads/cdphe_download_manifest.csv: metadata captured during download.
-- downloads/cdphe_enforcement_summary.csv: per-violation records with citations and categories.
+- downloads/cdphe_download_manifest.csv: portal metadata captured during download.
+- downloads/cdphe_enforcement_summary.csv: per-violation records with portal metadata, citations, and categories.
+
+## Portal Metadata Contract
+The downloader now treats the CDPHE portal grid as the authoritative source for document-level metadata and writes these fields to the manifest:
+
+- `file_name`
+- `pdf_url`
+- `document_date`
+- `document_title`
+- `airs_no`
+- `air_permit_number`
+- `case_number`
+- `facility_name`
+- `company`
+- `document_handle`
+
+The processor carries those manifest fields into the summary CSV and uses the portal metadata as the default source for:
+
+- `document_date`
+- `document_title`
+- `airs_no`
+- `air_permit_number`
+- `case_number`
+- `facility_name`
+- `company`
+- `document_handle`
+
+PDF text extraction remains a fallback for fields such as `inspection_date`, `violation_description`, `rule_citation`, `equipment_type`, and `source_type`.
+
+`document_handle` is also used by the downloader to avoid re-downloading the same portal document multiple times when the search grid repeats it across multiple rows.
 
 ## Typical Use
 - `python cdphe_pipeline.py`

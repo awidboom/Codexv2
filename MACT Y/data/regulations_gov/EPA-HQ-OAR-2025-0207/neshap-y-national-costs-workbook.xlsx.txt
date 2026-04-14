@@ -1,0 +1,134 @@
+SOURCE FILE: neshap-y-national-costs-workbook.xlsx
+
+# SHEET: Assumptions
+Flare costs are in 2019$
+Considered the following options:
+Flare with continuous natural gas (NG) pilot [Baseline]
+Flare with continuous NG pilot + calorimeter + flow meter
+Flare with continuous NG pilot + simplified VISR
+Flare with consistent flare gas (14-day sampling option)
+Flare with once every 5-year performance evaluation
+Used $90,000 for simplified VISR based on information collected during call with Dr. Zeng on 4/4/2022.
+Converted to 2019$, that is $68,493 (based on 2019 CEPCI of 607.5 and 2022 CEPCI of 816.0)
+
+# SHEET: MonitoringOptCosts
+Control Costs for Flares with monitoring options from OOOOb Storage Tank Analysis | CRF | 0.1098 | Year | CEPCI | Year | NG costs | https://www.eia.gov/dnav/ng/hist/n3035us3m.htm
+Costs are in 2019$ | 2019 | 607.5 | 2017 | 4.068333333333334 | $/Mscf
+Flare Size/Monitoring | TCI | AOC | TAC | 2020 | 596.2 | 2018 | 3.8433333333333337
+1 - continuous pilot, NG | 79352 | 22840 | 31552.8496 | 2021 | 708.8 | 2019 | 4.055833333333333
+1 - flow+calorimeter | 434667 | 37052 | 84778.4366 | 355315 | 14212 | 53225.587 | 2022 | 816 | 2020 | 5.448333333333333
+1 - VISR | 300141 | 31671 | 64626.4818 | 220789 | 8831 | 33073.6322 | 2023 | 797.9 | 2021 | 3.2625000000000006
+2 - continuous pilot, NG | 84761 | 23282 | 32588.7578 | 2022 | 7.7625
+2 - flow+calorimeter | 440077 | 37494 | 85814.4546 | 355316 | 14212 | 53225.6968 | 2023 | 4.463333333333334
+2 - VISR | 305551 | 32114 | 65663.49979999999 | 220790 | 8832 | 33074.74199999999 | 2024 | 3.884166666666666
+3 - continuous pilot, NG | 92874 | 23812 | 34009.5652
+3 - flow+calorimeter | 448190 | 38024 | 87235.26199999999 | 355316 | 14212 | 53225.69679999999
+3 - VISR | 313664 | 32643 | 67083.3072 | 220790 | 8831 | 33073.742
+4 - continuous pilot, NG | 145328 | 33526 | 49483.0144
+4 - flow+calorimeter | 500644 | 47738 | 102708.71119999999 | 355316 | 14212 | 53225.69679999999
+4 - VISR | 366118 | 42357 | 82556.7564 | 220790 | 8831 | 33073.742
+Costs escalated to 2023$
+Added Costs | TCI | AOC | TAC
+Flow and calorimeter | 355315 | 14212 | 53225.587 | 466676.2773662551 | 18666.26304526749 | 69907.3183000823
+VISR | 220789 | 8831 | 33073.6322 | 220789 | 8831 | 33073.6322 | Did not escalate since cost quote was from April 2022 and annual 2022 CEPCI was just slightly less than 2023.
+Control Costs for Flares with monitoring options for MTVLO
+Flare Size/Monitoring | TCI | AOC | TAC
+Continuous pilot, NG | 211648 | 37623 | 60861.9504
+Pilot plus flow and calorimeter | 566964 | 56342 | 118594.6472
+Pilot plus calorimeter only | 414648 | 50249 | 95777.3504
+Pilot plus VISR | 379676 | 48851 | 90539.42480000001
+Costs escalated to 2023$
+Added Costs | TCI | AOC | TAC | Annual Cost Capital Only
+Flow and calorimeter | 355316 | 18719 | 57732.696800000005 | 466677.59078189294 | 24585.82732510288 | 75827.02679295474 | 51241.199467851846
+Calorimeter only | 203000 | 12626 | 34915.399999999994 | 266623.3744855967 | 16583.1858436214 | 45858.43236213991 | 29275.246518518517
+VISR | 168028 | 11228 | 29677.474400000006 | 220690.6027983539 | 14747.030781893003 | 38978.858969152265 | Escalated here because used descalated 2019 costs for VISR in spreadsheet input. | 24231.82818725926
+NG addition costs (for one-time assessment) | 4507 | 4507 | 0 | 5919.564279835391 | 5919.564279835391
+Sampling costs | 2023 costs | basis | reference | Fully Loaded Hourly Tech rate | 109.16 | (from memo)
+Analysis cost | 268 | $200 for GC analysis in 2020 | Fee Schedule 2020 4-17-20 new
+Shipping and Handling | 25 | Interest Rate | 0.075
+Labor (assuming 1 hr)) | 109.16 | includes sample collection, mailing, and data review | Life | 5 | years
+Tax | 32.172799999999995 | assumes 8% | CRF | 0.24716471778672036
+Subtotal | 434.33279999999996 | per sample
+Cost of 14-day sampling option | Sample Costs only
+No. of samples | 14
+Total cost of demonstration | 6080.659199999999 | 4552.4192
+Costs Annualized over 5 years | 1502.9244151252246 | per year | 1125.1974068148475
+Cost of Flare Performance Test
+2-hour VE monitoring | 272.9 | Includes 0.5 hours for set-up
+Heat content anayses | 3474.6623999999997 | Assumes 8 samples
+Flow measurement determination | 3474.6623999999997 | Assumed comparable to heat content determinations
+Subtotal | 7222.2248
+Costs Annualized over 5 years | 1785.079154484253 | per year
+Non-Flare performance test
+Test crew | 24759 | $18,500 in 2020 from gasoline distribution analysis
+On-site staff | 436.64 | Assumes 4 hours on-site labor.
+Subtotal | 25195.64 | Annualized Testing contractor costs only
+Costs Annualized over 5 years | 6227.473250055803 | per year | 6119.551247681409
+Annual additional NG usage costs | 1642.9530000000002 | per year
+Annual RATA
+Test Crew | 18569.25 | Assumes testing cost is 75% of performance test.
+On-site staff | 436.64 | Assumes 4 hours on-site labor.
+Subtotal | 19005.89 | Assumes testing cost is 75% of performance test + 4 hours on-site labor.
+Thermal combustors - operating limit ΔNG usage
+Annual additional NG usage (+25 deg F) | 12.27 | scfm | Difference in Cell D49, Design Parameters, for Oxidizer Costs, no heat recovery
+Low flow hours when more auxilary gas needed | 500 | hours | Assumed needed only during low waste gas flows (Flare flow mode 3)
+Quantity of additional NG used | 368.1 | Mscf/year
+
+# SHEET: 2nd_Impacts
+Secondary Impacts | Secondary Impact Factors | Source
+Flow/flare (Mscf/yr) | Natural Gas Usage | 117 | lb CO2/10^6 Btu | Converted from Table C-1, 40 CFR part 98, subpart C
+NG usage increase for combustors | 368.1 | See MonitoringOptCosts tab | Natural Gas Usage | 0.068 | lb NOx/10^6 Btu | AP-42 Table 13.5-1
+Natural Gas use increase for flare requirements | 1088.6 | Based on Cell C64 in "Design Parameters" tab for flare 101b cost sheets | Natural Gas Usage | 0.31 | lb CO/10^6 Btu | AP-42 Table 13.5-2
+Natural Gas Btu | 1036 | Btu/scf | https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php
+National Impacts
+Flow/flare (MMscf/yr) | CO2 tons/yr | NOx tons/yr | CO tons/yr
+Natural Gas use increase for theroal combustors | 36.81 | 2230.9068600000005 | 1.2965954400000004 | 5.9109498
+Natural Gas use increase for flare requirements | 54.42999999999999 | 3298.7845799999996 | 1.9172423200000002 | 8.740369399999999
+TOTAL | 91.24 | 5529.6914400000005 | 3.2138377600000005 | 14.6513192
+
+# SHEET: ElectronicReporting
+No.Facilities | 190
+First year hrs | 2 | hours | Interest Rate | 0.075 | 0.07
+First year cost | 41480.799999999996 | Life | 8 | years | 15
+Annualized | 7081.893504789595 | CRF | 0.17072702322013064 | 0.10979462470100652
+Subsequent time saving | 2 | hours
+Cost | -41480.799999999996
+TAC | -34398.9064952104
+
+# SHEET: NationalCosts
+National Costs | Breakdown of Vapor Recovery Systems
+Monitor Type | Fraction | Number | First Year Cost | TCI | AOC | TAC
+Assumed Number of Controls1 | 200 | Currently testing annually | 0.2 | 10 | 0 | 0 | 0 | 0
+Assumed Breakdown of Control | Fraction | Number | Subject to periodic testing | 0.6 | 30 | 25195.64 | 0 | 0 | 6227.473250055803
+- Vapor recovery systems | 0.25 | 50 | Subject to annual RATA | 0.19999999999999996 | 9.999999999999998 | 0 | 0 | 19005.89 | 19005.89
+- Thermal combustor (not flare) | 0.5 | 100
+- Flare | 0.25 | 50 | Breakdown of Flares
+Monitor Type | Fraction | Number | First Year Cost | TCI | AOC | TAC
+1 Some sources only require submerged loading but some may have multiple controls) | NHV-flow monitor | 0.04 | 2 | 466677.59078189294 | 24585.82732510288 | 75827.02679295474
+NHV only | 0.16 | 8 | 266623.3744855967 | 16583.1858436214 | 45858.43236213991
+VISR | 0 | 0 | 220690.6027983539 | 14747.030781893003 | 38978.858969152265
+One-time assessment | 0.8 | 40 | 6080.659199999999 | 0 | 5919.564279835391 | 7422.488694960615
+Option | First Year Cost | Total Capital Investment, TCI ($) | Annual Operating Cost, AOC ($/yr) | Total Annualized Cost, TAC ($/yr) | HAP Emissions Reduction (tpy) | Cost-Effectiveness ($/ton HAP) | VOC Emissions Reduction (tpy) | Cost-Effectiveness ($/ton VOC) | Comments
+Electronic Reporting | 41480.799999999996 | -41480.799999999996 | -34398.9064952104
+Periodic Performance Testing/RATA | 3275433.2 | 354354.19999999995 | 1353984.6225072544 | 180 | 7522.136791706968 | 2250 | 601.7709433365575 | Assumes option improves average performance from 95% to 98%
+Enhanced Flare Monitoring | 243226.36799999996 | 3066342.1774485596 | 418619.7125925926 | 815421.0602814534 | 100 | 8154.2106028145345 | 1250 | 652.3368482251627 | Assumes option improves average performance from 94% to 99%
+Total | 3560140.368 | 3066342.1774485596 | 731493.1125925926 | 2135006.7762934975 | 280 | 7747.877438531099 | 3500 | 619.830195082488
+Assumed per control inlet HAP loading | 40 | tons/year
+Assumed per control inlet VOC loading | 500 | tons/year
+HAP reductions at 3% CE improvement | 1.2 | tons/year/contol | First year costs, excluding e-reporting | 6585001.7454485595
+HAP reductions at 5% CE improvement | 2 | tons/year/contol | Total annualized costs, excluding e-reporting | 2169405.682788708
+Speciated HAP Emissions Reductions
+HAP | % of total HAP | Emission Reductions (tpy) for:
+Periodic Performance Test | Enhanced Flare Monitoring | Total
+Hexane | 0.42 | 75.6 | 42 | 117.6
+Benzene | 0.22 | 39.6 | 22 | 61.6
+Methanol | 0.2 | 36 | 20 | 56
+Toluene | 0.12 | 21.599999999999998 | 12 | 33.599999999999994
+Xylene | 0.03 | 5.3999999999999995 | 3 | 8.399999999999999
+Ethylbenzene | 0.01 | 1.8 | 1 | 2.8
+Total HAP Reductions | 180 | 100 | 279.99999999999994
+Secondary Impacts
+National Impacts | Flow/flare (MMscf/yr) | CO2 tons/yr | NOx tons/yr | CO tons/yr
+Add'l NG usage for flares | 36.81 | 2230.9068600000005 | 1.2965954400000004 | 5.9109498
+Add'l NG usage for flares | 54.42999999999999 | 3298.7845799999996 | 1.9172423200000002 | 8.740369399999999
+Total | 91.24 | 5529.6914400000005 | 3.2138377600000005 | 14.6513192

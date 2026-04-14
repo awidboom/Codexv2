@@ -1,0 +1,47 @@
+# Review Comments and Redlines
+
+Reviewed file: `2026 MVEC Project BACT_2026.03.31.docx`
+Generated file: `2026 MVEC Project BACT_2026.03.31_review_comments_redlines.docx`
+
+## Priority comments
+
+1. Startup/shutdown treatment needs a clearer Step 5 structure and enforceable compliance approach.
+2. NOx technical infeasibility for SCR/SNCR and low-NOx designs is too categorical and should rely on source-specific feasibility factors, not only intermittency or lack of identical analogs.
+3. Step 5 sections for PM, NOx, CO, SO2, EFRT VOC, and fugitive TAPs should state the complete BACT outcome as an emission limitation or enforceable work-practice package, not only the control name.
+4. SO2 support is incomplete because the feasibility narrative and final limit structure do not clearly reconcile the sulfur basis, the selected limit, and the cited precedent discussion.
+5. The storage-tank Step 1 discussion narrows the technology universe too early by collapsing IFRT and EFRT before the ranking logic is fully shown.
+6. The EFRT Step 4 cost discussion needs an explicit economic-feasibility benchmark, and the OGI discussion should distinguish between an independent control option and a supplemental monitoring measure.
+7. The fugitive TAP LDAR section needs the actual enforceable BACT elements: threshold, frequency, repair timing, covered components, and compliance demonstration.
+
+## Targeted edits
+
+- Paragraph 163: This startup/shutdown discussion is too conclusory for a permit-facing BACT record. Step 5 should either state that the same BACT limit applies during startup and shutdown, or explain any separate treatment with enforceable operating requirements, defined triggering conditions, and a compliance approach.
+  Redline suggestion: Revise to identify the applicable startup/shutdown approach explicitly: same numeric limit, or separate enforceable work-practice/parametric requirements with monitoring, recordkeeping, and a clear basis for why a distinct limit is warranted.
+- Paragraph 164: Citation appears incomplete. Confirm the subpart citation and keep the NSPS Kc reference consistent wherever the tank BACT floor is discussed.
+  Redline suggestion: Replace `40 CFR , Subpart Kc` with the complete citation.
+- Paragraph 193: This Step 5 sentence names the control approach but does not yet state the full BACT result. Per top-down BACT practice, the final selection should be framed as an emission limitation plus the associated averaging time, operating mode treatment, and compliance demonstration method.
+  Redline suggestion: Revise the opening sentence so it introduces the complete BACT package, for example: control basis, numeric PM limit, 3-hour averaging time, startup/shutdown treatment, and performance-test or parametric compliance method.
+- Paragraph 206: The technical infeasibility rationale is too categorical as written. A top-down record should distinguish between true infeasibility and a control that is merely difficult, expensive, or not demonstrated on the exact same source type. The current text leans heavily on intermittency and lack of marine-loading analogs without fully explaining why analogous applications, reheating, or other design adaptations could not reasonably be applied here.
+  Redline suggestion: Add source-specific feasibility factors such as flue-gas temperature window, variability, sulfur or catalyst poisoning risk, pressure drop, reheating needs, startup frequency, and safety constraints, and explain why those factors make SCR/SNCR or low-NOx burner concepts not reasonably applicable to this VCU.
+- Paragraph 217: The benchmarking discussion needs tighter normalization. If lower limits from other permits are being screened out, explain why differences in source type, duty, fuel chemistry, averaging time, operating mode, or permit posture make those values non-comparable. `LAER is more stringent than BACT` alone is not enough to explain why a lower demonstrated VCU value should not inform the Step 3 and Step 5 record.
+  Redline suggestion: Add a short normalization paragraph before the bullets stating the comparison basis used for NOx precedents, including unit type, fuel or vapor composition, averaging time, and whether the cited determination reflects demonstrated operation.
+- Paragraph 225: This sentence has a typographical error and should more clearly explain the unit conversion or comparison logic if a `lb/Mgal loaded` limit is being used as corroborating support.
+  Redline suggestion: Change `he proposed NOx performance meet this limit` to `The proposed NOx performance meets this limit.`
+- Paragraph 244: Same Step 5 issue as the PM and NOx sections: the narrative stops at the control name. For CO, state the selected emission limit, averaging time, compliance method, and how startup/shutdown are handled as part of the actual BACT determination.
+  Redline suggestion: Revise to present the CO BACT outcome as an enforceable package rather than only `clean fuels, combined with good design methods and operating practices`.
+- Paragraph 256: This feasibility rationale needs more support. The statement that outlet concentrations will be below what add-on controls can achieve is not self-executing and should cite the project-specific sulfur basis, expected inlet or outlet range, and why intermittent operation or low concentration makes the candidate controls not reasonably applicable.
+  Redline suggestion: Add the sulfur-content or SO2 generation basis used for the screening and explain whether the issue is mass loading, concentration, gas-stream variability, corrosion, reagent system practicality, or another specific feasibility constraint.
+- Paragraph 264: The SO2 Step 5 section does not clearly state the final emission limitation or compliance structure. The narrative should say whether the BACT outcome is only the use of pipeline natural gas for assist and enrichment service, or whether there is also a numeric SO2 limit for the VCU during normal operation. The current discussion also leaves a mismatch with Table 4-8 unresolved.
+  Redline suggestion: Add an explicit SO2 BACT statement with the selected limit basis, averaging time, and compliance method, and correct the typographical error in the Jupiter Brownsville sentence so the value and units are internally consistent.
+- Paragraph 275: This Step 1 discussion narrows the technology universe too early. Even if the project ultimately concludes that an EFRT compliant with NSPS Kc is functionally equivalent to an IFRT for this service, both options should still be visible in the Step 1 universe and then collapsed later with a clear equivalency rationale.
+  Redline suggestion: Keep both IFRT and EFRT in the available-controls list, then explain in Step 2 or Step 3 why an NSPS Kc-compliant EFRT provides equivalent performance for this tank and therefore leads to the same BACT outcome.
+- Paragraph 294: The cost-effectiveness rejection needs a benchmark and a jurisdiction-specific rationale. `Well above what is considered economically feasible` is too open-ended unless the report identifies the policy threshold, comparable determinations, or project-specific balancing basis being applied.
+  Redline suggestion: Add the specific cost-effectiveness benchmark or comparison set used for the EFRT VOC Step 4 analysis and explain why the calculated values are unreasonable in this permitting context.
+- Paragraph 295: This treatment of OGI blends a federal NSPS cost finding with the project-specific BACT record. If OGI is not being selected as BACT, clarify whether it is being rejected as an independent control technology, preserved as a supplemental monitoring measure, or considered outside the core emission-limitation framework. As drafted, the distinction is blurred.
+  Redline suggestion: Revise to state whether OGI is being evaluated as a standalone Step 1 control option, a Step 5 compliance enhancement, or both, and then explain the basis for not selecting it in that role.
+- Paragraph 305: If the final EFRT BACT outcome is a work-practice or design-standard package rather than a numeric VOC limit, the report should make the permit structure explicit: identify the governing NSPS Kc elements, any additional roof or seal design features relied upon, and the inspection or monitoring provisions that make the determination enforceable.
+  Redline suggestion: Expand this paragraph to identify the specific NSPS Kc design and operating requirements, any inspection frequencies, and any project-specific features relied upon as the BACT basis.
+- Paragraph 324: This fugitive TAP Step 5 section is underdeveloped. It should identify the actual LDAR framework that serves as BACT for TAP-bearing components, including monitoring threshold, inspection frequency, repair timing, applicability to the affected component population, and the compliance demonstration structure.
+  Redline suggestion: Revise to specify the enforceable LDAR elements that constitute the selected BACT outcome rather than only stating that the project will comply with the applicable LDAR program.
+- Paragraph 332: Appendix B title appears incorrect. This section is described as control cost calculations for the domed external floating tank, but the preceding heading still reads `RACT/BACT/LAER Clearinghouse Summary`.
+  Redline suggestion: Replace the Appendix B heading with the correct cost-calculation title so the appendix labels are internally consistent.

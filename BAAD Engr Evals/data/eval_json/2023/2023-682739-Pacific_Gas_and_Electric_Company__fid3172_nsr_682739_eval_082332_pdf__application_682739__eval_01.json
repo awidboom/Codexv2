@@ -1,0 +1,256 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 5
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "Pollutant  E.F. E.F. Unit  Emissions\n Daily (lbs/day) Annual (lbs/yr)  Annual (TPY)\nNO x 7.46E -03 g/bhp -hr 0.080  0.168  0.000\nCO 2.61E -01 g/bhp -hr 2.817  5.869  0.003\nPOC 1.27E -01 g/bhp -hr 1.368  2.851  0.001\nPM 10 1.94E -02 lb/MMBtu  0.813  1.694  0.001\nPM 2.5 1.94E -02 lb/MMBtu  0.813  1.694  0.001\nSO 2 2.94E -03 lb/MMBtu  0.123  0.257  0.000",
+        "Acetaldehyde   8.83E -01 1.48E -03 2.10E -01 No 7.41E -02 2.90E+01  No\nAcrolein   5.47E -01 9.18E -04 1.10E -03 No 4.59E -02 1.40E+01  No\nBenzene   1.91E+00  3.20E -03 1.20E -02 No 1.60E -01 2.90E+00  No\nEthyl benzene   1.16E -02 1.95E -05 None  No 9.73E -04 3.30E+01  No\nFormaldehyde   2.35E+00  3.94E -03 2.40E -02 No 1.97E -01 1.40E+01  No\nNaphthalene   7.65E -02 1.28E -04 None  No 6.42E -03 2.40E+00  No\nBenzo(a)anthracene  0.1 2.94E -04 4.93E -07 None  No 2.47E -05 None  No\nBenzo(a)pyrene  1.0 1.15E -04 1.93E -07 None  No 9.65E -06 None  No\nBenzo(b)fluoranthene  0.1 2.37E -04 3.98E -07 None  No 1.99E -05 None  No\nBenzo(k)fluoranthene  0.1 1.03E -04 1.73E -07 None  No 8.64E -06 None  No\nChrysene  0.01 3.10E -04 5.20E -07 None  No 2.60E -05 None  No\nDibenz(a,h)anthracene  1.05 1.25E -05 2.10E -08 None  No 1.05E -06 None  No\nIndeno(1,2,3 -cd)pyrene  0.1 1.69E -04 2.84E -07 None  No 1.42E -05 None  No",
+        "PAH or derivative\nTOTAL   2.12E -04 3.55E -07 None  No 1.77E -05 3.30E -03 No\nPropylene   1.60E+01  2.68E -02 None  No 1.34E+00  1.2E+05  No\nToluene   1.07E+00  1.80E -03 2.20E+00  No 8.98E -02 1.20E+04  No\nXylene   6.02E -02 1.01E -04 9.70E+00  No 5.05E -03 2.70E+04  No"
+      ]
+    },
+    "application_number_detected": "682739",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2023/682739/fid3172_nsr_682739_eval_082332-pdf.pdf?rev=3dcb6b928c124971947fb90b0c596198&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2023/082323-682739/pacific-gas-and-electric-company"
+  },
+  "application_number": "682739",
+  "plant": {
+    "name": "Pacific Gas and Electric Company",
+    "plant_id": 3172,
+    "address": ""
+  },
+  "evaluation_date": "June 12, 2006",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-11",
+      "description": "Emergency Standby Natural Gas Engine Generato r Set : Engine , Make Kohler  (EPA"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nND  \nPacific Gas and Electric Company  is applying for an Authority to Construct and Permit to O perate an \nEmergency Standby Generator Set , fueled by Natural Gas ( NG).  \n \nS-11 Emergency Standby Natural Gas Engine Generato r Set : Engine , Make Kohler  (EPA \nFamily: NKHXB06.2HNL , Model  KG6208THD , Model Year 202 2, Rated 204 BHP.  \n \nS-11 will be  located at 450 Eastmoor Avenue  in Daly City , CA. The primary pollutants from N G engines are the \nproducts of combustion, including nitrogen oxides (NO x), carbon monoxide (CO), hydrocarbon and other organic \ncompounds ( precursor organic compounds , POCs), sulfur dioxide (SO 2), and particulate matter (PM 10 and \nPM 2.5). Various t oxic air contaminants (TAC s) are also emitted during the combustion of NG. \n \nThe project is located within 1000 ft of a school and is therefore subject to the public notice requirements of"
+  },
+  "emission_calculations": {
+    "text": "EMISSION CALCULATIONS\nNS   \nBasis:  \n- Maximum output rating of 204  HP, per EPA certification rating data . \n- Maximum operati onal duration : 50 hours per year  for non -emergency purposes , up to 24 h ours per day  \n- Maximum fuel usage rate of 1678 cubic feet per hour   \n(equivalent to 1.75  MMB tu/hr , assuming N G heat content = 1,040 Btu/SCF) \n \nAnnual Emissions  and Daily Maximum Emissions : \nThe EPA Certification Emission Rates for NO x, CO, and POC  emissions from the engine  were used for the \nemission calculations.  \n \nEPA Certification Emission Rates (unabated)  \n \nNO x = 0.010 g/kW -hr (0. 007 g/bhp- hr) \nCO = 0.350 g/kW -hr (0.261 g/bhp- hr)  \nPOC  = 0.170 g/kW -hr (0.127 g/bhp- hr) \n \nThe particulate matter (PM) and SO 2 emissions were calculated using emission factors from EPA’s AP-42 \nChapter 3.2 Natural Gas -fired Reciprocating Engines, Table 3.2- 3 (Uncontrolled Emission F actors For 4 -Stroke \nRich -Burn  Engines ). The total PM emission factor consists of the sum of filterable plus condensable emission \nfactors in AP -42. T he SO 2 emission factor in AP -42 was multiplied by a factor of by  5 since the sulfur content \nof the natural gas used to develop the AP -42 factor is based on 2000 grains/MMSCF (vs. sulfur content in PUC \nquality natural gas of 1 grain/100 SCF).   \n \nThe d aily maximum emissions were  calculated as suming 24 -hr/day of operation.   \n \nThe annual and daily maximum emissions fro m S-11 are summarized  below  in Table 1 . \n \n  \n \nPacific Gas and Electric Company , Plant # 3172                                                              Application # 682739  \n \n  \nPage 2 of 6 Table 1 – Daily and Annual Maximum Emissions for S-11 \nPollutant  E.F. E.F. Unit  Emissions  \n Daily (lbs/day) Annual (lbs/yr)  Annual (TPY)  \nNO x 7.46E -03 g/bhp -hr 0.080  0.168  0.000  \nCO 2.61E -01 g/bhp -hr 2.817  5.869  0.003  \nPOC 1.27E -01 g/bhp -hr 1.368  2.851  0.001  \nPM 10 1.94E -02 lb/MMBtu  0.813  1.694  0.001  \nPM 2.5 1.94E -02 lb/MMBtu  0.813  1.694  0.001  \nSO 2 2.94E -03 lb/MMBtu  0.123  0.257  0.000  \na Emission factors for NO x, CO, and POC per EPA certification . \nb Emission factors for PM 10 and SO 2 were retrieved from AP -42 Chapter 3.2 Natural Gas -fired Reciprocating \nEngines, Table 3.2- 3. PM emission factors consist of filterable plus condensable fractions. The sulfur emission \nfactor is multiplied by a factor of 5 to account for PUC quality natural gas content of 1 grain/100 SCF.  These \nnumbers are uncontrolled (unabated) emissions.Emissions\n[lb/hr]  Acute \nTrigger \nLevel \n[lb/hr]  HRA \nTriggered?  \n(Acute) Annual \nAbated \nEmissions \n[lb/yr]  Chronic \nTrigger \nLevel \n[lb/yr]  HRA \nTriggered?  \n(Chronic)  \n1,3-Butadiene   1.04E -01 1.75E -04 2.90E -01 No 8.73E -03 4.80E -01 No \nAcetaldehyde   8.83E -01 1.48E -03 2.10E -01 No 7.41E -02 2.90E+01  No \nAcrolein   5.47E -01 9.18E -04 1.10E -03 No 4.59E -02 1.40E+01  No \nBenzene   1.91E+00  3.20E -03 1.20E -02 No 1.60E -01 2.90E+00  No \nEthyl benzene   1.16E -02 1.95E -05 None  No 9.73E -04 3.30E+01  No \nFormaldehyde   2.35E+00  3.94E -03 2.40E -02 No 1.97E -01 1.40E+01  No \nNaphthalene   7.65E -02 1.28E -04 None  No 6.42E -03 2.40E+00  No \nBenzo(a)anthracene  0.1 2.94E -04 4.93E -07 None  No 2.47E -05 None  No \nBenzo(a)pyrene  1.0 1.15E -04 1.93E -07 None  No 9.65E -06 None  No \nBenzo(b)fluoranthene  0.1 2.37E -04 3.98E -07 None  No 1.99E -05 None  No \nBenzo(k)fluoranthene  0.1 1.03E -04 1.73E -07 None  No 8.64E -06 None  No \nChrysene  0.01 3.10E -04 5.20E -07 None  No 2.60E -05 None  No \nDibenz(a,h)anthracene  1.05 1.25E -05 2.10E -08 None  No 1.05E -06 None  No \nIndeno(1,2,3 -cd)pyrene  0.1 1.69E -04 2.84E -07 None  No 1.42E -05 None  No \nPAH or derivative \nTOTAL   2.12E -04 3.55E -07 None  No 1.77E -05 3.30E -03 No \nPropylene   1.60E+01  2.68E -02 None  No 1.34E+00  1.2E+05  No \nToluene   1.07E+00  1.80E -03 2.20E+00  No 8.98E -02 1.20E+04  No \nXylene   6.02E -02 1.01E -04 9.70E+00  No 5.05E -03 2.70E+04  No \n1 These substances are PAH -derivatives that have OEHHA -developed Potency Equivalency Factors (PEFs).  PAHs should be evaluated as \nbenzo(a)pyrene -equivalents.  This evaluation process consists of multiplying individual PAH -specific emission levels with their  \ncorresponding PEFs listed below.  The sum of these products is the benzo(a)pyrene -equivalent level and should be compared to the \nbenzo(a)pyrene equivalent trigger level. (Source 2 -5, Table 2 -5-1, Footnote #8).  Note: CATEF Emission Factors for Rich Burn, 4 Stroke, \nNatural Gas Engines, < 650 HP also lists anthracene, acenaphthylene, acenaphthylene, benzo(g,h,i)perylene, fluoranthene, fluo rene, \nphenanthrene and pyrene. However, Reg 2 -5-1 does not list any PAH derivative PEFs listed. Therefore, these ar e not included in \ncalculating the PAH E.F  (see E.F. calculation backup, table below):  \nTable 3B – PAH E.F. Derivation  \nCompound  PEF for PAHs  E.F. [lb/MMcf]  E.F. × P EF \nBenzo(a)anthracene  0.1 2.94E -04 2.94E -05 \nBenzo(a)pyrene  1.0 1.15E -04 1.15E -04 \nBenzo(b)fluoranthene  0.1 2.37E -04 2.37E -05 \nBenzo(k)fluoranthene  0.1 1.03E -04 1.03E -05 \nChrysene  0.01 3.10E -04 3.10E -06 \nDibenz(a,h)anthracene  1.05 1.25E -05 1.31E -05 \nIndeno(1,2,3 -cd)pyrene  0.1 1.69E -04 1.69E -05 \n  PAH E.F  2.12E -04 \n \n2 CATEFs are used when AP -42 EFs are less conservative than CATEFs.  Reported m ean emission factor values are used in accordance \nwith District procedures.  \n  \n \nPacific Gas and Electric Company , Plant # 3172                                                              Application # 682739  \n \n  \nPage 4 of 6 GRAIN LOADING RATE  \nThe grain loading rate calculation is required for determining the compliance of this application with \nBAAQMD Regulation 6, Rule 1 (refer to “Statement of Compliance” section, below).  \n \n[0.0340 lb PM 10/hr * 7000 grain/lb] / [60 min/hr *  309.8 DSCFM] = 0. 01 grain/dscf  \n \nAssumptions : \n• 1.94E -02 lb PM 10/MMBtu * 1.75  MMBtu/hr = 0.0 340 lb PM 10/hr \n• 7000 grain/lb standard conversion factor (AP -42 Appendix A, Page A -19) \n• Per applicant, S -11 has maximum flow of 1024 acfm at 1292 °F dry exhaust ; this is \nequivalent to 309.8 DSCFM:  \n \nDSCFM = ACFM x  [(460°R + 70°F)/(460°R + temp)]  x (Actual P/14.7 psi) x (1- Bwo) \n   \n  Where: ACFM = 1024 cfm, temp = 1292°F, Actual P = 14.7 psi, B w = 0 (fraction of water  vapor )"
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Increase :\nTable 2 summarizes the cumulative increase in criteria pollutant emissions resulting  from the operation of S -11. \nAll existing sources at the facility are loss of exemption sources.  \n \nTable 2 – Plant Cumulative Emissions  \nPollutant  Emissions ( TPY ) \nExisting  New  Total  \nNOx 0.000 0.000  0.000  \nCO 0.000 0.003  0.003  \nPOC 0.000 0.001  0.001  \nPM 10 0.000 0.001  0.001  \nPM 2.5 0.000 0.001  0.001  \nSO 2 0.000 0.000  0.000"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSION CALCULATIONS\nNS   \nBasis:  \n- Maximum output rating of 204  HP, per EPA certification rating data . \n- Maximum operati onal duration : 50 hours per year  for non -emergency purposes , up to 24 h ours per day  \n- Maximum fuel usage rate of 1678 cubic feet per hour   \n(equivalent to 1.75  MMB tu/hr , assuming N G heat content = 1,040 Btu/SCF) \n \nAnnual Emissions  and Daily Maximum Emissions : \nThe EPA Certification Emission Rates for NO x, CO, and POC  emissions from the engine  were used for the \nemission calculations.  \n \nEPA Certification Emission Rates (unabated)  \n \nNO x = 0.010 g/kW -hr (0. 007 g/bhp- hr) \nCO = 0.350 g/kW -hr (0.261 g/bhp- hr)  \nPOC  = 0.170 g/kW -hr (0.127 g/bhp- hr) \n \nThe particulate matter (PM) and SO 2 emissions were calculated using emission factors from EPA’s AP-42 \nChapter 3.2 Natural Gas -fired Reciprocating Engines, Table 3.2- 3 (Uncontrolled Emission F actors For 4 -Stroke \nRich -Burn  Engines ). The total PM emission factor consists of the sum of filterable plus condensable emission \nfactors in AP -42. T he SO 2 emission factor in AP -42 was multiplied by a factor of by  5 since the sulfur content \nof the natural gas used to develop the AP -42 factor is based on 2000 grains/MMSCF (vs. sulfur content in PUC \nquality natural gas of 1 grain/100 SCF).   \n \nThe d aily maximum emissions were  calculated as suming 24 -hr/day of operation.   \n \nThe annual and daily maximum emissions fro m S-11 are summarized  below  in Table 1 . \n \n  \n \nPacific Gas and Electric Company , Plant # 3172                                                              Application # 682739  \n \n  \nPage 2 of 6 Table 1 – Daily and Annual Maximum Emissions for S-11 \nPollutant  E.F. E.F. Unit  Emissions  \n Daily (lbs/day) Annual (lbs/yr)  Annual (TPY)  \nNO x 7.46E -03 g/bhp -hr 0.080  0.168  0.000  \nCO 2.61E -01 g/bhp -hr 2.817  5.869  0.003  \nPOC 1.27E -01 g/bhp -hr 1.368  2.851  0.001  \nPM 10 1.94E -02 lb/MMBtu  0.813  1.694  0.001  \nPM 2.5 1.94E -02 lb/MMBtu  0.813  1.694  0.001  \nSO 2 2.94E -03 lb/MMBtu  0.123  0.257  0.000  \na Emission factors for NO x, CO, and POC per EPA certification . \nb Emission factors for PM 10 and SO 2 were retrieved from AP -42 Chapter 3.2 Natural Gas -fired Reciprocating \nEngines, Table 3.2- 3. PM emission factors consist of filterable plus condensable fractions. The sulfur emission \nfactor is multiplied by a factor of 5 to account for PUC quality natural gas content of 1 grain/100 SCF.  These \nnumbers are uncontrolled (unabated) emissions.Emissions\n[lb/hr]  Acute \nTrigger \nLevel \n[lb/hr]  HRA \nTriggered?  \n(Acute) Annual \nAbated \nEmissions \n[lb/yr]  Chronic \nTrigger \nLevel \n[lb/yr]  HRA \nTriggered?  \n(Chronic)  \n1,3-Butadiene   1.04E -01 1.75E -04 2.90E -01 No 8.73E -03 4.80E -01 No \nAcetaldehyde   8.83E -01 1.48E -03 2.10E -01 No 7.41E -02 2.90E+01  No \nAcrolein   5.47E -01 9.18E -04 1.10E -03 No 4.59E -02 1.40E+01  No \nBenzene   1.91E+00  3.20E -03 1.20E -02 No 1.60E -01 2.90E+00  No \nEthyl benzene   1.16E -02 1.95E -05 None  No 9.73E -04 3.30E+01  No \nFormaldehyde   2.35E+00  3.94E -03 2.40E -02 No 1.97E -01 1.40E+01  No \nNaphthalene   7.65E -02 1.28E -04 None  No 6.42E -03 2.40E+00  No \nBenzo(a)anthracene  0.1 2.94E -04 4.93E -07 None  No 2.47E -05 None  No \nBenzo(a)pyrene  1.0 1.15E -04 1.93E -07 None  No 9.65E -06 None  No \nBenzo(b)fluoranthene  0.1 2.37E -04 3.98E -07 None  No 1.99E -05 None  No \nBenzo(k)fluoranthene  0.1 1.03E -04 1.73E -07 None  No 8.64E -06 None  No \nChrysene  0.01 3.10E -04 5.20E -07 None  No 2.60E -05 None  No \nDibenz(a,h)anthracene  1.05 1.25E -05 2.10E -08 None  No 1.05E -06 None  No \nIndeno(1,2,3 -cd)pyrene  0.1 1.69E -04 2.84E -07 None  No 1.42E -05 None  No \nPAH or derivative \nTOTAL   2.12E -04 3.55E -07 None  No 1.77E -05 3.30E -03 No \nPropylene   1.60E+01  2.68E -02 None  No 1.34E+00  1.2E+05  No \nToluene   1.07E+00  1.80E -03 2.20E+00  No 8.98E -02 1.20E+04  No \nXylene   6.02E -02 1.01E -04 9.70E+00  No 5.05E -03 2.70E+04  No \n1 These substances are PAH -derivatives that have OEHHA -developed Potency Equivalency Factors (PEFs).  PAHs should be evaluated as \nbenzo(a)pyrene -equivalents.  This evaluation process consists of multiplying individual PAH -specific emission levels with their  \ncorresponding PEFs listed below.  The sum of these products is the benzo(a)pyrene -equivalent level and should be compared to the \nbenzo(a)pyrene equivalent trigger level. (Source 2 -5, Table 2 -5-1, Footnote #8).  Note: CATEF Emission Factors for Rich Burn, 4 Stroke, \nNatural Gas Engines, < 650 HP also lists anthracene, acenaphthylene, acenaphthylene, benzo(g,h,i)perylene, fluoranthene, fluo rene, \nphenanthrene and pyrene. However, Reg 2 -5-1 does not list any PAH derivative PEFs listed. Therefore, these ar e not included in \ncalculating the PAH E.F  (see E.F. calculation backup, table below):  \nTable 3B – PAH E.F. Derivation  \nCompound  PEF for PAHs  E.F. [lb/MMcf]  E.F. × P EF \nBenzo(a)anthracene  0.1 2.94E -04 2.94E -05 \nBenzo(a)pyrene  1.0 1.15E -04 1.15E -04 \nBenzo(b)fluoranthene  0.1 2.37E -04 2.37E -05 \nBenzo(k)fluoranthene  0.1 1.03E -04 1.03E -05 \nChrysene  0.01 3.10E -04 3.10E -06 \nDibenz(a,h)anthracene  1.05 1.25E -05 1.31E -05 \nIndeno(1,2,3 -cd)pyrene  0.1 1.69E -04 1.69E -05 \n  PAH E.F  2.12E -04 \n \n2 CATEFs are used when AP -42 EFs are less conservative than CATEFs.  Reported m ean emission factor values are used in accordance \nwith District procedures.  \n  \n \nPacific Gas and Electric Company , Plant # 3172                                                              Application # 682739  \n \n  \nPage 4 of 6 GRAIN LOADING RATE  \nThe grain loading rate calculation is required for determining the compliance of this application with \nBAAQMD Regulation 6, Rule 1 (refer to “Statement of Compliance” section, below).  \n \n[0.0340 lb PM 10/hr * 7000 grain/lb] / [60 min/hr *  309.8 DSCFM] = 0. 01 grain/dscf  \n \nAssumptions : \n• 1.94E -02 lb PM 10/MMBtu * 1.75  MMBtu/hr = 0.0 340 lb PM 10/hr \n• 7000 grain/lb standard conversion factor (AP -42 Appendix A, Page A -19) \n• Per applicant, S -11 has maximum flow of 1024 acfm at 1292 °F dry exhaust ; this is \nequivalent to 309.8 DSCFM:  \n \nDSCFM = ACFM x  [(460°R + 70°F)/(460°R + temp)]  x (Actual P/14.7 psi) x (1- Bwo) \n   \n  Where: ACFM = 1024 cfm, temp = 1292°F, Actual P = 14.7 psi, B w = 0 (fraction of water  vapor )",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-11": {
+        "narrative": "Page 2 of 6 Table 1 – Daily and Annual Maximum Emissions for S-11\nThe annual and daily maximum emissions fro m S-11 are summarized  below  in Table 1 .",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "TOXIC HEALTH RISK ASSESSMENT\nPer BAAQMD Engineering Division Permit Handbook, Chapter 2.3.2 Stationary Natural Gas Engines, toxic \nemission factors from California Air Toxics Emission Factors (CATEF) are generally preferred over those found \nin AP -42. TAC emission factors were therefore  retrieved from CATEF for Natural Gas -fired Rich Burn Engines \nrated < 650 hp. The TAC emission estimates are based on uncontrolled emission factors for natural gas engines.  \n \nBased on the calculations in Table  3 below, no TACs exceed the District’s Risk Screening trigger levels  set forth \nin Table 1 of Reg. 2- 5 (New Source Review for  Toxic Air Contaminants) . Therefore, a Health Risk Assessment \n(HRA ) is not required.  \n  \n \nPacific Gas and Electric Company , Plant # 3172                                                              Application # 682739  \n \n  \nPage 3 of 6 Table 3A - TAC Emission Estimates based on CATEF Emission Factors for Rich -burn, 4 Stroke, Natural Gas Engines < 650 HP  \nCompound PEF for \nPAHs  1 E.F. 2 \n[lb/MMcf]  Hourly \nAbated"
+  },
+  "BACT": {
+    "text": "Best Available Control  Technology (BACT)\nT)    \nIn accordance with Reg. 2 -2-301 (Best Available Control Technology Requirement) , BACT is triggered for any \nnew or modified source with the potential to emit 10 pounds or more per highest day of POC, NPOC, NOx, CO, \nSO 2 PM 10, or PM 2.5. Base d on the emission calculations in Table 1, BACT is not triggered since the maximum \ndaily emission for all the criteria pollutants  are less than  10 pounds per day."
+  },
+  "offsets": {
+    "narrative": "Offsets\nts  \nOffsets must be provided for any new or modified source at a facili ty that emits more than 10 tons per y ear of \nPOC or NO x. Based on the emission calculations  in Table 1 , offsets are not required for this application per Reg \n2-2-302 (Offset Requirements, Precursor Organic Compounds and Nit rogen Oxides) . \n \nNew Source Performance Standards  (NSPS)  \nS-11 is subject to 40 CFR 60, Subpart JJJJ, Standards of Performance for Stationary Spark Ignition (SI) Internal \nCombustion Engines (ICEs), per Section §60.4230(a)(4)(i ) because the o wner /operator  will commence \nconstruction after June 12, 2006,  and the source is an emergency engine which wa s manufactured after J uly 1, \n2007  and has a maximum power greater than 500  hp.  \n \nThe engine will comply with the limits in (40 CFR 60 Subpart JJJJ) Table 1 for emergency spark- ignited \nengines greater than 130 hp.  \n \nTable 4. NSPS Emission Standards vs. S -11 Engine Family Emission R ates \nPollutant  NSPS Emission Standard * S-11 Emission Rate   \nNOx  2.0 g/bhp -hr 0.007 g/bhp -hr \nCO 4.0 g/bhp -hr 0.26 g/bhp -hr \nVOC  1.0 g/bhp -hr 0.13 g/bhp -hr \n *https://www.law.cornell.edu/cfr/text/40/appendix -Table_1_to_subpart_JJJJ_of_part_60  \n \nBased on the EPA Annual Emission Certification Data , S-11 complies with NSPS requirements.    \n \nNational  Emission Standards  for Hazardous  Air Pollutants (NESHAP )  \nS-11 is subject to 40 CFR 63, Subpart ZZZZ, National Emission Standards for Hazardous Air Pollutants for \nReciprocating Internal Combustion Engines (RICE). Per 40 CFR 63.6590(c)(1), a new or reconstructed \nstationary RICE located at an area source must meet the requirements of  NSPS ( 40 CFR 60, Subpart JJJJ ) for \nspark ignition engines. As stated above in the NSPS section, S -11 meets the emissions requirements of NSPS.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          1.0,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "CO",
+          60.423,
+          "N/A",
+          null
+        ],
+        [
+          "VOC",
+          1.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of S ignificant  Deterioration  (PSD)\nRegulation 2- 2-224 defines a PSD project as one at  a facility that has the potential to emit 100 tons or more per \nyear of any PSD pollutant. This facility will not have the potential to emit 100 tons or more of any PSD pollutant \ntherefore, this project is not a PSD project."
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA) :\nThe project is  ministerial,  under the District's CEQA Reg.  2-1-311, and therefore is not subject to CEQA review. \nThe engineering review for this project requires only the application of standard permit conditions and standard \nemissions factors as specified in District permit handbook chapter 2.3.2 (Stationary Natural Gas Engines) and \ntherefore is not discretionary as defined by CEQA.   \n \n \n \nPacific Gas and Electric Company , Plant # 3172                                                              Application # 682739"
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nCE  \nThe owner/operator of S -11 shall comply with Reg. 6 -1 (Particulate Matter and Visible Emissions Standards), \nReg. 9 -1-301 (Inorganic Gaseous Pollutants:  Sulfur Dioxide for Limitations on Ground Level Concentrations) , \nand Reg. 9- 8 (Nitrogen Oxides and Carbon Monoxide from Stationary ICE) .   \n \nThe owner/operator is expected to compl y with Reg . 6-1 since the unit is fueled with N G.  Because the S -11 \nengine has displacement of 6.2 L (378.3 cubic inch), the Ringelmann No. 2 Limitation applies per Section 6 -1-\n303 (ICE engine of less than 25 L or 1500 cubic inch displacement). Thus,  for any period aggregating more than \nthree minutes in any hour, there should be no visible emission as dark or darker than No. 2 on the Ringe lmann \nChart or be equal to or greater than 40% opacity. S -11 is expected to comply with this requirement, as well as \nthe visible particles requirement of Section 6- 1-305. The emission rate from S-11 results in an outlet grain \nloading of 0.0 1 grains/dscf , which is  less than the limit 0.15 grains/dscf and therefore  complies  with Regulation \n6-1-310.1. The TSP limits in 6 -1-310.2 (effective as of July 1, 2020)  will not apply because the potential to emit \nTSP is below 1,000 kg per year.  \n \nThe owner/operator is expected to comply with Regulation 9- 1 by restricting fuel to N G only. Combustion of \nNG is expected to produce a SO 2 concentration of no more than 1 ppmv. Therefore, the source is expected to \ncomply with  Section  9-1-301 (Limitations on Ground Level Concentrations) and 9-1-304 (Fuel Burning).  \n \nBased on Reg. 9- 8-110.5 (Exemptions for Emergency Standby Engines), S -11 is exempt from the requirements \nof Reg. 9- 8-301 (Emission Limits on Fossil Derived Fuel Gas), 9- 8-302 (Emissio n Limits on Waste Derived \nFuel Gas), 9 -8-303 (Emissions Limits –  Delayed Compliance, Existing Spark- Ignited Engines, 51 to 250 bhp or \nModel Year 1996 or Later), 9 -8-304 (Emission Limits –  Compression -Ignited Engines), 9- 8-305 (Emission \nLimits – Delayed Com pliance, Existing Compression- Ignited Engines, Model Year 1996 or Later), 9- 8-501 \n(Initial Demonstration of Compliance) and 9- 8-503 (Quarterly Demonstration of Compliance). However, S -11 \nis subject to the monitoring and record keeping procedures described in Reg. 9 -8-530 (Emergency Standby \nEngines, Monitoring and Recordkeeping). The requirements of this Regulation are included in the permit \nconditions below.  \n \nS-11 is also subject to and expected to comply with Regulation 9- 8-330 (Emergency Standby Engines, Hours of \nOperation) since non- emergency hours of operation will be limited in the permit conditions to 50 hours per year.compliance with this part is unlimited. Operating for\nating for  \n         reliability related activities are limited to 50 hours  \n         per year.  (Basis: Emergency Standby Engines, Hours of  \n         Operation Regulation 9- 8-330)                           \n \n     2.  The Owner/Operator shall equip the emergency standby  \n         engine(s) with: a non- resettable totalizing meter that  \n         measures hours of operation or fuel usage.  \n         (Basis: Emergency Standby Engines, Monitoring and Record \n         keeping 9- 8-530)                                        \n \n     3.  Records: The Owner/Operator shall maintain the following  \n         monthly records in a District approved log for at least  \n         36 months from the date of entry, (60 months if the  \n         facility has been issued a Title V Major Facility Review  \n         Permit or a Synthetic Minor Operating Permit). Log  \n         e ntries shall be retained on site, either at a central  \n         location or at the engine's location, and made  \n         immediately available to the District staff upon  \n         request.  \n         a.  Hours of operation (maintenance and testing).  \n         b.  Hours of operation for emission testing.  \n         c.  Hours of operation (emergency).  \n         d.  For each emergency, the nature of the emergency  \n             condition.  \n         e.  Fuel usage for engine.  \n        (Basis: Emergency Standby Engines, Moni toring and  \n        Recordkeeping 9 -8-530)"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "BAAQMD Regulation 2 -1-412.Page 5 of 6 Public  Notification (Regulation  2-1-412)\nThe project is located  within 1 ,000 feet from the nearest school and therefore is subject to the public notification \nrequirements of Reg. 2- 1-412. The project is not located within an overburdened community. A public \nnotification will be issued before the District makes a final determina tion on this project ."
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS\nNS  \n \nPermit Condition # 23112 (applicable to S -11)  \n \n1.  The owner or operator shall operate the stationary  \n         emergency standby engine, only to mitigate emergency \n         conditions or for reliability -related activities  \n         (maintenance and testing). Oper ating while mitigating  \n         emergency conditions and while emission testing to show  \n \nPacific Gas and Electric Company , Plant # 3172                                                              Application # 682739  \n \n  \nPage 6 of 6"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner or operator shall operate the stationary  \n         emergency standby engine, only to mitigate emergency \n         conditions or for reliability -related activities  \n         (maintenance and testing). Oper ating while mitigating  \n         emergency conditions and while emission testing to show  \n \nPacific Gas and Electric Company , Plant # 3172                                                              Application # 682739  \n \n  \nPage 6 of 6",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nON  \nI recommend initiating a public notice for the following source , as required by Reg ulation  2-1-412: \n \nS-11 Emergency Standby Natural Gas Engine Generator Set: Engine, Make Generac (EPA \nFamily: MGNXB21.92C1, Model SG350, Model Year 2021, Rated 636 BHP.  \n \nPrepared by:  _______________________________ ________   Date: ________________  \nDaniel Oliver           08/02/ 2023  \nAir Quality Engineer II"
+  },
+  "raw_sections": {
+    "preamble": "Draft Engineering Evaluation  \nPacific Gas and Electric Company  \n Plant No.  3172   \nApplication  No. 682739  \n450 Eastmoor Avenue , Daly City , CA 94 105",
+    "blocks": [
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND  \nPacific Gas and Electric Company  is applying for an Authority to Construct and Permit to O perate an \nEmergency Standby Generator Set , fueled by Natural Gas ( NG).  \n \nS-11 Emergency Standby Natural Gas Engine Generato r Set : Engine , Make Kohler  (EPA \nFamily: NKHXB06.2HNL , Model  KG6208THD , Model Year 202 2, Rated 204 BHP.  \n \nS-11 will be  located at 450 Eastmoor Avenue  in Daly City , CA. The primary pollutants from N G engines are the \nproducts of combustion, including nitrogen oxides (NO x), carbon monoxide (CO), hydrocarbon and other organic \ncompounds ( precursor organic compounds , POCs), sulfur dioxide (SO 2), and particulate matter (PM 10 and \nPM 2.5). Various t oxic air contaminants (TAC s) are also emitted during the combustion of NG. \n \nThe project is located within 1000 ft of a school and is therefore subject to the public notice requirements of"
+      },
+      {
+        "heading": "BAAQMD Regulation 2 -1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "BAAQMD Regulation 2 -1-412."
+      },
+      {
+        "heading": "EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSION CALCULATIONS\nNS   \nBasis:  \n- Maximum output rating of 204  HP, per EPA certification rating data . \n- Maximum operati onal duration : 50 hours per year  for non -emergency purposes , up to 24 h ours per day  \n- Maximum fuel usage rate of 1678 cubic feet per hour   \n(equivalent to 1.75  MMB tu/hr , assuming N G heat content = 1,040 Btu/SCF) \n \nAnnual Emissions  and Daily Maximum Emissions : \nThe EPA Certification Emission Rates for NO x, CO, and POC  emissions from the engine  were used for the \nemission calculations.  \n \nEPA Certification Emission Rates (unabated)  \n \nNO x = 0.010 g/kW -hr (0. 007 g/bhp- hr) \nCO = 0.350 g/kW -hr (0.261 g/bhp- hr)  \nPOC  = 0.170 g/kW -hr (0.127 g/bhp- hr) \n \nThe particulate matter (PM) and SO 2 emissions were calculated using emission factors from EPA’s AP-42 \nChapter 3.2 Natural Gas -fired Reciprocating Engines, Table 3.2- 3 (Uncontrolled Emission F actors For 4 -Stroke \nRich -Burn  Engines ). The total PM emission factor consists of the sum of filterable plus condensable emission \nfactors in AP -42. T he SO 2 emission factor in AP -42 was multiplied by a factor of by  5 since the sulfur content \nof the natural gas used to develop the AP -42 factor is based on 2000 grains/MMSCF (vs. sulfur content in PUC \nquality natural gas of 1 grain/100 SCF).   \n \nThe d aily maximum emissions were  calculated as suming 24 -hr/day of operation.   \n \nThe annual and daily maximum emissions fro m S-11 are summarized  below  in Table 1 . \n \n  \n \nPacific Gas and Electric Company , Plant # 3172                                                              Application # 682739  \n \n  \nPage 2 of 6 Table 1 – Daily and Annual Maximum Emissions for S-11 \nPollutant  E.F. E.F. Unit  Emissions  \n Daily (lbs/day) Annual (lbs/yr)  Annual (TPY)  \nNO x 7.46E -03 g/bhp -hr 0.080  0.168  0.000  \nCO 2.61E -01 g/bhp -hr 2.817  5.869  0.003  \nPOC 1.27E -01 g/bhp -hr 1.368  2.851  0.001  \nPM 10 1.94E -02 lb/MMBtu  0.813  1.694  0.001  \nPM 2.5 1.94E -02 lb/MMBtu  0.813  1.694  0.001  \nSO 2 2.94E -03 lb/MMBtu  0.123  0.257  0.000  \na Emission factors for NO x, CO, and POC per EPA certification . \nb Emission factors for PM 10 and SO 2 were retrieved from AP -42 Chapter 3.2 Natural Gas -fired Reciprocating \nEngines, Table 3.2- 3. PM emission factors consist of filterable plus condensable fractions. The sulfur emission \nfactor is multiplied by a factor of 5 to account for PUC quality natural gas content of 1 grain/100 SCF.  These \nnumbers are uncontrolled (unabated) emissions."
+      },
+      {
+        "heading": "Plant Cumulative Increase :",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Increase :\nTable 2 summarizes the cumulative increase in criteria pollutant emissions resulting  from the operation of S -11. \nAll existing sources at the facility are loss of exemption sources.  \n \nTable 2 – Plant Cumulative Emissions  \nPollutant  Emissions ( TPY ) \nExisting  New  Total  \nNOx 0.000 0.000  0.000  \nCO 0.000 0.003  0.003  \nPOC 0.000 0.001  0.001  \nPM 10 0.000 0.001  0.001  \nPM 2.5 0.000 0.001  0.001  \nSO 2 0.000 0.000  0.000"
+      },
+      {
+        "heading": "TOXIC HEALTH RISK ASSESSMENT",
+        "alias": "TOXICS",
+        "text": "TOXIC HEALTH RISK ASSESSMENT\nPer BAAQMD Engineering Division Permit Handbook, Chapter 2.3.2 Stationary Natural Gas Engines, toxic \nemission factors from California Air Toxics Emission Factors (CATEF) are generally preferred over those found \nin AP -42. TAC emission factors were therefore  retrieved from CATEF for Natural Gas -fired Rich Burn Engines \nrated < 650 hp. The TAC emission estimates are based on uncontrolled emission factors for natural gas engines.  \n \nBased on the calculations in Table  3 below, no TACs exceed the District’s Risk Screening trigger levels  set forth \nin Table 1 of Reg. 2- 5 (New Source Review for  Toxic Air Contaminants) . Therefore, a Health Risk Assessment \n(HRA ) is not required.  \n  \n \nPacific Gas and Electric Company , Plant # 3172                                                              Application # 682739  \n \n  \nPage 3 of 6 Table 3A - TAC Emission Estimates based on CATEF Emission Factors for Rich -burn, 4 Stroke, Natural Gas Engines < 650 HP  \nCompound PEF for \nPAHs  1 E.F. 2 \n[lb/MMcf]  Hourly \nAbated"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n[lb/hr]  Acute \nTrigger \nLevel \n[lb/hr]  HRA \nTriggered?  \n(Acute) Annual \nAbated \nEmissions \n[lb/yr]  Chronic \nTrigger \nLevel \n[lb/yr]  HRA \nTriggered?  \n(Chronic)  \n1,3-Butadiene   1.04E -01 1.75E -04 2.90E -01 No 8.73E -03 4.80E -01 No \nAcetaldehyde   8.83E -01 1.48E -03 2.10E -01 No 7.41E -02 2.90E+01  No \nAcrolein   5.47E -01 9.18E -04 1.10E -03 No 4.59E -02 1.40E+01  No \nBenzene   1.91E+00  3.20E -03 1.20E -02 No 1.60E -01 2.90E+00  No \nEthyl benzene   1.16E -02 1.95E -05 None  No 9.73E -04 3.30E+01  No \nFormaldehyde   2.35E+00  3.94E -03 2.40E -02 No 1.97E -01 1.40E+01  No \nNaphthalene   7.65E -02 1.28E -04 None  No 6.42E -03 2.40E+00  No \nBenzo(a)anthracene  0.1 2.94E -04 4.93E -07 None  No 2.47E -05 None  No \nBenzo(a)pyrene  1.0 1.15E -04 1.93E -07 None  No 9.65E -06 None  No \nBenzo(b)fluoranthene  0.1 2.37E -04 3.98E -07 None  No 1.99E -05 None  No \nBenzo(k)fluoranthene  0.1 1.03E -04 1.73E -07 None  No 8.64E -06 None  No \nChrysene  0.01 3.10E -04 5.20E -07 None  No 2.60E -05 None  No \nDibenz(a,h)anthracene  1.05 1.25E -05 2.10E -08 None  No 1.05E -06 None  No \nIndeno(1,2,3 -cd)pyrene  0.1 1.69E -04 2.84E -07 None  No 1.42E -05 None  No \nPAH or derivative \nTOTAL   2.12E -04 3.55E -07 None  No 1.77E -05 3.30E -03 No \nPropylene   1.60E+01  2.68E -02 None  No 1.34E+00  1.2E+05  No \nToluene   1.07E+00  1.80E -03 2.20E+00  No 8.98E -02 1.20E+04  No \nXylene   6.02E -02 1.01E -04 9.70E+00  No 5.05E -03 2.70E+04  No \n1 These substances are PAH -derivatives that have OEHHA -developed Potency Equivalency Factors (PEFs).  PAHs should be evaluated as \nbenzo(a)pyrene -equivalents.  This evaluation process consists of multiplying individual PAH -specific emission levels with their  \ncorresponding PEFs listed below.  The sum of these products is the benzo(a)pyrene -equivalent level and should be compared to the \nbenzo(a)pyrene equivalent trigger level. (Source 2 -5, Table 2 -5-1, Footnote #8).  Note: CATEF Emission Factors for Rich Burn, 4 Stroke, \nNatural Gas Engines, < 650 HP also lists anthracene, acenaphthylene, acenaphthylene, benzo(g,h,i)perylene, fluoranthene, fluo rene, \nphenanthrene and pyrene. However, Reg 2 -5-1 does not list any PAH derivative PEFs listed. Therefore, these ar e not included in \ncalculating the PAH E.F  (see E.F. calculation backup, table below):  \nTable 3B – PAH E.F. Derivation  \nCompound  PEF for PAHs  E.F. [lb/MMcf]  E.F. × P EF \nBenzo(a)anthracene  0.1 2.94E -04 2.94E -05 \nBenzo(a)pyrene  1.0 1.15E -04 1.15E -04 \nBenzo(b)fluoranthene  0.1 2.37E -04 2.37E -05 \nBenzo(k)fluoranthene  0.1 1.03E -04 1.03E -05 \nChrysene  0.01 3.10E -04 3.10E -06 \nDibenz(a,h)anthracene  1.05 1.25E -05 1.31E -05 \nIndeno(1,2,3 -cd)pyrene  0.1 1.69E -04 1.69E -05 \n  PAH E.F  2.12E -04 \n \n2 CATEFs are used when AP -42 EFs are less conservative than CATEFs.  Reported m ean emission factor values are used in accordance \nwith District procedures.  \n  \n \nPacific Gas and Electric Company , Plant # 3172                                                              Application # 682739  \n \n  \nPage 4 of 6 GRAIN LOADING RATE  \nThe grain loading rate calculation is required for determining the compliance of this application with \nBAAQMD Regulation 6, Rule 1 (refer to “Statement of Compliance” section, below).  \n \n[0.0340 lb PM 10/hr * 7000 grain/lb] / [60 min/hr *  309.8 DSCFM] = 0. 01 grain/dscf  \n \nAssumptions : \n• 1.94E -02 lb PM 10/MMBtu * 1.75  MMBtu/hr = 0.0 340 lb PM 10/hr \n• 7000 grain/lb standard conversion factor (AP -42 Appendix A, Page A -19) \n• Per applicant, S -11 has maximum flow of 1024 acfm at 1292 °F dry exhaust ; this is \nequivalent to 309.8 DSCFM:  \n \nDSCFM = ACFM x  [(460°R + 70°F)/(460°R + temp)]  x (Actual P/14.7 psi) x (1- Bwo) \n   \n  Where: ACFM = 1024 cfm, temp = 1292°F, Actual P = 14.7 psi, B w = 0 (fraction of water  vapor )"
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE  \nThe owner/operator of S -11 shall comply with Reg. 6 -1 (Particulate Matter and Visible Emissions Standards), \nReg. 9 -1-301 (Inorganic Gaseous Pollutants:  Sulfur Dioxide for Limitations on Ground Level Concentrations) , \nand Reg. 9- 8 (Nitrogen Oxides and Carbon Monoxide from Stationary ICE) .   \n \nThe owner/operator is expected to compl y with Reg . 6-1 since the unit is fueled with N G.  Because the S -11 \nengine has displacement of 6.2 L (378.3 cubic inch), the Ringelmann No. 2 Limitation applies per Section 6 -1-\n303 (ICE engine of less than 25 L or 1500 cubic inch displacement). Thus,  for any period aggregating more than \nthree minutes in any hour, there should be no visible emission as dark or darker than No. 2 on the Ringe lmann \nChart or be equal to or greater than 40% opacity. S -11 is expected to comply with this requirement, as well as \nthe visible particles requirement of Section 6- 1-305. The emission rate from S-11 results in an outlet grain \nloading of 0.0 1 grains/dscf , which is  less than the limit 0.15 grains/dscf and therefore  complies  with Regulation \n6-1-310.1. The TSP limits in 6 -1-310.2 (effective as of July 1, 2020)  will not apply because the potential to emit \nTSP is below 1,000 kg per year.  \n \nThe owner/operator is expected to comply with Regulation 9- 1 by restricting fuel to N G only. Combustion of \nNG is expected to produce a SO 2 concentration of no more than 1 ppmv. Therefore, the source is expected to \ncomply with  Section  9-1-301 (Limitations on Ground Level Concentrations) and 9-1-304 (Fuel Burning).  \n \nBased on Reg. 9- 8-110.5 (Exemptions for Emergency Standby Engines), S -11 is exempt from the requirements \nof Reg. 9- 8-301 (Emission Limits on Fossil Derived Fuel Gas), 9- 8-302 (Emissio n Limits on Waste Derived \nFuel Gas), 9 -8-303 (Emissions Limits –  Delayed Compliance, Existing Spark- Ignited Engines, 51 to 250 bhp or \nModel Year 1996 or Later), 9 -8-304 (Emission Limits –  Compression -Ignited Engines), 9- 8-305 (Emission \nLimits – Delayed Com pliance, Existing Compression- Ignited Engines, Model Year 1996 or Later), 9- 8-501 \n(Initial Demonstration of Compliance) and 9- 8-503 (Quarterly Demonstration of Compliance). However, S -11 \nis subject to the monitoring and record keeping procedures described in Reg. 9 -8-530 (Emergency Standby \nEngines, Monitoring and Recordkeeping). The requirements of this Regulation are included in the permit \nconditions below.  \n \nS-11 is also subject to and expected to comply with Regulation 9- 8-330 (Emergency Standby Engines, Hours of \nOperation) since non- emergency hours of operation will be limited in the permit conditions to 50 hours per year."
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA) :",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA) :\nThe project is  ministerial,  under the District's CEQA Reg.  2-1-311, and therefore is not subject to CEQA review. \nThe engineering review for this project requires only the application of standard permit conditions and standard \nemissions factors as specified in District permit handbook chapter 2.3.2 (Stationary Natural Gas Engines) and \ntherefore is not discretionary as defined by CEQA.   \n \n \n \nPacific Gas and Electric Company , Plant # 3172                                                              Application # 682739"
+      },
+      {
+        "heading": "Page 5 of 6 Public  Notification (Regulation  2-1-412)",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Page 5 of 6 Public  Notification (Regulation  2-1-412)\nThe project is located  within 1 ,000 feet from the nearest school and therefore is subject to the public notification \nrequirements of Reg. 2- 1-412. The project is not located within an overburdened community. A public \nnotification will be issued before the District makes a final determina tion on this project ."
+      },
+      {
+        "heading": "Best Available Control  Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control  Technology (BACT)\nT)    \nIn accordance with Reg. 2 -2-301 (Best Available Control Technology Requirement) , BACT is triggered for any \nnew or modified source with the potential to emit 10 pounds or more per highest day of POC, NPOC, NOx, CO, \nSO 2 PM 10, or PM 2.5. Base d on the emission calculations in Table 1, BACT is not triggered since the maximum \ndaily emission for all the criteria pollutants  are less than  10 pounds per day."
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nts  \nOffsets must be provided for any new or modified source at a facili ty that emits more than 10 tons per y ear of \nPOC or NO x. Based on the emission calculations  in Table 1 , offsets are not required for this application per Reg \n2-2-302 (Offset Requirements, Precursor Organic Compounds and Nit rogen Oxides) . \n \nNew Source Performance Standards  (NSPS)  \nS-11 is subject to 40 CFR 60, Subpart JJJJ, Standards of Performance for Stationary Spark Ignition (SI) Internal \nCombustion Engines (ICEs), per Section §60.4230(a)(4)(i ) because the o wner /operator  will commence \nconstruction after June 12, 2006,  and the source is an emergency engine which wa s manufactured after J uly 1, \n2007  and has a maximum power greater than 500  hp.  \n \nThe engine will comply with the limits in (40 CFR 60 Subpart JJJJ) Table 1 for emergency spark- ignited \nengines greater than 130 hp.  \n \nTable 4. NSPS Emission Standards vs. S -11 Engine Family Emission R ates \nPollutant  NSPS Emission Standard * S-11 Emission Rate   \nNOx  2.0 g/bhp -hr 0.007 g/bhp -hr \nCO 4.0 g/bhp -hr 0.26 g/bhp -hr \nVOC  1.0 g/bhp -hr 0.13 g/bhp -hr \n *https://www.law.cornell.edu/cfr/text/40/appendix -Table_1_to_subpart_JJJJ_of_part_60  \n \nBased on the EPA Annual Emission Certification Data , S-11 complies with NSPS requirements.    \n \nNational  Emission Standards  for Hazardous  Air Pollutants (NESHAP )  \nS-11 is subject to 40 CFR 63, Subpart ZZZZ, National Emission Standards for Hazardous Air Pollutants for \nReciprocating Internal Combustion Engines (RICE). Per 40 CFR 63.6590(c)(1), a new or reconstructed \nstationary RICE located at an area source must meet the requirements of  NSPS ( 40 CFR 60, Subpart JJJJ ) for \nspark ignition engines. As stated above in the NSPS section, S -11 meets the emissions requirements of NSPS."
+      },
+      {
+        "heading": "Prevention of S ignificant  Deterioration  (PSD)",
+        "alias": "PSD",
+        "text": "Prevention of S ignificant  Deterioration  (PSD)\nRegulation 2- 2-224 defines a PSD project as one at  a facility that has the potential to emit 100 tons or more per \nyear of any PSD pollutant. This facility will not have the potential to emit 100 tons or more of any PSD pollutant \ntherefore, this project is not a PSD project."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nNS  \n \nPermit Condition # 23112 (applicable to S -11)  \n \n1.  The owner or operator shall operate the stationary  \n         emergency standby engine, only to mitigate emergency \n         conditions or for reliability -related activities  \n         (maintenance and testing). Oper ating while mitigating  \n         emergency conditions and while emission testing to show  \n \nPacific Gas and Electric Company , Plant # 3172                                                              Application # 682739  \n \n  \nPage 6 of 6"
+      },
+      {
+        "heading": "compliance with this part is unlimited. Operating for",
+        "alias": "SOC",
+        "text": "compliance with this part is unlimited. Operating for\nating for  \n         reliability related activities are limited to 50 hours  \n         per year.  (Basis: Emergency Standby Engines, Hours of  \n         Operation Regulation 9- 8-330)                           \n \n     2.  The Owner/Operator shall equip the emergency standby  \n         engine(s) with: a non- resettable totalizing meter that  \n         measures hours of operation or fuel usage.  \n         (Basis: Emergency Standby Engines, Monitoring and Record \n         keeping 9- 8-530)                                        \n \n     3.  Records: The Owner/Operator shall maintain the following  \n         monthly records in a District approved log for at least  \n         36 months from the date of entry, (60 months if the  \n         facility has been issued a Title V Major Facility Review  \n         Permit or a Synthetic Minor Operating Permit). Log  \n         e ntries shall be retained on site, either at a central  \n         location or at the engine's location, and made  \n         immediately available to the District staff upon  \n         request.  \n         a.  Hours of operation (maintenance and testing).  \n         b.  Hours of operation for emission testing.  \n         c.  Hours of operation (emergency).  \n         d.  For each emergency, the nature of the emergency  \n             condition.  \n         e.  Fuel usage for engine.  \n        (Basis: Emergency Standby Engines, Moni toring and  \n        Recordkeeping 9 -8-530)"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nON  \nI recommend initiating a public notice for the following source , as required by Reg ulation  2-1-412: \n \nS-11 Emergency Standby Natural Gas Engine Generator Set: Engine, Make Generac (EPA \nFamily: MGNXB21.92C1, Model SG350, Model Year 2021, Rated 636 BHP.  \n \nPrepared by:  _______________________________ ________   Date: ________________  \nDaniel Oliver           08/02/ 2023  \nAir Quality Engineer II"
+      }
+    ],
+    "unmapped_blocks": []
+  }
+}

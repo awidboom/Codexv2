@@ -1,0 +1,372 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 7
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "Table 1:  S-1’s Abated NOx, CO and POC Emissions\nPollutant   g/bhp‐hr  lb/hr  lb/day  lb/year  tpy\nNOx  0.31  0.058  1.394  508.887  0.254\nCO  2  0.375  8.995  3283.141   1.642\nPOC  0.6  0.112  2.698  984.942  0.492",
+        "(lb/day) Emissions\n(lb/yr) Emissions\n(tpy)\nNOx 0.058  1.394  508.887  0.254\nCO 0.375  8.995  3283.141  1.642\nPOC 0.112  2.698  984.942  0.492"
+      ]
+    },
+    "application_number_detected": "696413",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2024/696413/fid203428_nsr_696413_eval_051524-pdf.pdf?rev=b172065228574650a6d6ecdd8286b17b&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2024/051524-696413/1080-chestnut-corp"
+  },
+  "application_number": "696413",
+  "plant": {
+    "name": "Page 1 of 8",
+    "plant_id": 203428,
+    "address": "San Francisco, CA 94109"
+  },
+  "evaluation_date": "January 1, 2011",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Prime Engine, Natural Gas fired, 4 Stroke Rich Burn, 85 BHP, 0.758"
+    },
+    {
+      "id": "A-1",
+      "description": "First Stage NSCR, Clariant Model Envicat 7319"
+    },
+    {
+      "id": "A-2",
+      "description": "Second stage Aftertreatment, Ultera Oxidation Catalyst"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nND \nPlant No. 203428 located at 1080 Chestnut Street, San Francisco,  has applied for an Authority to \nConstruct (AC) for the following equipment: \n \nS-1 Prime Engine, Natural Gas fired, 4 Stroke Rich Burn, 85 BHP, 0.758 \nMMBtu/hr  \n Engine: Origin, Model: HTCGBO8.0TSC 8.0L, Model Year: 2022 \nAbated by \nA-1 First Stage NSCR, Clariant Model Envicat 7319 \nA-2 Second stage Aftertreatment, Ultera Oxidation Catalyst \n S-1 is part of a 60-kW (85 BHP) natural gas-fired cogeneration system that will provide electricity for \nthe building in parallel with the utility grid, while also using the engine's recovered waste heat to \nserve the building's domestic hot water needs and space heating loads.  The proposed cogeneration \nsystem is a Tecogen Model ''Tecopower 60\" cogenerati on module driven by S-1, whose emissions \nwill be abated in series by A-1 and A-2 to ensure lowest pollutant emissions.  The cogeneration unit will operate 24 hours a day, 7 days a week, 52 weeks a year (8,760 hours/year)."
+  },
+  "emission_calculations": {
+    "text": "EMISSIONS CALCULATIONS\nNS \nS-1’s abated NOx (oxides of nitrogen), CO (carbon monoxide) and POC (precursor organic \ncompounds) emissions are calculated based on Tec ogen’s specification sheet (see Attachment \nA) and have been adjusted to allow for compliance margin.  Hourly, daily and annual abated emissions are shown in Table 1. \nTable 1:  S-1’s Abated NOx, CO and POC Emissions \nPollutant   g/bhp‐hr  lb/hr  lb/day  lb/year  tpy \nNOx  0.31  0.058  1.394  508.887  0.254 \nCO  2  0.375  8.995  3283.141   1.642 \nPOC  0.6  0.112  2.698  984.942  0.492 \n The emission factors used to estimate PM\n10, PM 2.5 and SO 2 emissions are based on AP-42 Table \n3.2-3: Uncontrolled Emission Factors for 4 stroke, rich burn engines.  \n*PM 10 = 9.5E-03 lb/MMBtu x 0.758 MMBtu/hr = 7.2E-03 lb/hr = 0.17 lb/day = 63.1 lb/yr \n*PM 2.5 = 9.5E-03 lb/MMBtu x 0.758 MMBtu/hr = 7.2E-03 lb/hr = 0.17 lb/day = 63.1 lb/yr \nSulfur dioxide (SO 2) emission factor of 5.88 E-04 in AP-42 Table 3.2-3 is based on a sulfur content \nof 2,000 grains sulfur per 1 MMscf of natural gas; in California, PUC quality natural gas is \nguaranteed to have a sulfur content of 1 gr/100 scf (10,000 gr/MMscf), or 2.94E-03 lb/MMBtu. \nSO 2 = 2.94E-03 x 0.758 MMBtu/hr = 2.23E-03 lb/hr = 5.35E-02 lb/day =19.52 lb/yr \nS-1’s criteria air pollutant (CAP) emissions are summarized in Table 2. \n * PM 10 Emission Factor = 9.5E-03 Lb./MMBtu; aerodynamic particl e diameter =< 1 µm, for t he purposes of filterable \nemissions PM 10= PM 2.5.Emissions\n(lbs/hour) Acute \nTrigger \n(lbs/hour) Exceed \nAcute \nTrigger? Chronic \nEmissions \n(lbs/year) Chronic \nTrigger \n(lbs/year) Exceed \nChronic \nTrigger? \n1,1,2,2-\nTetrachloroethane AP-42 2.53E-05 lb/MMBtu 9.6E-06 None None 8.4E-02 1.4E+00 no \n1,1,2-\nTrichloroethane AP-42 1.53E-05 lb/MMBtu 5.8E-06 None None 5.1E-02 5.0E+00 no \n1,1-Dichloroethane AP-42 1.13E-05 lb/MMBtu 4.3E-06 None None 3.8E-02 5.0E+01 no \n1,3-Butadiene CATEF 1.02E-04 lb/MMBtu 3.9E-05 2.9E-01 no 3.4E-01 4.8E-01 no \nAcetaldehyde CATEF 8.66E-04 lb/MMBtu 3.3E-04 2.1E-01 no 2.9E+00 2.9E+01 no \nAcrolein CATEF 5.36E-04 lb/MMBtu 2.0E-04 1.1E-03 no 1.8E+00 1.4E+01 no \nBenzene  CATEF 1.87E-03 lb/MMBtu 7. 1E-04 1.2E-02 no 6.2E+00 2.9E+00 YES \nCarbon \nTetrachloride AP-42 1.77E-05 lb/MMBtu 6.7E-06 8.4E-01 no 5.9E-02 1.9E+00 no \nChlorobenzene AP-42 1.29E-05 lb/MMBtu 4.9E-06 None None 4.3E-02 3.9E+04 no \nChloroform AP-42 1.37E-05 lb/MMBtu 5.2E-06 6.6E-02 no 4.5E-02 1.5E+01 no \nEthylbenzene CATEF 1.14E-05 lb/MMBtu 4.3E-06 None None 3.8E-02 3.3E+01 no \nEthylene Dibromide AP-42 2.13E-05 lb/MMBtu  8.1E-06 None None 7.1E-02 1.1E+00 no \nFormaldehyde  CATEF 2.30E-03 lb/MMBtu 8.7E-04 2.4E-02 no 7.6E+00 1.4E+01 no \nMethanol AP-42 3.06E-03 lb/MMBtu 1.2E-03 1.2E+01 no 1.0E+01 1.5E+05 no \nMethylene Chloride AP-42 4.12E-05 lb/MMBtu 1.6E-05 6.2E+00 no 1.4E-01 8.2E+01 no"
+  },
+  "cumulative_increase": {
+    "text": "PLANT CUMULATIVE EMISSIONS\nNS \nPlant 203428 is a new facility and the existing cumu lative emissions increase is zero.  Table 4 \nsummarizes the cumulative increase in criteria pollu tant emissions resulting fr om the operation of S-1:  \n \nTable 4: Plant Cumulative Increase (tons/year) \nPollutant Existing New Total \nNOx 0 0.254  0.254  \nCO 0 1.642  1.642  \nPOC 0 0.492  0.492  \nPM10  0 3.16E‐02 3.16E‐02 \nPM2.5  0 3.16E‐02 3.16E‐02 \nSO 2 0 9.76E‐03 9.76E‐03"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSIONS CALCULATIONS\nNS \nS-1’s abated NOx (oxides of nitrogen), CO (carbon monoxide) and POC (precursor organic \ncompounds) emissions are calculated based on Tec ogen’s specification sheet (see Attachment \nA) and have been adjusted to allow for compliance margin.  Hourly, daily and annual abated emissions are shown in Table 1. \nTable 1:  S-1’s Abated NOx, CO and POC Emissions \nPollutant   g/bhp‐hr  lb/hr  lb/day  lb/year  tpy \nNOx  0.31  0.058  1.394  508.887  0.254 \nCO  2  0.375  8.995  3283.141   1.642 \nPOC  0.6  0.112  2.698  984.942  0.492 \n The emission factors used to estimate PM\n10, PM 2.5 and SO 2 emissions are based on AP-42 Table \n3.2-3: Uncontrolled Emission Factors for 4 stroke, rich burn engines.  \n*PM 10 = 9.5E-03 lb/MMBtu x 0.758 MMBtu/hr = 7.2E-03 lb/hr = 0.17 lb/day = 63.1 lb/yr \n*PM 2.5 = 9.5E-03 lb/MMBtu x 0.758 MMBtu/hr = 7.2E-03 lb/hr = 0.17 lb/day = 63.1 lb/yr \nSulfur dioxide (SO 2) emission factor of 5.88 E-04 in AP-42 Table 3.2-3 is based on a sulfur content \nof 2,000 grains sulfur per 1 MMscf of natural gas; in California, PUC quality natural gas is \nguaranteed to have a sulfur content of 1 gr/100 scf (10,000 gr/MMscf), or 2.94E-03 lb/MMBtu. \nSO 2 = 2.94E-03 x 0.758 MMBtu/hr = 2.23E-03 lb/hr = 5.35E-02 lb/day =19.52 lb/yr \nS-1’s criteria air pollutant (CAP) emissions are summarized in Table 2. \n * PM 10 Emission Factor = 9.5E-03 Lb./MMBtu; aerodynamic particl e diameter =< 1 µm, for t he purposes of filterable \nemissions PM 10= PM 2.5.Emissions\n(lbs/hour) Acute \nTrigger \n(lbs/hour) Exceed \nAcute \nTrigger? Chronic \nEmissions \n(lbs/year) Chronic \nTrigger \n(lbs/year) Exceed \nChronic \nTrigger? \n1,1,2,2-\nTetrachloroethane AP-42 2.53E-05 lb/MMBtu 9.6E-06 None None 8.4E-02 1.4E+00 no \n1,1,2-\nTrichloroethane AP-42 1.53E-05 lb/MMBtu 5.8E-06 None None 5.1E-02 5.0E+00 no \n1,1-Dichloroethane AP-42 1.13E-05 lb/MMBtu 4.3E-06 None None 3.8E-02 5.0E+01 no \n1,3-Butadiene CATEF 1.02E-04 lb/MMBtu 3.9E-05 2.9E-01 no 3.4E-01 4.8E-01 no \nAcetaldehyde CATEF 8.66E-04 lb/MMBtu 3.3E-04 2.1E-01 no 2.9E+00 2.9E+01 no \nAcrolein CATEF 5.36E-04 lb/MMBtu 2.0E-04 1.1E-03 no 1.8E+00 1.4E+01 no \nBenzene  CATEF 1.87E-03 lb/MMBtu 7. 1E-04 1.2E-02 no 6.2E+00 2.9E+00 YES \nCarbon \nTetrachloride AP-42 1.77E-05 lb/MMBtu 6.7E-06 8.4E-01 no 5.9E-02 1.9E+00 no \nChlorobenzene AP-42 1.29E-05 lb/MMBtu 4.9E-06 None None 4.3E-02 3.9E+04 no \nChloroform AP-42 1.37E-05 lb/MMBtu 5.2E-06 6.6E-02 no 4.5E-02 1.5E+01 no \nEthylbenzene CATEF 1.14E-05 lb/MMBtu 4.3E-06 None None 3.8E-02 3.3E+01 no \nEthylene Dibromide AP-42 2.13E-05 lb/MMBtu  8.1E-06 None None 7.1E-02 1.1E+00 no \nFormaldehyde  CATEF 2.30E-03 lb/MMBtu 8.7E-04 2.4E-02 no 7.6E+00 1.4E+01 no \nMethanol AP-42 3.06E-03 lb/MMBtu 1.2E-03 1.2E+01 no 1.0E+01 1.5E+05 no \nMethylene Chloride AP-42 4.12E-05 lb/MMBtu 1.6E-05 6.2E+00 no 1.4E-01 8.2E+01 no",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": 0.17,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "S-1’s abated NOx (oxides of nitrogen), CO (carbon monoxide) and POC (precursor organic\nS-1’s criteria air pollutant (CAP) emissions are summarized in Table 2.\nTable 1:  S-1’s Abated NOx, CO and POC Emissions",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-2": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "HEALTH RISK ASSESSMENT\nNT  \nThe emission factors used to estimate Toxic Air Compounds (TAC) and Hazardous Air Pollutants \n(HAPs) emissions from S-1 are from AP-42 Table 3.2-3 “Uncontrolled Emission Factors for 4 \nStroke Rich-Burn (4SRB) Engines, or from the California Air Toxics Emission Factor (CATEF) \ndatabase maintained by the California Air Resources Board for natural gas fired 4SRB engines rated less than 650 hp abated by NSCR (such as A-1). Abated TAC/HAP emissions summarized in Table 3 were conservatively estimated assuming an overall abatement efficiency of at least 50% by wt. for A-1 and A-2.  \n \nTable 3:S-1’s TAC/HAP EMISSIONS  \nCompound Basis Chosen \nEmission \nFactor Unit Acute"
+  },
+  "BACT": {
+    "text": "BEST AVAILABLE CONTROL TECHNOLOGY (BACT)\nACT) \nPer Regulation 2-2-301.1, a new source such as S-1 shall require BACT to control emissions of \na District BACT pollutant, as defined in Regulation 2-2-210, if the source will have the potential to emit that pollutant in an amount of 10.0 or more pounds on any day.  It can be seen from Table 2 above that BACT is not triggered for any pollutant."
+  },
+  "offsets": {
+    "narrative": "OFFSETS\nPer Regulation 2-2-302 and 2-2-303, offsets must be provided for any new or modified source at \na facility that will emit more than 10 tons/yr of POC or NOx, or more than 100 tons/yr/pollutant of \nPM 10, PM 2.5 and/or SO 2, respectively. As shown in Tables 2 and 4 above, offsets are not required \nfor this application. \n \nNew Source Performance Standards (NSPS)  \nS-1, a four-stroke rich burn (4SRB) engine, will be installed after January 1, 2011 and is therefore, subject to the New Source Performance Standard (NSPS) in 40 CFR 60, Subpart JJJJ Table 1.   \nTable 1 in NSPS Subpart JJJJ  \ng/HP-h\nr \nNOx CO VOC \n1 2 0.7 \n \nAs shown in Table 1 above, S-1 complies with Table 1 in NSPS Subpart JJJJ. \n \nNational Emission Standards for Hazardous Air Pollutants (NESHAP)  \nS-1 is subject to the emission or operating limitations in 40 CFR 63, Subpart ZZZZ (MACT ZZZZ), \n“National Emission Standards for Hazardous Air Pollutants for Stationary Reciprocating Internal \nCombustion Engines (RICE)”. S-1 is a new engine that complies with MACT ZZZZ by meeting the \nrequirements in 40 CFR Part 60 Subpart JJJJ per §63.6590(c)(1).",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          100.0,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          100.0,
+          "N/A",
+          null
+        ],
+        [
+          "CO",
+          1.0,
+          "N/A",
+          null
+        ],
+        [
+          "VOC",
+          1.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA)\nIn the application forms submitted the applicant indi cated that no CEQA review was required by the \ncity of San Francisco.  This permit application is not subject to CEQA because the evaluation is a \nministerial action (Public Resources Code Section 21080(b)(1); CEQA Guidelines Section 15268(a)), conducted using the fixed standards and objective measurements outlined in standard air \npermitting/engineering reference materials including, but not limited to: permitting handbooks, \npermitting manuals, permitting guidance documents, source test/lab sampling results, and emissions factor clearinghouses. Therefore, the applicant was not required to submit any CEQA-related information. \n \nPublic Notification, Schools and Overburdened Communities (OBC) 1080 Chestnut St. is within 1,000 feet from the nearest school (Galileo Academy of Science and \nTechnology, 1150 Francisco St., San Francisco, CA 94109), but it is not within an OBC. Per"
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nE \nRegulation 6, Rule 1 ( Particulate Matter and Visible Emissions Standards)  \nS-1, with a displacement of 8 liters (480 in3), is subject to Regulation 6, Rule 1.  Opacity and visible \nemissions from S-1 are limited by Regulations 6-1-303.1 (internal combustion engines of less than 25 liters (1,500 in\n3) displacement) to Ringelmann 2.   \nRegulation 6-1-305 prohibits emission of particles from any operation in sufficient number to cause annoyance to any other person where the particles are large enough to be visible as individual particles at the emission point, or of such size and  nature as to be visible individually as incandescent \nparticles.  S-1 will burn natural gas and is not expected to produce visible emissions or fallout in violation of this regulation and will be assumed to be in compliance with this regulation.  \nS-1’s compliance with Regulation 6-1-303.1 and 6-1-305 will be confirmed by the District’s Compliance \n& Enforcement staff during their routine inspections. \nRegulation 9-1-301 ( Inorganic Gaseous Pollutants: Sulfur Dioxide for Limitations on Ground \nLevel Concentrations). \nPer Regulation 9-1-301, the ground level concentrations of SO 2 must not exceed 0.5 ppm \ncontinuously for 3 consecutive minutes or 0. 25 ppm averaged over 60 consecutive minutes, or \n0.05 ppm averaged over 24 hours.  S-1 is subject to and is expected to comply with the applicable \nSO\n2 limitations in Regulation 9, Rule 1.  Because SO 2 emissions from S-1 are negligible (<20 \nlb/year), it is unlikely the APCO will require the owner/operator to conduct ground level monitoring.  \n \nRegulations 9-8- 301: ( Emission Limits- Spark-ignited Engines Powered by Fossil Derived \nFuels) \nS-1 is a spark-ignited rich burn engine, subject to Regulation 9-8-301.1, which limits NOx emissions to \n25 ppmv corrected to 15% oxygen, dry basis.  Per Tecogen’s spec sheet (see Attachment A), the \npost abated concentration of NOx in the exhaust exiting A-2 at 15% oxygen, dry basis is 10.56 ppmvd. Therefore, S-1 complies with this limit"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Regulation 2-1-412 and as shown in Table 3, the installation and subsequent operation of S-1 will\nresult in an increase in TAC emissions. Therefore, a Waters Bill public notice will be prepared describing the proposed project and associated emissions, which will be distributed to the parents or guardians of children enrolled in any school within one-quarter mile of the source and to each address within a radius of 1000 feet of the source.  Air District staff will review and consider all \ncomments received during the 30 days after the notice is distributed and shall respond to all \ncomments received and include written responses to the comments in the permit application file prior to taking final action on the application. \nPrevention of Significant Deterioration (PSD) This project is not subject to PSD per Regulation 2-2, since PSD only applies to major facilities."
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS\nNS  \nCOND# 100291 \n \n1. The owner/operator shall fire S-1 exclusively on PUC quality natural gas and shall \nensure no more than 6.51 MMscf in any rolling 12-month period is combusted at S-1. \n (Basis: Cumulative Increase) \n \n2. The owner/operator shall equip S-1 with a dedicated fuel flow meter to demonstrate \ncompliance with Part 1 of this permit condition.  \n (Basis Regulation 2-1-403)"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator shall fire S-1 exclusively on PUC quality natural gas and shall \nensure no more than 6.51 MMscf in any rolling 12-month period is combusted at S-1. \n (",
+        "basis": [
+          "Cumulative Increase)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall equip S-1 with a dedicated fuel flow meter to demonstrate \ncompliance with Part 1 of this permit condition.  \n (Basis Regulation 2-1-403)",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nON \nThe Air District has evaluated the permit application for the proposed project and has made a \npreliminary determination that the project is expected to comply with all applicable District, state, and \nfederal air quality-related regulations, including t he health risks resulting from toxic air contaminant \nemissions. The preliminary recommendation is to issue a permit for this project. After considering all \ncomments received, the Air District will make a final determination. \nI recommend that the Air District initiate the public comment period and consider any comments \nreceived prior to taking any final action on issuance of an Authority to Construct for the following source: \nS-1   Prime Engine, Natural Gas Fired, 4 Stroke Rich Burn, 85 BHP, 0.758 MMBtu/hr  \n Engine: Origin, Model: HTCGBO8.0TSC 8.0L, Model Year: 2022 \nAbated by \nA-1 First Stage NSCR, Clariant Model Envicat 7319 \nA-2 Second stage Aftertreatment, Ultera Oxidation Catalyst \n \n \n \n  \n \n  \n \n  \n \n \n \n  \n \n  \n \n  \n \n  \n \n  \n \n  \n \n \n \n  \n \n Prepared by:  Date: \nEugen Teszler Air Quality Engineer II"
+  },
+  "raw_sections": {
+    "preamble": "Page 1 of 8  \nEngineering Evaluation \nApplication No. 696413 \nPlant No. 203428 \n1080 Chestnut St., San Francisco, CA  94109",
+    "blocks": [
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND \nPlant No. 203428 located at 1080 Chestnut Street, San Francisco,  has applied for an Authority to \nConstruct (AC) for the following equipment: \n \nS-1 Prime Engine, Natural Gas fired, 4 Stroke Rich Burn, 85 BHP, 0.758 \nMMBtu/hr  \n Engine: Origin, Model: HTCGBO8.0TSC 8.0L, Model Year: 2022 \nAbated by \nA-1 First Stage NSCR, Clariant Model Envicat 7319 \nA-2 Second stage Aftertreatment, Ultera Oxidation Catalyst \n S-1 is part of a 60-kW (85 BHP) natural gas-fired cogeneration system that will provide electricity for \nthe building in parallel with the utility grid, while also using the engine's recovered waste heat to \nserve the building's domestic hot water needs and space heating loads.  The proposed cogeneration \nsystem is a Tecogen Model ''Tecopower 60\" cogenerati on module driven by S-1, whose emissions \nwill be abated in series by A-1 and A-2 to ensure lowest pollutant emissions.  The cogeneration unit will operate 24 hours a day, 7 days a week, 52 weeks a year (8,760 hours/year)."
+      },
+      {
+        "heading": "EMISSIONS CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSIONS CALCULATIONS\nNS \nS-1’s abated NOx (oxides of nitrogen), CO (carbon monoxide) and POC (precursor organic \ncompounds) emissions are calculated based on Tec ogen’s specification sheet (see Attachment \nA) and have been adjusted to allow for compliance margin.  Hourly, daily and annual abated emissions are shown in Table 1. \nTable 1:  S-1’s Abated NOx, CO and POC Emissions \nPollutant   g/bhp‐hr  lb/hr  lb/day  lb/year  tpy \nNOx  0.31  0.058  1.394  508.887  0.254 \nCO  2  0.375  8.995  3283.141   1.642 \nPOC  0.6  0.112  2.698  984.942  0.492 \n The emission factors used to estimate PM\n10, PM 2.5 and SO 2 emissions are based on AP-42 Table \n3.2-3: Uncontrolled Emission Factors for 4 stroke, rich burn engines.  \n*PM 10 = 9.5E-03 lb/MMBtu x 0.758 MMBtu/hr = 7.2E-03 lb/hr = 0.17 lb/day = 63.1 lb/yr \n*PM 2.5 = 9.5E-03 lb/MMBtu x 0.758 MMBtu/hr = 7.2E-03 lb/hr = 0.17 lb/day = 63.1 lb/yr \nSulfur dioxide (SO 2) emission factor of 5.88 E-04 in AP-42 Table 3.2-3 is based on a sulfur content \nof 2,000 grains sulfur per 1 MMscf of natural gas; in California, PUC quality natural gas is \nguaranteed to have a sulfur content of 1 gr/100 scf (10,000 gr/MMscf), or 2.94E-03 lb/MMBtu. \nSO 2 = 2.94E-03 x 0.758 MMBtu/hr = 2.23E-03 lb/hr = 5.35E-02 lb/day =19.52 lb/yr \nS-1’s criteria air pollutant (CAP) emissions are summarized in Table 2. \n * PM 10 Emission Factor = 9.5E-03 Lb./MMBtu; aerodynamic particl e diameter =< 1 µm, for t he purposes of filterable \nemissions PM 10= PM 2.5."
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nFT\n \nPage 2 of 8  \nTable 2: S‐1’s CAP Emissions   \nPollutant Emissions \n(lbs/hr) Emissions \n(lb/day) Emissions \n(lb/yr) Emissions \n(tpy) \nNOx 0.058  1.394  508.887  0.254  \nCO 0.375  8.995  3283.141  1.642  \nPOC 0.112  2.698  984.942  0.492  \nPM 10 7.23E‐03 1.74E‐01 6.31E+01  3.16E‐02 \nPM 2.5 7.23E‐03 1.74E‐01 6.31E+01  3.16E‐02 \nSO 2 2.23E‐03 5.35E‐02 1.95E+01  9.76E‐03"
+      },
+      {
+        "heading": "HEALTH RISK ASSESSMENT",
+        "alias": "TOXICS",
+        "text": "HEALTH RISK ASSESSMENT\nNT  \nThe emission factors used to estimate Toxic Air Compounds (TAC) and Hazardous Air Pollutants \n(HAPs) emissions from S-1 are from AP-42 Table 3.2-3 “Uncontrolled Emission Factors for 4 \nStroke Rich-Burn (4SRB) Engines, or from the California Air Toxics Emission Factor (CATEF) \ndatabase maintained by the California Air Resources Board for natural gas fired 4SRB engines rated less than 650 hp abated by NSCR (such as A-1). Abated TAC/HAP emissions summarized in Table 3 were conservatively estimated assuming an overall abatement efficiency of at least 50% by wt. for A-1 and A-2.  \n \nTable 3:S-1’s TAC/HAP EMISSIONS  \nCompound Basis Chosen \nEmission \nFactor Unit Acute"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lbs/hour) Acute \nTrigger \n(lbs/hour) Exceed \nAcute \nTrigger? Chronic \nEmissions \n(lbs/year) Chronic \nTrigger \n(lbs/year) Exceed \nChronic \nTrigger? \n1,1,2,2-\nTetrachloroethane AP-42 2.53E-05 lb/MMBtu 9.6E-06 None None 8.4E-02 1.4E+00 no \n1,1,2-\nTrichloroethane AP-42 1.53E-05 lb/MMBtu 5.8E-06 None None 5.1E-02 5.0E+00 no \n1,1-Dichloroethane AP-42 1.13E-05 lb/MMBtu 4.3E-06 None None 3.8E-02 5.0E+01 no \n1,3-Butadiene CATEF 1.02E-04 lb/MMBtu 3.9E-05 2.9E-01 no 3.4E-01 4.8E-01 no \nAcetaldehyde CATEF 8.66E-04 lb/MMBtu 3.3E-04 2.1E-01 no 2.9E+00 2.9E+01 no \nAcrolein CATEF 5.36E-04 lb/MMBtu 2.0E-04 1.1E-03 no 1.8E+00 1.4E+01 no \nBenzene  CATEF 1.87E-03 lb/MMBtu 7. 1E-04 1.2E-02 no 6.2E+00 2.9E+00 YES \nCarbon \nTetrachloride AP-42 1.77E-05 lb/MMBtu 6.7E-06 8.4E-01 no 5.9E-02 1.9E+00 no \nChlorobenzene AP-42 1.29E-05 lb/MMBtu 4.9E-06 None None 4.3E-02 3.9E+04 no \nChloroform AP-42 1.37E-05 lb/MMBtu 5.2E-06 6.6E-02 no 4.5E-02 1.5E+01 no \nEthylbenzene CATEF 1.14E-05 lb/MMBtu 4.3E-06 None None 3.8E-02 3.3E+01 no \nEthylene Dibromide AP-42 2.13E-05 lb/MMBtu  8.1E-06 None None 7.1E-02 1.1E+00 no \nFormaldehyde  CATEF 2.30E-03 lb/MMBtu 8.7E-04 2.4E-02 no 7.6E+00 1.4E+01 no \nMethanol AP-42 3.06E-03 lb/MMBtu 1.2E-03 1.2E+01 no 1.0E+01 1.5E+05 no \nMethylene Chloride AP-42 4.12E-05 lb/MMBtu 1.6E-05 6.2E+00 no 1.4E-01 8.2E+01 no"
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nPage 3 of 8  \nCompound Basis Chosen \nEmission \nFactor Unit Acute \nEmissions \n(lbs/hour) Acute \nTrigger \n(lbs/hour) Exceed \nAcute \nTrigger? Chronic \nEmissions \n(lbs/year) Chronic \nTrigger \n(lbs/year) Exceed \nChronic \nTrigger? \nNaphthalene CATEF 7.50E-05 lb/MMBtu 2.8E-05 None None 2.5E-01 2.4E+00 no \nPAH Equivalent as \nBenzo(a)pyrene CATEF 1.78E-07 lb/MMBtu 6.8E-08 None None 5.9E-04 3.3E-03 no \nPropylene CATEF 1.57E-02 lb/MMBtu 5.9E -03 None None 5.2E+01 1.2E+05 no \nStyrene AP-42 1.19E-05 lb/MMBtu 4.5E-06 9.3E+00 no 4.0E-02 3.5E+04 no \nToluene CATEF 1.05E-03 lb/MMBtu 4. 0E-04 2.2E+00 no 3.5E+00 1.6E+04 no \nVinyl Chloride AP-42 7.18E-06 lb/MMBtu 2.7E-06 8.0E+01 no 2.4E-02 1.1E+00 no \nXylene (total) CATEF 6.45E-04 lb/MMBtu 2.4E-04 9.7E+00 no 2.1E+00 2.7E+04 no \n \nPer Table 3, a Health Risk Assessment (HRA) is required because the annual benzene emissions \nexceed the chronic TAC trigger level in Regulation 2-5 Table 2-5-1.  1080 Chestnut is not located \nwithin an OBC.  Following is an excerpt from the HRA results memo dated March 19, 2024: \n“The results of the HRA indicate that the project cancer risk is estimated at 0.84 in a million, and \nthe project chronic hazard index (HI) is estimated at 0.0065, and the project acute HI is \nestimated at 0.11. In accordance with the District’s Regulation 2-5-301, this source does not \nrequire TBACT because the estimated source risk does not exceed a cancer risk of 1.0 in a million, and/or chronic hazard index of 0.20.  \nSince the estimated project cancer risk does not exceed 10 in a million and hazard indices do \nnot exceed 1.0, this proposed project complies with the District’s Regulation 2-5-302 project risk \nrequirements, for projects not located in an Overburdened Community, as defined in Regulation \n2-1-243. This HRA represents an analysis of all sources of TACs at this facility. Therefore, these project HRA results also represent site wide HRA results for purposes of the Air Toxics \n“Hot Spots” Act (AB 2588).”"
+      },
+      {
+        "heading": "PLANT CUMULATIVE EMISSIONS",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "PLANT CUMULATIVE EMISSIONS\nNS \nPlant 203428 is a new facility and the existing cumu lative emissions increase is zero.  Table 4 \nsummarizes the cumulative increase in criteria pollu tant emissions resulting fr om the operation of S-1:  \n \nTable 4: Plant Cumulative Increase (tons/year) \nPollutant Existing New Total \nNOx 0 0.254  0.254  \nCO 0 1.642  1.642  \nPOC 0 0.492  0.492  \nPM10  0 3.16E‐02 3.16E‐02 \nPM2.5  0 3.16E‐02 3.16E‐02 \nSO 2 0 9.76E‐03 9.76E‐03"
+      },
+      {
+        "heading": "BEST AVAILABLE CONTROL TECHNOLOGY (BACT)",
+        "alias": "BACT",
+        "text": "BEST AVAILABLE CONTROL TECHNOLOGY (BACT)\nACT) \nPer Regulation 2-2-301.1, a new source such as S-1 shall require BACT to control emissions of \na District BACT pollutant, as defined in Regulation 2-2-210, if the source will have the potential to emit that pollutant in an amount of 10.0 or more pounds on any day.  It can be seen from Table 2 above that BACT is not triggered for any pollutant."
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nPage 4 of 8"
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nPer Regulation 2-2-302 and 2-2-303, offsets must be provided for any new or modified source at \na facility that will emit more than 10 tons/yr of POC or NOx, or more than 100 tons/yr/pollutant of \nPM 10, PM 2.5 and/or SO 2, respectively. As shown in Tables 2 and 4 above, offsets are not required \nfor this application. \n \nNew Source Performance Standards (NSPS)  \nS-1, a four-stroke rich burn (4SRB) engine, will be installed after January 1, 2011 and is therefore, subject to the New Source Performance Standard (NSPS) in 40 CFR 60, Subpart JJJJ Table 1.   \nTable 1 in NSPS Subpart JJJJ  \ng/HP-h\nr \nNOx CO VOC \n1 2 0.7 \n \nAs shown in Table 1 above, S-1 complies with Table 1 in NSPS Subpart JJJJ. \n \nNational Emission Standards for Hazardous Air Pollutants (NESHAP)  \nS-1 is subject to the emission or operating limitations in 40 CFR 63, Subpart ZZZZ (MACT ZZZZ), \n“National Emission Standards for Hazardous Air Pollutants for Stationary Reciprocating Internal \nCombustion Engines (RICE)”. S-1 is a new engine that complies with MACT ZZZZ by meeting the \nrequirements in 40 CFR Part 60 Subpart JJJJ per §63.6590(c)(1)."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nE \nRegulation 6, Rule 1 ( Particulate Matter and Visible Emissions Standards)  \nS-1, with a displacement of 8 liters (480 in3), is subject to Regulation 6, Rule 1.  Opacity and visible \nemissions from S-1 are limited by Regulations 6-1-303.1 (internal combustion engines of less than 25 liters (1,500 in\n3) displacement) to Ringelmann 2.   \nRegulation 6-1-305 prohibits emission of particles from any operation in sufficient number to cause annoyance to any other person where the particles are large enough to be visible as individual particles at the emission point, or of such size and  nature as to be visible individually as incandescent \nparticles.  S-1 will burn natural gas and is not expected to produce visible emissions or fallout in violation of this regulation and will be assumed to be in compliance with this regulation.  \nS-1’s compliance with Regulation 6-1-303.1 and 6-1-305 will be confirmed by the District’s Compliance \n& Enforcement staff during their routine inspections. \nRegulation 9-1-301 ( Inorganic Gaseous Pollutants: Sulfur Dioxide for Limitations on Ground \nLevel Concentrations). \nPer Regulation 9-1-301, the ground level concentrations of SO 2 must not exceed 0.5 ppm \ncontinuously for 3 consecutive minutes or 0. 25 ppm averaged over 60 consecutive minutes, or \n0.05 ppm averaged over 24 hours.  S-1 is subject to and is expected to comply with the applicable \nSO\n2 limitations in Regulation 9, Rule 1.  Because SO 2 emissions from S-1 are negligible (<20 \nlb/year), it is unlikely the APCO will require the owner/operator to conduct ground level monitoring.  \n \nRegulations 9-8- 301: ( Emission Limits- Spark-ignited Engines Powered by Fossil Derived \nFuels) \nS-1 is a spark-ignited rich burn engine, subject to Regulation 9-8-301.1, which limits NOx emissions to \n25 ppmv corrected to 15% oxygen, dry basis.  Per Tecogen’s spec sheet (see Attachment A), the \npost abated concentration of NOx in the exhaust exiting A-2 at 15% oxygen, dry basis is 10.56 ppmvd. Therefore, S-1 complies with this limit"
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nPage 5 of 8  \nRegulation 9-8-301.3 limits CO emissions to 2,000 ppmvd at 15% oxygen. Per Tecogen’s spec \nsheet (see Attachment A), the post abated concentration of CO in the exhaust exiting A-2 at 15% \noxygen, dry basis is 69.40 ppmvd. Therefore, S-1 complies with this limit.  Since the S-1 guaranteed emissions are low compared to Regulation 9-8-301 limits and don’t trigger BACT, permit conditions may allow some flexibility regarding NOx and CO emission limits while still being in compliance with the above rules.  Hence, for NOx, the permit will impose 22 \nppmvd corrected to 15% O2, translating to 1.55 lb/day NOx.  For CO, the permit will impose 210 \nppmvd corrected at 15% O\n2, translating to 8.99 lb/day.  Lastly, the POC emission limit will be 110 \nppmvd corrected to 15% O 2, corresponding to 0.6 g/bhp-hr, in compliance with NSPS Subpart JJJJ \nTable 1 of 0.7 g/bhp-hr.   The proposed permit conditions will include recordkeeping requirements per \nRegulation 9-8-502 and NOx and CO quarterly emissions testing required by Regulation 9-8-503 will \nensure continued compliance with Regulation 9-8-301.3."
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA)",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA)\nIn the application forms submitted the applicant indi cated that no CEQA review was required by the \ncity of San Francisco.  This permit application is not subject to CEQA because the evaluation is a \nministerial action (Public Resources Code Section 21080(b)(1); CEQA Guidelines Section 15268(a)), conducted using the fixed standards and objective measurements outlined in standard air \npermitting/engineering reference materials including, but not limited to: permitting handbooks, \npermitting manuals, permitting guidance documents, source test/lab sampling results, and emissions factor clearinghouses. Therefore, the applicant was not required to submit any CEQA-related information. \n \nPublic Notification, Schools and Overburdened Communities (OBC) 1080 Chestnut St. is within 1,000 feet from the nearest school (Galileo Academy of Science and \nTechnology, 1150 Francisco St., San Francisco, CA 94109), but it is not within an OBC. Per"
+      },
+      {
+        "heading": "Regulation 2-1-412 and as shown in Table 3, the installation and subsequent operation of S-1 will",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Regulation 2-1-412 and as shown in Table 3, the installation and subsequent operation of S-1 will\nresult in an increase in TAC emissions. Therefore, a Waters Bill public notice will be prepared describing the proposed project and associated emissions, which will be distributed to the parents or guardians of children enrolled in any school within one-quarter mile of the source and to each address within a radius of 1000 feet of the source.  Air District staff will review and consider all \ncomments received during the 30 days after the notice is distributed and shall respond to all \ncomments received and include written responses to the comments in the permit application file prior to taking final action on the application. \nPrevention of Significant Deterioration (PSD) This project is not subject to PSD per Regulation 2-2, since PSD only applies to major facilities."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nNS  \nCOND# 100291 \n \n1. The owner/operator shall fire S-1 exclusively on PUC quality natural gas and shall \nensure no more than 6.51 MMscf in any rolling 12-month period is combusted at S-1. \n (Basis: Cumulative Increase) \n \n2. The owner/operator shall equip S-1 with a dedicated fuel flow meter to demonstrate \ncompliance with Part 1 of this permit condition.  \n (Basis Regulation 2-1-403)"
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nFT\n \nPage 6 of 8  \n3. The owner/operator shall ensure S-1 is abated at all times of operation by the properly \ninstalled, operated and maintained A-1, First Stage NSCR Clariant Envicat 7319 and A-\n2, Second Stage Ultera Oxidation Catalyst configured in series.  \n (Basis: Cumulative Increase) \n \n4. To demonstrate compliance with Part 1 of this permit condition, the owner/operator of S-\n1 shall maintain records of fuel usage recorded by the dedicated fuel flow meter required by Part 2 of this permit condition on site for at least 24-months from the last date of entry \nand shall make the records available for inspection by Air District staff upon request. \n(Basis: Cumulative Increase) \n \n5. The owner/operator of S-1 shall ensure abated emissions of Nitrogen Oxides (NOx),  carbon monoxide (CO) and precursor organic compound (POC) from S-1, exiting out of \nA-2, do not exceed 22 ppmvd corrected to 15% oxygen, 210 ppmvd corrected to 15% \noxygen, and 110 ppmvd corrected to 15% oxygen, respectively. (Basis: Cumulative Increase, Regulation 9-8-301)  \n6. To demonstrate compliance with both Part 5 of this permit condition and Regulation 9-8, \nthe owner/operator of S-1 shall measure the NOx  andCO concentrations exiting A-2 \nusing a portable analyzer per the following schedule: \na. within 30-days of startup; \nb. at least once during each calendar quarter, following the initial demonstration of compliance. \nAll NOx and CO concentrations shall be taken with S-1 operating either at conditions \nrepresentative of normal operations or conditions specified in the permit-to-operate.  \nThe portable analyzer shall be calibrated, maintained, and operated in accordance with \nthe manufacturer’s specifications and recommendations.  \nNOx concentrations measured using the portable analyzer shall be averaged over a \nconsecutive 15-minute period.  \n \nIf any of the portable analyzer measurements show an exceedance of any of the limits contained either in part 5 or Regulation 9-8, the owner/operator of S-1 shall notify the Air District’s assigned permit engineer within 24 hours from the time measurements were taken.  The owner/operator shall conduct an Air District approved source test to demonstrate compliance with both part 5 (including POC) and Regulation 9-8 within 90 \ndays of the exceedance.  The source test shall be conducted using only Air District \napproved methods.  The results of the source test shall be submitted to the Air District Source Test Manager within 60 days of the test date for review. For the purposes of this condition, POC shall be considered the same as non-methane organic compounds (NMOC). \n(Basis: Cumulative increase, Regulation 9-8-503) \n \n7. The owner/operator of S-1 shall maintain the following records in a District-approved log for at \nleast 24-months from the last date of entry. Log entries shall be retained on-site, either at a central location or at the engine's location and made available to the Air District staff upon request: \na. Monthly and annual fuel usage for S-1. \nb. Quarterly NOx and CO concentrations taken with the portable analyzer and the date the measurements were taken. \nc. Any source testing results. \n(Basis: Regulation 9-8-502.3)"
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nFT\n \nPage 7 of 8  \nEnd of Conditions"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nON \nThe Air District has evaluated the permit application for the proposed project and has made a \npreliminary determination that the project is expected to comply with all applicable District, state, and \nfederal air quality-related regulations, including t he health risks resulting from toxic air contaminant \nemissions. The preliminary recommendation is to issue a permit for this project. After considering all \ncomments received, the Air District will make a final determination. \nI recommend that the Air District initiate the public comment period and consider any comments \nreceived prior to taking any final action on issuance of an Authority to Construct for the following source: \nS-1   Prime Engine, Natural Gas Fired, 4 Stroke Rich Burn, 85 BHP, 0.758 MMBtu/hr  \n Engine: Origin, Model: HTCGBO8.0TSC 8.0L, Model Year: 2022 \nAbated by \nA-1 First Stage NSCR, Clariant Model Envicat 7319 \nA-2 Second stage Aftertreatment, Ultera Oxidation Catalyst \n \n \n \n  \n \n  \n \n  \n \n \n \n  \n \n  \n \n  \n \n  \n \n  \n \n  \n \n \n \n  \n \n Prepared by:  Date: \nEugen Teszler Air Quality Engineer II"
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nPage 8 of 8  \nAttachment A \n \nSpecification Sheet \n \n \nDRAFT"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nFT\n \nPage 2 of 8  \nTable 2: S‐1’s CAP Emissions   \nPollutant Emissions \n(lbs/hr) Emissions \n(lb/day) Emissions \n(lb/yr) Emissions \n(tpy) \nNOx 0.058  1.394  508.887  0.254  \nCO 0.375  8.995  3283.141  1.642  \nPOC 0.112  2.698  984.942  0.492  \nPM 10 7.23E‐03 1.74E‐01 6.31E+01  3.16E‐02 \nPM 2.5 7.23E‐03 1.74E‐01 6.31E+01  3.16E‐02 \nSO 2 2.23E‐03 5.35E‐02 1.95E+01  9.76E‐03"
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nPage 3 of 8  \nCompound Basis Chosen \nEmission \nFactor Unit Acute \nEmissions \n(lbs/hour) Acute \nTrigger \n(lbs/hour) Exceed \nAcute \nTrigger? Chronic \nEmissions \n(lbs/year) Chronic \nTrigger \n(lbs/year) Exceed \nChronic \nTrigger? \nNaphthalene CATEF 7.50E-05 lb/MMBtu 2.8E-05 None None 2.5E-01 2.4E+00 no \nPAH Equivalent as \nBenzo(a)pyrene CATEF 1.78E-07 lb/MMBtu 6.8E-08 None None 5.9E-04 3.3E-03 no \nPropylene CATEF 1.57E-02 lb/MMBtu 5.9E -03 None None 5.2E+01 1.2E+05 no \nStyrene AP-42 1.19E-05 lb/MMBtu 4.5E-06 9.3E+00 no 4.0E-02 3.5E+04 no \nToluene CATEF 1.05E-03 lb/MMBtu 4. 0E-04 2.2E+00 no 3.5E+00 1.6E+04 no \nVinyl Chloride AP-42 7.18E-06 lb/MMBtu 2.7E-06 8.0E+01 no 2.4E-02 1.1E+00 no \nXylene (total) CATEF 6.45E-04 lb/MMBtu 2.4E-04 9.7E+00 no 2.1E+00 2.7E+04 no \n \nPer Table 3, a Health Risk Assessment (HRA) is required because the annual benzene emissions \nexceed the chronic TAC trigger level in Regulation 2-5 Table 2-5-1.  1080 Chestnut is not located \nwithin an OBC.  Following is an excerpt from the HRA results memo dated March 19, 2024: \n“The results of the HRA indicate that the project cancer risk is estimated at 0.84 in a million, and \nthe project chronic hazard index (HI) is estimated at 0.0065, and the project acute HI is \nestimated at 0.11. In accordance with the District’s Regulation 2-5-301, this source does not \nrequire TBACT because the estimated source risk does not exceed a cancer risk of 1.0 in a million, and/or chronic hazard index of 0.20.  \nSince the estimated project cancer risk does not exceed 10 in a million and hazard indices do \nnot exceed 1.0, this proposed project complies with the District’s Regulation 2-5-302 project risk \nrequirements, for projects not located in an Overburdened Community, as defined in Regulation \n2-1-243. This HRA represents an analysis of all sources of TACs at this facility. Therefore, these project HRA results also represent site wide HRA results for purposes of the Air Toxics \n“Hot Spots” Act (AB 2588).”"
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nPage 4 of 8"
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nPage 5 of 8  \nRegulation 9-8-301.3 limits CO emissions to 2,000 ppmvd at 15% oxygen. Per Tecogen’s spec \nsheet (see Attachment A), the post abated concentration of CO in the exhaust exiting A-2 at 15% \noxygen, dry basis is 69.40 ppmvd. Therefore, S-1 complies with this limit.  Since the S-1 guaranteed emissions are low compared to Regulation 9-8-301 limits and don’t trigger BACT, permit conditions may allow some flexibility regarding NOx and CO emission limits while still being in compliance with the above rules.  Hence, for NOx, the permit will impose 22 \nppmvd corrected to 15% O2, translating to 1.55 lb/day NOx.  For CO, the permit will impose 210 \nppmvd corrected at 15% O\n2, translating to 8.99 lb/day.  Lastly, the POC emission limit will be 110 \nppmvd corrected to 15% O 2, corresponding to 0.6 g/bhp-hr, in compliance with NSPS Subpart JJJJ \nTable 1 of 0.7 g/bhp-hr.   The proposed permit conditions will include recordkeeping requirements per \nRegulation 9-8-502 and NOx and CO quarterly emissions testing required by Regulation 9-8-503 will \nensure continued compliance with Regulation 9-8-301.3."
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nFT\n \nPage 6 of 8  \n3. The owner/operator shall ensure S-1 is abated at all times of operation by the properly \ninstalled, operated and maintained A-1, First Stage NSCR Clariant Envicat 7319 and A-\n2, Second Stage Ultera Oxidation Catalyst configured in series.  \n (Basis: Cumulative Increase) \n \n4. To demonstrate compliance with Part 1 of this permit condition, the owner/operator of S-\n1 shall maintain records of fuel usage recorded by the dedicated fuel flow meter required by Part 2 of this permit condition on site for at least 24-months from the last date of entry \nand shall make the records available for inspection by Air District staff upon request. \n(Basis: Cumulative Increase) \n \n5. The owner/operator of S-1 shall ensure abated emissions of Nitrogen Oxides (NOx),  carbon monoxide (CO) and precursor organic compound (POC) from S-1, exiting out of \nA-2, do not exceed 22 ppmvd corrected to 15% oxygen, 210 ppmvd corrected to 15% \noxygen, and 110 ppmvd corrected to 15% oxygen, respectively. (Basis: Cumulative Increase, Regulation 9-8-301)  \n6. To demonstrate compliance with both Part 5 of this permit condition and Regulation 9-8, \nthe owner/operator of S-1 shall measure the NOx  andCO concentrations exiting A-2 \nusing a portable analyzer per the following schedule: \na. within 30-days of startup; \nb. at least once during each calendar quarter, following the initial demonstration of compliance. \nAll NOx and CO concentrations shall be taken with S-1 operating either at conditions \nrepresentative of normal operations or conditions specified in the permit-to-operate.  \nThe portable analyzer shall be calibrated, maintained, and operated in accordance with \nthe manufacturer’s specifications and recommendations.  \nNOx concentrations measured using the portable analyzer shall be averaged over a \nconsecutive 15-minute period.  \n \nIf any of the portable analyzer measurements show an exceedance of any of the limits contained either in part 5 or Regulation 9-8, the owner/operator of S-1 shall notify the Air District’s assigned permit engineer within 24 hours from the time measurements were taken.  The owner/operator shall conduct an Air District approved source test to demonstrate compliance with both part 5 (including POC) and Regulation 9-8 within 90 \ndays of the exceedance.  The source test shall be conducted using only Air District \napproved methods.  The results of the source test shall be submitted to the Air District Source Test Manager within 60 days of the test date for review. For the purposes of this condition, POC shall be considered the same as non-methane organic compounds (NMOC). \n(Basis: Cumulative increase, Regulation 9-8-503) \n \n7. The owner/operator of S-1 shall maintain the following records in a District-approved log for at \nleast 24-months from the last date of entry. Log entries shall be retained on-site, either at a central location or at the engine's location and made available to the Air District staff upon request: \na. Monthly and annual fuel usage for S-1. \nb. Quarterly NOx and CO concentrations taken with the portable analyzer and the date the measurements were taken. \nc. Any source testing results. \n(Basis: Regulation 9-8-502.3)"
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nFT\n \nPage 7 of 8  \nEnd of Conditions"
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nPage 8 of 8  \nAttachment A \n \nSpecification Sheet \n \n \nDRAFT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\extracted_evaluations\\application_14096-addendum-1.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 4
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "14096",
+    "application_number_from_filename": "14096"
+  },
+  "application_number": "14096",
+  "plant": {
+    "name": "Chevron Products Company",
+    "plant_id": null,
+    "address": "Richmond, CA 94802"
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-3127",
+      "description": "External Floating Roof Tank"
+    }
+  ],
+  "background": {
+    "text": "I. BACKGROUND\nND \nChevron Products Company is applying for an Authority to Construct/Permit to \nOperate for the following:  \nS-3127 External Floating Roof Tank \n  \nThis is an existing tank used to collect waste oil throughout t he refinery.  Based \non experience from other tanks about t wice per year, an emulsion layer is \ncreated separating the t ank’s contents.  This layer makes the tank difficult to use \nand therefore must be broken dow n in order for the tank to be useful.  The facility \nhas proposed to heat the tank to break dow n the emulsion layer up to 3 times per \nyear."
+  },
+  "emission_calculations": {
+    "text": "II. EMISSION CALCULATIONS\nUsing EPA Tanks 4.0, emissions were com pared from storing jet fuel (2-3 psia \nvapor pressure as a baseli ne) and other material.  See attached program results.  \nThe emissions from the heat ing events were extrapolated to estimate emissions \nat 11 psia.  Based on the tank properti es, the Tanks 4.0 gives the following \nemissions:  \n Lb/yr Lb/day Tons/yr \nBaseline (old) 1467 4 0.73\nNormal (260 days) 1045\nHeating (105 days) 3129 30\nTotal (new) 4174 2.09\nDifference 2707 1.35\n \nTank heating will be limited to 21 days.  It is assumed that the contents will cool \nto ambient temperature in 14 days.  C onservatively, emissions are assumed to \nbe at the highest rate for the 35 days per event (105 days total for 3 events).  The net increase of annual organi c emissions are estimated to be 2707 pounds (1.35 \ntons).  Based on 0.38% weight of benzene concent ration allowed, the concentration of \nbenzene at 11 psia is about 200 ppm ( 40 mmHg* 0.0038/760 mmHg).  Assuming \nthe molecular weight of benzene and the ot her material is roughly the same, the \nestimated maximum potential benzene emi ssions that will increase from this \nmodification are 1.1 pounds per year (200 * 5543/1E6).  \nChevron Products Company Plant #10 (Site #A0010) \nApplication #14565 Page 2 of 4 \n \n III. PLANT CUMULATIVE INCREASE (since 4/5/91) \nThe cumulative increase from this modi fication is 1.35 tons of POC annually."
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "II. EMISSION CALCULATIONS\nUsing EPA Tanks 4.0, emissions were com pared from storing jet fuel (2-3 psia \nvapor pressure as a baseli ne) and other material.  See attached program results.  \nThe emissions from the heat ing events were extrapolated to estimate emissions \nat 11 psia.  Based on the tank properti es, the Tanks 4.0 gives the following \nemissions:  \n Lb/yr Lb/day Tons/yr \nBaseline (old) 1467 4 0.73\nNormal (260 days) 1045\nHeating (105 days) 3129 30\nTotal (new) 4174 2.09\nDifference 2707 1.35\n \nTank heating will be limited to 21 days.  It is assumed that the contents will cool \nto ambient temperature in 14 days.  C onservatively, emissions are assumed to \nbe at the highest rate for the 35 days per event (105 days total for 3 events).  The net increase of annual organi c emissions are estimated to be 2707 pounds (1.35 \ntons).  Based on 0.38% weight of benzene concent ration allowed, the concentration of \nbenzene at 11 psia is about 200 ppm ( 40 mmHg* 0.0038/760 mmHg).  Assuming \nthe molecular weight of benzene and the ot her material is roughly the same, the \nestimated maximum potential benzene emi ssions that will increase from this \nmodification are 1.1 pounds per year (200 * 5543/1E6).  \nChevron Products Company Plant #10 (Site #A0010) \nApplication #14565 Page 2 of 4 \n \n III. PLANT CUMULATIVE INCREASE (since 4/5/91) \nThe cumulative increase from this modi fication is 1.35 tons of POC annually.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-3127": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "IV. TOXIC SCREENING ANALYSIS\nIS \nA toxic risk screen was not required because net benzene emissions are less \nthan 6.7 pounds per year."
+  },
+  "BACT": {
+    "text": "V. BEST AVAILABLE CONTROL TECHNOLOGY\nGY \nThe highest net POC emissions per day  are 26 pounds.  In accordance with \nRegulation 2-2-301, becaus e the organic emissions of these sources are \nestimated to exceed 10 pounds per day, a Best Available Control Technology \n(BACT) review is required.  Accord ing to the EPA’s Con-Co$t (2nd edition) \nspreadsheets for thermal oxidizers, it would cost approximat ely $82,870 per year \nfor a basic system.  A system needed fo r a storage tank would be more \nexpensive.  The cost to dom e the tank to capture the emissions is approximately \n$27,000 per year.  See attachment “Cos t Effectiveness of Covering EFRTs at \nBay Area Refineries with Aluminum Dome  Roofs” using distillate storage with \ndiameter less than 100 feet.  Approximately 2.05 tons ( 98% of 2.09 tons) of POC \nemissions per year would need to be c ontrolled, which equates to $40,500 per \nton of POC reduced for the thermal oxidizer  only.  This is greater than the BACT \ncost-effectiveness level of $17,500 per ton fo r POC.  Hence, BACT1 is not cost-\neffective.  The owner/operat or is expected to meet BAC T 2 by complying with the \nroof, seal and fittings requirements of Regul ation 8, Rule 5, Section 304 (External \nFloating Roofs)."
+  },
+  "offsets": {
+    "narrative": "VI. OFFSETS\nThis application requires offsets since fac ility emissions are gr eater than 35 tons \nper year.  The net annual in crease of POC emissions from this modification is \n1.35 tons.  Using an offset ratio of 1.15, 1.56 tons of POC emissions would need \nto be offset.  Chevron has submitted B anking Certificate #917 for the offsets.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          1.35,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "VII. STATEMENT OF COMPLIANCE\nCE \nThe owner/operator is expect ed to meet the requirements of Regulation 8, Rule \n5.  The owner/operator is expected to comply with Permit Condition #23262 \n(outlined in Section VIII).  The engineering review is consistent wit h similar projects.  Standard permit"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "subject to the public notification requi rements of Regulat ion 2-1-412.  PSD,\nNSPS, and NESHAPS are not triggered. \nChevron Products Company Plant #10 (Site #A0010) \nApplication #14565 Page 3 of 4"
+  },
+  "conditions": {
+    "text": "conditions were applied and standard emissi on factors were used in accordance\nwith Permit Handbook, Chapter 4.   This project is considered to be ministerial \nand therefore is not subject to CEQA review.  This project is over 1,000 feet from the nearest public school and is therefore notVIII. CONDITIONS\nTIONS \nCondition #20361 will be replaced with Condition #23262 below. \n In addition to requirements of Regulation 8, Rule 5, the owner/operator shall \ncomply with the following permit conditions  for Source 3127 (S-3127, Tank 3127, \nExternal Floating Roof Tank).  1. The owner/operator shall not exc eed a throughput of 223,000 barrels of \nrecovered oil in any consecutive 12-m onth period.  [Cumulative Increase] \n 2. Unless this tank is operated under Pa rt 5 below, the owner/operator shall \nonly store materials with a maximum vapor pressure of 2.5 psia.  [Cumulative Increase] \n 3. The owner/operator shall not a llow the total benzene concentration \ncontent of the material stored to ex ceed 0.38% by weight.  [Regulation 2, \nRule 5] \n 4. To demonstrate compliance with Part  2 and 3, the owner/operator shall \nanalyze material stored on a quarterly basis for vapor pressure and benzene content.  [Cumulative Increase] \n 5. The owner/operator is allowed to heat the contents of the tank under the \nfollowing conditions: a. The number of heating events s hall not exceed three (3) is any \nrolling 12-month period, \nb. The maximum temperature of t he contents in the tank shall not \nexceed 150 degrees Fahrenheit, \nc. The temperature of the tank s hall be monitored while the tank is \nheated, and \nd. The time allowed for heating t he contents of the tank shall not \nexceed 21 consecutive days fr om the event start date. \nAn event is counted when heat is app lied to the tank.  [Cumulative \nIncrease] \n \n6. The owner/operator shall ma intain the following records: \na. Monthly throughput of all material,  b. The total throughput of all material for each 12-month period, c. All vapor pressure and benzene analyses results including the date \nthe analyses were made, \nd. The start date and stop date when the tank contents are heated, \nand \ne. The peak temperature when the contents of the tank are heated. \n \nChevron Products Company Plant #10 (Site #A0010) \nApplication #14565 Page 4 of 4 \n \n Records shall be kept on site for at least 5 years from the date of entry \nand made available to District staff upon request.  [Recordkeeping]"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 2,
+        "text": "Unless this tank is operated under Pa rt 5 below, the owner/operator shall \nonly store materials with a maximum vapor pressure of 2.5 psia.  [Cumulative Increase]",
+        "basis": []
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator shall not a llow the total benzene concentration \ncontent of the material stored to ex ceed 0.38% by weight.  [Regulation 2, \nRule 5]",
+        "basis": []
+      },
+      {
+        "num": 4,
+        "text": "To demonstrate compliance with Part  2 and 3, the owner/operator shall \nanalyze material stored on a quarterly basis for vapor pressure and benzene content.  [Cumulative Increase]",
+        "basis": []
+      },
+      {
+        "num": 5,
+        "text": "The owner/operator is allowed to heat the contents of the tank under the \nfollowing conditions: a. The number of heating events s hall not exceed three (3) is any \nrolling 12-month period, \nb. The maximum temperature of t he contents in the tank shall not \nexceed 150 degrees Fahrenheit, \nc. The temperature of the tank s hall be monitored while the tank is \nheated, and \nd. The time allowed for heating t he contents of the tank shall not \nexceed 21 consecutive days fr om the event start date. \nAn event is counted when heat is app lied to the tank.  [Cumulative \nIncrease]",
+        "basis": []
+      },
+      {
+        "num": 6,
+        "text": "The owner/operator shall ma intain the following records: \na. Monthly throughput of all material,  b. The total throughput of all material for each 12-month period, c. All vapor pressure and benzene analyses results including the date \nthe analyses were made, \nd. The start date and stop date when the tank contents are heated, \nand \ne. The peak temperature when the contents of the tank are heated. \n \nChevron Products Company Plant #10 (Site #A0010) \nApplication #14565 Page 4 of 4 \n \n Records shall be kept on site for at least 5 years from the date of entry \nand made available to District staff upon request.  [Recordkeeping]",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nWaive the Authority to Construct and Issue a Permit to Operate to Chevron for the following\nequipment:\nTank D-4940, Chemical Additives Tank, approximately 1450 gallon capacity\n 8-4940\n~~\nBy:\nSupervising Air Quality Engineer\nDate:\n3IX. RECOMMENDATION\nON \nI recommend the Authority to Construc t be waived and a Permit to Operate be \nissued to Chevron Products Company for:  \nS-3127 External Floating Roof Tank \nCondition #20361 will be replaced with Condition #23262. 1.56 tons of POC offsets were  surrendered with Certificate #917. \n   \n_________________________ \nFred Tanaka Air Quality Engineer II Engineering Division  \n Date: _______________"
+  },
+  "raw_sections": {
+    "preamble": "APPLICATION 14096\n ENGINEERING EVALuATION",
+    "blocks": [
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nWaive the Authority to Construct and Issue a Permit to Operate to Chevron for the following\nequipment:\nTank D-4940, Chemical Additives Tank, approximately 1450 gallon capacity\n 8-4940\n~~\nBy:\nSupervising Air Quality Engineer\nDate:\n3"
+      },
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nT \nChevron Products Company \nApplication #14565 - Plant #10 (Site #A0010) \n841 Chevron Way \nRichmond, CA  94802"
+      },
+      {
+        "heading": "I. BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "I. BACKGROUND\nND \nChevron Products Company is applying for an Authority to Construct/Permit to \nOperate for the following:  \nS-3127 External Floating Roof Tank \n  \nThis is an existing tank used to collect waste oil throughout t he refinery.  Based \non experience from other tanks about t wice per year, an emulsion layer is \ncreated separating the t ank’s contents.  This layer makes the tank difficult to use \nand therefore must be broken dow n in order for the tank to be useful.  The facility \nhas proposed to heat the tank to break dow n the emulsion layer up to 3 times per \nyear."
+      },
+      {
+        "heading": "II. EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "II. EMISSION CALCULATIONS\nUsing EPA Tanks 4.0, emissions were com pared from storing jet fuel (2-3 psia \nvapor pressure as a baseli ne) and other material.  See attached program results.  \nThe emissions from the heat ing events were extrapolated to estimate emissions \nat 11 psia.  Based on the tank properti es, the Tanks 4.0 gives the following \nemissions:  \n Lb/yr Lb/day Tons/yr \nBaseline (old) 1467 4 0.73\nNormal (260 days) 1045\nHeating (105 days) 3129 30\nTotal (new) 4174 2.09\nDifference 2707 1.35\n \nTank heating will be limited to 21 days.  It is assumed that the contents will cool \nto ambient temperature in 14 days.  C onservatively, emissions are assumed to \nbe at the highest rate for the 35 days per event (105 days total for 3 events).  The net increase of annual organi c emissions are estimated to be 2707 pounds (1.35 \ntons).  Based on 0.38% weight of benzene concent ration allowed, the concentration of \nbenzene at 11 psia is about 200 ppm ( 40 mmHg* 0.0038/760 mmHg).  Assuming \nthe molecular weight of benzene and the ot her material is roughly the same, the \nestimated maximum potential benzene emi ssions that will increase from this \nmodification are 1.1 pounds per year (200 * 5543/1E6).  \nChevron Products Company Plant #10 (Site #A0010) \nApplication #14565 Page 2 of 4 \n \n III. PLANT CUMULATIVE INCREASE (since 4/5/91) \nThe cumulative increase from this modi fication is 1.35 tons of POC annually."
+      },
+      {
+        "heading": "IV. TOXIC SCREENING ANALYSIS",
+        "alias": "TOXICS",
+        "text": "IV. TOXIC SCREENING ANALYSIS\nIS \nA toxic risk screen was not required because net benzene emissions are less \nthan 6.7 pounds per year."
+      },
+      {
+        "heading": "V. BEST AVAILABLE CONTROL TECHNOLOGY",
+        "alias": "BACT",
+        "text": "V. BEST AVAILABLE CONTROL TECHNOLOGY\nGY \nThe highest net POC emissions per day  are 26 pounds.  In accordance with \nRegulation 2-2-301, becaus e the organic emissions of these sources are \nestimated to exceed 10 pounds per day, a Best Available Control Technology \n(BACT) review is required.  Accord ing to the EPA’s Con-Co$t (2nd edition) \nspreadsheets for thermal oxidizers, it would cost approximat ely $82,870 per year \nfor a basic system.  A system needed fo r a storage tank would be more \nexpensive.  The cost to dom e the tank to capture the emissions is approximately \n$27,000 per year.  See attachment “Cos t Effectiveness of Covering EFRTs at \nBay Area Refineries with Aluminum Dome  Roofs” using distillate storage with \ndiameter less than 100 feet.  Approximately 2.05 tons ( 98% of 2.09 tons) of POC \nemissions per year would need to be c ontrolled, which equates to $40,500 per \nton of POC reduced for the thermal oxidizer  only.  This is greater than the BACT \ncost-effectiveness level of $17,500 per ton fo r POC.  Hence, BACT1 is not cost-\neffective.  The owner/operat or is expected to meet BAC T 2 by complying with the \nroof, seal and fittings requirements of Regul ation 8, Rule 5, Section 304 (External \nFloating Roofs)."
+      },
+      {
+        "heading": "VI. OFFSETS",
+        "alias": "OFFSETS",
+        "text": "VI. OFFSETS\nThis application requires offsets since fac ility emissions are gr eater than 35 tons \nper year.  The net annual in crease of POC emissions from this modification is \n1.35 tons.  Using an offset ratio of 1.15, 1.56 tons of POC emissions would need \nto be offset.  Chevron has submitted B anking Certificate #917 for the offsets."
+      },
+      {
+        "heading": "VII. STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "VII. STATEMENT OF COMPLIANCE\nCE \nThe owner/operator is expect ed to meet the requirements of Regulation 8, Rule \n5.  The owner/operator is expected to comply with Permit Condition #23262 \n(outlined in Section VIII).  The engineering review is consistent wit h similar projects.  Standard permit"
+      },
+      {
+        "heading": "conditions were applied and standard emissi on factors were used in accordance",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "conditions were applied and standard emissi on factors were used in accordance\nwith Permit Handbook, Chapter 4.   This project is considered to be ministerial \nand therefore is not subject to CEQA review.  This project is over 1,000 feet from the nearest public school and is therefore not"
+      },
+      {
+        "heading": "subject to the public notification requi rements of Regulat ion 2-1-412.  PSD,",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "subject to the public notification requi rements of Regulat ion 2-1-412.  PSD,\nNSPS, and NESHAPS are not triggered. \nChevron Products Company Plant #10 (Site #A0010) \nApplication #14565 Page 3 of 4"
+      },
+      {
+        "heading": "VIII. CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "VIII. CONDITIONS\nTIONS \nCondition #20361 will be replaced with Condition #23262 below. \n In addition to requirements of Regulation 8, Rule 5, the owner/operator shall \ncomply with the following permit conditions  for Source 3127 (S-3127, Tank 3127, \nExternal Floating Roof Tank).  1. The owner/operator shall not exc eed a throughput of 223,000 barrels of \nrecovered oil in any consecutive 12-m onth period.  [Cumulative Increase] \n 2. Unless this tank is operated under Pa rt 5 below, the owner/operator shall \nonly store materials with a maximum vapor pressure of 2.5 psia.  [Cumulative Increase] \n 3. The owner/operator shall not a llow the total benzene concentration \ncontent of the material stored to ex ceed 0.38% by weight.  [Regulation 2, \nRule 5] \n 4. To demonstrate compliance with Part  2 and 3, the owner/operator shall \nanalyze material stored on a quarterly basis for vapor pressure and benzene content.  [Cumulative Increase] \n 5. The owner/operator is allowed to heat the contents of the tank under the \nfollowing conditions: a. The number of heating events s hall not exceed three (3) is any \nrolling 12-month period, \nb. The maximum temperature of t he contents in the tank shall not \nexceed 150 degrees Fahrenheit, \nc. The temperature of the tank s hall be monitored while the tank is \nheated, and \nd. The time allowed for heating t he contents of the tank shall not \nexceed 21 consecutive days fr om the event start date. \nAn event is counted when heat is app lied to the tank.  [Cumulative \nIncrease] \n \n6. The owner/operator shall ma intain the following records: \na. Monthly throughput of all material,  b. The total throughput of all material for each 12-month period, c. All vapor pressure and benzene analyses results including the date \nthe analyses were made, \nd. The start date and stop date when the tank contents are heated, \nand \ne. The peak temperature when the contents of the tank are heated. \n \nChevron Products Company Plant #10 (Site #A0010) \nApplication #14565 Page 4 of 4 \n \n Records shall be kept on site for at least 5 years from the date of entry \nand made available to District staff upon request.  [Recordkeeping]"
+      },
+      {
+        "heading": "IX. RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "IX. RECOMMENDATION\nON \nI recommend the Authority to Construc t be waived and a Permit to Operate be \nissued to Chevron Products Company for:  \nS-3127 External Floating Roof Tank \nCondition #20361 will be replaced with Condition #23262. 1.56 tons of POC offsets were  surrendered with Certificate #917. \n   \n_________________________ \nFred Tanaka Air Quality Engineer II Engineering Division  \n Date: _______________"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nT \nChevron Products Company \nApplication #14565 - Plant #10 (Site #A0010) \n841 Chevron Way \nRichmond, CA  94802"
+      }
+    ]
+  }
+}

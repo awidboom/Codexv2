@@ -1,0 +1,369 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 12
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "Naphthalene  5.98E-07 2.09E-06 -- No 1.83E-02 2.40E+00  N\nNickel 2.06E-06 7.21E-06 8.80E-05 No 6.32E-02 3.10E-01 N\nPAH 6.60E-09 2.31E-08 -- No 2.02E-04 3.30E-03 N\nPropylene  7.17E-04 2.51E-03 -- No 2.20E+01  1.20E+05  N\nSelenium  1.18E-08 4.13E-08 -- No 3.62E-04 8.00E+00  N\nToluene 3.59E-05 1.26E-04 2.2E+00 No 1.10E+00  1.60E+04  N"
+      ]
+    },
+    "application_number_detected": "31690",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2025/31690/fid2340_nsr_31690-_eval_092425-pdf.pdf?rev=4997f6e437cb495c9bfe89baf1d78363&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2025/092425-31690/san-leandro-water-pollution-control-plant"
+  },
+  "application_number": "31690",
+  "plant": {
+    "name": "San Leandro Water Pollution Control Plant",
+    "plant_id": 2340,
+    "address": ""
+  },
+  "evaluation_date": "April 11, 2025",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-19",
+      "description": "Dual-Fueled Digester Gas/Natural Gas Boiler"
+    },
+    {
+      "id": "S-20",
+      "description": "Dual-Fueled Digester Gas/Natural Gas Boiler"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nND \nThe San Leandro Water Pollution Control Plant (San Leandro) has applied for a Permit to \nOperate (P/O) for the following existing equipment: \n \nS-19 Dual-Fueled Digester Gas/Natural Gas Boiler \n Make: Burnham, Model 4-4FW, 209A \n Maximum Input Heat Capacity: 1.75 MMBtu/Hr \n \nS-20 Dual-Fueled Digester Gas/Natural Gas Boiler \n Make: Burnham, Model 4-4FW, 209A \n Maximum Input Heat Capacity: 1.75 MMBtu/Hr \n \nThe dual-fired digester gas/natural gas boilers are located at 3000 Davis Street in San Leandro.  \n \nThe criteria pollutants associated with S-19 and S-20 are nitrogen oxides (NO X), precursor \norganic compounds (POC), particulate matter 10 microns in size (PM 10), particulate matter 2.5 \nmicrons in size (PM 2.5), sulfur dioxide (SO 2), and carbon monoxide (CO)."
+  },
+  "emission_calculations": {
+    "text": "EMISSIONS CALCULATIONS\nNS \nBoiler Operation  \nDue to the age of the boilers, the facility had limited supporting documents but were able to \nprovide tune-up reports from the testing conducted on June 2, 2025, firing on natural gas and \ndigester gas. The facility provided these results to show that the boilers can meet the emissions \nlimits as per District Regulation 9-7. All calculations assume 3% excess oxygen (O 2) during \ncombustion. \n \nNatural Gas: \nThe emission factor for SO 2 in pipeline natural gas was calculated using AP-42 Chapter 1.4, \nTable 2 and Pacific Gas and Electric (PG&E) Gas Rule 21, Section C. AP-42 states an SO 2 \nemission factor of 0.6 pound (lb)/million standard cubic feet (MMscf), assuming pipeline sulfur \nconcentration of 2,000 grams (gr)/MMscf, while PG&E states a maximum allowable pipeline \nsulfur concentration of 10,000 gr/MMscf in Gas Rule 21, Section C.  Footnote d of AP-42 Table \n1.4-2 states that the SO 2 emission factor should be multiplied by the ratio of actual pipeline \nsulfur concentration to the assumed concentration in AP-42 Table 1.4-2. Therefore, the SO 2 \nemission factor for pipeline natural gas is assumed to be 2.94E-03 lb/MMBtu. It is assumed that \nthe sulfur will be converted to SO 2 during combustion according to the following equation: \n \nS + O2  SO2  \n \nThe following table provides a summary of the boiler information which was provided by the \napplicant.  \n \nBasis: \nMaximum Fuel Rate: 1.75 MMBtu/hour (hr) \n   1,716 standard cubic feet (scf)/hr (scfh) \nFuel Heat Value: 1,020 British Thermal Unit (Btu)/scf \nFuel Usage:  42 MMBtu/day \nOperating Rate: 8,760 hours/year \nFd Factor:  8,710 dry scf (dscf)/MMBtu \nAP-42 Factors: \n PM:  7.6 lb/106 scf \n POC:  5.5 lb/106 scf \n  \n \n \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 3 \n Table 1. Daily and Annual Emissions from S-19 and S-20 (Natural Gas Combustion, Each) \nPollutant  Emission \nFactor \n(lb/MMBtu) Source Volumetric \nEmission \n(ppm) Max DailyEmissions\n(lb/day) Annual \nEmissions \n(lb/yr) Annual \nEmissions \n(tons/yr) \nNOx -- B 30 @3% O 2 1.53 558 0.279 \nPOC 5.39E-03 A  0.23 83 0.041 \nCO -- B 275 @3% O 2 8.53 3,113 1.557 \nPM2.5 7.45E-03 A  0.31 114 0.057 \nPM10 7.45E-03 A  0.31 114 0.057 \nSO2 2.94E-03 C  0.12 45 0.023 \n A: AP-42, 5th edition, Table 1.4-2  \n B: NOX - Regulation 9-7-307.7, CO – 85% of BACT trigger \n C: AP-42, 5th edition, Table 1.4-2 and PG&E Gas Rule 21, Section C \n \nNOx: (21-0/21-3)*30  \n= 35 parts per million volume (ppmv), dry at 0% oxygen \n(35 scf NO x/10E6 scf flue gas)*(46 lb NO x/pound mole [lb-mol] NO x)*(8,710 dscf flue gas/MMBtu)*(lb-mol NO x/385.3 \nscf NO x) \n= 3.64E-02 lb/MMBtu \nPOC: (5.5 lb/MMscf)*(MMscf/10E6 scf)/ (scf/1,020 Btu)*(10E6 Btu/MMBtu) \n= 5.39E-03 lb/MMBtu \nCO: (21-0)/(21-3)*275  \n= 320.8 ppmv, dry at 0% oxygen  \n(320.8 scf CO/10E6 scf flue gas)*(28 lb CO/lb-mol CO)*(8,710 dscf flue gas/MMBtu)*(lb-mol CO/385.3 scf CO) \n= 2.03E-01 lb/MMBtu \nPM: (7.6 lb/MMscf)*(MMscf/10E6 scf)/(scf/1,020 Btu)*(10E6 Btu/MMBtu) \n= 7.45E-03 lb/MMBtu \nSO2: (0.6 lb SO 2/MMscf)*(10,000 gr SO 2 PG&E/106 scf / 2,000 gr SO 2 AP-42/106 scf)*(scf/1020 Btu) \n= 2.94E-03 lb/MMBtu \n \nDigester Gas: \nPermit Condition #24508 Part 3 states that “The owner/operator shall treat the digester gas with \nand A-4 (digester gas iron sponge scrubber) to ensure that the digester gas total sulfur content \nshall not exceed 300 ppm (dry).”.  \n \nIt is assumed that all H 2S will be converted to SO 2 during combustion for Best Available Control \nTechnology (BACT) pollutant emissions review, as discussed above. The following table \nprovides a summary of the boiler information which was provided by the applicant. \n \n \n \n \n \n \n \n \n \n \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 4 \n Basis: \nMaximum Fuel Rate: 1.75 MMBtu/hr \n   2,734 scfh \nFuel Heat Value: 640 Btu/scf \nFuel Usage:  42 MMBtu/day \nOperating Rate: 8,760 hours/yr \nFd Factor:  9,273 dscf/MMBtu (Assumed Value) \nDigester Gas Total S: 300 ppm \nAP-42 Factors: \n PM:  7.6 lb/106 scf \n POC:  5.5 lb/106 scf \n \nTable 2. Daily and Annual Emissions from S-19 and S-20 (Digester Gas Combustion, Each)  \nPollutant  Emission \nFactor \n(lb/MMBtu)  Source Volumetric \nEmission \n(ppm) Max Daily \nEmissions \n(lb/day) Annual \nEmissions \n(lb/yr) Annual \nEmissions \n(tons/yr) \nNOx -- B 30 @3% O 2 1.63 594 0.297 \nPOC 8.59E-03 A  0.36 132 0.066 \nCO -- B 275 @3% O 2 9.08 3,314 1.657 \nPM2.5 1.19E-02 A  0.50 182 0.091 \nPM10 1.19E-02 A  0.50 182 0.091 \nSO2 -- C 300 3.27 1,194 0.597 \n A: AP-42, 5th edition, Table 1.4-2  \n B: NOX - Regulation 9-7-307.7, CO – 90% of BACT trigger \n C: Permit Condition #24508.3. \n \nNOx: (21-0/21-3)*30  \n= 35 ppmv, dry at 0% oxygen \n(35 scf NO x/10E6 scf flue gas)*(46 lb NO x/lb-mol NO x)*(9,593 dscf flue gas/MMBtu)*(lb-mol NO x/385.3 scf NO x) \n= 3.87E-02 lb/MMBtu \nPOC: (5.5 lb/MMscf)*(MMscf/10E6 scf)/ (scf/640 Btu)*(10E6 Btu/MMBtu) \n= 8.59E-03 lb/MMBtu \nCO: (21-0)/(21-3)*275  \n= 320.8 ppmv, dry at 0% oxygen  \n(320.8 scf CO/10E6 scf flue gas)*(28 lb CO/lb-mol CO)*(9,593 dscf flue gas/MMBtu)*(lb-mol CO/385.3 scf CO) \n= 2.16E-01 lb/MMBtu \nPM: (7.6 lb/MMscf)*(MMscf/10E6 scf)/(scf/640 Btu)*(10E6 Btu/MMBtu) \n= 1.19E-02 lb/MMBtu \nSO2: (300 scf SO 2/10E6 scf DG)*(64 lb SO 2/lb-mol SO 2)*(scf/640 Btu)*(lb-mol SO 2/385.3 scf SO 2)*(10E6 Btu/MMBtu) \n= 7.79E-02 lb/MMBtu"
+  },
+  "cumulative_increase": {
+    "text": "PLANT CUMULATIVE EMISSION\nON  \nThe following table summarizes the cumulative increase in BACT pollutant emissions that will \nresult from this application. \n \nTable 5. Cumulative Increase \nPollutant Existing, tpy  S-19, tpy S-20, tpy Total, tpy  \nNOx 4.885 0.297 0.297 5.479 \nCO 6.972 1.657 1.657 10.286 \nPM10  0.108 0.091 0.091 0.290 \nPM2.5 0.000 0.091 0.091 0.182 \nSO2 0.000 0.597 0.597 1.194 \nPOC 2.566 0.066 0.066 2.698 \nNote:  \n1. Existing Cumulative Increase taken from AN 26019."
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSIONS CALCULATIONS\nNS \nBoiler Operation  \nDue to the age of the boilers, the facility had limited supporting documents but were able to \nprovide tune-up reports from the testing conducted on June 2, 2025, firing on natural gas and \ndigester gas. The facility provided these results to show that the boilers can meet the emissions \nlimits as per District Regulation 9-7. All calculations assume 3% excess oxygen (O 2) during \ncombustion. \n \nNatural Gas: \nThe emission factor for SO 2 in pipeline natural gas was calculated using AP-42 Chapter 1.4, \nTable 2 and Pacific Gas and Electric (PG&E) Gas Rule 21, Section C. AP-42 states an SO 2 \nemission factor of 0.6 pound (lb)/million standard cubic feet (MMscf), assuming pipeline sulfur \nconcentration of 2,000 grams (gr)/MMscf, while PG&E states a maximum allowable pipeline \nsulfur concentration of 10,000 gr/MMscf in Gas Rule 21, Section C.  Footnote d of AP-42 Table \n1.4-2 states that the SO 2 emission factor should be multiplied by the ratio of actual pipeline \nsulfur concentration to the assumed concentration in AP-42 Table 1.4-2. Therefore, the SO 2 \nemission factor for pipeline natural gas is assumed to be 2.94E-03 lb/MMBtu. It is assumed that \nthe sulfur will be converted to SO 2 during combustion according to the following equation: \n \nS + O2  SO2  \n \nThe following table provides a summary of the boiler information which was provided by the \napplicant.  \n \nBasis: \nMaximum Fuel Rate: 1.75 MMBtu/hour (hr) \n   1,716 standard cubic feet (scf)/hr (scfh) \nFuel Heat Value: 1,020 British Thermal Unit (Btu)/scf \nFuel Usage:  42 MMBtu/day \nOperating Rate: 8,760 hours/year \nFd Factor:  8,710 dry scf (dscf)/MMBtu \nAP-42 Factors: \n PM:  7.6 lb/106 scf \n POC:  5.5 lb/106 scf \n  \n \n \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 3 \n Table 1. Daily and Annual Emissions from S-19 and S-20 (Natural Gas Combustion, Each) \nPollutant  Emission \nFactor \n(lb/MMBtu) Source Volumetric \nEmission \n(ppm) Max DailyEmissions\n(lb/day) Annual \nEmissions \n(lb/yr) Annual \nEmissions \n(tons/yr) \nNOx -- B 30 @3% O 2 1.53 558 0.279 \nPOC 5.39E-03 A  0.23 83 0.041 \nCO -- B 275 @3% O 2 8.53 3,113 1.557 \nPM2.5 7.45E-03 A  0.31 114 0.057 \nPM10 7.45E-03 A  0.31 114 0.057 \nSO2 2.94E-03 C  0.12 45 0.023 \n A: AP-42, 5th edition, Table 1.4-2  \n B: NOX - Regulation 9-7-307.7, CO – 85% of BACT trigger \n C: AP-42, 5th edition, Table 1.4-2 and PG&E Gas Rule 21, Section C \n \nNOx: (21-0/21-3)*30  \n= 35 parts per million volume (ppmv), dry at 0% oxygen \n(35 scf NO x/10E6 scf flue gas)*(46 lb NO x/pound mole [lb-mol] NO x)*(8,710 dscf flue gas/MMBtu)*(lb-mol NO x/385.3 \nscf NO x) \n= 3.64E-02 lb/MMBtu \nPOC: (5.5 lb/MMscf)*(MMscf/10E6 scf)/ (scf/1,020 Btu)*(10E6 Btu/MMBtu) \n= 5.39E-03 lb/MMBtu \nCO: (21-0)/(21-3)*275  \n= 320.8 ppmv, dry at 0% oxygen  \n(320.8 scf CO/10E6 scf flue gas)*(28 lb CO/lb-mol CO)*(8,710 dscf flue gas/MMBtu)*(lb-mol CO/385.3 scf CO) \n= 2.03E-01 lb/MMBtu \nPM: (7.6 lb/MMscf)*(MMscf/10E6 scf)/(scf/1,020 Btu)*(10E6 Btu/MMBtu) \n= 7.45E-03 lb/MMBtu \nSO2: (0.6 lb SO 2/MMscf)*(10,000 gr SO 2 PG&E/106 scf / 2,000 gr SO 2 AP-42/106 scf)*(scf/1020 Btu) \n= 2.94E-03 lb/MMBtu \n \nDigester Gas: \nPermit Condition #24508 Part 3 states that “The owner/operator shall treat the digester gas with \nand A-4 (digester gas iron sponge scrubber) to ensure that the digester gas total sulfur content \nshall not exceed 300 ppm (dry).”.  \n \nIt is assumed that all H 2S will be converted to SO 2 during combustion for Best Available Control \nTechnology (BACT) pollutant emissions review, as discussed above. The following table \nprovides a summary of the boiler information which was provided by the applicant. \n \n \n \n \n \n \n \n \n \n \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 4 \n Basis: \nMaximum Fuel Rate: 1.75 MMBtu/hr \n   2,734 scfh \nFuel Heat Value: 640 Btu/scf \nFuel Usage:  42 MMBtu/day \nOperating Rate: 8,760 hours/yr \nFd Factor:  9,273 dscf/MMBtu (Assumed Value) \nDigester Gas Total S: 300 ppm \nAP-42 Factors: \n PM:  7.6 lb/106 scf \n POC:  5.5 lb/106 scf \n \nTable 2. Daily and Annual Emissions from S-19 and S-20 (Digester Gas Combustion, Each)  \nPollutant  Emission \nFactor \n(lb/MMBtu)  Source Volumetric \nEmission \n(ppm) Max Daily \nEmissions \n(lb/day) Annual \nEmissions \n(lb/yr) Annual \nEmissions \n(tons/yr) \nNOx -- B 30 @3% O 2 1.63 594 0.297 \nPOC 8.59E-03 A  0.36 132 0.066 \nCO -- B 275 @3% O 2 9.08 3,314 1.657 \nPM2.5 1.19E-02 A  0.50 182 0.091 \nPM10 1.19E-02 A  0.50 182 0.091 \nSO2 -- C 300 3.27 1,194 0.597 \n A: AP-42, 5th edition, Table 1.4-2  \n B: NOX - Regulation 9-7-307.7, CO – 90% of BACT trigger \n C: Permit Condition #24508.3. \n \nNOx: (21-0/21-3)*30  \n= 35 ppmv, dry at 0% oxygen \n(35 scf NO x/10E6 scf flue gas)*(46 lb NO x/lb-mol NO x)*(9,593 dscf flue gas/MMBtu)*(lb-mol NO x/385.3 scf NO x) \n= 3.87E-02 lb/MMBtu \nPOC: (5.5 lb/MMscf)*(MMscf/10E6 scf)/ (scf/640 Btu)*(10E6 Btu/MMBtu) \n= 8.59E-03 lb/MMBtu \nCO: (21-0)/(21-3)*275  \n= 320.8 ppmv, dry at 0% oxygen  \n(320.8 scf CO/10E6 scf flue gas)*(28 lb CO/lb-mol CO)*(9,593 dscf flue gas/MMBtu)*(lb-mol CO/385.3 scf CO) \n= 2.16E-01 lb/MMBtu \nPM: (7.6 lb/MMscf)*(MMscf/10E6 scf)/(scf/640 Btu)*(10E6 Btu/MMBtu) \n= 1.19E-02 lb/MMBtu \nSO2: (300 scf SO 2/10E6 scf DG)*(64 lb SO 2/lb-mol SO 2)*(scf/640 Btu)*(lb-mol SO 2/385.3 scf SO 2)*(10E6 Btu/MMBtu) \n= 7.79E-02 lb/MMBtu",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-19": {
+        "narrative": "Table 1. Daily and Annual Emissions from S-19 and S-20 (Natural Gas Combustion, Each)\nTable 2. Daily and Annual Emissions from S-19 and S-20 (Digester Gas Combustion, Each)",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-20": {
+        "narrative": "Table 1. Daily and Annual Emissions from S-19 and S-20 (Natural Gas Combustion, Each)\nTable 2. Daily and Annual Emissions from S-19 and S-20 (Digester Gas Combustion, Each)",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "TOXIC RISK SCREENING\nNG \nThe combustion of natural gas and digester gas from S-19 and S-20 will result in the emissions of \ntoxic air contaminants (TACs). Emission factors from BAAQMD TAC Emission Factor \nGuidelines, Appendix A, Default TAC Emission Factors for Specific Source Categories, dated \nAugust 2020, were used to calculate TAC emissions from S-19 and S-20. \n \nThe emission factor for hydrogen sulfide was calculated assuming a total sulfur destruction \nefficiency of 98%. \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 5 \n H2S Emission Factor, Digester Gas Combustion: \n \nlb/MMBtu = (1- destruction eff)*[concentration sulfur]*MW*/(digester gas heat content*V M), \nlb/MMBtu = (1-0.98)*[200 ppm sulfur*(1 /106 ppm)]* 34 lb/lb-mole/(530 Btu/scf *1 MMBtu/106 \nBtu*385.3 scf/lb-mole), \nlb/MMBtu  = 8.27E-04 ; \n \nWhere: destruction efficiency = 98%, MW = molecular weight of H 2S = 34 lb/lb-mole,  \nVM = molar volume = 385.3 scf/mole (corrected to 68 °F), Digester gas heat content =  \n640 Btu/scf  \n \nThe TAC emission factors along with their trigger levels and emissions from the operation of the \nboilers are summarized below.Table 4. Toxic Air Contaminant Emissions for S-19 and S-20\nTAC E.F. \n(lb/MMBtu) Project \nEmissions \n(lb/hr) Acute \nTrigger \nLevel \n(lb/hr) TAC \nTrigger \n(Y/N) Project \nEmissions \n(lb/yr) Chronic \nTrigger \nLevel \n(lb/yr) TAC \nTrigger \n(Y/N) \nAcetaldehyde 4.22E-06 1.48E-05 2.10E-01 No  1.29E-01 2.90E+01 N \nAcrolein 2.65E-06 9.28E-06 1.10E-03 No  8.12E-02 1.40E+01 N \nArsenic 1.96E-07 6.86E-07 8.80E-05 No 6.01E-03 1.60E-03 Y \nBenzene 7.84E-06 2.74E-05 1.20E-02 No 2.40E-01 2.90E+00  N \nBeryllium  5.88E-09 2.06E-08 -- No 1.80E-04 3.40E-02 N \nCadmium  1.08E-06 3.78E-06 -- No 3.31E-02 1.90E-02 Y \nCopper 8.33E-07 2.92E-06 4.40E-02 No 2.55E-02 -- -- \nEthylbenzene  9.31E-06 3.26E-05 -- No 2.85E-01 3.30E+01  N \nFormaldehyde  2.17E-04 7.60E-04 2.40E-02 No 6.65E+00  1.40E+01  N \nn-Hexane 6.18E.06 2.16E-05 -- No 1.89E-01 2.70E+05  N \nLead 4.90E-07 1.72E-06 -- No 1.50E-02 2.90E-01 N \nManganese  3.73E-07 1.31E-06 -- No 1.14E-02 3.50E+00  N \nMercury 2.55E-07 8.93E-07 2.70E-04 No 7.82E-03 2.10E-01 N \nNaphthalene  5.98E-07 2.09E-06 -- No 1.83E-02 2.40E+00  N \nNickel 2.06E-06 7.21E-06 8.80E-05 No 6.32E-02 3.10E-01 N \nPAH 6.60E-09 2.31E-08 -- No 2.02E-04 3.30E-03 N \nPropylene  7.17E-04 2.51E-03 -- No 2.20E+01  1.20E+05  N \nSelenium  1.18E-08 4.13E-08 -- No 3.62E-04 8.00E+00  N \nToluene 3.59E-05 1.26E-04 2.2E+00 No 1.10E+00  1.60E+04  N \nVanadium 2.25E-06 7.88E-06 1.30E-02 No 6.90E-02 -- -- \nXylenes 2.67E-05 9.35E-05 9.7E+00 No 8.19E-01 2.70E+04  N \nHydrogen Sulfide 1.66E-05 2.89E-03 1.90E-02 No 2.54E+01 3.90E+02 N \n \nThe TAC emission factors are on a MMBtu basis because the same factors have been used for \nboth digester gas and natural gas. \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 6 \n As shown in Table 4, arsenic and cadmium emissions from the project exceed the regulatory \nhealth thresholds of Regulation 2, Rule 5. A health screen risk analysis was therefore performed. \nThere were no related projects within the last five years. \n \nThe results of the HRA were: a Cancer Risk of  0.046 in a million, a Chronic Hazard Index (HI) \nof 0.020, and an Acute HI of  0.0077. In accordance with the District’s Regulation 2-5-301, S-19 \nand S-20 are not required to meet TBACT because the cancer risk does not exceed 1.0 in a \nmillion and the chronic HI does not exceed 0.20.   \n \nThe estimated project cancer risk does not exceed 6.0 in a million, the chronic HI does not \nexceed 1.0, and the project’s acute HI does not exceed 1.0. Therefore, S-19 and S-20 are in \ncompliance with the District’s Regulation 2-5-302 project risk requirements for an over-\nburdened community. \n \nIt is noted that a H2S concentration of 200 ppm was used to calculate project emissions for the \nHRA as the initial application had included a gas conditioning system that would reduce the H2S \nconcentration to 200 ppm. As the facility had withdrawn the application for the gas conditioning \nsystem, the H2S concentration reverted to 300 ppm as per existing Permit Condition #24508.3. \nThe change from 200 ppm H2S to 300 ppm H2S results in a 33.3% increase in project emissions. \nTo be conservative, a 50% increase was assumed which resulted in an estimated modeled H2S \nconcentration of 0.00032 ppm, which is below the Reg 9-2 limit of 0.03 ppm. It is therefore \nassumed that S-19 and S-20 will comply with Regulation 9-2.Permit Handbook and Best Available Control Technologies (BACT)/BACT for Toxics (TBACT)\nWorkbook. This project does not trigger BACT or TBACT, therefore the permit approval is a \nministerial action, which is a statutory exemption from CEQA review.APCO as a toxic air contaminant or a hazardous air contaminant or which is on the list required\nto be prepared pursuant to subdivision (a) of Section 25532 or Section 44321 subsections (a) \nthrough (f) inclusive to the Health and Safety Code, or is located within an Overburdened \nCommunity (OBC) as defined in Regulation 2-1-243 and for which a Health Risk Assessment \n(HRA) is required pursuant to Regulation 2-5-401, the District shall prepare a public notice as \ndetailed in §42301.6.   \n \n§42301.9(a) defines a “school” as any public or private school used for the purposes of the \neducation of more than 12 children in kindergarten or any grades 1 to 12, inclusive, but does not \ninclude any private school in which education is primarily conducted in private homes. \nUsing the GreatSchools.org website and searching with Google Maps, it has been determined \nthat the source will not be located within 1,000 feet of the outer boundary of any K-12 school \nsite.   \n \nHowever, the facility is located within an OBC as defined in Regulation 2-1-243 and an HRA \nwas required as per District Regulation 2-5-401. Therefore, a public notice is required as per"
+  },
+  "BACT": {
+    "text": "BEST AVAILABLE CONTROL TECHNOLOGY\nGY \nIn accordance with Regulation 2-2-301, BACT is triggered for any new or modified source with \nthe potential to emit 10 pounds or more per highest day of POC, NPOC, NO X, CO, SO 2, or PM 10, \nPM2.5. Based on the emissions displayed above, BACT is not triggered for any pollutant. \n \n \n \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 7"
+  },
+  "offsets": {
+    "narrative": "OFFSETS\nS \nThe following table provides a summary of the facility’s potential to emit (PTE). \n \nTable 6. Potential to Emit \nPollutant Existing \nPTE1,  \ntpy S-19 PTE, \ntpy S-20 PTE, \ntpy New PTE, \ntpy \nPOC 2.564 0.297 0.297 3.158 \nNOx 0.084 0.066 0.066 0.216 \nSO2 0.707 1.657 1.657 4.022 \nPM10 0.046 0.091 0.091 0.228 \nPM2.5 0.046 0.091 0.091 0.228 \nCO 0.002 0.597 0.597 1.195 \n \nNote:  \n1. Existing PTE calculation is provided in Attachment #1. \n \nEmission offset requirements for POC and NO x are set out in Regulation 2, Rule 2, Section 302.  \nPOC and NO x offsets are required for new or modified sources at a facility that emits or will be \npermitted to emit 10 tons per year or more of that pollutant. The facility has a PTE greater than \n10 ton/yr of POC, but no more than 35 tons/yr. Pursuant to Regulation 2, Rule 2, Section 302.1, \nthe facility is required to provide offsets at a 1:1 ratio. However, Regulation 2, Rule 2, Section \n302.1 also allows the facility to obtain offsets from the District’s Small Facilities Bank (SFB), as \nlong as the account is not exhausted. Offsets for POC and NO x are not required for this \napplication as the PTE for NOx is less than 10 tpy.  \n \nThe offsets requirements for PM 10, PM2.5, and SO x are specified in Regulation 2, Rule 2, Section \n303. Per Section 303, PM 10, PM2.5, and SO x emission offsets are required for any new or \nmodified source that is a major facility for PM 10, PM2.5, or SO x emissions. The facility is not a \nmajor facility for PM 10, PM2.5, and SO x emissions. Therefore, offsets for PM 10, PM2.5, and SO x \nare not required for this application.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          2.564,
+          "1 : 1",
+          null
+        ],
+        [
+          "NOx",
+          0.084,
+          "1 : 1",
+          null
+        ],
+        [
+          "SO2",
+          0.707,
+          "1 : 1",
+          null
+        ],
+        [
+          "PM10",
+          0.046,
+          "1 : 1",
+          null
+        ],
+        [
+          "PM2.5",
+          0.046,
+          "1 : 1",
+          null
+        ],
+        [
+          "CO",
+          0.002,
+          "1 : 1",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD)\nD)  \nThe PSD requirements in District Regulation 2, Rule 2, Section 304 and 305 apply to major \nmodifications at a major facility. This site is not a major facility. Therefore, Regulation 2-2-304 \nand 2-2-305 do not apply. \n \nNew Source Performance Standards (NSPS) \nNSPS for boilers is covered in 40 Code of Federal Regulations (CFR) Part 60, Subparts Db and \nDc. As S-19 and S-20 have a maximum heat input less than 10 MMBtu/hr, neither 40 CFR 60, \nSubpart Db or Dc apply.  \n \nNational Emission Standards for Hazardous Air Pollutants (NESHAP)  \nThe following NESHAPs may apply to the facility. \n \n40 CFR Part 63, Subpart DDDDD \nPursuant to §63.7485, industrial, commercial, and institutional boilers or process heaters, which \nare located at a major source of hazardous air pollutants (HAP)s, are subject to the requirements \nof this regulation. The facility is not major for HAPs, and therefore S-19 and S-20 are not subject \nto this subpart. \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 10 \n 40 CFR Part 63 Subpart JJJJJJ \nPursuant to §63.11193, industrial, commercial, and institutional boilers, which are located at an \narea source of HAPs, are subject to the requirements of this regulation. The facility is an area \nsource of HAPs. \n \nS-19 and S-20 are gas-fired boilers. Pursuant to §63.11195, gas-fired boilers are exempt from the \nstandard."
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA) Requirements\nPursuant to Regulation 2-1-311, an application for a proposed new or modified source will be \nclassified as ministerial and will accordingly be exempt from the CEQA requirement of \nRegulation 2-1-310 if the District’s engineering evaluation and basis for approval or denial of the \npermit application for the project is limited to the criteria set forth in Regulation 2-1-428 and to \nthe specific procedures, fixed standards, and objective measurements set forth in the District's"
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nCE \n \nRegulation 6, Rule 1: Particulate Matter: General Requirements \nPursuant to Regulations 6-1-301, a person shall not emit from any source for a period or periods \naggregating more than three minutes in any hour, a visible emission which is as dark or darker \nthan No. 1 on the Ringelmann Chart,. S-19 and S-20 are expected to meet the requirements of \nRegulations 6-1-301. \n \nSection 6-1-302 is not invoked if an opacity monitor has not been required. \n \nS-19 and S-20 are expected to comply with the 0.15 grain PM/dscf standard in Section 6-1-310.1 \nbecause they use gaseous fuels. \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 8 \n Boilers are exempt from Sections 6-1-310.2 and 6-1-311.2 per the exemption in Section  \n6-1-114.1. \n \nS-19 and S-20 are exempt from the testing requirement in Section 6-1-504 per the exemption in \nSection 6-1-114.3 because it is a gas-fuel fired indirect heat exchanger.  It is also exempt from \nthe testing because it emits less than 2,000 kg of TSP/yr. \n \nRegulation 9, Rule 1: Inorganic Gaseous Pollutants: Sulfur Dioxide \nPursuant to Regulation 9-1-301, the ground level concentrations of SO 2 shall not exceed 0.5 ppm \ncontinuously for 3 consecutive minutes or 0.25 ppm averaged over 60 consecutive minutes, or \n0.05 ppm averaged over 24 hours. Pursuant to Regulation 9-1-302, a person shall not emit from \nany source, a gas stream containing SO 2 in excess of 300 ppm (dry).  Lastly, pursuant to \nRegulation 9-1-304, a person shall not burn any liquid fuel having a sulfur content in excess of \n0.5% by weight. Compliance with Regulation 9-1 is expected due to a fuel total sulfur limit of \n300 ppm for the digester gas for S-19 and S-20. The sulfur limit is imposed under Permit \nCondition #24508.3 for S-190. Subsequent monitoring requirements for the sulfur limit is \nimposed under Permit Condition #24508.4 for S-190 and therefore no additional monitoring \nrequirements will be imposed under this permit application. \n \nRegulation 9 Rule 2: Inorganic Gaseous Pollutants: Hydrogen Sulfide \nPursuant to Regulation 9-2-301, a person shall not emit during any 24-hour period, H 2S in such \nquantities as to result in ground level concentration in excess of 0.06 ppm average over three \nconsecutive minutes or 0.03 ppm averaged over any 60 consecutive minutes. On April 11, 2025, \nthe Air District modeled H 2S emissions to determine whether S-19 and S-20 will comply with \nthe Rule. The results of the dispersion modeling showed a maximum 1-hour average H 2S \nconcentration of 0.00032 ppm. Therefore, S-19 and S-20 are in compliance with Regulation 9-2-\n301. \n \nRegulation 9, Rule 7: Inorganic Gaseous Pollutants: Nitrogen Oxides and Carbon Monoxide \nfrom Industrial, Institutional, and Commercial Boilers, Steam Generators, and Process Heaters  \nThis rule limits the emissions of NO x and CO from boilers.  \n \nS-19 and S-20 are subject to the final emissions limits of Regulation 9-7-307.7 for NO x (30 \nppmv, dry at 3% O 2) and CO (400 ppmv, dry at 3% O 2) when firing with digester gas. However, \nin order to stay under BACT, the facility has agreed to a 275 ppmv, dry at 3% O 2 limit for CO. \nThis limit will be incorporated into the permit condition for S-19 and S-20. S-19 and S-20 will \ncomply with Regulation 9-7-307.7 when firing digester gas.  \n \nThe boilers are subject to Regulation 9-7-311, which states that no person shall operate a boiler \nor steam generator unless the exposed, external surface of the device, including all pipes and \nducts heated by the device, does not exceed a temperature of 120 °F. S-19 and S-20 are expected \nto comply with Regulation 9-7-311. \n \nThe stack gas temperature limit for boilers or steam generators of a fire tube design, burning \ngaseous fuel, is presented in Regulation 9-7-312 and states that such boilers shall not be operated \nwith a stack gas temperature (downstream of any economizer) that exceeds 100 °F over saturated \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 9 \n steam temperature for steam boilers, 100 °F over hot water temperature for hot water boilers, or \n250 °F greater than combustion temperature, whichever is higher. S-19 and S-20 are expected to \ncomply with Regulation 9-7-312. \n \nPursuant to Regulation 9-7-403, an initial demonstration of compliance is required.  The initial \ndemonstration specifies that source tests be performed to determine compliance with the \nlimitations of Regulation 9-7-307, unless the device has an input heat rating less than 10 \nMMBtu/hr; at which point a portable analyzer may be used.  S-19 and S-20 have an input heat \nrating less than 10 MMBtu/hr.  Therefore, a portable analyzer may be used. \n \nLastly, Regulation 9-7-503 requires the following records to be kept for at least 24 months from \nthe date of entry, which are to be made available to District staff upon request. \n Documentation verifying the hours of equipment testing using non-gaseous fuel, and of total \noperating hours using non-gaseous fuel during each calendar month; \n Results of any testing required by Regulation 9-7-506; and, \n Total operating hours and operating hours firing or co-firing digester gas."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "California Health & Safety Code §42301.6 and Regulation 2-1-412\nPursuant to California Health & Safety Code §42301.6(a), prior to approving an application for a \npermit to construct or modify a source, which is located within 1,000 feet from the outer \nboundary of a school site and which results in the increase in emissions of any substance into the \nambient air which has been identified by the California Air Resources Board (CARB) or theRegulation 2-1-412.\nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 11notification requirements of District Regulation 2-1-412. After the comments are received and\nreviewed, the District will make a final determination on the permit. \n \nS-19 Dual-Fueled Digester Gas/Natural Gas Boiler \n Make: Burnham, Model 4-4FW, 209A \n Maximum Input Heat Capacity: 1.75 MMBtu/Hr \n \nS-20 Dual-Fueled Digester Gas/Natural Gas Boiler \n Make: Burnham, Model 4-4FW, 209A \n Maximum Input Heat Capacity: 1.75 MMBtu/Hr \n \n \n \n \n \n \nBy:        Date:   8/6/2025    Perry Ng \n Senior Air Quality Engineer \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 13 \n Attachment #1 – PTE Calculation"
+  },
+  "conditions": {
+    "text": "CONDITIONS\nS \n \nI recommend the following permit condition for S-19 and S-20. \n \nCOND #100741   --------------------------------------"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": null,
+        "text": "CONDITIONS\nS \n \nI recommend the following permit condition for S-19 and S-20. \n \nCOND #100741   --------------------------------------",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nON  \n \nThe District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of District, state, and federal air quality-related regulations. The \npreliminary recommendation is to issue a Permit to Operate for the equipment listed below. \nHowever, the proposed source will be located within an OBC, which triggers the public"
+  },
+  "raw_sections": {
+    "preamble": "Page 1 \n Draft Engineering Evaluation \nSan Leandro Water Pollution Control Plant \nApplication No. 31690 \nPlant No. 2340",
+    "blocks": [
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND \nThe San Leandro Water Pollution Control Plant (San Leandro) has applied for a Permit to \nOperate (P/O) for the following existing equipment: \n \nS-19 Dual-Fueled Digester Gas/Natural Gas Boiler \n Make: Burnham, Model 4-4FW, 209A \n Maximum Input Heat Capacity: 1.75 MMBtu/Hr \n \nS-20 Dual-Fueled Digester Gas/Natural Gas Boiler \n Make: Burnham, Model 4-4FW, 209A \n Maximum Input Heat Capacity: 1.75 MMBtu/Hr \n \nThe dual-fired digester gas/natural gas boilers are located at 3000 Davis Street in San Leandro.  \n \nThe criteria pollutants associated with S-19 and S-20 are nitrogen oxides (NO X), precursor \norganic compounds (POC), particulate matter 10 microns in size (PM 10), particulate matter 2.5 \nmicrons in size (PM 2.5), sulfur dioxide (SO 2), and carbon monoxide (CO)."
+      },
+      {
+        "heading": "CANCELED SOURCES",
+        "alias": null,
+        "text": "CANCELED SOURCES\nES  \nUnder this Permit Application #31690, the facility had initially proposed to install the following \nsources: \n \n Biogas Upgrading System, Unison, abated by Flare \n S-190 – Anaerobic Digesters (3), average daily digester gas production: 216,000 scf/day; \nmaximum 288,000 scf/day (modification) \n High Strength Waste Receiving (2), 9,050 gal and 13,000 gal, abated by Odor Control \n Flare, 2.32 MMBtu/hr when abating Biogas Upgrading System, or 7.68 MMBtu/hr when \nabating S-190, Digesters; Digester Gas \n Odor Control, 150 cfm, 150-gal volume \n \nThe District had evaluated these sources, however on March 6, 2025, the facility informed the \nDistrict that they would be withdrawing the application for the above sources as they were \nunable to identify a user for the produced biogas.  \n \n \n \n \n \n \n \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 2"
+      },
+      {
+        "heading": "DUAL FIRED DIGESTER GAS-NATURAL GAS BOILERS",
+        "alias": null,
+        "text": "DUAL FIRED DIGESTER GAS-NATURAL GAS BOILERS\nS  \nThe boilers were installed without an Authority to Construct (A/C) in 2008. The boilers burn \ndigester gas and the capacity of each one is over 1 million British Thermal Unit (MMBtu)/hour \n(hr). Therefore, they require permits to operate per District Regulation 2, Rule 1. It appears that \nthe capacities of the boilers were not submitted when the boilers were initially evaluated in \nPermit Application #20584 (April 2009) and the Permit Engineer had assumed the capacity was \nunder 1 MMBTU/hr. Therefore, back fees have been charged for the boilers but not late fees due \nto the Permit Engineer’s assumption at the time."
+      },
+      {
+        "heading": "EMISSIONS CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSIONS CALCULATIONS\nNS \nBoiler Operation  \nDue to the age of the boilers, the facility had limited supporting documents but were able to \nprovide tune-up reports from the testing conducted on June 2, 2025, firing on natural gas and \ndigester gas. The facility provided these results to show that the boilers can meet the emissions \nlimits as per District Regulation 9-7. All calculations assume 3% excess oxygen (O 2) during \ncombustion. \n \nNatural Gas: \nThe emission factor for SO 2 in pipeline natural gas was calculated using AP-42 Chapter 1.4, \nTable 2 and Pacific Gas and Electric (PG&E) Gas Rule 21, Section C. AP-42 states an SO 2 \nemission factor of 0.6 pound (lb)/million standard cubic feet (MMscf), assuming pipeline sulfur \nconcentration of 2,000 grams (gr)/MMscf, while PG&E states a maximum allowable pipeline \nsulfur concentration of 10,000 gr/MMscf in Gas Rule 21, Section C.  Footnote d of AP-42 Table \n1.4-2 states that the SO 2 emission factor should be multiplied by the ratio of actual pipeline \nsulfur concentration to the assumed concentration in AP-42 Table 1.4-2. Therefore, the SO 2 \nemission factor for pipeline natural gas is assumed to be 2.94E-03 lb/MMBtu. It is assumed that \nthe sulfur will be converted to SO 2 during combustion according to the following equation: \n \nS + O2  SO2  \n \nThe following table provides a summary of the boiler information which was provided by the \napplicant.  \n \nBasis: \nMaximum Fuel Rate: 1.75 MMBtu/hour (hr) \n   1,716 standard cubic feet (scf)/hr (scfh) \nFuel Heat Value: 1,020 British Thermal Unit (Btu)/scf \nFuel Usage:  42 MMBtu/day \nOperating Rate: 8,760 hours/year \nFd Factor:  8,710 dry scf (dscf)/MMBtu \nAP-42 Factors: \n PM:  7.6 lb/106 scf \n POC:  5.5 lb/106 scf \n  \n \n \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 3 \n Table 1. Daily and Annual Emissions from S-19 and S-20 (Natural Gas Combustion, Each) \nPollutant  Emission \nFactor \n(lb/MMBtu) Source Volumetric \nEmission \n(ppm) Max Daily"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lb/day) Annual \nEmissions \n(lb/yr) Annual \nEmissions \n(tons/yr) \nNOx -- B 30 @3% O 2 1.53 558 0.279 \nPOC 5.39E-03 A  0.23 83 0.041 \nCO -- B 275 @3% O 2 8.53 3,113 1.557 \nPM2.5 7.45E-03 A  0.31 114 0.057 \nPM10 7.45E-03 A  0.31 114 0.057 \nSO2 2.94E-03 C  0.12 45 0.023 \n A: AP-42, 5th edition, Table 1.4-2  \n B: NOX - Regulation 9-7-307.7, CO – 85% of BACT trigger \n C: AP-42, 5th edition, Table 1.4-2 and PG&E Gas Rule 21, Section C \n \nNOx: (21-0/21-3)*30  \n= 35 parts per million volume (ppmv), dry at 0% oxygen \n(35 scf NO x/10E6 scf flue gas)*(46 lb NO x/pound mole [lb-mol] NO x)*(8,710 dscf flue gas/MMBtu)*(lb-mol NO x/385.3 \nscf NO x) \n= 3.64E-02 lb/MMBtu \nPOC: (5.5 lb/MMscf)*(MMscf/10E6 scf)/ (scf/1,020 Btu)*(10E6 Btu/MMBtu) \n= 5.39E-03 lb/MMBtu \nCO: (21-0)/(21-3)*275  \n= 320.8 ppmv, dry at 0% oxygen  \n(320.8 scf CO/10E6 scf flue gas)*(28 lb CO/lb-mol CO)*(8,710 dscf flue gas/MMBtu)*(lb-mol CO/385.3 scf CO) \n= 2.03E-01 lb/MMBtu \nPM: (7.6 lb/MMscf)*(MMscf/10E6 scf)/(scf/1,020 Btu)*(10E6 Btu/MMBtu) \n= 7.45E-03 lb/MMBtu \nSO2: (0.6 lb SO 2/MMscf)*(10,000 gr SO 2 PG&E/106 scf / 2,000 gr SO 2 AP-42/106 scf)*(scf/1020 Btu) \n= 2.94E-03 lb/MMBtu \n \nDigester Gas: \nPermit Condition #24508 Part 3 states that “The owner/operator shall treat the digester gas with \nand A-4 (digester gas iron sponge scrubber) to ensure that the digester gas total sulfur content \nshall not exceed 300 ppm (dry).”.  \n \nIt is assumed that all H 2S will be converted to SO 2 during combustion for Best Available Control \nTechnology (BACT) pollutant emissions review, as discussed above. The following table \nprovides a summary of the boiler information which was provided by the applicant. \n \n \n \n \n \n \n \n \n \n \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 4 \n Basis: \nMaximum Fuel Rate: 1.75 MMBtu/hr \n   2,734 scfh \nFuel Heat Value: 640 Btu/scf \nFuel Usage:  42 MMBtu/day \nOperating Rate: 8,760 hours/yr \nFd Factor:  9,273 dscf/MMBtu (Assumed Value) \nDigester Gas Total S: 300 ppm \nAP-42 Factors: \n PM:  7.6 lb/106 scf \n POC:  5.5 lb/106 scf \n \nTable 2. Daily and Annual Emissions from S-19 and S-20 (Digester Gas Combustion, Each)  \nPollutant  Emission \nFactor \n(lb/MMBtu)  Source Volumetric \nEmission \n(ppm) Max Daily \nEmissions \n(lb/day) Annual \nEmissions \n(lb/yr) Annual \nEmissions \n(tons/yr) \nNOx -- B 30 @3% O 2 1.63 594 0.297 \nPOC 8.59E-03 A  0.36 132 0.066 \nCO -- B 275 @3% O 2 9.08 3,314 1.657 \nPM2.5 1.19E-02 A  0.50 182 0.091 \nPM10 1.19E-02 A  0.50 182 0.091 \nSO2 -- C 300 3.27 1,194 0.597 \n A: AP-42, 5th edition, Table 1.4-2  \n B: NOX - Regulation 9-7-307.7, CO – 90% of BACT trigger \n C: Permit Condition #24508.3. \n \nNOx: (21-0/21-3)*30  \n= 35 ppmv, dry at 0% oxygen \n(35 scf NO x/10E6 scf flue gas)*(46 lb NO x/lb-mol NO x)*(9,593 dscf flue gas/MMBtu)*(lb-mol NO x/385.3 scf NO x) \n= 3.87E-02 lb/MMBtu \nPOC: (5.5 lb/MMscf)*(MMscf/10E6 scf)/ (scf/640 Btu)*(10E6 Btu/MMBtu) \n= 8.59E-03 lb/MMBtu \nCO: (21-0)/(21-3)*275  \n= 320.8 ppmv, dry at 0% oxygen  \n(320.8 scf CO/10E6 scf flue gas)*(28 lb CO/lb-mol CO)*(9,593 dscf flue gas/MMBtu)*(lb-mol CO/385.3 scf CO) \n= 2.16E-01 lb/MMBtu \nPM: (7.6 lb/MMscf)*(MMscf/10E6 scf)/(scf/640 Btu)*(10E6 Btu/MMBtu) \n= 1.19E-02 lb/MMBtu \nSO2: (300 scf SO 2/10E6 scf DG)*(64 lb SO 2/lb-mol SO 2)*(scf/640 Btu)*(lb-mol SO 2/385.3 scf SO 2)*(10E6 Btu/MMBtu) \n= 7.79E-02 lb/MMBtu"
+      },
+      {
+        "heading": "TOXIC RISK SCREENING",
+        "alias": "TOXICS",
+        "text": "TOXIC RISK SCREENING\nNG \nThe combustion of natural gas and digester gas from S-19 and S-20 will result in the emissions of \ntoxic air contaminants (TACs). Emission factors from BAAQMD TAC Emission Factor \nGuidelines, Appendix A, Default TAC Emission Factors for Specific Source Categories, dated \nAugust 2020, were used to calculate TAC emissions from S-19 and S-20. \n \nThe emission factor for hydrogen sulfide was calculated assuming a total sulfur destruction \nefficiency of 98%. \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 5 \n H2S Emission Factor, Digester Gas Combustion: \n \nlb/MMBtu = (1- destruction eff)*[concentration sulfur]*MW*/(digester gas heat content*V M), \nlb/MMBtu = (1-0.98)*[200 ppm sulfur*(1 /106 ppm)]* 34 lb/lb-mole/(530 Btu/scf *1 MMBtu/106 \nBtu*385.3 scf/lb-mole), \nlb/MMBtu  = 8.27E-04 ; \n \nWhere: destruction efficiency = 98%, MW = molecular weight of H 2S = 34 lb/lb-mole,  \nVM = molar volume = 385.3 scf/mole (corrected to 68 °F), Digester gas heat content =  \n640 Btu/scf  \n \nThe TAC emission factors along with their trigger levels and emissions from the operation of the \nboilers are summarized below."
+      },
+      {
+        "heading": "Table 4. Toxic Air Contaminant Emissions for S-19 and S-20",
+        "alias": "TOXICS",
+        "text": "Table 4. Toxic Air Contaminant Emissions for S-19 and S-20\nTAC E.F. \n(lb/MMBtu) Project \nEmissions \n(lb/hr) Acute \nTrigger \nLevel \n(lb/hr) TAC \nTrigger \n(Y/N) Project \nEmissions \n(lb/yr) Chronic \nTrigger \nLevel \n(lb/yr) TAC \nTrigger \n(Y/N) \nAcetaldehyde 4.22E-06 1.48E-05 2.10E-01 No  1.29E-01 2.90E+01 N \nAcrolein 2.65E-06 9.28E-06 1.10E-03 No  8.12E-02 1.40E+01 N \nArsenic 1.96E-07 6.86E-07 8.80E-05 No 6.01E-03 1.60E-03 Y \nBenzene 7.84E-06 2.74E-05 1.20E-02 No 2.40E-01 2.90E+00  N \nBeryllium  5.88E-09 2.06E-08 -- No 1.80E-04 3.40E-02 N \nCadmium  1.08E-06 3.78E-06 -- No 3.31E-02 1.90E-02 Y \nCopper 8.33E-07 2.92E-06 4.40E-02 No 2.55E-02 -- -- \nEthylbenzene  9.31E-06 3.26E-05 -- No 2.85E-01 3.30E+01  N \nFormaldehyde  2.17E-04 7.60E-04 2.40E-02 No 6.65E+00  1.40E+01  N \nn-Hexane 6.18E.06 2.16E-05 -- No 1.89E-01 2.70E+05  N \nLead 4.90E-07 1.72E-06 -- No 1.50E-02 2.90E-01 N \nManganese  3.73E-07 1.31E-06 -- No 1.14E-02 3.50E+00  N \nMercury 2.55E-07 8.93E-07 2.70E-04 No 7.82E-03 2.10E-01 N \nNaphthalene  5.98E-07 2.09E-06 -- No 1.83E-02 2.40E+00  N \nNickel 2.06E-06 7.21E-06 8.80E-05 No 6.32E-02 3.10E-01 N \nPAH 6.60E-09 2.31E-08 -- No 2.02E-04 3.30E-03 N \nPropylene  7.17E-04 2.51E-03 -- No 2.20E+01  1.20E+05  N \nSelenium  1.18E-08 4.13E-08 -- No 3.62E-04 8.00E+00  N \nToluene 3.59E-05 1.26E-04 2.2E+00 No 1.10E+00  1.60E+04  N \nVanadium 2.25E-06 7.88E-06 1.30E-02 No 6.90E-02 -- -- \nXylenes 2.67E-05 9.35E-05 9.7E+00 No 8.19E-01 2.70E+04  N \nHydrogen Sulfide 1.66E-05 2.89E-03 1.90E-02 No 2.54E+01 3.90E+02 N \n \nThe TAC emission factors are on a MMBtu basis because the same factors have been used for \nboth digester gas and natural gas. \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 6 \n As shown in Table 4, arsenic and cadmium emissions from the project exceed the regulatory \nhealth thresholds of Regulation 2, Rule 5. A health screen risk analysis was therefore performed. \nThere were no related projects within the last five years. \n \nThe results of the HRA were: a Cancer Risk of  0.046 in a million, a Chronic Hazard Index (HI) \nof 0.020, and an Acute HI of  0.0077. In accordance with the District’s Regulation 2-5-301, S-19 \nand S-20 are not required to meet TBACT because the cancer risk does not exceed 1.0 in a \nmillion and the chronic HI does not exceed 0.20.   \n \nThe estimated project cancer risk does not exceed 6.0 in a million, the chronic HI does not \nexceed 1.0, and the project’s acute HI does not exceed 1.0. Therefore, S-19 and S-20 are in \ncompliance with the District’s Regulation 2-5-302 project risk requirements for an over-\nburdened community. \n \nIt is noted that a H2S concentration of 200 ppm was used to calculate project emissions for the \nHRA as the initial application had included a gas conditioning system that would reduce the H2S \nconcentration to 200 ppm. As the facility had withdrawn the application for the gas conditioning \nsystem, the H2S concentration reverted to 300 ppm as per existing Permit Condition #24508.3. \nThe change from 200 ppm H2S to 300 ppm H2S results in a 33.3% increase in project emissions. \nTo be conservative, a 50% increase was assumed which resulted in an estimated modeled H2S \nconcentration of 0.00032 ppm, which is below the Reg 9-2 limit of 0.03 ppm. It is therefore \nassumed that S-19 and S-20 will comply with Regulation 9-2."
+      },
+      {
+        "heading": "PLANT CUMULATIVE EMISSION",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "PLANT CUMULATIVE EMISSION\nON  \nThe following table summarizes the cumulative increase in BACT pollutant emissions that will \nresult from this application. \n \nTable 5. Cumulative Increase \nPollutant Existing, tpy  S-19, tpy S-20, tpy Total, tpy  \nNOx 4.885 0.297 0.297 5.479 \nCO 6.972 1.657 1.657 10.286 \nPM10  0.108 0.091 0.091 0.290 \nPM2.5 0.000 0.091 0.091 0.182 \nSO2 0.000 0.597 0.597 1.194 \nPOC 2.566 0.066 0.066 2.698 \nNote:  \n1. Existing Cumulative Increase taken from AN 26019."
+      },
+      {
+        "heading": "BEST AVAILABLE CONTROL TECHNOLOGY",
+        "alias": "BACT",
+        "text": "BEST AVAILABLE CONTROL TECHNOLOGY\nGY \nIn accordance with Regulation 2-2-301, BACT is triggered for any new or modified source with \nthe potential to emit 10 pounds or more per highest day of POC, NPOC, NO X, CO, SO 2, or PM 10, \nPM2.5. Based on the emissions displayed above, BACT is not triggered for any pollutant. \n \n \n \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 7"
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nS \nThe following table provides a summary of the facility’s potential to emit (PTE). \n \nTable 6. Potential to Emit \nPollutant Existing \nPTE1,  \ntpy S-19 PTE, \ntpy S-20 PTE, \ntpy New PTE, \ntpy \nPOC 2.564 0.297 0.297 3.158 \nNOx 0.084 0.066 0.066 0.216 \nSO2 0.707 1.657 1.657 4.022 \nPM10 0.046 0.091 0.091 0.228 \nPM2.5 0.046 0.091 0.091 0.228 \nCO 0.002 0.597 0.597 1.195 \n \nNote:  \n1. Existing PTE calculation is provided in Attachment #1. \n \nEmission offset requirements for POC and NO x are set out in Regulation 2, Rule 2, Section 302.  \nPOC and NO x offsets are required for new or modified sources at a facility that emits or will be \npermitted to emit 10 tons per year or more of that pollutant. The facility has a PTE greater than \n10 ton/yr of POC, but no more than 35 tons/yr. Pursuant to Regulation 2, Rule 2, Section 302.1, \nthe facility is required to provide offsets at a 1:1 ratio. However, Regulation 2, Rule 2, Section \n302.1 also allows the facility to obtain offsets from the District’s Small Facilities Bank (SFB), as \nlong as the account is not exhausted. Offsets for POC and NO x are not required for this \napplication as the PTE for NOx is less than 10 tpy.  \n \nThe offsets requirements for PM 10, PM2.5, and SO x are specified in Regulation 2, Rule 2, Section \n303. Per Section 303, PM 10, PM2.5, and SO x emission offsets are required for any new or \nmodified source that is a major facility for PM 10, PM2.5, or SO x emissions. The facility is not a \nmajor facility for PM 10, PM2.5, and SO x emissions. Therefore, offsets for PM 10, PM2.5, and SO x \nare not required for this application."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE \n \nRegulation 6, Rule 1: Particulate Matter: General Requirements \nPursuant to Regulations 6-1-301, a person shall not emit from any source for a period or periods \naggregating more than three minutes in any hour, a visible emission which is as dark or darker \nthan No. 1 on the Ringelmann Chart,. S-19 and S-20 are expected to meet the requirements of \nRegulations 6-1-301. \n \nSection 6-1-302 is not invoked if an opacity monitor has not been required. \n \nS-19 and S-20 are expected to comply with the 0.15 grain PM/dscf standard in Section 6-1-310.1 \nbecause they use gaseous fuels. \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 8 \n Boilers are exempt from Sections 6-1-310.2 and 6-1-311.2 per the exemption in Section  \n6-1-114.1. \n \nS-19 and S-20 are exempt from the testing requirement in Section 6-1-504 per the exemption in \nSection 6-1-114.3 because it is a gas-fuel fired indirect heat exchanger.  It is also exempt from \nthe testing because it emits less than 2,000 kg of TSP/yr. \n \nRegulation 9, Rule 1: Inorganic Gaseous Pollutants: Sulfur Dioxide \nPursuant to Regulation 9-1-301, the ground level concentrations of SO 2 shall not exceed 0.5 ppm \ncontinuously for 3 consecutive minutes or 0.25 ppm averaged over 60 consecutive minutes, or \n0.05 ppm averaged over 24 hours. Pursuant to Regulation 9-1-302, a person shall not emit from \nany source, a gas stream containing SO 2 in excess of 300 ppm (dry).  Lastly, pursuant to \nRegulation 9-1-304, a person shall not burn any liquid fuel having a sulfur content in excess of \n0.5% by weight. Compliance with Regulation 9-1 is expected due to a fuel total sulfur limit of \n300 ppm for the digester gas for S-19 and S-20. The sulfur limit is imposed under Permit \nCondition #24508.3 for S-190. Subsequent monitoring requirements for the sulfur limit is \nimposed under Permit Condition #24508.4 for S-190 and therefore no additional monitoring \nrequirements will be imposed under this permit application. \n \nRegulation 9 Rule 2: Inorganic Gaseous Pollutants: Hydrogen Sulfide \nPursuant to Regulation 9-2-301, a person shall not emit during any 24-hour period, H 2S in such \nquantities as to result in ground level concentration in excess of 0.06 ppm average over three \nconsecutive minutes or 0.03 ppm averaged over any 60 consecutive minutes. On April 11, 2025, \nthe Air District modeled H 2S emissions to determine whether S-19 and S-20 will comply with \nthe Rule. The results of the dispersion modeling showed a maximum 1-hour average H 2S \nconcentration of 0.00032 ppm. Therefore, S-19 and S-20 are in compliance with Regulation 9-2-\n301. \n \nRegulation 9, Rule 7: Inorganic Gaseous Pollutants: Nitrogen Oxides and Carbon Monoxide \nfrom Industrial, Institutional, and Commercial Boilers, Steam Generators, and Process Heaters  \nThis rule limits the emissions of NO x and CO from boilers.  \n \nS-19 and S-20 are subject to the final emissions limits of Regulation 9-7-307.7 for NO x (30 \nppmv, dry at 3% O 2) and CO (400 ppmv, dry at 3% O 2) when firing with digester gas. However, \nin order to stay under BACT, the facility has agreed to a 275 ppmv, dry at 3% O 2 limit for CO. \nThis limit will be incorporated into the permit condition for S-19 and S-20. S-19 and S-20 will \ncomply with Regulation 9-7-307.7 when firing digester gas.  \n \nThe boilers are subject to Regulation 9-7-311, which states that no person shall operate a boiler \nor steam generator unless the exposed, external surface of the device, including all pipes and \nducts heated by the device, does not exceed a temperature of 120 °F. S-19 and S-20 are expected \nto comply with Regulation 9-7-311. \n \nThe stack gas temperature limit for boilers or steam generators of a fire tube design, burning \ngaseous fuel, is presented in Regulation 9-7-312 and states that such boilers shall not be operated \nwith a stack gas temperature (downstream of any economizer) that exceeds 100 °F over saturated \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 9 \n steam temperature for steam boilers, 100 °F over hot water temperature for hot water boilers, or \n250 °F greater than combustion temperature, whichever is higher. S-19 and S-20 are expected to \ncomply with Regulation 9-7-312. \n \nPursuant to Regulation 9-7-403, an initial demonstration of compliance is required.  The initial \ndemonstration specifies that source tests be performed to determine compliance with the \nlimitations of Regulation 9-7-307, unless the device has an input heat rating less than 10 \nMMBtu/hr; at which point a portable analyzer may be used.  S-19 and S-20 have an input heat \nrating less than 10 MMBtu/hr.  Therefore, a portable analyzer may be used. \n \nLastly, Regulation 9-7-503 requires the following records to be kept for at least 24 months from \nthe date of entry, which are to be made available to District staff upon request. \n Documentation verifying the hours of equipment testing using non-gaseous fuel, and of total \noperating hours using non-gaseous fuel during each calendar month; \n Results of any testing required by Regulation 9-7-506; and, \n Total operating hours and operating hours firing or co-firing digester gas."
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA) Requirements",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA) Requirements\nPursuant to Regulation 2-1-311, an application for a proposed new or modified source will be \nclassified as ministerial and will accordingly be exempt from the CEQA requirement of \nRegulation 2-1-310 if the District’s engineering evaluation and basis for approval or denial of the \npermit application for the project is limited to the criteria set forth in Regulation 2-1-428 and to \nthe specific procedures, fixed standards, and objective measurements set forth in the District's"
+      },
+      {
+        "heading": "Permit Handbook and Best Available Control Technologies (BACT)/BACT for Toxics (TBACT)",
+        "alias": "TOXICS",
+        "text": "Permit Handbook and Best Available Control Technologies (BACT)/BACT for Toxics (TBACT)\nWorkbook. This project does not trigger BACT or TBACT, therefore the permit approval is a \nministerial action, which is a statutory exemption from CEQA review."
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD)",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD)\nD)  \nThe PSD requirements in District Regulation 2, Rule 2, Section 304 and 305 apply to major \nmodifications at a major facility. This site is not a major facility. Therefore, Regulation 2-2-304 \nand 2-2-305 do not apply. \n \nNew Source Performance Standards (NSPS) \nNSPS for boilers is covered in 40 Code of Federal Regulations (CFR) Part 60, Subparts Db and \nDc. As S-19 and S-20 have a maximum heat input less than 10 MMBtu/hr, neither 40 CFR 60, \nSubpart Db or Dc apply.  \n \nNational Emission Standards for Hazardous Air Pollutants (NESHAP)  \nThe following NESHAPs may apply to the facility. \n \n40 CFR Part 63, Subpart DDDDD \nPursuant to §63.7485, industrial, commercial, and institutional boilers or process heaters, which \nare located at a major source of hazardous air pollutants (HAP)s, are subject to the requirements \nof this regulation. The facility is not major for HAPs, and therefore S-19 and S-20 are not subject \nto this subpart. \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 10 \n 40 CFR Part 63 Subpart JJJJJJ \nPursuant to §63.11193, industrial, commercial, and institutional boilers, which are located at an \narea source of HAPs, are subject to the requirements of this regulation. The facility is an area \nsource of HAPs. \n \nS-19 and S-20 are gas-fired boilers. Pursuant to §63.11195, gas-fired boilers are exempt from the \nstandard."
+      },
+      {
+        "heading": "California Health & Safety Code §42301.6 and Regulation 2-1-412",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "California Health & Safety Code §42301.6 and Regulation 2-1-412\nPursuant to California Health & Safety Code §42301.6(a), prior to approving an application for a \npermit to construct or modify a source, which is located within 1,000 feet from the outer \nboundary of a school site and which results in the increase in emissions of any substance into the \nambient air which has been identified by the California Air Resources Board (CARB) or the"
+      },
+      {
+        "heading": "APCO as a toxic air contaminant or a hazardous air contaminant or which is on the list required",
+        "alias": "TOXICS",
+        "text": "APCO as a toxic air contaminant or a hazardous air contaminant or which is on the list required\nto be prepared pursuant to subdivision (a) of Section 25532 or Section 44321 subsections (a) \nthrough (f) inclusive to the Health and Safety Code, or is located within an Overburdened \nCommunity (OBC) as defined in Regulation 2-1-243 and for which a Health Risk Assessment \n(HRA) is required pursuant to Regulation 2-5-401, the District shall prepare a public notice as \ndetailed in §42301.6.   \n \n§42301.9(a) defines a “school” as any public or private school used for the purposes of the \neducation of more than 12 children in kindergarten or any grades 1 to 12, inclusive, but does not \ninclude any private school in which education is primarily conducted in private homes. \nUsing the GreatSchools.org website and searching with Google Maps, it has been determined \nthat the source will not be located within 1,000 feet of the outer boundary of any K-12 school \nsite.   \n \nHowever, the facility is located within an OBC as defined in Regulation 2-1-243 and an HRA \nwas required as per District Regulation 2-5-401. Therefore, a public notice is required as per"
+      },
+      {
+        "heading": "Regulation 2-1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Regulation 2-1-412.\nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 11"
+      },
+      {
+        "heading": "CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "CONDITIONS\nS \n \nI recommend the following permit condition for S-19 and S-20. \n \nCOND #100741   --------------------------------------"
+      },
+      {
+        "heading": "GENERAL REQUIREMENTS",
+        "alias": null,
+        "text": "GENERAL REQUIREMENTS\nTS \n1. The owner/operator of the Dual Fueled Digester Gas/Natural Gas Fire Tube Boilers (S-19 and  \n    S-20) shall only operate the sources on digester gas generated from the Anaerobic Digesters   \n    (S-190) and/or Public Utilities Commission regulated natural gas.   \n    [Basis: Cumulative Increase] \n \n2. The owner/operator of S-19 and S-20 shall not allow the heat input to each source to exceed  \n    15,330 MMBtu during any consecutive 12-month period. \n    [Basis: Cumulative Increase] \n \n3. The owner/operator of S-19 and S-20 shall operate these sources only when a non resettable  \n    totalizing fuel meter is installed in each fuel line for each source.   \n    [Basis: Regulation 9-7-501]"
+      },
+      {
+        "heading": "EMISSION LIMITATIONS",
+        "alias": null,
+        "text": "EMISSION LIMITATIONS\nNS \n4. The owner/operator shall ensure that the following pollutant concentrations, in the \n    combustion gases exhausting from S-19 and S-20, are less than the following limits: \n \n    a.  NOx: 30 ppmv @ 3% O2, on a dry basis, when firing digester gas, natural gas or a  \n         combination of digester gas and natural gas. \n    b.  CO: 275 ppmv @ 3% O2, on a dry basis, when firing digester gas, natural gas or a  \n         combination of  digester gas and natural gas. \n    [Basis: Cumulative Increase, BACT, and Regulation 9-7-307] \n \n5. The owner/operator shall ensure that the digester gas fired at S-19 and S-20 does not exceed a \n    total sulfur content of 300 ppmv.  [Basis: Cumulative Increase]"
+      },
+      {
+        "heading": "MONITORING REQUIREMENTS",
+        "alias": null,
+        "text": "MONITORING REQUIREMENTS\nTS \n6. To demonstrate compliance with Part 4 of this condition, within a frequency of no less than  \n    once every 12 consecutive months, the owner/operator shall measure NOx and CO volumetric  \n    concentrations and oxygen content (%) using a portable analyzer.    \n    [Basis: Regulations 2-1-403, 9-7-403, and 9-7-606]"
+      },
+      {
+        "heading": "RECORDKEEPING REQUIREMENTS",
+        "alias": null,
+        "text": "RECORDKEEPING REQUIREMENTS\nTS \n7. The owner/operator of S-19 and S-20 shall maintain the following records for a minimum of  \n     two (2) years and be made available to the District upon request: \n \n    a.  Total operating hours firing on natural gas only; \n    b.  Total operating hours co firing on digester gas; \n    c.  Monthly records of digester gas and natural gas consumed; \n    d.  Annual monitoring results required by Part 6 of this condition; and, \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 12 \n     e, Monthly records of sulfur content of digester gas \n    [Basis: Regulation 2-1-403]"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nON  \n \nThe District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of District, state, and federal air quality-related regulations. The \npreliminary recommendation is to issue a Permit to Operate for the equipment listed below. \nHowever, the proposed source will be located within an OBC, which triggers the public"
+      },
+      {
+        "heading": "notification requirements of District Regulation 2-1-412. After the comments are received and",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "notification requirements of District Regulation 2-1-412. After the comments are received and\nreviewed, the District will make a final determination on the permit. \n \nS-19 Dual-Fueled Digester Gas/Natural Gas Boiler \n Make: Burnham, Model 4-4FW, 209A \n Maximum Input Heat Capacity: 1.75 MMBtu/Hr \n \nS-20 Dual-Fueled Digester Gas/Natural Gas Boiler \n Make: Burnham, Model 4-4FW, 209A \n Maximum Input Heat Capacity: 1.75 MMBtu/Hr \n \n \n \n \n \n \nBy:        Date:   8/6/2025    Perry Ng \n Senior Air Quality Engineer \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 13 \n Attachment #1 – PTE Calculation"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "CANCELED SOURCES",
+        "alias": null,
+        "text": "CANCELED SOURCES\nES  \nUnder this Permit Application #31690, the facility had initially proposed to install the following \nsources: \n \n Biogas Upgrading System, Unison, abated by Flare \n S-190 – Anaerobic Digesters (3), average daily digester gas production: 216,000 scf/day; \nmaximum 288,000 scf/day (modification) \n High Strength Waste Receiving (2), 9,050 gal and 13,000 gal, abated by Odor Control \n Flare, 2.32 MMBtu/hr when abating Biogas Upgrading System, or 7.68 MMBtu/hr when \nabating S-190, Digesters; Digester Gas \n Odor Control, 150 cfm, 150-gal volume \n \nThe District had evaluated these sources, however on March 6, 2025, the facility informed the \nDistrict that they would be withdrawing the application for the above sources as they were \nunable to identify a user for the produced biogas.  \n \n \n \n \n \n \n \n \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 2"
+      },
+      {
+        "heading": "DUAL FIRED DIGESTER GAS-NATURAL GAS BOILERS",
+        "alias": null,
+        "text": "DUAL FIRED DIGESTER GAS-NATURAL GAS BOILERS\nS  \nThe boilers were installed without an Authority to Construct (A/C) in 2008. The boilers burn \ndigester gas and the capacity of each one is over 1 million British Thermal Unit (MMBtu)/hour \n(hr). Therefore, they require permits to operate per District Regulation 2, Rule 1. It appears that \nthe capacities of the boilers were not submitted when the boilers were initially evaluated in \nPermit Application #20584 (April 2009) and the Permit Engineer had assumed the capacity was \nunder 1 MMBTU/hr. Therefore, back fees have been charged for the boilers but not late fees due \nto the Permit Engineer’s assumption at the time."
+      },
+      {
+        "heading": "GENERAL REQUIREMENTS",
+        "alias": null,
+        "text": "GENERAL REQUIREMENTS\nTS \n1. The owner/operator of the Dual Fueled Digester Gas/Natural Gas Fire Tube Boilers (S-19 and  \n    S-20) shall only operate the sources on digester gas generated from the Anaerobic Digesters   \n    (S-190) and/or Public Utilities Commission regulated natural gas.   \n    [Basis: Cumulative Increase] \n \n2. The owner/operator of S-19 and S-20 shall not allow the heat input to each source to exceed  \n    15,330 MMBtu during any consecutive 12-month period. \n    [Basis: Cumulative Increase] \n \n3. The owner/operator of S-19 and S-20 shall operate these sources only when a non resettable  \n    totalizing fuel meter is installed in each fuel line for each source.   \n    [Basis: Regulation 9-7-501]"
+      },
+      {
+        "heading": "EMISSION LIMITATIONS",
+        "alias": null,
+        "text": "EMISSION LIMITATIONS\nNS \n4. The owner/operator shall ensure that the following pollutant concentrations, in the \n    combustion gases exhausting from S-19 and S-20, are less than the following limits: \n \n    a.  NOx: 30 ppmv @ 3% O2, on a dry basis, when firing digester gas, natural gas or a  \n         combination of digester gas and natural gas. \n    b.  CO: 275 ppmv @ 3% O2, on a dry basis, when firing digester gas, natural gas or a  \n         combination of  digester gas and natural gas. \n    [Basis: Cumulative Increase, BACT, and Regulation 9-7-307] \n \n5. The owner/operator shall ensure that the digester gas fired at S-19 and S-20 does not exceed a \n    total sulfur content of 300 ppmv.  [Basis: Cumulative Increase]"
+      },
+      {
+        "heading": "MONITORING REQUIREMENTS",
+        "alias": null,
+        "text": "MONITORING REQUIREMENTS\nTS \n6. To demonstrate compliance with Part 4 of this condition, within a frequency of no less than  \n    once every 12 consecutive months, the owner/operator shall measure NOx and CO volumetric  \n    concentrations and oxygen content (%) using a portable analyzer.    \n    [Basis: Regulations 2-1-403, 9-7-403, and 9-7-606]"
+      },
+      {
+        "heading": "RECORDKEEPING REQUIREMENTS",
+        "alias": null,
+        "text": "RECORDKEEPING REQUIREMENTS\nTS \n7. The owner/operator of S-19 and S-20 shall maintain the following records for a minimum of  \n     two (2) years and be made available to the District upon request: \n \n    a.  Total operating hours firing on natural gas only; \n    b.  Total operating hours co firing on digester gas; \n    c.  Monthly records of digester gas and natural gas consumed; \n    d.  Annual monitoring results required by Part 6 of this condition; and, \nPlant No. 2340 (San Leandro Water Pollution Control Plant)  Application No. 31690 \nPage 12 \n     e, Monthly records of sulfur content of digester gas \n    [Basis: Regulation 2-1-403]"
+      }
+    ]
+  }
+}

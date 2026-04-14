@@ -1,0 +1,290 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 7
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "Chronic\nTrigger\nLevel?\n1,1,2,2 -Tetrachloroethane  2.53E -05 AP-42 1.3E-05 None  6.7E-04 1.4E+00  No\n1,1,2 -Trichloroethane  7.65E -06 AP-42 8.1E-06 None  4.1E-04 5.0E+00  No\n1,1-Dichloroethane  5.65E -06 AP-42 6.0E-06 None  3.0E-04 5.0E+01  No\n1,3-Butadiene  1.02E -04 CATEF  5.4E-05 2.9E-01 2.7E-03 4.8E-01 No\nAcetaldehyde  8.66E -04 CATEF  4.6E-04 2.1E-01 2.3E-02 2.9E+01  No\nAcrolein  5.36E -04 CATEF  2.9E-04 1.1E-03 1.4E-02 1.4E+01  No\nBenzene (no control)  1.87E -03 CATEF  1.0E-03 1.2E-02 5.0E-02 2.9E+00  No\nCarbon Tetrachloride  8.85E -06 AP-42 9.4E-06 8.4E-01 4.7E-04 1.9E+00  No\nChlorobenzene  6.45E -06 AP-42 6.9E-06 None  3.4E-04 3.9E+04  No\nChloroform  6.85E -06 AP-42 7.3E-06 6.6E-02 3.6E-04 1.5E+01  No\nEthylbenzene  1.14E -05 CATEF  6.0E-06 None  3.0E-04 3.3E+01  No\nEthylene Dibromide  1.07E -05 AP-42 1.1E-05 None  5.7E-04 1.1E+00  No\nFormaldehyde (no control)  2.30E -03 CATEF  1.2E-03 2.4E-02 6.1E-02 1.4E+01  No\nMethanol  3.06E -03 AP-42 1.6E-03 1.2E+01  8.1E-02 1.5E+05  No\nMethylene Chloride  4.12E -05 AP-42 2.2E-05 6.2E+00  1.1E-03 8.2E+01  No\nNaphthalene  7.50E -05 CATEF  4.0E-05 None  2.0E-03 2.4E+00  No\nPAH  2.12E -07 CATEF  9.5E-08 None  4.7E-06 3.3E-03 No\nPropylene  1.57E -02 CATEF  8.3E-03 None  4.2E-01 1.2E+05  No\nStyrene  5.95E -06 AP-42 6.3E-06 9.3E+00  3.2E-04 3.5E+04  No\nToluene  1.05E -03 CATEF  5.6E-04 2.2E+00  2.8E-02 1.6E+04  No\nVinyl Chloride  3.59E -06 AP-42 3.8E-06 8.0E+01  1.9E-04 1.1E+00  No\nXylene (total)  6.45E -04 CATEF  3.4E-04 9.7E+00  1.7E-02 2.7E+04  No",
+        "(ton/yr)  Cumulative\nEmissions\n(ton/yr)\nNOx  0.000  0.0005  0.0005\nPOC  0.000  0.0006  0.0006\nCO 0.000  0.0049  0.0049",
+        "Requirement\n(ton/yr)  Offset\nRequired?\nNOx  0.000  0.0016  0.0016  10 N\nPOC  0.000  0.0018  0.0018  10 N\nCO 0.000  0.0148  0.0148  - N"
+      ]
+    },
+    "application_number_detected": "722501",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2025/722501/fid203856_nsr_722501_eval_070225-pdf.pdf?rev=c64ee40918824567869af851e7a31d59&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2025/070225-722501/soha-property-holdings-llc"
+  },
+  "application_number": "722501",
+  "plant": {
+    "name": "SOHA Property Holdings LLC",
+    "plant_id": null,
+    "address": "Menlo Park, CA 94025"
+  },
+  "evaluation_date": "January 1, 2011",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Emergency Standby Natural  Gas Engine"
+    },
+    {
+      "id": "A-1",
+      "description": "Nett Technologies Inc. - TG Series Catalytic Converter"
+    }
+  ],
+  "background": {
+    "text": "Background\nound    \nSOHA Property Holdings LLC  is applying for an Authority to Construct (AC) for the \nfollowing equipment:  \nS-1 Emergency Standby Natural  Gas Engine   \nMake: Kohler Co., Model: KG 6208 , Model Year: 2024 \n95.14  BHP, 1.064  MMBTU/hr Abated by A -1 \n \nA-1 Nett Technologies Inc. - TG Series Catalytic Converter"
+  },
+  "emission_calculations": {
+    "text": "Emission Calculations\nns  \nEmission factors for nitrogen oxides (NOx), precursor organic compounds (POC), and carbon \nmonoxide (CO) were obtained from the engine manufacturer.   Particulate matter (PM 10/PM 2.5) and \nsulfur dioxide (SO 2) emission factors are based on AP 42, Fifth Edition, V olume I, Chapter 3: \nStationary Internal Combustion Sources, Section 3.2.4.1 Control Techniques for 4 -Cycle Rich -\nBurn Engines and Table 3.2 -3 Uncontrolled Emission Factors for 4 -Stroke Rich -Burn \nEngines .1  The engine will operate for emergency purposes and will be limited to a maximum of \n50 hours per year for maintenance and testing.   \n \nTable 1 .  Hourly, Daily, and Annual Emissions from S -1 \nPollutant  Unabated \nEmission \nFactor (g/hp -\nhr) Abatement \nEfficiency \n(% w/w)  Abated \nEmission \nFactor \n(g/hp -hr) HourlyEmissions\n(lb/hr)  Maximum Daily \nEmissions \n(lb/day)  Annual \nEmissions \n(lb/yr)  Annual \nEmissions \n(TPY)  \nNOx  5.22 98 0.10 0.02 0.53 1.09 0.0005  \nPOC  0.22 50 0.11 0.02 0.56 1.17 0.0006  \nCO 15.67  94 0.94 0.20 4.73 9.85 0.0049  \nPM 10/PM 2.5 0.10 N/A 0.10 0.02 0.50 1.03 0.000 5 \nSO 2 0.00 N/A 0.00 0.00 0.02 0.03 0.0000  \nBasis :  \n• 95.14  bhp Max Rated Output  \n• 1013  scf/hr Max fuel use Rate = 1.064  MMBTU/hr  \n• NOx, POC and CO emission factors are from the engine manufacturer.  \n• NOx and CO abatement efficiencies are from the abatement device manufacturer and are 98% and 94% by \nweight, respectively.  POC abatement efficiency is assumed to be 50% by weight.  \n• PM 10/PM 2.5 and SO 2 emission factors are from EPA AP -42, Table 3.2 -3 Uncontrolled Emission Factors for   \n4-Stroke Rich -Burn Engines.  The PM 10/PM 2.5 emission factor is the total of filterable and condensable \nparticulates.  \n• Annual Emissions are based on an annual limit (50 hr/yr) for testing and maintenance.  \n• Max daily emissions are based on 24 hr/day since no daily limits are imposed on emergency operations.  \n \n • SO 2 Emission Factor = 5.88 E -04 lb/MMBtu; calculations assume 100% of fuel sulfur conversion with the content \nin CA natural gas = 10,000 gr/106scf.   \n• PM 10/PM 2.5 fuel input emission factor = 9.50E -03 lb/MMBtu (filterable) + 9.91E -03 lb/MMBtu (condensable) = \n1.94E -02 lb/MMBtu; aerodynamic particle diameter =< 1 µm, for the purposes of filterable emissions PM 10= PM 2.5.  \nThese emissions are expected to be negligible but included for completeness."
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Emissions\nTable 3 summarizes the cumulative increase in criteria pollutant emissions that will result from the \noperation of S-1. \n \nTable 3.  Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing Emissions  \nPost 4/5/91  \n(ton/yr)  Application  \nEmissions  \n(ton/yr)  Cumulative  \nEmissions  \n(ton/yr)  \nNOx  0.000  0.0005  0.0005  \nPOC  0.000  0.0006  0.0006  \nCO 0.000  0.0049  0.0049  \nPM 10/PM 2.5 0.000  0.000 5 0.000 5 \nSO 2 0.000  0.0000  0.0000"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emission Calculations\nns  \nEmission factors for nitrogen oxides (NOx), precursor organic compounds (POC), and carbon \nmonoxide (CO) were obtained from the engine manufacturer.   Particulate matter (PM 10/PM 2.5) and \nsulfur dioxide (SO 2) emission factors are based on AP 42, Fifth Edition, V olume I, Chapter 3: \nStationary Internal Combustion Sources, Section 3.2.4.1 Control Techniques for 4 -Cycle Rich -\nBurn Engines and Table 3.2 -3 Uncontrolled Emission Factors for 4 -Stroke Rich -Burn \nEngines .1  The engine will operate for emergency purposes and will be limited to a maximum of \n50 hours per year for maintenance and testing.   \n \nTable 1 .  Hourly, Daily, and Annual Emissions from S -1 \nPollutant  Unabated \nEmission \nFactor (g/hp -\nhr) Abatement \nEfficiency \n(% w/w)  Abated \nEmission \nFactor \n(g/hp -hr) HourlyEmissions\n(lb/hr)  Maximum Daily \nEmissions \n(lb/day)  Annual \nEmissions \n(lb/yr)  Annual \nEmissions \n(TPY)  \nNOx  5.22 98 0.10 0.02 0.53 1.09 0.0005  \nPOC  0.22 50 0.11 0.02 0.56 1.17 0.0006  \nCO 15.67  94 0.94 0.20 4.73 9.85 0.0049  \nPM 10/PM 2.5 0.10 N/A 0.10 0.02 0.50 1.03 0.000 5 \nSO 2 0.00 N/A 0.00 0.00 0.02 0.03 0.0000  \nBasis :  \n• 95.14  bhp Max Rated Output  \n• 1013  scf/hr Max fuel use Rate = 1.064  MMBTU/hr  \n• NOx, POC and CO emission factors are from the engine manufacturer.  \n• NOx and CO abatement efficiencies are from the abatement device manufacturer and are 98% and 94% by \nweight, respectively.  POC abatement efficiency is assumed to be 50% by weight.  \n• PM 10/PM 2.5 and SO 2 emission factors are from EPA AP -42, Table 3.2 -3 Uncontrolled Emission Factors for   \n4-Stroke Rich -Burn Engines.  The PM 10/PM 2.5 emission factor is the total of filterable and condensable \nparticulates.  \n• Annual Emissions are based on an annual limit (50 hr/yr) for testing and maintenance.  \n• Max daily emissions are based on 24 hr/day since no daily limits are imposed on emergency operations.  \n \n • SO 2 Emission Factor = 5.88 E -04 lb/MMBtu; calculations assume 100% of fuel sulfur conversion with the content \nin CA natural gas = 10,000 gr/106scf.   \n• PM 10/PM 2.5 fuel input emission factor = 9.50E -03 lb/MMBtu (filterable) + 9.91E -03 lb/MMBtu (condensable) = \n1.94E -02 lb/MMBtu; aerodynamic particle diameter =< 1 µm, for the purposes of filterable emissions PM 10= PM 2.5.  \nThese emissions are expected to be negligible but included for completeness.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "Toxic Risk Screen Analysis\nPursuant to Regulation 2 -5-110, a project, including all new or modified sources of toxic air \ncontaminants (TAC) within a five-year period, is not subject to this rule if the total project \nemissions are below the acute and chronic trigger levels listed in Table 2 -5-1 “Toxic Air \nContaminant Trigger Levels” of this regulation.  \n \nThe emission factors are from the California Air Toxics Emission Factors (CATEF) and the \nCompilation of Air Pollutant Emissions Factor: AP -42.  CATEF emission factors are preferentially \nchosen over AP -42 factors.  If the AP -42 emission factor is based on t he detection limit, the \nemission factor will equal 1/2 of the AP -42 emission factor.Table 2.  Toxic Air Contaminant Review for Engin e\nCompound  Emission \nFactor \n(lb/MMB\ntu) Basis  Hourly \nEmission \nRate  \n(lb/hr)  Acute \nTrigger \nLevel  \n(lb/hr)  Annual \nEmission \nRate  \n(lb/yr)  Chronic \nTrigger \nLevel \n(lb/yr)  Exceeds \nAcute or \nChronic \nTrigger \nLevel?  \n1,1,2,2 -Tetrachloroethane  2.53E -05 AP-42 1.3E-05 None  6.7E-04 1.4E+00  No \n1,1,2 -Trichloroethane  7.65E -06 AP-42 8.1E-06 None  4.1E-04 5.0E+00  No \n1,1-Dichloroethane  5.65E -06 AP-42 6.0E-06 None  3.0E-04 5.0E+01  No \n1,3-Butadiene  1.02E -04 CATEF  5.4E-05 2.9E-01 2.7E-03 4.8E-01 No \nAcetaldehyde  8.66E -04 CATEF  4.6E-04 2.1E-01 2.3E-02 2.9E+01  No \nAcrolein  5.36E -04 CATEF  2.9E-04 1.1E-03 1.4E-02 1.4E+01  No \nBenzene (no control)  1.87E -03 CATEF  1.0E-03 1.2E-02 5.0E-02 2.9E+00  No \nCarbon Tetrachloride  8.85E -06 AP-42 9.4E-06 8.4E-01 4.7E-04 1.9E+00  No \nChlorobenzene  6.45E -06 AP-42 6.9E-06 None  3.4E-04 3.9E+04  No \nChloroform  6.85E -06 AP-42 7.3E-06 6.6E-02 3.6E-04 1.5E+01  No \nEthylbenzene  1.14E -05 CATEF  6.0E-06 None  3.0E-04 3.3E+01  No \nEthylene Dibromide  1.07E -05 AP-42 1.1E-05 None  5.7E-04 1.1E+00  No \nFormaldehyde (no control)  2.30E -03 CATEF  1.2E-03 2.4E-02 6.1E-02 1.4E+01  No \nMethanol  3.06E -03 AP-42 1.6E-03 1.2E+01  8.1E-02 1.5E+05  No \nMethylene Chloride  4.12E -05 AP-42 2.2E-05 6.2E+00  1.1E-03 8.2E+01  No \nNaphthalene  7.50E -05 CATEF  4.0E-05 None  2.0E-03 2.4E+00  No \nPAH  2.12E -07 CATEF  9.5E-08 None  4.7E-06 3.3E-03 No \nPropylene  1.57E -02 CATEF  8.3E-03 None  4.2E-01 1.2E+05  No \nStyrene  5.95E -06 AP-42 6.3E-06 9.3E+00  3.2E-04 3.5E+04  No \nToluene  1.05E -03 CATEF  5.6E-04 2.2E+00  2.8E-02 1.6E+04  No \nVinyl Chloride  3.59E -06 AP-42 3.8E-06 8.0E+01  1.9E-04 1.1E+00  No \nXylene (total)  6.45E -04 CATEF  3.4E-04 9.7E+00  1.7E-02 2.7E+04  No \nBasis:  \n \n • Abatement efficiency is assumed to be 50% by weight for each TAC above.  \n \nThe project does not exceed any acute or chronic trigger level and there are not any related projects \nin the last five years. Therefore, the project is not subject to the requirements of Regulation 2 -5-"
+  },
+  "BACT": {
+    "text": "110. \nBest Available Control Technology (BACT)\nPursuant to Regulation 2 -2-301, Best Available Control Technology (BACT) shall apply to new or \nmodified sources with a Potential to Emit equal to or greater than 10 lb per highest day of the \npollutants in Table 1.   \n \nBACT is not triggered for any pollutant since the maximum daily emission of each pollutant does \nnot exceed 10 lb/day."
+  },
+  "offsets": {
+    "narrative": "Offsets\nts  \nPer Regulation 2 -2-302, offsets must be provided for any new or modified source at a facility \nthat has the potential to emit (PTE) more than 10 tons/yr of POC or NO x and 100 tons for \nparticulate matter and SO 2.  The PTE for emergency -use engines will include the hours allowed \nfor testing and maintenance, as well as an assumed 100 hours per year for emergencies.  \n \nTable 4. Potential to Emit for Plant# 203856  \nPollutant  Existing \nAnnual \nEmissions \n(ton/yr)  Application \nAnnual \nEmission \n(ton/yr)  Facility \nAnnual \nEmissions  \n(ton/yr)  Offset \nRequirement \n(ton/yr)  Offset \nRequired?  \nNOx  0.000  0.0016  0.0016  10 N \nPOC  0.000  0.0018  0.0018  10 N \nCO 0.000  0.0148  0.0148  - N \nPM 10/PM 2.5 0.000  0.001 5 0.001 5 100 N \nSO 2 0.000  0.0000  0.0000  100 N \n \nBased on the emission calculations in Table 4, offsets are not required for this application.  \n \n  \n \n \nNew Source Performance Standards  \nThe New Source Performance Standard (NSPS)  in 40 CFR 60, Subpart JJJJ apply because the \nengine will be installed after January 1, 2011.   The engine will comply with the following limits \nin Table 1 for emergency spark -ignited engines greater than 25 hp but less than 130 hp:  \n \nPollutant  S-1 Emission Factor \n(Abated)  NSPS Standard  \nNO x              0.10 g/bhp -hr 10 g/bhp -hr \nCO               0.94 g/bhp -hr 387 g/bhp -hr \n  \nAs the information above shows , S-1 is in compliance with these NSPS emission requirements.  \nNational Emission Standards for Hazardous Air Pollutants (NESHAP)  \nThis engine will be operated at a hazardous air pollutant (HAP) area source.  Therefore, the engine \nwill be subject to the Reciprocating Internal Combustion Engine (RICE) National Emission \nStandards for Hazardous Air Pollutants (NESHAP) (40 CFR Part 63, Subpart ZZZZ) because it is \na new source and installed after 2007.  A new RICE at an area source that is subject to 40 CFR \nPart 60, Subpart JJJJ, has no further requirements under 40 CFR Part 63, Subpart ZZZZ pursuant \nto 40 CFR Part 63.6590(c).  Therefore, S -1 complies with the NESHAP by meeting the \nrequirements under 40 CFR Part 60, Subpart JJJJ.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          100.0,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          0.0,
+          "N/A",
+          null
+        ],
+        [
+          "CO",
+          0.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": "This permit application is not subject to the California Environmental Quality Act (CEQA) \nbecause the Air District’s evaluation is a ministerial action (Public Resources Code Section \n21080(b)(1) and CEQA Guidelines Section 15268(a)) conducted using the fix ed standards and \nobjective measurements in the Air District’s rules and regulations.  \n \nPublic Notification (Regulation 2 -1-412)  \nThe proposed source is located less than 1,000 feet from K -12 school, with more than 1 2 \nstudents enrolled.  \nTherefore, the proposed source is subject to the public notification requirements of Regulation 2 -\n1-412. A public notice was prepared and sent to all addresses within 1,000 feet of the proposed \nsource and parents and guardians of students of the following school:  \nSacred Heart Schools, Atherton - Catholic school  \n150 Valparaiso Ave, Atherton, CA 94027  \nAll comments will be  responded to in the same manner they are received."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nce  \nThe owner/operator of S -1 shall comply with Regulation 6, Rule 1 (Particulate Matter and Visible \nEmissions Standards) and Regulation 9 -1-301 (Inorganic Gaseous Pollutants: Sulfur Dioxide for \nLimitations on Ground Level Concentrations). From Regulation 9 -1-301, the ground level \nconcentrations of SO2 will not exceed 0.5 ppm continuously for 3 co nsecutive minutes or 0.25 \nppm averaged over 60 consecutive minutes, or 0.05 ppm averaged over 24 hours.  \n \nSections 6 -1-310.1 and 6 -1-310.2 limit total suspended particulate (TSP) emissions to 0.15 \ngrains/dscf of exhaust gas volume or less depending on the exhaust gas rate (see Table 6 -1-310.2 \nfor the corresponding TSP concentration limit). As shown in the emis sion calculations in the table \nbelow, the certified particulate emission rate from this engine is 0.10 grams per bhp -hour, which \nresults in an outlet grain loading of 0.015 grains per dscf. Since this emission rate is less than the \nlimit in Section 6 -1-310, compliance with this section is expected through use of the certified \nengine.  \nTable 5. Section 6 -1-310 Emissions Calculations  \nEngine Maximum Exhaust Flow \nRate 580 acfm = 162.0  dscf/min  = 9717.9  dscf/hr  \nEngine Maximum Exhaust \nTemperature  1200  F       \nWater (H2O) Content (%)  12.50%         \nPM10 abatement for Engine  0.00%         \nEngine PM10 emissions  0.02 lb/hr = 82.11  kg/yr  = 144.52  gr/hr \n \n Are Engine PM10 Emissions > \n1000 kg/yr?  NO        \nApplicable Regulation 6 -1-310 \nsection?  6-1-310.1         \nTSP Concentration for Engine  0.015 gr/dscf        \nCorresponding Regulation 6 -1 \nTSP Limit  0.15 gr/dscf        \nPM10 emissions < Corresponding \nReg 6 -1 TSP Limit?  YES         \n* dscfm = acfm x (460 R + 70 F)/(460 R + Engine Maximum Exhaust Temperature in F) x (1 - water (H2O \nContent))   \n \nS-1 is an emergency standby generator; from Regulation 9, Rule 8 (NOx and CO from Stationary \nInternal Combustion Engines), Section 110.5 (Emergency Standby Engines), S -1 is exempt from \nthe requirements of Regulations 9 -8-301 (Emission Limits on Fossil Derived Fuel Gas), 9 -8-302 \n(Emission Limits on Waste Derived Fuel Gas), 9 -8-303 (Emissions Limits – Delayed Complianc e, \nExisting Spark -Ignited Engines, 51 to 250 bhp or Model Year 1996 or Later), 9 -8-304 (Emission \nLimits – Compression -Ignited Engines), 9 -8-305 (Emission Limits – Delayed Compliance, \nExisting Compression -Ignited Engines, Model Year 1996 or Later), 9 -8-501 (Initial Demonstration \nof Compliance) and 9 -8-503 (Quarterly Demonstration of Compliance).  \n \nAllowable operating hours and the corresponding record keeping in Regulations 9 -8-330 \n(Emergency Standby Engines, Hours of Operation) or Regulation 9 -8-331 (Essential Public \nService, Hours of Operation) and 9 -8-530 (Emergency Standby Engines, Monitoring an d \nRecordkeeping) will be included in the Permit Conditions below.  \n \nThis permit application is not subject to the California Environmental Quality Act (CEQA) \nbecause the Air District’s evaluation is a ministerial action (Public Resources Code Section \n21080(b)(1) and CEQA Guidelines Section 15268(a)) conducted using the fix ed standards and \nobjective measurements in the Air District’s rules and regulations.compliance  with District, state, or Federal emission limits is not  limited. (Basis:\nRegulat ion 9 -8-330) \n3. The owner/operator shall operate each emergency standb y engine(s) only when a non -\nresettable totalizing mete r (with a minimum display capability of 9,999 hours) that  \nmeasures the hours of operation for the engine is  installed, operated and properly \nmaintained.  (Basis: Regulation 9 -8-530) \n4. The owner/operator shall not operate the natural gas  fired engine unless it is abated with \nan integral or  add-on three -way catalyst, or other approved abatement  \ndevice. (Basis: Cumulative Increase)  \n5. Records: The owner/operator shall maintain the following  monthly records in a District \napproved log for at least  24 months from the date of entry (60 months if the  facility has \nbeen issued a Title V Major Facility Review  Permit or a Synthetic Minor Operating \nPermit). Log  entries shall be retained on site, either at a centr al location or at the engine's \nlocation and  made  immediately available to the District staff upo n request.  \n         a.  Hours of operation for reliability - related  activities (maintenance and testing).  \n         b.  Hours of operation for emission testing.  \n         c.  Hours of operation (emergency).  \n         d.  For each emergency, the nature of the emergency  condition.  \n         e.  Fuel usage or operating hours for engine.  \n          (Basis: Regulations 9 -8-502 and 9 -8-530) \n \nEnd of Conditions"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Public Notification (Regulation 2 -1-412)\nThe proposed source is located less than 1,000 feet from K -12 school, with more than 1 2 \nstudents enrolled.  \nTherefore, the proposed source is subject to the public notification requirements of Regulation 2 -\n1-412. A public notice was prepared and sent to all addresses within 1,000 feet of the proposed \nsource and parents and guardians of students of the following school:  \nSacred Heart Schools, Atherton - Catholic school  \n150 Valparaiso Ave, Atherton, CA 94027  \nAll comments will be  responded to in the same manner they are received.the public notification requirements of Regulation 2 -1-412. After the comments are received from\nthe public and reviewed, the Air District will make a final determination on the permit.  \nI recommend that the Air District initiate a public notice and consider any comments received prior \nto taking any final action on issuance of an Authority to Construct and/or a Permit to Operate for \nthe following equipment:  \n \nS-1 Emergency Standby Natural  Gas Engine   \nMake: Kohler Co., Model: KG6208, Model Year: 202 4 \n95.14  BHP, 1.064  MMBTU/hr Abated by A -1 \n \nA-1 Nett Technologies Inc. - TG Series Catalytic Converter  \n \nPrepared by: Brittany McIntosh  \nAir Quality Technician  II \n     \n \n \n \n \n \n \nTable 1 to Subpart JJJJ of Part 60 —NO X, CO, and VOC Emission Standards for Stationary Non -Emergency \nSI Engines ≥100 HP (Except Gasoline and Rich Burn LPG), Stationary SI Landfill/Digester Gas Engines, and \nStationary Emergency Engines >25 HP"
+  },
+  "conditions": {
+    "text": "Permit Conditions\nonditions  \nPermit Condition No. 231 07 for S -1    \n \n1. Operating time for reliability related activities is  limited to 50 hours per year per engine.  \n(Basis: Regulation 9-8-330.3)  \n2. The owner/operator shall operate the stationary  emergency standby engine only for the \nfollowing  purposes: to mitigate emergency conditions, for emission  testing to \ndemonstrate compliance with a District, State  or Federal emission limit, or for reliability \nrelated  activities (maintenance and other testing but excluding  emission testing).  \nOperating while mitigating emergency  conditions or while emission testing to show"
+  },
+  "permit_conditions": {
+    "condition_number": 231,
+    "items": [
+      {
+        "num": 1,
+        "text": "Operating time for reliability related activities is  limited to 50 hours per year per engine.  \n(",
+        "basis": [
+          "Regulation 9-8-330.3)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall operate the stationary  emergency standby engine only for the \nfollowing  purposes: to mitigate emergency conditions, for emission  testing to \ndemonstrate compliance with a District, State  or Federal emission limit, or for reliability \nrelated  activities (maintenance and other testing but excluding  emission testing).  \nOperating while mitigating emergency  conditions or while emission testing to show",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\nRecommendation  \nThe Air District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of Air District, state, and federal air quality -related regulations.  The \npreliminary recommendation is to issue an Authority to Construct for the equipment listed below. \nHowever, the proposed source will be located within 1,000 feet of a K -12 school which trigge rs"
+  },
+  "raw_sections": {
+    "preamble": "",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nION    \n   \nFacility ID No. 203856  \nSOHA Property Holdings LLC  \n3 Robert South Drive, Menlo Park, CA 94025  \nApplication No. 722501"
+      },
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nound    \nSOHA Property Holdings LLC  is applying for an Authority to Construct (AC) for the \nfollowing equipment:  \nS-1 Emergency Standby Natural  Gas Engine   \nMake: Kohler Co., Model: KG 6208 , Model Year: 2024 \n95.14  BHP, 1.064  MMBTU/hr Abated by A -1 \n \nA-1 Nett Technologies Inc. - TG Series Catalytic Converter"
+      },
+      {
+        "heading": "Emission Calculations",
+        "alias": "EMISSIONS",
+        "text": "Emission Calculations\nns  \nEmission factors for nitrogen oxides (NOx), precursor organic compounds (POC), and carbon \nmonoxide (CO) were obtained from the engine manufacturer.   Particulate matter (PM 10/PM 2.5) and \nsulfur dioxide (SO 2) emission factors are based on AP 42, Fifth Edition, V olume I, Chapter 3: \nStationary Internal Combustion Sources, Section 3.2.4.1 Control Techniques for 4 -Cycle Rich -\nBurn Engines and Table 3.2 -3 Uncontrolled Emission Factors for 4 -Stroke Rich -Burn \nEngines .1  The engine will operate for emergency purposes and will be limited to a maximum of \n50 hours per year for maintenance and testing.   \n \nTable 1 .  Hourly, Daily, and Annual Emissions from S -1 \nPollutant  Unabated \nEmission \nFactor (g/hp -\nhr) Abatement \nEfficiency \n(% w/w)  Abated \nEmission \nFactor \n(g/hp -hr) Hourly"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lb/hr)  Maximum Daily \nEmissions \n(lb/day)  Annual \nEmissions \n(lb/yr)  Annual \nEmissions \n(TPY)  \nNOx  5.22 98 0.10 0.02 0.53 1.09 0.0005  \nPOC  0.22 50 0.11 0.02 0.56 1.17 0.0006  \nCO 15.67  94 0.94 0.20 4.73 9.85 0.0049  \nPM 10/PM 2.5 0.10 N/A 0.10 0.02 0.50 1.03 0.000 5 \nSO 2 0.00 N/A 0.00 0.00 0.02 0.03 0.0000  \nBasis :  \n• 95.14  bhp Max Rated Output  \n• 1013  scf/hr Max fuel use Rate = 1.064  MMBTU/hr  \n• NOx, POC and CO emission factors are from the engine manufacturer.  \n• NOx and CO abatement efficiencies are from the abatement device manufacturer and are 98% and 94% by \nweight, respectively.  POC abatement efficiency is assumed to be 50% by weight.  \n• PM 10/PM 2.5 and SO 2 emission factors are from EPA AP -42, Table 3.2 -3 Uncontrolled Emission Factors for   \n4-Stroke Rich -Burn Engines.  The PM 10/PM 2.5 emission factor is the total of filterable and condensable \nparticulates.  \n• Annual Emissions are based on an annual limit (50 hr/yr) for testing and maintenance.  \n• Max daily emissions are based on 24 hr/day since no daily limits are imposed on emergency operations.  \n \n • SO 2 Emission Factor = 5.88 E -04 lb/MMBtu; calculations assume 100% of fuel sulfur conversion with the content \nin CA natural gas = 10,000 gr/106scf.   \n• PM 10/PM 2.5 fuel input emission factor = 9.50E -03 lb/MMBtu (filterable) + 9.91E -03 lb/MMBtu (condensable) = \n1.94E -02 lb/MMBtu; aerodynamic particle diameter =< 1 µm, for the purposes of filterable emissions PM 10= PM 2.5.  \nThese emissions are expected to be negligible but included for completeness."
+      },
+      {
+        "heading": "Toxic Risk Screen Analysis",
+        "alias": "TOXICS",
+        "text": "Toxic Risk Screen Analysis\nPursuant to Regulation 2 -5-110, a project, including all new or modified sources of toxic air \ncontaminants (TAC) within a five-year period, is not subject to this rule if the total project \nemissions are below the acute and chronic trigger levels listed in Table 2 -5-1 “Toxic Air \nContaminant Trigger Levels” of this regulation.  \n \nThe emission factors are from the California Air Toxics Emission Factors (CATEF) and the \nCompilation of Air Pollutant Emissions Factor: AP -42.  CATEF emission factors are preferentially \nchosen over AP -42 factors.  If the AP -42 emission factor is based on t he detection limit, the \nemission factor will equal 1/2 of the AP -42 emission factor."
+      },
+      {
+        "heading": "Table 2.  Toxic Air Contaminant Review for Engin e",
+        "alias": "TOXICS",
+        "text": "Table 2.  Toxic Air Contaminant Review for Engin e\nCompound  Emission \nFactor \n(lb/MMB\ntu) Basis  Hourly \nEmission \nRate  \n(lb/hr)  Acute \nTrigger \nLevel  \n(lb/hr)  Annual \nEmission \nRate  \n(lb/yr)  Chronic \nTrigger \nLevel \n(lb/yr)  Exceeds \nAcute or \nChronic \nTrigger \nLevel?  \n1,1,2,2 -Tetrachloroethane  2.53E -05 AP-42 1.3E-05 None  6.7E-04 1.4E+00  No \n1,1,2 -Trichloroethane  7.65E -06 AP-42 8.1E-06 None  4.1E-04 5.0E+00  No \n1,1-Dichloroethane  5.65E -06 AP-42 6.0E-06 None  3.0E-04 5.0E+01  No \n1,3-Butadiene  1.02E -04 CATEF  5.4E-05 2.9E-01 2.7E-03 4.8E-01 No \nAcetaldehyde  8.66E -04 CATEF  4.6E-04 2.1E-01 2.3E-02 2.9E+01  No \nAcrolein  5.36E -04 CATEF  2.9E-04 1.1E-03 1.4E-02 1.4E+01  No \nBenzene (no control)  1.87E -03 CATEF  1.0E-03 1.2E-02 5.0E-02 2.9E+00  No \nCarbon Tetrachloride  8.85E -06 AP-42 9.4E-06 8.4E-01 4.7E-04 1.9E+00  No \nChlorobenzene  6.45E -06 AP-42 6.9E-06 None  3.4E-04 3.9E+04  No \nChloroform  6.85E -06 AP-42 7.3E-06 6.6E-02 3.6E-04 1.5E+01  No \nEthylbenzene  1.14E -05 CATEF  6.0E-06 None  3.0E-04 3.3E+01  No \nEthylene Dibromide  1.07E -05 AP-42 1.1E-05 None  5.7E-04 1.1E+00  No \nFormaldehyde (no control)  2.30E -03 CATEF  1.2E-03 2.4E-02 6.1E-02 1.4E+01  No \nMethanol  3.06E -03 AP-42 1.6E-03 1.2E+01  8.1E-02 1.5E+05  No \nMethylene Chloride  4.12E -05 AP-42 2.2E-05 6.2E+00  1.1E-03 8.2E+01  No \nNaphthalene  7.50E -05 CATEF  4.0E-05 None  2.0E-03 2.4E+00  No \nPAH  2.12E -07 CATEF  9.5E-08 None  4.7E-06 3.3E-03 No \nPropylene  1.57E -02 CATEF  8.3E-03 None  4.2E-01 1.2E+05  No \nStyrene  5.95E -06 AP-42 6.3E-06 9.3E+00  3.2E-04 3.5E+04  No \nToluene  1.05E -03 CATEF  5.6E-04 2.2E+00  2.8E-02 1.6E+04  No \nVinyl Chloride  3.59E -06 AP-42 3.8E-06 8.0E+01  1.9E-04 1.1E+00  No \nXylene (total)  6.45E -04 CATEF  3.4E-04 9.7E+00  1.7E-02 2.7E+04  No \nBasis:  \n \n • Abatement efficiency is assumed to be 50% by weight for each TAC above.  \n \nThe project does not exceed any acute or chronic trigger level and there are not any related projects \nin the last five years. Therefore, the project is not subject to the requirements of Regulation 2 -5-"
+      },
+      {
+        "heading": "110. \nBest Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "110. \nBest Available Control Technology (BACT)\nPursuant to Regulation 2 -2-301, Best Available Control Technology (BACT) shall apply to new or \nmodified sources with a Potential to Emit equal to or greater than 10 lb per highest day of the \npollutants in Table 1.   \n \nBACT is not triggered for any pollutant since the maximum daily emission of each pollutant does \nnot exceed 10 lb/day."
+      },
+      {
+        "heading": "Plant Cumulative Emissions",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Emissions\nTable 3 summarizes the cumulative increase in criteria pollutant emissions that will result from the \noperation of S-1. \n \nTable 3.  Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing Emissions  \nPost 4/5/91  \n(ton/yr)  Application  \nEmissions  \n(ton/yr)  Cumulative  \nEmissions  \n(ton/yr)  \nNOx  0.000  0.0005  0.0005  \nPOC  0.000  0.0006  0.0006  \nCO 0.000  0.0049  0.0049  \nPM 10/PM 2.5 0.000  0.000 5 0.000 5 \nSO 2 0.000  0.0000  0.0000"
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nts  \nPer Regulation 2 -2-302, offsets must be provided for any new or modified source at a facility \nthat has the potential to emit (PTE) more than 10 tons/yr of POC or NO x and 100 tons for \nparticulate matter and SO 2.  The PTE for emergency -use engines will include the hours allowed \nfor testing and maintenance, as well as an assumed 100 hours per year for emergencies.  \n \nTable 4. Potential to Emit for Plant# 203856  \nPollutant  Existing \nAnnual \nEmissions \n(ton/yr)  Application \nAnnual \nEmission \n(ton/yr)  Facility \nAnnual \nEmissions  \n(ton/yr)  Offset \nRequirement \n(ton/yr)  Offset \nRequired?  \nNOx  0.000  0.0016  0.0016  10 N \nPOC  0.000  0.0018  0.0018  10 N \nCO 0.000  0.0148  0.0148  - N \nPM 10/PM 2.5 0.000  0.001 5 0.001 5 100 N \nSO 2 0.000  0.0000  0.0000  100 N \n \nBased on the emission calculations in Table 4, offsets are not required for this application.  \n \n  \n \n \nNew Source Performance Standards  \nThe New Source Performance Standard (NSPS)  in 40 CFR 60, Subpart JJJJ apply because the \nengine will be installed after January 1, 2011.   The engine will comply with the following limits \nin Table 1 for emergency spark -ignited engines greater than 25 hp but less than 130 hp:  \n \nPollutant  S-1 Emission Factor \n(Abated)  NSPS Standard  \nNO x              0.10 g/bhp -hr 10 g/bhp -hr \nCO               0.94 g/bhp -hr 387 g/bhp -hr \n  \nAs the information above shows , S-1 is in compliance with these NSPS emission requirements.  \nNational Emission Standards for Hazardous Air Pollutants (NESHAP)  \nThis engine will be operated at a hazardous air pollutant (HAP) area source.  Therefore, the engine \nwill be subject to the Reciprocating Internal Combustion Engine (RICE) National Emission \nStandards for Hazardous Air Pollutants (NESHAP) (40 CFR Part 63, Subpart ZZZZ) because it is \na new source and installed after 2007.  A new RICE at an area source that is subject to 40 CFR \nPart 60, Subpart JJJJ, has no further requirements under 40 CFR Part 63, Subpart ZZZZ pursuant \nto 40 CFR Part 63.6590(c).  Therefore, S -1 complies with the NESHAP by meeting the \nrequirements under 40 CFR Part 60, Subpart JJJJ."
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nce  \nThe owner/operator of S -1 shall comply with Regulation 6, Rule 1 (Particulate Matter and Visible \nEmissions Standards) and Regulation 9 -1-301 (Inorganic Gaseous Pollutants: Sulfur Dioxide for \nLimitations on Ground Level Concentrations). From Regulation 9 -1-301, the ground level \nconcentrations of SO2 will not exceed 0.5 ppm continuously for 3 co nsecutive minutes or 0.25 \nppm averaged over 60 consecutive minutes, or 0.05 ppm averaged over 24 hours.  \n \nSections 6 -1-310.1 and 6 -1-310.2 limit total suspended particulate (TSP) emissions to 0.15 \ngrains/dscf of exhaust gas volume or less depending on the exhaust gas rate (see Table 6 -1-310.2 \nfor the corresponding TSP concentration limit). As shown in the emis sion calculations in the table \nbelow, the certified particulate emission rate from this engine is 0.10 grams per bhp -hour, which \nresults in an outlet grain loading of 0.015 grains per dscf. Since this emission rate is less than the \nlimit in Section 6 -1-310, compliance with this section is expected through use of the certified \nengine.  \nTable 5. Section 6 -1-310 Emissions Calculations  \nEngine Maximum Exhaust Flow \nRate 580 acfm = 162.0  dscf/min  = 9717.9  dscf/hr  \nEngine Maximum Exhaust \nTemperature  1200  F       \nWater (H2O) Content (%)  12.50%         \nPM10 abatement for Engine  0.00%         \nEngine PM10 emissions  0.02 lb/hr = 82.11  kg/yr  = 144.52  gr/hr \n \n Are Engine PM10 Emissions > \n1000 kg/yr?  NO        \nApplicable Regulation 6 -1-310 \nsection?  6-1-310.1         \nTSP Concentration for Engine  0.015 gr/dscf        \nCorresponding Regulation 6 -1 \nTSP Limit  0.15 gr/dscf        \nPM10 emissions < Corresponding \nReg 6 -1 TSP Limit?  YES         \n* dscfm = acfm x (460 R + 70 F)/(460 R + Engine Maximum Exhaust Temperature in F) x (1 - water (H2O \nContent))   \n \nS-1 is an emergency standby generator; from Regulation 9, Rule 8 (NOx and CO from Stationary \nInternal Combustion Engines), Section 110.5 (Emergency Standby Engines), S -1 is exempt from \nthe requirements of Regulations 9 -8-301 (Emission Limits on Fossil Derived Fuel Gas), 9 -8-302 \n(Emission Limits on Waste Derived Fuel Gas), 9 -8-303 (Emissions Limits – Delayed Complianc e, \nExisting Spark -Ignited Engines, 51 to 250 bhp or Model Year 1996 or Later), 9 -8-304 (Emission \nLimits – Compression -Ignited Engines), 9 -8-305 (Emission Limits – Delayed Compliance, \nExisting Compression -Ignited Engines, Model Year 1996 or Later), 9 -8-501 (Initial Demonstration \nof Compliance) and 9 -8-503 (Quarterly Demonstration of Compliance).  \n \nAllowable operating hours and the corresponding record keeping in Regulations 9 -8-330 \n(Emergency Standby Engines, Hours of Operation) or Regulation 9 -8-331 (Essential Public \nService, Hours of Operation) and 9 -8-530 (Emergency Standby Engines, Monitoring an d \nRecordkeeping) will be included in the Permit Conditions below.  \n \nThis permit application is not subject to the California Environmental Quality Act (CEQA) \nbecause the Air District’s evaluation is a ministerial action (Public Resources Code Section \n21080(b)(1) and CEQA Guidelines Section 15268(a)) conducted using the fix ed standards and \nobjective measurements in the Air District’s rules and regulations."
+      },
+      {
+        "heading": "Public Notification (Regulation 2 -1-412)",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Public Notification (Regulation 2 -1-412)\nThe proposed source is located less than 1,000 feet from K -12 school, with more than 1 2 \nstudents enrolled.  \nTherefore, the proposed source is subject to the public notification requirements of Regulation 2 -\n1-412. A public notice was prepared and sent to all addresses within 1,000 feet of the proposed \nsource and parents and guardians of students of the following school:  \nSacred Heart Schools, Atherton - Catholic school  \n150 Valparaiso Ave, Atherton, CA 94027  \nAll comments will be  responded to in the same manner they are received."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nonditions  \nPermit Condition No. 231 07 for S -1    \n \n1. Operating time for reliability related activities is  limited to 50 hours per year per engine.  \n(Basis: Regulation 9-8-330.3)  \n2. The owner/operator shall operate the stationary  emergency standby engine only for the \nfollowing  purposes: to mitigate emergency conditions, for emission  testing to \ndemonstrate compliance with a District, State  or Federal emission limit, or for reliability \nrelated  activities (maintenance and other testing but excluding  emission testing).  \nOperating while mitigating emergency  conditions or while emission testing to show"
+      },
+      {
+        "heading": "compliance  with District, state, or Federal emission limits is not  limited. (Basis:",
+        "alias": "SOC",
+        "text": "compliance  with District, state, or Federal emission limits is not  limited. (Basis:\nRegulat ion 9 -8-330) \n3. The owner/operator shall operate each emergency standb y engine(s) only when a non -\nresettable totalizing mete r (with a minimum display capability of 9,999 hours) that  \nmeasures the hours of operation for the engine is  installed, operated and properly \nmaintained.  (Basis: Regulation 9 -8-530) \n4. The owner/operator shall not operate the natural gas  fired engine unless it is abated with \nan integral or  add-on three -way catalyst, or other approved abatement  \ndevice. (Basis: Cumulative Increase)  \n5. Records: The owner/operator shall maintain the following  monthly records in a District \napproved log for at least  24 months from the date of entry (60 months if the  facility has \nbeen issued a Title V Major Facility Review  Permit or a Synthetic Minor Operating \nPermit). Log  entries shall be retained on site, either at a centr al location or at the engine's \nlocation and  made  immediately available to the District staff upo n request.  \n         a.  Hours of operation for reliability - related  activities (maintenance and testing).  \n         b.  Hours of operation for emission testing.  \n         c.  Hours of operation (emergency).  \n         d.  For each emergency, the nature of the emergency  condition.  \n         e.  Fuel usage or operating hours for engine.  \n          (Basis: Regulations 9 -8-502 and 9 -8-530) \n \nEnd of Conditions"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\nRecommendation  \nThe Air District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of Air District, state, and federal air quality -related regulations.  The \npreliminary recommendation is to issue an Authority to Construct for the equipment listed below. \nHowever, the proposed source will be located within 1,000 feet of a K -12 school which trigge rs"
+      },
+      {
+        "heading": "the public notification requirements of Regulation 2 -1-412. After the comments are received from",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "the public notification requirements of Regulation 2 -1-412. After the comments are received from\nthe public and reviewed, the Air District will make a final determination on the permit.  \nI recommend that the Air District initiate a public notice and consider any comments received prior \nto taking any final action on issuance of an Authority to Construct and/or a Permit to Operate for \nthe following equipment:  \n \nS-1 Emergency Standby Natural  Gas Engine   \nMake: Kohler Co., Model: KG6208, Model Year: 202 4 \n95.14  BHP, 1.064  MMBTU/hr Abated by A -1 \n \nA-1 Nett Technologies Inc. - TG Series Catalytic Converter  \n \nPrepared by: Brittany McIntosh  \nAir Quality Technician  II \n     \n \n \n \n \n \n \nTable 1 to Subpart JJJJ of Part 60 —NO X, CO, and VOC Emission Standards for Stationary Non -Emergency \nSI Engines ≥100 HP (Except Gasoline and Rich Burn LPG), Stationary SI Landfill/Digester Gas Engines, and \nStationary Emergency Engines >25 HP"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nION    \n   \nFacility ID No. 203856  \nSOHA Property Holdings LLC  \n3 Robert South Drive, Menlo Park, CA 94025  \nApplication No. 722501"
+      }
+    ]
+  }
+}

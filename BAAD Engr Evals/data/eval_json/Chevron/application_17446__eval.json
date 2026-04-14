@@ -1,0 +1,197 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\extracted_evaluations\\application_17446.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 3
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "17446",
+    "application_number_from_filename": "17446"
+  },
+  "application_number": "17446",
+  "plant": {
+    "name": "(PO) the following equipment:",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "A-32105",
+      "description": "Carbon Adsorbers, Calgon VAPOR PAC, 2 drums, 200 lb ea."
+    }
+  ],
+  "background": {
+    "text": "background\nnd  \n \nChevron Products Company has applied for an Aut hority to Construct (A C)/Permit to Operate \n(PO) the following equipment:  \nA-32105 Carbon Adsorbers, Calgon VAPOR PAC, 2 drums, 200 lb ea. \n \nThe carbon canisters will be used to abate S-32105 – Outfall Basin Downstream of S-4148 –Oil-\nWater Separator #13."
+  },
+  "emission_calculations": {
+    "text": "Emissions\nns\n \n \nThere is no net increase in emissions.  There is  no increase in plant operational capacity as a \nresult of this project.  The average non-me thane hydrocarbon concentra tion provided by the \nmonitoring data has been 2,975 ppm.  A 90% reduction efficiency of the carbon canisters results \nin breakthrough concentrations of 298 ppm and 30 ppm at the outlets of the first and second \ncanisters, respectively."
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Increase\nThere is no net increase in emissions."
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emissions\nns\n \n \nThere is no net increase in emissions.  There is  no increase in plant operational capacity as a \nresult of this project.  The average non-me thane hydrocarbon concentra tion provided by the \nmonitoring data has been 2,975 ppm.  A 90% reduction efficiency of the carbon canisters results \nin breakthrough concentrations of 298 ppm and 30 ppm at the outlets of the first and second \ncanisters, respectively.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "A-32105": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "TOXIC SCREENING ANALYSIS\nThis application only concerns abat ement, so there is no impact on toxic emissions.  Therefore, a \nToxics Risk Screening Analysis was not performed."
+  },
+  "BACT": {
+    "text": "BACT\nThere is no increase in emissions associated wi th this abatement application, thus BACT does \nnot apply."
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "statement of compliance\nThere is no change to the requirements of this facility.  The project is considered to be ministeria l under District's CEQA Regulation 2-1-311 and \ntherefore is not subject to CEQA review.  The engineering review for this project requires only the \napplication of standard permit conditions and standar d emission factors (MOP Chapter 2.3) and \ntherefore is not discreti onary as defined by CEQA. \n Offsets are not required.  PSD, NSPS, NESHAPs do not appl y to this application."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Public Notification\non  \n \nThe project is not within 1000 feet of a public school and therefore is not subject to the public \nnotification requirement s of Reg. 2-1-412."
+  },
+  "conditions": {
+    "text": "permit conditions\nns\n \n \nCOND#  24085   -------------------------------------- \n 67 \n     Conditions for A-32105 Carbon Adsorbers, Calgon      VAPOR PAC, 2 drums, 200 lb ea. Abating S-4148      Application # 17446, Plant # 10                                                 1. The owner/operator shall vent Source S-32105 (S-         4148) at all times to Abatement device A-32105,         two (200 lb minimum capacity) activated carbon         vessels arranged in series.      (Basis: Cumulative Increase)                                      2. The owner/operator of this source shall monitor         with a photo-ionization detector (PID), flame-         ionization detector (FID), or other method         approved in writing by the Air Pollution         Control Officer at the following locations:         a. At the inlet to the second to last carbon            vessel in series.         b. At the inlet to the last carbon vessel in            series.         c. At the outlet of the carbon vessel that is            last in series prior to venting to the            atmosphere. When using an FID to monitor            breakthrough, readings may be taken with and            without a carbon filter tip fitted on the            FID probe. Concentrations measured with the            carbon filter tip in place shall be            considered methane for the purposes of these            permit conditions.      (Basis: Cumulative Increase)                                      3. The owner/operator shall record these monitor         readings in a monitoring log at the time they         are taken. The monitoring results shall be used         to estimate the frequency of carbon change-out         necessary to maintain compliance with         conditions number 4 and 5, and shall be         conducted on a daily basis. The owner/operator         of this source may propose for District review,         based on actual measurements taken at the site         during operation of the source, that the         monitoring schedule be changed based on the         decline in organic emissions and/or the         demonstrated breakthrough rates of the carbon         vessels. Written approval by the District's         Permit Services Division must be received by         the owner/operator prior to a change to the         monitoring schedule.      (Basis: Cumulative Increase)                                      4. The owner/operator shall change out the second         to last carbon vessel with unspent carbon upon         breakthrough, defined as the detection at its         outlet of the higher of the following: \n 68        a. 10 % of the inlet stream concentration to \n           the Carbon vessel.         b. 298 ppmv or greater (measured as C4).      (Basis: Cumulative Increase)                                      5. The owner/operator shall change out the last         carbon vessel with unspent carbon upon         detection at its outlet of 30 ppmv or greater         (measured as C4).      (Basis: Cumulative Increase)                                      6. The owner/operator of this source shall         maintain the following records for each month         of operation of the source:         a. The hours and times of operation.         b. Each monitor reading or analysis result for            the day of operation they are taken.         c. The number of carbon beds removed from            service.      All measurements, records and data required to be      maintained by the owner/operator shall be retained      and made available for inspection by the District      for at least two years [Note:      This is five years for Title V facilities]      following the date the data is recorded.  (Basis:      Cumulative Increase)                                              7. The owner/operator shall report any non-         compliance with parts 4 and/or 5 to the         Director of the Compliance & Enforcement         Division at the time that it is discovered. The         submittal shall detail the corrective action         taken and shall include the data showing the         exceedance as well at the time of occurrence.         (Basis: Cumulative Increase)"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": null,
+        "text": "permit conditions\nns\n \n \nCOND#  24085   -------------------------------------- \n 67 \n     Conditions for A-32105 Carbon Adsorbers, Calgon      VAPOR PAC, 2 drums, 200 lb ea. Abating S-4148      Application # 17446, Plant # 10                                                 1. The owner/operator shall vent Source S-32105 (S-         4148) at all times to Abatement device A-32105,         two (200 lb minimum capacity) activated carbon         vessels arranged in series.      (Basis: Cumulative Increase)                                      2. The owner/operator of this source shall monitor         with a photo-ionization detector (PID), flame-         ionization detector (FID), or other method         approved in writing by the Air Pollution         Control Officer at the following locations:         a. At the inlet to the second to last carbon            vessel in series.         b. At the inlet to the last carbon vessel in            series.         c. At the outlet of the carbon vessel that is            last in series prior to venting to the            atmosphere. When using an FID to monitor            breakthrough, readings may be taken with and            without a carbon filter tip fitted on the            FID probe. Concentrations measured with the            carbon filter tip in place shall be            considered methane for the purposes of these            permit conditions.      (Basis: Cumulative Increase)                                      3. The owner/operator shall record these monitor         readings in a monitoring log at the time they         are taken. The monitoring results shall be used         to estimate the frequency of carbon change-out         necessary to maintain compliance with         conditions number 4 and 5, and shall be         conducted on a daily basis. The owner/operator         of this source may propose for District review,         based on actual measurements taken at the site         during operation of the source, that the         monitoring schedule be changed based on the         decline in organic emissions and/or the         demonstrated breakthrough rates of the carbon         vessels. Written approval by the District's         Permit Services Division must be received by         the owner/operator prior to a change to the         monitoring schedule.      (Basis: Cumulative Increase)                                      4. The owner/operator shall change out the second         to last carbon vessel with unspent carbon upon         breakthrough, defined as the detection at its         outlet of the higher of the following: \n 68        a. 10 % of the inlet stream concentration to \n           the Carbon vessel.         b. 298 ppmv or greater (measured as C4).      (Basis: Cumulative Increase)                                      5. The owner/operator shall change out the last         carbon vessel with unspent carbon upon         detection at its outlet of 30 ppmv or greater         (measured as C4).      (Basis: Cumulative Increase)                                      6. The owner/operator of this source shall         maintain the following records for each month         of operation of the source:         a. The hours and times of operation.         b. Each monitor reading or analysis result for            the day of operation they are taken.         c. The number of carbon beds removed from            service.      All measurements, records and data required to be      maintained by the owner/operator shall be retained      and made available for inspection by the District      for at least two years [Note:      This is five years for Title V facilities]      following the date the data is recorded.  (Basis:      Cumulative Increase)                                              7. The owner/operator shall report any non-         compliance with parts 4 and/or 5 to the         Director of the Compliance & Enforcement         Division at the time that it is discovered. The         submittal shall detail the corrective action         taken and shall include the data showing the         exceedance as well at the time of occurrence.         (Basis: Cumulative Increase)",
+        "basis": [
+          "Cumulative Increase"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "recommendation\nWaive Authority to Construct and issue Conditi onal Permit to Operate to Chevron Products \nCompany for:  \nA-32105 Carbon Adsorbers, Calgon VAPOR PAC, 2 drums, 200 lb ea. \n \n \n  \nby: ____________________________________ Date: _________________________________ \n      Faye Bruno \nAir Quality Engineer I \n 69"
+  },
+  "raw_sections": {
+    "preamble": "66Engineering Evaluation \nChevron Products Company \nApplication # 17446 \nPlant # 10",
+    "blocks": [
+      {
+        "heading": "background",
+        "alias": "BACKGROUND",
+        "text": "background\nnd  \n \nChevron Products Company has applied for an Aut hority to Construct (A C)/Permit to Operate \n(PO) the following equipment:  \nA-32105 Carbon Adsorbers, Calgon VAPOR PAC, 2 drums, 200 lb ea. \n \nThe carbon canisters will be used to abate S-32105 – Outfall Basin Downstream of S-4148 –Oil-\nWater Separator #13."
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\nns\n \n \nThere is no net increase in emissions.  There is  no increase in plant operational capacity as a \nresult of this project.  The average non-me thane hydrocarbon concentra tion provided by the \nmonitoring data has been 2,975 ppm.  A 90% reduction efficiency of the carbon canisters results \nin breakthrough concentrations of 298 ppm and 30 ppm at the outlets of the first and second \ncanisters, respectively."
+      },
+      {
+        "heading": "Plant Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Increase\nThere is no net increase in emissions."
+      },
+      {
+        "heading": "TOXIC SCREENING ANALYSIS",
+        "alias": "TOXICS",
+        "text": "TOXIC SCREENING ANALYSIS\nThis application only concerns abat ement, so there is no impact on toxic emissions.  Therefore, a \nToxics Risk Screening Analysis was not performed."
+      },
+      {
+        "heading": "Public Notification",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Public Notification\non  \n \nThe project is not within 1000 feet of a public school and therefore is not subject to the public \nnotification requirement s of Reg. 2-1-412."
+      },
+      {
+        "heading": "BACT",
+        "alias": "BACT",
+        "text": "BACT\nThere is no increase in emissions associated wi th this abatement application, thus BACT does \nnot apply."
+      },
+      {
+        "heading": "statement of compliance",
+        "alias": "SOC",
+        "text": "statement of compliance\nThere is no change to the requirements of this facility.  The project is considered to be ministeria l under District's CEQA Regulation 2-1-311 and \ntherefore is not subject to CEQA review.  The engineering review for this project requires only the \napplication of standard permit conditions and standar d emission factors (MOP Chapter 2.3) and \ntherefore is not discreti onary as defined by CEQA. \n Offsets are not required.  PSD, NSPS, NESHAPs do not appl y to this application."
+      },
+      {
+        "heading": "permit conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "permit conditions\nns\n \n \nCOND#  24085   -------------------------------------- \n 67 \n     Conditions for A-32105 Carbon Adsorbers, Calgon      VAPOR PAC, 2 drums, 200 lb ea. Abating S-4148      Application # 17446, Plant # 10                                                 1. The owner/operator shall vent Source S-32105 (S-         4148) at all times to Abatement device A-32105,         two (200 lb minimum capacity) activated carbon         vessels arranged in series.      (Basis: Cumulative Increase)                                      2. The owner/operator of this source shall monitor         with a photo-ionization detector (PID), flame-         ionization detector (FID), or other method         approved in writing by the Air Pollution         Control Officer at the following locations:         a. At the inlet to the second to last carbon            vessel in series.         b. At the inlet to the last carbon vessel in            series.         c. At the outlet of the carbon vessel that is            last in series prior to venting to the            atmosphere. When using an FID to monitor            breakthrough, readings may be taken with and            without a carbon filter tip fitted on the            FID probe. Concentrations measured with the            carbon filter tip in place shall be            considered methane for the purposes of these            permit conditions.      (Basis: Cumulative Increase)                                      3. The owner/operator shall record these monitor         readings in a monitoring log at the time they         are taken. The monitoring results shall be used         to estimate the frequency of carbon change-out         necessary to maintain compliance with         conditions number 4 and 5, and shall be         conducted on a daily basis. The owner/operator         of this source may propose for District review,         based on actual measurements taken at the site         during operation of the source, that the         monitoring schedule be changed based on the         decline in organic emissions and/or the         demonstrated breakthrough rates of the carbon         vessels. Written approval by the District's         Permit Services Division must be received by         the owner/operator prior to a change to the         monitoring schedule.      (Basis: Cumulative Increase)                                      4. The owner/operator shall change out the second         to last carbon vessel with unspent carbon upon         breakthrough, defined as the detection at its         outlet of the higher of the following: \n 68        a. 10 % of the inlet stream concentration to \n           the Carbon vessel.         b. 298 ppmv or greater (measured as C4).      (Basis: Cumulative Increase)                                      5. The owner/operator shall change out the last         carbon vessel with unspent carbon upon         detection at its outlet of 30 ppmv or greater         (measured as C4).      (Basis: Cumulative Increase)                                      6. The owner/operator of this source shall         maintain the following records for each month         of operation of the source:         a. The hours and times of operation.         b. Each monitor reading or analysis result for            the day of operation they are taken.         c. The number of carbon beds removed from            service.      All measurements, records and data required to be      maintained by the owner/operator shall be retained      and made available for inspection by the District      for at least two years [Note:      This is five years for Title V facilities]      following the date the data is recorded.  (Basis:      Cumulative Increase)                                              7. The owner/operator shall report any non-         compliance with parts 4 and/or 5 to the         Director of the Compliance & Enforcement         Division at the time that it is discovered. The         submittal shall detail the corrective action         taken and shall include the data showing the         exceedance as well at the time of occurrence.         (Basis: Cumulative Increase)"
+      },
+      {
+        "heading": "recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "recommendation\nWaive Authority to Construct and issue Conditi onal Permit to Operate to Chevron Products \nCompany for:  \nA-32105 Carbon Adsorbers, Calgon VAPOR PAC, 2 drums, 200 lb ea. \n \n \n  \nby: ____________________________________ Date: _________________________________ \n      Faye Bruno \nAir Quality Engineer I \n 69"
+      }
+    ],
+    "unmapped_blocks": []
+  }
+}

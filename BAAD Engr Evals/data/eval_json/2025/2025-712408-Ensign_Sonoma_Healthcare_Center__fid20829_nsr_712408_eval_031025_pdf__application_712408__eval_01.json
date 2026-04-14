@@ -1,0 +1,283 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 10
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "NOx  0.07   0.11 39.90  0.020\nPOC  0.02   0.03 11.40  0.006\nCO 0.10   0.16 56.94 0.028\nPM 10   5.89 0.12 42.80  0.021\nPM 2.53   5.89 0.12 42.80  0.021\nSO 2   2.86 0.06 20.78  0.010",
+        "NOx  0.07   0.11 39.90  0.020\nPOC  0.02   0.03 11.40  0.006\nCO 0.10   0.16 56.94 0.028\nPM 10   5.89 0.12 42.80  0.021\nPM 2.53   5.89 0.12 42.80  0.021\nSO 2   2.86 0.06 20.78  0.010",
+        "Cadmium  1.92E -04 1.59E -07 1.39E -03 None  1.90E -02 No No\nChromium 6+  1.88E -05 1.56E -08 1.36E -04 None  5.10E -04 No No\nCopper  1.80E -03 1.49E -06 1.30E -02 4.40E -02 None  No No\nEthyl Benzene  1.80E -02 1.49E -05 1.30E -01 None  3.30E+01  No No\nFormaldehyde1 -- 1.30E -03 1.14E+01  2.40E -02 1.40E+01  No No\nn-Hexane  2.59E -01 2.15E -04 1.88E+00  None  2.70E+05  No No\nLead  5.38E -04 4.46E -07 3.91E -03 None  2.90E -01 No No\nManganese  1.50E -03 1.24E -06 1.09E -02 None  3.53E+00  No No",
+        "PAH (as b(a)p -equiv)  2.16E -05 1.79E -08 1.57E -04 None  3.30E -03 No No\nPropylene  7.71E -01 6.40E -04 5.60E+00  None  1.20E+05  No No\nPropylene Oxide  1.99E -02 1.65E -05 1.45E -01 1.40E+00  2.20E+01  No No\nSelenium  3.79E -04 3.15E -07 2.76E -03 None  8.00E+00  No No\nToluene  7.10E -02 5.89E -05 5.16E -01 2.20E+00  1.60E+04  No No\nXylenes  2.61E -02 2.17E -05 1.90E -01 9.70E+00  2.70E+04  No No",
+        "Cadmium  1.92E -04 1.59E -07 1.39E -03 None  1.90E -02 No No\nChromium 6+  1.88E -05 1.56E -08 1.36E -04 None  5.10E -04 No No\nCopper  1.80E -03 1.49E -06 1.30E -02 4.40E -02 None  No No\nEthyl Benzene  1.80E -02 1.49E -05 1.30E -01 None  3.30E+01  No No\nFormaldehyde1 -- 1.30E -03 1.14E+01  2.40E -02 1.40E+01  No No\nN-Hexane  2.59E -01 2.15E -04 1.88E+00  None  2.70E+05  No No\nLead  5.38E -04 4.46E -07 3.91E -03 None  2.90E -01 No No\nManganese  1.50E -03 1.24E -06 1.09E -02 None  3.53E+00  No No",
+        "PAH (as b(a)p -equiv)  2.16E -05 1.79E -08 1.57E -04 None  3.30E -03 No No\nPropylene  7.71E -01 6.40E -04 5.60E+00  None  1.20E+05  No No\nPropylene Oxide  1.99E -02 1.65E -05 1.45E -01 1.40E+00  2.20E+01  No No\nSelenium  3.79E -04 3.15E -07 2.76E -03 None  8.00E+00  No No\nToluene  7.10E -02 5.89E -05 5.16E -01 2.20E+00  1.60E+04  No No\nXylenes  2.61E -02 2.17E -05 1.90E -01 9.70E+00  2.70E+04  No No",
+        "Benzene  1.53E -04 1.34E+00  1.20E -02 2.90E+00  No No\nBeryllium  8.26E -08 7.24E -04 None  3.40E -02 No No\n1,3-Butadiene  1.04E -07 9.13E -04 2.90E -01 4.80E -01 No No\nCadmium  3.23E -07 2.83E -03 None  1.90E -02 No No\nChromium 6+  3.16E -08 2.77E -04 None  5.10E -04 No No\nCopper  3.02E -06 2.65E -02 4.40E -02 None  No No\nEthyl Benzene  3.02E -05 2.65E -01 None  3.30E+01  No No\nFormaldehyde  2.60E -03 2.28E+01  2.40E -02 1.40E+01  No Yes\nn-Hexane  4.36E -04 3.82E+00  None  2.70E+05  No No\nLead  9.05E -07 7.93E -03 None  2.90E -01 No No\nManganese  2.52E -06 2.21E -02 None  3.53E+00  No No",
+        "Mercury  2.52E -06 2.21E -02 2.70E -04 2.10E -01 No No\nNaphthalene  2.80E -06 2.45E -02 None  None  No No\nNickel  3.23E -07 2.83E -03 8.80E -05 3.10E -01 No No\nPAH (as b(a)p -equiv)  3.64E -08 3.19E -04 None  3.30E -03 No No\nPropylene  1.30E -03 1.14E+01  None  1.20E+05  No No\nPropylene Oxide  3.35E -05 2.93E -01 1.40E+00  2.20E+01  No No\nSelenium  6.39E -07 5.60E -03 None  8.00E+00  No No\nToluene  1.20E -04 1.05E+00  2.20E+00  1.60E+04  No No\nXylene  4.40E -05 3.85E -01 9.70E+00  2.70E+04  No No",
+        "(tons/yr)  Cumulative\nEmissions\n(tons/yr)\nNOx  0.012  0.020  0.020  0.052\nPOC  0.000  0.006  0.006  0.011\nCO 0.002  0.028  0.028  0.059\nPM 10 0.000  0.021  0.021  0.043\nPM 2.5 0.000  0.021  0.021  0.043\nSO 2 0.000  0.010  0.010  0.021"
+      ]
+    },
+    "application_number_detected": "712408",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2025/712408/fid20829_nsr_712408_eval_031025-pdf.pdf?rev=97163d2fbd0a4173a553176015057824&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2025/031025-712408/ensign-sonoma-healthcare-center"
+  },
+  "application_number": "712408",
+  "plant": {
+    "name": "Ensign Sonoma Healthcare Center",
+    "plant_id": null,
+    "address": "Sonoma, CA 95476"
+  },
+  "evaluation_date": "July 1, 2005",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-2",
+      "description": "65 kilowatts  (kW) Micro  Turbine , Natural gas -fired,  Make: Capstone ,"
+    },
+    {
+      "id": "S-3",
+      "description": "65 kW Micro Turbine, Natural gas -fired, Make: Capstone,"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd  \nEnsign Sonoma Healthcare Center  (referred to as “facility” hereafter)  is applying for \nAuthorit ies to Construct/Permit s to Operate for the following sources : \n \nS-2 65 kilowatts  (kW) Micro  Turbine , Natural gas -fired,  Make: Capstone ,  \nModel : C65, Maximum Firing Rate : 0.871  MMBtu/ hr \n \nS-3 65 kW Micro Turbine, Natural gas -fired, Make: Capstone,   \nModel : C65, Maximum Firing Rate: 0.871 MMBtu/hr  \n \nThe two micro turbines will be natural gas fired . As a result, t he criteria pollutants \nassociated with S-2 and S -3 are nitrogen oxides (NO x), precursor organic compounds \n(POC ), carbon monoxide (CO ), particulate matter ( PM 10 and PM 2.5), and sulfur dioxide"
+  },
+  "emission_calculations": {
+    "text": "Emissions  Summary\nThe maximum daily and annual emissions  are based on each micro  turbine ’s maximum \npower output , maximum fuel consumption . NO x, CO, and POC  emission factors are from \nthe California Air Resources Bo ard (CARB) Executive Order for distributed generation, \nDG-018 and  PM 10, PM 2.5, and SO 2 emission factors are from the  latest  BAAQMD  Permit \nHandbook, Chapter  2.4.1, Micro Turbines (25 -1,000 kW).   \n \nBased on  the maximum Pacific Gas & Electric  (PG&E)  natural gas specification for \nsulfur of 1 grain per 100 standard cubic feet  (gr/hundred scf), PM 10 (as (NH 4)2SO 4) and \nSO 2 emission factors are calculated  as shown below:  \n \n𝑃𝑀 10=(1𝑔𝑟\n100  𝑠𝑐𝑓)×(𝑙𝑏\n7,000  𝑔𝑟)×(1 𝑠𝑐𝑓\n1,050  𝐵𝑡𝑢)×(106𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢 ) ×(132  𝑙𝑏 (𝑁𝐻 4)2𝑆𝑂4\n32 𝑙𝑏 𝑆)\n=0.00561𝑙𝑏\n𝑀𝑀𝐵𝑡𝑢=0.00561  𝑙𝑏\n𝑀𝑀𝐵𝑡𝑢∗1,050  𝐵𝑡𝑢\n1 𝑠𝑐𝑓=5.89 𝑙𝑏/𝑀𝑀𝑠𝑐𝑓   \n \n𝑆𝑂2=(1𝑔𝑟\n100  𝑠𝑐𝑓)×(𝑙𝑏\n7,000  𝑔𝑟)×(1 𝑠𝑐𝑓\n1,050  𝐵𝑡𝑢)×(106𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢 ) ×(64 𝑙𝑏 𝑆𝑂2\n32 𝑙𝑏 𝑆)\n=0.00272𝑙𝑏\n𝑀𝑀𝐵𝑡𝑢=0.00272  𝑙𝑏\n𝑀𝑀𝐵𝑇𝑈∗1,050  𝐵𝑇𝑈\n𝑠𝑐𝑓=2.86 𝑙𝑏/𝑀𝑀𝑠𝑐𝑓   \n \nThe following provides a summary of each micro turbine ’s information used to determineemissions  calculations:\nS-2 and S -3 \n➢ Power Output: 87 horsepower (hp), 65 kW  \n \n 2 ➢ Maximum  Firing Rating: 0.871  MMBtu/hr  \n➢ Heat Capacity of Natural Gas: 1,0 50 MMBtu/MMscf  \n➢ Operation Hours:  (24 hrs/day)  x (7 days/week) x (52 weeks /year) = 8,760  hours per \nyear ( hr/yr ) \n➢ Maximum Fuel Consumption:  829.5 scf/hr  \n➢ Maximum Fuel Usage Rate: (829.5 scf/hr) x (8,760 hr/yr) = 7,266.6 Mscf/yr  \n \nTable 1. Summary of Criteria Pollutant Emissions  from  S-2 \nPollutant  Emission Factors1,2 Daily \nEmissions Annual Emissions  \nTotal  \nlb/MW -hr lb/MMscf  (lb/day)  (lb/yr)  (tpy)  \nNOx  0.07   0.11 39.90  0.020  \nPOC  0.02   0.03 11.40  0.006  \nCO 0.10   0.16 56.94 0.028  \nPM 10   5.89 0.12 42.80  0.021 \nPM 2.53   5.89 0.12 42.80  0.021 \nSO 2   2.86 0.06 20.78  0.010 \n1. NO X, POC, and CO emissions factors are from the CARB Executive Order DG -018. \n2. PM and SO 2 emission factors per BAAQMD Permit Handbook, Chapter 2.4.1 Micro Turbines \n(25-1,000 kw).  Converted using the heat capacity of natural gas (1,050 MMBtu/MMscf).  \n3. PM 2.5 emissions are assumed to be the same as PM 10. \n \nTable 2. Summary of Criteria Pollutant Emissions from  S-3 \nPollutant  Emission Factors1,2 DailyEmissions Annual Emissions\nTotal  \nlb/MW -hr lb/MMscf  (lb/day)  (lb/yr)  (tpy)  \nNOx  0.07   0.11 39.90  0.020  \nPOC  0.02   0.03 11.40  0.006  \nCO 0.10   0.16 56.94 0.028  \nPM 10   5.89 0.12 42.80  0.021 \nPM 2.53   5.89 0.12 42.80  0.021 \nSO 2   2.86 0.06 20.78  0.010 \n1. NO X, POC, and CO emissions factors are from the CARB Executive Order DG -018. \n2. PM and SO 2 emission factors per BAAQMD Permit Handbook, Chapter 2.4.1 Micro Turbines \n(25-1,000 kw).  Converted using the heat capacity of natural gas (1,050 MMBtu/MMscf).  \n3. PM 2.5 emissions are assumed to be the same as PM 10.Emissions Post\n4/5/91  \n(tons/yr)  S-2 \n Emissions \n(tons/yr)  S-3 \n Emissions \n(tons/yr)  Cumulative \nEmissions  \n(tons/yr)  \nNOx  0.012  0.020  0.020  0.052  \nPOC  0.000  0.006  0.006  0.011  \nCO 0.002  0.028  0.028  0.059  \nPM 10 0.000  0.021  0.021  0.043  \nPM 2.5 0.000  0.021  0.021  0.043  \nSO 2 0.000  0.010  0.010  0.021"
+  },
+  "cumulative_increase": {
+    "text": "7 Plant Cumulative Increase\nrease  \nThe project  is located at 1250 Broadway Avenue, Sonoma, CA 95476 and is an existing \nfacility. The existing  emissions for plant #20829 along with the cumulative increase in \nemissions that will result from this application  are shown in Table 6 below.  \n \nTable 6. Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emissions  Summary\nThe maximum daily and annual emissions  are based on each micro  turbine ’s maximum \npower output , maximum fuel consumption . NO x, CO, and POC  emission factors are from \nthe California Air Resources Bo ard (CARB) Executive Order for distributed generation, \nDG-018 and  PM 10, PM 2.5, and SO 2 emission factors are from the  latest  BAAQMD  Permit \nHandbook, Chapter  2.4.1, Micro Turbines (25 -1,000 kW).   \n \nBased on  the maximum Pacific Gas & Electric  (PG&E)  natural gas specification for \nsulfur of 1 grain per 100 standard cubic feet  (gr/hundred scf), PM 10 (as (NH 4)2SO 4) and \nSO 2 emission factors are calculated  as shown below:  \n \n𝑃𝑀 10=(1𝑔𝑟\n100  𝑠𝑐𝑓)×(𝑙𝑏\n7,000  𝑔𝑟)×(1 𝑠𝑐𝑓\n1,050  𝐵𝑡𝑢)×(106𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢 ) ×(132  𝑙𝑏 (𝑁𝐻 4)2𝑆𝑂4\n32 𝑙𝑏 𝑆)\n=0.00561𝑙𝑏\n𝑀𝑀𝐵𝑡𝑢=0.00561  𝑙𝑏\n𝑀𝑀𝐵𝑡𝑢∗1,050  𝐵𝑡𝑢\n1 𝑠𝑐𝑓=5.89 𝑙𝑏/𝑀𝑀𝑠𝑐𝑓   \n \n𝑆𝑂2=(1𝑔𝑟\n100  𝑠𝑐𝑓)×(𝑙𝑏\n7,000  𝑔𝑟)×(1 𝑠𝑐𝑓\n1,050  𝐵𝑡𝑢)×(106𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢 ) ×(64 𝑙𝑏 𝑆𝑂2\n32 𝑙𝑏 𝑆)\n=0.00272𝑙𝑏\n𝑀𝑀𝐵𝑡𝑢=0.00272  𝑙𝑏\n𝑀𝑀𝐵𝑇𝑈∗1,050  𝐵𝑇𝑈\n𝑠𝑐𝑓=2.86 𝑙𝑏/𝑀𝑀𝑠𝑐𝑓   \n \nThe following provides a summary of each micro turbine ’s information used to determineemissions  calculations:\nS-2 and S -3 \n➢ Power Output: 87 horsepower (hp), 65 kW  \n \n 2 ➢ Maximum  Firing Rating: 0.871  MMBtu/hr  \n➢ Heat Capacity of Natural Gas: 1,0 50 MMBtu/MMscf  \n➢ Operation Hours:  (24 hrs/day)  x (7 days/week) x (52 weeks /year) = 8,760  hours per \nyear ( hr/yr ) \n➢ Maximum Fuel Consumption:  829.5 scf/hr  \n➢ Maximum Fuel Usage Rate: (829.5 scf/hr) x (8,760 hr/yr) = 7,266.6 Mscf/yr  \n \nTable 1. Summary of Criteria Pollutant Emissions  from  S-2 \nPollutant  Emission Factors1,2 Daily \nEmissions Annual Emissions  \nTotal  \nlb/MW -hr lb/MMscf  (lb/day)  (lb/yr)  (tpy)  \nNOx  0.07   0.11 39.90  0.020  \nPOC  0.02   0.03 11.40  0.006  \nCO 0.10   0.16 56.94 0.028  \nPM 10   5.89 0.12 42.80  0.021 \nPM 2.53   5.89 0.12 42.80  0.021 \nSO 2   2.86 0.06 20.78  0.010 \n1. NO X, POC, and CO emissions factors are from the CARB Executive Order DG -018. \n2. PM and SO 2 emission factors per BAAQMD Permit Handbook, Chapter 2.4.1 Micro Turbines \n(25-1,000 kw).  Converted using the heat capacity of natural gas (1,050 MMBtu/MMscf).  \n3. PM 2.5 emissions are assumed to be the same as PM 10. \n \nTable 2. Summary of Criteria Pollutant Emissions from  S-3 \nPollutant  Emission Factors1,2 DailyEmissions Annual Emissions\nTotal  \nlb/MW -hr lb/MMscf  (lb/day)  (lb/yr)  (tpy)  \nNOx  0.07   0.11 39.90  0.020  \nPOC  0.02   0.03 11.40  0.006  \nCO 0.10   0.16 56.94 0.028  \nPM 10   5.89 0.12 42.80  0.021 \nPM 2.53   5.89 0.12 42.80  0.021 \nSO 2   2.86 0.06 20.78  0.010 \n1. NO X, POC, and CO emissions factors are from the CARB Executive Order DG -018. \n2. PM and SO 2 emission factors per BAAQMD Permit Handbook, Chapter 2.4.1 Micro Turbines \n(25-1,000 kw).  Converted using the heat capacity of natural gas (1,050 MMBtu/MMscf).  \n3. PM 2.5 emissions are assumed to be the same as PM 10.Emissions Post\n4/5/91  \n(tons/yr)  S-2 \n Emissions \n(tons/yr)  S-3 \n Emissions \n(tons/yr)  Cumulative \nEmissions  \n(tons/yr)  \nNOx  0.012  0.020  0.020  0.052  \nPOC  0.000  0.006  0.006  0.011  \nCO 0.002  0.028  0.028  0.059  \nPM 10 0.000  0.021  0.021  0.043  \nPM 2.5 0.000  0.021  0.021  0.043  \nSO 2 0.000  0.010  0.010  0.021",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-2": {
+        "narrative": "(tons/yr)  S-2\nS-2 and S -3\nTable 1. Summary of Criteria Pollutant Emissions  from  S-2",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-3": {
+        "narrative": "(tons/yr)  S-3\nTable 2. Summary of Criteria Pollutant Emissions from  S-3",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "(SO 2). Natural gas combustion  will also release toxic air contaminants (TACs).Toxic Emissions for Health Risk Assessment\nThe TAC  emission factors were obtained from the BAAQMD TAC Emission Factor \nGuidelines, Appendix A, Default TAC Emission Factors for Specific Source Categories \n(August 2020) . However, using those emission factors resulted in 54  lb/yr  of \nformaldehyde emissions, much greater than the total POC emissions from each of S -2 \nand S -3, which are 11 .4 lb/yr . Since the organic TACs are a subset of the total POC \nemissions, it is highly unlikely that formaldehyde emissions can be greater than the total \n \n 3 POC emissions. We have  conservatively assumed all formaldehyde emissions to be equal \nto the POC emissions for each of S -2 and S -3. Hourly and annual emission rates are \nbased on the maximum fuel consumption rate  and annual emissions assume  continuous \noperation (i.e.,  8,760  hr/yr). \n \nAs shown in Table 5 , the total project TAC emissions from S -2 and S -3 exceed the \nchronic trigger limit  for formaldehyde  in Regulation 2, Rule 5. Therefore, a health risk \nassessment (HRA) is required  for formaldehyde . For the purposes of Regulation 2 -5, a \nproject includes TAC emissions from all new or modified sources permitted within a 5-\nyear period. There were no related projects within the last five years.   \n \nThe HRA was conducted  on 12/6/24 , the results of  which showed a maximum cancer risk \nof 0.92 in a million, an acute hazard index of 0.012 and chronic hazard index of 0.0097. \nIn accordance with Air District Regulation 2 -5-301, these are acceptable project risks andS-2, and S -3 do not trigger the  best available control technology for toxics (TBACT)\nbecause each of the source’s risk remains below  a cancer risk of 1.0 in a million.  \n \n \n 4 Table 3: Summary of TAC Emissions from S -2 \nTAC  Emission Factor \n(lb/MMscf)  Emissions  Table 2 -5-1 Thresholds  Acute \nTriggered?  Chronic \nTriggered?  Hourly \n(lb/hour)  Annual  \n(lbs/year)  Acute \n(lb/hour)  Chronic \n(lbs/year)  \nAcetaldehyde  1.37E -01 1.13E -04 9.93E -01 2.10E -01 2.90E+01  No No \nAcrolein  1.89E -02 1.57E -05 1.37E -01 1.10E -03 1.40E+01  No No \nArsenic  2.25E -05 1.87E -08 1.64E -04 8.80E -05 1.60E -03 No No \nBenzene  9.09E -02 7.54E -05 6.60E -01 1.20E -02 2.90E+00  No No \nBeryllium  4.91E -05 4.07E -08 3.57E -04 None  3.40E -02 No No \n1,3-Butadiene  6.19E -05 5.14E -08 4.50E -04 2.90E -01 4.80E -01 No No \nCadmium  1.92E -04 1.59E -07 1.39E -03 None  1.90E -02 No No \nChromium 6+  1.88E -05 1.56E -08 1.36E -04 None  5.10E -04 No No \nCopper  1.80E -03 1.49E -06 1.30E -02 4.40E -02 None  No No \nEthyl Benzene  1.80E -02 1.49E -05 1.30E -01 None  3.30E+01  No No \nFormaldehyde1 -- 1.30E -03 1.14E+01  2.40E -02 1.40E+01  No No \nn-Hexane  2.59E -01 2.15E -04 1.88E+00  None  2.70E+05  No No \nLead  5.38E -04 4.46E -07 3.91E -03 None  2.90E -01 No No \nManganese  1.50E -03 1.24E -06 1.09E -02 None  3.53E+00  No No \nMercury  1.50E -03 1.24E -06 1.09E -02 2.70E -04 2.10E -01 No No \nNaphthalene  1.66E -03 1.38E -06 1.21E -02 None  None  No No \nNickel  1.92E -04 1.59E -07 1.39E -03 8.80E -05 3.10E -01 No No \nPAH (as b(a)p -equiv)  2.16E -05 1.79E -08 1.57E -04 None  3.30E -03 No No \nPropylene  7.71E -01 6.40E -04 5.60E+00  None  1.20E+05  No No \nPropylene Oxide  1.99E -02 1.65E -05 1.45E -01 1.40E+00  2.20E+01  No No \nSelenium  3.79E -04 3.15E -07 2.76E -03 None  8.00E+00  No No \nToluene  7.10E -02 5.89E -05 5.16E -01 2.20E+00  1.60E+04  No No \nXylenes  2.61E -02 2.17E -05 1.90E -01 9.70E+00  2.70E+04  No No \n1. The project assumes all precursor organic compounds (POC) are formaldehyde emissions.  \n \n \n \n 5 Table 4: Summary of TAC Emissions from S -3 \nTAC  Emission Rate \n(lb/MMscf)  Emissions  Table 2 -5-1 Thresholds  Acute \nTriggered?  Chronic \nTriggered?  Hourly \n(lb/hour)  Annual  \n(lbs/year)  Acute \n(lb/hour)  Chronic \n(lbs/year)  \nAcetaldehyde  1.37E -01 1.13E -04 9.93E -01 2.10E -01 2.90E+01  No No \nAcrolein  1.89E -02 1.57E -05 1.37E -01 1.10E -03 1.40E+01  No No \nArsenic  2.25E -05 1.87E -08 1.64E -04 8.80E -05 1.60E -03 No No \nBenzene  9.09E -02 7.54E -05 6.60E -01 1.20E -02 2.90E+00  No No \nBeryllium  4.91E -05 4.07E -08 3.57E -04 None  3.40E -02 No No \n1,3-Butadiene  6.19E -05 5.14E -08 4.50E -04 2.90E -01 4.80E -01 No No \nCadmium  1.92E -04 1.59E -07 1.39E -03 None  1.90E -02 No No \nChromium 6+  1.88E -05 1.56E -08 1.36E -04 None  5.10E -04 No No \nCopper  1.80E -03 1.49E -06 1.30E -02 4.40E -02 None  No No \nEthyl Benzene  1.80E -02 1.49E -05 1.30E -01 None  3.30E+01  No No \nFormaldehyde1 -- 1.30E -03 1.14E+01  2.40E -02 1.40E+01  No No \nN-Hexane  2.59E -01 2.15E -04 1.88E+00  None  2.70E+05  No No \nLead  5.38E -04 4.46E -07 3.91E -03 None  2.90E -01 No No \nManganese  1.50E -03 1.24E -06 1.09E -02 None  3.53E+00  No No \nMercury  1.50E -03 1.24E -06 1.09E -02 2.70E -04 2.10E -01 No No \nNaphthalene  1.66E -03 1.38E -06 1.21E -02 None  None  No No \nNickel  1.92E -04 1.59E -07 1.39E -03 8.80E -05 3.10E -01 No No \nPAH (as b(a)p -equiv)  2.16E -05 1.79E -08 1.57E -04 None  3.30E -03 No No \nPropylene  7.71E -01 6.40E -04 5.60E+00  None  1.20E+05  No No \nPropylene Oxide  1.99E -02 1.65E -05 1.45E -01 1.40E+00  2.20E+01  No No \nSelenium  3.79E -04 3.15E -07 2.76E -03 None  8.00E+00  No No \nToluene  7.10E -02 5.89E -05 5.16E -01 2.20E+00  1.60E+04  No No \nXylenes  2.61E -02 2.17E -05 1.90E -01 9.70E+00  2.70E+04  No No \n1. The project assumes all precursor organic compounds (POC) are formaldehyde emissions.  \n \n 6  \nTable 5: Summary of Project TAC Emissions  \nTAC  Emissions  Table 2 -5-1 Thresholds  Acute \nTriggered?  Chronic \nTriggered?  Hourly \n(lb/hour)  Annual  \n (lbs/year)  Acute  \n(lb/hour)  Chronic \n(lbs/year)  \nAcetaldehyde  2.30E -04 2.02E+00  2.10E -01 2.90E+01  No No \nAcrolein  3.18E -05 2.78E -01 1.10E -03 1.40E+01  No No \nArsenic  3.79E -08 3.32E -04 8.80E -05 1.60E -03 No No \nBenzene  1.53E -04 1.34E+00  1.20E -02 2.90E+00  No No \nBeryllium  8.26E -08 7.24E -04 None  3.40E -02 No No \n1,3-Butadiene  1.04E -07 9.13E -04 2.90E -01 4.80E -01 No No \nCadmium  3.23E -07 2.83E -03 None  1.90E -02 No No \nChromium 6+  3.16E -08 2.77E -04 None  5.10E -04 No No \nCopper  3.02E -06 2.65E -02 4.40E -02 None  No No \nEthyl Benzene  3.02E -05 2.65E -01 None  3.30E+01  No No \nFormaldehyde  2.60E -03 2.28E+01  2.40E -02 1.40E+01  No Yes \nn-Hexane  4.36E -04 3.82E+00  None  2.70E+05  No No \nLead  9.05E -07 7.93E -03 None  2.90E -01 No No \nManganese  2.52E -06 2.21E -02 None  3.53E+00  No No \nMercury  2.52E -06 2.21E -02 2.70E -04 2.10E -01 No No \nNaphthalene  2.80E -06 2.45E -02 None  None  No No \nNickel  3.23E -07 2.83E -03 8.80E -05 3.10E -01 No No \nPAH (as b(a)p -equiv)  3.64E -08 3.19E -04 None  3.30E -03 No No \nPropylene  1.30E -03 1.14E+01  None  1.20E+05  No No \nPropylene Oxide  3.35E -05 2.93E -01 1.40E+00  2.20E+01  No No \nSelenium  6.39E -07 5.60E -03 None  8.00E+00  No No \nToluene  1.20E -04 1.05E+00  2.20E+00  1.60E+04  No No \nXylene  4.40E -05 3.85E -01 9.70E+00  2.70E+04  No NoRegulation 2, Rule 5 – Toxic Risk Assessment\nRule 2 -5 applies to new or modified sources of TACs for which an application is \nsubmitted on or after July 1, 2005. All TAC emissions from new and modified sources \nare subject to risk assessment if emissions of any individual TAC exceed the trigger \nthresho lds specified in Table 2 -5-1 of Rule 2 -5. Pursuant to Regulation 2 -5-110, a project \nshall not be subject to this rule if, for each TAC, the total project emissions are below the \nacute and chronic trigger levels listed in Table 2 -5-1 of this regulation.   \n \nAs presented in Table  5, formaldehyde  emissions from this project exceed the chronic \ntrigger level.  Therefore, a n HRA is required.  \n \nThe Air District ’s Risk Assessment and Reduction Team conducted the HRA  for this \nproject. The HRA was conducted 12/6/24 and the r esults of the HRA showed a maximum \ncancer risk of 0.92 in a million, an acute hazard index of 0.012 and chronic hazard index \nof 0.0097. In accordance with Air District Regulation 2 -5-301, both S -2 and S -3 do not \nrequire TBACT because each of the source’s risk s are below a cancer risk of 1.0 in a \nmillion.  \n \nSince the estimated project cancer risk does not exceed 10 in a million and hazard indices \ndo not exceed 1.0, this proposed project complies with the Air District’s Regulation 2 -5-\n \n 9 302 project risk requirements, for projects not located in an Overburdened Community, \nas defined in Regulation 2 -1-243. \n \nRegulation 6, Rule 1 – General Requirements  \nRingelmann No. 1 Limitation : Regulation 6 -1-301 states a person shall not emit from \nany source for a period or aggregate periods of more than 3 minutes in any hour, a visible \nemission that is as dark or darker than No. 1 on the Ringelmann Chart, or equivalent \nopacity. The facility is expected to com ply with this standard.  \n \nVisible Particles:  Regulation 6 -1-305 prohibits emissions of visible particles from the \noperator’s property causing a nuisance to another property. Th e facility is expected to \ncomply with this standard  as the particulate emissions are fairly low . \n \nPer Air District Regulation 6 -1-114, S -2 and S -3 are exempt from Regulations 6 -1-310.2 \nand 6 -1-311.2 because they a re gas turbines.  \n \nRegulation 9, Rule 1 – Sulfur Dioxide  \nLimitations on Ground Level Concentrations : Regula tion 9-1-301 states a person shall \nnot emit from sources other than ships, SO 2 in quantities which result in ground level \nconcentrations in excess of 0.5 ppm continuously for 3 consecutive minutes or 0.25 ppm \naveraged over 60 consecutive minutes, or 0.05 ppm averaged over 24 hours. This section \nshall not apply to ground level concen trations occurring on the property from which such \nemission occurs, provided such property, from the emission point to the point  where the \nexcess occurs, is physically secured against public access by the person responsible for \nthe emission.  The two micro turbines, S -2 and S -3 will be enclosed by fencing and \nsecured  against  public access.  \n \nGeneral Emission Limitation: Regulation 9 -1-302 states  a person shall not emit from \nany source, other than a ship, a gas stream containing sulfur dioxide in excess of 300 ppm \n(dry). S -2 and S -3 use only natural gas as fuel. Combustion of natural gas is expected to \nproduce a maximum sulfur content of 1 grain p er 100 scf, which is the maximum PG&E \nnatural gas specification for sulfur.  \n \nRegulation 9, Rule 9 – NO x from Stationary Gas Turbines  \nThe purpose of Regulation 9 -9 is to limit emissions of NO X from stationary gas turbines. \nPer Regulation 9 -9-110, this rule does not apply to stationary gas turbines with a heat \ninput less than 5.0 MMBtu/hr. S -2 and S -3 have heat inputs of 0.871 MMBtu/hr each; \ntherefore, the micro turbines are not subject to the requirements of this  regulation.  \n \nNew Source Performance Standards (NSPS)  \nThe following standards  may apply to S-2 and S -3. \n \n40 CFR Part 60 Subpart GG: Pursuant to §60. 330, an affected facility is all stationary \ngas turbines with a heat input at peak load equal to or greater than 10.7 gigajoules ( 10 \nMMBtu/hr), based on the lower heating value (LHV) of the fuel fired.  S-2 and S -3 have a \n \n 10 heat input of 0.871  MMBtu/hr each. Therefore,  S-2 and S -3 are not subject to the \nrequirements of this subpart.  \n \nNational Emissions Standards for Hazardous Air Pollutants  (NESHAP)  \nThe following standards  may apply to S -2 and S -3. \n \n40 CFR Part 63 Subpart YYYY : Pursuant to §63. 6085 , stationary combustion turbines \nlocated at a major source of hazardous air pollutants (HAP)  are subject to the \nrequirements of this regulation. The facility is not major for HAPs. Therefore, S -2 and S -\n3 are not subject to this subpart.(Basis: Cumulative Increase, Toxics)\n4. To determine compliance with the above parts, the owner/operator of S-2 and S -3 \nshall maintain the following records and provide all of the data necessary to \nevaluate compliance with the above parts, including the following information:  \n \na. Natural gas usage, on a monthly basis, for each microturbine;  \n \nAll records shall be retained onsite for two (2) years, from the date of entry, and \nmade available for inspection to Air District staff upon request. These \nrecordkeeping requirements shall not replace the recordkeeping requirements \ncontained in any applica ble Air District regulations.  \n(Basis: Recordkeeping)"
+  },
+  "BACT": {
+    "text": ""
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA Compliance):  This permit application is\nnot subject to the California Environmental Quality Act (CEQA) because the Air \nDistrict’s evaluation is a ministerial action (Public Resources Code Section 21080(b)(1) \nand CEQA Guidelines Section 15268(a)) conducted using the fix ed standards and \nobjective measurements in the Air District’s rules and regulations ."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nance  \nThe owner/operator is expected to comply with all applicable requirements. Key \nrequirements are listed below:  \n \nDistrict Rules  \nRegulation 2, Rule 1 – Permits , General Requirements"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Public Notification: The public notification requirements of Regulation 2 -1-412 apply to\napplications which result in any increase in TACs  or hazardous air contaminant emissions \nat facilities  within, either 1,000 feet of the boundary of a K -12 school, or located in an \nOverburdened Community  (OBC) . The project  is located within 1,000 feet of multiple  \nschool s. Therefore, the project is subject to the public notification  requirements of \nRegulation  2-1-412. A public not ice was prepared on  XXXX and sent to the following \nschools within 1,000 feet of the project : \n \nAdele Harrison Middle School  \n1150 Broadway Avenue  \nSonoma, CA 95476  \n \nSonoma Valley High  \n20000  Broadway Avenue  \nSonoma, CA 95476  \n \n 8  \nThe public notice period ended on xxxx and xx  comments were received. The comments \nand the Air District’s responses to the comments are attached in Appendix A  of this \nevaluation.  \n \nRegulation 2, Rule 2 – Permits, New Source Review  \nBest Available Control Technology (BACT) : Per Regulation 2, Rule 2, Section 301 \nBACT is required for new or modified sources with potential emissions of 10.0 pounds \nper day or more of POC, NPOC, NO X, PM 10, or SO 2. Referencing Table s 1 and 2 , the \nmicro turbines , S-2 and S -3, will not emit more than 10 lbs/day of any criteria pollutant, \nand therefore, are not subject to BACT requirements.  \n \nOffsets: District Regulation  2-2-302 requires offsets for  new or modified sources at a \nfacility that has the potential to emit 10 tpy or more of POC and NOx . District Regulation \n2-2-303 requires offsets for  new or modified sources at a facility that has the potential to \nemit 100 tpy or more of PM 2.5, PM 10, and SO 2. The facility will not exceed 10 tpy of \nPOC or NOx and 100 tpy of PM 2.5, PM 10, or SO 2 and therefore is not subject to offsets.  \n \nPrevention of Significant Deterioration (PSD) : This facility will not have the potential \nto emit more than 100 tons per year of any criteria pollutant, therefore this facility is not a \n“Major Facility” as defined in the District Regulation 2 -2-217 and is not subject to PSD \npermitting requirement s under Regulation 2 -2-304."
+  },
+  "conditions": {
+    "text": "Permit Conditions\nns  \n \nPermit Condition # 100489  \n \n1. The owner/operator of S -2 and S -3 shall operate each of S -2 and S -3 on natural gas \nfuel exclusively.  \n(Basis: Cumulative Increase)  \n \n2. The owner/operator of S -2 and S -3 shall operate each of S-2 and S -3 only when a \nnon-resettable totalizing fuel meter is installed  on each of S -2 and S -3. \n(Basis: Regulation 2 -1-403) \n \n3. The owner/operator of S -2 and S -3 shall not use more than 72,664  therms of \nnatural gas fuel at each of S-2 and S -3 in any consecutive twelve -month period."
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator of S -2 and S -3 shall operate each of S -2 and S -3 on natural gas \nfuel exclusively.  \n(",
+        "basis": [
+          "Cumulative Increase)"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator of S -2 and S -3 shall operate each of S-2 and S -3 only when a \nnon-resettable totalizing fuel meter is installed  on each of S -2 and S -3. \n(",
+        "basis": [
+          "Regulation 2 -1-403)"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator of S -2 and S -3 shall not use more than 72,664  therms of \nnatural gas fuel at each of S-2 and S -3 in any consecutive twelve -month period.",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\non  \nThe proposed project is expected to comply with all applicable requirements of District, \nState, and  Federal air quality related regulations. I recommend issuing an Authority to \nConstruct for the equipment:  \n \nS-2 65 kilowatts (kW) Micro Turbine, Natural gas -fired, Make: Capstone,   \nModel : C65, Maximum Firing Rate: 0.871 MMBtu/hr  \n \n 11  \nS-3 65 kW Micro Turbine, Natural gas -fired, Make: Capstone,   \nModel : C65, Maximum Firing Rate: 0.871 MMBtu/hr  \n \nPrepared By:  Emily Schwartz , Air Quality Engineer"
+  },
+  "raw_sections": {
+    "preamble": "1 ENGINEERING EVALUATION  \nFacility ID No. 20829  \nEnsign Sonoma Healthcare Center  \n1250 Broadway Avenue, Sonoma, CA 95476  \nApplication No. 712408",
+    "blocks": [
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd  \nEnsign Sonoma Healthcare Center  (referred to as “facility” hereafter)  is applying for \nAuthorit ies to Construct/Permit s to Operate for the following sources : \n \nS-2 65 kilowatts  (kW) Micro  Turbine , Natural gas -fired,  Make: Capstone ,  \nModel : C65, Maximum Firing Rate : 0.871  MMBtu/ hr \n \nS-3 65 kW Micro Turbine, Natural gas -fired, Make: Capstone,   \nModel : C65, Maximum Firing Rate: 0.871 MMBtu/hr  \n \nThe two micro turbines will be natural gas fired . As a result, t he criteria pollutants \nassociated with S-2 and S -3 are nitrogen oxides (NO x), precursor organic compounds \n(POC ), carbon monoxide (CO ), particulate matter ( PM 10 and PM 2.5), and sulfur dioxide"
+      },
+      {
+        "heading": "(SO 2). Natural gas combustion  will also release toxic air contaminants (TACs).",
+        "alias": "TOXICS",
+        "text": "(SO 2). Natural gas combustion  will also release toxic air contaminants (TACs)."
+      },
+      {
+        "heading": "Emissions  Summary",
+        "alias": "EMISSIONS",
+        "text": "Emissions  Summary\nThe maximum daily and annual emissions  are based on each micro  turbine ’s maximum \npower output , maximum fuel consumption . NO x, CO, and POC  emission factors are from \nthe California Air Resources Bo ard (CARB) Executive Order for distributed generation, \nDG-018 and  PM 10, PM 2.5, and SO 2 emission factors are from the  latest  BAAQMD  Permit \nHandbook, Chapter  2.4.1, Micro Turbines (25 -1,000 kW).   \n \nBased on  the maximum Pacific Gas & Electric  (PG&E)  natural gas specification for \nsulfur of 1 grain per 100 standard cubic feet  (gr/hundred scf), PM 10 (as (NH 4)2SO 4) and \nSO 2 emission factors are calculated  as shown below:  \n \n𝑃𝑀 10=(1𝑔𝑟\n100  𝑠𝑐𝑓)×(𝑙𝑏\n7,000  𝑔𝑟)×(1 𝑠𝑐𝑓\n1,050  𝐵𝑡𝑢)×(106𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢 ) ×(132  𝑙𝑏 (𝑁𝐻 4)2𝑆𝑂4\n32 𝑙𝑏 𝑆)\n=0.00561𝑙𝑏\n𝑀𝑀𝐵𝑡𝑢=0.00561  𝑙𝑏\n𝑀𝑀𝐵𝑡𝑢∗1,050  𝐵𝑡𝑢\n1 𝑠𝑐𝑓=5.89 𝑙𝑏/𝑀𝑀𝑠𝑐𝑓   \n \n𝑆𝑂2=(1𝑔𝑟\n100  𝑠𝑐𝑓)×(𝑙𝑏\n7,000  𝑔𝑟)×(1 𝑠𝑐𝑓\n1,050  𝐵𝑡𝑢)×(106𝐵𝑡𝑢\n𝑀𝑀𝐵𝑡𝑢 ) ×(64 𝑙𝑏 𝑆𝑂2\n32 𝑙𝑏 𝑆)\n=0.00272𝑙𝑏\n𝑀𝑀𝐵𝑡𝑢=0.00272  𝑙𝑏\n𝑀𝑀𝐵𝑇𝑈∗1,050  𝐵𝑇𝑈\n𝑠𝑐𝑓=2.86 𝑙𝑏/𝑀𝑀𝑠𝑐𝑓   \n \nThe following provides a summary of each micro turbine ’s information used to determine"
+      },
+      {
+        "heading": "emissions  calculations:",
+        "alias": "EMISSIONS",
+        "text": "emissions  calculations:\nS-2 and S -3 \n➢ Power Output: 87 horsepower (hp), 65 kW  \n \n 2 ➢ Maximum  Firing Rating: 0.871  MMBtu/hr  \n➢ Heat Capacity of Natural Gas: 1,0 50 MMBtu/MMscf  \n➢ Operation Hours:  (24 hrs/day)  x (7 days/week) x (52 weeks /year) = 8,760  hours per \nyear ( hr/yr ) \n➢ Maximum Fuel Consumption:  829.5 scf/hr  \n➢ Maximum Fuel Usage Rate: (829.5 scf/hr) x (8,760 hr/yr) = 7,266.6 Mscf/yr  \n \nTable 1. Summary of Criteria Pollutant Emissions  from  S-2 \nPollutant  Emission Factors1,2 Daily \nEmissions Annual Emissions  \nTotal  \nlb/MW -hr lb/MMscf  (lb/day)  (lb/yr)  (tpy)  \nNOx  0.07   0.11 39.90  0.020  \nPOC  0.02   0.03 11.40  0.006  \nCO 0.10   0.16 56.94 0.028  \nPM 10   5.89 0.12 42.80  0.021 \nPM 2.53   5.89 0.12 42.80  0.021 \nSO 2   2.86 0.06 20.78  0.010 \n1. NO X, POC, and CO emissions factors are from the CARB Executive Order DG -018. \n2. PM and SO 2 emission factors per BAAQMD Permit Handbook, Chapter 2.4.1 Micro Turbines \n(25-1,000 kw).  Converted using the heat capacity of natural gas (1,050 MMBtu/MMscf).  \n3. PM 2.5 emissions are assumed to be the same as PM 10. \n \nTable 2. Summary of Criteria Pollutant Emissions from  S-3 \nPollutant  Emission Factors1,2 Daily"
+      },
+      {
+        "heading": "Emissions Annual Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions Annual Emissions\nTotal  \nlb/MW -hr lb/MMscf  (lb/day)  (lb/yr)  (tpy)  \nNOx  0.07   0.11 39.90  0.020  \nPOC  0.02   0.03 11.40  0.006  \nCO 0.10   0.16 56.94 0.028  \nPM 10   5.89 0.12 42.80  0.021 \nPM 2.53   5.89 0.12 42.80  0.021 \nSO 2   2.86 0.06 20.78  0.010 \n1. NO X, POC, and CO emissions factors are from the CARB Executive Order DG -018. \n2. PM and SO 2 emission factors per BAAQMD Permit Handbook, Chapter 2.4.1 Micro Turbines \n(25-1,000 kw).  Converted using the heat capacity of natural gas (1,050 MMBtu/MMscf).  \n3. PM 2.5 emissions are assumed to be the same as PM 10."
+      },
+      {
+        "heading": "Toxic Emissions for Health Risk Assessment",
+        "alias": "TOXICS",
+        "text": "Toxic Emissions for Health Risk Assessment\nThe TAC  emission factors were obtained from the BAAQMD TAC Emission Factor \nGuidelines, Appendix A, Default TAC Emission Factors for Specific Source Categories \n(August 2020) . However, using those emission factors resulted in 54  lb/yr  of \nformaldehyde emissions, much greater than the total POC emissions from each of S -2 \nand S -3, which are 11 .4 lb/yr . Since the organic TACs are a subset of the total POC \nemissions, it is highly unlikely that formaldehyde emissions can be greater than the total \n \n 3 POC emissions. We have  conservatively assumed all formaldehyde emissions to be equal \nto the POC emissions for each of S -2 and S -3. Hourly and annual emission rates are \nbased on the maximum fuel consumption rate  and annual emissions assume  continuous \noperation (i.e.,  8,760  hr/yr). \n \nAs shown in Table 5 , the total project TAC emissions from S -2 and S -3 exceed the \nchronic trigger limit  for formaldehyde  in Regulation 2, Rule 5. Therefore, a health risk \nassessment (HRA) is required  for formaldehyde . For the purposes of Regulation 2 -5, a \nproject includes TAC emissions from all new or modified sources permitted within a 5-\nyear period. There were no related projects within the last five years.   \n \nThe HRA was conducted  on 12/6/24 , the results of  which showed a maximum cancer risk \nof 0.92 in a million, an acute hazard index of 0.012 and chronic hazard index of 0.0097. \nIn accordance with Air District Regulation 2 -5-301, these are acceptable project risks and"
+      },
+      {
+        "heading": "S-2, and S -3 do not trigger the  best available control technology for toxics (TBACT)",
+        "alias": "TOXICS",
+        "text": "S-2, and S -3 do not trigger the  best available control technology for toxics (TBACT)\nbecause each of the source’s risk remains below  a cancer risk of 1.0 in a million.  \n \n \n 4 Table 3: Summary of TAC Emissions from S -2 \nTAC  Emission Factor \n(lb/MMscf)  Emissions  Table 2 -5-1 Thresholds  Acute \nTriggered?  Chronic \nTriggered?  Hourly \n(lb/hour)  Annual  \n(lbs/year)  Acute \n(lb/hour)  Chronic \n(lbs/year)  \nAcetaldehyde  1.37E -01 1.13E -04 9.93E -01 2.10E -01 2.90E+01  No No \nAcrolein  1.89E -02 1.57E -05 1.37E -01 1.10E -03 1.40E+01  No No \nArsenic  2.25E -05 1.87E -08 1.64E -04 8.80E -05 1.60E -03 No No \nBenzene  9.09E -02 7.54E -05 6.60E -01 1.20E -02 2.90E+00  No No \nBeryllium  4.91E -05 4.07E -08 3.57E -04 None  3.40E -02 No No \n1,3-Butadiene  6.19E -05 5.14E -08 4.50E -04 2.90E -01 4.80E -01 No No \nCadmium  1.92E -04 1.59E -07 1.39E -03 None  1.90E -02 No No \nChromium 6+  1.88E -05 1.56E -08 1.36E -04 None  5.10E -04 No No \nCopper  1.80E -03 1.49E -06 1.30E -02 4.40E -02 None  No No \nEthyl Benzene  1.80E -02 1.49E -05 1.30E -01 None  3.30E+01  No No \nFormaldehyde1 -- 1.30E -03 1.14E+01  2.40E -02 1.40E+01  No No \nn-Hexane  2.59E -01 2.15E -04 1.88E+00  None  2.70E+05  No No \nLead  5.38E -04 4.46E -07 3.91E -03 None  2.90E -01 No No \nManganese  1.50E -03 1.24E -06 1.09E -02 None  3.53E+00  No No \nMercury  1.50E -03 1.24E -06 1.09E -02 2.70E -04 2.10E -01 No No \nNaphthalene  1.66E -03 1.38E -06 1.21E -02 None  None  No No \nNickel  1.92E -04 1.59E -07 1.39E -03 8.80E -05 3.10E -01 No No \nPAH (as b(a)p -equiv)  2.16E -05 1.79E -08 1.57E -04 None  3.30E -03 No No \nPropylene  7.71E -01 6.40E -04 5.60E+00  None  1.20E+05  No No \nPropylene Oxide  1.99E -02 1.65E -05 1.45E -01 1.40E+00  2.20E+01  No No \nSelenium  3.79E -04 3.15E -07 2.76E -03 None  8.00E+00  No No \nToluene  7.10E -02 5.89E -05 5.16E -01 2.20E+00  1.60E+04  No No \nXylenes  2.61E -02 2.17E -05 1.90E -01 9.70E+00  2.70E+04  No No \n1. The project assumes all precursor organic compounds (POC) are formaldehyde emissions.  \n \n \n \n 5 Table 4: Summary of TAC Emissions from S -3 \nTAC  Emission Rate \n(lb/MMscf)  Emissions  Table 2 -5-1 Thresholds  Acute \nTriggered?  Chronic \nTriggered?  Hourly \n(lb/hour)  Annual  \n(lbs/year)  Acute \n(lb/hour)  Chronic \n(lbs/year)  \nAcetaldehyde  1.37E -01 1.13E -04 9.93E -01 2.10E -01 2.90E+01  No No \nAcrolein  1.89E -02 1.57E -05 1.37E -01 1.10E -03 1.40E+01  No No \nArsenic  2.25E -05 1.87E -08 1.64E -04 8.80E -05 1.60E -03 No No \nBenzene  9.09E -02 7.54E -05 6.60E -01 1.20E -02 2.90E+00  No No \nBeryllium  4.91E -05 4.07E -08 3.57E -04 None  3.40E -02 No No \n1,3-Butadiene  6.19E -05 5.14E -08 4.50E -04 2.90E -01 4.80E -01 No No \nCadmium  1.92E -04 1.59E -07 1.39E -03 None  1.90E -02 No No \nChromium 6+  1.88E -05 1.56E -08 1.36E -04 None  5.10E -04 No No \nCopper  1.80E -03 1.49E -06 1.30E -02 4.40E -02 None  No No \nEthyl Benzene  1.80E -02 1.49E -05 1.30E -01 None  3.30E+01  No No \nFormaldehyde1 -- 1.30E -03 1.14E+01  2.40E -02 1.40E+01  No No \nN-Hexane  2.59E -01 2.15E -04 1.88E+00  None  2.70E+05  No No \nLead  5.38E -04 4.46E -07 3.91E -03 None  2.90E -01 No No \nManganese  1.50E -03 1.24E -06 1.09E -02 None  3.53E+00  No No \nMercury  1.50E -03 1.24E -06 1.09E -02 2.70E -04 2.10E -01 No No \nNaphthalene  1.66E -03 1.38E -06 1.21E -02 None  None  No No \nNickel  1.92E -04 1.59E -07 1.39E -03 8.80E -05 3.10E -01 No No \nPAH (as b(a)p -equiv)  2.16E -05 1.79E -08 1.57E -04 None  3.30E -03 No No \nPropylene  7.71E -01 6.40E -04 5.60E+00  None  1.20E+05  No No \nPropylene Oxide  1.99E -02 1.65E -05 1.45E -01 1.40E+00  2.20E+01  No No \nSelenium  3.79E -04 3.15E -07 2.76E -03 None  8.00E+00  No No \nToluene  7.10E -02 5.89E -05 5.16E -01 2.20E+00  1.60E+04  No No \nXylenes  2.61E -02 2.17E -05 1.90E -01 9.70E+00  2.70E+04  No No \n1. The project assumes all precursor organic compounds (POC) are formaldehyde emissions.  \n \n 6  \nTable 5: Summary of Project TAC Emissions  \nTAC  Emissions  Table 2 -5-1 Thresholds  Acute \nTriggered?  Chronic \nTriggered?  Hourly \n(lb/hour)  Annual  \n (lbs/year)  Acute  \n(lb/hour)  Chronic \n(lbs/year)  \nAcetaldehyde  2.30E -04 2.02E+00  2.10E -01 2.90E+01  No No \nAcrolein  3.18E -05 2.78E -01 1.10E -03 1.40E+01  No No \nArsenic  3.79E -08 3.32E -04 8.80E -05 1.60E -03 No No \nBenzene  1.53E -04 1.34E+00  1.20E -02 2.90E+00  No No \nBeryllium  8.26E -08 7.24E -04 None  3.40E -02 No No \n1,3-Butadiene  1.04E -07 9.13E -04 2.90E -01 4.80E -01 No No \nCadmium  3.23E -07 2.83E -03 None  1.90E -02 No No \nChromium 6+  3.16E -08 2.77E -04 None  5.10E -04 No No \nCopper  3.02E -06 2.65E -02 4.40E -02 None  No No \nEthyl Benzene  3.02E -05 2.65E -01 None  3.30E+01  No No \nFormaldehyde  2.60E -03 2.28E+01  2.40E -02 1.40E+01  No Yes \nn-Hexane  4.36E -04 3.82E+00  None  2.70E+05  No No \nLead  9.05E -07 7.93E -03 None  2.90E -01 No No \nManganese  2.52E -06 2.21E -02 None  3.53E+00  No No \nMercury  2.52E -06 2.21E -02 2.70E -04 2.10E -01 No No \nNaphthalene  2.80E -06 2.45E -02 None  None  No No \nNickel  3.23E -07 2.83E -03 8.80E -05 3.10E -01 No No \nPAH (as b(a)p -equiv)  3.64E -08 3.19E -04 None  3.30E -03 No No \nPropylene  1.30E -03 1.14E+01  None  1.20E+05  No No \nPropylene Oxide  3.35E -05 2.93E -01 1.40E+00  2.20E+01  No No \nSelenium  6.39E -07 5.60E -03 None  8.00E+00  No No \nToluene  1.20E -04 1.05E+00  2.20E+00  1.60E+04  No No \nXylene  4.40E -05 3.85E -01 9.70E+00  2.70E+04  No No"
+      },
+      {
+        "heading": "7 Plant Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "7 Plant Cumulative Increase\nrease  \nThe project  is located at 1250 Broadway Avenue, Sonoma, CA 95476 and is an existing \nfacility. The existing  emissions for plant #20829 along with the cumulative increase in \nemissions that will result from this application  are shown in Table 6 below.  \n \nTable 6. Plant Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing"
+      },
+      {
+        "heading": "Emissions Post",
+        "alias": "EMISSIONS",
+        "text": "Emissions Post\n4/5/91  \n(tons/yr)  S-2 \n Emissions \n(tons/yr)  S-3 \n Emissions \n(tons/yr)  Cumulative \nEmissions  \n(tons/yr)  \nNOx  0.012  0.020  0.020  0.052  \nPOC  0.000  0.006  0.006  0.011  \nCO 0.002  0.028  0.028  0.059  \nPM 10 0.000  0.021  0.021  0.043  \nPM 2.5 0.000  0.021  0.021  0.043  \nSO 2 0.000  0.010  0.010  0.021"
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nance  \nThe owner/operator is expected to comply with all applicable requirements. Key \nrequirements are listed below:  \n \nDistrict Rules  \nRegulation 2, Rule 1 – Permits , General Requirements"
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA Compliance):  This permit application is",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA Compliance):  This permit application is\nnot subject to the California Environmental Quality Act (CEQA) because the Air \nDistrict’s evaluation is a ministerial action (Public Resources Code Section 21080(b)(1) \nand CEQA Guidelines Section 15268(a)) conducted using the fix ed standards and \nobjective measurements in the Air District’s rules and regulations ."
+      },
+      {
+        "heading": "Public Notification: The public notification requirements of Regulation 2 -1-412 apply to",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Public Notification: The public notification requirements of Regulation 2 -1-412 apply to\napplications which result in any increase in TACs  or hazardous air contaminant emissions \nat facilities  within, either 1,000 feet of the boundary of a K -12 school, or located in an \nOverburdened Community  (OBC) . The project  is located within 1,000 feet of multiple  \nschool s. Therefore, the project is subject to the public notification  requirements of \nRegulation  2-1-412. A public not ice was prepared on  XXXX and sent to the following \nschools within 1,000 feet of the project : \n \nAdele Harrison Middle School  \n1150 Broadway Avenue  \nSonoma, CA 95476  \n \nSonoma Valley High  \n20000  Broadway Avenue  \nSonoma, CA 95476  \n \n 8  \nThe public notice period ended on xxxx and xx  comments were received. The comments \nand the Air District’s responses to the comments are attached in Appendix A  of this \nevaluation.  \n \nRegulation 2, Rule 2 – Permits, New Source Review  \nBest Available Control Technology (BACT) : Per Regulation 2, Rule 2, Section 301 \nBACT is required for new or modified sources with potential emissions of 10.0 pounds \nper day or more of POC, NPOC, NO X, PM 10, or SO 2. Referencing Table s 1 and 2 , the \nmicro turbines , S-2 and S -3, will not emit more than 10 lbs/day of any criteria pollutant, \nand therefore, are not subject to BACT requirements.  \n \nOffsets: District Regulation  2-2-302 requires offsets for  new or modified sources at a \nfacility that has the potential to emit 10 tpy or more of POC and NOx . District Regulation \n2-2-303 requires offsets for  new or modified sources at a facility that has the potential to \nemit 100 tpy or more of PM 2.5, PM 10, and SO 2. The facility will not exceed 10 tpy of \nPOC or NOx and 100 tpy of PM 2.5, PM 10, or SO 2 and therefore is not subject to offsets.  \n \nPrevention of Significant Deterioration (PSD) : This facility will not have the potential \nto emit more than 100 tons per year of any criteria pollutant, therefore this facility is not a \n“Major Facility” as defined in the District Regulation 2 -2-217 and is not subject to PSD \npermitting requirement s under Regulation 2 -2-304."
+      },
+      {
+        "heading": "Regulation 2, Rule 5 – Toxic Risk Assessment",
+        "alias": "TOXICS",
+        "text": "Regulation 2, Rule 5 – Toxic Risk Assessment\nRule 2 -5 applies to new or modified sources of TACs for which an application is \nsubmitted on or after July 1, 2005. All TAC emissions from new and modified sources \nare subject to risk assessment if emissions of any individual TAC exceed the trigger \nthresho lds specified in Table 2 -5-1 of Rule 2 -5. Pursuant to Regulation 2 -5-110, a project \nshall not be subject to this rule if, for each TAC, the total project emissions are below the \nacute and chronic trigger levels listed in Table 2 -5-1 of this regulation.   \n \nAs presented in Table  5, formaldehyde  emissions from this project exceed the chronic \ntrigger level.  Therefore, a n HRA is required.  \n \nThe Air District ’s Risk Assessment and Reduction Team conducted the HRA  for this \nproject. The HRA was conducted 12/6/24 and the r esults of the HRA showed a maximum \ncancer risk of 0.92 in a million, an acute hazard index of 0.012 and chronic hazard index \nof 0.0097. In accordance with Air District Regulation 2 -5-301, both S -2 and S -3 do not \nrequire TBACT because each of the source’s risk s are below a cancer risk of 1.0 in a \nmillion.  \n \nSince the estimated project cancer risk does not exceed 10 in a million and hazard indices \ndo not exceed 1.0, this proposed project complies with the Air District’s Regulation 2 -5-\n \n 9 302 project risk requirements, for projects not located in an Overburdened Community, \nas defined in Regulation 2 -1-243. \n \nRegulation 6, Rule 1 – General Requirements  \nRingelmann No. 1 Limitation : Regulation 6 -1-301 states a person shall not emit from \nany source for a period or aggregate periods of more than 3 minutes in any hour, a visible \nemission that is as dark or darker than No. 1 on the Ringelmann Chart, or equivalent \nopacity. The facility is expected to com ply with this standard.  \n \nVisible Particles:  Regulation 6 -1-305 prohibits emissions of visible particles from the \noperator’s property causing a nuisance to another property. Th e facility is expected to \ncomply with this standard  as the particulate emissions are fairly low . \n \nPer Air District Regulation 6 -1-114, S -2 and S -3 are exempt from Regulations 6 -1-310.2 \nand 6 -1-311.2 because they a re gas turbines.  \n \nRegulation 9, Rule 1 – Sulfur Dioxide  \nLimitations on Ground Level Concentrations : Regula tion 9-1-301 states a person shall \nnot emit from sources other than ships, SO 2 in quantities which result in ground level \nconcentrations in excess of 0.5 ppm continuously for 3 consecutive minutes or 0.25 ppm \naveraged over 60 consecutive minutes, or 0.05 ppm averaged over 24 hours. This section \nshall not apply to ground level concen trations occurring on the property from which such \nemission occurs, provided such property, from the emission point to the point  where the \nexcess occurs, is physically secured against public access by the person responsible for \nthe emission.  The two micro turbines, S -2 and S -3 will be enclosed by fencing and \nsecured  against  public access.  \n \nGeneral Emission Limitation: Regulation 9 -1-302 states  a person shall not emit from \nany source, other than a ship, a gas stream containing sulfur dioxide in excess of 300 ppm \n(dry). S -2 and S -3 use only natural gas as fuel. Combustion of natural gas is expected to \nproduce a maximum sulfur content of 1 grain p er 100 scf, which is the maximum PG&E \nnatural gas specification for sulfur.  \n \nRegulation 9, Rule 9 – NO x from Stationary Gas Turbines  \nThe purpose of Regulation 9 -9 is to limit emissions of NO X from stationary gas turbines. \nPer Regulation 9 -9-110, this rule does not apply to stationary gas turbines with a heat \ninput less than 5.0 MMBtu/hr. S -2 and S -3 have heat inputs of 0.871 MMBtu/hr each; \ntherefore, the micro turbines are not subject to the requirements of this  regulation.  \n \nNew Source Performance Standards (NSPS)  \nThe following standards  may apply to S-2 and S -3. \n \n40 CFR Part 60 Subpart GG: Pursuant to §60. 330, an affected facility is all stationary \ngas turbines with a heat input at peak load equal to or greater than 10.7 gigajoules ( 10 \nMMBtu/hr), based on the lower heating value (LHV) of the fuel fired.  S-2 and S -3 have a \n \n 10 heat input of 0.871  MMBtu/hr each. Therefore,  S-2 and S -3 are not subject to the \nrequirements of this subpart.  \n \nNational Emissions Standards for Hazardous Air Pollutants  (NESHAP)  \nThe following standards  may apply to S -2 and S -3. \n \n40 CFR Part 63 Subpart YYYY : Pursuant to §63. 6085 , stationary combustion turbines \nlocated at a major source of hazardous air pollutants (HAP)  are subject to the \nrequirements of this regulation. The facility is not major for HAPs. Therefore, S -2 and S -\n3 are not subject to this subpart."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nns  \n \nPermit Condition # 100489  \n \n1. The owner/operator of S -2 and S -3 shall operate each of S -2 and S -3 on natural gas \nfuel exclusively.  \n(Basis: Cumulative Increase)  \n \n2. The owner/operator of S -2 and S -3 shall operate each of S-2 and S -3 only when a \nnon-resettable totalizing fuel meter is installed  on each of S -2 and S -3. \n(Basis: Regulation 2 -1-403) \n \n3. The owner/operator of S -2 and S -3 shall not use more than 72,664  therms of \nnatural gas fuel at each of S-2 and S -3 in any consecutive twelve -month period."
+      },
+      {
+        "heading": "(Basis: Cumulative Increase, Toxics)",
+        "alias": "TOXICS",
+        "text": "(Basis: Cumulative Increase, Toxics)\n4. To determine compliance with the above parts, the owner/operator of S-2 and S -3 \nshall maintain the following records and provide all of the data necessary to \nevaluate compliance with the above parts, including the following information:  \n \na. Natural gas usage, on a monthly basis, for each microturbine;  \n \nAll records shall be retained onsite for two (2) years, from the date of entry, and \nmade available for inspection to Air District staff upon request. These \nrecordkeeping requirements shall not replace the recordkeeping requirements \ncontained in any applica ble Air District regulations.  \n(Basis: Recordkeeping)"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\non  \nThe proposed project is expected to comply with all applicable requirements of District, \nState, and  Federal air quality related regulations. I recommend issuing an Authority to \nConstruct for the equipment:  \n \nS-2 65 kilowatts (kW) Micro Turbine, Natural gas -fired, Make: Capstone,   \nModel : C65, Maximum Firing Rate: 0.871 MMBtu/hr  \n \n 11  \nS-3 65 kW Micro Turbine, Natural gas -fired, Make: Capstone,   \nModel : C65, Maximum Firing Rate: 0.871 MMBtu/hr  \n \nPrepared By:  Emily Schwartz , Air Quality Engineer"
+      }
+    ],
+    "unmapped_blocks": []
+  }
+}

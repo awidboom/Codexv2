@@ -1,0 +1,30 @@
+{
+  "source_pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\A0010_2004 12_reopenminrev_03.pdf",
+  "heading_regex": "(ENGINEERING EVALUATION(?: REPORT)?|EVALUATION REPORT)",
+  "detect_by": "both",
+  "top_lines": 120,
+  "top_app_lines": 25,
+  "lookahead_pages": 6,
+  "anchor_line": true,
+  "min_gap": 2,
+  "appchange_confirm": true,
+  "confirm_lookahead": 3,
+  "sections": [
+    {
+      "index": 1,
+      "start_page": 35,
+      "end_page": 39,
+      "application_number": null,
+      "output": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\split_A0010_2004 12_reopenminrev_03\\evaluation_01.pdf",
+      "addendum_like": false
+    },
+    {
+      "index": 2,
+      "start_page": 40,
+      "end_page": 46,
+      "application_number": null,
+      "output": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\split_A0010_2004 12_reopenminrev_03\\evaluation_02.pdf",
+      "addendum_like": false
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\extracted_evaluations\\application_20760.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 1
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "20760",
+    "application_number_from_filename": "20760"
+  },
+  "application_number": "20760",
+  "plant": {
+    "name": "58 EVALUATION REPORT",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [],
+  "background": {
+    "text": "Background\nnd  \n \nChevron Products Co. (Chevron) is proposing to install a new S -4365 Chemical \nTote, 400 gallon capacity storing on ly materials with less than 0.5 psia vapor \npressure, at its refinery located in Richmond.  The tank will be used to store Tri -\nAct 1825 only and this material has a true vapor pressure less than 0.5 psia.  \nThe emission calculation was performed using EPA’s AP42 Chapter 7."
+  },
+  "emission_calculations": {
+    "text": "Emission Calculations\nns  \n \nS-4365 External Floating Roof Storage Tank  \n \nChevron submitted an emissions estimate using AP42 Chapter 7. (See attached)  \n \nPOC:   10.34 #/y, 0.005 tpy"
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Increase\nse  \n \nPOC:   0.005 tpy – 0.006 tpy (offsets)  = 0.0 tpy"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emission Calculations\nns  \n \nS-4365 External Floating Roof Storage Tank  \n \nChevron submitted an emissions estimate using AP42 Chapter 7. (See attached)  \n \nPOC:   10.34 #/y, 0.005 tpy",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": 0.005
+        }
+      }
+    },
+    "by_equipment": {}
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "Toxic Risk Screening Analysis\nis  \n \nTOXIC   EMISSION RATE    TRIGGER LEVEL  \n \ncyclohexylamine       N/A \ndiethylethanolamine       N/A \nmorpholine        N/A \n \nA toxic risk analysis is not required for this application since the toxic emissions \ndid not have r espective trigger levels.A toxic risk analysis is not required for this application since the toxic emissions\ndid not have respective trigger levels.   \n \nNSPS subpart Kb does not apply to this tank since it is less than 75 cubic \nmeters.  \n \nPSD and NESHAPS do not apply to this application."
+  },
+  "BACT": {
+    "text": ""
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nce  \n \nThis application will comply with Regulation 8 -5-117, which is a limited exemption \nfor tanks storing materials with a vapor pressure less than or equal to 0.5 psia.  \nThe source will comply with Regulati on 8-5-307.3, which requires that the tank \nbe maintained vapor tight if it is pressurized or blanketed with organic gases \nother than natural gas.  This tank will not be pressurized or blanketed.   \n \nThis application will not trigger BACT since the increase in emissions will be less \nthan 10 pounds per highest day.   \n \n 59 This application will require POC offsets since the facility emissions are greater \nthan 50 tons per year.  This application requires 0.006 tons per year of POC \noffsets.  \n \nThis application is consi dered ministerial since this source category is covered in \nPermit Handbook Chapter 4.1."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "Conditions\nns  \n \n1. The owner/operator of S -4365 shall not exceed 3000 gallons of Tri -Act \n1825 in any consecutive 12 month period. (cum inc)  \n2. The owner/operator of S -4365 shall only store materials with a true vapor \npressure not to exceed 0.5 psia. (8 -5-117 and cum inc)  \n3. The owner/operator of S -4365 shall maintain a district approved monthly \nlog of all material throughput and vapor pressure at S -4365.  This log shall \nbe kept on site for at least 5 years from  the date of entry and made \navailable to district staff upon request.  (record keeping)  \n \n \n \n      by________________date________  \n        Gregory Solomon  \n       Senior Air Quality Engineer"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator of S -4365 shall not exceed 3000 gallons of Tri -Act \n1825 in any consecutive 12 month period. (cum inc)",
+        "basis": []
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator of S -4365 shall only store materials with a true vapor \npressure not to exceed 0.5 psia. (8 -5-117 and cum inc)",
+        "basis": []
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator of S -4365 shall maintain a district approved monthly \nlog of all material throughput and vapor pressure at S -4365.  This log shall \nbe kept on site for at least 5 years from  the date of entry and made \navailable to district staff upon request.  (record keeping)  \n \n \n \n      by________________date________  \n        Gregory Solomon  \n       Senior Air Quality Engineer",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\non  \n \nRecommend that the following equipment be granted an Authority to Construct:  \n \n S-4365  Chemical Tote, 400 gallon capacity, storing only material s with a true \nvapor pressure less than or equal to 0.5psia"
+  },
+  "raw_sections": {
+    "preamble": "58 EVALUATION REPORT  \nChevron Products Co., Plant #10  \nApplication Number 20760",
+    "blocks": [
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd  \n \nChevron Products Co. (Chevron) is proposing to install a new S -4365 Chemical \nTote, 400 gallon capacity storing on ly materials with less than 0.5 psia vapor \npressure, at its refinery located in Richmond.  The tank will be used to store Tri -\nAct 1825 only and this material has a true vapor pressure less than 0.5 psia.  \nThe emission calculation was performed using EPA’s AP42 Chapter 7."
+      },
+      {
+        "heading": "Emission Calculations",
+        "alias": "EMISSIONS",
+        "text": "Emission Calculations\nns  \n \nS-4365 External Floating Roof Storage Tank  \n \nChevron submitted an emissions estimate using AP42 Chapter 7. (See attached)  \n \nPOC:   10.34 #/y, 0.005 tpy"
+      },
+      {
+        "heading": "Plant Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Increase\nse  \n \nPOC:   0.005 tpy – 0.006 tpy (offsets)  = 0.0 tpy"
+      },
+      {
+        "heading": "Toxic Risk Screening Analysis",
+        "alias": "TOXICS",
+        "text": "Toxic Risk Screening Analysis\nis  \n \nTOXIC   EMISSION RATE    TRIGGER LEVEL  \n \ncyclohexylamine       N/A \ndiethylethanolamine       N/A \nmorpholine        N/A \n \nA toxic risk analysis is not required for this application since the toxic emissions \ndid not have r espective trigger levels."
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nce  \n \nThis application will comply with Regulation 8 -5-117, which is a limited exemption \nfor tanks storing materials with a vapor pressure less than or equal to 0.5 psia.  \nThe source will comply with Regulati on 8-5-307.3, which requires that the tank \nbe maintained vapor tight if it is pressurized or blanketed with organic gases \nother than natural gas.  This tank will not be pressurized or blanketed.   \n \nThis application will not trigger BACT since the increase in emissions will be less \nthan 10 pounds per highest day.   \n \n 59 This application will require POC offsets since the facility emissions are greater \nthan 50 tons per year.  This application requires 0.006 tons per year of POC \noffsets.  \n \nThis application is consi dered ministerial since this source category is covered in \nPermit Handbook Chapter 4.1."
+      },
+      {
+        "heading": "A toxic risk analysis is not required for this application since the toxic emissions",
+        "alias": "TOXICS",
+        "text": "A toxic risk analysis is not required for this application since the toxic emissions\ndid not have respective trigger levels.   \n \nNSPS subpart Kb does not apply to this tank since it is less than 75 cubic \nmeters.  \n \nPSD and NESHAPS do not apply to this application."
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\non  \n \nRecommend that the following equipment be granted an Authority to Construct:  \n \n S-4365  Chemical Tote, 400 gallon capacity, storing only material s with a true \nvapor pressure less than or equal to 0.5psia"
+      },
+      {
+        "heading": "Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Conditions\nns  \n \n1. The owner/operator of S -4365 shall not exceed 3000 gallons of Tri -Act \n1825 in any consecutive 12 month period. (cum inc)  \n2. The owner/operator of S -4365 shall only store materials with a true vapor \npressure not to exceed 0.5 psia. (8 -5-117 and cum inc)  \n3. The owner/operator of S -4365 shall maintain a district approved monthly \nlog of all material throughput and vapor pressure at S -4365.  This log shall \nbe kept on site for at least 5 years from  the date of entry and made \navailable to district staff upon request.  (record keeping)  \n \n \n \n      by________________date________  \n        Gregory Solomon  \n       Senior Air Quality Engineer"
+      }
+    ],
+    "unmapped_blocks": []
+  }
+}

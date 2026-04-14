@@ -1,0 +1,197 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 12
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "31097",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2025/31097/fid173_nsr_31097_eval_031425-pdf.pdf?rev=4f767913171b424dafc45cb917673722&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2025/031425-31097/georgia-pacific-gypsum-llc"
+  },
+  "application_number": "31097",
+  "plant": {
+    "name": "Georgia-Pacific Gypsum LLC",
+    "plant_id": null,
+    "address": "Antioch, CA 94509"
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-93",
+      "description": "Gypsum Rock Crusher; American Pulverizer Company, model AC-3B-BG;"
+    },
+    {
+      "id": "S-95",
+      "description": "Gypsum Rock Crusher; American Pulverizer Company, model AC-3B-BG;"
+    }
+  ],
+  "background": {
+    "text": "Background Draft Engineering Evaluation\nFacility #173; Application #31097 \nGeorgia-Pacific Gypsum LLC \n801 Minaker Drive, Antioch, CA 94509 \nGeorgia-Pacific Gypsum LLC (GP) submitted this application for Change of Conditions for the \nfollowing equipment at its facility (BAAQMD Facility# 173) in Antioch, CA: \nS-93 Gypsum Rock Crusher; American Pulverizer Company, model AC-3B-BG; \nBack up Crusher; Maximum Rated Throughput: 125 tons/hour \nAbated by: A-3 Baghouse, Reverse Jet, 5000 dscfm \nS-95 Gypsum Rock Crusher; American Pulverizer Company, model AC-3B-BG; \nPrimary Crusher; Maximum Rated Throughput: 125 tons/hour \nAbated by: A-3 Baghouse, Reverse Jet, 5000 dscfm \nThis plant produces agricultural gypsum, plaster and wallboard products. The facility receives \ngypsum rock ore via ships and stores it in a dome located on the property. Rock from the dome \nis fed into a crusher (S-93 or S-95), and it reduces in size from 4\" to less than%\". The crushed \ngypsum ore is conveyed to the main processing building, where it is further reduced in size using \nroller mills and then calcined to stucco. \nGypsum Rock Crushers S-93 and S-95 are identical equipment, and they will be interchanged \ninto the process when one undergoes repairs. The owner/operator shall not operate the two \nsources concurrently per operating permit condition #26164.2. \nThis application is for change in operating condition #26164 for S-93 and S-95. The current \nconditions require the owner/operator to conduct annual testing and submit reports to show the"
+  },
+  "emission_calculations": {
+    "text": "Emissions Summary\nBoth crushers are powered by electricity and there will be no combustion-related emissions. \nParticulate Matter (PM) emission will be generated during the crushing process."
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emissions Summary\nBoth crushers are powered by electricity and there will be no combustion-related emissions. \nParticulate Matter (PM) emission will be generated during the crushing process.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-93": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-95": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "toxic air contaminants (TAC) emissions are below the trigger levels in Regulation 2-5, Table 2-\n5-1. The applicant is requesting to reduce testing frequency to once every three years.\nThe facility provided six previous lab test results that have shown emissions are well below the \nRegulation 2-5 limits. The facility is willing to accept more stringent TAC concentration limits \nto demonstrate compliance to justify the reduced testing frequency from annually to every three \nyears."
+  },
+  "BACT": {
+    "text": ""
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": []
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": ""
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": []
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": ""
+  },
+  "raw_sections": {
+    "preamble": "",
+    "blocks": [
+      {
+        "heading": "Background Draft Engineering Evaluation",
+        "alias": "BACKGROUND",
+        "text": "Background Draft Engineering Evaluation\nFacility #173; Application #31097 \nGeorgia-Pacific Gypsum LLC \n801 Minaker Drive, Antioch, CA 94509 \nGeorgia-Pacific Gypsum LLC (GP) submitted this application for Change of Conditions for the \nfollowing equipment at its facility (BAAQMD Facility# 173) in Antioch, CA: \nS-93 Gypsum Rock Crusher; American Pulverizer Company, model AC-3B-BG; \nBack up Crusher; Maximum Rated Throughput: 125 tons/hour \nAbated by: A-3 Baghouse, Reverse Jet, 5000 dscfm \nS-95 Gypsum Rock Crusher; American Pulverizer Company, model AC-3B-BG; \nPrimary Crusher; Maximum Rated Throughput: 125 tons/hour \nAbated by: A-3 Baghouse, Reverse Jet, 5000 dscfm \nThis plant produces agricultural gypsum, plaster and wallboard products. The facility receives \ngypsum rock ore via ships and stores it in a dome located on the property. Rock from the dome \nis fed into a crusher (S-93 or S-95), and it reduces in size from 4\" to less than%\". The crushed \ngypsum ore is conveyed to the main processing building, where it is further reduced in size using \nroller mills and then calcined to stucco. \nGypsum Rock Crushers S-93 and S-95 are identical equipment, and they will be interchanged \ninto the process when one undergoes repairs. The owner/operator shall not operate the two \nsources concurrently per operating permit condition #26164.2. \nThis application is for change in operating condition #26164 for S-93 and S-95. The current \nconditions require the owner/operator to conduct annual testing and submit reports to show the"
+      },
+      {
+        "heading": "toxic air contaminants (TAC) emissions are below the trigger levels in Regulation 2-5, Table 2-",
+        "alias": "TOXICS",
+        "text": "toxic air contaminants (TAC) emissions are below the trigger levels in Regulation 2-5, Table 2-\n5-1. The applicant is requesting to reduce testing frequency to once every three years.\nThe facility provided six previous lab test results that have shown emissions are well below the \nRegulation 2-5 limits. The facility is willing to accept more stringent TAC concentration limits \nto demonstrate compliance to justify the reduced testing frequency from annually to every three \nyears."
+      },
+      {
+        "heading": "Emissions Summary",
+        "alias": "EMISSIONS",
+        "text": "Emissions Summary\nBoth crushers are powered by electricity and there will be no combustion-related emissions. \nParticulate Matter (PM) emission will be generated during the crushing process."
+      },
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "DRAFT",
+        "alias": null,
+        "text": "DRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT\nDRAFT"
+      }
+    ]
+  }
+}

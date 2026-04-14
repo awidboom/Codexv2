@@ -1,0 +1,290 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 10
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "Table 4. Plant Cumulative Increase Since 4/5/91\n  POC  NOx SO2 CO PM10  PM2.5\nExisting  0.000  0.000  0.000  0.000  0.000  0.000\nUn-Offset Total  0.000  0.000  0.000  0.000  0.000  0.000",
+        "Beryllium  2.06E -09 -- no 5.99E -06 3.40E -02 no\nCadmium  3.78E -07 -- no 1.10E -03 1.90E -02 no\nCopper  2.92E -07 4.40E -02 no 8.49E -04 -- no\nEthyl Benzene  3.26E -06 -- no 9.49E -03 3.30E+01  no\nFormaldehyde  1.16E -04 2.40E -02 no 2.51E -01 1.40E+01  no\nn-Hexane  2.16E -06 -- no 6.30E -03 2.70E+05  no",
+        "PAH (as\nbenzo(a)pyrene\n-equiv.)  2.31E -09 -- no 6.73E -06 3.30E -03 no\nPropylene  2.51E -04 -- no 7.31E -01 1.20E+05  no\nSelenium  4.13E -09 -- no 1.20E -05 8.00E+00  no\nToluene  1.26E -05 2.20E+00  no 3.66E -02 1.60E+04  no"
+      ]
+    },
+    "application_number_detected": "31988",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2023/31988/e5284_nsr_31988_eval_082223-pdf.pdf?rev=8b37c2f0074a42ddb9f5001fd5c874b9&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2023/082223-31988/royal-ground-coffee-cafe"
+  },
+  "application_number": "31988",
+  "plant": {
+    "name": "San Rafael, CA 94901",
+    "plant_id": 25284,
+    "address": "San Rafael, CA 94901"
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Batch Coffee Roaster: San Franciscan -25, 100 lbs/hr capacity;"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nND  \nRoyal Ground Coffee Cafe has applied for an Authority to Construct (AC) and Permit to \nOperate (PO) the following equipment at 1208 4th Street , San Rafael, CA  94901:  \nS-1      Batch Coffee Roaster: San Franciscan -25, 100 lbs/hr capacity;  \n 100,000 BTU/hr , natural gas  \nAbated by:                 A-1  Thermal Afterburner, 250,000 BTU/hr , natural gas  \n \nA district permit is required for any coffee roaster which processes 15 or more pounds of \ncoffee beans per hour per Regulation 2- 1-117.8. The proposed S -1 will process \napproximately 100 pounds of coffee beans per hour and therefore requires an A uthority \nto Construct  and P ermit to O perate . The integral abatement unit A -1 afterburner is \noperated  for the control of POC, CO, and PM  emissions , as well as to control smoke and \nodors . The roaster and after burner are fueled by natural gas.  \n \nThe applicant proposed to move the equipment from  1146 4th Street, San Rafael, CA  \n94901 (Plant 22498, permitted in Application 26366 ) to 1208 4th Street, San Rafael, CA  \n94901  (Plant 25284 ).  Due to movement of the source to a new location, the source has \nbeen evaluated as a new source."
+  },
+  "emission_calculations": {
+    "text": "EMISSION CALCULATIONS\nIONS  \nThis section summarizes the basis for, and results of, the emission calculations \nassociated with this application. All calculation assumptions listed below are consistentemission calculations.  Emissions generated from the operation of abatement device\noperation are called secondary pollutants; secondary pollutant emissions have been \ncalculated from  operation of A -1 for natural gas usage.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n3  https://www3.epa.gov/ttnchie1/ap42/ch09/final/c9s13 -2.pdf  \n4 https://www3.epa.go v/ttnchie1/ap42/ch01/final/c01s04.pdf  \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n3 \n  \n \nTable 1: Emission Factors  \nPollutant  Emission Factor  Reference  \n \nBatch Roasting Process ( S-1 Coffee Roaster)   \n VOC (assume POC)  0.047  lbs./ton  AP-42 Chapter 9.13.2 Coffee Roasting – Table 9.13.2 -\n1. for Batch roaster with thermal oxidizer   \n CO 0.55 lbs./ton  AP-42 Chapter 9.13.2 Coffee Roasting –  Table 9.13.2-\n2 for Batch roaster with thermal oxidizer   \n PM 10 (filterable)  0.12 lbs./ton  AP-42 Chapter 9.13.2 Coffee Roasting –  Table 9.13.2-\n1. for Batch roaster with thermal oxidizer   \n Formaldehyde 0.0008  lbs./ton  BAAQMD Engineering Handbook, Chapter 11.3 \n(Source testing at Peets Coffee and Tea, Inc.)   \n Acetaldehyde 0.0005  lbs./ton   \nNatural Gas Combustion Process ( S-1 Coffee Roaster)   \n NOx 100 lbs./106 scf AP-42 Chapter 1.4 (Natural Gas Combustion) Table \n1.4-1 (Small boilers < 100 MM BTU/hr, Uncontrolled)   \n CO 84 lbs./106 scf  \n PM (Assume PM 10) 7.6 lbs./106 scf \nAP-42 Chapter 1.4 (Natural Gas Combustion) Table \n1.4-2   \n SO 2 0.6 lbs./106 scf  \n VOC (Assume POC)  5.5 lbs./106 scf  \nAcetaldehyde  4.22E -06 lbs./MMBtuEmissions\n(lb/hr)  Acute Trigger \nLimit  \n(lb/hr)  Acute \nTrigger?  Annual \nEmissions  \n(lb/yr)  Chronic \nTrigger Limit  \n(lb/yr)  Chronic \nTrigger?  \nAcetaldehyde  2.65E -05 2.10E -01 no 2.43E -02 2.90E+01  no \nAcrolein  9.28E -07 1.10E -03 no 2.70E -03 1.40E+01  no \nArsenic  6.86E -08 8.80E -05 no 2.00E -04 1.60E -03 no \nBenzene  2.74E -06 1.20E -02 no 7.99E -03 2.90E+00  no \nBeryllium  2.06E -09 -- no 5.99E -06 3.40E -02 no \nCadmium  3.78E -07 -- no 1.10E -03 1.90E -02 no \nCopper  2.92E -07 4.40E -02 no 8.49E -04 -- no \nEthyl Benzene  3.26E -06 -- no 9.49E -03 3.30E+01  no \nFormaldehyde  1.16E -04 2.40E -02 no 2.51E -01 1.40E+01  no \nn-Hexane  2.16E -06 -- no 6.30E -03 2.70E+05  no \nLead  1.72E -07 -- no 4.99E -04 2.90E -01 no \nManganese  1.31E -07 -- no 3.80E -04 3.50E+00  no \nMercury  8.93E -08 2.70E -04 no 2.60E -04 2.10E -01 no \nNaphthalene  2.09E -07 -- no 6.09E -04 2.40E+00  no \nNickel  7.21E -07 8.80E -05 no 2.10E -03 3.10E -01 no \nPAH (as \nbenzo(a)pyrene\n-equiv.)  2.31E -09 -- no 6.73E -06 3.30E -03 no \nPropylene  2.51E -04 -- no 7.31E -01 1.20E+05  no \nSelenium  4.13E -09 -- no 1.20E -05 8.00E+00  no \nToluene  1.26E -05 2.20E+00  no 3.66E -02 1.60E+04  no \nVanadium  7.88E -07 1.30E -02 no 2.29E -03 -- no \nXylene  9.35E -06 9.70E+00  no 2.72E -02 2.70E+04  no \n \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n7 \n All TAC emissions are below the ir respective trigger levels. Therefore, an HRA is not \nrequired."
+  },
+  "cumulative_increase": {
+    "text": "CUMULATIVE INCREASE\nEASE   \nThis is a new facility. Therefore, there are no existing emissions.   The emissions from \nthis project will be added to the facility’s cumulative emissions as shown below.  \n \nTable 4. Plant Cumulative Increase Since 4/5/91  \n  POC  NOx SO2 CO PM10  PM2.5  \nExisting  0.000  0.000  0.000  0.000  0.000  0.000  \nUn-Offset Total  0.000  0.000  0.000  0.000  0.000  0.000  \n              \nS-1 Emission \nIncrease  0.004  0.050  3.01E -04 0.052  0.006  0.006"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSION CALCULATIONS\nIONS  \nThis section summarizes the basis for, and results of, the emission calculations \nassociated with this application. All calculation assumptions listed below are consistentemission calculations.  Emissions generated from the operation of abatement device\noperation are called secondary pollutants; secondary pollutant emissions have been \ncalculated from  operation of A -1 for natural gas usage.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n3  https://www3.epa.gov/ttnchie1/ap42/ch09/final/c9s13 -2.pdf  \n4 https://www3.epa.go v/ttnchie1/ap42/ch01/final/c01s04.pdf  \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n3 \n  \n \nTable 1: Emission Factors  \nPollutant  Emission Factor  Reference  \n \nBatch Roasting Process ( S-1 Coffee Roaster)   \n VOC (assume POC)  0.047  lbs./ton  AP-42 Chapter 9.13.2 Coffee Roasting – Table 9.13.2 -\n1. for Batch roaster with thermal oxidizer   \n CO 0.55 lbs./ton  AP-42 Chapter 9.13.2 Coffee Roasting –  Table 9.13.2-\n2 for Batch roaster with thermal oxidizer   \n PM 10 (filterable)  0.12 lbs./ton  AP-42 Chapter 9.13.2 Coffee Roasting –  Table 9.13.2-\n1. for Batch roaster with thermal oxidizer   \n Formaldehyde 0.0008  lbs./ton  BAAQMD Engineering Handbook, Chapter 11.3 \n(Source testing at Peets Coffee and Tea, Inc.)   \n Acetaldehyde 0.0005  lbs./ton   \nNatural Gas Combustion Process ( S-1 Coffee Roaster)   \n NOx 100 lbs./106 scf AP-42 Chapter 1.4 (Natural Gas Combustion) Table \n1.4-1 (Small boilers < 100 MM BTU/hr, Uncontrolled)   \n CO 84 lbs./106 scf  \n PM (Assume PM 10) 7.6 lbs./106 scf \nAP-42 Chapter 1.4 (Natural Gas Combustion) Table \n1.4-2   \n SO 2 0.6 lbs./106 scf  \n VOC (Assume POC)  5.5 lbs./106 scf  \nAcetaldehyde  4.22E -06 lbs./MMBtuEmissions\n(lb/hr)  Acute Trigger \nLimit  \n(lb/hr)  Acute \nTrigger?  Annual \nEmissions  \n(lb/yr)  Chronic \nTrigger Limit  \n(lb/yr)  Chronic \nTrigger?  \nAcetaldehyde  2.65E -05 2.10E -01 no 2.43E -02 2.90E+01  no \nAcrolein  9.28E -07 1.10E -03 no 2.70E -03 1.40E+01  no \nArsenic  6.86E -08 8.80E -05 no 2.00E -04 1.60E -03 no \nBenzene  2.74E -06 1.20E -02 no 7.99E -03 2.90E+00  no \nBeryllium  2.06E -09 -- no 5.99E -06 3.40E -02 no \nCadmium  3.78E -07 -- no 1.10E -03 1.90E -02 no \nCopper  2.92E -07 4.40E -02 no 8.49E -04 -- no \nEthyl Benzene  3.26E -06 -- no 9.49E -03 3.30E+01  no \nFormaldehyde  1.16E -04 2.40E -02 no 2.51E -01 1.40E+01  no \nn-Hexane  2.16E -06 -- no 6.30E -03 2.70E+05  no \nLead  1.72E -07 -- no 4.99E -04 2.90E -01 no \nManganese  1.31E -07 -- no 3.80E -04 3.50E+00  no \nMercury  8.93E -08 2.70E -04 no 2.60E -04 2.10E -01 no \nNaphthalene  2.09E -07 -- no 6.09E -04 2.40E+00  no \nNickel  7.21E -07 8.80E -05 no 2.10E -03 3.10E -01 no \nPAH (as \nbenzo(a)pyrene\n-equiv.)  2.31E -09 -- no 6.73E -06 3.30E -03 no \nPropylene  2.51E -04 -- no 7.31E -01 1.20E+05  no \nSelenium  4.13E -09 -- no 1.20E -05 8.00E+00  no \nToluene  1.26E -05 2.20E+00  no 3.66E -02 1.60E+04  no \nVanadium  7.88E -07 1.30E -02 no 2.29E -03 -- no \nXylene  9.35E -06 9.70E+00  no 2.72E -02 2.70E+04  no \n \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n7 \n All TAC emissions are below the ir respective trigger levels. Therefore, an HRA is not \nrequired.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "Batch Roasting Process ( S-1 Coffee Roaster)\nNatural Gas Combustion Process ( S-1 Coffee Roaster)",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "with the BAAQMD Engineering Handbook1 and BAAQMD Toxic Air Contaminant (TAC)\nEmission Factor Guidelines, Appendix A2 for natu ral gas combustion.  \n \nAir pollutant emissions resulting from coffee roasting operations generally include \nparticulate matter, volatile organic compounds, organic acids, and natural gas \ncombustion byproducts (BAAQMD Engineering Handbook Chapter 11.3). Table 1 \nprovides a summary of emission factors used for calculations.  \n \n \n1 http://www.baaqmd.gov/permits/permitting -manuals  \n2 https://www.baaqmd.gov/~/media/files/ab617 -community -health/facility -risk-\nreduction/documents/tac_emission_factor_guidance_appendixa_august_2020 -pdf.pdf?la=en  \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n2 \n • Emission factors published in US EPA AP -42 Chapter 9.13.2 (Coffee Roasting)3 \nwere used for the following coffee roasting emission byproducts: particulate \nmatter (PM) and volatile organic  compound s (VOCs, assumed as 100% \nprecursor organic compounds [POCs]).• The coffee roast ing is also a source of gaseous toxic air contaminants , including\nformaldehyde and acetaldehyde (aldehydes). There are no California Air Toxics \nEmission Factors (CATEF) factors for the aldehydes from coffee roasting. In \naccordance with the BAAQMD Permit  Handbook, source test results from Peets \nCoffee and Tea,  Inc. were used to calculate toxic air contaminant emission s for \nthis project .  \n \n• Natural  gas combustion byproducts from the coffee roaster includes nitrogen \noxides (NO x), carbon monoxide (CO), PM, trace amounts of sulfur dioxide (SO 2), \nmethane (CH 4), and V OCs. Emission factors for the coffee roaster’s natural gas \ncombustion byproducts were taken from AP -42 Chapter 1.4 (Natural Gas \nCombustion).4 AP-42 Table 1.4- 1 small boiler (< 100 MMBTU/hr) category was \nused for NO x and CO emission factors; Table 1.4- 2 was used to obtain emission \nfactors for PM, SO 2, CH 4, and VOC.  TAC emission factors from natural gascombustion were based upon BAAQMD Toxic Air Contaminant (TAC) Emission\nFactor Guidelines, Appendix A2.   \n \nSince a thermal afterburner is assumed to operate the same as a thermal oxidizer, the \ncontrolled emission factor with the thermal oxidizer for a batch roaster is used in theToxic Air Contaminant (TAC)\nEmission Factor Guidelines,  \nAppendix A.   \nAcrolein  2.65E -06 lbs./MMBtu   \nArsenic  1.96E -07 lbs./MMBtu   \nBenzene  7.84E -06 lbs./MMBtu   \nBeryllium  5.88E -09 lbs./MMBtu   \nCadmium  1.08E -06 lbs./MMBtu   \nCopper  8.33E -07 lbs./MMBtu   \nEthyl Benzene  9.31E -06 lbs./MMBtu   \nFormaldehyde  2.17E -04 lbs./MMBtu   \nn-Hexane  6.18E -06 lbs./MMBtu   \nLead  4.90E -07 lbs./MMBtu   \nManganese  3.73E -07 lbs./MMBtu   \nMercury  2.55E -07 lbs./MMBtu   \nNaphthalene  5.98E -07 lbs./MMBtu   \nNickel  2.06E -06 lbs./MMBtu   \nPAH (as benzo(a)p yrene-\nequiv.)  6.60E -09 lbs./MMBtu   \nPropylene  7.17E -04 lbs./MMBtu   \nSelenium  1.18E -08 lbs./MMBtu   \nToluene  3.59E -05 lbs./MMBtu   \nVanadium  2.25E -06 lbs./MMBtu   \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n4 \n Xylene  2.67E -05 lbs./MMBtu   \n \n  \nTable 2 summarizes additional emission calculation assumptions pertaining to the \nproposed coffee roasting operation.  \n  \nTable 2. S-1 Coffee Roaster Operation Assumptions  \nParameter  Assumption  Units  \nS-1 Operational Uptime  8 hours/day  \n365 days/year  \n2,920 hours/year  \nS-1 Coffee Bean \nRoaster Maximum \nThroughput  25.0 lbs./batch  \n4 batch/hour  \n100.0  lbs./hour  \n0.050  tons/hour  \n8 batch/day  \n200 lbs./day  \n0.100  tons/day  \n72,800  lbs./year  \n36.4 tons/year  \nS-1 Natural Gas \nconsumption  100,000  Roaster S -1, BTU/hour  \n0.250  Afterburner Firing Rate: 0.250 MMBtu/hr  \n0.3500  TOTAL, MMBTU/hour  \n3.43E -04 TOTAL, MMSCF/hour  \n1019  TOTAL, MMBTU/year  \n0.999  MMSCF/year  \n101.920  therm/year  \nStandard  \nConvers ion  \nFactors  2,000  lbs./ton  \n1,020  MMBTU/MMSCF  \n7000  grain/lb  \n60 min/hour  \n2.204  lbs./kg  \n3,142  BTU/kW  \nBTU = British Thermal Units  \nMMBTU = 106 BTU \nMMSCF = 106 standard cubic feet  \ntherm = 105 BTU \n \n \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n5 \n  \n \n \nCombined emissions  from the S-1 and A-1 coffee roasting unit are summarized in Table 3.  \n \nTable 3. PTE for S -1 Roaster Abated by A -1 Afterburner  \nPollutant  Calculated Emissions  \nlbs./day  lbs./year ton/year \nPOC  0.025 7.221 0.004 \nNO x 0.270 100.196  0.050 \nSO 2 0.002 0.601 3.01E -04 \nCO 0.285 104.185  0.052 \nPM10  0.032 11.985  0.006 \nPM2.5  0.032 11.985  0.006 \n \nAP-42 does not include  emission factors  for PM10 or PM2.5. It only contains  an \nemission factor  for filterable PM. For a worst -case evaluation of emissions, PM10 \nemissions and PM2.5 emissions are each assumed to equal that of filterable PM.HEALTH RISK ASSESSMENT (HRA)\nA)  \nTable 5 summarize s the TAC emissions associated with this  application in comparison \nwith the respective HRA trigger levels set forth in BAAQMD Regulation 2- 5, Table 1.  \n \nTable 5. TAC Emission s   \nTAC Pollutant  Hourly"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\nPursuant to Regulation 2- 2-301, BACT is required for a new source with PTE emission \nincreases that equal 10.0 lbs . or greater of POC, NPOC, NO X, SO 2, PM 10, PM2.5, or \nCO. The proposed S -1 will not emit criteria pollutants (POC, NPOC, NOx, SO2, PM10, \nPM2.5, or CO) at rates of 10 .0 lbs. or more per highest day and therefore, is  not \nrequired to implement BACT per Regulation 2- 2-301. Furthermore, this roaster is not \ncapable of triggering BACT at 24 hours of daily operation. Therefore, daily throughput \nlimit will not be included in the perm it condition for this roaster."
+  },
+  "offsets": {
+    "narrative": "Offset Ratio  N/A N/A N/A N/A N/A N/A\nOffsets Provided  N/A N/A N/A N/A N/A N/A \nBank Certificate  N/A N/A N/A N/A N/A N/A \nOnsite Credit  N/A N/A N/A N/A N/A N/A \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n6 \n Post -Project \nCumulative  0.004  0.050  3.01E -04 0.052  0.006  0.006  \nPost -Project \nUn-Offset Total  0.004  0.050  3.01E -04 0.052  0.006  0.006Offsets\nts  \nPursuant to Regulation 2- 2-302, offsets must be provided for any new or modified \nsource at a facility that emits, or is permitted to emit, more than 10 tons per year of POC \nor NO x. Furthermore, pursuant to Regulation  2-2-303, offsets must be provided for any \nnew or modified source with a cumulative increase that exceeds 100 tons per year of \nPM10 or SO2. Potential emissions for this facility are equal to the permitted emissions \nfrom S-1 and do not exceed the offset thr eshold for any pollutant.  Therefore, offsets are \nnot triggered for this project.  \n \nLastly, the facility will not  emit greater than 100 tons per year or more of any air \npollutant subject to regulation under the Clean Air Act or 10 tons of a single hazardous  \nair pollutant (HAP) or 25 tons of a combination of HAPs per year. The facility is not a \nmajor facility and is not required to meet the requirements of Regulation 2- 2-405 \n(Publication and Public Comment).",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "PM10",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "CO",
+          31988.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD)\nD)   \nThe requirements in District Regulation 2, Rule 2, Section 304 through 306 apply to PSD \nprojects. A PSD project is defined in Section 2- 2-224 and includes new or modified \nsources located at a facility that has potential emissions of 100 tons per year or more of \nany regulated NSR Pollutant (including fugitive emissions), if one of the 28 PSD source \ncategories listed in section 169(l) of the federal Clean Air Act, or if not in a listed source \ncategory, 250 tons/year for each regulated air  pollutant (excluding fugitive emissions for \ndetermining if a project is major). This facility is not one of the 28 listed PSD source \ncategories, and the maximum potential facility -wide emissions will be less than 250 \ntons/year for each regulated air pollutant . Therefore, this project is not a PSD project and \nis not subject to the PSD requirements in Sections 2- 2-304 through 306.  \n \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n9 \n Section 2- 2-307 applies to projects located in Class I areas; this project is not located in \na Class I area, so this section does not apply.  Section 2- 2-308 applies to projects with a \nsignificant net emission increase in a pollutant subject to a National Ambient Air Quality \nStandard, as defined in Sections 2- 2-224.3 and 2- 2-227.2. The emissions from the \nproposed new coffee roaster  are less than the significance thresholds in Section 2- 2-\n227.2. Therefore, Section 2- 2-308 does not apply.  \n \nRegulation 2, Rule 5  \nPursuant to Regulation 2- 5-110, the provisions of this rule are not subject to sources \nwith an increase in emissions less than  the trigger levels listed in Table 2- 5-1. Based on \nthe proposed operation parameters, the proposed coffee roaster does not trigger a \nHealth Risk Assessment.  \n \nRegulation 6, Rule 1  \nSource S-1 is expected to comply with Regulation 6- 1-301, which requires that visible \nemissions do not exceed Ringelmann 1 for period or periods aggregating more than \nthree minutes in any hour.   S-1 is expected to comply with this visible emission limit with \noperati on of the afterburner.  \n \nGrain Loading Rate  \nThe grain loading rate calculation is required for determining the compliance of this \napplication with BAAQMD Regulation 6, Rule 1.  \n \n[0.12 lb PM/ ton × 36.4 ton/year × year/ 2,912 operation hours  × 7000  grain/lb] / \n[60 min/hr ×  850 cfm] = 0.00 1 grain/dscf  \n \nAssumptions : \n• 0.12 lb PM 10/ton from the coffee roaster (excluding the PM 10 emissions \ndue to natural gas fuel combustion) is assumed to represent TSP, as there \nis no TSP  data available.  \n• 7000 grain/lb standard conversion factor . \n• 2,912 operation hours in a year . \n• 850 cfm rating of the A -1 afterburner.  \n \nSection 6-1-310.1 limits the total suspended particulate (TSP) concentration to no more \nthan 0.15 gr/dscf. Since 0. 0002 gr/dscf is less than 0. 15 gr/dscf, compliance with this \nrule is expected.    \n \nThe TSP limits in 6 -1-310.2 will not apply because the potential to emit TSP is below \n1,000 kg per year.  \n \nRegulation 7  \nCompliance with Regulation 7, Odorous Substances, is expect ed with the operation of \nA-1 thermal afterburner . \n \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n10 \n Regulation 9, Rule 1  \nThe coffee roaster is subject to and will comply with Regulation 9, Rule 1 (Inorganic \nGaseous Pollutants, Sulfur Dioxide) by restricting fuel use to natural gas only.  \nCombustion of natural gas is expected to produce a SO 2 concentration of no more than \n1 ppmv of SO 2, thereby meeting the requirement of a maximum outlet concentration of \n300 ppmv of SO 2 prescribed in Regulation 9, Rule 1- 302. \n \nNew Sources Performance Standards (NSPS)  \nNational Emission Standards for Hazardous Air Pollutants (NESHAP)  \nCoffee roas ting operations are not subject to NSPS  or NESHAP . \n \n \nPermit Condition # 27887 \n \n1. The owner/operator shall ensure the following limits are not exceeded at S -1 \nand A-1: \n  \nCoffee beans                          36.4 tons (72,800 pounds) in any consecutive \n12-month period  \nNatural Gas                            0. 999 MM scf (standard cubic feet) in any \nconsecutive 12- month period  \n[basis: Cumulative Increase]  \n \n2. The owner/operator shall ensure A- 1 Afterburner abates S-1 Coffee Roaster at \nall times of operation . [basis: Cumulative Increase]  \n \n3. The owner/operator shall ensure A-1 operates at 1200° F or more at all times. \n[basis: Regulation 2- 1-403] \n \n4. The owner/operator shall ensure that A -1 Afterburner is equipped with a \ntemperature- measuring device capable of continuously measuring and recording the \ntemperature. This device shall be accurate to within 10 degrees Fahrenheit (° F) and \nshall be maintained in accordance with manufacturer's recommendations. Th is \ntemperature monitor shall be used to demonstrate compliance with the temperature \nrequirements in Part 3. [basis: Regulation 1 -521] \n \n5. The owner/operator shall not emit from S -1 for a period or periods aggregating \nmore than three minutes in any hour, a visible emission which is as dark or darker \nthan No. 0.5 on the Ringelmann Chart or of such opacity as to obscure an observer's \nview to an equivalent or greater degree. [basis: Regulation 6- 1] \n \n6. To demonstrate compliance with the above conditions, the owner/operator shall \nmaintain the following records and provide all of the data necessary to evaluate"
+  },
+  "CEQA": {
+    "narrative": "CEQA requirements, except for ministerial projects or projects exempt from CEQA\nunder Section 2- 1-312.  The engineering review for this project requires only the \napplication of standard permit conditions and standard emission factors in accordance \nwith Permit Handbook Chapter 11.3 Coffee Roasting Operations . This application is \nministeria l under the District’s CEQA Regulation 2 -1-311 and is exempt from CEQA \nreview.  \n \nCalifornia Environmental Quality Act (CEQA) and Regulation 2 -1 \nThis permit application was reviewed following the specific procedures, fixed standards \nand objective measurement s set forth in BAAQMD Engineering Permit Handbook \nChapters 2.1 (Boilers, Steam Generators & Process Heaters) and 11.3 (Coffee \nRoasting Operations) and is therefore classified as ministerial. As such, it is exempt \nfrom CEQA review per Regulation 2- 1-311."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nANCE  \n \nRegulation 1  \nThe proposed coffee roaster is subject to and expected to comply with the requirements \nof Regulation 1- 301 (Public Nuisance).  \n \nRegulation 2, Rule 1  \nDistrict Regulation 2, Rule 1, Section 310 specifies that all proposed new and modified \nsources subject to District permit requirements must be reviewed in accordance withcompliance with the above conditions, including the following information:\na. Monthly records of the quantity of green coffee beans roasted at S -1 Coffee \nRoaster.  \nb. Monthly records of natural gas usage.  \nc. Monthly usage records shall be totaled for each consecutive 12- month period.  \nd. Records of continuous temperature measurements for A-1 Afterburner whenever S -\n1 is in operation.  \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n11 \n All records shall b e retained onsite for two years from the date of entry, and made \navailable for inspection by District staff upon request. These record- keeping \nrequirements shall not replace the record keeping requirements contained in any \napplicable District Regulations. [basis: Cumulative Increase]"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Public Notification\non  \nCalifornia Health & Safety Code §42301.6 and Regulation 2 -1-412 \nPursuant to California Health & Safety Code §42301.6(a), prior to approving an \napplication for a permit to construct or modification of a source, which is located within \n1,000 feet from the outer boundary of a school site, the District shall prepare a public \nnotice as detailed in §42301.6.  §42301.9(a) defines a “school” as any public or private \nschool used for the purposes of the education of more than 12 children in kinder garten \nor any grades 1 to 12, inclusive, but does not include any private school in which \neducation is primarily conducted in private homes.The public notification requirements of Regulation 2- 1-412 apply to modifications which\nresult in an increase in t oxic air contaminant or hazardous air contaminant emission at \nfacilities within 1,000 feet of the boundary of a K -12 school . \n \nPublic School and Overburdened Community Notification  \nThis project is not located within an Overburdened Community (OBC) . However,  this \nproject is within 1,000 feet of Saint Raphael School  (1100 Fifth Avenue, San Rafael, CA \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n8 \n 94901) . Therefore , this project is  subject to the public notification requirements ofRegulation 2- 1-412. Notification of the proposed new source will be  mailed out to the\nparents or guardians of all children enrolled in the  school  and to all addresses within \n1,000 feet  of the proposed source. The District will publish a  public notice , accepting \ncomments on the project for a  period of 30 days.  \n \nRegulation 2, Rule 2District Regulation 2 -1-412.  After the comments are received and reviewed, the District\nwill make a final determination on the permit.  \n \nI recommend that the District initiate a public notice and consider any comments \nreceived prior to taking any final action on issuance of an Authority to Construct for the \nfollowing source:  \n \nS-1      Batch Coffee Roaster: San Franciscan -25, 100 lbs/hr capacity;  \n 100,000 BTU/hr , natural gas  \nAbated by:                 A-1  Thermal Afterburner, 250,000 BTU/hr , natural gas  \n \n                            05/22/2023  \nYoujin Kim         Date  \nAir Quality Engineer"
+  },
+  "conditions": {
+    "text": ""
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": []
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nTION \nThe District has reviewed the material contained in the permit application for the \nproposed project and has made a preliminary determination that the project is expected \nto comply with all applicable requirements of District, state, and federal air quality -\nrelated regulations.  The preliminary recommendation is to issue an Authority to \nConstruct for the equipment listed below.  However, the proposed source will be located \nwithin 1000 feet of a school, which triggers the public notification requirements of"
+  },
+  "raw_sections": {
+    "preamble": "1 \n DRAFT Engineering Evaluation \nRoyal Ground Coffee Cafe  \n1208 4th Street  \nSan Rafael, CA  94901  \nPlant No. 25284 \nApplication No. 31988",
+    "blocks": [
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND  \nRoyal Ground Coffee Cafe has applied for an Authority to Construct (AC) and Permit to \nOperate (PO) the following equipment at 1208 4th Street , San Rafael, CA  94901:  \nS-1      Batch Coffee Roaster: San Franciscan -25, 100 lbs/hr capacity;  \n 100,000 BTU/hr , natural gas  \nAbated by:                 A-1  Thermal Afterburner, 250,000 BTU/hr , natural gas  \n \nA district permit is required for any coffee roaster which processes 15 or more pounds of \ncoffee beans per hour per Regulation 2- 1-117.8. The proposed S -1 will process \napproximately 100 pounds of coffee beans per hour and therefore requires an A uthority \nto Construct  and P ermit to O perate . The integral abatement unit A -1 afterburner is \noperated  for the control of POC, CO, and PM  emissions , as well as to control smoke and \nodors . The roaster and after burner are fueled by natural gas.  \n \nThe applicant proposed to move the equipment from  1146 4th Street, San Rafael, CA  \n94901 (Plant 22498, permitted in Application 26366 ) to 1208 4th Street, San Rafael, CA  \n94901  (Plant 25284 ).  Due to movement of the source to a new location, the source has \nbeen evaluated as a new source."
+      },
+      {
+        "heading": "EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSION CALCULATIONS\nIONS  \nThis section summarizes the basis for, and results of, the emission calculations \nassociated with this application. All calculation assumptions listed below are consistent"
+      },
+      {
+        "heading": "with the BAAQMD Engineering Handbook1 and BAAQMD Toxic Air Contaminant (TAC)",
+        "alias": "TOXICS",
+        "text": "with the BAAQMD Engineering Handbook1 and BAAQMD Toxic Air Contaminant (TAC)\nEmission Factor Guidelines, Appendix A2 for natu ral gas combustion.  \n \nAir pollutant emissions resulting from coffee roasting operations generally include \nparticulate matter, volatile organic compounds, organic acids, and natural gas \ncombustion byproducts (BAAQMD Engineering Handbook Chapter 11.3). Table 1 \nprovides a summary of emission factors used for calculations.  \n \n \n1 http://www.baaqmd.gov/permits/permitting -manuals  \n2 https://www.baaqmd.gov/~/media/files/ab617 -community -health/facility -risk-\nreduction/documents/tac_emission_factor_guidance_appendixa_august_2020 -pdf.pdf?la=en  \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n2 \n • Emission factors published in US EPA AP -42 Chapter 9.13.2 (Coffee Roasting)3 \nwere used for the following coffee roasting emission byproducts: particulate \nmatter (PM) and volatile organic  compound s (VOCs, assumed as 100% \nprecursor organic compounds [POCs])."
+      },
+      {
+        "heading": "• The coffee roast ing is also a source of gaseous toxic air contaminants , including",
+        "alias": "TOXICS",
+        "text": "• The coffee roast ing is also a source of gaseous toxic air contaminants , including\nformaldehyde and acetaldehyde (aldehydes). There are no California Air Toxics \nEmission Factors (CATEF) factors for the aldehydes from coffee roasting. In \naccordance with the BAAQMD Permit  Handbook, source test results from Peets \nCoffee and Tea,  Inc. were used to calculate toxic air contaminant emission s for \nthis project .  \n \n• Natural  gas combustion byproducts from the coffee roaster includes nitrogen \noxides (NO x), carbon monoxide (CO), PM, trace amounts of sulfur dioxide (SO 2), \nmethane (CH 4), and V OCs. Emission factors for the coffee roaster’s natural gas \ncombustion byproducts were taken from AP -42 Chapter 1.4 (Natural Gas \nCombustion).4 AP-42 Table 1.4- 1 small boiler (< 100 MMBTU/hr) category was \nused for NO x and CO emission factors; Table 1.4- 2 was used to obtain emission \nfactors for PM, SO 2, CH 4, and VOC.  TAC emission factors from natural gas"
+      },
+      {
+        "heading": "combustion were based upon BAAQMD Toxic Air Contaminant (TAC) Emission",
+        "alias": "TOXICS",
+        "text": "combustion were based upon BAAQMD Toxic Air Contaminant (TAC) Emission\nFactor Guidelines, Appendix A2.   \n \nSince a thermal afterburner is assumed to operate the same as a thermal oxidizer, the \ncontrolled emission factor with the thermal oxidizer for a batch roaster is used in the"
+      },
+      {
+        "heading": "emission calculations.  Emissions generated from the operation of abatement device",
+        "alias": "EMISSIONS",
+        "text": "emission calculations.  Emissions generated from the operation of abatement device\noperation are called secondary pollutants; secondary pollutant emissions have been \ncalculated from  operation of A -1 for natural gas usage.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n3  https://www3.epa.gov/ttnchie1/ap42/ch09/final/c9s13 -2.pdf  \n4 https://www3.epa.go v/ttnchie1/ap42/ch01/final/c01s04.pdf  \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n3 \n  \n \nTable 1: Emission Factors  \nPollutant  Emission Factor  Reference  \n \nBatch Roasting Process ( S-1 Coffee Roaster)   \n VOC (assume POC)  0.047  lbs./ton  AP-42 Chapter 9.13.2 Coffee Roasting – Table 9.13.2 -\n1. for Batch roaster with thermal oxidizer   \n CO 0.55 lbs./ton  AP-42 Chapter 9.13.2 Coffee Roasting –  Table 9.13.2-\n2 for Batch roaster with thermal oxidizer   \n PM 10 (filterable)  0.12 lbs./ton  AP-42 Chapter 9.13.2 Coffee Roasting –  Table 9.13.2-\n1. for Batch roaster with thermal oxidizer   \n Formaldehyde 0.0008  lbs./ton  BAAQMD Engineering Handbook, Chapter 11.3 \n(Source testing at Peets Coffee and Tea, Inc.)   \n Acetaldehyde 0.0005  lbs./ton   \nNatural Gas Combustion Process ( S-1 Coffee Roaster)   \n NOx 100 lbs./106 scf AP-42 Chapter 1.4 (Natural Gas Combustion) Table \n1.4-1 (Small boilers < 100 MM BTU/hr, Uncontrolled)   \n CO 84 lbs./106 scf  \n PM (Assume PM 10) 7.6 lbs./106 scf \nAP-42 Chapter 1.4 (Natural Gas Combustion) Table \n1.4-2   \n SO 2 0.6 lbs./106 scf  \n VOC (Assume POC)  5.5 lbs./106 scf  \nAcetaldehyde  4.22E -06 lbs./MMBtu"
+      },
+      {
+        "heading": "BAAQMD",
+        "alias": null,
+        "text": "BAAQMD"
+      },
+      {
+        "heading": "Toxic Air Contaminant (TAC)",
+        "alias": "TOXICS",
+        "text": "Toxic Air Contaminant (TAC)\nEmission Factor Guidelines,  \nAppendix A.   \nAcrolein  2.65E -06 lbs./MMBtu   \nArsenic  1.96E -07 lbs./MMBtu   \nBenzene  7.84E -06 lbs./MMBtu   \nBeryllium  5.88E -09 lbs./MMBtu   \nCadmium  1.08E -06 lbs./MMBtu   \nCopper  8.33E -07 lbs./MMBtu   \nEthyl Benzene  9.31E -06 lbs./MMBtu   \nFormaldehyde  2.17E -04 lbs./MMBtu   \nn-Hexane  6.18E -06 lbs./MMBtu   \nLead  4.90E -07 lbs./MMBtu   \nManganese  3.73E -07 lbs./MMBtu   \nMercury  2.55E -07 lbs./MMBtu   \nNaphthalene  5.98E -07 lbs./MMBtu   \nNickel  2.06E -06 lbs./MMBtu   \nPAH (as benzo(a)p yrene-\nequiv.)  6.60E -09 lbs./MMBtu   \nPropylene  7.17E -04 lbs./MMBtu   \nSelenium  1.18E -08 lbs./MMBtu   \nToluene  3.59E -05 lbs./MMBtu   \nVanadium  2.25E -06 lbs./MMBtu   \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n4 \n Xylene  2.67E -05 lbs./MMBtu   \n \n  \nTable 2 summarizes additional emission calculation assumptions pertaining to the \nproposed coffee roasting operation.  \n  \nTable 2. S-1 Coffee Roaster Operation Assumptions  \nParameter  Assumption  Units  \nS-1 Operational Uptime  8 hours/day  \n365 days/year  \n2,920 hours/year  \nS-1 Coffee Bean \nRoaster Maximum \nThroughput  25.0 lbs./batch  \n4 batch/hour  \n100.0  lbs./hour  \n0.050  tons/hour  \n8 batch/day  \n200 lbs./day  \n0.100  tons/day  \n72,800  lbs./year  \n36.4 tons/year  \nS-1 Natural Gas \nconsumption  100,000  Roaster S -1, BTU/hour  \n0.250  Afterburner Firing Rate: 0.250 MMBtu/hr  \n0.3500  TOTAL, MMBTU/hour  \n3.43E -04 TOTAL, MMSCF/hour  \n1019  TOTAL, MMBTU/year  \n0.999  MMSCF/year  \n101.920  therm/year  \nStandard  \nConvers ion  \nFactors  2,000  lbs./ton  \n1,020  MMBTU/MMSCF  \n7000  grain/lb  \n60 min/hour  \n2.204  lbs./kg  \n3,142  BTU/kW  \nBTU = British Thermal Units  \nMMBTU = 106 BTU \nMMSCF = 106 standard cubic feet  \ntherm = 105 BTU \n \n \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n5 \n  \n \n \nCombined emissions  from the S-1 and A-1 coffee roasting unit are summarized in Table 3.  \n \nTable 3. PTE for S -1 Roaster Abated by A -1 Afterburner  \nPollutant  Calculated Emissions  \nlbs./day  lbs./year ton/year \nPOC  0.025 7.221 0.004 \nNO x 0.270 100.196  0.050 \nSO 2 0.002 0.601 3.01E -04 \nCO 0.285 104.185  0.052 \nPM10  0.032 11.985  0.006 \nPM2.5  0.032 11.985  0.006 \n \nAP-42 does not include  emission factors  for PM10 or PM2.5. It only contains  an \nemission factor  for filterable PM. For a worst -case evaluation of emissions, PM10 \nemissions and PM2.5 emissions are each assumed to equal that of filterable PM."
+      },
+      {
+        "heading": "CUMULATIVE INCREASE",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "CUMULATIVE INCREASE\nEASE   \nThis is a new facility. Therefore, there are no existing emissions.   The emissions from \nthis project will be added to the facility’s cumulative emissions as shown below.  \n \nTable 4. Plant Cumulative Increase Since 4/5/91  \n  POC  NOx SO2 CO PM10  PM2.5  \nExisting  0.000  0.000  0.000  0.000  0.000  0.000  \nUn-Offset Total  0.000  0.000  0.000  0.000  0.000  0.000  \n              \nS-1 Emission \nIncrease  0.004  0.050  3.01E -04 0.052  0.006  0.006"
+      },
+      {
+        "heading": "Offset Ratio  N/A N/A N/A N/A N/A N/A",
+        "alias": "OFFSETS",
+        "text": "Offset Ratio  N/A N/A N/A N/A N/A N/A\nOffsets Provided  N/A N/A N/A N/A N/A N/A \nBank Certificate  N/A N/A N/A N/A N/A N/A \nOnsite Credit  N/A N/A N/A N/A N/A N/A \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n6 \n Post -Project \nCumulative  0.004  0.050  3.01E -04 0.052  0.006  0.006  \nPost -Project \nUn-Offset Total  0.004  0.050  3.01E -04 0.052  0.006  0.006"
+      },
+      {
+        "heading": "HEALTH RISK ASSESSMENT (HRA)",
+        "alias": "TOXICS",
+        "text": "HEALTH RISK ASSESSMENT (HRA)\nA)  \nTable 5 summarize s the TAC emissions associated with this  application in comparison \nwith the respective HRA trigger levels set forth in BAAQMD Regulation 2- 5, Table 1.  \n \nTable 5. TAC Emission s   \nTAC Pollutant  Hourly"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lb/hr)  Acute Trigger \nLimit  \n(lb/hr)  Acute \nTrigger?  Annual \nEmissions  \n(lb/yr)  Chronic \nTrigger Limit  \n(lb/yr)  Chronic \nTrigger?  \nAcetaldehyde  2.65E -05 2.10E -01 no 2.43E -02 2.90E+01  no \nAcrolein  9.28E -07 1.10E -03 no 2.70E -03 1.40E+01  no \nArsenic  6.86E -08 8.80E -05 no 2.00E -04 1.60E -03 no \nBenzene  2.74E -06 1.20E -02 no 7.99E -03 2.90E+00  no \nBeryllium  2.06E -09 -- no 5.99E -06 3.40E -02 no \nCadmium  3.78E -07 -- no 1.10E -03 1.90E -02 no \nCopper  2.92E -07 4.40E -02 no 8.49E -04 -- no \nEthyl Benzene  3.26E -06 -- no 9.49E -03 3.30E+01  no \nFormaldehyde  1.16E -04 2.40E -02 no 2.51E -01 1.40E+01  no \nn-Hexane  2.16E -06 -- no 6.30E -03 2.70E+05  no \nLead  1.72E -07 -- no 4.99E -04 2.90E -01 no \nManganese  1.31E -07 -- no 3.80E -04 3.50E+00  no \nMercury  8.93E -08 2.70E -04 no 2.60E -04 2.10E -01 no \nNaphthalene  2.09E -07 -- no 6.09E -04 2.40E+00  no \nNickel  7.21E -07 8.80E -05 no 2.10E -03 3.10E -01 no \nPAH (as \nbenzo(a)pyrene\n-equiv.)  2.31E -09 -- no 6.73E -06 3.30E -03 no \nPropylene  2.51E -04 -- no 7.31E -01 1.20E+05  no \nSelenium  4.13E -09 -- no 1.20E -05 8.00E+00  no \nToluene  1.26E -05 2.20E+00  no 3.66E -02 1.60E+04  no \nVanadium  7.88E -07 1.30E -02 no 2.29E -03 -- no \nXylene  9.35E -06 9.70E+00  no 2.72E -02 2.70E+04  no \n \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n7 \n All TAC emissions are below the ir respective trigger levels. Therefore, an HRA is not \nrequired."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nANCE  \n \nRegulation 1  \nThe proposed coffee roaster is subject to and expected to comply with the requirements \nof Regulation 1- 301 (Public Nuisance).  \n \nRegulation 2, Rule 1  \nDistrict Regulation 2, Rule 1, Section 310 specifies that all proposed new and modified \nsources subject to District permit requirements must be reviewed in accordance with"
+      },
+      {
+        "heading": "CEQA requirements, except for ministerial projects or projects exempt from CEQA",
+        "alias": "CEQA",
+        "text": "CEQA requirements, except for ministerial projects or projects exempt from CEQA\nunder Section 2- 1-312.  The engineering review for this project requires only the \napplication of standard permit conditions and standard emission factors in accordance \nwith Permit Handbook Chapter 11.3 Coffee Roasting Operations . This application is \nministeria l under the District’s CEQA Regulation 2 -1-311 and is exempt from CEQA \nreview.  \n \nCalifornia Environmental Quality Act (CEQA) and Regulation 2 -1 \nThis permit application was reviewed following the specific procedures, fixed standards \nand objective measurement s set forth in BAAQMD Engineering Permit Handbook \nChapters 2.1 (Boilers, Steam Generators & Process Heaters) and 11.3 (Coffee \nRoasting Operations) and is therefore classified as ministerial. As such, it is exempt \nfrom CEQA review per Regulation 2- 1-311."
+      },
+      {
+        "heading": "Public Notification",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Public Notification\non  \nCalifornia Health & Safety Code §42301.6 and Regulation 2 -1-412 \nPursuant to California Health & Safety Code §42301.6(a), prior to approving an \napplication for a permit to construct or modification of a source, which is located within \n1,000 feet from the outer boundary of a school site, the District shall prepare a public \nnotice as detailed in §42301.6.  §42301.9(a) defines a “school” as any public or private \nschool used for the purposes of the education of more than 12 children in kinder garten \nor any grades 1 to 12, inclusive, but does not include any private school in which \neducation is primarily conducted in private homes."
+      },
+      {
+        "heading": "The public notification requirements of Regulation 2- 1-412 apply to modifications which",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "The public notification requirements of Regulation 2- 1-412 apply to modifications which\nresult in an increase in t oxic air contaminant or hazardous air contaminant emission at \nfacilities within 1,000 feet of the boundary of a K -12 school . \n \nPublic School and Overburdened Community Notification  \nThis project is not located within an Overburdened Community (OBC) . However,  this \nproject is within 1,000 feet of Saint Raphael School  (1100 Fifth Avenue, San Rafael, CA \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n8 \n 94901) . Therefore , this project is  subject to the public notification requirements of"
+      },
+      {
+        "heading": "Regulation 2- 1-412. Notification of the proposed new source will be  mailed out to the",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Regulation 2- 1-412. Notification of the proposed new source will be  mailed out to the\nparents or guardians of all children enrolled in the  school  and to all addresses within \n1,000 feet  of the proposed source. The District will publish a  public notice , accepting \ncomments on the project for a  period of 30 days.  \n \nRegulation 2, Rule 2"
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\nPursuant to Regulation 2- 2-301, BACT is required for a new source with PTE emission \nincreases that equal 10.0 lbs . or greater of POC, NPOC, NO X, SO 2, PM 10, PM2.5, or \nCO. The proposed S -1 will not emit criteria pollutants (POC, NPOC, NOx, SO2, PM10, \nPM2.5, or CO) at rates of 10 .0 lbs. or more per highest day and therefore, is  not \nrequired to implement BACT per Regulation 2- 2-301. Furthermore, this roaster is not \ncapable of triggering BACT at 24 hours of daily operation. Therefore, daily throughput \nlimit will not be included in the perm it condition for this roaster."
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nts  \nPursuant to Regulation 2- 2-302, offsets must be provided for any new or modified \nsource at a facility that emits, or is permitted to emit, more than 10 tons per year of POC \nor NO x. Furthermore, pursuant to Regulation  2-2-303, offsets must be provided for any \nnew or modified source with a cumulative increase that exceeds 100 tons per year of \nPM10 or SO2. Potential emissions for this facility are equal to the permitted emissions \nfrom S-1 and do not exceed the offset thr eshold for any pollutant.  Therefore, offsets are \nnot triggered for this project.  \n \nLastly, the facility will not  emit greater than 100 tons per year or more of any air \npollutant subject to regulation under the Clean Air Act or 10 tons of a single hazardous  \nair pollutant (HAP) or 25 tons of a combination of HAPs per year. The facility is not a \nmajor facility and is not required to meet the requirements of Regulation 2- 2-405 \n(Publication and Public Comment)."
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD)",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD)\nD)   \nThe requirements in District Regulation 2, Rule 2, Section 304 through 306 apply to PSD \nprojects. A PSD project is defined in Section 2- 2-224 and includes new or modified \nsources located at a facility that has potential emissions of 100 tons per year or more of \nany regulated NSR Pollutant (including fugitive emissions), if one of the 28 PSD source \ncategories listed in section 169(l) of the federal Clean Air Act, or if not in a listed source \ncategory, 250 tons/year for each regulated air  pollutant (excluding fugitive emissions for \ndetermining if a project is major). This facility is not one of the 28 listed PSD source \ncategories, and the maximum potential facility -wide emissions will be less than 250 \ntons/year for each regulated air pollutant . Therefore, this project is not a PSD project and \nis not subject to the PSD requirements in Sections 2- 2-304 through 306.  \n \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n9 \n Section 2- 2-307 applies to projects located in Class I areas; this project is not located in \na Class I area, so this section does not apply.  Section 2- 2-308 applies to projects with a \nsignificant net emission increase in a pollutant subject to a National Ambient Air Quality \nStandard, as defined in Sections 2- 2-224.3 and 2- 2-227.2. The emissions from the \nproposed new coffee roaster  are less than the significance thresholds in Section 2- 2-\n227.2. Therefore, Section 2- 2-308 does not apply.  \n \nRegulation 2, Rule 5  \nPursuant to Regulation 2- 5-110, the provisions of this rule are not subject to sources \nwith an increase in emissions less than  the trigger levels listed in Table 2- 5-1. Based on \nthe proposed operation parameters, the proposed coffee roaster does not trigger a \nHealth Risk Assessment.  \n \nRegulation 6, Rule 1  \nSource S-1 is expected to comply with Regulation 6- 1-301, which requires that visible \nemissions do not exceed Ringelmann 1 for period or periods aggregating more than \nthree minutes in any hour.   S-1 is expected to comply with this visible emission limit with \noperati on of the afterburner.  \n \nGrain Loading Rate  \nThe grain loading rate calculation is required for determining the compliance of this \napplication with BAAQMD Regulation 6, Rule 1.  \n \n[0.12 lb PM/ ton × 36.4 ton/year × year/ 2,912 operation hours  × 7000  grain/lb] / \n[60 min/hr ×  850 cfm] = 0.00 1 grain/dscf  \n \nAssumptions : \n• 0.12 lb PM 10/ton from the coffee roaster (excluding the PM 10 emissions \ndue to natural gas fuel combustion) is assumed to represent TSP, as there \nis no TSP  data available.  \n• 7000 grain/lb standard conversion factor . \n• 2,912 operation hours in a year . \n• 850 cfm rating of the A -1 afterburner.  \n \nSection 6-1-310.1 limits the total suspended particulate (TSP) concentration to no more \nthan 0.15 gr/dscf. Since 0. 0002 gr/dscf is less than 0. 15 gr/dscf, compliance with this \nrule is expected.    \n \nThe TSP limits in 6 -1-310.2 will not apply because the potential to emit TSP is below \n1,000 kg per year.  \n \nRegulation 7  \nCompliance with Regulation 7, Odorous Substances, is expect ed with the operation of \nA-1 thermal afterburner . \n \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n10 \n Regulation 9, Rule 1  \nThe coffee roaster is subject to and will comply with Regulation 9, Rule 1 (Inorganic \nGaseous Pollutants, Sulfur Dioxide) by restricting fuel use to natural gas only.  \nCombustion of natural gas is expected to produce a SO 2 concentration of no more than \n1 ppmv of SO 2, thereby meeting the requirement of a maximum outlet concentration of \n300 ppmv of SO 2 prescribed in Regulation 9, Rule 1- 302. \n \nNew Sources Performance Standards (NSPS)  \nNational Emission Standards for Hazardous Air Pollutants (NESHAP)  \nCoffee roas ting operations are not subject to NSPS  or NESHAP . \n \n \nPermit Condition # 27887 \n \n1. The owner/operator shall ensure the following limits are not exceeded at S -1 \nand A-1: \n  \nCoffee beans                          36.4 tons (72,800 pounds) in any consecutive \n12-month period  \nNatural Gas                            0. 999 MM scf (standard cubic feet) in any \nconsecutive 12- month period  \n[basis: Cumulative Increase]  \n \n2. The owner/operator shall ensure A- 1 Afterburner abates S-1 Coffee Roaster at \nall times of operation . [basis: Cumulative Increase]  \n \n3. The owner/operator shall ensure A-1 operates at 1200° F or more at all times. \n[basis: Regulation 2- 1-403] \n \n4. The owner/operator shall ensure that A -1 Afterburner is equipped with a \ntemperature- measuring device capable of continuously measuring and recording the \ntemperature. This device shall be accurate to within 10 degrees Fahrenheit (° F) and \nshall be maintained in accordance with manufacturer's recommendations. Th is \ntemperature monitor shall be used to demonstrate compliance with the temperature \nrequirements in Part 3. [basis: Regulation 1 -521] \n \n5. The owner/operator shall not emit from S -1 for a period or periods aggregating \nmore than three minutes in any hour, a visible emission which is as dark or darker \nthan No. 0.5 on the Ringelmann Chart or of such opacity as to obscure an observer's \nview to an equivalent or greater degree. [basis: Regulation 6- 1] \n \n6. To demonstrate compliance with the above conditions, the owner/operator shall \nmaintain the following records and provide all of the data necessary to evaluate"
+      },
+      {
+        "heading": "compliance with the above conditions, including the following information:",
+        "alias": "SOC",
+        "text": "compliance with the above conditions, including the following information:\na. Monthly records of the quantity of green coffee beans roasted at S -1 Coffee \nRoaster.  \nb. Monthly records of natural gas usage.  \nc. Monthly usage records shall be totaled for each consecutive 12- month period.  \nd. Records of continuous temperature measurements for A-1 Afterburner whenever S -\n1 is in operation.  \nRoyal Ground Coffee Cafe  \nApplication 31988  \nPlant 25284  \n \n \n11 \n All records shall b e retained onsite for two years from the date of entry, and made \navailable for inspection by District staff upon request. These record- keeping \nrequirements shall not replace the record keeping requirements contained in any \napplicable District Regulations. [basis: Cumulative Increase]"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nTION \nThe District has reviewed the material contained in the permit application for the \nproposed project and has made a preliminary determination that the project is expected \nto comply with all applicable requirements of District, state, and federal air quality -\nrelated regulations.  The preliminary recommendation is to issue an Authority to \nConstruct for the equipment listed below.  However, the proposed source will be located \nwithin 1000 feet of a school, which triggers the public notification requirements of"
+      },
+      {
+        "heading": "District Regulation 2 -1-412.  After the comments are received and reviewed, the District",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "District Regulation 2 -1-412.  After the comments are received and reviewed, the District\nwill make a final determination on the permit.  \n \nI recommend that the District initiate a public notice and consider any comments \nreceived prior to taking any final action on issuance of an Authority to Construct for the \nfollowing source:  \n \nS-1      Batch Coffee Roaster: San Franciscan -25, 100 lbs/hr capacity;  \n 100,000 BTU/hr , natural gas  \nAbated by:                 A-1  Thermal Afterburner, 250,000 BTU/hr , natural gas  \n \n                            05/22/2023  \nYoujin Kim         Date  \nAir Quality Engineer"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "BAAQMD",
+        "alias": null,
+        "text": "BAAQMD"
+      }
+    ]
+  }
+}

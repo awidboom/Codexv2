@@ -1,0 +1,275 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 6
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "31601",
+    "application_number_from_filename": "31601",
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2022/31601/b3602_nsr_31601_eval_081922-pdf.pdf?rev=cf3ffbe299844867a6eb82f4f25e1328&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2022/081922-31601/deposition-sciences-inc"
+  },
+  "application_number": "31601",
+  "plant": {
+    "name": "Deposition Sciences Inc",
+    "plant_id": null,
+    "address": "Santa Rosa, CA 95403"
+  },
+  "evaluation_date": "July 19, 2012",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-2",
+      "description": "Semiconductor Fabrication Area"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nND  \nDeposition Sciences I nc (Deposition Sciences ) has submitted this application to  modify the \nfollowing source:  \n \nS-2 Semiconductor Fabrication Area  \nThree (3) Solvent Holding S tation Hoods, 100 Gallon Aggregate Holding Capacity  \nOne (1) Photolithography Consisting of One ( 1) Negative A pplicator , One ( 1) \nNegative Developer , One ( 1) Positive Applicator , and One ( 1) Positive Developer  \n \nThe Semiconductor Fabrication Area ( S-2) applies  solvent s on semiconductor components \nusing solvent sinks  and photolithography . The proposed material changes and throughputs  will \nresult in an emission increase of precursor organic compounds (POC ) and non-precursor \norganic compounds (NPOC) . The modification will result in a  potential increase in methanol, a"
+  },
+  "emission_calculations": {
+    "text": "EMISSIONS CALCULATIONS\nNS  \n \nTable 1. Organic Compound Annual Emissions  Review for S -2 \nMaterial  Organic Content  Proposed \nAnnual \nUsage \n(gals/yr) Emission \nFactor \n(%) Annual Emission RateEmissions\n(lbs/hr) Max Annual \nEmissions \n(lbs/yr) Acute  \nTrigger Level  \n(lbs/hr) Chronic  \nTrigger Level \n(lbs/yr) Exceeds \nAcute  or \nChronic \nTrigger \nLevel ? \nCresol  \n(CAS: 1319 -77-\n3) 3.2E-03 3.2E+00  - 2.3E+04  No \nMethanol  \n(CAS: 67 -56-1) 3.2E-03 3.2E+00  6.2E+01  1.5E+05  No \n*See “31601 -EM Calcs”  for detailed emission calculations found in the above tables.  \n \nThe project does not exceed listed Table 2 -5-1 acute and chronic trigger levels.  The project is \nnot subject to the requirements of this regulation.  \n \n \nPage 3 of 7"
+  },
+  "cumulative_increase": {
+    "text": "Cumulative \nIncrease\n(tons/yr) Application \nEmission \nIncrease  \n(tons/yr) Application \nEmission \nDecrease \n(tons/yr) New \nCumulative \nIncrease  \n(tons/yr) \nPOC  1.435 0.246  (0.000)  1.681"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSIONS CALCULATIONS\nNS  \n \nTable 1. Organic Compound Annual Emissions  Review for S -2 \nMaterial  Organic Content  Proposed \nAnnual \nUsage \n(gals/yr) Emission \nFactor \n(%) Annual Emission RateEmissions\n(lbs/hr) Max Annual \nEmissions \n(lbs/yr) Acute  \nTrigger Level  \n(lbs/hr) Chronic  \nTrigger Level \n(lbs/yr) Exceeds \nAcute  or \nChronic \nTrigger \nLevel ? \nCresol  \n(CAS: 1319 -77-\n3) 3.2E-03 3.2E+00  - 2.3E+04  No \nMethanol  \n(CAS: 67 -56-1) 3.2E-03 3.2E+00  6.2E+01  1.5E+05  No \n*See “31601 -EM Calcs”  for detailed emission calculations found in the above tables.  \n \nThe project does not exceed listed Table 2 -5-1 acute and chronic trigger levels.  The project is \nnot subject to the requirements of this regulation.  \n \n \nPage 3 of 7",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-2": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "toxic air contaminant (TAC).  Since the project is located within 1,000  feet of a school, this will\nrequire public notices of the for schools within a quarter mile  of the project.   The daily and \nannual emission increases will result in a modification  as defined in Regulation 2- 1-234.NEW SOURCE REVIEW OF TOXIC AIR CONTAMINANTS\nTS  \nPursuant to Regulation 2 -5-110, a project shall not be subject to this regulation if, for each TAC, \nthe total project emissions are below the acute and chronic trigger levels listed in Table 2- 5-1 of \nthis regulation. A project includes all new or modified sources of TACs within a 3- year period. \nThe project will only include emissions from the modified source within this application, since no \nother new or modified source was permitted within the previous 3- year period.  The following \ntable provides  a review o f the project TAC emission rates.  The values listed below reflect the \nPTE of cresol and methanol emissions . This modification will result in a n increased  usage of \nJSR NFR016D2 ; the only material containing the following TACs in this operation. The existing \npermit allowed for 2 0 gallons  per year of negative photoresist (JSR NFR016D2)  and 20 gallons  \nper year of positive photoresist.  The new permit will only allow for  up to 35 gallons  per year of \nnegative photoresist (JSR NFR016D2) . Additionally, the JSR NFR016D2 material, has not \nchanged in composition, including with respect to TACs.Table 3. TAC Emissions and New Source Review of Toxic Air Contaminants\nToxic Air \nContaminant  Max Hourlyc. The use of these materials does not increase toxic emissions above any risk\nscreening trigger level  of Table 2- 5-1 in Regulation 2- 5. \n[Basis Cumulative Increase and Toxics ] \n \n6. To determine compliance with the above  parts, the owner/operator shall maintain the \nfollowing records and provide all of the data necessary to evaluate compliance with the \nabove parts, including the following information:  \n \na. Quantities of each type of coating and solvent used at this source on a monthly \nbasis.  \nb. If a material other than those specified in Parts 1  through 3 are used, \nPOC/NPOC and toxic component contents of each material used; and mass \nemission calculations to demonstrate compliance with Part 5 , on a monthly basis;  \nc. Monthly usage and/or emission calculations shall be totaled for each consecutive \ntwelve month period.  \n \n \nPage 7 of 7 \n All records shall be retained on site for two (2) years,  from the date of entry, and made \navailable for inspection by District staff upon request. These recordkeeping requirements \nshall not replace the recordkeeping requirements contained in any applicable DistrictRegulations. [Basis: Cumulative Increase and Toxics]\nEnd of Conditions"
+  },
+  "BACT": {
+    "text": "BEST AVAILABLE CONTROL TECHNOLOGY\nGY  \nPursuant to Regulation 2 -2-301, Best Available Control Technology (BACT) applies to new or \nmodified sources  with a potential to emit (PTE) 10.0 pounds per day or greater . As shown in \nTable 2, the PTE of S -2 will be less than 10.0 pounds per day for POC and NPOC. Therefore,  \nS-2 is not sub ject to BACT. A condition will be maintained in the modified permit that limits the \noperation to below 10.0 pounds per day of all regulated pollutants."
+  },
+  "offsets": {
+    "narrative": "OFFSETS\nS  \nPursuant to Regulation 2 -2-302, offsets must be provided for any new or modified source at a \nfacility that emits, or is permitted to emit, more than 10 tons per year of POC or nitrogen oxides \n(NO X).  Furthermore, pursuant to Regulation 2- 2-303 offsets must  be provided for any new or \nmodified source at a major facility with a cumulative increase that exceeds 1.0 ton per year of \nparticulate matter 10 microns in size ( PM 10), particulate matter 2.5 microns in size (PM 2.5), or \nsulfur dioxide ( SO 2).  For purposes  of Regulation 2- 2-303, a major facility is defined as a facility \nthat is permitted to emit 100 tons per year or more of PM 10, PM 2.5, or SO 2. \n \nTable 4. Facility Potential to Emit Review  \nPollutant  Existing \nPotential  to \nEmit  \n(tons/yr) Application \nEmission \nIncrease  \n (tons/yr) Application \nEmission \nDecrease \n(tons/yr) New \nPotential to \nEmit  \n(tons/yr) \nPOC  1.435 0.246 (0.000) 1.681 \n \nThe facility has a PTE less than 10 tons per year of POC and NO X.  Therefore, the facility is not \nsubject to the offset requirements of Regulation 2 -2-302.  Furthermore, the facility is not a major \nfacility for PM 10, PM 2.5, or SO 2.  Therefore, the facility is not subject to the offset requirements of \nRegulation 2- 2-303. \n \nTable 5. Facility Cumulative Increase Review  \nPollutant  Existing",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          1.435,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration\non  \nPer Regulations 2-2-304 through 2- 2-306, Prevention of Significant Deterioration ( PSD) applies \nto projects with a significa nt increase as defined in Regulation 2- 2-227.1 . The project will not \nresult in a significant increase. Therefore, the PSD requirements of Regulations 2-2-304 through \n2-2-306 do not apply.  \n \nPage 5 of 7 \n  \nSchool Notification"
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act\nct  \nPursuant to Regulation 2 -1-311, an application for a proposed new or modified source will be \nclassified as ministerial and will accordingly be exempt from the California Environmental \nQuality Act (CEQA) requirement of Regulation 2- 1-310 if the District’s e ngineering evaluation \nand basis for approval or denial of the permit application for the project is limited to the criteria \nset forth in Regulation 2- 1-428 and to the specific procedures, fixed standards, and objective \nmeasurements set forth in the Distric t's Permit Handbook and BACT/TBACT Workbook.  The \nevaluation of the proposed project was performed in accordance with comparable criteria set \nforth in Chapter 7.4  of the Permit Handbook and is considered ministerial.  \n \nNew Source Performance Standards  \nThere are no New Source Performance Standards (NSPS) applicable to s ource S-2. \n \nNational Emission Standards for Hazardous Air Pollutants  \n40 CFR Part 63, Subpart BBBBB –  National Emission Standards for Hazardous Air Pollutants \n(NESHAP) for Semiconductor Manufact uring,  specifies emissions standards for hazardous air \npollutant (HAP) emissions from facilities that emit more than 10 tons per year of any one HAP or \n25 tons per year of any combination of HAPs.  This facility will not emit any HAP in the quantities \nmenti oned above. T herefore,  S-2 is not subject to the emission standards of this subpart."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nCE  \nRegulation 8 (Organic Compounds), Rule  30 (Semiconductor Wafer Fabrication Operations ) \nAs a semiconductor wafer fabrication operation, S-2 is subject to the provisions of Regulation \n8-30. \n \nThis operation qualifies for an exemption under Regulation 8-30-110 as it meets the definition of \na Small Semiconductor Operation. This exemption states that the provisions of Section 8- 30-\n302 shall not apply to any facility whose total combined net consumption of solvent -based \nphotoresist and solv ent-based photoresist developer is less than 24 gallons per month on a \nfacility wide basis and provided the petition requirement of Section 8- 30-402 and recordkeeping \nrequirement of Section 8 -30-502 are met.  \n \nBAAQMD Regulation 8-30-219 defines a Solvent -Based Photoresist Developer as a photoresist \ndeveloper containing 10% or more volatile organic compound ( VOC ) by weight if unheated, or \n2.5% or more VOC by weight if heated. VOC is any organic compound which would be emitted \nduring semiconductor wafer fabrication operations and related cleaning operations, excluding \nthe following: methane, carbon monoxide, carbon  dioxide, carbonic acid, metallic carbides or \ncarbonates, ammonium carbonate.  Moses Lake PD523 Developer  is unheated (occurs at 23 \ndegrees C) and, as demonstrated in the safety data sheet ( SDS), contains less than 10% VOC. \n \nPage 4 of 7 \n Therefore,  only the Positive Phot oresist Maskant AZ P4620 and the JSR NFR016D2 (Negative \nPhotoresist Maskant) count toward the solvent -based applicability limits specified above. The \ncombined annual usage of these two solvent -based photoresist developers is 60 gallons per \nyear or an average of 5  gallons per month.  Therefore , this operation qualifies as a Small \nSemiconductor Operation as defined in Regulation 8- 30-110 and is not subject to r egulation 8-\n30-302. This operation will be subject to the requirements in regulation 8- 30-402 and regulation \n8-30-502. Compliance with these requirements is expected.  \n \nThis operation will operate solvent sinks. All sinks will have a cover as required by regulation 8 -\n30-304.1. The capacity of each sink will be labeled on the sink as required by regulation 8 -30-\n304.2. Materials will be disposed of in a manner as to  minimize evaporation into the atmosphere \nas required by regulation 8- 30-304.3. Liquid solvent leaks will immediately be addressed via \nrepair or equipment shutdown as required by regulation 8- 30-304.5.  \n \nThis operation will not operate a solvent vapor station. Therefore, it is not subject to regulation \n8-30-306. \n \nThis operation is subject to the cleaning requirements specified in regulation 8- 30-307. The \noperation will use cleaning materials containing 10% or less of VOC by weight content to \nperform wipe cleaning of the fab area. Compliance with this regulation is expected as stated on \nthe submitted application material.  \n \nThis operation is subject to t he record keeping requirements of 8 -30-501 and 8- 30-502. \nCompliance is expected and conditions will be included in the permit to ensure this."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Pursuant to Regulation 2 -1-412 and California Health & Safety Code §42301.6(a), prior to\napproving an application for a permit to construct or modification of a source, which is located \nwithin 1,000 feet from the outer boundary of a school site, the District shall prepare a public \nnotice as detailed in §42301.6.  §42301.9(a) defines a “school” as any public or private school \nused for the purposes of the education of more than 12 children in kindergarten or any grades 1 \nto 12, inclusive, but does not include any private school in which education  is primarily \nconducted in private homes.  \n \nThe modification of S -2 will  result in an increase of TAC emissions. The only material \ncontaining TACs, JSR NFR016D2,  was previously permitted for 2 0 gallons of usage per year. \nThe new permit will allow 35 gallons of usage per year. Therefore , there will be a n increase in \nTAC emissions  and a public notice is required.  \n \nTable 6. List of Schools Subject to Public Noticing  \nSchool Name  Address  Distance  \nNorth Valley School  3164 Condo Court, Santa Rosa  <1,000 ft  \nSchaefer Charter School  1370 San Miguel Avenue, Santa Rosa  <0.25 miles"
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS\nIONS  \n \nPermit Condition # 25304 \n \nConditions for S -2 Photolithography  \n \nThis condition, as initially adopted in New Source Review Application #23618 on July 19, 2012,  \nis further amended to include proposed throughput modifications in New Source Review \nApplication #31601.  \n \n1. Gross throughput of solvents at S 2 shall not exceed the following amounts in any  \nconsecutive twelve month period:  \n \nMaterial  Gallons  \nAcetone  300"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "Gross throughput of solvents at S 2 shall not exceed the following amounts in any  \nconsecutive twelve month period:  \n \nMaterial  Gallons  \nAcetone  300",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nON \nThe District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of District, state, and federal air quality related regulations. The \npreliminary recommendation is to issue an Authority to Construct for the proposal of the new, \nmodified, and altered sources listed below. However, the proposed source will be located within \n1,000 feet of a school, which triggers the public notification requirement of District Regulation 2 -\n1-412. After the comments are received and reviewed, the District will make a final \ndetermination on the permit.  \n \nI recommend that the District initiate a public notice and consider any comments received prior \nto taking any final action on the  issuance of an Authority to Construct or Permit to Operate for \nthe following equipment:  \n \nS-2 Semiconductor Fabrication Area  \nThree (3) Solvent Holding Station Hoods, 100 Gallon Aggregate Holding Capacity  \nOne (1) Photolithography Consisting of One (1) Negat ive Applicator, One (1) \nNegative Developer, One (1) Positive Applicator, and One (1) Positive Developer  \n \n \n \nPrepared by:    \n Kevin Creaven , Air Quality Engineer"
+  },
+  "raw_sections": {
+    "preamble": "Page 1 of 7 \n Draft Engineering Evaluation \n \nFacility /Plant  ID: 13602  \nDeposition Sciences  Inc \n3300 Coffey Lane, Santa Rosa, CA 95403  \nApplication No: 31601",
+    "blocks": [
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND  \nDeposition Sciences I nc (Deposition Sciences ) has submitted this application to  modify the \nfollowing source:  \n \nS-2 Semiconductor Fabrication Area  \nThree (3) Solvent Holding S tation Hoods, 100 Gallon Aggregate Holding Capacity  \nOne (1) Photolithography Consisting of One ( 1) Negative A pplicator , One ( 1) \nNegative Developer , One ( 1) Positive Applicator , and One ( 1) Positive Developer  \n \nThe Semiconductor Fabrication Area ( S-2) applies  solvent s on semiconductor components \nusing solvent sinks  and photolithography . The proposed material changes and throughputs  will \nresult in an emission increase of precursor organic compounds (POC ) and non-precursor \norganic compounds (NPOC) . The modification will result in a  potential increase in methanol, a"
+      },
+      {
+        "heading": "toxic air contaminant (TAC).  Since the project is located within 1,000  feet of a school, this will",
+        "alias": "TOXICS",
+        "text": "toxic air contaminant (TAC).  Since the project is located within 1,000  feet of a school, this will\nrequire public notices of the for schools within a quarter mile  of the project.   The daily and \nannual emission increases will result in a modification  as defined in Regulation 2- 1-234."
+      },
+      {
+        "heading": "EMISSIONS CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSIONS CALCULATIONS\nNS  \n \nTable 1. Organic Compound Annual Emissions  Review for S -2 \nMaterial  Organic Content  Proposed \nAnnual \nUsage \n(gals/yr) Emission \nFactor \n(%) Annual Emission Rate"
+      },
+      {
+        "heading": "NPOC",
+        "alias": null,
+        "text": "NPOC\nContent  \n(lbs/gal) POC \nContent  \n(lbs/gal) NPOC  \n(lbs/yr) POC  \n(lbs/yr) \nAcetone  6.55 0.00 300 30 589.50  0.00 \nNMP Microposit 1165  0.00 8.60 500 30 0.00 1290.00  \nHMDS  0.00 6.45 50 30 0.00 96.71  \nNegative Photoresist Maskant \n(JSR NFR016D2)  0.00 9.17 35 90 0.00 288.86  \nOrganic Photoresist Developer \n(PD523)  0.00 0.25 1000  90 0.00 225.00  \nPositive Photoresist Maskant AZ \nP4620  0.00 5.45 25 90 0.00 122.63  \nPotassium Hydroxide  0.00 0.00 200 100 0.00 0.00 \nPotassium Carbonate  0.00 0.00 200 100 0.00 0.00 \nAsahi AQ59  0.00 9.59 2.45 100 0.00 23.50  \n   Source Total  589.5 0 2046.68 \n \n \n \n \n \n \nPage 2 of 7 \n  \nTable 2. Potential to Emit Emissions Summary for S -2 \nPollutant  Hourly  \nEmission Rate  \n(lbs/hr) Average Daily  \nEmission Rate  \n(lbs/day)1 Annual \nEmission Rate  \n(lbs/yr)2 Annual  \nEmission Rate  \n(tons/yr)2 \nPOC  0.79 7.87 2046.68  1.023  \nNPOC 0.23 2.27 589.50  0.295  \n1 As per the applicant, in the supplemental forms submitted, the source will operate 260 days \nper year.  \n2 Based on proposed material usage limits ."
+      },
+      {
+        "heading": "BEST AVAILABLE CONTROL TECHNOLOGY",
+        "alias": "BACT",
+        "text": "BEST AVAILABLE CONTROL TECHNOLOGY\nGY  \nPursuant to Regulation 2 -2-301, Best Available Control Technology (BACT) applies to new or \nmodified sources  with a potential to emit (PTE) 10.0 pounds per day or greater . As shown in \nTable 2, the PTE of S -2 will be less than 10.0 pounds per day for POC and NPOC. Therefore,  \nS-2 is not sub ject to BACT. A condition will be maintained in the modified permit that limits the \noperation to below 10.0 pounds per day of all regulated pollutants."
+      },
+      {
+        "heading": "NEW SOURCE REVIEW OF TOXIC AIR CONTAMINANTS",
+        "alias": "TOXICS",
+        "text": "NEW SOURCE REVIEW OF TOXIC AIR CONTAMINANTS\nTS  \nPursuant to Regulation 2 -5-110, a project shall not be subject to this regulation if, for each TAC, \nthe total project emissions are below the acute and chronic trigger levels listed in Table 2- 5-1 of \nthis regulation. A project includes all new or modified sources of TACs within a 3- year period. \nThe project will only include emissions from the modified source within this application, since no \nother new or modified source was permitted within the previous 3- year period.  The following \ntable provides  a review o f the project TAC emission rates.  The values listed below reflect the \nPTE of cresol and methanol emissions . This modification will result in a n increased  usage of \nJSR NFR016D2 ; the only material containing the following TACs in this operation. The existing \npermit allowed for 2 0 gallons  per year of negative photoresist (JSR NFR016D2)  and 20 gallons  \nper year of positive photoresist.  The new permit will only allow for  up to 35 gallons  per year of \nnegative photoresist (JSR NFR016D2) . Additionally, the JSR NFR016D2 material, has not \nchanged in composition, including with respect to TACs."
+      },
+      {
+        "heading": "Table 3. TAC Emissions and New Source Review of Toxic Air Contaminants",
+        "alias": "TOXICS",
+        "text": "Table 3. TAC Emissions and New Source Review of Toxic Air Contaminants\nToxic Air \nContaminant  Max Hourly"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lbs/hr) Max Annual \nEmissions \n(lbs/yr) Acute  \nTrigger Level  \n(lbs/hr) Chronic  \nTrigger Level \n(lbs/yr) Exceeds \nAcute  or \nChronic \nTrigger \nLevel ? \nCresol  \n(CAS: 1319 -77-\n3) 3.2E-03 3.2E+00  - 2.3E+04  No \nMethanol  \n(CAS: 67 -56-1) 3.2E-03 3.2E+00  6.2E+01  1.5E+05  No \n*See “31601 -EM Calcs”  for detailed emission calculations found in the above tables.  \n \nThe project does not exceed listed Table 2 -5-1 acute and chronic trigger levels.  The project is \nnot subject to the requirements of this regulation.  \n \n \nPage 3 of 7"
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nS  \nPursuant to Regulation 2 -2-302, offsets must be provided for any new or modified source at a \nfacility that emits, or is permitted to emit, more than 10 tons per year of POC or nitrogen oxides \n(NO X).  Furthermore, pursuant to Regulation 2- 2-303 offsets must  be provided for any new or \nmodified source at a major facility with a cumulative increase that exceeds 1.0 ton per year of \nparticulate matter 10 microns in size ( PM 10), particulate matter 2.5 microns in size (PM 2.5), or \nsulfur dioxide ( SO 2).  For purposes  of Regulation 2- 2-303, a major facility is defined as a facility \nthat is permitted to emit 100 tons per year or more of PM 10, PM 2.5, or SO 2. \n \nTable 4. Facility Potential to Emit Review  \nPollutant  Existing \nPotential  to \nEmit  \n(tons/yr) Application \nEmission \nIncrease  \n (tons/yr) Application \nEmission \nDecrease \n(tons/yr) New \nPotential to \nEmit  \n(tons/yr) \nPOC  1.435 0.246 (0.000) 1.681 \n \nThe facility has a PTE less than 10 tons per year of POC and NO X.  Therefore, the facility is not \nsubject to the offset requirements of Regulation 2 -2-302.  Furthermore, the facility is not a major \nfacility for PM 10, PM 2.5, or SO 2.  Therefore, the facility is not subject to the offset requirements of \nRegulation 2- 2-303. \n \nTable 5. Facility Cumulative Increase Review  \nPollutant  Existing"
+      },
+      {
+        "heading": "Cumulative \nIncrease",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Cumulative \nIncrease\n(tons/yr) Application \nEmission \nIncrease  \n(tons/yr) Application \nEmission \nDecrease \n(tons/yr) New \nCumulative \nIncrease  \n(tons/yr) \nPOC  1.435 0.246  (0.000)  1.681"
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE  \nRegulation 8 (Organic Compounds), Rule  30 (Semiconductor Wafer Fabrication Operations ) \nAs a semiconductor wafer fabrication operation, S-2 is subject to the provisions of Regulation \n8-30. \n \nThis operation qualifies for an exemption under Regulation 8-30-110 as it meets the definition of \na Small Semiconductor Operation. This exemption states that the provisions of Section 8- 30-\n302 shall not apply to any facility whose total combined net consumption of solvent -based \nphotoresist and solv ent-based photoresist developer is less than 24 gallons per month on a \nfacility wide basis and provided the petition requirement of Section 8- 30-402 and recordkeeping \nrequirement of Section 8 -30-502 are met.  \n \nBAAQMD Regulation 8-30-219 defines a Solvent -Based Photoresist Developer as a photoresist \ndeveloper containing 10% or more volatile organic compound ( VOC ) by weight if unheated, or \n2.5% or more VOC by weight if heated. VOC is any organic compound which would be emitted \nduring semiconductor wafer fabrication operations and related cleaning operations, excluding \nthe following: methane, carbon monoxide, carbon  dioxide, carbonic acid, metallic carbides or \ncarbonates, ammonium carbonate.  Moses Lake PD523 Developer  is unheated (occurs at 23 \ndegrees C) and, as demonstrated in the safety data sheet ( SDS), contains less than 10% VOC. \n \nPage 4 of 7 \n Therefore,  only the Positive Phot oresist Maskant AZ P4620 and the JSR NFR016D2 (Negative \nPhotoresist Maskant) count toward the solvent -based applicability limits specified above. The \ncombined annual usage of these two solvent -based photoresist developers is 60 gallons per \nyear or an average of 5  gallons per month.  Therefore , this operation qualifies as a Small \nSemiconductor Operation as defined in Regulation 8- 30-110 and is not subject to r egulation 8-\n30-302. This operation will be subject to the requirements in regulation 8- 30-402 and regulation \n8-30-502. Compliance with these requirements is expected.  \n \nThis operation will operate solvent sinks. All sinks will have a cover as required by regulation 8 -\n30-304.1. The capacity of each sink will be labeled on the sink as required by regulation 8 -30-\n304.2. Materials will be disposed of in a manner as to  minimize evaporation into the atmosphere \nas required by regulation 8- 30-304.3. Liquid solvent leaks will immediately be addressed via \nrepair or equipment shutdown as required by regulation 8- 30-304.5.  \n \nThis operation will not operate a solvent vapor station. Therefore, it is not subject to regulation \n8-30-306. \n \nThis operation is subject to the cleaning requirements specified in regulation 8- 30-307. The \noperation will use cleaning materials containing 10% or less of VOC by weight content to \nperform wipe cleaning of the fab area. Compliance with this regulation is expected as stated on \nthe submitted application material.  \n \nThis operation is subject to t he record keeping requirements of 8 -30-501 and 8- 30-502. \nCompliance is expected and conditions will be included in the permit to ensure this."
+      },
+      {
+        "heading": "California Environmental Quality Act",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act\nct  \nPursuant to Regulation 2 -1-311, an application for a proposed new or modified source will be \nclassified as ministerial and will accordingly be exempt from the California Environmental \nQuality Act (CEQA) requirement of Regulation 2- 1-310 if the District’s e ngineering evaluation \nand basis for approval or denial of the permit application for the project is limited to the criteria \nset forth in Regulation 2- 1-428 and to the specific procedures, fixed standards, and objective \nmeasurements set forth in the Distric t's Permit Handbook and BACT/TBACT Workbook.  The \nevaluation of the proposed project was performed in accordance with comparable criteria set \nforth in Chapter 7.4  of the Permit Handbook and is considered ministerial.  \n \nNew Source Performance Standards  \nThere are no New Source Performance Standards (NSPS) applicable to s ource S-2. \n \nNational Emission Standards for Hazardous Air Pollutants  \n40 CFR Part 63, Subpart BBBBB –  National Emission Standards for Hazardous Air Pollutants \n(NESHAP) for Semiconductor Manufact uring,  specifies emissions standards for hazardous air \npollutant (HAP) emissions from facilities that emit more than 10 tons per year of any one HAP or \n25 tons per year of any combination of HAPs.  This facility will not emit any HAP in the quantities \nmenti oned above. T herefore,  S-2 is not subject to the emission standards of this subpart."
+      },
+      {
+        "heading": "Prevention of Significant Deterioration",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration\non  \nPer Regulations 2-2-304 through 2- 2-306, Prevention of Significant Deterioration ( PSD) applies \nto projects with a significa nt increase as defined in Regulation 2- 2-227.1 . The project will not \nresult in a significant increase. Therefore, the PSD requirements of Regulations 2-2-304 through \n2-2-306 do not apply.  \n \nPage 5 of 7 \n  \nSchool Notification"
+      },
+      {
+        "heading": "Pursuant to Regulation 2 -1-412 and California Health & Safety Code §42301.6(a), prior to",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Pursuant to Regulation 2 -1-412 and California Health & Safety Code §42301.6(a), prior to\napproving an application for a permit to construct or modification of a source, which is located \nwithin 1,000 feet from the outer boundary of a school site, the District shall prepare a public \nnotice as detailed in §42301.6.  §42301.9(a) defines a “school” as any public or private school \nused for the purposes of the education of more than 12 children in kindergarten or any grades 1 \nto 12, inclusive, but does not include any private school in which education  is primarily \nconducted in private homes.  \n \nThe modification of S -2 will  result in an increase of TAC emissions. The only material \ncontaining TACs, JSR NFR016D2,  was previously permitted for 2 0 gallons of usage per year. \nThe new permit will allow 35 gallons of usage per year. Therefore , there will be a n increase in \nTAC emissions  and a public notice is required.  \n \nTable 6. List of Schools Subject to Public Noticing  \nSchool Name  Address  Distance  \nNorth Valley School  3164 Condo Court, Santa Rosa  <1,000 ft  \nSchaefer Charter School  1370 San Miguel Avenue, Santa Rosa  <0.25 miles"
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nIONS  \n \nPermit Condition # 25304 \n \nConditions for S -2 Photolithography  \n \nThis condition, as initially adopted in New Source Review Application #23618 on July 19, 2012,  \nis further amended to include proposed throughput modifications in New Source Review \nApplication #31601.  \n \n1. Gross throughput of solvents at S 2 shall not exceed the following amounts in any  \nconsecutive twelve month period:  \n \nMaterial  Gallons  \nAcetone  300"
+      },
+      {
+        "heading": "NMP  500",
+        "alias": null,
+        "text": "NMP  500"
+      },
+      {
+        "heading": "HMDS  50",
+        "alias": null,
+        "text": "HMDS  50\n[Basis: Cumulative Increase]  \n \n2. Gross throughput at any photoresist spinner shall not exceed the following amounts in \nany consecutive twelve month period:  \n \nMaterial  Gallons  \nPositive Photoresist Maskant  25 \n \nPage 6 of 7 \n (AZ P4620)  \nNegative Photoresist Maskant  35 \n(JSR NFR016D2)  \nOrganic Photoresist Developer  1000 \n(PD 523)  \n[Basis: Cumulative Increase]  \n \n3. Gross throughput of other solvent materials  at S2 shall not exceed the following amounts \nin any consecutive twelve month period:  \n \nMaterial  Gallons  \nDry Film Resist  2.5 \n(Asahi AQ59)  \n[Basis: Cumulative Increase]  \n \n4. S2 shall not emit 10.0 pounds or more per highest day of precursor organic compounds \n(POC ) or non- precursor organic compounds (NPOC) . The following emission factors \nshall be used in the calculation of emissions:  \n \nCategory  Emission factor  \nSolvent Station 30% of net solvent usage \nPhotoresist Spinners  90% of net solvent usage \nOther  100% of net solvent us age \n[Basis: Best Available Control Technology]  \n \n5. Solvents and solvent containing materials other than the materials specified in Parts 1, 2 \nand 3 and/or usages in excess of those specified in Parts 1, 2 and 3 may be used at S 2, \nprovided that the owner/operator can demonstrate t hat all of the following are satisfied:  \n \na. Total POC emissions from S 2 do not exceed 2,047 pounds in any consecutive \ntwelve month period; and \nb. Total NPOC emissions from S -2 do not exceed 590 pounds in any consecutive \ntwelve month period; and"
+      },
+      {
+        "heading": "c. The use of these materials does not increase toxic emissions above any risk",
+        "alias": "TOXICS",
+        "text": "c. The use of these materials does not increase toxic emissions above any risk\nscreening trigger level  of Table 2- 5-1 in Regulation 2- 5. \n[Basis Cumulative Increase and Toxics ] \n \n6. To determine compliance with the above  parts, the owner/operator shall maintain the \nfollowing records and provide all of the data necessary to evaluate compliance with the \nabove parts, including the following information:  \n \na. Quantities of each type of coating and solvent used at this source on a monthly \nbasis.  \nb. If a material other than those specified in Parts 1  through 3 are used, \nPOC/NPOC and toxic component contents of each material used; and mass \nemission calculations to demonstrate compliance with Part 5 , on a monthly basis;  \nc. Monthly usage and/or emission calculations shall be totaled for each consecutive \ntwelve month period.  \n \n \nPage 7 of 7 \n All records shall be retained on site for two (2) years,  from the date of entry, and made \navailable for inspection by District staff upon request. These recordkeeping requirements \nshall not replace the recordkeeping requirements contained in any applicable District"
+      },
+      {
+        "heading": "Regulations. [Basis: Cumulative Increase and Toxics]",
+        "alias": "TOXICS",
+        "text": "Regulations. [Basis: Cumulative Increase and Toxics]\nEnd of Conditions"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nON \nThe District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of District, state, and federal air quality related regulations. The \npreliminary recommendation is to issue an Authority to Construct for the proposal of the new, \nmodified, and altered sources listed below. However, the proposed source will be located within \n1,000 feet of a school, which triggers the public notification requirement of District Regulation 2 -\n1-412. After the comments are received and reviewed, the District will make a final \ndetermination on the permit.  \n \nI recommend that the District initiate a public notice and consider any comments received prior \nto taking any final action on the  issuance of an Authority to Construct or Permit to Operate for \nthe following equipment:  \n \nS-2 Semiconductor Fabrication Area  \nThree (3) Solvent Holding Station Hoods, 100 Gallon Aggregate Holding Capacity  \nOne (1) Photolithography Consisting of One (1) Negat ive Applicator, One (1) \nNegative Developer, One (1) Positive Applicator, and One (1) Positive Developer  \n \n \n \nPrepared by:    \n Kevin Creaven , Air Quality Engineer"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "NPOC",
+        "alias": null,
+        "text": "NPOC\nContent  \n(lbs/gal) POC \nContent  \n(lbs/gal) NPOC  \n(lbs/yr) POC  \n(lbs/yr) \nAcetone  6.55 0.00 300 30 589.50  0.00 \nNMP Microposit 1165  0.00 8.60 500 30 0.00 1290.00  \nHMDS  0.00 6.45 50 30 0.00 96.71  \nNegative Photoresist Maskant \n(JSR NFR016D2)  0.00 9.17 35 90 0.00 288.86  \nOrganic Photoresist Developer \n(PD523)  0.00 0.25 1000  90 0.00 225.00  \nPositive Photoresist Maskant AZ \nP4620  0.00 5.45 25 90 0.00 122.63  \nPotassium Hydroxide  0.00 0.00 200 100 0.00 0.00 \nPotassium Carbonate  0.00 0.00 200 100 0.00 0.00 \nAsahi AQ59  0.00 9.59 2.45 100 0.00 23.50  \n   Source Total  589.5 0 2046.68 \n \n \n \n \n \n \nPage 2 of 7 \n  \nTable 2. Potential to Emit Emissions Summary for S -2 \nPollutant  Hourly  \nEmission Rate  \n(lbs/hr) Average Daily  \nEmission Rate  \n(lbs/day)1 Annual \nEmission Rate  \n(lbs/yr)2 Annual  \nEmission Rate  \n(tons/yr)2 \nPOC  0.79 7.87 2046.68  1.023  \nNPOC 0.23 2.27 589.50  0.295  \n1 As per the applicant, in the supplemental forms submitted, the source will operate 260 days \nper year.  \n2 Based on proposed material usage limits ."
+      },
+      {
+        "heading": "NMP  500",
+        "alias": null,
+        "text": "NMP  500"
+      },
+      {
+        "heading": "HMDS  50",
+        "alias": null,
+        "text": "HMDS  50\n[Basis: Cumulative Increase]  \n \n2. Gross throughput at any photoresist spinner shall not exceed the following amounts in \nany consecutive twelve month period:  \n \nMaterial  Gallons  \nPositive Photoresist Maskant  25 \n \nPage 6 of 7 \n (AZ P4620)  \nNegative Photoresist Maskant  35 \n(JSR NFR016D2)  \nOrganic Photoresist Developer  1000 \n(PD 523)  \n[Basis: Cumulative Increase]  \n \n3. Gross throughput of other solvent materials  at S2 shall not exceed the following amounts \nin any consecutive twelve month period:  \n \nMaterial  Gallons  \nDry Film Resist  2.5 \n(Asahi AQ59)  \n[Basis: Cumulative Increase]  \n \n4. S2 shall not emit 10.0 pounds or more per highest day of precursor organic compounds \n(POC ) or non- precursor organic compounds (NPOC) . The following emission factors \nshall be used in the calculation of emissions:  \n \nCategory  Emission factor  \nSolvent Station 30% of net solvent usage \nPhotoresist Spinners  90% of net solvent usage \nOther  100% of net solvent us age \n[Basis: Best Available Control Technology]  \n \n5. Solvents and solvent containing materials other than the materials specified in Parts 1, 2 \nand 3 and/or usages in excess of those specified in Parts 1, 2 and 3 may be used at S 2, \nprovided that the owner/operator can demonstrate t hat all of the following are satisfied:  \n \na. Total POC emissions from S 2 do not exceed 2,047 pounds in any consecutive \ntwelve month period; and \nb. Total NPOC emissions from S -2 do not exceed 590 pounds in any consecutive \ntwelve month period; and"
+      }
+    ]
+  }
+}

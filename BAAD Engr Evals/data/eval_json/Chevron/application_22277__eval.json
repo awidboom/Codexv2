@@ -1,0 +1,217 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\extracted_evaluations\\application_22277.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 4
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "22277",
+    "application_number_from_filename": "22277"
+  },
+  "application_number": "22277",
+  "plant": {
+    "name": "EVALUATION REPORT",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [],
+  "background": {
+    "text": "Background\nnd  \n \nChevron Produ cts Co. (Chevron) is proposing to change the conditions for six \nexisting Chemical Totes, 400 gallon capacity each (S -4365 –S-4370) storing only \nmaterials with less than 0.5 psia vapor pressure, at its refinery located in \nRichmond.  These Totes were just re cently permitted but Chevron \nunderestimated the required annual throughputs.  Tank S -4365 stores Tri -Act \n1825 and tanks (S -4366 – S-4369) are used to store corrosion inhibitors Tri -Act \n1803 and 1825.  Tank S -4370 stores a corrosion inhibitor, Custamine.  \n \nChevron is also requesting to add a permit condition that allows reformulations"
+  },
+  "emission_calculations": {
+    "text": "Emission Calculations\nns  \n \nChevron submitted emissions estimates using AP42 Chapter 7 with the \npermitted maximum vapor pressures for each tank/tote. (See attached)  \n \nSince these sources were previously permitted and provided offsets, per 2 -2-\n605, the increase in emissions will be based on the increase above the currently  \npermitted levels.  \n \nS-4365 Chemical Tote, 400 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia  \n \nTotal POC:     25.1 #/y  \nBaseline POC:  -10.34 #/y  \nIncrease:   14.8 #/y, 0.01 tpy  \n \nS-4366 Chemical Tote, 400 gallon capacity, Storing on ly materials with less than or equal \nto 0.5 psia  \n \nTotal POC:   19.0 #/y  \nBaseline POC:  -8.3 #/y \nIncrease:   10.7 #/y, 0.005 tpy  \n \n \n15 \n S-4367 Chemical Tote, 400 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia  \n \nTotal POC:   12.8 #/y  \nBaseline POC:  -5.9 #/y \nIncrease:   6.9 #/y, 0.003 tpy  \n \n \nS-4368 Chemical Tote, 400 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia  \n \nTotal POC:   12.8 #/y  \nBaseline POC:  -5.9 #/y \nIncrease:   6.9 #/y, 0.003 tpy  \n \nS-4369 Chemical Tote, 40 0 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia  \n \nTotal POC:   25.1 #/y  \nBaseline POC:  -7.5 #/y \nIncrease:   17.6 #/y, 0.01 tpy  \n \nTotal POC from this application:  56.9 #/y, 0.031 tpy"
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Increase\nse  \n \nPOC:   0.031 tpy(1. 15) – 0.036 tpy (offsets) = 0.0 tpy"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emission Calculations\nns  \n \nChevron submitted emissions estimates using AP42 Chapter 7 with the \npermitted maximum vapor pressures for each tank/tote. (See attached)  \n \nSince these sources were previously permitted and provided offsets, per 2 -2-\n605, the increase in emissions will be based on the increase above the currently  \npermitted levels.  \n \nS-4365 Chemical Tote, 400 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia  \n \nTotal POC:     25.1 #/y  \nBaseline POC:  -10.34 #/y  \nIncrease:   14.8 #/y, 0.01 tpy  \n \nS-4366 Chemical Tote, 400 gallon capacity, Storing on ly materials with less than or equal \nto 0.5 psia  \n \nTotal POC:   19.0 #/y  \nBaseline POC:  -8.3 #/y \nIncrease:   10.7 #/y, 0.005 tpy  \n \n \n15 \n S-4367 Chemical Tote, 400 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia  \n \nTotal POC:   12.8 #/y  \nBaseline POC:  -5.9 #/y \nIncrease:   6.9 #/y, 0.003 tpy  \n \n \nS-4368 Chemical Tote, 400 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia  \n \nTotal POC:   12.8 #/y  \nBaseline POC:  -5.9 #/y \nIncrease:   6.9 #/y, 0.003 tpy  \n \nS-4369 Chemical Tote, 40 0 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia  \n \nTotal POC:   25.1 #/y  \nBaseline POC:  -7.5 #/y \nIncrease:   17.6 #/y, 0.01 tpy  \n \nTotal POC from this application:  56.9 #/y, 0.031 tpy",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": 0.01
+        }
+      }
+    },
+    "by_equipment": {}
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "provided that there’s no increase in emissions and the toxic emissions do not\nexceed any trigger levels contained in Regulation 2 -5.  This condition will be \nadded but will inclu de a caveat of being district approved and using only district \napproved calculation methods.  This proposed condition, if not worded correctly, \ncould potentially allow a source to be modified without review.   \n \nAll of these materials within this applicatio n have a true vapor pressure less than \n0.5 psia and will accept a permit condition limiting the maximum vapor \npressures.  The emissions calculations were performed using EPA’s AP42 \nChapter 7.Toxic Risk Screening Analysis\nis  \n \nTOXIC   EMISSION RATE    TRIGGER LEVEL  \n \ncyclohexylamine       N/A \ndiethylethanolamine       N/A \nmorpholine        N/A \nethyl benzene       77,000 #/y  \nxylene         49 #/h, 27,000 #/y  \n \nA toxic ris k analysis is not required for this application since the toxic emissions \ndid not have respective trigger levels.  The total POC emissions from this \napplication are much less than the respective toxic emissions trigger levels.A toxic risk analysis is not required for this application since the toxic emissions\ndid not have respective trigger levels.   \n \nNSPS subpart Kb does not apply to these tanks since all are less than 75 cubic \nmeters.  \n \nPSD a nd NESHAPS do not apply to this application.emissions of toxic air contaminants will not equal or exce ed the chronic\ntrigger levels specified in Regulation 2 -5. (2-1-301, 2 -5) \n8. The owner/operator S -4366 through S -4370 shall maintain a district \napproved monthly log of all material throughput and vapor pressure at \neach S -4366 through S -4370 in order to demons trate compliance with \nparts 1 through 7.  This log shall be kept on site for at least 5 years from \nthe date of entry and made available to district staff upon request.  (record \nkeeping)  \n \nCondition 24452  \n \nPlant 10  \n     Application 20760  \n     S-4365 \n     1.  The owner/operator of S -4365 shall not exceed 15,000  \n         gallons of Tri -Act 1825 in any consecutive 12 month  \n         period. (cum inc)  \n     2.  The owner/operator of S -4365 shall only store materials  \n         with a true vapor pressure not to exceed  0.5 psia. (8 -5- \n         117 and cum inc)  \n     3.  The owner/operator of S -4365 may change formulations of \nchemicals described in this permit condition subject to district \napproval, provided that the owner/operator demonstrates that the source \nwill not be  modified per 2 -1-234, there will be no increase inemissions , and that the emissions of toxic air contaminants will not\nequal or exceed the chronic trigger levels specified in Regulation 2 -5. \n(2-1-301, 2-5) \n     4.  The owner/operator of S -4365 shall main tain a district  \n18 \n          approved monthly log of all material throughput and  \n         vapor pressure at S -4365. This log shall be kept on site  \n         for at least 5 years from the date of entry and made  \n         available to district staff upon request.  \n         (record keeping)  \n \n \n \n \n \n \n      by________________date________  \n        Gregory Solomon  \n       Senior Air Quality Engineer"
+  },
+  "BACT": {
+    "text": ""
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nce  \n \nThis application will comply with Regulation 8 -5-117, which is a limited exemption \nfor tanks storing materials with a vapor pressure less than or equal to 0.5 psia.  \nThe source will comply with Regulation 8 -5-307.3, which requires that the tank \n16 \n be maintaine d vapor tight if it is pressurized or blanketed with organic gases \nother than natural gas.  This tank will not be pressurized or blanketed.   \n \nThis application will not trigger BACT since the increase in emissions will be less \nthan 10 pounds per highest da y.   \n \nThis application will require POC offsets since the facility emissions are greater \nthan 35 tons per year.  This application requires 0.036 tons per year of POC \noffsets.  \n \nThis application is considered ministerial since this source category is covered  in \nPermit Handbook Chapter 4.1."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "17 \n  \nConditions\nFor Plant 10, S -4366 –S-4370  \n \n1. The owner/operator of S -4366 shall not exceed a total of 10,000 gallons \nof Tri -Act 1803 and 1825 combined in any consecutive 12 month period. \n(cum inc)  \n2. The owner/operator of S -4367 shall not exceed a total of 5000 gallons of \nTri-Act 1803 and 1825 combined in any consecutive 12 month period. \n(cum inc)  \n3. The owner/operator of S -4368 shall not exceed a total of 5000 gallons of \nTri-Act 1803 and 1825 combined in any consecutive 12 month period. \n(cum inc)  \n4. The owner/ operator of S -4369 shall not exceed a total of 15,000 gallons \nof Tri -Act 1803 and 1825 combined in any consecutive 12 month period. \n(cum inc)  \n5. The owner/operator of S -4370 shall not exceed a total of 4000 gallons of \nCustamine in any consecutive 12 month per iod. (cum inc)  \n6. The owner/operator of S -4366 through S -4370 shall only store materials \nwith a true vapor pressure not to exceed 0.5 psia. (8 -5-117 and cum inc)  \n7. The owner/operator of S -4366 through S -4370 may change formulations \nof chemicals described in thi s permit condition subject to district approval, \nprovided that the owner/operator demonstrates that the source will not be \nmodified per 2 -1-234, there will be no increase in emissions, and that the"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator of S -4366 shall not exceed a total of 10,000 gallons \nof Tri -Act 1803 and 1825 combined in any consecutive 12 month period. \n(cum inc)",
+        "basis": []
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator of S -4367 shall not exceed a total of 5000 gallons of \nTri-Act 1803 and 1825 combined in any consecutive 12 month period. \n(cum inc)",
+        "basis": []
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator of S -4368 shall not exceed a total of 5000 gallons of \nTri-Act 1803 and 1825 combined in any consecutive 12 month period. \n(cum inc)",
+        "basis": []
+      },
+      {
+        "num": 4,
+        "text": "The owner/ operator of S -4369 shall not exceed a total of 15,000 gallons \nof Tri -Act 1803 and 1825 combined in any consecutive 12 month period. \n(cum inc)",
+        "basis": []
+      },
+      {
+        "num": 5,
+        "text": "The owner/operator of S -4370 shall not exceed a total of 4000 gallons of \nCustamine in any consecutive 12 month per iod. (cum inc)",
+        "basis": []
+      },
+      {
+        "num": 6,
+        "text": "The owner/operator of S -4366 through S -4370 shall only store materials \nwith a true vapor pressure not to exceed 0.5 psia. (8 -5-117 and cum inc)",
+        "basis": []
+      },
+      {
+        "num": 7,
+        "text": "The owner/operator of S -4366 through S -4370 may change formulations \nof chemicals described in thi s permit condition subject to district approval, \nprovided that the owner/operator demonstrates that the source will not be \nmodified per 2 -1-234, there will be no increase in emissions, and that the",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\non  \n \nRecommend that the following equipment be granted a Permit to Operate:  \n \nS-4365  Tri-Act 1825 Chemical Tote, Fixed Roof Tank, 400 gallon capacity, \nstoring only materials with a true vapor pressure  less than or equal to \n0.5 psia  \n \nS-4366  Tri-Act 1803 & 1825 Chemical Tote, Fixed Roof Tank, 400 gallon \ncapacity, Chemical Tote storing only materials with a true vapor \npressure less than or equal to 0.5 psia – Power Plant  \n \nS-4367  Tri-Act 1803 & 1825 Chemic al Tote, Fixed Roof Tank, 400 gallon \ncapacity, Chemical Tote storing only materials with a true vapor \npressure less than or equal to 0.5 psia - RLOP  \n \nS-4368  Tri-Act 1803 & 1825 Chemical Tote, Fixed Roof Tank, 400 gallon \ncapacity, Chemical Tote storing only  materials with a true vapor \npressure less than or equal to 0.5 psia - SRU  \n \nS-4369  Tri-Act 1803 & 1825 Chemical Tote, Fixed Roof Tank, 400 gallon \ncapacity, Chemical Tote storing only materials with a true vapor \npressure less than or equal to 0.5 psia – LSFO/D&R"
+  },
+  "raw_sections": {
+    "preamble": "14",
+    "blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nT  \nChevron Products Co., Plant #10  \nApplication Number 22277"
+      },
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd  \n \nChevron Produ cts Co. (Chevron) is proposing to change the conditions for six \nexisting Chemical Totes, 400 gallon capacity each (S -4365 –S-4370) storing only \nmaterials with less than 0.5 psia vapor pressure, at its refinery located in \nRichmond.  These Totes were just re cently permitted but Chevron \nunderestimated the required annual throughputs.  Tank S -4365 stores Tri -Act \n1825 and tanks (S -4366 – S-4369) are used to store corrosion inhibitors Tri -Act \n1803 and 1825.  Tank S -4370 stores a corrosion inhibitor, Custamine.  \n \nChevron is also requesting to add a permit condition that allows reformulations"
+      },
+      {
+        "heading": "provided that there’s no increase in emissions and the toxic emissions do not",
+        "alias": "TOXICS",
+        "text": "provided that there’s no increase in emissions and the toxic emissions do not\nexceed any trigger levels contained in Regulation 2 -5.  This condition will be \nadded but will inclu de a caveat of being district approved and using only district \napproved calculation methods.  This proposed condition, if not worded correctly, \ncould potentially allow a source to be modified without review.   \n \nAll of these materials within this applicatio n have a true vapor pressure less than \n0.5 psia and will accept a permit condition limiting the maximum vapor \npressures.  The emissions calculations were performed using EPA’s AP42 \nChapter 7."
+      },
+      {
+        "heading": "Emission Calculations",
+        "alias": "EMISSIONS",
+        "text": "Emission Calculations\nns  \n \nChevron submitted emissions estimates using AP42 Chapter 7 with the \npermitted maximum vapor pressures for each tank/tote. (See attached)  \n \nSince these sources were previously permitted and provided offsets, per 2 -2-\n605, the increase in emissions will be based on the increase above the currently  \npermitted levels.  \n \nS-4365 Chemical Tote, 400 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia  \n \nTotal POC:     25.1 #/y  \nBaseline POC:  -10.34 #/y  \nIncrease:   14.8 #/y, 0.01 tpy  \n \nS-4366 Chemical Tote, 400 gallon capacity, Storing on ly materials with less than or equal \nto 0.5 psia  \n \nTotal POC:   19.0 #/y  \nBaseline POC:  -8.3 #/y \nIncrease:   10.7 #/y, 0.005 tpy  \n \n \n15 \n S-4367 Chemical Tote, 400 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia  \n \nTotal POC:   12.8 #/y  \nBaseline POC:  -5.9 #/y \nIncrease:   6.9 #/y, 0.003 tpy  \n \n \nS-4368 Chemical Tote, 400 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia  \n \nTotal POC:   12.8 #/y  \nBaseline POC:  -5.9 #/y \nIncrease:   6.9 #/y, 0.003 tpy  \n \nS-4369 Chemical Tote, 40 0 gallon capacity, Storing only materials with less than or equal \nto 0.5 psia  \n \nTotal POC:   25.1 #/y  \nBaseline POC:  -7.5 #/y \nIncrease:   17.6 #/y, 0.01 tpy  \n \nTotal POC from this application:  56.9 #/y, 0.031 tpy"
+      },
+      {
+        "heading": "Plant Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Increase\nse  \n \nPOC:   0.031 tpy(1. 15) – 0.036 tpy (offsets) = 0.0 tpy"
+      },
+      {
+        "heading": "Toxic Risk Screening Analysis",
+        "alias": "TOXICS",
+        "text": "Toxic Risk Screening Analysis\nis  \n \nTOXIC   EMISSION RATE    TRIGGER LEVEL  \n \ncyclohexylamine       N/A \ndiethylethanolamine       N/A \nmorpholine        N/A \nethyl benzene       77,000 #/y  \nxylene         49 #/h, 27,000 #/y  \n \nA toxic ris k analysis is not required for this application since the toxic emissions \ndid not have respective trigger levels.  The total POC emissions from this \napplication are much less than the respective toxic emissions trigger levels."
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nce  \n \nThis application will comply with Regulation 8 -5-117, which is a limited exemption \nfor tanks storing materials with a vapor pressure less than or equal to 0.5 psia.  \nThe source will comply with Regulation 8 -5-307.3, which requires that the tank \n16 \n be maintaine d vapor tight if it is pressurized or blanketed with organic gases \nother than natural gas.  This tank will not be pressurized or blanketed.   \n \nThis application will not trigger BACT since the increase in emissions will be less \nthan 10 pounds per highest da y.   \n \nThis application will require POC offsets since the facility emissions are greater \nthan 35 tons per year.  This application requires 0.036 tons per year of POC \noffsets.  \n \nThis application is considered ministerial since this source category is covered  in \nPermit Handbook Chapter 4.1."
+      },
+      {
+        "heading": "A toxic risk analysis is not required for this application since the toxic emissions",
+        "alias": "TOXICS",
+        "text": "A toxic risk analysis is not required for this application since the toxic emissions\ndid not have respective trigger levels.   \n \nNSPS subpart Kb does not apply to these tanks since all are less than 75 cubic \nmeters.  \n \nPSD a nd NESHAPS do not apply to this application."
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\non  \n \nRecommend that the following equipment be granted a Permit to Operate:  \n \nS-4365  Tri-Act 1825 Chemical Tote, Fixed Roof Tank, 400 gallon capacity, \nstoring only materials with a true vapor pressure  less than or equal to \n0.5 psia  \n \nS-4366  Tri-Act 1803 & 1825 Chemical Tote, Fixed Roof Tank, 400 gallon \ncapacity, Chemical Tote storing only materials with a true vapor \npressure less than or equal to 0.5 psia – Power Plant  \n \nS-4367  Tri-Act 1803 & 1825 Chemic al Tote, Fixed Roof Tank, 400 gallon \ncapacity, Chemical Tote storing only materials with a true vapor \npressure less than or equal to 0.5 psia - RLOP  \n \nS-4368  Tri-Act 1803 & 1825 Chemical Tote, Fixed Roof Tank, 400 gallon \ncapacity, Chemical Tote storing only  materials with a true vapor \npressure less than or equal to 0.5 psia - SRU  \n \nS-4369  Tri-Act 1803 & 1825 Chemical Tote, Fixed Roof Tank, 400 gallon \ncapacity, Chemical Tote storing only materials with a true vapor \npressure less than or equal to 0.5 psia – LSFO/D&R"
+      },
+      {
+        "heading": "17 \n  \nConditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "17 \n  \nConditions\nFor Plant 10, S -4366 –S-4370  \n \n1. The owner/operator of S -4366 shall not exceed a total of 10,000 gallons \nof Tri -Act 1803 and 1825 combined in any consecutive 12 month period. \n(cum inc)  \n2. The owner/operator of S -4367 shall not exceed a total of 5000 gallons of \nTri-Act 1803 and 1825 combined in any consecutive 12 month period. \n(cum inc)  \n3. The owner/operator of S -4368 shall not exceed a total of 5000 gallons of \nTri-Act 1803 and 1825 combined in any consecutive 12 month period. \n(cum inc)  \n4. The owner/ operator of S -4369 shall not exceed a total of 15,000 gallons \nof Tri -Act 1803 and 1825 combined in any consecutive 12 month period. \n(cum inc)  \n5. The owner/operator of S -4370 shall not exceed a total of 4000 gallons of \nCustamine in any consecutive 12 month per iod. (cum inc)  \n6. The owner/operator of S -4366 through S -4370 shall only store materials \nwith a true vapor pressure not to exceed 0.5 psia. (8 -5-117 and cum inc)  \n7. The owner/operator of S -4366 through S -4370 may change formulations \nof chemicals described in thi s permit condition subject to district approval, \nprovided that the owner/operator demonstrates that the source will not be \nmodified per 2 -1-234, there will be no increase in emissions, and that the"
+      },
+      {
+        "heading": "emissions of toxic air contaminants will not equal or exce ed the chronic",
+        "alias": "TOXICS",
+        "text": "emissions of toxic air contaminants will not equal or exce ed the chronic\ntrigger levels specified in Regulation 2 -5. (2-1-301, 2 -5) \n8. The owner/operator S -4366 through S -4370 shall maintain a district \napproved monthly log of all material throughput and vapor pressure at \neach S -4366 through S -4370 in order to demons trate compliance with \nparts 1 through 7.  This log shall be kept on site for at least 5 years from \nthe date of entry and made available to district staff upon request.  (record \nkeeping)  \n \nCondition 24452  \n \nPlant 10  \n     Application 20760  \n     S-4365 \n     1.  The owner/operator of S -4365 shall not exceed 15,000  \n         gallons of Tri -Act 1825 in any consecutive 12 month  \n         period. (cum inc)  \n     2.  The owner/operator of S -4365 shall only store materials  \n         with a true vapor pressure not to exceed  0.5 psia. (8 -5- \n         117 and cum inc)  \n     3.  The owner/operator of S -4365 may change formulations of \nchemicals described in this permit condition subject to district \napproval, provided that the owner/operator demonstrates that the source \nwill not be  modified per 2 -1-234, there will be no increase in"
+      },
+      {
+        "heading": "emissions , and that the emissions of toxic air contaminants will not",
+        "alias": "TOXICS",
+        "text": "emissions , and that the emissions of toxic air contaminants will not\nequal or exceed the chronic trigger levels specified in Regulation 2 -5. \n(2-1-301, 2-5) \n     4.  The owner/operator of S -4365 shall main tain a district  \n18 \n          approved monthly log of all material throughput and  \n         vapor pressure at S -4365. This log shall be kept on site  \n         for at least 5 years from the date of entry and made  \n         available to district staff upon request.  \n         (record keeping)  \n \n \n \n \n \n \n      by________________date________  \n        Gregory Solomon  \n       Senior Air Quality Engineer"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nT  \nChevron Products Co., Plant #10  \nApplication Number 22277"
+      }
+    ]
+  }
+}

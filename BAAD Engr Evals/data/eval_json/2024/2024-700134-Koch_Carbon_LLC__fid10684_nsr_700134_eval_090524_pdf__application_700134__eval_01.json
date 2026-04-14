@@ -1,0 +1,229 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 4
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "(ton/ year) Cumulative\nEmissions\n(ton/ year)\nNO X 87.074  0.499  87.573\nNMHC (POC)  7.390  0.003  7.393\nCO 29.511  0.006  29.517\nPM 10 35.935  0.000  35.935\nPM 2.5 0.000  0.000  0.000",
+        "Requirement\n(ton/ year) Offsets\nRequired?\nNO X 87.074  0.499  87.573  >10 Yes\nPOC  7.390  0.003  7.393  >10 No\nCO 29.511 0.006  29.517  - No\nPM 10/PM 2.5 35.935  0.000  35.935  ≥100 No"
+      ]
+    },
+    "application_number_detected": "700134",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2024/700134/fid10684_nsr_700134_eval_090524-pdf.pdf?rev=74d95b05673f4ab5a3ce0514e274d624&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2024/090524-700134/koch-carbon-llc"
+  },
+  "application_number": "700134",
+  "plant": {
+    "name": "Koch Carbon , LLC",
+    "plant_id": null,
+    "address": "Pittsburg, CA 94565"
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-37",
+      "description": "Portable Street Sweeper Auxiliary Diesel Engine"
+    }
+  ],
+  "background": {
+    "text": "I. BACKGROUND\nND  \n \nKoch Carbon, LLC  (Koch)  is applying for a n Authority to Construct/ Permit to Operate for the \nfollowing equipment:  \n \nS-37 Portable Street Sweeper Auxiliary Diesel Engine  \n Make: Kubota Corporation , Model: V2403 -CR-TE4B , 52.3 bhp \n \nThe engine  is an auxiliary engine on a street sweeper. Criteria pollutants  of concern  from the engine \nare nitrogen oxides (NO X), carbon monoxide (CO), nonmethane hydrocarbons  (NMHC)/ precursor \norganic compounds (POC) , sulfur dioxide (SO 2), particulate matter with an aerodynamic diameter of \nless than 10 microns  (PM 10), and particulate matter with an aerodynamic diameter of less than 2.5"
+  },
+  "emission_calculations": {
+    "text": "Emissions\n(lb/year)  DPM Chronic \nTrigger Level  \n(lb/year)  Exceeds \nChronic \nTrigger?  \n700134  S-37 0.94 \n0.26 Yes \n30492  S-4 0.42 Yes \nProject Total  1.36 Yes \nNotes : \n1. DPM  emissions are conservatively assumed to be equal to PM 10 emissions.  \n \nAs shown in Table 2, DPM emissions from this project  exceed  the chronic trigger level listed  in \nTable 2 -5-1 of Regulation 2 -5, and thus an HRA was required  as part of this application .  \n \nAn HRA was completed on June 4 , 2024. The HRA focused on estimating the incremental health \nrisk resulting from TAC emissions from the operation of a new auxiliary engine at this facility. \nResults from the HRA indicate that the project cancer risk is estimated at 0. 55 in a million, and the \nproject chronic hazard index (HI) is estimated at 0.000 42.  \n \nSince the estimated project cancer risk does not exceed 6.0  in a million, and the estimated project \nchronic HI does not exceed 1.0, this project complies with the District’s  Regulation 2 -5-302 project \nrisk requirements for projects located in an Overburdened  Community  (OBC) , as defined in \nRegulation 2 -1-243."
+  },
+  "cumulative_increase": {
+    "text": "V. CUMULATIVE INCREASE\nSE  \n \nTable  3 summarizes  the cumulative  increase  in criteria  pollutant  emissions that  will result from this \napplication.  \n \nTable  3: Facility  Cumulative  Emissions  Increase,  Post 4/5/91  \nPollutant  Existing  Emissions \nPost 4/5/91  \n(ton/y ear) Application \nEmissions  \n(ton/ year) Cumulative \nEmissions  \n(ton/ year) \nNO X 87.074  0.499  87.573  \nNMHC (POC)  7.390  0.003  7.393  \nCO 29.511  0.006  29.517  \nPM 10 35.935  0.000  35.935  \nPM 2.5 0.000  0.000  0.000  \nSO 2 40.702  0.001 40.703"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emissions\n(lb/year)  DPM Chronic \nTrigger Level  \n(lb/year)  Exceeds \nChronic \nTrigger?  \n700134  S-37 0.94 \n0.26 Yes \n30492  S-4 0.42 Yes \nProject Total  1.36 Yes \nNotes : \n1. DPM  emissions are conservatively assumed to be equal to PM 10 emissions.  \n \nAs shown in Table 2, DPM emissions from this project  exceed  the chronic trigger level listed  in \nTable 2 -5-1 of Regulation 2 -5, and thus an HRA was required  as part of this application .  \n \nAn HRA was completed on June 4 , 2024. The HRA focused on estimating the incremental health \nrisk resulting from TAC emissions from the operation of a new auxiliary engine at this facility. \nResults from the HRA indicate that the project cancer risk is estimated at 0. 55 in a million, and the \nproject chronic hazard index (HI) is estimated at 0.000 42.  \n \nSince the estimated project cancer risk does not exceed 6.0  in a million, and the estimated project \nchronic HI does not exceed 1.0, this project complies with the District’s  Regulation 2 -5-302 project \nrisk requirements for projects located in an Overburdened  Community  (OBC) , as defined in \nRegulation 2 -1-243.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-37": {
+        "narrative": "700134  S-37 0.94",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "microns (PM 2.5). The toxic air contaminant (TAC) of concern from the engine is diesel particulate\nmatter (DPM).  \n \nS-37 meets the Environmental Protection Agency and California Air Resources Board (EPA/CARB) \nTier 4 Final  emission standards. The engine will burn commercially available California low sulfur \ndiesel fuel , and t he diesel fuel’s sulfur content will not exceed the California limit of 0.0015% sulfur \nby weight.   \n \nKoch operates an existing , permitted portable street sweeper auxiliary engine (S -4) that is limited to \n3,650 hours per year of operation per  Perm it Condition 27303 . In their application submittal, Koch \noriginally requested a combined operating limit of 3,650 hours per year for both S -4 and S -37 so that \nthe proposed engine (S -37) could  operate within existing NO X offsets.  According to the “Complex \nPermitting Handbook for BAAQMD New Source Review Permitting”, this type of bubble limit would \nnot constrain the maximum emissions from any individual source. Each source’s potential to emit \n(PTE) would still be their full maximum  emission rate at the maximum operating capacity (3,650 \nhours), and additional NO X offsets would still be required. After further conversations with Koch, \nKoch decided to permit S-37 independent ly of S-4 at 3,650 hours per year .   \n \nPortable engines are non -road engines as defined by 40 CFR 1039.801 and 1068.30. Section 209(e) \nof the Federal Clean Air Act and 40 CFR Part 1074, Subpart A, Section 1074.10  do not allow states \n“or political subdivisions” to impose emission control on non -road engines. The exception is \nstandards and other requirements imposed by the State of California necessary to achieve \nattainment of air pollution standards.  The regulatory analysis for this application will take this into \naccount.  \n \nThis evaluation discusses the proposed source ’s compliance with all applicable rules and \nregulations.  \n \n \n \n \n \n \n \n \n \nKoch Carbon, LLC  \nFacility ID #: 10684  \nApplication #: 700134  \n \n2 of 8 II. EMISSIONS SUMMARY  \n \nTable 1  summarizes  criteria pollutant emissions  from S-37. \n \nTable  1: S-37 Annual  and Daily  Emissions from EPA/CARB  Certified  Data  \nPollutant1 Emission \nFactor \n(g/bhp -hr)2,3 Emissions4,5 \nMax Daily \n(lb/day)  Annual \n(lb/year) Annual  \n(ton/ year) \nNO X 2.37 6.6 998 0.499  \nNMHC (POC)  0.01 0.0 6 0.003  \nCO 0.03 0.1 13 0.006  \nPM 10/PM 2.51 2.2E-03 0.0 1 0.000  \nSO 2 5.5E-03 0.0 2 0.001  \n \nNotes : \n1. PM 2.5 emissions are conservatively assumed to be equal to PM 10 emissions.  \n2. NOx and NMHC (POC) e mission factors are based on EPA certified data for EPA Engine Family \nNKBXL02.4EKD.  CO and PM 10/PM 2.5 emission factors are based on CARB Executive Order U -R-\n025-1006 for EPA Engine Family NKBXL02.4EKD.  \n3. The SO 2 emission factor (EF) is derived using the follow equation from AP -42 Chapter 3.4 Table \n3.4-11, which is based on the full conversion of fuel sulfur to SO 2 and a sulfur content (S) of 0.0015 \nwt%:  \n𝑆𝑂2𝐸𝐹=0.00809×𝑆=0.00809×0.0015=1.2𝐸−05𝑙𝑏\n𝑏ℎ𝑝−ℎ𝑟×453.592𝑔\n𝑙𝑏=5.5𝐸−03𝑔\n𝑏ℎ𝑝−ℎ𝑟 \n4. Maximum daily  emissions are based on  24 daily operating hours . \n5. Maximum annual emission s are based on 3,650  annu al operating hours .IV. HEALTH RISK ASSESSMENT (HRA)\nA)  \n \nPursuant to Regulation 2 -5-110, a project shall not be subject to this rule if, for each TAC, the total \nproject emissions are below the acute and chronic trigger levels listed in Table 2 -5-1 of this \nregulation. A project includes all new or modified sources of TACs from related applications \npermitted within the last five years.  One other  application was submitted within the last five years \nand is considered a part of this project – Application #30492.  Table 2 provides a summary  of \nproject DPM  emission s.  \n \n \n \n \n \n1 “AP-42 Vol. I, 3.4: Large Stationary Diesel and All Stationary Dual -fuel Engines”. EPA. October 1996.  \nKoch Carbon, LLC  \nFacility ID #: 10684  \nApplication #: 700134  \n \n3 of 8 Table  2: Project DPM  Emission Summary  \nApplication #  Source #  Annual DPMPursuant to Regulation 2 -5-301, Best Available Control Technology for Toxics (TBACT) is required\nfor any new or modified source of TACs where the source risk exceeds a cancer risk of 1.0 in a \nmillion and/or a chronic hazard index of 0.2.  Although TBACT is not required  because the \nestimated source risk does not exceed a cancer risk of 1.0 in a  million and/or a chronic HI of 0.20 , \nthe portable engine in this application is defined as a non -road engine, and non -road engines are \nnot subject to TBACT.S-37 is not subject to the requirements of CARB ’s Air Toxic Control Measure (ATCM) for DPM  from\nPortable Engines Rated at 50 Horsepower and Greater  in Title 17, California Code of Regulations, \nSection 9311 6. S-37 is exempt from this ATCM per Subsection 93116.1(b)(9) because it is an \nengine used exclusively on a street sweeper  that also meets all applicable requirements in title 13, \nCal. Code Regs., commencing with section 2449 . \n \nThis engine  is instead subject to the requirements of  California  Code  of Regulations  (CCR) , Title 13, \nSection  2025(n),  which  requires the auxiliary engine to meet the PM and NO X BACT requirements as \ndefined in this section. BACT requirements are defined as follows:  \n \nPM BACT : An engine equipped with the highest level of a verified diesel emission control strategy \n(VDECS ) for PM or an engine originally equipped with a diesel particulate filter and has been \ncertified to meet 0.01 g/bhp -hour certification standard.  \n \nNO X BACT : An on-road engine newly manufactured in 2010 or later or a 2010 emissions -equivalent \nengine as defined in section 2025(d)(4).  \n \nAs S -37 meets the emission requirements of a 2014+ year engine, the requirements of Section 2025 \nare met. In addition, the most stringent standards currently in effect for engines with capacities \nranging from 37 -56 kW (50 -75 bhp) are the Tier 4 standards, which are 3.33 g/bhp -hr for NOx, 0.18 \ng/bhp -hr for POC, 3.7 g/bhp -hr for CO, and 0.02 g/bhp -hr for PM 10. S-37 will comply with all of these \nTier 4 limits.  \n \nTier 4 standards exceed the standards of PM BACT as defined in this CCR. As such, S-37 complies \nwith both the PM and NO X BACT requirements of CCR Title 13, Section 2025 as it is a 202 2 model \nyear engine  with a certified PM emission rate of 0.002 g/bhp -hr. \n \nFederal Rules  \nNew Source Performance Standards (NSPS)  \n40 CFR 60, Subpart  IIII (Stationary  Compression  Ignition  Internal  Combustion  Engines ) \nSince S-37 is a portable (non -road) engine and not a stationary engine, 40 CFR, Part 60, Subpart IIII  \ndoes not apply to S -37. \n \n40 CFR 10 39 (Control of Emissions from New and In -Use Nonroad Compression -Ignition Engines)  \nS-37 is subject to 40 CFR 1039  pursuant to Section  1039.1(a) . S-37 is subject to the following Tier 4 \nexhaust emission standards in Table 1 of 1039.101:"
+  },
+  "BACT": {
+    "text": "III. BEST AVAILABLE CONTROL TECHNOLOGY (BACT)\nCT)  \n \nIn accordance  with Regulation  2-2-301, BACT  is triggered  for any new or modified  source with the \npotential to emit 10.0 pounds or more per highest day of POC, NPOC, NO X, CO, SO 2, PM 10, or \nPM 2.5. \n \nAs shown in Table 1 , estimated maximum daily emissions are not expected to exceed 10.0 pounds \nper highest day for any pollutant. The portable engine in this application is defined as a non -road \nengine, and non -road engines are not subject to BACT."
+  },
+  "offsets": {
+    "narrative": "VI. OFFSETS\nTS  \n \nPursuant to Regulation 2 -2-302, offsets must be provided for any new or modified source at a facility \nthat will have the PTE more than 10 tons per year of POC or NO X. Furthermore, pursuant to \nKoch Carbon, LLC  \nFacility ID #: 10684  \nApplication #: 700134  \n \n4 of 8 Regulation 2 -2-303, offsets must be provided for any new or modified source at a facility that will \nhave the potential to emit 100 tons per year or more of PM 2.5, PM 10, or SO 2. Table 4  provides a \nsummary of the  facility’s PTE. \n \nTable  4: Facility PTE  \nPollutant  Existing Facility  \nPTE  \n(ton/ year) Application \nPTE \n(ton/y ear) New Facility   \nPTE  \n(ton/ year) Offset s \nRequirement \n(ton/ year) Offsets \nRequired?  \nNO X 87.074  0.499  87.573  >10 Yes \nPOC  7.390  0.003  7.393  >10 No \nCO 29.511 0.006  29.517  - No \nPM 10/PM 2.5 35.935  0.000  35.935  ≥100 No \nSO 2 40.70 2 0.001 40.703  ≥100 No \n \nAccording to Table 4, the facility’s PTE for NO X is greater than 35 tons  per year . Pursuant to \nRegulation 2 -2-302.2, offsets must be provided for any un -offset NO X cumulative increase at a \n1.15:1 ratio. Table 5  provides a summary of the offsets required for this facility.  \n \nTable  5: Facility Offsets  Review  \nPollutant  New \nFacility PTE  \n(ton/ year) Offset \nFacility \nPTE \n(ton/y ear) Un-Offset \nFacility PTE  \n(ton/y ear) Un-Offset \nRatio \nOwed  Offsets \nOwed \n(ton/y ear) \nNO X 87.573  87.074  0.499  1.15:1  0.574",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          0.003,
+          ">10",
+          0.0
+        ],
+        [
+          "PM10/PM2.5",
+          0.0,
+          "≥100",
+          0.0
+        ],
+        [
+          "CO",
+          29.511,
+          "1.15 : 1",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "VII. STATEMENT OF COMPLIANCE\nCE  \n \nThe owner/operator is expected to comply with all applicable requirements. Key requirements are \nlisted below:  \n \nDistrict  Rules  \nRegulation 1 \nRegulation 1 -301 (Public Nuisance )  \nThe facility  is subject to Regulation 1-1-301, which prohibits discharge of air contaminants  \nresulting  in public  nuisance.   \n \nThe proposed diesel engine is a small sized, Tier 4 Final certified engine with a very low \nparticulate emission factor of 0.00 2 g/bhp-hr. Because of this, the engine is not expected to be a \nsource of public nuisance.  \n \nKoch Carbon, LLC  \nFacility ID #: 10684  \nApplication #: 700134  \n \n5 of 8 Regulation 6 , Rule 1  \nThe portable engine in this application is defined as a non -road engine, and non -road engines are \nnot subject to Regulation 6, Rule 1.  \n \nRegulation 9 , Rule 1  \nThe portable engine in this application is defined as a non -road engine, and non-road engines are \nnot subject to Regulation 9, Rule 1.  \n \nRegulation 9, Rule 8  \nThe portable engine in this application is defined as a non -road engine, and non -road engines are \nnot subject to Regulation 9, Rule 8.  \n \nState Rules"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": ""
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": []
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": ""
+  },
+  "raw_sections": {
+    "preamble": "Koch Carbon, LLC  \nFacility ID #: 10684  \nApplication #: 700134  \n \n1 of 8 ENGINEERING EVALUATION   \n \nKoch Carbon , LLC \n700 E 3rd Street, Pittsburg, CA 94565  \nFacility ID #: 10684  \nApplication #: 700134",
+    "blocks": [
+      {
+        "heading": "I. BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "I. BACKGROUND\nND  \n \nKoch Carbon, LLC  (Koch)  is applying for a n Authority to Construct/ Permit to Operate for the \nfollowing equipment:  \n \nS-37 Portable Street Sweeper Auxiliary Diesel Engine  \n Make: Kubota Corporation , Model: V2403 -CR-TE4B , 52.3 bhp \n \nThe engine  is an auxiliary engine on a street sweeper. Criteria pollutants  of concern  from the engine \nare nitrogen oxides (NO X), carbon monoxide (CO), nonmethane hydrocarbons  (NMHC)/ precursor \norganic compounds (POC) , sulfur dioxide (SO 2), particulate matter with an aerodynamic diameter of \nless than 10 microns  (PM 10), and particulate matter with an aerodynamic diameter of less than 2.5"
+      },
+      {
+        "heading": "microns (PM 2.5). The toxic air contaminant (TAC) of concern from the engine is diesel particulate",
+        "alias": "TOXICS",
+        "text": "microns (PM 2.5). The toxic air contaminant (TAC) of concern from the engine is diesel particulate\nmatter (DPM).  \n \nS-37 meets the Environmental Protection Agency and California Air Resources Board (EPA/CARB) \nTier 4 Final  emission standards. The engine will burn commercially available California low sulfur \ndiesel fuel , and t he diesel fuel’s sulfur content will not exceed the California limit of 0.0015% sulfur \nby weight.   \n \nKoch operates an existing , permitted portable street sweeper auxiliary engine (S -4) that is limited to \n3,650 hours per year of operation per  Perm it Condition 27303 . In their application submittal, Koch \noriginally requested a combined operating limit of 3,650 hours per year for both S -4 and S -37 so that \nthe proposed engine (S -37) could  operate within existing NO X offsets.  According to the “Complex \nPermitting Handbook for BAAQMD New Source Review Permitting”, this type of bubble limit would \nnot constrain the maximum emissions from any individual source. Each source’s potential to emit \n(PTE) would still be their full maximum  emission rate at the maximum operating capacity (3,650 \nhours), and additional NO X offsets would still be required. After further conversations with Koch, \nKoch decided to permit S-37 independent ly of S-4 at 3,650 hours per year .   \n \nPortable engines are non -road engines as defined by 40 CFR 1039.801 and 1068.30. Section 209(e) \nof the Federal Clean Air Act and 40 CFR Part 1074, Subpart A, Section 1074.10  do not allow states \n“or political subdivisions” to impose emission control on non -road engines. The exception is \nstandards and other requirements imposed by the State of California necessary to achieve \nattainment of air pollution standards.  The regulatory analysis for this application will take this into \naccount.  \n \nThis evaluation discusses the proposed source ’s compliance with all applicable rules and \nregulations.  \n \n \n \n \n \n \n \n \n \nKoch Carbon, LLC  \nFacility ID #: 10684  \nApplication #: 700134  \n \n2 of 8 II. EMISSIONS SUMMARY  \n \nTable 1  summarizes  criteria pollutant emissions  from S-37. \n \nTable  1: S-37 Annual  and Daily  Emissions from EPA/CARB  Certified  Data  \nPollutant1 Emission \nFactor \n(g/bhp -hr)2,3 Emissions4,5 \nMax Daily \n(lb/day)  Annual \n(lb/year) Annual  \n(ton/ year) \nNO X 2.37 6.6 998 0.499  \nNMHC (POC)  0.01 0.0 6 0.003  \nCO 0.03 0.1 13 0.006  \nPM 10/PM 2.51 2.2E-03 0.0 1 0.000  \nSO 2 5.5E-03 0.0 2 0.001  \n \nNotes : \n1. PM 2.5 emissions are conservatively assumed to be equal to PM 10 emissions.  \n2. NOx and NMHC (POC) e mission factors are based on EPA certified data for EPA Engine Family \nNKBXL02.4EKD.  CO and PM 10/PM 2.5 emission factors are based on CARB Executive Order U -R-\n025-1006 for EPA Engine Family NKBXL02.4EKD.  \n3. The SO 2 emission factor (EF) is derived using the follow equation from AP -42 Chapter 3.4 Table \n3.4-11, which is based on the full conversion of fuel sulfur to SO 2 and a sulfur content (S) of 0.0015 \nwt%:  \n𝑆𝑂2𝐸𝐹=0.00809×𝑆=0.00809×0.0015=1.2𝐸−05𝑙𝑏\n𝑏ℎ𝑝−ℎ𝑟×453.592𝑔\n𝑙𝑏=5.5𝐸−03𝑔\n𝑏ℎ𝑝−ℎ𝑟 \n4. Maximum daily  emissions are based on  24 daily operating hours . \n5. Maximum annual emission s are based on 3,650  annu al operating hours ."
+      },
+      {
+        "heading": "III. BEST AVAILABLE CONTROL TECHNOLOGY (BACT)",
+        "alias": "BACT",
+        "text": "III. BEST AVAILABLE CONTROL TECHNOLOGY (BACT)\nCT)  \n \nIn accordance  with Regulation  2-2-301, BACT  is triggered  for any new or modified  source with the \npotential to emit 10.0 pounds or more per highest day of POC, NPOC, NO X, CO, SO 2, PM 10, or \nPM 2.5. \n \nAs shown in Table 1 , estimated maximum daily emissions are not expected to exceed 10.0 pounds \nper highest day for any pollutant. The portable engine in this application is defined as a non -road \nengine, and non -road engines are not subject to BACT."
+      },
+      {
+        "heading": "IV. HEALTH RISK ASSESSMENT (HRA)",
+        "alias": "TOXICS",
+        "text": "IV. HEALTH RISK ASSESSMENT (HRA)\nA)  \n \nPursuant to Regulation 2 -5-110, a project shall not be subject to this rule if, for each TAC, the total \nproject emissions are below the acute and chronic trigger levels listed in Table 2 -5-1 of this \nregulation. A project includes all new or modified sources of TACs from related applications \npermitted within the last five years.  One other  application was submitted within the last five years \nand is considered a part of this project – Application #30492.  Table 2 provides a summary  of \nproject DPM  emission s.  \n \n \n \n \n \n1 “AP-42 Vol. I, 3.4: Large Stationary Diesel and All Stationary Dual -fuel Engines”. EPA. October 1996.  \nKoch Carbon, LLC  \nFacility ID #: 10684  \nApplication #: 700134  \n \n3 of 8 Table  2: Project DPM  Emission Summary  \nApplication #  Source #  Annual DPM"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lb/year)  DPM Chronic \nTrigger Level  \n(lb/year)  Exceeds \nChronic \nTrigger?  \n700134  S-37 0.94 \n0.26 Yes \n30492  S-4 0.42 Yes \nProject Total  1.36 Yes \nNotes : \n1. DPM  emissions are conservatively assumed to be equal to PM 10 emissions.  \n \nAs shown in Table 2, DPM emissions from this project  exceed  the chronic trigger level listed  in \nTable 2 -5-1 of Regulation 2 -5, and thus an HRA was required  as part of this application .  \n \nAn HRA was completed on June 4 , 2024. The HRA focused on estimating the incremental health \nrisk resulting from TAC emissions from the operation of a new auxiliary engine at this facility. \nResults from the HRA indicate that the project cancer risk is estimated at 0. 55 in a million, and the \nproject chronic hazard index (HI) is estimated at 0.000 42.  \n \nSince the estimated project cancer risk does not exceed 6.0  in a million, and the estimated project \nchronic HI does not exceed 1.0, this project complies with the District’s  Regulation 2 -5-302 project \nrisk requirements for projects located in an Overburdened  Community  (OBC) , as defined in \nRegulation 2 -1-243."
+      },
+      {
+        "heading": "Pursuant to Regulation 2 -5-301, Best Available Control Technology for Toxics (TBACT) is required",
+        "alias": "TOXICS",
+        "text": "Pursuant to Regulation 2 -5-301, Best Available Control Technology for Toxics (TBACT) is required\nfor any new or modified source of TACs where the source risk exceeds a cancer risk of 1.0 in a \nmillion and/or a chronic hazard index of 0.2.  Although TBACT is not required  because the \nestimated source risk does not exceed a cancer risk of 1.0 in a  million and/or a chronic HI of 0.20 , \nthe portable engine in this application is defined as a non -road engine, and non -road engines are \nnot subject to TBACT."
+      },
+      {
+        "heading": "V. CUMULATIVE INCREASE",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "V. CUMULATIVE INCREASE\nSE  \n \nTable  3 summarizes  the cumulative  increase  in criteria  pollutant  emissions that  will result from this \napplication.  \n \nTable  3: Facility  Cumulative  Emissions  Increase,  Post 4/5/91  \nPollutant  Existing  Emissions \nPost 4/5/91  \n(ton/y ear) Application \nEmissions  \n(ton/ year) Cumulative \nEmissions  \n(ton/ year) \nNO X 87.074  0.499  87.573  \nNMHC (POC)  7.390  0.003  7.393  \nCO 29.511  0.006  29.517  \nPM 10 35.935  0.000  35.935  \nPM 2.5 0.000  0.000  0.000  \nSO 2 40.702  0.001 40.703"
+      },
+      {
+        "heading": "VI. OFFSETS",
+        "alias": "OFFSETS",
+        "text": "VI. OFFSETS\nTS  \n \nPursuant to Regulation 2 -2-302, offsets must be provided for any new or modified source at a facility \nthat will have the PTE more than 10 tons per year of POC or NO X. Furthermore, pursuant to \nKoch Carbon, LLC  \nFacility ID #: 10684  \nApplication #: 700134  \n \n4 of 8 Regulation 2 -2-303, offsets must be provided for any new or modified source at a facility that will \nhave the potential to emit 100 tons per year or more of PM 2.5, PM 10, or SO 2. Table 4  provides a \nsummary of the  facility’s PTE. \n \nTable  4: Facility PTE  \nPollutant  Existing Facility  \nPTE  \n(ton/ year) Application \nPTE \n(ton/y ear) New Facility   \nPTE  \n(ton/ year) Offset s \nRequirement \n(ton/ year) Offsets \nRequired?  \nNO X 87.074  0.499  87.573  >10 Yes \nPOC  7.390  0.003  7.393  >10 No \nCO 29.511 0.006  29.517  - No \nPM 10/PM 2.5 35.935  0.000  35.935  ≥100 No \nSO 2 40.70 2 0.001 40.703  ≥100 No \n \nAccording to Table 4, the facility’s PTE for NO X is greater than 35 tons  per year . Pursuant to \nRegulation 2 -2-302.2, offsets must be provided for any un -offset NO X cumulative increase at a \n1.15:1 ratio. Table 5  provides a summary of the offsets required for this facility.  \n \nTable  5: Facility Offsets  Review  \nPollutant  New \nFacility PTE  \n(ton/ year) Offset \nFacility \nPTE \n(ton/y ear) Un-Offset \nFacility PTE  \n(ton/y ear) Un-Offset \nRatio \nOwed  Offsets \nOwed \n(ton/y ear) \nNO X 87.573  87.074  0.499  1.15:1  0.574"
+      },
+      {
+        "heading": "POC  7.393  -- -- -- --",
+        "alias": null,
+        "text": "POC  7.393  -- -- -- --\nCO 29.517  -- -- -- -- \nPM 10 35.935  -- -- -- -- \nPM 2.5 0.000  -- -- -- -- \nSO 2 40.703  -- -- -- -- \n \nThe current application resulted in a 0.499 ton s per year  increase of NO x. The facility has provided \n0.574 tons  per y ear of NO x (0.499*1.15) offsets through Banking Certificate # 1961 ."
+      },
+      {
+        "heading": "VII. STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "VII. STATEMENT OF COMPLIANCE\nCE  \n \nThe owner/operator is expected to comply with all applicable requirements. Key requirements are \nlisted below:  \n \nDistrict  Rules  \nRegulation 1 \nRegulation 1 -301 (Public Nuisance )  \nThe facility  is subject to Regulation 1-1-301, which prohibits discharge of air contaminants  \nresulting  in public  nuisance.   \n \nThe proposed diesel engine is a small sized, Tier 4 Final certified engine with a very low \nparticulate emission factor of 0.00 2 g/bhp-hr. Because of this, the engine is not expected to be a \nsource of public nuisance.  \n \nKoch Carbon, LLC  \nFacility ID #: 10684  \nApplication #: 700134  \n \n5 of 8 Regulation 6 , Rule 1  \nThe portable engine in this application is defined as a non -road engine, and non -road engines are \nnot subject to Regulation 6, Rule 1.  \n \nRegulation 9 , Rule 1  \nThe portable engine in this application is defined as a non -road engine, and non-road engines are \nnot subject to Regulation 9, Rule 1.  \n \nRegulation 9, Rule 8  \nThe portable engine in this application is defined as a non -road engine, and non -road engines are \nnot subject to Regulation 9, Rule 8.  \n \nState Rules"
+      },
+      {
+        "heading": "S-37 is not subject to the requirements of CARB ’s Air Toxic Control Measure (ATCM) for DPM  from",
+        "alias": "TOXICS",
+        "text": "S-37 is not subject to the requirements of CARB ’s Air Toxic Control Measure (ATCM) for DPM  from\nPortable Engines Rated at 50 Horsepower and Greater  in Title 17, California Code of Regulations, \nSection 9311 6. S-37 is exempt from this ATCM per Subsection 93116.1(b)(9) because it is an \nengine used exclusively on a street sweeper  that also meets all applicable requirements in title 13, \nCal. Code Regs., commencing with section 2449 . \n \nThis engine  is instead subject to the requirements of  California  Code  of Regulations  (CCR) , Title 13, \nSection  2025(n),  which  requires the auxiliary engine to meet the PM and NO X BACT requirements as \ndefined in this section. BACT requirements are defined as follows:  \n \nPM BACT : An engine equipped with the highest level of a verified diesel emission control strategy \n(VDECS ) for PM or an engine originally equipped with a diesel particulate filter and has been \ncertified to meet 0.01 g/bhp -hour certification standard.  \n \nNO X BACT : An on-road engine newly manufactured in 2010 or later or a 2010 emissions -equivalent \nengine as defined in section 2025(d)(4).  \n \nAs S -37 meets the emission requirements of a 2014+ year engine, the requirements of Section 2025 \nare met. In addition, the most stringent standards currently in effect for engines with capacities \nranging from 37 -56 kW (50 -75 bhp) are the Tier 4 standards, which are 3.33 g/bhp -hr for NOx, 0.18 \ng/bhp -hr for POC, 3.7 g/bhp -hr for CO, and 0.02 g/bhp -hr for PM 10. S-37 will comply with all of these \nTier 4 limits.  \n \nTier 4 standards exceed the standards of PM BACT as defined in this CCR. As such, S-37 complies \nwith both the PM and NO X BACT requirements of CCR Title 13, Section 2025 as it is a 202 2 model \nyear engine  with a certified PM emission rate of 0.002 g/bhp -hr. \n \nFederal Rules  \nNew Source Performance Standards (NSPS)  \n40 CFR 60, Subpart  IIII (Stationary  Compression  Ignition  Internal  Combustion  Engines ) \nSince S-37 is a portable (non -road) engine and not a stationary engine, 40 CFR, Part 60, Subpart IIII  \ndoes not apply to S -37. \n \n40 CFR 10 39 (Control of Emissions from New and In -Use Nonroad Compression -Ignition Engines)  \nS-37 is subject to 40 CFR 1039  pursuant to Section  1039.1(a) . S-37 is subject to the following Tier 4 \nexhaust emission standards in Table 1 of 1039.101:"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "POC  7.393  -- -- -- --",
+        "alias": null,
+        "text": "POC  7.393  -- -- -- --\nCO 29.517  -- -- -- -- \nPM 10 35.935  -- -- -- -- \nPM 2.5 0.000  -- -- -- -- \nSO 2 40.703  -- -- -- -- \n \nThe current application resulted in a 0.499 ton s per year  increase of NO x. The facility has provided \n0.574 tons  per y ear of NO x (0.499*1.15) offsets through Banking Certificate # 1961 ."
+      }
+    ]
+  }
+}

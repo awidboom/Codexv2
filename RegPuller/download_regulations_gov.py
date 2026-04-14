@@ -39,6 +39,30 @@ def sanitize_slug(text: str) -> str:
     return cleaned.strip("-") or "item"
 
 
+def build_output_path(
+    out_dir: str,
+    docket_id: str,
+    doc_id: str,
+    base: str,
+    file_format: str,
+) -> str:
+    folder = os.path.join(out_dir, "regulations_gov", docket_id)
+    filename = f"{base}.{file_format}"
+    path = os.path.join(folder, filename)
+    if os.path.exists(path):
+        filename = f"{doc_id}__{base}.{file_format}"
+        path = os.path.join(folder, filename)
+    return path
+
+
+def iter_file_formats(node: Dict[str, object]) -> Iterable[Dict[str, object]]:
+    attributes = node.get("attributes") or {}
+    formats = attributes.get("fileFormats") or []
+    if not isinstance(formats, list):
+        return []
+    return formats
+
+
 def keyword_match(text: str, keywords: Sequence[str]) -> bool:
     if not text:
         return False
@@ -57,10 +81,11 @@ def search_documents(
     for page in range(1, max_pages + 1):
         params = [
             ("filter[docketId]", docket_id),
-            ("filter[searchTerm]", keyword),
             ("page[size]", str(page_size)),
             ("page[number]", str(page)),
         ]
+        if keyword.strip():
+            params.append(("filter[searchTerm]", keyword))
         url = f"{API_BASE}/documents?{urllib.parse.urlencode(params)}"
         data = fetch_json(url, api_key)
         data_items = data.get("data") or []
@@ -83,9 +108,13 @@ def iter_attachments(detail: Dict[str, object]) -> Iterable[Dict[str, object]]:
     return [item for item in included if item.get("type") == "attachments"]
 
 
-def download_file(url: str, path: str) -> None:
+def download_file(url: str, path: str, api_key: str = "") -> None:
     ensure_dir(os.path.dirname(path))
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    parsed = urllib.parse.urlparse(url)
+    if parsed.netloc == "downloads.regulations.gov":
+        req = urllib.request.Request(url)
+    else:
+        req = urllib.request.Request(url, headers=_headers(api_key))
     with urllib.request.urlopen(req) as resp, open(path, "wb") as f:
         f.write(resp.read())
 
@@ -95,13 +124,13 @@ def download_docket_attachments(
     keywords: Sequence[str],
     out_dir: str,
     api_key: str,
-    allowed_formats: Sequence[str] = ("pdf", "txt"),
+    allowed_formats: Optional[Sequence[str]] = ("pdf", "txt"),
 ) -> List[Dict[str, str]]:
     seen_doc_ids: Set[str] = set()
     documents: List[Dict[str, object]] = []
-    for keyword in keywords:
-        if not keyword.strip():
-            continue
+    search_terms = list(keywords) if any(keyword.strip() for keyword in keywords) else [""]
+    download_all_documents = not any(keyword.strip() for keyword in keywords)
+    for keyword in search_terms:
         for item in search_documents(docket_id, keyword, api_key):
             doc_id = item.get("id")
             if not doc_id or doc_id in seen_doc_ids:
@@ -116,23 +145,72 @@ def download_docket_attachments(
         data = detail.get("data") or {}
         attributes = data.get("attributes") or {}
         doc_title = str(attributes.get("title") or "")
-        doc_matches = keyword_match(doc_title, keywords)
+        doc_matches = download_all_documents or keyword_match(doc_title, keywords)
+        if doc_matches:
+            for fmt in iter_file_formats(data):
+                file_url = fmt.get("fileUrl")
+                file_format = str(fmt.get("format") or "").lower()
+                if not file_url:
+                    continue
+                if allowed_formats is not None and file_format not in allowed_formats:
+                    continue
+                base = sanitize_slug(doc_title or doc_id)
+                path = build_output_path(out_dir, docket_id, doc_id, base, file_format)
+                try:
+                    download_file(file_url, path, api_key=api_key)
+                except Exception as exc:
+                    downloaded.append(
+                        {
+                            "path": path,
+                            "document_id": doc_id,
+                            "document_title": doc_title,
+                            "attachment_title": "",
+                            "format": file_format,
+                            "file_url": str(file_url),
+                            "error": str(exc),
+                        }
+                    )
+                    continue
+                downloaded.append(
+                    {
+                        "path": path,
+                        "document_id": doc_id,
+                        "document_title": doc_title,
+                        "attachment_title": "",
+                        "format": file_format,
+                        "file_url": str(file_url),
+                    }
+                )
         for att in iter_attachments(detail):
             att_attrs = att.get("attributes") or {}
             att_title = str(att_attrs.get("title") or "")
-            att_matches = keyword_match(att_title, keywords)
+            att_matches = download_all_documents or keyword_match(att_title, keywords)
             if not (doc_matches or att_matches):
                 continue
             for fmt in att_attrs.get("fileFormats") or []:
                 file_url = fmt.get("fileUrl")
                 file_format = str(fmt.get("format") or "").lower()
-                if not file_url or file_format not in allowed_formats:
+                if not file_url:
                     continue
-                folder = os.path.join(out_dir, "regulations_gov", docket_id, doc_id)
+                if allowed_formats is not None and file_format not in allowed_formats:
+                    continue
                 base = sanitize_slug(att_title or doc_title or doc_id)
-                filename = f"{base}.{file_format}"
-                path = os.path.join(folder, filename)
-                download_file(file_url, path)
+                path = build_output_path(out_dir, docket_id, doc_id, base, file_format)
+                try:
+                    download_file(file_url, path, api_key=api_key)
+                except Exception as exc:
+                    downloaded.append(
+                        {
+                            "path": path,
+                            "document_id": doc_id,
+                            "document_title": doc_title,
+                            "attachment_title": att_title,
+                            "format": file_format,
+                            "file_url": str(file_url),
+                            "error": str(exc),
+                        }
+                    )
+                    continue
                 downloaded.append(
                     {
                         "path": path,
@@ -163,7 +241,7 @@ def main() -> int:
     parser.add_argument(
         "--formats",
         default="pdf,txt",
-        help="Comma-separated formats to download (default: pdf,txt)",
+        help="Comma-separated formats to download, or 'all' for every available attachment format (default: pdf,txt)",
     )
     args = parser.parse_args()
 
@@ -171,7 +249,7 @@ def main() -> int:
         print("Missing --api-key (or REGGOV_API_KEY).", file=sys.stderr)
         return 2
     keywords = [item.strip() for item in args.keywords.split(",") if item.strip()]
-    formats = tuple(item.strip().lower() for item in args.formats.split(",") if item.strip())
+    formats = None if args.formats.strip().lower() == "all" else tuple(item.strip().lower() for item in args.formats.split(",") if item.strip())
     downloads = download_docket_attachments(
         args.docket,
         keywords,

@@ -1,0 +1,300 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 11
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "687950",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2024/687950/fid203310_nsr_687950_eval_022824-pdf.pdf?rev=077875f0470f48bdbed46098993a20a2&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2024/022824-687950/idlewild-shopping-center"
+  },
+  "application_number": "687950",
+  "plant": {
+    "name": "Idlewild Shopping Center",
+    "plant_id": 203310,
+    "address": "Cupertino, CA 95014"
+  },
+  "evaluation_date": "January 30, 2024",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Soil-Vapor Extraction System"
+    },
+    {
+      "id": "A-1",
+      "description": "Two (2) 300 lbs. Granular Activated Carbon Vessels (Total 600 lbs.), and One"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd \nIdlewild Shopping Center has applied for an Authority to Construct for the following equipment: \n \nS-1 Soil-Vapor Extraction System  \nSoil Vapor Extraction System, IMT Packaged SVE System, max. 270 cfm \n   \nAbated by \n \nA-1 Two (2) 300 lbs. Granular Activated Carbon Vessels (Total 600 lbs.), and One \nPotassium Permanganate-Infused Granular Activated Carbon Vessel in Series  \n \nThe site is located at 10040 East Estates Drive, Cupertino, CA 95014. This site is located adjacent \nto Stevens Creek Boulevard in a commercial district in Cupertino, and is currently occupied by \nseveral retail establishments. Since this site used to be a former dry cleaner, the facility is proposing \nan S-1 Soil Vapor Extraction System (SVE) to clean out the soil in the area. Santa Clara County \nDepartment of Environmental Health oversees the remediation of the Site. The SVE system will \ninclude a 270 cfm vacuum blower with two 300 lbs. granular activated carbon (GAC) systems in \nseries (600 lbs. total), and a third vessel containing permanganate-infused GAC. \n \nThe main compound found in the soil was perchloroethylene (PCE). Emissions calculations were \nbased on laboratory results from samples taken at the site. At 95% carbon abatement efficiency, \nno emissions are expected to trigger Health Risk Assessment per Regulation 2-5, Table 1.  \n \nProcedures are outlined in the conditions found below. The applicant will be required to provide \nwritten notification at the start of the operation.  The applicant will be required to stay below the \nacute and chronic trigger levels of Regulation 2-5. Effluent volatile organic compound (VOC) \nconcentrations will be monitored with a flame-ionization detector (FID).  \n \nThe site is not located within the boundary of an overburdened community. However, this site is \nlocated within 1,000 feet of Fusion Academy Cupertino (Halstrom Academy – Cupertino)."
+  },
+  "emission_calculations": {
+    "text": "Emission Calculations\nations \nInitial soil vapor data is used to estimate precursor organic compound (POC), non-precursorEmissions, Post\n4/5/1991 Application New \nEmissions Increase New Cumulative \nIncrease \n(ton/year) (ton/year) (ton/year) \nPOC 0.000 0.001 0.001 \n \nThis is a new facility. Therefore, there are no existing emissions at this facility."
+  },
+  "cumulative_increase": {
+    "text": "5 \n  \nCumulative Increase\nTable 3.  Cumulative Increase \nPollutant Current Permitted"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emission Calculations\nations \nInitial soil vapor data is used to estimate precursor organic compound (POC), non-precursorEmissions, Post\n4/5/1991 Application New \nEmissions Increase New Cumulative \nIncrease \n(ton/year) (ton/year) (ton/year) \nPOC 0.000 0.001 0.001 \n \nThis is a new facility. Therefore, there are no existing emissions at this facility.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "organic compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the\nequipment can operate 24 hours a day, 365 days a year.  The following assumptions are used to \nestimate emissions. \nPlant No. 203310  \nApplication No. 687950    \n2 \n  \n Operating conditions: Pressure = 1 Atm; Inlet Temperature = 21 oC; 1 mole occupies 24.15 \nLiters (or 386.8 ft3/pound-mol). \n Toxic Air Contaminants (TAC) emissions will be based on soil vapor data submitted with \nthis application. \n The organic influent flow rate of 270 scfm. \n The system will be abated by two (2) 300 lbs. of Granulated Activated Carbon vessels in \nseries pursuant to Regulation 8-47-301. \n Emissions are from a pilot TO-15 test completed in July of 2022 for Idlewild Shopping \nCenter by PathForward and Terraphase Engineering, Inc. \n \nTable 1. SVE System Abated Emissions for S-1 \nPollutant CAS # Abated Emissions \nInlet Conc. \n(ug/m3) Hourly \nEmission \nRate Daily \nEmission \nRate Annual \nEmission \nRate Annual \nEmission \nRate \n(lb/hr) (lb/day) (lb/yr) (ton/yr) \nAcetone 67-64-1 330.00 1.67E-05 4.00E-04 1.46E-01 7.30E-05 \nBenzene 71-43-2 26.00 1.31E-06 3.15E-05 1.15E-02 5.75E-06 \nToluene 108-88-3 62.00 3.13E-06 7.52E-05 2.74E-02 1.37E-05 \nXylenes 1330-20-7 71.00 3.59E-06 8.61E-05 3.14E-02 1.57E-05 \nChloroform 67-66-3 170.00 8.59E-06 2.06E-04 7.52E-02 3.76E-05 \nChloromethane 74-87-3 170.00 8.59E-06 2.06E-04 7.52E-02 3.76E-05 \nCyclohexane 110-82-7 28.00 1.41E-06 3.40E-05 1.24E-02 6.20E-06 \n1,1-Dichloroethene 75-35-4 32.00 1.62E-06 3.88E-05 1.42E-02 7.08E-06 \n1,4-Dioxane 123-91-1 120.00 6.06E-06 1.46E-04 5.31E-02 2.66E-05 \nEthanol 64-17-5 150.00 7.58E-06 1.82E-04 6.64E-02 3.32E-05 \nTrichlorofluoromethane 75-69-4 46.00 2.32E-06 5.58E-05 2.04E-02 1.02E-05 \nDichlorodifluoromethane 75-71-8 40.00 2.02E-06 4.85E-05 1.77E-02 8.85E-06 \nHeptane 142-82-5 34.00 1.72E-06 4.12E-05 1.50E-02 7.52E-06 \nHexane 110-54-3 29.00 1.47E-06 3.52E-05 1.28E-02 6.42E-06 \nMethylene Chloride 75-09-2 280.00 1.41E-05 3.40E-04 1.24E-01 6.20E-05 \n2-Butanone (MEK) 78-93-3 97.00 4.90E-06 1.18E-04 4.29E-02 2.15E-05 \n2-Propanol (isopropanol) 67-63-0 81.00 4.09E-06 9.82E-05 3.58E-02 1.79E-05 \nPerchloroethylene (PCE) \n(Tetrachloroethene) 127-18-4 30000.00 1.52E-03 3.64E-02 1.33E+01 6.64E-03 \nTrichloroethene (TCE) \n(Trichloroethylene) 79-01-6 110.00 5.56E-06 1.33E-04 4.87E-02 2.43E-05 \nVinyl Chloride \n(chloroethene) 75-01-4 52.00 2.63E-06 6.31E-05 2.30E-02 1.15E-05 \nEthyl benzene 100-41-4 36.00 1.82E-06 4.37E-05 1.59E-02 7.97E-06 \nPlant No. 203310  \nApplication No. 687950    \n3 \n 1,1,2‐Trichloroethane 79-00-5 45.00 2.27E-06 5.46E-05 1.99E-02 9.96E-06 \n1,1,‐Dichloroethane 75-34-3 33.00 1.67E-06 4.00E-05 1.46E-02 7.30E-06 \ncis‐1,2‐Dichloroethene 156-59-2 80.00 4.04E-06 9.70E-05 3.54E-02 1.77E-05 \ntrans-1,2-Dichloroethene 156-60-5 80.00 4.04E-06 9.70E-05 3.54E-02 1.77E-05 \n1,1,1-Trichloroethane \n(Methyl Chloroform) 71-55-6 45.00 2.27E-06 5.46E-05 1.99E-02 9.96E-06 \n1,2,4-Trimethylbenzene 95-63-6 40.00 2.02E-06 4.85E-05 1.77E-02 8.85E-06 \n1,3,5-Trimethylbenzene 108-67-8 40.00 2.02E-06 4.85E-05 1.77E-02 8.85E-06 \nCarbon disulfide 75-15-0 100.00 5.05E-06 1.21E-04 4.43E-02 2.21E-05 \nChloroethane (Ethyl \nChloride) 75-00-3 86.00 4.34E-06 1.04E-04 3.81E-02 1.90E-05 \nCarbon Tetarchloride 56-23-5 52.00 2.63E-06 6.31E-05 2.30E-02 1.15E-05 \nTetrahydrofuran 109-99-9 14.00 7.07E-07 1.70E-05 6.20E-03 3.10E-06 \nMethyl Isobutyl Ketone 108-10-1 34.00 1.72E-06 4.12E-05 1.50E-02 7.52E-06 \n1,1,2,2‐Tetrachloroethane 630-20-6 56.00 2.83E-06 6.79E-05 2.48E-02 1.24E-05 \n1,2,4‐Trichlorobenzene 120-82-1 240.00 1.21E-05 2.91E-04 1.06E-01 5.31E-05 \n1,2‐Dibromoethane 106-93-4 63.00 3.18E-06 7.64E-05 2.79E-02 1.39E-05 \n1,2‐Dichlorobenzene 95-50-1 49.00 2.48E-06 5.94E-05 2.17E-02 1.08E-05 \n1,2‐Dichloroethane 107-06-2 33.00 1.67E-06 4.00E-05 1.46E-02 7.30E-06 \n1,2‐Dichloropropane 78-87-5 38.00 1.92E-06 4.61E-05 1.68E-02 8.41E-06 \n1,2‐\nDichlorotetrafluoroethane \n(Freon‐114) 76-14-2 57.00 2.88E-06 6.91E-05 2.52E-02 1.26E-05 \n1,3‐Butadiene 106-99-0 18.00 9.09E-07 2.18E-05 7.97E-03 3.98E-06 \n1,3‐Dichlorobenzene 541-73-1 49.00 2.48E-06 5.94E-05 2.17E-02 1.08E-05 \n1,3‐Dichloropropene(cis) 10061-01-5 37.00 1.87E-06 4.49E-05 1.64E-02 8.19E-06 \n1,3‐Dichloropropene(trans) 10061-02-6 37.00 1.87E-06 4.49E-05 1.64E-02 8.19E-06 \n1,4‐Dichlorobenzene 106-46-7 49.00 2.48E-06 5.94E-05 2.17E-02 1.08E-05 \n1‐Methyl‐4 ethyl benzene 622-96-8 40.00 2.02E-06 4.85E-05 1.77E-02 8.85E-06 \n2,2,4‐Trimethylpentane 540-84-1 38.00 1.92E-06 4.61E-05 1.68E-02 8.41E-06 \n2‐hexanone 591-78-6 130.00 6.57E-06 1.58E-04 5.75E-02 2.88E-05 \nAllyl chloride 107-05-1 100.00 5.05E-06 1.21E-04 4.43E-02 2.21E-05 \nBenzyl chloride 100-44-7 42.00 2.12E-06 5.09E-05 1.86E-02 9.29E-06 \nBromodichloromethane 75-27-4 85.00 4.29E-06 1.03E-04 3.76E-02 1.88E-05 \nBromomethane 74-83-9 320.00 1.62E-05 3.88E-04 1.42E-01 7.08E-05 \nChlorobenzene 108-90-7 38.00 1.92E-06 4.61E-05 1.68E-02 8.41E-06 \nChlorodibromomethane 124-48-1 70.00 3.54E-06 8.49E-05 3.10E-02 1.55E-05 \nHexachlorobutadiene 87-68-3 350.00 1.77E-05 4.24E-04 1.55E-01 7.74E-05 \nIsopropylbenzene 98-82-8 40.00 2.02E-06 4.85E-05 1.77E-02 8.85E-06 \nMethyl Tertiary Butyl Ether 1634-04-4 120.00 6.06E-06 1.46E-04 5.31E-02 2.66E-05 \nPlant No. 203310  \nApplication No. 687950    \n4 \n n‐propylbenzene 103-65-1  40.00 2.02E-06 4.85E-05 1.77E-02 8.85E-06 \nStyrene 100-42-5 35.00 1.77E-06 4.24E-05 1.55E-02 7.74E-06 \n1,1,2‐\nTrichlorotrifluoroethane \n(Freon‐113) 76-13-1 63.00 3.18E-06 7.64E-05 2.79E-02 1.39E-05 \n \nNotes: \n1. It is assumed that equipment will operate 24 hours a day, 365 days a year. \n2. Non-Precursor Organic Compounds (NPOCs) have been determined based on Regulation 1-234 \nand 40 CFR 51.100(s)(1). NPOCs have negligible photochemical reactivity. \n \n \n \n \n \nTable 2.  Organic Emissions Review for S-1 \nPollutant Effluent \nVolumetric \nConcentration  Hourly \nEmission \nRate \n \n(pound/hour)  Daily \nEmission \nRate \n \n(pound/day)  Annual \nEmission \nRate \n \n(pounds/year)  Annual \nEmission \nRate \n \n(ton/year) (ppmv) \n \nPOC 0.294 1.97E-04 0.005 1.730 0.001 \nNPOC 2.327 1.56E-03 0.038 13.694 0.007 \nTotal 2.621 1.76E-03 0.042 15.424 0.008 \n \nNotes: \n1. POC and NPOC emissions are based on the laboratory test results considering an abatement \nefficiency of 95%. While the facility calculated 96% efficiency of the GAC vessels based on the \ninlet and outlet PCE concentration, a more conservative efficiency was used in this calculation. \nThe effluent volumetric concentrations are measured as methane. \n2. POC and NPOC Annual Emission Rates will be rounded up to 1.8 lbs./year and 13.7 lbs./year \nrespectively to be used as condition limit. \n3. The total effluent volumetric concentration will be used to set the GAC vessels breakthrough \nmonitoring condition. \n \n \n \n \n \n \n \n \n \n \n \n \n \nPlant No. 203310  \nApplication No. 687950Toxic Risk Screening\neening  \nNo toxic air contaminant emissions exceed the Chronic Trigger Levels in Regulation 2-5, Table \n2-5-1. Therefore, no Health Risk Assessment (HRA) was triggered for this project. \n  \n \nTable 4.  Project Toxics Emissions Review - Regulation 2-5 \nPollutant CAS # Hourly Acute Exceeds \nAcute \nTrigger \nLevel? Annual Chronic Exceeds \nChronic \nTrigger \nLevel? Emission \nRate Trigger \nLevel Emission \nRate Trigger \nLevel \n(lb/hr) (lb/hr) (lb/yr) (lb/yr) \nAcetone 67-64-1 1.67E-05 N/A No 1.46E-01 N/A No \nBenzene 71-43-2 1.31E-06 1.20E-02 No 1.15E-02 2.90E+00 No \nToluene 108-88-3 3.13E-06 2.20E+00 No 2.74E-02 1.60E+04 No \nXylenes 1330-20-7 3.59E-06 9.70E+00 No 3.14E-02 2.70E+04 No \nChloroform 67-66-3 8.59E-06 6.60E-02 No 7.52E-02 1.50E+01 No \nChloromethane 74-87-3 8.59E-06 N/A No 7.52E-02 N/A No \nCyclohexane 110-82-7 1.41E-06 N/A No 1.24E-02 N/A No \n1,1-Dichloroethene 75-35-4 1.62E-06 N/A No 1.42E-02 2.70E+03 No \n1,4-Dioxane 123-91-1 6.06E-06 1.30E+00 No 5.31E-02 1.10E+01 No \nEthanol 64-17-5 7.58E-06 N/A No 6.64E-02 N/A No \nTrichlorofluoromethane 75-69-4 2.32E-06 N/A No 2.04E-02 N/A No \nDichlorodifluoromethane 75-71-8 2.02E-06 N/A No 1.77E-02 N/A No \nHeptane 142-82-5 1.72E-06 N/A No 1.50E-02 N/A No \nPlant No. 203310  \nApplication No. 687950    \n6 \n Hexane 110-54-3 1.47E-06 N/A No 1.28E-02 2.70E+05 No \nMethylene Chloride 75-09-2 1.41E-05 6.20E+00 No 1.24E-01 8.20E+01 No \n2-Butanone (MEK) 78-93-3 4.90E-06 5.80E+00 No 4.29E-02 N/A No \n2-Propanol (isopropanol) 67-63-0 4.09E-06 1.40E+00 No 3.58E-02 2.70E+05 No \n                \nPerchloroethylene (PCE) \n(Tetrachloroethene) 127-18-4 1.52E-03 8.80E+00 No 1.33E+01 1.40E+01 No \nTrichloroethene (TCE) \n(Trichloroethylene) 79-01-6 5.56E-06 N/A No 4.87E-02 4.10E+01 No \nVinyl Chloride \n(chloroethene) 75-01-4 2.63E-06 8.00E+01 No 2.30E-02 1.10E+00 No \nEthyl benzene 100-41-4 1.82E-06 N/A No 1.59E-02 3.30E+01 No \n1,1,2‐Trichloroethane 79-00-5 2.27E-06 N/A No 1.99E-02 5.00E+00 No \n1,1,‐Dichloroethane 75-34-3 1.67E-06 N/A No 1.46E-02 5.00E+01 No \n                \ncis‐1,2‐Dichloroethene 156-59-2 4.04E-06 N/A No 3.54E-02 N/A No \ntrans-1,2-Dichloroethene 156-60-5 4.04E-06 N/A No 3.54E-02 N/A No \n1,1,1-Trichloroethane \n(Methyl Chloroform) 71-55-6 2.27E-06 3.00E+01 No 1.99E-02 3.90E+04 No \n1,2,4-Trimethylbenzene 95-63-6 2.02E-06 2.70E+00 No 1.77E-02 N/A No \n1,3,5-Trimethylbenzene 108-67-8 2.02E-06 N/A No 1.77E-02 N/A No \nCarbon disulfide 75-15-0 5.05E-06 2.70E+00 No 4.43E-02 3.10E+04 No \nChloroethane (Ethyl \nChloride) 75-00-3 4.34E-06 N/A No 3.81E-02 1.20E+06 No \nCarbon Tetrachloride 56-23-5 2.63E-06 8.40E-01 No 2.30E-02 1.90E+00 No \nTetrahydrofuran 109-99-9 7.07E-07 N/A No 6.20E-03 N/A No \nMethyl Isobutyl Ketone 108-10-1 1.72E-06 N/A No 1.50E-02 N/A No \n1,1,2,2‐Tetrachloroethane 630-20-6 2.83E-06 N/A No 2.48E-02 N/A No \n1,2,4‐Trichlorobenzene 120-82-1 1.21E-05 N/A No 1.06E-01 N/A No \n1,2‐Dibromoethane 106-93-4 3.18E-06 N/A No 2.79E-02 1.10E+00 No \n1,2‐Dichlorobenzene 95-50-1 2.48E-06 N/A No 2.17E-02 N/A No \n1,2‐Dichloroethane 107-06-2 1.67E-06 N/A No 1.46E-02 4.00E+00 No \n1,2‐Dichloropropane 78-87-5 1.92E-06 N/A No 1.68E-02 N/A No \n1,2‐\nDichlorotetrafluoroethane \n(Freon‐114) 76-14-2 2.88E-06 N/A No 2.52E-02 N/A No \n1,3‐Butadiene 106-99-0 9.09E-07 2.90E-01 No 7.97E-03 4.80E-01 No \n1,3‐Dichlorobenzene 541-73-1 2.48E-06 N/A No 2.17E-02 N/A No \n1,3‐Dichloropropene(cis) 10061-01-5 1.87E-06 N/A No 1.64E-02 N/A No \n1,3‐\nDichloropropene(trans) 10061-02-6 1.87E-06 N/A No 1.64E-02 N/A No \n1,4‐Dichlorobenzene 106-46-7 2.48E-06 N/A No 2.17E-02 7.20E+00 No \n1‐Methyl‐4 ethyl benzene 622-96-8 2.02E-06 N/A No 1.77E-02 N/A No \nPlant No. 203310  \nApplication No. 687950    \n7 \n 2,2,4‐Trimethylpentane 540-84-1 1.92E-06 N/A No 1.68E-02 N/A No \n2‐hexanone 591-78-6 6.57E-06 N/A No 5.75E-02 N/A No \nAllyl chloride 107-05-1 5.05E-06 N/A No 4.43E-02 1.40E+01 No \nBenzyl chloride 100-44-7 2.12E-06 1.10E-01 No 1.86E-02 1.70E+00 No \nBromodichloromethane 75-27-4 4.29E-06 N/A No 3.76E-02 N/A No \nBromomethane 74-83-9 1.62E-05 1.70E+00 No 1.42E-01 1.90E+02 No \nChlorobenzene 108-90-7 1.92E-06 N/A No 1.68E-02 3.90E+04 No \nChlorodibromomethane 124-48-1 3.54E-06 N/A No 3.10E-02 N/A No \nHexachlorobutadiene 87-68-3 1.77E-05 N/A No 1.55E-01 N/A No \nIsopropylbenzene 98-82-8 2.02E-06 N/A No 1.77E-02 N/A No \nMethyl Tertiary Butyl \nEther 1634-04-4 6.06E-06 N/A No 5.31E-02 1.60E+02 No \nn‐propylbenzene 103-65-1  2.02E-06 N/A No 1.77E-02 N/A No \nStyrene 100-42-5 1.77E-06 9.30E+00 No 1.55E-02 3.50E+04 No \n1,1,2‐\nTrichlorotrifluoroethane \n(Freon‐113) 76-13-1 3.18E-06 N/A No 2.79E-02 N/A NoToxics].\n4. In no event shall the toxic air contaminant (TAC) emissions to the atmosphere from S-1 exceed \nthe trigger levels listed in District Regulation 2-5, Table 2-5-1.  [Basis: Regulation 2-5].  \n \n5. The owner/operator shall not emit from S-1 more than 1.8 pounds of precursor organic \ncompounds (POC) and 13.7 pounds of non-precursor organic compounds (NPOC) per 12-\nmonth consecutive period. [Basis: Cumulative Increase] \n \n6. Upon initial start-up, the owner/operator shall take air samples from S-1 for laboratory analysis \nusing EPA Method TO-15.  The air samples shall be taken at the following locations:  \na. At the inlet to the first carbon vessel in series.  \nb. At the outlet of the last vessel in series prior to venting to the atmosphere.  \n[Basis: Regulation 2-1-403, Regulation 8-47-301]. \n \n7. The owner/operator shall use the results from the laboratory report to calculate the following: \n \na. The abatement efficiency of S-1 Sub-Slab Depressurization system. S-1 \nmust meet at minimum 95% abatement efficiency. \nb. If the POC is detected at its outlet in a lesser quantity than 2 ppmv, the \nabatement efficiency does not need to be calculated. \nc. TAC emissions emitted to the atmosphere, using the maximum permitted flowrate of S-1. \n \nThe owner/operator shall submit the laboratory report, abatement efficiency, and calculated \nTAC emissions within 21 days of the initial startup, to demonstrate compliance with Parts 1, \n2, 3, 4, 5, 6, and 7 of this condition.  [Basis: Regulation 2-1-403, Regulation 2-5]. \n \n \n8. During operation of A-1, the owner/operator shall monitor with a flame-ionization detector \n(FID), or other method approved in writing by the District's Source Test Manager at the \nfollowing locations:  \na. At the inlet to the second to last vessel in series.  \nb. At the inlet to the last vessel in series.  \nc. At the outlet of the last vessel in series, prior to venting to the atmosphere.  \nPlant No. 203310  \nApplication No. 687950    \n10 \n [Basis: Regulations 1-523 and 2-1-403] \n \n \n9. The owner/operator shall record these monitor readings in a monitoring log at the time they \nare taken.  The owner/operator shall use the monitoring results to estimate the frequency of \ncarbon change-out necessary to maintain compliance with Parts 1 through 6 of this condition \nand shall be conducted on a daily basis.  \n \na. If the owner/operator can demonstrate one (1) month of consecutive daily monitoring \nreadings where the sum of monitoring results of S-1 is lower than 2 ppmv, measured as \nmethane, the monitoring frequency may be reduced to weekly.  \nb. After the monitoring frequency has been reduced to weekly, if the owner/operator can \ndemonstrate one (1) month of consecutive weekly monitoring readings of S-1 is lower than 2 \nppmv, measured as methane, the monitoring frequency may be reduced to once every two (2) \nweeks.  \nc. After the monitoring frequency has been reduced to once every two (2) weeks, if the \nowner/operator can demonstrate one (1) month of consecutive bi-weekly readings where the \nmonitoring results of S-1 is lower than 2 ppmv, measured as methane, the monitoring \nfrequency may be reduced to monthly.  \nIf any subsequent results from monitoring where the sum of monitoring results of S-1 exceed \n2 ppmv, measured as methane, the owner/operator shall revert to daily monitoring.  If \nmonitoring reverts back to daily, the owner/operator may reduce the monitoring frequency in \naccordance with Parts 9(a) through (c) of this condition.[Basis: Cumulative Increase, Toxics, and Regulations 1-523 and 2-1-403]\n10. The owner/operator shall maintain the following information for each month of operation:  \n  \na. Hours and time of operation.  \nb. Each emission test, analysis, or monitoring results logged in for the day of operation \nthey were taken.  \nc. Total throughput of soil vapor from source S-1 in standard cubic feet. \n  \nSuch records shall be retained and made available for inspection by the District for two (2) \nyears following the date the data is recorded.  [Basis: Recordkeeping]  \n \n11. During the operation of A-1, the second to last carbon vessel shall be immediately changed out \nwith unspent carbon upon breakthrough, defined as the detection at its outlet in excess of the \nhigher of the following limits: \n  \na. 10 % of the inlet stream concentration to the carbon bed. \nb. 10 ppmv (measured as methane). \n[Basis: Cumulative Increase and Regulations 1-523 and 2-1-403] \nPlant No. 203310  \nApplication No. 687950    \n11 \n  \n12. The last carbon vessel shall be immediately changed out with unspent carbon upon detection \nat its outlet of 10 ppmv or greater (measured as methane).  [Basis: Cumulative Increase and \nRegulations 1-523 and 2-1-403]  \n  \n13. The owner/operator shall report any noncompliance with these conditions to the Compliance \nand Enforcement Division at the time that it is first discovered.  The owner/operator shall detail \nthe corrective action taken and include the data showing the exceedance as well as the time of \noccurrence in the submittal.  [Basis: Regulation 2-1-403]  \n  \n14. The owner/operator shall maintain a file containing all measurements, records and other data \nthat are required to be collected pursuant to the various provisions of this condition.  All \nmeasurements, records and data required to be maintained by the operator shall be retained for \nat least two (2) years following the date the data is recorded.  [Basis: Regulation 1-523]  \n  \n15. Upon final completion of the remediation project, the operator shall notify the Engineering \nDivision within two weeks of decommissioning the operation.  [Basis: Regulation 2-1-403]  \n \nEnd of Conditions"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\n(BACT) \nIn accordance with Regulation 2-2-301, Best Available Control Technology (BACT) is triggered \nfor any new or modified source with the potential to emit 10 pounds or more per highest day of \nPOC, NPOC, nitrogen oxides (NO x), carbon monoxide (CO), sulfur dioxides (SO 2), particulate \nmatter less than 10 micrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). \n \nNPOC and POC emissions are expected to be below 10 pound per day for S-1.  Therefore, BACT \nis not required. \n \n \n \n \nPlant No. 203310  \nApplication No. 687950"
+  },
+  "offsets": {
+    "narrative": "Offsets\nffsets \nPursuant to Regulation 2-2-302, offsets must be provided for any new or modified source at a site \nthat emits, or is permitted to emit, more than 10 tons per year of precursor organic compounds \n(POCs) or nitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2-2-303 offsets must be \nprovided for any new or modified source at a major site with a cumulative increase that exceeds \n1.0 ton per year of PM 10, PM2.5, or sulfur dioxide (SO 2). \n \nThe site is not expected to have a PTE greater than 10 tons per year of POC or NO X, nor is the site \na major site of PM 10, PM2.5, and SO 2.  Therefore, the requirements of Regulations 2-2-302 and 2-\n2-303 do not apply.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          10.0,
+          "N/A",
+          null
+        ],
+        [
+          "PM2.5",
+          2.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD), New Source Performance Standards (NSPS), and\nNational Emission Standards for Hazardous Air Pollutants (NESHAPS) are not triggered."
+  },
+  "CEQA": {
+    "narrative": "8 \n  \nCalifornia Environmental Quality Act (CEQA)\nThis project is classified as ministerial under the District Regulation 2-1-311, because the \nengineering review for this project requires only the application of standard emission factors and \nestablished formulas as specified in Chapter 9.2 of the District’s Permit Handbook.  This project \ndoes not trigger BACT or TBACT and is not subject to the health risk assessment requirements of \nRegulation 2, Rule 5.  This review follows objective procedures and applies standard permit \nconditions; and therefore, the review of this project is not discretionary as defined by CEQA.  Since \nthis project is ministerial, it is not subject to CEQA review requirement of Regulation 2-1-310, \nand no further CEQA analysis is required."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Compliance\nliance  \nThis project is located within 1,000 feet of Fusion Academy Cupertino (Halstrom Academy – \nCupertino) located on 19638 Stevens Creek Blvd Suite 230, Cupertino, CA 95014. The applicant, \nMr. Jeff Raines, verified that there are 60 kids at school via a phone call with the director, Ms. \nManuella Henien, on 08/30/2023. Therefore, this project is subject to the school public noticing"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Therefore, public notification is required per Regulation 2-1-412.requirement of the California Health & Safety Code and Regulation 2-1-412.\nThis project is not located within the boundaries of an Overburdened Community (OBC) as \ndefined in Regulation 2-1-243. Therefore, this project does not trigger OBC public notification. \n \nRegulation 8-47-301 requires that any soil vapor extraction operation which emits benzene, vinyl \nchloride, tetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a control \ndevice which reduces emissions to the atmosphere by at least 90 percent by weight. The facility \nhas proposed to install activated carbon vessels with at least 90 percent abatement efficiency to \nreduce emissions. \n \nThe facility is required to keep the pertinent records per condition #100152  pursuant to Regulation \n8-47-501.However, the proposed source triggers public notification requirements per Regulation 2-1-412.\nAfter the comments are received from the public and reviewed, the Air District will make a final \ndetermination on the permit. \n \nI recommend that the District initiates a public notice and considers any comments received prior \nto taking any final action on issuance of an Authority to Construct and/or a Permit to Operate for \nthe following equipment:   \n \nS-1 Soil-Vapor Extraction System  \nSoil Vapor Extraction System, IMT Packaged SVE System, max. 270 cfm \n   \nAbated by \n \nA-1 Two (2) 300 lbs. Granular Activated Carbon Vessels (Total 600 lbs.), and One \nPotassium Permanganate-Infused Granular Activated Carbon Vessel in Series  \n \nPlant No. 203310  \nApplication No. 687950    \n12 \n  \nYoujin Kim, Air Quality Engineer \nJanuary 30, 2024"
+  },
+  "conditions": {
+    "text": "Permit Conditions\nitions \n \nPermit Condition # 100152 for S-1 and A-1 \n \n1. The influent vapor flow rate shall not exceed 270 scfm from the blower of S-1.  \n[Basis: Cumulative Increase, Regulation 2-5].  \n \nPlant No. 203310  \nApplication No. 687950    \n9 \n 2. The owner/operator shall abate the precursor organic compound (POC)/non-precursor organic \ncompound (NPOC) emissions from the soil vapor extraction systems with the Granular \nActivated Carbon Vessels (A-1) and Permanganate during all periods of operation as follows: \n S-1 shall be abated by A-1, consisting of a minimum of two (2) 300 lbs. granular activated \n carbon vessels and one permanganate-infused granular activated carbon vessel in series. \n \n[Basis: Regulations 8-47-301 and 8-47-302 and Regulation 2-5].  \n \n3. In no event shall perchloroethylene (PCE) emissions to the atmosphere from S-1 exceed 13 \npounds per 12-month consecutive period. [Basis: Regulations 8-47-301, 8-47-302 and"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The influent vapor flow rate shall not exceed 270 scfm from the blower of S-1.  \n[",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 2-5].  \n \nPlant No. 203310  \nApplication No. 687950    \n9"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall abate the precursor organic compound (POC)/non-precursor organic \ncompound (NPOC) emissions from the soil vapor extraction systems with the Granular \nActivated Carbon Vessels (A-1) and Permanganate during all periods of operation as follows: \n S-1 shall be abated by A-1, consisting of a minimum of two (2) 300 lbs. granular activated \n carbon vessels and one permanganate-infused granular activated carbon vessel in series. \n \n[",
+        "basis": [
+          "Regulations 8-47-301 and 8-47-302 and Regulation 2-5]."
+        ]
+      },
+      {
+        "num": 3,
+        "text": "In no event shall perchloroethylene (PCE) emissions to the atmosphere from S-1 exceed 13 \npounds per 12-month consecutive period. [",
+        "basis": [
+          "Regulations 8-47-301",
+          "8-47-302 and"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\ndation   \nThe Air District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of District, state, and federal air quality-related regulations. The \npreliminary recommendation is to issue an Authority to Construct for the equipment listed below."
+  },
+  "raw_sections": {
+    "preamble": "DRAFT Engineering Evaluation  \nIdlewild Shopping Center \n10040 East Estates Drive, Cupertino, CA 95014 \nPlant No. 203310 \nApplication No. 687950 \nProject Description: Soil Vapor Extraction System",
+    "blocks": [
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd \nIdlewild Shopping Center has applied for an Authority to Construct for the following equipment: \n \nS-1 Soil-Vapor Extraction System  \nSoil Vapor Extraction System, IMT Packaged SVE System, max. 270 cfm \n   \nAbated by \n \nA-1 Two (2) 300 lbs. Granular Activated Carbon Vessels (Total 600 lbs.), and One \nPotassium Permanganate-Infused Granular Activated Carbon Vessel in Series  \n \nThe site is located at 10040 East Estates Drive, Cupertino, CA 95014. This site is located adjacent \nto Stevens Creek Boulevard in a commercial district in Cupertino, and is currently occupied by \nseveral retail establishments. Since this site used to be a former dry cleaner, the facility is proposing \nan S-1 Soil Vapor Extraction System (SVE) to clean out the soil in the area. Santa Clara County \nDepartment of Environmental Health oversees the remediation of the Site. The SVE system will \ninclude a 270 cfm vacuum blower with two 300 lbs. granular activated carbon (GAC) systems in \nseries (600 lbs. total), and a third vessel containing permanganate-infused GAC. \n \nThe main compound found in the soil was perchloroethylene (PCE). Emissions calculations were \nbased on laboratory results from samples taken at the site. At 95% carbon abatement efficiency, \nno emissions are expected to trigger Health Risk Assessment per Regulation 2-5, Table 1.  \n \nProcedures are outlined in the conditions found below. The applicant will be required to provide \nwritten notification at the start of the operation.  The applicant will be required to stay below the \nacute and chronic trigger levels of Regulation 2-5. Effluent volatile organic compound (VOC) \nconcentrations will be monitored with a flame-ionization detector (FID).  \n \nThe site is not located within the boundary of an overburdened community. However, this site is \nlocated within 1,000 feet of Fusion Academy Cupertino (Halstrom Academy – Cupertino)."
+      },
+      {
+        "heading": "Therefore, public notification is required per Regulation 2-1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Therefore, public notification is required per Regulation 2-1-412."
+      },
+      {
+        "heading": "Emission Calculations",
+        "alias": "EMISSIONS",
+        "text": "Emission Calculations\nations \nInitial soil vapor data is used to estimate precursor organic compound (POC), non-precursor"
+      },
+      {
+        "heading": "organic compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the",
+        "alias": "TOXICS",
+        "text": "organic compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the\nequipment can operate 24 hours a day, 365 days a year.  The following assumptions are used to \nestimate emissions. \nPlant No. 203310  \nApplication No. 687950    \n2 \n  \n Operating conditions: Pressure = 1 Atm; Inlet Temperature = 21 oC; 1 mole occupies 24.15 \nLiters (or 386.8 ft3/pound-mol). \n Toxic Air Contaminants (TAC) emissions will be based on soil vapor data submitted with \nthis application. \n The organic influent flow rate of 270 scfm. \n The system will be abated by two (2) 300 lbs. of Granulated Activated Carbon vessels in \nseries pursuant to Regulation 8-47-301. \n Emissions are from a pilot TO-15 test completed in July of 2022 for Idlewild Shopping \nCenter by PathForward and Terraphase Engineering, Inc. \n \nTable 1. SVE System Abated Emissions for S-1 \nPollutant CAS # Abated Emissions \nInlet Conc. \n(ug/m3) Hourly \nEmission \nRate Daily \nEmission \nRate Annual \nEmission \nRate Annual \nEmission \nRate \n(lb/hr) (lb/day) (lb/yr) (ton/yr) \nAcetone 67-64-1 330.00 1.67E-05 4.00E-04 1.46E-01 7.30E-05 \nBenzene 71-43-2 26.00 1.31E-06 3.15E-05 1.15E-02 5.75E-06 \nToluene 108-88-3 62.00 3.13E-06 7.52E-05 2.74E-02 1.37E-05 \nXylenes 1330-20-7 71.00 3.59E-06 8.61E-05 3.14E-02 1.57E-05 \nChloroform 67-66-3 170.00 8.59E-06 2.06E-04 7.52E-02 3.76E-05 \nChloromethane 74-87-3 170.00 8.59E-06 2.06E-04 7.52E-02 3.76E-05 \nCyclohexane 110-82-7 28.00 1.41E-06 3.40E-05 1.24E-02 6.20E-06 \n1,1-Dichloroethene 75-35-4 32.00 1.62E-06 3.88E-05 1.42E-02 7.08E-06 \n1,4-Dioxane 123-91-1 120.00 6.06E-06 1.46E-04 5.31E-02 2.66E-05 \nEthanol 64-17-5 150.00 7.58E-06 1.82E-04 6.64E-02 3.32E-05 \nTrichlorofluoromethane 75-69-4 46.00 2.32E-06 5.58E-05 2.04E-02 1.02E-05 \nDichlorodifluoromethane 75-71-8 40.00 2.02E-06 4.85E-05 1.77E-02 8.85E-06 \nHeptane 142-82-5 34.00 1.72E-06 4.12E-05 1.50E-02 7.52E-06 \nHexane 110-54-3 29.00 1.47E-06 3.52E-05 1.28E-02 6.42E-06 \nMethylene Chloride 75-09-2 280.00 1.41E-05 3.40E-04 1.24E-01 6.20E-05 \n2-Butanone (MEK) 78-93-3 97.00 4.90E-06 1.18E-04 4.29E-02 2.15E-05 \n2-Propanol (isopropanol) 67-63-0 81.00 4.09E-06 9.82E-05 3.58E-02 1.79E-05 \nPerchloroethylene (PCE) \n(Tetrachloroethene) 127-18-4 30000.00 1.52E-03 3.64E-02 1.33E+01 6.64E-03 \nTrichloroethene (TCE) \n(Trichloroethylene) 79-01-6 110.00 5.56E-06 1.33E-04 4.87E-02 2.43E-05 \nVinyl Chloride \n(chloroethene) 75-01-4 52.00 2.63E-06 6.31E-05 2.30E-02 1.15E-05 \nEthyl benzene 100-41-4 36.00 1.82E-06 4.37E-05 1.59E-02 7.97E-06 \nPlant No. 203310  \nApplication No. 687950    \n3 \n 1,1,2‐Trichloroethane 79-00-5 45.00 2.27E-06 5.46E-05 1.99E-02 9.96E-06 \n1,1,‐Dichloroethane 75-34-3 33.00 1.67E-06 4.00E-05 1.46E-02 7.30E-06 \ncis‐1,2‐Dichloroethene 156-59-2 80.00 4.04E-06 9.70E-05 3.54E-02 1.77E-05 \ntrans-1,2-Dichloroethene 156-60-5 80.00 4.04E-06 9.70E-05 3.54E-02 1.77E-05 \n1,1,1-Trichloroethane \n(Methyl Chloroform) 71-55-6 45.00 2.27E-06 5.46E-05 1.99E-02 9.96E-06 \n1,2,4-Trimethylbenzene 95-63-6 40.00 2.02E-06 4.85E-05 1.77E-02 8.85E-06 \n1,3,5-Trimethylbenzene 108-67-8 40.00 2.02E-06 4.85E-05 1.77E-02 8.85E-06 \nCarbon disulfide 75-15-0 100.00 5.05E-06 1.21E-04 4.43E-02 2.21E-05 \nChloroethane (Ethyl \nChloride) 75-00-3 86.00 4.34E-06 1.04E-04 3.81E-02 1.90E-05 \nCarbon Tetarchloride 56-23-5 52.00 2.63E-06 6.31E-05 2.30E-02 1.15E-05 \nTetrahydrofuran 109-99-9 14.00 7.07E-07 1.70E-05 6.20E-03 3.10E-06 \nMethyl Isobutyl Ketone 108-10-1 34.00 1.72E-06 4.12E-05 1.50E-02 7.52E-06 \n1,1,2,2‐Tetrachloroethane 630-20-6 56.00 2.83E-06 6.79E-05 2.48E-02 1.24E-05 \n1,2,4‐Trichlorobenzene 120-82-1 240.00 1.21E-05 2.91E-04 1.06E-01 5.31E-05 \n1,2‐Dibromoethane 106-93-4 63.00 3.18E-06 7.64E-05 2.79E-02 1.39E-05 \n1,2‐Dichlorobenzene 95-50-1 49.00 2.48E-06 5.94E-05 2.17E-02 1.08E-05 \n1,2‐Dichloroethane 107-06-2 33.00 1.67E-06 4.00E-05 1.46E-02 7.30E-06 \n1,2‐Dichloropropane 78-87-5 38.00 1.92E-06 4.61E-05 1.68E-02 8.41E-06 \n1,2‐\nDichlorotetrafluoroethane \n(Freon‐114) 76-14-2 57.00 2.88E-06 6.91E-05 2.52E-02 1.26E-05 \n1,3‐Butadiene 106-99-0 18.00 9.09E-07 2.18E-05 7.97E-03 3.98E-06 \n1,3‐Dichlorobenzene 541-73-1 49.00 2.48E-06 5.94E-05 2.17E-02 1.08E-05 \n1,3‐Dichloropropene(cis) 10061-01-5 37.00 1.87E-06 4.49E-05 1.64E-02 8.19E-06 \n1,3‐Dichloropropene(trans) 10061-02-6 37.00 1.87E-06 4.49E-05 1.64E-02 8.19E-06 \n1,4‐Dichlorobenzene 106-46-7 49.00 2.48E-06 5.94E-05 2.17E-02 1.08E-05 \n1‐Methyl‐4 ethyl benzene 622-96-8 40.00 2.02E-06 4.85E-05 1.77E-02 8.85E-06 \n2,2,4‐Trimethylpentane 540-84-1 38.00 1.92E-06 4.61E-05 1.68E-02 8.41E-06 \n2‐hexanone 591-78-6 130.00 6.57E-06 1.58E-04 5.75E-02 2.88E-05 \nAllyl chloride 107-05-1 100.00 5.05E-06 1.21E-04 4.43E-02 2.21E-05 \nBenzyl chloride 100-44-7 42.00 2.12E-06 5.09E-05 1.86E-02 9.29E-06 \nBromodichloromethane 75-27-4 85.00 4.29E-06 1.03E-04 3.76E-02 1.88E-05 \nBromomethane 74-83-9 320.00 1.62E-05 3.88E-04 1.42E-01 7.08E-05 \nChlorobenzene 108-90-7 38.00 1.92E-06 4.61E-05 1.68E-02 8.41E-06 \nChlorodibromomethane 124-48-1 70.00 3.54E-06 8.49E-05 3.10E-02 1.55E-05 \nHexachlorobutadiene 87-68-3 350.00 1.77E-05 4.24E-04 1.55E-01 7.74E-05 \nIsopropylbenzene 98-82-8 40.00 2.02E-06 4.85E-05 1.77E-02 8.85E-06 \nMethyl Tertiary Butyl Ether 1634-04-4 120.00 6.06E-06 1.46E-04 5.31E-02 2.66E-05 \nPlant No. 203310  \nApplication No. 687950    \n4 \n n‐propylbenzene 103-65-1  40.00 2.02E-06 4.85E-05 1.77E-02 8.85E-06 \nStyrene 100-42-5 35.00 1.77E-06 4.24E-05 1.55E-02 7.74E-06 \n1,1,2‐\nTrichlorotrifluoroethane \n(Freon‐113) 76-13-1 63.00 3.18E-06 7.64E-05 2.79E-02 1.39E-05 \n \nNotes: \n1. It is assumed that equipment will operate 24 hours a day, 365 days a year. \n2. Non-Precursor Organic Compounds (NPOCs) have been determined based on Regulation 1-234 \nand 40 CFR 51.100(s)(1). NPOCs have negligible photochemical reactivity. \n \n \n \n \n \nTable 2.  Organic Emissions Review for S-1 \nPollutant Effluent \nVolumetric \nConcentration  Hourly \nEmission \nRate \n \n(pound/hour)  Daily \nEmission \nRate \n \n(pound/day)  Annual \nEmission \nRate \n \n(pounds/year)  Annual \nEmission \nRate \n \n(ton/year) (ppmv) \n \nPOC 0.294 1.97E-04 0.005 1.730 0.001 \nNPOC 2.327 1.56E-03 0.038 13.694 0.007 \nTotal 2.621 1.76E-03 0.042 15.424 0.008 \n \nNotes: \n1. POC and NPOC emissions are based on the laboratory test results considering an abatement \nefficiency of 95%. While the facility calculated 96% efficiency of the GAC vessels based on the \ninlet and outlet PCE concentration, a more conservative efficiency was used in this calculation. \nThe effluent volumetric concentrations are measured as methane. \n2. POC and NPOC Annual Emission Rates will be rounded up to 1.8 lbs./year and 13.7 lbs./year \nrespectively to be used as condition limit. \n3. The total effluent volumetric concentration will be used to set the GAC vessels breakthrough \nmonitoring condition. \n \n \n \n \n \n \n \n \n \n \n \n \n \nPlant No. 203310  \nApplication No. 687950"
+      },
+      {
+        "heading": "5 \n  \nCumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "5 \n  \nCumulative Increase\nTable 3.  Cumulative Increase \nPollutant Current Permitted"
+      },
+      {
+        "heading": "Emissions, Post",
+        "alias": "EMISSIONS",
+        "text": "Emissions, Post\n4/5/1991 Application New \nEmissions Increase New Cumulative \nIncrease \n(ton/year) (ton/year) (ton/year) \nPOC 0.000 0.001 0.001 \n \nThis is a new facility. Therefore, there are no existing emissions at this facility."
+      },
+      {
+        "heading": "Toxic Risk Screening",
+        "alias": "TOXICS",
+        "text": "Toxic Risk Screening\neening  \nNo toxic air contaminant emissions exceed the Chronic Trigger Levels in Regulation 2-5, Table \n2-5-1. Therefore, no Health Risk Assessment (HRA) was triggered for this project. \n  \n \nTable 4.  Project Toxics Emissions Review - Regulation 2-5 \nPollutant CAS # Hourly Acute Exceeds \nAcute \nTrigger \nLevel? Annual Chronic Exceeds \nChronic \nTrigger \nLevel? Emission \nRate Trigger \nLevel Emission \nRate Trigger \nLevel \n(lb/hr) (lb/hr) (lb/yr) (lb/yr) \nAcetone 67-64-1 1.67E-05 N/A No 1.46E-01 N/A No \nBenzene 71-43-2 1.31E-06 1.20E-02 No 1.15E-02 2.90E+00 No \nToluene 108-88-3 3.13E-06 2.20E+00 No 2.74E-02 1.60E+04 No \nXylenes 1330-20-7 3.59E-06 9.70E+00 No 3.14E-02 2.70E+04 No \nChloroform 67-66-3 8.59E-06 6.60E-02 No 7.52E-02 1.50E+01 No \nChloromethane 74-87-3 8.59E-06 N/A No 7.52E-02 N/A No \nCyclohexane 110-82-7 1.41E-06 N/A No 1.24E-02 N/A No \n1,1-Dichloroethene 75-35-4 1.62E-06 N/A No 1.42E-02 2.70E+03 No \n1,4-Dioxane 123-91-1 6.06E-06 1.30E+00 No 5.31E-02 1.10E+01 No \nEthanol 64-17-5 7.58E-06 N/A No 6.64E-02 N/A No \nTrichlorofluoromethane 75-69-4 2.32E-06 N/A No 2.04E-02 N/A No \nDichlorodifluoromethane 75-71-8 2.02E-06 N/A No 1.77E-02 N/A No \nHeptane 142-82-5 1.72E-06 N/A No 1.50E-02 N/A No \nPlant No. 203310  \nApplication No. 687950    \n6 \n Hexane 110-54-3 1.47E-06 N/A No 1.28E-02 2.70E+05 No \nMethylene Chloride 75-09-2 1.41E-05 6.20E+00 No 1.24E-01 8.20E+01 No \n2-Butanone (MEK) 78-93-3 4.90E-06 5.80E+00 No 4.29E-02 N/A No \n2-Propanol (isopropanol) 67-63-0 4.09E-06 1.40E+00 No 3.58E-02 2.70E+05 No \n                \nPerchloroethylene (PCE) \n(Tetrachloroethene) 127-18-4 1.52E-03 8.80E+00 No 1.33E+01 1.40E+01 No \nTrichloroethene (TCE) \n(Trichloroethylene) 79-01-6 5.56E-06 N/A No 4.87E-02 4.10E+01 No \nVinyl Chloride \n(chloroethene) 75-01-4 2.63E-06 8.00E+01 No 2.30E-02 1.10E+00 No \nEthyl benzene 100-41-4 1.82E-06 N/A No 1.59E-02 3.30E+01 No \n1,1,2‐Trichloroethane 79-00-5 2.27E-06 N/A No 1.99E-02 5.00E+00 No \n1,1,‐Dichloroethane 75-34-3 1.67E-06 N/A No 1.46E-02 5.00E+01 No \n                \ncis‐1,2‐Dichloroethene 156-59-2 4.04E-06 N/A No 3.54E-02 N/A No \ntrans-1,2-Dichloroethene 156-60-5 4.04E-06 N/A No 3.54E-02 N/A No \n1,1,1-Trichloroethane \n(Methyl Chloroform) 71-55-6 2.27E-06 3.00E+01 No 1.99E-02 3.90E+04 No \n1,2,4-Trimethylbenzene 95-63-6 2.02E-06 2.70E+00 No 1.77E-02 N/A No \n1,3,5-Trimethylbenzene 108-67-8 2.02E-06 N/A No 1.77E-02 N/A No \nCarbon disulfide 75-15-0 5.05E-06 2.70E+00 No 4.43E-02 3.10E+04 No \nChloroethane (Ethyl \nChloride) 75-00-3 4.34E-06 N/A No 3.81E-02 1.20E+06 No \nCarbon Tetrachloride 56-23-5 2.63E-06 8.40E-01 No 2.30E-02 1.90E+00 No \nTetrahydrofuran 109-99-9 7.07E-07 N/A No 6.20E-03 N/A No \nMethyl Isobutyl Ketone 108-10-1 1.72E-06 N/A No 1.50E-02 N/A No \n1,1,2,2‐Tetrachloroethane 630-20-6 2.83E-06 N/A No 2.48E-02 N/A No \n1,2,4‐Trichlorobenzene 120-82-1 1.21E-05 N/A No 1.06E-01 N/A No \n1,2‐Dibromoethane 106-93-4 3.18E-06 N/A No 2.79E-02 1.10E+00 No \n1,2‐Dichlorobenzene 95-50-1 2.48E-06 N/A No 2.17E-02 N/A No \n1,2‐Dichloroethane 107-06-2 1.67E-06 N/A No 1.46E-02 4.00E+00 No \n1,2‐Dichloropropane 78-87-5 1.92E-06 N/A No 1.68E-02 N/A No \n1,2‐\nDichlorotetrafluoroethane \n(Freon‐114) 76-14-2 2.88E-06 N/A No 2.52E-02 N/A No \n1,3‐Butadiene 106-99-0 9.09E-07 2.90E-01 No 7.97E-03 4.80E-01 No \n1,3‐Dichlorobenzene 541-73-1 2.48E-06 N/A No 2.17E-02 N/A No \n1,3‐Dichloropropene(cis) 10061-01-5 1.87E-06 N/A No 1.64E-02 N/A No \n1,3‐\nDichloropropene(trans) 10061-02-6 1.87E-06 N/A No 1.64E-02 N/A No \n1,4‐Dichlorobenzene 106-46-7 2.48E-06 N/A No 2.17E-02 7.20E+00 No \n1‐Methyl‐4 ethyl benzene 622-96-8 2.02E-06 N/A No 1.77E-02 N/A No \nPlant No. 203310  \nApplication No. 687950    \n7 \n 2,2,4‐Trimethylpentane 540-84-1 1.92E-06 N/A No 1.68E-02 N/A No \n2‐hexanone 591-78-6 6.57E-06 N/A No 5.75E-02 N/A No \nAllyl chloride 107-05-1 5.05E-06 N/A No 4.43E-02 1.40E+01 No \nBenzyl chloride 100-44-7 2.12E-06 1.10E-01 No 1.86E-02 1.70E+00 No \nBromodichloromethane 75-27-4 4.29E-06 N/A No 3.76E-02 N/A No \nBromomethane 74-83-9 1.62E-05 1.70E+00 No 1.42E-01 1.90E+02 No \nChlorobenzene 108-90-7 1.92E-06 N/A No 1.68E-02 3.90E+04 No \nChlorodibromomethane 124-48-1 3.54E-06 N/A No 3.10E-02 N/A No \nHexachlorobutadiene 87-68-3 1.77E-05 N/A No 1.55E-01 N/A No \nIsopropylbenzene 98-82-8 2.02E-06 N/A No 1.77E-02 N/A No \nMethyl Tertiary Butyl \nEther 1634-04-4 6.06E-06 N/A No 5.31E-02 1.60E+02 No \nn‐propylbenzene 103-65-1  2.02E-06 N/A No 1.77E-02 N/A No \nStyrene 100-42-5 1.77E-06 9.30E+00 No 1.55E-02 3.50E+04 No \n1,1,2‐\nTrichlorotrifluoroethane \n(Freon‐113) 76-13-1 3.18E-06 N/A No 2.79E-02 N/A No"
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nffsets \nPursuant to Regulation 2-2-302, offsets must be provided for any new or modified source at a site \nthat emits, or is permitted to emit, more than 10 tons per year of precursor organic compounds \n(POCs) or nitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2-2-303 offsets must be \nprovided for any new or modified source at a major site with a cumulative increase that exceeds \n1.0 ton per year of PM 10, PM2.5, or sulfur dioxide (SO 2). \n \nThe site is not expected to have a PTE greater than 10 tons per year of POC or NO X, nor is the site \na major site of PM 10, PM2.5, and SO 2.  Therefore, the requirements of Regulations 2-2-302 and 2-\n2-303 do not apply."
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\n(BACT) \nIn accordance with Regulation 2-2-301, Best Available Control Technology (BACT) is triggered \nfor any new or modified source with the potential to emit 10 pounds or more per highest day of \nPOC, NPOC, nitrogen oxides (NO x), carbon monoxide (CO), sulfur dioxides (SO 2), particulate \nmatter less than 10 micrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). \n \nNPOC and POC emissions are expected to be below 10 pound per day for S-1.  Therefore, BACT \nis not required. \n \n \n \n \nPlant No. 203310  \nApplication No. 687950"
+      },
+      {
+        "heading": "8 \n  \nCalifornia Environmental Quality Act (CEQA)",
+        "alias": "CEQA",
+        "text": "8 \n  \nCalifornia Environmental Quality Act (CEQA)\nThis project is classified as ministerial under the District Regulation 2-1-311, because the \nengineering review for this project requires only the application of standard emission factors and \nestablished formulas as specified in Chapter 9.2 of the District’s Permit Handbook.  This project \ndoes not trigger BACT or TBACT and is not subject to the health risk assessment requirements of \nRegulation 2, Rule 5.  This review follows objective procedures and applies standard permit \nconditions; and therefore, the review of this project is not discretionary as defined by CEQA.  Since \nthis project is ministerial, it is not subject to CEQA review requirement of Regulation 2-1-310, \nand no further CEQA analysis is required."
+      },
+      {
+        "heading": "Compliance",
+        "alias": "SOC",
+        "text": "Compliance\nliance  \nThis project is located within 1,000 feet of Fusion Academy Cupertino (Halstrom Academy – \nCupertino) located on 19638 Stevens Creek Blvd Suite 230, Cupertino, CA 95014. The applicant, \nMr. Jeff Raines, verified that there are 60 kids at school via a phone call with the director, Ms. \nManuella Henien, on 08/30/2023. Therefore, this project is subject to the school public noticing"
+      },
+      {
+        "heading": "requirement of the California Health & Safety Code and Regulation 2-1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "requirement of the California Health & Safety Code and Regulation 2-1-412.\nThis project is not located within the boundaries of an Overburdened Community (OBC) as \ndefined in Regulation 2-1-243. Therefore, this project does not trigger OBC public notification. \n \nRegulation 8-47-301 requires that any soil vapor extraction operation which emits benzene, vinyl \nchloride, tetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a control \ndevice which reduces emissions to the atmosphere by at least 90 percent by weight. The facility \nhas proposed to install activated carbon vessels with at least 90 percent abatement efficiency to \nreduce emissions. \n \nThe facility is required to keep the pertinent records per condition #100152  pursuant to Regulation \n8-47-501."
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD), New Source Performance Standards (NSPS), and",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD), New Source Performance Standards (NSPS), and\nNational Emission Standards for Hazardous Air Pollutants (NESHAPS) are not triggered."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nitions \n \nPermit Condition # 100152 for S-1 and A-1 \n \n1. The influent vapor flow rate shall not exceed 270 scfm from the blower of S-1.  \n[Basis: Cumulative Increase, Regulation 2-5].  \n \nPlant No. 203310  \nApplication No. 687950    \n9 \n 2. The owner/operator shall abate the precursor organic compound (POC)/non-precursor organic \ncompound (NPOC) emissions from the soil vapor extraction systems with the Granular \nActivated Carbon Vessels (A-1) and Permanganate during all periods of operation as follows: \n S-1 shall be abated by A-1, consisting of a minimum of two (2) 300 lbs. granular activated \n carbon vessels and one permanganate-infused granular activated carbon vessel in series. \n \n[Basis: Regulations 8-47-301 and 8-47-302 and Regulation 2-5].  \n \n3. In no event shall perchloroethylene (PCE) emissions to the atmosphere from S-1 exceed 13 \npounds per 12-month consecutive period. [Basis: Regulations 8-47-301, 8-47-302 and"
+      },
+      {
+        "heading": "Toxics].",
+        "alias": "TOXICS",
+        "text": "Toxics].\n4. In no event shall the toxic air contaminant (TAC) emissions to the atmosphere from S-1 exceed \nthe trigger levels listed in District Regulation 2-5, Table 2-5-1.  [Basis: Regulation 2-5].  \n \n5. The owner/operator shall not emit from S-1 more than 1.8 pounds of precursor organic \ncompounds (POC) and 13.7 pounds of non-precursor organic compounds (NPOC) per 12-\nmonth consecutive period. [Basis: Cumulative Increase] \n \n6. Upon initial start-up, the owner/operator shall take air samples from S-1 for laboratory analysis \nusing EPA Method TO-15.  The air samples shall be taken at the following locations:  \na. At the inlet to the first carbon vessel in series.  \nb. At the outlet of the last vessel in series prior to venting to the atmosphere.  \n[Basis: Regulation 2-1-403, Regulation 8-47-301]. \n \n7. The owner/operator shall use the results from the laboratory report to calculate the following: \n \na. The abatement efficiency of S-1 Sub-Slab Depressurization system. S-1 \nmust meet at minimum 95% abatement efficiency. \nb. If the POC is detected at its outlet in a lesser quantity than 2 ppmv, the \nabatement efficiency does not need to be calculated. \nc. TAC emissions emitted to the atmosphere, using the maximum permitted flowrate of S-1. \n \nThe owner/operator shall submit the laboratory report, abatement efficiency, and calculated \nTAC emissions within 21 days of the initial startup, to demonstrate compliance with Parts 1, \n2, 3, 4, 5, 6, and 7 of this condition.  [Basis: Regulation 2-1-403, Regulation 2-5]. \n \n \n8. During operation of A-1, the owner/operator shall monitor with a flame-ionization detector \n(FID), or other method approved in writing by the District's Source Test Manager at the \nfollowing locations:  \na. At the inlet to the second to last vessel in series.  \nb. At the inlet to the last vessel in series.  \nc. At the outlet of the last vessel in series, prior to venting to the atmosphere.  \nPlant No. 203310  \nApplication No. 687950    \n10 \n [Basis: Regulations 1-523 and 2-1-403] \n \n \n9. The owner/operator shall record these monitor readings in a monitoring log at the time they \nare taken.  The owner/operator shall use the monitoring results to estimate the frequency of \ncarbon change-out necessary to maintain compliance with Parts 1 through 6 of this condition \nand shall be conducted on a daily basis.  \n \na. If the owner/operator can demonstrate one (1) month of consecutive daily monitoring \nreadings where the sum of monitoring results of S-1 is lower than 2 ppmv, measured as \nmethane, the monitoring frequency may be reduced to weekly.  \nb. After the monitoring frequency has been reduced to weekly, if the owner/operator can \ndemonstrate one (1) month of consecutive weekly monitoring readings of S-1 is lower than 2 \nppmv, measured as methane, the monitoring frequency may be reduced to once every two (2) \nweeks.  \nc. After the monitoring frequency has been reduced to once every two (2) weeks, if the \nowner/operator can demonstrate one (1) month of consecutive bi-weekly readings where the \nmonitoring results of S-1 is lower than 2 ppmv, measured as methane, the monitoring \nfrequency may be reduced to monthly.  \nIf any subsequent results from monitoring where the sum of monitoring results of S-1 exceed \n2 ppmv, measured as methane, the owner/operator shall revert to daily monitoring.  If \nmonitoring reverts back to daily, the owner/operator may reduce the monitoring frequency in \naccordance with Parts 9(a) through (c) of this condition."
+      },
+      {
+        "heading": "[Basis: Cumulative Increase, Toxics, and Regulations 1-523 and 2-1-403]",
+        "alias": "TOXICS",
+        "text": "[Basis: Cumulative Increase, Toxics, and Regulations 1-523 and 2-1-403]\n10. The owner/operator shall maintain the following information for each month of operation:  \n  \na. Hours and time of operation.  \nb. Each emission test, analysis, or monitoring results logged in for the day of operation \nthey were taken.  \nc. Total throughput of soil vapor from source S-1 in standard cubic feet. \n  \nSuch records shall be retained and made available for inspection by the District for two (2) \nyears following the date the data is recorded.  [Basis: Recordkeeping]  \n \n11. During the operation of A-1, the second to last carbon vessel shall be immediately changed out \nwith unspent carbon upon breakthrough, defined as the detection at its outlet in excess of the \nhigher of the following limits: \n  \na. 10 % of the inlet stream concentration to the carbon bed. \nb. 10 ppmv (measured as methane). \n[Basis: Cumulative Increase and Regulations 1-523 and 2-1-403] \nPlant No. 203310  \nApplication No. 687950    \n11 \n  \n12. The last carbon vessel shall be immediately changed out with unspent carbon upon detection \nat its outlet of 10 ppmv or greater (measured as methane).  [Basis: Cumulative Increase and \nRegulations 1-523 and 2-1-403]  \n  \n13. The owner/operator shall report any noncompliance with these conditions to the Compliance \nand Enforcement Division at the time that it is first discovered.  The owner/operator shall detail \nthe corrective action taken and include the data showing the exceedance as well as the time of \noccurrence in the submittal.  [Basis: Regulation 2-1-403]  \n  \n14. The owner/operator shall maintain a file containing all measurements, records and other data \nthat are required to be collected pursuant to the various provisions of this condition.  All \nmeasurements, records and data required to be maintained by the operator shall be retained for \nat least two (2) years following the date the data is recorded.  [Basis: Regulation 1-523]  \n  \n15. Upon final completion of the remediation project, the operator shall notify the Engineering \nDivision within two weeks of decommissioning the operation.  [Basis: Regulation 2-1-403]  \n \nEnd of Conditions"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\ndation   \nThe Air District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of District, state, and federal air quality-related regulations. The \npreliminary recommendation is to issue an Authority to Construct for the equipment listed below."
+      },
+      {
+        "heading": "However, the proposed source triggers public notification requirements per Regulation 2-1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "However, the proposed source triggers public notification requirements per Regulation 2-1-412.\nAfter the comments are received from the public and reviewed, the Air District will make a final \ndetermination on the permit. \n \nI recommend that the District initiates a public notice and considers any comments received prior \nto taking any final action on issuance of an Authority to Construct and/or a Permit to Operate for \nthe following equipment:   \n \nS-1 Soil-Vapor Extraction System  \nSoil Vapor Extraction System, IMT Packaged SVE System, max. 270 cfm \n   \nAbated by \n \nA-1 Two (2) 300 lbs. Granular Activated Carbon Vessels (Total 600 lbs.), and One \nPotassium Permanganate-Infused Granular Activated Carbon Vessel in Series  \n \nPlant No. 203310  \nApplication No. 687950    \n12 \n  \nYoujin Kim, Air Quality Engineer \nJanuary 30, 2024"
+      }
+    ],
+    "unmapped_blocks": []
+  }
+}

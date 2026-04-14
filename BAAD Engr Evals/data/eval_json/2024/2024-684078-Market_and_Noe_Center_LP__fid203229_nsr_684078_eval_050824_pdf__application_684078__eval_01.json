@@ -1,0 +1,279 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 7
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "POC  0.264  2.89E -05 6.93E -04 0.253  1.27E -04\nNPOC  2.366  2.59E -04 6.22E -03 2.270  0.001\nTotal  2.630  2.88E -04 6.91E -03 2.523  0.001"
+      ]
+    },
+    "application_number_detected": "684078",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2024/684078/fid203229_nsr_684078_eval_050824-pdf.pdf?rev=bf87b1ca11a7419584f5c19dc9e691e8&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2024/050824-684078/market-and-noe-center-lp"
+  },
+  "application_number": "684078",
+  "plant": {
+    "name": "Market and Noe Center LP",
+    "plant_id": 203229,
+    "address": "San Francisco, CA 94114"
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Sub-Slab Depressurization  System"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd  \nMarket and Noe Center LP  has applied for an Authority to Construct  for the following  equipment : \n \nS-1 Sub-Slab Depressurization  System  \nMake:  RadonAway, Model: HS500, max. 44 cfm  \n \nThe facility  is located at 2276 Market Street, #2288, San Francisco, CA 94114 . Due to historic use \nof the property for dry cleaning, precursor organic compounds (POCs)  have been detected in \nsubsurface soil gas  vapors. As part of property remodeling, a sub -slab depressurization system has \nbeen designed to  convey sub -slab vapors to 16 -feet above the top of the roof using an in -line fan.  \n \nThe approximately 0.34 -acre site, owned by Market and Noe Center LP, is located at 2276 -2288  \nMarket Street in San Francisco, California. A two -story building encompasses the entire site \nfootprint and includes three commercial tenant spaces with rooftop parking.  \n \nThe main compound found in the soil was tetrachloroethene (PCE) . Emissions calculations  were  \nbased on laboratory results from samples taken  at the site. No emissions are expected to trigger \nHealth Risk Assessment per  Regulation 2 -5, Table 1 .  \n \nProcedures are outlined in the conditions found below.  The applicant will be required to provide \nwritten notification at the start of the operation.  The applicant will be required to stay below the \nacute and chronic  trigger levels of Regulation 2 -5. Effluent volatile organic compound (VOC) \nconcentrations will be monitored with a flame -ionization detector (FID).  \n \nThe facility is located within 1,000 feet of Sanchez Elementary School and Everett Middle School."
+  },
+  "emission_calculations": {
+    "text": "Emission Calculations\nations  \nInitial soil vapor data is used to estimate precursor organic compound (POC), non -precursorEmissions, Post\n4/5/1991  Application New \nEmissions Increase  New Cumulative \nIncrease  \n(ton/ year ) (ton/ year ) (ton/ year ) \nPOC  0.000  1.27E -04 1.27E -04 \n \nThis is a new facility. Therefore, there are no existing emissions.  \nPlant  No. 203229   \nApplication No. 684078"
+  },
+  "cumulative_increase": {
+    "text": "Cumulative Increase\ncrease  \n \nTable 3.  Cumulative Increase  \nPollutant  Current Permitted"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emission Calculations\nations  \nInitial soil vapor data is used to estimate precursor organic compound (POC), non -precursorEmissions, Post\n4/5/1991  Application New \nEmissions Increase  New Cumulative \nIncrease  \n(ton/ year ) (ton/ year ) (ton/ year ) \nPOC  0.000  1.27E -04 1.27E -04 \n \nThis is a new facility. Therefore, there are no existing emissions.  \nPlant  No. 203229   \nApplication No. 684078",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "organic compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the\nequipment can operate 24 hours a day, 365 days a year.  The following assumptions are used to \nestimate emissions.  \n \nPlant  No. 203229   \nApplication No. 684078    \n2 \n • Operating conditions: Pressure = 1 Atm; Inlet Temperature = 21 oC; 1 mole occupies 24.15 \nLiters (or 386.8 ft3/ pound -mol) . \n• Toxic Air Contaminants (TAC) emissions will be based on soil vapor data submitted with \nthis application.  \n• The organic influent flow rate of 44 scfm . \n• The SSD system will have no abatement.  \n• Emissions are from TO-15 tests completed in February  of 202 3 for Market and Noe Center \nLP by K Prime, Inc. .  \n \nTable 1. SSD System Unabated Emissions for S -1 \nPollutant  CAS #  Unbated Emissions  \nInlet Conc. \n(ug/m3)  Hourly \nEmission \nRate  Daily \nEmission \nRate  Annual \nEmission \nRate  Annual \nEmission \nRate  \n(lb/hr)  (lb/day)  (lb/yr)  (ton/yr)  \nBenzene  71-43-2 0.69 1.13E -07 2.72E -06 9.94E -04 4.97E -07 \nToluene  108-88-3 2.55 4.20E -07 1.01E -05 3.68E -03 1.84E -06 \nXylenes  1330 -20-7 2.30 3.78E -07 9.07E -06 3.31E -03 1.66E -06 \nChloroform  67-66-3 0.59 9.72E -08 2.33E -06 8.51E -04 4.26E -07 \nChloromethane  74-87-3 0.77 1.27E -07 3.06E -06 1.12E -03 5.58E -07 \nDichlorodifluoromethane  75-71-8 1.62 2.67E -07 6.40E -06 2.34E -03 1.17E -06 \nPerchloroethylene (PCE) \n(Tetrachloroethene)  127-18-4 1570.00  2.59E -04 6.20E -03 2.26E+00  1.13E -03 \nTrichloroethene (TCE) \n(Trichloroethylene)  79-01-6 77.40  1.27E -05 3.06E -04 1.12E -01 5.58E -05 \nEthyl benzene  100-41-4 0.45 7.48E -08 1.79E -06 6.55E -04 3.27E -07 \ncis‐1,2‐Dichloroethene  156-59-2 81.90  1.35E -05 3.24E -04 1.18E -01 5.91E -05 \n1,1,1 -Trichloroethane \n(Methyl Chloroform)  71-55-6 0.59 9.72E -08 2.33E -06 8.51E -04 4.26E -07 \n1,2,4 -Trimethylbenzene  95-63-6 0.37 6.08E -08 1.46E -06 5.32E -04 2.66E -07 \n1,3,5 -Trimethylbenzene  108-67-8 0.11 1.78E -08 4.27E -07 1.56E -04 7.79E -08 \nChloroethane (Ethyl \nChloride)  75-00-3 2.64 4.35E -07 1.04E -05 3.81E -03 1.90E -06 \nCarbon Tetr achloride  56-23-5 0.33 5.45E -08 1.31E -06 4.77E -04 2.39E -07 \nDichlorotetrafluoroethane  76-14-2 0.09 1.48E -08 3.56E -07 1.30E -04 6.50E -08 \nBromomethane (Methyl \nBromide)  74-83-9 3.89 6.40E -07 1.54E -05 5.60E -03 2.80E -06 \nTrichlorofluoromethane  75-69-4 1.19 1.96E -07 4.70E -06 1.72E -03 8.58E -07 \n1,2-Dichloropropane  78-87-5 0.10 1.56E -08 3.75E -07 1.37E -04 6.85E -08 \nPlant  No. 203229   \nApplication No. 684078    \n3 \n 1,2-Dichloroethane \n(Ethylene Dichloride)  107-06-2 0.28 4.53E -08 1.09E -06 3.97E -04 1.98E -07 \nStyrene  100-42-5 0.61 1.01E -07 2.41E -06 8.81E -04 4.41E -07 \n1,4-Dichlorobenzene  106-46-7 0.09 1.44E -08 3.46E -07 1.26E -04 6.31E -08 \nNaphthalene  91-20-3 0.32 5.25E -08 1.26E -06 4.60E -04 2.30E -07 \n \nNotes: \n1. It is assumed that equipment will operate 24 hours a day, 365 days a year.  \n2. Non-Precursor Organic Compounds (NPOCs) have been determined based on  Regulation 1 -234 \nand 40 CFR 51.100(s)(1 ). NPOCs  have negligible photochemical reactivity . \n \n \n \nTable 2.  Organic Emissions Review for S-1 \nPollutant  Effluent \nVolumetric \nConcentration  Hourly \nEmission  \nRate  \n \n(pound/hour)  Daily \nEmission  \nRate  \n \n(pound/day)  Annual \nEmission  \nRate  \n \n(pound s/year)  Annual \nEmission  \nRate  \n \n(ton/year)  (ppmv)  \n \nPOC  0.264  2.89E -05 6.93E -04 0.253  1.27E -04 \nNPOC  2.366  2.59E -04 6.22E -03 2.270  0.001  \nTotal  2.630  2.88E -04 6.91E -03 2.523  0.001  \n \nNotes : \n1. POC and NPOC emissions  are based on the laboratory test results with no abatement.  \n2. POC and NPOC Annual Emission Rates will  normally  be rounded up to 0. 3 pound per year  and \n2.3 pound s per year  respectively to be used as condition limit . However, since no abatement \nefficiency was taken into account for calculating the maximum potential emissions from S -1 SSD \nsystem, no organics detection limit will be included in the permit condition.4 \n  \n \nToxic  Risk Screening\nNo toxic air contaminant emissions exceed  the Chronic  Trigger Levels in Regulation 2 -5, Table \n2-5-1. Therefore, no  Health Risk Assessment (HRA) was triggered for this project.   \n \nTable 4.  Project Toxics Emissions Review - Regulation 2 -5 \nPollutant  CAS #  Hourly  Acute  Exceeds \nAcute \nTrigger \nLevel?  Annual  Chronic  Exceeds \nChronic \nTrigger \nLevel?  Emission \nRate  Trigger \nLevel  Emission \nRate  Trigger \nLevel  \n(lb/hr)  (lb/hr)  (lb/yr)  (lb/yr)  \nBenzene  71-43-2 1.13E -07 1.20E -02 No 9.94E -04 2.90E+00  No \nToluene  108-88-\n3 4.20E -07 2.20E+00  No 3.68E -03 1.60E+04  No \nXylenes  1330 -\n20-7 3.78E -07 9.70E+00  No 3.31E -03 2.70E+04  No \nChloroform  67-66-3 9.72E -08 6.60E -02 No 8.51E -04 1.50E+01  No \nChloromethane  74-87-3 1.27E -07 N/A No 1.12E -03 N/A No \nDichlorodifluoromethane  75-71-8 2.67E -07 N/A No 2.34E -03 N/A No \nPerchloroethylene (PCE) \n(Tetrachloroethene)  127-18-\n4 2.59E -04 8.80E+00  No 2.26E+00  1.40E+01  No \nTrichloroethene (TCE) \n(Trichloroethylene)  79-01-6 1.27E -05 N/A No 1.12E -01 4.10E+01  No \nEthyl benzene  100-41-\n4 7.48E -08 N/A No 6.55E -04 3.30E+01  No \ncis‐1,2‐Dichloroethene  156-59-\n2 1.35E -05 N/A No 1.18E -01 N/A No \n1,1,1 -Trichloroethane \n(Methyl Chloroform)  71-55-6 9.72E -08 3.00E+01  No 8.51E -04 3.90E+04  No \n1,2,4 -Trimethylbenzene  95-63-6 6.08E -08 2.70E+00  No 5.32E -04 N/A No \n1,3,5 -Trimethylbenzene  108-67-\n8 1.78E -08 N/A No 1.56E -04 N/A No \nChloroethane (Ethyl \nChloride)  75-00-3 4.35E -07 N/A No 3.81E -03 1.20E+06  No \nCarbon Tetarchloride  56-23-5 5.45E -08 8.40E -01 No 4.77E -04 1.90E+00  No \nDichlorotetrafluoroethane  76-14-2 1.48E -08 N/A No 1.30E -04 N/A No \nBromomethane (Methyl \nBromide)  74-83-9 6.40E -07 1.70E+00  No 5.60E -03 1.90E+02  No \nTrichlorofluoromethane  75-69-4 1.96E -07 N/A No 1.72E -03 N/A No \nPlant  No. 203229   \nApplication No. 684078    \n5 \n 1,2-Dichloropropane  78-87-5 1.56E -08 N/A No 1.37E -04 N/A No \n1,2-Dichloroethane \n(Ethylene Dichloride)  107-06-\n2 4.53E -08 N/A No 3.97E -04 4.00E+00  No \nStyrene  100-42-\n5 1.01E -07 9.30E+00  No 8.81E -04 3.50E+04  No \n1,4-Dichlorobenzene  106-46-\n7 1.44E -08 N/A No 1.26E -04 N/A No \nNaphthalene  91-20-3 5.25E -08 N/A No 4.60E -04 N/A NoRegulations 8 -47-301, 8-47-113 and Toxics].\n3. In no event shall the toxic air contaminant (TAC) emissions to the atmosphere from S-1 exceed \nthe trigger levels listed in District Regulation 2 -5, Table 2 -5-1.  [Basis: Regulation 2 -5].  \n \n4. The owner/operator shall not emit from S-1 more than 0.3 pounds of precursor organic \ncompounds (POC) and 2.3 pounds of non-precursor organic compounds (NPOC) per 12 -month \nconsecutive period . [Basis: Cumulative Increase]  \n \n5. The owner/operator shall use the results from the laboratory report to calculate TAC emissions \nemitted to the atmosphere, using the maximum design flowrate of S-1.  The owner/operator \nshall submit the laboratory report and calculated TAC emissions within 21 days of the initial \nstartup, to demonstrate compliance with Parts 1 , 2, 3, and 4 of this condition.   [Basis: \nRegulation 2 -1-403, Regulation 2 -5]. \n \n6. The owner/operator shall maintain the following information for each month of operation:   \n  \na. Hours and time of operation.   \nb. Each emission test, analysis, or monitoring results logged in for the day of operation \nthey were taken.   \nc. Total throughput  of soil vapor from source S-1 in standard cubic feet . \n  \nSuch records shall be retained and made available for inspection by the District for two (2) \nyears following the date the data is recorded.   [Basis: Recordkeeping]   \n  \n7. The owner/operator shall report any noncompliance with these conditions to the Compliance \nand Enforcement Division at the time that it is first discovered.   The owner/operator shall detail \nthe corrective action taken and include the data showing the exceed ance as well as the time of \noccurrence in the submittal.   [Basis: Regulation 2 -1-403]  \n  \n8. The owner/operator shall maintain a file containing all measurements, records and other data \nthat are required to be collected pursuant to the various provisions of this condition.   All \nPlant  No. 203229   \nApplication No. 684078    \n8 \n measurements, records and data required to be maintained by the operator shall be retained for \nat least two (2) years following the date the data is recorded.   [Basis: Regulation 1 -523]  \n  \n9. Upon final completion of the remediation project, the operator shall notify the Engineering \nDivision within two weeks of decommissioning the operation.   [Basis: Regulation 2 -1-403]  \n \nEnd of Conditions"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\n(BACT)  \nIn accordance with Regulation 2 -2-301, Best Available Control Technology (BACT) is triggered \nfor any new or modified source with the potential to emit 10 pounds or more per highest day of \nPlant  No. 203229   \nApplication No. 684078    \n6 \n POC, NPOC, nitrogen oxides (NO x), carbon monoxide (CO), sulfur dioxides (SO 2), particulate \nmatter less than 10 micrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). \n \nNPOC and POC emissions are expected to be below 10 pound s/day for S-1.  Therefore, BACT is \nnot required."
+  },
+  "offsets": {
+    "narrative": "Offsets\nffsets  \nPursuant to Regulation 2 -2-302, offsets must be provided for any new or modified source at a \nfacility that emits, or is permitted to emit, more than 10 tons per year of precursor organic \ncompounds (POCs) or nitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2 -2-303 \noffsets must be provided for any new or modified source at a major facility with a cumulative \nincrease that exceeds 1.0 ton per year of PM 10, PM 2.5, or sulfur dioxide (SO 2). \n \nThe facility is not expected to have a PTE greater than 10 tons per year of POC or NO X, nor is the \nfacility a major facility of PM 10, PM 2.5, and SO 2.  Therefore, the requirements of Regulations 2 -2-\n302 and 2 -2-303 do not apply.  \n \nTable 5. Facility PTE Breakdown  \nSourc\ne # Description  PM10  PM2.5  POC  NOx  SO2 CO Relevant \nApplication  \n1  \n0.000  0.000  1.27E -04  0.000  0.000  0.000  Current \nApplication   \n \n \n \n \n Sub-Slab \nDepressurization \nSystem  \n  \n  \n  \n  \n  \nSUM    0.000  0.000  1.27E -04 0.000  0.000  0.000",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          10.0,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "SO2",
+          1.0,
+          "N/A",
+          null
+        ],
+        [
+          "PM10",
+          2.5,
+          "N/A",
+          null
+        ],
+        [
+          "PM2.5",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "CO",
+          1.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration ( PSD), New Source Performance Standards ( NSPS ), and \nNational Emission Standards for Hazardous Air Pollutants ( NESHAPS ) are not triggered."
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act ( CEQA )\nThis project is classified as ministerial under the District Regulation 2 -1-311, because the \nengineering review for this project requires only the application of standard emission factors and \nestablished formulas as specified in Chapter 9.2 of the District ’s Permit Handbook.  This project \ndoes not trigger BACT or TBACT and is not subject to the health risk assessment requirements of \nRegulation 2, Rule 5.  This review follows objective procedures and applies standard permit \nconditions; and therefore, the rev iew of this project is not discretionary as defined by CEQA.  Since \nthis project is ministerial, it is not subject to CEQA review requirement of Regulation 2 -1-310, \nand no further CEQA analysis is required."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Compliance\nance  \nThe facility is  located within 1,000 feet of Sanchez Elementary School ( 325 Sanchez St, San \nFrancisco, CA 94114 ) and Everett Middle School ( 450 Church St, San Francisco, CA 94114 )."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Therefore, public notification is required, per Regulation 2 -1-412. The facility is also located\nwithin ¼ mile of Mission Dolores Academy  and McKinley Elementary School . \n \nThe facility is not located within the boundary of an overburdened community.Therefore, public notification is required, per Regulation 2 -1-412. The facility is also located\nwithin ¼ mile of Mission Dolores Academy ( 3371 16th St, San Francisco, CA 94114 ) and \nMcKinley Elementary School  (1025 14th St, San Francisco, CA 94114 ). \n \nA 30-day public comment period commenced on TBD and ended on TBD.  [Will include a \nsummary of the public comments received and address ed.] \n \n \nRegulation 8 -47-301 requires that  any soil vapor extraction operation which emits benzene, vinyl \nchloride, tetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a control \ndevice which reduces emissions to the atmosphere by at least 90 percent by weight.  However, \nRegulation 8 -47-113 exempts operations with total emissions of less than 1 pound per day of the \npollutants listed above, given that Section 8 -47-301 is satisfied. The proposed SSD operation \nresults in the maximum potential  daily benzene emission of 2.7E-06 pound , perchloroethylene \nemission of 6.2E-03 pound, and trichloroethylene emission of 3.1E-04 pound without abatement \nand does not trigger health risk assessment. Therefore, the project does not warrant an abatement \ndevice with 90 percent control efficiency.  \n \n \nThe facility is required to keep the pertinent records per condition #  1001 39 pursuant to Regulation \n8-47-501. \n \n \nPlant  No. 203229   \nApplication No. 684078    \n7 \n Prevention of Significant Deterioration ( PSD), New Source Performance Standards ( NSPS ), and \nNational Emission Standards for Hazardous Air Pollutants ( NESHAPS ) are not triggered.However, the proposed source triggers public notification requirements per Regulation 2 -1-412.\nAfter the comments are received from the public and reviewed, the Air District will make a final \ndetermination on the permit.  \n \nI recommend that the District initiates a public notice and consider any comments received prior \nto taking any final action on issuance of an Authority to Construct and/or a Permit to Operate for \nthe following equipment:    \n \nS-1 Sub-Slab Depressurization System  \nMake:  RadonAway, Model: HS500, max. 44 cfm   \n \n \n \n \nYoujin Kim, Air Quality Engineer  \nNovember 29 , 2023"
+  },
+  "conditions": {
+    "text": "Permit Conditions\nitions  \n \nPermit Condition  # 1001 39 for S-1 \n \n1. The influent vapor flow rate shall not exceed 44 scfm  from the blower of S-1.  \n[Basis: Cumulative Increase, Regulation 2 -5].  \n \n2. In no event  shall benzene , vinyl chloride, perchloroethylene, methylene chloride, and \ntrichloroethylene  emissions to the atmosphere from S-1 exceed 1 pound  per day . [Basis:"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The influent vapor flow rate shall not exceed 44 scfm  from the blower of S-1.  \n[",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 2 -5]."
+        ]
+      },
+      {
+        "num": 2,
+        "text": "In no event  shall benzene , vinyl chloride, perchloroethylene, methylene chloride, and \ntrichloroethylene  emissions to the atmosphere from S-1 exceed 1 pound  per day . [",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\ndation   \nThe Air District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of District, state, and federal air quality -related regulations.  The \npreliminary recommendation is to issue an Authority to Construct for the equipment listed below."
+  },
+  "raw_sections": {
+    "preamble": "DRAFT Engineering Evaluation   \nMarket and Noe Center LP  \n2276 Market Street, #2288, San Francisco, CA 94114   \nPlant No. 203229  \nApplication No. 684078  \nProject Description: Sub-Slab Depressurization  System",
+    "blocks": [
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd  \nMarket and Noe Center LP  has applied for an Authority to Construct  for the following  equipment : \n \nS-1 Sub-Slab Depressurization  System  \nMake:  RadonAway, Model: HS500, max. 44 cfm  \n \nThe facility  is located at 2276 Market Street, #2288, San Francisco, CA 94114 . Due to historic use \nof the property for dry cleaning, precursor organic compounds (POCs)  have been detected in \nsubsurface soil gas  vapors. As part of property remodeling, a sub -slab depressurization system has \nbeen designed to  convey sub -slab vapors to 16 -feet above the top of the roof using an in -line fan.  \n \nThe approximately 0.34 -acre site, owned by Market and Noe Center LP, is located at 2276 -2288  \nMarket Street in San Francisco, California. A two -story building encompasses the entire site \nfootprint and includes three commercial tenant spaces with rooftop parking.  \n \nThe main compound found in the soil was tetrachloroethene (PCE) . Emissions calculations  were  \nbased on laboratory results from samples taken  at the site. No emissions are expected to trigger \nHealth Risk Assessment per  Regulation 2 -5, Table 1 .  \n \nProcedures are outlined in the conditions found below.  The applicant will be required to provide \nwritten notification at the start of the operation.  The applicant will be required to stay below the \nacute and chronic  trigger levels of Regulation 2 -5. Effluent volatile organic compound (VOC) \nconcentrations will be monitored with a flame -ionization detector (FID).  \n \nThe facility is located within 1,000 feet of Sanchez Elementary School and Everett Middle School."
+      },
+      {
+        "heading": "Therefore, public notification is required, per Regulation 2 -1-412. The facility is also located",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Therefore, public notification is required, per Regulation 2 -1-412. The facility is also located\nwithin ¼ mile of Mission Dolores Academy  and McKinley Elementary School . \n \nThe facility is not located within the boundary of an overburdened community."
+      },
+      {
+        "heading": "Emission Calculations",
+        "alias": "EMISSIONS",
+        "text": "Emission Calculations\nations  \nInitial soil vapor data is used to estimate precursor organic compound (POC), non -precursor"
+      },
+      {
+        "heading": "organic compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the",
+        "alias": "TOXICS",
+        "text": "organic compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the\nequipment can operate 24 hours a day, 365 days a year.  The following assumptions are used to \nestimate emissions.  \n \nPlant  No. 203229   \nApplication No. 684078    \n2 \n • Operating conditions: Pressure = 1 Atm; Inlet Temperature = 21 oC; 1 mole occupies 24.15 \nLiters (or 386.8 ft3/ pound -mol) . \n• Toxic Air Contaminants (TAC) emissions will be based on soil vapor data submitted with \nthis application.  \n• The organic influent flow rate of 44 scfm . \n• The SSD system will have no abatement.  \n• Emissions are from TO-15 tests completed in February  of 202 3 for Market and Noe Center \nLP by K Prime, Inc. .  \n \nTable 1. SSD System Unabated Emissions for S -1 \nPollutant  CAS #  Unbated Emissions  \nInlet Conc. \n(ug/m3)  Hourly \nEmission \nRate  Daily \nEmission \nRate  Annual \nEmission \nRate  Annual \nEmission \nRate  \n(lb/hr)  (lb/day)  (lb/yr)  (ton/yr)  \nBenzene  71-43-2 0.69 1.13E -07 2.72E -06 9.94E -04 4.97E -07 \nToluene  108-88-3 2.55 4.20E -07 1.01E -05 3.68E -03 1.84E -06 \nXylenes  1330 -20-7 2.30 3.78E -07 9.07E -06 3.31E -03 1.66E -06 \nChloroform  67-66-3 0.59 9.72E -08 2.33E -06 8.51E -04 4.26E -07 \nChloromethane  74-87-3 0.77 1.27E -07 3.06E -06 1.12E -03 5.58E -07 \nDichlorodifluoromethane  75-71-8 1.62 2.67E -07 6.40E -06 2.34E -03 1.17E -06 \nPerchloroethylene (PCE) \n(Tetrachloroethene)  127-18-4 1570.00  2.59E -04 6.20E -03 2.26E+00  1.13E -03 \nTrichloroethene (TCE) \n(Trichloroethylene)  79-01-6 77.40  1.27E -05 3.06E -04 1.12E -01 5.58E -05 \nEthyl benzene  100-41-4 0.45 7.48E -08 1.79E -06 6.55E -04 3.27E -07 \ncis‐1,2‐Dichloroethene  156-59-2 81.90  1.35E -05 3.24E -04 1.18E -01 5.91E -05 \n1,1,1 -Trichloroethane \n(Methyl Chloroform)  71-55-6 0.59 9.72E -08 2.33E -06 8.51E -04 4.26E -07 \n1,2,4 -Trimethylbenzene  95-63-6 0.37 6.08E -08 1.46E -06 5.32E -04 2.66E -07 \n1,3,5 -Trimethylbenzene  108-67-8 0.11 1.78E -08 4.27E -07 1.56E -04 7.79E -08 \nChloroethane (Ethyl \nChloride)  75-00-3 2.64 4.35E -07 1.04E -05 3.81E -03 1.90E -06 \nCarbon Tetr achloride  56-23-5 0.33 5.45E -08 1.31E -06 4.77E -04 2.39E -07 \nDichlorotetrafluoroethane  76-14-2 0.09 1.48E -08 3.56E -07 1.30E -04 6.50E -08 \nBromomethane (Methyl \nBromide)  74-83-9 3.89 6.40E -07 1.54E -05 5.60E -03 2.80E -06 \nTrichlorofluoromethane  75-69-4 1.19 1.96E -07 4.70E -06 1.72E -03 8.58E -07 \n1,2-Dichloropropane  78-87-5 0.10 1.56E -08 3.75E -07 1.37E -04 6.85E -08 \nPlant  No. 203229   \nApplication No. 684078    \n3 \n 1,2-Dichloroethane \n(Ethylene Dichloride)  107-06-2 0.28 4.53E -08 1.09E -06 3.97E -04 1.98E -07 \nStyrene  100-42-5 0.61 1.01E -07 2.41E -06 8.81E -04 4.41E -07 \n1,4-Dichlorobenzene  106-46-7 0.09 1.44E -08 3.46E -07 1.26E -04 6.31E -08 \nNaphthalene  91-20-3 0.32 5.25E -08 1.26E -06 4.60E -04 2.30E -07 \n \nNotes: \n1. It is assumed that equipment will operate 24 hours a day, 365 days a year.  \n2. Non-Precursor Organic Compounds (NPOCs) have been determined based on  Regulation 1 -234 \nand 40 CFR 51.100(s)(1 ). NPOCs  have negligible photochemical reactivity . \n \n \n \nTable 2.  Organic Emissions Review for S-1 \nPollutant  Effluent \nVolumetric \nConcentration  Hourly \nEmission  \nRate  \n \n(pound/hour)  Daily \nEmission  \nRate  \n \n(pound/day)  Annual \nEmission  \nRate  \n \n(pound s/year)  Annual \nEmission  \nRate  \n \n(ton/year)  (ppmv)  \n \nPOC  0.264  2.89E -05 6.93E -04 0.253  1.27E -04 \nNPOC  2.366  2.59E -04 6.22E -03 2.270  0.001  \nTotal  2.630  2.88E -04 6.91E -03 2.523  0.001  \n \nNotes : \n1. POC and NPOC emissions  are based on the laboratory test results with no abatement.  \n2. POC and NPOC Annual Emission Rates will  normally  be rounded up to 0. 3 pound per year  and \n2.3 pound s per year  respectively to be used as condition limit . However, since no abatement \nefficiency was taken into account for calculating the maximum potential emissions from S -1 SSD \nsystem, no organics detection limit will be included in the permit condition."
+      },
+      {
+        "heading": "Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Cumulative Increase\ncrease  \n \nTable 3.  Cumulative Increase  \nPollutant  Current Permitted"
+      },
+      {
+        "heading": "Emissions, Post",
+        "alias": "EMISSIONS",
+        "text": "Emissions, Post\n4/5/1991  Application New \nEmissions Increase  New Cumulative \nIncrease  \n(ton/ year ) (ton/ year ) (ton/ year ) \nPOC  0.000  1.27E -04 1.27E -04 \n \nThis is a new facility. Therefore, there are no existing emissions.  \nPlant  No. 203229   \nApplication No. 684078"
+      },
+      {
+        "heading": "4 \n  \n \nToxic  Risk Screening",
+        "alias": "TOXICS",
+        "text": "4 \n  \n \nToxic  Risk Screening\nNo toxic air contaminant emissions exceed  the Chronic  Trigger Levels in Regulation 2 -5, Table \n2-5-1. Therefore, no  Health Risk Assessment (HRA) was triggered for this project.   \n \nTable 4.  Project Toxics Emissions Review - Regulation 2 -5 \nPollutant  CAS #  Hourly  Acute  Exceeds \nAcute \nTrigger \nLevel?  Annual  Chronic  Exceeds \nChronic \nTrigger \nLevel?  Emission \nRate  Trigger \nLevel  Emission \nRate  Trigger \nLevel  \n(lb/hr)  (lb/hr)  (lb/yr)  (lb/yr)  \nBenzene  71-43-2 1.13E -07 1.20E -02 No 9.94E -04 2.90E+00  No \nToluene  108-88-\n3 4.20E -07 2.20E+00  No 3.68E -03 1.60E+04  No \nXylenes  1330 -\n20-7 3.78E -07 9.70E+00  No 3.31E -03 2.70E+04  No \nChloroform  67-66-3 9.72E -08 6.60E -02 No 8.51E -04 1.50E+01  No \nChloromethane  74-87-3 1.27E -07 N/A No 1.12E -03 N/A No \nDichlorodifluoromethane  75-71-8 2.67E -07 N/A No 2.34E -03 N/A No \nPerchloroethylene (PCE) \n(Tetrachloroethene)  127-18-\n4 2.59E -04 8.80E+00  No 2.26E+00  1.40E+01  No \nTrichloroethene (TCE) \n(Trichloroethylene)  79-01-6 1.27E -05 N/A No 1.12E -01 4.10E+01  No \nEthyl benzene  100-41-\n4 7.48E -08 N/A No 6.55E -04 3.30E+01  No \ncis‐1,2‐Dichloroethene  156-59-\n2 1.35E -05 N/A No 1.18E -01 N/A No \n1,1,1 -Trichloroethane \n(Methyl Chloroform)  71-55-6 9.72E -08 3.00E+01  No 8.51E -04 3.90E+04  No \n1,2,4 -Trimethylbenzene  95-63-6 6.08E -08 2.70E+00  No 5.32E -04 N/A No \n1,3,5 -Trimethylbenzene  108-67-\n8 1.78E -08 N/A No 1.56E -04 N/A No \nChloroethane (Ethyl \nChloride)  75-00-3 4.35E -07 N/A No 3.81E -03 1.20E+06  No \nCarbon Tetarchloride  56-23-5 5.45E -08 8.40E -01 No 4.77E -04 1.90E+00  No \nDichlorotetrafluoroethane  76-14-2 1.48E -08 N/A No 1.30E -04 N/A No \nBromomethane (Methyl \nBromide)  74-83-9 6.40E -07 1.70E+00  No 5.60E -03 1.90E+02  No \nTrichlorofluoromethane  75-69-4 1.96E -07 N/A No 1.72E -03 N/A No \nPlant  No. 203229   \nApplication No. 684078    \n5 \n 1,2-Dichloropropane  78-87-5 1.56E -08 N/A No 1.37E -04 N/A No \n1,2-Dichloroethane \n(Ethylene Dichloride)  107-06-\n2 4.53E -08 N/A No 3.97E -04 4.00E+00  No \nStyrene  100-42-\n5 1.01E -07 9.30E+00  No 8.81E -04 3.50E+04  No \n1,4-Dichlorobenzene  106-46-\n7 1.44E -08 N/A No 1.26E -04 N/A No \nNaphthalene  91-20-3 5.25E -08 N/A No 4.60E -04 N/A No"
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nffsets  \nPursuant to Regulation 2 -2-302, offsets must be provided for any new or modified source at a \nfacility that emits, or is permitted to emit, more than 10 tons per year of precursor organic \ncompounds (POCs) or nitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2 -2-303 \noffsets must be provided for any new or modified source at a major facility with a cumulative \nincrease that exceeds 1.0 ton per year of PM 10, PM 2.5, or sulfur dioxide (SO 2). \n \nThe facility is not expected to have a PTE greater than 10 tons per year of POC or NO X, nor is the \nfacility a major facility of PM 10, PM 2.5, and SO 2.  Therefore, the requirements of Regulations 2 -2-\n302 and 2 -2-303 do not apply.  \n \nTable 5. Facility PTE Breakdown  \nSourc\ne # Description  PM10  PM2.5  POC  NOx  SO2 CO Relevant \nApplication  \n1  \n0.000  0.000  1.27E -04  0.000  0.000  0.000  Current \nApplication   \n \n \n \n \n Sub-Slab \nDepressurization \nSystem  \n  \n  \n  \n  \n  \nSUM    0.000  0.000  1.27E -04 0.000  0.000  0.000"
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\n(BACT)  \nIn accordance with Regulation 2 -2-301, Best Available Control Technology (BACT) is triggered \nfor any new or modified source with the potential to emit 10 pounds or more per highest day of \nPlant  No. 203229   \nApplication No. 684078    \n6 \n POC, NPOC, nitrogen oxides (NO x), carbon monoxide (CO), sulfur dioxides (SO 2), particulate \nmatter less than 10 micrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). \n \nNPOC and POC emissions are expected to be below 10 pound s/day for S-1.  Therefore, BACT is \nnot required."
+      },
+      {
+        "heading": "California Environmental Quality Act ( CEQA )",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act ( CEQA )\nThis project is classified as ministerial under the District Regulation 2 -1-311, because the \nengineering review for this project requires only the application of standard emission factors and \nestablished formulas as specified in Chapter 9.2 of the District ’s Permit Handbook.  This project \ndoes not trigger BACT or TBACT and is not subject to the health risk assessment requirements of \nRegulation 2, Rule 5.  This review follows objective procedures and applies standard permit \nconditions; and therefore, the rev iew of this project is not discretionary as defined by CEQA.  Since \nthis project is ministerial, it is not subject to CEQA review requirement of Regulation 2 -1-310, \nand no further CEQA analysis is required."
+      },
+      {
+        "heading": "Compliance",
+        "alias": "SOC",
+        "text": "Compliance\nance  \nThe facility is  located within 1,000 feet of Sanchez Elementary School ( 325 Sanchez St, San \nFrancisco, CA 94114 ) and Everett Middle School ( 450 Church St, San Francisco, CA 94114 )."
+      },
+      {
+        "heading": "Therefore, public notification is required, per Regulation 2 -1-412. The facility is also located",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Therefore, public notification is required, per Regulation 2 -1-412. The facility is also located\nwithin ¼ mile of Mission Dolores Academy ( 3371 16th St, San Francisco, CA 94114 ) and \nMcKinley Elementary School  (1025 14th St, San Francisco, CA 94114 ). \n \nA 30-day public comment period commenced on TBD and ended on TBD.  [Will include a \nsummary of the public comments received and address ed.] \n \n \nRegulation 8 -47-301 requires that  any soil vapor extraction operation which emits benzene, vinyl \nchloride, tetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a control \ndevice which reduces emissions to the atmosphere by at least 90 percent by weight.  However, \nRegulation 8 -47-113 exempts operations with total emissions of less than 1 pound per day of the \npollutants listed above, given that Section 8 -47-301 is satisfied. The proposed SSD operation \nresults in the maximum potential  daily benzene emission of 2.7E-06 pound , perchloroethylene \nemission of 6.2E-03 pound, and trichloroethylene emission of 3.1E-04 pound without abatement \nand does not trigger health risk assessment. Therefore, the project does not warrant an abatement \ndevice with 90 percent control efficiency.  \n \n \nThe facility is required to keep the pertinent records per condition #  1001 39 pursuant to Regulation \n8-47-501. \n \n \nPlant  No. 203229   \nApplication No. 684078    \n7 \n Prevention of Significant Deterioration ( PSD), New Source Performance Standards ( NSPS ), and \nNational Emission Standards for Hazardous Air Pollutants ( NESHAPS ) are not triggered."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nitions  \n \nPermit Condition  # 1001 39 for S-1 \n \n1. The influent vapor flow rate shall not exceed 44 scfm  from the blower of S-1.  \n[Basis: Cumulative Increase, Regulation 2 -5].  \n \n2. In no event  shall benzene , vinyl chloride, perchloroethylene, methylene chloride, and \ntrichloroethylene  emissions to the atmosphere from S-1 exceed 1 pound  per day . [Basis:"
+      },
+      {
+        "heading": "Regulations 8 -47-301, 8-47-113 and Toxics].",
+        "alias": "TOXICS",
+        "text": "Regulations 8 -47-301, 8-47-113 and Toxics].\n3. In no event shall the toxic air contaminant (TAC) emissions to the atmosphere from S-1 exceed \nthe trigger levels listed in District Regulation 2 -5, Table 2 -5-1.  [Basis: Regulation 2 -5].  \n \n4. The owner/operator shall not emit from S-1 more than 0.3 pounds of precursor organic \ncompounds (POC) and 2.3 pounds of non-precursor organic compounds (NPOC) per 12 -month \nconsecutive period . [Basis: Cumulative Increase]  \n \n5. The owner/operator shall use the results from the laboratory report to calculate TAC emissions \nemitted to the atmosphere, using the maximum design flowrate of S-1.  The owner/operator \nshall submit the laboratory report and calculated TAC emissions within 21 days of the initial \nstartup, to demonstrate compliance with Parts 1 , 2, 3, and 4 of this condition.   [Basis: \nRegulation 2 -1-403, Regulation 2 -5]. \n \n6. The owner/operator shall maintain the following information for each month of operation:   \n  \na. Hours and time of operation.   \nb. Each emission test, analysis, or monitoring results logged in for the day of operation \nthey were taken.   \nc. Total throughput  of soil vapor from source S-1 in standard cubic feet . \n  \nSuch records shall be retained and made available for inspection by the District for two (2) \nyears following the date the data is recorded.   [Basis: Recordkeeping]   \n  \n7. The owner/operator shall report any noncompliance with these conditions to the Compliance \nand Enforcement Division at the time that it is first discovered.   The owner/operator shall detail \nthe corrective action taken and include the data showing the exceed ance as well as the time of \noccurrence in the submittal.   [Basis: Regulation 2 -1-403]  \n  \n8. The owner/operator shall maintain a file containing all measurements, records and other data \nthat are required to be collected pursuant to the various provisions of this condition.   All \nPlant  No. 203229   \nApplication No. 684078    \n8 \n measurements, records and data required to be maintained by the operator shall be retained for \nat least two (2) years following the date the data is recorded.   [Basis: Regulation 1 -523]  \n  \n9. Upon final completion of the remediation project, the operator shall notify the Engineering \nDivision within two weeks of decommissioning the operation.   [Basis: Regulation 2 -1-403]  \n \nEnd of Conditions"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\ndation   \nThe Air District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of District, state, and federal air quality -related regulations.  The \npreliminary recommendation is to issue an Authority to Construct for the equipment listed below."
+      },
+      {
+        "heading": "However, the proposed source triggers public notification requirements per Regulation 2 -1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "However, the proposed source triggers public notification requirements per Regulation 2 -1-412.\nAfter the comments are received from the public and reviewed, the Air District will make a final \ndetermination on the permit.  \n \nI recommend that the District initiates a public notice and consider any comments received prior \nto taking any final action on issuance of an Authority to Construct and/or a Permit to Operate for \nthe following equipment:    \n \nS-1 Sub-Slab Depressurization System  \nMake:  RadonAway, Model: HS500, max. 44 cfm   \n \n \n \n \nYoujin Kim, Air Quality Engineer  \nNovember 29 , 2023"
+      }
+    ],
+    "unmapped_blocks": []
+  }
+}

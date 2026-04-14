@@ -1,0 +1,302 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 8
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "32077",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2024/32077/fid19967_nsr_32077_eval_010524-pdf.pdf?rev=155479eba3d547ba8159906cc414e7d0&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2024/010524-32077/welltest-inc"
+  },
+  "application_number": "32077",
+  "plant": {
+    "name": "WellTest, Inc.",
+    "plant_id": 19967,
+    "address": "San Jose, CA 95125-4214"
+  },
+  "evaluation_date": "January 2, 2024",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-4",
+      "description": "Portable Soil Vapor Extraction System (vacuum pump and ancillary), Rietschle,"
+    },
+    {
+      "id": "A-4",
+      "description": "Granulated Activated Carbon Adsorption Vessels (2 in series, each 200 lb carbon"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd \nWellTest, Inc. has requested a Change of Condition to an existing Permit to Operate for a portable \nsoil vapor extraction (SVE) unit to allow the equipment to be operated at 2910 Almaden \nExpressway, San Jose, CA 95125, which is within 1,000 feet of K-12 schools.  The equipment \nassociated with this project is described below: \n \nS-4  Portable Soil Vapor Extraction System (vacuum pump and ancillary), Rietschle, \n C-VLR-500, 353 cfm \n \nAbated by \n \nA-4  Granulated Activated Carbon Adsorption Vessels (2 in series, each 200 lb carbon \n at least), Baker, Filtration Kleen Air 55R or equivalent.                                \n \nThe exiting S-4 Portable Soil Vapor Extraction (SVE) system will be used to clean out the soil and \nsoil vapor at a former dry cleaner site located on 2910 Almaden Expressway, San Jose, CA 95125-\n4214. The site is significantly impacted with POC. GeoTracker site on California Government \nwebpage lists the site as a “Cleanup Program Site”.  \n(GeoTracker Link: \nhttps://geotracker.waterboards.ca.gov/map/?CMD=runreport&myaddress=2910+Almaden+Expr\nessway%2C+San+Jose%2C+CA+95125-4214 ) \n \nThis portable soil vapor extraction unit consists of a vacuum blower (S-4) with a maximum \ncapacity of 353 cfm. Extracted soil vapors will be directed to granulated activated carbon \nadsorption vessels in series (A-4) with 99% abatement efficiency for treatment prior to discharge \nto the atmosphere. \n \nThe main compound found in the soil was perchloroethylene (PCE). Emissions calculations were \nbased on laboratory results from samples taken at the site. No emissions are expected to trigger \nHealth Risk Assessment (HRA) per Regulation 2-5, Table 1. Startup TO-15 test will be required"
+  },
+  "emission_calculations": {
+    "text": "Emission Calculations\nations \nEmissions were calculated and accounted for when the source was issued an Authority to Construct \nand a Permit to Operate (Application #28279).Emissions, Post\n4/5/1991 Application New \nEmissions Increase New Cumulative \nIncrease \n(ton/year) (ton/year) (ton/year) \nPOC 0.181 1.66E-04 0.181 \nNOx 0.000 0.000 0.000 \nSO2 0.000 0.000 0.000 \nCO 0.000 0.000 0.000 \nPM 0.000 0.000 0.000 \n \nNotes: \n1. Current Permitted Emissions (Post 4/5/1991) is obtained from the most recent application for the \nfacility, Application 30992. The Authority to Construct permit for Project 30992 was issued on \n08/12/21."
+  },
+  "cumulative_increase": {
+    "text": "Cumulative Increase\ncrease \n \nThere is no increase in emissions from this application.  \n \nTable 1.  Cumulative Increase \nPollutant Current Permitted"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emission Calculations\nations \nEmissions were calculated and accounted for when the source was issued an Authority to Construct \nand a Permit to Operate (Application #28279).Emissions, Post\n4/5/1991 Application New \nEmissions Increase New Cumulative \nIncrease \n(ton/year) (ton/year) (ton/year) \nPOC 0.181 1.66E-04 0.181 \nNOx 0.000 0.000 0.000 \nSO2 0.000 0.000 0.000 \nCO 0.000 0.000 0.000 \nPM 0.000 0.000 0.000 \n \nNotes: \n1. Current Permitted Emissions (Post 4/5/1991) is obtained from the most recent application for the \nfacility, Application 30992. The Authority to Construct permit for Project 30992 was issued on \n08/12/21.",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-4": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-4": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "to verify that no toxic air contaminant (TAC) emissions exceed the HRA trigger threshold outlined\nin Regulation 2-5, Table 1. \n \nProcedures are outlined in the conditions found below. The applicant will be required to provide \nwritten notification at the start of the operation.  The applicant will be required to stay below the \nacute and chronic trigger levels of Regulation 2-5. Effluent volatile organic compound (VOC) \nconcentrations will be monitored with a flame-ionization detector (FID).  \n \n \nPlant No. 19967  \nApplication No. 32077    \n2 \n The proposed soil vapor extraction site is located within 1,000 feet of One World Montessori \nSchool. The site is also located within 0.25 mile of Calvary Christian Academy. Therefore, publicToxic Risk Screening\neening  \nThis project will not result in an increase in toxic air contaminant (TAC) emissions.  A health \nrisk screening analysis is not required because previous applications have determined that S-4 \ncomplies with Regulation 2, Rule 5.   \n \n \nPlant No. 19967  \nApplication No. 32077hexane). Toxic compounds emissions to the atmosphere at\nsphere at \n         a proposed site of operation shall not exceed the toxic \n         trigger levels listed in Table 2-5-1 of Regulation 2, \n         Rule 5. In case, any toxic compound emissions are \n         expected to exceed the trigger levels as per the pilot \n         test or monitoring results for a proposed site of \n         operation, then the owner/operator shall submit an \n         application to the District so that the health risk \n         analysis requirements of Regulation 2, Rule 5 shall be \n         met before commencement or continued operation at that \n         location. [Basis: Cumulative increase; TBACT; \n         Regulations 2-5-302 and 2-5-401] \n     8.  To determine compliance with Part 7, within 24 hours \n         after start up at any new location, the owner/operator \n         of this source, S-4, shall: \n         a.  Analyze the inlet gas to determine the vapor flowrate and concentration of POC/NPOC and toxic\nPOC and toxic \n             compounds present. \n         b.  Analyze exhaust gas to determine the flow rate, the \n             concentration of toxic compounds and POC/NPOC \n             present, and emission rates. \n         c.  Calculate the toxic compounds emission rates in \nPlant No. 19967  \nApplication No. 32077    \n7 \n              pounds per hour, per day, and per year based on the \n             exhaust gas analysis and the operating exhaust flow \n             rate.  The soil vapor flow rate shall be decreased, \n             if necessary, to demonstrate compliance with Part 7. \n         d.  Calculate the POC/NPOC abatement efficiency based on \n             the inlet and outlet gas sampling analysis. For the \n             purpose of determining compliance with Part 7, the \n             POC/NPOC concentration shall be reported as hexane. \n         e.  Submit to the District the test results and emission \n             calculations within one month from the testing date. \n             Samples shall be analyzed according to modified EPA \n             Test methods 8015 and 8021 or their equivalent todetermine the concentrations of POC/NPOC and toxic\nPOC and toxic \n             compounds. \n        [Basis: Cumulative increase; TBACT; Regulation \n        8-47-501] \n     9.  Within 30 days from the completion of each treatment \n         operation at a given location, the owner/operator of \n         this source, S-4, shall provide the assigned District \n         Permit Engineer in the Engineering Division with a \n         summary showing the following information: \n         a.  The dates and total number of days that the source \n             was at that location and the dates, and total number \n             of days that the source was operated at that \n             location. \n         b.  A summary of the abatement efficiency and POC/NPOCand toxic compounds emission rates as determined and\netermined and \n             reported in the start up sampling report required by \n             Part 8e above. ' \n         c.  The results of any additionally performed emission \n             test, analysis, or monitoring result logged in for \n             the day of operation they were taken. \n         d.  The total throughput of contaminated soil vapor \n             processed by S-4 at that location (indicated in \n             cubic feet). \n         e.  The total emissions of POC/NPOC and toxic compounds \n             at that location based on the sampling results \n             required by Part 8 above (indicated in pounds). \n        .[Basis: Cumulative increase; Regulation 2-5; Regulation \n        8-47-301] \n     10. During operation of the Carbon Vessels, the owner/ \n         operator of this source shall monitor with a \n         photo-ionization detector (PID), flame-ionization \n         detector (FID), or other method approved in writing by \n         the District's Source Test Manager at the following \n         locations: \n         a.  At the inlet to the second to last Carbon vessel in \n             series. \n         b.  At the inlet to the last Carbon vessel in series. \n         c.  At the outlet of the Carbon vessel that is last in \n             series prior to venting to the atmosphere. \n         .When using an FID to monitor breakthrough, readings \n         may be taken with and without a Carbon filter tip \n         fitted on the FID probe. Concentrations measured with \n         the Carbon filter tip in place shall be considered \nPlant No. 19967  \nApplication No. 32077    \n8 \n          methane for the purposes of these permit conditions. \n         [Basis; Cumulative increase; Regulation 2-5; TBACT] \n     11. The owner/operator shall record these monitor readings \n         in a monitoring log at the time they are taken. The \n         monitoring results shall be used to estimate the \n         frequency of Carbon change out necessary to maintain \n         compliance with Parts 12 and 13, and shall be conducted \n         on a daily basis. The owner/operator of this source, \n         S-4, may propose for District review, based on actual \n         measurements taken at the site during operation of the \n         source, that the monitoring schedule be changed based on \n         the decline in organic emissions and/or the demonstrated \n         breakthrough rates of the carbon vessels. Written \n         approval by the District must be received by the \n         operator prior to a change to the monitoring schedule. \n     12. The owner/operator shall change out the second to last \n         Carbon vessel immediately with unspent carbon upon \n         breakthrough, defined as the detection at its outlet in \n         excess of the higher of the following limits: \n         a.  10 % of the inlet stream concentration to the carbon \n             bed. \n         b.  10 ppmv (measured as hexane). \n        .[Basis: Cumulative increase; Regulation 2-5; TBACT] \n     13. The owner/operator shall change out the last Carbon \n         vessel immediately with unspent Carbon upon detection at \n         its outlet of 10 ppmv or greater (measured as hexane). \n         [Basis: Cumulative increase; Regulation 2-5; TBACT] \n     14. The owner/operator of this source, S-4, shall maintain \n         the following information for each month of operation of \n         the Carbon Vessels: \n         a.  Hours and time of operation. \n         b.  Each emission test, analysis or monitoring results \n             logged in for the day of operation they were taken. \n         c.  The number of Carbon vessels removed from service. \n         .Such records shall be retained and made available for \n         inspection by the District for two years following the \n         date the data is recorded. [Basis: Regulation 8-47-501; \n         Regulation 1-523] \n     15. Within 30 days after the end of every calendar year, the \n         owner/operator of this source, S-4, shall provide the \n         assigned District Permit Engineer in the Engineering \n         Division a year end summary showing the following \n         information: \n         a.  The location(s) at which the source was operated \n             including the dates operated at each location. \n         b.  The total throughput of contaminated soil vapor for \n             the previous four quarters (indicated in cubic \n             feet).c.  The total POC/NPOC and toxic compounds emissions for\nsions for \n             the previous four quarters (indicated in pounds). \n         .[Basis: Cumulative increase; Regulation 2-5; \n         Regulation 1-523; Regulation 8-47-501] \n     16. The owner/operator shall maintain a file containing all \n         measurements, records and other data that are required \n         to be collected pursuant to the various provisions of \nPlant No. 19967  \nApplication No. 32077    \n9 \n          this conditional Permit to Operate. All measurements, \n         records and data required to be maintained by the owner/ \n         operator shall be retained for at least two years \n         following the date the data is recorded. \n         [Basis: Cumulative increase; Regulation 8-47-501; \n         Regulation 1-523] \n     17. The owner/operator shall report any non-compliance with \n         these conditions to the Compliance and Enforcement \n         Division at the time that it is first discovered. The \n         Submittal shall detail the corrective action taken and \n         shall include the data showing the exceedance as well as \n         the time of occurrence. [Basis: Cumulative increase; \n         Regulation 2-5; TBACT]"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\n(BACT) \nIn accordance with Regulation 2-2-301, Best Available Control Technology (BACT) is triggered \nfor any new or modified source with the potential to emit 10 pounds or more per highest day of \nPOC, NPOC, nitrogen oxides (NO x), carbon monoxide (CO), sulfur dioxides (SO 2), particulate \nmatter less than 10 micrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). \n \nS-4 for this project is not a new or modified source.  Therefore, BACT requirements do not apply."
+  },
+  "offsets": {
+    "narrative": "3 \n  \nOffsets\nPursuant to Regulation 2-2-302, offsets must be provided for any new or modified source at a \nfacility that emits, or is permitted to emit, more than 10 tons per year of precursor organic \ncompounds (POCs) or nitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2-2-303 \noffsets must be provided for any new or modified source at a major facility with a cumulative \nincrease that exceeds 1.0 ton per year of PM 10, PM2.5, or sulfur dioxide (SO 2). \n \nThe site is not expected to have a PTE greater than 10 tons per year of POC or NO X, nor is the site \na major site of PM 10, PM2.5, and SO 2.  Therefore, the requirements of Regulations 2-2-302 and 2-\n2-303 do not apply.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          10.0,
+          "N/A",
+          null
+        ],
+        [
+          "PM2.5",
+          2.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD), New Source Performance Standards (NSPS), and\nNational Emission Standards for Hazardous Air Pollutants (NESHAPS) are not triggered."
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA)\n(CEQA)  \nThe applicant indicated that no other agency has conducted a CEQA review on this project.  \n \nThis project is classified as ministerial under the District Regulation 2-1-311, because the \nengineering review for this project requires only the application of standard emission factors and \nestablished formulas as specified in Chapter 9.2 of the District’s Permit Handbook.  This project \ndoes not trigger BACT or TBACT and is not subject to the health risk assessment requirements of \nRegulation 2, Rule 5. This review follows objective procedures and applies standard permit \nconditions; and therefore, the review of this project is not discretionary as defined by CEQA.  Since \nthis project is ministerial, it is not subject to CEQA review requirement of Regulation 2-1-310, \nand no further CEQA analysis is required."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Compliance\nliance  \nThis project is located within 1,000 feet of One World Montessori School (1170 Foxworthy \nAvenue, San Jose, CA 95118). In addition, this project is located within 0.25 mile of Calvary \nChristian Academy (1175 Hillsdale Avenue, San Jose, CA 95118). Therefore, this project is \nsubject to the school public noticing requirement of the California Health & Safety Code and"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "notification is triggered for this application per Regulation 2-1-412.\nThe site is not located within the boundary of an overburdened community.Regulation 2-1-412.\nPlant No. 19967  \nApplication No. 32077    \n4 \n This project is not located within the boundaries of an Overburdened Community (OBC) as \ndefined in Regulation 2-1-243. Therefore, this project does not trigger OBC public notification. \n \nA 30-day public comment period commenced on TBD and ended on TBD. [Will include a \nsummary of the public comments received and addressed.] \n \n \n \nS-4 is a portable SVE system. Regulation 2-1-413 outlines the requirements for operating \nequipment at multiple locations within the Air District.  \n \n The PTE for the proposed SVE system does not exceed 10 tons per year for any regulated \nair pollutant. \n \n The source will comply with all applicable provisions of Regulation 2, Rule 5. Application \n#28279 determined that the emissions are below the trigger level in Table 2-5-1.  \n \nThere are schools within 1000 feet of the outer boundary of a K-12 school site. California \nHealth & Safety Code §42301.6(a) requires that prior to approving an application for a \npermit to construct or modification of a source located within 1,000 feet from the outer \nboundary of a school site, the District shall prepare a public notice as detailed in §42301.6.   \nThe applicable notice requirements of Health and Safety Code Section 42301.6 will be \nsatisfied for this project upon the completion of the public notification to the following \nschools: \n \n One World Montessori School (1170 Foxworthy Avenue, San Jose, CA 95118).  \n Calvary Christian Academy (1175 Hillsdale Avenue, San Jose, CA 95118). \n \n \n The proper operation of this SVE system is not expected to cause any public nuisance. \n \n This project is considered to be ministerially exempt from CEQA review. \n \n The equipment will not cause a Synthetic Minor Facility to exceed a federally enforceable \nemission limit. \n \n The proposed project will not stay in any one location for more than 12 months.  \n \nTherefore, this project complies with Reg. 2-1-413. Compliance with these requirements will be \nenforced via permit conditions. \n \n \nRegulation 8-47-301 requires that any soil vapor extraction operation which emits benzene, vinyl \nPlant No. 19967  \nApplication No. 32077    \n5 \n chloride, tetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a control \ndevice which reduces emissions to the atmosphere by at least 90 percent by weight. The facility \nstated that their Activated Carbon Vessels have at the minimum, 90% abatement efficiency. \nTherefore, the 90% abatement efficiency requirement has been satisfied for this project. \n \n \nThe site is required to keep the pertinent records per Permit Condition #26581 pursuant to \nRegulation 8-47-501.notification shall include:\ninclude: \n         a.  Source Number S-4 and Plant Number 19967. \n         b.  Street address, including zip code, for the location \n             where the source will be operated. \n         c.  The name and telephone number of a contact person \n             where the source will be operated. \n         d.  The date of initial start up and estimated duration \n             of operations at that location. \n         e.  The distance from the source to the outer boundary \n             of the nearest K-12 school, or indication that the \n             distance is greater than 1500 feet. \n         .In the event start up is delayed less than 5 days, the \n         owner/operator may provide telephone notice of said \n         change to the assigned District Permit Engineer. If the \n         start up is delayed more than 5 days, written \n         notification shall be resubmitted. \n     2.  The owner/operator of this source, S-4, shall not \n         operate or retain it at any single location for a period \n         more than 12 consecutive months, following the date of \n         initial operation. If this portable source remains at \n         any fixed location for more than 12 months, the multi \nPlant No. 19967  \nApplication No. 32077    \n6 \n          location permit will automatically revert to a \n         conventional permanent location permit and will loose \n         its portability.  [Basis: Regulation 2-1-413] \n     3.  The owner/operator of this source, S-4, shall operate it \n         at all times in conformance with the eligibility \n         requirements set forth in Regulation 2-1-413 for multi \n         location permits. [Basis: Regulation 2-1-413] \n     4.  The owner/operator of this source, S-4, shall not \n         operate it within 1000 feet of the outer boundary of any \n         K-12 school. Such operation will require the submittal \n         of an application to satisfy the applicable requirements \n         of the California Health and Safety Code Section \n         42301.6.   \n    a. The appliable public notice requirements have been met for operation at  \n       2910 Almaden Expressway, San Jose, CA 95125.    [Basis: Regulation 2-1-\n413.3] \n     5.  The owner/operator of this source, S-4, shall use it \n         exclusively for the removal of volatile organic \n         compounds (VOC) associated with extracted soil vapor. \n         This shall be demonstrated by on site sampling required \n         in Part 8 below. [Basis: Regulation 2-5] \n     6.  The owner/operator shall abate Precursor Organic \n         Compound (POC) emissions and Non-Precursor Organic \n         Compounds (NPOC) from Source, S-4, by Abatement device, \n         A-4, Carbon adsorption vessels, during all periods of \n         operation. Soil vapor flow rate shall not exceed 353 \n         scfm.  [Basis: Cumulative increase; Regulation 8-47-301, \n         and 8-47-302] \n     7.  The owner/operator shall ensure to maintain the POC/NPOC \n         abatement efficiency of abatement device A-4 at a \n         minimum of 99% by weight. The minimum abatement \n         efficiency shall be waived if outlet POC/NPOC \n         concentrations are shown to be non-detect (measured asHowever, the proposed source triggers public notification requirements per Regulation 2-1-412.\nAfter the comments are received from the public and reviewed, the Air District will make a final \ndetermination on the permit. \n \nI recommend that the District initiates a public notice and consider any comments received prior \nto taking any final action on issuance of a Change of Conditions Permit to Operate for the \nfollowing equipment at the proposed site at 2910 Almaden Expressway, San Jose, CA 95125-\n4214: \n \n \nS-4  Portable Soil Vapor Extraction System (vacuum pump and ancillary), Rietschle, \n C-VLR-500, 353 cfm \n \nAbated by \n \nA-4  Granulated Activated Carbon Adsorption Vessels (2 in series, each 200 lb carbon \n at least), Baker, Filtration Kleen Air 55R or equivalent.                \n                 \n \nYoujin Kim, Air Quality Engineer \nJanuary 2, 2024"
+  },
+  "conditions": {
+    "text": "Permit Conditions\nitions \n \n \n     Modified Condition no. 26581 \n     -------------------------------------------------------------- \n     S-4 Portable Soil Vapor Extraction System (vacuum pump and \n     ancillary), Rietschle, C-VLR-500, 353 cfm, abated by A-4. \n     A-4 Granulated Activated Carbon Adsorption Vessels (2 in \n     series, each 200 lb carbon at least), Baker, Filtration \n     Kleen Air 55R or equivalent.                                \n \n     1.  The owner/operator of this source, S-4, shall notify the \n         District Engineering Division in writing at least 3 days \n         prior to start up of operation at any new location. The"
+  },
+  "permit_conditions": {
+    "condition_number": 26581,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator of this source, S-4, shall notify the \n         District Engineering Division in writing at least 3 days \n         prior to start up of operation at any new location. The",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\ndation   \nThe Air District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of District, state, and federal air quality-related regulations. The \npreliminary recommendation is to issue an Authority to Construct for the equipment listed below."
+  },
+  "raw_sections": {
+    "preamble": "DRAFT Engineering Evaluation  \nWellTest, Inc. \n2910 Almaden Expressway, San Jose, CA 95125-4214 \nPlant No. 19967 \nApplication No. 32077 \nProject Description: Soil Vapor Extraction System",
+    "blocks": [
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd \nWellTest, Inc. has requested a Change of Condition to an existing Permit to Operate for a portable \nsoil vapor extraction (SVE) unit to allow the equipment to be operated at 2910 Almaden \nExpressway, San Jose, CA 95125, which is within 1,000 feet of K-12 schools.  The equipment \nassociated with this project is described below: \n \nS-4  Portable Soil Vapor Extraction System (vacuum pump and ancillary), Rietschle, \n C-VLR-500, 353 cfm \n \nAbated by \n \nA-4  Granulated Activated Carbon Adsorption Vessels (2 in series, each 200 lb carbon \n at least), Baker, Filtration Kleen Air 55R or equivalent.                                \n \nThe exiting S-4 Portable Soil Vapor Extraction (SVE) system will be used to clean out the soil and \nsoil vapor at a former dry cleaner site located on 2910 Almaden Expressway, San Jose, CA 95125-\n4214. The site is significantly impacted with POC. GeoTracker site on California Government \nwebpage lists the site as a “Cleanup Program Site”.  \n(GeoTracker Link: \nhttps://geotracker.waterboards.ca.gov/map/?CMD=runreport&myaddress=2910+Almaden+Expr\nessway%2C+San+Jose%2C+CA+95125-4214 ) \n \nThis portable soil vapor extraction unit consists of a vacuum blower (S-4) with a maximum \ncapacity of 353 cfm. Extracted soil vapors will be directed to granulated activated carbon \nadsorption vessels in series (A-4) with 99% abatement efficiency for treatment prior to discharge \nto the atmosphere. \n \nThe main compound found in the soil was perchloroethylene (PCE). Emissions calculations were \nbased on laboratory results from samples taken at the site. No emissions are expected to trigger \nHealth Risk Assessment (HRA) per Regulation 2-5, Table 1. Startup TO-15 test will be required"
+      },
+      {
+        "heading": "to verify that no toxic air contaminant (TAC) emissions exceed the HRA trigger threshold outlined",
+        "alias": "TOXICS",
+        "text": "to verify that no toxic air contaminant (TAC) emissions exceed the HRA trigger threshold outlined\nin Regulation 2-5, Table 1. \n \nProcedures are outlined in the conditions found below. The applicant will be required to provide \nwritten notification at the start of the operation.  The applicant will be required to stay below the \nacute and chronic trigger levels of Regulation 2-5. Effluent volatile organic compound (VOC) \nconcentrations will be monitored with a flame-ionization detector (FID).  \n \n \nPlant No. 19967  \nApplication No. 32077    \n2 \n The proposed soil vapor extraction site is located within 1,000 feet of One World Montessori \nSchool. The site is also located within 0.25 mile of Calvary Christian Academy. Therefore, public"
+      },
+      {
+        "heading": "notification is triggered for this application per Regulation 2-1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "notification is triggered for this application per Regulation 2-1-412.\nThe site is not located within the boundary of an overburdened community."
+      },
+      {
+        "heading": "Emission Calculations",
+        "alias": "EMISSIONS",
+        "text": "Emission Calculations\nations \nEmissions were calculated and accounted for when the source was issued an Authority to Construct \nand a Permit to Operate (Application #28279)."
+      },
+      {
+        "heading": "Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Cumulative Increase\ncrease \n \nThere is no increase in emissions from this application.  \n \nTable 1.  Cumulative Increase \nPollutant Current Permitted"
+      },
+      {
+        "heading": "Emissions, Post",
+        "alias": "EMISSIONS",
+        "text": "Emissions, Post\n4/5/1991 Application New \nEmissions Increase New Cumulative \nIncrease \n(ton/year) (ton/year) (ton/year) \nPOC 0.181 1.66E-04 0.181 \nNOx 0.000 0.000 0.000 \nSO2 0.000 0.000 0.000 \nCO 0.000 0.000 0.000 \nPM 0.000 0.000 0.000 \n \nNotes: \n1. Current Permitted Emissions (Post 4/5/1991) is obtained from the most recent application for the \nfacility, Application 30992. The Authority to Construct permit for Project 30992 was issued on \n08/12/21."
+      },
+      {
+        "heading": "Toxic Risk Screening",
+        "alias": "TOXICS",
+        "text": "Toxic Risk Screening\neening  \nThis project will not result in an increase in toxic air contaminant (TAC) emissions.  A health \nrisk screening analysis is not required because previous applications have determined that S-4 \ncomplies with Regulation 2, Rule 5.   \n \n \nPlant No. 19967  \nApplication No. 32077"
+      },
+      {
+        "heading": "3 \n  \nOffsets",
+        "alias": "OFFSETS",
+        "text": "3 \n  \nOffsets\nPursuant to Regulation 2-2-302, offsets must be provided for any new or modified source at a \nfacility that emits, or is permitted to emit, more than 10 tons per year of precursor organic \ncompounds (POCs) or nitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2-2-303 \noffsets must be provided for any new or modified source at a major facility with a cumulative \nincrease that exceeds 1.0 ton per year of PM 10, PM2.5, or sulfur dioxide (SO 2). \n \nThe site is not expected to have a PTE greater than 10 tons per year of POC or NO X, nor is the site \na major site of PM 10, PM2.5, and SO 2.  Therefore, the requirements of Regulations 2-2-302 and 2-\n2-303 do not apply."
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\n(BACT) \nIn accordance with Regulation 2-2-301, Best Available Control Technology (BACT) is triggered \nfor any new or modified source with the potential to emit 10 pounds or more per highest day of \nPOC, NPOC, nitrogen oxides (NO x), carbon monoxide (CO), sulfur dioxides (SO 2), particulate \nmatter less than 10 micrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). \n \nS-4 for this project is not a new or modified source.  Therefore, BACT requirements do not apply."
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA)",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA)\n(CEQA)  \nThe applicant indicated that no other agency has conducted a CEQA review on this project.  \n \nThis project is classified as ministerial under the District Regulation 2-1-311, because the \nengineering review for this project requires only the application of standard emission factors and \nestablished formulas as specified in Chapter 9.2 of the District’s Permit Handbook.  This project \ndoes not trigger BACT or TBACT and is not subject to the health risk assessment requirements of \nRegulation 2, Rule 5. This review follows objective procedures and applies standard permit \nconditions; and therefore, the review of this project is not discretionary as defined by CEQA.  Since \nthis project is ministerial, it is not subject to CEQA review requirement of Regulation 2-1-310, \nand no further CEQA analysis is required."
+      },
+      {
+        "heading": "Compliance",
+        "alias": "SOC",
+        "text": "Compliance\nliance  \nThis project is located within 1,000 feet of One World Montessori School (1170 Foxworthy \nAvenue, San Jose, CA 95118). In addition, this project is located within 0.25 mile of Calvary \nChristian Academy (1175 Hillsdale Avenue, San Jose, CA 95118). Therefore, this project is \nsubject to the school public noticing requirement of the California Health & Safety Code and"
+      },
+      {
+        "heading": "Regulation 2-1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Regulation 2-1-412.\nPlant No. 19967  \nApplication No. 32077    \n4 \n This project is not located within the boundaries of an Overburdened Community (OBC) as \ndefined in Regulation 2-1-243. Therefore, this project does not trigger OBC public notification. \n \nA 30-day public comment period commenced on TBD and ended on TBD. [Will include a \nsummary of the public comments received and addressed.] \n \n \n \nS-4 is a portable SVE system. Regulation 2-1-413 outlines the requirements for operating \nequipment at multiple locations within the Air District.  \n \n The PTE for the proposed SVE system does not exceed 10 tons per year for any regulated \nair pollutant. \n \n The source will comply with all applicable provisions of Regulation 2, Rule 5. Application \n#28279 determined that the emissions are below the trigger level in Table 2-5-1.  \n \nThere are schools within 1000 feet of the outer boundary of a K-12 school site. California \nHealth & Safety Code §42301.6(a) requires that prior to approving an application for a \npermit to construct or modification of a source located within 1,000 feet from the outer \nboundary of a school site, the District shall prepare a public notice as detailed in §42301.6.   \nThe applicable notice requirements of Health and Safety Code Section 42301.6 will be \nsatisfied for this project upon the completion of the public notification to the following \nschools: \n \n One World Montessori School (1170 Foxworthy Avenue, San Jose, CA 95118).  \n Calvary Christian Academy (1175 Hillsdale Avenue, San Jose, CA 95118). \n \n \n The proper operation of this SVE system is not expected to cause any public nuisance. \n \n This project is considered to be ministerially exempt from CEQA review. \n \n The equipment will not cause a Synthetic Minor Facility to exceed a federally enforceable \nemission limit. \n \n The proposed project will not stay in any one location for more than 12 months.  \n \nTherefore, this project complies with Reg. 2-1-413. Compliance with these requirements will be \nenforced via permit conditions. \n \n \nRegulation 8-47-301 requires that any soil vapor extraction operation which emits benzene, vinyl \nPlant No. 19967  \nApplication No. 32077    \n5 \n chloride, tetrachloroethene, methylene chloride, and/or trichloroethene shall be vented to a control \ndevice which reduces emissions to the atmosphere by at least 90 percent by weight. The facility \nstated that their Activated Carbon Vessels have at the minimum, 90% abatement efficiency. \nTherefore, the 90% abatement efficiency requirement has been satisfied for this project. \n \n \nThe site is required to keep the pertinent records per Permit Condition #26581 pursuant to \nRegulation 8-47-501."
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD), New Source Performance Standards (NSPS), and",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD), New Source Performance Standards (NSPS), and\nNational Emission Standards for Hazardous Air Pollutants (NESHAPS) are not triggered."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nitions \n \n \n     Modified Condition no. 26581 \n     -------------------------------------------------------------- \n     S-4 Portable Soil Vapor Extraction System (vacuum pump and \n     ancillary), Rietschle, C-VLR-500, 353 cfm, abated by A-4. \n     A-4 Granulated Activated Carbon Adsorption Vessels (2 in \n     series, each 200 lb carbon at least), Baker, Filtration \n     Kleen Air 55R or equivalent.                                \n \n     1.  The owner/operator of this source, S-4, shall notify the \n         District Engineering Division in writing at least 3 days \n         prior to start up of operation at any new location. The"
+      },
+      {
+        "heading": "notification shall include:",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "notification shall include:\ninclude: \n         a.  Source Number S-4 and Plant Number 19967. \n         b.  Street address, including zip code, for the location \n             where the source will be operated. \n         c.  The name and telephone number of a contact person \n             where the source will be operated. \n         d.  The date of initial start up and estimated duration \n             of operations at that location. \n         e.  The distance from the source to the outer boundary \n             of the nearest K-12 school, or indication that the \n             distance is greater than 1500 feet. \n         .In the event start up is delayed less than 5 days, the \n         owner/operator may provide telephone notice of said \n         change to the assigned District Permit Engineer. If the \n         start up is delayed more than 5 days, written \n         notification shall be resubmitted. \n     2.  The owner/operator of this source, S-4, shall not \n         operate or retain it at any single location for a period \n         more than 12 consecutive months, following the date of \n         initial operation. If this portable source remains at \n         any fixed location for more than 12 months, the multi \nPlant No. 19967  \nApplication No. 32077    \n6 \n          location permit will automatically revert to a \n         conventional permanent location permit and will loose \n         its portability.  [Basis: Regulation 2-1-413] \n     3.  The owner/operator of this source, S-4, shall operate it \n         at all times in conformance with the eligibility \n         requirements set forth in Regulation 2-1-413 for multi \n         location permits. [Basis: Regulation 2-1-413] \n     4.  The owner/operator of this source, S-4, shall not \n         operate it within 1000 feet of the outer boundary of any \n         K-12 school. Such operation will require the submittal \n         of an application to satisfy the applicable requirements \n         of the California Health and Safety Code Section \n         42301.6.   \n    a. The appliable public notice requirements have been met for operation at  \n       2910 Almaden Expressway, San Jose, CA 95125.    [Basis: Regulation 2-1-\n413.3] \n     5.  The owner/operator of this source, S-4, shall use it \n         exclusively for the removal of volatile organic \n         compounds (VOC) associated with extracted soil vapor. \n         This shall be demonstrated by on site sampling required \n         in Part 8 below. [Basis: Regulation 2-5] \n     6.  The owner/operator shall abate Precursor Organic \n         Compound (POC) emissions and Non-Precursor Organic \n         Compounds (NPOC) from Source, S-4, by Abatement device, \n         A-4, Carbon adsorption vessels, during all periods of \n         operation. Soil vapor flow rate shall not exceed 353 \n         scfm.  [Basis: Cumulative increase; Regulation 8-47-301, \n         and 8-47-302] \n     7.  The owner/operator shall ensure to maintain the POC/NPOC \n         abatement efficiency of abatement device A-4 at a \n         minimum of 99% by weight. The minimum abatement \n         efficiency shall be waived if outlet POC/NPOC \n         concentrations are shown to be non-detect (measured as"
+      },
+      {
+        "heading": "hexane). Toxic compounds emissions to the atmosphere at",
+        "alias": "TOXICS",
+        "text": "hexane). Toxic compounds emissions to the atmosphere at\nsphere at \n         a proposed site of operation shall not exceed the toxic \n         trigger levels listed in Table 2-5-1 of Regulation 2, \n         Rule 5. In case, any toxic compound emissions are \n         expected to exceed the trigger levels as per the pilot \n         test or monitoring results for a proposed site of \n         operation, then the owner/operator shall submit an \n         application to the District so that the health risk \n         analysis requirements of Regulation 2, Rule 5 shall be \n         met before commencement or continued operation at that \n         location. [Basis: Cumulative increase; TBACT; \n         Regulations 2-5-302 and 2-5-401] \n     8.  To determine compliance with Part 7, within 24 hours \n         after start up at any new location, the owner/operator \n         of this source, S-4, shall: \n         a.  Analyze the inlet gas to determine the vapor flow"
+      },
+      {
+        "heading": "rate and concentration of POC/NPOC and toxic",
+        "alias": "TOXICS",
+        "text": "rate and concentration of POC/NPOC and toxic\nPOC and toxic \n             compounds present. \n         b.  Analyze exhaust gas to determine the flow rate, the \n             concentration of toxic compounds and POC/NPOC \n             present, and emission rates. \n         c.  Calculate the toxic compounds emission rates in \nPlant No. 19967  \nApplication No. 32077    \n7 \n              pounds per hour, per day, and per year based on the \n             exhaust gas analysis and the operating exhaust flow \n             rate.  The soil vapor flow rate shall be decreased, \n             if necessary, to demonstrate compliance with Part 7. \n         d.  Calculate the POC/NPOC abatement efficiency based on \n             the inlet and outlet gas sampling analysis. For the \n             purpose of determining compliance with Part 7, the \n             POC/NPOC concentration shall be reported as hexane. \n         e.  Submit to the District the test results and emission \n             calculations within one month from the testing date. \n             Samples shall be analyzed according to modified EPA \n             Test methods 8015 and 8021 or their equivalent to"
+      },
+      {
+        "heading": "determine the concentrations of POC/NPOC and toxic",
+        "alias": "TOXICS",
+        "text": "determine the concentrations of POC/NPOC and toxic\nPOC and toxic \n             compounds. \n        [Basis: Cumulative increase; TBACT; Regulation \n        8-47-501] \n     9.  Within 30 days from the completion of each treatment \n         operation at a given location, the owner/operator of \n         this source, S-4, shall provide the assigned District \n         Permit Engineer in the Engineering Division with a \n         summary showing the following information: \n         a.  The dates and total number of days that the source \n             was at that location and the dates, and total number \n             of days that the source was operated at that \n             location. \n         b.  A summary of the abatement efficiency and POC/NPOC"
+      },
+      {
+        "heading": "and toxic compounds emission rates as determined and",
+        "alias": "TOXICS",
+        "text": "and toxic compounds emission rates as determined and\netermined and \n             reported in the start up sampling report required by \n             Part 8e above. ' \n         c.  The results of any additionally performed emission \n             test, analysis, or monitoring result logged in for \n             the day of operation they were taken. \n         d.  The total throughput of contaminated soil vapor \n             processed by S-4 at that location (indicated in \n             cubic feet). \n         e.  The total emissions of POC/NPOC and toxic compounds \n             at that location based on the sampling results \n             required by Part 8 above (indicated in pounds). \n        .[Basis: Cumulative increase; Regulation 2-5; Regulation \n        8-47-301] \n     10. During operation of the Carbon Vessels, the owner/ \n         operator of this source shall monitor with a \n         photo-ionization detector (PID), flame-ionization \n         detector (FID), or other method approved in writing by \n         the District's Source Test Manager at the following \n         locations: \n         a.  At the inlet to the second to last Carbon vessel in \n             series. \n         b.  At the inlet to the last Carbon vessel in series. \n         c.  At the outlet of the Carbon vessel that is last in \n             series prior to venting to the atmosphere. \n         .When using an FID to monitor breakthrough, readings \n         may be taken with and without a Carbon filter tip \n         fitted on the FID probe. Concentrations measured with \n         the Carbon filter tip in place shall be considered \nPlant No. 19967  \nApplication No. 32077    \n8 \n          methane for the purposes of these permit conditions. \n         [Basis; Cumulative increase; Regulation 2-5; TBACT] \n     11. The owner/operator shall record these monitor readings \n         in a monitoring log at the time they are taken. The \n         monitoring results shall be used to estimate the \n         frequency of Carbon change out necessary to maintain \n         compliance with Parts 12 and 13, and shall be conducted \n         on a daily basis. The owner/operator of this source, \n         S-4, may propose for District review, based on actual \n         measurements taken at the site during operation of the \n         source, that the monitoring schedule be changed based on \n         the decline in organic emissions and/or the demonstrated \n         breakthrough rates of the carbon vessels. Written \n         approval by the District must be received by the \n         operator prior to a change to the monitoring schedule. \n     12. The owner/operator shall change out the second to last \n         Carbon vessel immediately with unspent carbon upon \n         breakthrough, defined as the detection at its outlet in \n         excess of the higher of the following limits: \n         a.  10 % of the inlet stream concentration to the carbon \n             bed. \n         b.  10 ppmv (measured as hexane). \n        .[Basis: Cumulative increase; Regulation 2-5; TBACT] \n     13. The owner/operator shall change out the last Carbon \n         vessel immediately with unspent Carbon upon detection at \n         its outlet of 10 ppmv or greater (measured as hexane). \n         [Basis: Cumulative increase; Regulation 2-5; TBACT] \n     14. The owner/operator of this source, S-4, shall maintain \n         the following information for each month of operation of \n         the Carbon Vessels: \n         a.  Hours and time of operation. \n         b.  Each emission test, analysis or monitoring results \n             logged in for the day of operation they were taken. \n         c.  The number of Carbon vessels removed from service. \n         .Such records shall be retained and made available for \n         inspection by the District for two years following the \n         date the data is recorded. [Basis: Regulation 8-47-501; \n         Regulation 1-523] \n     15. Within 30 days after the end of every calendar year, the \n         owner/operator of this source, S-4, shall provide the \n         assigned District Permit Engineer in the Engineering \n         Division a year end summary showing the following \n         information: \n         a.  The location(s) at which the source was operated \n             including the dates operated at each location. \n         b.  The total throughput of contaminated soil vapor for \n             the previous four quarters (indicated in cubic \n             feet)."
+      },
+      {
+        "heading": "c.  The total POC/NPOC and toxic compounds emissions for",
+        "alias": "TOXICS",
+        "text": "c.  The total POC/NPOC and toxic compounds emissions for\nsions for \n             the previous four quarters (indicated in pounds). \n         .[Basis: Cumulative increase; Regulation 2-5; \n         Regulation 1-523; Regulation 8-47-501] \n     16. The owner/operator shall maintain a file containing all \n         measurements, records and other data that are required \n         to be collected pursuant to the various provisions of \nPlant No. 19967  \nApplication No. 32077    \n9 \n          this conditional Permit to Operate. All measurements, \n         records and data required to be maintained by the owner/ \n         operator shall be retained for at least two years \n         following the date the data is recorded. \n         [Basis: Cumulative increase; Regulation 8-47-501; \n         Regulation 1-523] \n     17. The owner/operator shall report any non-compliance with \n         these conditions to the Compliance and Enforcement \n         Division at the time that it is first discovered. The \n         Submittal shall detail the corrective action taken and \n         shall include the data showing the exceedance as well as \n         the time of occurrence. [Basis: Cumulative increase; \n         Regulation 2-5; TBACT]"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\ndation   \nThe Air District has reviewed the material contained in the permit application for the proposed \nproject and has made a preliminary determination that the project is expected to comply with all \napplicable requirements of District, state, and federal air quality-related regulations. The \npreliminary recommendation is to issue an Authority to Construct for the equipment listed below."
+      },
+      {
+        "heading": "However, the proposed source triggers public notification requirements per Regulation 2-1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "However, the proposed source triggers public notification requirements per Regulation 2-1-412.\nAfter the comments are received from the public and reviewed, the Air District will make a final \ndetermination on the permit. \n \nI recommend that the District initiates a public notice and consider any comments received prior \nto taking any final action on issuance of a Change of Conditions Permit to Operate for the \nfollowing equipment at the proposed site at 2910 Almaden Expressway, San Jose, CA 95125-\n4214: \n \n \nS-4  Portable Soil Vapor Extraction System (vacuum pump and ancillary), Rietschle, \n C-VLR-500, 353 cfm \n \nAbated by \n \nA-4  Granulated Activated Carbon Adsorption Vessels (2 in series, each 200 lb carbon \n at least), Baker, Filtration Kleen Air 55R or equivalent.                \n                 \n \nYoujin Kim, Air Quality Engineer \nJanuary 2, 2024"
+      }
+    ],
+    "unmapped_blocks": []
+  }
+}

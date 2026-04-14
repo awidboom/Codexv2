@@ -1,0 +1,290 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 5
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "application  (S-1) Cumulative Emissions\n(Current + Increase)\n(tons/year ) (tons/year ) (tons/year )\nNO x 0.000  0.031  0.031\nPOC  0.000  0.002  0.002\nCO 0.000  0.009  0.009\nPM 10 / diesel particulate  0.000  0.001  0.001\nPM 2. 5 0.000  0.001  0.001\nSO 2 0.000  0.000  0.000"
+      ]
+    },
+    "application_number_detected": "677074",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2023/677074/fid203064_nsr_677074_eval_081723-pdf.pdf?rev=1082254427614a6299b09ea6ceb8dfc7&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2023/081723-677074/sleepy-hollow-elementary"
+  },
+  "application_number": "677074",
+  "plant": {
+    "name": "Operate for the following equipment:",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": "May 19, 2011",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Emergency Standby  Diesel Generator"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nND  \nSleepy Hollow Elementary School  has applied to obtain an Authority to Construct and a Permit to \nOperate for the following equipment:  \n \nS-1 Emergency Standby  Diesel Generator  \nEngine Manufacturer:  Cummins , Model:  QSB5 -G6, Model Year: 2023 \nEngine Family: PCEXL0275AAK  \n208 BHP  (125 kW) , 1.41 MMBTU /hr \nDisplacement:  4.46 L (272 cu. in.)  \n4 In-line Cylinders  \nPermit Condition Nos . 100072  and 100073  \n \nThe p roposed S-1 emergency standby diesel generator set  will be located at  an elementary school \nlocated in Orinda , CA.  S-1 will help provide service to the school in emergency situations . S-1 is a \nTier-3 engine generator set ."
+  },
+  "emission_calculations": {
+    "text": "EMISSIONS\nNS  \nCriteria Pollutants  \nThe criteria pollutants are nitrogen oxides (NOx), carbon monoxide (CO), precursor organic \ncompounds (POC) , sulfur dioxide (SO 2), particulate matter (PM 10 and PM 2.5).  POC is also denoted as \nNMHC.  Except for SO 2, the emission factors for these engines are EPA -certified  (EPA Certificate \nPCEXL0275AAK -025). The SO 2 emissions were calculated based on the maximum allowable sulfur \ncontent (0 .0015 wt%) of the diesel fuel with assumption that the entire sulfur content  will be converted \nto SO 2 during the combustion process . S-1 will be limited to 50 hours for maintenance -related activity .  \n \nTable 1 . Estimated  Abated  Emissions  at S-1 \nPollutant  Emission Factor  \n(g/bhp-hr) Maximum \nDaily Rate  \n(lbs/day)  Annual  \nEmissions  \n(lbs/y ear) Annual  \nEmissions  \n(tons/year) \nNO x 2.68 29.46  61.38  0.031 \nPOC  0.17 1.89 3.93 0.002 \nCO 0.75 8.21 17.10  0.009 \nPM 10, 2.5 / diesel \nparticulate1 0.11 1.23 2.57 0.001 \n lb SO 2/bhp-hr     \nSO 22 1.5E-03 1.67E -02 3.50E-02 0.000 \nBasis : \n- Annual emissions: Reliability -related activity 50 hours for S-1, per Regulation 9 -8-330 \n(Emergency Standby Engines, Hours of Operation)  \n- Max daily emissions: 24 -hour operation  \n- Emissions from EPA Engine Family PCEXL02 75AAK  \n- 1 Conservative assum ption that  all PM 10 emissions are PM 2.5 \n- 2 SO 2 emission factor from AP -42 Table 3.4 -1, SO 2 (15 ppm) = 0.00809*0.0015 lb SO 2/bhp-hr \n \nSleepy Hollow Elementary School  \nPlant  2030 64  Application 677074"
+  },
+  "cumulative_increase": {
+    "text": "2 \n Plant Cumulative Increase\nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result from the \noperation of S-1 and is based on 50 hours of maintenance -related activity. Sleepy Hollow Elementary \nSchool  doesn’t have any pre-4/5/1991 emissions.  \n \nTable 2. Plant Cumulative Increase  \nPollutant  Current Emissions       \n(since April 5, 1991)  Increase with this \napplication  (S-1) Cumulative Emissions      \n(Current + Increase)  \n(tons/year ) (tons/year ) (tons/year ) \nNO x 0.000  0.031  0.031  \nPOC  0.000  0.002  0.002  \nCO 0.000  0.009  0.009  \nPM 10 / diesel particulate  0.000  0.001  0.001  \nPM 2. 5 0.000  0.001  0.001  \nSO 2 0.000  0.000  0.000"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSIONS\nNS  \nCriteria Pollutants  \nThe criteria pollutants are nitrogen oxides (NOx), carbon monoxide (CO), precursor organic \ncompounds (POC) , sulfur dioxide (SO 2), particulate matter (PM 10 and PM 2.5).  POC is also denoted as \nNMHC.  Except for SO 2, the emission factors for these engines are EPA -certified  (EPA Certificate \nPCEXL0275AAK -025). The SO 2 emissions were calculated based on the maximum allowable sulfur \ncontent (0 .0015 wt%) of the diesel fuel with assumption that the entire sulfur content  will be converted \nto SO 2 during the combustion process . S-1 will be limited to 50 hours for maintenance -related activity .  \n \nTable 1 . Estimated  Abated  Emissions  at S-1 \nPollutant  Emission Factor  \n(g/bhp-hr) Maximum \nDaily Rate  \n(lbs/day)  Annual  \nEmissions  \n(lbs/y ear) Annual  \nEmissions  \n(tons/year) \nNO x 2.68 29.46  61.38  0.031 \nPOC  0.17 1.89 3.93 0.002 \nCO 0.75 8.21 17.10  0.009 \nPM 10, 2.5 / diesel \nparticulate1 0.11 1.23 2.57 0.001 \n lb SO 2/bhp-hr     \nSO 22 1.5E-03 1.67E -02 3.50E-02 0.000 \nBasis : \n- Annual emissions: Reliability -related activity 50 hours for S-1, per Regulation 9 -8-330 \n(Emergency Standby Engines, Hours of Operation)  \n- Max daily emissions: 24 -hour operation  \n- Emissions from EPA Engine Family PCEXL02 75AAK  \n- 1 Conservative assum ption that  all PM 10 emissions are PM 2.5 \n- 2 SO 2 emission factor from AP -42 Table 3.4 -1, SO 2 (15 ppm) = 0.00809*0.0015 lb SO 2/bhp-hr \n \nSleepy Hollow Elementary School  \nPlant  2030 64  Application 677074",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "- Annual emissions: Reliability -related activity 50 hours for S-1, per Regulation 9 -8-330\nTable 1 . Estimated  Abated  Emissions  at S-1\nto SO 2 during the combustion process . S-1 will be limited to 50 hours for maintenance -related activity .",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "Toxic Air Contaminants\nTable 3. Toxic Air Contaminant s – Risk Screen Triggers  \nPollutant  Emission Rate  \n(lb/yr ) Risk Screening Trigger  \n(lb/yr)  \nPM 10  (Diesel Particulate)  2.57 10.00Health Risk Assessment (HRA)\nA)  \nNew or modified sources of toxic air contaminants (TAC) requiring an authority construct or permit to \noperate pursuant to Reg ulation 2 -1 are subject to review to evaluate potential public exposure and health \nrisk, mitigate potentially significant health risks resulting from these exposures, and to provide net \nhealth risk benefits by improving the level of control when existing s ources are modified or replaced .  \n \nPer the Air District’s Diesel Engine HRA Streamlining Policy (effective 07/01/2022), the threshold for \nproject diesel particulate matter emissions is based on distance to nearest receptor and whether the \nproject is locate d within an overburdened community. The threshold for this project is 10 lb/year, \naccording to Table 1 of the policy. As determined using the District’s HRSA Streamlining Policy \nChecklist for Stationary Emergency Standby and Fire Pump Diesel Engines, this application qualifies \nfor HRA Streamlining.  Based on this policy, the District has determined that this project will comply \nwith District TBACT requirements and will result in health impacts of less than 10 in a million cancer \nrisk and less than 1.0 chronic hazard index based on conservative HRSA screening procedures. \nAdditionally, this project is not located in a design ated overburdened community. Therefore, this \nproject will comply with Regulation 2, Rule 5, Section 301 and 302 . A refined HRSA is not required \nfor this application.  \n \nParticulate Matter – Regulation 6, Rule 1  \nRegulation 6 -1-303 states that a person shall not emit for a period or periods aggregating more than \nthree minutes in any hour, a visible emission that is as dark or darker than No . 2 on the Ringelmann \nChart, or of such opacity as to obscure an observer’s view to an equivalent or greater degree,  nor shall \nsaid emission, as perceived by an opacity sensing device in good working order, where such device is \nrequired by District Regulations, be equal to or greater than 40% opacity .  S-1 is expected to comply \nwith Regulation 6 -1-303.  \n \nLimitations on Ground Level Concentrations of Sulfur Dioxide – Regulation 9, Rule 1  \nFrom Regulation 9 -1-301, the ground level concentrations of SO 2 will not exceed 0 .5 ppm continuously \nfor 3 consecutive minutes or 0 .25 ppm averaged over 60 consecutive minutes, or 0 .05 ppm averaged \nover 24 hours .  Per Regulation 9 -1-302, a person shall not emit from any source a gas stream containing \nsulfur dioxide in excess of 300 ppm (dry) .   And Regulation 9 -1-304, states that a person shall not burn \nany liquid fuel having sulfur cont ent in excess of 0 .5% by weight . S-1 is expected to comply with \nRegulation 9, Rule 1 since diesel fuel sulfur content will not exceed  0.0015% by weight as mandated \nfor use in California .   \nSleepy Hollow Elementary School  \nPlant  2030 64  Application 677074 \n4 \n  \nNO x and CO from Stationary Internal Combustion Engines – Regulatio n 9, Rule 8  \nS-1 is exempt from the requirements of Regulation s 9-8-301 through 305, 501 and 503 as per \nRegulation 9 -8-110.5.  S-1 is subject to the monitoring and record keeping procedures described in \nRegulation s 9-8-502 ( Recordkeeping ) and 9-8-530 ( Emergency Standby Engines, Monitoring and \nRecordkeeping ).   The requirements of this Regulation are included in the permit conditions . S-1 is also \nsubject to and expected to comply with Regulation 9 -8-330 (Emergency Standby Engines, Hours of \nOperation ) since non -emergency hours of operation will be limited in the permit conditions to 50 hours \nper year .   \n \nNew Source Performance Standards (NSPS)  \n40 CFR 60, Subpart IIII (NSPS IIII), Standards of Performance for Stationary Compression Ignition \nInternal Combust ion Engines applies to non -fire pump engines such as S-1 that were manufactured \nafter April 1, 2006. S-1 engine has a total displacement of 4.5 liters and has 4 cylinders. Therefore, each \ncylinder has a volume of less than 10 liters. The source  is a 20 23 model year engine and is no t a fire \npump. §60.4205(b) requires these engines to comply with the emission standards in §60.4202 . Per \n§60.4202(a)(2), S-1 is subjec t to the emissions standards in 40 CFR Appendix I to Part 1039 (b) and 40 \nCFR 1039.105 (b) for all pollutants. Emission standards found in Table 2 of 40 CFR Appendix I to Part \n1039 (b) for that apply to S-1 are: NMHC + NOx = 3.0 g/bhp-hr; CO = 2.6 g/bhp-hr; and PM = 0. 15 \ng/bhp-hr. It can be seen from Table 1 that S-1 complies with the emission standards in NSPS IIII.  \n \n40 CFR 1039.105 (b) sets forth the following smoke emission standards for non -road CI engines:  \n• 20% during the acceleration mode;  \n• 15% during the lugging mode; and  \n• 50% during the peaks in either the acceleration or lugging modes.  \n \nThe opacity standards in 40 CFR 1039.105 (b), it appears, apply to mobile (and not stationary) non -\nroad CI engines. There fore, S-1 is not subject to the above standards. Instead, S-1 is subject to the \nopacity standards in Regulation 6, Rule 1, which is discussed in the later sections of this report.   \nPer §60.4207(b), S-1 is subject to the following diesel fuel requirements in 40 CFR 1090.305  \n• Sulfur content ≤ 15 ppm maximum  \n• Cetane index = 40 or maximum aromatic content of 35% by volume  \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP)  \nS-1 is subject to 40 CFR 63, Subpart ZZZZ (MACT ZZZZ), National Emission Standards for \nHazardous Air Pollutants for Stationary Reciprocating Internal Combustion Engines because the engine \nis constructed (~installed) after June 12, 2006. Per §63.6590(c), “new” sources such as S-1 are required \nto meet the requirements in MACT ZZZ Z by meeting the requirements in NSPS IIII. As previously \ndiscussed, S-1 complies with NSPS IIII and therefore, complies with MACT ZZZZ as well.California Air Resources Board (CARB) Airborne Toxic Control Measure (ATCM) for\nStationary Diesel Engines  \nThe May 19, 2011, amendments to the CARB’s Airborne Toxic Control Measure (ATCM) harmonized \nthe emission standards and certification requirements for new emergency stationary diesel engines \ngreater than 50 BHP with the federal New Source Performance Standards for Stationary CI Internal \nCombustion Engines contained in 40 CFR § 60.4202. S-1 is an EPA -certified stationary diesel \ngenerator . Table 5 below  compares S-1’s EPA certified emission rate s to the applicable emission \nstandards contained in Table 2 of the ATCM for 20 10+model year engines. S-1 is shown to comply \nwith the applicable emissions standards in CARB’s ATCM.  \n \n \n \nSleepy Hollow Elementary School  \nPlant  2030 64  Application 677074 \n5 \n  \nTable 5. Comparison of EPA -Certified and CARB ATCM Emission Rates  175<bhp<300 \nPollutant  S-1 EPA certified \nemission rates  \n(g/bhp -hr) CARB ATCM \nemission rates  \n(g/bhp -hr) \nNMHC + NOx  0.17 + 2.68 3.00 \nCO 0.75 2.60 \nPM 0.11 0.15"
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\nT)  \nPer Regulation 2 -2-301, BACT is triggered for any new or modified source with the potential to emit \n10 pounds or more per highest day of POC, NPOC, NO x, CO, SO 2, PM 10, or PM 2.5.  For this source, \nBACT is triggered since the maximum daily  NOx and emissions exceed 10 lb/day .   \n \nBACT for this source is presented in the current BAAQMD BACT/TBACT Workbook for IC Engine \n– Compression Ignition: Stationary Emergency, non -Agricultural, non -direct drive fire pump  > 50 BHP \nand < 1000 BHP Output , Document #96 .1.3 dated 12/22/20 20.  For NO x, CO, POC and PM 10, BACT(2) \nis the CARB ATCM standard for the respective pollutant at the applicable horsepower rating .  The \nSleepy Hollow Elementary School  \nPlant  2030 64  Application 677074 \n3 \n more restrictive BACT(1) standards are not applicable to this engine because it will be limited to \noperation as an emergency standby engine .   \n \nS-1 satisfies the current BACT(2) standards for the following pollutants  with the potential to emit more \nthan 10 lb s/day. \n \nTable 4. BACT (2) Standards  \nPollutant  S-1 Emission \nFactor  \n(g/bhp -hr) BACT(2) Standard  \n(g/bhp -hr) \nNO x 2.68 2.85 \n* The standard is expressed as 3.0 g/bhp -hr of \nNMHC+NOx.  NOx is estimated to be 95% of the combined \nstandard (3. 0*0.95 = 2.85 g/bhp -hr)"
+  },
+  "offsets": {
+    "narrative": "Offset s\nOffset s must be provided for any new or modified source at a facility that will have the potential to \nemit more than 10 tons per year of NOx or POC, as specified in Regulation 2 -2-302; 100 tons per year \nor more of PM 2.5, PM 10 or SO 2, as specified in Regulation 2 -2- 303.  \n \nNOx:  0.092 TPY (this application ) \nPOC: 0.006 TPY (this application)  \n \nThis project does not exceed the PTE thresholds requiring offsets.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          2.0,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          2.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD)\nD)  \nThis application is not part of a PSD project as defined in Regulation 2 -2-304."
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nCE  \nCalifornia Environmental Quality Review (CEQA)  \nThis application is considered to be ministerial under the District ’s Regulation 2 -1-311 (Permit \nHandbook Chapter 2.3.1 Stationary Diesel Engines)  and is considered an emergency project (per CEQA \nGuidelines Section 15269).  This project is  therefore not subject to CEQA review ."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Public Notification, Schools\nPublic Notice is required pursuant to Regulation 2 -1-412 since the nearest public school is located \nwithin 1,000 ft. of this source . Additionally, t his facility is not located inside a designated overburdened \ncommunity."
+  },
+  "conditions": {
+    "text": "CONDITIONS\nNS  \nCondition # 100072    --------------------------------------  \n1. The owner or operator shall operate each emergency standby engine only for the following \npurposes: to mitigate emergency conditions, for emission testing to demonstrate compliance with \na District, state or Federal emission limit, or for reliability -related activities (maintenance and \nother testing, but excluding emission testing). Operating while mitigating emergency conditions \nor while emission testing to show compliance with District, state or Federal emission lim its is not \nlimited.  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary CI Engines]  \n \n2. The owner/operator shall operate each emergency standby engine only when a non -resettable \ntotalizing meter (with a minimum display capability of 9,999 hours) that measures the hours of \noperation for the engine is installed, operated and properly maintained . \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary CI Engines]  \n \n3. Records: The owner/operator shall maintain the following monthly records in a District -approved \nlog for at least 36 months from the date of entry (60 months  if the facility has been issued a Title \nV Major Facility Review Permit or a Synthetic Minor Operating Permit). Log entries shall be \nretained on -site, either at a central location or at the engine’s location, and made immediately \navailable to the District staff upon request.  \na. Hours of operation for reliability -related activities (maintenance and testing).  \nb. Hours of operation for emission testing to show compliance with emission limits.  \nc. Hours of operation (emergency).  \nd. For each emergency, the nature of the emer gency condition.  \ne. Fuel usage for each engine(s).  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary CI Engines]  \n \n4. At School and Near -School Operation: If the emergency standby engine is located on school \ngrounds or within 50 0 feet of any school grounds, the following requirements shall apply: The \nowner or operator shall not operate each stationary emergency standby diesel -fueled engine for \nnon-emergency use, including maintenance and testing, during the following periods:  \na. Whe never there is a school sponsored activity (if the engine is located on school grounds)  \nb. Between 7:30 a.m. and 3:30 p.m. on days when school is in session.  \n“School” or “School Grounds” means any public or private school used for the purposes of the \neducatio n of more than 12 children in kindergarten or any of grades 1 to 12, inclusive, but does \nnot include any private school in which education is primarily conducted in a private home(s). \n“School” or “School Grounds” includes any building or structure, playgro und, athletic field, or \nother areas of school property but does not include unimproved school property.  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary CI Engines]  \n \n \n \nSleepy Hollow Elementary School  \nPlant  2030 64  Application 677074 \n6 \n  \nCondition #100073    --------------------------------------  \n1. The owner/operator shall not exceed the following limits per year per engine for reliability -related \nactivities:  \n50 Hours of Diesel fuel (Diesel fuel)  \n[Basis: Cumulative Increase; Regulation 2 -5; Title 17, Californ ia Code of Regulations, section \n93115 , ATCM for Stationary CI Engines]"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner or operator shall operate each emergency standby engine only for the following \npurposes: to mitigate emergency conditions, for emission testing to demonstrate compliance with \na District, state or Federal emission limit, or for reliability -related activities (maintenance and \nother testing, but excluding emission testing). Operating while mitigating emergency conditions \nor while emission testing to show compliance with District, state or Federal emission lim its is not \nlimited.  \n[",
+        "basis": [
+          "Title 17",
+          "California Code of Regulations",
+          "section 93115",
+          "ATCM for Stationary CI Engines]"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall operate each emergency standby engine only when a non -resettable \ntotalizing meter (with a minimum display capability of 9,999 hours) that measures the hours of \noperation for the engine is installed, operated and properly maintained . \n[",
+        "basis": [
+          "Title 17",
+          "California Code of Regulations",
+          "section 93115",
+          "ATCM for Stationary CI Engines]"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "Records: The owner/operator shall maintain the following monthly records in a District -approved \nlog for at least 36 months from the date of entry (60 months  if the facility has been issued a Title \nV Major Facility Review Permit or a Synthetic Minor Operating Permit). Log entries shall be \nretained on -site, either at a central location or at the engine’s location, and made immediately \navailable to the District staff upon request.  \na. Hours of operation for reliability -related activities (maintenance and testing).  \nb. Hours of operation for emission testing to show compliance with emission limits.  \nc. Hours of operation (emergency).  \nd. For each emergency, the nature of the emer gency condition.  \ne. Fuel usage for each engine(s).  \n[",
+        "basis": [
+          "Title 17",
+          "California Code of Regulations",
+          "section 93115",
+          "ATCM for Stationary CI Engines]"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "At School and Near -School Operation: If the emergency standby engine is located on school \ngrounds or within 50 0 feet of any school grounds, the following requirements shall apply: The \nowner or operator shall not operate each stationary emergency standby diesel -fueled engine for \nnon-emergency use, including maintenance and testing, during the following periods:  \na. Whe never there is a school sponsored activity (if the engine is located on school grounds)  \nb. Between 7:30 a.m. and 3:30 p.m. on days when school is in session.  \n“School” or “School Grounds” means any public or private school used for the purposes of the \neducatio n of more than 12 children in kindergarten or any of grades 1 to 12, inclusive, but does \nnot include any private school in which education is primarily conducted in a private home(s). \n“School” or “School Grounds” includes any building or structure, playgro und, athletic field, or \nother areas of school property but does not include unimproved school property.  \n[",
+        "basis": [
+          "Title 17",
+          "California Code of Regulations",
+          "section 93115",
+          "ATCM for Stationary CI Engines]  \n \n \n \nSleepy Hollow Elementary School  \nPlant  2030 64  Application 677074 \n6 \n  \nCondition #100073    --------------------------------------"
+        ]
+      },
+      {
+        "num": 1,
+        "text": "The owner/operator shall not exceed the following limits per year per engine for reliability -related \nactivities:  \n50 Hours of Diesel fuel (Diesel fuel)  \n[",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 2 -5",
+          "Title 17",
+          "Californ ia Code of Regulations",
+          "section \n93115",
+          "ATCM for Stationary CI Engines]"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nON  \nI recommend that the District issue an Authority to Construct to Sleepy Hollow Elementary School  for \nthe following  source : \nS-1 Emergency Standby  Diesel Generator  \nEngine Manufacturer: Cummins, Model: QSB5 -G6, Model Year: 2023  \nEngine Family: PCEXL0275AAK  \n208 BHP  (125 kW) , 1.41 MMBTU /hr \nDisplacement: 4.46 L (272 cu. in.)  \n4 In-line Cylinders  \nPermit Condition Nos. 100072 and 100073  \n \n \n \n     \n Christopher Ablaz a   Date  \n Air Quality Engineer  \n Engineering Division"
+  },
+  "raw_sections": {
+    "preamble": "",
+    "blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nSleepy Hollow Elementary School  \nPlant 203064  | Application 677074  \n20 Washington Lane , Orinda , CA 945 63"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND  \nSleepy Hollow Elementary School  has applied to obtain an Authority to Construct and a Permit to \nOperate for the following equipment:  \n \nS-1 Emergency Standby  Diesel Generator  \nEngine Manufacturer:  Cummins , Model:  QSB5 -G6, Model Year: 2023 \nEngine Family: PCEXL0275AAK  \n208 BHP  (125 kW) , 1.41 MMBTU /hr \nDisplacement:  4.46 L (272 cu. in.)  \n4 In-line Cylinders  \nPermit Condition Nos . 100072  and 100073  \n \nThe p roposed S-1 emergency standby diesel generator set  will be located at  an elementary school \nlocated in Orinda , CA.  S-1 will help provide service to the school in emergency situations . S-1 is a \nTier-3 engine generator set ."
+      },
+      {
+        "heading": "EMISSIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSIONS\nNS  \nCriteria Pollutants  \nThe criteria pollutants are nitrogen oxides (NOx), carbon monoxide (CO), precursor organic \ncompounds (POC) , sulfur dioxide (SO 2), particulate matter (PM 10 and PM 2.5).  POC is also denoted as \nNMHC.  Except for SO 2, the emission factors for these engines are EPA -certified  (EPA Certificate \nPCEXL0275AAK -025). The SO 2 emissions were calculated based on the maximum allowable sulfur \ncontent (0 .0015 wt%) of the diesel fuel with assumption that the entire sulfur content  will be converted \nto SO 2 during the combustion process . S-1 will be limited to 50 hours for maintenance -related activity .  \n \nTable 1 . Estimated  Abated  Emissions  at S-1 \nPollutant  Emission Factor  \n(g/bhp-hr) Maximum \nDaily Rate  \n(lbs/day)  Annual  \nEmissions  \n(lbs/y ear) Annual  \nEmissions  \n(tons/year) \nNO x 2.68 29.46  61.38  0.031 \nPOC  0.17 1.89 3.93 0.002 \nCO 0.75 8.21 17.10  0.009 \nPM 10, 2.5 / diesel \nparticulate1 0.11 1.23 2.57 0.001 \n lb SO 2/bhp-hr     \nSO 22 1.5E-03 1.67E -02 3.50E-02 0.000 \nBasis : \n- Annual emissions: Reliability -related activity 50 hours for S-1, per Regulation 9 -8-330 \n(Emergency Standby Engines, Hours of Operation)  \n- Max daily emissions: 24 -hour operation  \n- Emissions from EPA Engine Family PCEXL02 75AAK  \n- 1 Conservative assum ption that  all PM 10 emissions are PM 2.5 \n- 2 SO 2 emission factor from AP -42 Table 3.4 -1, SO 2 (15 ppm) = 0.00809*0.0015 lb SO 2/bhp-hr \n \nSleepy Hollow Elementary School  \nPlant  2030 64  Application 677074"
+      },
+      {
+        "heading": "2 \n Plant Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "2 \n Plant Cumulative Increase\nTable 2 summarizes the cumulative increase in criteria pollutant emissions that will result from the \noperation of S-1 and is based on 50 hours of maintenance -related activity. Sleepy Hollow Elementary \nSchool  doesn’t have any pre-4/5/1991 emissions.  \n \nTable 2. Plant Cumulative Increase  \nPollutant  Current Emissions       \n(since April 5, 1991)  Increase with this \napplication  (S-1) Cumulative Emissions      \n(Current + Increase)  \n(tons/year ) (tons/year ) (tons/year ) \nNO x 0.000  0.031  0.031  \nPOC  0.000  0.002  0.002  \nCO 0.000  0.009  0.009  \nPM 10 / diesel particulate  0.000  0.001  0.001  \nPM 2. 5 0.000  0.001  0.001  \nSO 2 0.000  0.000  0.000"
+      },
+      {
+        "heading": "Toxic Air Contaminants",
+        "alias": "TOXICS",
+        "text": "Toxic Air Contaminants\nTable 3. Toxic Air Contaminant s – Risk Screen Triggers  \nPollutant  Emission Rate  \n(lb/yr ) Risk Screening Trigger  \n(lb/yr)  \nPM 10  (Diesel Particulate)  2.57 10.00"
+      },
+      {
+        "heading": "Offset s",
+        "alias": "OFFSETS",
+        "text": "Offset s\nOffset s must be provided for any new or modified source at a facility that will have the potential to \nemit more than 10 tons per year of NOx or POC, as specified in Regulation 2 -2-302; 100 tons per year \nor more of PM 2.5, PM 10 or SO 2, as specified in Regulation 2 -2- 303.  \n \nNOx:  0.092 TPY (this application ) \nPOC: 0.006 TPY (this application)  \n \nThis project does not exceed the PTE thresholds requiring offsets."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE  \nCalifornia Environmental Quality Review (CEQA)  \nThis application is considered to be ministerial under the District ’s Regulation 2 -1-311 (Permit \nHandbook Chapter 2.3.1 Stationary Diesel Engines)  and is considered an emergency project (per CEQA \nGuidelines Section 15269).  This project is  therefore not subject to CEQA review ."
+      },
+      {
+        "heading": "Public Notification, Schools",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Public Notification, Schools\nPublic Notice is required pursuant to Regulation 2 -1-412 since the nearest public school is located \nwithin 1,000 ft. of this source . Additionally, t his facility is not located inside a designated overburdened \ncommunity."
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\nT)  \nPer Regulation 2 -2-301, BACT is triggered for any new or modified source with the potential to emit \n10 pounds or more per highest day of POC, NPOC, NO x, CO, SO 2, PM 10, or PM 2.5.  For this source, \nBACT is triggered since the maximum daily  NOx and emissions exceed 10 lb/day .   \n \nBACT for this source is presented in the current BAAQMD BACT/TBACT Workbook for IC Engine \n– Compression Ignition: Stationary Emergency, non -Agricultural, non -direct drive fire pump  > 50 BHP \nand < 1000 BHP Output , Document #96 .1.3 dated 12/22/20 20.  For NO x, CO, POC and PM 10, BACT(2) \nis the CARB ATCM standard for the respective pollutant at the applicable horsepower rating .  The \nSleepy Hollow Elementary School  \nPlant  2030 64  Application 677074 \n3 \n more restrictive BACT(1) standards are not applicable to this engine because it will be limited to \noperation as an emergency standby engine .   \n \nS-1 satisfies the current BACT(2) standards for the following pollutants  with the potential to emit more \nthan 10 lb s/day. \n \nTable 4. BACT (2) Standards  \nPollutant  S-1 Emission \nFactor  \n(g/bhp -hr) BACT(2) Standard  \n(g/bhp -hr) \nNO x 2.68 2.85 \n* The standard is expressed as 3.0 g/bhp -hr of \nNMHC+NOx.  NOx is estimated to be 95% of the combined \nstandard (3. 0*0.95 = 2.85 g/bhp -hr)"
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD)",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD)\nD)  \nThis application is not part of a PSD project as defined in Regulation 2 -2-304."
+      },
+      {
+        "heading": "Health Risk Assessment (HRA)",
+        "alias": "TOXICS",
+        "text": "Health Risk Assessment (HRA)\nA)  \nNew or modified sources of toxic air contaminants (TAC) requiring an authority construct or permit to \noperate pursuant to Reg ulation 2 -1 are subject to review to evaluate potential public exposure and health \nrisk, mitigate potentially significant health risks resulting from these exposures, and to provide net \nhealth risk benefits by improving the level of control when existing s ources are modified or replaced .  \n \nPer the Air District’s Diesel Engine HRA Streamlining Policy (effective 07/01/2022), the threshold for \nproject diesel particulate matter emissions is based on distance to nearest receptor and whether the \nproject is locate d within an overburdened community. The threshold for this project is 10 lb/year, \naccording to Table 1 of the policy. As determined using the District’s HRSA Streamlining Policy \nChecklist for Stationary Emergency Standby and Fire Pump Diesel Engines, this application qualifies \nfor HRA Streamlining.  Based on this policy, the District has determined that this project will comply \nwith District TBACT requirements and will result in health impacts of less than 10 in a million cancer \nrisk and less than 1.0 chronic hazard index based on conservative HRSA screening procedures. \nAdditionally, this project is not located in a design ated overburdened community. Therefore, this \nproject will comply with Regulation 2, Rule 5, Section 301 and 302 . A refined HRSA is not required \nfor this application.  \n \nParticulate Matter – Regulation 6, Rule 1  \nRegulation 6 -1-303 states that a person shall not emit for a period or periods aggregating more than \nthree minutes in any hour, a visible emission that is as dark or darker than No . 2 on the Ringelmann \nChart, or of such opacity as to obscure an observer’s view to an equivalent or greater degree,  nor shall \nsaid emission, as perceived by an opacity sensing device in good working order, where such device is \nrequired by District Regulations, be equal to or greater than 40% opacity .  S-1 is expected to comply \nwith Regulation 6 -1-303.  \n \nLimitations on Ground Level Concentrations of Sulfur Dioxide – Regulation 9, Rule 1  \nFrom Regulation 9 -1-301, the ground level concentrations of SO 2 will not exceed 0 .5 ppm continuously \nfor 3 consecutive minutes or 0 .25 ppm averaged over 60 consecutive minutes, or 0 .05 ppm averaged \nover 24 hours .  Per Regulation 9 -1-302, a person shall not emit from any source a gas stream containing \nsulfur dioxide in excess of 300 ppm (dry) .   And Regulation 9 -1-304, states that a person shall not burn \nany liquid fuel having sulfur cont ent in excess of 0 .5% by weight . S-1 is expected to comply with \nRegulation 9, Rule 1 since diesel fuel sulfur content will not exceed  0.0015% by weight as mandated \nfor use in California .   \nSleepy Hollow Elementary School  \nPlant  2030 64  Application 677074 \n4 \n  \nNO x and CO from Stationary Internal Combustion Engines – Regulatio n 9, Rule 8  \nS-1 is exempt from the requirements of Regulation s 9-8-301 through 305, 501 and 503 as per \nRegulation 9 -8-110.5.  S-1 is subject to the monitoring and record keeping procedures described in \nRegulation s 9-8-502 ( Recordkeeping ) and 9-8-530 ( Emergency Standby Engines, Monitoring and \nRecordkeeping ).   The requirements of this Regulation are included in the permit conditions . S-1 is also \nsubject to and expected to comply with Regulation 9 -8-330 (Emergency Standby Engines, Hours of \nOperation ) since non -emergency hours of operation will be limited in the permit conditions to 50 hours \nper year .   \n \nNew Source Performance Standards (NSPS)  \n40 CFR 60, Subpart IIII (NSPS IIII), Standards of Performance for Stationary Compression Ignition \nInternal Combust ion Engines applies to non -fire pump engines such as S-1 that were manufactured \nafter April 1, 2006. S-1 engine has a total displacement of 4.5 liters and has 4 cylinders. Therefore, each \ncylinder has a volume of less than 10 liters. The source  is a 20 23 model year engine and is no t a fire \npump. §60.4205(b) requires these engines to comply with the emission standards in §60.4202 . Per \n§60.4202(a)(2), S-1 is subjec t to the emissions standards in 40 CFR Appendix I to Part 1039 (b) and 40 \nCFR 1039.105 (b) for all pollutants. Emission standards found in Table 2 of 40 CFR Appendix I to Part \n1039 (b) for that apply to S-1 are: NMHC + NOx = 3.0 g/bhp-hr; CO = 2.6 g/bhp-hr; and PM = 0. 15 \ng/bhp-hr. It can be seen from Table 1 that S-1 complies with the emission standards in NSPS IIII.  \n \n40 CFR 1039.105 (b) sets forth the following smoke emission standards for non -road CI engines:  \n• 20% during the acceleration mode;  \n• 15% during the lugging mode; and  \n• 50% during the peaks in either the acceleration or lugging modes.  \n \nThe opacity standards in 40 CFR 1039.105 (b), it appears, apply to mobile (and not stationary) non -\nroad CI engines. There fore, S-1 is not subject to the above standards. Instead, S-1 is subject to the \nopacity standards in Regulation 6, Rule 1, which is discussed in the later sections of this report.   \nPer §60.4207(b), S-1 is subject to the following diesel fuel requirements in 40 CFR 1090.305  \n• Sulfur content ≤ 15 ppm maximum  \n• Cetane index = 40 or maximum aromatic content of 35% by volume  \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP)  \nS-1 is subject to 40 CFR 63, Subpart ZZZZ (MACT ZZZZ), National Emission Standards for \nHazardous Air Pollutants for Stationary Reciprocating Internal Combustion Engines because the engine \nis constructed (~installed) after June 12, 2006. Per §63.6590(c), “new” sources such as S-1 are required \nto meet the requirements in MACT ZZZ Z by meeting the requirements in NSPS IIII. As previously \ndiscussed, S-1 complies with NSPS IIII and therefore, complies with MACT ZZZZ as well."
+      },
+      {
+        "heading": "California Air Resources Board (CARB) Airborne Toxic Control Measure (ATCM) for",
+        "alias": "TOXICS",
+        "text": "California Air Resources Board (CARB) Airborne Toxic Control Measure (ATCM) for\nStationary Diesel Engines  \nThe May 19, 2011, amendments to the CARB’s Airborne Toxic Control Measure (ATCM) harmonized \nthe emission standards and certification requirements for new emergency stationary diesel engines \ngreater than 50 BHP with the federal New Source Performance Standards for Stationary CI Internal \nCombustion Engines contained in 40 CFR § 60.4202. S-1 is an EPA -certified stationary diesel \ngenerator . Table 5 below  compares S-1’s EPA certified emission rate s to the applicable emission \nstandards contained in Table 2 of the ATCM for 20 10+model year engines. S-1 is shown to comply \nwith the applicable emissions standards in CARB’s ATCM.  \n \n \n \nSleepy Hollow Elementary School  \nPlant  2030 64  Application 677074 \n5 \n  \nTable 5. Comparison of EPA -Certified and CARB ATCM Emission Rates  175<bhp<300 \nPollutant  S-1 EPA certified \nemission rates  \n(g/bhp -hr) CARB ATCM \nemission rates  \n(g/bhp -hr) \nNMHC + NOx  0.17 + 2.68 3.00 \nCO 0.75 2.60 \nPM 0.11 0.15"
+      },
+      {
+        "heading": "CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "CONDITIONS\nNS  \nCondition # 100072    --------------------------------------  \n1. The owner or operator shall operate each emergency standby engine only for the following \npurposes: to mitigate emergency conditions, for emission testing to demonstrate compliance with \na District, state or Federal emission limit, or for reliability -related activities (maintenance and \nother testing, but excluding emission testing). Operating while mitigating emergency conditions \nor while emission testing to show compliance with District, state or Federal emission lim its is not \nlimited.  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary CI Engines]  \n \n2. The owner/operator shall operate each emergency standby engine only when a non -resettable \ntotalizing meter (with a minimum display capability of 9,999 hours) that measures the hours of \noperation for the engine is installed, operated and properly maintained . \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary CI Engines]  \n \n3. Records: The owner/operator shall maintain the following monthly records in a District -approved \nlog for at least 36 months from the date of entry (60 months  if the facility has been issued a Title \nV Major Facility Review Permit or a Synthetic Minor Operating Permit). Log entries shall be \nretained on -site, either at a central location or at the engine’s location, and made immediately \navailable to the District staff upon request.  \na. Hours of operation for reliability -related activities (maintenance and testing).  \nb. Hours of operation for emission testing to show compliance with emission limits.  \nc. Hours of operation (emergency).  \nd. For each emergency, the nature of the emer gency condition.  \ne. Fuel usage for each engine(s).  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary CI Engines]  \n \n4. At School and Near -School Operation: If the emergency standby engine is located on school \ngrounds or within 50 0 feet of any school grounds, the following requirements shall apply: The \nowner or operator shall not operate each stationary emergency standby diesel -fueled engine for \nnon-emergency use, including maintenance and testing, during the following periods:  \na. Whe never there is a school sponsored activity (if the engine is located on school grounds)  \nb. Between 7:30 a.m. and 3:30 p.m. on days when school is in session.  \n“School” or “School Grounds” means any public or private school used for the purposes of the \neducatio n of more than 12 children in kindergarten or any of grades 1 to 12, inclusive, but does \nnot include any private school in which education is primarily conducted in a private home(s). \n“School” or “School Grounds” includes any building or structure, playgro und, athletic field, or \nother areas of school property but does not include unimproved school property.  \n[Basis: Title 17, California Code of Regulations, section 93115, ATCM for Stationary CI Engines]  \n \n \n \nSleepy Hollow Elementary School  \nPlant  2030 64  Application 677074 \n6 \n  \nCondition #100073    --------------------------------------  \n1. The owner/operator shall not exceed the following limits per year per engine for reliability -related \nactivities:  \n50 Hours of Diesel fuel (Diesel fuel)  \n[Basis: Cumulative Increase; Regulation 2 -5; Title 17, Californ ia Code of Regulations, section \n93115 , ATCM for Stationary CI Engines]"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nON  \nI recommend that the District issue an Authority to Construct to Sleepy Hollow Elementary School  for \nthe following  source : \nS-1 Emergency Standby  Diesel Generator  \nEngine Manufacturer: Cummins, Model: QSB5 -G6, Model Year: 2023  \nEngine Family: PCEXL0275AAK  \n208 BHP  (125 kW) , 1.41 MMBTU /hr \nDisplacement: 4.46 L (272 cu. in.)  \n4 In-line Cylinders  \nPermit Condition Nos. 100072 and 100073  \n \n \n \n     \n Christopher Ablaz a   Date  \n Air Quality Engineer  \n Engineering Division"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "ENGINEERING EVALUATION\nSleepy Hollow Elementary School  \nPlant 203064  | Application 677074  \n20 Washington Lane , Orinda , CA 945 63"
+      }
+    ]
+  }
+}

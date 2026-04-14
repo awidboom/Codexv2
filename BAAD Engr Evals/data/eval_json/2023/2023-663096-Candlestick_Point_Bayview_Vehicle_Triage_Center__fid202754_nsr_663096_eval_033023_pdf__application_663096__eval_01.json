@@ -1,0 +1,380 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 13
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "(lbs/year) Annual\nEmissions\n(tons/y ear)\nNOx  0.06 0.0447  0.51 18.01  0.0090\nPOC  0.02 0.0149  0.17 6.00 0.0030\nCO 0.01 0.0075  0.085  3.00 0.0015",
+        "(lbs/year) Annual\nEmissions\n(tons/y ear)\nNOx  0.12 0.0895  0.81 26.99  0.013\nPOC  0.01 0.0075  0.067  2.25 0.0011\nCO 0.10 0.0746  0.67 22.49  0.011",
+        "Emissions\n(tons/y ear) Cumulative Emissions\n(tons/y ear)\nNOx  0.000  0.022  0.022\nPOC  0.000  0.004  0.004\nCO 0.000  0.013  0.013\nPM 10/PM 2.5 0.000  0.005  0.005\nSO 2 0.000  0.002  0.002",
+        "(lbs/y ear) Exceeds\nTrigger\nLevel?\nS-1 Diesel PM  N/A - - 6.00E+00  2.60E -01 Yes\nAmmonia  7667 -41-7 1.61E -02 1.40E+00  1.37E+01  7.70E+03  No\nS-2 Diesel PM  N/A - - 4.50E+00  2.60E -01 Yes\nAmmonia  7667 -41-7 1.04E -02 1.40E+00  8.33E+00  7.70E+03  No\nProject  Diesel PM  N/A - - 1.05E+01 2.60E -01 Yes\nAmmonia  7667 -41-7 2.65E -02 1.40E+00  2.20E+01  7.70E+03  No",
+        "Requirement\n(ton/y ear) Offset\nRequired?\nPOC  0.000  0.004  0.004  10 N\nNOx  0.000  0.022  0.022  10 N\nPM 10/PM 2.5 0.000  0.005  0.005  100 N\nSO2 0.000  0.002  0.002  100 N"
+      ]
+    },
+    "application_number_detected": "663096",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2023/663096-033023/fid202754_nsr_663096_eval_033023-pdf.pdf?rev=46509f1d95a34fe98809d9dba5dddbd3&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2023/033023-663096/candlestick-point-bayview-vehicle-triage-center"
+  },
+  "application_number": "663096",
+  "plant": {
+    "name": "Candlestick Point/Bayview Vehicle Triage Center",
+    "plant_id": null,
+    "address": "San Francisco , CA 94124"
+  },
+  "evaluation_date": "October 1, 2010",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Prime Diesel  Engine"
+    },
+    {
+      "id": "S-2",
+      "description": "Prime Diesel Engine"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd  \n \nIn October 20 21, the City of San Francisco (City) approved the Candlestick Point/  Bayview \nVehicle Triage Center (VTC). The City has been operating the VTC/Low Barrier \nNavigation Center since January 2022  to provide  secure  shelter and services to  unhoused \npersons and support their moving to permanent housing. The site includes electri cal \nutilities, but upgrades are needed to provide permanent electrical power  from the grid  to \nthe site. To provide temporary power to the VTC, the San Francisco Department of Publi c \nWorks and Department of Homelessness and Supportive Housing are  applying for a n \nAuthority to Construct/Permit to Operate for the generators (engines)  listed below.  The \nCity must  cease operating the engines once  permanent electrical power from the grid  is \nestablished . \n \nS-1 Prime Diesel  Engine  \nMake:  John Deere, Model : 6068HFG05, Model Year: 2019  \n215 bhp, 1.22 MMB TU/hour,  \nw/ Integral Diesel Oxidation Catalyst & Selective Catalytic Reduction  \n \nS-2 Prime Diesel Engine \n Make: Isuzu, Model: BR -4HK1X, Model Year: 2018 \n 170.8 bhp, 0.98 MMBTU/h our \nw/ Integral Diesel Oxidation Catalyst & Selective Catalytic Reduction  \n  \nThe engines will emit the following criteria pollutants:  nitrogen oxides (NOx), carbon \nmonoxide (CO), precursor organic compounds (POC) from unburned fuel , sulfur dioxide"
+  },
+  "emission_calculations": {
+    "text": "2 Emissions\nEmissions  \n \nThis section  lays out the  daily and annual emissions for each source.  T able 1 below \nsummarizes the  daily operating hour limitations and the  annual hour limitations for each \nengine .  These op erating hours will be used to calculate daily and annual emission rates \nfor each engine.   \n \nTable 1. Operating Schedule  for S -1 and S- 2 \n \nSource ID  Maximum Daily Hours  \n(hours/ day) Annual Operating Hours Limit  \n(hours/y ear) \nS-1 24 849 \nS-2 24 801 \n \nFor S -1 and S -2, the emission factors for NOx, POC, CO, and Particulate Matter \n(PM 10/PM 2.5) were obtained from the EPA Annual Certification Data for Nonroad \nCompression Ignition Engines.  The SO 2 emission factors are from AP -42, Fifth Edition, \nVolume I, Chapte r 3: Stationary Internal Combustion Sources , Table 3.4- 1 Gaseous \nEmission Factors for Large Stationary Diesel and All Stationary Dual -Fuel Engines. \n \nTable 2. Annual and Daily Emissions from S- 1 \n \nPollutant  Emission \nFactor  \n(g/kW-hour) Emission \nFactor  \n(g/bhp- hour) Max DailyEmissions\n(lb/day)  Annual \nEmissions \n(lbs/year) Annual \nEmissions \n(tons/y ear) \nNOx  0.06 0.0447  0.51 18.01  0.0090  \nPOC  0.02 0.0149  0.17 6.00 0.0030  \nCO 0.01 0.0075  0.085  3.00 0.0015  \nPM 10/PM 2.51 0.02 0.0149 0.17 6.00 0.0030  \nSO 2 based on  concentration2  0.062  2.21 0.0011  \nBasis:   \n Annual emissions: Operation for 849 hours  for S -1 \n Max daily emissions: 24- hour operation  \n Emissions from EPA Engine Family KJDXL06.8312 for S -1 \n Emission factors for NOx, POC, CO, and PM are assumed to be after \nCARB certified abatement, per CARB Executive Order U -R-004-0580  \n 1 Conservative Assumption: All PM emis sions are PM 2.5 \n 2 SO 2 emission factor from AP -42 Table 3.4- 1, SO 2 (15 ppm) = \n0.00809*0.0015 lb SO 2/bhp-hour \n \n \n \n \n \n \n \n \n 3 Table 3. Annual and Daily Emissions from S- 2 \n \nPollutant  Emission Factor  \n(g/kW-hour) Emission \nFactor  \n(g/bhp- hour) Max Daily \nEmissions  \n(lb/day)  Annual \nEmissions \n(lbs/year) Annual \nEmissions \n(tons/y ear) \nNOx  0.12 0.0895  0.81 26.99  0.013  \nPOC  0.01 0.0075  0.067  2.25 0.0011  \nCO 0.10 0.0746  0.67 22.49  0.011  \nPM 10/PM 2.51 0.02 0.0149 0.13 4.50 0.0022  \nSO 2 based on  concentration2  0.05 1.66 0.00083  \nBasis:   \n Annual emissions: Operation for 801 hours for S -2 \n Max daily emissions: 24- hour operation  \n Emissions from EPA Engine Family JSZXL05.2RXB  for S -2 \n Emission factors for NOx, POC, CO, and PM are assumed to be after \nCARB cert ified abatement, per CARB Executive Order U -R-006-0454  \n 1 Conservative Assumption: All PM emissions are PM 2.5 \n 2 SO 2 emission factor from AP -42 Table 3.4- 1, SO 2 (15 ppm) = \n0.00809*0.0015 lb SO 2/bhp-hour \n \nBoth S -1 and S -2 will include an integral selective catalytic reduction ( SCR) , which will \nabate NO X emissions . NO x in the exhaust reacts with ammonia and oxygen in the \npresence of a catalyst to form nitrogen and water.  However, there will be a small amount \nof ammonia that will not react and will slip through the SCR.  Below are estimated \nAmmonia emissions from this p roject.  \n \nTable 4. Emissions from Ammonia Slip for S -1 & S -2 \n \nSource \n# Ammonia  \nSlip Conc.  \n(ppmv @ \n15% O 2) Ammonia  \nSlip Conc.  \n(ppmv @ \n0% O 2)  \nActual \nTemp.  \n(°F) Actual \nExhaust \nFlow Rate  \n(acfm)  Dry Standard \nExhaust Flow \nRate  \n(dscfm)  Hourly \nEmission  \nRate \n(lb/hour) Annual \nEmission  \nRate \n(lbs/year) \nS-1 10 35.42  685 812 171.46  0.016  13.68  \nS-2 10 35.42  658 512 110.73  0.010  8.33 \nBasis:   \n Annual emissions: Operation for 849 hours for S -1 and 801 hours for S -2 \n It is assumed that the exhaust water content is 12.5% by weight  \n It is assumed that the exhaust is at standard pressure  \n Volumetric concentrations were corrected to 0% O 2 from 15% O 2 \n The exhaust flow rates were corrected to 0% O 2 from 10% O 2emission standards for new Compression Ignition (CI) in Section 60.4201, which\nreferences emis sion standards in 40 CFR 1039. \n \nSection 1039.101(b) – Emission Standards for steady -state testing  (after 2014 model \nyear)  \n \nEPA certified emission standards for S -1 and S -2 comply with Section 1039.101(b)  \nemission standards for the applicable engine power c lass.  The following applicable \nstandards for the power class for S -1 and S -2 apply:  \n \n \n 9 S-1: Between 130 kW and 560 kW  \nPM:   0.02 g/kW -hr \nNOx:   0.40 g/kW -hr \nNMHC:  0.19 g/kW -hr \nCO:   3.5 g/kW -hr \n \nS-2: Between 56 kW and 130 kW  \nPM:   0.02 g/kW -hr \nNOx:   0.40 g/kW -hr \nNMHC:  0.19 g/kW -hr \nCO:   5.0 g/kW -hr \n \nSection 1039.105 – Smoke standards  \n \nPer Section 1039.105(a)(3), engines certified to PM emission standard of 0.07 g/kW -hr or \nlower are not subject to the smoke emissions standards of Section 1039.105. \n \nSections 60.4206 and 60.4211(a) require that the owner/operator operate and maintain the \nengine according to the manufacturer’s written instructions or procedures developed by \nthe owner or operator that are approved by the engine manufacturer, over the entir e life of \nthe engine.  The owner/operator is expected to comply with this requirement. \n \nSection 60.4207(b) requires that by October 1, 2010, the owner/operator must use fuel \nthat complies with 40 CFR 80.510(b).  This means that the fuel must have a maximum  \nsulfur content of 15 ppm and the same cetane index or aromatic content as above.  The \nowner/operator is expected to comply with this requirement because CARB diesel fuel , \nwhich meets this requirement, must be used in California. \n \nThe engines will comply w ith the requirements of Section 60.4211(c) because they have \nbeen certified to meet the emission standards specified in Section 60.4204(b). \n \nNational Emission s Standards for Hazardous Air Pollutants (NESHAP)   \n \n40 CFR 63, Subpart ZZZZ ( Stationary Reciprocat ing Internal Combustion Engines \n(RICE))  \n \nS-1 and S -2 are new engines at an area source of hazardous air pollutants (HAPs) and \nmust meet the requirements in 40 CFR 60, Subpart IIII (as shown above).   \n \nNo further requirements apply to these engines under this subpart according to Section \n63.5690(c)(1)."
+  },
+  "cumulative_increase": {
+    "text": "Cumulative Increase\nease \n \nTable 5 summarizes the cumulative increase in criteria pollutant emissions that will result \nfrom this application.  \n \n 4  \nTable 5. Cumulative Emissions Increase  \n \nPollutant  Existing Emissions \nPost 4/5/91  \n(tons/y ear) Application \nEmissions  \n(tons/y ear) Cumulative Emissions \n(tons/y ear) \nNOx  0.000  0.022  0.022  \nPOC  0.000  0.004  0.004  \nCO 0.000  0.013  0.013  \nPM 10/PM 2.5 0.000  0.005  0.005  \nSO 2 0.000  0.002  0.002"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "2 Emissions\nEmissions  \n \nThis section  lays out the  daily and annual emissions for each source.  T able 1 below \nsummarizes the  daily operating hour limitations and the  annual hour limitations for each \nengine .  These op erating hours will be used to calculate daily and annual emission rates \nfor each engine.   \n \nTable 1. Operating Schedule  for S -1 and S- 2 \n \nSource ID  Maximum Daily Hours  \n(hours/ day) Annual Operating Hours Limit  \n(hours/y ear) \nS-1 24 849 \nS-2 24 801 \n \nFor S -1 and S -2, the emission factors for NOx, POC, CO, and Particulate Matter \n(PM 10/PM 2.5) were obtained from the EPA Annual Certification Data for Nonroad \nCompression Ignition Engines.  The SO 2 emission factors are from AP -42, Fifth Edition, \nVolume I, Chapte r 3: Stationary Internal Combustion Sources , Table 3.4- 1 Gaseous \nEmission Factors for Large Stationary Diesel and All Stationary Dual -Fuel Engines. \n \nTable 2. Annual and Daily Emissions from S- 1 \n \nPollutant  Emission \nFactor  \n(g/kW-hour) Emission \nFactor  \n(g/bhp- hour) Max DailyEmissions\n(lb/day)  Annual \nEmissions \n(lbs/year) Annual \nEmissions \n(tons/y ear) \nNOx  0.06 0.0447  0.51 18.01  0.0090  \nPOC  0.02 0.0149  0.17 6.00 0.0030  \nCO 0.01 0.0075  0.085  3.00 0.0015  \nPM 10/PM 2.51 0.02 0.0149 0.17 6.00 0.0030  \nSO 2 based on  concentration2  0.062  2.21 0.0011  \nBasis:   \n Annual emissions: Operation for 849 hours  for S -1 \n Max daily emissions: 24- hour operation  \n Emissions from EPA Engine Family KJDXL06.8312 for S -1 \n Emission factors for NOx, POC, CO, and PM are assumed to be after \nCARB certified abatement, per CARB Executive Order U -R-004-0580  \n 1 Conservative Assumption: All PM emis sions are PM 2.5 \n 2 SO 2 emission factor from AP -42 Table 3.4- 1, SO 2 (15 ppm) = \n0.00809*0.0015 lb SO 2/bhp-hour \n \n \n \n \n \n \n \n \n 3 Table 3. Annual and Daily Emissions from S- 2 \n \nPollutant  Emission Factor  \n(g/kW-hour) Emission \nFactor  \n(g/bhp- hour) Max Daily \nEmissions  \n(lb/day)  Annual \nEmissions \n(lbs/year) Annual \nEmissions \n(tons/y ear) \nNOx  0.12 0.0895  0.81 26.99  0.013  \nPOC  0.01 0.0075  0.067  2.25 0.0011  \nCO 0.10 0.0746  0.67 22.49  0.011  \nPM 10/PM 2.51 0.02 0.0149 0.13 4.50 0.0022  \nSO 2 based on  concentration2  0.05 1.66 0.00083  \nBasis:   \n Annual emissions: Operation for 801 hours for S -2 \n Max daily emissions: 24- hour operation  \n Emissions from EPA Engine Family JSZXL05.2RXB  for S -2 \n Emission factors for NOx, POC, CO, and PM are assumed to be after \nCARB cert ified abatement, per CARB Executive Order U -R-006-0454  \n 1 Conservative Assumption: All PM emissions are PM 2.5 \n 2 SO 2 emission factor from AP -42 Table 3.4- 1, SO 2 (15 ppm) = \n0.00809*0.0015 lb SO 2/bhp-hour \n \nBoth S -1 and S -2 will include an integral selective catalytic reduction ( SCR) , which will \nabate NO X emissions . NO x in the exhaust reacts with ammonia and oxygen in the \npresence of a catalyst to form nitrogen and water.  However, there will be a small amount \nof ammonia that will not react and will slip through the SCR.  Below are estimated \nAmmonia emissions from this p roject.  \n \nTable 4. Emissions from Ammonia Slip for S -1 & S -2 \n \nSource \n# Ammonia  \nSlip Conc.  \n(ppmv @ \n15% O 2) Ammonia  \nSlip Conc.  \n(ppmv @ \n0% O 2)  \nActual \nTemp.  \n(°F) Actual \nExhaust \nFlow Rate  \n(acfm)  Dry Standard \nExhaust Flow \nRate  \n(dscfm)  Hourly \nEmission  \nRate \n(lb/hour) Annual \nEmission  \nRate \n(lbs/year) \nS-1 10 35.42  685 812 171.46  0.016  13.68  \nS-2 10 35.42  658 512 110.73  0.010  8.33 \nBasis:   \n Annual emissions: Operation for 849 hours for S -1 and 801 hours for S -2 \n It is assumed that the exhaust water content is 12.5% by weight  \n It is assumed that the exhaust is at standard pressure  \n Volumetric concentrations were corrected to 0% O 2 from 15% O 2 \n The exhaust flow rates were corrected to 0% O 2 from 10% O 2emission standards for new Compression Ignition (CI) in Section 60.4201, which\nreferences emis sion standards in 40 CFR 1039. \n \nSection 1039.101(b) – Emission Standards for steady -state testing  (after 2014 model \nyear)  \n \nEPA certified emission standards for S -1 and S -2 comply with Section 1039.101(b)  \nemission standards for the applicable engine power c lass.  The following applicable \nstandards for the power class for S -1 and S -2 apply:  \n \n \n 9 S-1: Between 130 kW and 560 kW  \nPM:   0.02 g/kW -hr \nNOx:   0.40 g/kW -hr \nNMHC:  0.19 g/kW -hr \nCO:   3.5 g/kW -hr \n \nS-2: Between 56 kW and 130 kW  \nPM:   0.02 g/kW -hr \nNOx:   0.40 g/kW -hr \nNMHC:  0.19 g/kW -hr \nCO:   5.0 g/kW -hr \n \nSection 1039.105 – Smoke standards  \n \nPer Section 1039.105(a)(3), engines certified to PM emission standard of 0.07 g/kW -hr or \nlower are not subject to the smoke emissions standards of Section 1039.105. \n \nSections 60.4206 and 60.4211(a) require that the owner/operator operate and maintain the \nengine according to the manufacturer’s written instructions or procedures developed by \nthe owner or operator that are approved by the engine manufacturer, over the entir e life of \nthe engine.  The owner/operator is expected to comply with this requirement. \n \nSection 60.4207(b) requires that by October 1, 2010, the owner/operator must use fuel \nthat complies with 40 CFR 80.510(b).  This means that the fuel must have a maximum  \nsulfur content of 15 ppm and the same cetane index or aromatic content as above.  The \nowner/operator is expected to comply with this requirement because CARB diesel fuel , \nwhich meets this requirement, must be used in California. \n \nThe engines will comply w ith the requirements of Section 60.4211(c) because they have \nbeen certified to meet the emission standards specified in Section 60.4204(b). \n \nNational Emission s Standards for Hazardous Air Pollutants (NESHAP)   \n \n40 CFR 63, Subpart ZZZZ ( Stationary Reciprocat ing Internal Combustion Engines \n(RICE))  \n \nS-1 and S -2 are new engines at an area source of hazardous air pollutants (HAPs) and \nmust meet the requirements in 40 CFR 60, Subpart IIII (as shown above).   \n \nNo further requirements apply to these engines under this subpart according to Section \n63.5690(c)(1).",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "9 S-1: Between 130 kW and 560 kW\nS-1 10 35.42  685 812 171.46  0.016  13.68\nS-1 24 849\nS-1 and S -2 are new engines at an area source of hazardous air pollutants (HAPs) and",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-2": {
+        "narrative": "S-2 10 35.42  658 512 110.73  0.010  8.33\nS-2 24 801\nS-2: Between 56 kW and 130 kW",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "(SO 2) and particulate matter (PM 2.5/PM 10). The engines will also emit toxic air\ncontaminants (TACs) as shown in Table 6 . As discus sed in more detail below, the project \nwill comply with the Air D istrict’s project health  risk limits in Regulation 2 -5-302. \n \nS-1 and S -2 meet  the Environmental Protection Agency and California Air Resources \nBoard (EPA/CARB) Final Tier 4 Off-road standard.  The engine s will burn commercially \navailable California low sulfur diesel fuel.  The sulfur content of the diesel fuel will not \nexceed 0.0015% by weight.  Both S -1 and S -2 will be equipped with an integral diesel \noxidation catalyst and integral selective catalytic reduction (SCR) to reduce emissions. \n \nThis evaluation report will discuss compliance of the project with all applicable rules and \nregulations.Toxic Air Contaminant Emissions\nThe Air District’s regulation of TACs is laid out in Regulation 2, Rule 5, New Source \nReview of Toxic Air Contaminants . As discussed in the following sections, this rule  \naddresses New Source Review requirements related to preparing health risk assessments, \nwhen  Best Available Control Technology for Toxics ( TBACT ) is required, and project \nhealth risk limitations.   \n \nThe relevant TACs  for S -1 and S -2 are Diesel Particulate Matter (Diesel PM) and \nAmmonia.  All PM 10 emissions are assumed to be Diesel PM.  Table 6 summa rizes the \nTAC emissions from S -1 and S -2.Table 6. Toxic Air Contaminant Review for Diesel Engines S -1 & S -2\nSource \n# TAC  CAS  Hourly \nEmissions  \n(lb/h our) Acute \nTrigger \nLevel  \n(lbs/h our) Annual \nEmissions  \n(lbs/y ear) Chronic \nTrigger \nLevel  \n(lbs/y ear) Exceeds \nTrigger \nLevel?  \nS-1 Diesel PM  N/A - - 6.00E+00  2.60E -01 Yes \nAmmonia  7667 -41-7 1.61E -02 1.40E+00  1.37E+01  7.70E+03  No \nS-2 Diesel PM  N/A - - 4.50E+00  2.60E -01 Yes \nAmmonia  7667 -41-7 1.04E -02 1.40E+00  8.33E+00  7.70E+03  No \nProject  Diesel PM  N/A - - 1.05E+01 2.60E -01 Yes \nAmmonia  7667 -41-7 2.65E -02 1.40E+00  2.20E+01  7.70E+03  No \nNotes:  \n1. Annual emissions are based on a maximum of 849  hours per year  for S -1 and 801 hours per year \nfor S -2. \n \nAs shown in Table 6  above, the project emissions of Diesel PM  exceed the chronic \ntrigger level.  Therefore, a health risk assessment (HRA) is required for this project.5 Health Risk Assessment (HRA)\nt (HRA)  \n \nDue to project emissions of Diesel PM exceeding the chr onic trigger level, an HRA is \nrequired for this project. There were no other related projects permitted in the last five  \nyears.   The project is located within an overburdened community (OBC) as defined in \nRegulation 2- 1-243, and must therefore comply with a cancer risk limitation of no more \nthan 6.0 in a million.  \n \nPursuant to BAAQMD Air Toxics Control Programs Health Risk Assessment Guidelines, \nDecember 2021, Section 2.1.3.2, a  three (3) year exposure period is the minimum exposure \nperiod recommended by the Air District for short -term projects lasting three years or  less. \nThus, due to the expected short duration of the project , the HRA  was modeled with an \nexposure period of three (3) years . Permit conditions will require the City to stop operating \nthe engines three (3) years after startup or after permanent electrical power from the grid  \nis established, whichever occurs first .   \n \nThe results of the initial HRA found that cancer risk from the project would exceed 6.0 in \na million.  Air District staff then discus sed other options with the applicant to find engine \nlocations and stack  outlet heights that would decrease the cancer risk to an acceptable level.  \nThe applicant also later accepted reduced annual hours limits for S -1 and S -2.  The final \nHRA results are based upon 849 hours/year for S -1, 801 hours/year for S -2, relocating both \ndiesel engines to the southern boundary of the East Lot , and raising each exhaust gas stack \noutlet (P -1 & P -2) to 15 feet above the ground.  The final HRA results are summarized in \nTables 7 & 8 below.  \n \nTable 7. Project HRA Results  \n \nReceptor  Cancer Risk  Chronic Hazard \nIndex  Acute Hazard Index  \nResident  1.6 in a million  0.00091 N/A \n1PMI (1-hour)  N/A N/A 0.0011  \nNote:  \n1. PMI stands for \"Point of Maximum Impact\".  \n \nTable 8. Source Health Risks  \n \nSource ID Cancer Risk  \nS-1 0.98 in a million  \nS-2 0.95 in a million  \n \nThe results from the health risk screening analysis indicate that the maximum pro ject \ncancer risk  (resident) is estimated at  1.6 in a million,  the maximum project chronic hazard \nindex (res ident) is estimated at 0.00091, and the maximum acute hazard index (PMI) is \n0.0011.  Worker risk estimates were not included because the nearest offsite worker is \nlocated farther than 1,000 feet from the project.  The sum of individual source cancer risks \nin Table 8 differs from the project cancer risk in Table 7 because each source's in dividual \ncancer risk is the maximum risk from that source at any receptor location, while the project \n \n 6 cancer risk is the maximum risk at any receptor location from both sources operating \nsimultaneously. \n \nThe HRA results deem the project is in compliance wi th project risk requirements as \nrecommended, limiting operation by permit condition to 849 hours/year for S -1 and 801 \nhours/year for S -2.  To ensure compliance with the project risk requirement, both S -1 and \nS-2 will be conditioned to operate in the applic ant-proposed locations on the southern \nboundary of the East Lot  (see Attachment A for source locations) .  Both S -1 and S -2 will \nalso be required to operate with a stack outlet height of 15 feet. And as discussed above,   \nthe two sources will be prohibited from operating any more than three (3) years  or after \npermanent electrical power from the grid  is established, whichever occurs first .  See HRA \nreport.Airborne Toxic Control Measure for Stationary Compression Ignition Engines\nATCM, 5/19/2011, section 93115, title 17, CA Code of Regulations  \n \nAir District Rules  \nRegulation 6- 1-303 ( Ringelmann No. 2 Limitation)  \nRegulation 6- 1-310 (Particulate Weight Limitation)  \nRegulation 9- 1-301 ( Limitations on Ground Level Concentrations of SO 2)  \nRegulation 9- 8 (NOx and CO from Stationary Internal Combustion Engines ) \nSection 9 -8-304 – Emission Limits – Compression -Ignited Engines  (S-1 & S- 2) \nSection 9 -8-502 – Recordkeeping  \nSection 9 -8-503 – Quarterly Demonstration of Compliance  \n \nTable 1 0. Regulation 9- 8 Emissions Compliance Summary  \n \nSource \n# Engine \nIgnition \nType  Engine \nOutput  \n(bhp)  Applicable  \nReg 9 -8 Section  Emission Factors \n(ppmv @ 15% O 2) Reg 9 -8 Emission Limit  \n(ppm @ 15% O 2) Complies  \nwith \n Reg 9 -8? \nNOx   CO NOx  CO \n1 Compression  215 9-8-304.2  4.5 1.2 110 310 Yes \n2 Compression  170.8  9-8-304.1  8.9 12.2 180 440 Yes \n \n 8  \nAs shown in Table 10, the EPA certified emission factors for the engines will meet the \napplicable emission limits in Regulation 9, Rule 8."
+  },
+  "BACT": {
+    "text": "Best Available Control Technology (BACT)\nT)  \n \nIn accordance with Regulation 2- 2-301, BACT is triggered for any new or modified source \nwith the potential to emit 10  pounds or more per highest day of POC, NPOC, NOx, CO, \nSO 2, PM 10, or PM 2.5.  \n \nThe maximum daily emissions of any criteria pollutant from S -1 or S -2 will be below 10 \nlbs/day, as shown in Tables 2 and 3.  Therefore, BACT is not required."
+  },
+  "offsets": {
+    "narrative": "Offsets\nts  \n \nPer Regulation s 2-2-302 and 2- 2-303, offsets must be provided if, after a new or modified \nsource is constructed, a facility has the potential to emit (PTE) more than 10 tons/year of \n \n 7 POC or NOx  or 100 tons/year SO2, PM 10, or PM 2.5.  As demonstrated by the summary of \nPTE in Table 9, offsets are not required for this application.  \n \n \nTable 9. Potential to Emit for Facility ID  202754 \n \nPollutant  Existing \nAnnual PTE \nEmissions \n(ton/y ear) Application \nAnnual PTE  \n(ton/y ear) Facility \nAnnual \nPTE  \n(ton/y ear) Offset \nRequirement \n(ton/y ear) Offset \nRequired?  \nPOC  0.000  0.004  0.004  10 N \nNOx  0.000  0.022  0.022  10 N \nPM 10/PM 2.5 0.000  0.005  0.005  100 N \nSO2 0.000  0.002  0.002  100 N \nNote:  \n1. PM 2.5 is a subset of PM 10 and they have been included together since they are cumulatively under \nthe offsets trigger level.  \n \nSince the facility permitted levels are below the offset trigger levels specified in \nRegulation 2- 2, offsets are not required.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          100.0,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          100.0,
+          "N/A",
+          null
+        ],
+        [
+          "SO2",
+          10.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD)\nD)  \nThis application is not part of a PSD project as defined in Regulation 2- 2."
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA)\nEQA)  \nIn October 2021, the City approved the VTC and determined it is not subject to CEQA \npursuant to Assembly Bill 101, California Government Code Sections 65660 – 65668 \n(AB 101).  \n \nThe Air District finds that pursuant to AB 101, this project is a “use by right.” It is an \naction the Air District is taking to “otherwise approve” a Low Barrier Navigation Center \nas provided in Government Code section 65660(b). The project is a necessary component \nof the VTC, which is a Low Barrier Navigation Center as defined by AB 101. It is needed \nto provide temporary power to the VTC to ensure the health, welfare, and safety of those \nsheltered by the VTC until Pacific Gas & Electric completes the necessary upgrades to \nexisting electrical utilities at the site. Accordingly, the project is min isterial, and CEQA  \ndoes not apply.  \n \nFurther, the project is exempt from CEQA under CEQA Guidelines section 15301, which \nexempts projects involving a negligible expansion of an existing use. Since the beginning \nof the COVID -19 pandemic, unhoused people in approximately 100 to 150 vehicles lived \nin the vicinity of the Candlestick Point State Recreation Area, and since January 2022, \nthe site has been operating as an authorized Low Barrier Navigation Center. The project \nwould support and facilitate this existi ng use by enabling the City to provide temporary \npower to the VTC. This  amounts to no more than a negligible expansion in the existing \nLow Barrier Navigation Center use because the ongoing operations, including providing \nshelter, security, sanitary facilities, and other critical services and resources, will not \nexpand or change as a result of the project.  \n \n \nNew Source Performance Standards (NSPS)  for S-1 & S -2 \n40 CFR 60, Subpart IIII ( Stationary Compression Ignition Internal Combustion Engines ) \n \nBoth S -1 & S -2 have an engine displacement of less than 10 liters per cylinder and were \nmanufactured after 2007.  Therefore, per Section 60.4204(b), they must both meet the"
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nance  \n \nThe owner/operator is expected to comply with all applicable requirements. Key \nrequirements are listed below:"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "10 Public  Notification (Regulation 2- 1-412)\n) \n \nThis project is not within  1,000 feet from the nearest K -12 school, however i t is located in \nan overburdened community (OBC).  T herefore , this projec t is subject to a public \nnotification.  A public notice will be  sent to all addresses within 1,000 feet of the facility \nand there will be a 30 -day public comment period.of Air District Regulation 2 -1-412.  After the comments are received and taken into\nconsideration, the Air District will make a final determination on the permit.   \n  \nI recommend that the Air District initiate a public notice and consider any co mments \nreceived prior to taking any final action on issuance of an Authority to Construct/Permit to \nOperate for the following source s: \n \nS-1 Prime Diesel  Engine  \nMake:  John Deere, Model : 6068HFG05, Model Year: 2019  \n215 bhp, 1.22 MMB TU/hour,  \nw/ Integral Diesel Oxidation Catalyst & Selective Catalytic Reduction  \nPermit Condition No. 27759 \n \nS-2 Prime Diesel Engine \n Make: Isuzu, Model: BR -4HK1X, Model Year: 2018 \n 170.8 bhp, 0.98 MMBTU/h our \nw/ Integral Diesel Oxidation Catalyst & Selective Catalytic Reduction  \nPermit Condition No. 27759 \n \nPrepared by:  Cameron Fee, Air Quality Engineer I   \nDate:  March 2 3, 2023  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 13  \n \n \n \n \n \n \n \n \n \n \n \n \n \nAttachment A: Source Locations  \n \nFigure 1: Locations of Stack Outlets for S -1 and S -2 \n \n\n \n 14"
+  },
+  "conditions": {
+    "text": "Permit Conditions\nns  \nPermit Condition #27759 for S -1 & S -2 \n \n1. The owner/operator of S -1 and S -2 shall not operate  these engines any more than \nthe hours listed below in any consecutive 12 -month period.  \nS-1 (John Deere, 215 bhp)  849 hours  \nS-2 (Isuzu, 170.8 bhp)   801 hours  \n [Basis:  Cumulative Increase, Regulation 2 -5]                    \n \n2. Regardless of the number of operating hours remaining pursuant to Part 1 of this \npermit condition, t he owner/operator of S -1 and S -2 shall not operate the engines \nafter permanent electrical power  from the grid is established at the site, or after \nthree (3) years from each engine’s  respective date of start -up, whichever comes \nfirst. \n[Basis:  Regulation 2 -5]   \n \n3. The owner/operator of S -1 and S -2 shall only operate  these engines in the \nlocations agreed upon during the  application process (the southern boundary of \nthe East  Lot) unless written approval is obtained from the Air District to operate \nthe engines in an alternate  location. Additionally, the owner/operator of S -1 and \nS-2 shall not operate these engines unless the exhaust stack  outlet is at least 15 \nfeet above the ground for both engines. \n     [Basis: Regulation 2 -5]    \n \n4. The owner/operator of S -1 and S -2 shall only operate  these engines if each is \nequipped with a properly  operated and proper ly maintained non- resettable \ntotalizing meter (with a minimum display capability of  9,999 hours) that \nmeasures the hours of operation.  \n[Basis: \"Stationary Diesel Engine ATCM\" section  93115.10(e), title 17, CA Code \nof Regulations]    \n \n5. The owner/operator of S -1 and S -2 shall only operate  these engines when each is \nequipped with a properly  maintained and properly operated Diesel Oxidation \nCatalyst/SCR.  \n[Basis: Cumulative Increase]   \n \n6. The owner/operator of S -1 and S -2 shall fire these  engines exclusively with diesel \nfuel with sulfur content  no greater than 0.0015 wt%. \n[Basis: Cumulative increase; Regulation 9 -1]    \n \n 11  \n7. The owner/operator of S -1 and S -2 shall not exceed the  following emission limits \nthat are corrected to 15%  oxygen, dry basis:                                      \n       S-1: 215 bhp diesel engine  \n       110 ppmv NOx \n       310 ppmv CO                                                 \n \n       S-2: 170.8 bhp diesel engine  \n       180 ppmv NOx \n       440 ppmv CO                                                 \n[Basis: Regulation 9 -8-304.1, 304.2]     \n \n8. To demonstrate compliance with Part 7, the  owner/operator shall use a portable \nanalyzer to take NOx  and CO emission readings to verify compliance with the  \napplicable emi ssion limits in Part 7 at least once during each calendar quarter in \nwhich a source test is  not performed.  The first of these readings shall occur \nwithin 24 hours of initial start -up of the source.  All emission readings shall be \ntaken with  the engine ope rating either at conditions representative  of normal \noperations or conditions specified in the  permit to operate. The analyzer shall be \ncalibrated,  maintained, and operated in accordance with the  manufactu rer's \nspecifications and recommendations. \n[Basis: R egulation 9- 8-503]                                 \n \n9. To determine compliance with the above conditions for  each S -1 and S -2, the \nowner/operator shall maintain the  following records and provide all of the data \nnecessary  to evaluate compliance with the above conditions:  \na.  Total hours of operation of each engine to demonstrate compliance with Part 1. \nb.  Total consumption of diesel fuel at each source. \nc.  Hours of operation in Part 9a and amount of diesel  fuel in Part 9b shall be \ntotaled on a rolling c onsecutive 12- month basis. \nd.  Date of quarterly monitoring conducted per Part 8 and the measured NOx and \nCO concentration, corrected to 15% oxygen, dry basis. \n      \nThe owner/operator shall record all records in an Air  District- approved log. The \nowner/ope rator shall retain the records  with the equipment for two years, from the \ndate of entry, and make them available for inspection by Air District staff  upon \nrequest. These record -keeping requirements shall not  replace the record -keeping \nrequirements containe d in any applicable Air District Regulations.  \n    [Basis: Recordkeeping]  \n \n10. The owner/operator of S -1 and S -2 shall notify the Air District’s Engineering \nDivision within 48 hours of the establishment of permanent electrical power from \nthe grid at the site.  \n[Basis: Regulation 2 -1-403] \n \n End of Conditions"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator of S -1 and S -2 shall not operate  these engines any more than \nthe hours listed below in any consecutive 12 -month period.  \nS-1 (John Deere, 215 bhp)  849 hours  \nS-2 (Isuzu, 170.8 bhp)   801 hours  \n [",
+        "basis": [
+          "Cumulative Increase",
+          "Regulation 2 -5]"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "Regardless of the number of operating hours remaining pursuant to Part 1 of this \npermit condition, t he owner/operator of S -1 and S -2 shall not operate the engines \nafter permanent electrical power  from the grid is established at the site, or after \nthree (3) years from each engine’s  respective date of start -up, whichever comes \nfirst. \n[",
+        "basis": [
+          "Regulation 2 -5]"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator of S -1 and S -2 shall only operate  these engines in the \nlocations agreed upon during the  application process (the southern boundary of \nthe East  Lot) unless written approval is obtained from the Air District to operate \nthe engines in an alternate  location. Additionally, the owner/operator of S -1 and \nS-2 shall not operate these engines unless the exhaust stack  outlet is at least 15 \nfeet above the ground for both engines. \n     [",
+        "basis": [
+          "Regulation 2 -5]"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "The owner/operator of S -1 and S -2 shall only operate  these engines if each is \nequipped with a properly  operated and proper ly maintained non- resettable \ntotalizing meter (with a minimum display capability of  9,999 hours) that \nmeasures the hours of operation.  \n[",
+        "basis": [
+          "\"Stationary Diesel Engine ATCM\" section  93115.10(e)",
+          "title 17",
+          "CA Code \nof Regulations]"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "The owner/operator of S -1 and S -2 shall only operate  these engines when each is \nequipped with a properly  maintained and properly operated Diesel Oxidation \nCatalyst/SCR.  \n[",
+        "basis": [
+          "Cumulative Increase]"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "The owner/operator of S -1 and S -2 shall fire these  engines exclusively with diesel \nfuel with sulfur content  no greater than 0.0015 wt%. \n[",
+        "basis": [
+          "Cumulative increase",
+          "Regulation 9 -1]    \n \n 11"
+        ]
+      },
+      {
+        "num": 7,
+        "text": "The owner/operator of S -1 and S -2 shall not exceed the  following emission limits \nthat are corrected to 15%  oxygen, dry",
+        "basis": [
+          "S-1: 215 bhp diesel engine  \n       110 ppmv NOx \n       310 ppmv CO                                                 \n \n       S-2: 170.8 bhp diesel engine  \n       180 ppmv NOx \n       440 ppmv CO                                                 \n[Basis: Regulation 9 -8-304.1",
+          "304.2]"
+        ]
+      },
+      {
+        "num": 8,
+        "text": "To demonstrate compliance with Part 7, the  owner/operator shall use a portable \nanalyzer to take NOx  and CO emission readings to verify compliance with the  \napplicable emi ssion limits in Part 7 at least once during each calendar quarter in \nwhich a source test is  not performed.  The first of these readings shall occur \nwithin 24 hours of initial start -up of the source.  All emission readings shall be \ntaken with  the engine ope rating either at conditions representative  of normal \noperations or conditions specified in the  permit to operate. The analyzer shall be \ncalibrated,  maintained, and operated in accordance with the  manufactu rer's \nspecifications and recommendations. \n[",
+        "basis": [
+          "R egulation 9- 8-503]"
+        ]
+      },
+      {
+        "num": 9,
+        "text": "To determine compliance with the above conditions for  each S -1 and S -2, the \nowner/operator shall maintain the  following records and provide all of the data \nnecessary  to evaluate compliance with the above conditions:  \na.  Total hours of operation of each engine to demonstrate compliance with Part 1. \nb.  Total consumption of diesel fuel at each source. \nc.  Hours of operation in Part 9a and amount of diesel  fuel in Part 9b shall be \ntotaled on a rolling c onsecutive 12- month basis. \nd.  Date of quarterly monitoring conducted per Part 8 and the measured NOx and \nCO concentration, corrected to 15% oxygen, dry basis. \n      \nThe owner/operator shall record all records in an Air  District- approved log. The \nowner/ope rator shall retain the records  with the equipment for two years, from the \ndate of entry, and make them available for inspection by Air District staff  upon \nrequest. These record -keeping requirements shall not  replace the record -keeping \nrequirements containe d in any applicable Air District Regulations.  \n    [",
+        "basis": [
+          "Recordkeeping]"
+        ]
+      },
+      {
+        "num": 10,
+        "text": "The owner/operator of S -1 and S -2 shall notify the Air District’s Engineering \nDivision within 48 hours of the establishment of permanent electrical power from \nthe grid at the site.  \n[",
+        "basis": [
+          "Regulation 2 -1-403] \n \n End of Conditions"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "12 Recommendation\nion  \nThe Air District has reviewed the material contained in the permit application for the \nproject and has made a preliminary determination that the project is expected to comply \nwith all applicable requirements of Air District, state, and federal air quality -related \nregulations.  The preliminary recommendation is to issue an Authority to Construct/Permit \nto Operate for the equipment listed below.  However, the proposed source s will be located  \nin an overburdened community (OBC) , which triggers the public notification r equirements"
+  },
+  "raw_sections": {
+    "preamble": "1 DRAFT  ENGINEERING EVALUATION \n \nFacility ID  202754 \nCandlestick Point/Bayview Vehicle Triage Center  \n500 Hunters Point Expressway, San Francisco , CA 94124 \nApplication No. 663096",
+    "blocks": [
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd  \n \nIn October 20 21, the City of San Francisco (City) approved the Candlestick Point/  Bayview \nVehicle Triage Center (VTC). The City has been operating the VTC/Low Barrier \nNavigation Center since January 2022  to provide  secure  shelter and services to  unhoused \npersons and support their moving to permanent housing. The site includes electri cal \nutilities, but upgrades are needed to provide permanent electrical power  from the grid  to \nthe site. To provide temporary power to the VTC, the San Francisco Department of Publi c \nWorks and Department of Homelessness and Supportive Housing are  applying for a n \nAuthority to Construct/Permit to Operate for the generators (engines)  listed below.  The \nCity must  cease operating the engines once  permanent electrical power from the grid  is \nestablished . \n \nS-1 Prime Diesel  Engine  \nMake:  John Deere, Model : 6068HFG05, Model Year: 2019  \n215 bhp, 1.22 MMB TU/hour,  \nw/ Integral Diesel Oxidation Catalyst & Selective Catalytic Reduction  \n \nS-2 Prime Diesel Engine \n Make: Isuzu, Model: BR -4HK1X, Model Year: 2018 \n 170.8 bhp, 0.98 MMBTU/h our \nw/ Integral Diesel Oxidation Catalyst & Selective Catalytic Reduction  \n  \nThe engines will emit the following criteria pollutants:  nitrogen oxides (NOx), carbon \nmonoxide (CO), precursor organic compounds (POC) from unburned fuel , sulfur dioxide"
+      },
+      {
+        "heading": "(SO 2) and particulate matter (PM 2.5/PM 10). The engines will also emit toxic air",
+        "alias": "TOXICS",
+        "text": "(SO 2) and particulate matter (PM 2.5/PM 10). The engines will also emit toxic air\ncontaminants (TACs) as shown in Table 6 . As discus sed in more detail below, the project \nwill comply with the Air D istrict’s project health  risk limits in Regulation 2 -5-302. \n \nS-1 and S -2 meet  the Environmental Protection Agency and California Air Resources \nBoard (EPA/CARB) Final Tier 4 Off-road standard.  The engine s will burn commercially \navailable California low sulfur diesel fuel.  The sulfur content of the diesel fuel will not \nexceed 0.0015% by weight.  Both S -1 and S -2 will be equipped with an integral diesel \noxidation catalyst and integral selective catalytic reduction (SCR) to reduce emissions. \n \nThis evaluation report will discuss compliance of the project with all applicable rules and \nregulations."
+      },
+      {
+        "heading": "2 Emissions",
+        "alias": "EMISSIONS",
+        "text": "2 Emissions\nEmissions  \n \nThis section  lays out the  daily and annual emissions for each source.  T able 1 below \nsummarizes the  daily operating hour limitations and the  annual hour limitations for each \nengine .  These op erating hours will be used to calculate daily and annual emission rates \nfor each engine.   \n \nTable 1. Operating Schedule  for S -1 and S- 2 \n \nSource ID  Maximum Daily Hours  \n(hours/ day) Annual Operating Hours Limit  \n(hours/y ear) \nS-1 24 849 \nS-2 24 801 \n \nFor S -1 and S -2, the emission factors for NOx, POC, CO, and Particulate Matter \n(PM 10/PM 2.5) were obtained from the EPA Annual Certification Data for Nonroad \nCompression Ignition Engines.  The SO 2 emission factors are from AP -42, Fifth Edition, \nVolume I, Chapte r 3: Stationary Internal Combustion Sources , Table 3.4- 1 Gaseous \nEmission Factors for Large Stationary Diesel and All Stationary Dual -Fuel Engines. \n \nTable 2. Annual and Daily Emissions from S- 1 \n \nPollutant  Emission \nFactor  \n(g/kW-hour) Emission \nFactor  \n(g/bhp- hour) Max Daily"
+      },
+      {
+        "heading": "Emissions",
+        "alias": "EMISSIONS",
+        "text": "Emissions\n(lb/day)  Annual \nEmissions \n(lbs/year) Annual \nEmissions \n(tons/y ear) \nNOx  0.06 0.0447  0.51 18.01  0.0090  \nPOC  0.02 0.0149  0.17 6.00 0.0030  \nCO 0.01 0.0075  0.085  3.00 0.0015  \nPM 10/PM 2.51 0.02 0.0149 0.17 6.00 0.0030  \nSO 2 based on  concentration2  0.062  2.21 0.0011  \nBasis:   \n Annual emissions: Operation for 849 hours  for S -1 \n Max daily emissions: 24- hour operation  \n Emissions from EPA Engine Family KJDXL06.8312 for S -1 \n Emission factors for NOx, POC, CO, and PM are assumed to be after \nCARB certified abatement, per CARB Executive Order U -R-004-0580  \n 1 Conservative Assumption: All PM emis sions are PM 2.5 \n 2 SO 2 emission factor from AP -42 Table 3.4- 1, SO 2 (15 ppm) = \n0.00809*0.0015 lb SO 2/bhp-hour \n \n \n \n \n \n \n \n \n 3 Table 3. Annual and Daily Emissions from S- 2 \n \nPollutant  Emission Factor  \n(g/kW-hour) Emission \nFactor  \n(g/bhp- hour) Max Daily \nEmissions  \n(lb/day)  Annual \nEmissions \n(lbs/year) Annual \nEmissions \n(tons/y ear) \nNOx  0.12 0.0895  0.81 26.99  0.013  \nPOC  0.01 0.0075  0.067  2.25 0.0011  \nCO 0.10 0.0746  0.67 22.49  0.011  \nPM 10/PM 2.51 0.02 0.0149 0.13 4.50 0.0022  \nSO 2 based on  concentration2  0.05 1.66 0.00083  \nBasis:   \n Annual emissions: Operation for 801 hours for S -2 \n Max daily emissions: 24- hour operation  \n Emissions from EPA Engine Family JSZXL05.2RXB  for S -2 \n Emission factors for NOx, POC, CO, and PM are assumed to be after \nCARB cert ified abatement, per CARB Executive Order U -R-006-0454  \n 1 Conservative Assumption: All PM emissions are PM 2.5 \n 2 SO 2 emission factor from AP -42 Table 3.4- 1, SO 2 (15 ppm) = \n0.00809*0.0015 lb SO 2/bhp-hour \n \nBoth S -1 and S -2 will include an integral selective catalytic reduction ( SCR) , which will \nabate NO X emissions . NO x in the exhaust reacts with ammonia and oxygen in the \npresence of a catalyst to form nitrogen and water.  However, there will be a small amount \nof ammonia that will not react and will slip through the SCR.  Below are estimated \nAmmonia emissions from this p roject.  \n \nTable 4. Emissions from Ammonia Slip for S -1 & S -2 \n \nSource \n# Ammonia  \nSlip Conc.  \n(ppmv @ \n15% O 2) Ammonia  \nSlip Conc.  \n(ppmv @ \n0% O 2)  \nActual \nTemp.  \n(°F) Actual \nExhaust \nFlow Rate  \n(acfm)  Dry Standard \nExhaust Flow \nRate  \n(dscfm)  Hourly \nEmission  \nRate \n(lb/hour) Annual \nEmission  \nRate \n(lbs/year) \nS-1 10 35.42  685 812 171.46  0.016  13.68  \nS-2 10 35.42  658 512 110.73  0.010  8.33 \nBasis:   \n Annual emissions: Operation for 849 hours for S -1 and 801 hours for S -2 \n It is assumed that the exhaust water content is 12.5% by weight  \n It is assumed that the exhaust is at standard pressure  \n Volumetric concentrations were corrected to 0% O 2 from 15% O 2 \n The exhaust flow rates were corrected to 0% O 2 from 10% O 2"
+      },
+      {
+        "heading": "Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Cumulative Increase\nease \n \nTable 5 summarizes the cumulative increase in criteria pollutant emissions that will result \nfrom this application.  \n \n 4  \nTable 5. Cumulative Emissions Increase  \n \nPollutant  Existing Emissions \nPost 4/5/91  \n(tons/y ear) Application \nEmissions  \n(tons/y ear) Cumulative Emissions \n(tons/y ear) \nNOx  0.000  0.022  0.022  \nPOC  0.000  0.004  0.004  \nCO 0.000  0.013  0.013  \nPM 10/PM 2.5 0.000  0.005  0.005  \nSO 2 0.000  0.002  0.002"
+      },
+      {
+        "heading": "Toxic Air Contaminant Emissions",
+        "alias": "TOXICS",
+        "text": "Toxic Air Contaminant Emissions\nThe Air District’s regulation of TACs is laid out in Regulation 2, Rule 5, New Source \nReview of Toxic Air Contaminants . As discussed in the following sections, this rule  \naddresses New Source Review requirements related to preparing health risk assessments, \nwhen  Best Available Control Technology for Toxics ( TBACT ) is required, and project \nhealth risk limitations.   \n \nThe relevant TACs  for S -1 and S -2 are Diesel Particulate Matter (Diesel PM) and \nAmmonia.  All PM 10 emissions are assumed to be Diesel PM.  Table 6 summa rizes the \nTAC emissions from S -1 and S -2."
+      },
+      {
+        "heading": "Table 6. Toxic Air Contaminant Review for Diesel Engines S -1 & S -2",
+        "alias": "TOXICS",
+        "text": "Table 6. Toxic Air Contaminant Review for Diesel Engines S -1 & S -2\nSource \n# TAC  CAS  Hourly \nEmissions  \n(lb/h our) Acute \nTrigger \nLevel  \n(lbs/h our) Annual \nEmissions  \n(lbs/y ear) Chronic \nTrigger \nLevel  \n(lbs/y ear) Exceeds \nTrigger \nLevel?  \nS-1 Diesel PM  N/A - - 6.00E+00  2.60E -01 Yes \nAmmonia  7667 -41-7 1.61E -02 1.40E+00  1.37E+01  7.70E+03  No \nS-2 Diesel PM  N/A - - 4.50E+00  2.60E -01 Yes \nAmmonia  7667 -41-7 1.04E -02 1.40E+00  8.33E+00  7.70E+03  No \nProject  Diesel PM  N/A - - 1.05E+01 2.60E -01 Yes \nAmmonia  7667 -41-7 2.65E -02 1.40E+00  2.20E+01  7.70E+03  No \nNotes:  \n1. Annual emissions are based on a maximum of 849  hours per year  for S -1 and 801 hours per year \nfor S -2. \n \nAs shown in Table 6  above, the project emissions of Diesel PM  exceed the chronic \ntrigger level.  Therefore, a health risk assessment (HRA) is required for this project."
+      },
+      {
+        "heading": "5 Health Risk Assessment (HRA)",
+        "alias": "TOXICS",
+        "text": "5 Health Risk Assessment (HRA)\nt (HRA)  \n \nDue to project emissions of Diesel PM exceeding the chr onic trigger level, an HRA is \nrequired for this project. There were no other related projects permitted in the last five  \nyears.   The project is located within an overburdened community (OBC) as defined in \nRegulation 2- 1-243, and must therefore comply with a cancer risk limitation of no more \nthan 6.0 in a million.  \n \nPursuant to BAAQMD Air Toxics Control Programs Health Risk Assessment Guidelines, \nDecember 2021, Section 2.1.3.2, a  three (3) year exposure period is the minimum exposure \nperiod recommended by the Air District for short -term projects lasting three years or  less. \nThus, due to the expected short duration of the project , the HRA  was modeled with an \nexposure period of three (3) years . Permit conditions will require the City to stop operating \nthe engines three (3) years after startup or after permanent electrical power from the grid  \nis established, whichever occurs first .   \n \nThe results of the initial HRA found that cancer risk from the project would exceed 6.0 in \na million.  Air District staff then discus sed other options with the applicant to find engine \nlocations and stack  outlet heights that would decrease the cancer risk to an acceptable level.  \nThe applicant also later accepted reduced annual hours limits for S -1 and S -2.  The final \nHRA results are based upon 849 hours/year for S -1, 801 hours/year for S -2, relocating both \ndiesel engines to the southern boundary of the East Lot , and raising each exhaust gas stack \noutlet (P -1 & P -2) to 15 feet above the ground.  The final HRA results are summarized in \nTables 7 & 8 below.  \n \nTable 7. Project HRA Results  \n \nReceptor  Cancer Risk  Chronic Hazard \nIndex  Acute Hazard Index  \nResident  1.6 in a million  0.00091 N/A \n1PMI (1-hour)  N/A N/A 0.0011  \nNote:  \n1. PMI stands for \"Point of Maximum Impact\".  \n \nTable 8. Source Health Risks  \n \nSource ID Cancer Risk  \nS-1 0.98 in a million  \nS-2 0.95 in a million  \n \nThe results from the health risk screening analysis indicate that the maximum pro ject \ncancer risk  (resident) is estimated at  1.6 in a million,  the maximum project chronic hazard \nindex (res ident) is estimated at 0.00091, and the maximum acute hazard index (PMI) is \n0.0011.  Worker risk estimates were not included because the nearest offsite worker is \nlocated farther than 1,000 feet from the project.  The sum of individual source cancer risks \nin Table 8 differs from the project cancer risk in Table 7 because each source's in dividual \ncancer risk is the maximum risk from that source at any receptor location, while the project \n \n 6 cancer risk is the maximum risk at any receptor location from both sources operating \nsimultaneously. \n \nThe HRA results deem the project is in compliance wi th project risk requirements as \nrecommended, limiting operation by permit condition to 849 hours/year for S -1 and 801 \nhours/year for S -2.  To ensure compliance with the project risk requirement, both S -1 and \nS-2 will be conditioned to operate in the applic ant-proposed locations on the southern \nboundary of the East Lot  (see Attachment A for source locations) .  Both S -1 and S -2 will \nalso be required to operate with a stack outlet height of 15 feet. And as discussed above,   \nthe two sources will be prohibited from operating any more than three (3) years  or after \npermanent electrical power from the grid  is established, whichever occurs first .  See HRA \nreport."
+      },
+      {
+        "heading": "TBACT",
+        "alias": null,
+        "text": "TBACT\nCT  \n \nIn accordance with the Air District’s Regulation 2 -5-301, TBACT is required for any new \nor modified source  with a cancer risk greater than 1.0 in a million and/or a chronic hazard \nindex greater than 0.20. As shown in Table 8, S -1 and S -2 do not  require TBACT because \nthe estimated source cancer risk  for each source  is less than 1.0 in a million . Additionally, \nthe chronic hazard index does not exceed 0.20. As shown in Table 7, the maximum chronic \nhazard index  for the project  is 0.00091, therefore the chronic hazard index for each source \nwould be well below 0.2 0.  \n \nProject  Health  Risk Limits  \n \nPursuant to Regulation 2 -5-302, a project’s  risk cannot exceed 6.0 in a million cancer risk \nin an overburdened community ( OBC ) or a chronic or acute hazard index of 1.0. As shown \nin Table  7, the project cancer risk is 1.6 in a million, the chronic hazard index is 0.00091, \nand the acute hazard index is 0.0011. Because these are all well below the risk limitations, \nthe project complies with the Air District’s Regulation 2 -5-302 project health risk \nrequirements."
+      },
+      {
+        "heading": "Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "Best Available Control Technology (BACT)\nT)  \n \nIn accordance with Regulation 2- 2-301, BACT is triggered for any new or modified source \nwith the potential to emit 10  pounds or more per highest day of POC, NPOC, NOx, CO, \nSO 2, PM 10, or PM 2.5.  \n \nThe maximum daily emissions of any criteria pollutant from S -1 or S -2 will be below 10 \nlbs/day, as shown in Tables 2 and 3.  Therefore, BACT is not required."
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nts  \n \nPer Regulation s 2-2-302 and 2- 2-303, offsets must be provided if, after a new or modified \nsource is constructed, a facility has the potential to emit (PTE) more than 10 tons/year of \n \n 7 POC or NOx  or 100 tons/year SO2, PM 10, or PM 2.5.  As demonstrated by the summary of \nPTE in Table 9, offsets are not required for this application.  \n \n \nTable 9. Potential to Emit for Facility ID  202754 \n \nPollutant  Existing \nAnnual PTE \nEmissions \n(ton/y ear) Application \nAnnual PTE  \n(ton/y ear) Facility \nAnnual \nPTE  \n(ton/y ear) Offset \nRequirement \n(ton/y ear) Offset \nRequired?  \nPOC  0.000  0.004  0.004  10 N \nNOx  0.000  0.022  0.022  10 N \nPM 10/PM 2.5 0.000  0.005  0.005  100 N \nSO2 0.000  0.002  0.002  100 N \nNote:  \n1. PM 2.5 is a subset of PM 10 and they have been included together since they are cumulatively under \nthe offsets trigger level.  \n \nSince the facility permitted levels are below the offset trigger levels specified in \nRegulation 2- 2, offsets are not required."
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nance  \n \nThe owner/operator is expected to comply with all applicable requirements. Key \nrequirements are listed below:"
+      },
+      {
+        "heading": "Airborne Toxic Control Measure for Stationary Compression Ignition Engines",
+        "alias": "TOXICS",
+        "text": "Airborne Toxic Control Measure for Stationary Compression Ignition Engines\nATCM, 5/19/2011, section 93115, title 17, CA Code of Regulations  \n \nAir District Rules  \nRegulation 6- 1-303 ( Ringelmann No. 2 Limitation)  \nRegulation 6- 1-310 (Particulate Weight Limitation)  \nRegulation 9- 1-301 ( Limitations on Ground Level Concentrations of SO 2)  \nRegulation 9- 8 (NOx and CO from Stationary Internal Combustion Engines ) \nSection 9 -8-304 – Emission Limits – Compression -Ignited Engines  (S-1 & S- 2) \nSection 9 -8-502 – Recordkeeping  \nSection 9 -8-503 – Quarterly Demonstration of Compliance  \n \nTable 1 0. Regulation 9- 8 Emissions Compliance Summary  \n \nSource \n# Engine \nIgnition \nType  Engine \nOutput  \n(bhp)  Applicable  \nReg 9 -8 Section  Emission Factors \n(ppmv @ 15% O 2) Reg 9 -8 Emission Limit  \n(ppm @ 15% O 2) Complies  \nwith \n Reg 9 -8? \nNOx   CO NOx  CO \n1 Compression  215 9-8-304.2  4.5 1.2 110 310 Yes \n2 Compression  170.8  9-8-304.1  8.9 12.2 180 440 Yes \n \n 8  \nAs shown in Table 10, the EPA certified emission factors for the engines will meet the \napplicable emission limits in Regulation 9, Rule 8."
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA)",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA)\nEQA)  \nIn October 2021, the City approved the VTC and determined it is not subject to CEQA \npursuant to Assembly Bill 101, California Government Code Sections 65660 – 65668 \n(AB 101).  \n \nThe Air District finds that pursuant to AB 101, this project is a “use by right.” It is an \naction the Air District is taking to “otherwise approve” a Low Barrier Navigation Center \nas provided in Government Code section 65660(b). The project is a necessary component \nof the VTC, which is a Low Barrier Navigation Center as defined by AB 101. It is needed \nto provide temporary power to the VTC to ensure the health, welfare, and safety of those \nsheltered by the VTC until Pacific Gas & Electric completes the necessary upgrades to \nexisting electrical utilities at the site. Accordingly, the project is min isterial, and CEQA  \ndoes not apply.  \n \nFurther, the project is exempt from CEQA under CEQA Guidelines section 15301, which \nexempts projects involving a negligible expansion of an existing use. Since the beginning \nof the COVID -19 pandemic, unhoused people in approximately 100 to 150 vehicles lived \nin the vicinity of the Candlestick Point State Recreation Area, and since January 2022, \nthe site has been operating as an authorized Low Barrier Navigation Center. The project \nwould support and facilitate this existi ng use by enabling the City to provide temporary \npower to the VTC. This  amounts to no more than a negligible expansion in the existing \nLow Barrier Navigation Center use because the ongoing operations, including providing \nshelter, security, sanitary facilities, and other critical services and resources, will not \nexpand or change as a result of the project.  \n \n \nNew Source Performance Standards (NSPS)  for S-1 & S -2 \n40 CFR 60, Subpart IIII ( Stationary Compression Ignition Internal Combustion Engines ) \n \nBoth S -1 & S -2 have an engine displacement of less than 10 liters per cylinder and were \nmanufactured after 2007.  Therefore, per Section 60.4204(b), they must both meet the"
+      },
+      {
+        "heading": "emission standards for new Compression Ignition (CI) in Section 60.4201, which",
+        "alias": "EMISSIONS",
+        "text": "emission standards for new Compression Ignition (CI) in Section 60.4201, which\nreferences emis sion standards in 40 CFR 1039. \n \nSection 1039.101(b) – Emission Standards for steady -state testing  (after 2014 model \nyear)  \n \nEPA certified emission standards for S -1 and S -2 comply with Section 1039.101(b)  \nemission standards for the applicable engine power c lass.  The following applicable \nstandards for the power class for S -1 and S -2 apply:  \n \n \n 9 S-1: Between 130 kW and 560 kW  \nPM:   0.02 g/kW -hr \nNOx:   0.40 g/kW -hr \nNMHC:  0.19 g/kW -hr \nCO:   3.5 g/kW -hr \n \nS-2: Between 56 kW and 130 kW  \nPM:   0.02 g/kW -hr \nNOx:   0.40 g/kW -hr \nNMHC:  0.19 g/kW -hr \nCO:   5.0 g/kW -hr \n \nSection 1039.105 – Smoke standards  \n \nPer Section 1039.105(a)(3), engines certified to PM emission standard of 0.07 g/kW -hr or \nlower are not subject to the smoke emissions standards of Section 1039.105. \n \nSections 60.4206 and 60.4211(a) require that the owner/operator operate and maintain the \nengine according to the manufacturer’s written instructions or procedures developed by \nthe owner or operator that are approved by the engine manufacturer, over the entir e life of \nthe engine.  The owner/operator is expected to comply with this requirement. \n \nSection 60.4207(b) requires that by October 1, 2010, the owner/operator must use fuel \nthat complies with 40 CFR 80.510(b).  This means that the fuel must have a maximum  \nsulfur content of 15 ppm and the same cetane index or aromatic content as above.  The \nowner/operator is expected to comply with this requirement because CARB diesel fuel , \nwhich meets this requirement, must be used in California. \n \nThe engines will comply w ith the requirements of Section 60.4211(c) because they have \nbeen certified to meet the emission standards specified in Section 60.4204(b). \n \nNational Emission s Standards for Hazardous Air Pollutants (NESHAP)   \n \n40 CFR 63, Subpart ZZZZ ( Stationary Reciprocat ing Internal Combustion Engines \n(RICE))  \n \nS-1 and S -2 are new engines at an area source of hazardous air pollutants (HAPs) and \nmust meet the requirements in 40 CFR 60, Subpart IIII (as shown above).   \n \nNo further requirements apply to these engines under this subpart according to Section \n63.5690(c)(1)."
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD)",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD)\nD)  \nThis application is not part of a PSD project as defined in Regulation 2- 2."
+      },
+      {
+        "heading": "10 Public  Notification (Regulation 2- 1-412)",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "10 Public  Notification (Regulation 2- 1-412)\n) \n \nThis project is not within  1,000 feet from the nearest K -12 school, however i t is located in \nan overburdened community (OBC).  T herefore , this projec t is subject to a public \nnotification.  A public notice will be  sent to all addresses within 1,000 feet of the facility \nand there will be a 30 -day public comment period."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nns  \nPermit Condition #27759 for S -1 & S -2 \n \n1. The owner/operator of S -1 and S -2 shall not operate  these engines any more than \nthe hours listed below in any consecutive 12 -month period.  \nS-1 (John Deere, 215 bhp)  849 hours  \nS-2 (Isuzu, 170.8 bhp)   801 hours  \n [Basis:  Cumulative Increase, Regulation 2 -5]                    \n \n2. Regardless of the number of operating hours remaining pursuant to Part 1 of this \npermit condition, t he owner/operator of S -1 and S -2 shall not operate the engines \nafter permanent electrical power  from the grid is established at the site, or after \nthree (3) years from each engine’s  respective date of start -up, whichever comes \nfirst. \n[Basis:  Regulation 2 -5]   \n \n3. The owner/operator of S -1 and S -2 shall only operate  these engines in the \nlocations agreed upon during the  application process (the southern boundary of \nthe East  Lot) unless written approval is obtained from the Air District to operate \nthe engines in an alternate  location. Additionally, the owner/operator of S -1 and \nS-2 shall not operate these engines unless the exhaust stack  outlet is at least 15 \nfeet above the ground for both engines. \n     [Basis: Regulation 2 -5]    \n \n4. The owner/operator of S -1 and S -2 shall only operate  these engines if each is \nequipped with a properly  operated and proper ly maintained non- resettable \ntotalizing meter (with a minimum display capability of  9,999 hours) that \nmeasures the hours of operation.  \n[Basis: \"Stationary Diesel Engine ATCM\" section  93115.10(e), title 17, CA Code \nof Regulations]    \n \n5. The owner/operator of S -1 and S -2 shall only operate  these engines when each is \nequipped with a properly  maintained and properly operated Diesel Oxidation \nCatalyst/SCR.  \n[Basis: Cumulative Increase]   \n \n6. The owner/operator of S -1 and S -2 shall fire these  engines exclusively with diesel \nfuel with sulfur content  no greater than 0.0015 wt%. \n[Basis: Cumulative increase; Regulation 9 -1]    \n \n 11  \n7. The owner/operator of S -1 and S -2 shall not exceed the  following emission limits \nthat are corrected to 15%  oxygen, dry basis:                                      \n       S-1: 215 bhp diesel engine  \n       110 ppmv NOx \n       310 ppmv CO                                                 \n \n       S-2: 170.8 bhp diesel engine  \n       180 ppmv NOx \n       440 ppmv CO                                                 \n[Basis: Regulation 9 -8-304.1, 304.2]     \n \n8. To demonstrate compliance with Part 7, the  owner/operator shall use a portable \nanalyzer to take NOx  and CO emission readings to verify compliance with the  \napplicable emi ssion limits in Part 7 at least once during each calendar quarter in \nwhich a source test is  not performed.  The first of these readings shall occur \nwithin 24 hours of initial start -up of the source.  All emission readings shall be \ntaken with  the engine ope rating either at conditions representative  of normal \noperations or conditions specified in the  permit to operate. The analyzer shall be \ncalibrated,  maintained, and operated in accordance with the  manufactu rer's \nspecifications and recommendations. \n[Basis: R egulation 9- 8-503]                                 \n \n9. To determine compliance with the above conditions for  each S -1 and S -2, the \nowner/operator shall maintain the  following records and provide all of the data \nnecessary  to evaluate compliance with the above conditions:  \na.  Total hours of operation of each engine to demonstrate compliance with Part 1. \nb.  Total consumption of diesel fuel at each source. \nc.  Hours of operation in Part 9a and amount of diesel  fuel in Part 9b shall be \ntotaled on a rolling c onsecutive 12- month basis. \nd.  Date of quarterly monitoring conducted per Part 8 and the measured NOx and \nCO concentration, corrected to 15% oxygen, dry basis. \n      \nThe owner/operator shall record all records in an Air  District- approved log. The \nowner/ope rator shall retain the records  with the equipment for two years, from the \ndate of entry, and make them available for inspection by Air District staff  upon \nrequest. These record -keeping requirements shall not  replace the record -keeping \nrequirements containe d in any applicable Air District Regulations.  \n    [Basis: Recordkeeping]  \n \n10. The owner/operator of S -1 and S -2 shall notify the Air District’s Engineering \nDivision within 48 hours of the establishment of permanent electrical power from \nthe grid at the site.  \n[Basis: Regulation 2 -1-403] \n \n End of Conditions"
+      },
+      {
+        "heading": "12 Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "12 Recommendation\nion  \nThe Air District has reviewed the material contained in the permit application for the \nproject and has made a preliminary determination that the project is expected to comply \nwith all applicable requirements of Air District, state, and federal air quality -related \nregulations.  The preliminary recommendation is to issue an Authority to Construct/Permit \nto Operate for the equipment listed below.  However, the proposed source s will be located  \nin an overburdened community (OBC) , which triggers the public notification r equirements"
+      },
+      {
+        "heading": "of Air District Regulation 2 -1-412.  After the comments are received and taken into",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "of Air District Regulation 2 -1-412.  After the comments are received and taken into\nconsideration, the Air District will make a final determination on the permit.   \n  \nI recommend that the Air District initiate a public notice and consider any co mments \nreceived prior to taking any final action on issuance of an Authority to Construct/Permit to \nOperate for the following source s: \n \nS-1 Prime Diesel  Engine  \nMake:  John Deere, Model : 6068HFG05, Model Year: 2019  \n215 bhp, 1.22 MMB TU/hour,  \nw/ Integral Diesel Oxidation Catalyst & Selective Catalytic Reduction  \nPermit Condition No. 27759 \n \nS-2 Prime Diesel Engine \n Make: Isuzu, Model: BR -4HK1X, Model Year: 2018 \n 170.8 bhp, 0.98 MMBTU/h our \nw/ Integral Diesel Oxidation Catalyst & Selective Catalytic Reduction  \nPermit Condition No. 27759 \n \nPrepared by:  Cameron Fee, Air Quality Engineer I   \nDate:  March 2 3, 2023  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 13  \n \n \n \n \n \n \n \n \n \n \n \n \n \nAttachment A: Source Locations  \n \nFigure 1: Locations of Stack Outlets for S -1 and S -2 \n \n\n \n 14"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "TBACT",
+        "alias": null,
+        "text": "TBACT\nCT  \n \nIn accordance with the Air District’s Regulation 2 -5-301, TBACT is required for any new \nor modified source  with a cancer risk greater than 1.0 in a million and/or a chronic hazard \nindex greater than 0.20. As shown in Table 8, S -1 and S -2 do not  require TBACT because \nthe estimated source cancer risk  for each source  is less than 1.0 in a million . Additionally, \nthe chronic hazard index does not exceed 0.20. As shown in Table 7, the maximum chronic \nhazard index  for the project  is 0.00091, therefore the chronic hazard index for each source \nwould be well below 0.2 0.  \n \nProject  Health  Risk Limits  \n \nPursuant to Regulation 2 -5-302, a project’s  risk cannot exceed 6.0 in a million cancer risk \nin an overburdened community ( OBC ) or a chronic or acute hazard index of 1.0. As shown \nin Table  7, the project cancer risk is 1.6 in a million, the chronic hazard index is 0.00091, \nand the acute hazard index is 0.0011. Because these are all well below the risk limitations, \nthe project complies with the Air District’s Regulation 2 -5-302 project health risk \nrequirements."
+      }
+    ]
+  }
+}

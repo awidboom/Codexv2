@@ -1,0 +1,216 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\extracted_evaluations\\application_13023.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 4
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "13023",
+    "application_number_from_filename": "13023"
+  },
+  "application_number": "13023",
+  "plant": {
+    "name": "EVALUATION REPORT",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": "May 11, 2006",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-6051",
+      "description": "Cooling Tower currently has four ce lls and serves four process areas S-4291"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd  \n \nChevron Products Co. (Chevron) is proposi ng to modify its existing S-6051 MTBE \nCooling Tower at its refinery located in Richmond.  Chevron is requesting that the \nsource name change to Alky Cooling Tower since the MTBE Plant no longer exists and this cooling tower will now be associated with the Alkylation Plant.  The capacity of S-6051 will be increasing from 33.8 million gallons per day to 43.8 million gallons per day.  \nS-6051 Cooling Tower currently has four ce lls and serves four process areas S-4291 \nAlkylation Plant, S-4354 Butamer Plant, S-4355 Deisobutanizer Plant, and S-4356 Tame Plant.  S-6051 will be increased to six cells in order to allow these four sources it \nserves to achieve the permitted capacities.  Two existing cells and the two new cells will be Marley 400s, which are induced-draft, counterflow cooling tower cells with high efficiency drift eliminators capable of achi eving at least a 0.002% drift rate.   \n All of the sources served by S-6051 have throughput limits that came from NSR \napplications (mainly the Clean Fuels Project)  and are not considered to be modified per \n2-1-234.  Title V\n \n Table II will need to be changed to show that S-6051 is to be called the Alky Cooling Tower and to show the increased capacity and throughput limits.  Sections IV, VI, and \nVII will be changed to show the change in throughput and emission limits.  Emission Calculations  \n \nS-6051 has been fully offset at its current leve l of throughput therefore only the increase \nin emissions from the increase in th roughput will be required to be offset.  The \nthroughput will be increasing from 33,840,000 ga llons per day to 43,200,000 gallons per \nday or an increase of 9,360,000 gallons per day.  POC emission estimates were performed using an emission factor of 0.7 #/MMgal from \nAP42 Chapter 5, Table 5.1-2.  POC: 9.36 MMgal/day(0.7 #/MMgal) = 6.55 #/day  6.55#/day(365 day/y)(t/2000 #) = 1.20 tpy  PM10 emission estimates were performed usi ng the total dissolved solids concentration \n(TDS) and the drift loss.  However, the new drift loss is expected to be less than 0.002% \nas opposed to the original drift loss was 0.005%.  Chevron conservatively assumes that the new unit will achieve 0.0035% drift loss.    S-6051 was originally assumed to emit 4.84 tpy PM10.  This was determined by adding \nthe amount of PM10 emissions charged from  application #’s 7735, 14701, and 16822. \n PM10: 43.2 MMgal/day(2000 ppm)(0.000035 )(8.34 #/gal)(t/2000 #)(365 day/y) \n= 4.60 tpy  \nTherefore, there will be a decreas e in PM10 emissions as a result of this application."
+  },
+  "emission_calculations": {
+    "text": ""
+  },
+  "cumulative_increase": {
+    "text": "Plant Cumulative Increase\nPOC: 1.2 tpy(1.15) – 1.38 tpy = 0.0 tpy"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-6051": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "Toxic Emissions Estimate\nS-6051 will have bromine, chlorine, and chlorofo rm emissions.  Chevron estimates that \nthe maximum concentration of water treatment  chemicals is 0.5 ppmv (0.005 wt %).  Of \nthe treatment chemicals, t he bromine compounds are about 60% by weight and chlorine \nis about 27% by weight.  Bromine: 15,768 MMgal/y(0.5 ppmv)(0. 000035)(8.34 #/gal)(0.60) = 1.38 #/y \n Chlorine: 15,768 MMgal/y(0.5 ppmv)(0 .000035)(8.34 #/gal)(0.27) = 0.62 #/y \n  7.1E-5 #/h max  The chloroform emission estimate is based on a 1990 ARB publication, “Proposed Identification of Chloroform as a Toxic Air Contaminant, Part A, Exposure Assessment.”  \nThe emission factor is 0.0034 pounds of chloroform per pound of chlorine (Cl2) used to chlorinate the water.  The solution contains  0.3 # Cl2/gal.  Chevron assumes 3 gallons \nper hour bleach usage.  A permit condition limiting bleach usage will be added to keep the chloroform emissions below the toxic trigger level.  Chloroform:  \n3 gal/h(0.3 # Cl2/gal) = 0.9 # Cl2/h 0.9 #Cl2/h(0.0034) = 0.00306 #/h, 26.81 #/y chloroformThe toxic risk screening trigger level for chlo roform is 34 #/y.  This corresponds to an\nn \nannual usage of 32,359 gallons of bleach per year.Toxic Risk Screening Analysis\nis \n \nToxic\n   Emission Rate   Trigger Level(#/h,#/y)  \n Bromine  1.38 #/y   N/A, 6.6E1 #/y Chlorine  7.1E-5 #/h, 0.62 #/ y  4.6E-1 #/h, 7.7E0 #/y \nChloroform  3.1E-3 #/h, 26.81 #/y 3.3E-1 #/h, 3.4E1 #/y \n A toxic risk analysis is not required for this application since the toxic emissions are not \nexpected to exceed the respective acute one-hour maximum and chronic trigger levels."
+  },
+  "BACT": {
+    "text": "(BACT)\n4. Once the alarm is triggered, the ow ner/operator shall al so measure, with a \ndistrict-approved LEL monitor, the conc entration of hydrocarbons in the S-6051 \nCooling Tower vapor space as a percent of the lower explosive limit (LEL) once \neach calendar day while the hydrocarbon reading remains above the Action level.  (BACT) \n5. The owner/operator of S-6051 shall either repair any leaking heat exchanger, \nremove the leaking heat exchanger, or other wise remove the source of the leak \nwithin 15 days of detection of the leak as identified by the alarm set at the Action \nlevel.  If the owner/operator identifies t he source of a leak to be E-1404, E-1421, \nor E-1220 located in the Alkylation Unit (S-4291), or E-400 located in the Yard \nDeisobutanizer (S-4355), the owner/operator  of S-6051 shall remove the leaking \nheat exchanger from service, or otherwise e liminate the source of the leak, within \n30 calendar days or less from the alarm trigger date.  If the concentration of \nhydrocarbons in the cooling tower vapor space exceeds 10 percent of LEL, the \nowner/operator shall remove the leak ing heat exchanger from service, or \notherwise eliminate the source  of the leak as soon as practicable, but within 15 \ndays or less of exceeding the 10 per cent of LEL limit.  (BACT) \n6. In order to demonstrate compliance with part 2, the owner /operator of S-6051 \nshall conduct district approved monthly te sts on the cooling water for TDS. The \nowner/operator of S-6051 shall maintain a di strict approved monthly log of all test \ndata.  This log shall be kept on site for at  least 5 years from the date of entry and \nbe made available to district staff upon request.  (Record keeping) \n7. In order to demonstrate compliance with part 1, the owner /operator of S-6051 \nshall use volatile organic concentrati on data from the continuous hydrocarbon \nanalyzer from part 3 and the flowrate dat a from district-approved flowmeters \ninstalled at district-approved sample por t locations.  The owner/operator of S-\n6051 shall maintain a district-approved daily log of all hydrocarbon analyzer \nconcentration data, flowrate data, and daily emissions estimates.  This log shall \nbe kept on site for at least 5 years from  the date of entry and be made available \nto district staff upon request.  (1-523, BACT, Record keeping) \n8. The owner/operator of S-6051 shall mainta in a district approved daily log of all \nhydrocarbon analyzer data, flowmeter data, daily emissions data, date and time \nof all alarms, a summary of the baseline and action levels data, a description of findings and actions taken for each incident above the Action level, and all LEL measurements.  This log shall be kept on si te for at least 5 years from the date of \nentry and be made available to district staff upon request.  (Record keeping) \n   \n \n \n      by________________date________ \n        Gregory Solomon  \n       Senior Air Quality Engineer"
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": "CEQA Categorical Exemptions and CEQA \"Common Sense Exemption\":\nThough the District concludes that this project is  ministerial, it also concludes that, even \nif it were not ministerial, certain other  exemptions from CEQA apply (see CEQA \nGuidelines § 15300.1).  Section 2-1-312 of t he District Rules and Regulations sets forth \nspecific types of projects, which have been det ermined by the District to be categorically \nexempt from CEQA.   \n \nPer Section 2-1-312.11 , in addition to ministerial projects, permit applications for a new \nor modified source or sources or for pr ocess changes, which will satisfy the \"No Net \nEmission Increase\" provisions of District Regul ation 2, Rule 2 and for which there is no \npossibility that the project may have any si gnificant environmental effect in connection \nwith any environmental media or resources ot her than air quality, are exempt from the \nCEQA review.  The reason for this exempti on should be apparent on its face: if a facility \nis given legal permission to emit more air pollutants from certain points while at the \nsame time being disallowed permission for an equivalent amount of the same type of \nemissions from other points at the facility,  then there is deemed to be no net effect on \nthe air environment, and therefore no possibilit y of a significant effect under CEQA, \nprovided no-air impacts are also examined and deemed to be of no possible significant \nconsequence.  Also, per the CEQA Guidelines in Title 14,  California Code of Regulations, Chapter 3, \nArticle 5, Section 15061(b)(3), a project is exem pt from CEQA if the activity is covered \nby the general rule that CEQA applies only to projects, which have the potential for \ncausing a significant effect on the environment.  This is commonly known as the \"Common Sense Exemption\".  Where it c an be seen with certainty that there is no \npossibility that the activity in question may have a significant effect on the environment, \nthe activity is not subject to CEQA.  The “no net increase” exem ption of 2-1-312.11 is \nessentially a specific, codified, inst ance of the Common Sense Exemption. \n For this permit application, the District det ermined that the project will satisfy the \"No \nNet Emission Increase\" provisions of District Regulation 2, Rule 2.    Chevron has completed and submitted to t he District CEQA Appendix H, Environmental \nInformation Form, for the project.    The District has reviewed the CEQA Appendix H form.  Chevron checked “yes” for the item regarding “Site on filled land or on slope of 10 percent or more.”  Chevron also \nchecked “yes” for the use and disposal of potentially hazardous materials, however \nChevron asserts that this project will not in crease the use or disposal of potentially \nhazardous materials.  All other items on the fo rm were checked “no.”  In the attachment \nto Appendix H, Chevron explained that constr uction will take place in a process plant \narea, which was constructed on filled land.  No additional filling will be required for this \nproject.  Facilities will be designed and cons tructed to current earthquake and soil \nloading standards.  In the TURBO application #10798, Chevron asserted that the entire \nsite of the existing plant is on hydraulic  and engineered fill from the 1960’s and earlier.  \nThe District accepts this assertion for this application.    Chevron has also submitted additional informati on in order for the District to determine \nthe project's possible significant effects on surface and ground water and diesel-fueled \ntruck traffic air impacts.  Based on the information contained in the Appendix H form submitted and Chevron’s May 11, 2006 letter regarding possible water impacts and the \nnumber of diesel-fueled truck trips associ ated with the project, the District does not \nexpect either to be significant.  Based on all of the information before the District and the District's review of the \ninformation submitted, the District has dete rmined that there is no possibility that the \nproject may have any significant environmental effect.  Per Section 2-1-312.7 , permit applications for the replacement or reconstruction of \nexisting sources or facilities, where the new source or facility will be located on the \nsame site as the source or facility replaced and will have substantially the same purpose and capacity as the source or facilit y replaced, are exempt from the CEQA \nreview.  Thus, the District concludes that the permit app lication is exempt from CEQA because it \nis ministerial, it is categorically exempt  from CEQA, and the project qualifies for the \n\"Common Sense Exemption\" of Subsection (b)(3) of the State CEQA Guidelines. \n \nA toxic risk analysis is not required for this application as stated above.  NESHAPS, NSPS and PSD do not apply."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nce  \n \nThe S-6051 will continue to comply with R egulation 6-301, 305, 310, and 311, which \nrequire that particulate emissions not ex ceed a Ringelmann 1.0, visible emissions not \ncause a public nuisance, that particulate emissions not exceed 0.15 gr/dscf, and that \nparticulate emissions not exceed 40 pounds per hour.  The Cooling Tower is exempt from Regulat ion 8-2 per Section 8-2-114, which requires \nthat best modern practices be used.  \nThis application will trigger both BACT and o ffsets for precursor organic compounds \n(POC) since there will an increase in POC emissions and the emissions are greater \nthan 10 pounds per highest day.  BACT for cooling towers has been achieved through monitoring and isolation of the leaking heat exchanger and repair time.  The district has \nrequired a hydrocarbon analyzer as part of a BACT determination for Shell’s clean fuels \nproject and specified repair activities.  S an Joaquin Valley Unified Air Pollution Control \nDistrict requires both a hydrocarbon detection device and a 15-day repair time for leaks \nin the heat exchangers.  In a Texas BACT det ermination a facility was required to use \nonly welded tube heat exchangers since welded tubes do not leak as often as bolted \ntubes.  Chevron expressed concern since th is cooling tower has approximately 50 heat \nexchangers associated with it.  Also repair is easier and faster if the tubes are bolted.  \nAt this time, it does not seem appropriate to require welded tubes.  Chevron will accept \nconditions requiring 15 day repair or removal fo r all but 4 critical heat exchangers which \nwill have 30 days to be either removed or repaired.  This application will require 1.38 tpy of POC emissions offsets per Regulation 2-2-302."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "4356 \n \nConditions\nSee condition #14596. (attached)  Chevron USA Products Company; plant 10   Conditions for S-6051, Alky CWT   1. POC emissions from S-6051 shall not  exceed 30.2 lb/day, averaged over any \nconsecutive 12-month period.  (cumulative increase/offsets) \n2.  Total dissolved solids in S-6051 basin shall not exceed 2000 parts per million \n(wt), averaged over any consecutive 30 day period.  (cumulative increase) \n3. The owner/operator shall install a District-approved continuous hydrocarbon \nanalyzer and recorder to determine the hydrocarbon concentration in the cooling water in Alky Cooling Water Tower (S-6051) .  The purpose of this analyzer is to \nserve as an early warning/detection device to indicate a possible heat exchanger leak of process fluid into the cooling water system and to determine compliance \nwith part 1.  The analyzer will provide base line data, which will be statistically \nevaluated to determine an Action Level.  Any hydrocarbon reading above the Action Level will trigger an alarm.  The implementation of this permit condition \nshall be subject to the approval of the dist rict upon startup of the cooling tower."
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 2,
+        "text": "Total dissolved solids in S-6051 basin shall not exceed 2000 parts per million \n(wt), averaged over any consecutive 30 day period.  (cumulative increase)",
+        "basis": []
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator shall install a District-approved continuous hydrocarbon \nanalyzer and recorder to determine the hydrocarbon concentration in the cooling water in Alky Cooling Water Tower (S-6051) .  The purpose of this analyzer is to \nserve as an early warning/detection device to indicate a possible heat exchanger leak of process fluid into the cooling water system and to determine compliance \nwith part 1.  The analyzer will provide base line data, which will be statistically \nevaluated to determine an Action Level.  Any hydrocarbon reading above the Action Level will trigger an alarm.  The implementation of this permit condition \nshall be subject to the approval of the dist rict upon startup of the cooling tower.",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\nRecommend that the following equipment be granted an Authority to Construct: \n  S-6051 Alky Cooling Tower servi ng S-4291, S-4354, S-4355, and S-"
+  },
+  "raw_sections": {
+    "preamble": "",
+    "blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nChevron Products Co., Plant #10 \nApplication Number 13023"
+      },
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd  \n \nChevron Products Co. (Chevron) is proposi ng to modify its existing S-6051 MTBE \nCooling Tower at its refinery located in Richmond.  Chevron is requesting that the \nsource name change to Alky Cooling Tower since the MTBE Plant no longer exists and this cooling tower will now be associated with the Alkylation Plant.  The capacity of S-6051 will be increasing from 33.8 million gallons per day to 43.8 million gallons per day.  \nS-6051 Cooling Tower currently has four ce lls and serves four process areas S-4291 \nAlkylation Plant, S-4354 Butamer Plant, S-4355 Deisobutanizer Plant, and S-4356 Tame Plant.  S-6051 will be increased to six cells in order to allow these four sources it \nserves to achieve the permitted capacities.  Two existing cells and the two new cells will be Marley 400s, which are induced-draft, counterflow cooling tower cells with high efficiency drift eliminators capable of achi eving at least a 0.002% drift rate.   \n All of the sources served by S-6051 have throughput limits that came from NSR \napplications (mainly the Clean Fuels Project)  and are not considered to be modified per \n2-1-234.  Title V\n \n Table II will need to be changed to show that S-6051 is to be called the Alky Cooling Tower and to show the increased capacity and throughput limits.  Sections IV, VI, and \nVII will be changed to show the change in throughput and emission limits.  Emission Calculations  \n \nS-6051 has been fully offset at its current leve l of throughput therefore only the increase \nin emissions from the increase in th roughput will be required to be offset.  The \nthroughput will be increasing from 33,840,000 ga llons per day to 43,200,000 gallons per \nday or an increase of 9,360,000 gallons per day.  POC emission estimates were performed using an emission factor of 0.7 #/MMgal from \nAP42 Chapter 5, Table 5.1-2.  POC: 9.36 MMgal/day(0.7 #/MMgal) = 6.55 #/day  6.55#/day(365 day/y)(t/2000 #) = 1.20 tpy  PM10 emission estimates were performed usi ng the total dissolved solids concentration \n(TDS) and the drift loss.  However, the new drift loss is expected to be less than 0.002% \nas opposed to the original drift loss was 0.005%.  Chevron conservatively assumes that the new unit will achieve 0.0035% drift loss.    S-6051 was originally assumed to emit 4.84 tpy PM10.  This was determined by adding \nthe amount of PM10 emissions charged from  application #’s 7735, 14701, and 16822. \n PM10: 43.2 MMgal/day(2000 ppm)(0.000035 )(8.34 #/gal)(t/2000 #)(365 day/y) \n= 4.60 tpy  \nTherefore, there will be a decreas e in PM10 emissions as a result of this application."
+      },
+      {
+        "heading": "Toxic Emissions Estimate",
+        "alias": "TOXICS",
+        "text": "Toxic Emissions Estimate\nS-6051 will have bromine, chlorine, and chlorofo rm emissions.  Chevron estimates that \nthe maximum concentration of water treatment  chemicals is 0.5 ppmv (0.005 wt %).  Of \nthe treatment chemicals, t he bromine compounds are about 60% by weight and chlorine \nis about 27% by weight.  Bromine: 15,768 MMgal/y(0.5 ppmv)(0. 000035)(8.34 #/gal)(0.60) = 1.38 #/y \n Chlorine: 15,768 MMgal/y(0.5 ppmv)(0 .000035)(8.34 #/gal)(0.27) = 0.62 #/y \n  7.1E-5 #/h max  The chloroform emission estimate is based on a 1990 ARB publication, “Proposed Identification of Chloroform as a Toxic Air Contaminant, Part A, Exposure Assessment.”  \nThe emission factor is 0.0034 pounds of chloroform per pound of chlorine (Cl2) used to chlorinate the water.  The solution contains  0.3 # Cl2/gal.  Chevron assumes 3 gallons \nper hour bleach usage.  A permit condition limiting bleach usage will be added to keep the chloroform emissions below the toxic trigger level.  Chloroform:  \n3 gal/h(0.3 # Cl2/gal) = 0.9 # Cl2/h 0.9 #Cl2/h(0.0034) = 0.00306 #/h, 26.81 #/y chloroform"
+      },
+      {
+        "heading": "The toxic risk screening trigger level for chlo roform is 34 #/y.  This corresponds to an",
+        "alias": "TOXICS",
+        "text": "The toxic risk screening trigger level for chlo roform is 34 #/y.  This corresponds to an\nn \nannual usage of 32,359 gallons of bleach per year."
+      },
+      {
+        "heading": "Plant Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant Cumulative Increase\nPOC: 1.2 tpy(1.15) – 1.38 tpy = 0.0 tpy"
+      },
+      {
+        "heading": "Toxic Risk Screening Analysis",
+        "alias": "TOXICS",
+        "text": "Toxic Risk Screening Analysis\nis \n \nToxic\n   Emission Rate   Trigger Level(#/h,#/y)  \n Bromine  1.38 #/y   N/A, 6.6E1 #/y Chlorine  7.1E-5 #/h, 0.62 #/ y  4.6E-1 #/h, 7.7E0 #/y \nChloroform  3.1E-3 #/h, 26.81 #/y 3.3E-1 #/h, 3.4E1 #/y \n A toxic risk analysis is not required for this application since the toxic emissions are not \nexpected to exceed the respective acute one-hour maximum and chronic trigger levels."
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nce  \n \nThe S-6051 will continue to comply with R egulation 6-301, 305, 310, and 311, which \nrequire that particulate emissions not ex ceed a Ringelmann 1.0, visible emissions not \ncause a public nuisance, that particulate emissions not exceed 0.15 gr/dscf, and that \nparticulate emissions not exceed 40 pounds per hour.  The Cooling Tower is exempt from Regulat ion 8-2 per Section 8-2-114, which requires \nthat best modern practices be used.  \nThis application will trigger both BACT and o ffsets for precursor organic compounds \n(POC) since there will an increase in POC emissions and the emissions are greater \nthan 10 pounds per highest day.  BACT for cooling towers has been achieved through monitoring and isolation of the leaking heat exchanger and repair time.  The district has \nrequired a hydrocarbon analyzer as part of a BACT determination for Shell’s clean fuels \nproject and specified repair activities.  S an Joaquin Valley Unified Air Pollution Control \nDistrict requires both a hydrocarbon detection device and a 15-day repair time for leaks \nin the heat exchangers.  In a Texas BACT det ermination a facility was required to use \nonly welded tube heat exchangers since welded tubes do not leak as often as bolted \ntubes.  Chevron expressed concern since th is cooling tower has approximately 50 heat \nexchangers associated with it.  Also repair is easier and faster if the tubes are bolted.  \nAt this time, it does not seem appropriate to require welded tubes.  Chevron will accept \nconditions requiring 15 day repair or removal fo r all but 4 critical heat exchangers which \nwill have 30 days to be either removed or repaired.  This application will require 1.38 tpy of POC emissions offsets per Regulation 2-2-302."
+      },
+      {
+        "heading": "CEQA Categorical Exemptions and CEQA \"Common Sense Exemption\":",
+        "alias": "CEQA",
+        "text": "CEQA Categorical Exemptions and CEQA \"Common Sense Exemption\":\nThough the District concludes that this project is  ministerial, it also concludes that, even \nif it were not ministerial, certain other  exemptions from CEQA apply (see CEQA \nGuidelines § 15300.1).  Section 2-1-312 of t he District Rules and Regulations sets forth \nspecific types of projects, which have been det ermined by the District to be categorically \nexempt from CEQA.   \n \nPer Section 2-1-312.11 , in addition to ministerial projects, permit applications for a new \nor modified source or sources or for pr ocess changes, which will satisfy the \"No Net \nEmission Increase\" provisions of District Regul ation 2, Rule 2 and for which there is no \npossibility that the project may have any si gnificant environmental effect in connection \nwith any environmental media or resources ot her than air quality, are exempt from the \nCEQA review.  The reason for this exempti on should be apparent on its face: if a facility \nis given legal permission to emit more air pollutants from certain points while at the \nsame time being disallowed permission for an equivalent amount of the same type of \nemissions from other points at the facility,  then there is deemed to be no net effect on \nthe air environment, and therefore no possibilit y of a significant effect under CEQA, \nprovided no-air impacts are also examined and deemed to be of no possible significant \nconsequence.  Also, per the CEQA Guidelines in Title 14,  California Code of Regulations, Chapter 3, \nArticle 5, Section 15061(b)(3), a project is exem pt from CEQA if the activity is covered \nby the general rule that CEQA applies only to projects, which have the potential for \ncausing a significant effect on the environment.  This is commonly known as the \"Common Sense Exemption\".  Where it c an be seen with certainty that there is no \npossibility that the activity in question may have a significant effect on the environment, \nthe activity is not subject to CEQA.  The “no net increase” exem ption of 2-1-312.11 is \nessentially a specific, codified, inst ance of the Common Sense Exemption. \n For this permit application, the District det ermined that the project will satisfy the \"No \nNet Emission Increase\" provisions of District Regulation 2, Rule 2.    Chevron has completed and submitted to t he District CEQA Appendix H, Environmental \nInformation Form, for the project.    The District has reviewed the CEQA Appendix H form.  Chevron checked “yes” for the item regarding “Site on filled land or on slope of 10 percent or more.”  Chevron also \nchecked “yes” for the use and disposal of potentially hazardous materials, however \nChevron asserts that this project will not in crease the use or disposal of potentially \nhazardous materials.  All other items on the fo rm were checked “no.”  In the attachment \nto Appendix H, Chevron explained that constr uction will take place in a process plant \narea, which was constructed on filled land.  No additional filling will be required for this \nproject.  Facilities will be designed and cons tructed to current earthquake and soil \nloading standards.  In the TURBO application #10798, Chevron asserted that the entire \nsite of the existing plant is on hydraulic  and engineered fill from the 1960’s and earlier.  \nThe District accepts this assertion for this application.    Chevron has also submitted additional informati on in order for the District to determine \nthe project's possible significant effects on surface and ground water and diesel-fueled \ntruck traffic air impacts.  Based on the information contained in the Appendix H form submitted and Chevron’s May 11, 2006 letter regarding possible water impacts and the \nnumber of diesel-fueled truck trips associ ated with the project, the District does not \nexpect either to be significant.  Based on all of the information before the District and the District's review of the \ninformation submitted, the District has dete rmined that there is no possibility that the \nproject may have any significant environmental effect.  Per Section 2-1-312.7 , permit applications for the replacement or reconstruction of \nexisting sources or facilities, where the new source or facility will be located on the \nsame site as the source or facility replaced and will have substantially the same purpose and capacity as the source or facilit y replaced, are exempt from the CEQA \nreview.  Thus, the District concludes that the permit app lication is exempt from CEQA because it \nis ministerial, it is categorically exempt  from CEQA, and the project qualifies for the \n\"Common Sense Exemption\" of Subsection (b)(3) of the State CEQA Guidelines. \n \nA toxic risk analysis is not required for this application as stated above.  NESHAPS, NSPS and PSD do not apply."
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\nRecommend that the following equipment be granted an Authority to Construct: \n  S-6051 Alky Cooling Tower servi ng S-4291, S-4354, S-4355, and S-"
+      },
+      {
+        "heading": "4356 \n \nConditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "4356 \n \nConditions\nSee condition #14596. (attached)  Chevron USA Products Company; plant 10   Conditions for S-6051, Alky CWT   1. POC emissions from S-6051 shall not  exceed 30.2 lb/day, averaged over any \nconsecutive 12-month period.  (cumulative increase/offsets) \n2.  Total dissolved solids in S-6051 basin shall not exceed 2000 parts per million \n(wt), averaged over any consecutive 30 day period.  (cumulative increase) \n3. The owner/operator shall install a District-approved continuous hydrocarbon \nanalyzer and recorder to determine the hydrocarbon concentration in the cooling water in Alky Cooling Water Tower (S-6051) .  The purpose of this analyzer is to \nserve as an early warning/detection device to indicate a possible heat exchanger leak of process fluid into the cooling water system and to determine compliance \nwith part 1.  The analyzer will provide base line data, which will be statistically \nevaluated to determine an Action Level.  Any hydrocarbon reading above the Action Level will trigger an alarm.  The implementation of this permit condition \nshall be subject to the approval of the dist rict upon startup of the cooling tower."
+      },
+      {
+        "heading": "(BACT)",
+        "alias": "BACT",
+        "text": "(BACT)\n4. Once the alarm is triggered, the ow ner/operator shall al so measure, with a \ndistrict-approved LEL monitor, the conc entration of hydrocarbons in the S-6051 \nCooling Tower vapor space as a percent of the lower explosive limit (LEL) once \neach calendar day while the hydrocarbon reading remains above the Action level.  (BACT) \n5. The owner/operator of S-6051 shall either repair any leaking heat exchanger, \nremove the leaking heat exchanger, or other wise remove the source of the leak \nwithin 15 days of detection of the leak as identified by the alarm set at the Action \nlevel.  If the owner/operator identifies t he source of a leak to be E-1404, E-1421, \nor E-1220 located in the Alkylation Unit (S-4291), or E-400 located in the Yard \nDeisobutanizer (S-4355), the owner/operator  of S-6051 shall remove the leaking \nheat exchanger from service, or otherwise e liminate the source of the leak, within \n30 calendar days or less from the alarm trigger date.  If the concentration of \nhydrocarbons in the cooling tower vapor space exceeds 10 percent of LEL, the \nowner/operator shall remove the leak ing heat exchanger from service, or \notherwise eliminate the source  of the leak as soon as practicable, but within 15 \ndays or less of exceeding the 10 per cent of LEL limit.  (BACT) \n6. In order to demonstrate compliance with part 2, the owner /operator of S-6051 \nshall conduct district approved monthly te sts on the cooling water for TDS. The \nowner/operator of S-6051 shall maintain a di strict approved monthly log of all test \ndata.  This log shall be kept on site for at  least 5 years from the date of entry and \nbe made available to district staff upon request.  (Record keeping) \n7. In order to demonstrate compliance with part 1, the owner /operator of S-6051 \nshall use volatile organic concentrati on data from the continuous hydrocarbon \nanalyzer from part 3 and the flowrate dat a from district-approved flowmeters \ninstalled at district-approved sample por t locations.  The owner/operator of S-\n6051 shall maintain a district-approved daily log of all hydrocarbon analyzer \nconcentration data, flowrate data, and daily emissions estimates.  This log shall \nbe kept on site for at least 5 years from  the date of entry and be made available \nto district staff upon request.  (1-523, BACT, Record keeping) \n8. The owner/operator of S-6051 shall mainta in a district approved daily log of all \nhydrocarbon analyzer data, flowmeter data, daily emissions data, date and time \nof all alarms, a summary of the baseline and action levels data, a description of findings and actions taken for each incident above the Action level, and all LEL measurements.  This log shall be kept on si te for at least 5 years from the date of \nentry and be made available to district staff upon request.  (Record keeping) \n   \n \n \n      by________________date________ \n        Gregory Solomon  \n       Senior Air Quality Engineer"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nChevron Products Co., Plant #10 \nApplication Number 13023"
+      }
+    ]
+  }
+}

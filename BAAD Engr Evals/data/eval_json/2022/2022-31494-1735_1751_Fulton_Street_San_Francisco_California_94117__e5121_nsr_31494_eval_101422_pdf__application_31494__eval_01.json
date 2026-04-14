@@ -1,0 +1,295 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 7
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "Chronic\nTrigger\nLevel?\n2-Butanone  78-93-3 7.51E-07 2.90E+01  6.58E-03 - No\nChloroform  67-66-3 8.92E-08 3.30E-01 7.81E-04 1.50E+01  No\nIsopropanol  67-63-0 1.03E-04 7.10E+00  9.04E-01 2.70E+05  No\nTetrachloroethene  (PCE) 127-18-4 6.26E-03 4.40E+01  5.48E+01  1.40E+01  Yes\nToluene 108-88-3 7.98E-08 8.20E+01  6.99E-04 1.20E+04  No\nXylenes (Total)  1330-20-7 3.59E-07 4.90E+01  3.14E-03 2.70E+04  No"
+      ]
+    },
+    "application_number_detected": "31494",
+    "application_number_from_filename": "31494",
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2022/31494/e5121_nsr_31494_eval_101422-pdf.pdf?rev=95f30d169e234ea8af78b43088ad42cd&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2022/101422-31494/former-sunshine-dry-cleaners"
+  },
+  "application_number": "31494",
+  "plant": {
+    "name": "1735-1751 Fulton Street, San Francisco, California 94117",
+    "plant_id": 25121,
+    "address": "1751 Fulton Street"
+  },
+  "evaluation_date": null,
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Soil Vapor Extraction System"
+    },
+    {
+      "id": "A-1",
+      "description": "Activated Carbon Vessels"
+    }
+  ],
+  "background": {
+    "text": "Background\nnd \n \nOn behalf of Socialville LP and the Former Sunshine Cleaners, Farallon Consulting, LLC has applied for \nan Authority to Construct for the following equipment: \n \nS-1 Soil Vapor Extraction System \nBlower Make: Elmo Rietschele, Model: G-SAP 530, Maximum 418 CFM \nAbated by A-1, Activated Carbon Vessels \n \nA-1 Activated Carbon Vessels \nMinimum of Three (3) 1,000-LBS Activated Carbon Vessels Arranged in Series \nMake: Mako Industries, Model: VF-1000 \n \nThe site consists of two buildings located at 1735 and 1751 Fulton Street in San Francisco.  The eastern \nbuilding (1735 Fulton) was previously operated as a dry cleaner.  The western building (1751 Fulton) was \npreviously occupied by a restaurant and bar and is currently unoccupied.  Historical operations at 1735 \nFulton released tetrachloroethene (PCE) into the soil beneath both buildings.  Lab analysis of the soil \nbeneath the buildings shows the presence of a variety of chlorinated and non-chlorinated volatile organic \ncompounds (VOC), with PCE as the primary contaminant of concern.  Farallon Consulting has proposed \nto install S-1, a soil vapor extraction system (SVE), to remediate the contaminated soil. \n \nS-1 will include a maximum 418-cfm vacuum blower to remove VOCs.  Contaminated soil vapor will be \nrouted through a series of three (3) 1,000-lb activated carbon vessels to remove VOCs before reaching the \natmosphere.  Emissions are based on laboratory results of soil vapor submitted in this application for the \nsite.  S-1 will be located within 1,000 ft of a K-12 school and is subject to a public notice. \n \nProcedures are outlined in the conditions found below.  Effluent volatile organic compound (VOC) \nconcentrations will be monitored with a flame-ionization detector (FID) on a schedule reflecting current \nloading rates and predicted carbon capacity.  Monitoring schedule changes will be allowed based on \nmonitoring data collected."
+  },
+  "emission_calculations": {
+    "text": "Emission Calculations\nns \n \nSoil vapor data will be used to estimate precursor organic compound (POC), non-precursor organicEmissions, Post\n4/5/1991 \n(ton/yr) Application New \nEmissions Increase \n(ton/yr) New Cumulative \nIncrease \n(ton/yr) \nPOC 0.000 0.000 0.000"
+  },
+  "cumulative_increase": {
+    "text": "Cumulative Increase\nease \n \nTable 3.  Cumulative Increase \nPollutant Current Permitted"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emission Calculations\nns \n \nSoil vapor data will be used to estimate precursor organic compound (POC), non-precursor organicEmissions, Post\n4/5/1991 \n(ton/yr) Application New \nEmissions Increase \n(ton/yr) New Cumulative \nIncrease \n(ton/yr) \nPOC 0.000 0.000 0.000",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the equipment can\noperate 24 hours a day, 365 days a year.  The following are assumptions used to estimate emissions. \n \n Operating conditions: Pressure = 1 Atm; Inlet Temperature = 21 oC; 1 mole occupies 24.15 Liters \n(or 386.8 ft3/lb-mol) \n The inlet concentration of pollutants corresponds to the maximum concentration found from lab \nanalysis of soil vapor. \n Hydrocarbons will be abated by three (3) 1,000-lb minimum activated carbon vessels in series.  \nPOC/NPOC cumulative emissions are based on a 6.15-ppm total organic effluent concentration \nApplication No. 31494   Plant No. 25121  \n2 \n since the last carbon threshold changeout level on the last abatement vessel will be limited 6.15 \nppm, calibrated to methane. Toxic Air Contaminants (TAC) emissions will be based on soil vapor data submitted with this\napplication. \n The organic influent flow rate of 418 scfm was used in the calculations. \n An abatement efficiency of 90% and 98.5% will be assumed for NPOC and POC, respectively. \n \nTable 1. Emissions Review for Soil Vapor Extraction System (S-1) \nPollutant CAS Pollutant \nDesignation \nInlet Conc. \n(µg/m3) Unabated Emission Rates \nPOC NPOC TAC Hourly \n(lbs/hr) Daily \n(lbs/day) Annual \n(lbs/yr) Annual \n(tons/yr) \n4-Ethyltoluene 622-96-8 X     9.2 1.44E-05 3.45E-04 0.13 6.30E-05 \n2-Butanone 78-93-3 X   X 32 5.01E-05 1.20E-03 0.44 2.19E-04 \n2-Hexanone 591-78-6 X     5.6 8.76E-06 2.10E-04 7.67E-02 3.84E-05 \nAcetone 67-64-1   X   240 3.75E-04 9.01E-03 3.29 1.64E-03 \nChloroform 67-66-3 X   X 3.8 5.94E-06 1.43E-04 5.21E-02 2.60E-05 \nIsopropanol 67-63-0 X   X 4400 6.88E-03 0.17 60.29 0.030 \ntert-Butanol 75-65-0 X     30 4.69E-05 1.13E-03 0.41 2.06E-04 \nTetrachloroethene 127-18-4   X X 40000 6.26E-02 1.50 548.13 0.274 \nToluene 108-88-3 X   X 3.4 5.32E-06 1.28E-04 4.66E-02 2.33E-05 \nXylenes (Total) 1330-20-7 X   X 15.3 2.39E-05 5.74E-04 0.21 1.05E-04 \n  \nPollutant CAS Pollutant \nDesignation Abatement \nEfficiency \n(% w/w) Abated Emission Rates \nPOC NPOC TAC Hourly \n(lbs/hr) Daily \n(lbs/day) Annual \n(lbs/yr) Annual \n(tons/yr) \n4-Ethyltoluene 622-96-8 X     98.5% 2.16E-07 5.18E-06 1.89E-03 9.46E-07 \n2-Butanone 78-93-3 X   X 98.5% 7.51E-07 1.80E-05 6.58E-03 3.29E-06 \n2-Hexanone 591-78-6 X     98.5% 1.31E-07 3.15E-06 1.15E-03 5.76E-07 \nAcetone 67-64-1   X   90.0% 3.75E-05 9.01E-04 0.33 1.64E-04 \nChloroform 67-66-3 X   X 98.5% 8.92E-08 2.14E-06 7.81E-04 3.91E-07 \nIsopropanol 67-63-0 X   X 98.5% 1.03E-04 2.48E-03 0.90 4.52E-04 \ntert-Butanol 75-65-0 X     98.5% 7.04E-07 1.69E-05 6.17E-03 3.08E-06 \nTetrachloroethene 127-18-4   X X 90.0% 6.26E-03 0.15 54.81 0.027 \nToluene 108-88-3 X   X 98.5% 7.98E-08 1.91E-06 6.99E-04 3.49E-07 \nXylenes (Total) 1330-20-7 X   X 98.5% 3.59E-07 8.62E-06 3.14E-03 1.57E-06 \nNotes: \n1. Influent data was obtained from lab data of soil vapor sampling performed at the site. \n2. Total Xylenes are the sum of m, o, and p-Xylenes \n3. It is assumed that equipment will operate 24 hours a day, 365 days a year. \n \n \n \nApplication No. 31494   Plant No. 25121  \n3 \n Table 2.  Organic Emissions Review –Soil Vapor Extraction System \nPollutant Effluent \nVolumetric \nConcentration  \n(ppmv) Hourly \nEmission \nRate \n(lb/hr) Daily \nEmission \nRate \n(lb/day) Annual \nEmission \nRate \n(lb/yr) Annual \nEmission \nRate \n(ton/yr) \nPOC 0.10 1.06E-04 2.53E-03 0.92 4.62E-04 \nNPOC 6.05 6.29E-03 0.15 55.14 0.028 \nTotal Organics  6.15 6.40E-03 0.15 56.07 0.028Toxic Risk Screening\nning   \n \nA project is subject to Regulation 2, Rule 5 if emissions of toxic air contaminants (TAC) exceed any acute \nor chronic trigger levels in Table 2-5-1 of Regulation 2-5.  There are no related sources at this facility within \nthe 3-year lookback period.  Therefore, the project review of TAC emissions will include only the emissions \nfrom S-1.  Table 4 provides a summary of the project TAC emissions. \n \nTable 4.  Project Toxic Air Contaminant Emissions \nPollutant  CAS # Hourly \nEmission \nRate \n(lb/hr) Acute \nTrigger \nLevel \n(lb/hr) Annual \nEmission \nRate \n(lb/yr) Chronic \nTrigger \nLevel \n(lb/yr) Exceeds \nAcute or \nChronic \nTrigger \nLevel? \n2-Butanone  78-93-3 7.51E-07 2.90E+01  6.58E-03 - No \nChloroform  67-66-3 8.92E-08 3.30E-01 7.81E-04 1.50E+01  No \nIsopropanol  67-63-0 1.03E-04 7.10E+00  9.04E-01 2.70E+05  No \nTetrachloroethene  (PCE) 127-18-4 6.26E-03 4.40E+01  5.48E+01  1.40E+01  Yes \nToluene 108-88-3 7.98E-08 8.20E+01  6.99E-04 1.20E+04  No \nXylenes (Total)  1330-20-7 3.59E-07 4.90E+01  3.14E-03 2.70E+04  No \n \nThis project is expected to exceed the chronic trigger level for PCE and is therefore subject to the \nrequirements of Regulation 2-5.  An initial Health Risk Assessment (HRA) was conducted with the original \nstack outlet design of a fixed rain cap.  The results of this initial HRA yielded a maximum project cancer \nrisk (resident) that exceeded the project risk limitation of 10 in a million, per Regulation 2-5-302.  A second \nHRA was conducted with a hinged rain flap stack outlet and the results are summarized in Table 5 below. \n \n \n \n \n \nApplication No. 31494   Plant No. 25121  \n4 \n Table 5. Health Risk Assessment Results \nReceptor Cancer Risk Chronic Hazard Index Acute Hazard Index \nResident 7.3 in a million  0.015 N/A \nWorker 0.45 in a million  0.011 N/A \nStudent 0.042 in a million  0.00030 N/A \nPMI N/A N/A 0.00054 \n \nThe results from the HRA indicate that the maximum project cancer risk (resident) is estimated at 7.3 in a \nmillion, the maximum project chronic hazard index (resident) is estimated at 0.015, and the maximum \nproject acute hazard index is 0.00054.  These risk values comply with the Regulation 2-5-302 project risk \nrequirements.  To ensure compliance with the project risk limitation, S-1 will be required to operate with \nan open stack outlet design or a hinged rain flap.  The facility will be prohibited to operate S-1 with a fixed \nrain cap.Best Available Control Technology for Toxics (TBACT)\nPursuant to Regulation 2-5-301, a new or modified source is subject to TBACT if the source cancer risk \nexceeds 1.0 in a million and/or if the chronic hazard index exceeds 0.20.   \n \nThe estimated cancer risk for S-1 exceeds 1.0 in a million and therefore the source is subject to TBACT for \nemissions of POC and NPOC.  Section 9 of the Air District’s BACT/TBACT Workbook has guidelines for \nSoil Vapor Extraction operations. If technologically feasible and cost-effective, TBACT 1 for POC requires \nthe effluent volumetric concentration of POC to be less than or equal to 10 ppmv; or POC must be abated \nwith a capture/destruction efficiency of at least 98.5%.  The typical technology to achieve this requirement \nis by at least two (2) activated carbon vessels in series or a thermal oxidizer.  TBACT 1 for NPOC requires \nthe effluent volumetric concentration of NPOC to be less than or equal to 10 ppmv.  The typical technology \nto achieve this requirement is at least two (2) activated carbon vessels in series.  Although the TBACT \nrequirement for NPOC allows for an effluent volumetric concentration up to 10 ppmv, the effluent NPOC \nvolumetric concentration for this source would not be allowed exceed 6.05 ppmv to ensure that the project \nrisk does not increase. \n \nThe applicant satisfies the TBACT technology requirement with the proposed use of three (3) activated \ncarbon vessels in series.  Furthermore, the applicant has agreed to the emission control requirements for \nPOC and NPOC.  With the maximum effluent volumetric concentration of NPOC not to exceed 6.05 ppmv.  \nThe TBACT requirements will be reflected in the permit conditions below.[Basis: Regulations 8-47-301, 8-47-302, and Toxics].\n2. The owner/operator shall operate A-1 in a manner such that the abatement efficiency of POC \nshall be maintained at a minimum of 98.5% by weight.  The minimum POC abatement efficiency \nApplication No. 31494   Plant No. 25121  \n6 \n shall be waived if outlet POC concentrations are shown to be less than or equal to 10 ppmv \n(measured as methane).  Additionally, the owner/operator shall operate A-1 in a manner such that \nthe outlet concentration of NPOC does not exceed 6.05 ppmv (measured as methane).  In no \nevent shall the tetrachloroethene emission rate exceed 54.81 pounds per year.  [Basis: TBACT,Toxics]\n3. Except as provided in Part 2 of this condition, in no event shall the toxic air contaminant (TAC) \nemissions from S-1 exceed the trigger levels listed in Table 2-5-1 of Regulation 2, Rule 5. [Basis: \nToxics]. \n \n4. The owner/operator shall operate S-1 with either an open or hinged rain flap stack outlet.  \nOperation of S-1 with a fixed rain cap is prohibited. [Basis: Toxics]. \n \n5. Upon initial start-up, the owner/operator shall take air samples from S-1 for laboratory analysis \nusing EPA Method TO-15.  The air samples shall be taken at the following locations: \n \na. At the inlet to the first carbon vessel in series. \nb. At the outlet of the carbon vessel that is last in series prior to venting to the atmosphere. \n \nThe owner/operator shall use the results from the laboratory report to calculate TAC emissions \nemitted to the atmosphere, using the maximum design flowrate of S-1.  The owner/operator shall \nsubmit the laboratory report and calculated TAC emissions within 21 days of the initial startup, to \ndemonstrate compliance with Parts 2, 3, and 9 of this condition.  [Basis: Regulation 2-1-403]  \n \n6. During operation of A-1, the owner/operator shall monitor with a flame-ionization detector (FID) \nor other method approved in writing by the District's Source Test Manager at the following \nlocations: \n \na. At the inlet to the second to last carbon vessel in series. \nb. At the inlet to the last carbon vessel in series. \nc. At the outlet of the last carbon vessel in series, prior to venting to the atmosphere. \n[Basis: Regulations 1-523 and 2-1-403] \n \n7. The owner/operator shall conduct monitoring on a daily basis in accordance with Part 6 of this \ncondition.  The owner/operator shall record these monitor readings in a monitoring log at the time \nthey are taken.  The owner/operator shall use the monitoring results to estimate the frequency of \ncarbon change-out necessary to maintain compliance with Parts 2, 8, and 9 of this condition. \n \na. If the owner/operator can demonstrate two (2) weeks of consecutive daily monitoring \nreadings lower than 3.1 ppmv (measured as methane) at the outlet of the last carbon \nvessel in series, the monitoring frequency may be reduced to weekly. \nb. After the monitoring frequency has been reduced to weekly, if the owner/operator can \ndemonstrate one (1) month of consecutive weekly monitoring readings lower than 3.1 \nppmv (measured as methane) at the outlet of the last carbon vessel in series, the \nmonitoring frequency may be reduced to once every two (2) weeks. \nc. After the monitoring frequency has been reduced to once every two (2) weeks, if the \nowner/operator can demonstrate one (1) month of consecutive bi-weekly readings lower \nthan 3.1 ppmv (measured as methane) at the outlet of the last carbon vessel in series, the \nmonitoring frequency may be reduced to monthly. \nd. If any subsequent results from monitoring exceed 3.1 ppmv (measured as methane) at the \noutlet of the last carbon vessel in series, the owner/operator shall revert to daily \nApplication No. 31494   Plant No. 25121  \n7 \n monitoring.  If monitoring reverts back to daily, the owner/operator may reduce the \nmonitoring frequency in accordance with Parts 7(a) through (c) of this condition.[Basis: Cumulative Increase, Toxics, and Regulations 1-523 and 2-1-403]\n8. The second to last carbon vessel shall be immediately changed out with unspent carbon upon \nbreakthrough, defined as the detection at its outlet in excess of the higher of the following limits: \n \na. 10 % of the inlet stream concentration to the carbon bed. \nb. 10 ppmv (measured as methane). \n[Basis: Cumulative Increase and Regulations 1-523 and 2-1-403] \n \n9. The last carbon vessel shall be immediately changed out with unspent carbon upon detection at its \noutlet of 6.15 ppmv or greater (measured as methane).  [Basis: Cumulative Increase and \nRegulations 1-523 and 2-1-403] \n \n10. The owner/operator shall maintain the following information for each month of operation: \n \na. Hours and time of operation. \nb. Each emission test, analysis, or monitoring results logged in for the day of operation they \nwere taken. \nc. The number of carbon vessels removed from service. \nd. Total throughput of soil vapor from source S-1 in standard cubic feet. \n \nSuch records shall be retained and made available for inspection by the District for two (2) years \nfollowing the date the data is recorded.  [Basis: Recordkeeping] \n \n11. The owner/operator shall report any noncompliance with these conditions to the Compliance and \nEnforcement Division at the time that it is first discovered.  The owner/operator shall detail the \ncorrective action taken and include the data showing the exceedance as well as the time of \noccurrence in the submittal.  [Basis: Regulation 2-1-403] \n \n12. The owner/operator shall maintain a file containing all measurements, records and other data that \nare required to be collected pursuant to the various provisions of this condition.  All \nmeasurements, records and data required to be maintained by the operator shall be retained for at \nleast two (2) years following the date the data is recorded.  [Basis: Regulation 1-523] \n \nUpon final completion of the remediation project, the operator shall notify the Engineering Division \nwithin two weeks of decommissioning the operation.  [Basis: Regulation 2-1-403]"
+  },
+  "BACT": {
+    "text": "5 \n Best Available Control Technology (BACT)\nIn accordance with Regulation 2-2-301, Best Available Control Technology (BACT) is triggered for any \nnew or modified source with the potential to emit 10 pounds or more per highest day of POC, NPOC, \nnitrogen oxides (NO x), carbon monoxide (CO), sulfur dioxides (SO 2), particulate matter less than 10 \nmicrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). \n \nNPOC and POC emissions are expected to be below 10 lb/day.  Therefore, a BACT review is not required."
+  },
+  "offsets": {
+    "narrative": "Offsets\nts \n \nPursuant to Regulation 2-2-302, offsets must be provided for any new or modified source at a facility that \nemits, or is permitted to emit, more than 10 tons per year of precursor organic compounds (POCs) or \nnitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2-2-303 offsets must be provided for any \nnew or modified source at a major facility with a cumulative increase that exceeds 1.0 ton per year of \nPM10, PM2.5, or sulfur dioxide (SO 2). \n \nThe facility is not expected to have a PTE greater than 10 tons per year of POC or NO X, nor is the facility \na major facility of PM 10, PM2.5, and SO 2.  Therefore, the requirements of Regulations 2-2-302 and 2-2-\n303 do not apply. \n \n \n \nApplication No. 31494   Plant No. 25121",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          10.0,
+          "N/A",
+          null
+        ],
+        [
+          "PM10",
+          2.5,
+          "N/A",
+          null
+        ],
+        [
+          "PM2.5",
+          2.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD), New Source Performance Standards (NSPS), and National\nEmission Standards for Hazardous Air Pollutants (NESHAPS) are not triggered."
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA)\nA)  \n \nThis project is classified as ministerial under the District Regulation 2-1-311, because the engineering \nreview for this project requires only the application of standard emission factors and established formulas \nas specified in Chapter 9.2 of the District’s Permit Handbook.  This review follows objective procedures \nand applies standard permit conditions; and therefore, the review of this project is not discretionary as \ndefined by CEQA.  Since this project is ministerial, it is not subject to CEQA review requirement of \nRegulation 2-1-310, and no further CEQA analysis is required."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "Statement of Compliance\nce \n \nRegulation 8, Rule 47 – Air Stripping & Soil Vapor Extraction Operations \nBased on the information submitted, this operation is expected to meet the 90% control requirement of \nRegulations 8-47-301 and 8-47-302.  Emissions will be vented through a carbon adsorption system at all \ntimes of operation."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "Public Notification (Regulation 2-1-412)\nS-1 is not located in an overburdened community (OBC), but will be located within 1,000 feet of San \nFrancisco Day School (Grades K-8).  The project is subject to public notification requirements of \nRegulation 2-1-412 due to an increase in toxic emissions.  A public notice will be sent to all parents of \nstudents of the above-mentioned school(s) and all residents within 1,000 feet of the facility.  There will be \na 30-day public comment period."
+  },
+  "conditions": {
+    "text": "Permit Conditions\nions \n \nPermit Condition #27772 \n \n1. The owner/operator shall abate the precursor organic compound (POC)/non-precursor organic \ncompound (NPOC) emissions from the soil vapor extraction system (S-1) with the Activated \nCarbon Vessels (A-1), consisting of a minimum of three (3) 1,000 lbs activated carbon vessels in \nseries, during all periods of operation.  The influent vapor flow rate shall not exceed 418 scfm."
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator shall abate the precursor organic compound (POC)/non-precursor organic \ncompound (NPOC) emissions from the soil vapor extraction system (S-1) with the Activated \nCarbon Vessels (A-1), consisting of a minimum of three (3) 1,000 lbs activated carbon vessels in \nseries, during all periods of operation.  The influent vapor flow rate shall not exceed 418 scfm.",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\ntion  \nThe District has reviewed the material contained in the permit application for the proposed project and has \nmade a preliminary determination that the project is expected to comply with all applicable requirements \nof District, state, and federal air quality-related regulations.  The preliminary recommendation is to issue \nan Authority to Construct/Permit to Operate for the equipment listed below.  However, the proposed source \nwill be located within 1,000 feet of at least one school, which triggers the public notification requirements \nof District Regulation 2-1-412.  After the comments are received and reviewed, the District will make a \nfinal determination on the permit.  \n  \nI recommend that the District initiate a public notice and consider any comments received prior to taking \nany final action on issuance of an Authority to Construct/Permit to Operate for the following source:  \nApplication No. 31494   Plant No. 25121  \n8 \n  \n \n \nS-1 Soil Vapor Extraction System \nBlower Make: Elmo Rietschele, Model: G-SAP 530, Maximum 418 CFM \nAbated by A-1, Activated Carbon Vessels \n \nA-1 Activated Carbon Vessels \nMinimum of Three (3) 1,000-LBS Activated Carbon Vessels Arranged in Series \nMake: Mako Industries, Model: VF-1000  \n \n \nBy:          Date: 9/9/22  \n \nCameron Fee \nAir Quality Engineer I"
+  },
+  "raw_sections": {
+    "preamble": "Draft Engineering Evaluation  \nFormer Sunshine Dry Cleaners \n1735-1751 Fulton Street, San Francisco, California 94117 \nPlant No. 25121 (Site No. E5121) \nApplication No. 31494 \nProject Description: Soil Vapor Extraction System",
+    "blocks": [
+      {
+        "heading": "Background",
+        "alias": "BACKGROUND",
+        "text": "Background\nnd \n \nOn behalf of Socialville LP and the Former Sunshine Cleaners, Farallon Consulting, LLC has applied for \nan Authority to Construct for the following equipment: \n \nS-1 Soil Vapor Extraction System \nBlower Make: Elmo Rietschele, Model: G-SAP 530, Maximum 418 CFM \nAbated by A-1, Activated Carbon Vessels \n \nA-1 Activated Carbon Vessels \nMinimum of Three (3) 1,000-LBS Activated Carbon Vessels Arranged in Series \nMake: Mako Industries, Model: VF-1000 \n \nThe site consists of two buildings located at 1735 and 1751 Fulton Street in San Francisco.  The eastern \nbuilding (1735 Fulton) was previously operated as a dry cleaner.  The western building (1751 Fulton) was \npreviously occupied by a restaurant and bar and is currently unoccupied.  Historical operations at 1735 \nFulton released tetrachloroethene (PCE) into the soil beneath both buildings.  Lab analysis of the soil \nbeneath the buildings shows the presence of a variety of chlorinated and non-chlorinated volatile organic \ncompounds (VOC), with PCE as the primary contaminant of concern.  Farallon Consulting has proposed \nto install S-1, a soil vapor extraction system (SVE), to remediate the contaminated soil. \n \nS-1 will include a maximum 418-cfm vacuum blower to remove VOCs.  Contaminated soil vapor will be \nrouted through a series of three (3) 1,000-lb activated carbon vessels to remove VOCs before reaching the \natmosphere.  Emissions are based on laboratory results of soil vapor submitted in this application for the \nsite.  S-1 will be located within 1,000 ft of a K-12 school and is subject to a public notice. \n \nProcedures are outlined in the conditions found below.  Effluent volatile organic compound (VOC) \nconcentrations will be monitored with a flame-ionization detector (FID) on a schedule reflecting current \nloading rates and predicted carbon capacity.  Monitoring schedule changes will be allowed based on \nmonitoring data collected."
+      },
+      {
+        "heading": "Emission Calculations",
+        "alias": "EMISSIONS",
+        "text": "Emission Calculations\nns \n \nSoil vapor data will be used to estimate precursor organic compound (POC), non-precursor organic"
+      },
+      {
+        "heading": "compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the equipment can",
+        "alias": "TOXICS",
+        "text": "compound (NPOC), and toxic air contaminant (TAC) emissions.  It is assumed that the equipment can\noperate 24 hours a day, 365 days a year.  The following are assumptions used to estimate emissions. \n \n Operating conditions: Pressure = 1 Atm; Inlet Temperature = 21 oC; 1 mole occupies 24.15 Liters \n(or 386.8 ft3/lb-mol) \n The inlet concentration of pollutants corresponds to the maximum concentration found from lab \nanalysis of soil vapor. \n Hydrocarbons will be abated by three (3) 1,000-lb minimum activated carbon vessels in series.  \nPOC/NPOC cumulative emissions are based on a 6.15-ppm total organic effluent concentration \nApplication No. 31494   Plant No. 25121  \n2 \n since the last carbon threshold changeout level on the last abatement vessel will be limited 6.15 \nppm, calibrated to methane."
+      },
+      {
+        "heading": " Toxic Air Contaminants (TAC) emissions will be based on soil vapor data submitted with this",
+        "alias": "TOXICS",
+        "text": " Toxic Air Contaminants (TAC) emissions will be based on soil vapor data submitted with this\napplication. \n The organic influent flow rate of 418 scfm was used in the calculations. \n An abatement efficiency of 90% and 98.5% will be assumed for NPOC and POC, respectively. \n \nTable 1. Emissions Review for Soil Vapor Extraction System (S-1) \nPollutant CAS Pollutant \nDesignation \nInlet Conc. \n(µg/m3) Unabated Emission Rates \nPOC NPOC TAC Hourly \n(lbs/hr) Daily \n(lbs/day) Annual \n(lbs/yr) Annual \n(tons/yr) \n4-Ethyltoluene 622-96-8 X     9.2 1.44E-05 3.45E-04 0.13 6.30E-05 \n2-Butanone 78-93-3 X   X 32 5.01E-05 1.20E-03 0.44 2.19E-04 \n2-Hexanone 591-78-6 X     5.6 8.76E-06 2.10E-04 7.67E-02 3.84E-05 \nAcetone 67-64-1   X   240 3.75E-04 9.01E-03 3.29 1.64E-03 \nChloroform 67-66-3 X   X 3.8 5.94E-06 1.43E-04 5.21E-02 2.60E-05 \nIsopropanol 67-63-0 X   X 4400 6.88E-03 0.17 60.29 0.030 \ntert-Butanol 75-65-0 X     30 4.69E-05 1.13E-03 0.41 2.06E-04 \nTetrachloroethene 127-18-4   X X 40000 6.26E-02 1.50 548.13 0.274 \nToluene 108-88-3 X   X 3.4 5.32E-06 1.28E-04 4.66E-02 2.33E-05 \nXylenes (Total) 1330-20-7 X   X 15.3 2.39E-05 5.74E-04 0.21 1.05E-04 \n  \nPollutant CAS Pollutant \nDesignation Abatement \nEfficiency \n(% w/w) Abated Emission Rates \nPOC NPOC TAC Hourly \n(lbs/hr) Daily \n(lbs/day) Annual \n(lbs/yr) Annual \n(tons/yr) \n4-Ethyltoluene 622-96-8 X     98.5% 2.16E-07 5.18E-06 1.89E-03 9.46E-07 \n2-Butanone 78-93-3 X   X 98.5% 7.51E-07 1.80E-05 6.58E-03 3.29E-06 \n2-Hexanone 591-78-6 X     98.5% 1.31E-07 3.15E-06 1.15E-03 5.76E-07 \nAcetone 67-64-1   X   90.0% 3.75E-05 9.01E-04 0.33 1.64E-04 \nChloroform 67-66-3 X   X 98.5% 8.92E-08 2.14E-06 7.81E-04 3.91E-07 \nIsopropanol 67-63-0 X   X 98.5% 1.03E-04 2.48E-03 0.90 4.52E-04 \ntert-Butanol 75-65-0 X     98.5% 7.04E-07 1.69E-05 6.17E-03 3.08E-06 \nTetrachloroethene 127-18-4   X X 90.0% 6.26E-03 0.15 54.81 0.027 \nToluene 108-88-3 X   X 98.5% 7.98E-08 1.91E-06 6.99E-04 3.49E-07 \nXylenes (Total) 1330-20-7 X   X 98.5% 3.59E-07 8.62E-06 3.14E-03 1.57E-06 \nNotes: \n1. Influent data was obtained from lab data of soil vapor sampling performed at the site. \n2. Total Xylenes are the sum of m, o, and p-Xylenes \n3. It is assumed that equipment will operate 24 hours a day, 365 days a year. \n \n \n \nApplication No. 31494   Plant No. 25121  \n3 \n Table 2.  Organic Emissions Review –Soil Vapor Extraction System \nPollutant Effluent \nVolumetric \nConcentration  \n(ppmv) Hourly \nEmission \nRate \n(lb/hr) Daily \nEmission \nRate \n(lb/day) Annual \nEmission \nRate \n(lb/yr) Annual \nEmission \nRate \n(ton/yr) \nPOC 0.10 1.06E-04 2.53E-03 0.92 4.62E-04 \nNPOC 6.05 6.29E-03 0.15 55.14 0.028 \nTotal Organics  6.15 6.40E-03 0.15 56.07 0.028"
+      },
+      {
+        "heading": "Cumulative Increase",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Cumulative Increase\nease \n \nTable 3.  Cumulative Increase \nPollutant Current Permitted"
+      },
+      {
+        "heading": "Emissions, Post",
+        "alias": "EMISSIONS",
+        "text": "Emissions, Post\n4/5/1991 \n(ton/yr) Application New \nEmissions Increase \n(ton/yr) New Cumulative \nIncrease \n(ton/yr) \nPOC 0.000 0.000 0.000"
+      },
+      {
+        "heading": "Toxic Risk Screening",
+        "alias": "TOXICS",
+        "text": "Toxic Risk Screening\nning   \n \nA project is subject to Regulation 2, Rule 5 if emissions of toxic air contaminants (TAC) exceed any acute \nor chronic trigger levels in Table 2-5-1 of Regulation 2-5.  There are no related sources at this facility within \nthe 3-year lookback period.  Therefore, the project review of TAC emissions will include only the emissions \nfrom S-1.  Table 4 provides a summary of the project TAC emissions. \n \nTable 4.  Project Toxic Air Contaminant Emissions \nPollutant  CAS # Hourly \nEmission \nRate \n(lb/hr) Acute \nTrigger \nLevel \n(lb/hr) Annual \nEmission \nRate \n(lb/yr) Chronic \nTrigger \nLevel \n(lb/yr) Exceeds \nAcute or \nChronic \nTrigger \nLevel? \n2-Butanone  78-93-3 7.51E-07 2.90E+01  6.58E-03 - No \nChloroform  67-66-3 8.92E-08 3.30E-01 7.81E-04 1.50E+01  No \nIsopropanol  67-63-0 1.03E-04 7.10E+00  9.04E-01 2.70E+05  No \nTetrachloroethene  (PCE) 127-18-4 6.26E-03 4.40E+01  5.48E+01  1.40E+01  Yes \nToluene 108-88-3 7.98E-08 8.20E+01  6.99E-04 1.20E+04  No \nXylenes (Total)  1330-20-7 3.59E-07 4.90E+01  3.14E-03 2.70E+04  No \n \nThis project is expected to exceed the chronic trigger level for PCE and is therefore subject to the \nrequirements of Regulation 2-5.  An initial Health Risk Assessment (HRA) was conducted with the original \nstack outlet design of a fixed rain cap.  The results of this initial HRA yielded a maximum project cancer \nrisk (resident) that exceeded the project risk limitation of 10 in a million, per Regulation 2-5-302.  A second \nHRA was conducted with a hinged rain flap stack outlet and the results are summarized in Table 5 below. \n \n \n \n \n \nApplication No. 31494   Plant No. 25121  \n4 \n Table 5. Health Risk Assessment Results \nReceptor Cancer Risk Chronic Hazard Index Acute Hazard Index \nResident 7.3 in a million  0.015 N/A \nWorker 0.45 in a million  0.011 N/A \nStudent 0.042 in a million  0.00030 N/A \nPMI N/A N/A 0.00054 \n \nThe results from the HRA indicate that the maximum project cancer risk (resident) is estimated at 7.3 in a \nmillion, the maximum project chronic hazard index (resident) is estimated at 0.015, and the maximum \nproject acute hazard index is 0.00054.  These risk values comply with the Regulation 2-5-302 project risk \nrequirements.  To ensure compliance with the project risk limitation, S-1 will be required to operate with \nan open stack outlet design or a hinged rain flap.  The facility will be prohibited to operate S-1 with a fixed \nrain cap."
+      },
+      {
+        "heading": "Best Available Control Technology for Toxics (TBACT)",
+        "alias": "TOXICS",
+        "text": "Best Available Control Technology for Toxics (TBACT)\nPursuant to Regulation 2-5-301, a new or modified source is subject to TBACT if the source cancer risk \nexceeds 1.0 in a million and/or if the chronic hazard index exceeds 0.20.   \n \nThe estimated cancer risk for S-1 exceeds 1.0 in a million and therefore the source is subject to TBACT for \nemissions of POC and NPOC.  Section 9 of the Air District’s BACT/TBACT Workbook has guidelines for \nSoil Vapor Extraction operations. If technologically feasible and cost-effective, TBACT 1 for POC requires \nthe effluent volumetric concentration of POC to be less than or equal to 10 ppmv; or POC must be abated \nwith a capture/destruction efficiency of at least 98.5%.  The typical technology to achieve this requirement \nis by at least two (2) activated carbon vessels in series or a thermal oxidizer.  TBACT 1 for NPOC requires \nthe effluent volumetric concentration of NPOC to be less than or equal to 10 ppmv.  The typical technology \nto achieve this requirement is at least two (2) activated carbon vessels in series.  Although the TBACT \nrequirement for NPOC allows for an effluent volumetric concentration up to 10 ppmv, the effluent NPOC \nvolumetric concentration for this source would not be allowed exceed 6.05 ppmv to ensure that the project \nrisk does not increase. \n \nThe applicant satisfies the TBACT technology requirement with the proposed use of three (3) activated \ncarbon vessels in series.  Furthermore, the applicant has agreed to the emission control requirements for \nPOC and NPOC.  With the maximum effluent volumetric concentration of NPOC not to exceed 6.05 ppmv.  \nThe TBACT requirements will be reflected in the permit conditions below."
+      },
+      {
+        "heading": "Offsets",
+        "alias": "OFFSETS",
+        "text": "Offsets\nts \n \nPursuant to Regulation 2-2-302, offsets must be provided for any new or modified source at a facility that \nemits, or is permitted to emit, more than 10 tons per year of precursor organic compounds (POCs) or \nnitrogen oxides (NO X).  Furthermore, pursuant to Regulation 2-2-303 offsets must be provided for any \nnew or modified source at a major facility with a cumulative increase that exceeds 1.0 ton per year of \nPM10, PM2.5, or sulfur dioxide (SO 2). \n \nThe facility is not expected to have a PTE greater than 10 tons per year of POC or NO X, nor is the facility \na major facility of PM 10, PM2.5, and SO 2.  Therefore, the requirements of Regulations 2-2-302 and 2-2-\n303 do not apply. \n \n \n \nApplication No. 31494   Plant No. 25121"
+      },
+      {
+        "heading": "5 \n Best Available Control Technology (BACT)",
+        "alias": "BACT",
+        "text": "5 \n Best Available Control Technology (BACT)\nIn accordance with Regulation 2-2-301, Best Available Control Technology (BACT) is triggered for any \nnew or modified source with the potential to emit 10 pounds or more per highest day of POC, NPOC, \nnitrogen oxides (NO x), carbon monoxide (CO), sulfur dioxides (SO 2), particulate matter less than 10 \nmicrometer (PM 10) and particulate matter less than 2.5 micrometer (PM 2.5). \n \nNPOC and POC emissions are expected to be below 10 lb/day.  Therefore, a BACT review is not required."
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA)",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA)\nA)  \n \nThis project is classified as ministerial under the District Regulation 2-1-311, because the engineering \nreview for this project requires only the application of standard emission factors and established formulas \nas specified in Chapter 9.2 of the District’s Permit Handbook.  This review follows objective procedures \nand applies standard permit conditions; and therefore, the review of this project is not discretionary as \ndefined by CEQA.  Since this project is ministerial, it is not subject to CEQA review requirement of \nRegulation 2-1-310, and no further CEQA analysis is required."
+      },
+      {
+        "heading": "Statement of Compliance",
+        "alias": "SOC",
+        "text": "Statement of Compliance\nce \n \nRegulation 8, Rule 47 – Air Stripping & Soil Vapor Extraction Operations \nBased on the information submitted, this operation is expected to meet the 90% control requirement of \nRegulations 8-47-301 and 8-47-302.  Emissions will be vented through a carbon adsorption system at all \ntimes of operation."
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD), New Source Performance Standards (NSPS), and National",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD), New Source Performance Standards (NSPS), and National\nEmission Standards for Hazardous Air Pollutants (NESHAPS) are not triggered."
+      },
+      {
+        "heading": "Public Notification (Regulation 2-1-412)",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Public Notification (Regulation 2-1-412)\nS-1 is not located in an overburdened community (OBC), but will be located within 1,000 feet of San \nFrancisco Day School (Grades K-8).  The project is subject to public notification requirements of \nRegulation 2-1-412 due to an increase in toxic emissions.  A public notice will be sent to all parents of \nstudents of the above-mentioned school(s) and all residents within 1,000 feet of the facility.  There will be \na 30-day public comment period."
+      },
+      {
+        "heading": "Permit Conditions",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "Permit Conditions\nions \n \nPermit Condition #27772 \n \n1. The owner/operator shall abate the precursor organic compound (POC)/non-precursor organic \ncompound (NPOC) emissions from the soil vapor extraction system (S-1) with the Activated \nCarbon Vessels (A-1), consisting of a minimum of three (3) 1,000 lbs activated carbon vessels in \nseries, during all periods of operation.  The influent vapor flow rate shall not exceed 418 scfm."
+      },
+      {
+        "heading": "[Basis: Regulations 8-47-301, 8-47-302, and Toxics].",
+        "alias": "TOXICS",
+        "text": "[Basis: Regulations 8-47-301, 8-47-302, and Toxics].\n2. The owner/operator shall operate A-1 in a manner such that the abatement efficiency of POC \nshall be maintained at a minimum of 98.5% by weight.  The minimum POC abatement efficiency \nApplication No. 31494   Plant No. 25121  \n6 \n shall be waived if outlet POC concentrations are shown to be less than or equal to 10 ppmv \n(measured as methane).  Additionally, the owner/operator shall operate A-1 in a manner such that \nthe outlet concentration of NPOC does not exceed 6.05 ppmv (measured as methane).  In no \nevent shall the tetrachloroethene emission rate exceed 54.81 pounds per year.  [Basis: TBACT,"
+      },
+      {
+        "heading": "Toxics]",
+        "alias": "TOXICS",
+        "text": "Toxics]\n3. Except as provided in Part 2 of this condition, in no event shall the toxic air contaminant (TAC) \nemissions from S-1 exceed the trigger levels listed in Table 2-5-1 of Regulation 2, Rule 5. [Basis: \nToxics]. \n \n4. The owner/operator shall operate S-1 with either an open or hinged rain flap stack outlet.  \nOperation of S-1 with a fixed rain cap is prohibited. [Basis: Toxics]. \n \n5. Upon initial start-up, the owner/operator shall take air samples from S-1 for laboratory analysis \nusing EPA Method TO-15.  The air samples shall be taken at the following locations: \n \na. At the inlet to the first carbon vessel in series. \nb. At the outlet of the carbon vessel that is last in series prior to venting to the atmosphere. \n \nThe owner/operator shall use the results from the laboratory report to calculate TAC emissions \nemitted to the atmosphere, using the maximum design flowrate of S-1.  The owner/operator shall \nsubmit the laboratory report and calculated TAC emissions within 21 days of the initial startup, to \ndemonstrate compliance with Parts 2, 3, and 9 of this condition.  [Basis: Regulation 2-1-403]  \n \n6. During operation of A-1, the owner/operator shall monitor with a flame-ionization detector (FID) \nor other method approved in writing by the District's Source Test Manager at the following \nlocations: \n \na. At the inlet to the second to last carbon vessel in series. \nb. At the inlet to the last carbon vessel in series. \nc. At the outlet of the last carbon vessel in series, prior to venting to the atmosphere. \n[Basis: Regulations 1-523 and 2-1-403] \n \n7. The owner/operator shall conduct monitoring on a daily basis in accordance with Part 6 of this \ncondition.  The owner/operator shall record these monitor readings in a monitoring log at the time \nthey are taken.  The owner/operator shall use the monitoring results to estimate the frequency of \ncarbon change-out necessary to maintain compliance with Parts 2, 8, and 9 of this condition. \n \na. If the owner/operator can demonstrate two (2) weeks of consecutive daily monitoring \nreadings lower than 3.1 ppmv (measured as methane) at the outlet of the last carbon \nvessel in series, the monitoring frequency may be reduced to weekly. \nb. After the monitoring frequency has been reduced to weekly, if the owner/operator can \ndemonstrate one (1) month of consecutive weekly monitoring readings lower than 3.1 \nppmv (measured as methane) at the outlet of the last carbon vessel in series, the \nmonitoring frequency may be reduced to once every two (2) weeks. \nc. After the monitoring frequency has been reduced to once every two (2) weeks, if the \nowner/operator can demonstrate one (1) month of consecutive bi-weekly readings lower \nthan 3.1 ppmv (measured as methane) at the outlet of the last carbon vessel in series, the \nmonitoring frequency may be reduced to monthly. \nd. If any subsequent results from monitoring exceed 3.1 ppmv (measured as methane) at the \noutlet of the last carbon vessel in series, the owner/operator shall revert to daily \nApplication No. 31494   Plant No. 25121  \n7 \n monitoring.  If monitoring reverts back to daily, the owner/operator may reduce the \nmonitoring frequency in accordance with Parts 7(a) through (c) of this condition."
+      },
+      {
+        "heading": "[Basis: Cumulative Increase, Toxics, and Regulations 1-523 and 2-1-403]",
+        "alias": "TOXICS",
+        "text": "[Basis: Cumulative Increase, Toxics, and Regulations 1-523 and 2-1-403]\n8. The second to last carbon vessel shall be immediately changed out with unspent carbon upon \nbreakthrough, defined as the detection at its outlet in excess of the higher of the following limits: \n \na. 10 % of the inlet stream concentration to the carbon bed. \nb. 10 ppmv (measured as methane). \n[Basis: Cumulative Increase and Regulations 1-523 and 2-1-403] \n \n9. The last carbon vessel shall be immediately changed out with unspent carbon upon detection at its \noutlet of 6.15 ppmv or greater (measured as methane).  [Basis: Cumulative Increase and \nRegulations 1-523 and 2-1-403] \n \n10. The owner/operator shall maintain the following information for each month of operation: \n \na. Hours and time of operation. \nb. Each emission test, analysis, or monitoring results logged in for the day of operation they \nwere taken. \nc. The number of carbon vessels removed from service. \nd. Total throughput of soil vapor from source S-1 in standard cubic feet. \n \nSuch records shall be retained and made available for inspection by the District for two (2) years \nfollowing the date the data is recorded.  [Basis: Recordkeeping] \n \n11. The owner/operator shall report any noncompliance with these conditions to the Compliance and \nEnforcement Division at the time that it is first discovered.  The owner/operator shall detail the \ncorrective action taken and include the data showing the exceedance as well as the time of \noccurrence in the submittal.  [Basis: Regulation 2-1-403] \n \n12. The owner/operator shall maintain a file containing all measurements, records and other data that \nare required to be collected pursuant to the various provisions of this condition.  All \nmeasurements, records and data required to be maintained by the operator shall be retained for at \nleast two (2) years following the date the data is recorded.  [Basis: Regulation 1-523] \n \nUpon final completion of the remediation project, the operator shall notify the Engineering Division \nwithin two weeks of decommissioning the operation.  [Basis: Regulation 2-1-403]"
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\ntion  \nThe District has reviewed the material contained in the permit application for the proposed project and has \nmade a preliminary determination that the project is expected to comply with all applicable requirements \nof District, state, and federal air quality-related regulations.  The preliminary recommendation is to issue \nan Authority to Construct/Permit to Operate for the equipment listed below.  However, the proposed source \nwill be located within 1,000 feet of at least one school, which triggers the public notification requirements \nof District Regulation 2-1-412.  After the comments are received and reviewed, the District will make a \nfinal determination on the permit.  \n  \nI recommend that the District initiate a public notice and consider any comments received prior to taking \nany final action on issuance of an Authority to Construct/Permit to Operate for the following source:  \nApplication No. 31494   Plant No. 25121  \n8 \n  \n \n \nS-1 Soil Vapor Extraction System \nBlower Make: Elmo Rietschele, Model: G-SAP 530, Maximum 418 CFM \nAbated by A-1, Activated Carbon Vessels \n \nA-1 Activated Carbon Vessels \nMinimum of Three (3) 1,000-LBS Activated Carbon Vessels Arranged in Series \nMake: Mako Industries, Model: VF-1000  \n \n \nBy:          Date: 9/9/22  \n \nCameron Fee \nAir Quality Engineer I"
+      }
+    ],
+    "unmapped_blocks": []
+  }
+}

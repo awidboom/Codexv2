@@ -1,0 +1,80 @@
+SOURCE FILE: model-plant-pvap-theshold-analysis.xlsx
+
+# SHEET: 500000MP
+500,000 Model Plant
+Carbon Adsorber
+Surrogate Pvap (psia) | Ship EmF (lb/1,000 gal) | Barge EmF (lb/1,000 gal) | Throughput (1,000 gal/yr) | Loss (ton/yr) | Capital (TCI) ($) | Annual Op Costs (AOC) ($/yr) | Total Annualized Cost (TAC) no Rec.Credit | VOC Recovery Credit ($/yr) | TAC w/ Recov ($/yr) | VOC Cost Eff ($/ton)
+0.5 | 0.2 | 0.5 | 500000 | 87.5 | 3773295 | 358223 | 734139.7693142463 | 56017.5 | 678122.2693142463 | 7749.968792162815
+1 | 0.4 | 1 | 500000 | 175 | 3773295 | 358223 | 734139.7693142463 | 112035 | 622104.7693142463 | 3554.884396081407
+1.5 | 0.6000000000000001 | 1.5 | 500000 | 262.5 | 3773295 | 358223 | 734139.7693142463 | 168052.5 | 566087.2693142463 | 2156.522930720938
+3 | 1.2000000000000002 | 3 | 500000 | 525 | 3773295 | 358223 | 734139.7693142463 | 336105 | 398034.76931424625 | 758.161465360469
+Thermal Oxidizer (70% Rec Eff)
+Surrogate Pvap (psia) | Capital (TCI) ($) | Annual Op Costs (AOC) ($/yr) | TAC (no Rec.) ($/yr) | VOC Cost Eff ($/ton)
+0.5 | 945594 | 161309 | 255514.36734152387 | 2832.559272243179
+Interest | 0.055 | 1 | 945594 | 161309 | 255514.36734152387 | 1416.2796361215894
+EqLife | 15 | years | 1.5 | 945594 | 161309 | 255514.36734152387 | 944.1864240810596
+CRF | 0.09962559760481124 | 3 | 945594 | 161309 | 255514.36734152387 | 472.0932120405298
+VOC_Credit | 660 | per ton | Thermal Oxid/Flare (0% Rec Eff)
+Cntrl_Eff | 0.97 | Surrogate Pvap (psia) | Capital (TCI) ($) | Annual Op Costs (AOC) ($/yr) | TAC (no Rec.) ($/yr) | VOC Cost Eff ($/ton)
+0.5 | 397135 | 371992 | 411556.8117047867 | 4562.401226898778
+1 | 397135 | 371992 | 411556.8117047867 | 2281.200613449389
+1.5 | 397135 | 371992 | 411556.8117047867 | 1520.8004089662595
+3 | 397135 | 371992 | 411556.8117047867 | 760.4002044831298
+
+# SHEET: Pvap Calcs
+Chemicals | Antoine's Equation Constants | Temp (degC) | Temp (degR)
+A
+dimensionless | B
+degrees C | C
+degrees C | MW | Liquid Density (lb/gal) | Source | Product Stored Category for 7.1-10 | 20 | 527.6700000000001
+Acetaldehye | 8.063 | 1637.1 | 295.47 | 44.05 | 6.54 | Table 7.1-3 | Single-component stocks | 14.453918716419508 | 68.00000000000006
+Acetone | 7.3 | 1312.3 | 240.71 | 58.08 | 6.55 | Table 7.1-3 | Single-component stocks | 3.571275508853395
+Benzene | 6.906 | 1211 | 220.79 | 78.11 | 7.32 | Table 7.1-3 | Single-component stocks | 1.4558174694085073
+Butane (n) | 6.725 | 909.7 | 237 | 58.12 | 4.78 | Table 7.1-3 | Single-component stocks | 29.62762472444153
+Chloroform | 7.083 | 1233.1 | 232.2 | 119.38 | 12.38 | Table 7.1-3 | Single-component stocks | 3.02003542968025
+Crude (RVP5) | 11.263351651093739 | 5303.923498480134 | 50 | 7.1 | Table 7.1-2 | Crude oil | 3.3593911424240717
+Cyclohexane | 6.845 | 1203.5 | 222.86 | 84.16 | 6.46 | Table 7.1-3 | Single-component stocks | 1.4991863387395719
+Diethylamine | 5.737 | 559.1 | 140.18 | 73.14 | 5.89 | Table 7.1-3 | Single-component stocks | 3.4114366060343024
+Ethyl acetate | 7.103 | 1245.7 | 217.96 | 88.11 | 7.51 | Table 7.1-3 | Single-component stocks | 1.4271582098909725
+Ethyl alcohol | 8.247 | 1670.4 | 232.96 | 46.07 | 6.59 | Table 7.1-3 | Single-component stocks | 0.851079228542579
+Ethyl benzene | 6.95 | 1419.3 | 212.61 | 106.17 | 7.24 | Table 7.1-3 | Single-component stocks | 0.1363817360284842
+Gasoline (RVP7) | 11.833 | 5500.6 | 68 | 5.6 | Table 7.1-2 | Gasoline | 4.090559553336245
+Gasoline (RVP10) | 11.724 | 5237.3 | 66 | 5.6 | Table 7.1-2 | Gasoline | 6.0415939705885515
+Gasoline (RVP13) | 11.644 | 5043.6 | 62 | 5.6 | Table 7.1-2 | Gasoline | 8.050654307664699
+Heptane | 6.903 | 1268.6 | 216.95 | 100.2 | 5.71 | Table 7.1-3 | Single-component stocks | 0.6847206507170994
+Hexane | 6.878 | 1171.5 | 224.37 | 86.18 | 5.47 | Table 7.1-3 | Single-component stocks | 2.34652708951477
+Isopentane | 6.79 | 1020 | 233.1 | 72.15 | 5.18 | Table 7.1-3 | Single-component stocks | 11.12648262214591
+Methacrylonitrile | 6.999 | 1353.6 | 238.03 | 67.09 | 6.68 | Table 7.1-3 | Single-component stocks | 1.0951759841028121
+Methyl isobutyl ketone | 6.828 | 1254.1 | 201.61 | 100.16 | 6.65 | Table 7.1-3 | Single-component stocks | 0.28532832966507277
+Methylene chloride | 7.412 | 1327 | 252.68 | 84.93 | 11.07 | Table 7.1-3 | Single-component stocks | 6.790087266943044
+Pentane | 6.864 | 1070.6 | 232.7 | 72.15 | 5.23 | Table 7.1-3 | Single-component stocks | 8.19863040525423
+Toluene | 7.017 | 1377.6 | 222.64 | 92.14 | 7.24 | Table 7.1-3 | Single-component stocks | 0.42251153276030806
+1,1,1,-trichloroethane | 8.761 | 2210.2 | 308.05 | 133.4 | 11.18 | Table 7.1-3 | Single-component stocks | 2.0417283431001576
+Trichloroethylene | 6.429 | 974.5 | 187.34 | 131.39 | 12.22 | Table 7.1-3 | Single-component stocks | 1.0360385252716744
+Vinyl acetate | 7.215 | 1299.1 | 226.97 | 86.09 | 7.78 | Table 7.1-3 | Single-component stocks | 1.7427395850574172
+O-xylene | 6.999 | 1474.7 | 213.69 | 106.17 | 7.35 | Table 7.1-3 | Single-component stocks | 0.09438190502736818
+.. | .
+
+# SHEET: Loading Loss
+Commodities | Saturation Factor (S) | Saturation Factor (S) | True Vapor Pressure (P) | Molecular Weight | Temperature | Density | Loading Loss (ships) | Loading Loss (Barges)
+ships | barges | psia | lb/lb-mole | °R | lb/gal | lb/1000 gal | lb/1000 gal
+Acetone | 0.2 | 0.5 | 3.571275508853395 | 58.08 | 527.6700000000001 | 6.55 | 0.9795702739080852 | 2.4489256847702126
+Benzene | 0.2 | 0.5 | 1.4558174694085073 | 78.11 | 527.6700000000001 | 7.32 | 0.5370308054626229 | 1.3425770136565573
+Chloroform | 0.2 | 0.5 | 3.02003542968025 | 119.38 | 527.6700000000001 | 12.38 | 1.7026651493382394 | 4.256662873345599
+Cyclohexane | 0.2 | 0.5 | 1.4991863387395719 | 84.16 | 527.6700000000001 | 6.46 | 0.5958637661657084 | 1.4896594154142708
+Diethylamine | 0.2 | 0.5 | 3.4114366060343024 | 73.14 | 527.6700000000001 | 5.89 | 1.1783597392810838 | 2.945899348202709
+Ethyl acetate | 0.2 | 0.5 | 1.4271582098909725 | 88.11 | 527.6700000000001 | 7.51 | 0.593858471023075 | 1.4846461775576878
+Ethyl alcohol | 0.2 | 0.5 | 0.851079228542579 | 46.07 | 527.6700000000001 | 6.59 | 0.18517136920219054 | 0.46292842300547626
+Ethyl benzene | 0.2 | 0.5 | 0.1363817360284842 | 106.17 | 527.6700000000001 | 7.24 | 0.06838229403613483 | 0.17095573509033707
+Heptane | 0.2 | 0.5 | 0.6847206507170994 | 100.2 | 527.6700000000001 | 5.71 | 0.32401624297575865 | 0.8100406074393967
+Hexane | 0.2 | 0.5 | 2.34652708951477 | 86.18 | 527.6700000000001 | 5.47 | 0.9550315003683404 | 2.387578750920851
+Methacrylonitrile | 0.2 | 0.5 | 1.0951759841028121 | 67.09 | 527.6700000000001 | 6.68 | 0.3469982926439944 | 0.8674957316099858
+Methyl isobutyl ketone | 0.2 | 0.5 | 0.28532832966507277 | 100.16 | 527.6700000000001 | 6.65 | 0.13496614525013775 | 0.33741536312534437
+Methylene chloride | 0.2 | 0.5 | 6.790087266943044 | 84.93 | 527.6700000000001 | 11.07 | 2.723466981372885 | 6.808667453432212
+Toluene | 0.2 | 0.5 | 0.42251153276030806 | 92.14 | 527.6700000000001 | 7.24 | 0.18385371514451967 | 0.4596342878612991
+1,1,1,-trichloroethane | 0.2 | 0.5 | 2.0417283431001576 | 133.4 | 527.6700000000001 | 11.18 | 1.2862915646827489 | 3.2157289117068717
+Trichloroethylene | 0.2 | 0.5 | 1.0360385252716744 | 131.39 | 527.6700000000001 | 12.22 | 0.642871025023082 | 1.6071775625577047
+Vinyl acetate | 0.2 | 0.5 | 1.7427395850574172 | 86.09 | 527.6700000000001 | 7.78 | 0.7085505478555951 | 1.771376369638988
+O-xylene | 0.2 | 0.5 | 0.09438190502736818 | 106.17 | 527.6700000000001 | 7.35 | 0.04732342738271108 | 0.11830856845677767
+
+# SHEET: AP-42

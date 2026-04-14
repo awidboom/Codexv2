@@ -1,0 +1,539 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 17
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "PM 10\nEmissions\n(tons/year)\nHoppers  1 0.00003  (1) 0.01 0.1 2 0.001\nScreens  1 0.00074  (2) 0.18 1.4 43 0.022\nConveyors  4 0.000184  (3) 0.04 0.4 11 0.005",
+        "PM 2.5\nEmissions\n(tons/year)\nHoppers  1 0.00003  (1) 0.01 0.1 2 0.001\nScreens  1 0.00005  (2) 0.01 0.1 3 0.001\nConveyors  4 0.000052  (3) 0.01 0.1 3 0.002",
+        "Traveled\n(miles)\nDaily  Annual  Daily  Annual\nFront End Loaders  Unpaved  0.076  30 390 2.27 29.55\nLoadout Trucks  Unpaved  0.074  30 390 2.22 28.81\nLoadout Trucks  Paved  0.379  30 390 11.36  147.73\nFront End Loaders  Unpaved  0.076  30 390 2.27 29.55\nLoadout Trucks  Unpaved  0.074  30 390 2.22 28.81\nLoadout Trucks  Paved  0.379  30 390 11.36  147.73",
+        "(lbs/day)  Annual\n(lbs/year)  Annual\n(ton/year)\nFront End Loaders  Unpaved  2.917  0.08 2.0 26 0.013\nLoadout Trucks  Unpaved  2.917  0.48 1.9 25 0.013\nLoadout Trucks  Paved  0.444  0.38 1.5 20 0.010",
+        "Loadout Trucks  Unpaved  2.917  0.48 1.9 25 0.013\nLoadout Trucks  Paved  0.444  0.38 1.5 20 0.010\nPM 10 Total Emissions  0.95 5.4 71 0.035\nFront End Loaders  Unpaved  0.292  0.01 0.2 3 0.001\nLoadout Trucks  Unpaved  0.292  0.10 0.2 3 0.001\nLoadout Trucks  Paved  0.109  0.19 0.4 5 0.002",
+        "(tons/y ear) Application Emissions\n(tons/y ear) Total Cumulative Increase\n(tons/y ear)\nPOC  0.000  0.000  0.000\nNOx  0.000  0.000  0.000\nSO 2 0.000  0.000  0.000\nCO 0.000  0.000  0.000",
+        "Application 692505  Application 703018\nS-9 S-9\n(Road Dust)  S-14 S-15 S-16\nArsenic  7440 -38-2 1.1E-05 N/A  2.0E-06 N/A  1.2E-07\nBeryllium  7440 -41-7 6.1E-07 N/A  1.3E-07 N/A  7.8E-09\nCadmium  7440 -43-9 5.3E-07 N/A  5.9E-08 N/A  3.6E-09\nChromium (Total)  18540 -29-9 2.8E-05 N/A  4.0E-06 N/A  2.4E-07\nChromium Hexavalent   2.5E-06 N/A  4.0E-07 N/A  2.5E-08\nCopper  7440 -50-8 1.5E-05 N/A  1.7E-06 N/A  1.0E-07",
+        "Copper  7440 -50-8 1.5E-05 N/A  1.7E-06 N/A  1.0E-07\nCrystalline Silica\n(respirable)  7631 -86-9 -- -- 3.0E-02 -- 1.9E-03\nLead  7439 -92-1 6.6E-06 N/A  3.2E-06 -- 2.0E-07\nManganese  7439 -96-5 1.9E-04 N/A  2.1E-05 N/A  4.4E-11\nMercury  7439 -97-6 N/A  N/A  7.2E-10 N/A  1.3E-06\nNickel  7440 -02-0 1.2E-05 N/A  4.1E-06 N/A  2.5E-07\nSelenium  7782 -49-2 5.3E-07 N/A  1.1E-07 N/A  6.9E-09",
+        "Application 692505  Application 703018\nS-9 S-9\n(Road Dust)  S-14 S-15 S-16\nArsenic  7440 -38-2 3.6E-03  N/A 6.3E-04   N/A 3.9E-05\nBeryllium  7440 -41-7 1.9E-04  N/A 4.1E-05   N/A 2.5E-06\nCadmium  7440 -43-9 1.7E-04   N/A 1.9E-05   N/A 1.1E-06\nChromium (Total)  18540 -29-9 9.1E-03   N/A 1.3E-03   N/A 7.8E-05\nChromium Hexavalent   8.0E-04   N/A 1.3E-04   N/A 7.9E-06\nCopper  7440 -50-8 4.9E-03   N/A 5.5E-04   N/A 3.3E-05",
+        "Chromium Hexavalent   8.0E-04   N/A 1.3E-04   N/A 7.9E-06\nCopper  7440 -50-8 4.9E-03   N/A 5.5E-04   N/A 3.3E-05\nCrystalline Silica\n(respirable)  7631 -86-9 5.1E+01  1.1E+01   9.1E+00  2.8E+01   5.7E-01\nLead  7439 -92-1 2.1E-03   N/A 6.9E-04 9.4E-03  4.2E-05\nManganese  7439 -96-5 6.0E-02   N/A 6.7E-03   N/A 1.4E-08\nMercury  7439 -97-6 N/A   N/A 2.3E-07   N/A 4.1E-04\nNickel  7440 -02-0 3.9E-03   N/A 1.3E-03   N/A 8.0E-05\nSelenium  7782 -49-2 1.7E-04   N/A 3.6E-05   N/A 2.2E-06",
+        "Chronic  Acute\nResident  1.2 chances in a million  0.085  --\nOff-site worker  0.078 chances in a million  0.035 --\nStudent (Half Moon Bay High School)  0.064 chances in a million  0.015 --",
+        "Table 18.  Facility Potential to Emit  for PM 10 and PM 2.5\n  Annual Emissions (tons/year)\nSource #  Description  PM 10  PM 2.5\n5 Sand & Aggregate Stockpiles  1.072  0.112\n6 Charge Hopper & Conveyor  0.142  0.022\n7 Aggregate Elevated Storage Bin  0.098  0.014\n8 Sand Elevated Storage Bin  0.075  0.011\n9 Cement Silo  0.003  0.000\n10 Cement Supplement Silo (Fly Ash)  0.003  0.000\n11 Cement Supplement Silo (Slag)  0.003  0.000\n12 Weigh Hopper  0.173  0.025\n13 Truck Mix Loading  0.278  0.041",
+        "Offset  Requirement\n(tons/year ) Offset\nRequired ? Existing  Application  Facility\nNOx  0.000  0.000 0.000 >10 No\nPOC  0.000  0.000 0.000 >10 No\nCO 0.000  0.000  0.000  - No\nPM 10 1.847  0.247 2.094  ≥100 No\nPM 2.5 0.225  0.037  0.262   ≥100 No\nSO 2 0.000  0.000  0.000   ≥100 No"
+      ]
+    },
+    "application_number_detected": "703018",
+    "application_number_from_filename": null,
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2025/692505-and-703018/fid1999_nsr_703018_eval_121925-pdf.pdf?rev=bafd27d6731441e4a61b675d7da3248b&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2025/121925-692505-and-703018/andreini-brothers-inc-and-half-moon-bay-building-and-garden-inc"
+  },
+  "application_number": "703018",
+  "plant": {
+    "name": "Half Moon Bay Building and Garden, Inc.",
+    "plant_id": null,
+    "address": "Half Moon Bay, CA 94019"
+  },
+  "evaluation_date": "January 17, 2008",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-14",
+      "description": "Portable Screening Skid"
+    },
+    {
+      "id": "S-15",
+      "description": "Soil Stockpiles"
+    },
+    {
+      "id": "S-16",
+      "description": "Portable Hopper/Conveyor  Skid"
+    },
+    {
+      "id": "A-9",
+      "description": "Water Spray  Bar System"
+    },
+    {
+      "id": "A-10",
+      "description": "Water Spray  Bar System"
+    },
+    {
+      "id": "A-11",
+      "description": "Water Truck and Hose Spray"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nND  \nHalf Moon Bay Building and Garden, Inc. (HMBBG) has applied  for Authorities to \nConstruct  for the following:  \n \nS-14 Portable Screening Skid  \nMake: Terex Finlay ; Model: 693+ Supertrack  \nConsisting of 1 Hopper, 1 Screen, and 4 Conveyors  \nMax imum  Soil Throughput: 9 0 tons/h our, 750 tons/day, 9,750 tons/year , \nMaximum Concrete Throughput:  150 tons/h our, 1,200 tons/day, 48,000  \ntons/year , abated by A-9 Water Spray Bar   \n \nS-15 Soil Stockpiles  \nSoil/Waste Byproduct , Raw Soil 0.28 Acres, Screened Soil 1.40 Acre, Waste \nByproduct 0.09 Acres , Maximum  Soil Throughput: 9 0 tons/h our, 750 \ntons/day, 9,750 tons/year , abated by A -11 Water Truck and Hose  \n \nS-16 Portable Hopper/Conveyor  Skid  \nMake:  Power Screen ; Model: M70  \nConsisting of 1 Hopper, and 1 Conveyor  \nMaximum  Soil Throughput: 9 0 tons/h our, 750 tons/day, 9,750 tons/year , \nMaximum Concrete Throughput:  150 tons/h our, 1,200 tons/day, 48,000 \ntons/year , abated by A -10 Water Spray Bar  \n \nAbated by  \n \nA-9 Water Spray  Bar System  \nAbating S-14  \n \nA-10 Water Spray  Bar System  \n Abating S-16 \n \nA-11 Water Truck and Hose Spray  \n Abating S -15   \n \nThe HMBBG  facility includes a portable screening skid, stockpiles, and a portable \nhopper /conveyor  skid, which occur on the same lot as a portable concrete  crushing \noperation, associated  with the adjacent Andreini Brother’s  facility  (Facility  #11468 ). The  \nshared  lot where concrete crushing , and soil screening  activities take place has \nhistorically been referred to as the “Resource Recovery Center .” \n \n \nAll incoming materials are directed to the western side of the HMBBG sales office where \nthey are weighed before being directed to deposit their load at the Soil Stockpile s (S-15), \nlocated at the Resource and Recovery Center. During active operations, records indicate \nas many as sixteen (16)  trucks deliver soil to the HMBBG facility per day . To be \nconservative , emissions were calculated assuming as many as 30 trucks per day.  \nTrucks delivering soil to the facility travel approximately 1,000 feet on paved roads, up to \nthe Resource Recovery Center, and then up to approximately 390 feet on unpaved roads \nwithin the Resource Recovery Center (i.e., to deposit materials on the soil st ockpile \ntoward the center of the site). All soil screening operations occur on the eastern portion of \nthe Resource Recovery Center.  \n \nRaw soil product is loaded into the hopper of the Portable Screening Skid (S -14) using a \ncertified EPA Tier 4 loader. The raw material is then transported to the screen box via the \nmain conveyer  of S-14. Materials pass through the screen box, which contain two (2) 20’ \nx 5’ decks that separate materials into screened soil product (1/2” minus) and waste \nbyproduct. The separated materials are transferred via conveyer belts equipped on S -14 \n(i.e., one for each product) and the finished product is wetted via Spray Bar (A-9) before \nbeing discharged from S-14 and transferred by a Portable Hopper/Conveyor Skid  (S-16) \nabated by S pray Bar (A-10) or a certified EPA Tier 4 loader to the Soil  Stockpile s (S-15) \non the northern side of the site.  HMBBG’s hourly, daily, and annua l maximum \nthroughput for screening operations  are summarized in the Emissions  section of this \nevaluation, under the basis  for the emission calculations. The seasonal nature of the soil \nscreening operations lead s to lower annual throughput values than maximum daily \nthroughput values would support.  \n \nApproximately 5% of total throughput would be waste byproduct (wood debris, rocks, \nand other materials greater than ½” in size) that is made available as a local source of \nconstruction fill material, reducing emissions from mobile sources  associated with local \nconstruction projects.  \n  \nHMBBG conducts regular dust abatement of S -15 as well as unpaved travel surfaces \nusing Water Truck and Hose Spray (A-11). Vehicles used to pick up purchased, \nprocessed soil materials from HMBBG have the same general characteristics as raw \nmaterial deliveries.  \n \nHMBBG  registered S -14 Portable Screening Skid  through California Air Resources \nBoard’s (CARB) Portable Equipment Registration Program (PERP) Permit #16828 39.  \nHMMBG requested to operate at multiple locations within the Air District. HMMBG  will \nmaintain a valid PERP registration to operate at other sites not owned and/or operated by \nHMMBG , for less than 12 consecutive months, within the Air District. Otherwise, S -14 \nPortable S creening Skid, will be permitted as a stationary source at the shared Resources \nRecovery Center with Andreini Brother’s . As a new stationary source, S -14 operates \nwithin 1000 feet of a K -12 school site and requires a public notice per Regulation 2 -1-\n412. S-15 and S -16 also operate within 1000 feet of a school site and require public"
+  },
+  "emission_calculations": {
+    "text": "EMISSIONS\nIONS  \nTables 1 and 2 summarize the  project emissions from particulate matter 10 microns in \nsize (PM 10) and particulate matter 2.5 microns in size (PM 2.5).  \n \nTable 1. PM 10 Emissions Summary  \nSource  PM 10 Emissions  \nHourly  \n(lbs/day)  Daily  \n(lbs/day)  Annual  \n(lbs/year)  Annual  \n(tons/year)  \nS-14 Portable Screening Skid  0.23 1.9 55 0.028 \nS-15 Stockpiles /Fugitive Road Dust  1.30 9.0 434 0.217 \nS-16 Portable Hopper/Conveyor  0.02 0.2 5 0.002 \nProject Total  1.55 11 493 0.247 \n \nTable 2 . PM 2.5 Emissions  Summary   \nSource  PM 2.5 Emissions  \nHourly  \n(lbs/day)  Daily  \n(lbs/day)  Annual  \n(lbs/year)  Annual  \n(tons/year)  \nS-14 Portable Screening Skid  0.03 0.3 8 0.004 \nS-15 Stockpiles  0.34 1.3 64 0.032 \nS-16 Portable Hopper/Conveyor  0.01 0.1 2 0.001 \nProject Total  0.38 1.7 74 0.037  \n \nS-14 Portable Screening Skid  \nEmission factors for controlled Screening and Conveyor Transfer Points were obtained \nfrom  United States Environmental Protection Agency (EPA)  AP-42 Chapter 11.19.2 \n“Crushed Stone Processing Operations.”  \n \nEmission factors from drop operations into storage piles are derived from Chapter \n11.19.2-2 “Crushed Stone Processing and Pulverized Mineral Processing ” of AP -42 \n(fifth edition, Volume I) . Controlled e mission  factors  are assumed due to the use of water \nspray bars that suppress dust from the screening  operation and drop points. The following \ntwo table s show the emission factors used to calculate emissions for S -14. \n \nBasis:    \n• Operating Schedule: 8 hours/day, 5 days/week, and 52 weeks/year . \n• Max soil throughputs : 90 tons/hour , 750 tons/day, and 9,750 tons/year .  \n• Max Concrete throughputs: 150 tons/hour , 1,200 tons/day, and 48,000 tons/year .  \n• Drop Unloading (controlled) is Drop Unloading (uncontrolled) with a 70% \nabatement efficiency added on for water spray in accordance with Permit \nHandbook Chapter 11.7 Crushing and Grinding . \n• Controlled emission factors for screens and conveyors were obtained from AP -42 \nChapter 11.19.2.  \n \n  \n \nTable 3. S-14 PM 10 Portable Screening Skid Emissions  \nEquipment   # of \nUnits  Controlled \nEmission \nFactor \n(lbs/ton)  HourlyEmissions for vehicles traveling on paved roads were estimated using the following\nequation from AP -42 Chapter 13.2.1 Paved Roads : \n \n \n𝐸=𝑘(𝑠𝐿)0.91(𝑊)1.02 \n \nWhere:  \n \nE = size specific emission factor (lb/VMT)  \nk = 0.0022  for PM 10; 0.00054  for PM 2.5 \nsL = surface material silt content  % for stone quarrying and processing ; 8.3 \nW = mean weight (tons) =  (40 tons for max weight vehicles  + 15 tons for empty  \nvehicles ) / 2 = 27.5 ton trucks (mean)  \n \nThe vehicle and distance assumptions used to estimate emissions are shown in Table 7. \n \nTable 8 below shows the emission rates summary for PM 10 and PM 2.5 dust generated by \nvehicle traffic.  \n \nBasis:  \n• 40 tons of fully loaded truck  – 15 tons empty weight = 25 tons of material per \ntruck  \n• Vehicle miles traveled per day  on paved roads  (VMT/day) = 750 ton/day / 25 tons \nof material per truck = 30 trucks/day * 0. 379 miles /truck = 11.363 VMT/day   \n• Vehicle miles traveled per year  on paved roads  (VMT/year) = 9,750  ton/year / 25 \ntons of material per truck = 390 trucks/year * 0. 379 miles /truck  =147.7 VMT/year  \n• Front end loaders round trip of 0. 076 miles of unpaved portions of the site  \n• Loadout trucks round trip of 0. 068 miles of unpaved roads and 0.38 miles of \npaved roads  \n• Vehicle fugitive road dust emissions are abated by water sprays which provides \n70% control efficiency.  \n \nTable 7. Vehicle and Distance Assumptions  \nVehicle  Road Type  Round Trip \nDistance  \n(miles) # of Truck Trips  Vehicle Miles \nTraveled  \n(miles)  \nDaily  Annual  Daily  Annual  \nFront End Loaders  Unpaved  0.076  30 390 2.27 29.55  \nLoadout Trucks  Unpaved  0.074  30 390 2.22 28.81  \nLoadout Trucks  Paved  0.379  30 390 11.36  147.73  \nFront End Loaders  Unpaved  0.076  30 390 2.27 29.55  \nLoadout Trucks  Unpaved  0.074  30 390 2.22 28.81  \nLoadout Trucks  Paved  0.379  30 390 11.36  147.73  \n \n \n \n \n \n \nTable 8. Vehicle Traffic Emissions  \nVehicle  Road Type  Emission \nFactor \n(lb/VMT)  Emission Rate  \nHourly  \n(lbs/hour)  Daily  \n(lbs/day)  Annual  \n(lbs/year)  Annual  \n(ton/year)  \nFront End Loaders  Unpaved  2.917  0.08 2.0 26 0.013  \nLoadout Trucks  Unpaved  2.917  0.48 1.9 25 0.013  \nLoadout Trucks  Paved  0.444  0.38 1.5 20 0.010  \nPM 10 Total Emissions  0.95 5.4 71 0.035  \nFront End Loaders  Unpaved  0.292  0.01 0.2 3 0.001  \nLoadout Trucks  Unpaved  0.292  0.10 0.2 3 0.001  \nLoadout Trucks  Paved  0.109  0.19 0.4 5 0.002  \nPM 2.5 Total Emissions  0.29 0.8 10 0.005  \n \nTable 9. Total S-15 PM 10 Stockpile  Emissions  \nEmission Type  Hourly PM 10 \nEmissions  \n(lb/hour)  Daily PM 10 \nEmissions  \n(lbs/day)  Annual PM 10 \nEmissions  \n(lbs/year)  Annual PM 10 \nEmissions  \n(tons/year)  \nWind Erosion  0.04 0.9 329 0.165  \nSoil Drop Operations  0.32 2.7 35 0.017  \nVehicle Traffic Emissions  0.95 5.4 71 0.035  \nPM 10 Total Emissions  1.30 9.0 434 0.217  \n \nTable 10. Total S-15 PM 2.5 Stockpile  Emissions  \nEmission Type  Hourly PM 2.5 \nEmissions  \n(lb/hour)  Daily PM 2.5 \nEmissions  \n(lbs/day)  Annual PM 2.5 \nEmissions  \n(lbs/year)  Annual PM 2.5 \nEmissions  \n(tons/year)  \nWind Erosion  0.01 0.1 49 0.025  \nSoil Drop Operations  0.05 0.4 5 0.003  \nVehicle Traffic Emissions  0.29 0.8 10 0.005  \nPM 2.5 Total Emissions  0.34 1.3 64 0.032  \n \nS-16 Portable Hopper/Conveyor    \nEmission factors for controlled Conveyor Transfer Points were obtained from AP -42 \nChapter 11.19.2 “Crushed Stone Processing Operations.” Emission factors from drop \noperations into storage piles are derived from Chapter 1 1.19.2-2 “Crushed Stone \nProcessing and Pulverized Mineral Processing ” of AP -42 (fifth edition, Volume I) . \nEmissions are assumed to be 70% controlled due to the use of water spray bars that \nsuppress dust from the crushing operation and drop points. The following  two table s \nshow the emission f actors used to calculate emissions for S -16. \n \nBasis:    \n• Operating Schedule: 8 hours/day, 5 days/week, and 52 weeks/year . \n• Max soil throughputs: 90  tons/hour , 750 tons/day, and 9,75 0 tons/year .  \n• Max Concrete throughputs: 150 tons/hour , 1,200 tons/day, and 48,000 tons/year .  \n \n• Drop Unloading (controlled) is Drop Unloading (uncontrolled) with a 70% \nabatement efficiency added on for water spray in accordance with Permit \nHandbook Chapter 11.7 Crushing and Grinding.  \n \nTable 11. S-16 PM 10 Emissions  \nEquipment   # of \nUnits  Controlled Emission \nFactor  \n(lb/ton)  PM 10 Emissions  \nHourly  \n(lb/hour)  Daily  \n(lb/day)  Annual  \n(lbs/year)  Annual  \n(tons/year)  \nHoppers  1 0.00003  (1) 0.01 0.1 2 0.001  \nConveyors  1 0.000046  (2) 0.01 0.1 3 0.001  \nS-16 Total  0.02 0.2 5 0.002  \nNotes:  \n1. Basis: Permit Handbook Drop Unloading ( Controlled)  \n2. Basis: Table 11.19.2 -2 Conveyor Transfer Point (Controlled)  \n \nTable 12. S-16 PM 2.5 Emissions  \nEquipment   # of \nUnits  Controlled Emission \nFactor  \n(lb/ton)  PM 2.5 Emissions  \nHourly  \n(lb/hour)  Daily  \n(lb/day)  Annual  \n(lbs/year)  Annual  \n(tons/year)  \nHoppers  1 0.00003  (1) 0.01 0.1 1 0.001  \nConveyors  1 0.000013  (2) 0.00 0.0 1 0.000  \nS-16 Total  0.01 0.1 2 0.001  \nNotes:  \n1. Basis: Permit Handbook Drop Unloading ( Controlled)  \n2. Basis: Table 11.19.2 -2 Conveyor Transfer Point (Controlled)"
+  },
+  "cumulative_increase": {
+    "text": "CUMULATIVE INCREASE\nSE  \nTable 8 summarizes the cumulative increase in criteria pollutant emissions that will result \nfrom this application.  Existing Cumulative Increase taken from Application #28657.  \n \nTable 13. Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing  Cumulative \nIncrease  \n(tons/y ear) Application Emissions  \n(tons/y ear) Total Cumulative Increase  \n(tons/y ear) \nPOC  0.000  0.000  0.000  \nNOx  0.000  0.000  0.000  \nSO 2 0.000  0.000  0.000  \nCO 0.000  0.000  0.000  \nPM 10 1.313  0.247 1.560 \nPM 2.5 0.141 0.037 0.178 \n \nThe facility is not expected to have a potential to emit ( PTE) greater than 10 tons per year \nof precursor organic compounds ( POC ) or nitrogen oxidizes ( NO X), nor is the facility a \nmajor facility of PM 10, PM 2.5, and sulfur dioxide ( SO 2).  Therefore, the requirements of \nRegulations 2 -2-302 and 2 -2-303 do not apply."
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSIONS\nIONS  \nTables 1 and 2 summarize the  project emissions from particulate matter 10 microns in \nsize (PM 10) and particulate matter 2.5 microns in size (PM 2.5).  \n \nTable 1. PM 10 Emissions Summary  \nSource  PM 10 Emissions  \nHourly  \n(lbs/day)  Daily  \n(lbs/day)  Annual  \n(lbs/year)  Annual  \n(tons/year)  \nS-14 Portable Screening Skid  0.23 1.9 55 0.028 \nS-15 Stockpiles /Fugitive Road Dust  1.30 9.0 434 0.217 \nS-16 Portable Hopper/Conveyor  0.02 0.2 5 0.002 \nProject Total  1.55 11 493 0.247 \n \nTable 2 . PM 2.5 Emissions  Summary   \nSource  PM 2.5 Emissions  \nHourly  \n(lbs/day)  Daily  \n(lbs/day)  Annual  \n(lbs/year)  Annual  \n(tons/year)  \nS-14 Portable Screening Skid  0.03 0.3 8 0.004 \nS-15 Stockpiles  0.34 1.3 64 0.032 \nS-16 Portable Hopper/Conveyor  0.01 0.1 2 0.001 \nProject Total  0.38 1.7 74 0.037  \n \nS-14 Portable Screening Skid  \nEmission factors for controlled Screening and Conveyor Transfer Points were obtained \nfrom  United States Environmental Protection Agency (EPA)  AP-42 Chapter 11.19.2 \n“Crushed Stone Processing Operations.”  \n \nEmission factors from drop operations into storage piles are derived from Chapter \n11.19.2-2 “Crushed Stone Processing and Pulverized Mineral Processing ” of AP -42 \n(fifth edition, Volume I) . Controlled e mission  factors  are assumed due to the use of water \nspray bars that suppress dust from the screening  operation and drop points. The following \ntwo table s show the emission factors used to calculate emissions for S -14. \n \nBasis:    \n• Operating Schedule: 8 hours/day, 5 days/week, and 52 weeks/year . \n• Max soil throughputs : 90 tons/hour , 750 tons/day, and 9,750 tons/year .  \n• Max Concrete throughputs: 150 tons/hour , 1,200 tons/day, and 48,000 tons/year .  \n• Drop Unloading (controlled) is Drop Unloading (uncontrolled) with a 70% \nabatement efficiency added on for water spray in accordance with Permit \nHandbook Chapter 11.7 Crushing and Grinding . \n• Controlled emission factors for screens and conveyors were obtained from AP -42 \nChapter 11.19.2.  \n \n  \n \nTable 3. S-14 PM 10 Portable Screening Skid Emissions  \nEquipment   # of \nUnits  Controlled \nEmission \nFactor \n(lbs/ton)  HourlyEmissions for vehicles traveling on paved roads were estimated using the following\nequation from AP -42 Chapter 13.2.1 Paved Roads : \n \n \n𝐸=𝑘(𝑠𝐿)0.91(𝑊)1.02 \n \nWhere:  \n \nE = size specific emission factor (lb/VMT)  \nk = 0.0022  for PM 10; 0.00054  for PM 2.5 \nsL = surface material silt content  % for stone quarrying and processing ; 8.3 \nW = mean weight (tons) =  (40 tons for max weight vehicles  + 15 tons for empty  \nvehicles ) / 2 = 27.5 ton trucks (mean)  \n \nThe vehicle and distance assumptions used to estimate emissions are shown in Table 7. \n \nTable 8 below shows the emission rates summary for PM 10 and PM 2.5 dust generated by \nvehicle traffic.  \n \nBasis:  \n• 40 tons of fully loaded truck  – 15 tons empty weight = 25 tons of material per \ntruck  \n• Vehicle miles traveled per day  on paved roads  (VMT/day) = 750 ton/day / 25 tons \nof material per truck = 30 trucks/day * 0. 379 miles /truck = 11.363 VMT/day   \n• Vehicle miles traveled per year  on paved roads  (VMT/year) = 9,750  ton/year / 25 \ntons of material per truck = 390 trucks/year * 0. 379 miles /truck  =147.7 VMT/year  \n• Front end loaders round trip of 0. 076 miles of unpaved portions of the site  \n• Loadout trucks round trip of 0. 068 miles of unpaved roads and 0.38 miles of \npaved roads  \n• Vehicle fugitive road dust emissions are abated by water sprays which provides \n70% control efficiency.  \n \nTable 7. Vehicle and Distance Assumptions  \nVehicle  Road Type  Round Trip \nDistance  \n(miles) # of Truck Trips  Vehicle Miles \nTraveled  \n(miles)  \nDaily  Annual  Daily  Annual  \nFront End Loaders  Unpaved  0.076  30 390 2.27 29.55  \nLoadout Trucks  Unpaved  0.074  30 390 2.22 28.81  \nLoadout Trucks  Paved  0.379  30 390 11.36  147.73  \nFront End Loaders  Unpaved  0.076  30 390 2.27 29.55  \nLoadout Trucks  Unpaved  0.074  30 390 2.22 28.81  \nLoadout Trucks  Paved  0.379  30 390 11.36  147.73  \n \n \n \n \n \n \nTable 8. Vehicle Traffic Emissions  \nVehicle  Road Type  Emission \nFactor \n(lb/VMT)  Emission Rate  \nHourly  \n(lbs/hour)  Daily  \n(lbs/day)  Annual  \n(lbs/year)  Annual  \n(ton/year)  \nFront End Loaders  Unpaved  2.917  0.08 2.0 26 0.013  \nLoadout Trucks  Unpaved  2.917  0.48 1.9 25 0.013  \nLoadout Trucks  Paved  0.444  0.38 1.5 20 0.010  \nPM 10 Total Emissions  0.95 5.4 71 0.035  \nFront End Loaders  Unpaved  0.292  0.01 0.2 3 0.001  \nLoadout Trucks  Unpaved  0.292  0.10 0.2 3 0.001  \nLoadout Trucks  Paved  0.109  0.19 0.4 5 0.002  \nPM 2.5 Total Emissions  0.29 0.8 10 0.005  \n \nTable 9. Total S-15 PM 10 Stockpile  Emissions  \nEmission Type  Hourly PM 10 \nEmissions  \n(lb/hour)  Daily PM 10 \nEmissions  \n(lbs/day)  Annual PM 10 \nEmissions  \n(lbs/year)  Annual PM 10 \nEmissions  \n(tons/year)  \nWind Erosion  0.04 0.9 329 0.165  \nSoil Drop Operations  0.32 2.7 35 0.017  \nVehicle Traffic Emissions  0.95 5.4 71 0.035  \nPM 10 Total Emissions  1.30 9.0 434 0.217  \n \nTable 10. Total S-15 PM 2.5 Stockpile  Emissions  \nEmission Type  Hourly PM 2.5 \nEmissions  \n(lb/hour)  Daily PM 2.5 \nEmissions  \n(lbs/day)  Annual PM 2.5 \nEmissions  \n(lbs/year)  Annual PM 2.5 \nEmissions  \n(tons/year)  \nWind Erosion  0.01 0.1 49 0.025  \nSoil Drop Operations  0.05 0.4 5 0.003  \nVehicle Traffic Emissions  0.29 0.8 10 0.005  \nPM 2.5 Total Emissions  0.34 1.3 64 0.032  \n \nS-16 Portable Hopper/Conveyor    \nEmission factors for controlled Conveyor Transfer Points were obtained from AP -42 \nChapter 11.19.2 “Crushed Stone Processing Operations.” Emission factors from drop \noperations into storage piles are derived from Chapter 1 1.19.2-2 “Crushed Stone \nProcessing and Pulverized Mineral Processing ” of AP -42 (fifth edition, Volume I) . \nEmissions are assumed to be 70% controlled due to the use of water spray bars that \nsuppress dust from the crushing operation and drop points. The following  two table s \nshow the emission f actors used to calculate emissions for S -16. \n \nBasis:    \n• Operating Schedule: 8 hours/day, 5 days/week, and 52 weeks/year . \n• Max soil throughputs: 90  tons/hour , 750 tons/day, and 9,75 0 tons/year .  \n• Max Concrete throughputs: 150 tons/hour , 1,200 tons/day, and 48,000 tons/year .  \n \n• Drop Unloading (controlled) is Drop Unloading (uncontrolled) with a 70% \nabatement efficiency added on for water spray in accordance with Permit \nHandbook Chapter 11.7 Crushing and Grinding.  \n \nTable 11. S-16 PM 10 Emissions  \nEquipment   # of \nUnits  Controlled Emission \nFactor  \n(lb/ton)  PM 10 Emissions  \nHourly  \n(lb/hour)  Daily  \n(lb/day)  Annual  \n(lbs/year)  Annual  \n(tons/year)  \nHoppers  1 0.00003  (1) 0.01 0.1 2 0.001  \nConveyors  1 0.000046  (2) 0.01 0.1 3 0.001  \nS-16 Total  0.02 0.2 5 0.002  \nNotes:  \n1. Basis: Permit Handbook Drop Unloading ( Controlled)  \n2. Basis: Table 11.19.2 -2 Conveyor Transfer Point (Controlled)  \n \nTable 12. S-16 PM 2.5 Emissions  \nEquipment   # of \nUnits  Controlled Emission \nFactor  \n(lb/ton)  PM 2.5 Emissions  \nHourly  \n(lb/hour)  Daily  \n(lb/day)  Annual  \n(lbs/year)  Annual  \n(tons/year)  \nHoppers  1 0.00003  (1) 0.01 0.1 1 0.001  \nConveyors  1 0.000013  (2) 0.00 0.0 1 0.000  \nS-16 Total  0.01 0.1 2 0.001  \nNotes:  \n1. Basis: Permit Handbook Drop Unloading ( Controlled)  \n2. Basis: Table 11.19.2 -2 Conveyor Transfer Point (Controlled)",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": 750.0
+        }
+      }
+    },
+    "by_equipment": {
+      "S-14": {
+        "narrative": "S-14 Portable Screening Skid\nS-14 Portable Screening Skid  0.03 0.3 8 0.004\nS-14 Portable Screening Skid  0.23 1.9 55 0.028\nTable 3. S-14 PM 10 Portable Screening Skid Emissions",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-15": {
+        "narrative": "S-15 Stockpiles  0.34 1.3 64 0.032\nS-15 Stockpiles /Fugitive Road Dust  1.30 9.0 434 0.217\nTable 10. Total S-15 PM 2.5 Stockpile  Emissions\nTable 9. Total S-15 PM 10 Stockpile  Emissions",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "S-16": {
+        "narrative": "S-16 Portable Hopper/Conveyor\nS-16 Portable Hopper/Conveyor  0.01 0.1 2 0.001\nS-16 Portable Hopper/Conveyor  0.02 0.2 5 0.002\nS-16 Total  0.01 0.1 2 0.001\nS-16 Total  0.02 0.2 5 0.002\nTable 11. S-16 PM 10 Emissions\nTable 12. S-16 PM 2.5 Emissions",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-9": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-10": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "A-11": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "HEALTH RISK ASSESSMENT ANALYSIS\nYSIS  \nPursuant to Regulation 2 -5-110, a project shall not be subject to this rule if, for each toxic \nair contaminant ( TAC ), the total project emissions are below the acute and chronic trigger \nlevels listed in Table 2 -5-1 of this regulation. A project includes all new or modified \nsources of TACs within a 5 -year period.  S-14 through S -16 are permitted under Application \n#703018. S-14 through S -16 operate with a portable crusher owned by Andreini Brother’s . \nTherefore, both facilities are considered one project despit e being owned by two separate \nfacilities .Table 1 4. Source Specific Hourly Toxic Air Contaminant Emissions\nPollutant  CAS  Hourly Emissions (lbs/hour)  \nApplication 692505  Application 703018  \nS-9 S-9 \n(Road Dust)  S-14 S-15 S-16 \nArsenic  7440 -38-2 1.1E-05 N/A  2.0E-06 N/A  1.2E-07 \nBeryllium  7440 -41-7 6.1E-07 N/A  1.3E-07 N/A  7.8E-09 \nCadmium  7440 -43-9 5.3E-07 N/A  5.9E-08 N/A  3.6E-09 \nChromium (Total)  18540 -29-9 2.8E-05 N/A  4.0E-06 N/A  2.4E-07 \nChromium Hexavalent   2.5E-06 N/A  4.0E-07 N/A  2.5E-08 \nCopper  7440 -50-8 1.5E-05 N/A  1.7E-06 N/A  1.0E-07 \nCrystalline Silica \n(respirable)  7631 -86-9 -- -- 3.0E-02 -- 1.9E-03 \nLead  7439 -92-1 6.6E-06 N/A  3.2E-06 -- 2.0E-07 \nManganese  7439 -96-5 1.9E-04 N/A  2.1E-05 N/A  4.4E-11 \nMercury  7439 -97-6 N/A  N/A  7.2E-10 N/A  1.3E-06 \nNickel  7440 -02-0 1.2E-05 N/A  4.1E-06 N/A  2.5E-07 \nSelenium  7782 -49-2 5.3E-07 N/A  1.1E-07 N/A  6.9E-09Table 1 5. Source Specific Annual Toxic Air Contaminant Emissions\nPollutant  CAS  Annual  Emissions (lbs/year)  \nApplication 692505  Application 703018  \nS-9 S-9 \n(Road Dust)  S-14 S-15 S-16 \nArsenic  7440 -38-2 3.6E-03  N/A 6.3E-04   N/A 3.9E-05 \nBeryllium  7440 -41-7 1.9E-04  N/A 4.1E-05   N/A 2.5E-06 \nCadmium  7440 -43-9 1.7E-04   N/A 1.9E-05   N/A 1.1E-06 \nChromium (Total)  18540 -29-9 9.1E-03   N/A 1.3E-03   N/A 7.8E-05 \nChromium Hexavalent   8.0E-04   N/A 1.3E-04   N/A 7.9E-06 \nCopper  7440 -50-8 4.9E-03   N/A 5.5E-04   N/A 3.3E-05 \nCrystalline Silica \n(respirable)  7631 -86-9 5.1E+01  1.1E+01   9.1E+00  2.8E+01   5.7E-01 \nLead  7439 -92-1 2.1E-03   N/A 6.9E-04 9.4E-03  4.2E-05 \nManganese  7439 -96-5 6.0E-02   N/A 6.7E-03   N/A 1.4E-08 \nMercury  7439 -97-6 N/A   N/A 2.3E-07   N/A 4.1E-04 \nNickel  7440 -02-0 3.9E-03   N/A 1.3E-03   N/A 8.0E-05 \nSelenium  7782 -49-2 1.7E-04   N/A 3.6E-05   N/A 2.2E-06Table 16. Total Project  Toxic Air Contaminant  Emissions\nToxic Air \nContaminant  CAS #  Hourly \nEmissions \n(lbs/hour)  Annual \nEmissions \n(lbs/year)  Acute \nTrigger \nLevel  \n(lbs/hour)  Chronic \nTrigger \nLevel  \n(lbs/year)  Exceed \nAcute or \nChronic \nTrigger?  \nArsenic  7440 -38-2 1.3E-05 4.2E-03 8.80E -05 1.6E-03 Yes \n(chronic)  \nBeryllium  7440 -41-7 7.4E-07 2.4E-04 -- 3.4E-02 No \nCadmium  7440 -43-9 5.9E-07 1.9E-04 -- 1.9E-02 No \nTotal Chromium    6.8E-06 1.0E-02 -- -- No \nChromium \nHexavalent  18540 -29-9 2.9E-06 9.4E-04 -- 5.1E-04 Yes \n(chronic)  \nCopper  7440 -50-8 1.7E-05 5.5E-03 4.4E-02 -- No \nCrystalline Silica \n(respirable)  7631 -86-9 -- 1.2E+02  -- 1.2E+02  No \nLead 7439 -92-1 -- 2.5E-02 -- 2.9E-01 No \nManganese  7439 -96-5 2.1E-04 6.7E-02 -- 3.5E+00  No \nNickel  7440 -02-0 1.7E-05 5.3E-03 8.80E -05 3.1E-01 No \nSelenium  7782 -49-2 6.5E-07 2.1E-04 -- 8.0E+00  No \nMercury  7439 -97-6 7.6E-10 2.4E-07 2.7E-04 2.1E-01 No \n \nA health risk assessment (HRA) was triggered for arsenic  and hexavalent chromium \nemissions , both of which exceeded the chronic trigger levels.   \n \n \nHRA Results  \nResults from this HRA indicate that the maximum project cancer risk is estimated at 1.2 in \na million , the maximum project chronic hazard index ( CHI) is estimated at 0.085, and the \nproject acute hazard index (A HI) is estimated at 0. 36. Since the estimated project cancer \nrisk does not exceed 10 in a million and hazard indices do not exceed 1.0, this proposed \nproject complies with the District’s Regulation 2 -5-302 project risk requirements, for \nprojects not located in an Overburdened Commu nity, as defined in Regulation 2 -1-243. \nSee HRA Report for more details.Best Available Control Technology for Toxics ( TBACT )\nIn accordance with the District’s Regulation 2 -5-301, none of the source s require TBACT \nbecause none of the estimated  source risk s exceed a cancer risk of 1.0 in a million and /or \na chronic HI of 0.20.  \n \nTable 17. Risk Screening Results  \nMaximally Exposed Receptor  Maximum Cancer Risk  Maximum Hazard Index  \nChronic  Acute  \nResident  1.2 chances in a million  0.085  -- \nOff-site worker  0.078 chances in a million  0.035 -- \nStudent (Half Moon Bay High School)  0.064 chances in a million  0.015 -- \nPoint Max Impact  -- -- 0.36"
+  },
+  "BACT": {
+    "text": "BEST AVAILABLE CONTROL TECHNOLOGY  (BACT)\nT)  \nPer Regulation 2 -2-301, BACT is triggered for any new or modified source with the PTE \n10 pounds or more per highest day of  POC,  non-precursor organic compounds  (NPOC ), \nNOx, carbon monoxide ( CO), SO 2, PM 10, or PM 2.5 emissions.  \n \nTable s 1 and 2 show PM 10 and PM 2.5 emissions  from each new source .  \n \nNo source is expected to emit more than 10.0 pounds per day, therefore, the requirements \nof Regulation 2 -2-301 are not applicable."
+  },
+  "offsets": {
+    "narrative": "OFFSETS\nTS  \nPursuant to Regulation 2 -2-302, offsets must be provided for any new or modified source \nat a facility that emits, or is permitted to emit, more than 10 tons per year of POC or \nNO X.  Furthermore, pursuant to Regulation 2 -2-303 offsets must be provided for any new \nor modified source at a major facility with a cumulative increase that exceeds 1.0 ton per \nyear of PM 10, PM 2.5, or SO 2. \n \nThe following table provides the potential to emit PM 10 and PM 2.5 for the facility.  \n \n \n \n \n \n \nTable 18.  Facility Potential to Emit  for PM 10 and PM 2.5 \n  Annual Emissions (tons/year)  \nSource #  Description  PM 10  PM 2.5  \n5 Sand & Aggregate Stockpiles  1.072  0.112  \n6 Charge Hopper & Conveyor  0.142  0.022  \n7 Aggregate Elevated Storage Bin  0.098  0.014  \n8 Sand Elevated Storage Bin  0.075  0.011  \n9 Cement Silo  0.003  0.000  \n10 Cement Supplement Silo (Fly Ash)  0.003  0.000  \n11 Cement Supplement Silo (Slag)  0.003  0.000  \n12 Weigh Hopper  0.173  0.025  \n13 Truck Mix Loading  0.278  0.041  \n14 Portable Screening Skid  0.028 0.004  \n15 Stockpiles  0.217  0.032  \n16 Portable Hopper/Conveyor  0.002  0.001  \n Total  2.094 0.262  \n \nTable 19. Potential to Emit for Facility 1999  \nPollutant  Annual Emissions (tons/year)Offset  Requirement\n(tons/year ) Offset  \nRequired ? Existing  Application  Facility   \nNOx  0.000  0.000 0.000 >10 No \nPOC  0.000  0.000 0.000 >10 No \nCO 0.000  0.000  0.000  - No \nPM 10 1.847  0.247 2.094  ≥100 No \nPM 2.5 0.225  0.037  0.262   ≥100 No \nSO 2 0.000  0.000  0.000   ≥100 No \n \nSince the facility ’s permitted levels of NOx, POC, PM 10, PM 2.5, and SO 2 are below the \noffset s trigger levels specified in Regulation 2 -2, offsets are not required.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "NOx",
+          0.0,
+          ">10",
+          0.0
+        ],
+        [
+          "POC",
+          0.0,
+          ">10",
+          0.0
+        ],
+        [
+          "PM10",
+          0.247,
+          "≥100",
+          0.0
+        ],
+        [
+          "PM2.5",
+          0.037,
+          "≥100",
+          0.0
+        ],
+        [
+          "SO2",
+          0.0,
+          "≥100",
+          0.0
+        ],
+        [
+          "CO",
+          0.142,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD)\nD)  \nThis application is not part of a PSD project as defined in Regulation 2 -2."
+  },
+  "CEQA": {
+    "narrative": "California Environmental Quality Act (CEQA)\nA)  \nIn 2008, Andreini Brothers and Half Moon Bay Building and Garden Supply submitted \nan amendment to their existing Coastal Development Permit/Conditional Use Permit \n(#08-00) to the CEQA Lead Agency the City of Half Moon Bay (City), to include a \ncrushing and recycling of concrete, asphalt, and rock operation at the existing Resource \nRecycling Center in Half Moon Bay under application APN 056 -230-240 (Concrete and \nAsphalt Recycling Facility Project, State Clearinghouse #2007112007). The project site \nis jointly owned by the Half Moon Bay Building and Garden Supply and Andreini \nBrothers Construction (Applicant). The 8.84 -acre project site is currently permitted to \nhave a 36 -space parking lot to serve the Bel Moon Industrial Park and operate a Resource \nRecovery Cen ter (soil screening operation) that creates a topsoil product. The soil \nscreening operation occupies approximately 2.7 acres of the 8.84 -acre project site.  \n \nThe proposed project (Project) would allow the operation of a concrete and asphalt  \nrecycling unit on an industrially zoned parcel. This parcel currently contains a Resource  \nRecovery Center (soils screening operation) that was initially granted by the Planning  \nCommission on January 25, 2001, and has been operating continuously without incident \nor impact since 2002.  The Applicant could load the concrete crusher onto a truck and take \nit to larger coast -side demolition projects and crush used concrete and asphalt on -site for \nreuse. When the concrete crusher is not in use, it is stored on the project site in the soil \nprocessing area.  \n \nThe City reviewed the Initial Study  and Mitigated Negative Declaration (IS/MND)  for \nthe proposed project  and determined that based on the environmental evaluation \npresented in the IS/MND, the Project would not cause significant adverse effects related \nto aesthetics, air quality, agricultural resources, hazards and hazardous materials, \nhydrology/water quality , land use/planning, mineral resources, noise, population/housing, \npublic services, recreation, transportation/traffic, and utilities/service systems. I n \naddition, substantial adverse effects on humans, either direct or indirect, would not occur. \nOn January 15, 2008, the City of Half Moon Bay City Council approved the Project and \ndetermined that: the project will not have a significant impact on the envir onment; a \nMitigated Negative Declaration was prepared for this project pursuant to the provisions \nof CEQA; and mitigation measures were made a condition of the approval of the project. \nOn January 17, 2008, the Project’s Notice of Determination was posted o n the State \nClearinghouse ( https://ceqanet.lci.ca.gov/2007112007/2 ). The Air District has \nindependently reviewed and considered the City’s environmental analysis. T he Air \nDistrict has determined that the Project  will not have a significant effect on the \nenvironment. As the project will not have a significant effect , CEQA does not require the \nAir District to consider alternatives or mitigation measures to avoid or minimize any such \nimpacts. Since the Air District is not imposing any mitigation measures under  CEQA, \nCEQA does not require the adoption of a mitigation monitoring or reporting plan. With \nthe implementation of the permit conditions outlined in this engineering evaluation and \n \nthe operational requirements in the IS/MND, no further CEQA review is required for this \nproject."
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nCE  \n \nRegulation 6, Rule 1  \nPursuant to Regulation 6-1-301 – Ringelmann No. 1 Limitation  and 6-1-302 – Opacity  \nLimitation , a person shall not emit from any source exceeding Ringelmann 1 and 20% \nopacity for more than 3 minutes in any one-hour period.  \n \nFurthermore, pursuant to Regulation 6 -1-305 – Visible Particles , a person shall not emit \nparticles from any operation in sufficient number to cause annoyance to any other person, \nwhich particles are large enough to be visible as individual particles at the emission point \nor of such size and nature as to be visible ind ividually as incandescent particles. Section \n6-1-305 shall only apply if such particles fall on real property other than that of the \nperson responsible for the emission.  \n \nRegulation 6 -1-310.2  – Total Suspended Particulate (TSP) Concentration Limits: only \napplies to sources with the potential to emit TSP in quantities greater than 2,200 pounds \n \nper year. None of the sources in this application have that ability, therefore this regulation \ndoes not apply.  \n \nRegulation 6 -1-311.1  – Total Suspended Particulate (TSP) Weight Limits  states that  a \nperson shall not discharge more than 40.0 pounds per hour  of TSP particulate matter from \nsources with a process rate of greater than 55,116 pounds per hour . S-14 and S-16, both \nexceed 55,116 pounds per hour in terms of process weight, however they only have a \npotential to emit 0.67 and 0.04 pounds of TSP per hour, respectively.   \n \nSection 6 -1-311.2 does not apply  to S-14 or S -16 because the  PTE of S -14 and S -16 TSP \nemissions are both  less than 1,000 kg/year.  \n \nThe operation of S -14 through  S-16 can meet the requirements of all the applicable \nsections of Regulation 6 -1, including Ringelmann Limitations and Visible Emissions \nwith the use of their abatement devices, water sprays (A -9, A-11) and water truck (A -10). \n \nLastly, S -14 and S -16 will be subject to the monitoring and recordkeeping requirements \nof Regulation 6 -1-503 and 6 -1-506. \n \nRegulation 6, Rule 6 \nHMBBG  meets the definition of  a large  regulated bulk material site in Regulation 6 -6-\n207. As such it shall not cause or allow trackout at any active exit from such site onto an \nadjacent paved public roadway or shoulder of a paved public roadway that exceeds \ncumulative 25 linear feet and creat es fugitive dust visible emissions without cleaning up \nsuch trackout within 4 hours of when the owner/operator identifies such excessive \ntrackout; and shall not cause or allow more than 1 quart of trackout to remain on the \nadjacent paved public roadway or the paved shoulder of the paved public roadway at the \nend of any workday.  \n \nAdditionally, HMBBG  shall not cause or allow a fugitive dust visible emission during \ncleanup of any trackout that exceeds 20 percent opacity as determined by EPA Method \n203B (or as dark in shade as that designated as Number 1 on the Ringelmann Chart), for a \nperiod or aggregat e periods of more than 3 minutes in any 60 -minute period.  Given the \nnature of this operation, compliance with this rule is expected.  \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP)  \nThere are no NESHAP s that are  applicable.  \n \nNew Source Performance Standards (NSPS)  \n40 CFR Part 60 Subpart OOO  – Standards of Performance for Nonmetallic Mineral \nProcessing Plants  \n \n40 CFR 60.670(c)(2)  states that Subpart OOO is not applicable to S -14 or S -16 because \nthey constitute a portable sand and gravel plant and/or concrete crushing operation  with \ncapacities of 150 tons per hour or less . S-14 and S -16 each have maximum a capacity of \n \n150 tons per hour, which means HMBBG, as defined as a portable sand and gravel plant, \nhas a maximum capacity of 150 tons per hour."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "notice per Regulation 2 -1-412.Public Notification (Regulation 2 -1-412)\nThis project is within 1,000 feet of Half Moon Bay High School. Therefore, this project is \nsubject to the school public notification requirements of Regulation 2 -1-412.  \n \nTable 20. Public Schools Notifications for Application 703018  \nSchools  Address  \nHalf Moon Bay High School  1 Lewis Foster Dr, Half Moon Bay, CA 94019  \n \nA public notice will be sent to all parents or guardians of students enrolled at the schools \nlisted above within ¼ mile of the source and all businesses and residents within 1000’ of \nthe facility . There will be a 30 -day public comment period.District Regulation 2 -1-412. After the comments are received and reviewed, the Air\nDistrict will make a final determination on the permit.  \n \nI recommend that the Air District initiate a public notice and consider any comments \nreceived prior to taking any final action on issuance of Authorities to Construct for the \nfollowing source s: \n \nS-14 Portable Screening Skid  \nMake: Terex Finlay ; Model: 693+ Supertrack  \nConsisting of 1 Hopper, 1 Screen, and 4 Conveyors  \nMaximum  Soil Throughput: 9 0 tons/h our, 750 tons/day, 9,750 tons/year , \nMaximum Concrete Throughput:  150 tons/h our, 1,200 tons/day, 48,000 \ntons/year,  abated by A -9 Water Spray Bar   \n \nS-15 Soil Stockpiles  \nSoil/Waste Byproduct, Raw Soil 0.28 Acres, Screened Soil 1.40 Acre, Waste \nByproduct 0.09 Acres , Maximum  Soil Throughput: 9 0 tons/h our, 750 \ntons/day, 9,750 tons/year , abated by A -11 Water Truck and Hose  \n \nS-16 Portable Hopper/Conveyor  Skid  \nMake: Trakpactor; Model: XH320  \nConsisting of 1 Hopper, and 1 Conveyor  \nMaximum  Soil Throughput: 9 0 tons/h our, 750 tons/day, 9,750 tons/year , \nMaximum Concrete Throughput:  150 tons/h our, 1,200 tons/day, 48,000 \ntons/year, abated by A -10 Water Spray Bar  \n \nAbated by  \n \nA-9 Water Spray  Bar System  \nAbating S -14  \n \nA-10 Water Spray  Bar System  \n Abating S -16 \n \nA-11 Water Truck and Hose Spray  \n Abating S -15   \n \nPrepared by: Kevin Creaven , Senior Air Quality Engineer    Date :  11/24/2025"
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS\nNS  \n \nPermit Condition # 100744  for S-14 and S -16 \n \nFor: S-14 and S -16  \n \nPortable Screening Skid  (S-14) and Portable Hopper/Conveyor  (S-16) \n \nApplication 703018   \n \nThis permit authorizes operation of Portable Screening Skid  (S-14) and Portable \nHopper/Conveyor  (S-16) at Facility #1999 or Facility #11468 . Portable Screening Skid  \n(S-14) and Portable Hopper/Conveyor  (S-16) may be operated at another location only in \naccordance with some other valid legal authorization , such as a valid Portable Equipment \nRegistration Program ( PERP ) registration ."
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": null,
+        "text": "PERMIT CONDITIONS\nNS  \n \nPermit Condition # 100744  for S-14 and S -16 \n \nFor: S-14 and S -16  \n \nPortable Screening Skid  (S-14) and Portable Hopper/Conveyor  (S-16) \n \nApplication 703018   \n \nThis permit authorizes operation of Portable Screening Skid  (S-14) and Portable \nHopper/Conveyor  (S-16) at Facility #1999 or Facility #11468 . Portable Screening Skid  \n(S-14) and Portable Hopper/Conveyor  (S-16) may be operated at another location only in \naccordance with some other valid legal authorization , such as a valid Portable Equipment \nRegistration Program ( PERP ) registration .",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nON  \nThe Air District has reviewed the material contained in the permit application for the \nproposed project and has made a preliminary determination that the project is expected to \ncomply with all applicable requirements of Air District, state, and federal air quality -\nrelated regulations. The preliminary recommendation is to issue a  Permit to Operate for \n \nthe equipment listed below.  However, the proposed source is within 1000  feet of Half \nMoon Bay High School , which triggers the public notification requirements of Air"
+  },
+  "raw_sections": {
+    "preamble": "",
+    "blocks": [
+      {
+        "heading": "DRAFT ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "DRAFT ENGINEERING EVALUATION\nON  \n \nHalf Moon Bay Building and Garden, Inc.  \nFacility ID  1999  \nApplication No. 703018  \n119 Main Street, Half Moon Bay, CA 94019"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND  \nHalf Moon Bay Building and Garden, Inc. (HMBBG) has applied  for Authorities to \nConstruct  for the following:  \n \nS-14 Portable Screening Skid  \nMake: Terex Finlay ; Model: 693+ Supertrack  \nConsisting of 1 Hopper, 1 Screen, and 4 Conveyors  \nMax imum  Soil Throughput: 9 0 tons/h our, 750 tons/day, 9,750 tons/year , \nMaximum Concrete Throughput:  150 tons/h our, 1,200 tons/day, 48,000  \ntons/year , abated by A-9 Water Spray Bar   \n \nS-15 Soil Stockpiles  \nSoil/Waste Byproduct , Raw Soil 0.28 Acres, Screened Soil 1.40 Acre, Waste \nByproduct 0.09 Acres , Maximum  Soil Throughput: 9 0 tons/h our, 750 \ntons/day, 9,750 tons/year , abated by A -11 Water Truck and Hose  \n \nS-16 Portable Hopper/Conveyor  Skid  \nMake:  Power Screen ; Model: M70  \nConsisting of 1 Hopper, and 1 Conveyor  \nMaximum  Soil Throughput: 9 0 tons/h our, 750 tons/day, 9,750 tons/year , \nMaximum Concrete Throughput:  150 tons/h our, 1,200 tons/day, 48,000 \ntons/year , abated by A -10 Water Spray Bar  \n \nAbated by  \n \nA-9 Water Spray  Bar System  \nAbating S-14  \n \nA-10 Water Spray  Bar System  \n Abating S-16 \n \nA-11 Water Truck and Hose Spray  \n Abating S -15   \n \nThe HMBBG  facility includes a portable screening skid, stockpiles, and a portable \nhopper /conveyor  skid, which occur on the same lot as a portable concrete  crushing \noperation, associated  with the adjacent Andreini Brother’s  facility  (Facility  #11468 ). The  \nshared  lot where concrete crushing , and soil screening  activities take place has \nhistorically been referred to as the “Resource Recovery Center .” \n \n \nAll incoming materials are directed to the western side of the HMBBG sales office where \nthey are weighed before being directed to deposit their load at the Soil Stockpile s (S-15), \nlocated at the Resource and Recovery Center. During active operations, records indicate \nas many as sixteen (16)  trucks deliver soil to the HMBBG facility per day . To be \nconservative , emissions were calculated assuming as many as 30 trucks per day.  \nTrucks delivering soil to the facility travel approximately 1,000 feet on paved roads, up to \nthe Resource Recovery Center, and then up to approximately 390 feet on unpaved roads \nwithin the Resource Recovery Center (i.e., to deposit materials on the soil st ockpile \ntoward the center of the site). All soil screening operations occur on the eastern portion of \nthe Resource Recovery Center.  \n \nRaw soil product is loaded into the hopper of the Portable Screening Skid (S -14) using a \ncertified EPA Tier 4 loader. The raw material is then transported to the screen box via the \nmain conveyer  of S-14. Materials pass through the screen box, which contain two (2) 20’ \nx 5’ decks that separate materials into screened soil product (1/2” minus) and waste \nbyproduct. The separated materials are transferred via conveyer belts equipped on S -14 \n(i.e., one for each product) and the finished product is wetted via Spray Bar (A-9) before \nbeing discharged from S-14 and transferred by a Portable Hopper/Conveyor Skid  (S-16) \nabated by S pray Bar (A-10) or a certified EPA Tier 4 loader to the Soil  Stockpile s (S-15) \non the northern side of the site.  HMBBG’s hourly, daily, and annua l maximum \nthroughput for screening operations  are summarized in the Emissions  section of this \nevaluation, under the basis  for the emission calculations. The seasonal nature of the soil \nscreening operations lead s to lower annual throughput values than maximum daily \nthroughput values would support.  \n \nApproximately 5% of total throughput would be waste byproduct (wood debris, rocks, \nand other materials greater than ½” in size) that is made available as a local source of \nconstruction fill material, reducing emissions from mobile sources  associated with local \nconstruction projects.  \n  \nHMBBG conducts regular dust abatement of S -15 as well as unpaved travel surfaces \nusing Water Truck and Hose Spray (A-11). Vehicles used to pick up purchased, \nprocessed soil materials from HMBBG have the same general characteristics as raw \nmaterial deliveries.  \n \nHMBBG  registered S -14 Portable Screening Skid  through California Air Resources \nBoard’s (CARB) Portable Equipment Registration Program (PERP) Permit #16828 39.  \nHMMBG requested to operate at multiple locations within the Air District. HMMBG  will \nmaintain a valid PERP registration to operate at other sites not owned and/or operated by \nHMMBG , for less than 12 consecutive months, within the Air District. Otherwise, S -14 \nPortable S creening Skid, will be permitted as a stationary source at the shared Resources \nRecovery Center with Andreini Brother’s . As a new stationary source, S -14 operates \nwithin 1000 feet of a K -12 school site and requires a public notice per Regulation 2 -1-\n412. S-15 and S -16 also operate within 1000 feet of a school site and require public"
+      },
+      {
+        "heading": "notice per Regulation 2 -1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "notice per Regulation 2 -1-412."
+      },
+      {
+        "heading": "EMISSIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSIONS\nIONS  \nTables 1 and 2 summarize the  project emissions from particulate matter 10 microns in \nsize (PM 10) and particulate matter 2.5 microns in size (PM 2.5).  \n \nTable 1. PM 10 Emissions Summary  \nSource  PM 10 Emissions  \nHourly  \n(lbs/day)  Daily  \n(lbs/day)  Annual  \n(lbs/year)  Annual  \n(tons/year)  \nS-14 Portable Screening Skid  0.23 1.9 55 0.028 \nS-15 Stockpiles /Fugitive Road Dust  1.30 9.0 434 0.217 \nS-16 Portable Hopper/Conveyor  0.02 0.2 5 0.002 \nProject Total  1.55 11 493 0.247 \n \nTable 2 . PM 2.5 Emissions  Summary   \nSource  PM 2.5 Emissions  \nHourly  \n(lbs/day)  Daily  \n(lbs/day)  Annual  \n(lbs/year)  Annual  \n(tons/year)  \nS-14 Portable Screening Skid  0.03 0.3 8 0.004 \nS-15 Stockpiles  0.34 1.3 64 0.032 \nS-16 Portable Hopper/Conveyor  0.01 0.1 2 0.001 \nProject Total  0.38 1.7 74 0.037  \n \nS-14 Portable Screening Skid  \nEmission factors for controlled Screening and Conveyor Transfer Points were obtained \nfrom  United States Environmental Protection Agency (EPA)  AP-42 Chapter 11.19.2 \n“Crushed Stone Processing Operations.”  \n \nEmission factors from drop operations into storage piles are derived from Chapter \n11.19.2-2 “Crushed Stone Processing and Pulverized Mineral Processing ” of AP -42 \n(fifth edition, Volume I) . Controlled e mission  factors  are assumed due to the use of water \nspray bars that suppress dust from the screening  operation and drop points. The following \ntwo table s show the emission factors used to calculate emissions for S -14. \n \nBasis:    \n• Operating Schedule: 8 hours/day, 5 days/week, and 52 weeks/year . \n• Max soil throughputs : 90 tons/hour , 750 tons/day, and 9,750 tons/year .  \n• Max Concrete throughputs: 150 tons/hour , 1,200 tons/day, and 48,000 tons/year .  \n• Drop Unloading (controlled) is Drop Unloading (uncontrolled) with a 70% \nabatement efficiency added on for water spray in accordance with Permit \nHandbook Chapter 11.7 Crushing and Grinding . \n• Controlled emission factors for screens and conveyors were obtained from AP -42 \nChapter 11.19.2.  \n \n  \n \nTable 3. S-14 PM 10 Portable Screening Skid Emissions  \nEquipment   # of \nUnits  Controlled \nEmission \nFactor \n(lbs/ton)  Hourly"
+      },
+      {
+        "heading": "PM 10",
+        "alias": null,
+        "text": "PM 10\nEmissions  \n(lbs/hour)  Daily PM 10 \nEmissions  \n(lbs/day)  Annual \nPM 10 \nEmissions  \n(lbs/year)  Annual \nPM 10 \nEmissions  \n(tons/year)  \nHoppers  1 0.00003  (1) 0.01 0.1 2 0.001  \nScreens  1 0.00074  (2) 0.18 1.4 43 0.022  \nConveyors  4 0.000184  (3) 0.04 0.4 11 0.005  \nS-14 Total  0.23 1.9 55 0.028  \nNotes:  \n1. Basis: Permit Handbook Chapter 11.7 Crushing and Grinding Drop Unloading ( Controlled)  \n2. Basis: Table 11.19.2 -2 Screening (Controlled)  of AP -42 Chapter 11.19.2.  \n3. Basis: Table 11.19.2 -2 Conveyor Transfer Point (Controlled)  of AP -42 Chapter 11.19.2.  \n \nTable 4. S -14 PM 2.5 Portable Screening Skid Emissions  \nEquipment   # of \nUnits  Controlled \nEmission \nFactor \n(lbs/ton)  Hourly"
+      },
+      {
+        "heading": "PM 2.5",
+        "alias": null,
+        "text": "PM 2.5\nEmissions  \n(lbs/hour)  Daily PM 2.5 \nEmissions  \n(lbs/day)  Annual \nPM 2.5 \nEmissions  \n(lbs/year)  Annual \nPM 2.5 \nEmissions  \n(tons/year)  \nHoppers  1 0.00003  (1) 0.01 0.1 2 0.001  \nScreens  1 0.00005  (2) 0.01 0.1 3 0.001  \nConveyors  4 0.000052  (3) 0.01 0.1 3 0.002  \nS-14 Total  0.03 0.3 8 0.004  \nNotes:  \n1. Basis: Permit Handbook Drop Unloading ( Controlled)  \n2. Basis: Table 11.19.2 -2 Screening (Controlled)  \n3. Basis: Table 11.19.2 -2 Conveyor Transfer Point (Controlled)  \n \nS-15: Stockpiles  & Vehicle Road Dust Emissions  \nEmission factors from drop operations into storage piles are derived from Chapter 13.2.4 \n“Aggregate Handling and Storage Piles”  of AP -42.  \n \n𝑆𝑡𝑜𝑐𝑘𝑝𝑖𝑙𝑒  𝐸𝐹 (𝑙𝑏/𝑡𝑜𝑛)=𝑘×(0.032 )×(𝑈\n5)1.3\n(𝑀\n2)1.4  \n \nWhere:  \n \nEF  =  emission factor (lb/ ton) \nk  =  particle size multiplier (0.35  for PM 10; 0.053 for PM 2.5), (dimensionless)  \nU  =  mean wind speed, (miles per hour)  \nM =  material moisture content, (%)  \n \nFor the project, a mean windspeed of 25.92  miles per hour was assumed based on  the \nmonthly average of the max hourly wind speed of each month in the year 2023. This year \nwas selected for having the most complete data and windiest wind speeds of the past five \nyears for the city  of Half Moon Bay . A moisture content of 2.1% was conservatively \nassumed in accordance with the Bay Area Air District’s Permit Handbook, which \n \nrecommends using 2.1% for concrete batch plants. While this is not concrete batch plant, \nsome concrete is present at the facility. However, the moisture content at this facility \nwould be expected to be higher considering soil typically has a higher moistur e content.   \n \nEmissions are assumed to be 70% controlled due to the use of water spray bars that \nsuppress dust from the crushing operation and drop points. The following table s show the \nemission rates for S -15. \n \nTable 5. S-15 PM 10 Stockpile  Emissions  \nEmission  Type  Hourly PM 10 \nEmissions  \n(lbs/hour)  Daily PM 10 \nEmissions  \n(lbs/day)  Annual PM 10 \nEmissions  \n(lbs/year)  Annual PM 10 \nEmissions  \n(tons/year)  \nWind Erosion(1) 0.04 0.9 329 0.165  \nSoil Drop Operations(2) 0.32 2.7 35 0.017  \nNotes:  \n1. Basis: Permit Handbook Chapter 11.7 Crushing & Grinding , Emission factor of 1.7lbs/acre/day \nbefore an additional 70% abatement from water spray  \n2. Basis: Chapter 13.2.4 “Aggregate Handling and Storage Piles” of AP -42. \n \nTable 6. S-15 PM 2.5 Stockpile  Emissions  \nEmission Type  Hourly PM 2.5 \nEmissions  \n(lbs/hour)  Daily PM 2.5 \nEmissions  \n(lbs/day)  Annual PM 2.5 \nEmissions  \n(lbs/year)  Annual PM 2.5 \nEmissions  \n(tons/year)  \nWind Erosion(1) 0.006  0.1 49 0.025  \nSoil Drop Operations(2) 0.05 0.4 5 0.003  \nNotes:  \n1. Basis: Permit Handbook Chapter 11.7 Crushing & Grinding , Emission factor of 1.7lbs/acre/day \nbefore an additional 70% abatement from water spray  \n2. Basis: Chapter 13.2.4 “Aggregate Handling and Storage Piles” of AP -42. \n \n \nFor vehicles traveling on unpaved surfaces at industrial sites, emissions are estimated \nfrom the following equation from AP -42 Chapter 13.2.2 Unpaved Roads :  \n𝐸=𝑘(𝑠/12)𝑎(𝑊/3)𝑏 \n \nWhere:  \n \nE = size specific emission factor (lb/VMT)  \nk = 1.5 for PM 10; 0.15 for PM 2.5 \na = 0.9  \nb = 0.45  \ns = surface material silt content  % for stone quarrying and processing ; 8.3 \nW = mean weight (tons) =  (40 tons for max weight vehicles  + 15 tons for empty  \nvehicles ) / 2 = 27.5 ton truck s (mean)"
+      },
+      {
+        "heading": "Emissions for vehicles traveling on paved roads were estimated using the following",
+        "alias": "EMISSIONS",
+        "text": "Emissions for vehicles traveling on paved roads were estimated using the following\nequation from AP -42 Chapter 13.2.1 Paved Roads : \n \n \n𝐸=𝑘(𝑠𝐿)0.91(𝑊)1.02 \n \nWhere:  \n \nE = size specific emission factor (lb/VMT)  \nk = 0.0022  for PM 10; 0.00054  for PM 2.5 \nsL = surface material silt content  % for stone quarrying and processing ; 8.3 \nW = mean weight (tons) =  (40 tons for max weight vehicles  + 15 tons for empty  \nvehicles ) / 2 = 27.5 ton trucks (mean)  \n \nThe vehicle and distance assumptions used to estimate emissions are shown in Table 7. \n \nTable 8 below shows the emission rates summary for PM 10 and PM 2.5 dust generated by \nvehicle traffic.  \n \nBasis:  \n• 40 tons of fully loaded truck  – 15 tons empty weight = 25 tons of material per \ntruck  \n• Vehicle miles traveled per day  on paved roads  (VMT/day) = 750 ton/day / 25 tons \nof material per truck = 30 trucks/day * 0. 379 miles /truck = 11.363 VMT/day   \n• Vehicle miles traveled per year  on paved roads  (VMT/year) = 9,750  ton/year / 25 \ntons of material per truck = 390 trucks/year * 0. 379 miles /truck  =147.7 VMT/year  \n• Front end loaders round trip of 0. 076 miles of unpaved portions of the site  \n• Loadout trucks round trip of 0. 068 miles of unpaved roads and 0.38 miles of \npaved roads  \n• Vehicle fugitive road dust emissions are abated by water sprays which provides \n70% control efficiency.  \n \nTable 7. Vehicle and Distance Assumptions  \nVehicle  Road Type  Round Trip \nDistance  \n(miles) # of Truck Trips  Vehicle Miles \nTraveled  \n(miles)  \nDaily  Annual  Daily  Annual  \nFront End Loaders  Unpaved  0.076  30 390 2.27 29.55  \nLoadout Trucks  Unpaved  0.074  30 390 2.22 28.81  \nLoadout Trucks  Paved  0.379  30 390 11.36  147.73  \nFront End Loaders  Unpaved  0.076  30 390 2.27 29.55  \nLoadout Trucks  Unpaved  0.074  30 390 2.22 28.81  \nLoadout Trucks  Paved  0.379  30 390 11.36  147.73  \n \n \n \n \n \n \nTable 8. Vehicle Traffic Emissions  \nVehicle  Road Type  Emission \nFactor \n(lb/VMT)  Emission Rate  \nHourly  \n(lbs/hour)  Daily  \n(lbs/day)  Annual  \n(lbs/year)  Annual  \n(ton/year)  \nFront End Loaders  Unpaved  2.917  0.08 2.0 26 0.013  \nLoadout Trucks  Unpaved  2.917  0.48 1.9 25 0.013  \nLoadout Trucks  Paved  0.444  0.38 1.5 20 0.010  \nPM 10 Total Emissions  0.95 5.4 71 0.035  \nFront End Loaders  Unpaved  0.292  0.01 0.2 3 0.001  \nLoadout Trucks  Unpaved  0.292  0.10 0.2 3 0.001  \nLoadout Trucks  Paved  0.109  0.19 0.4 5 0.002  \nPM 2.5 Total Emissions  0.29 0.8 10 0.005  \n \nTable 9. Total S-15 PM 10 Stockpile  Emissions  \nEmission Type  Hourly PM 10 \nEmissions  \n(lb/hour)  Daily PM 10 \nEmissions  \n(lbs/day)  Annual PM 10 \nEmissions  \n(lbs/year)  Annual PM 10 \nEmissions  \n(tons/year)  \nWind Erosion  0.04 0.9 329 0.165  \nSoil Drop Operations  0.32 2.7 35 0.017  \nVehicle Traffic Emissions  0.95 5.4 71 0.035  \nPM 10 Total Emissions  1.30 9.0 434 0.217  \n \nTable 10. Total S-15 PM 2.5 Stockpile  Emissions  \nEmission Type  Hourly PM 2.5 \nEmissions  \n(lb/hour)  Daily PM 2.5 \nEmissions  \n(lbs/day)  Annual PM 2.5 \nEmissions  \n(lbs/year)  Annual PM 2.5 \nEmissions  \n(tons/year)  \nWind Erosion  0.01 0.1 49 0.025  \nSoil Drop Operations  0.05 0.4 5 0.003  \nVehicle Traffic Emissions  0.29 0.8 10 0.005  \nPM 2.5 Total Emissions  0.34 1.3 64 0.032  \n \nS-16 Portable Hopper/Conveyor    \nEmission factors for controlled Conveyor Transfer Points were obtained from AP -42 \nChapter 11.19.2 “Crushed Stone Processing Operations.” Emission factors from drop \noperations into storage piles are derived from Chapter 1 1.19.2-2 “Crushed Stone \nProcessing and Pulverized Mineral Processing ” of AP -42 (fifth edition, Volume I) . \nEmissions are assumed to be 70% controlled due to the use of water spray bars that \nsuppress dust from the crushing operation and drop points. The following  two table s \nshow the emission f actors used to calculate emissions for S -16. \n \nBasis:    \n• Operating Schedule: 8 hours/day, 5 days/week, and 52 weeks/year . \n• Max soil throughputs: 90  tons/hour , 750 tons/day, and 9,75 0 tons/year .  \n• Max Concrete throughputs: 150 tons/hour , 1,200 tons/day, and 48,000 tons/year .  \n \n• Drop Unloading (controlled) is Drop Unloading (uncontrolled) with a 70% \nabatement efficiency added on for water spray in accordance with Permit \nHandbook Chapter 11.7 Crushing and Grinding.  \n \nTable 11. S-16 PM 10 Emissions  \nEquipment   # of \nUnits  Controlled Emission \nFactor  \n(lb/ton)  PM 10 Emissions  \nHourly  \n(lb/hour)  Daily  \n(lb/day)  Annual  \n(lbs/year)  Annual  \n(tons/year)  \nHoppers  1 0.00003  (1) 0.01 0.1 2 0.001  \nConveyors  1 0.000046  (2) 0.01 0.1 3 0.001  \nS-16 Total  0.02 0.2 5 0.002  \nNotes:  \n1. Basis: Permit Handbook Drop Unloading ( Controlled)  \n2. Basis: Table 11.19.2 -2 Conveyor Transfer Point (Controlled)  \n \nTable 12. S-16 PM 2.5 Emissions  \nEquipment   # of \nUnits  Controlled Emission \nFactor  \n(lb/ton)  PM 2.5 Emissions  \nHourly  \n(lb/hour)  Daily  \n(lb/day)  Annual  \n(lbs/year)  Annual  \n(tons/year)  \nHoppers  1 0.00003  (1) 0.01 0.1 1 0.001  \nConveyors  1 0.000013  (2) 0.00 0.0 1 0.000  \nS-16 Total  0.01 0.1 2 0.001  \nNotes:  \n1. Basis: Permit Handbook Drop Unloading ( Controlled)  \n2. Basis: Table 11.19.2 -2 Conveyor Transfer Point (Controlled)"
+      },
+      {
+        "heading": "CUMULATIVE INCREASE",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "CUMULATIVE INCREASE\nSE  \nTable 8 summarizes the cumulative increase in criteria pollutant emissions that will result \nfrom this application.  Existing Cumulative Increase taken from Application #28657.  \n \nTable 13. Cumulative Emissions Increase, Post 4/5/91  \nPollutant  Existing  Cumulative \nIncrease  \n(tons/y ear) Application Emissions  \n(tons/y ear) Total Cumulative Increase  \n(tons/y ear) \nPOC  0.000  0.000  0.000  \nNOx  0.000  0.000  0.000  \nSO 2 0.000  0.000  0.000  \nCO 0.000  0.000  0.000  \nPM 10 1.313  0.247 1.560 \nPM 2.5 0.141 0.037 0.178 \n \nThe facility is not expected to have a potential to emit ( PTE) greater than 10 tons per year \nof precursor organic compounds ( POC ) or nitrogen oxidizes ( NO X), nor is the facility a \nmajor facility of PM 10, PM 2.5, and sulfur dioxide ( SO 2).  Therefore, the requirements of \nRegulations 2 -2-302 and 2 -2-303 do not apply."
+      },
+      {
+        "heading": "HEALTH RISK ASSESSMENT ANALYSIS",
+        "alias": "TOXICS",
+        "text": "HEALTH RISK ASSESSMENT ANALYSIS\nYSIS  \nPursuant to Regulation 2 -5-110, a project shall not be subject to this rule if, for each toxic \nair contaminant ( TAC ), the total project emissions are below the acute and chronic trigger \nlevels listed in Table 2 -5-1 of this regulation. A project includes all new or modified \nsources of TACs within a 5 -year period.  S-14 through S -16 are permitted under Application \n#703018. S-14 through S -16 operate with a portable crusher owned by Andreini Brother’s . \nTherefore, both facilities are considered one project despit e being owned by two separate \nfacilities ."
+      },
+      {
+        "heading": "Table 1 4. Source Specific Hourly Toxic Air Contaminant Emissions",
+        "alias": "TOXICS",
+        "text": "Table 1 4. Source Specific Hourly Toxic Air Contaminant Emissions\nPollutant  CAS  Hourly Emissions (lbs/hour)  \nApplication 692505  Application 703018  \nS-9 S-9 \n(Road Dust)  S-14 S-15 S-16 \nArsenic  7440 -38-2 1.1E-05 N/A  2.0E-06 N/A  1.2E-07 \nBeryllium  7440 -41-7 6.1E-07 N/A  1.3E-07 N/A  7.8E-09 \nCadmium  7440 -43-9 5.3E-07 N/A  5.9E-08 N/A  3.6E-09 \nChromium (Total)  18540 -29-9 2.8E-05 N/A  4.0E-06 N/A  2.4E-07 \nChromium Hexavalent   2.5E-06 N/A  4.0E-07 N/A  2.5E-08 \nCopper  7440 -50-8 1.5E-05 N/A  1.7E-06 N/A  1.0E-07 \nCrystalline Silica \n(respirable)  7631 -86-9 -- -- 3.0E-02 -- 1.9E-03 \nLead  7439 -92-1 6.6E-06 N/A  3.2E-06 -- 2.0E-07 \nManganese  7439 -96-5 1.9E-04 N/A  2.1E-05 N/A  4.4E-11 \nMercury  7439 -97-6 N/A  N/A  7.2E-10 N/A  1.3E-06 \nNickel  7440 -02-0 1.2E-05 N/A  4.1E-06 N/A  2.5E-07 \nSelenium  7782 -49-2 5.3E-07 N/A  1.1E-07 N/A  6.9E-09"
+      },
+      {
+        "heading": "Table 1 5. Source Specific Annual Toxic Air Contaminant Emissions",
+        "alias": "TOXICS",
+        "text": "Table 1 5. Source Specific Annual Toxic Air Contaminant Emissions\nPollutant  CAS  Annual  Emissions (lbs/year)  \nApplication 692505  Application 703018  \nS-9 S-9 \n(Road Dust)  S-14 S-15 S-16 \nArsenic  7440 -38-2 3.6E-03  N/A 6.3E-04   N/A 3.9E-05 \nBeryllium  7440 -41-7 1.9E-04  N/A 4.1E-05   N/A 2.5E-06 \nCadmium  7440 -43-9 1.7E-04   N/A 1.9E-05   N/A 1.1E-06 \nChromium (Total)  18540 -29-9 9.1E-03   N/A 1.3E-03   N/A 7.8E-05 \nChromium Hexavalent   8.0E-04   N/A 1.3E-04   N/A 7.9E-06 \nCopper  7440 -50-8 4.9E-03   N/A 5.5E-04   N/A 3.3E-05 \nCrystalline Silica \n(respirable)  7631 -86-9 5.1E+01  1.1E+01   9.1E+00  2.8E+01   5.7E-01 \nLead  7439 -92-1 2.1E-03   N/A 6.9E-04 9.4E-03  4.2E-05 \nManganese  7439 -96-5 6.0E-02   N/A 6.7E-03   N/A 1.4E-08 \nMercury  7439 -97-6 N/A   N/A 2.3E-07   N/A 4.1E-04 \nNickel  7440 -02-0 3.9E-03   N/A 1.3E-03   N/A 8.0E-05 \nSelenium  7782 -49-2 1.7E-04   N/A 3.6E-05   N/A 2.2E-06"
+      },
+      {
+        "heading": "Table 16. Total Project  Toxic Air Contaminant  Emissions",
+        "alias": "TOXICS",
+        "text": "Table 16. Total Project  Toxic Air Contaminant  Emissions\nToxic Air \nContaminant  CAS #  Hourly \nEmissions \n(lbs/hour)  Annual \nEmissions \n(lbs/year)  Acute \nTrigger \nLevel  \n(lbs/hour)  Chronic \nTrigger \nLevel  \n(lbs/year)  Exceed \nAcute or \nChronic \nTrigger?  \nArsenic  7440 -38-2 1.3E-05 4.2E-03 8.80E -05 1.6E-03 Yes \n(chronic)  \nBeryllium  7440 -41-7 7.4E-07 2.4E-04 -- 3.4E-02 No \nCadmium  7440 -43-9 5.9E-07 1.9E-04 -- 1.9E-02 No \nTotal Chromium    6.8E-06 1.0E-02 -- -- No \nChromium \nHexavalent  18540 -29-9 2.9E-06 9.4E-04 -- 5.1E-04 Yes \n(chronic)  \nCopper  7440 -50-8 1.7E-05 5.5E-03 4.4E-02 -- No \nCrystalline Silica \n(respirable)  7631 -86-9 -- 1.2E+02  -- 1.2E+02  No \nLead 7439 -92-1 -- 2.5E-02 -- 2.9E-01 No \nManganese  7439 -96-5 2.1E-04 6.7E-02 -- 3.5E+00  No \nNickel  7440 -02-0 1.7E-05 5.3E-03 8.80E -05 3.1E-01 No \nSelenium  7782 -49-2 6.5E-07 2.1E-04 -- 8.0E+00  No \nMercury  7439 -97-6 7.6E-10 2.4E-07 2.7E-04 2.1E-01 No \n \nA health risk assessment (HRA) was triggered for arsenic  and hexavalent chromium \nemissions , both of which exceeded the chronic trigger levels.   \n \n \nHRA Results  \nResults from this HRA indicate that the maximum project cancer risk is estimated at 1.2 in \na million , the maximum project chronic hazard index ( CHI) is estimated at 0.085, and the \nproject acute hazard index (A HI) is estimated at 0. 36. Since the estimated project cancer \nrisk does not exceed 10 in a million and hazard indices do not exceed 1.0, this proposed \nproject complies with the District’s Regulation 2 -5-302 project risk requirements, for \nprojects not located in an Overburdened Commu nity, as defined in Regulation 2 -1-243. \nSee HRA Report for more details."
+      },
+      {
+        "heading": "Best Available Control Technology for Toxics ( TBACT )",
+        "alias": "TOXICS",
+        "text": "Best Available Control Technology for Toxics ( TBACT )\nIn accordance with the District’s Regulation 2 -5-301, none of the source s require TBACT \nbecause none of the estimated  source risk s exceed a cancer risk of 1.0 in a million and /or \na chronic HI of 0.20.  \n \nTable 17. Risk Screening Results  \nMaximally Exposed Receptor  Maximum Cancer Risk  Maximum Hazard Index  \nChronic  Acute  \nResident  1.2 chances in a million  0.085  -- \nOff-site worker  0.078 chances in a million  0.035 -- \nStudent (Half Moon Bay High School)  0.064 chances in a million  0.015 -- \nPoint Max Impact  -- -- 0.36"
+      },
+      {
+        "heading": "BEST AVAILABLE CONTROL TECHNOLOGY  (BACT)",
+        "alias": "BACT",
+        "text": "BEST AVAILABLE CONTROL TECHNOLOGY  (BACT)\nT)  \nPer Regulation 2 -2-301, BACT is triggered for any new or modified source with the PTE \n10 pounds or more per highest day of  POC,  non-precursor organic compounds  (NPOC ), \nNOx, carbon monoxide ( CO), SO 2, PM 10, or PM 2.5 emissions.  \n \nTable s 1 and 2 show PM 10 and PM 2.5 emissions  from each new source .  \n \nNo source is expected to emit more than 10.0 pounds per day, therefore, the requirements \nof Regulation 2 -2-301 are not applicable."
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nTS  \nPursuant to Regulation 2 -2-302, offsets must be provided for any new or modified source \nat a facility that emits, or is permitted to emit, more than 10 tons per year of POC or \nNO X.  Furthermore, pursuant to Regulation 2 -2-303 offsets must be provided for any new \nor modified source at a major facility with a cumulative increase that exceeds 1.0 ton per \nyear of PM 10, PM 2.5, or SO 2. \n \nThe following table provides the potential to emit PM 10 and PM 2.5 for the facility.  \n \n \n \n \n \n \nTable 18.  Facility Potential to Emit  for PM 10 and PM 2.5 \n  Annual Emissions (tons/year)  \nSource #  Description  PM 10  PM 2.5  \n5 Sand & Aggregate Stockpiles  1.072  0.112  \n6 Charge Hopper & Conveyor  0.142  0.022  \n7 Aggregate Elevated Storage Bin  0.098  0.014  \n8 Sand Elevated Storage Bin  0.075  0.011  \n9 Cement Silo  0.003  0.000  \n10 Cement Supplement Silo (Fly Ash)  0.003  0.000  \n11 Cement Supplement Silo (Slag)  0.003  0.000  \n12 Weigh Hopper  0.173  0.025  \n13 Truck Mix Loading  0.278  0.041  \n14 Portable Screening Skid  0.028 0.004  \n15 Stockpiles  0.217  0.032  \n16 Portable Hopper/Conveyor  0.002  0.001  \n Total  2.094 0.262  \n \nTable 19. Potential to Emit for Facility 1999  \nPollutant  Annual Emissions (tons/year)"
+      },
+      {
+        "heading": "Offset  Requirement",
+        "alias": "OFFSETS",
+        "text": "Offset  Requirement\n(tons/year ) Offset  \nRequired ? Existing  Application  Facility   \nNOx  0.000  0.000 0.000 >10 No \nPOC  0.000  0.000 0.000 >10 No \nCO 0.000  0.000  0.000  - No \nPM 10 1.847  0.247 2.094  ≥100 No \nPM 2.5 0.225  0.037  0.262   ≥100 No \nSO 2 0.000  0.000  0.000   ≥100 No \n \nSince the facility ’s permitted levels of NOx, POC, PM 10, PM 2.5, and SO 2 are below the \noffset s trigger levels specified in Regulation 2 -2, offsets are not required."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE  \n \nRegulation 6, Rule 1  \nPursuant to Regulation 6-1-301 – Ringelmann No. 1 Limitation  and 6-1-302 – Opacity  \nLimitation , a person shall not emit from any source exceeding Ringelmann 1 and 20% \nopacity for more than 3 minutes in any one-hour period.  \n \nFurthermore, pursuant to Regulation 6 -1-305 – Visible Particles , a person shall not emit \nparticles from any operation in sufficient number to cause annoyance to any other person, \nwhich particles are large enough to be visible as individual particles at the emission point \nor of such size and nature as to be visible ind ividually as incandescent particles. Section \n6-1-305 shall only apply if such particles fall on real property other than that of the \nperson responsible for the emission.  \n \nRegulation 6 -1-310.2  – Total Suspended Particulate (TSP) Concentration Limits: only \napplies to sources with the potential to emit TSP in quantities greater than 2,200 pounds \n \nper year. None of the sources in this application have that ability, therefore this regulation \ndoes not apply.  \n \nRegulation 6 -1-311.1  – Total Suspended Particulate (TSP) Weight Limits  states that  a \nperson shall not discharge more than 40.0 pounds per hour  of TSP particulate matter from \nsources with a process rate of greater than 55,116 pounds per hour . S-14 and S-16, both \nexceed 55,116 pounds per hour in terms of process weight, however they only have a \npotential to emit 0.67 and 0.04 pounds of TSP per hour, respectively.   \n \nSection 6 -1-311.2 does not apply  to S-14 or S -16 because the  PTE of S -14 and S -16 TSP \nemissions are both  less than 1,000 kg/year.  \n \nThe operation of S -14 through  S-16 can meet the requirements of all the applicable \nsections of Regulation 6 -1, including Ringelmann Limitations and Visible Emissions \nwith the use of their abatement devices, water sprays (A -9, A-11) and water truck (A -10). \n \nLastly, S -14 and S -16 will be subject to the monitoring and recordkeeping requirements \nof Regulation 6 -1-503 and 6 -1-506. \n \nRegulation 6, Rule 6 \nHMBBG  meets the definition of  a large  regulated bulk material site in Regulation 6 -6-\n207. As such it shall not cause or allow trackout at any active exit from such site onto an \nadjacent paved public roadway or shoulder of a paved public roadway that exceeds \ncumulative 25 linear feet and creat es fugitive dust visible emissions without cleaning up \nsuch trackout within 4 hours of when the owner/operator identifies such excessive \ntrackout; and shall not cause or allow more than 1 quart of trackout to remain on the \nadjacent paved public roadway or the paved shoulder of the paved public roadway at the \nend of any workday.  \n \nAdditionally, HMBBG  shall not cause or allow a fugitive dust visible emission during \ncleanup of any trackout that exceeds 20 percent opacity as determined by EPA Method \n203B (or as dark in shade as that designated as Number 1 on the Ringelmann Chart), for a \nperiod or aggregat e periods of more than 3 minutes in any 60 -minute period.  Given the \nnature of this operation, compliance with this rule is expected.  \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP)  \nThere are no NESHAP s that are  applicable.  \n \nNew Source Performance Standards (NSPS)  \n40 CFR Part 60 Subpart OOO  – Standards of Performance for Nonmetallic Mineral \nProcessing Plants  \n \n40 CFR 60.670(c)(2)  states that Subpart OOO is not applicable to S -14 or S -16 because \nthey constitute a portable sand and gravel plant and/or concrete crushing operation  with \ncapacities of 150 tons per hour or less . S-14 and S -16 each have maximum a capacity of \n \n150 tons per hour, which means HMBBG, as defined as a portable sand and gravel plant, \nhas a maximum capacity of 150 tons per hour."
+      },
+      {
+        "heading": "California Environmental Quality Act (CEQA)",
+        "alias": "CEQA",
+        "text": "California Environmental Quality Act (CEQA)\nA)  \nIn 2008, Andreini Brothers and Half Moon Bay Building and Garden Supply submitted \nan amendment to their existing Coastal Development Permit/Conditional Use Permit \n(#08-00) to the CEQA Lead Agency the City of Half Moon Bay (City), to include a \ncrushing and recycling of concrete, asphalt, and rock operation at the existing Resource \nRecycling Center in Half Moon Bay under application APN 056 -230-240 (Concrete and \nAsphalt Recycling Facility Project, State Clearinghouse #2007112007). The project site \nis jointly owned by the Half Moon Bay Building and Garden Supply and Andreini \nBrothers Construction (Applicant). The 8.84 -acre project site is currently permitted to \nhave a 36 -space parking lot to serve the Bel Moon Industrial Park and operate a Resource \nRecovery Cen ter (soil screening operation) that creates a topsoil product. The soil \nscreening operation occupies approximately 2.7 acres of the 8.84 -acre project site.  \n \nThe proposed project (Project) would allow the operation of a concrete and asphalt  \nrecycling unit on an industrially zoned parcel. This parcel currently contains a Resource  \nRecovery Center (soils screening operation) that was initially granted by the Planning  \nCommission on January 25, 2001, and has been operating continuously without incident \nor impact since 2002.  The Applicant could load the concrete crusher onto a truck and take \nit to larger coast -side demolition projects and crush used concrete and asphalt on -site for \nreuse. When the concrete crusher is not in use, it is stored on the project site in the soil \nprocessing area.  \n \nThe City reviewed the Initial Study  and Mitigated Negative Declaration (IS/MND)  for \nthe proposed project  and determined that based on the environmental evaluation \npresented in the IS/MND, the Project would not cause significant adverse effects related \nto aesthetics, air quality, agricultural resources, hazards and hazardous materials, \nhydrology/water quality , land use/planning, mineral resources, noise, population/housing, \npublic services, recreation, transportation/traffic, and utilities/service systems. I n \naddition, substantial adverse effects on humans, either direct or indirect, would not occur. \nOn January 15, 2008, the City of Half Moon Bay City Council approved the Project and \ndetermined that: the project will not have a significant impact on the envir onment; a \nMitigated Negative Declaration was prepared for this project pursuant to the provisions \nof CEQA; and mitigation measures were made a condition of the approval of the project. \nOn January 17, 2008, the Project’s Notice of Determination was posted o n the State \nClearinghouse ( https://ceqanet.lci.ca.gov/2007112007/2 ). The Air District has \nindependently reviewed and considered the City’s environmental analysis. T he Air \nDistrict has determined that the Project  will not have a significant effect on the \nenvironment. As the project will not have a significant effect , CEQA does not require the \nAir District to consider alternatives or mitigation measures to avoid or minimize any such \nimpacts. Since the Air District is not imposing any mitigation measures under  CEQA, \nCEQA does not require the adoption of a mitigation monitoring or reporting plan. With \nthe implementation of the permit conditions outlined in this engineering evaluation and \n \nthe operational requirements in the IS/MND, no further CEQA review is required for this \nproject."
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD)",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD)\nD)  \nThis application is not part of a PSD project as defined in Regulation 2 -2."
+      },
+      {
+        "heading": "Public Notification (Regulation 2 -1-412)",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "Public Notification (Regulation 2 -1-412)\nThis project is within 1,000 feet of Half Moon Bay High School. Therefore, this project is \nsubject to the school public notification requirements of Regulation 2 -1-412.  \n \nTable 20. Public Schools Notifications for Application 703018  \nSchools  Address  \nHalf Moon Bay High School  1 Lewis Foster Dr, Half Moon Bay, CA 94019  \n \nA public notice will be sent to all parents or guardians of students enrolled at the schools \nlisted above within ¼ mile of the source and all businesses and residents within 1000’ of \nthe facility . There will be a 30 -day public comment period."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nNS  \n \nPermit Condition # 100744  for S-14 and S -16 \n \nFor: S-14 and S -16  \n \nPortable Screening Skid  (S-14) and Portable Hopper/Conveyor  (S-16) \n \nApplication 703018   \n \nThis permit authorizes operation of Portable Screening Skid  (S-14) and Portable \nHopper/Conveyor  (S-16) at Facility #1999 or Facility #11468 . Portable Screening Skid  \n(S-14) and Portable Hopper/Conveyor  (S-16) may be operated at another location only in \naccordance with some other valid legal authorization , such as a valid Portable Equipment \nRegistration Program ( PERP ) registration ."
+      },
+      {
+        "heading": "THROUGHPUTS",
+        "alias": null,
+        "text": "THROUGHPUTS\nTS  \n1. The owner/operator of S-14 and S -16 shall not exceed the following throughput limit s \nof material processed at this portable operation  in an y calendar day and consecutive \ntwelve -month period : \n \nConcrete/Asphalt Rubble  \n150 tons/hour  \n1,200 tons/day  \n48,000 tons/year  \n \nSoil \n90 tons/hour  \n750 tons/day  \n \n9,750 tons/year  \n[Basis: Cumulative Increase]"
+      },
+      {
+        "heading": "ABATEMENT",
+        "alias": null,
+        "text": "ABATEMENT\nNT  \n2. The owner/operator shall abate the particulate matter emissions from Source s S-14 and \nS-16 using Water Spray System A -9 and A -10, respectively .  \n[Basis: Regulation 6 -1-301, and Cumulative Increase ]"
+      },
+      {
+        "heading": "GENERAL",
+        "alias": null,
+        "text": "GENERAL\nAL  \n3. The owner/operator of S -14 and S -16 shall ensure visible particulate emissions from \nSources S-14 or S -16 do not exceed Ringelmann 1.0 or equivalent to 10% opacity for \na period or aggregate periods of more than 3 minutes in any 60 minute period, or \nresult in fallout on adjacent property in such quantities as to cause a public nuisance \nper Regulation 1 -301.  \n[Basis: Regulation 1 -301, Regulation 2 -1-403, 6 -1-301]"
+      },
+      {
+        "heading": "RECORDKEEPING",
+        "alias": null,
+        "text": "RECORDKEEPING\nNG  \n4. To determine compliance with the above parts, the owner/operator shall maintain the \nfollowing records and provide all of the data necessary to evaluate compliance with \nthe above parts, including the following information : \n \na. Total daily throughput of concrete , asphalt rubble , and soil at each \nlocation for S -14 and S -16. \nb. Daily throughputs shall be totaled for each month and each consecutive \ntwelve -month period.  \n  \nThe owner/operator shall record all records in an Air District -approved log. The \nowner/operator shall retain records with the equipment for two years, from the date \nof entry, and make them available for inspection by Air District staff upon request. \nThese record -keeping requirements shall not replace the record -keeping \nrequirements contained in any applicable Air District Regulation.  \n[Basis: Recordkeeping]  \n \nPermit Condition # 100751  for S-15 \nStockpiles (S -15) \n \nApplication 703018"
+      },
+      {
+        "heading": "THROUGHPUTS",
+        "alias": null,
+        "text": "THROUGHPUTS\nTS  \n1. The owner/operator of S-15 shall not exceed the following throughput limit s of \nmaterial processed at this source  any calendar day and consecutive twelve -month \nperiod:  \n \nSoil \n90 tons/hour  \n750 tons/day  \n \n9,750 tons/year  \n[Basis: Cumulative Increase]  \n \nABATEMENT : STOCKPILES  \n2. The owner/operator shall abate the particulate matter emissions from Source s S-15 \n(stockpiles) using Water Spray System A -11.  \n[Basis: Regulation 6 -1-301, and Cumulative Increase ] \n \n3. The owner/operator shall maintain Source S -15 (stockpiles)  in a completely \"surface \nwet\" condition or in a manner that shall not result in visible particulate matter \nemissions which exceed Ringelmann 1.0.  \n[Basis: Regulation 6 -1-301 and Cumulative Increase ]"
+      },
+      {
+        "heading": "PAVED/UNPAVED ROAD EMISSIONS",
+        "alias": null,
+        "text": "PAVED/UNPAVED ROAD EMISSIONS\nNS  \n4. The owner/operator shall  abate the particulate matter emissions from S-15 (including \nall in -use paved and unpaved roads to and from each stockpile ) using Water Spray \nSystem A -11, at all times during operation .  \n[Basis: Regulation 6 -1-301, and Cumulative Increase ] \n \n5. The owner/operator shall  maintain S -15 (including all in -use paved and unpaved \nroads to and from each stockpile ) in a completely \"surface wet\" condition or  in a \nmanner that  shall not result in visible particulate matter emissions which exceed \nRingelmann 0.5  at all times during operation .  \n[Basis: Regulation 6 -1-301, and Cumulative Increase ]"
+      },
+      {
+        "heading": "RECORDKEEPING",
+        "alias": null,
+        "text": "RECORDKEEPING\nNG  \n6. To determine compliance with the above parts, the owner/operator shall maintain the \nfollowing records and provide all of the data necessary to evaluate compliance with \nthe above parts, including the following information : \n \na. Total daily throughput of soil . \nb. Daily throughputs shall be totaled for each month and each consecutive \ntwelve -month period.  \n  \nThe owner/operator shall record all records in an Air District -approved log. The \nowner/operator shall retain records with the equipment for two years, from the date \nof entry, and make them available for inspection by Air District staff upon request. \nThese record -keeping requirements shall not replace the record -keeping \nrequirements contained in any applicable Air District Regulation.  \n[Basis: Recordkeeping]"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nON  \nThe Air District has reviewed the material contained in the permit application for the \nproposed project and has made a preliminary determination that the project is expected to \ncomply with all applicable requirements of Air District, state, and federal air quality -\nrelated regulations. The preliminary recommendation is to issue a  Permit to Operate for \n \nthe equipment listed below.  However, the proposed source is within 1000  feet of Half \nMoon Bay High School , which triggers the public notification requirements of Air"
+      },
+      {
+        "heading": "District Regulation 2 -1-412. After the comments are received and reviewed, the Air",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "District Regulation 2 -1-412. After the comments are received and reviewed, the Air\nDistrict will make a final determination on the permit.  \n \nI recommend that the Air District initiate a public notice and consider any comments \nreceived prior to taking any final action on issuance of Authorities to Construct for the \nfollowing source s: \n \nS-14 Portable Screening Skid  \nMake: Terex Finlay ; Model: 693+ Supertrack  \nConsisting of 1 Hopper, 1 Screen, and 4 Conveyors  \nMaximum  Soil Throughput: 9 0 tons/h our, 750 tons/day, 9,750 tons/year , \nMaximum Concrete Throughput:  150 tons/h our, 1,200 tons/day, 48,000 \ntons/year,  abated by A -9 Water Spray Bar   \n \nS-15 Soil Stockpiles  \nSoil/Waste Byproduct, Raw Soil 0.28 Acres, Screened Soil 1.40 Acre, Waste \nByproduct 0.09 Acres , Maximum  Soil Throughput: 9 0 tons/h our, 750 \ntons/day, 9,750 tons/year , abated by A -11 Water Truck and Hose  \n \nS-16 Portable Hopper/Conveyor  Skid  \nMake: Trakpactor; Model: XH320  \nConsisting of 1 Hopper, and 1 Conveyor  \nMaximum  Soil Throughput: 9 0 tons/h our, 750 tons/day, 9,750 tons/year , \nMaximum Concrete Throughput:  150 tons/h our, 1,200 tons/day, 48,000 \ntons/year, abated by A -10 Water Spray Bar  \n \nAbated by  \n \nA-9 Water Spray  Bar System  \nAbating S -14  \n \nA-10 Water Spray  Bar System  \n Abating S -16 \n \nA-11 Water Truck and Hose Spray  \n Abating S -15   \n \nPrepared by: Kevin Creaven , Senior Air Quality Engineer    Date :  11/24/2025"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "DRAFT ENGINEERING EVALUATION",
+        "alias": null,
+        "text": "DRAFT ENGINEERING EVALUATION\nON  \n \nHalf Moon Bay Building and Garden, Inc.  \nFacility ID  1999  \nApplication No. 703018  \n119 Main Street, Half Moon Bay, CA 94019"
+      },
+      {
+        "heading": "PM 10",
+        "alias": null,
+        "text": "PM 10\nEmissions  \n(lbs/hour)  Daily PM 10 \nEmissions  \n(lbs/day)  Annual \nPM 10 \nEmissions  \n(lbs/year)  Annual \nPM 10 \nEmissions  \n(tons/year)  \nHoppers  1 0.00003  (1) 0.01 0.1 2 0.001  \nScreens  1 0.00074  (2) 0.18 1.4 43 0.022  \nConveyors  4 0.000184  (3) 0.04 0.4 11 0.005  \nS-14 Total  0.23 1.9 55 0.028  \nNotes:  \n1. Basis: Permit Handbook Chapter 11.7 Crushing and Grinding Drop Unloading ( Controlled)  \n2. Basis: Table 11.19.2 -2 Screening (Controlled)  of AP -42 Chapter 11.19.2.  \n3. Basis: Table 11.19.2 -2 Conveyor Transfer Point (Controlled)  of AP -42 Chapter 11.19.2.  \n \nTable 4. S -14 PM 2.5 Portable Screening Skid Emissions  \nEquipment   # of \nUnits  Controlled \nEmission \nFactor \n(lbs/ton)  Hourly"
+      },
+      {
+        "heading": "PM 2.5",
+        "alias": null,
+        "text": "PM 2.5\nEmissions  \n(lbs/hour)  Daily PM 2.5 \nEmissions  \n(lbs/day)  Annual \nPM 2.5 \nEmissions  \n(lbs/year)  Annual \nPM 2.5 \nEmissions  \n(tons/year)  \nHoppers  1 0.00003  (1) 0.01 0.1 2 0.001  \nScreens  1 0.00005  (2) 0.01 0.1 3 0.001  \nConveyors  4 0.000052  (3) 0.01 0.1 3 0.002  \nS-14 Total  0.03 0.3 8 0.004  \nNotes:  \n1. Basis: Permit Handbook Drop Unloading ( Controlled)  \n2. Basis: Table 11.19.2 -2 Screening (Controlled)  \n3. Basis: Table 11.19.2 -2 Conveyor Transfer Point (Controlled)  \n \nS-15: Stockpiles  & Vehicle Road Dust Emissions  \nEmission factors from drop operations into storage piles are derived from Chapter 13.2.4 \n“Aggregate Handling and Storage Piles”  of AP -42.  \n \n𝑆𝑡𝑜𝑐𝑘𝑝𝑖𝑙𝑒  𝐸𝐹 (𝑙𝑏/𝑡𝑜𝑛)=𝑘×(0.032 )×(𝑈\n5)1.3\n(𝑀\n2)1.4  \n \nWhere:  \n \nEF  =  emission factor (lb/ ton) \nk  =  particle size multiplier (0.35  for PM 10; 0.053 for PM 2.5), (dimensionless)  \nU  =  mean wind speed, (miles per hour)  \nM =  material moisture content, (%)  \n \nFor the project, a mean windspeed of 25.92  miles per hour was assumed based on  the \nmonthly average of the max hourly wind speed of each month in the year 2023. This year \nwas selected for having the most complete data and windiest wind speeds of the past five \nyears for the city  of Half Moon Bay . A moisture content of 2.1% was conservatively \nassumed in accordance with the Bay Area Air District’s Permit Handbook, which \n \nrecommends using 2.1% for concrete batch plants. While this is not concrete batch plant, \nsome concrete is present at the facility. However, the moisture content at this facility \nwould be expected to be higher considering soil typically has a higher moistur e content.   \n \nEmissions are assumed to be 70% controlled due to the use of water spray bars that \nsuppress dust from the crushing operation and drop points. The following table s show the \nemission rates for S -15. \n \nTable 5. S-15 PM 10 Stockpile  Emissions  \nEmission  Type  Hourly PM 10 \nEmissions  \n(lbs/hour)  Daily PM 10 \nEmissions  \n(lbs/day)  Annual PM 10 \nEmissions  \n(lbs/year)  Annual PM 10 \nEmissions  \n(tons/year)  \nWind Erosion(1) 0.04 0.9 329 0.165  \nSoil Drop Operations(2) 0.32 2.7 35 0.017  \nNotes:  \n1. Basis: Permit Handbook Chapter 11.7 Crushing & Grinding , Emission factor of 1.7lbs/acre/day \nbefore an additional 70% abatement from water spray  \n2. Basis: Chapter 13.2.4 “Aggregate Handling and Storage Piles” of AP -42. \n \nTable 6. S-15 PM 2.5 Stockpile  Emissions  \nEmission Type  Hourly PM 2.5 \nEmissions  \n(lbs/hour)  Daily PM 2.5 \nEmissions  \n(lbs/day)  Annual PM 2.5 \nEmissions  \n(lbs/year)  Annual PM 2.5 \nEmissions  \n(tons/year)  \nWind Erosion(1) 0.006  0.1 49 0.025  \nSoil Drop Operations(2) 0.05 0.4 5 0.003  \nNotes:  \n1. Basis: Permit Handbook Chapter 11.7 Crushing & Grinding , Emission factor of 1.7lbs/acre/day \nbefore an additional 70% abatement from water spray  \n2. Basis: Chapter 13.2.4 “Aggregate Handling and Storage Piles” of AP -42. \n \n \nFor vehicles traveling on unpaved surfaces at industrial sites, emissions are estimated \nfrom the following equation from AP -42 Chapter 13.2.2 Unpaved Roads :  \n𝐸=𝑘(𝑠/12)𝑎(𝑊/3)𝑏 \n \nWhere:  \n \nE = size specific emission factor (lb/VMT)  \nk = 1.5 for PM 10; 0.15 for PM 2.5 \na = 0.9  \nb = 0.45  \ns = surface material silt content  % for stone quarrying and processing ; 8.3 \nW = mean weight (tons) =  (40 tons for max weight vehicles  + 15 tons for empty  \nvehicles ) / 2 = 27.5 ton truck s (mean)"
+      },
+      {
+        "heading": "THROUGHPUTS",
+        "alias": null,
+        "text": "THROUGHPUTS\nTS  \n1. The owner/operator of S-14 and S -16 shall not exceed the following throughput limit s \nof material processed at this portable operation  in an y calendar day and consecutive \ntwelve -month period : \n \nConcrete/Asphalt Rubble  \n150 tons/hour  \n1,200 tons/day  \n48,000 tons/year  \n \nSoil \n90 tons/hour  \n750 tons/day  \n \n9,750 tons/year  \n[Basis: Cumulative Increase]"
+      },
+      {
+        "heading": "ABATEMENT",
+        "alias": null,
+        "text": "ABATEMENT\nNT  \n2. The owner/operator shall abate the particulate matter emissions from Source s S-14 and \nS-16 using Water Spray System A -9 and A -10, respectively .  \n[Basis: Regulation 6 -1-301, and Cumulative Increase ]"
+      },
+      {
+        "heading": "GENERAL",
+        "alias": null,
+        "text": "GENERAL\nAL  \n3. The owner/operator of S -14 and S -16 shall ensure visible particulate emissions from \nSources S-14 or S -16 do not exceed Ringelmann 1.0 or equivalent to 10% opacity for \na period or aggregate periods of more than 3 minutes in any 60 minute period, or \nresult in fallout on adjacent property in such quantities as to cause a public nuisance \nper Regulation 1 -301.  \n[Basis: Regulation 1 -301, Regulation 2 -1-403, 6 -1-301]"
+      },
+      {
+        "heading": "RECORDKEEPING",
+        "alias": null,
+        "text": "RECORDKEEPING\nNG  \n4. To determine compliance with the above parts, the owner/operator shall maintain the \nfollowing records and provide all of the data necessary to evaluate compliance with \nthe above parts, including the following information : \n \na. Total daily throughput of concrete , asphalt rubble , and soil at each \nlocation for S -14 and S -16. \nb. Daily throughputs shall be totaled for each month and each consecutive \ntwelve -month period.  \n  \nThe owner/operator shall record all records in an Air District -approved log. The \nowner/operator shall retain records with the equipment for two years, from the date \nof entry, and make them available for inspection by Air District staff upon request. \nThese record -keeping requirements shall not replace the record -keeping \nrequirements contained in any applicable Air District Regulation.  \n[Basis: Recordkeeping]  \n \nPermit Condition # 100751  for S-15 \nStockpiles (S -15) \n \nApplication 703018"
+      },
+      {
+        "heading": "THROUGHPUTS",
+        "alias": null,
+        "text": "THROUGHPUTS\nTS  \n1. The owner/operator of S-15 shall not exceed the following throughput limit s of \nmaterial processed at this source  any calendar day and consecutive twelve -month \nperiod:  \n \nSoil \n90 tons/hour  \n750 tons/day  \n \n9,750 tons/year  \n[Basis: Cumulative Increase]  \n \nABATEMENT : STOCKPILES  \n2. The owner/operator shall abate the particulate matter emissions from Source s S-15 \n(stockpiles) using Water Spray System A -11.  \n[Basis: Regulation 6 -1-301, and Cumulative Increase ] \n \n3. The owner/operator shall maintain Source S -15 (stockpiles)  in a completely \"surface \nwet\" condition or in a manner that shall not result in visible particulate matter \nemissions which exceed Ringelmann 1.0.  \n[Basis: Regulation 6 -1-301 and Cumulative Increase ]"
+      },
+      {
+        "heading": "PAVED/UNPAVED ROAD EMISSIONS",
+        "alias": null,
+        "text": "PAVED/UNPAVED ROAD EMISSIONS\nNS  \n4. The owner/operator shall  abate the particulate matter emissions from S-15 (including \nall in -use paved and unpaved roads to and from each stockpile ) using Water Spray \nSystem A -11, at all times during operation .  \n[Basis: Regulation 6 -1-301, and Cumulative Increase ] \n \n5. The owner/operator shall  maintain S -15 (including all in -use paved and unpaved \nroads to and from each stockpile ) in a completely \"surface wet\" condition or  in a \nmanner that  shall not result in visible particulate matter emissions which exceed \nRingelmann 0.5  at all times during operation .  \n[Basis: Regulation 6 -1-301, and Cumulative Increase ]"
+      },
+      {
+        "heading": "RECORDKEEPING",
+        "alias": null,
+        "text": "RECORDKEEPING\nNG  \n6. To determine compliance with the above parts, the owner/operator shall maintain the \nfollowing records and provide all of the data necessary to evaluate compliance with \nthe above parts, including the following information : \n \na. Total daily throughput of soil . \nb. Daily throughputs shall be totaled for each month and each consecutive \ntwelve -month period.  \n  \nThe owner/operator shall record all records in an Air District -approved log. The \nowner/operator shall retain records with the equipment for two years, from the date \nof entry, and make them available for inspection by Air District staff upon request. \nThese record -keeping requirements shall not replace the record -keeping \nrequirements contained in any applicable Air District Regulation.  \n[Basis: Recordkeeping]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,313 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 4
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "(lb/yr)  Emission\nRate\n(lb/yr)\nNO X N/A   0.465  100.0  46.52  46.52\nPOC  200.75  0.047  9.44 0.465  5.5 2.56 12.03\nCO 200.75  0.55 110.41  0.465  84.0 39.08  149.90\nPM 10 200.75  0.207  41.56  0.465  7.6 3.54 45.21\nSO 2 N/A   0.465  0.6 0.28 0.28\nMethane  N/A   0.465  2.3 1.07 1.07",
+        "(lb/yr)  Emission\nRate\n(lb/yr)\nFormaldehyde  200.75  0.0008  0.1606  0.47 7.5E-02 0.0349  0.1955\nAcetaldehyde  200.75  0.0005  0.1004  N/A   0.1004\nBenzene  N/A   0.47 2.1E -03 0.0010  0.0010\nToluene  N/A   0.47 3.4E-03 0.0016  0.0016",
+        "Pollutant  Calculated Emissions\nlb/hr  lb/day  lb/yr  tons/yr\nCriteria\nPollutants  NO X  0.012 7 0.127 46.52 0.023\nPOC 0.0033  0.033  12.03  0.006\nCO 0.0411  0.411  149.90  0.075\nPM 10  0.0124  0.124  45.21  0.023\nSO 2  0.0001  0.001  0.28 0.000",
+        "(lb/hr)  Annual\n(lb/yr)  Acute  Chronic\n(lb/hr)  (lb/yr)  (Yes/No)\nFormaldehyde  5.36E-04 1.95E-01 2.4E-02 1.4E+01  No\nAcetaldehyde  2.75E-04 1.00E -01 2.1E-01 2.9E+01  No\nBenzene  2.68E -06 9.77E -04 1.2E-02 2.9E+00  No\nToluene  4.33E-06 1.58E-03 2.2E+0 0 1.6E+04  No"
+      ]
+    },
+    "application_number_detected": "31782",
+    "application_number_from_filename": "31782",
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2022/31782/e5238_nsr_31782_eval_091422-pdf.pdf?rev=72af24cc59424de0912e8559a8d998eb&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2022/091422-31782/postscript-collective-llc"
+  },
+  "application_number": "31782",
+  "plant": {
+    "name": "San Francisco, CA 94111",
+    "plant_id": 25238,
+    "address": "San Francisco, CA 94111"
+  },
+  "evaluation_date": "September 7, 2005",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Batch Coffee Roaster, Loring S -15 Falcon , 110 lb/hr C apacity with I ntegral Cyclone  and"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nND  \n \nPostscript Collective  is applying for an Authority to Construct and Permit to Operate for the following \nequipment:  \n \nS-1 Batch Coffee Roaster, Loring S -15 Falcon , 110 lb/hr C apacity with I ntegral Cyclone  and \nAfterburner, 130,000 Btu/hr  \n \nThe equipment will be located at 499 Jackson St., San Francisco, CA 94111  \n \nThe Loring coffee roaster uses a closed -loop technology to heat the roasting process. A single burner, \nlocated in the cyclone, provides the hot air for the roasting chamber and acts  as an afterburner, \nincinerating the process smoke and odor in the recirculated air. This process operates at temperatures of \n1200 to 1400 degrees F. The proposed burner is fueled by natural gas."
+  },
+  "emission_calculations": {
+    "text": "EMISSION CALCULATIONS\nNS  \n \n Basis:  Maximum Operating Rate:  110 lbs/hr  \nHours of Operation ( 365 days/yr, 10 hr s/day): 3,650  hrs/yr \nCoffee Throughput:  401,5 00 lbs/yr  \nRoaster Firing Rate:  0.13 MMBtu/hr  \nYearly Fuel Throughput: 474.5  MMBtu/yr  \n Heat Capacity: 1,020 MMBtu/MMscf natural gas  \nCriteria pollutant originate  from two sources, batch roast ing 1 and gas combustion 2. A summary of the \nemissions from batch roast ing and gas combustion is given in Table 1.   \n \nTable 1. Emissions from Roasting Operation and Natural Gas Combustion  \nPollutant  Roasting Operation  Natural Gas Combustion  Total  \nGreen Bean \nThroughput \n(TPY)  Emission \nFactor 1 \n(lb/ton)  Emission \nRate \n(lb/yr)  Fuel Usage \n(MMscf/yr)  Emission \nFactor  2 \n(lb/MMscf ) Emission \nRate \n(lb/yr)  Emission \nRate \n(lb/yr)  \nNO X N/A   0.465  100.0  46.52  46.52 \nPOC  200.75  0.047  9.44 0.465  5.5 2.56 12.03  \nCO 200.75  0.55 110.41  0.465  84.0 39.08  149.90  \nPM 10 200.75  0.207  41.56  0.465  7.6 3.54 45.21  \nSO 2 N/A   0.465  0.6 0.28 0.28 \nMethane  N/A   0.465  2.3 1.07 1.07 \n \n1 Emission factors (batch roaster with thermal oxidizer and continuous cooler with cyclone) for emissions of \nparticulate and organics are taken from AP -42 Table 9.13.2- 1 and Table 9.13.2 -2. \n2 Emission factors for NO X and CO taken from AP -42 1.4- 1 for small boilers (<100 MMBtu/hr). Emissions factor \nfor SO 2, PM 10, POC and NPOC (Methane) taken from AP -42 Table 1.4- 2. \n \nPlant #25 238 ( Postscript Collective, LLC)   Application # 31782  \nPage 2 of 5 \n 1 Filterable PM from batch roaster with thermal oxidizer (0.12 lb/ton), continuous cooler with cyclone (0.028    \nlb/ton), and g reen coffee bean screening, handling, and s torage system with f abric filter (0.059 lb/ton)  \n2 AP-42 Chapter 1.4 Natural Gas Combustion"
+  },
+  "cumulative_increase": {
+    "text": "Plant C umulative E missions\ns  \nS-1 located at 499 Jackson St., San Francisco, CA 941 11 is a new facility. Therefore, there are no existing \nemissions at the plant. Table 4 summarizes the cumulative increase in criteria pollutant emissions that will \nresult from the operation of S -1.  \n \nTable 4. Cumulative Emissions Increase (TPY)  \nPollutant  Existing  New  Total  \nNO X 0.000  0.023 0.023 \nPOC  0.000  0.006 0.006 \nCO 0.000  0.075 0.075 \nPM 10 0.000  0.023 0.023 \nSO 2 0.000  0.000  0.000"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSION CALCULATIONS\nNS  \n \n Basis:  Maximum Operating Rate:  110 lbs/hr  \nHours of Operation ( 365 days/yr, 10 hr s/day): 3,650  hrs/yr \nCoffee Throughput:  401,5 00 lbs/yr  \nRoaster Firing Rate:  0.13 MMBtu/hr  \nYearly Fuel Throughput: 474.5  MMBtu/yr  \n Heat Capacity: 1,020 MMBtu/MMscf natural gas  \nCriteria pollutant originate  from two sources, batch roast ing 1 and gas combustion 2. A summary of the \nemissions from batch roast ing and gas combustion is given in Table 1.   \n \nTable 1. Emissions from Roasting Operation and Natural Gas Combustion  \nPollutant  Roasting Operation  Natural Gas Combustion  Total  \nGreen Bean \nThroughput \n(TPY)  Emission \nFactor 1 \n(lb/ton)  Emission \nRate \n(lb/yr)  Fuel Usage \n(MMscf/yr)  Emission \nFactor  2 \n(lb/MMscf ) Emission \nRate \n(lb/yr)  Emission \nRate \n(lb/yr)  \nNO X N/A   0.465  100.0  46.52  46.52 \nPOC  200.75  0.047  9.44 0.465  5.5 2.56 12.03  \nCO 200.75  0.55 110.41  0.465  84.0 39.08  149.90  \nPM 10 200.75  0.207  41.56  0.465  7.6 3.54 45.21  \nSO 2 N/A   0.465  0.6 0.28 0.28 \nMethane  N/A   0.465  2.3 1.07 1.07 \n \n1 Emission factors (batch roaster with thermal oxidizer and continuous cooler with cyclone) for emissions of \nparticulate and organics are taken from AP -42 Table 9.13.2- 1 and Table 9.13.2 -2. \n2 Emission factors for NO X and CO taken from AP -42 1.4- 1 for small boilers (<100 MMBtu/hr). Emissions factor \nfor SO 2, PM 10, POC and NPOC (Methane) taken from AP -42 Table 1.4- 2. \n \nPlant #25 238 ( Postscript Collective, LLC)   Application # 31782  \nPage 2 of 5 \n 1 Filterable PM from batch roaster with thermal oxidizer (0.12 lb/ton), continuous cooler with cyclone (0.028    \nlb/ton), and g reen coffee bean screening, handling, and s torage system with f abric filter (0.059 lb/ton)  \n2 AP-42 Chapter 1.4 Natural Gas Combustion",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "Toxic R isk Screening\nBoth coffee roasting and gas combustion produce TAC emissions. According to Chapter 9.13.2 of AP -42, \nCoffee Roasting , the roaster is the main source of gaseous pollutants, including aldehydes and acrolein. \nHowever, the Cal ifornia Air Resources Board (CARB) has invalidated the source test method for acrolein. \nUntil CARB approves a new test method and acrolein emissions are estimated from factors developed \nusing the new test method, the  Air District is not evaluating risk for  acrolein. There are no California Air \nToxic Emission Factors (CATEF) factors for the aldehydes from coffee roasting. However, source testing \nwas performed at Peet’s Coffee and Tea, Inc. and their determined toxic emission factors  are used in this \ncalculat ion.A District Policy3 dated September 7, 2005 (“Emission Factors for Toxic Air Contaminants from\nMiscellaneous Natural Gas Combustion Sources”) was referenced for the roaster’s natural gas TAC \nemission factors (benzene, formaldehyde, and toluene). \n \nTable 2. TAC Emissions from Roasting Operation and Natural Gas Combustion  \nTAC  Roasting Operation  Natural Gas Combustion  Total  \nGreen Bean \nThroughput \n(TPY)  Emission \nFactor \n(lb/ton)  Emission \nRate \n(lb/yr)  Fuel Usage \n(MMscf/yr)  Emission \nFactor \n(lb/MMscf ) Emission \nRate \n(lb/yr)  Emission \nRate \n(lb/yr)  \nFormaldehyde  200.75  0.0008  0.1606  0.47 7.5E-02 0.0349  0.1955  \nAcetaldehyde  200.75  0.0005  0.1004  N/A   0.1004  \nBenzene  N/A   0.47 2.1E -03 0.0010  0.0010  \nToluene  N/A   0.47 3.4E-03 0.0016  0.0016  \n \nProject Potential to Emit  \nTable 3 summarizes the criteria pollutant and TAC emissions from the new  source S -1.  \n \nTable 3. New Source (S -1) Potential to Emit Review  \nPollutant  Calculated Emissions  \nlb/hr  lb/day  lb/yr  tons/yr  \nCriteria \nPollutants  NO X  0.012 7 0.127 46.52 0.023  \nPOC 0.0033  0.033  12.03  0.006  \nCO 0.0411  0.411  149.90  0.075  \nPM 10  0.0124  0.124  45.21  0.023  \nSO 2  0.0001  0.001  0.28 0.000  \nMethane 0.000 3 0.003  1.07 0.001Toxic Air\nContaminants \n(TACs)  Formaldehyde  5.36E -04 5.36E -03 1.95E-01 9.77E-05 \nAcetaldehyde  2.75E -04 2.75E -03 1.00E -01 5.02E-05 \nBenzene  2.68E -06 2.68E -05 9.77E -04 4.88E-07 \nToluene  4.33E -06 4.33E -05 1.58E -03 7.91E-07 \n \n \n3 http://www.baaqmd.gov/~/media/Files/Engineering/policy_and_procedures/TACEmFacfromNatGasCombustion.ashx   \nPlant #25 238 ( Postscript Collective, LLC)   Application # 31782  \nPage 3 of 5HEALTH R ISK A SSESSMENT\nTable 5 summarizes the TAC emissions associated with the current application in comparison with the \nrespective HRA trigger levels set forth in BAAQMD Regulation 2 -5, Table 1. All TAC emissions are \nbelow the respective trigger levels. Therefore, an HRA is not required.  \n \nTable 5. Proposed TAC Emissions vs. HRSA Trigger Levels  \nTAC  Total Net Emissions  Trigger Levels  HRSA \nTriggered?  Hourly \n(lb/hr)  Annual \n(lb/yr)  Acute  Chronic  \n(lb/hr)  (lb/yr)  (Yes/No)  \nFormaldehyde  5.36E-04 1.95E-01 2.4E-02 1.4E+01  No \nAcetaldehyde  2.75E-04 1.00E -01 2.1E-01 2.9E+01  No \nBenzene  2.68E -06 9.77E -04 1.2E-02 2.9E+00  No \nToluene  4.33E-06 1.58E-03 2.2E+0 0 1.6E+04  No"
+  },
+  "BACT": {
+    "text": "BEST A VAILABLE CONTROL TECHNOLOGY (BACT)\nT)  \nIn accordance with Regulation 2 -2-301, BACT is triggered for any new or modified source with the \npotential to emit 10 pounds or more per highest day of POC, NPOC, NO x, CO, SO 2 or PM 10. \n \nBased on the emissions displayed above, BACT is not triggered for any pollutant since the maximum \ndaily emissions of each pollutant does not exceed 10 lbs/day.  \n \nPlant #25 238 ( Postscript Collective, LLC)   Application # 31782  \nPage 4 of 5"
+  },
+  "offsets": {
+    "narrative": "OFFSETS\nS \nPer Regulation 2 -2-302, offsets must be provided for any new or modified source at a facility that emits \nmore than 10 tons/yr of POC or NOx. Based on the emissions displayed in Table 3, offsets are not \nrequired for this application.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          3.0,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          3.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nCE  \nSource S -1 will comply with Regulation 6, Rule 1 , since  its estimated particulate emissions of 4.66× 10-3 \ngrain/dscf  are less than the limit of 0.15 grains/dscf.  \n \nThe project is  ministerial under the District's CEQA Regulation 2 -1-311 and therefore is not subject to \nCEQA review.  The engineering review for this project requires only the application of standard permit \nconditions and standard emissions factors and therefore is not discretionary as defined by CEQA.  (Permit \nHandbook Chapter 2.3.1, Coffee Roasting)  \n \nThe facility is located within  1,000 feet from of the outer boundar y of Edwin and Anita Lee New comer"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "school , and therefore is subject to the public notification requirements of Regulation 2- 1-412.\nThe facility is not located within 1000 feet of an Overburdened Community as defined in Regulation 2- 1-\n243. \n \nPSD does not apply."
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS\nNS  \nCondition #00000   --------------------------------------  \n \n1. The owner/operator shall not roast more than 401,5 00 pounds of green coffee beans at Coffee \nRoaster, S -1 in any consecutive 12- month period.  \n[Basis: Cumulative  Increase]                                               \n \n2. The owner/operator shall abate S -1 Coffee Roaster at all  times while operating by the built -in \nafterburner.  \n[Basis: Cumulative Increase]                            \n \n3. The owner/operator shall maintain a minimum furnace temperature of 1 200° F and maintain a  \n          residence time of at least 0.3 seconds.  \n[Basis: Regulation 2- 1-403]                          \n \n4. The o wner/operator shall ensure that the afterburner is equipped with a temperature -measuring \ndevice capable of  continuously measuring and recording the temperature in the thermal oxidizers. \nThis device shall b e accurate to  within 10 degrees Fahrenheit (° F) and shall be  maintained in \nPlant #25 238 ( Postscript Collective, LLC)   Application # 31782  \nPage 5 of 5 \n accordance with manufacturer's recommendations. These temperature monitors shall be used to \ndetermine compliance with the temperature requirements in Part 3.  \n[Basis: Regulation 1 -521]       \n \n5. The owner/operator shall not emit from any source for a period or periods aggregating more than \nthree minutes in any hour, a visible emission which is as dark or darker than No. 0.5 on the \nRingelmann Chart or of such opacity as to obscure an observer's view to an equivalent or  greater \ndegree.  \n[Basis: BACT]                           \n \n6. To demonstrate compliance with the above conditions, the  owner/operator shall maintain the \nfollowing records and provide all of the data necessary to evaluate compl iance with the aboveconditions, including the following information:\na. Monthly records of the quantity of green coffee  beans roasted at S -1 Coffee Roasters.  \nb. Monthly records of natural gas usage.  \nc. Monthly usage records shall be totaled for each  consecutive 12- month period.  \nd. Records of continuous temperature measurements of a fterburner whenever S -1 Coffee \nRoasters are in  operation.                                          \n \nAll records shall be retained onsite for two years from the date of entry, and made available for \ninspection by District  staff upon request. These record- keeping requirements shall  not replace the \nrecord keeping requirements contained in any applicable District Regulations.  \n[Basis: Cumulative Increase]"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "The owner/operator shall not roast more than 401,5 00 pounds of green coffee beans at Coffee \nRoaster, S -1 in any consecutive 12- month period.  \n[",
+        "basis": [
+          "Cumulative  Increase]"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner/operator shall abate S -1 Coffee Roaster at all  times while operating by the built -in \nafterburner.  \n[",
+        "basis": [
+          "Cumulative Increase]"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator shall maintain a minimum furnace temperature of 1 200° F and maintain a  \n          residence time of at least 0.3 seconds.  \n[",
+        "basis": [
+          "Regulation 2- 1-403]"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "The o wner/operator shall ensure that the afterburner is equipped with a temperature -measuring \ndevice capable of  continuously measuring and recording the temperature in the thermal oxidizers. \nThis device shall b e accurate to  within 10 degrees Fahrenheit (° F) and shall be  maintained in \nPlant #25 238 ( Postscript Collective, LLC)   Application # 31782  \nPage 5 of 5 \n accordance with manufacturer's recommendations. These temperature monitors shall be used to \ndetermine compliance with the temperature requirements in Part 3.  \n[",
+        "basis": [
+          "Regulation 1 -521]"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "The owner/operator shall not emit from any source for a period or periods aggregating more than \nthree minutes in any hour, a visible emission which is as dark or darker than No. 0.5 on the \nRingelmann Chart or of such opacity as to obscure an observer's view to an equivalent or  greater \ndegree.  \n[",
+        "basis": [
+          "BACT]"
+        ]
+      },
+      {
+        "num": 6,
+        "text": "To demonstrate compliance with the above conditions, the  owner/operator shall maintain the \nfollowing records and provide all of the data necessary to evaluate compl iance with the aboveconditions, including the following information:\na. Monthly records of the quantity of green coffee  beans roasted at S -1 Coffee Roasters.  \nb. Monthly records of natural gas usage.  \nc. Monthly usage records shall be totaled for each  consecutive 12- month period.  \nd. Records of continuous temperature measurements of a fterburner whenever S -1 Coffee \nRoasters are in  operation.                                          \n \nAll records shall be retained onsite for two years from the date of entry, and made available for \ninspection by District  staff upon request. These record- keeping requirements shall  not replace the \nrecord keeping requirements contained in any applicable District Regulations.  \n[",
+        "basis": [
+          "Cumulative Increase]"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": ""
+  },
+  "raw_sections": {
+    "preamble": "Plant #25 238 ( Postscript Collective, LLC)   Application # 31782  \nPage 1 of 5 \n DRAFT Engineering Evaluation  \nPostscript Collective, LLC  \n499 Jackson Street  \nSan Francisco, CA 94111  \nApplication No. 31782  \nPlant No. 25238",
+    "blocks": [
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nND  \n \nPostscript Collective  is applying for an Authority to Construct and Permit to Operate for the following \nequipment:  \n \nS-1 Batch Coffee Roaster, Loring S -15 Falcon , 110 lb/hr C apacity with I ntegral Cyclone  and \nAfterburner, 130,000 Btu/hr  \n \nThe equipment will be located at 499 Jackson St., San Francisco, CA 94111  \n \nThe Loring coffee roaster uses a closed -loop technology to heat the roasting process. A single burner, \nlocated in the cyclone, provides the hot air for the roasting chamber and acts  as an afterburner, \nincinerating the process smoke and odor in the recirculated air. This process operates at temperatures of \n1200 to 1400 degrees F. The proposed burner is fueled by natural gas."
+      },
+      {
+        "heading": "EMISSION CALCULATIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSION CALCULATIONS\nNS  \n \n Basis:  Maximum Operating Rate:  110 lbs/hr  \nHours of Operation ( 365 days/yr, 10 hr s/day): 3,650  hrs/yr \nCoffee Throughput:  401,5 00 lbs/yr  \nRoaster Firing Rate:  0.13 MMBtu/hr  \nYearly Fuel Throughput: 474.5  MMBtu/yr  \n Heat Capacity: 1,020 MMBtu/MMscf natural gas  \nCriteria pollutant originate  from two sources, batch roast ing 1 and gas combustion 2. A summary of the \nemissions from batch roast ing and gas combustion is given in Table 1.   \n \nTable 1. Emissions from Roasting Operation and Natural Gas Combustion  \nPollutant  Roasting Operation  Natural Gas Combustion  Total  \nGreen Bean \nThroughput \n(TPY)  Emission \nFactor 1 \n(lb/ton)  Emission \nRate \n(lb/yr)  Fuel Usage \n(MMscf/yr)  Emission \nFactor  2 \n(lb/MMscf ) Emission \nRate \n(lb/yr)  Emission \nRate \n(lb/yr)  \nNO X N/A   0.465  100.0  46.52  46.52 \nPOC  200.75  0.047  9.44 0.465  5.5 2.56 12.03  \nCO 200.75  0.55 110.41  0.465  84.0 39.08  149.90  \nPM 10 200.75  0.207  41.56  0.465  7.6 3.54 45.21  \nSO 2 N/A   0.465  0.6 0.28 0.28 \nMethane  N/A   0.465  2.3 1.07 1.07 \n \n1 Emission factors (batch roaster with thermal oxidizer and continuous cooler with cyclone) for emissions of \nparticulate and organics are taken from AP -42 Table 9.13.2- 1 and Table 9.13.2 -2. \n2 Emission factors for NO X and CO taken from AP -42 1.4- 1 for small boilers (<100 MMBtu/hr). Emissions factor \nfor SO 2, PM 10, POC and NPOC (Methane) taken from AP -42 Table 1.4- 2. \n \nPlant #25 238 ( Postscript Collective, LLC)   Application # 31782  \nPage 2 of 5 \n 1 Filterable PM from batch roaster with thermal oxidizer (0.12 lb/ton), continuous cooler with cyclone (0.028    \nlb/ton), and g reen coffee bean screening, handling, and s torage system with f abric filter (0.059 lb/ton)  \n2 AP-42 Chapter 1.4 Natural Gas Combustion"
+      },
+      {
+        "heading": "Toxic R isk Screening",
+        "alias": "TOXICS",
+        "text": "Toxic R isk Screening\nBoth coffee roasting and gas combustion produce TAC emissions. According to Chapter 9.13.2 of AP -42, \nCoffee Roasting , the roaster is the main source of gaseous pollutants, including aldehydes and acrolein. \nHowever, the Cal ifornia Air Resources Board (CARB) has invalidated the source test method for acrolein. \nUntil CARB approves a new test method and acrolein emissions are estimated from factors developed \nusing the new test method, the  Air District is not evaluating risk for  acrolein. There are no California Air \nToxic Emission Factors (CATEF) factors for the aldehydes from coffee roasting. However, source testing \nwas performed at Peet’s Coffee and Tea, Inc. and their determined toxic emission factors  are used in this \ncalculat ion."
+      },
+      {
+        "heading": "A District Policy3 dated September 7, 2005 (“Emission Factors for Toxic Air Contaminants from",
+        "alias": "TOXICS",
+        "text": "A District Policy3 dated September 7, 2005 (“Emission Factors for Toxic Air Contaminants from\nMiscellaneous Natural Gas Combustion Sources”) was referenced for the roaster’s natural gas TAC \nemission factors (benzene, formaldehyde, and toluene). \n \nTable 2. TAC Emissions from Roasting Operation and Natural Gas Combustion  \nTAC  Roasting Operation  Natural Gas Combustion  Total  \nGreen Bean \nThroughput \n(TPY)  Emission \nFactor \n(lb/ton)  Emission \nRate \n(lb/yr)  Fuel Usage \n(MMscf/yr)  Emission \nFactor \n(lb/MMscf ) Emission \nRate \n(lb/yr)  Emission \nRate \n(lb/yr)  \nFormaldehyde  200.75  0.0008  0.1606  0.47 7.5E-02 0.0349  0.1955  \nAcetaldehyde  200.75  0.0005  0.1004  N/A   0.1004  \nBenzene  N/A   0.47 2.1E -03 0.0010  0.0010  \nToluene  N/A   0.47 3.4E-03 0.0016  0.0016  \n \nProject Potential to Emit  \nTable 3 summarizes the criteria pollutant and TAC emissions from the new  source S -1.  \n \nTable 3. New Source (S -1) Potential to Emit Review  \nPollutant  Calculated Emissions  \nlb/hr  lb/day  lb/yr  tons/yr  \nCriteria \nPollutants  NO X  0.012 7 0.127 46.52 0.023  \nPOC 0.0033  0.033  12.03  0.006  \nCO 0.0411  0.411  149.90  0.075  \nPM 10  0.0124  0.124  45.21  0.023  \nSO 2  0.0001  0.001  0.28 0.000  \nMethane 0.000 3 0.003  1.07 0.001"
+      },
+      {
+        "heading": "Toxic Air",
+        "alias": "TOXICS",
+        "text": "Toxic Air\nContaminants \n(TACs)  Formaldehyde  5.36E -04 5.36E -03 1.95E-01 9.77E-05 \nAcetaldehyde  2.75E -04 2.75E -03 1.00E -01 5.02E-05 \nBenzene  2.68E -06 2.68E -05 9.77E -04 4.88E-07 \nToluene  4.33E -06 4.33E -05 1.58E -03 7.91E-07 \n \n \n3 http://www.baaqmd.gov/~/media/Files/Engineering/policy_and_procedures/TACEmFacfromNatGasCombustion.ashx   \nPlant #25 238 ( Postscript Collective, LLC)   Application # 31782  \nPage 3 of 5"
+      },
+      {
+        "heading": "Plant C umulative E missions",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "Plant C umulative E missions\ns  \nS-1 located at 499 Jackson St., San Francisco, CA 941 11 is a new facility. Therefore, there are no existing \nemissions at the plant. Table 4 summarizes the cumulative increase in criteria pollutant emissions that will \nresult from the operation of S -1.  \n \nTable 4. Cumulative Emissions Increase (TPY)  \nPollutant  Existing  New  Total  \nNO X 0.000  0.023 0.023 \nPOC  0.000  0.006 0.006 \nCO 0.000  0.075 0.075 \nPM 10 0.000  0.023 0.023 \nSO 2 0.000  0.000  0.000"
+      },
+      {
+        "heading": "HEALTH R ISK A SSESSMENT",
+        "alias": "TOXICS",
+        "text": "HEALTH R ISK A SSESSMENT\nTable 5 summarizes the TAC emissions associated with the current application in comparison with the \nrespective HRA trigger levels set forth in BAAQMD Regulation 2 -5, Table 1. All TAC emissions are \nbelow the respective trigger levels. Therefore, an HRA is not required.  \n \nTable 5. Proposed TAC Emissions vs. HRSA Trigger Levels  \nTAC  Total Net Emissions  Trigger Levels  HRSA \nTriggered?  Hourly \n(lb/hr)  Annual \n(lb/yr)  Acute  Chronic  \n(lb/hr)  (lb/yr)  (Yes/No)  \nFormaldehyde  5.36E-04 1.95E-01 2.4E-02 1.4E+01  No \nAcetaldehyde  2.75E-04 1.00E -01 2.1E-01 2.9E+01  No \nBenzene  2.68E -06 9.77E -04 1.2E-02 2.9E+00  No \nToluene  4.33E-06 1.58E-03 2.2E+0 0 1.6E+04  No"
+      },
+      {
+        "heading": "GRAIN L OADING  RATE",
+        "alias": null,
+        "text": "GRAIN L OADING  RATE\nRATE  \nRegulation 6 -1-310: Particulate Weight Limitation, states that any source may not emit matter in excess \nof 0.15 grain/dscf of exhaust gas volume.  \n  \nBasis:  Operating hours: 3,650 hr/yr  \n Roaster emission point : 320 dscfm at 1 ,500 degrees F  \n \n[(0.0124 lb PM 10/hr) × (7000 grain/lb )] / [(60 min/hr ) × (320 dscfm )] = 0.00466 grain/dscf  \n \nTherefore, S -1 does not emit matter more than 0.15 grain/dscf  and complies with Regulation 6- 1-310."
+      },
+      {
+        "heading": "BEST A VAILABLE CONTROL TECHNOLOGY (BACT)",
+        "alias": "BACT",
+        "text": "BEST A VAILABLE CONTROL TECHNOLOGY (BACT)\nT)  \nIn accordance with Regulation 2 -2-301, BACT is triggered for any new or modified source with the \npotential to emit 10 pounds or more per highest day of POC, NPOC, NO x, CO, SO 2 or PM 10. \n \nBased on the emissions displayed above, BACT is not triggered for any pollutant since the maximum \ndaily emissions of each pollutant does not exceed 10 lbs/day.  \n \nPlant #25 238 ( Postscript Collective, LLC)   Application # 31782  \nPage 4 of 5"
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nS \nPer Regulation 2 -2-302, offsets must be provided for any new or modified source at a facility that emits \nmore than 10 tons/yr of POC or NOx. Based on the emissions displayed in Table 3, offsets are not \nrequired for this application."
+      },
+      {
+        "heading": "NEW SOURCE PERFORMANCE STANDARDS (NSPS)",
+        "alias": null,
+        "text": "NEW SOURCE PERFORMANCE STANDARDS (NSPS)\nS)  \nS-1 is not affected by any subpart  of 40 CFR Part 60."
+      },
+      {
+        "heading": "NATIONAL EMISSION STANDARDS FOR HAZARDOUS AIR POLLUTANTS (NESHAP)",
+        "alias": null,
+        "text": "NATIONAL EMISSION STANDARDS FOR HAZARDOUS AIR POLLUTANTS (NESHAP)\nP)  \nS-1 is not affected by any subpart of 40 CFR Part 63."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nCE  \nSource S -1 will comply with Regulation 6, Rule 1 , since  its estimated particulate emissions of 4.66× 10-3 \ngrain/dscf  are less than the limit of 0.15 grains/dscf.  \n \nThe project is  ministerial under the District's CEQA Regulation 2 -1-311 and therefore is not subject to \nCEQA review.  The engineering review for this project requires only the application of standard permit \nconditions and standard emissions factors and therefore is not discretionary as defined by CEQA.  (Permit \nHandbook Chapter 2.3.1, Coffee Roasting)  \n \nThe facility is located within  1,000 feet from of the outer boundar y of Edwin and Anita Lee New comer"
+      },
+      {
+        "heading": "school , and therefore is subject to the public notification requirements of Regulation 2- 1-412.",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "school , and therefore is subject to the public notification requirements of Regulation 2- 1-412.\nThe facility is not located within 1000 feet of an Overburdened Community as defined in Regulation 2- 1-\n243. \n \nPSD does not apply."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nNS  \nCondition #00000   --------------------------------------  \n \n1. The owner/operator shall not roast more than 401,5 00 pounds of green coffee beans at Coffee \nRoaster, S -1 in any consecutive 12- month period.  \n[Basis: Cumulative  Increase]                                               \n \n2. The owner/operator shall abate S -1 Coffee Roaster at all  times while operating by the built -in \nafterburner.  \n[Basis: Cumulative Increase]                            \n \n3. The owner/operator shall maintain a minimum furnace temperature of 1 200° F and maintain a  \n          residence time of at least 0.3 seconds.  \n[Basis: Regulation 2- 1-403]                          \n \n4. The o wner/operator shall ensure that the afterburner is equipped with a temperature -measuring \ndevice capable of  continuously measuring and recording the temperature in the thermal oxidizers. \nThis device shall b e accurate to  within 10 degrees Fahrenheit (° F) and shall be  maintained in \nPlant #25 238 ( Postscript Collective, LLC)   Application # 31782  \nPage 5 of 5 \n accordance with manufacturer's recommendations. These temperature monitors shall be used to \ndetermine compliance with the temperature requirements in Part 3.  \n[Basis: Regulation 1 -521]       \n \n5. The owner/operator shall not emit from any source for a period or periods aggregating more than \nthree minutes in any hour, a visible emission which is as dark or darker than No. 0.5 on the \nRingelmann Chart or of such opacity as to obscure an observer's view to an equivalent or  greater \ndegree.  \n[Basis: BACT]                           \n \n6. To demonstrate compliance with the above conditions, the  owner/operator shall maintain the \nfollowing records and provide all of the data necessary to evaluate compl iance with the above"
+      },
+      {
+        "heading": "conditions, including the following information:",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "conditions, including the following information:\na. Monthly records of the quantity of green coffee  beans roasted at S -1 Coffee Roasters.  \nb. Monthly records of natural gas usage.  \nc. Monthly usage records shall be totaled for each  consecutive 12- month period.  \nd. Records of continuous temperature measurements of a fterburner whenever S -1 Coffee \nRoasters are in  operation.                                          \n \nAll records shall be retained onsite for two years from the date of entry, and made available for \ninspection by District  staff upon request. These record- keeping requirements shall  not replace the \nrecord keeping requirements contained in any applicable District Regulations.  \n[Basis: Cumulative Increase]"
+      },
+      {
+        "heading": "RECOMMENTATION",
+        "alias": null,
+        "text": "RECOMMENTATION\nMENTATION  \nIssue a Permit to Operate to Postscript Collective , LLC  for the following equipment:  \n \nS-1 Batch Coffee Roaster, Loring S -15 Falcon , 110 lb/hr C apacity with Integral Cyclone and \nAfterburner, 1 30,000 Btu/hr  \n \n \n \n \n \nBy:         Date:  8/4/2022   \n Sadegh Sadeghipour  \n Air Quality Engineer"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "GRAIN L OADING  RATE",
+        "alias": null,
+        "text": "GRAIN L OADING  RATE\nRATE  \nRegulation 6 -1-310: Particulate Weight Limitation, states that any source may not emit matter in excess \nof 0.15 grain/dscf of exhaust gas volume.  \n  \nBasis:  Operating hours: 3,650 hr/yr  \n Roaster emission point : 320 dscfm at 1 ,500 degrees F  \n \n[(0.0124 lb PM 10/hr) × (7000 grain/lb )] / [(60 min/hr ) × (320 dscfm )] = 0.00466 grain/dscf  \n \nTherefore, S -1 does not emit matter more than 0.15 grain/dscf  and complies with Regulation 6- 1-310."
+      },
+      {
+        "heading": "NEW SOURCE PERFORMANCE STANDARDS (NSPS)",
+        "alias": null,
+        "text": "NEW SOURCE PERFORMANCE STANDARDS (NSPS)\nS)  \nS-1 is not affected by any subpart  of 40 CFR Part 60."
+      },
+      {
+        "heading": "NATIONAL EMISSION STANDARDS FOR HAZARDOUS AIR POLLUTANTS (NESHAP)",
+        "alias": null,
+        "text": "NATIONAL EMISSION STANDARDS FOR HAZARDOUS AIR POLLUTANTS (NESHAP)\nP)  \nS-1 is not affected by any subpart of 40 CFR Part 63."
+      },
+      {
+        "heading": "RECOMMENTATION",
+        "alias": null,
+        "text": "RECOMMENTATION\nMENTATION  \nIssue a Permit to Operate to Postscript Collective , LLC  for the following equipment:  \n \nS-1 Batch Coffee Roaster, Loring S -15 Falcon , 110 lb/hr C apacity with Integral Cyclone and \nAfterburner, 1 30,000 Btu/hr  \n \n \n \n \n \nBy:         Date:  8/4/2022   \n Sadegh Sadeghipour  \n Air Quality Engineer"
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\extracted_evaluations\\application_29049.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 2
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "of\nburners  MMBTU/hour  CO NOx\n#/MMBTU  #/hour #/day  TPY #/MMBTU  #/hour #/day  TPY\n1 1 3.16 0.0795  0.251  6.03 1.10 0.0419  0.132  3.18 0.58\n2 2 3.98 0.0614  0.244  5.86 1.07 0.0379  0.151  3.62 0.66\n3 2 5.02 0.0539  0.271  6.49 1.19 0.0400  0.201  4.82 0.88\n4 2 6 0.0562  0.337  8.09 1.48 0.0370  0.222  5.33 0.97\n5 3 7.04 0.0478  0.337  8.08 1.47 0.0359  0.253  6.07 1.11\n6 3 7.98 0.0463  0.369  8.87 1.62 0.0365  0.291  6.99 1.28\n7 3 9.03 0.0510  0.461  11.05  2.02 0.0381  0.344  8.26 1.51\n8 3 9.49 0.0501  0.475  11.41  2.08 0.0370  0.351  8.43 1.54"
+      ]
+    },
+    "application_number_detected": "2",
+    "application_number_from_filename": "29049"
+  },
+  "application_number": "29049",
+  "plant": {
+    "name": "Permit Evaluation and Statement of Basis Site No: A0010, Chevron Products Company",
+    "plant_id": null,
+    "address": "Richmond, CA 94802"
+  },
+  "evaluation_date": "May 3, 2017",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-4349",
+      "description": "provides heat input into the Vacuum Stripper Column (C -1650), which separates and produces"
+    }
+  ],
+  "background": {
+    "text": "346 \n Background\nnd  \nChevron Products Company (Chevron) has proposed to alter the following equipment:  \n \nS-4349: F-1650 Vacuum Stripper Feed Furnace  \n                          Equipped with 3 burners; 5.5 MMBTU/hour/burner (HHV);   \n               16.5 MMBTU/hour (HHV); 396 MMBTU/day (HHV); 144,540 MMBTU/year (HHV)  \n   Location: Heavy Neutral Hydrofinisher (HNF)  \n \nS-4349 provides heat input into the Vacuum Stripper Column (C -1650), which separates and produces \nfinished lube oil base stocks at the Heavy Neutral Hydrofinisher (S -4343). S -4349 is subject to the NOx \nand CO limits of 20 ppmv, dry, corrected to 3% O 2 and 50 ppmv, dry, corrected to 3% O 2, respectively in \nparts 6.E2 and 6.E3 of RLOP permit condition 469. Though Chevron is allowed by part 6.E1 of the above \npermit condition to burn natural gas or refinery fuel gas in S -4349, the furnace has always burned refinery \nfuel gas since starting up i n October 1998.  \n \nRecent efficiency improvements to C -1650 found that the “typical” total heat release rate of S -4349 is < 5 \nMMBTU/hour for over 90% of the time on an annual basis. Annual source tests required by part 6.E4 of \npermit condition 469 show that  Chevron was out of compliance with the NOx52 and CO53 emission limits in \npermit condition 469 when operating at lower total heat release rates. To continue operating S -4349, \nChevron applied for a variance with the District’s Hearing Board which is pending a  January 201854 \nhearing.  \n \nTo get back into compliance, Chevron has proposed to alter S -4349 by switching solely to natural gas (vs. \nrefinery fuel gas), replacing the existing burner tips (not the burners themselves), and lowering the total \nheat release rat e of the furnace to < 9.99 MMBTU/hour (vs. 16.5). These changes would potentially allow \nChevron to avail themselves of the exemption in Regulation 2 -1-114.1.2, which states:  \n \n“2-1-114 Exemption, Combustion Equipment:  \nThe following equipment is exempt from  the requirements of Sections 2 -1-301 and 302, only if the source does not \nemit pollutants other than combustion products, and those combustion products are not caused by the combustion of \na pollutant generated from another source, and the source does not require permitting pursuant to Section 2 -1-319.  \n \n114.1 Boilers, Heaters, Steam Generators, Duct Burners, and Similar Combustion Equipment:  \n \n1.1 Any of the above equipment with less than 1 million BTU per hour rated heat input.  \n \n1.2 Any of the above equi pment with less than 10 million BTU per hour rated heat input if fired exclusively \nwith natural gas (including compressed natural gas), liquefied petroleum gas (e.g. propane, butane, \nisobutane, propylene, butylenes, and their mixtures), or any combination thereof.”  \n \nAfter the changes described above are implemented, the furnace will be described as shown below:  \n \nS-4349: F-1650 Vacuum Stripper Feed Furnace  \n                           Equipped with 3 ultra low NOx burners with modified burner tips; Fuel: Natu ral gas  \n                           Burner make: John Zink Hamworthy; Burner model: COOLstar -13-ARIA  \n                           Firing orientation: Up -fired; Burner location: Floor  \n                           Design heat release: 3.33 MMBTU/hour/burner (HHV) ;  \n                Total heat release: 9.99 MMBTU/hour   \n    Location: Heavy Neutral Hydrofinisher (HNF)"
+  },
+  "emission_calculations": {
+    "text": "Emission Calculations\nns  \n                                                           \n52 OS-6760  source test date April 7, 2017  NOx = 39.5 ppmvd @ 3% O2 (permit limit 20 ppmvd @ 3% O2)  \n53 OS-6822  source test date May 3, 2017  CO = 144 ppmvd @ 3% O2 (permit limit 50 ppmvd @ 3% O2)   \n54 Docket # 3702  interim variance hearing (Jan. 16, 2018) and regular variance hearing (Jan. 23, 2 018)"
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "Emission Calculations\nns  \n                                                           \n52 OS-6760  source test date April 7, 2017  NOx = 39.5 ppmvd @ 3% O2 (permit limit 20 ppmvd @ 3% O2)  \n53 OS-6822  source test date May 3, 2017  CO = 144 ppmvd @ 3% O2 (permit limit 50 ppmvd @ 3% O2)   \n54 Docket # 3702  interim variance hearing (Jan. 16, 2018) and regular variance hearing (Jan. 23, 2 018)",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-4349": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": ""
+  },
+  "BACT": {
+    "text": ""
+  },
+  "offsets": {
+    "narrative": "",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": []
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": []
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": ""
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": []
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "Recommendation\non  \nIssue Chevron a  Letter of Exemption per Regulation 2 -1-114.1.2 for the following equipment:  \n \nS-4349: F-1650 Vacuum Stripper Feed Furnace  \n                           Equipped with 3 ultra low NOx burners with modified burner tips; Fuel: Natural gas  \n                           Burner make: John Zink Hamworthy; Burner model: COOLstar -13-ARIA  \n                           Firing orientation: Up -fired; Burner location: Floor  \n                           Design heat release: 3.33 MMBTU/hour/burner (HHV);  \n                Total heat re lease: 9.99 MMBTU/hour   \n    Location: Heavy Neutral Hydrofinisher (HNF)  \n \n \nChanges to Title V permit that will be addressed in 2018 Title V Renewal A# 27756:  \n \n11. Delete from Table II.A.1  \n12. Because S -4349 is a “significant source” per Regulation 2 -6-239 i.e., em its CO > 2 TPY, add to \nTable II.C “Exempt Equipment List”.  \n13. Delete Tables IV.A.3.5 and VII.A.3.5  \n14. Delete references and pertinent parts in RLOP permit condition 469  \n15. Delete reference in permit condition 22923  \n \n \n \n_____________  \nK. R. Bhagavan  \n \n \n \n  \nPermit Evaluation and Statement of Basis  Site No: A0010, Chevron Products Company  \nApplication No:  27756  841 Chevron Way, Richmond, CA  94802"
+  },
+  "raw_sections": {
+    "preamble": "Permit Evaluation and Statement of Basis  Site No: A0010, Chevron Products Company  \nApplication No:  27756  841 Chevron Way, Richmond, CA  94802  \n \n344",
+    "blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nT  \nPlant 10: Chevron Products Company  \nApplication 2 9049 : Vacuum Stripper Feed Furnace (S -4349)  \n \nChevron Products  Company (Chevron)  has requested a Letter of Exemption for the following equipment :  \n \nS-4349: F-1650 Vacuum Stripper Feed Furnace  \n                           Equipped with 3 ultra low NOx burners with modified burner tips; Fuel: Natural gas  \n                           Burner make: John Zink Hamworthy; Burner model: COOLstar -13-ARIA  \n                           Firing orientation: Up -fired; Burner location: Floor  \n                           Design heat release: 3.33 MMBTU/hour/burner (HHV);  \n                Total heat release: 9.99 MMBTU/hour   \n    Location: Heavy Neutral Hydrofinisher (HNF)  \n \nS-4349 provides heat input into the Vacuum Stripper Column (C -1650), which separates and produces \nfinished lube oil base stocks at the Heavy Neutral Hydrofini sher (S -4343).  The District issued Chevron an \nAC on December 21st, 2017 to perform the following alt erations :  \n \n1. Permanently make a fuel switch to natural gas  from refinery fuel gas   \n2. Modify burner tips at 3 existing ultra low NOx burners  \n3. Reduce the total heat release rate of the furnace to 9.99 MMBTU/hour from 16.5 MMBTU/hour  \n \nThe District issued Chevron a temporary PO on January 17th, 2018 to conduct source testing to \ndemonstrate if S -4349 qualified for the exemption in Regulation 2 -1-114.1.2. Table 1 summarizes source \ntest results gathered from source tests performed at S -4349 between February 12th through 15th, 2018.  \n \nTable 1:  \nNOx and CO emissions gathered from February 2018 source tests  \nCondition  Number \nof \nburners  MMBTU/hour  CO NOx \n#/MMBTU  #/hour #/day  TPY #/MMBTU  #/hour #/day  TPY \n1 1 3.16 0.0795  0.251  6.03 1.10 0.0419  0.132  3.18 0.58 \n2 2 3.98 0.0614  0.244  5.86 1.07 0.0379  0.151  3.62 0.66 \n3 2 5.02 0.0539  0.271  6.49 1.19 0.0400  0.201  4.82 0.88 \n4 2 6 0.0562  0.337  8.09 1.48 0.0370  0.222  5.33 0.97 \n5 3 7.04 0.0478  0.337  8.08 1.47 0.0359  0.253  6.07 1.11 \n6 3 7.98 0.0463  0.369  8.87 1.62 0.0365  0.291  6.99 1.28 \n7 3 9.03 0.0510  0.461  11.05  2.02 0.0381  0.344  8.26 1.51 \n8 3 9.49 0.0501  0.475  11.41  2.08 0.0370  0.351  8.43 1.54 \n  \nTable 2 summarizes TAC emissions from S -4349  \n \nTable 2:  \nTAC emissions associated with natural gas combustion  \nTAC Emission factor  Emissions  \n#/MSCF  #/MMBTU  #/hour  Acute \ntrigger \n(#/hour)  Exceeds \nAcute \ntrigger?  #/year  Chronic \ntrigger \n(#/year)  Exceeds \nChronic \ntrigger?  \nBenzene  2.10E -06 2.06E -06 2.06E -05 6.00E -02 No 1.80E -01 2.9 No \nFormaldehyde  7.50E -05 7.35E -05 7.35E -04 1.20E -01 No 6.43E+00  1.40E+01  No \nToluene  3.40E -06 3.33E -06 3.33E -05 8.20E+01  No 2.92E -01 1.20E+04  No \nPermit Evaluation and Statement of Basis  Site No: A0010, Chevron Products Company  \nApplication No:  27756  841 Chevron Way, Richmond, CA  94802  \n \n345 \n Note:  \n1. TAC emission factors provided in Division Policy titled “Emission Factors for Toxic Air Contaminants from Miscellaneous Natur al \nGas Combustion Sources” dated September 7, 2005.  \n2. Heat release rate = 9.99 MMBTU/hour  \n \n \nIt can be seen from Tables 1 and 2 that S -4349 can be exempted per Regulation 2 -1-114.1.2 because:  \n  \n1. Meets Regulation 2 -1-319.1 because NOx and CO emissions are < 5 TPY/pollutant.  \n2. Meets Regulation 2 -1-316 because it is not a new/modified source of TACs and doesn’t trigger a \nHRA.  \n3. Meets Regul ation 2 -1-317 because it will not cause a public nuisance.  \n4. Meets Regulation 2 -1-318 because it w ill not emit pollutants above quantities listed in regulation."
+      },
+      {
+        "heading": "Recommendation",
+        "alias": "RECOMMENDATION",
+        "text": "Recommendation\non  \nIssue Chevron a  Letter of Exemption per Regulation 2 -1-114.1.2 for the following equipment:  \n \nS-4349: F-1650 Vacuum Stripper Feed Furnace  \n                           Equipped with 3 ultra low NOx burners with modified burner tips; Fuel: Natural gas  \n                           Burner make: John Zink Hamworthy; Burner model: COOLstar -13-ARIA  \n                           Firing orientation: Up -fired; Burner location: Floor  \n                           Design heat release: 3.33 MMBTU/hour/burner (HHV);  \n                Total heat re lease: 9.99 MMBTU/hour   \n    Location: Heavy Neutral Hydrofinisher (HNF)  \n \n \nChanges to Title V permit that will be addressed in 2018 Title V Renewal A# 27756:  \n \n11. Delete from Table II.A.1  \n12. Because S -4349 is a “significant source” per Regulation 2 -6-239 i.e., em its CO > 2 TPY, add to \nTable II.C “Exempt Equipment List”.  \n13. Delete Tables IV.A.3.5 and VII.A.3.5  \n14. Delete references and pertinent parts in RLOP permit condition 469  \n15. Delete reference in permit condition 22923  \n \n \n \n_____________  \nK. R. Bhagavan  \n \n \n \n  \nPermit Evaluation and Statement of Basis  Site No: A0010, Chevron Products Company  \nApplication No:  27756  841 Chevron Way, Richmond, CA  94802"
+      },
+      {
+        "heading": "346 \n Background",
+        "alias": "BACKGROUND",
+        "text": "346 \n Background\nnd  \nChevron Products Company (Chevron) has proposed to alter the following equipment:  \n \nS-4349: F-1650 Vacuum Stripper Feed Furnace  \n                          Equipped with 3 burners; 5.5 MMBTU/hour/burner (HHV);   \n               16.5 MMBTU/hour (HHV); 396 MMBTU/day (HHV); 144,540 MMBTU/year (HHV)  \n   Location: Heavy Neutral Hydrofinisher (HNF)  \n \nS-4349 provides heat input into the Vacuum Stripper Column (C -1650), which separates and produces \nfinished lube oil base stocks at the Heavy Neutral Hydrofinisher (S -4343). S -4349 is subject to the NOx \nand CO limits of 20 ppmv, dry, corrected to 3% O 2 and 50 ppmv, dry, corrected to 3% O 2, respectively in \nparts 6.E2 and 6.E3 of RLOP permit condition 469. Though Chevron is allowed by part 6.E1 of the above \npermit condition to burn natural gas or refinery fuel gas in S -4349, the furnace has always burned refinery \nfuel gas since starting up i n October 1998.  \n \nRecent efficiency improvements to C -1650 found that the “typical” total heat release rate of S -4349 is < 5 \nMMBTU/hour for over 90% of the time on an annual basis. Annual source tests required by part 6.E4 of \npermit condition 469 show that  Chevron was out of compliance with the NOx52 and CO53 emission limits in \npermit condition 469 when operating at lower total heat release rates. To continue operating S -4349, \nChevron applied for a variance with the District’s Hearing Board which is pending a  January 201854 \nhearing.  \n \nTo get back into compliance, Chevron has proposed to alter S -4349 by switching solely to natural gas (vs. \nrefinery fuel gas), replacing the existing burner tips (not the burners themselves), and lowering the total \nheat release rat e of the furnace to < 9.99 MMBTU/hour (vs. 16.5). These changes would potentially allow \nChevron to avail themselves of the exemption in Regulation 2 -1-114.1.2, which states:  \n \n“2-1-114 Exemption, Combustion Equipment:  \nThe following equipment is exempt from  the requirements of Sections 2 -1-301 and 302, only if the source does not \nemit pollutants other than combustion products, and those combustion products are not caused by the combustion of \na pollutant generated from another source, and the source does not require permitting pursuant to Section 2 -1-319.  \n \n114.1 Boilers, Heaters, Steam Generators, Duct Burners, and Similar Combustion Equipment:  \n \n1.1 Any of the above equipment with less than 1 million BTU per hour rated heat input.  \n \n1.2 Any of the above equi pment with less than 10 million BTU per hour rated heat input if fired exclusively \nwith natural gas (including compressed natural gas), liquefied petroleum gas (e.g. propane, butane, \nisobutane, propylene, butylenes, and their mixtures), or any combination thereof.”  \n \nAfter the changes described above are implemented, the furnace will be described as shown below:  \n \nS-4349: F-1650 Vacuum Stripper Feed Furnace  \n                           Equipped with 3 ultra low NOx burners with modified burner tips; Fuel: Natu ral gas  \n                           Burner make: John Zink Hamworthy; Burner model: COOLstar -13-ARIA  \n                           Firing orientation: Up -fired; Burner location: Floor  \n                           Design heat release: 3.33 MMBTU/hour/burner (HHV) ;  \n                Total heat release: 9.99 MMBTU/hour   \n    Location: Heavy Neutral Hydrofinisher (HNF)"
+      },
+      {
+        "heading": "Emission Calculations",
+        "alias": "EMISSIONS",
+        "text": "Emission Calculations\nns  \n                                                           \n52 OS-6760  source test date April 7, 2017  NOx = 39.5 ppmvd @ 3% O2 (permit limit 20 ppmvd @ 3% O2)  \n53 OS-6822  source test date May 3, 2017  CO = 144 ppmvd @ 3% O2 (permit limit 50 ppmvd @ 3% O2)   \n54 Docket # 3702  interim variance hearing (Jan. 16, 2018) and regular variance hearing (Jan. 23, 2 018)"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "EVALUATION REPORT",
+        "alias": null,
+        "text": "EVALUATION REPORT\nT  \nPlant 10: Chevron Products Company  \nApplication 2 9049 : Vacuum Stripper Feed Furnace (S -4349)  \n \nChevron Products  Company (Chevron)  has requested a Letter of Exemption for the following equipment :  \n \nS-4349: F-1650 Vacuum Stripper Feed Furnace  \n                           Equipped with 3 ultra low NOx burners with modified burner tips; Fuel: Natural gas  \n                           Burner make: John Zink Hamworthy; Burner model: COOLstar -13-ARIA  \n                           Firing orientation: Up -fired; Burner location: Floor  \n                           Design heat release: 3.33 MMBTU/hour/burner (HHV);  \n                Total heat release: 9.99 MMBTU/hour   \n    Location: Heavy Neutral Hydrofinisher (HNF)  \n \nS-4349 provides heat input into the Vacuum Stripper Column (C -1650), which separates and produces \nfinished lube oil base stocks at the Heavy Neutral Hydrofini sher (S -4343).  The District issued Chevron an \nAC on December 21st, 2017 to perform the following alt erations :  \n \n1. Permanently make a fuel switch to natural gas  from refinery fuel gas   \n2. Modify burner tips at 3 existing ultra low NOx burners  \n3. Reduce the total heat release rate of the furnace to 9.99 MMBTU/hour from 16.5 MMBTU/hour  \n \nThe District issued Chevron a temporary PO on January 17th, 2018 to conduct source testing to \ndemonstrate if S -4349 qualified for the exemption in Regulation 2 -1-114.1.2. Table 1 summarizes source \ntest results gathered from source tests performed at S -4349 between February 12th through 15th, 2018.  \n \nTable 1:  \nNOx and CO emissions gathered from February 2018 source tests  \nCondition  Number \nof \nburners  MMBTU/hour  CO NOx \n#/MMBTU  #/hour #/day  TPY #/MMBTU  #/hour #/day  TPY \n1 1 3.16 0.0795  0.251  6.03 1.10 0.0419  0.132  3.18 0.58 \n2 2 3.98 0.0614  0.244  5.86 1.07 0.0379  0.151  3.62 0.66 \n3 2 5.02 0.0539  0.271  6.49 1.19 0.0400  0.201  4.82 0.88 \n4 2 6 0.0562  0.337  8.09 1.48 0.0370  0.222  5.33 0.97 \n5 3 7.04 0.0478  0.337  8.08 1.47 0.0359  0.253  6.07 1.11 \n6 3 7.98 0.0463  0.369  8.87 1.62 0.0365  0.291  6.99 1.28 \n7 3 9.03 0.0510  0.461  11.05  2.02 0.0381  0.344  8.26 1.51 \n8 3 9.49 0.0501  0.475  11.41  2.08 0.0370  0.351  8.43 1.54 \n  \nTable 2 summarizes TAC emissions from S -4349  \n \nTable 2:  \nTAC emissions associated with natural gas combustion  \nTAC Emission factor  Emissions  \n#/MSCF  #/MMBTU  #/hour  Acute \ntrigger \n(#/hour)  Exceeds \nAcute \ntrigger?  #/year  Chronic \ntrigger \n(#/year)  Exceeds \nChronic \ntrigger?  \nBenzene  2.10E -06 2.06E -06 2.06E -05 6.00E -02 No 1.80E -01 2.9 No \nFormaldehyde  7.50E -05 7.35E -05 7.35E -04 1.20E -01 No 6.43E+00  1.40E+01  No \nToluene  3.40E -06 3.33E -06 3.33E -05 8.20E+01  No 2.92E -01 1.20E+04  No \nPermit Evaluation and Statement of Basis  Site No: A0010, Chevron Products Company  \nApplication No:  27756  841 Chevron Way, Richmond, CA  94802  \n \n345 \n Note:  \n1. TAC emission factors provided in Division Policy titled “Emission Factors for Toxic Air Contaminants from Miscellaneous Natur al \nGas Combustion Sources” dated September 7, 2005.  \n2. Heat release rate = 9.99 MMBTU/hour  \n \n \nIt can be seen from Tables 1 and 2 that S -4349 can be exempted per Regulation 2 -1-114.1.2 because:  \n  \n1. Meets Regulation 2 -1-319.1 because NOx and CO emissions are < 5 TPY/pollutant.  \n2. Meets Regulation 2 -1-316 because it is not a new/modified source of TACs and doesn’t trigger a \nHRA.  \n3. Meets Regul ation 2 -1-317 because it will not cause a public nuisance.  \n4. Meets Regulation 2 -1-318 because it w ill not emit pollutants above quantities listed in regulation."
+      }
+    ]
+  }
+}

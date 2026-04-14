@@ -1,0 +1,359 @@
+{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": "C:\\Users\\aaw\\Codex\\BAAD Engr Evals\\Chevron SOBs\\extracted_evaluations\\application_16590.pdf",
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 7
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": []
+    },
+    "application_number_detected": "16590",
+    "application_number_from_filename": "16590"
+  },
+  "application_number": "16590",
+  "plant": {
+    "name": "CHEVRON PRODUCTS COMP ANY, RICHMOND REFINERY",
+    "plant_id": null,
+    "address": ""
+  },
+  "evaluation_date": "October 1, 2010",
+  "permit_date": null,
+  "project_title": null,
+  "equipment": [
+    {
+      "id": "S-7534",
+      "description": "Emergency Standby Generator (Plant Protection Building): Diesel Engine; Make"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nOUND  \n \nChevron Products Company, Richmond Refinery (Chevron) is applying for an Authority to Construct and/or Permit to Operate the following: \n \nS-7534   Emergency Standby Generator (Plant Protection Building): Diesel Engine; Make \nCummins; Model QSL9-G3 NR3; Model Year 2007; Rated Horsepower 399 HP. \n \nThe generator is used to produce backup power for critical networks and equipment at the \nplant protection building that serves as the central hub for the facility emergency response personnel and equipment."
+  },
+  "emission_calculations": {
+    "text": "EMISSION Calculations\nions  \n \nAnnual Emissions: \nBasis:          \n- 399 bhp output rating for full-load, standby operation - 50 hour/year operation for reliability-related activities  - NOx, POC, CO, and PM\n10 emission factors per CARB Certification data (Executive Order U-R-002-\n0393) \n- POC is assumed to be 5% of NMHC + NOx - NOx is assumed to be 95% of NMHC + NOx - The emission factor for SO\n2 is from Chapter 3, Table 3.4-1 of the EPA Document AP-42, Compilation of \nAir Pollutant Emission Factors, whic h is based on full conversion of fu el sulfur to SO2 and which will \ntherefore be considered applicable to any diesel engine (sulfur content will be assumed to be the California limit of 0.0015 wt% sulfur): \n   SO\n2       8.09E-3 (% S in fuel oil) lb/hp-hr = 8.09E-3 (0.0015% S) (454 g/lb) = 0.000055 g/hp-hr \n \n               Table 1: Emission Factor Summary \nPollutant Emission factor \n(g/hp-hr) \nNOx 2.76emissions testing)\nHC,NOx, NMHC+NOx, CO  1. Meet standards for off-road engines of the same  model year and horsepower rating as specified in \nthe OFF-Road Compression Ignition Engine Standards; \n or if no standards have been established \n \n2. Meet the Tier 1 standards for an off-road  engine for the same maximum rated power. \n This emergency standby diesel engine (S-7534) is in  compliance with the above ATCM requirements. The \nowner/operator is limited by permit c onditions to 50 hours per year for main tenance and reliability testing.  \nThis engine is subject to the Tier 3 off-road CI engine standards for HC, NOx , NMHC+NOx and CO.  As \nshown in the Table 7, the engine meets these requirements. \n \n \n         Table 7. ATCM Tier 3 Compliance \n CARB certified  \ng/bhp-hr ATCM Tier 3 \ng/bhp-hr \nNMHC+NOx 2.91 2.98 \nNOx N/A N/A"
+  },
+  "cumulative_increase": {
+    "text": "PLANT CUMULATIVE INCREASE\nASE\n \n \nThe plant’s cumulative increase post year 1991 is summarized in Table 2. \n \nTable 2 \nPollutant Current Application \nIncrease New Total \nNOx 0 0.061 0.061\nCO 3.072 0.054 3.126\nPOC 1.815 0.003 1.818\nPM 10 0.214 0.002 0.216"
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSION Calculations\nions  \n \nAnnual Emissions: \nBasis:          \n- 399 bhp output rating for full-load, standby operation - 50 hour/year operation for reliability-related activities  - NOx, POC, CO, and PM\n10 emission factors per CARB Certification data (Executive Order U-R-002-\n0393) \n- POC is assumed to be 5% of NMHC + NOx - NOx is assumed to be 95% of NMHC + NOx - The emission factor for SO\n2 is from Chapter 3, Table 3.4-1 of the EPA Document AP-42, Compilation of \nAir Pollutant Emission Factors, whic h is based on full conversion of fu el sulfur to SO2 and which will \ntherefore be considered applicable to any diesel engine (sulfur content will be assumed to be the California limit of 0.0015 wt% sulfur): \n   SO\n2       8.09E-3 (% S in fuel oil) lb/hp-hr = 8.09E-3 (0.0015% S) (454 g/lb) = 0.000055 g/hp-hr \n \n               Table 1: Emission Factor Summary \nPollutant Emission factor \n(g/hp-hr) \nNOx 2.76emissions testing)\nHC,NOx, NMHC+NOx, CO  1. Meet standards for off-road engines of the same  model year and horsepower rating as specified in \nthe OFF-Road Compression Ignition Engine Standards; \n or if no standards have been established \n \n2. Meet the Tier 1 standards for an off-road  engine for the same maximum rated power. \n This emergency standby diesel engine (S-7534) is in  compliance with the above ATCM requirements. The \nowner/operator is limited by permit c onditions to 50 hours per year for main tenance and reliability testing.  \nThis engine is subject to the Tier 3 off-road CI engine standards for HC, NOx , NMHC+NOx and CO.  As \nshown in the Table 7, the engine meets these requirements. \n \n \n         Table 7. ATCM Tier 3 Compliance \n CARB certified  \ng/bhp-hr ATCM Tier 3 \ng/bhp-hr \nNMHC+NOx 2.91 2.98 \nNOx N/A N/A",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-7534": {
+        "narrative": "This emergency standby diesel engine (S-7534) is in  compliance with the above ATCM requirements. The",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "above_trigger",
+    "narrative": "TOXICS RISK SCREENING\nEENING  \n 33 \nThe toxic emission of diesel partic ulate at S-7534 does exceed the Distri ct Risk Screening Trigger, as \nshown in Table 4, and a Risk Screening Analysis has been performed. \n \nTable 4 \nSource PM 10 Emission \nFactor \n(g/HP-hr) HP Annual Usage \n(Hours/year)5 Diesel Exhaust \nParticulate Emissions \n(lb/year): Trigger Level \n(lb/yr) Risk Screen \nRequired?  \n(Yes/No) \nS-7534 0.11 399 50 4.92 0.58 Yes \n \nPer the attached memo from Jane Lundquist dated November 1, 2007, results from the health risk screening analysis indicate that the maximum cancer risk is 0.2 in a million and the chronic hazard index is 0.0001 for 50 hours of operation per year.  In accordance with the District’s Regulation 2-5, this risk level is considered acceptable.The State Office of Administrative Law approved the Airborne Toxic Control Measure (ATCM) on\nNovember 8, 2004.  State law requires the local Air Districts to implement and enforce the requirements of the ATCM.  Effective January 1, 2005, there is a prohibition on the operation of  new diesel emergency \nstandby engines greater than 50 bhp unless the follo wing operating requirements and emission standards \nare met:  “Stationary Diesel Engine ATCM” section 93115, title 17, CA Code of  Regulations.  \n Diesel PM – General Requirements  1. Meet 0.15 g/bhp-hr PM standard  2. Operate 50 hours per year, or less, for maintenance and testing (except emergency use and"
+  },
+  "BACT": {
+    "text": "BACT\nIn accordance with Regulation 2-2-301, Best Availabl e Control Technology (BACT)  is triggered for any \nnew source with the potential to emit 10 pounds or more per highest day of POC, NPOC, NOx, CO, SO 2 or \nPM 10.  \n Based on the emission calculations above, the owner/operator of S-7534 is subject to BACT for the following pollutants: NOx and CO.  BACT 1 levels do not apply for ‘engines used exclusively for emergency use during involuntary loss of power’ as per Reference b, Document 96.1.2 of the BAAQMD \nBACT Guidelines for IC Engines. Hence, the owner/operator has to the meet BACT 2 limits presented in Table 5.  \nTable 5"
+  },
+  "offsets": {
+    "narrative": "OFFSETS\nSETS  \n \nFacility-wide, Chevron has been permitted to emit more than 35 tons per year or more, on a pollutant \nspecific basis, of POC and NOx, and therefore Chevron is required to provide offsets for POC and NOx at a 1.15 to 1.0 ratio per Regulation 2-2-302. In add ition, Chevron is a Major Facility, which has been \npermitted to emit more than 1.0 tons of PM10 per y ear. Per Regulation 2-2-303, Chevron is also required \nto provide emission offsets for PM 10 at a 1.0 to 1.0 ratio. Chevron will use Banking Certificate # 617 to \nprovide all the emission reduction credits summarized in Table 3. \n \nTable 3 \nPollutant Application \nIncrease Offset Ratio Emission Reduction \nCredits Required \nNOx 0.061 1.15 to 1.0 0.070\nPOC 0.003 1.15 to 1.0 0.003\nPM 10 0.002 1.0 to 1.0 0.002",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          1.15,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          1.15,
+          "N/A",
+          null
+        ],
+        [
+          "PM10",
+          2.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": ""
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nANCE  \n \nThe owner/operator of S-7534 shall comply with Reg. 6 (Particulate Matter and Visible Emissions Standards) and Reg. 9-1-301 (Inorga nic Gaseous Pollutants:  Sulfur Dioxide \nfor Limitations on Ground Level Concentrations).  Since this engine meets TBACT for PM\n10 (<0.15 g/hp-hr), it is expected to comply with Reg. 6. Ultra-low sulfur diesel (15 \nPPM sulfur) will be used to meet the sulf ur limitation of 0.5wt% in Reg. 9-1-304 as well \nas to minimize PM 10 emissions.  Because S-7534 is an emergency standby generator, \nReg. 9-8-110 (Inorganic Gaseous Pollutants: N itrogen Oxides from Stationary Internal \nCombustion Engines) exempts the requirements for emission limits of Sections 9-8-301, 302, and 502.  Allowable operating hours and the corresponding record keeping in Reg. 9-8-330 and 530 will be included in the permit conditions below.  \nThe application is considered to be ministerial under the District's CEQA regulation 2-1-311 and therefore \nis not subject to CEQA review. The engineering review for this project requires only the application of standard permit conditions and st andard emissions factors outlined  in the Permit Handbook Chapter 2.3 \nand therefore is not discretionary as defined by CEQA.    The project is over 1000 feet from the nearest school and therefore not subject to the public notification requirements of Reg. 2-1-412.  \n \nPSD does not apply."
+      ]
+    }
+  },
+  "public_notification": {
+    "text": ""
+  },
+  "conditions": {
+    "text": "PERMIT CONDITIONS\nIONS  \n \nApplication 16590; Plant 10; Conditions for S-7534  \nPC22850 \n \n 37 \n1. Operating for reliability-related activities is limited to 50 hours per year per engine. \n[Basis: \"Stationary Diesel Engine ATCM\" section 93115, title 17, CA Code of Regulations subsection (e)(2)(A)(3) or (e)(2)(B)(3)] \n \n2. The owner or operator shall operate each emerg ency standby engine on ly for the following \npurposes: to mitigate emergency conditions, fo r emission testing to demonstrate compliance \nwith a District, state or Federal emission limit, or for reliability-related activities (maintenance and other testing, but excluding  emission testing). Operating hours while \nmitigating emergency conditions or while emission testing to show compliance with District, \nstate or Federal emission limits is not limited. [Basis: \"Stationary Diesel Engine ATCM\" section 93115, title 17, CA Code of Regulations, subsection (e)(2)(A)(3) or (e)(2)(B)(3)]] \n \n3. The owner/operator shall operate each emergency standby engine only when a non-\nresettable totalizing meter (with a minimum disp lay capability of 9,999 hours) that measures \nthe hours of operation for the engine is installed, operated and properly maintained. \n[Basis: \"Stationary Diesel Engine ATCM\" section 93115, title 17, CA Code of Regulations subsection (e)(4)(G)(1)] \n \n4. Records: The owner/operator shall maintain the following monthly records in a District-\napproved log for at least 36 months from the date of entry (60 months if the facility has been issued a Title V Major Facility Review Permit or a Synthetic Minor Operating Permit). Log \nentries shall be retained on-site, either at a centr al location or at the engine's location, and \nmade immediately available to th e District staff upon request. \n \na. Hours of operation for reliability-related activities (maintenance and testing). b. Hours of operation for emission testing to show compliance with emission limits. \nc. Hours of operation (emergency). d. For each emergency, the natu re of the emergency condition. \ne. Fuel usage for each engine(s).                      \n[Basis: \"Stationary Diesel Engine ATCM\" section 93115, title 17, CA Code of Regulations, subsection (e)(4)(I), or (Regulation 2-6-501)] \n \n5. At School and Near-School Operation: \nIf the emergency standby engine is located on  school grounds or within 500 feet of any \nschool grounds, the following requirements shall apply: The owner or operator shall not operate each  stationary emergency standby diesel-fueled \nengine for non-emergency use, including maintenance and te sting, during the following \nperiods: a. Whenever there is a school-sponsored activi ty (if the engine is located on school \ngrounds). \nb. Between 7:30 a.m. and 3:30 p.m. on days when school is in session \"School\" or \"School \nGrounds\" means any public or private school used for the purposes of the education of \nmore than 12 children in kindergarten or any of grades 1 to 12, inclusive, but does not include any private school in which educ ation is primarily conducted in a private \nhome(s). \"School\" or \"School Grounds\" includes any building or structure, playground, athletic field, or other areas of school property but does not include \nunimproved school property. \n[Basis: \"Stationary Diesel Engine ATCM\" section 93115, title 17, CA Code of Regulations, subsection (e)(2)(A)(1)] or (e)(2)(B)(2)]"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": 1,
+        "text": "Operating for reliability-related activities is limited to 50 hours per year per engine. \n[",
+        "basis": [
+          "\"Stationary Diesel Engine ATCM\" section 93115",
+          "title 17",
+          "CA Code of Regulations subsection (e)(2)(A)(3) or (e)(2)(B)(3)]"
+        ]
+      },
+      {
+        "num": 2,
+        "text": "The owner or operator shall operate each emerg ency standby engine on ly for the following \npurposes: to mitigate emergency conditions, fo r emission testing to demonstrate compliance \nwith a District, state or Federal emission limit, or for reliability-related activities (maintenance and other testing, but excluding  emission testing). Operating hours while \nmitigating emergency conditions or while emission testing to show compliance with District, \nstate or Federal emission limits is not limited. [",
+        "basis": [
+          "\"Stationary Diesel Engine ATCM\" section 93115",
+          "title 17",
+          "CA Code of Regulations",
+          "subsection (e)(2)(A)(3) or (e)(2)(B)(3)]]"
+        ]
+      },
+      {
+        "num": 3,
+        "text": "The owner/operator shall operate each emergency standby engine only when a non-\nresettable totalizing meter (with a minimum disp lay capability of 9,999 hours) that measures \nthe hours of operation for the engine is installed, operated and properly maintained. \n[",
+        "basis": [
+          "\"Stationary Diesel Engine ATCM\" section 93115",
+          "title 17",
+          "CA Code of Regulations subsection (e)(4)(G)(1)]"
+        ]
+      },
+      {
+        "num": 4,
+        "text": "Records: The owner/operator shall maintain the following monthly records in a District-\napproved log for at least 36 months from the date of entry (60 months if the facility has been issued a Title V Major Facility Review Permit or a Synthetic Minor Operating Permit). Log \nentries shall be retained on-site, either at a centr al location or at the engine's location, and \nmade immediately available to th e District staff upon request. \n \na. Hours of operation for reliability-related activities (maintenance and testing). b. Hours of operation for emission testing to show compliance with emission limits. \nc. Hours of operation (emergency). d. For each emergency, the natu re of the emergency condition. \ne. Fuel usage for each engine(s).                      \n[",
+        "basis": [
+          "\"Stationary Diesel Engine ATCM\" section 93115",
+          "title 17",
+          "CA Code of Regulations",
+          "subsection (e)(4)(I)",
+          "or (Regulation 2-6-501)]"
+        ]
+      },
+      {
+        "num": 5,
+        "text": "At School and Near-School Operation: \nIf the emergency standby engine is located on  school grounds or within 500 feet of any \nschool grounds, the following requirements shall apply: The owner or operator shall not operate each  stationary emergency standby diesel-fueled \nengine for non-emergency use, including maintenance and te sting, during the following \nperiods: a. Whenever there is a school-sponsored activi ty (if the engine is located on school \ngrounds). \nb. Between 7:30 a.m. and 3:30 p.m. on days when school is in session \"School\" or \"School \nGrounds\" means any public or private school used for the purposes of the education of \nmore than 12 children in kindergarten or any of grades 1 to 12, inclusive, but does not include any private school in which educ ation is primarily conducted in a private \nhome(s). \"School\" or \"School Grounds\" includes any building or structure, playground, athletic field, or other areas of school property but does not include \nunimproved school property. \n[",
+        "basis": [
+          "\"Stationary Diesel Engine ATCM\" section 93115",
+          "title 17",
+          "CA Code of Regulations",
+          "subsection (e)(2)(A)(1)] or (e)(2)(B)(2)]"
+        ]
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": "RECOMMENDATION\nON\n \n \n 38Issue an Authority to Construct to Chevron for: \n \nS-7534   Emergency Standby Generator (Plant Protection Building): Diesel Engine; Make \nCummins; Model QSL9-G3 NR3; Model Year 2007; Rated Horsepower 399 HP. \n  \n \n \n   \nBy:     Date:    \nXuna Cai   \nAir Quality Engineer I"
+  },
+  "raw_sections": {
+    "preamble": "31ENGINEERING EVALUATION",
+    "blocks": [
+      {
+        "heading": "CHEVRON PRODUCTS COMP ANY, RICHMOND REFINERY",
+        "alias": null,
+        "text": "CHEVRON PRODUCTS COMP ANY, RICHMOND REFINERY"
+      },
+      {
+        "heading": "PLANT NO.  10",
+        "alias": null,
+        "text": "PLANT NO.  10\nAPPLICATION NO. 16590"
+      },
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nOUND  \n \nChevron Products Company, Richmond Refinery (Chevron) is applying for an Authority to Construct and/or Permit to Operate the following: \n \nS-7534   Emergency Standby Generator (Plant Protection Building): Diesel Engine; Make \nCummins; Model QSL9-G3 NR3; Model Year 2007; Rated Horsepower 399 HP. \n \nThe generator is used to produce backup power for critical networks and equipment at the \nplant protection building that serves as the central hub for the facility emergency response personnel and equipment."
+      },
+      {
+        "heading": "EMISSION Calculations",
+        "alias": "EMISSIONS",
+        "text": "EMISSION Calculations\nions  \n \nAnnual Emissions: \nBasis:          \n- 399 bhp output rating for full-load, standby operation - 50 hour/year operation for reliability-related activities  - NOx, POC, CO, and PM\n10 emission factors per CARB Certification data (Executive Order U-R-002-\n0393) \n- POC is assumed to be 5% of NMHC + NOx - NOx is assumed to be 95% of NMHC + NOx - The emission factor for SO\n2 is from Chapter 3, Table 3.4-1 of the EPA Document AP-42, Compilation of \nAir Pollutant Emission Factors, whic h is based on full conversion of fu el sulfur to SO2 and which will \ntherefore be considered applicable to any diesel engine (sulfur content will be assumed to be the California limit of 0.0015 wt% sulfur): \n   SO\n2       8.09E-3 (% S in fuel oil) lb/hp-hr = 8.09E-3 (0.0015% S) (454 g/lb) = 0.000055 g/hp-hr \n \n               Table 1: Emission Factor Summary \nPollutant Emission factor \n(g/hp-hr) \nNOx 2.76"
+      },
+      {
+        "heading": "CO 2.46",
+        "alias": null,
+        "text": "CO 2.46"
+      },
+      {
+        "heading": "POC 0.15",
+        "alias": null,
+        "text": "POC 0.15\nPM 10 0.11 \nSO 2 0.000055 \n \nFor S-7534, \nNOx = ( 2.76 g/hp-hr) ( 399 hp) ( 50 hr/yr) (lb/454g) = 121.41  lb/yr = 0.061 TPY \nCO = ( 2.46 g/hp-hr) ( 399 hp) ( 50 hr/yr) (lb/454g) = 108.14 lb/yr = 0.054 TPY \nPOC = ( 0.15 g/hp-hr) ( 399 hp) ( 50 hr/yr) (lb/454g) = 6.39  lb/yr = 0.003 TPY \nPM 10 = ( 0.11 g/hp-hr) ( 399 hp) ( 50 hr/yr) (lb/454g) = 4.92 lb/yr = 0.002 TPY \nSO 2 = ( 0.000055 g/hp-hr) ( 399 hp) ( 50 hr/yr) (lb/454g) = 0.002 lb/yr = 0.000001 TPY \n 32 \n \nMaximum Daily Emissions: \n \nDaily emissions are calculated to establish whether a source triggers the requirement for BACT (10 lb/highest day total source emissions for any class of  pollutants). A full 24-hour day will be assumed since \nno daily limits are imposed on intermittent and unexpected operations.  For S-7534, \nNOx = ( 2.76 g/hp-hr) ( 399 hp) ( 24 hr/day) (lb/454g) = 58.28  lb/day CO = ( 2.46 g/hp-hr) ( 399 hp) ( 24 hr/day) (lb/454g) = 51.91  lb/day POC = ( 0.15 g/hp-hr) ( 399 hp) ( 24 hr/day) (lb/454g) = 3.07  lb/day \nPM\n10 = ( 0.11 g/hp-hr) ( 399 hp) ( 24 hr/day) (lb/454g) = 2.36  lb/day \nSO 2 = ( 0.000055 g/hp-hr) ( 399 hp) ( 24 hr/day) (lb/454g) = 0.001  lb/day"
+      },
+      {
+        "heading": "PLANT CUMULATIVE INCREASE",
+        "alias": "CUMULATIVE_INCREASE",
+        "text": "PLANT CUMULATIVE INCREASE\nASE\n \n \nThe plant’s cumulative increase post year 1991 is summarized in Table 2. \n \nTable 2 \nPollutant Current Application \nIncrease New Total \nNOx 0 0.061 0.061\nCO 3.072 0.054 3.126\nPOC 1.815 0.003 1.818\nPM 10 0.214 0.002 0.216"
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nSETS  \n \nFacility-wide, Chevron has been permitted to emit more than 35 tons per year or more, on a pollutant \nspecific basis, of POC and NOx, and therefore Chevron is required to provide offsets for POC and NOx at a 1.15 to 1.0 ratio per Regulation 2-2-302. In add ition, Chevron is a Major Facility, which has been \npermitted to emit more than 1.0 tons of PM10 per y ear. Per Regulation 2-2-303, Chevron is also required \nto provide emission offsets for PM 10 at a 1.0 to 1.0 ratio. Chevron will use Banking Certificate # 617 to \nprovide all the emission reduction credits summarized in Table 3. \n \nTable 3 \nPollutant Application \nIncrease Offset Ratio Emission Reduction \nCredits Required \nNOx 0.061 1.15 to 1.0 0.070\nPOC 0.003 1.15 to 1.0 0.003\nPM 10 0.002 1.0 to 1.0 0.002"
+      },
+      {
+        "heading": "TOXICS RISK SCREENING",
+        "alias": "TOXICS",
+        "text": "TOXICS RISK SCREENING\nEENING  \n 33 \nThe toxic emission of diesel partic ulate at S-7534 does exceed the Distri ct Risk Screening Trigger, as \nshown in Table 4, and a Risk Screening Analysis has been performed. \n \nTable 4 \nSource PM 10 Emission \nFactor \n(g/HP-hr) HP Annual Usage \n(Hours/year)5 Diesel Exhaust \nParticulate Emissions \n(lb/year): Trigger Level \n(lb/yr) Risk Screen \nRequired?  \n(Yes/No) \nS-7534 0.11 399 50 4.92 0.58 Yes \n \nPer the attached memo from Jane Lundquist dated November 1, 2007, results from the health risk screening analysis indicate that the maximum cancer risk is 0.2 in a million and the chronic hazard index is 0.0001 for 50 hours of operation per year.  In accordance with the District’s Regulation 2-5, this risk level is considered acceptable."
+      },
+      {
+        "heading": "BACT",
+        "alias": "BACT",
+        "text": "BACT\nIn accordance with Regulation 2-2-301, Best Availabl e Control Technology (BACT)  is triggered for any \nnew source with the potential to emit 10 pounds or more per highest day of POC, NPOC, NOx, CO, SO 2 or \nPM 10.  \n Based on the emission calculations above, the owner/operator of S-7534 is subject to BACT for the following pollutants: NOx and CO.  BACT 1 levels do not apply for ‘engines used exclusively for emergency use during involuntary loss of power’ as per Reference b, Document 96.1.2 of the BAAQMD \nBACT Guidelines for IC Engines. Hence, the owner/operator has to the meet BACT 2 limits presented in Table 5.  \nTable 5"
+      },
+      {
+        "heading": "POLLUTANT BACT",
+        "alias": null,
+        "text": "POLLUTANT BACT\n1. Technologically Feasible/ Cost \nEffective \n2. Achieved in Practice \n3. TBACT TYPICAL TECHNOLOGY \nNOx 1.  1.5 g/bhp-hr [107 ppmvd @ 15% \nO2] a,b \n 2.  6.9 g/bhp-hr [490 ppmvd @ 15% \nO\n2] a,b,c \n3. 6.9 g/bhp-hr [490 ppmvd @ 15 % \nO2]  1.  Selective Catalytic Reduction (SCR) + Timing \nRetard + Turbocharger w/ Intercooler a,b \n2.  Timing Retard <  4o + Turbocharger w/ \nIntercooler a,b,c \n3.  Timing Retard <  4o + Turbocharger w/ \nIntercooler  \nCO 1.  n/s \n2.  2.75  g/bhp-hr [319 ppmvd @ 15% \nO2] b,c 1.  Catalytic Oxidation b \n2.  CARB or EPA (or equivalent) low-CO emitting \ncertified engine b,c \n \nThe NOx and CO emission limits set by BACT 2 are met, as shown in Table 6.   \nTable 6 \n                                                           \n5 Annual Usage based on 50 hours per y ear of operation for reliability-rela ted activities as prescribed by \nSubsection (E)(2)(A) of section 93115, title 17, California Code of Regulations.  \n 34Pollutant Engine Emission \nFactors (g/hp-hr) Emission Factor Limits as \nset by BACT 2 (g/hp-hr) Have the limits \nbeen met? \nNOx 2.76 6.9 YES \nCO 2.46 2.75 YES \n Therefore, S-7534 is determined to be in compliance with the BACT 2 limits for NOx and CO."
+      },
+      {
+        "heading": "CARB STATIONARY DIESEL ENGINE ATCM",
+        "alias": null,
+        "text": "CARB STATIONARY DIESEL ENGINE ATCM\nCM"
+      },
+      {
+        "heading": "The State Office of Administrative Law approved the Airborne Toxic Control Measure (ATCM) on",
+        "alias": "TOXICS",
+        "text": "The State Office of Administrative Law approved the Airborne Toxic Control Measure (ATCM) on\nNovember 8, 2004.  State law requires the local Air Districts to implement and enforce the requirements of the ATCM.  Effective January 1, 2005, there is a prohibition on the operation of  new diesel emergency \nstandby engines greater than 50 bhp unless the follo wing operating requirements and emission standards \nare met:  “Stationary Diesel Engine ATCM” section 93115, title 17, CA Code of  Regulations.  \n Diesel PM – General Requirements  1. Meet 0.15 g/bhp-hr PM standard  2. Operate 50 hours per year, or less, for maintenance and testing (except emergency use and"
+      },
+      {
+        "heading": "emissions testing)",
+        "alias": "EMISSIONS",
+        "text": "emissions testing)\nHC,NOx, NMHC+NOx, CO  1. Meet standards for off-road engines of the same  model year and horsepower rating as specified in \nthe OFF-Road Compression Ignition Engine Standards; \n or if no standards have been established \n \n2. Meet the Tier 1 standards for an off-road  engine for the same maximum rated power. \n This emergency standby diesel engine (S-7534) is in  compliance with the above ATCM requirements. The \nowner/operator is limited by permit c onditions to 50 hours per year for main tenance and reliability testing.  \nThis engine is subject to the Tier 3 off-road CI engine standards for HC, NOx , NMHC+NOx and CO.  As \nshown in the Table 7, the engine meets these requirements. \n \n \n         Table 7. ATCM Tier 3 Compliance \n CARB certified  \ng/bhp-hr ATCM Tier 3 \ng/bhp-hr \nNMHC+NOx 2.91 2.98 \nNOx N/A N/A"
+      },
+      {
+        "heading": "NMHC (POC) N/A N/A",
+        "alias": null,
+        "text": "NMHC (POC) N/A N/A\nCO 2.46 2.61 \nPM 0.11 0.15"
+      },
+      {
+        "heading": "NSPS",
+        "alias": null,
+        "text": "NSPS\n35The engine is subject to 40 CFR 60, Subpart IIII, Standards of Performance for Stationary Compression \nIgnition Internal Combustion Engines because it was manufactured after April 1, 2006, as required by \nSection 60.4200(a)(2)(i).  The engine has a total displacement of 8.9 liters and 6 cylinders, so each cylinder has a volume of less than \n10 liters.  The engine is a 2007 engine  and is not a fire pump.  Secti on 60.4205(b) requires these engines to \ncomply with the standards in Section 60.4202 that apply to the same model year and maximum engine power .  For engines above 50 hp, below 3000 hp, and that  have a displacement less than 10 liters per \ncylinder, the requirement is to comply with the certification standards in 40 CFR 89.112 and 89.113 for all pollutants.  For engines between 225 kW and 450 kW, the standards in Section 89.112 are:  \n• NMHC + NOX:  4.0 g/kW-hr  \n• CO:  3.5 g/kW-hr \n• PM:  0.2 g/kW-hr \n \nAccording to CARB Executive Order U-R-002-0393, this engine will co mply with these standards. \n Section 89.113 states that the e xhaust opacity must not exceed: \n \n• 20 percent during acceleration \n• 15 percent during lugging \n• 50 percent during peaks in acceleration or lugging modes \n The engine has been certified by EPA and ther efore will comply with the above standards. \n The owner/operator of S-7534 is subject to and exp ected to comply with Sections 60.4206 and 60.4211(a), \nwhich require that the owner/opera tor operate and maintain the engi ne according to the manufacturer's \nwritten instructions or procedures developed by the owner or operator that are approved by the engine manufacturer, over the entire life of the engine.    For 2007 model year and later engines, Section 60.4211( c) requires that the owner/operator purchase an \nengine certified to the emissions standard in Sec tion 60.4205(b), and install and configure the engine \naccording to the manufacturer’s specifications. Complia nce with the requirements is expected since the \nAuthority to Construct is only issued to the engine being evaluated and the engine meets the emissions standard in Section 60.4205(b) as discussed above.   Section 60.4207(a) requires that by October 1, 2007, the owner/operator must use fuel that complies with 40 CFR 80.510(a).  This means that the fuel must ha ve a maximum sulfur content of 500 parts per million \n(ppm), and a cetane index of 40 or a maximum aromatic content of 35 volume percent. Section 60.4207(b) requires that by October 1, 2010, the owner/operator must use fuel that complies with 40 CFR 80.510(b).  This means that the fuel must have a maximum sulfur content of 15 parts per million (ppm), and the same cetane index or aromatic content as previously stated. California Air Re sources Board (CARB) diesel fuel, \nwhich has a maximum sulfur content of 15 ppm and a maximum aromatic content of 10 to 20 percent by volume, will be used.  Staff in the Stationary Source Division of CARB indicates that some certified diesel fuel in California may have a maximum aromatic cont ent greater than 10 percen t if the fuel has been \ndemonstrated to have an equal or greater emission bene fit as diesel fuel with maximum aromatic content of \n10 percent, but no certified fuel has had an aromatic content greater than 25 percent.   Section 60.4209(a) requires a non-resettable hour meter.  This requirement is in the standard permit \nconditions.  The engine will comply with the requirement in S ection 60.4211(e) to run for less than 100 hours per year \nfor maintenance checks and readiness testing, and the prohibition of running for any reason other than \n 36emergency operation, maintenance, and testing because  the facility is limited by permit conditions to 50 \nhours per year for reliability testing and ot herwise may only operate for emergencies. \n The owner/operator is not require d to perform tests in accordance with Section 60.4212 or 60.4213. \n Section 60.4214 states that owner/operator does not ha ve to submit an initial notification to EPA for \nemergency engines.  Because the engine does not have a diesel particulate filter, it is  not subject to Section 60.4214(c). \n The owner/operator is subject to and expected to co mply with 40 CFR 60, Subpart A, General Provisions."
+      },
+      {
+        "heading": "NESHAP",
+        "alias": null,
+        "text": "NESHAP\nSHAP  \n \nIn accordance with 40 CFR 63.6590, the engine is not subject to 40 CFR 63, Subpart ZZZZ, National \nEmission Standards for Hazardous Ai r Pollutants for Stationary Reci procating Internal Combustion \nEngines, because the engine is rated less than 500 break horsepower."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nANCE  \n \nThe owner/operator of S-7534 shall comply with Reg. 6 (Particulate Matter and Visible Emissions Standards) and Reg. 9-1-301 (Inorga nic Gaseous Pollutants:  Sulfur Dioxide \nfor Limitations on Ground Level Concentrations).  Since this engine meets TBACT for PM\n10 (<0.15 g/hp-hr), it is expected to comply with Reg. 6. Ultra-low sulfur diesel (15 \nPPM sulfur) will be used to meet the sulf ur limitation of 0.5wt% in Reg. 9-1-304 as well \nas to minimize PM 10 emissions.  Because S-7534 is an emergency standby generator, \nReg. 9-8-110 (Inorganic Gaseous Pollutants: N itrogen Oxides from Stationary Internal \nCombustion Engines) exempts the requirements for emission limits of Sections 9-8-301, 302, and 502.  Allowable operating hours and the corresponding record keeping in Reg. 9-8-330 and 530 will be included in the permit conditions below.  \nThe application is considered to be ministerial under the District's CEQA regulation 2-1-311 and therefore \nis not subject to CEQA review. The engineering review for this project requires only the application of standard permit conditions and st andard emissions factors outlined  in the Permit Handbook Chapter 2.3 \nand therefore is not discretionary as defined by CEQA.    The project is over 1000 feet from the nearest school and therefore not subject to the public notification requirements of Reg. 2-1-412.  \n \nPSD does not apply."
+      },
+      {
+        "heading": "PERMIT CONDITIONS",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "PERMIT CONDITIONS\nIONS  \n \nApplication 16590; Plant 10; Conditions for S-7534  \nPC22850 \n \n 37 \n1. Operating for reliability-related activities is limited to 50 hours per year per engine. \n[Basis: \"Stationary Diesel Engine ATCM\" section 93115, title 17, CA Code of Regulations subsection (e)(2)(A)(3) or (e)(2)(B)(3)] \n \n2. The owner or operator shall operate each emerg ency standby engine on ly for the following \npurposes: to mitigate emergency conditions, fo r emission testing to demonstrate compliance \nwith a District, state or Federal emission limit, or for reliability-related activities (maintenance and other testing, but excluding  emission testing). Operating hours while \nmitigating emergency conditions or while emission testing to show compliance with District, \nstate or Federal emission limits is not limited. [Basis: \"Stationary Diesel Engine ATCM\" section 93115, title 17, CA Code of Regulations, subsection (e)(2)(A)(3) or (e)(2)(B)(3)]] \n \n3. The owner/operator shall operate each emergency standby engine only when a non-\nresettable totalizing meter (with a minimum disp lay capability of 9,999 hours) that measures \nthe hours of operation for the engine is installed, operated and properly maintained. \n[Basis: \"Stationary Diesel Engine ATCM\" section 93115, title 17, CA Code of Regulations subsection (e)(4)(G)(1)] \n \n4. Records: The owner/operator shall maintain the following monthly records in a District-\napproved log for at least 36 months from the date of entry (60 months if the facility has been issued a Title V Major Facility Review Permit or a Synthetic Minor Operating Permit). Log \nentries shall be retained on-site, either at a centr al location or at the engine's location, and \nmade immediately available to th e District staff upon request. \n \na. Hours of operation for reliability-related activities (maintenance and testing). b. Hours of operation for emission testing to show compliance with emission limits. \nc. Hours of operation (emergency). d. For each emergency, the natu re of the emergency condition. \ne. Fuel usage for each engine(s).                      \n[Basis: \"Stationary Diesel Engine ATCM\" section 93115, title 17, CA Code of Regulations, subsection (e)(4)(I), or (Regulation 2-6-501)] \n \n5. At School and Near-School Operation: \nIf the emergency standby engine is located on  school grounds or within 500 feet of any \nschool grounds, the following requirements shall apply: The owner or operator shall not operate each  stationary emergency standby diesel-fueled \nengine for non-emergency use, including maintenance and te sting, during the following \nperiods: a. Whenever there is a school-sponsored activi ty (if the engine is located on school \ngrounds). \nb. Between 7:30 a.m. and 3:30 p.m. on days when school is in session \"School\" or \"School \nGrounds\" means any public or private school used for the purposes of the education of \nmore than 12 children in kindergarten or any of grades 1 to 12, inclusive, but does not include any private school in which educ ation is primarily conducted in a private \nhome(s). \"School\" or \"School Grounds\" includes any building or structure, playground, athletic field, or other areas of school property but does not include \nunimproved school property. \n[Basis: \"Stationary Diesel Engine ATCM\" section 93115, title 17, CA Code of Regulations, subsection (e)(2)(A)(1)] or (e)(2)(B)(2)]"
+      },
+      {
+        "heading": "RECOMMENDATION",
+        "alias": "RECOMMENDATION",
+        "text": "RECOMMENDATION\nON\n \n \n 38Issue an Authority to Construct to Chevron for: \n \nS-7534   Emergency Standby Generator (Plant Protection Building): Diesel Engine; Make \nCummins; Model QSL9-G3 NR3; Model Year 2007; Rated Horsepower 399 HP. \n  \n \n \n   \nBy:     Date:    \nXuna Cai   \nAir Quality Engineer I"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "CHEVRON PRODUCTS COMP ANY, RICHMOND REFINERY",
+        "alias": null,
+        "text": "CHEVRON PRODUCTS COMP ANY, RICHMOND REFINERY"
+      },
+      {
+        "heading": "PLANT NO.  10",
+        "alias": null,
+        "text": "PLANT NO.  10\nAPPLICATION NO. 16590"
+      },
+      {
+        "heading": "CO 2.46",
+        "alias": null,
+        "text": "CO 2.46"
+      },
+      {
+        "heading": "POC 0.15",
+        "alias": null,
+        "text": "POC 0.15\nPM 10 0.11 \nSO 2 0.000055 \n \nFor S-7534, \nNOx = ( 2.76 g/hp-hr) ( 399 hp) ( 50 hr/yr) (lb/454g) = 121.41  lb/yr = 0.061 TPY \nCO = ( 2.46 g/hp-hr) ( 399 hp) ( 50 hr/yr) (lb/454g) = 108.14 lb/yr = 0.054 TPY \nPOC = ( 0.15 g/hp-hr) ( 399 hp) ( 50 hr/yr) (lb/454g) = 6.39  lb/yr = 0.003 TPY \nPM 10 = ( 0.11 g/hp-hr) ( 399 hp) ( 50 hr/yr) (lb/454g) = 4.92 lb/yr = 0.002 TPY \nSO 2 = ( 0.000055 g/hp-hr) ( 399 hp) ( 50 hr/yr) (lb/454g) = 0.002 lb/yr = 0.000001 TPY \n 32 \n \nMaximum Daily Emissions: \n \nDaily emissions are calculated to establish whether a source triggers the requirement for BACT (10 lb/highest day total source emissions for any class of  pollutants). A full 24-hour day will be assumed since \nno daily limits are imposed on intermittent and unexpected operations.  For S-7534, \nNOx = ( 2.76 g/hp-hr) ( 399 hp) ( 24 hr/day) (lb/454g) = 58.28  lb/day CO = ( 2.46 g/hp-hr) ( 399 hp) ( 24 hr/day) (lb/454g) = 51.91  lb/day POC = ( 0.15 g/hp-hr) ( 399 hp) ( 24 hr/day) (lb/454g) = 3.07  lb/day \nPM\n10 = ( 0.11 g/hp-hr) ( 399 hp) ( 24 hr/day) (lb/454g) = 2.36  lb/day \nSO 2 = ( 0.000055 g/hp-hr) ( 399 hp) ( 24 hr/day) (lb/454g) = 0.001  lb/day"
+      },
+      {
+        "heading": "POLLUTANT BACT",
+        "alias": null,
+        "text": "POLLUTANT BACT\n1. Technologically Feasible/ Cost \nEffective \n2. Achieved in Practice \n3. TBACT TYPICAL TECHNOLOGY \nNOx 1.  1.5 g/bhp-hr [107 ppmvd @ 15% \nO2] a,b \n 2.  6.9 g/bhp-hr [490 ppmvd @ 15% \nO\n2] a,b,c \n3. 6.9 g/bhp-hr [490 ppmvd @ 15 % \nO2]  1.  Selective Catalytic Reduction (SCR) + Timing \nRetard + Turbocharger w/ Intercooler a,b \n2.  Timing Retard <  4o + Turbocharger w/ \nIntercooler a,b,c \n3.  Timing Retard <  4o + Turbocharger w/ \nIntercooler  \nCO 1.  n/s \n2.  2.75  g/bhp-hr [319 ppmvd @ 15% \nO2] b,c 1.  Catalytic Oxidation b \n2.  CARB or EPA (or equivalent) low-CO emitting \ncertified engine b,c \n \nThe NOx and CO emission limits set by BACT 2 are met, as shown in Table 6.   \nTable 6 \n                                                           \n5 Annual Usage based on 50 hours per y ear of operation for reliability-rela ted activities as prescribed by \nSubsection (E)(2)(A) of section 93115, title 17, California Code of Regulations.  \n 34Pollutant Engine Emission \nFactors (g/hp-hr) Emission Factor Limits as \nset by BACT 2 (g/hp-hr) Have the limits \nbeen met? \nNOx 2.76 6.9 YES \nCO 2.46 2.75 YES \n Therefore, S-7534 is determined to be in compliance with the BACT 2 limits for NOx and CO."
+      },
+      {
+        "heading": "CARB STATIONARY DIESEL ENGINE ATCM",
+        "alias": null,
+        "text": "CARB STATIONARY DIESEL ENGINE ATCM\nCM"
+      },
+      {
+        "heading": "NMHC (POC) N/A N/A",
+        "alias": null,
+        "text": "NMHC (POC) N/A N/A\nCO 2.46 2.61 \nPM 0.11 0.15"
+      },
+      {
+        "heading": "NSPS",
+        "alias": null,
+        "text": "NSPS\n35The engine is subject to 40 CFR 60, Subpart IIII, Standards of Performance for Stationary Compression \nIgnition Internal Combustion Engines because it was manufactured after April 1, 2006, as required by \nSection 60.4200(a)(2)(i).  The engine has a total displacement of 8.9 liters and 6 cylinders, so each cylinder has a volume of less than \n10 liters.  The engine is a 2007 engine  and is not a fire pump.  Secti on 60.4205(b) requires these engines to \ncomply with the standards in Section 60.4202 that apply to the same model year and maximum engine power .  For engines above 50 hp, below 3000 hp, and that  have a displacement less than 10 liters per \ncylinder, the requirement is to comply with the certification standards in 40 CFR 89.112 and 89.113 for all pollutants.  For engines between 225 kW and 450 kW, the standards in Section 89.112 are:  \n• NMHC + NOX:  4.0 g/kW-hr  \n• CO:  3.5 g/kW-hr \n• PM:  0.2 g/kW-hr \n \nAccording to CARB Executive Order U-R-002-0393, this engine will co mply with these standards. \n Section 89.113 states that the e xhaust opacity must not exceed: \n \n• 20 percent during acceleration \n• 15 percent during lugging \n• 50 percent during peaks in acceleration or lugging modes \n The engine has been certified by EPA and ther efore will comply with the above standards. \n The owner/operator of S-7534 is subject to and exp ected to comply with Sections 60.4206 and 60.4211(a), \nwhich require that the owner/opera tor operate and maintain the engi ne according to the manufacturer's \nwritten instructions or procedures developed by the owner or operator that are approved by the engine manufacturer, over the entire life of the engine.    For 2007 model year and later engines, Section 60.4211( c) requires that the owner/operator purchase an \nengine certified to the emissions standard in Sec tion 60.4205(b), and install and configure the engine \naccording to the manufacturer’s specifications. Complia nce with the requirements is expected since the \nAuthority to Construct is only issued to the engine being evaluated and the engine meets the emissions standard in Section 60.4205(b) as discussed above.   Section 60.4207(a) requires that by October 1, 2007, the owner/operator must use fuel that complies with 40 CFR 80.510(a).  This means that the fuel must ha ve a maximum sulfur content of 500 parts per million \n(ppm), and a cetane index of 40 or a maximum aromatic content of 35 volume percent. Section 60.4207(b) requires that by October 1, 2010, the owner/operator must use fuel that complies with 40 CFR 80.510(b).  This means that the fuel must have a maximum sulfur content of 15 parts per million (ppm), and the same cetane index or aromatic content as previously stated. California Air Re sources Board (CARB) diesel fuel, \nwhich has a maximum sulfur content of 15 ppm and a maximum aromatic content of 10 to 20 percent by volume, will be used.  Staff in the Stationary Source Division of CARB indicates that some certified diesel fuel in California may have a maximum aromatic cont ent greater than 10 percen t if the fuel has been \ndemonstrated to have an equal or greater emission bene fit as diesel fuel with maximum aromatic content of \n10 percent, but no certified fuel has had an aromatic content greater than 25 percent.   Section 60.4209(a) requires a non-resettable hour meter.  This requirement is in the standard permit \nconditions.  The engine will comply with the requirement in S ection 60.4211(e) to run for less than 100 hours per year \nfor maintenance checks and readiness testing, and the prohibition of running for any reason other than \n 36emergency operation, maintenance, and testing because  the facility is limited by permit conditions to 50 \nhours per year for reliability testing and ot herwise may only operate for emergencies. \n The owner/operator is not require d to perform tests in accordance with Section 60.4212 or 60.4213. \n Section 60.4214 states that owner/operator does not ha ve to submit an initial notification to EPA for \nemergency engines.  Because the engine does not have a diesel particulate filter, it is  not subject to Section 60.4214(c). \n The owner/operator is subject to and expected to co mply with 40 CFR 60, Subpart A, General Provisions."
+      },
+      {
+        "heading": "NESHAP",
+        "alias": null,
+        "text": "NESHAP\nSHAP  \n \nIn accordance with 40 CFR 63.6590, the engine is not subject to 40 CFR 63, Subpart ZZZZ, National \nEmission Standards for Hazardous Ai r Pollutants for Stationary Reci procating Internal Combustion \nEngines, because the engine is rated less than 500 break horsepower."
+      }
+    ]
+  }
+}

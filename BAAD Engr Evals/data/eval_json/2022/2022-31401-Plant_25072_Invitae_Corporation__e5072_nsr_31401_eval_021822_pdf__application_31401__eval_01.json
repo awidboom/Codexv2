@@ -1,0 +1,256 @@
+﻿{
+  "schema_version": "v1.2-barr-custom",
+  "source": {
+    "pdf": null,
+    "evaluation_page_range": {
+      "start_page": 0,
+      "end_page": 10
+    },
+    "text_extraction": {
+      "engine": "PyPDF2",
+      "table_like_blocks": [
+        "AP-42\nT3.2-3 1,2-\nDichloroethane   1.13E -05 0.0%   4 1.93E -05 9.67E -04 NO NO\nCATEF  1,3-Butadiene  1.04E -01 1.02E -04 0.0%  1.5 0.48 1.75E -04 8.73E -03 NO NO\nCATEF  Acetaldehyde  8.83E -01 8.66E -04 0.0%  1 29 1.48E -03 7.41E -02 NO NO\nCATEF  Acrolein  5.47E -01 5.36E -04 0.0%  0.0055 14 9.18E -04 4.59E -02 NO NO\nCATEF  Benzene  1.91E+00  1.87E -03 0.0%  0.06 2.9 3.20E -03 1.60E -01 NO NO",
+        "AP-42\nT3.2-3 Methylene\nChloride   4.12E -05 0.0%  31 82 7.05E -05 3.53E -03 NO NO\nCATEF  Naphthalene 7.65E -02 7.50E -05 0.0%   2.4 1.28E -04 6.42E -03 NO NO\nCATEF  PAH 2.12E -04 2.07E -07 0.0%   0.0033 3.55E -07 1.77E -05 NO NO\nCATEF  Propylene  1.60E+01  1.57E -02 0.0%   120000 2.68E -02 1.34E+00  NO NO",
+        "AP-42\nT3.2-3 Xylene   0.0%  49 27000 0.00E+00  0.00E+00  NO NO\nCATEF  Xylene (m,p)  4.54E -01  0.0%  49 27000 0.00E+00  0.00E+00  NO NO\nCATEF  Xylene (o)  2.22E -01  0.0%  49 27000 0.00E+00  0.00E+00  NO NO\nCATEF  Xylene (total)  2.22E -01 6.45E -04 0.0%  49 27000 1.10E -03 5.52E -02 NO NO"
+      ]
+    },
+    "application_number_detected": "31401",
+    "application_number_from_filename": "31401",
+    "source_url": "https://www.baaqmd.gov/~/media/files/engineering/public-notices/2022/31401/e5072_nsr_31401_eval_021822-pdf.pdf?rev=fb8025a2490b46809798fb2355cd7310&sc_lang=en",
+    "detail_page_url": "https://www.baaqmd.gov/en/permits/public-notices/page-resources/table-data/2022/021822-31401/invitae-corporation"
+  },
+  "application_number": "31401",
+  "plant": {
+    "name": "Plant 25072 : Invitae Corporation",
+    "plant_id": null,
+    "address": "San Francisco, CA 94107"
+  },
+  "evaluation_date": "January 1, \n2009",
+  "permit_date": null,
+  "project_title": "De Haro Standby Emergency Natural Gas Generator Engine",
+  "equipment": [
+    {
+      "id": "S-1",
+      "description": "Emergency Standby Natural Gas  Generator  (unabated)"
+    }
+  ],
+  "background": {
+    "text": "BACKGROUND\nInvitae Corporation (“Invitae ”) conducts research and development related to genetic \ndiagnostic testing for hereditary diseases in a laboratory environment and has \nrequested an Authority to Construct  for the following  equipment : \nS-1 Emergency Standby Natural Gas  Generator  (unabated)  \nKohler  KG6208THD ; Engine : MKHXB06.2HNG , Model Year: TBD \nEPA Certificate #: MKHXB06.2HNG -012 \n204 bhp, 152 kW, Engine displacement: 6.2 Liter (378 in3), 1.71 MMBtu/h our; \n4-Stroke Rich Burn engine  \nSubject to Permit Condition : 23112 \n \nS-1 will provide backup power to Invitae  in the event of a power outage. Under normal \nconditions, S-1 will be operated for preventative maintenance purposes only  and is not \nbeing installed in response to PGE’s PSPS program."
+  },
+  "emission_calculations": {
+    "text": "EMISSIONS\nThe unabated emission factors used to calculate Precursor Organic Compound (POC  ~ \nNMHC), Nitrogen Oxide (NOx), and Carbon Monoxide (CO) emissions are based on \nemission rates  shown by the shaded cells  in Table 1 . \nTable 1:  \nPollutant  NSPS JJJJ  Kohler  US EPA"
+  },
+  "cumulative_increase": {
+    "text": ""
+  },
+  "emissions": {
+    "common_fugitives": {
+      "narrative": "EMISSIONS\nThe unabated emission factors used to calculate Precursor Organic Compound (POC  ~ \nNMHC), Nitrogen Oxide (NOx), and Carbon Monoxide (CO) emissions are based on \nemission rates  shown by the shaded cells  in Table 1 . \nTable 1:  \nPollutant  NSPS JJJJ  Kohler  US EPA",
+      "predicted_component_counts_table": {
+        "columns": [
+          "Component Type",
+          "Service",
+          "Predicted Count"
+        ],
+        "rows": []
+      },
+      "permitted_fugitive_totals": {
+        "units": {
+          "lb_per_day": "lb/day",
+          "tpy": "tons/year"
+        },
+        "POC": {
+          "lb_per_day": null,
+          "tpy": null
+        }
+      }
+    },
+    "by_equipment": {
+      "S-1": {
+        "narrative": "No equipment-specific narrative found in EMISSIONS section.",
+        "tables": [],
+        "cumulative_increase_table": {
+          "note": "Parsed heuristically; edit as needed.",
+          "columns": [
+            "Pollutant",
+            "lb/hr",
+            "lb/day",
+            "lb/yr",
+            "tpy"
+          ],
+          "rows": [
+            [
+              "POC",
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "toxic_risk_screening_analysis": {
+    "status": "below_trigger",
+    "narrative": "Backup Power Generators ”, annual Hazardous Air Pollutants (HAP)/Toxic Air\nContaminants (TAC) emissions from S -1 summarized in Table 3 are based on 50 hours  \nper year for reliability -related testing.  \nThe emission factors used to estimate TAC emissions from S-1 is from either:  \n• The California Air Toxics Emission Factor (CATEF) database maintained by the \nCalifornia Air Resources Board (Internal Combustion Engine; Natural Gas; \n4S/Rich/<650Hp); or  \n• AP-42 Table 3.2- 3 \n  \n \n \n1 The AP -42 Table 3.2- 3 emission factor for SO 2 is based on a natural gas sulfur content of 2,000 grains per million standard cubic \nfoot. The sulfur content of natural gas available from public utility companies in California could contain up to 1 grain per hundred \nstandard cubic foot, equal to 10,000 grains per million standard cubic foot.  Therefore, the AP -42 Table 3.2- 3 emission factor was \nmultiplied by a factor of 5.  \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 4 of 11 The emission factors used to estimate TAC emissions from S -1 was selected in the  \norder of priority  listed below : \n1) Unabated CATEF factors, for pollutants identified in Footnote 8 of Table 2- 5-1 of \nAir District Regulation 2, Rule 5 to calculate Polycyclic Aro matic Hydrocarbon \n(PAH) emissions.  The unabated CATEF factor for each chemical species was \nmultiplied by their corresponding Potency Equivalency Factor (PEF) listed in \nFootnote 8 and then each product was summed.  The CATEF database provides \nmaximum, mean , and median emission factors.  Consistent with the methodology \nsuggested in the Air District’s Petroleum Refinery Emissions Inventory \nGuidelines, the mean PAH emission factors from the CATEF database were \nused to estimate TAC emissions in this evaluation report.  \n2) Unabated CATEF factors, where available.  The CATEF database provides \nmaximum, mean, and median emission factors.  Consistent with the methodology \nsuggested in the Air District’s Petroleum Refinery Emissions Inventory \nGuidelines, the mean emission factors for non- PAHs from the CATEF database \nwere used to estimate TAC emissions in this evaluation report.  \n3) AP-42 Table 3.2- 3 factors, for any remaining TACs not already listed in items 1 \nor 2 above.  \nThere are several xylene emission factors available from  these data sources: AP -42 \nTable 3.2- 3 for “Xylene”, unabated CATEF for “Xylene (m,p)”, unabated CATEF for \n“Xylene (o)”, and unabated CATEF for “Xylene (Total)”.  The highest emission factor of \nthese options was the sum of unabated CATEF Xylene (m,p) and X ylene (o).  This \nfactor was used to estimate total Xylene emissions.  \n  \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 5 of 11  \nTable 3:   \nHourly and Annual Project TAC Emissions ( S-1) \nEmission \nFactor \nBasis TAC Emission Factor  \nAbatement \nEfficiency  Table \n2-5-1 \nAcute \nTrigger  \n(pounds \nper \nhour)  Table \n2-5-1 \nChronic \nTrigger  \n(pounds \nper \nyear)  Hourly \nEmissions \n(pounds \nper hour)  Annual \nEmissions \n(pounds \nper year) Exceeds \nAcute?  Exceeds \nChronic?  pounds \nper \nmillion \ncubic \nfeet pounds \nper \nMMBtu  \nAP-42 \nT3.2-3 1,1,2,2 -\nTetrachloroethane   2.53E -05 0.0%   1.4 4.33E -05 2.17E -03 NO NO \nAP-42 \nT3.2-3 1,1,2 -\nTrichloroethane   1.53E -05 0.0%   5 2.62E -05 1.31E -03 NO NO \nAP-42 \nT3.2-3 1,1-\nDichloroethane   1.13E -05 0.0%   50 1.93E -05 9.67E -04 NO NO \nAP-42 \nT3.2-3 1,2-\nDichloroethane   1.13E -05 0.0%   4 1.93E -05 9.67E -04 NO NO \nCATEF  1,3-Butadiene  1.04E -01 1.02E -04 0.0%  1.5 0.48 1.75E -04 8.73E -03 NO NO \nCATEF  Acetaldehyde  8.83E -01 8.66E -04 0.0%  1 29 1.48E -03 7.41E -02 NO NO \nCATEF  Acrolein  5.47E -01 5.36E -04 0.0%  0.0055 14 9.18E -04 4.59E -02 NO NO \nCATEF  Benzene  1.91E+00  1.87E -03 0.0%  0.06 2.9 3.20E -03 1.60E -01 NO NO \nAP-42 \nT3.2-3 Carbon \nTetrachloride   1.77E -05 0.0%  4.2 1.9 3.03E -05 1.51E -03 NO NO \nAP-42 \nT3.2-3 Chlorobenzene  1.29E -05 0.0%   39000 2.21E -05 1.10E -03 NO NO \nAP-42 \nT3.2-3 Chloroform   1.37E -05 0.0%  0.33 15 2.34E -05 1.17E -03 NO NO \nCATEF  Ethylbenzene  1.16E -02 1.14E -05 0.0%   33 1.95E -05 9.73E -04 NO NO \nAP-42 \nT3.2-3 Ethylene \nDibromide   2.13E -05 0.0%   1.1 3.65E -05 1.82E -03 NO NO \nCATEF  Formaldehyde  2.35E+00  2.30E -03 0.0%  0.12 14 3.94E -03 1.97E -01 NO NO \nAP-42 \nT3.2-3 Methanol   3.06E -03 0.0%  62 150000 5.24E -03 2.62E -01 NO NO \nAP-42 \nT3.2-3 Methylene \nChloride   4.12E -05 0.0%  31 82 7.05E -05 3.53E -03 NO NO \nCATEF  Naphthalene 7.65E -02 7.50E -05 0.0%   2.4 1.28E -04 6.42E -03 NO NO \nCATEF  PAH 2.12E -04 2.07E -07 0.0%   0.0033 3.55E -07 1.77E -05 NO NO \nCATEF  Propylene  1.60E+01  1.57E -02 0.0%   120000 2.68E -02 1.34E+00  NO NO \nAP-42 \nT3.2-3 Styrene  1.19E -05 0.0%  46 35000 2.04E -05 1.02E -03 NO NO \nCATEF  Toluene 1.07E+00  1.05E -03 0.0%  82 12000 1.80E -03 8.98E -02 NO NO \nAP-42 \nT3.2-3 Vinyl Chloride   7.18E -06 0.0%  400 1.1 1.23E -05 6.14E -04 NO NO \nAP-42 \nT3.2-3 Xylene   0.0%  49 27000 0.00E+00  0.00E+00  NO NO \nCATEF  Xylene (m,p)  4.54E -01  0.0%  49 27000 0.00E+00  0.00E+00  NO NO \nCATEF  Xylene (o)  2.22E -01  0.0%  49 27000 0.00E+00  0.00E+00  NO NO \nCATEF  Xylene (total)  2.22E -01 6.45E -04 0.0%  49 27000 1.10E -03 5.52E -02 NO NO \n \nIt can be seen from Table 3  that an HRA is not required for this application.  \n \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 6 of 11 CUMULATIVE INCREASE  \nIn accordance with the Air District’s policy “Calculating Potential to Emit for Emergency \nBackup Power Generators”, Table 4 summarizes the cumulative increase in criteria \npollutant emissions that will result from this application assuming S-1 will operat e for 5 0 \nhours/year for reliability related testing.  \nTable 4:  \nCumulative Emissions Increase, Post 4/5/91  (tons per year)  \nPollutant  NO X POC  CO PM 10 PM 2.5 SO 2 \nExisting Emissions Post 4/5/91 0.000 0. 000 0.000 0.000 0.000 0.000 \nTotal Application Emissions  8.38E -05 1.42E -03 3.42E -03 4.06E -04 4.06E -04 1.26E -04 \nPost-Application Emissions  8.38E -05 1.42E -03 3.42E -03 4.06E -04 4.06E -04 1.26E -04"
+  },
+  "BACT": {
+    "text": "BEST AVAILABLE CONTROL TECHNOLOGY (BACT)\nT)  \nPer Regulation 2- 2-301, an Authority to Construct and/or Permit to Operate for a new \nsource shall require BACT to control emissions of a District BACT pollutant as defined \nin Regulation 2- 2-210 if the source will have the potential to emit that pollutant in an \namount of 10.0 or more pounds on any day, as defined in Regulation 2- 2-301.1. Per \nemissions information summarized in Table 2 above, BACT  is not triggered for any \npollutant ."
+  },
+  "offsets": {
+    "narrative": "OFFSETS\nIn accordance with the Air District’s policy “Calculating Potential to Emit for Emergency \nBackup Power Generators”,  the Potential to Emit  (PTE)  for S-1 was estimated assuming \n150 hours of operation  per year (50 hours for reliability -related activities +  100 hours for \nemergency operation).  The facility -wide PTE resulting from this application is \nsummarized in Table 5 . \nTable 5:  \nFacility- Wide PTE Resulting from this Application  \nPollutant  Pre-Application \nFacility- Wide PTE \n(tons/year)  S-1 Emissions \n(tons/year)  Post -Application \nFacility- Wide PTE \n(tons/year)  Offset Triggers \n(tons/year)  ExceedsOffset\nTrigger?  \nNOx 0.000 2.51E -04 2.51E -04 > 10 No \nPOC  0. 000  4.27E -03 4.27E -03 > 10 No \nCO 0.000 1.03E -02 1.03E -02 N/A N/A \nPM 10 0.000 1.22E -03 1.22E -03 > 100 No \nPM 2.5 0.000 1.22E -03 1.22E -03 > 100 No \nSO 2 0.000 3.77E -04 3.77E -04 > 100 No \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 7 of 11 It can be seen from Table 5  that the facility’s PTE after S -1 is permitted is below the \nRegulation 2- 2 offset trigger levels.  Therefore, offsets are not required.",
+    "table": {
+      "columns": [
+        "Pollutant",
+        "Project Increase (tpy)",
+        "Offset Ratio",
+        "Required Offsets (tpy)"
+      ],
+      "rows": [
+        [
+          "POC",
+          0.0,
+          "N/A",
+          null
+        ],
+        [
+          "NOx",
+          0.0,
+          "N/A",
+          null
+        ],
+        [
+          "CO",
+          0.0,
+          "N/A",
+          null
+        ]
+      ]
+    }
+  },
+  "PSD_applicability": {
+    "narrative": "Prevention of Significant Deterioration (PSD)\nD)  \nThe requirements in District Regulation 2, Rule 2, Section 304 through 306 apply to \nPSD proj ects.  A PSD project is defined in Section 2- 2-224 and includes new or \nmodified sources located at a facility that has potential emissions of 100 tons per year \nor more of any regulated NSR Pollutant (including fugitive emissions), if one of the 28 \nPSD sour ce categories listed in section 169(l) of the federal Clean Air Act, or if not in a \nlisted source category, 250 tons/year for each regulated air pollutant (excluding fugitive \nemissions for determining if a project is major).  Since Invitae is not one of the 28 listed \nsource categories and will not emit 250 tons per year or more of a regulated air \npollutant, this project is not a PSD project and is not subject to the PSD requirements in \nSections 2- 2-304 through 306.  \nSection 2- 2-307 applies to projects locat ed in Class I areas; this project is not located in \na Class I area, so this section does not apply.  Section 2- 2-308 applies to projects with a \nsignificant net emission increase in a pollutant subject to a National Ambient Air Quality \nStandard, as defined in Sections 2- 2-224.3 and 2- 2-227.2.  The emissions from S-1 are \nless than the significance thresholds in Section 2- 2-227.2 . Hence, Section 2- 2-308 does \nnot apply."
+  },
+  "CEQA": {
+    "narrative": ""
+  },
+  "Statement_of_Compliance": {
+    "General": {
+      "findings": [
+        "STATEMENT OF COMPLIANCE\nThe owner/operator is expected to comply with all applicable requirements. Key \nrequirements are listed below:  \nDistrict Rules  \nRegulation 6 -1 (Particulate Matter – General Requirements)  \nOpacity and visible emissions from S -1 is subject to Ringelmann 2 per Regula tions \n6-1-303.1 (displacement < 25 liters) and 6 -1-303.2 (engine used solely as a \nstandby source of motive power).  \nRegulation 6- 1-305 prohibits emission of particles from any operation in sufficient \nnumber to cause annoyance to any other person where the p articles are large \nenough to be visible as individual particles at the emission point, or of such size \nand nature as to be visible individually as incandescent particles.  Since S-1 is \nnatural gas fired engines, they are not expected to produce visible emi ssions or \nfallout in violation of this regulation and will be assumed to comply with Regulation \n6-1-305. \nS-1’s compliance with Regulation 6, Rule 1 will be confirmed by the District’s \nCompliance & Enforcement staff during their routine inspections.  \nRegulation 9 -1-301 ( Limitations on Ground Level Concentrations ) \nS-1 is subject to and is  expected to comply with the applicable SO 2 limitations in \nRegulation 9, Rule 1 (“Inorganic Gaseous Pollutants –  Sulfur Dioxide”).  Because \nSO 2 emissions f rom S-1 are negligible, it is unlikely the APCO will require Invitae to \nconduct ground level monitoring.  \nRegulation 9 -8 (Nitrogen Oxides and Carbon Monoxide from Stationary \nInternal Combustion Engines ) \nS-1 will be operated as emergency standby engine and is  therefore not subject to \nthe emission rate limits in Regulation 9, Rule 8 (\"Inorganic Gaseous Pollutants –  \nNOx and CO from Stationary Internal Combustion Engines\")  per Regulation 9- 8-\n110.5, which exempt s it from the requirements of Sections 9- 8-301 through 305, \n501, and 503.   \nS-1 is subject to and is  expected to comply with 9- 8-330.3 (Emergency Standby \nEngines, Hours of Operation) since its  reliability -related hours of operation will be \nlimited by the proposed permit conditions to 50 hours per year /engi ne.  S-1 is also \nsubject to and is expected to comply with monitoring and record keeping \nrequirements of Regulations 9- 8-502.1 and 9 -8-530, which are incorporated into \nthe proposed permit conditions.  \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 8 of 11 California Environmental Quality Act (CEQA)  \nThis project  is ministerial under the District Regulation 2 -1-311 (Permit Handbook \nChapter 2.3. 2) and is therefore not subject to CEQA review. The engineering review for \nthis project requires only the application of standard permit conditions and standard \nemission factors in accordance with Permit Handbook Chapter 2.3.2  \nNew Source Performance Standards (NSPS)  \nS-1 is subject to 40 CFR 60, Subpart JJJJ as they are each  spark ignition engines with \na maximum engine power greater than 25 HP and were  manufactured after January 1, \n2009 (60.4230(a)(4)(i v)).  Applicable emissions standards for S -1 are found in Table 1 \nof Subpart JJJJ and are required per 60.4233(e).  NSPS JJJJ emission standards are \nsummarized in Table 6 . \n \nTable 6:   \nNSPS Subpart JJJJ Emission Standards  \nPollutant  S-1  \nEmission Factor  provided by Kohler  \n(grams/ bhp-hour)  NSPS JJJJ  \n(grams/ bhp-hour)  \nNOx 0.007  2.028  \nPOC  0.127  1.014 \nCO 0.261 4.056  \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 9 of 11 It can be seen from Table 6  that S-1 comp lies with NSPS JJJJ emission requirements.  \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP)  \nS-1 is subject to the emission or operating limitations in 40 CFR 63, Subpart ZZZZ \n(MACT ZZZZ), “National Emission Standards for Hazardous Air Pollutants for Stationary \nReciprocating Internal Combustion Engines (RICE)”. S -1 is a new engine at an area \nsource and will comply with MACT ZZZZ by meeting the requirements in 40 CFR Part \n60 Subpart JJJJ per §63.6590(c)(1).compliance with this part is unlimited. Operating for\nating for  \n         reliability related activities are limited to 50 hours  \n         per year.   \n         (Basis: Emergency Standby Engines, Hours of Operation  \n         Regulation 9- 8-330)                           \n \n     2.  The Owner/Operator shall equip the emergency standby  \n         engine(s) with: a non -resettable totalizing meter that  \n         measures hours of operation or fuel usage.  \n         (Basis: Emergency Standby Engines, Monitoring and Record  \n         keeping 9- 8-530)                                        \n \n     3.  Records: The Owner/Operator shall maintain the following  \n         monthly records in a District approved log for at least  \n         36 months from the date of entry, (60 months if the  \n         facility has been issued a Title V Major Facility Review  \n         Permit or a Synthetic Minor Operating Permit). Log  \n         entries shall be retained on site, either at a central  \n         location or at the engine's location, and made  \n         immediately available to the District staff upon  \n         requ est. \n         a.  Hours of operation (maintenance and testing).  \n         b.  Hours of operation for emission testing.  \n         c.  Hours of operation (emergency).  \n         d.  For each emergency, the nature of the emergency  \n             condition. \n         e.  Fuel usage for engine.  \n        (Basis: Emergency Standby Engines, Monitoring and  \n        Recordkeeping 9- 8-530) \nEnd of Conditions  \n  \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 11 of 11 RECOMMENDATION \nThe District  has reviewed the material  contained in the permit  application  for the \nproposed project  and has made  a preliminary  determination that the project  is \nexpected to comply with all applicable requirements  of District, state,  and federal  \nair quality -related regulations.  The preliminary  recommendation  is to issue  an \nAuthority  to Construct  for the equipment listed  below.  However,  the proposed \nsource  will be located  within  1000 feet of a school,  which  triggers  the public"
+      ]
+    }
+  },
+  "public_notification": {
+    "text": "School Notification (Regulation 2 -1-412)\nPer information provided by Invitae in Form P -101B, S-1 is located within 1,000 feet of \nthe outer boundary of the three (3)  K-12 school sites provided below .   \n1. Downtown High School (693 Vermont St, San Francisco, CA 94107)  \n2. San Francisco International High School (655 De Haro St, San Francisco, CA \n94107)  \n3. Live Oak School (1555 Mariposa St, San Francisco, CA 94107)  \nTherefore, this application is  subject to the public notification requirements of Regulation \n2-1-412.   \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 10 of 11 PERMIT CONDITIONS  \nPermit Condition # 23112 for S-1 \n     1.  The owner or operator shall operate the stationary  \n         emergency standby engine, only to mitigate emergencynotification requirements  of District  Regulation 2-1-412. After  the comments  are\nreceived and reviewed,  the District  will make  a final determination  on the permit.  \nI recommend that the District  initiate  a public  notice and consider  any comments  \nreceived prior to taking any final action on issuance  of an Authority  to Construct  \nfor the following  source:  \nS-1 Emergency Standby Natural Gas Generator  (unabated)  \nKohler  KG6208THD ; Engine: MKHXB06.2HNG , Model Year: TBD \nEPA Certificate #: MKHXB06.2HNG -012 \n204 bhp, 152 kW, Engine displacement: 6.2  Liter ( 378 in3), 1.71 MMBtu/hour; \n4-Stroke Rich Burn engine  \nSubject to Permit Condition: 23112 \n \n____________  \nG. D. Eric"
+  },
+  "conditions": {
+    "text": "conditions or for reliability- related activities\nctivities  \n         (maintenance and testing). Operating while mitigating  \n         emergency conditions and while emission testing to show"
+  },
+  "permit_conditions": {
+    "condition_number": null,
+    "items": [
+      {
+        "num": null,
+        "text": "conditions or for reliability- related activities\nctivities  \n         (maintenance and testing). Operating while mitigating  \n         emergency conditions and while emission testing to show",
+        "basis": []
+      }
+    ]
+  },
+  "TitleV_permit": {
+    "narrative": "",
+    "revisions": [],
+    "affected_sources": []
+  },
+  "recommendation": {
+    "text": ""
+  },
+  "raw_sections": {
+    "preamble": "Plant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 1 of 11 ENGINEERING EVALUATIO N \nPlant  25072 : Invitae Corporation \n444 De Haro Street, Suite 110, San Francisco, CA 94107  \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine",
+    "blocks": [
+      {
+        "heading": "BACKGROUND",
+        "alias": "BACKGROUND",
+        "text": "BACKGROUND\nInvitae Corporation (“Invitae ”) conducts research and development related to genetic \ndiagnostic testing for hereditary diseases in a laboratory environment and has \nrequested an Authority to Construct  for the following  equipment : \nS-1 Emergency Standby Natural Gas  Generator  (unabated)  \nKohler  KG6208THD ; Engine : MKHXB06.2HNG , Model Year: TBD \nEPA Certificate #: MKHXB06.2HNG -012 \n204 bhp, 152 kW, Engine displacement: 6.2 Liter (378 in3), 1.71 MMBtu/h our; \n4-Stroke Rich Burn engine  \nSubject to Permit Condition : 23112 \n \nS-1 will provide backup power to Invitae  in the event of a power outage. Under normal \nconditions, S-1 will be operated for preventative maintenance purposes only  and is not \nbeing installed in response to PGE’s PSPS program."
+      },
+      {
+        "heading": "EMISSIONS",
+        "alias": "EMISSIONS",
+        "text": "EMISSIONS\nThe unabated emission factors used to calculate Precursor Organic Compound (POC  ~ \nNMHC), Nitrogen Oxide (NOx), and Carbon Monoxide (CO) emissions are based on \nemission rates  shown by the shaded cells  in Table 1 . \nTable 1:  \nPollutant  NSPS JJJJ  Kohler  US EPA"
+      },
+      {
+        "heading": "NRSI",
+        "alias": null,
+        "text": "NRSI\ng/hp- hour g/bhp- hour g/kW- hour g/bhp- hour g/hp- hour  g/bhp-hour  \nNOx 2.00 2.028 0.01 0.007 0.0 0.0 \nPOC  1.00 1.014 0.17 0.127 0.1 0.101 \nCO 4.00 4.056 0.35 0.261 0.3 0.304 \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 2 of 11 Emission factors for NOx and POC provided by Kohler  in Table 1 are higher than  US EPA \nemission factors pr ovided in the Annual Certification Data for Large Nonroad Spark -\nIgnition (NRSI) Engines  (Model Years: 2011 –  Present)  for engine family MKHXB06.2HNG .  \nHence, NOx and POC  emissions summarized in Table 2 were conservatively estimated using \nthe Kohler emission factors , and CO emissions were estimated using the NRSI emission factor . \nFilterable p articulate matter (PM) with an aerodynamic diameter equal to 10 microns or \nless (PM 10), Filterable PM with an aerodynamic diameter equal to 2.5 microns or less \n(PM 2.5), and Sulfur Dioxide (SO 2) emissions were calculated based on the \nEnvironmental Protection Agency’s (EPA) document “AP -42: Compilation of Air \nEmissions Factors” Table 3.2- 3: Uncontrolled Emission Factors for 4 -Stroke Rich -Burn \nEngines.   \nPer a footnote in the above AP -42 table, no data was available for condensable PM 10 \nand PM 2.5 emissions. Hence, emissions for the above PM species are limited to \nfilterable PM (and not PM 10). However, for the purposes of cumulative increase \ndiscussed later in this report , filterable PM 10 and PM 2.5 emissions evaluated in the \ndiscussion that follows will be logged in as PM 10 and PM 2.5 in the District’s database.  \nS-1 will operate during emergencies and for a maximum of 5 0 hours per year  each  for \nreliability -related testing.  \nBasis:  \n• Maximum Fuel Consumption Rate: 1,678.00 standard cubic feet per hour  \n• Heating Value for Natural Gas: 1,020 Btu per standard cubic foot  \n• Heat Input: 1.71 MMBtu per hour   \n• Power Output : 204 bhp \n• Annual Operating Hours:  50 hours per year for reliability -related activities  \n• Daily Operating Hours: 24 hours  per day since  emergency operation is \nunrestricted  \n \nTable 2 summarize s emissions from S-1: \n \nTable 2:  \nCriteria pollutant emissions from S -1 \nPollutant  Emission \nFactor  Units  Emissions  \npounds per hour  pounds per day  pounds per year  \nNOx 0.007 g/bhp- hour 3.35E -03 0.08 0.17 \nPOC  0.127 g/bhp- hour 5.70E -02 1.37 2.85 \nCO 0.304 g/bhp- hour 1.37E -01 3.28 6.84 \nPM 10 (filterable) 9.50E -03 lb/MMBTU  1.63E -02 0.39 0.81 \nPM 2.5 (filterable)  9.50E -03 lb/MMBTU  1.63E -02 0.39 0.81 \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 3 of 11 Table 2:  \nCriteria pollutant emissions from S -1 \nPollutant  Emission \nFactor  Units  Emissions  \npounds per hour  pounds per day  pounds per year  \nSO 21 2.94E -03 lb/MMBTU  5.03E -03 0.12 0.25"
+      },
+      {
+        "heading": "HEALTH RISK ASSESMENT  (HRA)",
+        "alias": null,
+        "text": "HEALTH RISK ASSESMENT  (HRA)\nA)  \nIn accordance with the Air District’s policy “Calculating Potential to Emit f or Emergency"
+      },
+      {
+        "heading": "Backup Power Generators ”, annual Hazardous Air Pollutants (HAP)/Toxic Air",
+        "alias": "TOXICS",
+        "text": "Backup Power Generators ”, annual Hazardous Air Pollutants (HAP)/Toxic Air\nContaminants (TAC) emissions from S -1 summarized in Table 3 are based on 50 hours  \nper year for reliability -related testing.  \nThe emission factors used to estimate TAC emissions from S-1 is from either:  \n• The California Air Toxics Emission Factor (CATEF) database maintained by the \nCalifornia Air Resources Board (Internal Combustion Engine; Natural Gas; \n4S/Rich/<650Hp); or  \n• AP-42 Table 3.2- 3 \n  \n \n \n1 The AP -42 Table 3.2- 3 emission factor for SO 2 is based on a natural gas sulfur content of 2,000 grains per million standard cubic \nfoot. The sulfur content of natural gas available from public utility companies in California could contain up to 1 grain per hundred \nstandard cubic foot, equal to 10,000 grains per million standard cubic foot.  Therefore, the AP -42 Table 3.2- 3 emission factor was \nmultiplied by a factor of 5.  \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 4 of 11 The emission factors used to estimate TAC emissions from S -1 was selected in the  \norder of priority  listed below : \n1) Unabated CATEF factors, for pollutants identified in Footnote 8 of Table 2- 5-1 of \nAir District Regulation 2, Rule 5 to calculate Polycyclic Aro matic Hydrocarbon \n(PAH) emissions.  The unabated CATEF factor for each chemical species was \nmultiplied by their corresponding Potency Equivalency Factor (PEF) listed in \nFootnote 8 and then each product was summed.  The CATEF database provides \nmaximum, mean , and median emission factors.  Consistent with the methodology \nsuggested in the Air District’s Petroleum Refinery Emissions Inventory \nGuidelines, the mean PAH emission factors from the CATEF database were \nused to estimate TAC emissions in this evaluation report.  \n2) Unabated CATEF factors, where available.  The CATEF database provides \nmaximum, mean, and median emission factors.  Consistent with the methodology \nsuggested in the Air District’s Petroleum Refinery Emissions Inventory \nGuidelines, the mean emission factors for non- PAHs from the CATEF database \nwere used to estimate TAC emissions in this evaluation report.  \n3) AP-42 Table 3.2- 3 factors, for any remaining TACs not already listed in items 1 \nor 2 above.  \nThere are several xylene emission factors available from  these data sources: AP -42 \nTable 3.2- 3 for “Xylene”, unabated CATEF for “Xylene (m,p)”, unabated CATEF for \n“Xylene (o)”, and unabated CATEF for “Xylene (Total)”.  The highest emission factor of \nthese options was the sum of unabated CATEF Xylene (m,p) and X ylene (o).  This \nfactor was used to estimate total Xylene emissions.  \n  \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 5 of 11  \nTable 3:   \nHourly and Annual Project TAC Emissions ( S-1) \nEmission \nFactor \nBasis TAC Emission Factor  \nAbatement \nEfficiency  Table \n2-5-1 \nAcute \nTrigger  \n(pounds \nper \nhour)  Table \n2-5-1 \nChronic \nTrigger  \n(pounds \nper \nyear)  Hourly \nEmissions \n(pounds \nper hour)  Annual \nEmissions \n(pounds \nper year) Exceeds \nAcute?  Exceeds \nChronic?  pounds \nper \nmillion \ncubic \nfeet pounds \nper \nMMBtu  \nAP-42 \nT3.2-3 1,1,2,2 -\nTetrachloroethane   2.53E -05 0.0%   1.4 4.33E -05 2.17E -03 NO NO \nAP-42 \nT3.2-3 1,1,2 -\nTrichloroethane   1.53E -05 0.0%   5 2.62E -05 1.31E -03 NO NO \nAP-42 \nT3.2-3 1,1-\nDichloroethane   1.13E -05 0.0%   50 1.93E -05 9.67E -04 NO NO \nAP-42 \nT3.2-3 1,2-\nDichloroethane   1.13E -05 0.0%   4 1.93E -05 9.67E -04 NO NO \nCATEF  1,3-Butadiene  1.04E -01 1.02E -04 0.0%  1.5 0.48 1.75E -04 8.73E -03 NO NO \nCATEF  Acetaldehyde  8.83E -01 8.66E -04 0.0%  1 29 1.48E -03 7.41E -02 NO NO \nCATEF  Acrolein  5.47E -01 5.36E -04 0.0%  0.0055 14 9.18E -04 4.59E -02 NO NO \nCATEF  Benzene  1.91E+00  1.87E -03 0.0%  0.06 2.9 3.20E -03 1.60E -01 NO NO \nAP-42 \nT3.2-3 Carbon \nTetrachloride   1.77E -05 0.0%  4.2 1.9 3.03E -05 1.51E -03 NO NO \nAP-42 \nT3.2-3 Chlorobenzene  1.29E -05 0.0%   39000 2.21E -05 1.10E -03 NO NO \nAP-42 \nT3.2-3 Chloroform   1.37E -05 0.0%  0.33 15 2.34E -05 1.17E -03 NO NO \nCATEF  Ethylbenzene  1.16E -02 1.14E -05 0.0%   33 1.95E -05 9.73E -04 NO NO \nAP-42 \nT3.2-3 Ethylene \nDibromide   2.13E -05 0.0%   1.1 3.65E -05 1.82E -03 NO NO \nCATEF  Formaldehyde  2.35E+00  2.30E -03 0.0%  0.12 14 3.94E -03 1.97E -01 NO NO \nAP-42 \nT3.2-3 Methanol   3.06E -03 0.0%  62 150000 5.24E -03 2.62E -01 NO NO \nAP-42 \nT3.2-3 Methylene \nChloride   4.12E -05 0.0%  31 82 7.05E -05 3.53E -03 NO NO \nCATEF  Naphthalene 7.65E -02 7.50E -05 0.0%   2.4 1.28E -04 6.42E -03 NO NO \nCATEF  PAH 2.12E -04 2.07E -07 0.0%   0.0033 3.55E -07 1.77E -05 NO NO \nCATEF  Propylene  1.60E+01  1.57E -02 0.0%   120000 2.68E -02 1.34E+00  NO NO \nAP-42 \nT3.2-3 Styrene  1.19E -05 0.0%  46 35000 2.04E -05 1.02E -03 NO NO \nCATEF  Toluene 1.07E+00  1.05E -03 0.0%  82 12000 1.80E -03 8.98E -02 NO NO \nAP-42 \nT3.2-3 Vinyl Chloride   7.18E -06 0.0%  400 1.1 1.23E -05 6.14E -04 NO NO \nAP-42 \nT3.2-3 Xylene   0.0%  49 27000 0.00E+00  0.00E+00  NO NO \nCATEF  Xylene (m,p)  4.54E -01  0.0%  49 27000 0.00E+00  0.00E+00  NO NO \nCATEF  Xylene (o)  2.22E -01  0.0%  49 27000 0.00E+00  0.00E+00  NO NO \nCATEF  Xylene (total)  2.22E -01 6.45E -04 0.0%  49 27000 1.10E -03 5.52E -02 NO NO \n \nIt can be seen from Table 3  that an HRA is not required for this application.  \n \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 6 of 11 CUMULATIVE INCREASE  \nIn accordance with the Air District’s policy “Calculating Potential to Emit for Emergency \nBackup Power Generators”, Table 4 summarizes the cumulative increase in criteria \npollutant emissions that will result from this application assuming S-1 will operat e for 5 0 \nhours/year for reliability related testing.  \nTable 4:  \nCumulative Emissions Increase, Post 4/5/91  (tons per year)  \nPollutant  NO X POC  CO PM 10 PM 2.5 SO 2 \nExisting Emissions Post 4/5/91 0.000 0. 000 0.000 0.000 0.000 0.000 \nTotal Application Emissions  8.38E -05 1.42E -03 3.42E -03 4.06E -04 4.06E -04 1.26E -04 \nPost-Application Emissions  8.38E -05 1.42E -03 3.42E -03 4.06E -04 4.06E -04 1.26E -04"
+      },
+      {
+        "heading": "BEST AVAILABLE CONTROL TECHNOLOGY (BACT)",
+        "alias": "BACT",
+        "text": "BEST AVAILABLE CONTROL TECHNOLOGY (BACT)\nT)  \nPer Regulation 2- 2-301, an Authority to Construct and/or Permit to Operate for a new \nsource shall require BACT to control emissions of a District BACT pollutant as defined \nin Regulation 2- 2-210 if the source will have the potential to emit that pollutant in an \namount of 10.0 or more pounds on any day, as defined in Regulation 2- 2-301.1. Per \nemissions information summarized in Table 2 above, BACT  is not triggered for any \npollutant ."
+      },
+      {
+        "heading": "OFFSETS",
+        "alias": "OFFSETS",
+        "text": "OFFSETS\nIn accordance with the Air District’s policy “Calculating Potential to Emit for Emergency \nBackup Power Generators”,  the Potential to Emit  (PTE)  for S-1 was estimated assuming \n150 hours of operation  per year (50 hours for reliability -related activities +  100 hours for \nemergency operation).  The facility -wide PTE resulting from this application is \nsummarized in Table 5 . \nTable 5:  \nFacility- Wide PTE Resulting from this Application  \nPollutant  Pre-Application \nFacility- Wide PTE \n(tons/year)  S-1 Emissions \n(tons/year)  Post -Application \nFacility- Wide PTE \n(tons/year)  Offset Triggers \n(tons/year)  Exceeds"
+      },
+      {
+        "heading": "Offset",
+        "alias": "OFFSETS",
+        "text": "Offset\nTrigger?  \nNOx 0.000 2.51E -04 2.51E -04 > 10 No \nPOC  0. 000  4.27E -03 4.27E -03 > 10 No \nCO 0.000 1.03E -02 1.03E -02 N/A N/A \nPM 10 0.000 1.22E -03 1.22E -03 > 100 No \nPM 2.5 0.000 1.22E -03 1.22E -03 > 100 No \nSO 2 0.000 3.77E -04 3.77E -04 > 100 No \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 7 of 11 It can be seen from Table 5  that the facility’s PTE after S -1 is permitted is below the \nRegulation 2- 2 offset trigger levels.  Therefore, offsets are not required."
+      },
+      {
+        "heading": "STATEMENT OF COMPLIANCE",
+        "alias": "SOC",
+        "text": "STATEMENT OF COMPLIANCE\nThe owner/operator is expected to comply with all applicable requirements. Key \nrequirements are listed below:  \nDistrict Rules  \nRegulation 6 -1 (Particulate Matter – General Requirements)  \nOpacity and visible emissions from S -1 is subject to Ringelmann 2 per Regula tions \n6-1-303.1 (displacement < 25 liters) and 6 -1-303.2 (engine used solely as a \nstandby source of motive power).  \nRegulation 6- 1-305 prohibits emission of particles from any operation in sufficient \nnumber to cause annoyance to any other person where the p articles are large \nenough to be visible as individual particles at the emission point, or of such size \nand nature as to be visible individually as incandescent particles.  Since S-1 is \nnatural gas fired engines, they are not expected to produce visible emi ssions or \nfallout in violation of this regulation and will be assumed to comply with Regulation \n6-1-305. \nS-1’s compliance with Regulation 6, Rule 1 will be confirmed by the District’s \nCompliance & Enforcement staff during their routine inspections.  \nRegulation 9 -1-301 ( Limitations on Ground Level Concentrations ) \nS-1 is subject to and is  expected to comply with the applicable SO 2 limitations in \nRegulation 9, Rule 1 (“Inorganic Gaseous Pollutants –  Sulfur Dioxide”).  Because \nSO 2 emissions f rom S-1 are negligible, it is unlikely the APCO will require Invitae to \nconduct ground level monitoring.  \nRegulation 9 -8 (Nitrogen Oxides and Carbon Monoxide from Stationary \nInternal Combustion Engines ) \nS-1 will be operated as emergency standby engine and is  therefore not subject to \nthe emission rate limits in Regulation 9, Rule 8 (\"Inorganic Gaseous Pollutants –  \nNOx and CO from Stationary Internal Combustion Engines\")  per Regulation 9- 8-\n110.5, which exempt s it from the requirements of Sections 9- 8-301 through 305, \n501, and 503.   \nS-1 is subject to and is  expected to comply with 9- 8-330.3 (Emergency Standby \nEngines, Hours of Operation) since its  reliability -related hours of operation will be \nlimited by the proposed permit conditions to 50 hours per year /engi ne.  S-1 is also \nsubject to and is expected to comply with monitoring and record keeping \nrequirements of Regulations 9- 8-502.1 and 9 -8-530, which are incorporated into \nthe proposed permit conditions.  \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 8 of 11 California Environmental Quality Act (CEQA)  \nThis project  is ministerial under the District Regulation 2 -1-311 (Permit Handbook \nChapter 2.3. 2) and is therefore not subject to CEQA review. The engineering review for \nthis project requires only the application of standard permit conditions and standard \nemission factors in accordance with Permit Handbook Chapter 2.3.2  \nNew Source Performance Standards (NSPS)  \nS-1 is subject to 40 CFR 60, Subpart JJJJ as they are each  spark ignition engines with \na maximum engine power greater than 25 HP and were  manufactured after January 1, \n2009 (60.4230(a)(4)(i v)).  Applicable emissions standards for S -1 are found in Table 1 \nof Subpart JJJJ and are required per 60.4233(e).  NSPS JJJJ emission standards are \nsummarized in Table 6 . \n \nTable 6:   \nNSPS Subpart JJJJ Emission Standards  \nPollutant  S-1  \nEmission Factor  provided by Kohler  \n(grams/ bhp-hour)  NSPS JJJJ  \n(grams/ bhp-hour)  \nNOx 0.007  2.028  \nPOC  0.127  1.014 \nCO 0.261 4.056  \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 9 of 11 It can be seen from Table 6  that S-1 comp lies with NSPS JJJJ emission requirements.  \n \nNational Emissions Standards for Hazardous Air Pollutants (NESHAP)  \nS-1 is subject to the emission or operating limitations in 40 CFR 63, Subpart ZZZZ \n(MACT ZZZZ), “National Emission Standards for Hazardous Air Pollutants for Stationary \nReciprocating Internal Combustion Engines (RICE)”. S -1 is a new engine at an area \nsource and will comply with MACT ZZZZ by meeting the requirements in 40 CFR Part \n60 Subpart JJJJ per §63.6590(c)(1)."
+      },
+      {
+        "heading": "Prevention of Significant Deterioration (PSD)",
+        "alias": "PSD",
+        "text": "Prevention of Significant Deterioration (PSD)\nD)  \nThe requirements in District Regulation 2, Rule 2, Section 304 through 306 apply to \nPSD proj ects.  A PSD project is defined in Section 2- 2-224 and includes new or \nmodified sources located at a facility that has potential emissions of 100 tons per year \nor more of any regulated NSR Pollutant (including fugitive emissions), if one of the 28 \nPSD sour ce categories listed in section 169(l) of the federal Clean Air Act, or if not in a \nlisted source category, 250 tons/year for each regulated air pollutant (excluding fugitive \nemissions for determining if a project is major).  Since Invitae is not one of the 28 listed \nsource categories and will not emit 250 tons per year or more of a regulated air \npollutant, this project is not a PSD project and is not subject to the PSD requirements in \nSections 2- 2-304 through 306.  \nSection 2- 2-307 applies to projects locat ed in Class I areas; this project is not located in \na Class I area, so this section does not apply.  Section 2- 2-308 applies to projects with a \nsignificant net emission increase in a pollutant subject to a National Ambient Air Quality \nStandard, as defined in Sections 2- 2-224.3 and 2- 2-227.2.  The emissions from S-1 are \nless than the significance thresholds in Section 2- 2-227.2 . Hence, Section 2- 2-308 does \nnot apply."
+      },
+      {
+        "heading": "School Notification (Regulation 2 -1-412)",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "School Notification (Regulation 2 -1-412)\nPer information provided by Invitae in Form P -101B, S-1 is located within 1,000 feet of \nthe outer boundary of the three (3)  K-12 school sites provided below .   \n1. Downtown High School (693 Vermont St, San Francisco, CA 94107)  \n2. San Francisco International High School (655 De Haro St, San Francisco, CA \n94107)  \n3. Live Oak School (1555 Mariposa St, San Francisco, CA 94107)  \nTherefore, this application is  subject to the public notification requirements of Regulation \n2-1-412.   \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 10 of 11 PERMIT CONDITIONS  \nPermit Condition # 23112 for S-1 \n     1.  The owner or operator shall operate the stationary  \n         emergency standby engine, only to mitigate emergency"
+      },
+      {
+        "heading": "conditions or for reliability- related activities",
+        "alias": "PERMIT_CONDITIONS",
+        "text": "conditions or for reliability- related activities\nctivities  \n         (maintenance and testing). Operating while mitigating  \n         emergency conditions and while emission testing to show"
+      },
+      {
+        "heading": "compliance with this part is unlimited. Operating for",
+        "alias": "SOC",
+        "text": "compliance with this part is unlimited. Operating for\nating for  \n         reliability related activities are limited to 50 hours  \n         per year.   \n         (Basis: Emergency Standby Engines, Hours of Operation  \n         Regulation 9- 8-330)                           \n \n     2.  The Owner/Operator shall equip the emergency standby  \n         engine(s) with: a non -resettable totalizing meter that  \n         measures hours of operation or fuel usage.  \n         (Basis: Emergency Standby Engines, Monitoring and Record  \n         keeping 9- 8-530)                                        \n \n     3.  Records: The Owner/Operator shall maintain the following  \n         monthly records in a District approved log for at least  \n         36 months from the date of entry, (60 months if the  \n         facility has been issued a Title V Major Facility Review  \n         Permit or a Synthetic Minor Operating Permit). Log  \n         entries shall be retained on site, either at a central  \n         location or at the engine's location, and made  \n         immediately available to the District staff upon  \n         requ est. \n         a.  Hours of operation (maintenance and testing).  \n         b.  Hours of operation for emission testing.  \n         c.  Hours of operation (emergency).  \n         d.  For each emergency, the nature of the emergency  \n             condition. \n         e.  Fuel usage for engine.  \n        (Basis: Emergency Standby Engines, Monitoring and  \n        Recordkeeping 9- 8-530) \nEnd of Conditions  \n  \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 11 of 11 RECOMMENDATION \nThe District  has reviewed the material  contained in the permit  application  for the \nproposed project  and has made  a preliminary  determination that the project  is \nexpected to comply with all applicable requirements  of District, state,  and federal  \nair quality -related regulations.  The preliminary  recommendation  is to issue  an \nAuthority  to Construct  for the equipment listed  below.  However,  the proposed \nsource  will be located  within  1000 feet of a school,  which  triggers  the public"
+      },
+      {
+        "heading": "notification requirements  of District  Regulation 2-1-412. After  the comments  are",
+        "alias": "PUBLIC_NOTIFICATION",
+        "text": "notification requirements  of District  Regulation 2-1-412. After  the comments  are\nreceived and reviewed,  the District  will make  a final determination  on the permit.  \nI recommend that the District  initiate  a public  notice and consider  any comments  \nreceived prior to taking any final action on issuance  of an Authority  to Construct  \nfor the following  source:  \nS-1 Emergency Standby Natural Gas Generator  (unabated)  \nKohler  KG6208THD ; Engine: MKHXB06.2HNG , Model Year: TBD \nEPA Certificate #: MKHXB06.2HNG -012 \n204 bhp, 152 kW, Engine displacement: 6.2  Liter ( 378 in3), 1.71 MMBtu/hour; \n4-Stroke Rich Burn engine  \nSubject to Permit Condition: 23112 \n \n____________  \nG. D. Eric"
+      }
+    ],
+    "unmapped_blocks": [
+      {
+        "heading": "NRSI",
+        "alias": null,
+        "text": "NRSI\ng/hp- hour g/bhp- hour g/kW- hour g/bhp- hour g/hp- hour  g/bhp-hour  \nNOx 2.00 2.028 0.01 0.007 0.0 0.0 \nPOC  1.00 1.014 0.17 0.127 0.1 0.101 \nCO 4.00 4.056 0.35 0.261 0.3 0.304 \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 2 of 11 Emission factors for NOx and POC provided by Kohler  in Table 1 are higher than  US EPA \nemission factors pr ovided in the Annual Certification Data for Large Nonroad Spark -\nIgnition (NRSI) Engines  (Model Years: 2011 –  Present)  for engine family MKHXB06.2HNG .  \nHence, NOx and POC  emissions summarized in Table 2 were conservatively estimated using \nthe Kohler emission factors , and CO emissions were estimated using the NRSI emission factor . \nFilterable p articulate matter (PM) with an aerodynamic diameter equal to 10 microns or \nless (PM 10), Filterable PM with an aerodynamic diameter equal to 2.5 microns or less \n(PM 2.5), and Sulfur Dioxide (SO 2) emissions were calculated based on the \nEnvironmental Protection Agency’s (EPA) document “AP -42: Compilation of Air \nEmissions Factors” Table 3.2- 3: Uncontrolled Emission Factors for 4 -Stroke Rich -Burn \nEngines.   \nPer a footnote in the above AP -42 table, no data was available for condensable PM 10 \nand PM 2.5 emissions. Hence, emissions for the above PM species are limited to \nfilterable PM (and not PM 10). However, for the purposes of cumulative increase \ndiscussed later in this report , filterable PM 10 and PM 2.5 emissions evaluated in the \ndiscussion that follows will be logged in as PM 10 and PM 2.5 in the District’s database.  \nS-1 will operate during emergencies and for a maximum of 5 0 hours per year  each  for \nreliability -related testing.  \nBasis:  \n• Maximum Fuel Consumption Rate: 1,678.00 standard cubic feet per hour  \n• Heating Value for Natural Gas: 1,020 Btu per standard cubic foot  \n• Heat Input: 1.71 MMBtu per hour   \n• Power Output : 204 bhp \n• Annual Operating Hours:  50 hours per year for reliability -related activities  \n• Daily Operating Hours: 24 hours  per day since  emergency operation is \nunrestricted  \n \nTable 2 summarize s emissions from S-1: \n \nTable 2:  \nCriteria pollutant emissions from S -1 \nPollutant  Emission \nFactor  Units  Emissions  \npounds per hour  pounds per day  pounds per year  \nNOx 0.007 g/bhp- hour 3.35E -03 0.08 0.17 \nPOC  0.127 g/bhp- hour 5.70E -02 1.37 2.85 \nCO 0.304 g/bhp- hour 1.37E -01 3.28 6.84 \nPM 10 (filterable) 9.50E -03 lb/MMBTU  1.63E -02 0.39 0.81 \nPM 2.5 (filterable)  9.50E -03 lb/MMBTU  1.63E -02 0.39 0.81 \nPlant 25072 : Invitae Corporation \nApplication 31401 : De Haro Standby Emergency Natural Gas Generator Engine  \n \nPage 3 of 11 Table 2:  \nCriteria pollutant emissions from S -1 \nPollutant  Emission \nFactor  Units  Emissions  \npounds per hour  pounds per day  pounds per year  \nSO 21 2.94E -03 lb/MMBTU  5.03E -03 0.12 0.25"
+      },
+      {
+        "heading": "HEALTH RISK ASSESMENT  (HRA)",
+        "alias": null,
+        "text": "HEALTH RISK ASSESMENT  (HRA)\nA)  \nIn accordance with the Air District’s policy “Calculating Potential to Emit f or Emergency"
+      }
+    ]
+  }
+}
